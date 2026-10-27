@@ -1,0 +1,258 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T38",
+ "route": "/not-found-marrowby/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Marrowby"
+ },
+ "meta": {
+  "title": "Marrowby | Utility"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Weigh beacon",
+    "actions": [
+     {
+      "label": "Nimbus tidy",
+      "href": "https://marrowby.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Cedar trace",
+      "href": "https://marrowby.example/navbar-0"
+     },
+     {
+      "label": "Sketch plan",
+      "href": "https://marrowby.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Orbit"
+     },
+     {
+      "title": "Gather"
+     },
+     {
+      "title": "Sprout"
+     },
+     {
+      "title": "Steer"
+     },
+     {
+      "title": "Ledger"
+     },
+     {
+      "title": "Harbor"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Fjord weigh",
+      "text": "Basil atlas nimbus tidy map compass sketch plan"
+     },
+     {
+      "title": "Orbit meadow",
+      "text": "Summit juniper sort share willow signal refine rowan"
+     },
+     {
+      "title": "Pebble grove",
+      "text": "Map compass quarry field shape cinder sprout juniper"
+     },
+     {
+      "title": "Cobalt tidal",
+      "text": "Fjord falcon basil measure pebble tidy cedar delta"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "utility.not-found",
+   "variant": "default",
+   "content": {
+    "heading": "Qua",
+    "lead": "Ember orbit",
+    "actions": [
+     {
+      "label": "Sprout juniper",
+      "href": "https://marrowby.example/not-found-0"
+     },
+     {
+      "label": "Ledger tidal",
+      "href": "https://marrowby.example/not-found-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/utility.not-found-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "dark",
+   "content": {
+    "heading": "Willow weigh beacon",
+    "actions": [
+     {
+      "label": "Bundle canvas",
+      "href": "https://marrowby.example/final-cta-0"
+     },
+     {
+      "label": "Map trace",
+      "href": "https://marrowby.example/final-cta-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-7"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "lead": "Sketch ember shape cinder summit",
+    "actions": [
+     {
+      "label": "Cobalt tidal",
+      "href": "https://marrowby.example/footer-0"
+     },
+     {
+      "label": "Lantern falcon",
+      "href": "https://marrowby.example/footer-1"
+     },
+     {
+      "label": "Beacon rowan",
+      "href": "https://marrowby.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Nimbus"
+     },
+     {
+      "title": "Canvas"
+     },
+     {
+      "title": "Cedar"
+     },
+     {
+      "title": "Delta"
+     },
+     {
+      "title": "Sketch"
+     },
+     {
+      "title": "Field"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

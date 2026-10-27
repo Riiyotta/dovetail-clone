@@ -1,0 +1,23 @@
+{
+ "id": "button",
+ "kind": "primitive",
+ "title": "Button",
+ "variants": {
+  "primary": "white bg, near-black text, hover #CECECE (marketing/company)",
+  "brand": "#0044FF bg, #FAFAFA text, hover opacity .85 (home sections, final CTA)",
+  "secondary": "8% white bg, 24% white border",
+  "glass": "rgba(30,30,30,.85) + blur(16px)",
+  "light": "#FAFAFA bg (see all stories)"
+ },
+ "tokens": [
+  "button.primary.bg",
+  "button.brand.bg",
+  "button.secondary.bg",
+  "button.radius",
+  "duration.button"
+ ],
+ "evidence": [
+  "src/index.css:35",
+  "specs/marketing-shared.md:142"
+ ]
+}

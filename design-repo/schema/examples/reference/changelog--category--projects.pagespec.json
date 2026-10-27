@@ -1,0 +1,1479 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T18",
+ "route": "/changelog/category/projects/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Projects | Dovetail changelog"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "listing.page-header",
+   "variant": "changelog",
+   "content": {
+    "heading": "Changelog",
+    "actions": [
+     {
+      "label": "All",
+      "href": "/changelog/"
+     },
+     {
+      "label": "AI",
+      "href": "/changelog/category/ai/"
+     },
+     {
+      "label": "Agents",
+      "href": "/changelog/category/agents/"
+     },
+     {
+      "label": "Channels",
+      "href": "/changelog/category/channels/"
+     },
+     {
+      "label": "Projects",
+      "href": "/changelog/category/projects/"
+     },
+     {
+      "label": "Integrations",
+      "href": "/changelog/category/integrations/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.year-group",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "25 SEP 2026 07:53 Table of contents improvements",
+      "href": "/changelog/table-of-contents-improvements/"
+     },
+     {
+      "label": "18 SEP 2026 12:00 Version history for data",
+      "href": "/changelog/version-history-for-data/"
+     },
+     {
+      "label": "17 SEP 2026 15:10 Editor tables uplift",
+      "href": "/changelog/editor-tables-uplift/"
+     },
+     {
+      "label": "15 JUL 2026 10:20 Docs UX improvements",
+      "href": "/changelog/docs-ux-improvements/"
+     },
+     {
+      "label": "15 JUL 2026 08:54 Project-level context",
+      "href": "/changelog/project-level-context/"
+     },
+     {
+      "label": "03 JUN 2026 13:39 Live transcription",
+      "href": "/changelog/live-transcription/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Sort, filter, and reorder project table columns",
+      "text": "04 OCT 2026 12:52",
+      "href": "/changelog/project-table-column-improvements/"
+     },
+     {
+      "title": "Table of contents improvements",
+      "text": "25 SEP 2026 07:53",
+      "href": "/changelog/table-of-contents-improvements/"
+     },
+     {
+      "title": "Version history for data",
+      "text": "18 SEP 2026 12:00",
+      "href": "/changelog/version-history-for-data/"
+     },
+     {
+      "title": "Editor tables uplift",
+      "text": "17 SEP 2026 15:10",
+      "href": "/changelog/editor-tables-uplift/"
+     },
+     {
+      "title": "New MCP tools for projects and tags",
+      "text": "14 SEP 2026 12:37",
+      "href": "/changelog/mcp-tools-projects-and-tags/"
+     },
+     {
+      "title": "Docs UX improvements",
+      "text": "15 JUL 2026 10:20",
+      "href": "/changelog/docs-ux-improvements/"
+     },
+     {
+      "title": "Project-level context",
+      "text": "15 JUL 2026 08:54",
+      "href": "/changelog/project-level-context/"
+     },
+     {
+      "title": "Docs is now available for everyone",
+      "text": "03 JUN 2026 11:00",
+      "href": "/changelog/docs-general-availability/"
+     },
+     {
+      "title": "Live transcription",
+      "text": "03 JUN 2026 13:39",
+      "href": "/changelog/live-transcription/"
+     },
+     {
+      "title": "@ mention objects in Docs",
+      "text": "28 MAY 2026 16:00",
+      "href": "/changelog/mention-objects-in-docs/"
+     },
+     {
+      "title": "Gong integration for Projects",
+      "text": "27 MAY 2026 17:30",
+      "href": "/changelog/gong-integration-for-projects/"
+     },
+     {
+      "title": "Bulk un-redact in Projects",
+      "text": "26 MAY 2026 11:00",
+      "href": "/changelog/bulk-un-redact-in-projects/"
+     },
+     {
+      "title": "Group duplicate redactions",
+      "text": "24 APR 2026 09:30",
+      "href": "/changelog/grouped-suggested-redactions/"
+     },
+     {
+      "title": "Set automatic redaction per Project and Channel",
+      "text": "22 APR 2026 13:00",
+      "href": "/changelog/set-automatic-redaction-per-project-and-channel/"
+     },
+     {
+      "title": "Version history for docs",
+      "text": "17 APR 2026 11:00",
+      "href": "/changelog/version-history-for-docs/"
+     },
+     {
+      "title": "Create transcript highlights via API",
+      "text": "07 APR 2026 16:00",
+      "href": "/changelog/create-transcript-highlights-via-api/"
+     },
+     {
+      "title": "Follow up email summary framework for sales",
+      "text": "27 MAR 2026 11:15",
+      "href": "/changelog/sales-follow-up-email-framework/"
+     },
+     {
+      "title": "Contact automation (Beta)",
+      "text": "25 MAR 2026 05:20",
+      "href": "/changelog/automate-contact-enrichment/"
+     },
+     {
+      "title": "Automatic redaction in Projects and Channels",
+      "text": "23 MAR 2026 11:30",
+      "href": "/changelog/automatic-redaction/"
+     },
+     {
+      "title": "Highlight silence in video and audio transcripts",
+      "text": "18 MAR 2026 02:00",
+      "href": "/changelog/highlight-silence-in-video-transcripts/"
+     },
+     {
+      "title": "Add images in cards, toggle sections, and list items",
+      "text": "17 MAR 2026 13:00",
+      "href": "/changelog/add-images-in-cards-toggle-sections-and-list-items/"
+     },
+     {
+      "title": "Add images to Canvas",
+      "text": "12 MAR 2026 14:30",
+      "href": "/changelog/add-images-to-canvas/"
+     },
+     {
+      "title": "Cross-project synthesis on canvas",
+      "text": "06 MAR 2026 14:45",
+      "href": "/changelog/cross-project-synthesis/"
+     },
+     {
+      "title": "Toggle section in the editor",
+      "text": "01 MAR 2026 13:00",
+      "href": "/changelog/toggle-section-in-the-editor/"
+     },
+     {
+      "title": "7 new AI summary frameworks",
+      "text": "26 FEB 2026 17:45",
+      "href": "/changelog/7-new-ai-summary-frameworks/"
+     },
+     {
+      "title": "Translation is now in GA",
+      "text": "15 JAN 2026 00:00",
+      "href": "/changelog/translation-is-now-in-ga/"
+     },
+     {
+      "title": "Customizable board cards",
+      "text": "14 JAN 2026 00:00",
+      "href": "/changelog/customizable-board-cards/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.year-group",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "22 DEC 2025 00:00 Multi-calendar configuration rules",
+      "href": "/changelog/multi-calendar-configuration-rules/"
+     },
+     {
+      "label": "10 DEC 2025 00:00 Canvas improvements",
+      "href": "/changelog/canvas-improvements/"
+     },
+     {
+      "label": "10 DEC 2025 00:00 Docs, anywhere",
+      "href": "/changelog/docs-anywhere/"
+     },
+     {
+      "label": "16 OCT 2025 17:00 Retiring Recruit",
+      "href": "/changelog/retiring-recruit/"
+     },
+     {
+      "label": "10 OCT 2025 10:00 Outset integration",
+      "href": "/changelog/outset-integration/"
+     },
+     {
+      "label": "15 SEP 2025 00:00 Create Insights from Chat",
+      "href": "/changelog/create-insights-from-chat/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Multi-calendar configuration rules",
+      "text": "22 DEC 2025 00:00",
+      "href": "/changelog/multi-calendar-configuration-rules/"
+     },
+     {
+      "title": "Canvas improvements",
+      "text": "10 DEC 2025 00:00",
+      "href": "/changelog/canvas-improvements/"
+     },
+     {
+      "title": "Docs, anywhere",
+      "text": "10 DEC 2025 00:00",
+      "href": "/changelog/docs-anywhere/"
+     },
+     {
+      "title": "Sticky notes in canvas view",
+      "text": "11 NOV 2025 00:00",
+      "href": "/changelog/sticky-notes-in-canvas-view/"
+     },
+     {
+      "title": "Todo lists in the editor",
+      "text": "11 NOV 2025 00:00",
+      "href": "/changelog/todo-lists/"
+     },
+     {
+      "title": "Retiring Recruit",
+      "text": "16 OCT 2025 17:00",
+      "href": "/changelog/retiring-recruit/"
+     },
+     {
+      "title": "Outset integration",
+      "text": "10 OCT 2025 10:00",
+      "href": "/changelog/outset-integration/"
+     },
+     {
+      "title": "Create Insights from Chat",
+      "text": "15 SEP 2025 00:00",
+      "href": "/changelog/create-insights-from-chat/"
+     },
+     {
+      "title": "Linear integration",
+      "text": "04 SEP 2025 00:00",
+      "href": "/changelog/linear-integration/"
+     },
+     {
+      "title": "Expanded language support for transcription",
+      "text": "22 AUG 2025 12:00",
+      "href": "/changelog/expanded-language-support-for-transcription/"
+     },
+     {
+      "title": "Magic insight enhancements",
+      "text": "21 AUG 2025 00:00",
+      "href": "/changelog/magic-insight-enhancements/"
+     },
+     {
+      "title": "Google Meet and Teams added to Recruit scheduling",
+      "text": "05 AUG 2025 17:00",
+      "href": "/changelog/google-meet-and-teams-added-to-recruit-scheduling/"
+     },
+     {
+      "title": "AI-generated recruit plan",
+      "text": "10 JUL 2025 00:00",
+      "href": "/changelog/ai-generated-recruit-plan/"
+     },
+     {
+      "title": "Google Meet calendar sync",
+      "text": "02 JUL 2025 12:00",
+      "href": "/changelog/google-meet-calendar-sync/"
+     },
+     {
+      "title": "Try Recruit with sample data",
+      "text": "17 JUN 2025 14:31",
+      "href": "/changelog/try-recruit-with-sample-data/"
+     },
+     {
+      "title": "Audience estimate for Recruit",
+      "text": "10 JUN 2025 00:00",
+      "href": "/changelog/audience-estimate-for-recruit/"
+     },
+     {
+      "title": "Table of contents",
+      "text": "06 JUN 2025 00:00",
+      "href": "/changelog/table-of-contents/"
+     },
+     {
+      "title": "Instantly generate insights tailored to your needs",
+      "text": "09 MAY 2025 00:00",
+      "href": "/changelog/instantly-generate-insight-reports-tailored-to-your-needs/"
+     },
+     {
+      "title": "Generate data summaries using tailored frameworks",
+      "text": "28 APR 2025 17:00",
+      "href": "/changelog/generate-data-summaries-using-tailored-frameworks/"
+     },
+     {
+      "title": "Recruit participants directly in Projects",
+      "text": "17 APR 2025 00:00",
+      "href": "/changelog/recruit-participants-directly-in-projects/"
+     },
+     {
+      "title": "Add filters to project views without impacting others",
+      "text": "17 MAR 2025 00:00",
+      "href": "/changelog/add-filters-to-project-views-without-impacting-others/"
+     },
+     {
+      "title": "Simplified participant assignment",
+      "text": "24 FEB 2025 00:00",
+      "href": "/changelog/simplified-participant-assignment/"
+     },
+     {
+      "title": "Create a translated copy of your transcript",
+      "text": "11 FEB 2025 00:00",
+      "href": "/changelog/create-a-translated-copy-of-your-transcript/"
+     },
+     {
+      "title": "Automatically import Outlook Calendar events",
+      "text": "03 FEB 2025 00:00",
+      "href": "/changelog/2025-01-30-automatically-import-outlook-calendar-events/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.year-group",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "21 OCT 2024 08:56 Automated survey analysis",
+      "href": "/changelog/2024-10-20-survey-analysis/"
+     },
+     {
+      "label": "07 SEP 2024 17:41 Magic cluster improvements",
+      "href": "/changelog/2024-09-07-magic-cluster-improvements/"
+     },
+     {
+      "label": "10 JUL 2024 17:48 Magic highlight improvements",
+      "href": "/changelog/2024-07-10-magic-highlight-improvements/"
+     },
+     {
+      "label": "17 JUN 2024 00:00 Restore redacted data",
+      "href": "/changelog/restore-redacted-data/"
+     },
+     {
+      "label": "11 APR 2024 17:00 Magic highlight",
+      "href": "/changelog/magic-highlight/"
+     },
+     {
+      "label": "11 MAR 2024 00:00 Upgraded canvas experience",
+      "href": "/changelog/upgraded-canvas-experience/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Track and manage research participants with contacts",
+      "text": "27 NOV 2024 15:41",
+      "href": "/changelog/2024-11-27-track-and-manage-research-participants-with-contacts/"
+     },
+     {
+      "title": "Automated survey analysis",
+      "text": "21 OCT 2024 08:56",
+      "href": "/changelog/2024-10-20-survey-analysis/"
+     },
+     {
+      "title": "Embed highlight reels in Jira, Confluence, and Trello",
+      "text": "28 SEP 2024 00:00",
+      "href": "/changelog/2024-09-28-embed-highlight-reels-in-jira-confluence-and-trello/"
+     },
+     {
+      "title": "Magic cluster improvements",
+      "text": "07 SEP 2024 17:41",
+      "href": "/changelog/2024-09-07-magic-cluster-improvements/"
+     },
+     {
+      "title": "Automatically import Google Calendar events",
+      "text": "06 SEP 2024 12:18",
+      "href": "/changelog/automatically-import-google-calendar-events/"
+     },
+     {
+      "title": "Improved note and insights editor experience",
+      "text": "16 AUG 2024 10:39",
+      "href": "/changelog/2024-08-16-improved-note-and-insights-editor/"
+     },
+     {
+      "title": "Magic highlight, now with tags",
+      "text": "14 AUG 2024 16:22",
+      "href": "/changelog/2024-08-14-automatically-apply-tags-to-magic-highlights/"
+     },
+     {
+      "title": "Embed highlights and reels in Asana",
+      "text": "26 JUL 2024 14:33",
+      "href": "/changelog/2024-07-26-embed-highlights-in-asana/"
+     },
+     {
+      "title": "Share highlights with public links",
+      "text": "17 JUL 2024 09:37",
+      "href": "/changelog/2024-07-17-share-highlights-with-public-links/"
+     },
+     {
+      "title": "Magic highlight improvements",
+      "text": "10 JUL 2024 17:48",
+      "href": "/changelog/2024-07-10-magic-highlight-improvements/"
+     },
+     {
+      "title": "Restore redacted data",
+      "text": "17 JUN 2024 00:00",
+      "href": "/changelog/restore-redacted-data/"
+     },
+     {
+      "title": "Set a default project and workspace transcription language",
+      "text": "25 MAY 2024 00:00",
+      "href": "/changelog/default-transcription-language/"
+     },
+     {
+      "title": "Magic highlight",
+      "text": "11 APR 2024 17:00",
+      "href": "/changelog/magic-highlight/"
+     },
+     {
+      "title": "Note sidebar for summaries, highlights, tags, fields, and comments",
+      "text": "03 APR 2024 00:00",
+      "href": "/changelog/note-sidebar/"
+     },
+     {
+      "title": "Upgraded canvas experience",
+      "text": "11 MAR 2024 00:00",
+      "href": "/changelog/upgraded-canvas-experience/"
+     },
+     {
+      "title": "Follow all projects within a folder",
+      "text": "05 MAR 2024 00:00",
+      "href": "/changelog/follow-all-projects-within-a-folder/"
+     },
+     {
+      "title": "Create reels directly from your canvas",
+      "text": "01 MAR 2024 00:00",
+      "href": "/changelog/create-reels-directly-from-your-canvas/"
+     },
+     {
+      "title": "Enhanced transcription summaries",
+      "text": "14 FEB 2024 00:00",
+      "href": "/changelog/enhanced-transcription-summaries/"
+     },
+     {
+      "title": "Create highlights without tags",
+      "text": "29 JAN 2024 00:00",
+      "href": "/changelog/create-highlights-without-tags/"
+     },
+     {
+      "title": "Video, audio and text redaction",
+      "text": "23 JAN 2024 00:00",
+      "href": "/changelog/video-audio-and-text-redaction/"
+     },
+     {
+      "title": "Embed highlight reels in other tools",
+      "text": "22 JAN 2024 00:00",
+      "href": "/changelog/embed-highlight-reels-in-other-tools/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.year-group",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "26 OCT 2023 00:00 Published insights within folders",
+      "href": "/changelog/seamless-insight-discovery-published-insights-now-within-folders/"
+     },
+     {
+      "label": "26 JUL 2023 08:29 Improved projects page experience",
+      "href": "/changelog/improved-projects-page-experience/"
+     },
+     {
+      "label": "15 JUN 2023 13:00 Export project as JSONL",
+      "href": "/changelog/export-project-as-jsonl/"
+     },
+     {
+      "label": "01 MAY 2023 15:19 Dovetail for documents",
+      "href": "/changelog/dovetail-for-documents/"
+     },
+     {
+      "label": "18 JAN 2023 09:56 Pop-out tag menu",
+      "href": "/changelog/pop-out-tag-menu/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Create a reel directly from a layout",
+      "text": "04 DEC 2023 19:00",
+      "href": "/changelog/create-a-reel-directly-from-a-layout/"
+     },
+     {
+      "title": "Choose which properties appear in a reference",
+      "text": "30 NOV 2023 00:00",
+      "href": "/changelog/you-can-now-define-which-properties-show-on-a-reference/"
+     },
+     {
+      "title": "Create groups on note, highlight, and insight canvas views",
+      "text": "10 NOV 2023 00:00",
+      "href": "/changelog/create-groups-on-note-highlight-and-insight-canvas-views/"
+     },
+     {
+      "title": "References are now static, point-in-time snapshots",
+      "text": "07 NOV 2023 00:00",
+      "href": "/changelog/you-now-have-more-control-over-what-your-audience-sees/"
+     },
+     {
+      "title": "Published insights within folders",
+      "text": "26 OCT 2023 00:00",
+      "href": "/changelog/seamless-insight-discovery-published-insights-now-within-folders/"
+     },
+     {
+      "title": "Create and share insights faster with insight templates",
+      "text": "24 OCT 2023 00:00",
+      "href": "/changelog/create-and-share-insights-faster-with-insight-templates/"
+     },
+     {
+      "title": "Play Dovetail highlights in the tools you’re already in",
+      "text": "06 OCT 2023 00:00",
+      "href": "/changelog/play-dovetail-highlights-in-the-tools-youre-already-in/"
+     },
+     {
+      "title": "Detect and blur faces in video automatically",
+      "text": "24 AUG 2023 09:59",
+      "href": "/changelog/detect-and-blur-faces-in-video-automatically/"
+     },
+     {
+      "title": "Automatically transcribe files on import",
+      "text": "23 AUG 2023 12:01",
+      "href": "/changelog/automatically-transcribe-files-on-import/"
+     },
+     {
+      "title": "Transcribe in 10 new languages with automatic language detection",
+      "text": "22 AUG 2023 12:51",
+      "href": "/changelog/transcribe-in-10-new-languages-with-automatic-language-detection/"
+     },
+     {
+      "title": "Managers can now pin folders",
+      "text": "08 AUG 2023 17:07",
+      "href": "/changelog/managers-can-now-pin-folders/"
+     },
+     {
+      "title": "Preview web links from Google Drive, Loom, Miro, Mural, Notion and Office Forms",
+      "text": "31 JUL 2023 10:16",
+      "href": "/changelog/preview-web-links-from-google-drive-loom-miro-mural-notion-and-office-forms/"
+     },
+     {
+      "title": "Shared highlights open in a focused view",
+      "text": "27 JUL 2023 15:47",
+      "href": "/changelog/shared-highlights-open-in-a-focused-view/"
+     },
+     {
+      "title": "Improved projects page experience with subfolders",
+      "text": "26 JUL 2023 17:15",
+      "href": "/changelog/improved-projects-page-experience-with-subfolders/"
+     },
+     {
+      "title": "Improved projects page experience",
+      "text": "26 JUL 2023 08:29",
+      "href": "/changelog/improved-projects-page-experience/"
+     },
+     {
+      "title": "Reorder highlights in tag pages",
+      "text": "28 JUN 2023 15:48",
+      "href": "/changelog/reorder-highlights-in-tag-pages/"
+     },
+     {
+      "title": "Export project as JSONL",
+      "text": "15 JUN 2023 13:00",
+      "href": "/changelog/export-project-as-jsonl/"
+     },
+     {
+      "title": "Import Google Docs, Sheets, and Slides",
+      "text": "11 MAY 2023 17:41",
+      "href": "/changelog/import-google-docs-sheets-and-slides/"
+     },
+     {
+      "title": "Select, reorder, and embed highlights as a reel in insights",
+      "text": "03 MAY 2023 12:33",
+      "href": "/changelog/select-reorder-and-embed-highlights-as-a-reel-in-insights/"
+     },
+     {
+      "title": "Dovetail for documents",
+      "text": "01 MAY 2023 15:19",
+      "href": "/changelog/dovetail-for-documents/"
+     },
+     {
+      "title": "Connect Dovetail to OneDrive and Sharepoint",
+      "text": "13 APR 2023 15:37",
+      "href": "/changelog/connect-dovetail-to-onedrive-and-sharepoint/"
+     },
+     {
+      "title": "Create shared knowledge with workspace tags and fields",
+      "text": "22 MAR 2023 17:23",
+      "href": "/changelog/create-shared-knowledge-with-workspace-tags-and-fields/"
+     },
+     {
+      "title": "Embed Maze reports in Dovetail",
+      "text": "23 FEB 2023 16:10",
+      "href": "/changelog/embed-maze-reports-in-dovetail/"
+     },
+     {
+      "title": "Pop-out tag menu",
+      "text": "18 JAN 2023 09:56",
+      "href": "/changelog/pop-out-tag-menu/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.year-group",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "07 DEC 2022 15:20 Editor tools for insights",
+      "href": "/changelog/editor-tools-for-insights/"
+     },
+     {
+      "label": "29 NOV 2022 10:20 Customize your project sidebar",
+      "href": "/changelog/customize-your-project-sidebar/"
+     },
+     {
+      "label": "13 SEP 2022 13:14 Close those tabs!",
+      "href": "/changelog/close-those-tabs/"
+     },
+     {
+      "label": "31 AUG 2022 12:16 Move tags between extensions",
+      "href": "/changelog/move-tags-between-extensions/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Editor tools for insights",
+      "text": "07 DEC 2022 15:20",
+      "href": "/changelog/editor-tools-for-insights/"
+     },
+     {
+      "title": "Measure the impact of your insights",
+      "text": "07 DEC 2022 14:23",
+      "href": "/changelog/measure-the-impact-of-your-insights/"
+     },
+     {
+      "title": "Customize your project sidebar",
+      "text": "29 NOV 2022 10:20",
+      "href": "/changelog/customize-your-project-sidebar/"
+     },
+     {
+      "title": "Quickly find your recent tags",
+      "text": "21 NOV 2022 16:57",
+      "href": "/changelog/quickly-find-your-recent-tags/"
+     },
+     {
+      "title": "Set up custom data retention",
+      "text": "15 NOV 2022 09:58",
+      "href": "/changelog/set-up-custom-data-retention/"
+     },
+     {
+      "title": "Follow and find in canvas",
+      "text": "20 SEP 2022 09:25",
+      "href": "/changelog/follow-and-find-in-canvas/"
+     },
+     {
+      "title": "Search, highlight, and tag notes in bulk",
+      "text": "19 SEP 2022 17:53",
+      "href": "/changelog/search-highlight-and-tag-notes-in-bulk/"
+     },
+     {
+      "title": "Preview web links from Google Docs, Figma, YouTube and Vimeo",
+      "text": "19 SEP 2022 11:38",
+      "href": "/changelog/preview-web-links-from-google-docs-figma-youtube-and-vimeo/"
+     },
+     {
+      "title": "Close those tabs!",
+      "text": "13 SEP 2022 13:14",
+      "href": "/changelog/close-those-tabs/"
+     },
+     {
+      "title": "Keep up with Collections—now with better layouts, updates, and sharing",
+      "text": "05 SEP 2022 10:01",
+      "href": "/changelog/keep-up-with-collectionsnow-with-better-layouts-updates-and-sharing/"
+     },
+     {
+      "title": "Track your organization’s research output over time",
+      "text": "01 SEP 2022 15:11",
+      "href": "/changelog/track-your-organizations-research-output-over-time/"
+     },
+     {
+      "title": "Move tags between extensions",
+      "text": "31 AUG 2022 12:16",
+      "href": "/changelog/move-tags-between-extensions/"
+     },
+     {
+      "title": "Sort your Collections and Stories",
+      "text": "29 AUG 2022 09:25",
+      "href": "/changelog/sort-your-collections-and-stories/"
+     },
+     {
+      "title": "Zoom in on your files",
+      "text": "24 AUG 2022 09:12",
+      "href": "/changelog/zoom-in-on-your-files/"
+     },
+     {
+      "title": "Image resizing, better link pasting, and more",
+      "text": "22 AUG 2022 13:42",
+      "href": "/changelog/image-resizing-better-link-pasting-and-more/"
+     },
+     {
+      "title": "Get more from your charts with filters",
+      "text": "10 AUG 2022 12:51",
+      "href": "/changelog/get-more-from-your-charts-with-filters/"
+     },
+     {
+      "title": "Bulk import and automatically categorize files",
+      "text": "26 JUL 2022 17:09",
+      "href": "/changelog/bulk-import-and-automatically-categorize-files/"
+     },
+     {
+      "title": "Create homes for stakeholders with Collections",
+      "text": "11 JUL 2022 15:37",
+      "href": "/changelog/create-homes-for-stakeholders-with-collections/"
+     },
+     {
+      "title": "Start measuring the impact of your research",
+      "text": "11 JUL 2022 09:56",
+      "href": "/changelog/start-measuring-the-impact-of-your-research/"
+     },
+     {
+      "title": "Duplicate a story to get started quickly",
+      "text": "21 JUN 2022 10:06",
+      "href": "/changelog/duplicate-a-story-to-get-started-quickly/"
+     },
+     {
+      "title": "Bulk edit note and insight field properties",
+      "text": "15 JUN 2022 15:38",
+      "href": "/changelog/bulk-edit-note-and-insight-field-properties/"
+     },
+     {
+      "title": "Upload files and folders with drag and drop",
+      "text": "07 JUN 2022 14:21",
+      "href": "/changelog/upload-files-and-folders-with-drag-and-drop/"
+     },
+     {
+      "title": "Import files from Google Drive",
+      "text": "07 JUN 2022 09:51",
+      "href": "/changelog/import-files-from-google-drive/"
+     },
+     {
+      "title": "Categorize stories and files with topics",
+      "text": "18 MAY 2022 16:16",
+      "href": "/changelog/categorize-stories-and-files-with-topics/"
+     },
+     {
+      "title": "Bigger text sizes in canvas",
+      "text": "06 MAY 2022 10:35",
+      "href": "/changelog/bigger-text-sizes-in-canvas/"
+     },
+     {
+      "title": "Reference document pages in a story",
+      "text": "28 APR 2022 13:00",
+      "href": "/changelog/reference-document-pages-in-a-story/"
+     },
+     {
+      "title": "Transcription now available in Japanese, Korean, and Mandarin",
+      "text": "11 APR 2022 13:00",
+      "href": "/changelog/transcription-now-available-in-japanese-korean-and-mandarin/"
+     },
+     {
+      "title": "Search within your files to rapidly retrieve content",
+      "text": "25 FEB 2022 14:00",
+      "href": "/changelog/search-within-your-files-to-rapidly-retrieve-content/"
+     },
+     {
+      "title": "Affinity map and view your content in 5 new layouts",
+      "text": "23 FEB 2022 17:08",
+      "href": "/changelog/affinity-map-and-view-your-content-in-5-new-layouts/"
+     },
+     {
+      "title": "Store, share, and engage with all your files in Dovetail",
+      "text": "27 JAN 2022 17:57",
+      "href": "/changelog/store-share-and-engage-with-all-your-files-in-dovetail/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.year-group",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "07 NOV 2021 08:14 Save custom vocabulary",
+      "href": "/changelog/save-custom-vocabulary/"
+     },
+     {
+      "label": "27 MAY 2021 14:13 Watch videos with subtitles",
+      "href": "/changelog/watch-videos-with-subtitles/"
+     },
+     {
+      "label": "24 MAY 2021 13:13 Drag to resize highlights",
+      "href": "/changelog/drag-to-resize-highlights/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Preview and share files within Dovetail",
+      "text": "06 DEC 2021 12:16",
+      "href": "/changelog/preview-and-share-files-within-dovetail/"
+     },
+     {
+      "title": "Pin, filter, and more on the projects page",
+      "text": "09 NOV 2021 14:20",
+      "href": "/changelog/pin-filter-and-more-on-the-projects-page/"
+     },
+     {
+      "title": "Save custom vocabulary",
+      "text": "07 NOV 2021 08:14",
+      "href": "/changelog/save-custom-vocabulary/"
+     },
+     {
+      "title": "Easily discover research with Explore",
+      "text": "30 SEP 2021 16:37",
+      "href": "/changelog/easily-discover-research-with-explore/"
+     },
+     {
+      "title": "Use stories to bring your whole team on the journey",
+      "text": "30 SEP 2021 10:30",
+      "href": "/changelog/use-stories-to-bring-your-whole-team-on-the-journey/"
+     },
+     {
+      "title": "Add multiple people to notes and insights",
+      "text": "14 SEP 2021 12:33",
+      "href": "/changelog/add-multiple-people-to-notes-and-insights/"
+     },
+     {
+      "title": "Manage duplicates when importing people",
+      "text": "26 AUG 2021 13:55",
+      "href": "/changelog/manage-duplicates-when-importing-people/"
+     },
+     {
+      "title": "Kick off new projects with Dovetail-made templates",
+      "text": "19 AUG 2021 15:01",
+      "href": "/changelog/kick-off-new-projects-with-dovetail-made-templates/"
+     },
+     {
+      "title": "Structure your data with select fields",
+      "text": "17 AUG 2021 14:24",
+      "href": "/changelog/structure-your-data-with-select-fields/"
+     },
+     {
+      "title": "Stories and Recent, now in Labs",
+      "text": "05 AUG 2021 15:19",
+      "href": "/changelog/stories-and-recent-now-in-labs/"
+     },
+     {
+      "title": "Transcription is available in 28 languages",
+      "text": "02 AUG 2021 10:49",
+      "href": "/changelog/transcription-is-available-in-28-languages/"
+     },
+     {
+      "title": "View data linked to any participant",
+      "text": "30 JUN 2021 15:59",
+      "href": "/changelog/view-data-linked-to-any-participant/"
+     },
+     {
+      "title": "Import files directly from Google Drive",
+      "text": "30 JUN 2021 08:25",
+      "href": "/changelog/import-files-directly-from-google-drive/"
+     },
+     {
+      "title": "Bring your participants to life with custom profile pictures",
+      "text": "24 JUN 2021 13:37",
+      "href": "/changelog/bring-your-participants-to-life-with-custom-profile-pictures/"
+     },
+     {
+      "title": "Find and replace words and phrases",
+      "text": "15 JUN 2021 10:48",
+      "href": "/changelog/find-and-replace-words-and-phrases/"
+     },
+     {
+      "title": "Watch videos with subtitles",
+      "text": "27 MAY 2021 14:13",
+      "href": "/changelog/watch-videos-with-subtitles/"
+     },
+     {
+      "title": "Drag to resize highlights",
+      "text": "24 MAY 2021 13:13",
+      "href": "/changelog/drag-to-resize-highlights/"
+     },
+     {
+      "title": "Set custom thumbnails on your data boards",
+      "text": "23 FEB 2021 10:19",
+      "href": "/changelog/set-custom-thumbnails-on-your-data-boards/"
+     },
+     {
+      "title": "Track and manage your research participants with people",
+      "text": "29 JAN 2021 08:13",
+      "href": "/changelog/track-and-manage-your-research-participants-with-people/"
+     },
+     {
+      "title": "Hola, hallo, olá, bonjour – transcribe in Spanish, German, Portuguese, and French",
+      "text": "14 JAN 2021 19:00",
+      "href": "/changelog/hola-hallo-ol-bonjour-transcribe-in-spanish-german-portuguese-and-french/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.year-group",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "New icons to style your projects",
+      "text": "08 DEC 2020 19:00",
+      "href": "/changelog/new-icons-to-style-your-projects/"
+     },
+     {
+      "title": "Easily import Zoom meeting recordings to Dovetail",
+      "text": "15 NOV 2020 17:00",
+      "href": "/changelog/easily-import-zoom-meeting-recordings-to-dovetail/"
+     },
+     {
+      "title": "Remix your research with playlists on tags and custom vocabulary",
+      "text": "29 OCT 2020 17:00",
+      "href": "/changelog/remix-your-research-with-playlists-on-tags-and-custom-vocabulary/"
+     },
+     {
+      "title": "Inline comments: Plan, discuss, and provide context on research",
+      "text": "18 AUG 2020 14:00",
+      "href": "/changelog/inline-comments-plan-discuss-and-provide-context-on-research/"
+     },
+     {
+      "title": "Stay in the loop with project notifications",
+      "text": "15 JUN 2020 18:00",
+      "href": "/changelog/stay-in-the-loop-with-project-notifications/"
+     },
+     {
+      "title": "Tell better stories with video highlights",
+      "text": "30 APR 2020 18:00",
+      "href": "/changelog/tell-better-stories-with-video-highlights/"
+     },
+     {
+      "title": "Maintain context: minimize notes, tags, and insights",
+      "text": "10 MAR 2020 16:21",
+      "href": "/changelog/maintain-context-minimize-notes-tags-and-insights/"
+     },
+     {
+      "title": "Copy and move notes, tags, and insights between projects",
+      "text": "13 FEB 2020 15:07",
+      "href": "/changelog/copy-and-move-notes-tags-and-insights-between-projects/"
+     },
+     {
+      "title": "Categorize research insights with fields",
+      "text": "23 JAN 2020 08:10",
+      "href": "/changelog/categorize-research-insights-with-fields/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.year-group",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "03 SEP 2019 09:12 Highlights table",
+      "href": "/changelog/highlights-table/"
+     },
+     {
+      "label": "17 JUL 2019 15:25 Better-than-ever search",
+      "href": "/changelog/better-than-ever-search/"
+     },
+     {
+      "label": "15 JUL 2019 11:43 Discover",
+      "href": "/changelog/discover/"
+     },
+     {
+      "label": "18 APR 2019 16:36 Project readme",
+      "href": "/changelog/project-readme/"
+     },
+     {
+      "label": "05 APR 2019 11:18 Insights public access",
+      "href": "/changelog/insights-public-access/"
+     },
+     {
+      "label": "04 APR 2019 12:52 Highlighting improvements",
+      "href": "/changelog/highlighting-improvements/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Improved tagging, bulk editing, tag merging, and performance",
+      "text": "09 DEC 2019 10:54",
+      "href": "/changelog/improved-tagging-bulk-editing-tag-merging-and-performance/"
+     },
+     {
+      "title": "Capture structured data on notes with fields",
+      "text": "07 NOV 2019 15:51",
+      "href": "/changelog/capture-structured-data-on-notes-with-fields/"
+     },
+     {
+      "title": "Collaborate with @mentions and comments",
+      "text": "12 SEP 2019 16:40",
+      "href": "/changelog/collaborate-with-mentions-and-comments/"
+     },
+     {
+      "title": "Highlights table",
+      "text": "03 SEP 2019 09:12",
+      "href": "/changelog/highlights-table/"
+     },
+     {
+      "title": "Shared knowledge base with global tags",
+      "text": "27 AUG 2019 12:30",
+      "href": "/changelog/shared-knowledge-base-with-global-tags/"
+     },
+     {
+      "title": "Better-than-ever search",
+      "text": "17 JUL 2019 15:25",
+      "href": "/changelog/better-than-ever-search/"
+     },
+     {
+      "title": "Discover",
+      "text": "15 JUL 2019 11:43",
+      "href": "/changelog/discover/"
+     },
+     {
+      "title": "Modal dialogs, resizable tag gutter, and more",
+      "text": "28 JUN 2019 17:29",
+      "href": "/changelog/modal-dialogs-resizable-tag-gutter-and-more/"
+     },
+     {
+      "title": "Multiple boards within a project",
+      "text": "20 JUN 2019 11:00",
+      "href": "/changelog/multiple-boards-within-a-project/"
+     },
+     {
+      "title": "Pie chart, treemap, and radar chart",
+      "text": "13 JUN 2019 15:27",
+      "href": "/changelog/pie-chart-treemap-and-radar-chart/"
+     },
+     {
+      "title": "Project readme",
+      "text": "18 APR 2019 16:36",
+      "href": "/changelog/project-readme/"
+     },
+     {
+      "title": "Insights public access",
+      "text": "05 APR 2019 11:18",
+      "href": "/changelog/insights-public-access/"
+     },
+     {
+      "title": "Highlighting improvements",
+      "text": "04 APR 2019 12:52",
+      "href": "/changelog/highlighting-improvements/"
+     },
+     {
+      "title": "New insights are here!",
+      "text": "12 MAR 2019 11:46",
+      "href": "/changelog/new-insights-are-here/"
+     },
+     {
+      "title": "Heads up, insights are changing!",
+      "text": "24 JAN 2019 15:35",
+      "href": "/changelog/heads-up-insights-are-changing/"
+     },
+     {
+      "title": "Project categories",
+      "text": "10 JAN 2019 16:12",
+      "href": "/changelog/project-categories/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.year-group",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "05 DEC 2018 10:02 Project templates",
+      "href": "/changelog/project-templates/"
+     },
+     {
+      "label": "20 NOV 2018 15:42 Restore deleted things",
+      "href": "/changelog/restore-deleted-things/"
+     },
+     {
+      "label": "14 NOV 2018 13:04 Project access controls",
+      "href": "/changelog/project-access-controls/"
+     },
+     {
+      "label": "01 OCT 2018 10:23 Editor toolbar",
+      "href": "/changelog/editor-toolbar/"
+     },
+     {
+      "label": "24 SEP 2018 14:37 Paste images into editor",
+      "href": "/changelog/paste-images-into-editor/"
+     },
+     {
+      "label": "20 AUG 2018 17:47 Read only archived projects",
+      "href": "/changelog/read-only-archived-projects/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Project templates",
+      "text": "05 DEC 2018 10:02",
+      "href": "/changelog/project-templates/"
+     },
+     {
+      "title": "Restore deleted things",
+      "text": "20 NOV 2018 15:42",
+      "href": "/changelog/restore-deleted-things/"
+     },
+     {
+      "title": "Project access controls",
+      "text": "14 NOV 2018 13:04",
+      "href": "/changelog/project-access-controls/"
+     },
+     {
+      "title": "Play audio and video inline",
+      "text": "17 OCT 2018 17:41",
+      "href": "/changelog/play-audio-and-video-inline/"
+     },
+     {
+      "title": "Copy, move, and bulk operations",
+      "text": "11 OCT 2018 15:19",
+      "href": "/changelog/copy-move-and-bulk-operations/"
+     },
+     {
+      "title": "Editor toolbar",
+      "text": "01 OCT 2018 10:23",
+      "href": "/changelog/editor-toolbar/"
+     },
+     {
+      "title": "Paste images into editor",
+      "text": "24 SEP 2018 14:37",
+      "href": "/changelog/paste-images-into-editor/"
+     },
+     {
+      "title": "Read only archived projects",
+      "text": "20 AUG 2018 17:47",
+      "href": "/changelog/read-only-archived-projects/"
+     },
+     {
+      "title": "Images and files",
+      "text": "24 JUL 2018 15:56",
+      "href": "/changelog/images-and-files/"
+     },
+     {
+      "title": "Full-text global search",
+      "text": "17 JUL 2018 16:06",
+      "href": "/changelog/full-text-global-search/"
+     },
+     {
+      "title": "Understand your project at a glance with our shiny new bar chart",
+      "text": "03 APR 2018 14:00",
+      "href": "/changelog/understand-your-project-at-a-glance-with-our-shiny-new-bar-chart/"
+     },
+     {
+      "title": "Automatic sentiment analysis",
+      "text": "12 MAR 2018 12:00",
+      "href": "/changelog/automatic-sentiment-analysis/"
+     },
+     {
+      "title": "Charts",
+      "text": "27 FEB 2018 23:00",
+      "href": "/changelog/charts/"
+     },
+     {
+      "title": "Links",
+      "text": "04 FEB 2018 23:00",
+      "href": "/changelog/links/"
+     },
+     {
+      "title": "Quick triage",
+      "text": "29 JAN 2018 23:00",
+      "href": "/changelog/quick-triage/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.year-group",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "13 DEC 2017 23:00 Indented list items",
+      "href": "/changelog/indented-list-items/"
+     },
+     {
+      "label": "30 NOV 2017 23:00 Spreadsheet import & export",
+      "href": "/changelog/spreadsheet-import-and-export/"
+     },
+     {
+      "label": "02 NOV 2017 23:00 Board view",
+      "href": "/changelog/board-view/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Indented list items",
+      "text": "13 DEC 2017 23:00",
+      "href": "/changelog/indented-list-items/"
+     },
+     {
+      "title": "Spreadsheet import & export",
+      "text": "30 NOV 2017 23:00",
+      "href": "/changelog/spreadsheet-import-and-export/"
+     },
+     {
+      "title": "Board view",
+      "text": "02 NOV 2017 23:00",
+      "href": "/changelog/board-view/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.inline-band",
+   "variant": "dark",
+   "content": {
+    "heading": "Turn customer feedback into product innovation",
+    "actions": [
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     },
+     {
+      "label": "Try Dovetail free",
+      "href": "/auth/signup/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

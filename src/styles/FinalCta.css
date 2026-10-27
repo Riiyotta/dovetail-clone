@@ -1,0 +1,125 @@
+/* CLONE_SPEC.md §10 Final CTA "The best never guess" */
+.fcta { position: relative; overflow: hidden; background: #0A0A0A; }
+
+/* Masked ASCII background (component A). As on the original, the mask lives on a pointer-events:none wrapper
+   which is also the field's listener target, so the field never reacts to the cursor here. */
+.fcta-ascii-mask {
+  position: absolute; inset: 0; pointer-events: none;
+  -webkit-mask-image: linear-gradient(transparent, black 25%, black 75%, transparent);
+  mask-image: linear-gradient(transparent, black 25%, black 75%, transparent);
+}
+
+.fcta-section { position: relative; display: flex; flex-direction: column; min-height: 100vh; }
+@media (min-width: 1281px) {
+  .fcta-section {
+    --hero-text-size: min(9.26vw, 170px, calc((100vh - 354px) / 3.9));
+    --hero-logo-size: calc(var(--hero-text-size) * 1.07);
+  }
+}
+
+.fcta-fade {
+  position: absolute; inset: -88px 0 0; height: 14vh; z-index: 1; pointer-events: none;
+  background: linear-gradient(0deg, rgba(0,0,0,0) 0%, #0A0A0A 100%);
+}
+
+.fcta-centre {
+  position: absolute; left: 0; right: 0; top: calc(50vh - 44px); transform: translateY(-50%);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+}
+.fcta-scale { position: relative; }
+
+.fcta-sr {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
+
+/* Words stack */
+.fcta-words {
+  display: flex; flex-direction: column; align-items: center; gap: 10px;
+  font-size: 170px; letter-spacing: -6.8px;
+}
+.fcta-wrow { display: flex; align-items: center; position: relative; width: fit-content; opacity: 0; }
+.fcta-word {
+  position: relative; z-index: 1; text-align: center; width: fit-content; margin: 0;
+  font-family: Inter, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, "Segoe UI", Roboto, sans-serif;
+  font-weight: 600; color: #FFF; letter-spacing: -4px;
+}
+@media (min-width: 1281px) {
+  .fcta-word { font-size: var(--hero-text-size); line-height: var(--hero-text-size); }
+}
+@media (max-width: 1512px) { .fcta-word { letter-spacing: -0.01736vw; } }
+
+.fcta-word-the { transform: translateX(-50%); }
+.fcta-word-best { transform: translate(1%, -15%); }
+.fcta-word-text { position: relative; z-index: 1; }
+.fcta-word-never { transform: translate(-35%, -42%); }
+.fcta-word-guess { transform: translate(17%, -70%); }
+
+/* Logo tiles */
+.fcta-logo {
+  position: absolute; font-size: var(--hero-logo-size, 170px); box-sizing: border-box; flex-shrink: 0;
+  width: 1em; height: 1em; border-radius: 8px; overflow: hidden;
+  display: flex; align-items: center; opacity: 0;
+}
+.fcta-logo img { display: block; width: 100%; height: 100%; scale: 0.9; }
+@media (min-width: 1281px) and (max-width: 1513px) {
+  .fcta-logo { font-size: var(--hero-logo-size, 150px); }
+}
+
+.fcta-logo-salesforce { left: 108%; top: -8%; width: 1.42941em; justify-content: center; isolation: isolate;
+  border-radius: 0; overflow: visible; }
+.fcta-logo-aws { left: -92%; top: -50%; }
+.fcta-logo-canva { left: -55%; top: 4%; border-radius: 50%; z-index: 2; isolation: isolate; }
+.fcta-logo-airwallex { right: -60%; top: -8%; }
+.fcta-logo-notion { left: 68%; top: -33%; z-index: 2; }
+.fcta-logo-zapier { right: -50%; top: -48%; }
+.fcta-logo-wise { right: 87%; top: -43%; }
+.fcta-logo-breville { right: 116%; top: -84%; }
+
+/* Footer / CTA */
+.fcta-footer {
+  position: relative; z-index: 2; text-align: center; opacity: 0;
+  display: flex; flex-direction: column; align-items: center; gap: 32px; padding: 0 24px;
+}
+.fcta-ctas { margin-top: -32px; gap: 8px; align-items: center; }
+
+/* ≤1280 */
+@media (max-width: 1280px) {
+  .fcta-words { font-size: clamp(80px, 10vw, 170px); }
+  .fcta-word { font-size: inherit; line-height: inherit; }
+  .fcta-logo { font-size: inherit; width: 1.18056em; height: 1.18056em; }
+  .fcta-logo-salesforce { width: 1.6875em; height: 1.18056em; }
+}
+@media (min-width: 800px) and (max-width: 1280px) {
+  .fcta-words { line-height: .9; }
+}
+
+/* ≤799 */
+@media (max-width: 799px) {
+  .fcta { padding-bottom: 64px; }
+  .fcta-section { min-height: auto; overflow-x: clip; }
+  .fcta-centre { position: relative; top: 0; transform: none; padding-top: 36px; }
+  .fcta-scale { display: inline-block; transform: scale(.82); transform-origin: center top; }
+  .fcta-logo-salesforce { top: 0%; }
+  .fcta-words { gap: 0; font-size: 80px; line-height: normal; letter-spacing: -2px; }
+  .fcta-words > * + * { margin-top: -0.08em; }
+  .fcta-word { letter-spacing: -2px; }
+  .fcta-logo-aws { top: -45%; }
+  .fcta-logo-airwallex { top: 0; }
+  .fcta-logo-zapier { top: -42%; }
+  .fcta-footer { gap: 24px; margin-top: -74px; }
+  .fcta-ctas { margin-top: 0; }
+}
+
+/* ≤588 */
+@media (max-width: 588px) {
+  .fcta-scale { transform: scale(.72); }
+  .fcta-footer { margin-top: -104px; }
+}
+
+/* ---- Light final CTA (content-shared.md §2; hover from tools-shared.md §I) ---- */
+.fcta--light { background: #FAFAFA; }
+.fcta--light .fcta-fade { background: linear-gradient(0deg, rgba(0,0,0,0) 0%, #FAFAFA 100%); }
+.fcta--light .fcta-word { color: #0A0A0A; } /* ls −0.25px @1440 is the base −0.01736vw */
+.fcta--light .fcta-glass--light { background: rgba(10,10,10,.06); color: #0A0A0A; border-color: rgba(10,10,10,.24); }
+.fcta--light .fcta-glass--light:hover { background: rgba(10,10,10,.12); }

@@ -1,0 +1,238 @@
+{
+ "slug": "data-driven-design-mastering-user-research",
+ "path": "/events/data-driven-design-mastering-user-research/",
+ "title": "Data-driven design: mastering user research",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2024-08-28T00:00+11:00",
+ "endDate": "2024-08-28T01:00",
+ "onlineEvent": false,
+ "location": null,
+ "hosts": [
+  "Eniola Abioye",
+  "Minal Jain",
+  "Ryan Wolff",
+  "Youyang Hou"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": null,
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Eniola Abioye, Minal Jain, Ryan Wolff, Youyang Hou"
+  },
+  {
+   "label": "[START]",
+   "value": "27 Aug 2024 6:00AM PDT"
+  },
+  {
+   "label": "[END]",
+   "value": "28 Aug 2024 1:00AM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": ""
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/adplist-sf-dvtl-16x9.png",
+  "width": 3840,
+  "height": 2160,
+  "youtubeId": null
+ },
+ "body": [
+  {
+   "t": "h1",
+   "text": "Join us for an engaging in-person panel discussion and mixer"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 267
+  },
+  {
+   "t": "h2",
+   "text": "This event is ideal for"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "strong": [
+      "UX Designers"
+     ],
+     "text": "UX Designers: Seeking to better their UXR skillset"
+    },
+    {
+     "placeholder": true,
+     "chars": 123,
+     "strong": [
+      "UX Researchers"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 114,
+     "strong": [
+      "Product Managers"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 104,
+     "strong": [
+      "Founders and Business Leaders:"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Key takeaways"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "text": "From Problem Statement to UX Solutions"
+    },
+    {
+     "text": "Popular Uses of AI in Websites and Apps"
+    },
+    {
+     "text": "Effective and Responsible AI Usage"
+    },
+    {
+     "text": "Generating and Managing Insights"
+    },
+    {
+     "text": "Advocating for UX Research"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Agenda"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "strong": [
+      "6:00"
+     ],
+     "text": "6:00: Doors Open - Community Pre-Networking"
+    },
+    {
+     "placeholder": true,
+     "chars": 75,
+     "strong": [
+      "6:30"
+     ]
+    },
+    {
+     "strong": [
+      "6:40:"
+     ],
+     "text": "6:40: Sponsor Presentation - User Interviews"
+    },
+    {
+     "strong": [
+      "6:48:"
+     ],
+     "text": "6:48: Panel introduction by Felix Lee, ADPList Co-Founder"
+    },
+    {
+     "placeholder": true,
+     "chars": 69,
+     "strong": [
+      "6:50:"
+     ]
+    },
+    {
+     "strong": [
+      "7:30:"
+     ],
+     "text": "7:30: Questions"
+    },
+    {
+     "strong": [
+      "7:45:"
+     ],
+     "text": "7:45: Closing note by Felix Lee and community Networking"
+    },
+    {
+     "strong": [
+      "9:00"
+     ],
+     "text": "9:00: Doors close"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Panelists"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "links": [
+      {
+       "text": "Eniola Abioye",
+       "href": "https://www.linkedin.com/in/eniolaabioye/"
+      }
+     ],
+     "text": "Eniola Abioye | Lead User Experience Researcher, Meta"
+    },
+    {
+     "links": [
+      {
+       "text": "Minal Jain",
+       "href": "https://www.linkedin.com/in/jainminal/"
+      }
+     ],
+     "text": "Minal Jain | Staff UX Researcher, DoorDash"
+    },
+    {
+     "links": [
+      {
+       "text": "Ryan Wolff",
+       "href": "https://www.linkedin.com/in/ryanmwolff/"
+      }
+     ],
+     "text": "Ryan Wolff | Industrial User Experience Specialist, Liminal"
+    },
+    {
+     "links": [
+      {
+       "text": "Youyang Hou",
+       "href": "https://www.linkedin.com/in/youyanghou/"
+      }
+     ],
+     "text": "Youyang Hou | Staff User Researcher, Notion AI"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "text": "*Note that panelists' views are their own"
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

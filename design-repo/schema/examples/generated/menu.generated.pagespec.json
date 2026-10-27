@@ -1,0 +1,106 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T37",
+ "route": "/menu-marrowby/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "none",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Marrowby"
+ },
+ "meta": {
+  "title": "Marrowby | Utility"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Bundle tidy",
+    "actions": [
+     {
+      "label": "Trace sketch",
+      "href": "https://marrowby.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.menu-header",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Field",
+      "href": "https://marrowby.example/menu-header-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "lead": "Prism cinder sprout juniper cobalt",
+    "actions": [
+     {
+      "label": "Lantern falcon",
+      "href": "https://marrowby.example/footer-0"
+     },
+     {
+      "label": "Beacon rowan",
+      "href": "https://marrowby.example/footer-1"
+     },
+     {
+      "label": "Pebble tidy",
+      "href": "https://marrowby.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Map"
+     },
+     {
+      "title": "Trace"
+     },
+     {
+      "title": "Marble"
+     },
+     {
+      "title": "Ember"
+     },
+     {
+      "title": "Shape"
+     },
+     {
+      "title": "Gather"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

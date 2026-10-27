@@ -1,0 +1,170 @@
+{
+ "id": "conversion.trial-signup",
+ "title": "Trial sign-up form",
+ "semantic": {
+  "id": "conversion.trial-signup",
+  "category": "CONVERSION"
+ },
+ "source": {
+  "id": "component:BestNeverGuessPage:bng-formslice",
+  "file": "src/pages/campaigns/bng/BestNeverGuessPage.jsx",
+  "tag": "section",
+  "lines": "290-302",
+  "tagLine": 290,
+  "anchor": "bng-formslice",
+  "anchorLine": 290
+ },
+ "purpose": "Campaign form slice: H64 heading and a sign-up form column with decorative art.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "heading",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 2,
+   "observedOn": [
+    "/aws-summit-sydney-2026/",
+    "/the-best-never-guess/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "heading",
+   "media"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 2
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 16,
+    "observedIn": 2
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 17,
+    "maxChars": 88,
+    "observedIn": 2
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 36,
+    "maxChars": 243,
+    "observedIn": 1
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 5,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "actions": [
+    2,
+    2
+   ],
+   "media": [
+    2,
+    3
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "illustration.brand"
+    ],
+    "generatedRoles": [
+     "illustration.generated"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "illustration.generated"
+ ],
+ "style": {
+  "props": {
+   "spaceBefore": {
+    "kind": "token",
+    "allowed": [
+     "space.section.s246"
+    ]
+   }
+  },
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [
+  {
+   "part": "form",
+   "behavior": "non-submitting form; the original embeds a third-party form that is not reproduced"
+  }
+ ],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 2,
+   "nodes": 2,
+   "minPx": 890,
+   "maxPx": 1132,
+   "medianPx": 1011.0,
+   "sample": {
+    "/aws-summit-sydney-2026/": [
+     1132
+    ],
+    "/the-best-never-guess/": [
+     890
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/campaigns/bng/BestNeverGuessPage.jsx:290-302",
+  "specs/best-never-guess.md:1-30",
+  "specs/campaign-aws-summit.md:1-30"
+ ]
+}

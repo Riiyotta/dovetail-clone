@@ -1,0 +1,33 @@
+{
+ "url": "*",
+ "template": "404",
+ "meta": {
+  "title": "Dovetail",
+  "description": null
+ },
+ "background": {
+  "src": "/assets/tools/Hero_BG.png",
+  "originalSrc": "/media/Hero_BG.png",
+  "alt": "",
+  "natural": "3024x2228"
+ },
+ "h1": "404",
+ "subtitle": "Page not found",
+ "body": {
+  "placeholder": true,
+  "chars": 150
+ },
+ "ctas": [
+  {
+   "text": "Back home",
+   "href": "/"
+  },
+  {
+   "text": "Check Dovetail status",
+   "href": "//status.dovetail.com/",
+   "newTab": true
+  }
+ ],
+ "httpStatus": 404,
+ "finalCta": true
+}

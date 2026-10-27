@@ -1,0 +1,75 @@
+{
+ "slug": "future-product-days-2025",
+ "path": "/events/future-product-days-2025/",
+ "title": "Future Product Days 2025",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2025-09-24T08:00+01:00",
+ "endDate": "2025-09-25T17:30+01:00",
+ "onlineEvent": false,
+ "location": "Copenhagen",
+ "hosts": [
+  "Jeremie Gluckman",
+  "Benjamin Humphrey"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": null,
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Jeremie Gluckman, Benjamin Humphrey"
+  },
+  {
+   "label": "[START]",
+   "value": "24 Sep 2025 12:00AM PDT"
+  },
+  {
+   "label": "[END]",
+   "value": "25 Sep 2025 9:30AM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Copenhagen"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/future-product-days-resized.png",
+  "width": 1344,
+  "height": 768,
+  "youtubeId": null
+ },
+ "body": [
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 51,
+   "links": [
+    {
+     "text": "Future Product Days 2025",
+     "href": "https://www.futureproductdays.com/"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 256
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

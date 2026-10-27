@@ -1,0 +1,203 @@
+{
+ "id": "hero.story",
+ "title": "Customer story hero",
+ "semantic": {
+  "id": "hero.story",
+  "category": "HERO"
+ },
+ "source": {
+  "id": "component:CustomerStory:cs-hero",
+  "file": "src/pages/customers/CustomerStory.jsx",
+  "tag": "section",
+  "lines": "77-89",
+  "tagLine": 77,
+  "anchor": "cs-hero",
+  "anchorLine": 77
+ },
+ "purpose": "Blue story opener: mono eyebrow, H64 title, stats row and company logo, story image or video card.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "image": {
+   "description": "variant 'image'",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 32,
+   "observedOn": [
+    "/customers/achievers/",
+    "/customers/aws/",
+    "/customers/bower/",
+    "/customers/careship/",
+    "/customers/cnh/",
+    "/customers/eucalyptus/",
+    "/customers/flagship-airline-group/",
+    "/customers/fleet-management-tech-leader/",
+    "/customers/global-agricultural-equipment-maker/",
+    "/customers/global-enterprise-cloud-platform/",
+    "/customers/global-enterprise-life-sciences/",
+    "/customers/global-financial-institution/"
+   ],
+   "contentSampled": true
+  },
+  "video": {
+   "description": "variant 'video'",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 7,
+   "observedOn": [
+    "/customers/atlassian-design/",
+    "/customers/atlassian/",
+    "/customers/breville/",
+    "/customers/canva-ai/",
+    "/customers/canva/",
+    "/customers/safetyculture/",
+    "/customers/smartrecruiters/"
+   ],
+   "contentSampled": false
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions",
+   "heading",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 3
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 13,
+    "observedIn": 3
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 17,
+    "maxChars": 130,
+    "observedIn": 3
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 7,
+    "maxChars": 46,
+    "observedIn": 3
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 3,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "actions": [
+    1,
+    1
+   ],
+   "media": [
+    1,
+    1
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "photo.real-scene"
+    ],
+    "generatedRoles": [
+     "photo.generated-scene"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "photo.generated-scene"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static",
+   "video.modal"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed",
+   "video.modal": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 39,
+   "nodes": 39,
+   "minPx": 1166.4,
+   "maxPx": 1504.6,
+   "medianPx": 1336.6,
+   "sample": {
+    "/customers/achievers/": [
+     1262.4
+    ],
+    "/customers/atlassian-design/": [
+     1268.6
+    ],
+    "/customers/atlassian/": [
+     1243.2
+    ],
+    "/customers/aws/": [
+     1336.6
+    ],
+    "/customers/bower/": [
+     1493.2
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/customers/CustomerStory.jsx:77-89",
+  "specs/customers-story.md:1-30"
+ ]
+}

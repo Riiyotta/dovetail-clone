@@ -1,0 +1,26 @@
+/* specs/content-shared.md §4.6 — inline CTA, dark variant */
+.cl-cta { grid-column: span 9; }
+.cl-cta__spacer-top { height: 200px; }
+.cl-cta__spacer-bottom { height: 120px; }
+.cl-cta__title { max-width: 712px; font-size: 64px; line-height: 68px; font-weight: 600; letter-spacing: -2px; color: #FFF; }
+.cl-cta__buttons { margin-top: 32px; display: flex; gap: 8px; flex-wrap: wrap; }
+/* 1px border: measured 125x40 / 145x40 with pad 10/16 + lh 18 */
+.cl-cta__btn {
+  display: inline-flex; align-items: center; justify-content: center; white-space: nowrap;
+  padding: 10px 16px; font-size: 14px; line-height: 18px; font-weight: 500; border-radius: 8px;
+  border: 1px solid transparent; transition: color 200ms, background 200ms, opacity 200ms;
+}
+.cl-cta__btn--white { background: #FFF; color: #0A0A0A; }
+.cl-cta__btn--white:hover { background: #CECECE; }
+.cl-cta__btn--glass { background: rgba(255,255,255,.08); color: #FFF; border-color: rgba(255,255,255,.24); }
+.cl-cta__btn--glass:hover { background: rgba(255,255,255,.16); }
+
+@media (max-width: 1280px) {
+  .cl-cta__spacer-top, .cl-cta__spacer-bottom { height: 96px; }
+  .cl-cta__title { font-size: 48px; line-height: 52px; letter-spacing: -1px; }
+  .cl-cta__btn { line-height: 16px; }
+}
+@media (max-width: 799px) {
+  .cl-cta { grid-column: 1 / -1; }
+  .cl-cta__title { font-size: 32px; line-height: 36px; letter-spacing: -0.25px; }
+}

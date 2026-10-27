@@ -1,0 +1,733 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T18",
+ "route": "/changelog/category/ai/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "AI | Dovetail changelog"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "listing.page-header",
+   "variant": "changelog",
+   "content": {
+    "heading": "Changelog",
+    "actions": [
+     {
+      "label": "All",
+      "href": "/changelog/"
+     },
+     {
+      "label": "AI",
+      "href": "/changelog/category/ai/"
+     },
+     {
+      "label": "Agents",
+      "href": "/changelog/category/agents/"
+     },
+     {
+      "label": "Channels",
+      "href": "/changelog/category/channels/"
+     },
+     {
+      "label": "Projects",
+      "href": "/changelog/category/projects/"
+     },
+     {
+      "label": "Integrations",
+      "href": "/changelog/category/integrations/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.year-group",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "25 SEP 2026 09:00 Tags in Channels 2.0",
+      "href": "/changelog/tags-in-channels/"
+     },
+     {
+      "label": "21 SEP 2026 15:43 Create agents with chat",
+      "href": "/changelog/create-agents-with-chat/"
+     },
+     {
+      "label": "07 AUG 2026 15:05 A simpler chat footer",
+      "href": "/changelog/chat-footer-simplification/"
+     },
+     {
+      "label": "15 JUL 2026 08:54 Project-level context",
+      "href": "/changelog/project-level-context/"
+     },
+     {
+      "label": "21 APR 2026 14:00 Dovetail connector for Claude",
+      "href": "/changelog/dovetail-connector-for-claude/"
+     },
+     {
+      "label": "25 MAR 2026 05:20 Contact automation (Beta)",
+      "href": "/changelog/automate-contact-enrichment/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Chat, now next to your work",
+      "text": "20 OCT 2026 11:00",
+      "href": "/changelog/side-by-side-chat/"
+     },
+     {
+      "title": "Talk to Chat and Digital Twins with voice mode",
+      "text": "01 OCT 2026 07:48",
+      "href": "/changelog/voice-mode/"
+     },
+     {
+      "title": "Share chats with a public link",
+      "text": "25 SEP 2026 12:36",
+      "href": "/changelog/public-chat-link/"
+     },
+     {
+      "title": "Chat with a saved view in Channels 2.0",
+      "text": "25 SEP 2026 11:00",
+      "href": "/changelog/chat-with-a-saved-view-in-channels/"
+     },
+     {
+      "title": "Tags in Channels 2.0",
+      "text": "25 SEP 2026 09:00",
+      "href": "/changelog/tags-in-channels/"
+     },
+     {
+      "title": "Project and workspace context in MCP",
+      "text": "23 SEP 2026 23:45",
+      "href": "/changelog/project-and-workspace-context-api-mcp/"
+     },
+     {
+      "title": "Create agents with chat",
+      "text": "21 SEP 2026 15:43",
+      "href": "/changelog/create-agents-with-chat/"
+     },
+     {
+      "title": "Chat shows helpful tips while it thinks",
+      "text": "11 SEP 2026 17:48",
+      "href": "/changelog/chat-thinking-tips/"
+     },
+     {
+      "title": "Agents now suggest a starting prompt",
+      "text": "11 SEP 2026 13:48",
+      "href": "/changelog/agent-starter-prompts/"
+     },
+     {
+      "title": "Chat and AI Agents reliability improvements",
+      "text": "17 AUG 2026 17:40",
+      "href": "/changelog/chat-and-ai-agents-reliability-improvements/"
+     },
+     {
+      "title": "Share a direct link to chat with your digital twin",
+      "text": "13 AUG 2026 10:36",
+      "href": "/changelog/share-digital-twin-chat-link/"
+     },
+     {
+      "title": "A simpler chat footer",
+      "text": "07 AUG 2026 15:05",
+      "href": "/changelog/chat-footer-simplification/"
+     },
+     {
+      "title": "Your chat context now follows you into fullscreen",
+      "text": "06 AUG 2026 12:28",
+      "href": "/changelog/chat-context-pills-fullscreen/"
+     },
+     {
+      "title": "More ways to create Digital Twins",
+      "text": "03 AUG 2026 17:39",
+      "href": "/changelog/digital-twin-create-menu/"
+     },
+     {
+      "title": "Connect MCP tools to Dovetail chat",
+      "text": "15 JUL 2026 15:51",
+      "href": "/changelog/connect-external-tools-in-chat/"
+     },
+     {
+      "title": "Dovetail connector for Microsoft Copilot",
+      "text": "15 JUL 2026 14:00",
+      "href": "/changelog/dovetail-connector-for-copilot/"
+     },
+     {
+      "title": "Dovetail Agents are now in GA",
+      "text": "15 JUL 2026 11:39",
+      "href": "/changelog/agents-general-availability/"
+     },
+     {
+      "title": "Project-level context",
+      "text": "15 JUL 2026 08:54",
+      "href": "/changelog/project-level-context/"
+     },
+     {
+      "title": "Deep research mode in chat",
+      "text": "23 JUN 2026 17:15",
+      "href": "/changelog/deep-research-mode-in-chat/"
+     },
+     {
+      "title": "New MCP tools for comments, folders, and tags",
+      "text": "16 JUN 2026 08:04",
+      "href": "/changelog/new-mcp-tools/"
+     },
+     {
+      "title": "Chat now carries full context across turns",
+      "text": "10 JUN 2026 17:15",
+      "href": "/changelog/chat-full-conversation-context/"
+     },
+     {
+      "title": "Workspace Docs can now be used for AI context",
+      "text": "05 JUN 2026 14:48",
+      "href": "/changelog/workspace-ai-context/"
+     },
+     {
+      "title": "Run code and generate charts in chat",
+      "text": "05 JUN 2026 13:28",
+      "href": "/changelog/codesandbox-in-chat/"
+     },
+     {
+      "title": "Major upgrade to the Dovetail MCP server",
+      "text": "26 MAY 2026 16:00",
+      "href": "/changelog/dovetail-mcp-server-upgrade/"
+     },
+     {
+      "title": "Chat improvements to citations, navigation and more",
+      "text": "21 MAY 2026 09:13",
+      "href": "/changelog/chat-updates/"
+     },
+     {
+      "title": "Introducing Dovetail’s most powerful chat",
+      "text": "08 MAY 2026 10:01",
+      "href": "/changelog/new-chat/"
+     },
+     {
+      "title": "Dovetail connector for Claude",
+      "text": "21 APR 2026 14:00",
+      "href": "/changelog/dovetail-connector-for-claude/"
+     },
+     {
+      "title": "Chat with multiple contexts at once",
+      "text": "15 APR 2026 13:13",
+      "href": "/changelog/chat-with-multiple-contexts/"
+     },
+     {
+      "title": "AI generated docs are now clearly labeled",
+      "text": "07 APR 2026 15:00",
+      "href": "/changelog/ai-generated-docs-labeled/"
+     },
+     {
+      "title": "Follow up email summary framework for sales",
+      "text": "27 MAR 2026 11:15",
+      "href": "/changelog/sales-follow-up-email-framework/"
+     },
+     {
+      "title": "Contact automation (Beta)",
+      "text": "25 MAR 2026 05:20",
+      "href": "/changelog/automate-contact-enrichment/"
+     },
+     {
+      "title": "Dovetail connector for ChatGPT",
+      "text": "25 MAR 2026 04:00",
+      "href": "/changelog/dovetail-connector-for-chatgpt/"
+     },
+     {
+      "title": "Improvements to Dovetail MCP server",
+      "text": "25 MAR 2026 03:00",
+      "href": "/changelog/improvements-to-dovetail-mcp-server/"
+     },
+     {
+      "title": "@mention user groups in agent prompts",
+      "text": "24 MAR 2026 13:00",
+      "href": "/changelog/mention-user-groups-in-agent-prompts/"
+     },
+     {
+      "title": "Pause and resume Agents",
+      "text": "19 MAR 2026 13:00",
+      "href": "/changelog/pause-and-resume-agents/"
+     },
+     {
+      "title": "Model upgrades to Sonnet 4.6 and Haiku 4.5",
+      "text": "04 MAR 2026 15:00",
+      "href": "/changelog/model-upgrades-to-sonnet-4-6-and-haiku-4-5/"
+     },
+     {
+      "title": "7 new AI summary frameworks",
+      "text": "26 FEB 2026 17:45",
+      "href": "/changelog/7-new-ai-summary-frameworks/"
+     },
+     {
+      "title": "Chat context and search summary improvements",
+      "text": "20 FEB 2026 00:00",
+      "href": "/changelog/chat-context-and-search-summary-improvements/"
+     },
+     {
+      "title": "Create an Agent from chat",
+      "text": "22 JAN 2026 00:00",
+      "href": "/changelog/create-an-agent-from-chat/"
+     },
+     {
+      "title": "Chat with your Dashboards (Beta)",
+      "text": "20 JAN 2026 00:00",
+      "href": "/changelog/chat-with-your-dashboards-beta/"
+     },
+     {
+      "title": "Translation is now in GA",
+      "text": "15 JAN 2026 00:00",
+      "href": "/changelog/translation-is-now-in-ga/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.year-group",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "15 DEC 2025 00:00 Improved Agent scheduler controls",
+      "href": "/changelog/improved-agent-scheduler-controls/"
+     },
+     {
+      "label": "05 NOV 2025 00:00 Agents",
+      "href": "/changelog/agents-beta/"
+     },
+     {
+      "label": "10 OCT 2025 23:00 Dovetail Fall launch 2025",
+      "href": "/changelog/dovetail-fall-launch-2025/"
+     },
+     {
+      "label": "15 SEP 2025 00:00 Create Insights from Chat",
+      "href": "/changelog/create-insights-from-chat/"
+     },
+     {
+      "label": "09 SEP 2025 15:30 Chat UI improvement",
+      "href": "/changelog/hide-or-show-chat/"
+     },
+     {
+      "label": "29 AUG 2025 00:00 Custom chat prompt",
+      "href": "/changelog/custom-chat-prompt/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Improved Agent scheduler controls",
+      "text": "15 DEC 2025 00:00",
+      "href": "/changelog/improved-agent-scheduler-controls/"
+     },
+     {
+      "title": "Dovetail Chat is in GA",
+      "text": "26 NOV 2025 00:00",
+      "href": "/changelog/dovetail-chat-in-ga/"
+     },
+     {
+      "title": "Agents",
+      "text": "05 NOV 2025 00:00",
+      "href": "/changelog/agents-beta/"
+     },
+     {
+      "title": "Dovetail Fall launch 2025",
+      "text": "10 OCT 2025 23:00",
+      "href": "/changelog/dovetail-fall-launch-2025/"
+     },
+     {
+      "title": "Create AI prototypes with Alloy",
+      "text": "03 OCT 2025 00:00",
+      "href": "/changelog/create-ai-prototypes-alloy/"
+     },
+     {
+      "title": "Create Insights from Chat",
+      "text": "15 SEP 2025 00:00",
+      "href": "/changelog/create-insights-from-chat/"
+     },
+     {
+      "title": "Chat UI improvement",
+      "text": "09 SEP 2025 15:30",
+      "href": "/changelog/hide-or-show-chat/"
+     },
+     {
+      "title": "Custom chat prompt",
+      "text": "29 AUG 2025 00:00",
+      "href": "/changelog/custom-chat-prompt/"
+     },
+     {
+      "title": "Magic insight enhancements",
+      "text": "21 AUG 2025 00:00",
+      "href": "/changelog/magic-insight-enhancements/"
+     },
+     {
+      "title": "Weekly digest in Channels",
+      "text": "21 AUG 2025 00:00",
+      "href": "/changelog/weekly-digest-in-channels/"
+     },
+     {
+      "title": "Enhancements in Chat",
+      "text": "31 JUL 2025 17:00",
+      "href": "/changelog/enhancements-in-chat/"
+     },
+     {
+      "title": "AI-generated recruit plan",
+      "text": "10 JUL 2025 00:00",
+      "href": "/changelog/ai-generated-recruit-plan/"
+     },
+     {
+      "title": "Speaker role identification in Chat",
+      "text": "08 JUL 2025 00:00",
+      "href": "/changelog/speaker-role-identification-in-chat/"
+     },
+     {
+      "title": "Dovetail MCP server",
+      "text": "30 JUN 2025 00:00",
+      "href": "/changelog/dovetail-mcp-server/"
+     },
+     {
+      "title": "Enhanced topics in Channels",
+      "text": "19 JUN 2025 09:00",
+      "href": "/changelog/enhanced-topics-in-channels/"
+     },
+     {
+      "title": "Citations for contextual chat",
+      "text": "12 JUN 2025 12:00",
+      "href": "/changelog/citations-for-contextual-chat/"
+     },
+     {
+      "title": "Instantly generate insights tailored to your needs",
+      "text": "09 MAY 2025 00:00",
+      "href": "/changelog/instantly-generate-insight-reports-tailored-to-your-needs/"
+     },
+     {
+      "title": "Chat with Dovetail to answer important questions",
+      "text": "06 MAY 2025 00:00",
+      "href": "/changelog/chat-with-dovetail-to-answer-important-questions/"
+     },
+     {
+      "title": "Generate data summaries using tailored frameworks",
+      "text": "28 APR 2025 17:00",
+      "href": "/changelog/generate-data-summaries-using-tailored-frameworks/"
+     },
+     {
+      "title": "Introducing our Spring Launch ‘25",
+      "text": "24 APR 2025 17:00",
+      "href": "/changelog/introducing-our-spring-launch-25/"
+     },
+     {
+      "title": "Ask Dovetail in Teams",
+      "text": "15 APR 2025 23:00",
+      "href": "/changelog/ask-dovetail-in-teams/"
+     },
+     {
+      "title": "Create a translated copy of your transcript",
+      "text": "11 FEB 2025 00:00",
+      "href": "/changelog/create-a-translated-copy-of-your-transcript/"
+     },
+     {
+      "title": "Create digests from Slack queries with Ask Dovetail",
+      "text": "16 JAN 2025 19:00",
+      "href": "/changelog/create-digests-from-slack-queries-with-ask-dovetail/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.year-group",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "23 OCT 2024 09:37 Ask Dovetail",
+      "href": "/changelog/2024-10-22-ask-dovetail/"
+     },
+     {
+      "label": "21 OCT 2024 08:56 Automated survey analysis",
+      "href": "/changelog/2024-10-20-survey-analysis/"
+     },
+     {
+      "label": "15 OCT 2024 14:35 Magic automation options",
+      "href": "/changelog/2024-10-14-magic-automation-options/"
+     },
+     {
+      "label": "07 SEP 2024 17:41 Magic cluster improvements",
+      "href": "/changelog/2024-09-07-magic-cluster-improvements/"
+     },
+     {
+      "label": "13 JUL 2024 16:51 Search via our API",
+      "href": "/changelog/2024-07-13-search-via-our-api/"
+     },
+     {
+      "label": "10 JUL 2024 17:48 Magic highlight improvements",
+      "href": "/changelog/2024-07-10-magic-highlight-improvements/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Ask Dovetail",
+      "text": "23 OCT 2024 09:37",
+      "href": "/changelog/2024-10-22-ask-dovetail/"
+     },
+     {
+      "title": "Automated survey analysis",
+      "text": "21 OCT 2024 08:56",
+      "href": "/changelog/2024-10-20-survey-analysis/"
+     },
+     {
+      "title": "Magic automation options",
+      "text": "15 OCT 2024 14:35",
+      "href": "/changelog/2024-10-14-magic-automation-options/"
+     },
+     {
+      "title": "Identify and filter Dovetail Magic contributions",
+      "text": "10 SEP 2024 00:00",
+      "href": "/changelog/2024-09-10-identify-and-filter-dovetail-magic-contributions/"
+     },
+     {
+      "title": "Magic cluster improvements",
+      "text": "07 SEP 2024 17:41",
+      "href": "/changelog/2024-09-07-magic-cluster-improvements/"
+     },
+     {
+      "title": "Magic highlight, now with tags",
+      "text": "14 AUG 2024 16:22",
+      "href": "/changelog/2024-08-14-automatically-apply-tags-to-magic-highlights/"
+     },
+     {
+      "title": "Search via our API",
+      "text": "13 JUL 2024 16:51",
+      "href": "/changelog/2024-07-13-search-via-our-api/"
+     },
+     {
+      "title": "Magic highlight improvements",
+      "text": "10 JUL 2024 17:48",
+      "href": "/changelog/2024-07-10-magic-highlight-improvements/"
+     },
+     {
+      "title": "Channels",
+      "text": "12 APR 2024 17:30",
+      "href": "/changelog/channels/"
+     },
+     {
+      "title": "Magic search",
+      "text": "12 APR 2024 17:00",
+      "href": "/changelog/magic-search/"
+     },
+     {
+      "title": "Magic highlight",
+      "text": "11 APR 2024 17:00",
+      "href": "/changelog/magic-highlight/"
+     },
+     {
+      "title": "Enhanced transcription summaries",
+      "text": "14 FEB 2024 00:00",
+      "href": "/changelog/enhanced-transcription-summaries/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.year-group",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "12 MAR 2018 12:00 Automatic sentiment analysis",
+      "href": "/changelog/automatic-sentiment-analysis/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Automatic sentiment analysis",
+      "text": "12 MAR 2018 12:00",
+      "href": "/changelog/automatic-sentiment-analysis/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.inline-band",
+   "variant": "dark",
+   "content": {
+    "heading": "Turn customer feedback into product innovation",
+    "actions": [
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     },
+     {
+      "label": "Try Dovetail free",
+      "href": "/auth/signup/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

@@ -1,0 +1,480 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T28",
+ "route": "/events/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail clone (local)"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.dot-title",
+   "variant": "default",
+   "content": {
+    "heading": "Events",
+    "lead": "POLISH YOUR CRAFT, LEARN ABOUT OUR PRODUCT, AND MEET OTHERS IN OUR COMMUNITY WITH LIVE EVENTS, WEBINARS, AND MORE."
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.event-cards",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "How CS turns customer conversations into roadmap decisions",
+      "text": "[WHEN] 19 NOV 2026",
+      "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.row-list",
+   "variant": "past-events",
+   "content": {
+    "actions": [
+     {
+      "label": "02 SEP 2026 Digital Twins, explained",
+      "href": "/events/suns-out-digital-twins-deep-dive/"
+     },
+     {
+      "label": "25 JUN 2026 Config watch party Sydney",
+      "href": "/events/config-watch-party-sydney/"
+     },
+     {
+      "label": "14 MAY 2026 UXDX happy hour",
+      "href": "/events/uxdx-happy-hour/"
+     },
+     {
+      "label": "20 APR 2026 The widening empathy gap",
+      "href": "/events/the-widening-empathy-gap/"
+     },
+     {
+      "label": "26 MAR 2026 Cursor curated Sydney",
+      "href": "/events/cursor-curated-sydney/"
+     },
+     {
+      "label": "18 MAR 2026 Friends of Figma X Dovetail",
+      "href": "/events/friends-of-figma-x-dovetail/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Digital Twins, explained",
+      "href": "/events/suns-out-digital-twins-deep-dive/"
+     },
+     {
+      "title": "From EVP & CPO of Walmart US to Advisor for MrBeast: A Chat with Jon Alferness",
+      "href": "/events/a-chat-with-jon-alferness/"
+     },
+     {
+      "title": "Dovetail Sun’s Out: Product deep dive",
+      "href": "/events/suns-out-product-deep-dive/"
+     },
+     {
+      "title": "Dovetail Sun’s Out: SF launch party",
+      "href": "/events/suns-out-sf-launch-party/"
+     },
+     {
+      "title": "Dovetail Sun’s Out: NY launch party",
+      "href": "/events/suns-out-ny-launch-party/"
+     },
+     {
+      "title": "Dovetail Sun’s Out: Sydney launch party",
+      "href": "/events/suns-out-sydney-launch-party/"
+     },
+     {
+      "title": "Config watch party Sydney",
+      "href": "/events/config-watch-party-sydney/"
+     },
+     {
+      "title": "Offline and unfiltered: a Config comedy night with Varun Rana",
+      "href": "/events/offline-and-unfiltered-config-comedy-night/"
+     },
+     {
+      "title": "UXDX happy hour",
+      "href": "/events/uxdx-happy-hour/"
+     },
+     {
+      "title": "The widening empathy gap",
+      "href": "/events/the-widening-empathy-gap/"
+     },
+     {
+      "title": "Cursor curated Sydney",
+      "href": "/events/cursor-curated-sydney/"
+     },
+     {
+      "title": "Gen AI X Dovetail meet up",
+      "href": "/events/gen-ai-x-dovetail-meetup/"
+     },
+     {
+      "title": "AI-powered UX process: how AI is transforming the design process",
+      "href": "/events/ai-powered-ux-process-how-ai-is-transforming-the-design-process/"
+     },
+     {
+      "title": "Friends of Figma X Dovetail",
+      "href": "/events/friends-of-figma-x-dovetail/"
+     },
+     {
+      "title": "OpenClaw Sydney (SydClaw)",
+      "href": "/events/openclaw-sydney/"
+     },
+     {
+      "title": "The great purge: a seance soiree for product guilt",
+      "href": "/events/the-great-purge-a-seance-soiree-for-product-guilt/"
+     },
+     {
+      "title": "Perfect vs possible: how real product decisions get made",
+      "href": "/events/perfect-vs-possible-how-real-product-decisions-get-made/"
+     },
+     {
+      "title": "What’s new with Dovetail Jan’26",
+      "href": "/events/whats-new-in-dovetail-jan-2026/"
+     },
+     {
+      "title": "Product leaders dinner Singapore",
+      "href": "/events/product-leaders-dinner-singapore/"
+     },
+     {
+      "title": "Product-Led Summit Sydney",
+      "href": "/events/product-led-summit-sydney/"
+     },
+     {
+      "title": "The AI future of customer intelligence: CEO insights",
+      "href": "/events/the-ai-future-of-customer-intelligence-ceo-insights/"
+     },
+     {
+      "title": "ProductCon San Francisco 2025",
+      "href": "/events/productcon-san-francisco-2025/"
+     },
+     {
+      "title": "Future Product Days 2025",
+      "href": "/events/future-product-days-2025/"
+     },
+     {
+      "title": "Voice of the customer: transforming financial services through listenings",
+      "href": "/events/voice-of-the-customer-transforming-financial-services-through-listening/"
+     },
+     {
+      "title": "From customer feedback to business impact: how Dovetail customers build a culture of customer centricity",
+      "href": "/events/from-customer-feedback-to-business-impact-how-dovetail-customers-build-a/"
+     },
+     {
+      "title": "From insights to impact in medical products—evolving our research practices to more effectively shape product success",
+      "href": "/events/from-insights-to-impact-in-medical-products-evolving-our-research-practices/"
+     },
+     {
+      "title": "Level up your research: how AI in Dovetail is transforming user research",
+      "href": "/events/level-up-your-research-how-ai-in-dovetail-is-transforming-user-research/"
+     },
+     {
+      "title": "IO Connect Boston: Discovery Workshop",
+      "href": "/events/io-connect-boston-discovery-workshop/"
+     },
+     {
+      "title": "IO Connect Chicago: Discovery Workshop",
+      "href": "/events/io-connect-chicago-discovery-workshop/"
+     },
+     {
+      "title": "Channels by Dovetail: a deep dive into automating your feedback workflows",
+      "href": "/events/channels-by-dovetail-a-deep-dive-into-automating-your-feedback-workflows/"
+     },
+     {
+      "title": "Forrester CX Summit North America",
+      "href": "/events/forrester-cx-summit-north-america/"
+     },
+     {
+      "title": "IO Connect Los Angeles: Discovery Workshop",
+      "href": "/events/io-connect-los-angeles-june-5/"
+     },
+     {
+      "title": "What’s new in Dovetail 2025",
+      "href": "/events/whats-new-in-dovetail-IO-launch-2025/"
+     },
+     {
+      "title": "Insight Out Conf 2025",
+      "href": "/events/insight-out-conf-2025/"
+     },
+     {
+      "title": "Usability in the age of AI: what still matters",
+      "href": "/events/usability-age-AI/"
+     },
+     {
+      "title": "How customer insights drive innovative product design at Autodesk",
+      "href": "/events/how-customer-insights-drive-innovative-product-design-at-autodesk/"
+     },
+     {
+      "title": "How Verizon Connect built a winning culture of UX research and insights",
+      "href": "/events/how-verizon-connect-built-a-winning-culture-of-ux-research-and-insights/"
+     },
+     {
+      "title": "Dovetail for designers introductory session",
+      "href": "/events/dovetail-for-designers-webinar/"
+     },
+     {
+      "title": "Dovetail for product managers introductory session",
+      "href": "/events/dovetail-for-product-managers-webinar/"
+     },
+     {
+      "title": "Data-driven design: mastering user research",
+      "href": "/events/data-driven-design-mastering-user-research/"
+     },
+     {
+      "title": "Dovetail for researchers introductory session",
+      "href": "/events/dovetail-for-researchers-webinar/"
+     },
+     {
+      "title": "A balancing act: mastering customer feedback",
+      "href": "/events/a-balancing-act-mastering-customer-feedback/"
+     },
+     {
+      "title": "Product strategy is simple: an actionable and hands-on guide to getting it right",
+      "href": "/events/product-strategy-is-simple-an-actionable-and-hands-on-guide-to-getting-it/"
+     },
+     {
+      "title": "Dig deeper: level up your A/B testing to build better products",
+      "href": "/events/dig-deeper-level-up-your-a-b-testing-to-build-better-products/"
+     },
+     {
+      "title": "Turning heads: how to craft insights that influence",
+      "href": "/events/turning-heads-how-to-craft-insights-that-influence/"
+     },
+     {
+      "title": "Insights at scale: learn how Okta and Webflow are growing their research culture",
+      "href": "/events/insights-at-scale-learn-how-okta-and-webflow-are-growing-their-research/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "dark",
+   "content": {
+    "heading": "The best never guess",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "#"
+     },
+     {
+      "label": "Start free trial",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-theright-salesforce.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestfarleft-aws.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestleft-canva.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestright-airwallex.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverright-notion.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverfarright-zapier.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessleft-wise.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessfarleft-breville.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

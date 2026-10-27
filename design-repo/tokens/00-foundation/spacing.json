@@ -1,0 +1,101 @@
+{
+ "note": "spacing tokens. Every value cites path:line in the clone project and the text that line contains (`match`); extraction/verify_all.py re-reads them.",
+ "tokens": {
+  "space.section.hero": {
+   "value": "96px",
+   "category": "spacing",
+   "cite": "specs/company-shared.md:57",
+   "match": "| HERO | 96 / 56 / 56 |"
+  },
+  "space.section.s200": {
+   "value": "200px",
+   "category": "spacing",
+   "cite": "specs/company-shared.md:58",
+   "match": "| S200 (default) | 200 / 96 / 96"
+  },
+  "space.section.s160": {
+   "value": "160px",
+   "category": "spacing",
+   "cite": "specs/company-shared.md:60",
+   "match": "| S160 | 160 /"
+  },
+  "space.section.s120": {
+   "value": "120px",
+   "category": "spacing",
+   "cite": "specs/company-shared.md:62",
+   "match": "| S120 | 120 /"
+  },
+  "space.section.s96": {
+   "value": "96px",
+   "category": "spacing",
+   "cite": "specs/company-shared.md:64",
+   "match": "| S96 | 96 /"
+  },
+  "space.section.s80": {
+   "value": "80px",
+   "category": "spacing",
+   "cite": "specs/company-shared.md:66",
+   "match": "| S80 | 80 /"
+  },
+  "space.section.s64": {
+   "value": "64px",
+   "category": "spacing",
+   "cite": "specs/company-shared.md:67",
+   "match": "| S64 | 64 /"
+  },
+  "space.section.s48": {
+   "value": "48px",
+   "category": "spacing",
+   "cite": "specs/company-shared.md:69",
+   "match": "| S48 | 48 /"
+  },
+  "space.section.s40": {
+   "value": "40px",
+   "category": "spacing",
+   "cite": "specs/company-shared.md:71",
+   "match": "| S40 | 40 /"
+  },
+  "space.section.s32": {
+   "value": "32px",
+   "category": "spacing",
+   "cite": "specs/company-shared.md:73",
+   "match": "| S32 | 32 /"
+  },
+  "space.section.s246": {
+   "value": "246px",
+   "category": "spacing",
+   "cite": "specs/company-shared.md:77",
+   "match": "| S246 | 246 /"
+  },
+  "space.section.header": {
+   "value": "88px",
+   "category": "spacing",
+   "cite": "specs/company-shared.md:78",
+   "match": "| HEADER | 88 / 88 / 88 |"
+  },
+  "space.campaign.224": {
+   "value": "224px",
+   "category": "spacing",
+   "cite": "specs/best-never-guess.md:13",
+   "match": "Spacer 224"
+  },
+  "space.campaign.240": {
+   "value": "240px",
+   "category": "spacing",
+   "cite": "specs/launch.md:11",
+   "match": "spacers between sections: 240 / 320 / 160"
+  },
+  "space.campaign.320": {
+   "value": "320px",
+   "category": "spacing",
+   "cite": "specs/launch.md:11",
+   "match": "spacers between sections: 240 / 320 / 160"
+  },
+  "space.stack.56": {
+   "value": "56px",
+   "category": "spacing",
+   "cite": "specs/company-shared.md:57",
+   "match": "| HERO | 96 / 56 / 56 |"
+  }
+ }
+}

@@ -1,0 +1,279 @@
+{
+ "slug": "petal-health",
+ "path": "/customers/petal-health/",
+ "title": "How Petal Health builds healthcare solutions confidently with Dovetail",
+ "eyebrow": "CUSTOMER / PETAL HEALTH",
+ "companyName": "Petal Health",
+ "isAnonymous": false,
+ "industry": "Health",
+ "intro": {
+  "placeholder": true,
+  "chars": 142
+ },
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/005C_customer_story_petal_health.png",
+  "width": 736,
+  "height": 474,
+  "youtubeId": null,
+  "caption": [
+   "CLÉMENTINE NOWAK, PRINCIPAL UX RESEARCHER"
+  ]
+ },
+ "stats": [],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "Intro",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 749
+    }
+   ]
+  },
+  {
+   "heading": "Dovetail as the central hub for customer intelligence",
+   "body": [
+    {
+     "t": "p",
+     "strong": [
+      "The challenge: Fragmented data and manual analysis"
+     ],
+     "text": "The challenge: Fragmented data and manual analysis"
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 281
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 342
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 67,
+     "strong": [
+      "The solution: Dovetail as the central hub for customer intelligence"
+     ]
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 299
+    }
+   ]
+  },
+  {
+   "heading": "Driving clarity and confidence across the organization",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 286
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 635,
+     "links": [
+      {
+       "text": "ISO 27001 certification",
+       "href": "/blog/dovetail-iso-certified/"
+      },
+      {
+       "text": "GDPR and HIPAA readiness",
+       "href": "/enterprise/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "Faster decision-making with AI-powered insights",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 400
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 431,
+     "links": [
+      {
+       "text": "Ask Dovetail",
+       "href": "/product/ai-chat/"
+      }
+     ]
+    },
+    {
+     "t": "iframe",
+     "src": "https://www.youtube.com/embed/az5T_dE6AaY?rel=0&autoplay=0&modestbranding=1",
+     "youtubeId": "az5T_dE6AaY",
+     "poster": "/assets/company/external/youtube-az5T_dE6AaY.jpg"
+    }
+   ]
+  },
+  {
+   "heading": "Building the future of healthcare with continuous customer intelligence",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 387
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/Hero_Image_2025-IzKQ5Irb2byEblpJ8pxJT.png",
+     "alt": "Abstract image of dots and diagrams",
+     "w": 0,
+     "h": 0
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": {
+  "quote": {
+   "placeholder": true,
+   "chars": 210
+  },
+  "name": "Clémentine Nowak",
+  "role": "Principal UX Researcher"
+ },
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "atlassian-design",
+   "href": "/customers/atlassian-design/",
+   "title": "How Atlassian turns customer signals into confident product decisions",
+   "industry": "Technology",
+   "order": 2,
+   "companyName": "Atlassian",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/company/media/Customer_Atlassian.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+    "alt": "Atlassian",
+    "w": 160,
+    "h": 20
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 190
+    },
+    "name": "Martin Jerkovic",
+    "role": "Lead Product Designer"
+   }
+  },
+  {
+   "slug": "breville",
+   "href": "/customers/breville/",
+   "title": "How customer insights drive and inspire Breville’s product innovation",
+   "industry": "Consumer",
+   "order": 3,
+   "companyName": "Breville",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/Customer_Breville.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/white-logo(3).svg",
+    "alt": "Breville",
+    "w": 132,
+    "h": 32
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 217
+    },
+    "name": "Constance Docos",
+    "role": "Senior UX Designer"
+   }
+  },
+  {
+   "slug": "achievers",
+   "href": "/customers/achievers/",
+   "title": "How Achievers powers employee experience with always-on customer intelligence",
+   "industry": "Technology",
+   "order": 6,
+   "companyName": "Achievers",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Achievers.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-achievers-white-logo.svg",
+    "alt": "Achievers",
+    "w": 143,
+    "h": 28
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 229
+    },
+    "name": "Marie-Andrée Turgeon",
+    "role": "Senior Manager of Product Operations"
+   }
+  }
+ ]
+}

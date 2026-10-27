@@ -1,0 +1,643 @@
+{
+ "path": "/resources/insight7-alternatives/",
+ "title": "Insight7 Alternatives: Tools for Research and Call Analysis",
+ "breadcrumb": [
+  {
+   "label": "Guides",
+   "href": "/guides/"
+  },
+  {
+   "label": "What can I use instead of Insight7? Alternatives by use case",
+   "href": null
+  }
+ ],
+ "h1": "What can I use instead of Insight7? Alternatives by use case",
+ "meta": [
+  [
+   "Last updated",
+   "20 October 2026"
+  ]
+ ],
+ "share": [
+  {
+   "heading": "Share",
+   "links": [
+    {
+     "label": "Copy link",
+     "href": null
+    },
+    {
+     "label": "Share on Facebook",
+     "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdovetail.com%2Fresources%2Finsight7-alternatives%2F"
+    },
+    {
+     "label": "Share on LinkedIn",
+     "href": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdovetail.com%2Fresources%2Finsight7-alternatives%2F"
+    },
+    {
+     "label": "Share on X",
+     "href": "https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20article%20at%20Dovetail!&url=https%3A%2F%2Fdovetail.com%2Fresources%2Finsight7-alternatives%2F&via=hidovetail"
+    }
+   ]
+  },
+  {
+   "heading": "Summarize with AI",
+   "links": [
+    {
+     "label": "Summarize with ChatGPT",
+     "href": "https://chat.openai.com/?q=Summarize%20this%20article%20%22What%20can%20I%20use%20instead%20of%20Insight7%3F%20Alternatives%20by%20use%20case%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Finsight7-alternatives%2F"
+    },
+    {
+     "label": "Summarize with Claude",
+     "href": "https://claude.ai/new?q=Summarize%20this%20article%20%22What%20can%20I%20use%20instead%20of%20Insight7%3F%20Alternatives%20by%20use%20case%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Finsight7-alternatives%2F"
+    },
+    {
+     "label": "Summarize with Perplexity",
+     "href": "https://www.perplexity.ai/search?q=Summarize%20this%20article%20%22What%20can%20I%20use%20instead%20of%20Insight7%3F%20Alternatives%20by%20use%20case%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Finsight7-alternatives%2F"
+    },
+    {
+     "label": "Summarize with Grok",
+     "href": "https://x.com/i/grok?text=Summarize%20this%20article%20%22What%20can%20I%20use%20instead%20of%20Insight7%3F%20Alternatives%20by%20use%20case%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Finsight7-alternatives%2F"
+    }
+   ]
+  }
+ ],
+ "sidebarCta": {
+  "heading": "Get started today",
+  "body": "Go from raw data to valuable insights with a flexible research platform",
+  "button": {
+   "label": "Contact sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "toc": [
+  "What is Insight7 used for, and why does that matter when you choose a replacement?",
+  "What are the main alternatives to Insight7?",
+  "Which Insight7 alternative is best for UX research and interview analysis?",
+  "What Dovetail does for research teams",
+  "How the other options compare",
+  "Which alternative works for support tickets, reviews, and survey feedback?",
+  "What should I use if I mainly analyze sales or contact center calls?",
+  "What if I only need transcription and meeting notes?",
+  "How should I evaluate an Insight7 alternative?",
+  "Questions about fit",
+  "Questions about trust and longevity",
+  "Questions about switching",
+  "Is it better to replace Insight7 with one platform or several tools?"
+ ],
+ "body": [
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 587
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 390
+  },
+  {
+   "t": "h2",
+   "text": "What is Insight7 used for, and why does that matter when you choose a replacement?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 272
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 47
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 195,
+     "strong": [
+      "Research and product teams"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 149,
+     "strong": [
+      "Sales and contact center teams"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 271
+  },
+  {
+   "t": "h2",
+   "text": "What are the main alternatives to Insight7?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 276
+  },
+  {
+   "t": "table",
+   "head": [
+    "Tool",
+    "Designed for",
+    "Interview and usability analysis",
+    "Continuous feedback (tickets, reviews, surveys)",
+    "Limitation as an Insight7 replacement"
+   ],
+   "rows": [
+    [
+     "Dovetail",
+     "Analyzing, storing, and sharing all customer evidence",
+     {
+      "placeholder": true,
+      "chars": 73
+     },
+     "Yes—Channels theme incoming feedback with sentiment",
+     "None of the gaps below"
+    ],
+    [
+     "Condens",
+     "Organizing and analyzing research studies",
+     "Yes",
+     "Limited",
+     "Research-only, so feedback at scale needs another tool"
+    ],
+    [
+     "Looppanel",
+     "Fast analysis of interview recordings",
+     "Yes",
+     "Limited",
+     "Focused on individual studies, not a long-term repository"
+    ],
+    [
+     "Enterpret, Unwrap, Thematic, Chattermill",
+     "Theming high volumes of feedback",
+     "Not their focus",
+     "Yes",
+     "Not designed for interview or usability analysis"
+    ],
+    [
+     "Qualtrics, Medallia",
+     "Enterprise survey and CX measurement programs",
+     "Not their focus",
+     "Structured surveys",
+     {
+      "placeholder": true,
+      "chars": 74
+     }
+    ],
+    [
+     "Productboard, Canny",
+     "Linking feature requests to the roadmap",
+     "No",
+     "Feature requests",
+     "Not built for deep qualitative analysis"
+    ],
+    [
+     "Maze",
+     "Running unmoderated tests",
+     "Its own tests",
+     "No",
+     {
+      "placeholder": true,
+      "chars": 62
+     }
+    ],
+    [
+     "Conversation intelligence tools such as Gong",
+     "Coaching reps and scoring call performance",
+     "No",
+     "No",
+     {
+      "placeholder": true,
+      "chars": 65
+     }
+    ],
+    [
+     "AI note-takers",
+     "Recording and summarizing meetings",
+     "Per-meeting summaries only",
+     "No",
+     {
+      "placeholder": true,
+      "chars": 61
+     }
+    ]
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Which Insight7 alternative is best for UX research and interview analysis?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 240
+  },
+  {
+   "t": "h3",
+   "text": "What Dovetail does for research teams"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 130,
+     "strong": [
+      "Automatic transcription"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 121,
+     "strong": [
+      "Highlights"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 110,
+     "strong": [
+      "Tags and themes across projects"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 106,
+     "strong": [
+      "AI-powered analysis"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 124,
+     "strong": [
+      "Docs and integrations"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "blockquote",
+   "placeholder": true,
+   "chars": 114
+  },
+  {
+   "t": "h3",
+   "text": "How the other options compare"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 393
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 270
+  },
+  {
+   "t": "h2",
+   "text": "Which alternative works for support tickets, reviews, and survey feedback?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 457
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 394
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 281
+  },
+  {
+   "t": "h2",
+   "text": "What should I use if I mainly analyze sales or contact center calls?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 282
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 403
+  },
+  {
+   "t": "h2",
+   "text": "What if I only need transcription and meeting notes?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 397
+  },
+  {
+   "t": "h2",
+   "text": "How should I evaluate an Insight7 alternative?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 164
+  },
+  {
+   "t": "h3",
+   "text": "Questions about fit"
+  },
+  {
+   "t": "ol",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 134,
+     "strong": [
+      "What’s the main job?"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 178,
+     "strong": [
+      "Which data sources matter?"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 174,
+     "strong": [
+      "Who will use it?"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "text": "Questions about trust and longevity"
+  },
+  {
+   "t": "ol",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 120,
+     "strong": [
+      "Can you verify AI output?"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 135,
+     "strong": [
+      "Do insights accumulate?"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 168,
+     "strong": [
+      "How do findings reach stakeholders?"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "text": "Questions about switching"
+  },
+  {
+   "t": "ol",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 212,
+     "strong": [
+      "What can you bring with you?"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 149,
+     "strong": [
+      "Can you test it on real data?"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Is it better to replace Insight7 with one platform or several tools?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 205
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 152,
+     "strong": [
+      "Product, research, and CX teams"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 105,
+     "strong": [
+      "Sales and support operations"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 111,
+     "strong": [
+      "The Gong integration connects the two"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 222
+  },
+  {
+   "t": "h2",
+   "text": "FAQs"
+  },
+  {
+   "t": "h3",
+   "text": "What is the best alternative to Insight7?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 590
+  },
+  {
+   "t": "h3",
+   "text": "Why choose Dovetail over Insight7?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 537
+  },
+  {
+   "t": "h3",
+   "text": "Can Dovetail analyze sales and support calls?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 388
+  },
+  {
+   "t": "h3",
+   "text": "Do I need a research repository or an AI analysis tool?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 316
+  },
+  {
+   "t": "h3",
+   "text": "Can I analyze support tickets and reviews alongside user interviews?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 298
+  }
+ ],
+ "relatedTopics": [
+  {
+   "label": "[Customer research]",
+   "href": "/customer-research/"
+  },
+  {
+   "label": "[Design thinking]",
+   "href": "/design-thinking/"
+  },
+  {
+   "label": "[Employee experience]",
+   "href": "/employee-experience/"
+  },
+  {
+   "label": "[Enterprise]",
+   "href": "/enterprise/"
+  },
+  {
+   "label": "[Market research]",
+   "href": "/market-research/"
+  },
+  {
+   "label": "[Patient experience]",
+   "href": "/patient-experience/"
+  },
+  {
+   "label": "[Product development]",
+   "href": "/product-development/"
+  },
+  {
+   "label": "[Product management]",
+   "href": "/product-management/"
+  },
+  {
+   "label": "[Research maturity assessment]",
+   "href": "/research-maturity-assessment/"
+  },
+  {
+   "label": "[Research methods]",
+   "href": "/research/"
+  },
+  {
+   "label": "[Surveys]",
+   "href": "/surveys/"
+  },
+  {
+   "label": "[User experience (UX)]",
+   "href": "/ux/"
+  }
+ ],
+ "relatedArticles": [
+  {
+   "title": "Dovetail review: tagging, search, AI, and pricing in 2026",
+   "href": "/resources/dovetail-review/",
+   "date": "29 September 2026"
+  },
+  {
+   "title": "Dovetail vs Enterpret",
+   "href": "/resources/dovetail-vs-enterpret/",
+   "date": "28 September 2026"
+  },
+  {
+   "title": "Dovetail vs Marvin",
+   "href": "/resources/dovetail-vs-marvin/",
+   "date": "28 September 2026"
+  },
+  {
+   "title": "Dovetail vs Qualtrics",
+   "href": "/resources/dovetail-vs-qualtrics/",
+   "date": "28 September 2026"
+  },
+  {
+   "title": "How does Dovetail compare to Aurelius for user research?",
+   "href": "/resources/dovetail-vs-aurelius/",
+   "date": "20 October 2026"
+  },
+  {
+   "title": "Dovetail review: tagging, search, AI, and pricing in 2026",
+   "href": "/resources/dovetail-review/",
+   "date": "29 September 2026"
+  },
+  {
+   "title": "Dovetail vs Enterpret",
+   "href": "/resources/dovetail-vs-enterpret/",
+   "date": "28 September 2026"
+  },
+  {
+   "title": "Dovetail vs Marvin",
+   "href": "/resources/dovetail-vs-marvin/",
+   "date": "28 September 2026"
+  },
+  {
+   "title": "Dovetail vs Qualtrics",
+   "href": "/resources/dovetail-vs-qualtrics/",
+   "date": "28 September 2026"
+  }
+ ],
+ "cta": {
+  "heading": "Turn customer feedback into product innovation",
+  "buttons": [
+   {
+    "label": "Contact sales",
+    "href": "/contact-sales/"
+   },
+   {
+    "label": "Try Dovetail free",
+    "href": "/auth/signup/"
+   }
+  ]
+ },
+ "theme": "light"
+}

@@ -1,0 +1,355 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T36",
+ "route": "/legal-doc-hollowmere/",
+ "theme": "light",
+ "chrome": {
+  "banner": "legal",
+  "nav": "legal",
+  "footer": "light"
+ },
+ "brand": {
+  "name": "Hollowmere"
+ },
+ "meta": {
+  "title": "Hollowmere | Legal"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "legal",
+   "content": {
+    "lead": "Rowan bundle",
+    "actions": [
+     {
+      "label": "Thread trace",
+      "href": "https://hollowmere.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "legal",
+   "content": {
+    "actions": [
+     {
+      "label": "Marble plan",
+      "href": "https://hollowmere.example/navbar-0"
+     },
+     {
+      "label": "Prism",
+      "href": "https://hollowmere.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Notice"
+     },
+     {
+      "title": "Harvest"
+     },
+     {
+      "title": "Cobalt"
+     },
+     {
+      "title": "Harbor"
+     },
+     {
+      "title": "Lantern"
+     },
+     {
+      "title": "Falcon"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Beacon rowan",
+      "text": "Bundle grove thread compass sketch ember prism gather"
+     },
+     {
+      "title": "Summit",
+      "text": "Ledger tidal willow weigh basil measure bundle tidy"
+     },
+     {
+      "title": "Thread delta",
+      "text": "Marble field orbit cinder summit harvest cobalt share"
+     },
+     {
+      "title": "Lantern",
+      "text": "Basil rowan nimbus grove cedar trace quarry field"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "legal.doc-header",
+   "variant": "default",
+   "content": {
+    "heading": "Shape meadow summit",
+    "actions": [
+     {
+      "label": "Steer",
+      "href": "https://hollowmere.example/doc-header-0"
+     },
+     {
+      "label": "Cobal",
+      "href": "https://hollowmere.example/doc-header-1"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.side-nav",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Share fjord",
+      "href": "https://hollowmere.example/side-nav-0"
+     },
+     {
+      "label": "Signal refine",
+      "href": "https://hollowmere.example/side-nav-1"
+     },
+     {
+      "label": "Rowan nimbus",
+      "href": "https://hollowmere.example/side-nav-2"
+     },
+     {
+      "label": "Tidy thread",
+      "href": "https://hollowmere.example/side-nav-3"
+     },
+     {
+      "label": "Trace marble",
+      "href": "https://hollowmere.example/side-nav-4"
+     },
+     {
+      "label": "Ember shape",
+      "href": "https://hollowmere.example/side-nav-5"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "sticky.pin",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.doc-part",
+   "variant": "default",
+   "content": {
+    "heading": "Cinder sprout juniper cobalt",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Tidal willow weigh beacon"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Atlas nimbus canvas thread delta marble ember shape gather summit steer cobalt tidal willow falcon refine atlas pebble tidy map trace sketch ember prism cinder sprout harvest sort share fjord"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Falcon refine measure nimbus canvas map delta quarry plan orbit cinder summit juniper cobalt harbor fjord weigh refine rowan bundle tidy map compass quarry ember prism cinder summit harvest ledger"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.doc-part",
+   "variant": "default",
+   "content": {
+    "heading": "Tidal fjord falcon basil",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Atlas nimbus grove thread"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Trace marble field shape gather sprout steer cobalt harbor willow signal refine atlas nimbus canvas cedar delta sketch field shape meadow summit steer ledger tidal lantern falcon basil rowan bundle"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Grove cedar compass marble ember prism meadow sprout harvest cobalt share fjord weigh refine atlas bundle canvas thread trace quarry plan prism cinder summit harvest cobalt harbor fjord signal basil"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.updated-meta",
+   "variant": "default",
+   "content": {},
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "light",
+   "content": {
+    "heading": "Rowan nimbus grove",
+    "actions": [
+     {
+      "label": "Delta quarry",
+      "href": "https://hollowmere.example/final-cta-0"
+     },
+     {
+      "label": "Plan shape",
+      "href": "https://hollowmere.example/final-cta-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-7"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "light",
+   "content": {
+    "lead": "Meadow notice harvest cobalt share",
+    "actions": [
+     {
+      "label": "Weigh basil",
+      "href": "https://hollowmere.example/footer-0"
+     },
+     {
+      "label": "Measure nimbus",
+      "href": "https://hollowmere.example/footer-1"
+     },
+     {
+      "label": "Canvas cedar",
+      "href": "https://hollowmere.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Compass"
+     },
+     {
+      "title": "Sketch"
+     },
+     {
+      "title": "Field"
+     },
+     {
+      "title": "Shape"
+     },
+     {
+      "title": "Meadow"
+     },
+     {
+      "title": "Summit"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.on-this-page",
+   "variant": "default",
+   "content": {},
+   "motion": {
+    "pattern": "scroll.spy",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  }
+ ]
+}

@@ -1,0 +1,899 @@
+{
+ "url": "/resources/dovetail-vs-marvin/",
+ "template": "article",
+ "meta": {
+  "title": "Dovetail vs Marvin: Why Research Teams Choose Dovetail",
+  "description": "Dovetail gives research teams faster synthesis, stronger analysis, and a platform that scales when your org needs more. See how Dovetail compares to…"
+ },
+ "theme": "light",
+ "breadcrumb": [
+  {
+   "text": "Guides",
+   "href": "/guides/"
+  },
+  {
+   "text": "Dovetail vs Marvin",
+   "href": null
+  }
+ ],
+ "h1": "Dovetail vs Marvin",
+ "lastUpdated": {
+  "label": "Last updated",
+  "date": "28 September 2026"
+ },
+ "share": {
+  "heading": "Share",
+  "buttons": [
+   {
+    "aria": "Copy link",
+    "icon": "/assets/tools/svg/share-copy-link.svg",
+    "kind": "button"
+   },
+   {
+    "aria": "Share on Facebook",
+    "icon": "/assets/tools/svg/share-facebook.svg",
+    "hrefPattern": "https://www.facebook.com/sharer/sharer.php?u={url}"
+   },
+   {
+    "aria": "Share on LinkedIn",
+    "icon": "/assets/tools/svg/share-linkedin.svg",
+    "hrefPattern": "https://www.linkedin.com/sharing/share-offsite/?url={url}"
+   },
+   {
+    "aria": "Share on X",
+    "icon": "/assets/tools/svg/share-x.svg",
+    "hrefPattern": "https://twitter.com/intent/tweet?text=...&url={url}"
+   }
+  ]
+ },
+ "summarize": {
+  "heading": "Summarize with AI",
+  "buttons": [
+   {
+    "aria": "Summarize with ChatGPT",
+    "icon": "/assets/tools/svg/summarize-chatgpt.svg",
+    "hrefPattern": "https://chat.openai.com/?q=Summarize this article \"{title}\" {url}"
+   },
+   {
+    "aria": "Summarize with Claude",
+    "icon": "/assets/tools/svg/summarize-claude.svg",
+    "hrefPattern": "https://claude.ai/new?q=Summarize this article \"{title}\" {url}"
+   },
+   {
+    "aria": "Summarize with Perplexity",
+    "icon": "/assets/tools/svg/summarize-perplexity.svg",
+    "hrefPattern": "https://www.perplexity.ai/search?q=Summarize this article \"{title}\" {url}"
+   },
+   {
+    "aria": "Summarize with Grok",
+    "icon": "/assets/tools/svg/summarize-grok.svg",
+    "hrefPattern": "https://x.com/i/grok?text=Summarize this article \"{title}\" {url}"
+   }
+  ]
+ },
+ "sidebarCta": {
+  "text": {
+   "placeholder": true,
+   "chars": 71
+  },
+  "cta": [
+   {
+    "text": "Contact sales",
+    "href": "/contact-sales/"
+   }
+  ]
+ },
+ "toc": [
+  "Quick answer",
+  "What is Dovetail?",
+  "What is Marvin?",
+  "Are Dovetail and Marvin “repository-only” tools?",
+  "Where Marvin stops working",
+  "AI capabilities: research-grade, not just research-scoped",
+  "Where Dovetail's AI goes further for researchers",
+  "Marvin's AI",
+  "Decision lens: AI-moderated interviews",
+  "Interviews and evidence workflows",
+  "Reduce capture friction",
+  "Support the full evidence workflow",
+  "Make evidence easy to share",
+  "Quantitative signals and trend tracking",
+  "Marvin",
+  "Dovetail",
+  "Governance and regulated environments",
+  "Integrations and operationalization",
+  "Side-by-side comparison",
+  "When to choose Dovetail",
+  "Decision summary"
+ ],
+ "body": [
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 47
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 172
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 355,
+   "links": [
+    {
+     "chars": 14,
+     "href": "https://heymarvin.com/product/ai-moderated-interviewer"
+    }
+   ],
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "quick-answer",
+   "text": "Quick answer"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 139
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 277
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 123,
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "what-is-dovetail",
+   "text": "What is Dovetail?"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 131
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 56
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 102,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 129,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 115,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 126,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 122,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 119,
+     "boldLead": true
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 162
+  },
+  {
+   "type": "h2",
+   "id": "what-is-marvin",
+   "text": "What is Marvin?"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 155
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 50
+    },
+    {
+     "placeholder": true,
+     "chars": 45
+    },
+    {
+     "placeholder": true,
+     "chars": 44
+    },
+    {
+     "placeholder": true,
+     "chars": 42
+    },
+    {
+     "placeholder": true,
+     "chars": 53
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 190
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 97
+  },
+  {
+   "type": "h2",
+   "id": "are-dovetail-and-marvin-repository-only-tools",
+   "text": "Are Dovetail and Marvin “repository-only” tools?"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 448
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 459
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 447
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 339
+  },
+  {
+   "type": "h2",
+   "id": "where-marvin-stops-working",
+   "text": "Where Marvin stops working"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 136
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 48
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 187,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 232,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 232,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 204,
+     "boldLead": true
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 142
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 119
+  },
+  {
+   "type": "h2",
+   "id": "ai-capabilities-research-grade-not-just-research-scoped",
+   "text": "AI capabilities: research-grade, not just research-scoped"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 140
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 34
+  },
+  {
+   "type": "h3",
+   "id": "where-dovetails-ai-goes-further-for-researchers",
+   "text": "Where Dovetail's AI goes further for researchers"
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 190,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 145,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 140,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 173,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 193,
+     "boldLead": true
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "id": "marvins-ai",
+   "text": "Marvin's AI"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 163
+  },
+  {
+   "type": "h3",
+   "id": "decision-lens-ai-moderated-interviews",
+   "text": "Decision lens: AI-moderated interviews"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 29,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 465,
+   "links": [
+    {
+     "chars": 14,
+     "href": "https://heymarvin.com/product/ai-moderated-interviewer"
+    }
+   ],
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 265
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 207
+  },
+  {
+   "type": "h2",
+   "id": "interviews-and-evidence-workflows",
+   "text": "Interviews and evidence workflows"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 133
+  },
+  {
+   "type": "h3",
+   "id": "reduce-capture-friction",
+   "text": "Reduce capture friction"
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 151,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 67,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 100,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 77,
+     "boldLead": true
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "id": "support-the-full-evidence-workflow",
+   "text": "Support the full evidence workflow"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 198
+  },
+  {
+   "type": "h3",
+   "id": "make-evidence-easy-to-share",
+   "text": "Make evidence easy to share"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 255
+  },
+  {
+   "type": "h2",
+   "id": "quantitative-signals-and-trend-tracking",
+   "text": "Quantitative signals and trend tracking"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 142
+  },
+  {
+   "type": "h3",
+   "id": "marvin",
+   "text": "Marvin"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 181
+  },
+  {
+   "type": "h3",
+   "id": "dovetail",
+   "text": "Dovetail"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 65
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 106,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 149,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 120,
+     "boldLead": true
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 177
+  },
+  {
+   "type": "h2",
+   "id": "governance-and-regulated-environments",
+   "text": "Governance and regulated environments"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 105
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 107
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 184
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 49
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 58,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 59,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 72,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 64,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 41,
+     "boldLead": true
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 255
+  },
+  {
+   "type": "h2",
+   "id": "integrations-and-operationalization",
+   "text": "Integrations and operationalization"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 97
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 57,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 49,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 35,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 24,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 28,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 40,
+     "boldLead": true
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 220
+  },
+  {
+   "type": "h2",
+   "id": "side-by-side-comparison",
+   "text": "Side-by-side comparison"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 29,
+   "hasBold": true
+  },
+  {
+   "type": "table",
+   "headers": [
+    "If you need...",
+    "Dovetail",
+    "Marvin"
+   ],
+   "rows": [
+    [
+     "Fast qualitative tagging and synthesis",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "AI transcription and summaries",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "Conversational querying",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "Strong fit for research-heavy teams",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "HIPAA-ready workflows",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "Multi-source analysis (interviews + support + surveys + calls)",
+     "Yes",
+     "No"
+    ],
+    [
+     "AI-moderated interviews (native)",
+     "Via Outset integration",
+     "Yes, via Live Intercept"
+    ],
+    [
+     "Highlight reels for stakeholder buy-in",
+     "Yes",
+     "No"
+    ],
+    [
+     "AI Docs for structured research outputs",
+     "Yes",
+     "No"
+    ],
+    [
+     "Global taxonomy and standardized tags",
+     "Yes",
+     "No"
+    ],
+    [
+     "Cross-team access for product, support, and GTM",
+     "Yes",
+     "No"
+    ],
+    [
+     "Ongoing signal tracking across sources",
+     "Yes",
+     "No"
+    ],
+    [
+     "Channels for revenue-ranked feedback from tickets, reviews, calls, and surveys",
+     "Yes",
+     "No"
+    ],
+    [
+     "AI Dashboards tied to business metrics",
+     "Yes",
+     "No"
+    ],
+    [
+     {
+      "placeholder": true,
+      "chars": 86
+     },
+     "Yes",
+     "No"
+    ],
+    [
+     "Digital twins that answer questions as a specific customer or segment",
+     "Yes",
+     "No"
+    ],
+    [
+     "Rich table editing in notes, with AI-assisted table creation via Chat",
+     "Yes",
+     "Not publicly documented"
+    ],
+    [
+     "Enterprise governance at scale",
+     "Yes",
+     "No"
+    ],
+    [
+     "MCP connectors listed on Claude and ChatGPT marketplaces",
+     "Yes",
+     "MCP access on Pro plan and higher"
+    ],
+    [
+     "30+ integrations across the workflow",
+     "Yes",
+     "Limited"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "when-to-choose-dovetail",
+   "text": "When to choose Dovetail"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 19
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 130
+    },
+    {
+     "placeholder": true,
+     "chars": 87
+    },
+    {
+     "placeholder": true,
+     "chars": 64
+    },
+    {
+     "placeholder": true,
+     "chars": 80
+    },
+    {
+     "placeholder": true,
+     "chars": 153
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "decision-summary",
+   "text": "Decision summary"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 140
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 326
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 206
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 39
+  }
+ ],
+ "relatedTopics": {
+  "heading": "Related topics",
+  "links": [
+   {
+    "text": "[Customer research]",
+    "href": "/customer-research/"
+   },
+   {
+    "text": "[Design thinking]",
+    "href": "/design-thinking/"
+   },
+   {
+    "text": "[Employee experience]",
+    "href": "/employee-experience/"
+   },
+   {
+    "text": "[Enterprise]",
+    "href": "/enterprise/"
+   },
+   {
+    "text": "[Market research]",
+    "href": "/market-research/"
+   },
+   {
+    "text": "[Patient experience]",
+    "href": "/patient-experience/"
+   },
+   {
+    "text": "[Product development]",
+    "href": "/product-development/"
+   },
+   {
+    "text": "[Product management]",
+    "href": "/product-management/"
+   },
+   {
+    "text": "[Research maturity assessment]",
+    "href": "/research-maturity-assessment/"
+   },
+   {
+    "text": "[Research methods]",
+    "href": "/research/"
+   },
+   {
+    "text": "[Surveys]",
+    "href": "/surveys/"
+   },
+   {
+    "text": "[User experience (UX)]",
+    "href": "/ux/"
+   }
+  ]
+ },
+ "ctaFooter": {
+  "h2": "Turn customer feedback into product innovation",
+  "ctas": [
+   {
+    "text": "Contact sales",
+    "href": "/contact-sales/"
+   },
+   {
+    "text": "Try Dovetail free",
+    "href": "/auth/signup/",
+    "newTab": true
+   }
+  ]
+ },
+ "finalCta": false
+}

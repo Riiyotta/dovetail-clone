@@ -1,0 +1,28 @@
+{
+ "theme": "campaign",
+ "evidence": "specs/marketing-shared.md:94-102 (bestNeverGuess column: background #0044FF)",
+ "tokens": {
+  "text.primary": "color.white.base",
+  "text.strong": "color.white.strong",
+  "text.secondary": "color.white.64",
+  "text.muted": "color.alpha.white-64",
+  "surface.page": "color.blue.base",
+  "surface.card": "color.black.base",
+  "surface.raised": "color.black.64",
+  "surface.panel": "color.surface.panel",
+  "surface.brand": "color.blue.base",
+  "surface.brand-deep": "color.blue.80",
+  "surface.banner": "color.alpha.white-16",
+  "border.subtle": "color.alpha.white-08",
+  "border.strong": "color.alpha.white-24",
+  "action.primary.bg": "color.black.base",
+  "action.primary.fg": "color.white.base",
+  "action.primary.hover": "color.white.80",
+  "action.brand.bg": "color.blue.base",
+  "action.brand.fg": "color.white.strong",
+  "action.secondary.bg": "color.white.base",
+  "action.secondary.border": "color.alpha.white-24",
+  "status.error": "color.orange.base",
+  "overlay.dim": "color.overlay.64"
+ }
+}

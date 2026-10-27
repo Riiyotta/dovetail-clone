@@ -1,0 +1,274 @@
+{
+ "slug": "breville",
+ "path": "/customers/breville/",
+ "title": "How customer insights drive and inspire Breville’s product innovation",
+ "eyebrow": "CUSTOMER / BREVILLE",
+ "companyName": "Breville",
+ "isAnonymous": false,
+ "industry": "Consumer",
+ "intro": {
+  "placeholder": true,
+  "chars": 207
+ },
+ "hero": {
+  "type": "video",
+  "image": "/assets/company/media/Breville.jpg",
+  "width": 1086,
+  "height": 700,
+  "youtubeId": "ZYFwQ6HOEsI",
+  "caption": [
+   "TOM GROUNDES-PEACE, SENIOR CATEGORY MANAGER & HEAD OF RESEARCH",
+   "CONSTANCE DOCOS, SENIOR USER EXPERIENCE DESIGNER",
+   "ANDREW GREGORACE, SENIOR USER EXPERIENCE DESIGNER"
+  ]
+ },
+ "stats": [
+  {
+   "value": "1,000s",
+   "label": "customer insights shared"
+  },
+  {
+   "value": "150",
+   "label": "global design awards"
+  },
+  {
+   "value": "70+",
+   "label": "countries where Breville is sold"
+  }
+ ],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "Building Breville's iconic design legacy with customer insights",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 403,
+     "links": [
+      {
+       "text": "Constance Docos",
+       "href": "https://www.linkedin.com/in/constancedocos/?originalSubdomain=au"
+      },
+      {
+       "text": "Andrew Gregorace",
+       "href": "https://www.linkedin.com/in/andrew-gregorace-675088a8/"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 442
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/image_227.png",
+     "alt": "Breville's Oracle Jet espresso machine",
+     "w": 1568,
+     "h": 1176
+    }
+   ]
+  },
+  {
+   "heading": "Simplifying mastery for every type of consumer",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 301
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 446
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/Breville_collaboration.png",
+     "alt": "Team Breville designing the Oracle Jet, backed by customer intelligence",
+     "w": 2506,
+     "h": 1402
+    }
+   ]
+  },
+  {
+   "heading": "Aligning diverse teams through customer knowledge",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 556
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 632
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/Breville_customer_insights.png",
+     "alt": "Team Breville collaborating across functions to build products that customers love",
+     "w": 0,
+     "h": 0
+    }
+   ]
+  },
+  {
+   "heading": "Empowering world-class appliance design with Dovetail",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 264,
+     "links": [
+      {
+       "text": "Oracle Jet",
+       "href": "https://www.breville.com/en-au/product/bes985?sku=BES985BSS4IAN1"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 255
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": {
+  "quote": {
+   "placeholder": true,
+   "chars": 217
+  },
+  "name": "Constance Docos",
+  "role": "Senior UX Designer"
+ },
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "canva-ai",
+   "href": "/customers/canva-ai/",
+   "title": "Dovetail helps Canva turn millions of design moments into product decisions that shape how the world designs",
+   "industry": "Technology",
+   "order": 2,
+   "companyName": "Canva",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/company/media/Customer_Canva_AI.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/white-logo(2).svg",
+    "alt": "Canva",
+    "w": 120,
+    "h": 41
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 169
+    },
+    "name": "Craig Boustred",
+    "role": "Design Researcher"
+   }
+  },
+  {
+   "slug": "okta",
+   "href": "/customers/okta/",
+   "title": "How Okta built a customer intelligence platform trusted by 200+ users across 30+ teams",
+   "industry": "Technology",
+   "order": 9,
+   "companyName": "Okta",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Okta.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/white-logo(1).svg",
+    "alt": "Okta",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 219
+    },
+    "name": "Jared Forney",
+    "role": "Research Operations Principal"
+   }
+  },
+  {
+   "slug": "zapier",
+   "href": "/customers/zapier/",
+   "title": "How Zapier puts customer intelligence in everyone’s hands and gets tens of hours back every week",
+   "industry": "Technology",
+   "order": 11,
+   "companyName": "Zapier",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Zapier.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-zapier-white-logo.svg",
+    "alt": "Zapier",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": "“Dovetail helps us simplify the process of pouring all our customer data and all our insights into one spot.”",
+    "name": "Roy Olende",
+    "role": "Head of UX Research"
+   }
+  }
+ ]
+}

@@ -1,0 +1,330 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T28",
+ "route": "/webinars/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail clone (local)"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.dot-title",
+   "variant": "default",
+   "content": {
+    "heading": "Webinars",
+    "lead": "POLISH YOUR CRAFT, LEARN ABOUT OUR PRODUCT, AND WATCH HELPFUL VIDEOS."
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.event-cards",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "How CS turns customer conversations into roadmap decisions",
+      "text": "[WHEN] 19 NOV 2026",
+      "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.row-list",
+   "variant": "past-events",
+   "content": {
+    "actions": [
+     {
+      "label": "02 SEP 2026 Digital Twins, explained",
+      "href": "/events/suns-out-digital-twins-deep-dive/"
+     },
+     {
+      "label": "23 JAN 2026 What’s new with Dovetail Jan’26",
+      "href": "/events/whats-new-in-dovetail-jan-2026/"
+     },
+     {
+      "label": "30 MAY 2025 What’s new in Dovetail 2025",
+      "href": "/events/whats-new-in-dovetail-IO-launch-2025/"
+     },
+     {
+      "label": "11 SEP 2024 Dovetail for designers introductory session",
+      "href": "/events/dovetail-for-designers-webinar/"
+     },
+     {
+      "label": "14 AUG 2024 Dovetail for researchers introductory session",
+      "href": "/events/dovetail-for-researchers-webinar/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Digital Twins, explained",
+      "href": "/events/suns-out-digital-twins-deep-dive/"
+     },
+     {
+      "title": "Dovetail Sun’s Out: Product deep dive",
+      "href": "/events/suns-out-product-deep-dive/"
+     },
+     {
+      "title": "What’s new with Dovetail Jan’26",
+      "href": "/events/whats-new-in-dovetail-jan-2026/"
+     },
+     {
+      "title": "The AI future of customer intelligence: CEO insights",
+      "href": "/events/the-ai-future-of-customer-intelligence-ceo-insights/"
+     },
+     {
+      "title": "Voice of the customer: transforming financial services through listenings",
+      "href": "/events/voice-of-the-customer-transforming-financial-services-through-listening/"
+     },
+     {
+      "title": "From customer feedback to business impact: how Dovetail customers build a culture of customer centricity",
+      "href": "/events/from-customer-feedback-to-business-impact-how-dovetail-customers-build-a/"
+     },
+     {
+      "title": "From insights to impact in medical products—evolving our research practices to more effectively shape product success",
+      "href": "/events/from-insights-to-impact-in-medical-products-evolving-our-research-practices/"
+     },
+     {
+      "title": "Level up your research: how AI in Dovetail is transforming user research",
+      "href": "/events/level-up-your-research-how-ai-in-dovetail-is-transforming-user-research/"
+     },
+     {
+      "title": "Channels by Dovetail: a deep dive into automating your feedback workflows",
+      "href": "/events/channels-by-dovetail-a-deep-dive-into-automating-your-feedback-workflows/"
+     },
+     {
+      "title": "What’s new in Dovetail 2025",
+      "href": "/events/whats-new-in-dovetail-IO-launch-2025/"
+     },
+     {
+      "title": "Usability in the age of AI: what still matters",
+      "href": "/events/usability-age-AI/"
+     },
+     {
+      "title": "How customer insights drive innovative product design at Autodesk",
+      "href": "/events/how-customer-insights-drive-innovative-product-design-at-autodesk/"
+     },
+     {
+      "title": "How Verizon Connect built a winning culture of UX research and insights",
+      "href": "/events/how-verizon-connect-built-a-winning-culture-of-ux-research-and-insights/"
+     },
+     {
+      "title": "Dovetail for designers introductory session",
+      "href": "/events/dovetail-for-designers-webinar/"
+     },
+     {
+      "title": "Dovetail for product managers introductory session",
+      "href": "/events/dovetail-for-product-managers-webinar/"
+     },
+     {
+      "title": "Dovetail for researchers introductory session",
+      "href": "/events/dovetail-for-researchers-webinar/"
+     },
+     {
+      "title": "Product strategy is simple: an actionable and hands-on guide to getting it right",
+      "href": "/events/product-strategy-is-simple-an-actionable-and-hands-on-guide-to-getting-it/"
+     },
+     {
+      "title": "Dig deeper: level up your A/B testing to build better products",
+      "href": "/events/dig-deeper-level-up-your-a-b-testing-to-build-better-products/"
+     },
+     {
+      "title": "Turning heads: how to craft insights that influence",
+      "href": "/events/turning-heads-how-to-craft-insights-that-influence/"
+     },
+     {
+      "title": "Insights at scale: learn how Okta and Webflow are growing their research culture",
+      "href": "/events/insights-at-scale-learn-how-okta-and-webflow-are-growing-their-research/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "cta.inline-band",
+   "variant": "dark",
+   "content": {
+    "heading": "Turn customer feedback into product innovation",
+    "actions": [
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     },
+     {
+      "label": "Try Dovetail free",
+      "href": "/auth/signup/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

@@ -1,0 +1,669 @@
+{
+ "url": "/solutions/product-research/",
+ "template": "solutions",
+ "title": "Product Research",
+ "metaDescription": "Build roadmap confidence with customer intelligence. Dovetail helps teams pressure-test priorities, strengthen product decisions, and act on signals…",
+ "documentHeight": {
+  "1440": 8748,
+  "1280": 11133,
+  "768": 9789,
+  "390": 9072
+ },
+ "chrome": {
+  "alertBar": true,
+  "navBackground": null,
+  "footer": "ctaBand",
+  "footerCta": [
+   {
+    "role": "h2",
+    "text": "Turn customer feedback into product innovation",
+    "href": null
+   },
+   {
+    "role": "a",
+    "text": "Book a demo",
+    "href": "/request-a-demo/"
+   },
+   {
+    "role": "a",
+    "text": "Try Dovetail free",
+    "href": "/auth/signup/"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "slice": "SolutionHero",
+   "el": "eccoft00.e1ujd0230",
+   "measuredHeight": {
+    "1440": 785.6,
+    "1280": 607.6,
+    "768": 591.6,
+    "390": 721.6
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Product Research",
+     "el": "e18o1u1v2.etfyu4r0"
+    },
+    {
+     "role": "h1",
+     "text": "Build roadmap confidence with customer evidence",
+     "el": "e18o1u1v3"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 225,
+     "el": "e18o1u1v4"
+    },
+    {
+     "role": "link",
+     "text": "Start a 60-day free trial",
+     "href": "#trial-cta",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "No credit card required. Bring your existing data. Free migration included.",
+     "el": "eccoft01"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 120,
+    "1280": 64,
+    "768": 64,
+    "390": 64
+   }
+  },
+  {
+   "slice": "CompactLogo",
+   "el": "etid8i64",
+   "measuredHeight": {
+    "1440": 252,
+    "1280": 251.2,
+    "768": 251.2,
+    "390": 251.2
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Connecting the world's leading teams to their customers",
+     "el": "e1a4s9wi0"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-breville-white-logo.svg",
+     "alt": "Breville",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+     "alt": "Atlassian",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-notion-white-logo.svg",
+     "alt": "Notion",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-okta-white-logo.svg",
+     "alt": "Okta",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-aws-white-logo.svg",
+     "alt": "AWS",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-toyota-white-logo.svg",
+     "alt": "Toyota",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-qantas-white-logo.svg",
+     "alt": "Qantas",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-ncrvoyix-white-logo.svg",
+     "alt": "NCRVoyix",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-asml-white-logo.svg",
+     "alt": "ASML",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-zapier-white-logo.svg",
+     "alt": "Zapier",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 56,
+    "1280": 56,
+    "768": 56,
+    "390": 56
+   }
+  },
+  {
+   "slice": "SolutionSection",
+   "el": "eccoft02",
+   "measuredHeight": {
+    "1440": 819.4,
+    "1280": 1459.4,
+    "768": 1073.2,
+    "390": 811.7
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "AI Chat",
+     "el": "eccoft05.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Navigate competing priorities with stronger signal",
+     "el": "eccoft06"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 224,
+     "el": "eccoft07"
+    },
+    {
+     "role": "link",
+     "text": "Start a 60-day free trial",
+     "href": "#trial-cta",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat.png",
+     "alt": "AI Chat interface showing cited customer evidence",
+     "w": 682,
+     "h": 659.4,
+     "el": "eccoft010"
+    }
+   ]
+  },
+  {
+   "slice": "SolutionSection",
+   "el": "eccoft02",
+   "measuredHeight": {
+    "1440": 819.4,
+    "1280": 1459.4,
+    "768": 1073.2,
+    "390": 787.7
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-docs.png",
+     "alt": "AI-generated product brief with embedded customer evidence",
+     "w": 682,
+     "h": 659.4,
+     "el": "eccoft010"
+    },
+    {
+     "role": "text",
+     "text": "AI Docs",
+     "el": "eccoft05.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Turn signals into product direction",
+     "el": "eccoft06"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 199,
+     "el": "eccoft07"
+    },
+    {
+     "role": "link",
+     "text": "Start a 60-day free trial",
+     "href": "#trial-cta",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    }
+   ]
+  },
+  {
+   "slice": "SolutionSection",
+   "el": "eccoft02",
+   "measuredHeight": {
+    "1440": 819.4,
+    "1280": 1459.4,
+    "768": 1073.2,
+    "390": 787.7
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "AI Agents",
+     "el": "eccoft05.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Keep momentum during high-stakes planning cycles",
+     "el": "eccoft06"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 213,
+     "el": "eccoft07"
+    },
+    {
+     "role": "link",
+     "text": "Start a 60-day free trial",
+     "href": "#trial-cta",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/product-research-ai-agents.png",
+     "alt": "Automated agent workflow connecting research signals to product actions",
+     "w": 682,
+     "h": 659.4,
+     "el": "eccoft010"
+    }
+   ]
+  },
+  {
+   "slice": "SolutionSection",
+   "el": "eccoft02",
+   "measuredHeight": {
+    "1440": 819.4,
+    "1280": 1435.4,
+    "768": 1049.2,
+    "390": 763.7
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/integrations.png",
+     "alt": "Dovetail connected to product planning and delivery tools",
+     "w": 682,
+     "h": 659.4,
+     "el": "eccoft010"
+    },
+    {
+     "role": "text",
+     "text": "Integrations",
+     "el": "eccoft05.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Keep customer evidence in the flow of product work",
+     "el": "eccoft06"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 142,
+     "el": "eccoft07"
+    },
+    {
+     "role": "link",
+     "text": "Start a 60-day free trial",
+     "href": "#trial-cta",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "TestimonialSlice",
+   "el": "eqa8jb90",
+   "measuredHeight": {
+    "1440": 560,
+    "1280": 560,
+    "768": 362,
+    "390": 500.8
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/testimonial-grid-bg.png.png",
+     "alt": "Grid background",
+     "w": 1260,
+     "h": 560,
+     "el": "e1ms7w8v3"
+    },
+    {
+     "role": "link-card",
+     "text": null,
+     "href": "/customers/breville/",
+     "el": "e1i468kp0"
+    },
+    {
+     "role": "text",
+     "text": "Read customer story",
+     "el": "e1i468kp8"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti__3_.png",
+     "alt": "",
+     "w": 80,
+     "h": 80,
+     "el": "e1i468kp2"
+    },
+    {
+     "role": "quote",
+     "placeholder": true,
+     "chars": 217,
+     "el": "e1i468kp5"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-breville-white-logo.svg",
+     "alt": "Breville",
+     "w": 142,
+     "h": 40,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "Constance Docos",
+     "el": "e1i468kp6"
+    },
+    {
+     "role": "text",
+     "text": "Senior UX Designer",
+     "el": "e1i468kp7"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "SolutionTrial",
+   "el": "e1a8inxt0",
+   "measuredHeight": {
+    "1440": 840,
+    "1280": 702,
+    "768": 700,
+    "390": 700
+   },
+   "content": [
+    {
+     "role": "bg-image",
+     "src": "/assets/marketing/solution-trial-grid-bg.svg",
+     "el": "e1a8inxt0"
+    },
+    {
+     "role": "h2",
+     "text": "Bring customer evidence into your next roadmap decision",
+     "el": "e1a8inxt2"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 186,
+     "el": "e1a8inxt3"
+    },
+    {
+     "role": "link",
+     "text": "Start a 60-day free trial",
+     "href": "/auth/signup?promo=ENTERPRISE_SOLUTIONS_2026_D60",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Book a demo",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1a8inxt6-501588.svg",
+     "w": 24,
+     "h": 24,
+     "el": "e1a8inxt7"
+    },
+    {
+     "role": "text",
+     "text": "60 days full access, no feature limits",
+     "el": "e1a8inxt8"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1a8inxt6-501588.svg",
+     "w": 24,
+     "h": 24,
+     "el": "e1a8inxt7"
+    },
+    {
+     "role": "text",
+     "text": "Onboarding support from a research specialist",
+     "el": "e1a8inxt8"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1a8inxt6-501588.svg",
+     "w": 24,
+     "h": 24,
+     "el": "e1a8inxt7"
+    },
+    {
+     "role": "text",
+     "text": "Free migration from your current tool",
+     "el": "e1a8inxt8"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1a8inxt6-501588.svg",
+     "w": 24,
+     "h": 24,
+     "el": "e1a8inxt7"
+    },
+    {
+     "role": "text",
+     "text": "Full export if you decide not to continue",
+     "el": "e1a8inxt8"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "FAQ",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 538,
+    "1280": 606,
+    "768": 583,
+    "390": 679
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "FAQs",
+     "el": "ef2kgtv0"
+    },
+    {
+     "role": "button",
+     "text": "How is this different from just asking ChatGPT, Claude, or other AI tools?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ea410al3-082750.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 411,
+     "el": "span"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 911,
+     "el": "span"
+    },
+    {
+     "role": "button",
+     "text": "We already have a system for storing research. Why would we switch?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 428,
+     "el": "span"
+    },
+    {
+     "role": "button",
+     "text": "Can I trust AI to analyze research data?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 428,
+     "el": "span"
+    },
+    {
+     "role": "button",
+     "text": "How does Dovetail handle sensitive participant data?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 334,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "How easy is it to migrate from our current tool?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 247,
+     "el": "ef2kgtv2"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  }
+ ]
+}

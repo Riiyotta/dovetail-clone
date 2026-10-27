@@ -1,0 +1,1254 @@
+{
+  "url": "/the-best-never-guess/",
+  "template": "best-never-guess",
+  "title": "The Best Never Guess",
+  "metaDescription": "Stop guessing. Start knowing. Dovetail helps teams transform customer feedback into clear, actionable insights that power confident decisions and fuel…",
+  "documentHeight": {
+    "390": 4466,
+    "768": 3208,
+    "1280": 5646,
+    "1440": 5823
+  },
+  "chrome": {
+    "alertBar": false,
+    "navBackground": null,
+    "footer": "campaign"
+  },
+  "sections": [
+    {
+      "slice": "CampaignNav",
+      "el": "eciainh0",
+      "measuredHeight": {
+        "390": 88,
+        "768": 88,
+        "1280": 88,
+        "1440": 88
+      },
+      "content": [
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/eciainh4-670785.svg",
+          "w": 172,
+          "h": 31,
+          "el": "svg"
+        },
+        {
+          "role": "link",
+          "text": "Get 60 days full access",
+          "href": "#60-day-trial-offer",
+          "el": "a"
+        }
+      ]
+    },
+    {
+      "slice": "CampaignNav",
+      "el": "eciainh1",
+      "measuredHeight": {
+        "390": 78,
+        "768": 78,
+        "1280": 0,
+        "1440": 0
+      },
+      "content": [
+        {
+          "role": "link",
+          "text": "Get 60 days full access",
+          "href": "#60-day-trial-offer",
+          "el": "a",
+          "hiddenAt1440": true
+        }
+      ]
+    },
+    {
+      "slice": "BngHero",
+      "el": "e4352py0",
+      "measuredHeight": {
+        "390": 404.8,
+        "768": 404.8,
+        "1280": 800,
+        "1440": 900
+      },
+      "content": [
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/e99h80d2-761715.svg",
+          "w": 641,
+          "h": 478,
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/e99h80d2-081471.svg",
+          "w": 620,
+          "h": 376,
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/e99h80d2-392159.svg",
+          "w": 588,
+          "h": 726,
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/e99h80d2-525828.svg",
+          "w": 302,
+          "h": 526,
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/e99h80d2-866882.svg",
+          "w": 0,
+          "h": 0,
+          "el": "svg",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/e99h80d2-999097.svg",
+          "w": 0,
+          "h": 0,
+          "el": "svg",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/e99h80d2-670694.svg",
+          "w": 0,
+          "h": 0,
+          "el": "svg",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/e99h80d2-343923.svg",
+          "w": 0,
+          "h": 0,
+          "el": "svg",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "h1",
+          "text": "The best never guess",
+          "el": "visually-hidden"
+        },
+        {
+          "role": "text",
+          "text": "The",
+          "el": "e4352py7"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/e4352py12-888178.svg",
+          "w": 214.4,
+          "h": 150,
+          "el": "svg"
+        },
+        {
+          "role": "text",
+          "text": "best",
+          "el": "e4352py7"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/e4352py10-599807.svg",
+          "w": 150,
+          "h": 150,
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/e4352py11-072380.svg",
+          "w": 150,
+          "h": 150,
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/e4352py9-612639.svg",
+          "w": 150,
+          "h": 150,
+          "el": "svg"
+        },
+        {
+          "role": "text",
+          "text": "never",
+          "el": "e4352py7"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/e4352py9-618277.svg",
+          "w": 150,
+          "h": 150,
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/e4352py9-442131.svg",
+          "w": 150,
+          "h": 150,
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/e4352py10-602570.svg",
+          "w": 150,
+          "h": 150,
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/e4352py10-871444.svg",
+          "w": 150,
+          "h": 150,
+          "el": "svg"
+        },
+        {
+          "role": "text",
+          "text": "guess",
+          "el": "e4352py7"
+        }
+      ]
+    },
+    {
+      "slice": "BngTextSlice",
+      "el": "e29458r3",
+      "measuredHeight": {
+        "390": 495.5,
+        "768": 271.5,
+        "1280": 358,
+        "1440": 462
+      },
+      "content": [
+        {
+          "role": "img",
+          "src": "/assets/marketing/bng-text-slice-bottom-right-decoration.svg",
+          "alt": "",
+          "w": 371,
+          "h": 418,
+          "el": "img"
+        },
+        {
+          "role": "h2",
+          "text": {
+            "placeholder": true,
+            "chars": 221
+          },
+          "el": "e29458r7"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/airwallex-685718.svg",
+          "w": 120,
+          "h": 24.3,
+          "ariaLabel": "Airwallex",
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/lovable-140589.svg",
+          "w": 120,
+          "h": 27.9,
+          "ariaLabel": "Lovable",
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/qantas-481594.svg",
+          "w": 120,
+          "h": 30.8,
+          "ariaLabel": "Qantas",
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/shopify-664996.svg",
+          "w": 98.9,
+          "h": 34,
+          "ariaLabel": "Shopify",
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/wise-508507.svg",
+          "w": 109,
+          "h": 34,
+          "ariaLabel": "Wise",
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/airwallex-685718.svg",
+          "w": 120,
+          "h": 24.3,
+          "ariaLabel": "Airwallex",
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/lovable-140589.svg",
+          "w": 120,
+          "h": 27.9,
+          "ariaLabel": "Lovable",
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/qantas-481594.svg",
+          "w": 120,
+          "h": 30.8,
+          "ariaLabel": "Qantas",
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/shopify-664996.svg",
+          "w": 98.9,
+          "h": 34,
+          "ariaLabel": "Shopify",
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/wise-508507.svg",
+          "w": 109,
+          "h": 34,
+          "ariaLabel": "Wise",
+          "el": "svg"
+        },
+        {
+          "role": "link",
+          "text": "Get 60 days full access",
+          "href": "#60-day-trial-offer",
+          "el": "a"
+        }
+      ]
+    },
+    {
+      "slice": "Spacer",
+      "height": {
+        "390": 96,
+        "768": 96,
+        "1280": 96,
+        "1440": 224
+      }
+    },
+    {
+      "slice": "BngTestimonial",
+      "el": "et58vsw0",
+      "measuredHeight": {
+        "390": 392,
+        "768": 260,
+        "1280": 312,
+        "1440": 436
+      },
+      "content": [
+        {
+          "role": "img",
+          "src": "/assets/marketing/bng-mobile-testimonial-top-right-decoration.svg",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "el": "img",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "quote",
+          "text": "“Dovetail enables us to access all of Breville’s customer data gathered from around the globe—all in one place.“",
+          "el": "et58vsw2"
+        },
+        {
+          "role": "text",
+          "text": "Constance Docos, Senior UX Designer at Breville",
+          "el": "et58vsw3"
+        },
+        {
+          "role": "img",
+          "src": "/assets/marketing/breville-girl.webp",
+          "alt": "",
+          "w": 160,
+          "h": 160,
+          "el": "et58vsw6"
+        },
+        {
+          "role": "img",
+          "src": "/assets/marketing/breville.png",
+          "alt": "",
+          "w": 160,
+          "h": 160,
+          "el": "et58vsw6"
+        }
+      ]
+    },
+    {
+      "slice": "Spacer",
+      "height": {
+        "390": 40,
+        "768": 40,
+        "1280": 40,
+        "1440": 96
+      }
+    },
+    {
+      "slice": "BngCustomerStories",
+      "el": "e18efzco0",
+      "measuredHeight": {
+        "390": 0,
+        "768": 0,
+        "1280": 2208,
+        "1440": 1127.6
+      },
+      "content": [
+        {
+          "role": "link-card",
+          "text": null,
+          "href": "/customers/itau-unibanco/",
+          "el": "e1xybz549"
+        },
+        {
+          "role": "img",
+          "src": "/assets/Customer_Itau.png",
+          "alt": "",
+          "w": 376,
+          "h": 413.8,
+          "el": "img"
+        },
+        {
+          "role": "text",
+          "placeholder": true,
+          "chars": 213,
+          "el": "e1xybz542"
+        },
+        {
+          "role": "text",
+          "text": "Renato Cerqueira Leite",
+          "el": "e1xybz5411"
+        },
+        {
+          "role": "text",
+          "text": "Head of research Operations",
+          "el": "e1xybz5412"
+        },
+        {
+          "role": "img",
+          "src": "/assets/marketing/customer-itau-unibanco-white-logo.svg",
+          "alt": "Itaú Unibanco",
+          "w": 142,
+          "h": 64,
+          "el": "img"
+        },
+        {
+          "role": "link",
+          "text": "How Itaú Unibanco delivers better banking experiences with Dovetail ↘",
+          "href": "/customers/itau-unibanco/",
+          "el": "e1xybz5410"
+        },
+        {
+          "role": "link-card",
+          "text": null,
+          "href": "/customers/atlassian-design/",
+          "el": "e1xybz549"
+        },
+        {
+          "role": "img",
+          "src": "/assets/Customer_Atlassian.png",
+          "alt": "",
+          "w": 376,
+          "h": 413.8,
+          "el": "img"
+        },
+        {
+          "role": "text",
+          "placeholder": true,
+          "chars": 190,
+          "el": "e1xybz542"
+        },
+        {
+          "role": "text",
+          "text": "Martin Jerkovic",
+          "el": "e1xybz5411"
+        },
+        {
+          "role": "text",
+          "text": "Lead Product Designer",
+          "el": "e1xybz5412"
+        },
+        {
+          "role": "img",
+          "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+          "alt": "Atlassian",
+          "w": 142,
+          "h": 64,
+          "el": "img"
+        },
+        {
+          "role": "link",
+          "text": "How Atlassian turns customer signals into confident product decisions ↘",
+          "href": "/customers/atlassian-design/",
+          "el": "e1xybz5410"
+        },
+        {
+          "role": "link-card",
+          "text": null,
+          "href": "/customers/canva-ai/",
+          "el": "e1xybz549"
+        },
+        {
+          "role": "img",
+          "src": "/assets/Customer_Canva_AI.png",
+          "alt": "",
+          "w": 376,
+          "h": 413.8,
+          "el": "img"
+        },
+        {
+          "role": "text",
+          "placeholder": true,
+          "chars": 169,
+          "el": "e1xybz542"
+        },
+        {
+          "role": "text",
+          "text": "Craig Boustred",
+          "el": "e1xybz5411"
+        },
+        {
+          "role": "text",
+          "text": "Design Researcher",
+          "el": "e1xybz5412"
+        },
+        {
+          "role": "img",
+          "src": "/assets/marketing/customer-canva-white-logo.svg",
+          "alt": "Canva",
+          "w": 142,
+          "h": 64,
+          "el": "img"
+        },
+        {
+          "role": "link-card",
+          "text": null,
+          "href": "/customers/canva-ai/",
+          "el": "e1xybz5410"
+        },
+        {
+          "role": "link-card",
+          "text": null,
+          "href": "/customers/breville/",
+          "el": "e1xybz549"
+        },
+        {
+          "role": "img",
+          "src": "/assets/Customer_Breville.png",
+          "alt": "",
+          "w": 376,
+          "h": 413.8,
+          "el": "img"
+        },
+        {
+          "role": "text",
+          "placeholder": true,
+          "chars": 217,
+          "el": "e1xybz542"
+        },
+        {
+          "role": "text",
+          "text": "Constance Docos",
+          "el": "e1xybz5411"
+        },
+        {
+          "role": "text",
+          "text": "Senior UX Designer",
+          "el": "e1xybz5412"
+        },
+        {
+          "role": "img",
+          "src": "/assets/marketing/customer-breville-white-logo.svg",
+          "alt": "Breville",
+          "w": 142,
+          "h": 64,
+          "el": "img"
+        },
+        {
+          "role": "link",
+          "text": "How customer insights drive and inspire Breville’s product innovation ↘",
+          "href": "/customers/breville/",
+          "el": "e1xybz5410"
+        },
+        {
+          "role": "link-card",
+          "text": null,
+          "href": "/customers/cnh/",
+          "el": "e1xybz549"
+        },
+        {
+          "role": "img",
+          "src": "/assets/Customer_CNHIndustrial.png",
+          "alt": "",
+          "w": 376,
+          "h": 413.8,
+          "el": "img"
+        },
+        {
+          "role": "text",
+          "placeholder": true,
+          "chars": 207,
+          "el": "e1xybz542"
+        },
+        {
+          "role": "text",
+          "text": "Matthew Klopfenstein",
+          "el": "e1xybz5411"
+        },
+        {
+          "role": "text",
+          "text": "Portfolio Management–Cash Crop Segment Specialist",
+          "el": "e1xybz5412"
+        },
+        {
+          "role": "img",
+          "src": "/assets/marketing/customer-cnh-white-logo.svg",
+          "alt": "CNH",
+          "w": 142,
+          "h": 64,
+          "el": "img"
+        },
+        {
+          "role": "link",
+          "text": "How CNH builds better agricultural machinery, 50% faster with Dovetail ↘",
+          "href": "/customers/cnh/",
+          "el": "e1xybz5410"
+        },
+        {
+          "role": "link-card",
+          "text": null,
+          "href": "/customers/smartrecruiters/",
+          "el": "e1xybz549"
+        },
+        {
+          "role": "img",
+          "src": "/assets/Customer_SmartRecruiter.png",
+          "alt": "",
+          "w": 376,
+          "h": 413.8,
+          "el": "img"
+        },
+        {
+          "role": "text",
+          "placeholder": true,
+          "chars": 212,
+          "el": "e1xybz542"
+        },
+        {
+          "role": "text",
+          "text": "Danielle Reid",
+          "el": "e1xybz5411"
+        },
+        {
+          "role": "text",
+          "text": "Senior Design Manager",
+          "el": "e1xybz5412"
+        },
+        {
+          "role": "img",
+          "src": "/assets/marketing/customer-smartrecruiters-white-logo.svg",
+          "alt": "SmartRecruiters",
+          "w": 142,
+          "h": 64,
+          "el": "img"
+        },
+        {
+          "role": "link-card",
+          "text": null,
+          "href": "/customers/smartrecruiters/",
+          "el": "e1xybz5410"
+        }
+      ]
+    },
+    {
+      "slice": "BngCustomerStories",
+      "el": "e18efzco1",
+      "measuredHeight": {
+        "390": 424.5,
+        "768": 424.5,
+        "1280": 0,
+        "1440": 0
+      },
+      "content": [
+        {
+          "role": "link-card",
+          "text": null,
+          "href": "/customers/itau-unibanco/",
+          "el": "e1xybz549",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "img",
+          "src": "/assets/Customer_Itau.png",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "el": "img",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "text",
+          "placeholder": true,
+          "chars": 213,
+          "el": "e1xybz542",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "text",
+          "text": "Renato Cerqueira Leite",
+          "el": "e1xybz5411",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "text",
+          "text": "Head of research Operations",
+          "el": "e1xybz5412",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "img",
+          "src": "/assets/marketing/customer-itau-unibanco-white-logo.svg",
+          "alt": "Itaú Unibanco",
+          "w": 0,
+          "h": 0,
+          "el": "img",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "link",
+          "text": "How Itaú Unibanco delivers better banking experiences with Dovetail ↘",
+          "href": "/customers/itau-unibanco/",
+          "el": "e1xybz5410",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "link-card",
+          "text": null,
+          "href": "/customers/atlassian-design/",
+          "el": "e1xybz549",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "img",
+          "src": "/assets/Customer_Atlassian.png",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "el": "img",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "text",
+          "placeholder": true,
+          "chars": 190,
+          "el": "e1xybz542",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "text",
+          "text": "Martin Jerkovic",
+          "el": "e1xybz5411",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "text",
+          "text": "Lead Product Designer",
+          "el": "e1xybz5412",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "img",
+          "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+          "alt": "Atlassian",
+          "w": 0,
+          "h": 0,
+          "el": "img",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "link",
+          "text": "How Atlassian turns customer signals into confident product decisions ↘",
+          "href": "/customers/atlassian-design/",
+          "el": "e1xybz5410",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "link-card",
+          "text": null,
+          "href": "/customers/canva-ai/",
+          "el": "e1xybz549",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "img",
+          "src": "/assets/Customer_Canva_AI.png",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "el": "img",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "text",
+          "placeholder": true,
+          "chars": 169,
+          "el": "e1xybz542",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "text",
+          "text": "Craig Boustred",
+          "el": "e1xybz5411",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "text",
+          "text": "Design Researcher",
+          "el": "e1xybz5412",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "img",
+          "src": "/assets/marketing/customer-canva-white-logo.svg",
+          "alt": "Canva",
+          "w": 0,
+          "h": 0,
+          "el": "img",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "link-card",
+          "text": null,
+          "href": "/customers/breville/",
+          "el": "e1xybz549",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "img",
+          "src": "/assets/Customer_Breville.png",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "el": "img",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "text",
+          "placeholder": true,
+          "chars": 217,
+          "el": "e1xybz542",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "text",
+          "text": "Constance Docos",
+          "el": "e1xybz5411",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "text",
+          "text": "Senior UX Designer",
+          "el": "e1xybz5412",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "img",
+          "src": "/assets/marketing/customer-breville-white-logo.svg",
+          "alt": "Breville",
+          "w": 0,
+          "h": 0,
+          "el": "img",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "link",
+          "text": "How customer insights drive and inspire Breville’s product innovation ↘",
+          "href": "/customers/breville/",
+          "el": "e1xybz5410",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "link-card",
+          "text": null,
+          "href": "/customers/cnh/",
+          "el": "e1xybz549",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "img",
+          "src": "/assets/Customer_CNHIndustrial.png",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "el": "img",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "text",
+          "placeholder": true,
+          "chars": 207,
+          "el": "e1xybz542",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "text",
+          "text": "Matthew Klopfenstein",
+          "el": "e1xybz5411",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "text",
+          "text": "Portfolio Management–Cash Crop Segment Specialist",
+          "el": "e1xybz5412",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "img",
+          "src": "/assets/marketing/customer-cnh-white-logo.svg",
+          "alt": "CNH",
+          "w": 0,
+          "h": 0,
+          "el": "img",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "link",
+          "text": "How CNH builds better agricultural machinery, 50% faster with Dovetail ↘",
+          "href": "/customers/cnh/",
+          "el": "e1xybz5410",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "link-card",
+          "text": null,
+          "href": "/customers/smartrecruiters/",
+          "el": "e1xybz549",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "img",
+          "src": "/assets/Customer_SmartRecruiter.png",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "el": "img",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "text",
+          "placeholder": true,
+          "chars": 212,
+          "el": "e1xybz542",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "text",
+          "text": "Danielle Reid",
+          "el": "e1xybz5411",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "text",
+          "text": "Senior Design Manager",
+          "el": "e1xybz5412",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "img",
+          "src": "/assets/marketing/customer-smartrecruiters-white-logo.svg",
+          "alt": "SmartRecruiters",
+          "w": 0,
+          "h": 0,
+          "el": "img",
+          "hiddenAt1440": true
+        }
+      ]
+    },
+    {
+      "slice": "Spacer",
+      "height": {
+        "390": 96,
+        "768": 96,
+        "1280": 96,
+        "1440": 246
+      }
+    },
+    {
+      "slice": "BngTeamSwitch",
+      "el": "e1268f4r0",
+      "measuredHeight": {
+        "390": 956.2,
+        "768": 808.6,
+        "1280": 1016,
+        "1440": 1205.5
+      },
+      "content": [
+        {
+          "role": "img",
+          "src": "/assets/marketing/bng-team-switch-left-center-decoration.svg",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "el": "img"
+        },
+        {
+          "role": "img",
+          "src": "/assets/marketing/bng-team-switch-right-top-decoration.svg",
+          "alt": "",
+          "w": 234,
+          "h": 442,
+          "el": "img"
+        },
+        {
+          "role": "img",
+          "src": "/assets/marketing/bng-team-switch-right-bottom-decoration.svg",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "el": "img"
+        },
+        {
+          "role": "img",
+          "src": "/assets/marketing/bng-mobile-team-switch-bottom-left-decoration.svg",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "el": "img",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "img",
+          "src": "/assets/marketing/bng-mobile-team-switch-center-right-decoration.svg",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "el": "img",
+          "hiddenAt1440": true
+        },
+        {
+          "role": "h2",
+          "text": "Trusted by the best. Built by us.",
+          "el": "h2"
+        },
+        {
+          "role": "text",
+          "text": "Why teams",
+          "el": "e1268f4r10"
+        },
+        {
+          "role": "text",
+          "text": "like [] are",
+          "el": "e1268f4r10"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/notion-630332.svg",
+          "w": 124,
+          "h": 124,
+          "ariaLabel": "Notion",
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/canva-343830.svg",
+          "w": 124,
+          "h": 124,
+          "ariaLabel": "Canva",
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/ita-407611.svg",
+          "w": 124,
+          "h": 124,
+          "ariaLabel": "Itaú",
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/zapier-143594.svg",
+          "w": 124,
+          "h": 124,
+          "ariaLabel": "Zapier",
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/notion-630332.svg",
+          "w": 124,
+          "h": 124,
+          "ariaLabel": "Notion",
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/canva-343830.svg",
+          "w": 124,
+          "h": 124,
+          "ariaLabel": "Canva",
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/ita-407611.svg",
+          "w": 124,
+          "h": 124,
+          "ariaLabel": "Itaú",
+          "el": "svg"
+        },
+        {
+          "role": "svg",
+          "src": "/assets/marketing/svg/zapier-143594.svg",
+          "w": 124,
+          "h": 124,
+          "ariaLabel": "Zapier",
+          "el": "svg"
+        },
+        {
+          "role": "text",
+          "text": "innovating with",
+          "el": "e1268f4r10"
+        },
+        {
+          "role": "text",
+          "text": "↳ Dovetail",
+          "el": "e1268f4r10"
+        },
+        {
+          "role": "h2",
+          "text": {
+            "placeholder": true,
+            "chars": 195
+          },
+          "el": "e1268f4r11"
+        },
+        {
+          "role": "text",
+          "text": "Forrester’s The Total Economic Impact™ of Dovetail, 2025",
+          "el": "p"
+        },
+        {
+          "role": "text",
+          "text": "2.3x",
+          "el": "e1268f4r12"
+        },
+        {
+          "role": "text",
+          "text": "Return on investment",
+          "el": "e1268f4r13"
+        },
+        {
+          "role": "text",
+          "text": "30%",
+          "el": "e1268f4r12"
+        },
+        {
+          "role": "text",
+          "text": "Increased team capacity",
+          "el": "e1268f4r13"
+        },
+        {
+          "role": "text",
+          "text": "66%",
+          "el": "e1268f4r12"
+        },
+        {
+          "role": "text",
+          "text": "Faster shipping",
+          "el": "e1268f4r13"
+        }
+      ]
+    },
+    {
+      "slice": "Spacer",
+      "height": {
+        "390": 64,
+        "768": 64,
+        "1280": 64,
+        "1440": 246
+      }
+    },
+    {
+      "slice": "BngForm",
+      "el": "e1yij67q0",
+      "measuredHeight": {
+        "390": 1086,
+        "768": 332,
+        "1280": 340,
+        "1440": 564
+      },
+      "content": [
+        {
+          "role": "img",
+          "src": "/assets/marketing/bng-form-bottom-left-decoration.svg",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "el": "img"
+        },
+        {
+          "role": "img",
+          "src": "/assets/marketing/bng-form-bottom-right-decoration.svg",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "el": "img"
+        },
+        {
+          "role": "h2",
+          "text": "Join the world's leading teams.\nSign up for Enterprise and get your first 60 days on us.",
+          "el": "e1yij67q4"
+        },
+        {
+          "role": "h3",
+          "text": {
+            "placeholder": true,
+            "chars": 209
+          },
+          "el": "e1yij67q5"
+        }
+      ]
+    },
+    {
+      "slice": "BngFooter",
+      "el": "e1nbsdsv2",
+      "measuredHeight": {
+        "390": 322.8,
+        "768": 322.8,
+        "1280": 227.6,
+        "1440": 227.6
+      },
+      "content": [
+        {
+          "role": "button",
+          "text": "Cookie preferences",
+          "el": "e1nbsdsv0"
+        },
+        {
+          "role": "link",
+          "text": "Trust center",
+          "href": "https://trust.dovetail.com/",
+          "el": "e1nbsdsv0"
+        },
+        {
+          "role": "link",
+          "text": "Legal and privacy",
+          "href": "/legal/",
+          "el": "e1nbsdsv0"
+        },
+        {
+          "role": "text",
+          "text": "© 2026 Dovetail",
+          "el": "e1nbsdsv1"
+        }
+      ]
+    }
+  ]
+}

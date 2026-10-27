@@ -1,0 +1,139 @@
+{
+ "id": "hero.tool",
+ "title": "Tool hero",
+ "semantic": {
+  "id": "hero.tool",
+  "category": "HERO"
+ },
+ "source": {
+  "id": "component:RoiCalculator:roi-h1",
+  "file": "src/pages/tools/RoiCalculator.jsx",
+  "tag": "h1",
+  "lines": "151-163",
+  "tagLine": 151,
+  "anchor": "roi-h1",
+  "anchorLine": 151
+ },
+ "purpose": "Left-aligned opener for an interactive tool: eyebrow, H64 title, lead, CTA row.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "lead"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 1,
+   "observedOn": [
+    "/roi-calculator/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions",
+   "heading",
+   "lead"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 2
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 17,
+    "observedIn": 2
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 6,
+    "maxChars": 38,
+    "observedIn": 1
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 10,
+    "maxChars": 58,
+    "observedIn": 1
+   }
+  },
+  "listSizes": {
+   "actions": [
+    2,
+    2
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {
+   "spaceBefore": {
+    "kind": "token",
+    "allowed": [
+     "space.section.s200"
+    ]
+   }
+  },
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 1,
+   "nodes": 1,
+   "minPx": 415.6,
+   "maxPx": 415.6,
+   "medianPx": 415.6,
+   "sample": {
+    "/roi-calculator/": [
+     415.6
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/tools/RoiCalculator.jsx:151-163",
+  "specs/roi-calculator.md:1-30"
+ ]
+}

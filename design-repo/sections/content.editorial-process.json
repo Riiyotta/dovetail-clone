@@ -1,0 +1,138 @@
+{
+ "id": "content.editorial-process",
+ "title": "Editorial process box",
+ "semantic": {
+  "id": "content.editorial-process",
+  "category": "CONTENT"
+ },
+ "source": {
+  "id": "component:components:ebox",
+  "file": "src/pages/guides/components.jsx",
+  "tag": "div",
+  "lines": "373-385",
+  "tagLine": 373,
+  "anchor": "ebox",
+  "anchorLine": 373
+ },
+ "purpose": "Boxed heading and paragraph explaining how articles are written and reviewed.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "lead"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 21,
+   "observedOn": [
+    "/contributors/",
+    "/contributors/brittany-ferri/",
+    "/contributors/cathy-heath/",
+    "/contributors/chloe-garnham/",
+    "/contributors/claire-bonneau/",
+    "/contributors/claudia-natasia/",
+    "/contributors/dovetail-editorial-team/",
+    "/contributors/hugh-good/",
+    "/contributors/jean-kaluza/",
+    "/contributors/jen-lee/",
+    "/contributors/katie-reed/",
+    "/contributors/lara-leganger/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "lead"
+  ],
+  "fields": {
+   "lead": {
+    "type": "text",
+    "maxWords": 95,
+    "maxChars": 576,
+    "observedIn": 4
+   }
+  },
+  "listSizes": {},
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {
+   "spaceBefore": {
+    "kind": "token",
+    "allowed": [
+     "space.section.s200"
+    ]
+   }
+  },
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 21,
+   "nodes": 21,
+   "minPx": 464,
+   "maxPx": 464,
+   "medianPx": 464,
+   "sample": {
+    "/contributors/": [
+     464
+    ],
+    "/contributors/brittany-ferri/": [
+     464
+    ],
+    "/contributors/cathy-heath/": [
+     464
+    ],
+    "/contributors/chloe-garnham/": [
+     464
+    ],
+    "/contributors/claire-bonneau/": [
+     464
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/guides/components.jsx:373-385",
+  "specs/contributors-index.md:1-30",
+  "specs/contributor-profile.md:1-30"
+ ]
+}

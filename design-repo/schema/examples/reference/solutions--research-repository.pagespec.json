@@ -1,0 +1,572 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T3",
+ "route": "/solutions/research-repository/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "cta-band"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Research Repository"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.solution",
+   "variant": "default",
+   "content": {
+    "heading": "You’ve answered this question before. Your team is about to ask it again.",
+    "lead": "Turn studies, transcripts, and feedback into shared customer intelligence your team can reuse, trust, and apply across decisions.",
+    "actions": [
+     {
+      "label": "Start a 60-day free trial",
+      "href": "#trial-cta"
+     },
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.logo-marquee",
+   "variant": "two-row",
+   "content": {
+    "lead": "CONNECTING THE WORLD'S LEADING TEAMS TO THEIR CUSTOMERS",
+    "media": [
+     {
+      "assetRole": "customer.logo",
+      "alt": "Breville",
+      "ref": "/assets/marketing/customer-breville-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Atlassian",
+      "ref": "/assets/marketing/customer-atlassian-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Notion",
+      "ref": "/assets/marketing/customer-notion-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Okta",
+      "ref": "/assets/marketing/customer-okta-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "AWS",
+      "ref": "/assets/marketing/customer-aws-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Toyota",
+      "ref": "/assets/marketing/customer-toyota-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Breville",
+      "ref": "/assets/marketing/customer-breville-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Atlassian",
+      "ref": "/assets/marketing/customer-atlassian-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Notion",
+      "ref": "/assets/marketing/customer-notion-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Okta",
+      "ref": "/assets/marketing/customer-okta-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "AWS",
+      "ref": "/assets/marketing/customer-aws-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Toyota",
+      "ref": "/assets/marketing/customer-toyota-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Qantas",
+      "ref": "/assets/marketing/customer-qantas-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "NCRVoyix",
+      "ref": "/assets/marketing/customer-ncrvoyix-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "ASML",
+      "ref": "/assets/marketing/customer-asml-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Zapier",
+      "ref": "/assets/marketing/customer-zapier-white-logo.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "marquee.loop",
+    "reducedMotionFallback": "paused"
+   },
+   "style": {
+    "spaceBefore": "space.section.s120"
+   }
+  },
+  {
+   "section": "features.alternating-row",
+   "variant": "media-right",
+   "content": {
+    "heading": "Stop duplicating work that’s already done",
+    "lead": "Nisi ea duis in velit fugiat excepteur cupidatat sunt officia anim laborum dolor. Consectetur sed tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit esse. Nulla sint non culpa deserunt id.",
+    "actions": [
+     {
+      "label": "Start a 60-day free trial",
+      "href": "#trial-cta"
+     },
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "AI Chat interface surfacing prior research findings",
+      "ref": "/assets/marketing/research-repository-1.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.stack.56"
+   }
+  },
+  {
+   "section": "features.alternating-row",
+   "variant": "media-left",
+   "content": {
+    "heading": "Make insights accessible beyond the research team",
+    "lead": "Aute reprehenderit esse nulla sint non culpa deserunt id. Lorem sit adipiscing do incididunt et aliqua minim nostrud. Laboris ex consequat irure voluptate cillum pariatur occaecat. Proident qui.",
+    "actions": [
+     {
+      "label": "Start a 60-day free trial",
+      "href": "#trial-cta"
+     },
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Research findings accessible to teams across the organisation",
+      "ref": "/assets/marketing/research-repository-2.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.alternating-row",
+   "variant": "media-right",
+   "content": {
+    "heading": "Insights stay in reports—not where teams actually work",
+    "lead": "Use research evidence to shape briefs, planning, and decisions without forcing stakeholders back into raw data.",
+    "actions": [
+     {
+      "label": "Start a 60-day free trial",
+      "href": "#trial-cta"
+     },
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "AI-generated document with embedded research evidence",
+      "ref": "/assets/marketing/research-repository-3.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.alternating-row",
+   "variant": "media-left",
+   "content": {
+    "heading": "Teams ask for evidence when it’s already too late",
+    "lead": "Bring research into the tools where product and design work happens, so evidence is available earlier rather than retrofitted later.",
+    "actions": [
+     {
+      "label": "Start a 60-day free trial",
+      "href": "#trial-cta"
+     },
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Dovetail connected to product and design tools",
+      "ref": "/assets/marketing/research-repository-4.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.alternating-row",
+   "variant": "media-right",
+   "content": {
+    "heading": "Important signals get missed between synthesis and action",
+    "lead": "Let agents help move from pattern to next step: drafting briefs, routing signals, and notifying the right people.",
+    "actions": [
+     {
+      "label": "Start a 60-day free trial",
+      "href": "#trial-cta"
+     },
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "AI agent automating the path from research signal to action",
+      "ref": "/assets/marketing/research-repository-5.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.alternating-row",
+   "variant": "centered",
+   "content": {
+    "heading": "From research repository to product roadmap",
+    "lead": "Ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi ea duis in. Velit fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor. Labore magna ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint non.",
+    "actions": [
+     {
+      "label": "Start a 60-day free trial",
+      "href": "#trial-cta"
+     },
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.alternating-row",
+   "variant": "media-left",
+   "content": {
+    "heading": "Research should give teams the full picture",
+    "lead": "Sed tempor labore magna ad quis ullamco aliquip commodo. Aute reprehenderit esse nulla sint non culpa deserunt. Id lorem sit adipiscing do incididunt et aliqua minim nostrud laboris. Ex consequat irure voluptate cillum pariatur occaecat proident qui. Mollit est ipsum amet elit eiusmod ut dolore. Enim veniam.",
+    "actions": [
+     {
+      "label": "Start a 60-day free trial",
+      "href": "#trial-cta"
+     },
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Dovetail as a unified research system of record",
+      "ref": "/assets/marketing/research-repository-6.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.testimonial",
+   "variant": "featured",
+   "content": {
+    "quote": {
+     "text": "“Lorem sit adipiscing do incididunt et aliqua minim nostrud. Laboris ex consequat irure voluptate cillum pariatur occaecat proident qui mollit. Est ipsum amet elit eiusmod ut dolore enim veniam. Exercitation nisi.”"
+    },
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/testimonial-grid-bg.png.png"
+     },
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti__3_.png"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Breville",
+      "ref": "/assets/marketing/customer-breville-white-logo.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "cursor.tooltip",
+    "reducedMotionFallback": "unchanged"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "cta.trial-band",
+   "variant": "solutions",
+   "content": {
+    "heading": "Bring customer evidence into your next roadmap decision",
+    "lead": "Irure voluptate cillum pariatur occaecat proident qui mollit est ipsum amet elit eiusmod. Ut dolore enim veniam exercitation nisi ea duis in velit. Fugiat excepteur cupidatat sunt.",
+    "actions": [
+     {
+      "label": "Start a 60-day free trial",
+      "href": "/auth/signup?promo=ENTERPRISE_SOLUTIONS_2026_D60"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/contact-sales/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "interactive.faq",
+   "variant": "marketing",
+   "content": {
+    "heading": "FAQs",
+    "items": [
+     {
+      "title": "How is this different from just asking ChatGPT, Claude, or other AI tools?"
+     },
+     {
+      "title": "We already have a system for storing research. Why would we switch?"
+     },
+     {
+      "title": "Can I trust AI to analyze research data?"
+     },
+     {
+      "title": "How does Dovetail handle sensitive participant data?",
+      "text": "Sed tempor labore magna ad quis ullamco aliquip commodo. Aute reprehenderit esse nulla sint non culpa deserunt. Id lorem sit adipiscing do incididunt et aliqua minim nostrud laboris. Ex consequat irure voluptate cillum pariatur occaecat proident qui. Mollit est ipsum amet elit eiusmod ut dolore. Enim veniam exercitation nisi ea."
+     },
+     {
+      "title": "How easy is it to migrate from our current tool?",
+      "text": "Veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt. Officia anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco aliquip commodo aute reprehenderit esse. Nulla sint non culpa deserunt id lorem sit adipiscing do."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "accordion.height",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "cta-band",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     },
+     {
+      "label": "Try Dovetail free",
+      "href": "/auth/signup/"
+     },
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ],
+    "heading": "Turn customer feedback into product innovation"
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

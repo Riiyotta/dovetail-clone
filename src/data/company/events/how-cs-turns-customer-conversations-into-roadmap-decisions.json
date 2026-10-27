@@ -1,0 +1,162 @@
+{
+ "slug": "how-cs-turns-customer-conversations-into-roadmap-decisions",
+ "path": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+ "title": "How CS turns customer conversations into roadmap decisions",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2026-11-19T09:00-08:00",
+ "endDate": "2026-11-19T10:00-08:00",
+ "onlineEvent": true,
+ "location": "Online",
+ "hosts": [
+  "Travis Foulis",
+  "Sascha Kerbert"
+ ],
+ "registrationUrl": "https://www.customersuccesscollective.com/fixing-the-cs-blindspot/",
+ "zoomWebinarId": null,
+ "youtubeId": null,
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Travis Foulis, Sascha Kerbert"
+  },
+  {
+   "label": "[START]",
+   "value": "19 Nov 2026 9:00AM PST"
+  },
+  {
+   "label": "[END]",
+   "value": "19 Nov 2026 10:00AM PST"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Online"
+  },
+  {
+   "label": "[REGISTER]",
+   "value": "Register here",
+   "href": "https://www.customersuccesscollective.com/fixing-the-cs-blindspot/",
+   "linkText": "Register here"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png",
+  "width": 1920,
+  "height": 1080,
+  "youtubeId": null
+ },
+ "body": [
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 280
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 199
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 168
+  },
+  {
+   "t": "h2",
+   "text": "What we’ll cover"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 185,
+     "strong": [
+      "One view of every customer signal:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 178,
+     "strong": [
+      "Prioritizing what’s worth acting on:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 172,
+     "strong": [
+      "Getting feedback to Product and closing the loop:"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "You’ll learn how to"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 120,
+     "strong": [
+      "Unify scattered feedback:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 63,
+     "strong": [
+      "Catch churn risk early:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 113,
+     "strong": [
+      "Find the highest-value requests:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 107,
+     "strong": [
+      "Make the case to Product:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 82,
+     "strong": [
+      "Automate the follow-through:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 70,
+     "strong": [
+      "Close the loop:"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 8,
+   "links": [
+    {
+     "text": "Register",
+     "href": "https://www.customersuccesscollective.com/fixing-the-cs-blindspot/"
+    }
+   ]
+  }
+ ],
+ "moreEvents": []
+}

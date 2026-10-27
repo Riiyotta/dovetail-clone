@@ -1,0 +1,309 @@
+{
+ "slug": "bower",
+ "path": "/customers/bower/",
+ "title": "Dovetail helps Bower build products from what scientists say",
+ "eyebrow": "CUSTOMER / BOWER",
+ "companyName": "Bower",
+ "isAnonymous": false,
+ "industry": "Technology",
+ "intro": {
+  "placeholder": true,
+  "chars": 288
+ },
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/bower-michelle-cover.jpg",
+  "width": 1200,
+  "height": 1200,
+  "youtubeId": null,
+  "caption": [
+   "MICHELLE MACRAE, CEO AND CO-FOUNDER"
+  ]
+ },
+ "stats": [
+  {
+   "value": "4",
+   "label": "research programs unified in one shared workspace"
+  },
+  {
+   "value": "37",
+   "label": "data entries in its PhD researcher program alone"
+  },
+  {
+   "value": "243",
+   "label": "highlights captured from the same program"
+  }
+ ],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "Scientists don’t talk in the lab",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 311
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 266
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 153
+    },
+    {
+     "t": "blockquote",
+     "text": "“You should be embarrassed by what you’re showing. If you’re not, you’ve shown it too late.”Michelle MacRaeCEO and Co-founder, Bower"
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 268
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 269
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/bower-lab-bench.jpg",
+     "alt": "A biosafety cabinet and lab bench inside Bower’s lab",
+     "w": 2528,
+     "h": 1684
+    }
+   ]
+  },
+  {
+   "heading": "Every recording, one shared source of truth",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 187
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 288
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 92
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 303
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 208
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 365,
+     "links": [
+      {
+       "text": "Chat",
+       "href": "/product/ai-chat/"
+      }
+     ]
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/bower-dovetail-workspace.png",
+     "alt": "Bower’s own research programs inside its Dovetail workspace",
+     "w": 0,
+     "h": 0
+    }
+   ]
+  },
+  {
+   "heading": "Answers that link back to evidence",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 146
+    },
+    {
+     "t": "blockquote",
+     "placeholder": true,
+     "chars": 191
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 267
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 191
+    }
+   ]
+  },
+  {
+   "heading": "An evidence-first culture, from the lab to the boardroom",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 291
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 233
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 218
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": {
+  "quote": {
+   "placeholder": true,
+   "chars": 151
+  },
+  "name": "Michelle MacRae",
+  "role": "CEO and Co-founder"
+ },
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "pvcase",
+   "href": "/customers/pvcase/",
+   "title": "Dovetail helps PVcase put the customer’s voice at the center of every product decision",
+   "industry": "Technology",
+   "order": 6,
+   "companyName": "PVcase",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/company/media/solar-toggle-02.webp",
+    "alt": "",
+    "w": 2880,
+    "h": 1600
+   },
+   "logo": {
+    "src": "/assets/company/customers/pvcase/white-logo.png",
+    "alt": "PVcase",
+    "w": 520,
+    "h": 80
+   },
+   "testimonial": {
+    "quote": "“Now I can search for specific surfacing topics or user problems across the entire database with the help of Dovetail’s AI agent.”",
+    "name": "Imre Horváth",
+    "role": "R&D Lead, PVcase"
+   }
+  },
+  {
+   "slug": "canva",
+   "href": "/customers/canva/",
+   "title": "Dovetail helps Canva empower the world to design, one customer insight at a time",
+   "industry": "Technology",
+   "order": 99,
+   "companyName": "Canva",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Canva.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/white-logo(2).svg",
+    "alt": "Canva",
+    "w": 120,
+    "h": 41
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 197
+    },
+    "name": "Craig Boustred",
+    "role": "Design Researcher"
+   }
+  },
+  {
+   "slug": "safetyculture",
+   "href": "/customers/safetyculture/",
+   "title": "SafetyCulture puts the customer at the heart of decision with Dovetail",
+   "industry": "Technology",
+   "order": 5,
+   "companyName": "SafetyCulture",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_SafetyCulture.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-safetyculture-white-logo.svg",
+    "alt": "SafetyCulture",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 158
+    },
+    "name": "Jules Lipman",
+    "role": "Product Designer"
+   }
+  }
+ ]
+}

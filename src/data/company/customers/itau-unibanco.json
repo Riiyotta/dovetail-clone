@@ -1,0 +1,288 @@
+{
+ "slug": "itau-unibanco",
+ "path": "/customers/itau-unibanco/",
+ "title": "How Itaú Unibanco delivers better banking experiences with Dovetail",
+ "eyebrow": "CUSTOMER / ITAÚ UNIBANCO",
+ "companyName": "Itau Unibanco",
+ "isAnonymous": false,
+ "industry": "Finance",
+ "intro": {
+  "placeholder": true,
+  "chars": 183
+ },
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/005C_customer_story_Itau_Unibanco-social.jpg",
+  "width": 1472,
+  "height": 948,
+  "youtubeId": null,
+  "caption": [
+   "RENATO CERQUEIRA LEITE, HEAD OF RESEARCH OPERATIONS"
+  ]
+ },
+ "stats": [
+  {
+   "value": "2,000+",
+   "label": "Dovetail projects conducted annually"
+  },
+  {
+   "value": "5,000+",
+   "label": "Dovetail users"
+  },
+  {
+   "value": "55M+",
+   "label": "customers in South America"
+  }
+ ],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "Using AI to turn complex customer data into answers",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 292
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 248
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 373,
+     "links": [
+      {
+       "text": "AI Chat",
+       "href": "/product/ai-chat/"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 142
+    },
+    {
+     "t": "iframe",
+     "src": "https://www.youtube.com/embed/GDo8GDPdPwE?rel=0&autoplay=0&modestbranding=1",
+     "youtubeId": "GDo8GDPdPwE",
+     "poster": "/assets/company/external/youtube-GDo8GDPdPwE.jpg"
+    }
+   ]
+  },
+  {
+   "heading": "Giving 40+ hours back every month with AI-powered efficiency",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 448
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 365
+    }
+   ]
+  },
+  {
+   "heading": "Real-time customer intelligence for every team, all in one place",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 276
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 185
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 420
+    },
+    {
+     "t": "iframe",
+     "src": "https://www.youtube.com/embed/XdVIpmaAQXc?rel=0&autoplay=0&modestbranding=1",
+     "youtubeId": "XdVIpmaAQXc",
+     "poster": "/assets/company/external/youtube-XdVIpmaAQXc.jpg"
+    }
+   ]
+  },
+  {
+   "heading": "Cultivating a customer-centric culture, built on a foundation of trust and compliance",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 270
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 443,
+     "links": [
+      {
+       "text": "enterprise-grade security, robust risk management, and regulatory compliance",
+       "href": "https://trust.dovetail.com/"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 408
+    },
+    {
+     "t": "iframe",
+     "src": "https://www.youtube.com/embed/lnjA8Vxd05U?rel=0&autoplay=0&modestbranding=1",
+     "youtubeId": "lnjA8Vxd05U",
+     "poster": "/assets/company/external/youtube-lnjA8Vxd05U.jpg"
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": {
+  "quote": {
+   "placeholder": true,
+   "chars": 213
+  },
+  "name": "Renato Cerqueira Leite",
+  "role": "Head of research Operations"
+ },
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "breville",
+   "href": "/customers/breville/",
+   "title": "How customer insights drive and inspire Breville’s product innovation",
+   "industry": "Consumer",
+   "order": 3,
+   "companyName": "Breville",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/Customer_Breville.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/white-logo(3).svg",
+    "alt": "Breville",
+    "w": 132,
+    "h": 32
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 217
+    },
+    "name": "Constance Docos",
+    "role": "Senior UX Designer"
+   }
+  },
+  {
+   "slug": "atlassian-design",
+   "href": "/customers/atlassian-design/",
+   "title": "How Atlassian turns customer signals into confident product decisions",
+   "industry": "Technology",
+   "order": 2,
+   "companyName": "Atlassian",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/company/media/Customer_Atlassian.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+    "alt": "Atlassian",
+    "w": 160,
+    "h": 20
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 190
+    },
+    "name": "Martin Jerkovic",
+    "role": "Lead Product Designer"
+   }
+  },
+  {
+   "slug": "achievers",
+   "href": "/customers/achievers/",
+   "title": "How Achievers powers employee experience with always-on customer intelligence",
+   "industry": "Technology",
+   "order": 6,
+   "companyName": "Achievers",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Achievers.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-achievers-white-logo.svg",
+    "alt": "Achievers",
+    "w": 143,
+    "h": 28
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 229
+    },
+    "name": "Marie-Andrée Turgeon",
+    "role": "Senior Manager of Product Operations"
+   }
+  }
+ ]
+}

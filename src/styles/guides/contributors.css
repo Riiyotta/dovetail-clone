@@ -1,0 +1,42 @@
+/* specs/contributors-index.md, specs/contributor-profile.md (light) */
+.ct { color: var(--c-ink); }
+.ct__intro, .ct__role { font-size: 16px; line-height: 24px; color: var(--c-ink); }
+
+.ct__sp-64 { height: 64px; }
+.ct__sp-200 { height: 200px; }
+
+.ct__group-h { font-size: 32px; line-height: 40px; font-weight: 500; letter-spacing: -0.5px; color: var(--c-ink); margin-bottom: 40px; }
+
+.ct-row { padding: 24px 0; }
+.ct-row__name {
+  display: inline-flex; align-items: center; color: var(--c-ink); border: 1px solid transparent;
+  font-size: 18px; line-height: 24px; font-weight: 500; letter-spacing: -0.25px;
+}
+.ct-row__arrow { display: inline-flex; transition: transform 150ms cubic-bezier(.2,.6,.6,1); }
+.ct-row__arrow svg { display: block; }
+.ct-row__name:hover, .ct-row__name:focus-visible { opacity: .9; text-decoration: underline; }
+.ct-row__name:hover .ct-row__arrow, .ct-row__name:focus-visible .ct-row__arrow { transform: translate3d(4px, 0, 0); }
+/* unclassed `p` on the original: global p style 20px / normal */
+.ct-row__role { font-size: 20px; line-height: normal; font-weight: 400; color: var(--c-ink); margin-top: 8px; }
+
+/* Profile */
+.ct__skills { max-width: 736px; }
+.ct__list-h { font-size: 24px; line-height: 32px; font-weight: 500; letter-spacing: -0.5px; color: var(--c-ink); }
+.ct-item__title {
+  display: block; font-size: 18px; line-height: 24px; font-weight: 500; letter-spacing: -0.25px; color: var(--c-ink);
+  margin-bottom: 8px; border: 1px solid transparent;
+}
+.ct-item__title:hover, .ct-item__title:focus-visible { color: var(--c-ink-muted); text-decoration: underline; }
+.ct-item__date { color: var(--c-ink-muted); }
+
+@media (max-width: 1280px) {
+  .ct__sp-64 { height: 40px; }
+  .ct__sp-200 { height: 96px; }
+  .ct__group-h { font-size: 24px; line-height: 32px; letter-spacing: -0.25px; margin-bottom: 24px; }
+  .ct-row__name { font-size: 16px; line-height: 24px; }
+  .ct__list-h { font-size: 20px; line-height: 28px; }
+  .ct-item__title { font-size: 16px; line-height: 24px; }
+}
+@media (max-width: 799px) {
+  .ct__list-h { font-size: 18px; line-height: 24px; }
+}

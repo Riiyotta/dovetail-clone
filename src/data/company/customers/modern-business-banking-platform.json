@@ -1,0 +1,348 @@
+{
+ "slug": "modern-business-banking-platform",
+ "path": "/customers/modern-business-banking-platform/",
+ "title": "How a banking platform turned fragmented feedback into company-wide customer intelligence",
+ "eyebrow": "CUSTOMER / A MODERN BANKING PLATFORM FOR AMBITIOUS BUSINESSES",
+ "companyName": "A modern banking platform for ambitious businesses",
+ "isAnonymous": true,
+ "industry": "Financial Services",
+ "intro": {
+  "placeholder": true,
+  "chars": 246
+ },
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/sean-pollock-PhYq704ffdA-unsplash.jpg",
+  "width": 6000,
+  "height": 4000,
+  "youtubeId": null,
+  "caption": []
+ },
+ "stats": [
+  {
+   "value": "35,000+",
+   "label": "monthly support tickets now surfaced to cross-functional teams"
+  },
+  {
+   "value": "5",
+   "label": "teams now sharing the same customer intelligence"
+  },
+  {
+   "value": "56,000+",
+   "label": "data points processed in the first six weeks of Channels"
+  }
+ ],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "Built for customer closeness—at the scale of tens of thousands of businesses",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 397
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 324
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 429
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/eduardo-soares-utWyPB8_FU8-unsplash.jpg",
+     "alt": "ATM keypad representing the everyday banking infrastructure the company’s customers rely on",
+     "w": 5157,
+     "h": 3438
+    }
+   ]
+  },
+  {
+   "heading": "The challenge: four teams, four silos, and a quarterly meeting that couldn’t keep up",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 523
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 59
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 333
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 307
+    },
+    {
+     "t": "blockquote",
+     "placeholder": true,
+     "chars": 215
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/analysis-channels-slice-1.png",
+     "alt": "Dovetail Channels interface showing themes and trends across customer feedback sources",
+     "w": 1664,
+     "h": 2020
+    }
+   ]
+  },
+  {
+   "heading": "The solution: one workspace connecting support, revenue, product, and marketing",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 352,
+     "links": [
+      {
+       "text": "Channels",
+       "href": "/product/ai-projects/"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 531
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 489,
+     "links": [
+      {
+       "text": "AI-generated themes",
+       "href": "/product/ai-projects/"
+      }
+     ]
+    },
+    {
+     "t": "blockquote",
+     "text": "“Channels has made a real difference to how we work as an organization.” — Product Operations Lead"
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/AI_Analysis_Hero__1_.png",
+     "alt": "Dovetail AI Analysis automatically surfacing themes from high-volume customer data",
+     "w": 0,
+     "h": 0
+    }
+   ]
+  },
+  {
+   "heading": "The outcome: customer intelligence that reaches the executive table",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 408
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 199
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 644,
+     "strong": [
+      "self-serve"
+     ]
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 441
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": {
+  "quote": "“Channels has made a real difference to how we work as an organization.”",
+  "name": null,
+  "role": "Product Operations Lead"
+ },
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "cnh",
+   "href": "/customers/cnh/",
+   "title": "How CNH builds better agricultural machinery, 50% faster with Dovetail",
+   "industry": "Manufacturing",
+   "order": 3,
+   "companyName": "CNH",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/Customer_CNHIndustrial.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/white-logo(4).svg",
+    "alt": "CNH",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 207
+    },
+    "name": "Matthew Klopfenstein",
+    "role": "Portfolio Management–Cash Crop Segment Specialist"
+   }
+  },
+  {
+   "slug": "itau-unibanco",
+   "href": "/customers/itau-unibanco/",
+   "title": "How Itaú Unibanco delivers better banking experiences with Dovetail",
+   "industry": "Finance",
+   "order": 1,
+   "companyName": "Itau Unibanco",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/Customer_Itau.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/white-logo.svg",
+    "alt": "Itaú Unibanco",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 213
+    },
+    "name": "Renato Cerqueira Leite",
+    "role": "Head of research Operations"
+   }
+  },
+  {
+   "slug": "breville",
+   "href": "/customers/breville/",
+   "title": "How customer insights drive and inspire Breville’s product innovation",
+   "industry": "Consumer",
+   "order": 3,
+   "companyName": "Breville",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/Customer_Breville.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/white-logo(3).svg",
+    "alt": "Breville",
+    "w": 132,
+    "h": 32
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 217
+    },
+    "name": "Constance Docos",
+    "role": "Senior UX Designer"
+   }
+  }
+ ],
+ "faq": {
+  "heading": "FAQs",
+  "items": [
+   {
+    "q": "Can Dovetail ingest feedback from support ticketing tools and CRM data, not just interviews?",
+    "a": {
+     "placeholder": true,
+     "chars": 344
+    }
+   },
+   {
+    "q": "Can Dovetail weigh feedback by customer size or value instead of treating every request the same?",
+    "a": {
+     "placeholder": true,
+     "chars": 213
+    }
+   },
+   {
+    "q": "Can support, sales, and marketing teams work in the same place as research and design, instead of separate tools?",
+    "a": {
+     "placeholder": true,
+     "chars": 305
+    }
+   },
+   {
+    "q": "How much customer feedback data can Dovetail Channels process?",
+    "a": {
+     "placeholder": true,
+     "chars": 206
+    }
+   },
+   {
+    "q": "Does Dovetail change how often an organization can run its voice-of-customer program?",
+    "a": {
+     "placeholder": true,
+     "chars": 306
+    }
+   }
+  ]
+ }
+}

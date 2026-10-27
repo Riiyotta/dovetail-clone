@@ -1,0 +1,321 @@
+{
+ "slug": "atlassian-design",
+ "path": "/customers/atlassian-design/",
+ "title": "How Atlassian turns customer signals into confident product decisions",
+ "eyebrow": "CUSTOMER / ATLASSIAN",
+ "companyName": "Atlassian",
+ "isAnonymous": false,
+ "industry": "Technology",
+ "intro": {
+  "placeholder": true,
+  "chars": 153
+ },
+ "hero": {
+  "type": "video",
+  "image": "/assets/company/media/005C_customer_story_Atlassian__1_.png",
+  "width": 1472,
+  "height": 948,
+  "youtubeId": "r1s5X72dd10",
+  "caption": [
+   "MARTIN JERKOVIC, LEAD PRODUCT DESIGNER"
+  ]
+ },
+ "stats": [
+  {
+   "value": "160+",
+   "label": "design and research team members using Dovetail"
+  },
+  {
+   "value": "1,700+",
+   "label": "insights created and shared across design and product"
+  },
+  {
+   "value": "40,000+",
+   "label": "highlights surfaced from customer research"
+  }
+ ],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "Designing for scale without losing sight of the customer",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 231
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 196
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 109
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 466
+    }
+   ],
+   "pullQuotes": [
+    {
+     "quote": {
+      "placeholder": true,
+      "chars": 152
+     },
+     "name": "Martin Jerkovic",
+     "role": "Lead Product Designer",
+     "avatar": "/assets/marketing/MartinJerkovicPhoto.webp",
+     "href": "/customers/atlassian-design/"
+    }
+   ]
+  },
+  {
+   "heading": "From research outputs to shared intelligence",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 307,
+     "links": [
+      {
+       "text": "Chat",
+       "href": "/product/ai-chat/"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 480
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 126
+    }
+   ],
+   "pullQuotes": [
+    {
+     "quote": {
+      "placeholder": true,
+      "chars": 190
+     },
+     "name": "Martin Jerkovic",
+     "role": "Lead Product Designer",
+     "avatar": "/assets/marketing/MartinJerkovicPhoto.webp",
+     "href": "/customers/atlassian-design/"
+    }
+   ]
+  },
+  {
+   "heading": "Intelligence that moves across teams",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 283
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 267
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 241
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 351
+    }
+   ]
+  },
+  {
+   "heading": "Always-on answers for faster decisions",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 311
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/Frame_1948762514__1_.png",
+     "alt": "Dovetail interface showing Chat, Search, and integrations including Slack and Teams, with an emerging themes panel surfacing customer insights.",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 251,
+     "links": [
+      {
+       "text": "Chat",
+       "href": "/product/ai-chat/"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 236
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 348
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 160
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": {
+  "quote": {
+   "placeholder": true,
+   "chars": 190
+  },
+  "name": "Martin Jerkovic",
+  "role": "Lead Product Designer"
+ },
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "breville",
+   "href": "/customers/breville/",
+   "title": "How customer insights drive and inspire Breville’s product innovation",
+   "industry": "Consumer",
+   "order": 3,
+   "companyName": "Breville",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/Customer_Breville.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/white-logo(3).svg",
+    "alt": "Breville",
+    "w": 132,
+    "h": 32
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 217
+    },
+    "name": "Constance Docos",
+    "role": "Senior UX Designer"
+   }
+  },
+  {
+   "slug": "canva-ai",
+   "href": "/customers/canva-ai/",
+   "title": "Dovetail helps Canva turn millions of design moments into product decisions that shape how the world designs",
+   "industry": "Technology",
+   "order": 2,
+   "companyName": "Canva",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/company/media/Customer_Canva_AI.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/white-logo(2).svg",
+    "alt": "Canva",
+    "w": 120,
+    "h": 41
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 169
+    },
+    "name": "Craig Boustred",
+    "role": "Design Researcher"
+   }
+  },
+  {
+   "slug": "achievers",
+   "href": "/customers/achievers/",
+   "title": "How Achievers powers employee experience with always-on customer intelligence",
+   "industry": "Technology",
+   "order": 6,
+   "companyName": "Achievers",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Achievers.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-achievers-white-logo.svg",
+    "alt": "Achievers",
+    "w": 143,
+    "h": 28
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 229
+    },
+    "name": "Marie-Andrée Turgeon",
+    "role": "Senior Manager of Product Operations"
+   }
+  }
+ ]
+}

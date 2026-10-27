@@ -1,0 +1,438 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T25",
+ "route": "/contributors/lara-leganger/",
+ "theme": "light",
+ "chrome": {
+  "banner": "light",
+  "nav": "light",
+  "footer": "light"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail clone (local)"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "light",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "light",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "content.profile-header",
+   "variant": "default",
+   "content": {
+    "heading": "Lara Leganger",
+    "lead": "Senior HR business professional",
+    "actions": [
+     {
+      "label": "CONTRIBUTORS",
+      "href": "/contributors/"
+     },
+     {
+      "label": "LARA LEGANGER",
+      "href": "#"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "content.skills-tags",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "[EMPLOYEE EXPERIENCE]",
+      "href": "/employee-experience/"
+     }
+    ],
+    "items": [
+     {
+      "title": "[EMPLOYEE EXPERIENCE]",
+      "href": "/employee-experience/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s64"
+   }
+  },
+  {
+   "section": "content.editorial-process",
+   "variant": "default",
+   "content": {
+    "lead": "It is worth checking early assumptions against what people actually say and do. Small, regular reviews tend to surface patterns sooner than one large review at the end. Writing down the reasoning behind a decision makes it easier to revisit later. A simple checklist can keep the process consistent from one round to the next. Context matters here. Sharing progress openly invites useful questions before the work is finished. Outcomes are easier to judge when there is a baseline to compare against. Feedback from a pilot run often highlights steps that need to be clarified."
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "listing.article-list",
+   "variant": "default",
+   "content": {
+    "heading": "Articles reviewed by Lara",
+    "items": [
+     {
+      "title": "Candidate relationship management (CRM): A quick guide",
+      "text": "27 JUNE 2023",
+      "href": "/employee-experience/candidate-relationship-management/"
+     },
+     {
+      "title": "Understanding the digital employee experience",
+      "text": "15 JULY 2023",
+      "href": "/employee-experience/digital-employee-experience/"
+     },
+     {
+      "title": "15 employee benefits questions to ask in a survey",
+      "text": "26 JUNE 2023",
+      "href": "/employee-experience/employee-benefits-survey/"
+     },
+     {
+      "title": "What is employee burnout, and how do you prevent it?",
+      "text": "18 JULY 2023",
+      "href": "/employee-experience/employee-burnout/"
+     },
+     {
+      "title": "The ultimate list of employee engagement survey questions",
+      "text": "26 JUNE 2023",
+      "href": "/employee-experience/employee-engagement-survey/"
+     },
+     {
+      "title": "A guide to employee personas",
+      "text": "27 JUNE 2023",
+      "href": "/employee-experience/employee-personas/"
+     },
+     {
+      "title": "27 creative employee recognition ideas to boost engagement",
+      "text": "26 JUNE 2023",
+      "href": "/employee-experience/employee-recognition-ideas/"
+     },
+     {
+      "title": "How to retain great employees",
+      "text": "26 JUNE 2023",
+      "href": "/employee-experience/employee-retention/"
+     },
+     {
+      "title": "How to complete an effective employee self-evaluation",
+      "text": "10 JULY 2023",
+      "href": "/employee-experience/employee-self-evaluation/"
+     },
+     {
+      "title": "What is employee well-being, and how can you improve it?",
+      "text": "26 JUNE 2023",
+      "href": "/employee-experience/employee-wellbeing/"
+     },
+     {
+      "title": "Core company values examples to help shape your culture",
+      "text": "12 SEPTEMBER 2023",
+      "href": "/employee-experience/examples-of-company-values/"
+     },
+     {
+      "title": "18 exit interview questions to ask your employees",
+      "text": "26 JUNE 2023",
+      "href": "/employee-experience/exit-interview-questions/"
+     },
+     {
+      "title": "How to measure employee engagement and get actionable insights",
+      "text": "15 JULY 2023",
+      "href": "/employee-experience/how-to-measure-employee-engagement/"
+     },
+     {
+      "title": "How to measure employee experience",
+      "text": "19 SEPTEMBER 2023",
+      "href": "/employee-experience/how-to-measure-employee-experience/"
+     },
+     {
+      "title": "How to welcome a new employee to your business",
+      "text": "21 SEPTEMBER 2023",
+      "href": "/employee-experience/how-to-welcome-a-new-employee/"
+     },
+     {
+      "title": "How to give effective interview feedback: tips and best practices",
+      "text": "28 JUNE 2023",
+      "href": "/employee-experience/interview-feedback/"
+     },
+     {
+      "title": "15 questions to ask new employees in an onboarding survey",
+      "text": "26 JUNE 2023",
+      "href": "/employee-experience/onboarding-survey/"
+     },
+     {
+      "title": "What is a pulse survey?",
+      "text": "26 JUNE 2023",
+      "href": "/employee-experience/pulse-survey/"
+     },
+     {
+      "title": "The 21 top team-building activities for work",
+      "text": "11 JUNE 2026",
+      "href": "/employee-experience/team-building-activities-for-work/"
+     },
+     {
+      "title": "9 ways voice of employee (VoE) can help your organization",
+      "text": "8 AUGUST 2023",
+      "href": "/employee-experience/voice-of-the-employe/"
+     },
+     {
+      "title": "A guide to personal values in the workplace",
+      "text": "21 SEPTEMBER 2023",
+      "href": "/employee-experience/what-are-personal-values-in-the-workplace/"
+     },
+     {
+      "title": "Warning Signs of a Toxic Work Environment",
+      "text": "5 SEPTEMBER 2023",
+      "href": "/employee-experience/what-is-a-toxic-work-environment/"
+     },
+     {
+      "title": "What is diversity, equity, and inclusion (DEI) in the workplace?",
+      "text": "25 JUNE 2023",
+      "href": "/employee-experience/what-is-dei/"
+     },
+     {
+      "title": "What is human resources?",
+      "text": "11 JUNE 2026",
+      "href": "/employee-experience/what-is-hr/"
+     },
+     {
+      "title": "What is hybrid remote working?",
+      "text": "20 SEPTEMBER 2023",
+      "href": "/employee-experience/what-is-hybrid-remote-work/"
+     },
+     {
+      "title": "Master the STAR method for answering interview questions",
+      "text": "11 JUNE 2026",
+      "href": "/employee-experience/what-is-the-star-interview-method/"
+     },
+     {
+      "title": "What is work–life balance?",
+      "text": "11 JUNE 2026",
+      "href": "/employee-experience/what-is-work-life-balance/"
+     },
+     {
+      "title": "131 words to describe your work culture (and why it matters)",
+      "text": "27 SEPTEMBER 2023",
+      "href": "/employee-experience/words-to-describe-company-culture/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "light",
+   "content": {
+    "heading": "The best never guess",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "#"
+     },
+     {
+      "label": "Start free trial",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-theright-salesforce.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestfarleft-aws.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestleft-canva.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestright-airwallex.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverright-notion.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverfarright-zapier.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessleft-wise.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessfarleft-breville.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "light",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

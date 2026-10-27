@@ -1,0 +1,427 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T13",
+ "route": "/the-best-never-guess/",
+ "theme": "campaign",
+ "chrome": {
+  "banner": "none",
+  "nav": "none",
+  "footer": "none"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail clone (local)"
+ },
+ "nodes": [
+  {
+   "section": "shell.campaign-nav",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Get 60 days full access",
+      "href": "#60-day-trial-offer"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/eciainh4-670785.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "hero.campaign",
+   "variant": "default",
+   "content": {
+    "heading": "The best never guess",
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/e4352py12-888178.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/e4352py10-599807.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/e4352py11-072380.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/e4352py9-612639.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/e4352py9-618277.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/e4352py9-442131.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/e4352py10-602570.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/e4352py10-871444.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "content.campaign-text",
+   "variant": "default",
+   "content": {
+    "heading": "This placeholder paragraph stands in for the final [ Airwallex, Lovable, Qantas, Shopify, Wise ] copy of this section. It describes the feature in plain, neutral terms so the layout can be reviewed at its real length. The finished wording will replace it before.",
+    "actions": [
+     {
+      "label": "Get 60 days full access",
+      "href": "#60-day-trial-offer"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/bng-text-slice-bottom-right-decoration.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/airwallex-685718.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/lovable-140589.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/qantas-481594.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/shopify-664996.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/wise-508507.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/airwallex-685718.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/lovable-140589.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/qantas-481594.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/shopify-664996.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/wise-508507.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.testimonial",
+   "variant": "campaign",
+   "content": {
+    "lead": "Constance Docos, Senior UX Designer at Breville",
+    "quote": {
+     "text": "“Dovetail enables us to access all of Breville’s customer data gathered from around the globe—all in one place.“"
+    },
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/bng-mobile-testimonial-top-right-decoration.svg"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/marketing/breville-girl.webp"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/marketing/breville.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "cursor.tooltip",
+    "reducedMotionFallback": "unchanged"
+   },
+   "style": {
+    "spaceBefore": "space.campaign.224"
+   }
+  },
+  {
+   "section": "social-proof.story-grid",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "“This placeholder paragraph stands in for the final copy of this section. It describes the feature in plain, neutral terms so the layout can be reviewed at its real length. The finished wording will replace it.”",
+      "text": "Renato Cerqueira Leite",
+      "href": "/customers/itau-unibanco/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/Customer_Itau.png"
+      }
+     },
+     {
+      "title": "How Itaú Unibanco delivers better banking experiences with Dovetail ↘",
+      "href": "/customers/itau-unibanco/"
+     },
+     {
+      "title": "“This placeholder paragraph stands in for the final copy of this section. It describes the feature in plain, neutral terms so the layout can be reviewed at its real length. The finished.”",
+      "text": "Martin Jerkovic",
+      "href": "/customers/atlassian-design/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/Customer_Atlassian.png"
+      }
+     },
+     {
+      "title": "How Atlassian turns customer signals into confident product decisions ↘",
+      "href": "/customers/atlassian-design/"
+     },
+     {
+      "title": "“This placeholder paragraph stands in for the final copy of this section. It describes the feature in plain, neutral terms so the layout can be reviewed at its real.”",
+      "text": "Craig Boustred",
+      "href": "/customers/canva-ai/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/Customer_Canva_AI.png"
+      }
+     },
+     {
+      "title": "“This placeholder paragraph stands in for the final copy of this section. It describes the feature in plain, neutral terms so the layout can be reviewed at its real length. The finished wording will replace it before.”",
+      "text": "Constance Docos",
+      "href": "/customers/breville/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/Customer_Breville.png"
+      }
+     },
+     {
+      "title": "How customer insights drive and inspire Breville’s product innovation ↘",
+      "href": "/customers/breville/"
+     },
+     {
+      "title": "“This placeholder paragraph stands in for the final copy of this section. It describes the feature in plain, neutral terms so the layout can be reviewed at its real length. The finished wording will replace.”",
+      "text": "Matthew Klopfenstein",
+      "href": "/customers/cnh/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/Customer_CNHIndustrial.png"
+      }
+     },
+     {
+      "title": "How CNH builds better agricultural machinery, 50% faster with Dovetail ↘",
+      "href": "/customers/cnh/"
+     },
+     {
+      "title": "“This placeholder paragraph stands in for the final copy of this section. It describes the feature in plain, neutral terms so the layout can be reviewed at its real length. The finished wording will replace it.”",
+      "text": "Danielle Reid",
+      "href": "/customers/smartrecruiters/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/Customer_SmartRecruiter.png"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "pixel.dissolve-hover",
+    "reducedMotionFallback": "unchanged"
+   },
+   "style": {
+    "spaceBefore": "space.section.hero"
+   }
+  },
+  {
+   "section": "social-proof.team-proof",
+   "variant": "default",
+   "content": {
+    "heading": "Trusted by the best. Built by us.",
+    "lead": "Forrester’s The Total Economic Impact™ of Dovetail, 2025",
+    "media": [
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/marketing/bng-team-switch-left-center-decoration.svg"
+     },
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/marketing/bng-team-switch-right-top-decoration.svg"
+     },
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/marketing/bng-team-switch-right-bottom-decoration.svg"
+     },
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/marketing/bng-mobile-team-switch-bottom-left-decoration.svg"
+     },
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/marketing/bng-mobile-team-switch-center-right-decoration.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/notion-630332.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/canva-343830.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/ita-407611.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/zapier-143594.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/notion-630332.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/canva-343830.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/ita-407611.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/svg/zapier-143594.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s246"
+   }
+  },
+  {
+   "section": "conversion.trial-signup",
+   "variant": "default",
+   "content": {
+    "heading": "Join the world's leading teams. Sign up for Enterprise and get your first 60 days on us.",
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/bng-form-bottom-left-decoration.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/bng-form-bottom-right-decoration.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s246"
+   }
+  },
+  {
+   "section": "shell.campaign-footer",
+   "variant": "campaign",
+   "content": {
+    "actions": [
+     {
+      "label": "COOKIE PREFERENCES",
+      "href": "#"
+     },
+     {
+      "label": "TRUST CENTER",
+      "href": "https://trust.dovetail.com/"
+     },
+     {
+      "label": "LEGAL AND PRIVACY",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

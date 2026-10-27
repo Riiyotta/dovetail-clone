@@ -1,0 +1,176 @@
+{
+ "id": "hero.simple",
+ "title": "Simple page hero",
+ "semantic": {
+  "id": "hero.simple",
+  "category": "HERO"
+ },
+ "source": {
+  "id": "component:LiveDemos:ld-hero",
+  "file": "src/pages/events/LiveDemos.jsx",
+  "tag": "div",
+  "lines": "22-34",
+  "tagLine": 22,
+  "anchor": "ld-hero",
+  "anchorLine": 22
+ },
+ "purpose": "Short opener: eyebrow, H80 title, lead and optional action row.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "heading",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [
+    "actions"
+   ],
+   "observedOnRoutes": 1,
+   "observedOn": [
+    "/live-demos/"
+   ],
+   "contentSampled": true
+  },
+  "with-action": {
+   "description": "variant 'with-action'",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "lead"
+   ],
+   "forbiddenFields": [
+    "media"
+   ],
+   "observedOnRoutes": 1,
+   "observedOn": [
+    "/resources/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "heading",
+   "lead"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 2
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 17,
+    "observedIn": 2
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 18,
+    "observedIn": 2
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 19,
+    "maxChars": 115,
+    "observedIn": 2
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 1,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "media": [
+    1,
+    1
+   ],
+   "actions": [
+    2,
+    2
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "product.generated-visual"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 2,
+   "nodes": 2,
+   "minPx": 295.6,
+   "maxPx": 319.6,
+   "medianPx": 307.6,
+   "sample": {
+    "/live-demos/": [
+     319.6
+    ],
+    "/resources/": [
+     295.6
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/events/LiveDemos.jsx:22-34",
+  "specs/live-demos.md:1-30",
+  "specs/resources-index.md:1-30"
+ ]
+}

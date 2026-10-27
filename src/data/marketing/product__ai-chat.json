@@ -1,0 +1,1513 @@
+{
+ "url": "/product/ai-chat/",
+ "template": "product",
+ "title": "AI Chat | Dovetail",
+ "metaDescription": "Get instant answers from customer feedback with Dovetail's AI-powered chat and search. Query your data in natural language across all sources.",
+ "documentHeight": {
+  "1440": 12659,
+  "1280": 13219,
+  "768": 14613,
+  "390": 13002
+ },
+ "chrome": {
+  "alertBar": true,
+  "navBackground": "#0029A6",
+  "footer": "finalCta"
+ },
+ "sections": [
+  {
+   "slice": "ProductHero",
+   "el": "e10k4luw0",
+   "measuredHeight": {
+    "1440": 907.4,
+    "1280": 896.8,
+    "768": 1079.1,
+    "390": 862.1
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/pixel-shapes-left.png",
+     "alt": "",
+     "w": 286,
+     "h": 102.8,
+     "el": "e10k4luw2"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/pixel-shapes-right.png",
+     "alt": "",
+     "w": 286,
+     "h": 123.4,
+     "el": "e10k4luw3"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e10k4luw6-788098.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "text": "Chat",
+     "el": "e10k4luw7"
+    },
+    {
+     "role": "h1",
+     "text": "Ask, create and act.\nFrom one conversation .",
+     "parts": [
+      {
+       "el": "e10k4luw9",
+       "text": "Ask, create and",
+       "font": "Inter"
+      },
+      {
+       "el": "e10k4luw12",
+       "img": "/assets/marketing/ai-chat-hero-icon.png"
+      },
+      {
+       "el": "e10k4luw9",
+       "text": "act.\nFrom",
+       "font": "Inter"
+      },
+      {
+       "el": "e10k4luw10",
+       "text": "one conversation",
+       "font": "PP Mondwest"
+      },
+      {
+       "el": "e10k4luw9",
+       "text": ".",
+       "font": "Inter"
+      }
+     ],
+     "el": "e10k4luw13"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-hero-icon.png",
+     "alt": "",
+     "w": 71,
+     "h": 72,
+     "el": "e10k4luw12"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 208,
+     "el": "e10k4luw14"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "Query your data in",
+     "el": "e10k4luw18"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/DovetailBrandmark.svg",
+     "alt": "Dovetail",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Claude.svg",
+     "alt": "Claude",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ChatGPT.svg",
+     "alt": "ChatGPT",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Slack.svg",
+     "alt": "Slack",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Teams.svg",
+     "alt": "Teams",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "link",
+     "text": "+",
+     "href": "https://docs.dovetail.com/integrations",
+     "ariaLabel": "See all integrations",
+     "el": "e10k4luw21"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-hero.png",
+     "alt": "",
+     "w": 1192,
+     "h": 603.4,
+     "el": "e10k4luw24"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-mobile-hero.png",
+     "alt": "",
+     "w": 0,
+     "h": 0,
+     "el": "e10k4luw25",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "LogoMarqueeWrap",
+   "el": "e1r3uy5v0",
+   "measuredHeight": {
+    "1440": 503.6,
+    "1280": 444.9,
+    "768": 79.6,
+    "390": 99.2
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Connecting the world’s greatest companies to their customers",
+     "el": "e1jzkpz90"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/amazon-918921.svg",
+     "w": 88.9,
+     "h": 40,
+     "ariaLabel": "Amazon",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/dyson-990499.svg",
+     "w": 88.9,
+     "h": 40,
+     "ariaLabel": "Dyson",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/mercedes-benz-133521.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Mercedes-Benz",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/qantas-584168.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Qantas",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/aws-271091.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "AWS",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/toyota-301058.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Toyota",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/canva-585358.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Canva",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/volvo-486139.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Volvo",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/notion-653232.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Notion",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/salesforce-823526.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Salesforce",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/milwaukee-672003.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Milwaukee",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/kpmg-168064.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "KPMG",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/wise-541877.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Wise",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/mckinsey-company-197947.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "McKinsey & Company",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ford-139900.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Ford",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/walgreens-527994.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Walgreens",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/shopify-732620.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Shopify",
+     "el": "svg"
+    }
+   ]
+  },
+  {
+   "slice": "ProductFeatures",
+   "el": "e1r1adlk0",
+   "measuredHeight": {
+    "1440": 3600,
+    "1280": 4100,
+    "768": 4327.4,
+    "390": 3033.3
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-feature-1.png",
+     "alt": "Dovetail Chat product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-feature-2.png",
+     "alt": "Dovetail Chat product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-feature-3.png",
+     "alt": "Dovetail Chat product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-feature-4.png",
+     "alt": "Dovetail Chat product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "01",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "Customer intelligence for everyone",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 251,
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "02",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "Charts, clips, and citations in every answer",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 193,
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "03",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "One brand voice",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 208,
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "04",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "Inside the tools you already use",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 195,
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-feature-1.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-feature-2.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-feature-3.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-feature-4.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "ProductPromptCards",
+   "el": "e1y8zjgx0",
+   "measuredHeight": {
+    "1440": 1128,
+    "1280": 1298,
+    "768": 2200,
+    "390": 2368
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "Put AI Chat to work",
+     "el": "e1y8zjgx1"
+    },
+    {
+     "role": "text",
+     "text": "Every team has a different question. Chat has the same answer: your customer data cited, in seconds.",
+     "el": "e1y8zjgx2"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "e1y8zjgx3"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-prompt-icon-product-manager.png",
+     "alt": "",
+     "w": 64,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "Product manager",
+     "el": "e1y8zjgx12"
+    },
+    {
+     "role": "text",
+     "text": "Validate roadmap decisions against real customer evidence, and give customers what they want.",
+     "el": "e1y8zjgx13"
+    },
+    {
+     "role": "text",
+     "text": "actually",
+     "el": "em"
+    },
+    {
+     "role": "text",
+     "text": "Try prompts",
+     "el": "e1y8zjgx14"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1y8zjgx14-146741.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "e1y8zjgx3"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-prompt-icon-researcher.png",
+     "alt": "",
+     "w": 64,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "Research",
+     "el": "e1y8zjgx12"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 101,
+     "el": "e1y8zjgx13"
+    },
+    {
+     "role": "text",
+     "text": "Try prompts",
+     "el": "e1y8zjgx14"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1y8zjgx14-146741.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "e1y8zjgx3"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-prompt-icon-sales-cs.png",
+     "alt": "",
+     "w": 64,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "Sales",
+     "el": "e1y8zjgx12"
+    },
+    {
+     "role": "text",
+     "text": "Pull account context, surface objections, and prep for customer calls with all the information you need.",
+     "el": "e1y8zjgx13"
+    },
+    {
+     "role": "text",
+     "text": "Try prompts",
+     "el": "e1y8zjgx14"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1y8zjgx14-146741.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "e1y8zjgx3"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-prompt-icon-designer.png",
+     "alt": "",
+     "w": 64,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "Designer",
+     "el": "e1y8zjgx12"
+    },
+    {
+     "role": "text",
+     "text": "Validate assumptions and test hypotheses against real research before a single pixel gets pushed.",
+     "el": "e1y8zjgx13"
+    },
+    {
+     "role": "text",
+     "text": "Try prompts",
+     "el": "e1y8zjgx14"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1y8zjgx14-146741.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "e1y8zjgx3"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-prompt-icon-marketing.png",
+     "alt": "",
+     "w": 80,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "Marketing",
+     "el": "e1y8zjgx12"
+    },
+    {
+     "role": "text",
+     "text": "Discover how customers describe their own problems, then build your campaign messaging around it.",
+     "el": "e1y8zjgx13"
+    },
+    {
+     "role": "text",
+     "text": "Try prompts",
+     "el": "e1y8zjgx14"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1y8zjgx14-146741.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "e1y8zjgx3"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-prompt-icon-customer-experience.png",
+     "alt": "",
+     "w": 80,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "Customer success",
+     "el": "e1y8zjgx12"
+    },
+    {
+     "role": "text",
+     "text": "Understand churn, health, and sentiment across every account. Save renewals with evidence.",
+     "el": "e1y8zjgx13"
+    },
+    {
+     "role": "text",
+     "text": "Try prompts",
+     "el": "e1y8zjgx14"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1y8zjgx14-146741.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    }
+   ]
+  },
+  {
+   "slice": "ProductQuote",
+   "el": "e1cnxsk60",
+   "measuredHeight": {
+    "1440": 560,
+    "1280": 560,
+    "768": 333.6,
+    "390": 397.6
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/testimonial-grid-bg.png.png",
+     "alt": "Grid background",
+     "w": 1260,
+     "h": 560,
+     "el": "e1ms7w8v3"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti__3_.png",
+     "alt": "",
+     "w": 80,
+     "h": 80,
+     "el": "e1cnxsk65"
+    },
+    {
+     "role": "quote",
+     "placeholder": true,
+     "chars": 217,
+     "el": "e1cnxsk66"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-breville-white-logo.svg",
+     "alt": "",
+     "w": 99,
+     "h": 24,
+     "el": "e1cnxsk68"
+    },
+    {
+     "role": "text",
+     "text": "Constance Docos",
+     "el": "e1cnxsk611"
+    },
+    {
+     "role": "text",
+     "text": "Senior UX Designer",
+     "el": "e1cnxsk612"
+    },
+    {
+     "role": "button",
+     "text": "01",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "02",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "03",
+     "el": "e5b4pau2"
+    }
+   ]
+  },
+  {
+   "slice": "ProductCarousel",
+   "el": "e1c9zraz0",
+   "measuredHeight": {
+    "1440": 1213.8,
+    "1280": 1095.8,
+    "768": 851.2,
+    "390": 851.2
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "Answers in seconds,\nrich evidence included",
+     "el": "e1c9zraz3"
+    },
+    {
+     "role": "text",
+     "text": "Faster responses, transparent reasoning, and outputs you can act on immediately.",
+     "el": "e1c9zraz6"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e5zj3j12-080716.svg",
+     "w": 32,
+     "h": 26.3,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e5zj3j12-080716.svg",
+     "w": 32,
+     "h": 26.3,
+     "el": "svg"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-carousel-1.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Cited answers",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Every response links back to the exact source—the specific transcript, ticket, or document it came from.",
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-carousel-2.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "MCP in Chat",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Connect to your external tools to read data and take action—without leaving the conversation.",
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-carousel-3.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Deep research mode",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Ask a broader question and Chat searches across every source in your workspace, before giving you an answer.",
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-carousel-4.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Permission-aware scoping",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Chat only queries data your account can already access, so sensitive projects stay protected.",
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-carousel-5.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Python code execution",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Runs calculations, generates graphs, and handles quantitative queries accurately—without leaving Chat.",
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-carousel-6.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "PII and compliance in chat",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Every conversation stays compliant by default—with redaction settings, contact obfuscation, and data retention rules.",
+     "el": "e1c9zraz17"
+    }
+   ]
+  },
+  {
+   "slice": "Findings",
+   "el": "e1fjikez0",
+   "measuredHeight": {
+    "1440": 1192.1,
+    "1280": 1068.7,
+    "768": 1716.1,
+    "390": 1250.4
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "Get more from your findings",
+     "parts": [
+      {
+       "el": "e1fjikez2",
+       "text": "Get",
+       "font": "Inter"
+      },
+      {
+       "el": "e1fjikez5",
+       "img": "/assets/marketing/product-findings-icon.png"
+      },
+      {
+       "el": "e1fjikez3",
+       "text": "more",
+       "font": "PP Mondwest"
+      },
+      {
+       "el": "e1fjikez2",
+       "text": "from your findings",
+       "font": "Inter"
+      }
+     ],
+     "el": "e1fjikez1"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/product-findings-icon.png",
+     "alt": "",
+     "w": 157.3,
+     "h": 96,
+     "el": "e1fjikez5"
+    },
+    {
+     "role": "text",
+     "text": "The real value isn’t in the analysis. It’s in what you do with it next.",
+     "el": "e1fjikez6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-findings-docs.png",
+     "alt": "Dovetail Chat findings in Dovetail Docs",
+     "w": 578,
+     "h": 411.1,
+     "el": "img"
+    },
+    {
+     "role": "h3",
+     "text": "AI Docs",
+     "el": "e1fjikez7"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-icon-docs.svg",
+     "alt": "",
+     "w": 24,
+     "h": 24,
+     "el": "e1fjikez8"
+    },
+    {
+     "role": "text",
+     "text": "Turn any Chat response into a shareable doc in one click, with citations carried across automatically.",
+     "el": "eiz8yhc2"
+    },
+    {
+     "role": "link",
+     "text": "Learn more",
+     "href": "/product/ai-docs/",
+     "el": "eiz8yhc4"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eiz8yhc4-194629.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-chat-findings-agents.png",
+     "alt": "Dovetail Chat findings shared by Dovetail AI Agents",
+     "w": 578,
+     "h": 411.1,
+     "el": "img"
+    },
+    {
+     "role": "h3",
+     "text": "AI Agents",
+     "el": "e1fjikez7"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-icon-agents.svg",
+     "alt": "",
+     "w": 24,
+     "h": 24,
+     "el": "e1fjikez8"
+    },
+    {
+     "role": "text",
+     "text": "Convert any Chat conversation into a recurring automated workflow, with the prompt already written.",
+     "el": "eiz8yhc2"
+    },
+    {
+     "role": "link",
+     "text": "Learn more",
+     "href": "/product/ai-agents/",
+     "el": "eiz8yhc4"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eiz8yhc4-194629.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    }
+   ]
+  },
+  {
+   "slice": "PixelBand",
+   "el": "e70som00",
+   "measuredHeight": {
+    "1440": 120,
+    "1280": 0,
+    "768": 0,
+    "390": 0
+   },
+   "content": []
+  },
+  {
+   "slice": "CustomerStories",
+   "el": "elme6fd0",
+   "measuredHeight": {
+    "1440": 910,
+    "1280": 700,
+    "768": 501.9,
+    "390": 621.9
+   },
+   "content": [
+    {
+     "role": "button",
+     "text": "01",
+     "ariaLabel": "Breville customer story",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "02",
+     "ariaLabel": "Atlassian customer story",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "03",
+     "ariaLabel": "Itaú Unibanco customer story",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "h3",
+     "text": "How customer insights drive and inspire Breville’s product innovation",
+     "el": "e1wn1hrv5"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1wn1hrv9-593209.svg",
+     "w": 56,
+     "h": 56,
+     "el": "e1wn1hrv11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 207,
+     "el": "e1wn1hrv6"
+    },
+    {
+     "role": "link",
+     "text": "Read the story",
+     "href": "/customers/breville/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "All customer stories",
+     "href": "/customers/",
+     "el": "e1wn1hrv8"
+    },
+    {
+     "role": "h3",
+     "text": "How Atlassian turns customer signals into confident product decisions",
+     "el": "e1wn1hrv5",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1wn1hrv9-661009.svg",
+     "w": 0,
+     "h": 0,
+     "el": "e1wn1hrv11",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 153,
+     "el": "e1wn1hrv6",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "link",
+     "text": "Read the story",
+     "href": "/customers/atlassian-design/",
+     "el": "a",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "h3",
+     "text": "How Itaú Unibanco delivers better banking experiences with Dovetail",
+     "el": "e1wn1hrv5",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1wn1hrv9-365555.svg",
+     "w": 0,
+     "h": 0,
+     "el": "e1wn1hrv11",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 183,
+     "el": "e1wn1hrv6",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "link",
+     "text": "Read the story",
+     "href": "/customers/itau-unibanco/",
+     "el": "a",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "PixelBand",
+   "el": "e70som00",
+   "measuredHeight": {
+    "1440": 120,
+    "1280": 0,
+    "768": 0,
+    "390": 0
+   },
+   "content": []
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 64,
+    "768": 64,
+    "390": 64
+   }
+  },
+  {
+   "slice": "FAQ",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 538,
+    "1280": 606,
+    "768": 583,
+    "390": 607
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "FAQs",
+     "el": "ef2kgtv0"
+    },
+    {
+     "role": "button",
+     "text": "What is Dovetail AI Chat and search?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ea410al3-082750.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 139,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "How does Dovetail ensure answers are trustworthy?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 119,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Where can I use AI Chat?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 120,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Does Chat support multiple languages?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 76,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Can Chat create reports or summaries?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 85,
+     "el": "ef2kgtv2"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 64,
+    "768": 64,
+    "390": 64
+   }
+  }
+ ],
+ "promptModals": [
+  {
+   "cardTitle": "Product manager",
+   "prompts": [
+    {
+     "label": "Post release pulse",
+     "textChars": 304
+    },
+    {
+     "label": "Weekly product pulse",
+     "textChars": 207
+    },
+    {
+     "label": "Emerging theme detector",
+     "textChars": 166
+    },
+    {
+     "label": "Roadmap opportunity brief",
+     "textChars": 181
+    },
+    {
+     "label": "Lost deal insights for product",
+     "textChars": 202
+    }
+   ],
+   "promptText": "placeholder (long)"
+  },
+  {
+   "cardTitle": "Research",
+   "prompts": [
+    {
+     "label": "VoC health score",
+     "textChars": 119
+    },
+    {
+     "label": "Taxonomy hygiene",
+     "textChars": 134
+    },
+    {
+     "label": "Workspace clean up",
+     "textChars": 291
+    },
+    {
+     "label": "Stale project scanner",
+     "textChars": 178
+    },
+    {
+     "label": "Longitudinal theme tracking",
+     "textChars": 265
+    }
+   ],
+   "promptText": "placeholder (long)"
+  },
+  {
+   "cardTitle": "Sales",
+   "prompts": [
+    {
+     "label": "New lead briefing",
+     "textChars": 347
+    },
+    {
+     "label": "Competitor talk track",
+     "textChars": 191
+    },
+    {
+     "label": "Objection handling on the fly",
+     "textChars": 232
+    },
+    {
+     "label": "Deal champion identifier",
+     "textChars": 166
+    },
+    {
+     "label": "Pricing sensitivity report",
+     "textChars": 182
+    }
+   ],
+   "promptText": "placeholder (long)"
+  },
+  {
+   "cardTitle": "Designer",
+   "prompts": [
+    {
+     "label": "Ideation validation",
+     "textChars": 344
+    },
+    {
+     "label": "User mental model discovery",
+     "textChars": 313
+    },
+    {
+     "label": "Pre-design friction scan",
+     "textChars": 291
+    },
+    {
+     "label": "Concept reaction gathering",
+     "textChars": 301
+    },
+    {
+     "label": "Post-launch design sentiment",
+     "textChars": 341
+    }
+   ],
+   "promptText": "placeholder (long)"
+  },
+  {
+   "cardTitle": "Marketing",
+   "prompts": [
+    {
+     "label": "Case study candidate scanner",
+     "textChars": 219
+    },
+    {
+     "label": "Landing page messaging insight",
+     "textChars": 163
+    },
+    {
+     "label": "Webinar content engine",
+     "textChars": 167
+    },
+    {
+     "label": "Ad headline generator",
+     "textChars": 129
+    },
+    {
+     "label": "Quote library builder",
+     "textChars": 113
+    }
+   ],
+   "promptText": "placeholder (long)"
+  },
+  {
+   "cardTitle": "Customer success",
+   "prompts": [
+    {
+     "label": "Churn interrogation",
+     "textChars": 188
+    },
+    {
+     "label": "Detractor feedback",
+     "textChars": 238
+    },
+    {
+     "label": "Customer health narrative",
+     "textChars": 169
+    },
+    {
+     "label": "Renewal readiness",
+     "textChars": 243
+    },
+    {
+     "label": "Customer advocacy shortlist",
+     "textChars": 247
+    }
+   ],
+   "promptText": "placeholder (long)"
+  }
+ ]
+}

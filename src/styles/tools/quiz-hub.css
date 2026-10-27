@@ -1,0 +1,13 @@
+/* specs/quiz.md §A */
+.qh { display: flex; flex-direction: column; align-items: center; }
+.qh__inner { width: 100%; max-width: 900px; }
+.qh__eyebrow, .qh-card__eyebrow { display: inline-block; font-family: "JetBrains Mono", "SF Mono", Consolas, Roboto, sans-serif;
+  font-size: 14px; line-height: 22px; letter-spacing: .08em; text-transform: uppercase; color: #6798FF; }
+.qh__eyebrow { font-weight: 500; }
+.qh-card__eyebrow { font-weight: 600; }
+.qh__intro { max-width: 560px; }
+.qh__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+@media (max-width: 1280px) { .qh__grid { grid-template-columns: 1fr; } }
+.qh-card { background: #121212; border: 1px solid #454545; border-radius: 12px; padding: 32px 28px; display: flex; flex-direction: column; }
+.qh-card__text { flex-grow: 1; }
+.qh-card__btn { width: 100%; }

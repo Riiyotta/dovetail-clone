@@ -1,0 +1,378 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T16",
+ "route": "/blog/engineering/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail clone (local)"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "listing.featured-header",
+   "variant": "default",
+   "content": {
+    "heading": "Blog",
+    "actions": [
+     {
+      "label": "All",
+      "href": "#"
+     },
+     {
+      "label": "AI",
+      "href": "#"
+     },
+     {
+      "label": "Dovetail team",
+      "href": "#"
+     },
+     {
+      "label": "Engineering",
+      "href": "#"
+     },
+     {
+      "label": "Product",
+      "href": "#"
+     },
+     {
+      "label": "Ideas",
+      "href": "#"
+     }
+    ],
+    "items": [
+     {
+      "title": "How to get stakeholders to trust your design decisions",
+      "text": "7 September 2026",
+      "href": "/blog/stakeholder-trust-design-decisions/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/stakeholder-trust-design-decisions-hero-poster.png"
+      }
+     },
+     {
+      "title": "AI made building faster, now customer understanding is the bottleneck",
+      "text": "27 August 2026",
+      "href": "/blog/customer-understanding-ai-bottleneck-digital-twins/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/customer-understanding-ai-bottleneck-digital-twins.jpg"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.hero"
+   }
+  },
+  {
+   "section": "listing.card-grid",
+   "variant": "blog",
+   "content": {
+    "items": [
+     {
+      "title": "Quality work you don’t see",
+      "text": "13 August 2026",
+      "href": "/blog/the-work-you-dont-see/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/the-work-you-dont-see-hero.png"
+      }
+     },
+     {
+      "title": "Fetch once, use everywhere: rebuilding how Dovetail ingests your data",
+      "text": "15 June 2026",
+      "href": "/blog/fetch-once-use-everywhere-rebuilding-data-ingestion/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/fetch-once-use-everywhere-rebuilding-data-ingestion.jpg"
+      }
+     },
+     {
+      "title": "If you don't go on-call for your customer, you don't own it",
+      "text": "3 June 2026",
+      "href": "/blog/if-you-dont-go-on-call-you-dont-own-it/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/if-you-dont-go-on-call-you-dont-own-it.png"
+      }
+     },
+     {
+      "title": "How we measure AI quality at Dovetail",
+      "text": "20 March 2026",
+      "href": "/blog/how-we-measure-ai-quality-at-dovetail/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "https://dovetail.com/media/how-we-measure-ai-quality-at-dovetail.png"
+      }
+     },
+     {
+      "title": "Build high quality AI features with simple feedback loops",
+      "text": "23 September 2025",
+      "href": "/blog/build-high-quality-ai-features-with-simple-feedback-loops/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "https://dovetail.com/media/build-high-quality-ai-features-with-simple-feedback-loops.png"
+      }
+     },
+     {
+      "title": "How Dovetail’s team uses AI agents to build a more delightful Dovetail",
+      "text": "8 August 2025",
+      "href": "/blog/dovetail-uses-ai-agents-to-build-more-delightful-dovetail/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "https://dovetail.com/media/dovetail-uses-ai-agents-to-build-more-delightful-dovetail.png"
+      }
+     },
+     {
+      "title": "A look under the hood—how and why we built Dovetail MCP server",
+      "text": "8 July 2025",
+      "href": "/blog/how-and-why-we-built-dovetail-mcp-server/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "https://dovetail.com/media/how-and-why-we-built-dovetail-mcp-server.png"
+      }
+     },
+     {
+      "title": "Bigger isn’t better: what it’s like to be an engineer at Dovetail",
+      "text": "2 December 2021",
+      "href": "/blog/bigger-isnt-better-what-its-like-to-be-an-engineer-at-dovetail/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "https://dovetail.com/media/bigger-isnt-better-what-its-like-to-be-an-engineer-at-dovetail.webp"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s80"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "dark",
+   "content": {
+    "heading": "The best never guess",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "#"
+     },
+     {
+      "label": "Start free trial",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-theright-salesforce.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestfarleft-aws.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestleft-canva.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestright-airwallex.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverright-notion.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverfarright-zapier.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessleft-wise.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessfarleft-breville.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

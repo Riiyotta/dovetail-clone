@@ -1,0 +1,339 @@
+{
+ "slug": "global-agricultural-equipment-maker",
+ "path": "/customers/global-agricultural-equipment-maker/",
+ "title": "How a global agricultural equipment maker unified customer intelligence across 100+ product lines",
+ "eyebrow": "CUSTOMER / A GLOBAL LEADER IN AGRICULTURAL AND CONSTRUCTION EQUIPMENT",
+ "companyName": "A global leader in agricultural and construction equipment",
+ "isAnonymous": true,
+ "industry": "Manufacturing",
+ "intro": {
+  "placeholder": true,
+  "chars": 299
+ },
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/external/unsplash-photo-1758873115221-9a27e7090614-bf3df5.jpg",
+  "width": 1080,
+  "height": 608,
+  "youtubeId": null,
+  "caption": []
+ },
+ "stats": [
+  {
+   "value": "30+",
+   "label": "researchers and validation engineers on one centralized platform"
+  },
+  {
+   "value": "100+",
+   "label": "product lines now informed by a shared customer intelligence repository"
+  },
+  {
+   "value": "25+",
+   "label": "post-season farmer interviews per season, each up to 90 minutes, all centralized in Dovetail"
+  }
+ ],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "The equipment maker trusted by farmers in 130+ countries",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 452
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 441
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 499
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 191
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/external/unsplash-photo-1635174815474-f16ace18a08f-edf310.jpg",
+     "alt": "View from inside a combine harvester cab, looking out over a grain truck being filled during harvest.",
+     "w": 1080,
+     "h": 719
+    }
+   ]
+  },
+  {
+   "heading": "The challenge: routing insights from 100+ product lines to the teams that needed them",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 468
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 388
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 421
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 223,
+     "strong": [
+      "the one place for all insights to live"
+     ]
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/external/unsplash-photo-1760299092531-65343a514b86-927cb6.jpg",
+     "alt": "Yellow combine harvester working in a golden wheat field.",
+     "w": 0,
+     "h": 0
+    }
+   ]
+  },
+  {
+   "heading": "The solution: from raw transcripts to searchable answers in seconds",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 485
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 234,
+     "links": [
+      {
+       "text": "Chat",
+       "href": "/product/ai-chat/"
+      }
+     ]
+    },
+    {
+     "t": "blockquote",
+     "placeholder": true,
+     "chars": 260
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 485
+    },
+    {
+     "t": "blockquote",
+     "placeholder": true,
+     "chars": 179
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/contextual-chat-query-product-image.png",
+     "alt": "The Dovetail Chat interface showing a research query with cited answers drawn from customer interview transcripts.",
+     "w": 0,
+     "h": 0
+    }
+   ]
+  },
+  {
+   "heading": "The payoff: farmer feedback attributed and traceable, available to every product owner on demand",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 287
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 569
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 545
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 243,
+     "strong": [
+      "Customer Intelligence Platform"
+     ]
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": {
+  "quote": {
+   "placeholder": true,
+   "chars": 243
+  },
+  "name": null,
+  "role": "UX Researcher"
+ },
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "iconic-toy-brand",
+   "href": "/customers/iconic-toy-brand/",
+   "title": "How a global toy brand builds with confidence by putting customer intelligence where decisions are made",
+   "industry": "Consumer Goods",
+   "order": 99,
+   "companyName": "A family-owned toy company with products in more than 120 countries",
+   "gridTitle": "Iconic toy brand",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-iconic-toy-brand.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 158
+    },
+    "name": null,
+    "role": "Head of Research, Retail Division"
+   }
+  },
+  {
+   "slug": "global-home-furnishings-retailer",
+   "href": "/customers/global-home-furnishings-retailer/",
+   "title": "How a global retailer freed its research team—and built a customer intelligence engine",
+   "industry": "Retail",
+   "order": 99,
+   "companyName": "A global home furnishings retailer",
+   "gridTitle": "Global furnishing retailer",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-global-furnishing-retailer.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 206
+    },
+    "name": null,
+    "role": "Head of Research Operations"
+   }
+  },
+  {
+   "slug": "global-financial-institution",
+   "href": "/customers/global-financial-institution/",
+   "title": "How a global financial institution cleared one of finance's most rigorous AI security reviews and built its customer intelligence layer with Dovetail",
+   "industry": "Finance",
+   "order": 99,
+   "companyName": "A global financial institution",
+   "gridTitle": "Global financial powerhouse",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-global-financial-institution.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 295
+    },
+    "name": null,
+    "role": "Delivery Manager, Research Operations"
+   }
+  }
+ ],
+ "faq": {
+  "heading": "FAQs",
+  "items": [
+   {
+    "q": "How does Dovetail handle customer feedback that touches many product lines at once?",
+    "a": {
+     "placeholder": true,
+     "chars": 307
+    }
+   },
+   {
+    "q": "How does Dovetail cut down the time researchers spend analyzing interview transcripts and recordings?",
+    "a": {
+     "placeholder": true,
+     "chars": 309
+    }
+   },
+   {
+    "q": "Can Dovetail combine quantitative survey data with qualitative interview feedback?",
+    "a": {
+     "placeholder": true,
+     "chars": 373
+    }
+   },
+   {
+    "q": "Can Dovetail merge research workspaces that grew separately across different divisions of a business?",
+    "a": {
+     "placeholder": true,
+     "chars": 279
+    }
+   },
+   {
+    "q": "Can teams verify where a specific answer or finding in Dovetail actually came from?",
+    "a": {
+     "placeholder": true,
+     "chars": 259
+    }
+   }
+  ]
+ }
+}

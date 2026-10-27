@@ -1,0 +1,910 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T0",
+ "route": "/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Fernlight"
+ },
+ "meta": {
+  "title": "Fernlight | Home"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Cedar compass",
+    "actions": [
+     {
+      "label": "Plan prism",
+      "href": "https://fernlight.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Cinder",
+      "href": "https://fernlight.example/navbar-0"
+     },
+     {
+      "label": "Harvest",
+      "href": "https://fernlight.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Tidal"
+     },
+     {
+      "title": "Fjord"
+     },
+     {
+      "title": "Falcon"
+     },
+     {
+      "title": "Basil"
+     },
+     {
+      "title": "Measure"
+     },
+     {
+      "title": "Bundle"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Tidy cedar",
+      "text": "Compass marble ember shape meadow sprout steer cobalt"
+     },
+     {
+      "title": "Tidal lantern",
+      "text": "Falcon basil measure pebble tidy map delta quarry"
+     },
+     {
+      "title": "Ember prism",
+      "text": "Cinder notice harvest sort share lantern falcon basil"
+     },
+     {
+      "title": "Rowan bundle",
+      "text": "Grove map trace marble ember orbit meadow notice"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.home",
+   "variant": "default",
+   "content": {
+    "heading": "Harvest ledger tidal",
+    "lead": "Signal refine measure bundle canvas cedar delta sketch plan prism gather notice steer sort",
+    "actions": [
+     {
+      "label": "Tidal lantern",
+      "href": "https://fernlight.example/home-0"
+     },
+     {
+      "label": "Falcon basil",
+      "href": "https://fernlight.example/home-1"
+     },
+     {
+      "label": "Rowan nimbus",
+      "href": "https://fernlight.example/home-2"
+     },
+     {
+      "label": "Tidy map",
+      "href": "https://fernlight.example/home-3"
+     },
+     {
+      "label": "Compass quarry",
+      "href": "https://fernlight.example/home-4"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Ember orbit cinder",
+      "ref": "generate:customer.placeholder-logo/hero.home-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Notice steer sort",
+      "ref": "generate:customer.placeholder-logo/hero.home-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Harbor lantern signal",
+      "ref": "generate:customer.placeholder-logo/hero.home-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Refine measure bundle",
+      "ref": "generate:customer.placeholder-logo/hero.home-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Grove thread delta",
+      "ref": "generate:customer.placeholder-logo/hero.home-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Quarry plan prism",
+      "ref": "generate:customer.placeholder-logo/hero.home-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Gather notice steer",
+      "ref": "generate:customer.placeholder-logo/hero.home-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Cobalt harbor fjord",
+      "ref": "generate:customer.placeholder-logo/hero.home-7"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Falcon basil measure",
+      "ref": "generate:customer.placeholder-logo/hero.home-8"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Pebble grove map",
+      "ref": "generate:customer.placeholder-logo/hero.home-9"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Delta sketch ember",
+      "ref": "generate:customer.placeholder-logo/hero.home-10"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Orbit cinder summit",
+      "ref": "generate:customer.placeholder-logo/hero.home-11"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Steer sort share",
+      "ref": "generate:customer.placeholder-logo/hero.home-12"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Willow signal basil",
+      "ref": "generate:customer.placeholder-logo/hero.home-13"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Atlas pebble grove",
+      "ref": "generate:customer.placeholder-logo/hero.home-14"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Map delta quarry",
+      "ref": "generate:customer.placeholder-logo/hero.home-15"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "fade.in",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "features.topic-tabs",
+   "variant": "context",
+   "content": {
+    "heading": "Ember shape cinder notice",
+    "lead": "Juniper cobalt share lantern falcon beacon atlas bundle tidy cedar delta sketch plan prism",
+    "actions": [
+     {
+      "label": "Gather sprout",
+      "href": "https://fernlight.example/topic-tabs-0"
+     },
+     {
+      "label": "Harvest ledger",
+      "href": "https://fernlight.example/topic-tabs-1"
+     },
+     {
+      "label": "Harbor lantern",
+      "href": "https://fernlight.example/topic-tabs-2"
+     },
+     {
+      "label": "Signal beacon",
+      "href": "https://fernlight.example/topic-tabs-3"
+     },
+     {
+      "label": "Rowan nimbus",
+      "href": "https://fernlight.example/topic-tabs-4"
+     },
+     {
+      "label": "Tidy thread",
+      "href": "https://fernlight.example/topic-tabs-5"
+     }
+    ],
+    "items": [
+     {
+      "title": "Compass marble plan"
+     },
+     {
+      "title": "Shape meadow sprout"
+     },
+     {
+      "title": "Juniper cobalt share"
+     },
+     {
+      "title": "Fjord signal basil"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-7"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-8"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-9"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-10"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-11"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "tabs.auto-advance",
+    "reducedMotionFallback": "no-autoplay"
+   }
+  },
+  {
+   "section": "features.data-diagram",
+   "variant": "default",
+   "content": {
+    "heading": "Atlas pebble canvas cedar",
+    "lead": "Compass quarry ember shape meadow notice steer sort share fjord signal refine atlas bundle",
+    "actions": [
+     {
+      "label": "Canvas cedar",
+      "href": "https://fernlight.example/data-diagram-0"
+     },
+     {
+      "label": "Delta marble",
+      "href": "https://fernlight.example/data-diagram-1"
+     },
+     {
+      "label": "Plan orbit",
+      "href": "https://fernlight.example/data-diagram-2"
+     },
+     {
+      "label": "Meadow notice",
+      "href": "https://fernlight.example/data-diagram-3"
+     },
+     {
+      "label": "Juniper ledger",
+      "href": "https://fernlight.example/data-diagram-4"
+     },
+     {
+      "label": "Tidal willow",
+      "href": "https://fernlight.example/data-diagram-5"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/features.data-diagram-0"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/features.data-diagram-1"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/features.data-diagram-2"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/features.data-diagram-3"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/features.data-diagram-4"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "canvas.orbit",
+    "reducedMotionFallback": "static-layout"
+   }
+  },
+  {
+   "section": "features.topic-tabs",
+   "variant": "prompt",
+   "content": {
+    "heading": "Signal beacon atlas pebble",
+    "lead": "Canvas cedar trace quarry field shape cinder summit harvest sort share fjord falcon refine",
+    "actions": [
+     {
+      "label": "Measure pebble",
+      "href": "https://fernlight.example/topic-tabs-0"
+     },
+     {
+      "label": "Grove map",
+      "href": "https://fernlight.example/topic-tabs-1"
+     },
+     {
+      "label": "Delta quarry",
+      "href": "https://fernlight.example/topic-tabs-2"
+     },
+     {
+      "label": "Ember shape",
+      "href": "https://fernlight.example/topic-tabs-3"
+     },
+     {
+      "label": "Meadow sprout",
+      "href": "https://fernlight.example/topic-tabs-4"
+     },
+     {
+      "label": "Juniper cobalt",
+      "href": "https://fernlight.example/topic-tabs-5"
+     }
+    ],
+    "items": [
+     {
+      "title": "Tidal fjord falcon"
+     },
+     {
+      "title": "Refine measure pebble"
+     },
+     {
+      "title": "Canvas cedar compass"
+     },
+     {
+      "title": "Quarry plan prism"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-7"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-8"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-9"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-10"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/features.topic-tabs-11"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "tabs.auto-advance",
+    "reducedMotionFallback": "no-autoplay"
+   }
+  },
+  {
+   "section": "features.sticky-loop",
+   "variant": "default",
+   "content": {
+    "heading": "Gather summit harvest cobalt",
+    "lead": "Harbor lantern signal basil rowan bundle grove cedar compass quarry ember shape gather notice",
+    "actions": [
+     {
+      "label": "Steer ledger",
+      "href": "https://fernlight.example/sticky-loop-0"
+     },
+     {
+      "label": "Share lantern",
+      "href": "https://fernlight.example/sticky-loop-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Signal beacon atlas"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/features.sticky-loop-0"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/features.sticky-loop-1"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/features.sticky-loop-2"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/features.sticky-loop-3"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/features.sticky-loop-4"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/features.sticky-loop-5"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/features.sticky-loop-6"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/features.sticky-loop-7"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/features.sticky-loop-8"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/features.sticky-loop-9"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/features.sticky-loop-10"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "scroll.sticky-progress",
+    "reducedMotionFallback": "static-steps"
+   }
+  },
+  {
+   "section": "features.govern-grid",
+   "variant": "default",
+   "content": {
+    "heading": "Pebble grove cedar trace",
+    "lead": "Quarry ember shape gather sprout harvest ledger tidal fjord weigh beacon rowan nimbus grove",
+    "actions": [
+     {
+      "label": "Thread trace",
+      "href": "https://fernlight.example/govern-grid-0"
+     },
+     {
+      "label": "Sketch plan",
+      "href": "https://fernlight.example/govern-grid-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Prism cinder sprout"
+     },
+     {
+      "title": "Steer sort share"
+     },
+     {
+      "title": "Willow weigh basil"
+     },
+     {
+      "title": "Atlas nimbus canvas"
+     },
+     {
+      "title": "Map trace marble"
+     },
+     {
+      "title": "Field shape gather"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/features.govern-grid-0"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/features.govern-grid-1"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/features.govern-grid-2"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/features.govern-grid-3"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/features.govern-grid-4"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/features.govern-grid-5"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/features.govern-grid-6"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.story-marquee",
+   "variant": "default",
+   "content": {
+    "heading": "Summit steer cobalt",
+    "actions": [
+     {
+      "label": "Fjord weigh",
+      "href": "https://fernlight.example/story-marquee-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Beacon rowan",
+      "ref": "generate:customer.placeholder-logo/social-proof.story-marquee-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Pebble tidy",
+      "ref": "generate:customer.placeholder-logo/social-proof.story-marquee-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Map compass",
+      "ref": "generate:customer.placeholder-logo/social-proof.story-marquee-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Marble field",
+      "ref": "generate:customer.placeholder-logo/social-proof.story-marquee-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Shape cinder",
+      "ref": "generate:customer.placeholder-logo/social-proof.story-marquee-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Notice juniper",
+      "ref": "generate:customer.placeholder-logo/social-proof.story-marquee-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Ledger tidal",
+      "ref": "generate:customer.placeholder-logo/social-proof.story-marquee-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Willow weigh",
+      "ref": "generate:customer.placeholder-logo/social-proof.story-marquee-7"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Basil measure",
+      "ref": "generate:customer.placeholder-logo/social-proof.story-marquee-8"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Pebble tidy",
+      "ref": "generate:customer.placeholder-logo/social-proof.story-marquee-9"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Map compass",
+      "ref": "generate:customer.placeholder-logo/social-proof.story-marquee-10"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Marble plan",
+      "ref": "generate:customer.placeholder-logo/social-proof.story-marquee-11"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Orbit gather",
+      "ref": "generate:customer.placeholder-logo/social-proof.story-marquee-12"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Summit juniper",
+      "ref": "generate:customer.placeholder-logo/social-proof.story-marquee-13"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Sort tidal",
+      "ref": "generate:customer.placeholder-logo/social-proof.story-marquee-14"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Lantern falcon",
+      "ref": "generate:customer.placeholder-logo/social-proof.story-marquee-15"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "marquee.loop",
+    "reducedMotionFallback": "paused"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "dark",
+   "content": {
+    "heading": "Refine atlas bundle",
+    "actions": [
+     {
+      "label": "Cedar trace",
+      "href": "https://fernlight.example/final-cta-0"
+     },
+     {
+      "label": "Quarry ember",
+      "href": "https://fernlight.example/final-cta-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-7"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "lead": "Prism cinder sprout steer sort",
+    "actions": [
+     {
+      "label": "Lantern falcon",
+      "href": "https://fernlight.example/footer-0"
+     },
+     {
+      "label": "Basil rowan",
+      "href": "https://fernlight.example/footer-1"
+     },
+     {
+      "label": "Nimbus grove",
+      "href": "https://fernlight.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Map"
+     },
+     {
+      "title": "Delta"
+     },
+     {
+      "title": "Marble"
+     },
+     {
+      "title": "Plan"
+     },
+     {
+      "title": "Prism"
+     },
+     {
+      "title": "Cinder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.twins-modal",
+   "variant": "default",
+   "content": {},
+   "motion": {
+    "pattern": "modal.fade-scale",
+    "reducedMotionFallback": "show-immediately"
+   },
+   "retrievalEligible": false
+  }
+ ]
+}

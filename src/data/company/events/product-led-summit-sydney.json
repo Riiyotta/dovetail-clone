@@ -1,0 +1,143 @@
+{
+ "slug": "product-led-summit-sydney",
+ "path": "/events/product-led-summit-sydney/",
+ "title": "Product-Led Summit Sydney",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2025-10-29T08:00+10:00",
+ "endDate": "2025-10-29T17:30+10:00",
+ "onlineEvent": false,
+ "location": "Hyatt Regency Sydney 161 Sussex Street",
+ "hosts": [
+  "Jessica Pang"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": null,
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Jessica Pang"
+  },
+  {
+   "label": "[START]",
+   "value": "28 Oct 2025 3:00PM PDT"
+  },
+  {
+   "label": "[END]",
+   "value": "29 Oct 2025 12:30AM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Hyatt Regency Sydney 161 Sussex Street"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/slack-imgs-2.jpeg",
+  "width": 2500,
+  "height": 1313,
+  "youtubeId": null
+ },
+ "body": [
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 17,
+   "strong": [
+    "Get your tickets!"
+   ],
+   "links": [
+    {
+     "text": "Get your tickets!",
+     "href": "https://world.productledalliance.com/location/sydney/"
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "text": "Don't Just Keep Up. Lead the Way."
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 313
+  },
+  {
+   "t": "h3",
+   "text": "Panel spotlight: implementing AI in the product loop—the real AI journey"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 588
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 63
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 95,
+     "strong": [
+      "Driving User Acquisition:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 98,
+     "strong": [
+      "Mastering Onboarding:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 97,
+     "strong": [
+      "Optimizing for Retention:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 99,
+     "strong": [
+      "Leveraging Data:"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 313
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 236
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 71
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

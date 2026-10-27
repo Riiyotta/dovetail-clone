@@ -1,0 +1,94 @@
+{
+ "slug": "dovetail-for-designers-webinar",
+ "path": "/events/dovetail-for-designers-webinar/",
+ "title": "Dovetail for designers introductory session",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2024-09-12T00:00+11:00",
+ "endDate": null,
+ "onlineEvent": true,
+ "location": "Online",
+ "hosts": [
+  "Serena Chan",
+  "Alissa Lydon"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": "UKPQBGekuck",
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Serena Chan, Alissa Lydon"
+  },
+  {
+   "label": "[START]",
+   "value": "11 Sep 2024 6:00AM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Online"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "video",
+  "image": "/assets/company/media/2024_Live_Demo_Roles__6_.png",
+  "width": 7000,
+  "height": 3937,
+  "youtubeId": "UKPQBGekuck"
+ },
+ "body": [
+  {
+   "t": "p",
+   "text": "Say hello to your research partner!"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 235
+  },
+  {
+   "t": "p",
+   "text": "In this session, we will uncover:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "text": "How to understand customer needs with AI-powered analysis"
+    },
+    {
+     "text": "How to find knowledge across existing customer data, fast"
+    },
+    {
+     "placeholder": true,
+     "chars": 80
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 71,
+   "links": [
+    {
+     "text": "https://dovetail.com/contact-sales/",
+     "href": "/contact-sales/"
+    }
+   ]
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

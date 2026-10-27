@@ -1,0 +1,75 @@
+{
+ "slug": "perfect-vs-possible-how-real-product-decisions-get-made",
+ "path": "/events/perfect-vs-possible-how-real-product-decisions-get-made/",
+ "title": "Perfect vs possible: how real product decisions get made",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2026-01-25T18:00+11:00",
+ "endDate": null,
+ "onlineEvent": false,
+ "location": "Sydney, New South Wales",
+ "hosts": [
+  "Tom Belica"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": null,
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Tom Belica"
+  },
+  {
+   "label": "[START]",
+   "value": "24 Jan 2026 11:00PM PST"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Sydney, New South Wales"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png",
+  "width": 1920,
+  "height": 1080,
+  "youtubeId": null
+ },
+ "body": [
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 223
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 148
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 14,
+   "links": [
+    {
+     "text": "here",
+     "href": "https://www.meetup.com/producttalksydney/events/312454500/"
+    }
+   ]
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

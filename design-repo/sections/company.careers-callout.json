@@ -1,0 +1,162 @@
+{
+ "id": "company.careers-callout",
+ "title": "Careers callout",
+ "semantic": {
+  "id": "company.careers-callout",
+  "category": "COMPANY"
+ },
+ "source": {
+  "id": "component:AwsSummit:aw-careers__sec",
+  "file": "src/pages/company/AwsSummit.jsx",
+  "tag": "div",
+  "lines": "302-314",
+  "tagLine": 302,
+  "anchor": "aw-careers__sec",
+  "anchorLine": 302
+ },
+ "purpose": "Black careers block entered through a pixel band: heading, text and CTA.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 1,
+   "observedOn": [
+    "/aws-summit-sydney-2026/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions",
+   "heading",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 2
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 4,
+    "maxChars": 32,
+    "observedIn": 2
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 10,
+    "maxChars": 52,
+    "observedIn": 1
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 17,
+    "maxChars": 120,
+    "observedIn": 1
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 14,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "actions": [
+    2,
+    2
+   ],
+   "media": [
+    14,
+    14
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "illustration.brand",
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "illustration.generated",
+     "product.generated-visual"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "illustration.generated",
+  "product.generated-visual"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "pixel.band-scrub"
+  ],
+  "requiredPatterns": [
+   "pixel.band-scrub"
+  ],
+  "reducedMotionFallback": {
+   "pixel.band-scrub": "unchanged"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 1,
+   "nodes": 1,
+   "minPx": 792,
+   "maxPx": 792,
+   "medianPx": 792,
+   "sample": {
+    "/aws-summit-sydney-2026/": [
+     792
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/company/AwsSummit.jsx:302-314",
+  "specs/campaign-aws-summit.md:1-30"
+ ]
+}

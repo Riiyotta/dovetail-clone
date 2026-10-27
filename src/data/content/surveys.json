@@ -1,0 +1,1533 @@
+{
+ "source": "https://dovetail.com/surveys/",
+ "template": "guide-hub",
+ "categoryName": "Surveys",
+ "hubPath": "/surveys/",
+ "pillar": {
+  "h1": "Surveys 101: When, where, and how to use them",
+  "pageTitle": "What is a Survey? Uses, Types, & Tips",
+  "metaDescription": "A survey can help businesses in so many ways. Learn the purpose of surveys, the different types of surveys, and tips for conducting successful surveys.",
+  "meta": [
+   {
+    "label": "Last updated",
+    "values": [
+     {
+      "text": "16 October 2025",
+      "href": null
+     }
+    ]
+   },
+   {
+    "label": "Reviewed by",
+    "values": [
+     {
+      "text": "Tanya Williams",
+      "href": "/contributors/tanya-williams/"
+     }
+    ]
+   }
+  ],
+  "tocItems": 14,
+  "bodyShape": {
+   "chars": 11526,
+   "p": 59,
+   "h2": 7,
+   "h3": 22,
+   "ul": 1,
+   "li": 3
+  },
+  "bodyOrder": "h2 h2 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 ul h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2"
+ },
+ "editorsPicks": [
+  {
+   "href": "/surveys/questionnaire/",
+   "title": "The ultimate guide to questionnaires (with example questions)",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/surveys/likert-scale/",
+   "title": "Likert scale: Guide & examples for your next survey",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/surveys/margin-of-error/",
+   "title": "Guide to margin of error (with examples)",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/surveys/margin-of-error-calculator/",
+   "title": "How to calculate the margin of error for your survey (free tool)",
+   "date": "11 June 2026"
+  }
+ ],
+ "latestArticles": [
+  {
+   "href": "/surveys/intercept-surveys-enterprise-b2b-products/",
+   "title": "How to design intercept surveys in enterprise B2B products without disrupting workflows or causing survey fatigue",
+   "date": "6 October 2026"
+  },
+  {
+   "href": "/surveys/surveys-vs-interviews-product-discovery-mixed-methods/",
+   "title": "Surveys vs. interviews for product discovery: when to use each and how to sequence mixed methods",
+   "date": "1 September 2026"
+  },
+  {
+   "href": "/surveys/likert-scale/",
+   "title": "Likert scale: Guide & examples for your next survey",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/surveys/margin-of-error-calculator/",
+   "title": "How to calculate the margin of error for your survey (free tool)",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/surveys/csat/",
+   "title": "Customer satisfaction score (CSAT): Definitive guide",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/surveys/questionnaire/",
+   "title": "The ultimate guide to questionnaires (with example questions)",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/surveys/margin-of-error/",
+   "title": "Guide to margin of error (with examples)",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/surveys/what-is-net-promoter-score/",
+   "title": "What is a Net Promoter Score, and how can you calculate yours?",
+   "date": "11 June 2026"
+  }
+ ],
+ "relatedTopics": [
+  {
+   "href": "/customer-research/",
+   "text": "Customer research"
+  },
+  {
+   "href": "/design-thinking/",
+   "text": "Design thinking"
+  },
+  {
+   "href": "/employee-experience/",
+   "text": "Employee experience"
+  },
+  {
+   "href": "/enterprise/",
+   "text": "Enterprise"
+  },
+  {
+   "href": "/market-research/",
+   "text": "Market research"
+  },
+  {
+   "href": "/patient-experience/",
+   "text": "Patient experience"
+  },
+  {
+   "href": "/product-development/",
+   "text": "Product development"
+  },
+  {
+   "href": "/product-management/",
+   "text": "Product management"
+  },
+  {
+   "href": "/research-maturity-assessment/",
+   "text": "Research maturity assessment"
+  },
+  {
+   "href": "/research/",
+   "text": "Research methods"
+  },
+  {
+   "href": "/ux/",
+   "text": "User experience (UX)"
+  }
+ ],
+ "allArticlesHeading": "All Surveys articles",
+ "note": "articles[] = the \"All <category> articles\" A-Z list rendered after the footer on the hub page (order as on site). title = list title; h1 = the article page H1 (can differ). Article pages show the hub editorsPicks/latestArticles unless editorsPicksOverride/latestArticlesOverride (href lists; titles/dates resolvable from articles[] / hub carousels) is set for that article. No thumbnails exist for guide articles. sidebarCta = the desktop sidebar promo shown on every article of this hub (not on the hub pillar page itself).",
+ "routesNotInList": [],
+ "articles": [
+  {
+   "path": "/surveys/customer-satisfaction-survey-questions/",
+   "title": "10 examples of customer satisfaction survey questions",
+   "h1": "10 examples of customer satisfaction survey questions",
+   "lastUpdated": "18 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Tim Scharks",
+    "href": "/contributors/tim-scharks/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 10297,
+    "p": 35,
+    "h2": 6,
+    "h3": 16
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/website-survey/",
+   "title": "12 best website survey questions to ask your customers",
+   "h1": "12 best website survey questions to ask your customers",
+   "lastUpdated": "23 May 2023",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 29,
+   "bodyShape": {
+    "chars": 11635,
+    "p": 64,
+    "h2": 7,
+    "ul": 5,
+    "li": 18,
+    "h3": 22
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h2 ul h3 h3 h3 ul h3 h2 ul h3 h3 h3 h3 h3 h3 h3 ul h3 h3 h3 h3 h3 h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/list-of-survey-questions/",
+   "title": "12 survey question types with examples",
+   "h1": "12 survey question types with examples",
+   "lastUpdated": "22 February 2024",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 28,
+   "bodyShape": {
+    "chars": 19121,
+    "p": 100,
+    "h2": 6,
+    "h3": 27,
+    "ul": 6,
+    "li": 44,
+    "ol": 3
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h2 h3 ul h3 ol h3 h3 ol h3 ul h3 ul ul h3 ol h3 h3 h3 h3 h3 h2 ul ul h2 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/customer-satisfaction-survey/",
+   "title": "24 Clever customer satisfaction surveys from big brands",
+   "h1": "24 Clever customer satisfaction surveys from big brands",
+   "lastUpdated": "4 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 36,
+   "bodyShape": {
+    "chars": 16500,
+    "p": 68,
+    "h2": 6,
+    "ul": 32,
+    "li": 73,
+    "h3": 30
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2 ul h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/list-of-post-event-survey-questions/",
+   "title": "25 post-event survey questions to get valuable feedback",
+   "h1": "25 post-event survey questions to get valuable feedback",
+   "lastUpdated": "13 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 14506,
+    "p": 59,
+    "h2": 7,
+    "ul": 2,
+    "li": 33,
+    "h3": 11,
+    "ol": 25
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h2 ol ol ol ol ol ol ol ol ol ol ol ol ol ol ol h3 ol ol ol ol h3 ol ol ol h3 ol ol ol h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/business-survey-questions-for-market-research/",
+   "title": "30+ market research questions to ask your customers",
+   "h1": "30+ market research questions to ask your customers",
+   "lastUpdated": "18 December 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 13834,
+    "p": 77,
+    "h2": 5,
+    "h3": 20,
+    "ul": 4,
+    "li": 54,
+    "ol": 5
+   },
+   "bodyOrder": "h2 h3 ul ul h3 ul h2 h3 h3 h3 h3 ul h3 h3 h3 h2 h3 ol h3 ol h3 ol h3 ol h3 ol h2 h3 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/feedback-questions/",
+   "title": "35 feedback questions to ask customers",
+   "h1": "35 feedback questions to ask customers",
+   "lastUpdated": "11 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 9705,
+    "p": 76,
+    "h2": 5,
+    "h3": 16,
+    "ul": 6,
+    "li": 53,
+    "ol": 5
+   },
+   "bodyOrder": "h2 h3 ul h3 h3 ul h2 h3 h3 h3 ul h3 ul h3 h2 h3 ol h3 ol h3 ol h3 ol h3 ol h2 h2 h3 ul h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/how-did-you-hear-about-us/",
+   "title": "4 ways to ask your customers, \"How did you hear about us?\"",
+   "h1": "4 ways to ask your customers, \"How did you hear about us?\"",
+   "lastUpdated": "26 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 8934,
+    "p": 40,
+    "h2": 6,
+    "ul": 1,
+    "li": 7,
+    "h3": 14
+   },
+   "bodyOrder": "h2 h2 h2 ul h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/brand-awareness-survey/",
+   "title": "44 brand awareness survey questions to ask",
+   "h1": "44 brand awareness survey questions to ask",
+   "lastUpdated": "15 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 10871,
+    "p": 28,
+    "h2": 6,
+    "ul": 3,
+    "li": 54,
+    "h3": 9,
+    "ol": 3
+   },
+   "bodyOrder": "h2 ul h3 h2 ul h2 h2 h3 ol h3 ol h3 ol h2 h3 h3 ul h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/survey-email-subject-lines/",
+   "title": "5 survey email subject lines to inspire you",
+   "h1": "5 survey email subject lines to inspire you",
+   "lastUpdated": "2 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 7824,
+    "p": 47,
+    "h2": 5,
+    "h3": 17,
+    "ul": 6,
+    "li": 26
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 ul h3 h2 h3 ul h3 ul h3 ul h3 ul h3 ul h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/forced-choice-questions/",
+   "title": "5 types of forced-choice questions with examples",
+   "h1": "5 types of forced-choice questions with examples",
+   "lastUpdated": "23 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 7907,
+    "p": 29,
+    "h2": 4,
+    "h3": 9,
+    "ul": 7,
+    "li": 28
+   },
+   "bodyOrder": "h2 h3 h3 ul h2 h3 ul h3 ul h3 h3 ul h3 ul h2 h3 ul h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/customer-service-survey-questions/",
+   "title": "55 insightful customer service survey questions",
+   "h1": "55 insightful customer service survey questions",
+   "lastUpdated": "21 December 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 15751,
+    "p": 57,
+    "h2": 5,
+    "h3": 20,
+    "ol": 8,
+    "li": 61,
+    "ul": 1
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h2 h3 ol h3 ol h3 ol h3 ol h3 ol h3 ol h3 ol h2 h3 h3 h3 h3 ol h3 ul h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/top-student-survey-questions/",
+   "title": "8 student survey questions to gather valuable feedback",
+   "h1": "8 student survey questions to gather valuable feedback",
+   "lastUpdated": "13 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 11188,
+    "p": 40,
+    "h2": 4,
+    "ul": 2,
+    "li": 8,
+    "h3": 12
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/user-experience-survey-questions/",
+   "title": "Best UX survey questions to ask your users",
+   "h1": "Best UX survey questions to ask your users",
+   "lastUpdated": "26 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 9371,
+    "p": 45,
+    "h2": 5,
+    "ul": 1,
+    "li": 5,
+    "ol": 1,
+    "h3": 13
+   },
+   "bodyOrder": "h2 ul h2 ol h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/nps-calculator/",
+   "title": "Calculate your Net Promoter Score (NPS) – free tool",
+   "h1": "Calculate your Net Promoter Score (NPS) – free tool",
+   "lastUpdated": "14 May 2023",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 7435,
+    "p": 35,
+    "h2": 5,
+    "h3": 13
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/close-ended-questions/",
+   "title": "Closed-ended questions: Overview, uses, and examples",
+   "h1": "Closed-ended questions: Overview, uses, and examples",
+   "lastUpdated": "20 March 2024",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 12801,
+    "p": 52,
+    "h2": 6,
+    "h3": 10,
+    "ul": 8,
+    "li": 32
+   },
+   "bodyOrder": "h2 h2 h3 h3 h2 h3 ul h3 ul h3 ul h3 ul h2 ul ul h2 h3 ul h3 h3 ul h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/introduction-to-a-survey/",
+   "title": "Creating an engaging introduction to a survey: Our how-to guide",
+   "h1": "Creating an engaging introduction to a survey: Our how-to guide",
+   "lastUpdated": "29 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 6233,
+    "p": 53,
+    "h2": 4,
+    "ul": 1,
+    "li": 3,
+    "h3": 14
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/csat/",
+   "title": "Customer satisfaction score (CSAT): Definitive guide",
+   "h1": "Customer satisfaction score (CSAT): Definitive guide",
+   "lastUpdated": "11 June 2026",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 8654,
+    "p": 33,
+    "h2": 11,
+    "ul": 3,
+    "li": 21,
+    "ol": 2,
+    "h3": 9
+   },
+   "bodyOrder": "h2 h2 ul h2 ol h2 h2 h3 h3 h3 h2 h2 h3 ul h3 ul h2 h3 ol h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/surveys/intercept-surveys-enterprise-b2b-products/",
+    "/surveys/surveys-vs-interviews-product-discovery-mixed-methods/",
+    "/surveys/likert-scale/",
+    "/surveys/margin-of-error-calculator/",
+    "/surveys/questionnaire/",
+    "/surveys/margin-of-error/",
+    "/surveys/what-is-net-promoter-score/",
+    "/surveys/fun-ways-to-encourage-survey-participation/"
+   ]
+  },
+  {
+   "path": "/surveys/nps-questions/",
+   "title": "Examples of Net Promoter Score (NPS) questions",
+   "h1": "Examples of Net Promoter Score (NPS) questions",
+   "lastUpdated": "19 May 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 11558,
+    "p": 53,
+    "h2": 9,
+    "ul": 3,
+    "li": 15,
+    "h3": 12
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 h3 h3 ul h3 h3 ul h3 h3 h3 h3 h3 h2 h2 h2 h3 h3 h3 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/best-feedback-survey-questions/",
+   "title": "Feedback survey questions for genuine customer insights",
+   "h1": "Feedback survey questions for genuine customer insights",
+   "lastUpdated": "14 February 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 31,
+   "bodyShape": {
+    "chars": 18846,
+    "p": 97,
+    "h2": 7,
+    "h3": 29,
+    "ul": 1,
+    "li": 3
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 ul h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/fun-ways-to-encourage-survey-participation/",
+   "title": "Fun ways to encourage survey participation",
+   "h1": "Fun ways to encourage survey participation",
+   "lastUpdated": "26 February 2025",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 6969,
+    "p": 34,
+    "h2": 5,
+    "h3": 21
+   },
+   "bodyOrder": "h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/margin-of-error/",
+   "title": "Guide to margin of error (with examples)",
+   "h1": "Guide to margin of error (with examples)",
+   "lastUpdated": "11 June 2026",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 7925,
+    "p": 43,
+    "h2": 8,
+    "ul": 3,
+    "li": 16,
+    "h3": 9,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 h2 ul ul h3 h3 ol h3 h2 h2 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/surveys/questionnaire/",
+    "/surveys/likert-scale/",
+    "/surveys/margin-of-error-calculator/",
+    "/surveys/what-is-net-promoter-score/"
+   ],
+   "latestArticlesOverride": [
+    "/surveys/intercept-surveys-enterprise-b2b-products/",
+    "/surveys/surveys-vs-interviews-product-discovery-mixed-methods/",
+    "/surveys/likert-scale/",
+    "/surveys/margin-of-error-calculator/",
+    "/surveys/csat/",
+    "/surveys/questionnaire/",
+    "/surveys/what-is-net-promoter-score/",
+    "/surveys/fun-ways-to-encourage-survey-participation/"
+   ]
+  },
+  {
+   "path": "/surveys/how-to-analyze-survey-data/",
+   "title": "How to analyze survey data",
+   "h1": "How to analyze survey data",
+   "lastUpdated": "30 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 43,
+   "bodyShape": {
+    "chars": 21690,
+    "p": 104,
+    "h2": 11,
+    "h3": 36,
+    "ul": 3,
+    "li": 14
+   },
+   "bodyOrder": "h2 h2 h2 h3 ul h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 ul h3 h3 h3 h3 h2 h2 h3 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/annonymous-survey/",
+   "title": "How to build a successful anonymous survey",
+   "h1": "How to build a successful anonymous survey",
+   "lastUpdated": "23 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 10176,
+    "p": 47,
+    "h2": 9,
+    "h3": 12,
+    "ol": 2,
+    "li": 6
+   },
+   "bodyOrder": "h2 h2 h2 h2 h3 h3 h3 h3 h2 h2 h3 h3 h3 h2 h3 ol h3 ol h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/margin-of-error-calculator/",
+   "title": "How to calculate the margin of error for your survey (free tool)",
+   "h1": "How to calculate the margin of error for your survey (free tool)",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 6,
+   "bodyShape": {
+    "chars": 6999,
+    "p": 35,
+    "h2": 6,
+    "ol": 1,
+    "li": 10,
+    "h3": 4,
+    "ul": 1
+   },
+   "bodyOrder": "h2 h2 h2 ol h3 h2 h2 ul h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/surveys/questionnaire/",
+    "/surveys/likert-scale/",
+    "/surveys/margin-of-error/",
+    "/surveys/what-is-net-promoter-score/"
+   ],
+   "latestArticlesOverride": [
+    "/surveys/intercept-surveys-enterprise-b2b-products/",
+    "/surveys/surveys-vs-interviews-product-discovery-mixed-methods/",
+    "/surveys/likert-scale/",
+    "/surveys/csat/",
+    "/surveys/questionnaire/",
+    "/surveys/margin-of-error/",
+    "/surveys/what-is-net-promoter-score/",
+    "/surveys/fun-ways-to-encourage-survey-participation/"
+   ]
+  },
+  {
+   "path": "/surveys/how-to-code-open-ended-survey-questions/",
+   "title": "How to code & analyze open-ended questions",
+   "h1": "How to code & analyze open-ended questions",
+   "lastUpdated": "30 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 12049,
+    "p": 40,
+    "h2": 7,
+    "h3": 17,
+    "ol": 2,
+    "li": 27,
+    "ul": 4
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 ol h3 ol h2 h3 h3 ul h3 ul h3 h3 ul h3 ul h2 h2 h3 h3 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/nps-email/",
+   "title": "How to craft a winning NPS survey email",
+   "h1": "How to craft a winning NPS survey email",
+   "lastUpdated": "2 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 9040,
+    "p": 64,
+    "h2": 5,
+    "ul": 4,
+    "li": 10,
+    "h3": 19
+   },
+   "bodyOrder": "h2 ul ul h2 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 ul h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/how-to-create-a-survey-in-google-forms/",
+   "title": "How to create surveys with Google Forms",
+   "h1": "How to create surveys with Google Forms",
+   "lastUpdated": "22 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 7278,
+    "p": 48,
+    "h2": 4,
+    "h3": 14,
+    "ul": 2,
+    "li": 12
+   },
+   "bodyOrder": "h2 h3 h3 h3 ul h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 ul h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/intercept-surveys-enterprise-b2b-products/",
+   "title": "How to design intercept surveys in enterprise B2B products without disrupting workflows or causing survey fatigue",
+   "h1": "How to design intercept surveys in enterprise B2B products without disrupting workflows or causing survey fatigue",
+   "lastUpdated": "6 October 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 15422,
+    "p": 41,
+    "h2": 9,
+    "h3": 17,
+    "ul": 5,
+    "li": 21,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h3 ul h3 ul h3 h3 ul h2 h3 ul h3 h3 h2 h3 h3 h3 h3 h2 ul h2 h2 ol h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/surveys/surveys-vs-interviews-product-discovery-mixed-methods/",
+    "/surveys/likert-scale/",
+    "/surveys/margin-of-error-calculator/",
+    "/surveys/csat/",
+    "/surveys/questionnaire/",
+    "/surveys/margin-of-error/",
+    "/surveys/what-is-net-promoter-score/",
+    "/surveys/fun-ways-to-encourage-survey-participation/"
+   ]
+  },
+  {
+   "path": "/surveys/demographic-questions/",
+   "title": "How to write better demographic questions for your surveys",
+   "h1": "How to write better demographic questions for your surveys",
+   "lastUpdated": "12 May 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Tim Scharks",
+    "href": "/contributors/tim-scharks/"
+   },
+   "tocItems": 29,
+   "bodyShape": {
+    "chars": 15771,
+    "p": 93,
+    "h2": 7,
+    "ul": 8,
+    "li": 50,
+    "h3": 26
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h3 h2 h3 ul h3 h3 ul h2 h3 h3 h3 ul h3 h3 ul h3 ul h3 ul h3 ul h2 h3 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/likert-scale/",
+   "title": "Likert scale: Guide & examples for your next survey",
+   "h1": "Likert scale: Guide & examples for your next survey",
+   "lastUpdated": "11 June 2026",
+   "author": null,
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 7401,
+    "p": 40,
+    "h2": 6,
+    "h3": 18,
+    "ul": 1,
+    "li": 3
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 ul",
+   "editorsPicksOverride": [
+    "/surveys/questionnaire/",
+    "/surveys/margin-of-error/",
+    "/surveys/margin-of-error-calculator/",
+    "/surveys/what-is-net-promoter-score/"
+   ],
+   "latestArticlesOverride": [
+    "/surveys/intercept-surveys-enterprise-b2b-products/",
+    "/surveys/surveys-vs-interviews-product-discovery-mixed-methods/",
+    "/surveys/margin-of-error-calculator/",
+    "/surveys/csat/",
+    "/surveys/questionnaire/",
+    "/surveys/margin-of-error/",
+    "/surveys/what-is-net-promoter-score/",
+    "/surveys/fun-ways-to-encourage-survey-participation/"
+   ]
+  },
+  {
+   "path": "/surveys/how-to-find-margin-of-error/",
+   "title": "Margin of error: What it is and how to find it (with examples)",
+   "h1": "Margin of error: What it is and how to find it (with examples)",
+   "lastUpdated": "16 April 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Tim Scharks",
+    "href": "/contributors/tim-scharks/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 11591,
+    "p": 55,
+    "h2": 10,
+    "ul": 3,
+    "li": 10,
+    "h3": 16
+   },
+   "bodyOrder": "h2 ul h2 h2 h3 h3 h3 h3 ul h2 h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 h2 ul h2 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/csat-vs-nps/",
+   "title": "NPS Vs. CSAT: Which is a better measure of customer satisfaction?",
+   "h1": "NPS Vs. CSAT: Which is a better measure of customer satisfaction?",
+   "lastUpdated": "11 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 13397,
+    "p": 45,
+    "ul": 10,
+    "li": 42,
+    "h2": 7,
+    "h3": 8
+   },
+   "bodyOrder": "ul ul h2 h3 h3 h2 h3 h3 ul ul h3 ul h2 h3 ul h3 ul h3 ul h2 ul ul h2 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/product-survey-questions/",
+   "title": "Product survey questions you need to ask",
+   "h1": "Product survey questions you need to ask",
+   "lastUpdated": "23 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 15260,
+    "p": 53,
+    "h2": 8,
+    "h3": 16,
+    "ul": 2,
+    "li": 10
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3 h2 h2 ul h2 h3 h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/student-perception-survey-guide/",
+   "title": "Student perception surveys: a comprehensive guide",
+   "h1": "Student perception surveys: a comprehensive guide",
+   "lastUpdated": "28 June 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 26,
+   "bodyShape": {
+    "chars": 13234,
+    "p": 64,
+    "h2": 9,
+    "h3": 21,
+    "ul": 7,
+    "li": 45,
+    "ol": 2
+   },
+   "bodyOrder": "h2 h2 h3 ul h3 ul h2 ul h2 h3 h3 h3 h2 h3 ul h3 ul h3 h3 ul h3 h2 h3 h3 h2 h3 ol h3 ol h2 h3 h3 h3 h3 h2 h3 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/response-rate/",
+   "title": "Survey response rates 101",
+   "h1": "Survey response rates 101",
+   "lastUpdated": "8 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 28,
+   "bodyShape": {
+    "chars": 12374,
+    "p": 49,
+    "h2": 10,
+    "ul": 6,
+    "li": 18,
+    "h3": 18
+   },
+   "bodyOrder": "h2 h2 ul h2 ul h2 ul h2 ul h2 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 ul h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/surveys-vs-interviews-product-discovery-mixed-methods/",
+   "title": "Surveys vs. interviews for product discovery: when to use each and how to sequence mixed methods",
+   "h1": "Surveys vs. interviews for product discovery: when to use each and how to sequence mixed methods",
+   "lastUpdated": "1 September 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 27,
+   "bodyShape": {
+    "chars": 14599,
+    "p": 49,
+    "h2": 9,
+    "h3": 22,
+    "ul": 2,
+    "li": 24,
+    "ol": 4
+   },
+   "bodyOrder": "h2 h3 ul h3 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 ol h3 ol h3 ol h2 h3 h3 h3 h3 h2 h2 ol h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/surveys/intercept-surveys-enterprise-b2b-products/",
+    "/surveys/likert-scale/",
+    "/surveys/margin-of-error-calculator/",
+    "/surveys/csat/",
+    "/surveys/questionnaire/",
+    "/surveys/margin-of-error/",
+    "/surveys/what-is-net-promoter-score/",
+    "/surveys/fun-ways-to-encourage-survey-participation/"
+   ]
+  },
+  {
+   "path": "/surveys/types-of-survey-questions/",
+   "title": "The 12 most common survey question types",
+   "h1": "The 12 most common survey question types",
+   "lastUpdated": "22 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Tim Scharks",
+    "href": "/contributors/tim-scharks/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 12744,
+    "p": 68,
+    "h2": 5,
+    "h3": 15,
+    "ol": 2,
+    "li": 14
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2 ol h2 h2 h3 ol h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/questionnaire/",
+   "title": "The ultimate guide to questionnaires (with example questions)",
+   "h1": "The ultimate guide to questionnaires (with example questions)",
+   "lastUpdated": "11 June 2026",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 30,
+   "bodyShape": {
+    "chars": 11493,
+    "p": 49,
+    "h2": 6,
+    "h3": 24,
+    "ul": 7,
+    "li": 21
+   },
+   "bodyOrder": "h2 h3 h3 h3 h2 h3 h3 h3 h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2 h3 h3 h2 h3 h3 h3 h3 ul h3 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": [
+    "/surveys/likert-scale/",
+    "/surveys/margin-of-error/",
+    "/surveys/margin-of-error-calculator/",
+    "/surveys/what-is-net-promoter-score/"
+   ],
+   "latestArticlesOverride": [
+    "/surveys/intercept-surveys-enterprise-b2b-products/",
+    "/surveys/surveys-vs-interviews-product-discovery-mixed-methods/",
+    "/surveys/likert-scale/",
+    "/surveys/margin-of-error-calculator/",
+    "/surveys/csat/",
+    "/surveys/margin-of-error/",
+    "/surveys/what-is-net-promoter-score/",
+    "/surveys/fun-ways-to-encourage-survey-participation/"
+   ]
+  },
+  {
+   "path": "/surveys/cross-tabulation/",
+   "title": "Understanding cross-tabulation analysis of survey data",
+   "h1": "Understanding cross-tabulation analysis of survey data",
+   "lastUpdated": "23 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 9592,
+    "p": 45,
+    "h2": 6,
+    "ol": 1,
+    "li": 5,
+    "ul": 1,
+    "h3": 15
+   },
+   "bodyOrder": "h2 ol ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/questionnaire-data-collection/",
+   "title": "Using questionnaires for data collection",
+   "h1": "Using questionnaires for data collection",
+   "lastUpdated": "21 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 12871,
+    "p": 38,
+    "h2": 6,
+    "h3": 9,
+    "ul": 5,
+    "li": 19
+   },
+   "bodyOrder": "h2 h3 ul h2 ul h2 h3 h3 h2 ul h2 h3 ul h3 ul h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/voice-of-the-customer-survey/",
+   "title": "Voice of the customer survey: 18 questions to ask",
+   "h1": "Voice of the customer survey: 18 questions to ask",
+   "lastUpdated": "3 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 9521,
+    "p": 52,
+    "h2": 5,
+    "h3": 10,
+    "ul": 8,
+    "li": 22
+   },
+   "bodyOrder": "h2 h3 h2 h2 h3 ul h3 h3 h3 h3 h3 ul h2 h3 ul ul h3 ul ul h3 ul ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/culture-index-survey/",
+   "title": "What is a culture index survey?",
+   "h1": "What is a culture index survey?",
+   "lastUpdated": "25 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 8237,
+    "p": 49,
+    "h2": 5,
+    "h3": 19,
+    "ul": 2,
+    "li": 9
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 ul h3 h3 h3 h2 h3 h3 h3 h3 h2 h2 h3 ul h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/what-is-a-good-nps-score/",
+   "title": "What is a good NPS score, and how can it be improved?",
+   "h1": "What is a good NPS score, and how can it be improved?",
+   "lastUpdated": "2 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 12437,
+    "p": 36,
+    "h2": 6,
+    "ul": 5,
+    "li": 21,
+    "h3": 5
+   },
+   "bodyOrder": "h2 ul h2 h2 ul h2 ul h2 h3 ul h3 ul h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/what-is-net-promoter-score/",
+   "title": "What is a Net Promoter Score, and how can you calculate yours?",
+   "h1": "What is a Net Promoter Score, and how can you calculate yours?",
+   "lastUpdated": "11 June 2026",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 9417,
+    "p": 50,
+    "h2": 7,
+    "h3": 14,
+    "ol": 1,
+    "li": 3
+   },
+   "bodyOrder": "h2 h3 h3 ol h3 h2 h2 h3 h3 h3 h3 h2 h2 h2 h3 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/surveys/intercept-surveys-enterprise-b2b-products/",
+    "/surveys/surveys-vs-interviews-product-discovery-mixed-methods/",
+    "/surveys/likert-scale/",
+    "/surveys/margin-of-error-calculator/",
+    "/surveys/csat/",
+    "/surveys/questionnaire/",
+    "/surveys/margin-of-error/",
+    "/surveys/fun-ways-to-encourage-survey-participation/"
+   ]
+  },
+  {
+   "path": "/surveys/patient-satisfaction-survey/",
+   "title": "What is a patient satisfaction survey?",
+   "h1": "What is a patient satisfaction survey?",
+   "lastUpdated": "29 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 11162,
+    "p": 38,
+    "h2": 8,
+    "h3": 14,
+    "ul": 6,
+    "li": 21
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 ul h2 h3 h3 ul h3 h3 h3 h2 h3 ul h3 ul h3 ul h3 ul h2 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/rating-scale/",
+   "title": "What is a rating scale? (With examples)",
+   "h1": "What is a rating scale? (With examples)",
+   "lastUpdated": "5 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 12679,
+    "p": 90,
+    "h2": 7,
+    "ol": 1,
+    "li": 21,
+    "h3": 18,
+    "ul": 2
+   },
+   "bodyOrder": "h2 h2 h2 ol h3 h3 h3 h3 h3 h3 h3 h3 ul h3 h3 h3 h3 h3 h3 h2 h2 ul h2 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/what-is-an-nps-detractor/",
+   "title": "What is an NPS detractor?",
+   "h1": "What is an NPS detractor?",
+   "lastUpdated": "14 May 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 11907,
+    "p": 39,
+    "h2": 6,
+    "ul": 5,
+    "li": 32,
+    "h3": 14,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h2 ol h2 ul h3 ul h3 h3 h3 ul h3 h3 ul h3 h2 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/employee-engagement/",
+   "title": "What is employee engagement, and how do you measure it?",
+   "h1": "What is employee engagement, and how do you measure it?",
+   "lastUpdated": "9 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 14077,
+    "p": 79,
+    "h2": 7,
+    "h3": 13,
+    "ul": 9,
+    "li": 49
+   },
+   "bodyOrder": "h2 h3 h2 ul h2 h3 h3 h2 h3 ul ul ul h3 ul ul ul h2 h3 ul ul h3 h3 h3 h2 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/enps/",
+   "title": "What is eNPS, and how do you calculate it?",
+   "h1": "What is eNPS, and how do you calculate it?",
+   "lastUpdated": "12 May 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 9643,
+    "p": 44,
+    "h2": 10,
+    "ul": 3,
+    "li": 14,
+    "h3": 7,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 h2 h2 h2 h3 h3 ol h3 h2 h2 ul h2 h3 h2 h3 h3 h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/response-bias/",
+   "title": "What is response bias and how do you avoid it?",
+   "h1": "What is response bias and how do you avoid it?",
+   "lastUpdated": "18 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 14902,
+    "p": 54,
+    "h2": 4,
+    "ul": 5,
+    "li": 20,
+    "h3": 18
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 ul h3 h3 h3 h3 h3 h3 h3 ul h2 h3 h3 ul h3 h3 h3 ul h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/surveys/semantic-differential-scale/",
+   "title": "When to use a semantic differential scale",
+   "h1": "When to use a semantic differential scale",
+   "lastUpdated": "11 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 9891,
+    "p": 58,
+    "h2": 7,
+    "ul": 2,
+    "li": 4,
+    "h3": 10
+   },
+   "bodyOrder": "h2 ul h2 h2 h2 h3 h3 h3 h3 h3 ul h2 h3 h3 h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  }
+ ],
+ "sidebarCta": {
+  "heading": "Analyze your survey results",
+  "body": "Identify key findings with automatic suggestions and one-click theme clustering.",
+  "button": {
+   "text": "Contact sales",
+   "href": "/contact-sales/"
+  }
+ }
+}

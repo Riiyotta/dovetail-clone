@@ -1,0 +1,1331 @@
+{
+ "url": "/product/ai-agents/",
+ "template": "product",
+ "title": "AI Agents | Dovetail",
+ "metaDescription": "Transform customer insights into real action—prototypes, tickets, analysis, and more.",
+ "documentHeight": {
+  "1440": 13145,
+  "1280": 13561,
+  "768": 13789,
+  "390": 12634
+ },
+ "chrome": {
+  "alertBar": true,
+  "navBackground": "#5D00A1",
+  "footer": "finalCta"
+ },
+ "sections": [
+  {
+   "slice": "ProductHero",
+   "el": "e10k4luw0",
+   "measuredHeight": {
+    "1440": 907.4,
+    "1280": 896.8,
+    "768": 1055.1,
+    "390": 749.1
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/pixel-shapes-left.png",
+     "alt": "",
+     "w": 286,
+     "h": 102.8,
+     "el": "e10k4luw2"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/pixel-shapes-right.png",
+     "alt": "",
+     "w": 286,
+     "h": 123.4,
+     "el": "e10k4luw3"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e10k4luw6-650112.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "text": "Agents",
+     "el": "e10k4luw7"
+    },
+    {
+     "role": "h1",
+     "text": "Punch above\nyour headcount",
+     "parts": [
+      {
+       "el": "e10k4luw9",
+       "text": "Punch above\nyour",
+       "font": "Inter"
+      },
+      {
+       "el": "e10k4luw12",
+       "img": "/assets/marketing/ai-agents-hero-icon.png"
+      },
+      {
+       "el": "e10k4luw10",
+       "text": "headcount",
+       "font": "PP Mondwest"
+      }
+     ],
+     "el": "e10k4luw13"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-agents-hero-icon.png",
+     "alt": "",
+     "w": 57,
+     "h": 72,
+     "el": "e10k4luw12"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 169,
+     "el": "e10k4luw14"
+    },
+    {
+     "role": "link",
+     "text": "Request a demo",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "Act on your data from",
+     "el": "e10k4luw18"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/GoogleMeet.svg",
+     "alt": "Google Meet",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/MicrosoftTeams.svg",
+     "alt": "Microsoft Teams",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Zoom.svg",
+     "alt": "Zoom",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/GoogleDrive.svg",
+     "alt": "Google Drive",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Salesforce.svg",
+     "alt": "Salesforce",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Zendesk.svg",
+     "alt": "Zendesk",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "link",
+     "text": "+",
+     "href": "https://docs.dovetail.com/integrations",
+     "ariaLabel": "See all integrations",
+     "el": "e10k4luw21"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-agents-hero.png",
+     "alt": "",
+     "w": 1192,
+     "h": 603.4,
+     "el": "e10k4luw24"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-agents-mobile-hero.png",
+     "alt": "",
+     "w": 0,
+     "h": 0,
+     "el": "e10k4luw25",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "LogoMarqueeWrap",
+   "el": "e1rv36b91",
+   "measuredHeight": {
+    "1440": 503.6,
+    "1280": 444.9,
+    "768": 79.6,
+    "390": 99.2
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Connecting the world’s greatest companies to their customers",
+     "el": "e1jzkpz90"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/amazon-918921.svg",
+     "w": 88.9,
+     "h": 40,
+     "ariaLabel": "Amazon",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/dyson-990499.svg",
+     "w": 88.9,
+     "h": 40,
+     "ariaLabel": "Dyson",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/mercedes-benz-133521.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Mercedes-Benz",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/qantas-584168.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Qantas",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/aws-271091.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "AWS",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/toyota-301058.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Toyota",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/canva-585358.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Canva",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/volvo-486139.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Volvo",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/notion-653232.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Notion",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/salesforce-823526.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Salesforce",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/milwaukee-672003.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Milwaukee",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/kpmg-168064.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "KPMG",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/wise-541877.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Wise",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/mckinsey-company-197947.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "McKinsey & Company",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ford-139900.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Ford",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/walgreens-861455.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Walgreens",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/shopify-732620.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Shopify",
+     "el": "svg"
+    }
+   ]
+  },
+  {
+   "slice": "ProductStatement",
+   "el": "e1ql6xhm0",
+   "measuredHeight": {
+    "1440": 544,
+    "1280": 340,
+    "768": 196,
+    "390": 280
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "Your team, minus the busywork",
+     "el": "e1ql6xhm1"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 237,
+     "el": "e1ql6xhm2"
+    }
+   ]
+  },
+  {
+   "slice": "ProductScrollVideo",
+   "el": "e182vtoz0",
+   "measuredHeight": {
+    "1440": 830.5,
+    "1280": 768,
+    "768": 510,
+    "390": 297.4
+   },
+   "content": [
+    {
+     "role": "video",
+     "src": "/assets/marketing/launch-2026-twin-cheri.mp4",
+     "poster": "/assets/marketing/launch-2026-twin-cheri-poster.jpg",
+     "el": "e182vtoz3"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e4sdv0e19-056090.svg",
+     "w": 40,
+     "h": 40,
+     "el": "svg"
+    }
+   ]
+  },
+  {
+   "slice": "ProductFeatures",
+   "el": "e1r1adlk0",
+   "measuredHeight": {
+    "1440": 3600,
+    "1280": 4100,
+    "768": 4327.4,
+    "390": 3009.3
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-agents-feature-2.png",
+     "alt": "Dovetail AI Agents product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-agents-feature-3.png",
+     "alt": "Dovetail AI Agents product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-agents-feature-4.png",
+     "alt": "Dovetail AI Agents product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-agents-feature-1.png",
+     "alt": "Dovetail AI Agents product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "01",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "Set up once, sharpen with\nevery run",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 225,
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Request a demo",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "02",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "Plugs into your existing workflows",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 175,
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Request a demo",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "03",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "Built for teams, not just tasks",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 183,
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Request a demo",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "04",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "Pressure-test ideas with a Digital Twin",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 270,
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Request a demo",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Learn more",
+     "href": "/product/digital-twins/",
+     "el": "a"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-agents-feature-2.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-agents-feature-3.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-agents-feature-4.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-agents-feature-1.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "ProductPromptCards",
+   "el": "e1y8zjgx0",
+   "measuredHeight": {
+    "1440": 1128,
+    "1280": 1298,
+    "768": 2200,
+    "390": 2416
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "Put AI Agents to work",
+     "el": "e1y8zjgx1"
+    },
+    {
+     "role": "text",
+     "text": "Always on, no nudge needed. Every output backed by the real customer evidence in your workspace.",
+     "el": "e1y8zjgx2"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "e1y8zjgx3"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-crown.png",
+     "alt": "",
+     "w": 48,
+     "h": 48,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "Executive narrative",
+     "el": "e1y8zjgx12"
+    },
+    {
+     "role": "text",
+     "text": "Turn feedback into a board-ready narrative, backed by evidence and updated the moment new insights land.",
+     "el": "e1y8zjgx13"
+    },
+    {
+     "role": "text",
+     "text": "Try prompts",
+     "el": "e1y8zjgx14"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1y8zjgx14-146741.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "e1y8zjgx3"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-megaphone.png",
+     "alt": "",
+     "w": 48,
+     "h": 48,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "Marketing and growth",
+     "el": "e1y8zjgx12"
+    },
+    {
+     "role": "text",
+     "text": "Draft case studies from positive sentiments and build campaigns based on your customers’ own words.",
+     "el": "e1y8zjgx13"
+    },
+    {
+     "role": "text",
+     "text": "Try prompts",
+     "el": "e1y8zjgx14"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1y8zjgx14-146741.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "e1y8zjgx3"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-target.png",
+     "alt": "",
+     "w": 48,
+     "h": 48,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "Revenue-ranked prioritization",
+     "el": "e1y8zjgx12"
+    },
+    {
+     "role": "text",
+     "text": "Ask what customers are asking for most right now and get a ranked answer backed by evidence.",
+     "el": "e1y8zjgx13"
+    },
+    {
+     "role": "text",
+     "text": "Try prompts",
+     "el": "e1y8zjgx14"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1y8zjgx14-146741.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "e1y8zjgx3"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-magnifier.png",
+     "alt": "",
+     "w": 48,
+     "h": 48,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "Revenue intelligence",
+     "el": "e1y8zjgx12"
+    },
+    {
+     "role": "text",
+     "text": "Automatically surface why deals are lost, route the signal to product and GTM, and track what changed.",
+     "el": "e1y8zjgx13"
+    },
+    {
+     "role": "text",
+     "text": "Try prompts",
+     "el": "e1y8zjgx14"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1y8zjgx14-146741.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "e1y8zjgx3"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-messy-folder.png",
+     "alt": "",
+     "w": 48,
+     "h": 48,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "Workspace management",
+     "el": "e1y8zjgx12"
+    },
+    {
+     "role": "text",
+     "text": "Agents audit tags, merge duplicates, and flag stale projects automatically in the background.",
+     "el": "e1y8zjgx13"
+    },
+    {
+     "role": "text",
+     "text": "Try prompts",
+     "el": "e1y8zjgx14"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1y8zjgx14-146741.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "e1y8zjgx3"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-temperature.png",
+     "alt": "",
+     "w": 48,
+     "h": 48,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "Support, risk, and quality",
+     "el": "e1y8zjgx12"
+    },
+    {
+     "role": "text",
+     "text": "Automatically pull support response time data, flag negative sentiments, and post to your support team in Slack.",
+     "el": "e1y8zjgx13"
+    },
+    {
+     "role": "text",
+     "text": "Try prompts",
+     "el": "e1y8zjgx14"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1y8zjgx14-146741.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    }
+   ]
+  },
+  {
+   "slice": "ProductQuote",
+   "el": "e1cnxsk60",
+   "measuredHeight": {
+    "1440": 560,
+    "1280": 560,
+    "768": 221.6,
+    "390": 397.6
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/testimonial-grid-bg.png.png",
+     "alt": "Grid background",
+     "w": 1260,
+     "h": 560,
+     "el": "e1ms7w8v3"
+    },
+    {
+     "role": "quote",
+     "placeholder": true,
+     "chars": 141,
+     "el": "e1cnxsk66"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-zapier-white-logo.svg",
+     "alt": "",
+     "w": 53.3,
+     "h": 24,
+     "el": "e1cnxsk68"
+    },
+    {
+     "role": "text",
+     "text": "Roy Olende",
+     "el": "e1cnxsk611"
+    },
+    {
+     "role": "text",
+     "text": "Head of UX Research",
+     "el": "e1cnxsk612"
+    },
+    {
+     "role": "button",
+     "text": "01",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "02",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "03",
+     "el": "e5b4pau2"
+    }
+   ]
+  },
+  {
+   "slice": "ProductCarousel",
+   "el": "e1c9zraz0",
+   "measuredHeight": {
+    "1440": 1213.8,
+    "1280": 1095.8,
+    "768": 879.2,
+    "390": 903.2
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "You set the rules.\nAgents do the rest.",
+     "el": "e1c9zraz3"
+    },
+    {
+     "role": "text",
+     "text": "Control what each agent does, and where the output lands, so the signal reaches exactly the work it's meant to inform.",
+     "el": "e1c9zraz6"
+    },
+    {
+     "role": "link",
+     "text": "Request a demo",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e5zj3j12-080716.svg",
+     "w": 32,
+     "h": 26.3,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e5zj3j12-080716.svg",
+     "w": 32,
+     "h": 26.3,
+     "el": "svg"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-agents-carousel-1.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "On-demand agents",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 125,
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-agents-carousel-2.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Dovetail tools and triggers",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Trigger agents from Dovetail events, and define which Dovetail tools the agent can use.",
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-agents-carousel-3.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "External triggers and MCP connectors",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Trigger agents from external events, and let them take action in the tools you already use—Slack, Linear, Figma, Notion, and more.",
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-agents-carousel-4.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Scope to what matters",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Point each agent to the relevant data sources so it only analyzes what matters for that output.",
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-agents-carousel-5.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Skills for complex tasks",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 113,
+     "el": "e1c9zraz17"
+    }
+   ]
+  },
+  {
+   "slice": "PixelBand",
+   "el": "e70som00",
+   "measuredHeight": {
+    "1440": 120,
+    "1280": 0,
+    "768": 0,
+    "390": 0
+   },
+   "content": []
+  },
+  {
+   "slice": "CustomerStories",
+   "el": "elme6fd0",
+   "measuredHeight": {
+    "1440": 910,
+    "1280": 700,
+    "768": 501.9,
+    "390": 621.9
+   },
+   "content": [
+    {
+     "role": "button",
+     "text": "01",
+     "ariaLabel": "Breville customer story",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "02",
+     "ariaLabel": "Atlassian customer story",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "03",
+     "ariaLabel": "Itaú Unibanco customer story",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "h3",
+     "text": "How customer insights drive and inspire Breville’s product innovation",
+     "el": "e1wn1hrv5"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1wn1hrv9-593209.svg",
+     "w": 56,
+     "h": 56,
+     "el": "e1wn1hrv11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 207,
+     "el": "e1wn1hrv6"
+    },
+    {
+     "role": "link",
+     "text": "Read the story",
+     "href": "/customers/breville/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "All customer stories",
+     "href": "/customers/",
+     "el": "e1wn1hrv8"
+    },
+    {
+     "role": "h3",
+     "text": "How Atlassian turns customer signals into confident product decisions",
+     "el": "e1wn1hrv5",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1wn1hrv9-661009.svg",
+     "w": 0,
+     "h": 0,
+     "el": "e1wn1hrv11",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 153,
+     "el": "e1wn1hrv6",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "link",
+     "text": "Read the story",
+     "href": "/customers/atlassian-design/",
+     "el": "a",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "h3",
+     "text": "How Itaú Unibanco delivers better banking experiences with Dovetail",
+     "el": "e1wn1hrv5",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1wn1hrv9-365555.svg",
+     "w": 0,
+     "h": 0,
+     "el": "e1wn1hrv11",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 183,
+     "el": "e1wn1hrv6",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "link",
+     "text": "Read the story",
+     "href": "/customers/itau-unibanco/",
+     "el": "a",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "PixelBand",
+   "el": "e70som00",
+   "measuredHeight": {
+    "1440": 120,
+    "1280": 0,
+    "768": 0,
+    "390": 0
+   },
+   "content": []
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 64,
+    "768": 64,
+    "390": 64
+   }
+  },
+  {
+   "slice": "FAQ",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 841,
+    "1280": 909,
+    "768": 877,
+    "390": 949
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "FAQs",
+     "el": "ef2kgtv0"
+    },
+    {
+     "role": "button",
+     "text": "What are Dovetail AI Agents?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ea410al3-082750.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 237,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "What data do Agents draw on?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 121,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "How are Dovetail Agents different from general AI agents or automation tools?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 285,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Can I set up an Agent without existing customer data in Dovetail?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 145,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "What user roles can create or manage an Agent?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 95,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "How do I interact with an Agent?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 118,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "How does an Agent deliver its output?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 86,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Do I need to code to set them up?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 78,
+     "el": "ef2kgtv2"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 64,
+    "768": 64,
+    "390": 64
+   }
+  }
+ ],
+ "promptModals": [
+  {
+   "cardTitle": "Executive narrative",
+   "prompts": [
+    {
+     "label": "Executive narrative agent",
+     "textChars": 340
+    },
+    {
+     "label": "Monthly insight digest agent",
+     "textChars": 294
+    }
+   ],
+   "promptText": "placeholder (long)"
+  },
+  {
+   "cardTitle": "Marketing and growth",
+   "prompts": [
+    {
+     "label": "Content marketing agent",
+     "textChars": 262
+    },
+    {
+     "label": "Growth marketing agent",
+     "textChars": 283
+    }
+   ],
+   "promptText": "placeholder (long)"
+  },
+  {
+   "cardTitle": "Revenue-ranked prioritization",
+   "prompts": [
+    {
+     "label": "RevOps agent",
+     "textChars": 271
+    },
+    {
+     "label": "Renewal risk agent",
+     "textChars": 281
+    }
+   ],
+   "promptText": "placeholder (long)"
+  },
+  {
+   "cardTitle": "Revenue intelligence",
+   "prompts": [
+    {
+     "label": "Revenue intelligence agent",
+     "textChars": 279
+    },
+    {
+     "label": "Deal signal tracker",
+     "textChars": 270
+    }
+   ],
+   "promptText": "placeholder (long)"
+  },
+  {
+   "cardTitle": "Workspace management",
+   "prompts": [
+    {
+     "label": "Workspace cleanup agent",
+     "textChars": 224
+    },
+    {
+     "label": "Access and naming audit",
+     "textChars": 210
+    }
+   ],
+   "promptText": "placeholder (long)"
+  },
+  {
+   "cardTitle": "Support, risk, and quality",
+   "prompts": [
+    {
+     "label": "Support risk agent",
+     "textChars": 266
+    },
+    {
+     "label": "Quality regression agent",
+     "textChars": 278
+    }
+   ],
+   "promptText": "placeholder (long)"
+  }
+ ]
+}

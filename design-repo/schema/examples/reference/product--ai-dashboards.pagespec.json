@@ -1,0 +1,782 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T1",
+ "route": "/product/ai-dashboards/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "accent",
+  "nav": "accent",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "AI Dashboards | Dovetail"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "accent",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "accent": "color.accent.dashboards"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "accent",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "accent": "color.accent.dashboards"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.product",
+   "variant": "media",
+   "content": {
+    "heading": "The metrics your CRM can’t give you",
+    "lead": "Elit eiusmod ut dolore enim veniam exercitation nisi ea duis. In velit fugiat excepteur cupidatat sunt officia anim. Laborum dolor consectetur.",
+    "actions": [
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     },
+     {
+      "label": "Try Dovetail free",
+      "href": "/auth/signup/"
+     },
+     {
+      "label": "+",
+      "href": "https://docs.dovetail.com/integrations"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/pixel-shapes-left.png"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/pixel-shapes-right.png"
+     },
+     {
+      "assetRole": "icon.source",
+      "alt": "",
+      "ref": "/assets/marketing/ai-dashboards-hero-icon.png"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/DataSource1.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/AppStore.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/Zendesk.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/Slack.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/DataSource2.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/GooglePlay.svg"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/marketing/ai-dashboards-hero.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/marketing/ai-dashboards-mobile-hero.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.logo-marquee",
+   "variant": "single-row",
+   "content": {
+    "lead": "CONNECTING THE WORLD’S GREATEST COMPANIES TO THEIR CUSTOMERS",
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Amazon",
+      "ref": "/assets/marketing/svg/amazon-918921.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Dyson",
+      "ref": "/assets/marketing/svg/dyson-990499.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Mercedes-Benz",
+      "ref": "/assets/marketing/svg/mercedes-benz-133521.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Qantas",
+      "ref": "/assets/marketing/svg/qantas-584168.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "AWS",
+      "ref": "/assets/marketing/svg/aws-271091.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Toyota",
+      "ref": "/assets/marketing/svg/toyota-301058.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Canva",
+      "ref": "/assets/marketing/svg/canva-585358.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Volvo",
+      "ref": "/assets/marketing/svg/volvo-486139.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Notion",
+      "ref": "/assets/marketing/svg/notion-653232.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Salesforce",
+      "ref": "/assets/marketing/svg/salesforce-823526.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Milwaukee",
+      "ref": "/assets/marketing/svg/milwaukee-672003.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "KPMG",
+      "ref": "/assets/marketing/svg/kpmg-168064.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Wise",
+      "ref": "/assets/marketing/svg/wise-541877.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "McKinsey & Company",
+      "ref": "/assets/marketing/svg/mckinsey-company-197947.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Ford",
+      "ref": "/assets/marketing/svg/ford-139900.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Walgreens",
+      "ref": "/assets/marketing/svg/walgreens-861455.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "marquee.loop",
+    "reducedMotionFallback": "paused"
+   }
+  },
+  {
+   "section": "features.sticky-features",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "The what and the why, together",
+      "text": "01",
+      "href": "/contact-sales/"
+     },
+     {
+      "title": "Agents act on it",
+      "text": "02",
+      "href": "/contact-sales/"
+     },
+     {
+      "title": "The executive view your leaders need",
+      "text": "03",
+      "href": "/contact-sales/"
+     },
+     {
+      "title": "Quantify your voice of customer",
+      "text": "04",
+      "href": "/contact-sales/"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Dovetail Dashboards product screenshot",
+      "ref": "/assets/marketing/ai-dashboards-feature-1.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Dovetail Dashboards product screenshot",
+      "ref": "/assets/marketing/ai-dashboards-feature-2.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Dovetail Dashboards product screenshot",
+      "ref": "/assets/marketing/ai-dashboards-feature-3.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Dovetail Dashboards product screenshot",
+      "ref": "/assets/marketing/ai-dashboards-feature-4.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Product screenshot",
+      "ref": "/assets/marketing/ai-dashboards-feature-1.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Product screenshot",
+      "ref": "/assets/marketing/ai-dashboards-feature-2.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Product screenshot",
+      "ref": "/assets/marketing/ai-dashboards-feature-3.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Product screenshot",
+      "ref": "/assets/marketing/ai-dashboards-feature-4.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "sticky.pin",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.audience-rows",
+   "variant": "default",
+   "content": {
+    "heading": "Dashboards for",
+    "items": [
+     {
+      "title": "Sentiment monitoring",
+      "text": "Dolor consectetur sed tempor labore magna ad quis ullamco. Aliquip commodo aute reprehenderit esse nulla sint non culpa. Deserunt id lorem sit adipiscing do.",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/3d-googly-neutral.png"
+      }
+     },
+     {
+      "title": "Product health",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/3d-temperature.png"
+      }
+     },
+     {
+      "title": "Leadership reporting",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/3d-crown.png"
+      }
+     },
+     {
+      "title": "Cross-team alignment",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/3d-target.png"
+      }
+     },
+     {
+      "title": "Drill-in and zoom out",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/3d-magnifier.png"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "sticky.pin",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.product-quote",
+   "variant": "default",
+   "content": {
+    "lead": "SENIOR UX DESIGNER",
+    "quote": {
+     "text": "“Lorem sit adipiscing do incididunt et aliqua minim nostrud. Laboris ex consequat irure voluptate cillum pariatur occaecat proident qui mollit. Est ipsum amet elit eiusmod ut dolore enim veniam. Exercitation nisi.”"
+    },
+    "actions": [
+     {
+      "label": "01",
+      "href": "#"
+     },
+     {
+      "label": "02",
+      "href": "#"
+     },
+     {
+      "label": "03",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/testimonial-grid-bg.png.png"
+     },
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti__3_.png"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/marketing/customer-breville-white-logo.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.autoplay",
+    "reducedMotionFallback": "no-autoplay"
+   }
+  },
+  {
+   "section": "features.card-carousel",
+   "variant": "default",
+   "content": {
+    "heading": "Built to scale with your data",
+    "lead": "Customizable, permission-aware, and shareable with anyone in your workspace.",
+    "actions": [
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     },
+     {
+      "label": "Try Dovetail free",
+      "href": "/auth/signup/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Auto-populated on creation",
+      "text": "Dovetail analyzes your workspace on creation and suggests relevant widgets based on the data available to you.",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/ai-dashboards-carousel-1.png"
+      }
+     },
+     {
+      "title": "Unlimited widgets",
+      "text": "Add as many widgets as your team needs with no cap on the views you can build or share.",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/ai-dashboards-carousel-2.png"
+      }
+     },
+     {
+      "title": "Shareable dashboards",
+      "text": "Share a live dashboard view with anyone in your workspace so stakeholders stay current on customer intelligence.",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/ai-dashboards-carousel-3.png"
+      }
+     },
+     {
+      "title": "Permission controls",
+      "text": "Dashboard data respects source-level permissions automatically, so users only see what they're authorized to access.",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/ai-dashboards-carousel-4.png"
+      }
+     },
+     {
+      "title": "From question to chart, instantly",
+      "text": "Ask Chat a quantitative question and get a real calculation and visualization back—the report’s built as fast as the question’s asked.",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/ai-dashboards-carousel-5.png"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.manual",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.findings-grid",
+   "variant": "default",
+   "content": {
+    "heading": "Get more from your findings",
+    "lead": "The real value isn’t in the analysis. It’s in what you do with it next.",
+    "actions": [
+     {
+      "label": "Learn more",
+      "href": "/product/ai-chat/"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "icon.source",
+      "alt": "",
+      "ref": "/assets/marketing/product-findings-icon.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Dovetail Dashboards findings in Dovetail Chat",
+      "ref": "/assets/marketing/ai-dashboards-findings-chat.png"
+     },
+     {
+      "assetRole": "icon.source",
+      "alt": "",
+      "ref": "/assets/marketing/ai-projects-icon-chat.svg"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Dovetail Dashboards findings in Dovetail Docs",
+      "ref": "/assets/marketing/ai-dashboards-findings-docs.png"
+     },
+     {
+      "assetRole": "icon.source",
+      "alt": "",
+      "ref": "/assets/marketing/ai-projects-icon-docs.svg"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Dovetail Dashboards findings shared by Dovetail AI Agents",
+      "ref": "/assets/marketing/ai-dashboards-findings-agents.png"
+     },
+     {
+      "assetRole": "icon.source",
+      "alt": "",
+      "ref": "/assets/marketing/ai-projects-icon-agents.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.customer-stories",
+   "variant": "video-band",
+   "content": {
+    "actions": [
+     {
+      "label": "01",
+      "href": "#"
+     },
+     {
+      "label": "02",
+      "href": "#"
+     },
+     {
+      "label": "03",
+      "href": "#"
+     }
+    ],
+    "items": [
+     {
+      "title": "How customer insights drive and inspire Breville’s [ ] product innovation",
+      "text": "Et aliqua minim nostrud laboris ex consequat irure voluptate cillum. Pariatur occaecat proident qui mollit est ipsum amet elit eiusmod ut dolore. Enim veniam exercitation nisi ea duis in velit fugiat.",
+      "href": "/customers/breville/",
+      "media": {
+       "assetRole": "illustration.brand",
+       "alt": "Breville",
+       "ref": "/assets/marketing/svg/e1wn1hrv9-593209.svg"
+      }
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "video.product",
+      "alt": "",
+      "ref": "/assets/marketing/CustomerStoryBrevilleLoop.mp4"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Atlassian",
+      "ref": "/assets/marketing/svg/e1wn1hrv9-661009.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Itaú Unibanco",
+      "ref": "/assets/marketing/svg/e1wn1hrv9-365555.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.autoplay",
+    "reducedMotionFallback": "no-autoplay"
+   }
+  },
+  {
+   "section": "interactive.faq",
+   "variant": "marketing",
+   "content": {
+    "heading": "FAQs",
+    "items": [
+     {
+      "title": "What are Dovetail AI Dashboards?",
+      "text": "Elit eiusmod ut dolore enim veniam exercitation nisi ea duis. In velit fugiat excepteur cupidatat sunt officia anim. Laborum dolor."
+     },
+     {
+      "title": "How do dashboards help me spot issues early?",
+      "text": "Nisi ea duis in velit fugiat excepteur cupidatat sunt officia anim laborum dolor. Consectetur sed tempor."
+     },
+     {
+      "title": "Can I use them to identify opportunities?",
+      "text": "Cillum pariatur occaecat proident qui mollit est ipsum amet elit. Eiusmod ut dolore enim veniam."
+     },
+     {
+      "title": "What can I track and visualize?",
+      "text": "Deserunt id lorem sit adipiscing do incididunt et aliqua minim nostrud laboris. Ex consequat irure voluptate cillum pariatur occaecat proident qui mollit est."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "accordion.height",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "dark",
+   "content": {
+    "heading": "The best never guess",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "#"
+     },
+     {
+      "label": "Start free trial",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-theright-salesforce.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestfarleft-aws.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestleft-canva.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestright-airwallex.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverright-notion.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverfarright-zapier.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessleft-wise.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessfarleft-breville.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

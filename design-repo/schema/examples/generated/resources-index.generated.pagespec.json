@@ -1,0 +1,464 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T31",
+ "route": "/resources-index-ashmeadow/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Ashmeadow"
+ },
+ "meta": {
+  "title": "Ashmeadow | Resources"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Beacon atlas",
+    "actions": [
+     {
+      "label": "Canvas cedar",
+      "href": "https://ashmeadow.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Delta",
+      "href": "https://ashmeadow.example/navbar-0"
+     },
+     {
+      "label": "Ember orbit",
+      "href": "https://ashmeadow.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Cinder"
+     },
+     {
+      "title": "Summit"
+     },
+     {
+      "title": "Juniper"
+     },
+     {
+      "title": "Ledger"
+     },
+     {
+      "title": "Tidal"
+     },
+     {
+      "title": "Lantern"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Weigh refine",
+      "text": "Measure nimbus grove cedar delta marble ember shape"
+     },
+     {
+      "title": "Cinder sprout",
+      "text": "Juniper sort share willow falcon beacon measure pebble"
+     },
+     {
+      "title": "Canvas thread",
+      "text": "Delta marble plan prism meadow notice steer cobalt"
+     },
+     {
+      "title": "Harbor fjord",
+      "text": "Weigh basil measure bundle canvas cedar delta marble"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.simple",
+   "variant": "with-action",
+   "content": {
+    "heading": "Field orbit gather",
+    "lead": "Notice steer ledger tidal willow falcon refine atlas nimbus tidy cedar delta sketch plan",
+    "actions": [
+     {
+      "label": "Shape cinder",
+      "href": "https://ashmeadow.example/simple-0"
+     },
+     {
+      "label": "Summit harvest",
+      "href": "https://ashmeadow.example/simple-1"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.link-list",
+   "variant": "default",
+   "content": {
+    "heading": "Sort share",
+    "lead": "Falcon refine rowan pebble grove cedar delta quarry plan prism meadow notice steer cobalt",
+    "items": [
+     {
+      "title": "Harbor lantern weigh",
+      "text": "Refine rowan pebble canvas cedar trace marble field",
+      "href": "https://ashmeadow.example/link-list-item0"
+     },
+     {
+      "title": "Orbit gather sprout",
+      "text": "Harvest cobalt tidal fjord signal beacon atlas nimbus",
+      "href": "https://ashmeadow.example/link-list-item1"
+     },
+     {
+      "title": "Canvas map compass",
+      "text": "Sketch ember orbit cinder summit steer cobalt share",
+      "href": "https://ashmeadow.example/link-list-item2"
+     },
+     {
+      "title": "Willow weigh refine",
+      "text": "Measure pebble canvas map delta quarry ember prism",
+      "href": "https://ashmeadow.example/link-list-item3"
+     },
+     {
+      "title": "Meadow notice steer",
+      "text": "Ledger harbor willow falcon refine measure nimbus tidy",
+      "href": "https://ashmeadow.example/link-list-item4"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.tei-card",
+   "variant": "banner",
+   "content": {
+    "heading": "Thread compass quarry field",
+    "lead": "Orbit cinder sprout juniper sort harbor willow signal basil atlas nimbus canvas thread trace",
+    "actions": [
+     {
+      "label": "Sketch field",
+      "href": "https://ashmeadow.example/tei-card-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "content.generated-cover",
+      "alt": "Prism cinder notice",
+      "ref": "generate:content.generated-cover/social-proof.tei-card-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.tool-card",
+   "variant": "default",
+   "content": {
+    "heading": "Juniper sort harbor lantern",
+    "lead": "Weigh basil measure nimbus grove map compass sketch plan",
+    "actions": [
+     {
+      "label": "Gather notice",
+      "href": "https://ashmeadow.example/tool-card-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.link-list",
+   "variant": "default",
+   "content": {
+    "heading": "Steer ledger",
+    "lead": "Lantern falcon beacon atlas pebble tidy cedar trace marble plan shape cinder notice juniper",
+    "items": [
+     {
+      "title": "Ledger share lantern",
+      "text": "Falcon beacon measure nimbus canvas thread trace quarry",
+      "href": "https://ashmeadow.example/link-list-item0"
+     },
+     {
+      "title": "Field shape gather",
+      "text": "Notice steer sort tidal fjord falcon basil rowan",
+      "href": "https://ashmeadow.example/link-list-item1"
+     },
+     {
+      "title": "Nimbus grove thread",
+      "text": "Delta sketch field prism cinder sprout steer sort",
+      "href": "https://ashmeadow.example/link-list-item2"
+     },
+     {
+      "title": "Harbor fjord signal",
+      "text": "Basil atlas pebble tidy thread compass sketch field",
+      "href": "https://ashmeadow.example/link-list-item3"
+     },
+     {
+      "title": "Orbit cinder sprout",
+      "text": "Harvest ledger share fjord falcon refine rowan nimbus",
+      "href": "https://ashmeadow.example/link-list-item4"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.link-list",
+   "variant": "default",
+   "content": {
+    "heading": "Canvas thread",
+    "lead": "Sketch plan prism cinder notice harvest sort harbor fjord signal basil atlas nimbus tidy",
+    "items": [
+     {
+      "title": "Map delta quarry",
+      "text": "Field prism gather summit juniper sort share fjord",
+      "href": "https://ashmeadow.example/link-list-item0"
+     },
+     {
+      "title": "Falcon beacon measure",
+      "text": "Bundle grove cedar compass quarry field shape gather",
+      "href": "https://ashmeadow.example/link-list-item1"
+     },
+     {
+      "title": "Summit juniper cobalt",
+      "text": "Tidal willow falcon beacon measure nimbus tidy thread",
+      "href": "https://ashmeadow.example/link-list-item2"
+     },
+     {
+      "title": "Trace marble field",
+      "text": "Shape cinder notice harvest cobalt share willow weigh",
+      "href": "https://ashmeadow.example/link-list-item3"
+     },
+     {
+      "title": "Refine rowan bundle",
+      "text": "Tidy cedar delta marble plan prism cinder summit",
+      "href": "https://ashmeadow.example/link-list-item4"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.card-grid",
+   "variant": "blog-teasers",
+   "content": {
+    "heading": "Harvest sort",
+    "actions": [
+     {
+      "label": "Fjord falcon",
+      "href": "https://ashmeadow.example/card-grid-0"
+     }
+    ],
+    "items": [
+     {
+      "title": "Refine rowan bundle",
+      "text": "Grove thread",
+      "href": "https://ashmeadow.example/card-grid-item0",
+      "media": {
+       "assetRole": "content.generated-cover",
+       "alt": "Marble ember prism",
+       "ref": "generate:content.generated-cover/listing.card-grid-item0"
+      }
+     },
+     {
+      "title": "Meadow sprout juniper",
+      "text": "Cobalt harbor",
+      "href": "https://ashmeadow.example/card-grid-item1",
+      "media": {
+       "assetRole": "content.generated-cover",
+       "alt": "Weigh basil atlas",
+       "ref": "generate:content.generated-cover/listing.card-grid-item1"
+      }
+     },
+     {
+      "title": "Bundle tidy map",
+      "text": "Delta quarry",
+      "href": "https://ashmeadow.example/card-grid-item2",
+      "media": {
+       "assetRole": "content.generated-cover",
+       "alt": "Orbit gather notice",
+       "ref": "generate:content.generated-cover/listing.card-grid-item2"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.video-grid",
+   "variant": "row",
+   "content": {
+    "heading": "Harvest cobalt share willow",
+    "actions": [
+     {
+      "label": "Weigh refine",
+      "href": "https://ashmeadow.example/video-grid-0"
+     }
+    ],
+    "items": [
+     {
+      "title": "Atlas bundle canvas",
+      "text": "Cedar compass",
+      "media": {
+       "assetRole": "product.generated-visual",
+       "alt": "Ember shape cinder",
+       "ref": "generate:product.generated-visual/listing.video-grid-item0"
+      }
+     },
+     {
+      "title": "Sprout juniper ledger",
+      "text": "Harbor willow",
+      "media": {
+       "assetRole": "product.generated-visual",
+       "alt": "Basil rowan bundle",
+       "ref": "generate:product.generated-visual/listing.video-grid-item1"
+      }
+     },
+     {
+      "title": "Tidy thread trace",
+      "text": "Marble plan prism",
+      "media": {
+       "assetRole": "product.generated-visual",
+       "alt": "Gather sprout steer",
+       "ref": "generate:product.generated-visual/listing.video-grid-item2"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.modal",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.inline-band",
+   "variant": "dark",
+   "content": {
+    "heading": "Cobalt share fjord signal",
+    "actions": [
+     {
+      "label": "Refine measure",
+      "href": "https://ashmeadow.example/inline-band-0"
+     },
+     {
+      "label": "Pebble grove",
+      "href": "https://ashmeadow.example/inline-band-1"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "lead": "Cedar trace sketch plan shape",
+    "actions": [
+     {
+      "label": "Summit steer",
+      "href": "https://ashmeadow.example/footer-0"
+     },
+     {
+      "label": "Ledger share",
+      "href": "https://ashmeadow.example/footer-1"
+     },
+     {
+      "label": "Willow falcon",
+      "href": "https://ashmeadow.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Refine"
+     },
+     {
+      "title": "Measure"
+     },
+     {
+      "title": "Nimbus"
+     },
+     {
+      "title": "Grove"
+     },
+     {
+      "title": "Map"
+     },
+     {
+      "title": "Compass"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

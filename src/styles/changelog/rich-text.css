@@ -1,0 +1,16 @@
+/* specs/content-shared.md §4.1 — rich text, dark (css-1frkj0g). Only the elements the placeholder bodies use. */
+.cl-rich { font-size: 18px; line-height: 24px; color: #A7A7A7; }
+.cl-rich p { font-size: 18px; line-height: 28px; font-weight: 400; margin: 0 0 24px; text-wrap: pretty; }
+.cl-rich h3 { font-size: 24px; line-height: 32px; font-weight: 500; letter-spacing: -0.5px; color: #FFF; margin: 40px 0 24px; }
+.cl-rich ul { font-size: 18px; padding-left: 24px; margin: 0 0 24px; list-style: disc; }
+.cl-rich li { line-height: 28px; margin-bottom: 8px; }
+/* browser-default hr: 2px tall, rgb(128,128,128), computed margin 9px 0 32px */
+.cl-rich hr { height: 0; border: 1px inset rgb(128,128,128); margin: 9px 0 32px; }
+
+@media (max-width: 1280px) {
+  .cl-rich { font-size: 16px; line-height: 24px; }
+  .cl-rich h3 { font-size: 20px; line-height: 28px; letter-spacing: -0.25px; }
+}
+@media (max-width: 799px) {
+  .cl-rich h3 { font-size: 18px; line-height: 24px; letter-spacing: -0.25px; }
+}

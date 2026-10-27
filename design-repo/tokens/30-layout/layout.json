@@ -1,0 +1,53 @@
+{
+ "note": "layout tokens (container, gutters, grid, nav height).",
+ "tokens": {
+  "layout.container.max": {
+   "value": "1512px",
+   "category": "layout",
+   "cite": "CLONE_SPEC.md:46",
+   "match": "`.container`: `max-width:1512px"
+  },
+  "layout.gutter.desktop": {
+   "value": "124px",
+   "category": "layout",
+   "cite": "CLONE_SPEC.md:46",
+   "match": "padding:0 124px` (>1280)"
+  },
+  "layout.gutter.md": {
+   "value": "64px",
+   "category": "layout",
+   "cite": "CLONE_SPEC.md:46",
+   "match": "`0 64px` (≤1280)"
+  },
+  "layout.gutter.sm": {
+   "value": "16px",
+   "category": "layout",
+   "cite": "CLONE_SPEC.md:46",
+   "match": "`0 16px` (≤799)"
+  },
+  "layout.grid.columns": {
+   "value": "12",
+   "category": "layout",
+   "cite": "specs/marketing-shared.md:68",
+   "match": "grid-template-columns:repeat(12,1fr); gap:32px; row-gap:32px"
+  },
+  "layout.grid.gap": {
+   "value": "32px",
+   "category": "layout",
+   "cite": "specs/marketing-shared.md:68",
+   "match": "grid-template-columns:repeat(12,1fr); gap:32px; row-gap:32px"
+  },
+  "layout.grid.gap-md": {
+   "value": "24px",
+   "category": "layout",
+   "cite": "specs/marketing-shared.md:68",
+   "match": "md `gap:24; row-gap:24; repeat(tabletColumns)`"
+  },
+  "layout.nav.height": {
+   "value": "88px",
+   "category": "layout",
+   "cite": "CLONE_SPEC.md:219",
+   "match": "height **88px**"
+  }
+ }
+}

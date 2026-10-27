@@ -1,0 +1,499 @@
+{
+ "path": "/resources/",
+ "title": "Resource centre | Dovetail",
+ "hero": {
+  "eyebrow": "Resources",
+  "h1": "Resource centre",
+  "intro": "Guides, research, demos, and tools to help your team make better decisions with customer intelligence.",
+  "buttons": [
+   {
+    "label": "Contact sales",
+    "href": "/contact-sales/"
+   },
+   {
+    "label": "Try Dovetail free",
+    "href": "/auth/signup/"
+   }
+  ]
+ },
+ "lists": [
+  {
+   "heading": "Explore by topic",
+   "intro": {
+    "placeholder": true,
+    "chars": 238
+   },
+   "items": [
+    {
+     "title": "Customer research",
+     "href": "/customer-research/",
+     "description": {
+      "placeholder": true,
+      "chars": 137
+     }
+    },
+    {
+     "title": "Product development",
+     "href": "/product-development/",
+     "description": {
+      "placeholder": true,
+      "chars": 209
+     }
+    },
+    {
+     "title": "User experience (UX)",
+     "href": "/ux/",
+     "description": {
+      "placeholder": true,
+      "chars": 127
+     }
+    },
+    {
+     "title": "Patient experience",
+     "href": "/patient-experience/",
+     "description": {
+      "placeholder": true,
+      "chars": 80
+     }
+    },
+    {
+     "title": "Market research",
+     "href": "/market-research/",
+     "description": {
+      "placeholder": true,
+      "chars": 159
+     }
+    },
+    {
+     "title": "Surveys",
+     "href": "/surveys/",
+     "description": {
+      "placeholder": true,
+      "chars": 151
+     }
+    },
+    {
+     "title": "Employee experience",
+     "href": "/employee-experience/",
+     "description": {
+      "placeholder": true,
+      "chars": 136
+     }
+    },
+    {
+     "title": "Research methods",
+     "href": "/research/",
+     "description": {
+      "placeholder": true,
+      "chars": 160
+     }
+    }
+   ]
+  },
+  {
+   "heading": "Compare Dovetail",
+   "intro": "See how Dovetail compares to other tools in the market.",
+   "items": [
+    {
+     "title": "Dovetail vs Thematic",
+     "href": "/dovetail-vs-thematic/",
+     "description": {
+      "placeholder": true,
+      "chars": 598
+     }
+    },
+    {
+     "title": "Dovetail vs Enterpret",
+     "href": "/dovetail-vs-enterpret/",
+     "description": {
+      "placeholder": true,
+      "chars": 472
+     }
+    },
+    {
+     "title": "Dovetail vs Marvin",
+     "href": "/dovetail-vs-marvin/",
+     "description": {
+      "placeholder": true,
+      "chars": 145
+     }
+    },
+    {
+     "title": "Dovetail vs Condens",
+     "href": "/dovetail-vs-condens/",
+     "description": {
+      "placeholder": true,
+      "chars": 281
+     }
+    },
+    {
+     "title": "Dovetail vs Looppanel",
+     "href": "/dovetail-vs-looppanel/",
+     "description": {
+      "placeholder": true,
+      "chars": 233
+     }
+    },
+    {
+     "title": "Dovetail vs Maze",
+     "href": "/dovetail-vs-maze/",
+     "description": {
+      "placeholder": true,
+      "chars": 389
+     }
+    },
+    {
+     "title": "Dovetail vs UserTesting",
+     "href": "/dovetail-vs-usertesting/",
+     "description": {
+      "placeholder": true,
+      "chars": 416
+     }
+    },
+    {
+     "title": "Dovetail vs Notably",
+     "href": "/dovetail-vs-notably/",
+     "description": {
+      "placeholder": true,
+      "chars": 414
+     }
+    },
+    {
+     "title": "Dovetail vs Aurelius",
+     "href": "/dovetail-vs-aurelius/",
+     "description": {
+      "placeholder": true,
+      "chars": 339
+     }
+    },
+    {
+     "title": "Dovetail vs Lookback",
+     "href": "/dovetail-vs-lookback/",
+     "description": {
+      "placeholder": true,
+      "chars": 360
+     }
+    },
+    {
+     "title": "Dovetail vs Great Question",
+     "href": "/dovetail-vs-great-question/",
+     "description": {
+      "placeholder": true,
+      "chars": 358
+     }
+    },
+    {
+     "title": "Dovetail vs Insight7",
+     "href": "/dovetail-vs-insight7/",
+     "description": {
+      "placeholder": true,
+      "chars": 347
+     }
+    },
+    {
+     "title": "Dovetail vs Qualtrics",
+     "href": "/dovetail-vs-qualtrics/",
+     "description": {
+      "placeholder": true,
+      "chars": 439
+     }
+    },
+    {
+     "title": "Dovetail vs Medallia",
+     "href": "/dovetail-vs-medallia/",
+     "description": {
+      "placeholder": true,
+      "chars": 599
+     }
+    },
+    {
+     "title": "Dovetail vs Pendo",
+     "href": "/dovetail-vs-pendo/",
+     "description": {
+      "placeholder": true,
+      "chars": 433
+     }
+    },
+    {
+     "title": "Dovetail vs Chattermill",
+     "href": "/dovetail-vs-chattermill/",
+     "description": {
+      "placeholder": true,
+      "chars": 534
+     }
+    }
+   ]
+  },
+  {
+   "heading": "Customer stories",
+   "intro": "See how teams at leading organizations use Dovetail to turn customer feedback into decisions.",
+   "items": [
+    {
+     "title": "How a flagship airline group turned siloed research into shared customer intelligence",
+     "href": "/customers/flagship-airline-group/",
+     "description": {
+      "placeholder": true,
+      "chars": 212
+     }
+    },
+    {
+     "title": "How a fleet management technology company gave every leader direct access to customer intelligence",
+     "href": "/customers/fleet-management-tech-leader/",
+     "description": {
+      "placeholder": true,
+      "chars": 195
+     }
+    },
+    {
+     "title": "How a global agricultural equipment maker unified customer intelligence across 100+ product lines",
+     "href": "/customers/global-agricultural-equipment-maker/",
+     "description": {
+      "placeholder": true,
+      "chars": 299
+     }
+    },
+    {
+     "title": "How one of the world’s largest software companies built a shared customer intelligence layer",
+     "href": "/customers/global-enterprise-cloud-platform/",
+     "description": {
+      "placeholder": true,
+      "chars": 315
+     }
+    },
+    {
+     "title": "How a global life sciences enterprise turned two years of research into on‑demand intelligence",
+     "href": "/customers/global-enterprise-life-sciences/",
+     "description": {
+      "placeholder": true,
+      "chars": 196
+     }
+    },
+    {
+     "title": "How a global financial institution cleared one of finance's most rigorous AI security reviews and built its customer intelligence layer with Dovetail",
+     "href": "/customers/global-financial-institution/",
+     "description": {
+      "placeholder": true,
+      "chars": 264
+     }
+    },
+    {
+     "title": "How a global retailer freed its research team—and built a customer intelligence engine",
+     "href": "/customers/global-home-furnishings-retailer/",
+     "description": {
+      "placeholder": true,
+      "chars": 296
+     }
+    },
+    {
+     "title": "How a global industrial technology company got decision-makers acting on customer intelligence",
+     "href": "/customers/global-industrial-tech-leader/",
+     "description": {
+      "placeholder": true,
+      "chars": 254
+     }
+    },
+    {
+     "title": "How a global management consulting firm turned single-team research into a self-serving intelligence system for 300+ practitioners",
+     "href": "/customers/global-management-consulting-firm/",
+     "description": {
+      "placeholder": true,
+      "chars": 308
+     }
+    },
+    {
+     "title": "How a global POS and payments platform unified five product verticals under one customer intelligence layer",
+     "href": "/customers/global-pos-and-payments-platform/",
+     "description": {
+      "placeholder": true,
+      "chars": 368
+     }
+    },
+    {
+     "title": "How a power-tool leader made years of field research searchable across its product organization",
+     "href": "/customers/global-power-tool-manufacturer/",
+     "description": {
+      "placeholder": true,
+      "chars": 331
+     }
+    },
+    {
+     "title": "How a global professional services network turned customer intelligence into a delivery standard across three continents",
+     "href": "/customers/global-professional-services-network/",
+     "description": {
+      "placeholder": true,
+      "chars": 303
+     }
+    },
+    {
+     "title": "How a global SaaS leader built a single source of truth from nearly 2,000 customer sessions",
+     "href": "/customers/global-saas-leader/",
+     "description": {
+      "placeholder": true,
+      "chars": 275
+     }
+    },
+    {
+     "title": "How one of the world's most iconic automakers put customer intelligence in the hands of its engineers",
+     "href": "/customers/iconic-global-automaker/",
+     "description": {
+      "placeholder": true,
+      "chars": 297
+     }
+    },
+    {
+     "title": "How a global toy brand builds with confidence by putting customer intelligence where decisions are made",
+     "href": "/customers/iconic-toy-brand/",
+     "description": {
+      "placeholder": true,
+      "chars": 196
+     }
+    },
+    {
+     "title": "How a leading education company made customer intelligence everyone’s job",
+     "href": "/customers/leading-education-publisher/",
+     "description": {
+      "placeholder": true,
+      "chars": 288
+     }
+    },
+    {
+     "title": "How a major bank securely connects 700+ personnel with customer intelligence",
+     "href": "/customers/major-personal-bank/",
+     "description": {
+      "placeholder": true,
+      "chars": 386
+     }
+    },
+    {
+     "title": "How a banking platform turned fragmented feedback into company-wide customer intelligence",
+     "href": "/customers/modern-business-banking-platform/",
+     "description": {
+      "placeholder": true,
+      "chars": 246
+     }
+    }
+   ]
+  }
+ ],
+ "teiCard": {
+  "heading": "The Total Economic Impact™ of Dovetail",
+  "body": "Discover how orgs using Dovetail achieved 236% ROI. A Forrester Total Economic Impact™ Study Commissioned By Dovetail, April 2025",
+  "buttons": [
+   {
+    "label": "Read the report",
+    "href": "/resources/industry-reports/2025-forrester-TEI-of-Dovetail/"
+   }
+  ],
+  "image": {
+   "src": "/assets/content/Contact_sales_slice__3_.png",
+   "alt": "",
+   "w": 1232,
+   "h": 1296
+  }
+ },
+ "roiCard": {
+  "eyebrow": "236% ROI",
+  "heading": "Measure the revenue impact of Dovetail",
+  "body": "Estimate the ROI of faster decisions and fewer wrong turns.",
+  "link": {
+   "label": "Try the ROI calculator",
+   "href": "/roi-calculator/"
+  }
+ },
+ "blog": [
+  {
+   "title": "How to get stakeholders to trust your design decisions",
+   "tags": "[Ideas]",
+   "href": "/blog/stakeholder-trust-design-decisions/",
+   "image": {
+    "src": "/assets/content/stakeholder-trust-design-decisions-hero-poster.png",
+    "alt": "",
+    "w": 1200,
+    "h": 676
+   }
+  },
+  {
+   "title": "AI made building faster, now customer understanding is the bottleneck",
+   "tags": "[AI] [Customer intelligence] [Digital Twins]",
+   "href": "/blog/customer-understanding-ai-bottleneck-digital-twins/",
+   "image": {
+    "src": "/assets/content/customer-understanding-ai-bottleneck-digital-twins.jpg",
+    "alt": "A megaphone illustration surrounded by question marks and exclamation points, representing the noise and uncertainty of shipping fast without customer understanding",
+    "w": 1467,
+    "h": 984
+   }
+  },
+  {
+   "title": "9 Digital Twins you can build today (and exactly what they’ll do for you)",
+   "tags": "[AI] [Digital Twins] [Customer intelligence]",
+   "href": "/blog/9-digital-twins-you-can-build-today/",
+   "image": {
+    "src": "/assets/content/9-digital-twins-you-can-build-today.jpg",
+    "alt": "A collage representing nine Dovetail Digital Twins built for different teams",
+    "w": 0,
+    "h": 0
+   }
+  }
+ ],
+ "demos": [
+  {
+   "title": "Create a digital twin assembled from your customer data and automate workflows that connect to the tools you use every day",
+   "date": "July 14, 2026",
+   "youtubeId": "nDpKdd7xl7E",
+   "image": {
+    "src": "/assets/company/media/LiveDemo_Agents.png",
+    "w": 800,
+    "h": 450
+   }
+  },
+  {
+   "title": "A dynamic home that makes it easy to explore the most relevant insights",
+   "date": "March 29, 2026",
+   "youtubeId": "qAr5pZxu-eM",
+   "image": {
+    "src": "/assets/company/media/LiveDemo_Home.png",
+    "w": 800,
+    "h": 450
+   }
+  },
+  {
+   "title": "Set up your Gong integration to bring your GTM and product teams together",
+   "date": "December 11, 2025",
+   "youtubeId": "VPnekez0gm0",
+   "image": {
+    "src": "/assets/company/media/LiveDemo_Gong.png",
+    "w": 800,
+    "h": 450
+   }
+  }
+ ],
+ "sectionHeadings": [
+  {
+   "heading": "From the blog",
+   "link": {
+    "label": "View all articles",
+    "href": "/blog/"
+   }
+  },
+  {
+   "heading": "Live demos",
+   "link": {
+    "label": "View all demos",
+    "href": "/live-demos/"
+   }
+  }
+ ],
+ "cta": {
+  "heading": "Turn customer feedback into product innovation",
+  "buttons": [
+   {
+    "label": "Contact sales",
+    "href": "/contact-sales/"
+   },
+   {
+    "label": "Try Dovetail free",
+    "href": "/auth/signup/"
+   }
+  ]
+ }
+}

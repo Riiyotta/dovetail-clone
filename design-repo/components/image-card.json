@@ -1,0 +1,12 @@
+{
+ "id": "image-card",
+ "kind": "component",
+ "title": "Image card",
+ "composes": [
+  "image",
+  "eyebrow"
+ ],
+ "evidence": [
+  "specs/content-shared.md:135"
+ ]
+}

@@ -1,0 +1,538 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T2",
+ "route": "/roles/sales-and-cs/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail for Sales & Customer Success"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.role",
+   "variant": "default",
+   "content": {
+    "heading": "Turn field signals into customer intelligence",
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/marketing/roles-sales-hero.png"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Notion",
+      "ref": "/assets/marketing/customer-notion-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Salesforce",
+      "ref": "/assets/marketing/customer-salesforce-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Toyota",
+      "ref": "/assets/marketing/customer-toyota-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Shopify",
+      "ref": "/assets/marketing/customer-shopify-white-logo.svg"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/marketing/roles-sales-hero-mobile.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "content.manifesto",
+   "variant": "default",
+   "content": {
+    "lead": "Labore magna ad quis ullamco aliquip commodo aute reprehenderit esse nulla. Sint non culpa deserunt id lorem sit adipiscing do incididunt et aliqua. Minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident qui mollit. Est ipsum amet elit eiusmod ut dolore enim veniam exercitation. Nisi ea duis in velit fugiat.",
+    "actions": [
+     {
+      "label": "Try Dovetail free",
+      "href": "/auth/signup/"
+     },
+     {
+      "label": "Request a demo",
+      "href": "/request-a-demo/"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/how-it-works-grid-bg.png.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s160"
+   }
+  },
+  {
+   "section": "features.benefit-cards",
+   "variant": "default",
+   "content": {
+    "heading": "Customer intelligence that drives revenue",
+    "items": [
+     {
+      "title": "Surface winning patterns from every call",
+      "text": "Aute reprehenderit esse nulla sint non culpa deserunt id. Lorem sit adipiscing do incididunt et aliqua minim nostrud. Laboris ex consequat irure.",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/roles-sales-feature-1.png"
+      }
+     },
+     {
+      "title": "Detect churn risk before it costs you",
+      "text": "Cillum pariatur occaecat proident qui mollit est ipsum amet elit. Eiusmod ut dolore enim veniam exercitation nisi ea duis in velit fugiat excepteur.",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/roles-sales-feature-2.png"
+      }
+     },
+     {
+      "title": "Find expansion opportunities automatically",
+      "text": "Cupidatat sunt officia anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco aliquip commodo aute reprehenderit esse nulla.",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/roles-sales-feature-3.png"
+      }
+     },
+     {
+      "title": "Influence product with evidence from the field",
+      "text": "Deserunt id lorem sit adipiscing do incididunt et aliqua minim nostrud laboris. Ex consequat irure voluptate cillum pariatur.",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/roles-sales-feature-4.png"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "features.integrations-list",
+   "variant": "default",
+   "content": {
+    "heading": "Connect to the tools you use",
+    "actions": [
+     {
+      "label": "Try Dovetail free",
+      "href": "/auth/signup/"
+     },
+     {
+      "label": "Request a demo",
+      "href": "/request-a-demo/"
+     },
+     {
+      "label": "Discover all integrations",
+      "href": "https://docs.dovetail.com/integrations/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Gong",
+      "text": "Cupidatat sunt officia anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint. Non culpa deserunt id.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/Gong.svg"
+      }
+     },
+     {
+      "title": "Salesforce",
+      "text": "Deserunt id lorem sit adipiscing do incididunt et aliqua minim nostrud laboris. Ex consequat irure voluptate cillum pariatur occaecat proident qui mollit est ipsum.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/Salesforce.svg"
+      }
+     },
+     {
+      "title": "HubSpot Service Hub",
+      "text": "Ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi ea duis in. Velit fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor. Labore magna.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/HubSpot.svg"
+      }
+     },
+     {
+      "title": "Zendesk",
+      "text": "Sed tempor labore magna ad quis ullamco aliquip commodo. Aute reprehenderit esse nulla sint non culpa deserunt. Id lorem sit adipiscing do incididunt et.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/Zendesk.svg"
+      }
+     },
+     {
+      "title": "Intercom",
+      "text": "Et aliqua minim nostrud laboris ex consequat irure voluptate cillum. Pariatur occaecat proident qui mollit est ipsum amet elit eiusmod ut dolore. Enim veniam exercitation nisi ea duis in.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/Intercom.svg"
+      }
+     },
+     {
+      "title": "Zoom",
+      "text": "Veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt. Officia anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco aliquip commodo aute.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/Zoom.svg"
+      }
+     },
+     {
+      "title": "Google Meet",
+      "text": "Aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt id lorem. Sit adipiscing do incididunt et aliqua minim nostrud laboris ex consequat irure.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/GoogleMeet.svg"
+      }
+     },
+     {
+      "title": "Slack",
+      "text": "Irure voluptate cillum pariatur occaecat proident qui mollit est ipsum amet elit eiusmod. Ut dolore enim veniam exercitation nisi ea duis in velit. Fugiat excepteur cupidatat sunt officia.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/Slack.svg"
+      }
+     },
+     {
+      "title": "Claude",
+      "text": "Fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur. Sed tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit esse nulla. Sint non culpa.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/Claude.svg"
+      }
+     },
+     {
+      "title": "ChatGPT",
+      "text": "Bring your customer conversations into ChatGPT and turn field intelligence into decisions without leaving the conversation.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/ChatGPT.svg"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "sticky.pin",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "interactive.use-case-tabs",
+   "variant": "default",
+   "content": {
+    "heading": "Practical ways sales and CS teams use Dovetail",
+    "items": [
+     {
+      "title": "Battle card development QBR and EBR preparation New rep ramp-up Product influence Ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi ea duis in. Velit fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor. Labore magna ad quis.",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/roles-sales-usecase-1.png"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "tabs.auto-advance",
+    "reducedMotionFallback": "no-autoplay"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "social-proof.testimonial",
+   "variant": "featured",
+   "content": {
+    "quote": {
+     "text": "“Lorem sit adipiscing do incididunt et aliqua minim nostrud. Laboris ex consequat irure voluptate cillum pariatur occaecat proident qui mollit. Est ipsum amet elit eiusmod ut dolore enim veniam. Exercitation nisi ea duis in.”"
+    },
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/testimonial-grid-bg.png.png"
+     },
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti-4.png"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Achievers",
+      "ref": "/assets/marketing/customer-achievers-white-logo.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "cursor.tooltip",
+    "reducedMotionFallback": "unchanged"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "social-proof.story-cards",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "href": "/customers/smartrecruiters/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/Customer_SmartRecruiter.png"
+      }
+     },
+     {
+      "title": "Atlassian champions the customer at a global scale with Dovetail ↘",
+      "href": "/customers/atlassian/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/marketing/Customer_Atlassian2.png"
+      }
+     },
+     {
+      "title": "How Itaú Unibanco delivers better banking experiences with Dovetail ↘",
+      "href": "/customers/itau-unibanco/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/Customer_Itau.png"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "pixel.dissolve-hover",
+    "reducedMotionFallback": "unchanged"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "interactive.faq",
+   "variant": "marketing",
+   "content": {
+    "heading": "FAQs",
+    "items": [
+     {
+      "title": "Can Dovetail connect to Gong or our call recording tool?",
+      "text": "Elit eiusmod ut dolore enim veniam exercitation nisi ea duis. In velit fugiat excepteur cupidatat sunt officia anim. Laborum dolor consectetur sed tempor labore magna ad quis ullamco aliquip. Commodo aute."
+     },
+     {
+      "title": "How does Dovetail help with churn prevention?",
+      "text": "Nisi ea duis in velit fugiat excepteur cupidatat sunt officia anim laborum dolor. Consectetur sed tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit esse. Nulla sint."
+     },
+     {
+      "title": "Can sales use Dovetail without a research team?",
+      "text": "Cillum pariatur occaecat proident qui mollit est ipsum amet elit. Eiusmod ut dolore enim veniam exercitation nisi ea duis in velit fugiat."
+     },
+     {
+      "title": "How do insights from sales and CS feed back into product?",
+      "text": "Deserunt id lorem sit adipiscing do incididunt et aliqua minim nostrud laboris. Ex consequat irure voluptate cillum pariatur occaecat proident qui mollit est ipsum amet elit. Eiusmod ut."
+     },
+     {
+      "title": "Does Dovetail work across the full customer lifecycle?",
+      "text": "Sed tempor labore magna ad quis ullamco aliquip commodo. Aute reprehenderit esse nulla sint non culpa deserunt. Id lorem sit adipiscing do incididunt et aliqua minim nostrud laboris."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "accordion.height",
+    "reducedMotionFallback": "instant-toggle"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

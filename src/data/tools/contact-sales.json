@@ -1,0 +1,415 @@
+{
+ "url": "/contact-sales/",
+ "template": "demo-form",
+ "meta": {
+  "title": "Contact sales | Dovetail",
+  "description": "Contact our sales team for a demo, procurement support, assistance with choosing the right plan, or help scaling research with enterprise features."
+ },
+ "sections": [
+  {
+   "type": "heroForm",
+   "eyebrow": "Talk to Sales",
+   "h1": "Turn insights into action",
+   "intro": {
+    "placeholder": true,
+    "chars": 250
+   },
+   "bullets": [
+    {
+     "title": "A strategic consultation",
+     "text": "Share your goals and challenges, and we'll map how Dovetail fits your needs."
+    },
+    {
+     "title": "Tailored walkthrough",
+     "text": "See the features and capabilities most relevant to your organization."
+    },
+    {
+     "title": "Enterprise readiness",
+     "text": "Discuss security, compliance, and scale with confidence."
+    },
+    {
+     "title": "Proof of value",
+     "text": "Get Forrester's TEI report and real-world benchmarks from teams like yours."
+    }
+   ],
+   "form": {
+    "id": "mql-on-submission",
+    "staticNonSubmitting": true,
+    "fields": [
+     {
+      "name": "email",
+      "id": "sf-email",
+      "control": "input",
+      "type": "email",
+      "label": "Email",
+      "required": true,
+      "placeholder": "jane@acmeinc.com",
+      "autocomplete": "email",
+      "inputmode": "email"
+     },
+     {
+      "name": "firstname",
+      "id": "sf-firstname",
+      "control": "input",
+      "type": "text",
+      "label": "First name",
+      "required": true,
+      "placeholder": "Jane",
+      "autocomplete": "given-name"
+     },
+     {
+      "name": "lastname",
+      "id": "sf-lastname",
+      "control": "input",
+      "type": "text",
+      "label": "Last name",
+      "required": true,
+      "placeholder": "Doe",
+      "autocomplete": "family-name"
+     },
+     {
+      "name": "company",
+      "id": "sf-company",
+      "control": "input",
+      "type": "text",
+      "label": "Company name",
+      "required": true,
+      "placeholder": "Acme Inc.",
+      "autocomplete": "organization"
+     },
+     {
+      "name": "jobtitle",
+      "id": "sf-jobtitle",
+      "control": "input",
+      "type": "text",
+      "label": "Job title",
+      "required": true,
+      "placeholder": "Product Manager",
+      "autocomplete": "organization-title"
+     },
+     {
+      "name": "company_size",
+      "id": "sf-company-size",
+      "control": "select",
+      "label": "Company size",
+      "required": true,
+      "options": [
+       "Please Select",
+       "1-25",
+       "26-200",
+       "201-500",
+       "501-1000",
+       "1001-5000",
+       "5000+"
+      ],
+      "placeholderOption": {
+       "text": "Please Select",
+       "value": "",
+       "disabled": true,
+       "selected": true
+      }
+     },
+     {
+      "name": "bant1",
+      "id": "sf-bant1",
+      "control": "select",
+      "label": "What is your biggest challenge right now?",
+      "required": true,
+      "options": [
+       "Please Select",
+       "Increase operational efficiency and reduce cost (rapid analysis and synthesis)",
+       "Reduce customer information silos (Central Repository)",
+       "Process high volume customer feedback (support tickets, app store reviews, etc.)",
+       "Other"
+      ],
+      "placeholderOption": {
+       "text": "Please Select",
+       "value": "",
+       "disabled": true,
+       "selected": true
+      }
+     },
+     {
+      "name": "bant2",
+      "id": "sf-bant2",
+      "control": "select",
+      "label": "What best describes your role in the purchase process?",
+      "required": true,
+      "options": [
+       "Please Select",
+       "End-user/Researcher",
+       "Recommender/Influencer",
+       "Budget holder/Decision-maker"
+      ],
+      "placeholderOption": {
+       "text": "Please Select",
+       "value": "",
+       "disabled": true,
+       "selected": true
+      }
+     },
+     {
+      "name": "bant3",
+      "id": "sf-bant3",
+      "control": "select",
+      "label": "How soon are you looking to implement a solution?",
+      "required": true,
+      "options": [
+       "Please Select",
+       "Immediately",
+       "Within 1–3 months",
+       "3–6 months",
+       "More than 6 months",
+       "Evaluating"
+      ],
+      "placeholderOption": {
+       "text": "Please Select",
+       "value": "",
+       "disabled": true,
+       "selected": true
+      }
+     },
+     {
+      "name": "bant4",
+      "id": "sf-bant4",
+      "control": "select",
+      "label": "What is your expected budget for this project?",
+      "required": true,
+      "options": [
+       "Please Select",
+       "Less than $5,000",
+       "$5,000–$25,000",
+       "$25,000–$50,000",
+       "More than $50,000"
+      ],
+      "placeholderOption": {
+       "text": "Please Select",
+       "value": "",
+       "disabled": true,
+       "selected": true
+      }
+     },
+     {
+      "name": "phone",
+      "id": "sf-phone",
+      "control": "input",
+      "type": "tel",
+      "label": "Phone number",
+      "required": false
+     },
+     {
+      "name": "message",
+      "id": "sf-message",
+      "control": "textarea",
+      "label": "Is there any other information you'd like to share with us?",
+      "required": false
+     }
+    ],
+    "rowPairs": [
+     [
+      "firstname",
+      "lastname"
+     ]
+    ],
+    "consent": {
+     "text": [
+      {
+       "placeholder": true,
+       "chars": 222
+      },
+      "Terms of Service",
+      "Privacy Policy"
+     ],
+     "links": [
+      {
+       "text": "Terms of Service",
+       "href": "https://dovetail.com/legal/user-terms-of-service/",
+       "newTab": true
+      },
+      {
+       "text": "Privacy Policy",
+       "href": "https://dovetail.com/privacy/privacy-policy/",
+       "newTab": true
+      }
+     ]
+    },
+    "submitLabel": "Submit",
+    "errorMessages": {
+     "required": "Please complete this required field.",
+     "email": "Please enter a valid email address."
+    }
+   }
+  },
+  {
+   "type": "logoMarquee",
+   "heading": "Connecting the world's greatest companies to their customers",
+   "rows": [
+    [
+     {
+      "name": "Breville",
+      "src": "/assets/white-logo(3).svg",
+      "originalSrc": "/customers/breville/white-logo.svg",
+      "alt": "Breville",
+      "natural": "132x32"
+     },
+     {
+      "name": "Atlassian",
+      "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+      "originalSrc": "/customers/atlassian/white-logo.svg",
+      "alt": "Atlassian",
+      "natural": "160x20"
+     },
+     {
+      "name": "Notion",
+      "src": "/assets/marketing/customer-notion-white-logo.svg",
+      "originalSrc": "/customers/notion/white-logo.svg",
+      "alt": "Notion",
+      "natural": "160x72"
+     },
+     {
+      "name": "Okta",
+      "src": "/assets/white-logo(1).svg",
+      "originalSrc": "/customers/okta/white-logo.svg",
+      "alt": "Okta",
+      "natural": "160x72"
+     },
+     {
+      "name": "AWS",
+      "src": "/assets/marketing/customer-aws-white-logo.svg",
+      "originalSrc": "/customers/aws/white-logo.svg",
+      "alt": "AWS",
+      "natural": "160x72"
+     },
+     {
+      "name": "Toyota",
+      "src": "/assets/marketing/customer-toyota-white-logo.svg",
+      "originalSrc": "/customers/toyota/white-logo.svg",
+      "alt": "Toyota",
+      "natural": "160x72"
+     }
+    ],
+    [
+     {
+      "name": "Qantas",
+      "src": "/assets/marketing/customer-qantas-white-logo.svg",
+      "originalSrc": "/customers/qantas/white-logo.svg",
+      "alt": "Qantas",
+      "natural": "160x32"
+     },
+     {
+      "name": "NCRVoyix",
+      "src": "/assets/marketing/customer-ncrvoyix-white-logo.svg",
+      "originalSrc": "/customers/ncrvoyix/white-logo.svg",
+      "alt": "NCRVoyix",
+      "natural": "160x72"
+     },
+     {
+      "name": "ASML",
+      "src": "/assets/marketing/customer-asml-white-logo.svg",
+      "originalSrc": "/customers/asml/white-logo.svg",
+      "alt": "ASML",
+      "natural": "160x72"
+     },
+     {
+      "name": "Zapier",
+      "src": "/assets/marketing/customer-zapier-white-logo.svg",
+      "originalSrc": "/customers/zapier/white-logo.svg",
+      "alt": "Zapier",
+      "natural": "160x72"
+     }
+    ]
+   ],
+   "note": "Row 1 scrolls left-to-right (ltr), row 2 right-to-left (rtl) with left offset 120px; each row is rendered twice for the loop."
+  },
+  {
+   "type": "teiStats",
+   "h2": "Forrester’s Total Economic Impact™",
+   "p": "Connect with sales and get the full TEI report. Forrester’s Total Economic Impact™ study, shows organization that use Dovetail receive:",
+   "stats": [
+    {
+     "value": "236%",
+     "label": "ROI in just six months"
+    },
+    {
+     "value": "66%",
+     "label": "faster shipping"
+    },
+    {
+     "value": "30%",
+     "label": "increase in team capacity"
+    },
+    {
+     "value": "30 hours",
+     "label": "saved per user, per week"
+    }
+   ],
+   "image": {
+    "src": "/assets/content/Contact_sales_slice__3_.png",
+    "originalSrc": "/media/Contact_sales_slice__3_.png",
+    "alt": "Forrester Total Economic Impact study of Dovetail",
+    "natural": "1232x1296"
+   }
+  },
+  {
+   "type": "featureGrid",
+   "items": [
+    {
+     "icon": "/assets/tools/svg/contact-feature-1.svg",
+     "title": "Effortless, end-to-end intelligence",
+     "text": "Every data source—feedback, interviews, calls, surveys, reports—assembled automatically, so your team can align on what matters most."
+    },
+    {
+     "icon": "/assets/tools/svg/contact-feature-2.svg",
+     "title": "From signals to strategy",
+     "text": "Always-on intelligence that learns your business—constantly analyzing and surfacing what tailored insights for your team."
+    },
+    {
+     "icon": "/assets/tools/svg/contact-feature-3.svg",
+     "title": "From insight to action",
+     "text": "Agentic AI turns intelligence into outcomes—PRDs, VoC reports, highlight reels, and automated workflows that drive clarity and momentum."
+    },
+    {
+     "icon": "/assets/tools/svg/contact-feature-4.svg",
+     "title": "Built for every team",
+     "text": "From product to CX to the C-suite—everyone operates from the same source of customer truth."
+    },
+    {
+     "icon": "/assets/tools/svg/contact-feature-5.svg",
+     "title": "Proven business impact",
+     "text": "Forrester found organizations achieve 236% ROI with Dovetail through faster, stronger decisions."
+    }
+   ],
+   "h2": "See the platform in action"
+  },
+  {
+   "type": "testimonial",
+   "href": "/customers/itau-unibanco/",
+   "tooltip": "Read customer story",
+   "avatar": {
+    "src": "/assets/marketing/Frame_1948762769.png",
+    "originalSrc": "/media/Frame_1948762769.png",
+    "alt": "",
+    "natural": null
+   },
+   "quote": {
+    "placeholder": true,
+    "chars": 221
+   },
+   "logo": {
+    "src": "/assets/white-logo.svg",
+    "originalSrc": "/customers/itau-unibanco/white-logo.svg",
+    "alt": "Itaú Unibanco",
+    "natural": null
+   },
+   "name": "Mariana Bartholomeu",
+   "role": "Senior Designer, Research Ops",
+   "background": {
+    "src": "/assets/marketing/testimonial-grid-bg.png.png",
+    "originalSrc": "/media/testimonial-grid-bg.png.png",
+    "alt": "Grid background",
+    "natural": "2520x1120"
+   }
+  }
+ ],
+ "finalCta": true
+}

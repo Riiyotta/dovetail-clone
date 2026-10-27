@@ -1,0 +1,167 @@
+{
+ "id": "features.sticky-features",
+ "title": "Sticky feature list",
+ "semantic": {
+  "id": "features.sticky-features",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "component:ProductFeatures:pd-feat",
+  "file": "src/pages/product/ProductFeatures.jsx",
+  "tag": "section",
+  "lines": "44-56",
+  "tagLine": 44,
+  "anchor": "pd-feat",
+  "anchorLine": 44
+ },
+ "purpose": "Feature list whose media column stays pinned while each feature text scrolls past.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "items",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 7,
+   "observedOn": [
+    "/product/ai-agents/",
+    "/product/ai-channels/",
+    "/product/ai-chat/",
+    "/product/ai-dashboards/",
+    "/product/ai-docs/",
+    "/product/ai-projects/",
+    "/product/digital-twins/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "items",
+   "media"
+  ],
+  "fields": {
+   "items[].href": {
+    "type": "link",
+    "observedIn": 12
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 2,
+    "observedIn": 12
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 7,
+    "maxChars": 39,
+    "observedIn": 12
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 5,
+    "maxChars": 41,
+    "observedIn": 24,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "items": [
+    4,
+    4
+   ],
+   "media": [
+    8,
+    8
+   ]
+  },
+  "itemRequiredFields": [
+   "href",
+   "text",
+   "title"
+  ],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "product.generated-visual"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "sticky.pin"
+  ],
+  "requiredPatterns": [
+   "sticky.pin"
+  ],
+  "reducedMotionFallback": {
+   "sticky.pin": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "two columns, pinned media"
+  },
+  {
+   "range": "<=1280",
+   "behavior": "stacked cards"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 7,
+   "nodes": 7,
+   "minPx": 3600,
+   "maxPx": 3600,
+   "medianPx": 3600,
+   "sample": {
+    "/product/ai-agents/": [
+     3600
+    ],
+    "/product/ai-channels/": [
+     3600
+    ],
+    "/product/ai-chat/": [
+     3600
+    ],
+    "/product/ai-dashboards/": [
+     3600
+    ],
+    "/product/ai-docs/": [
+     3600
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/product/ProductFeatures.jsx:44-56",
+  "specs/product.md:1-40"
+ ]
+}

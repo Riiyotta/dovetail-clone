@@ -1,0 +1,823 @@
+{
+ "url": "/privacy/privacy-policy/",
+ "template": "legal-doc",
+ "meta": {
+  "title": "Privacy Policy",
+  "description": "Dovetail’s legal and privacy documents, including the user terms of service, privacy policy, data processing agreement, and acceptable use policy."
+ },
+ "theme": "light",
+ "breadcrumb": [
+  {
+   "text": "Home",
+   "href": "/"
+  },
+  {
+   "text": "Legal",
+   "href": "/legal/"
+  }
+ ],
+ "h1": "Privacy Policy",
+ "sideNav": {
+  "groups": [
+   {
+    "group": "Legal",
+    "links": [
+     {
+      "text": "Master Subscription Agreement",
+      "href": "/legal/master-subscription-agreement/"
+     },
+     {
+      "text": "User Terms of Service",
+      "href": "/legal/user-terms-of-service/"
+     },
+     {
+      "text": "Acceptable Use Policy",
+      "href": "/legal/acceptable-use-policy/"
+     },
+     {
+      "text": "Product-Specific Terms: AI Features",
+      "href": "/legal/ai-features/"
+     },
+     {
+      "text": "Mutual Non-Disclosure Agreement",
+      "href": "/legal/mutual-non-disclosure-agreement/"
+     },
+     {
+      "text": "Product-Specific Terms: Recruit",
+      "href": "/legal/product-specific-terms-recruit/"
+     },
+     {
+      "text": "Community Code of Conduct",
+      "href": "/legal/community-code-of-conduct/"
+     },
+     {
+      "text": "Insurance",
+      "href": "/legal/insurance/"
+     },
+     {
+      "text": "Accessibility Statement",
+      "href": "/legal/accessibility-statement/"
+     },
+     {
+      "text": "Open Source",
+      "href": "/legal/open-source/"
+     },
+     {
+      "text": "Press Kit and Logo Usage",
+      "href": "/legal/press-kit/"
+     },
+     {
+      "text": "Modern Slavery Statement",
+      "href": "/legal/modern-slavery-statement/"
+     },
+     {
+      "text": "Anti-Bribery and Anti-Corruption Statement",
+      "href": "/legal/anti-bribery-and-anti-corruption-statement/"
+     },
+     {
+      "text": "AI Models",
+      "href": "/legal/ai-models/"
+     }
+    ]
+   },
+   {
+    "group": "Privacy",
+    "links": [
+     {
+      "text": "Compliance With Laws",
+      "href": "/privacy/compliance-with-laws/"
+     },
+     {
+      "text": "Data Processing Agreement",
+      "href": "/privacy/data-processing-agreement/"
+     },
+     {
+      "text": "Privacy Policy",
+      "href": "/privacy/privacy-policy/"
+     },
+     {
+      "text": "Data Subject Access Request",
+      "href": "/privacy/data-subject-access-request/"
+     },
+     {
+      "text": "Event Release",
+      "href": "/privacy/event-release/"
+     }
+    ]
+   }
+  ],
+  "expandedGroup": "Privacy",
+  "current": "/privacy/privacy-policy/"
+ },
+ "toc": [
+  "1. How this policy works",
+  "2. What information we collect",
+  "3. How we use information we collect",
+  "4. How we share information we collect",
+  "Sharing with other users",
+  "Sharing with third parties",
+  "5. How we use tracking technologies",
+  "Required cookies",
+  "Performance cookies",
+  "Functionality cookies",
+  "Analytics cookies",
+  "Targeting or advertising cookies",
+  "Managing your preferences",
+  "6. How we respond to Do Not Track signals",
+  "7. Managing your information",
+  "8. Data storage, transfer, and security",
+  "9. Children under 16",
+  "10. Links to other websites",
+  "11. Changes",
+  "12. Contact us",
+  "13. Data retention",
+  "Appendix 1",
+  "14. Additional rights for European residents",
+  "15. Legal bases for processing (for EEA users)"
+ ],
+ "body": [
+  {
+   "type": "h2",
+   "id": "1-how-this-policy-works",
+   "text": "1. How this policy works"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 462,
+   "links": [
+    {
+     "chars": 12,
+     "href": "/"
+    },
+    {
+     "chars": 11,
+     "href": "/events/"
+    },
+    {
+     "chars": 13,
+     "href": "/privacy/event-release/"
+    }
+   ],
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 231,
+   "links": [
+    {
+     "chars": 22,
+     "href": "/privacy/compliance-with-laws/"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 133,
+   "links": [
+    {
+     "chars": 29,
+     "href": "/legal/master-subscription-agreement/"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 387
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 766
+  },
+  {
+   "type": "h2",
+   "id": "2-what-information-we-collect",
+   "text": "2. What information we collect"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 276
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 76
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 95
+    },
+    {
+     "placeholder": true,
+     "chars": 85
+    },
+    {
+     "placeholder": true,
+     "chars": 204,
+     "links": 3
+    },
+    {
+     "placeholder": true,
+     "chars": 93
+    },
+    {
+     "placeholder": true,
+     "chars": 76
+    },
+    {
+     "placeholder": true,
+     "chars": 72
+    },
+    {
+     "placeholder": true,
+     "chars": 206
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 113,
+   "hasBold": true
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 223
+    },
+    {
+     "placeholder": true,
+     "chars": 136
+    },
+    {
+     "placeholder": true,
+     "chars": 108
+    },
+    {
+     "placeholder": true,
+     "chars": 154
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 283
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 450
+  },
+  {
+   "type": "h2",
+   "id": "3-how-we-use-information-we-collect",
+   "text": "3. How we use information we collect"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 136
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 70
+    },
+    {
+     "placeholder": true,
+     "chars": 145
+    },
+    {
+     "placeholder": true,
+     "chars": 68
+    },
+    {
+     "placeholder": true,
+     "chars": 36
+    },
+    {
+     "placeholder": true,
+     "chars": 85
+    },
+    {
+     "placeholder": true,
+     "chars": 51
+    },
+    {
+     "placeholder": true,
+     "chars": 77
+    },
+    {
+     "placeholder": true,
+     "chars": 28
+    },
+    {
+     "placeholder": true,
+     "chars": 97
+    },
+    {
+     "placeholder": true,
+     "chars": 80
+    },
+    {
+     "placeholder": true,
+     "chars": 66
+    },
+    {
+     "placeholder": true,
+     "chars": 40
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "4-how-we-share-information-we-collect",
+   "text": "4. How we share information we collect"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 192
+  },
+  {
+   "type": "h3",
+   "id": "sharing-with-other-users",
+   "text": "Sharing with other users"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 433
+  },
+  {
+   "type": "h3",
+   "id": "sharing-with-third-parties",
+   "text": "Sharing with third parties"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 112
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 47
+    },
+    {
+     "placeholder": true,
+     "chars": 102
+    },
+    {
+     "placeholder": true,
+     "chars": 141
+    },
+    {
+     "placeholder": true,
+     "chars": 69
+    },
+    {
+     "placeholder": true,
+     "chars": 146
+    },
+    {
+     "placeholder": true,
+     "chars": 140
+    },
+    {
+     "placeholder": true,
+     "chars": 175
+    },
+    {
+     "placeholder": true,
+     "chars": 582
+    },
+    {
+     "placeholder": true,
+     "chars": 39
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 337,
+   "links": [
+    {
+     "chars": 25,
+     "href": "https://docs.dovetail.com/help/security-information/"
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "5-how-we-use-tracking-technologies",
+   "text": "5. How we use tracking technologies"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 362
+  },
+  {
+   "type": "h3",
+   "id": "required-cookies",
+   "text": "Required cookies"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 346
+  },
+  {
+   "type": "h3",
+   "id": "performance-cookies",
+   "text": "Performance cookies"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 323
+  },
+  {
+   "type": "h3",
+   "id": "functionality-cookies",
+   "text": "Functionality cookies"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 400
+  },
+  {
+   "type": "h3",
+   "id": "analytics-cookies",
+   "text": "Analytics cookies"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 218
+  },
+  {
+   "type": "h3",
+   "id": "targeting-or-advertising-cookies",
+   "text": "Targeting or advertising cookies"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 550
+  },
+  {
+   "type": "h3",
+   "id": "managing-your-preferences",
+   "text": "Managing your preferences"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 75
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 17
+    },
+    {
+     "placeholder": true,
+     "chars": 580,
+     "links": 5
+    },
+    {
+     "placeholder": true,
+     "chars": 769,
+     "links": 8
+    },
+    {
+     "placeholder": true,
+     "chars": 252,
+     "links": 1
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "6-how-we-respond-to-do-not-track-signals",
+   "text": "6. How we respond to Do Not Track signals"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 319,
+   "links": [
+    {
+     "chars": 28,
+     "href": "https://www.allaboutdnt.com/"
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "7-managing-your-information",
+   "text": "7. Managing your information"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 398,
+   "links": [
+    {
+     "chars": 18,
+     "href": "mailto:legal@dovetail.com"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 284
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 215
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 639,
+   "links": [
+    {
+     "chars": 18,
+     "href": "mailto:legal@dovetail.com"
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "8-data-storage-transfer-and-security",
+   "text": "8. Data storage, transfer, and security"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 322,
+   "links": [
+    {
+     "chars": 26,
+     "href": "https://docs.dovetail.com/help/security-information/#where-does-dovetail-store-data"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 354,
+   "links": [
+    {
+     "chars": 25,
+     "href": "https://docs.dovetail.com/help/security-information/"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 196
+  },
+  {
+   "type": "h2",
+   "id": "9-children-under-16",
+   "text": "9. Children under 16"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 399,
+   "links": [
+    {
+     "chars": 18,
+     "href": "mailto:legal@dovetail.com"
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "10-links-to-other-websites",
+   "text": "10. Links to other websites"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 299
+  },
+  {
+   "type": "h2",
+   "id": "11-changes",
+   "text": "11. Changes"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 593
+  },
+  {
+   "type": "h2",
+   "id": "12-contact-us",
+   "text": "12. Contact us"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 255,
+   "links": [
+    {
+     "chars": 18,
+     "href": "mailto:legal@dovetail.com"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 303
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 292,
+   "links": [
+    {
+     "chars": 49,
+     "href": "https://www.oaic.gov.au/"
+    },
+    {
+     "chars": 31,
+     "href": "https://www.oaic.gov.au/about-us/contact-us"
+    }
+   ],
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "13-data-retention",
+   "text": "13. Data retention"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 251,
+   "links": [
+    {
+     "chars": 28,
+     "href": "https://docs.dovetail.com/help/security-information/#data-retention"
+    }
+   ]
+  },
+  {
+   "type": "hr"
+  },
+  {
+   "type": "h2",
+   "id": "appendix-1",
+   "text": "Appendix 1"
+  },
+  {
+   "type": "h2",
+   "id": "14-additional-rights-for-european-residents",
+   "text": "14. Additional rights for European residents"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 149
+  },
+  {
+   "type": "ol",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 54
+    },
+    {
+     "placeholder": true,
+     "chars": 66
+    },
+    {
+     "placeholder": true,
+     "chars": 64
+    },
+    {
+     "placeholder": true,
+     "chars": 54
+    },
+    {
+     "placeholder": true,
+     "chars": 86
+    },
+    {
+     "placeholder": true,
+     "chars": 84
+    },
+    {
+     "placeholder": true,
+     "chars": 184
+    },
+    {
+     "placeholder": true,
+     "chars": 78
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 829,
+   "links": [
+    {
+     "chars": 18,
+     "href": "mailto:legal@dovetail.com"
+    },
+    {
+     "chars": 18,
+     "href": "mailto:legal@dovetail.com"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 515
+  },
+  {
+   "type": "h2",
+   "id": "15-legal-bases-for-processing-for-eea-users",
+   "text": "15. Legal bases for processing (for EEA users)"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 351
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 195
+    },
+    {
+     "placeholder": true,
+     "chars": 255
+    },
+    {
+     "placeholder": true,
+     "chars": 85
+    },
+    {
+     "placeholder": true,
+     "chars": 70
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 203
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 572
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 234
+  }
+ ],
+ "lastUpdated": {
+  "label": "Last updated",
+  "date": "1 July 2025"
+ },
+ "navRightButtons": false,
+ "finalCta": true
+}

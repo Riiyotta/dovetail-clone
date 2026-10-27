@@ -1,0 +1,117 @@
+{
+ "slug": "whats-new-in-dovetail-jan-2026",
+ "path": "/events/whats-new-in-dovetail-jan-2026/",
+ "title": "What’s new with Dovetail Jan’26",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2026-01-22T11:00-08:00",
+ "endDate": null,
+ "onlineEvent": true,
+ "location": "Zoom",
+ "hosts": [
+  "Kelsey Rogalski",
+  "Teddy McLean"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": null,
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Kelsey Rogalski, Teddy McLean"
+  },
+  {
+   "label": "[START]",
+   "value": "22 Jan 2026 11:00AM PST"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Zoom"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/Webinar_What-s_new_with_Dovetail_Hero.png",
+  "width": 3840,
+  "height": 2160,
+  "youtubeId": null
+ },
+ "body": [
+  {
+   "t": "h2",
+   "text": "Discover what’s new with Dovetail"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 137
+  },
+  {
+   "t": "h2",
+   "text": "What we’ll cover"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 149,
+     "strong": [
+      "Agents (Beta)"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 161,
+     "strong": [
+      "Dashboards (Beta)"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 138,
+     "strong": [
+      "Folder-Level Docs"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 62,
+     "strong": [
+      "Plus:"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 148
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 8,
+   "links": [
+    {
+     "text": "Register",
+     "href": "https://dovetail.zoom.us/webinar/register/WN_0kBkznW1SrmxWMFUnlCaww"
+    }
+   ]
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

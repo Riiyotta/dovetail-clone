@@ -1,0 +1,319 @@
+{
+ "slug": "global-saas-leader",
+ "path": "/customers/global-saas-leader/",
+ "title": "How a global SaaS leader built a single source of truth from nearly 2,000 customer sessions",
+ "eyebrow": "CUSTOMER / A GLOBAL SAAS LEADER",
+ "companyName": "A global SaaS leader",
+ "isAnonymous": true,
+ "industry": "Technology",
+ "intro": {
+  "placeholder": true,
+  "chars": 275
+ },
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/external/unsplash-photo-1606836591695-4d58a73eba1e-e0f0c9.jpg",
+  "width": 1080,
+  "height": 720,
+  "youtubeId": null,
+  "caption": []
+ },
+ "stats": [
+  {
+   "value": "35+",
+   "label": "researchers and product team members using Dovetail"
+  },
+  {
+   "value": "~2K+",
+   "label": "customer sessions centralized in one source of truth"
+  },
+  {
+   "value": "600+",
+   "label": "insights created and shared across the company"
+  }
+ ],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "Millions of users, one listening problem",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 294
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 266
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 271
+    }
+   ]
+  },
+  {
+   "heading": "The challenge: three researchers, millions of users",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 247
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 415
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 141
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/external/unsplash-photo-1588196749597-9ff075ee6b5b-29f36d.jpg",
+     "alt": "A laptop screen showing a video call with a large grid of participants.",
+     "w": 1080,
+     "h": 810
+    }
+   ]
+  },
+  {
+   "heading": "The solution: a single source of truth for every customer conversation",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 471
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 277
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 356
+    }
+   ],
+   "pullQuotes": [
+    {
+     "quote": "“Dovetail is currently the biggest source of truth where all of our recordings live.”",
+     "name": null,
+     "role": "Research Ops Manager",
+     "avatar": null,
+     "href": "/customers/global-saas-leader/"
+    }
+   ]
+  },
+  {
+   "heading": "From one team’s archive to company-wide customer intelligence",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 541,
+     "links": [
+      {
+       "text": "AI-powered analysis",
+       "href": "/product/ai-projects/"
+      }
+     ]
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/AI_Analysis_Hero__1_.png",
+     "alt": "Dovetail’s AI analyzes your customer data to surface the themes and patterns that drive decisions.",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 323
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 299
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": {
+  "quote": "“Dovetail is currently the biggest source of truth where all of our recordings live.”",
+  "name": null,
+  "role": "Research Ops Manager"
+ },
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "zapier",
+   "href": "/customers/zapier/",
+   "title": "How Zapier puts customer intelligence in everyone’s hands and gets tens of hours back every week",
+   "industry": "Technology",
+   "order": 11,
+   "companyName": "Zapier",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Zapier.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-zapier-white-logo.svg",
+    "alt": "Zapier",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": "“Dovetail helps us simplify the process of pouring all our customer data and all our insights into one spot.”",
+    "name": "Roy Olende",
+    "role": "Head of UX Research"
+   }
+  },
+  {
+   "slug": "canva",
+   "href": "/customers/canva/",
+   "title": "Dovetail helps Canva empower the world to design, one customer insight at a time",
+   "industry": "Technology",
+   "order": 99,
+   "companyName": "Canva",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Canva.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/white-logo(2).svg",
+    "alt": "Canva",
+    "w": 120,
+    "h": 41
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 197
+    },
+    "name": "Craig Boustred",
+    "role": "Design Researcher"
+   }
+  },
+  {
+   "slug": "itau-unibanco",
+   "href": "/customers/itau-unibanco/",
+   "title": "How Itaú Unibanco delivers better banking experiences with Dovetail",
+   "industry": "Finance",
+   "order": 1,
+   "companyName": "Itau Unibanco",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/Customer_Itau.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/white-logo.svg",
+    "alt": "Itaú Unibanco",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 213
+    },
+    "name": "Renato Cerqueira Leite",
+    "role": "Head of research Operations"
+   }
+  }
+ ],
+ "faq": {
+  "heading": "FAQs",
+  "items": [
+   {
+    "q": "Can Dovetail support a research practice that starts small and later needs to scale company-wide?",
+    "a": {
+     "placeholder": true,
+     "chars": 235
+    }
+   },
+   {
+    "q": "How much customer research can a single Dovetail workspace hold?",
+    "a": {
+     "placeholder": true,
+     "chars": 225
+    }
+   },
+   {
+    "q": "What does Dovetail help teams do with all the raw session recordings they upload?",
+    "a": {
+     "placeholder": true,
+     "chars": 198
+    }
+   },
+   {
+    "q": "Can executives watch customer research directly instead of only reading secondhand summaries?",
+    "a": {
+     "placeholder": true,
+     "chars": 226
+    }
+   },
+   {
+    "q": "How does Dovetail help a growing research team stay consistent as more people join?",
+    "a": {
+     "placeholder": true,
+     "chars": 275
+    }
+   }
+  ]
+ }
+}

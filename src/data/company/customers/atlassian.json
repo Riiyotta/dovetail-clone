@@ -1,0 +1,223 @@
+{
+ "slug": "atlassian",
+ "path": "/customers/atlassian/",
+ "title": "Atlassian champions the customer at a global scale with Dovetail",
+ "eyebrow": "CUSTOMER / ATLASSIAN",
+ "companyName": "Atlassian",
+ "isAnonymous": false,
+ "industry": "Technology",
+ "intro": {
+  "placeholder": true,
+  "chars": 381
+ },
+ "hero": {
+  "type": "video",
+  "image": "/assets/company/media/Atlassian.png",
+  "width": 1086,
+  "height": 700,
+  "youtubeId": "5kMXtnxENwE",
+  "caption": []
+ },
+ "stats": [
+  {
+   "value": "1,000s",
+   "label": "hours of customer interviews"
+  },
+  {
+   "value": "100+",
+   "label": "researchers connected"
+  },
+  {
+   "value": "1,000s",
+   "label": "customer insights shared"
+  }
+ ],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "Atlassian’s world-class teams set the standard for continuous customer intelligence",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 545
+    }
+   ]
+  },
+  {
+   "heading": "Global teams championing continuous customer intelligence",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 711
+    },
+    {
+     "t": "blockquote",
+     "placeholder": true,
+     "chars": 306
+    },
+    {
+     "t": "p",
+     "text": "— Joyce Lee, Senior User Experience Researcher"
+    }
+   ]
+  },
+  {
+   "heading": "One platform for Atlassian teams to centralize and make sense of their data",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 231
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 599
+    }
+   ]
+  },
+  {
+   "heading": "Making better product decisions through system-wide customer intelligence",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 725
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": null,
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "atlassian-design",
+   "href": "/customers/atlassian-design/",
+   "title": "How Atlassian turns customer signals into confident product decisions",
+   "industry": "Technology",
+   "order": 2,
+   "companyName": "Atlassian",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/company/media/Customer_Atlassian.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+    "alt": "Atlassian",
+    "w": 160,
+    "h": 20
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 190
+    },
+    "name": "Martin Jerkovic",
+    "role": "Lead Product Designer"
+   }
+  },
+  {
+   "slug": "canva-ai",
+   "href": "/customers/canva-ai/",
+   "title": "Dovetail helps Canva turn millions of design moments into product decisions that shape how the world designs",
+   "industry": "Technology",
+   "order": 2,
+   "companyName": "Canva",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/company/media/Customer_Canva_AI.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/white-logo(2).svg",
+    "alt": "Canva",
+    "w": 120,
+    "h": 41
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 169
+    },
+    "name": "Craig Boustred",
+    "role": "Design Researcher"
+   }
+  },
+  {
+   "slug": "safetyculture",
+   "href": "/customers/safetyculture/",
+   "title": "SafetyCulture puts the customer at the heart of decision with Dovetail",
+   "industry": "Technology",
+   "order": 5,
+   "companyName": "SafetyCulture",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_SafetyCulture.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-safetyculture-white-logo.svg",
+    "alt": "SafetyCulture",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 158
+    },
+    "name": "Jules Lipman",
+    "role": "Product Designer"
+   }
+  }
+ ]
+}

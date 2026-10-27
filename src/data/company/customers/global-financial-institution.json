@@ -1,0 +1,314 @@
+{
+ "slug": "global-financial-institution",
+ "path": "/customers/global-financial-institution/",
+ "title": "How a global financial institution cleared one of finance's most rigorous AI security reviews and built its customer intelligence layer with Dovetail",
+ "eyebrow": "CUSTOMER / A GLOBAL FINANCIAL INSTITUTION",
+ "companyName": "A global financial institution",
+ "isAnonymous": true,
+ "industry": "Finance",
+ "intro": {
+  "placeholder": true,
+  "chars": 264
+ },
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/adrien-olichon-ll3sJhzd8Ms-unsplash.jpg",
+  "width": 9081,
+  "height": 6044,
+  "youtubeId": null,
+  "caption": []
+ },
+ "stats": [
+  {
+   "value": "3 years",
+   "label": "to clear one of the strictest AI security reviews in global financial services"
+  },
+  {
+   "value": "300+",
+   "label": "survey responses analyzed in one session, replacing days of manual coding"
+  },
+  {
+   "value": "1,000s+",
+   "label": "of survey comments queued for AI analysis as Dovetail expands org-wide"
+  }
+ ],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "Customer intelligence at one of the world's most recognized financial institutions",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 619
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 497
+    },
+    {
+     "t": "p",
+     "text": "Getting to a better answer took three years."
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/external/unsplash-photo-1606857521015-7f9fcf423740-111ebc.jpg",
+     "alt": "Teams in a modern workplace collaborating on research and analysis",
+     "w": 1080,
+     "h": 720
+    }
+   ]
+  },
+  {
+   "heading": "The challenge: years of research with nowhere to find it",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 658
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 401
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 306
+    }
+   ]
+  },
+  {
+   "heading": "The solution: enterprise security cleared, customer intelligence deployed",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 259
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 481
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 518,
+     "links": [
+      {
+       "text": "AI Analysis",
+       "href": "/product/ai-projects/"
+      }
+     ]
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/transcription-translation.png",
+     "alt": "Dovetail Transcription translation—translate video transcripts across 70+ languages",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "t": "blockquote",
+     "placeholder": true,
+     "chars": 335
+    }
+   ]
+  },
+  {
+   "heading": "The payoff: senior leaders asking for workspace access to self-serve customer evidence",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 482
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 419
+    },
+    {
+     "t": "blockquote",
+     "placeholder": true,
+     "chars": 345
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/external/unsplash-photo-1542744173-8e7e53415bb0-4e132f.jpg",
+     "alt": "Professionals collaborating in a meeting, sharing insights across teams",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 506
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": {
+  "quote": {
+   "placeholder": true,
+   "chars": 295
+  },
+  "name": null,
+  "role": "Delivery Manager, Research Operations"
+ },
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "global-management-consulting-firm",
+   "href": "/customers/global-management-consulting-firm/",
+   "title": "How a global management consulting firm turned single-team research into a self-serving intelligence system for 300+ practitioners",
+   "industry": "Professional Services",
+   "order": 99,
+   "companyName": "A global management consulting firm",
+   "gridTitle": "Global management consulting",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-global-management-consulting-firm.png",
+    "alt": "",
+    "w": 896,
+    "h": 1280
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": "“People would come to me and say, ‘You saved me so many hours of research. I was able to just use your videos and add my own tags.’”",
+    "name": null,
+    "role": "Research Operations Lead"
+   }
+  },
+  {
+   "slug": "global-agricultural-equipment-maker",
+   "href": "/customers/global-agricultural-equipment-maker/",
+   "title": "How a global agricultural equipment maker unified customer intelligence across 100+ product lines",
+   "industry": "Manufacturing",
+   "order": 99,
+   "companyName": "A global leader in agricultural and construction equipment",
+   "gridTitle": "Agricultural machinery corporation",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-agricultural-machinery-corporation.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 243
+    },
+    "name": null,
+    "role": "UX Researcher"
+   }
+  },
+  {
+   "slug": "iconic-toy-brand",
+   "href": "/customers/iconic-toy-brand/",
+   "title": "How a global toy brand builds with confidence by putting customer intelligence where decisions are made",
+   "industry": "Consumer Goods",
+   "order": 99,
+   "companyName": "A family-owned toy company with products in more than 120 countries",
+   "gridTitle": "Iconic toy brand",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-iconic-toy-brand.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 158
+    },
+    "name": null,
+    "role": "Head of Research, Retail Division"
+   }
+  }
+ ],
+ "faq": {
+  "heading": "FAQs",
+  "items": [
+   {
+    "q": "How does Dovetail handle security and compliance requirements for regulated industries like financial services?",
+    "a": {
+     "placeholder": true,
+     "chars": 355
+    }
+   },
+   {
+    "q": "Can Dovetail analyze large volumes of open-ended survey responses automatically?",
+    "a": {
+     "placeholder": true,
+     "chars": 236
+    }
+   },
+   {
+    "q": "Does using AI for research analysis mean researchers stop reviewing the findings themselves?",
+    "a": {
+     "placeholder": true,
+     "chars": 194
+    }
+   },
+   {
+    "q": "Can non-researchers, like product managers or senior leaders, self-serve answers from a company’s research library?",
+    "a": {
+     "placeholder": true,
+     "chars": 283
+    }
+   },
+   {
+    "q": "How does Dovetail scale from an initial team’s use case to an entire organization?",
+    "a": {
+     "placeholder": true,
+     "chars": 313
+    }
+   }
+  ]
+ }
+}

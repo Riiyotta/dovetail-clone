@@ -1,0 +1,31 @@
+/* TestimonialSlice — marketing-shared.md §7.4 (eqa8jb9*, e1i468kp*, e41snxo0) */
+.mk-testi { position: relative; min-height: 514px; }
+@media (max-width: 799px) { .mk-testi { min-height: unset; } }
+.mk-testi__grid { width: 100%; }
+.mk-testi__col { grid-column: 3 / 12; margin: 110px 0; position: relative; z-index: 2; }
+@media (max-width: 1280px) { .mk-testi__col { grid-column: 1 / -1; } }
+@media (max-width: 799px) { .mk-testi__col { margin: 0; } }
+.mk-testi__tabs { position: absolute; bottom: 0; right: 0; padding-left: 300px; padding-top: 60px; z-index: 1; }
+@media (max-width: 1280px) { .mk-testi__tabs { position: relative; padding-top: 24px; padding-left: 0; } }
+
+.mk-tcard { display: flex; flex-direction: column; gap: 64px; text-align: left; color: #FFFFFF; }
+.mk-tcard__photo { width: 80px; height: 80px; border-radius: 8px; float: left; margin: 8px 16px 0 0; object-fit: cover; }
+@media (max-width: 799px) { .mk-tcard__photo { margin-bottom: 32px; } }
+.mk-tcard__quote { margin: 0; font-size: 40px; line-height: 48px; font-weight: 500; letter-spacing: -1px; }
+@media (max-width: 1280px) { .mk-tcard__quote { font-size: 32px; line-height: 40px; letter-spacing: -0.25px; } }
+@media (max-width: 799px) { .mk-tcard__quote { font-size: 24px; line-height: 32px; letter-spacing: -0.25px; } }
+.mk-tcard__footer { display: flex; align-items: center; gap: 32px; min-height: 48px; clear: left; }
+.mk-tcard__logo { display: block; height: 40px; width: auto; }
+.mk-tcard__line { width: 1px; height: 40px; background: rgba(255,255,255,.24); flex-shrink: 0; }
+.mk-tcard__name, .mk-tcard__title { font-family: "JetBrains Mono", "SF Mono", Consolas, Roboto, sans-serif; font-size: 14px; line-height: 140%;
+  letter-spacing: 1px; text-transform: uppercase; }
+.mk-tcard__name { color: #FFFFFF; }
+.mk-tcard__title { color: #A7A7A7; }
+
+.mk-pill-tooltip { position: fixed; top: 0; left: 0; z-index: 4; opacity: 0; transition: opacity 150ms; pointer-events: none; }
+@media (max-width: 799px) { .mk-pill-tooltip { display: none; } }
+.mk-pill-tooltip__pill { display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-radius: 8px; color: #FFFFFF;
+  background: rgba(255,255,255,.08); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+  font-family: "JetBrains Mono", "SF Mono", Consolas, Roboto, sans-serif; font-size: 14px; line-height: 140%; letter-spacing: 1px;
+  text-transform: uppercase; white-space: nowrap; }
+.mk-pill-tooltip__sq { width: 8px; height: 8px; background: #0044FF; flex-shrink: 0; }

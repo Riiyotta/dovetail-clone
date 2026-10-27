@@ -1,0 +1,41 @@
+/* /resources/{slug}/ guides — specs/resources-guide.md. Builds on src/styles/guides/* (guide-article styles). */
+
+.rg-grid { row-gap: 0; }
+.rg-aside { grid-column: span 4; min-width: 0; }
+@media (max-width: 1280px) { .rg-aside { grid-column: 1 / -1; } }
+
+/* Breadcrumb slash: svg/icon-breadcrumb-slash.svg, 24px, opacity .6, #0A0A0A */
+.rg-crumbs__slash { width: 24px; height: 24px; opacity: .6; color: #0A0A0A; }
+
+/* Share / summarize icons: 14px currentColor */
+.rg-share__icon { width: 14px; height: 14px; }
+
+/* Sidebar CTA: full-width light primary (376x40 at 1440) */
+.rg-promo__btn { display: flex; width: 100%; }
+
+/* Comparison tables overflow at 390 (385.5 wide): the scroll wrapper carries the table's 48px (≤799 32px) margin so it
+   still collapses with neighbouring heading/paragraph margins. */
+.rg-table { overflow-x: auto; margin: 48px 0; }
+.rt.rg-rt .rg-table table { margin: 0; }
+@media (max-width: 799px) { .rg-table { margin: 32px 0; } }
+
+/* FAQs block (static): h2 H20 margin 16px 0; questions 24/32 margin 16px 0 8px */
+.rt.rg-rt h2.rg-faq__h2 { font-size: 20px; line-height: 28px; font-weight: 500; letter-spacing: -0.25px; margin: 16px 0; text-wrap: pretty; }
+.rt.rg-rt h3.rg-faq__h3 { font-size: 24px; line-height: 32px; font-weight: 500; letter-spacing: -0.5px; margin: 16px 0 8px; }
+@media (max-width: 1280px) { .rt.rg-rt h3.rg-faq__h3 { font-size: 20px; line-height: 28px; letter-spacing: -0.25px; } }
+@media (max-width: 799px) {
+  .rt.rg-rt h2.rg-faq__h2 { font-size: 16px; line-height: 24px; }
+  .rt.rg-rt h3.rg-faq__h3 { font-size: 18px; line-height: 24px; }
+}
+/* ≤1280 body p 16/24 (responsive table in spec) */
+@media (max-width: 1280px) { .rt.rg-rt p { font-size: 16px; line-height: 24px; } }
+
+/* Drawer: list children start hidden; chevron down when closed, up when open; toggle 16/24 at ≤1280 */
+.rg-drawer .toc > li { opacity: 0; }
+.rg-drawer__chev { width: 24px; height: 24px; }
+.rg-drawer__chev.is-open { transform: rotate(180deg); }
+.rg-drawer .csheet__head { font-size: 16px; line-height: 24px; }
+
+/* Related articles: shared S8 Carousel inside the SliceContainer → progress bar without the container padding */
+.rg-car .co-carousel__progress { padding: 64px 0 0; }
+@media (max-width: 1280px) { .rg-car .co-carousel__progress { padding: 48px 0 0; } }

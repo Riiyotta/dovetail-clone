@@ -1,0 +1,292 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T32",
+ "route": "/resources-report-brackenhold/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Brackenhold"
+ },
+ "meta": {
+  "title": "Brackenhold | Conversion"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Compass quarry",
+    "actions": [
+     {
+      "label": "Shape cinder",
+      "href": "https://brackenhold.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Sprout",
+      "href": "https://brackenhold.example/navbar-0"
+     },
+     {
+      "label": "Cobalt",
+      "href": "https://brackenhold.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Willow"
+     },
+     {
+      "title": "Weigh"
+     },
+     {
+      "title": "Basil"
+     },
+     {
+      "title": "Measure"
+     },
+     {
+      "title": "Bundle"
+     },
+     {
+      "title": "Tidy"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Thread delta",
+      "text": "Sketch field orbit gather sprout steer sort tidal"
+     },
+     {
+      "title": "Fjord falcon",
+      "text": "Refine measure nimbus grove thread trace marble field"
+     },
+     {
+      "title": "Orbit meadow",
+      "text": "Notice juniper sort harbor willow weigh basil atlas"
+     },
+     {
+      "title": "Nimbus grove",
+      "text": "Map delta marble field shape meadow sprout juniper"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "conversion.lead-form",
+   "variant": "gated-report",
+   "content": {
+    "heading": "Sort share willow signal",
+    "lead": "Beacon rowan pebble tidy thread trace sketch field orbit gather notice harvest sort harbor"
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.logo-marquee",
+   "variant": "two-row",
+   "content": {
+    "lead": "Lantern signal refine rowan bundle grove cedar compass",
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Quarry plan prism",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Meadow sprout",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Sort harbor willow",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Signal basil rowan",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Bundle grove cedar",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Compass quarry",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Shape gather",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Juniper sort share",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-7"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Fjord falcon basil",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-8"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Measure bundle",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-9"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Thread compass",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-10"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Ember shape cinder",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-11"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Sprout juniper",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-12"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Tidal fjord weigh",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-13"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Basil rowan nimbus",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-14"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Tidy thread trace",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-15"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "marquee.loop",
+    "reducedMotionFallback": "paused"
+   }
+  },
+  {
+   "section": "cta.inline-band",
+   "variant": "dark",
+   "content": {
+    "heading": "Quarry field prism meadow",
+    "actions": [
+     {
+      "label": "Sprout steer",
+      "href": "https://brackenhold.example/inline-band-0"
+     },
+     {
+      "label": "Cobalt share",
+      "href": "https://brackenhold.example/inline-band-1"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "lead": "Willow signal basil rowan nimbus",
+    "actions": [
+     {
+      "label": "Cedar delta",
+      "href": "https://brackenhold.example/footer-0"
+     },
+     {
+      "label": "Quarry field",
+      "href": "https://brackenhold.example/footer-1"
+     },
+     {
+      "label": "Prism gather",
+      "href": "https://brackenhold.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Sprout"
+     },
+     {
+      "title": "Steer"
+     },
+     {
+      "title": "Cobalt"
+     },
+     {
+      "title": "Harbor"
+     },
+     {
+      "title": "Lantern"
+     },
+     {
+      "title": "Signal"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

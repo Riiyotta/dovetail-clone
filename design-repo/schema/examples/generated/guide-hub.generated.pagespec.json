@@ -1,0 +1,715 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T20",
+ "route": "/guide-hub-thistlemoor/",
+ "theme": "light",
+ "chrome": {
+  "banner": "light",
+  "nav": "light",
+  "footer": "light"
+ },
+ "brand": {
+  "name": "Thistlemoor"
+ },
+ "meta": {
+  "title": "Thistlemoor | Editorial"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "light",
+   "content": {
+    "lead": "Sprout steer",
+    "actions": [
+     {
+      "label": "Share fjord",
+      "href": "https://thistlemoor.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "light",
+   "content": {
+    "actions": [
+     {
+      "label": "Weigh",
+      "href": "https://thistlemoor.example/navbar-0"
+     },
+     {
+      "label": "Rowan",
+      "href": "https://thistlemoor.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Canvas"
+     },
+     {
+      "title": "Map"
+     },
+     {
+      "title": "Compass"
+     },
+     {
+      "title": "Quarry"
+     },
+     {
+      "title": "Ember"
+     },
+     {
+      "title": "Orbit"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Cinder sprout",
+      "text": "Harvest cobalt share fjord falcon basil measure pebble"
+     },
+     {
+      "title": "Grove thread",
+      "text": "Compass marble ember orbit gather summit steer cobalt"
+     },
+     {
+      "title": "Harbor willow",
+      "text": "Signal beacon atlas nimbus tidy cedar compass marble"
+     },
+     {
+      "title": "Field shape",
+      "text": "Meadow summit steer sort harbor fjord signal refine"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "article.header",
+   "variant": "light",
+   "content": {
+    "heading": "Atlas pebble canvas thread",
+    "actions": [
+     {
+      "label": "Compass quarry",
+      "href": "https://thistlemoor.example/header-0"
+     },
+     {
+      "label": "Field orbit",
+      "href": "https://thistlemoor.example/header-1"
+     },
+     {
+      "label": "Meadow summit",
+      "href": "https://thistlemoor.example/header-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.byline",
+   "variant": "default",
+   "content": {
+    "heading": "Junip",
+    "actions": [
+     {
+      "label": "Sort harbor",
+      "href": "https://thistlemoor.example/byline-0"
+     },
+     {
+      "label": "Fjord signal",
+      "href": "https://thistlemoor.example/byline-1"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Beacon rowan pebble tidy",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Cedar compass sketch plan"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Orbit meadow sprout steer sort harbor willow weigh refine rowan nimbus grove thread compass sketch ember orbit gather notice juniper sort tidal lantern weigh beacon rowan pebble canvas thread trace"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Marble field prism gather summit steer cobalt harbor willow weigh refine rowan nimbus canvas cedar compass quarry field orbit meadow summit steer sort share willow signal refine measure pebble canvas"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Map trace marble ember",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Prism gather notice juniper"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Cobalt harbor lantern signal refine atlas bundle grove thread compass quarry ember shape meadow sprout harvest sort harbor fjord falcon basil measure pebble tidy thread trace quarry field shape gather"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Sprout steer sort tidal fjord falcon refine atlas pebble canvas cedar trace marble plan orbit cinder summit steer cobalt tidal willow weigh refine atlas nimbus canvas thread delta sketch plan"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.related-topics",
+   "variant": "default",
+   "content": {
+    "heading": "Shape cinder",
+    "actions": [
+     {
+      "label": "Summit juniper",
+      "href": "https://thistlemoor.example/related-topics-0"
+     },
+     {
+      "label": "Cobalt share",
+      "href": "https://thistlemoor.example/related-topics-1"
+     },
+     {
+      "label": "Fjord signal",
+      "href": "https://thistlemoor.example/related-topics-2"
+     },
+     {
+      "label": "Basil rowan",
+      "href": "https://thistlemoor.example/related-topics-3"
+     },
+     {
+      "label": "Pebble canvas",
+      "href": "https://thistlemoor.example/related-topics-4"
+     },
+     {
+      "label": "Map compass",
+      "href": "https://thistlemoor.example/related-topics-5"
+     }
+    ],
+    "items": [
+     {
+      "title": "Sketch ember shape",
+      "href": "https://thistlemoor.example/related-topics-item0"
+     },
+     {
+      "title": "Meadow summit steer",
+      "href": "https://thistlemoor.example/related-topics-item1"
+     },
+     {
+      "title": "Ledger harbor lantern",
+      "href": "https://thistlemoor.example/related-topics-item2"
+     },
+     {
+      "title": "Falcon beacon atlas",
+      "href": "https://thistlemoor.example/related-topics-item3"
+     },
+     {
+      "title": "Bundle canvas cedar",
+      "href": "https://thistlemoor.example/related-topics-item4"
+     },
+     {
+      "title": "Trace quarry plan",
+      "href": "https://thistlemoor.example/related-topics-item5"
+     },
+     {
+      "title": "Orbit cinder summit",
+      "href": "https://thistlemoor.example/related-topics-item6"
+     },
+     {
+      "title": "Steer ledger share",
+      "href": "https://thistlemoor.example/related-topics-item7"
+     },
+     {
+      "title": "Fjord signal beacon",
+      "href": "https://thistlemoor.example/related-topics-item8"
+     },
+     {
+      "title": "Measure pebble canvas",
+      "href": "https://thistlemoor.example/related-topics-item9"
+     },
+     {
+      "title": "Thread compass sketch",
+      "href": "https://thistlemoor.example/related-topics-item10"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.article-carousel",
+   "variant": "default",
+   "content": {
+    "heading": "Field prism",
+    "actions": [
+     {
+      "label": "Gather notice",
+      "href": "https://thistlemoor.example/article-carousel-0"
+     },
+     {
+      "label": "Steer cobalt",
+      "href": "https://thistlemoor.example/article-carousel-1"
+     },
+     {
+      "label": "Harbor willow",
+      "href": "https://thistlemoor.example/article-carousel-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Weigh refine measure",
+      "href": "https://thistlemoor.example/article-carousel-item0"
+     },
+     {
+      "title": "Nimbus tidy cedar",
+      "href": "https://thistlemoor.example/article-carousel-item1"
+     },
+     {
+      "title": "Trace sketch ember",
+      "href": "https://thistlemoor.example/article-carousel-item2"
+     },
+     {
+      "title": "Prism gather sprout",
+      "href": "https://thistlemoor.example/article-carousel-item3"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.manual",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.article-carousel",
+   "variant": "default",
+   "content": {
+    "heading": "Steer sort",
+    "actions": [
+     {
+      "label": "Tidal lantern",
+      "href": "https://thistlemoor.example/article-carousel-0"
+     },
+     {
+      "label": "Weigh basil",
+      "href": "https://thistlemoor.example/article-carousel-1"
+     },
+     {
+      "label": "Atlas nimbus",
+      "href": "https://thistlemoor.example/article-carousel-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Grove thread compass",
+      "href": "https://thistlemoor.example/article-carousel-item0"
+     },
+     {
+      "title": "Marble field prism",
+      "href": "https://thistlemoor.example/article-carousel-item1"
+     },
+     {
+      "title": "Cinder sprout juniper",
+      "href": "https://thistlemoor.example/article-carousel-item2"
+     },
+     {
+      "title": "Cobalt share fjord",
+      "href": "https://thistlemoor.example/article-carousel-item3"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.manual",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.inline-band",
+   "variant": "light",
+   "content": {
+    "heading": "Signal basil atlas bundle",
+    "actions": [
+     {
+      "label": "Canvas map",
+      "href": "https://thistlemoor.example/inline-band-0"
+     },
+     {
+      "label": "Delta sketch",
+      "href": "https://thistlemoor.example/inline-band-1"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "light",
+   "content": {
+    "lead": "Field orbit cinder notice harvest",
+    "actions": [
+     {
+      "label": "Share willow",
+      "href": "https://thistlemoor.example/footer-0"
+     },
+     {
+      "label": "Falcon refine",
+      "href": "https://thistlemoor.example/footer-1"
+     },
+     {
+      "label": "Rowan pebble",
+      "href": "https://thistlemoor.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Canvas"
+     },
+     {
+      "title": "Map"
+     },
+     {
+      "title": "Delta"
+     },
+     {
+      "title": "Sketch"
+     },
+     {
+      "title": "Field"
+     },
+     {
+      "title": "Orbit"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.az-index",
+   "variant": "default",
+   "content": {
+    "heading": "Meadow sprout steer ledger",
+    "items": [
+     {
+      "title": "Tidal willow falcon",
+      "href": "https://thistlemoor.example/az-index-item0"
+     },
+     {
+      "title": "Basil atlas bundle",
+      "href": "https://thistlemoor.example/az-index-item1"
+     },
+     {
+      "title": "Canvas map trace",
+      "href": "https://thistlemoor.example/az-index-item2"
+     },
+     {
+      "title": "Marble ember orbit",
+      "href": "https://thistlemoor.example/az-index-item3"
+     },
+     {
+      "title": "Gather sprout harvest",
+      "href": "https://thistlemoor.example/az-index-item4"
+     },
+     {
+      "title": "Ledger share lantern",
+      "href": "https://thistlemoor.example/az-index-item5"
+     },
+     {
+      "title": "Weigh refine atlas",
+      "href": "https://thistlemoor.example/az-index-item6"
+     },
+     {
+      "title": "Bundle canvas thread",
+      "href": "https://thistlemoor.example/az-index-item7"
+     },
+     {
+      "title": "Compass marble plan",
+      "href": "https://thistlemoor.example/az-index-item8"
+     },
+     {
+      "title": "Shape meadow notice",
+      "href": "https://thistlemoor.example/az-index-item9"
+     },
+     {
+      "title": "Steer cobalt share",
+      "href": "https://thistlemoor.example/az-index-item10"
+     },
+     {
+      "title": "Willow falcon refine",
+      "href": "https://thistlemoor.example/az-index-item11"
+     },
+     {
+      "title": "Measure pebble canvas",
+      "href": "https://thistlemoor.example/az-index-item12"
+     },
+     {
+      "title": "Map compass quarry",
+      "href": "https://thistlemoor.example/az-index-item13"
+     },
+     {
+      "title": "Field shape meadow",
+      "href": "https://thistlemoor.example/az-index-item14"
+     },
+     {
+      "title": "Notice harvest sort",
+      "href": "https://thistlemoor.example/az-index-item15"
+     },
+     {
+      "title": "Share willow falcon",
+      "href": "https://thistlemoor.example/az-index-item16"
+     },
+     {
+      "title": "Beacon atlas nimbus",
+      "href": "https://thistlemoor.example/az-index-item17"
+     },
+     {
+      "title": "Canvas map delta",
+      "href": "https://thistlemoor.example/az-index-item18"
+     },
+     {
+      "title": "Marble field orbit",
+      "href": "https://thistlemoor.example/az-index-item19"
+     },
+     {
+      "title": "Cinder summit harvest",
+      "href": "https://thistlemoor.example/az-index-item20"
+     },
+     {
+      "title": "Cobalt share willow",
+      "href": "https://thistlemoor.example/az-index-item21"
+     },
+     {
+      "title": "Signal beacon rowan",
+      "href": "https://thistlemoor.example/az-index-item22"
+     },
+     {
+      "title": "Bundle tidy thread",
+      "href": "https://thistlemoor.example/az-index-item23"
+     },
+     {
+      "title": "Compass sketch ember",
+      "href": "https://thistlemoor.example/az-index-item24"
+     },
+     {
+      "title": "Prism cinder sprout",
+      "href": "https://thistlemoor.example/az-index-item25"
+     },
+     {
+      "title": "Juniper sort share",
+      "href": "https://thistlemoor.example/az-index-item26"
+     },
+     {
+      "title": "Lantern signal basil",
+      "href": "https://thistlemoor.example/az-index-item27"
+     },
+     {
+      "title": "Measure pebble grove",
+      "href": "https://thistlemoor.example/az-index-item28"
+     },
+     {
+      "title": "Thread trace quarry",
+      "href": "https://thistlemoor.example/az-index-item29"
+     },
+     {
+      "title": "Ember prism cinder",
+      "href": "https://thistlemoor.example/az-index-item30"
+     },
+     {
+      "title": "Summit harvest ledger",
+      "href": "https://thistlemoor.example/az-index-item31"
+     },
+     {
+      "title": "Tidal fjord falcon",
+      "href": "https://thistlemoor.example/az-index-item32"
+     },
+     {
+      "title": "Beacon measure nimbus",
+      "href": "https://thistlemoor.example/az-index-item33"
+     },
+     {
+      "title": "Grove map trace",
+      "href": "https://thistlemoor.example/az-index-item34"
+     },
+     {
+      "title": "Marble plan orbit",
+      "href": "https://thistlemoor.example/az-index-item35"
+     },
+     {
+      "title": "Cinder sprout juniper",
+      "href": "https://thistlemoor.example/az-index-item36"
+     },
+     {
+      "title": "Ledger share fjord",
+      "href": "https://thistlemoor.example/az-index-item37"
+     },
+     {
+      "title": "Weigh basil measure",
+      "href": "https://thistlemoor.example/az-index-item38"
+     },
+     {
+      "title": "Bundle canvas cedar",
+      "href": "https://thistlemoor.example/az-index-item39"
+     },
+     {
+      "title": "Delta quarry plan",
+      "href": "https://thistlemoor.example/az-index-item40"
+     },
+     {
+      "title": "Prism cinder summit",
+      "href": "https://thistlemoor.example/az-index-item41"
+     },
+     {
+      "title": "Steer ledger tidal",
+      "href": "https://thistlemoor.example/az-index-item42"
+     },
+     {
+      "title": "Lantern signal refine",
+      "href": "https://thistlemoor.example/az-index-item43"
+     },
+     {
+      "title": "Rowan pebble grove",
+      "href": "https://thistlemoor.example/az-index-item44"
+     },
+     {
+      "title": "Cedar compass quarry",
+      "href": "https://thistlemoor.example/az-index-item45"
+     },
+     {
+      "title": "Field prism cinder",
+      "href": "https://thistlemoor.example/az-index-item46"
+     },
+     {
+      "title": "Sprout harvest sort",
+      "href": "https://thistlemoor.example/az-index-item47"
+     },
+     {
+      "title": "Share fjord weigh",
+      "href": "https://thistlemoor.example/az-index-item48"
+     },
+     {
+      "title": "Refine measure pebble",
+      "href": "https://thistlemoor.example/az-index-item49"
+     },
+     {
+      "title": "Tidy map trace",
+      "href": "https://thistlemoor.example/az-index-item50"
+     },
+     {
+      "title": "Marble plan prism",
+      "href": "https://thistlemoor.example/az-index-item51"
+     },
+     {
+      "title": "Gather sprout juniper",
+      "href": "https://thistlemoor.example/az-index-item52"
+     },
+     {
+      "title": "Ledger harbor willow",
+      "href": "https://thistlemoor.example/az-index-item53"
+     },
+     {
+      "title": "Falcon refine measure",
+      "href": "https://thistlemoor.example/az-index-item54"
+     },
+     {
+      "title": "Bundle canvas thread",
+      "href": "https://thistlemoor.example/az-index-item55"
+     },
+     {
+      "title": "Trace quarry plan",
+      "href": "https://thistlemoor.example/az-index-item56"
+     },
+     {
+      "title": "Prism gather notice",
+      "href": "https://thistlemoor.example/az-index-item57"
+     },
+     {
+      "title": "Harvest sort harbor",
+      "href": "https://thistlemoor.example/az-index-item58"
+     },
+     {
+      "title": "Fjord signal basil",
+      "href": "https://thistlemoor.example/az-index-item59"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "interactive.toc-sheet",
+   "variant": "default",
+   "content": {},
+   "motion": {
+    "pattern": "sheet.slide",
+    "reducedMotionFallback": "show-immediately"
+   },
+   "retrievalEligible": false
+  }
+ ]
+}

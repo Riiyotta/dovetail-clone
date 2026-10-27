@@ -1,0 +1,1021 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T22",
+ "route": "/resources/dovetail-vs-marvin/",
+ "theme": "light",
+ "chrome": {
+  "banner": "default",
+  "nav": "light",
+  "footer": "light"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail vs Marvin: Why Research Teams Choose Dovetail"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "light",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "article.header",
+   "variant": "light",
+   "content": {
+    "heading": "Dovetail vs Marvin",
+    "actions": [
+     {
+      "label": "GUIDES",
+      "href": "/guides/"
+     },
+     {
+      "label": "DOVETAIL VS MARVIN",
+      "href": "#"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.byline",
+   "variant": "default",
+   "content": {
+    "heading": "Share"
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Quick answer",
+    "body": [
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Final copy."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Supporting detail would follow here, written in plain language. The real text is intentionally not reproduced in this clone."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder lead: Placeholder copy for this section. The real text is intentionally not reproduced in this clone. Sample sentence to fill the placeholder remaining space. Additional placeholder words keep the line lengths realistic. Replace with approved copy before publishing. More filler text appears here."
+     },
+     {
+      "kind": "heading",
+      "text": "Quick answer"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Additional placeholder words keep the line lengths realistic. Replace with approved copy before."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Replace with approved copy before publishing. More filler text appears here. This text stands in for the original description and is used for layout only. It approximates the length of the real paragraph without repeating its wording."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder lead: Placeholder copy for this section. More filler text appears here. This text stands in for the original."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "What is Dovetail?",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "What is Dovetail?"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. This text stands in for the original description and is used for layout only. It approximates."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. It approximates the."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. Final copy would explain the point in a sentence."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. Supporting detail would follow here, written in plain language."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. This text stands in for the original description and is used."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. It approximates the length of the real paragraph without repeating its."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. More filler text appears here. This text stands in for the original."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. This text stands in for the original description and is used for."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. The real text is intentionally not reproduced in this clone. Sample sentence to fill the remaining space."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "What is Marvin?",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "What is Marvin?"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Additional placeholder words keep the line lengths realistic. Replace with approved copy before publishing."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder copy for this section. Final copy."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder copy for this section. Supporting."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder copy for this section. This text."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder copy for this section. It."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder copy for this section. Additional."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. This text stands in for the original description and is used for layout only. It approximates the length of the real paragraph without repeating its."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Supporting detail would follow here, written in plain."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Are Dovetail and Marvin “repository-only” tools?",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Are Dovetail and Marvin “repository-only” tools?"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Supporting detail would follow here, written in plain language. The real text is intentionally not reproduced in this clone. Sample sentence to fill the remaining space. Additional placeholder words keep the line lengths realistic. Replace with approved copy before publishing. More filler text appears here. This text stands in for the original description and is used for layout only."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Final copy would explain the point in a sentence or two. Supporting detail would follow here, written in plain language. The real text is intentionally not reproduced in this clone. Sample sentence to fill the remaining space. Additional placeholder words keep the line lengths realistic. Replace with approved copy before publishing. More filler text appears here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Additional placeholder words keep the line lengths realistic. Replace with approved copy before publishing. More filler text appears here. This text stands in for the original description and is used for layout only. It approximates the length of the real paragraph without repeating its wording. Final copy would explain the point in a sentence or two."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Replace with approved copy before publishing. More filler text appears here. This text stands in for the original description and is used for layout only. It approximates the length of the real paragraph without repeating its wording. Final copy would explain the point in a sentence or two."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Where Marvin stops working",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Where Marvin stops working"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. This text stands in for the original description and is used for layout only. It approximates the."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. This text."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. This text stands in for the original description and is used for layout only. It approximates the length of the real paragraph without."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. It approximates the length of the real paragraph without repeating its wording. Final copy would explain the point in a sentence or two. Supporting detail would follow here."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. More filler text appears here. This text stands in for the original description and is used for layout only. It approximates the length of the real paragraph without repeating its."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. This text stands in for the original description and is used for layout only. It approximates the length of the real paragraph without repeating its."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Final copy would explain the point in a sentence or two. Supporting detail would follow here, written in."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Supporting detail would follow here, written in plain language. The real text is."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "AI capabilities: research-grade, not just research-scoped",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "AI capabilities: research-grade, not just research-scoped"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. This text stands in for the original description and is used for layout only. It approximates the length."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Where Dovetail's AI goes further for researchers"
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. The real text is intentionally not reproduced in this clone. Sample sentence to fill the remaining space. Additional placeholder words."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. Sample sentence to fill the remaining space. Additional placeholder words keep the line."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. Final copy would explain the point in a sentence or two. Supporting detail would follow."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. Supporting detail would follow here, written in plain language. The real text is intentionally not reproduced in this."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. More filler text appears here. This text stands in for the original description and is used for layout only. It approximates the length of."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Marvin's AI"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Sample sentence to fill the remaining space. Additional placeholder words keep the line lengths realistic."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Decision lens: AI-moderated interviews"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder lead: Sample text"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder lead: Placeholder copy for this section. Final copy would explain the point in a sentence or two. Supporting detail would follow here, written in plain language. The real text is intentionally placeholder not reproduced in this clone. Sample sentence to fill the remaining space. Additional placeholder words keep the line lengths realistic. Replace with approved copy before publishing. More filler text appears here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Supporting detail would follow here, written in plain language. The real text is intentionally not reproduced in this clone. Sample sentence to fill the remaining space. Additional placeholder words keep the line lengths."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Final copy would explain the point in a sentence or two. Supporting detail would follow here, written in plain language. The real text is intentionally not reproduced in."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Interviews and evidence workflows",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Interviews and evidence workflows"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Supporting detail would follow here, written in plain language. The real text is intentionally not."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Reduce capture friction"
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. Final copy would explain the point in a sentence or two. Supporting detail would follow here."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. Supporting."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. This text stands in for the original."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. It approximates the."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Support the full evidence workflow"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. This text stands in for the original description and is used for layout only. It approximates the length of the real paragraph without repeating its wording."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Make evidence easy to share"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Replace with approved copy before publishing. More filler text appears here. This text stands in for the original description and is used for layout only. It approximates the length of the real paragraph without."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Quantitative signals and trend tracking",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Quantitative signals and trend tracking"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Sample sentence to fill the remaining space. Additional placeholder words keep the line lengths realistic."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Marvin"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. This text stands in for the original description and is used for layout only. It approximates the length of the real paragraph without repeating."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Dovetail"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Final copy would explain the."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. Additional placeholder words keep the line lengths."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. Replace with approved copy before publishing. More filler text appears here. This text stands in."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. The real text is intentionally not reproduced in this clone."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. The real text is intentionally not reproduced in this clone. Sample sentence to fill the remaining space. Additional placeholder words keep."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Governance and regulated environments",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Governance and regulated environments"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Additional placeholder words keep the line lengths realistic."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. This text stands in for the original description and is used for layout."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. More filler text appears here. This text stands in for the original description and is used for layout only. It approximates the length of the real."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. This text."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. The real text is."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section. Sample."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Final copy would explain the point in a sentence or two. Supporting detail would follow here, written in plain language. The real text is intentionally not reproduced in this clone. Sample sentence to fill the remaining."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Integrations and operationalization",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Integrations and operationalization"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Additional placeholder words keep the line lengths realistic."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this section."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for this."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder text"
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Sample"
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Sample"
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder lead: Placeholder copy for."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. More filler text appears here. This text stands in for the original description and is used for layout only. It approximates the length of the real paragraph without repeating its."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Side-by-side comparison",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Side-by-side comparison"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder lead: Sample text"
+     },
+     {
+      "kind": "table",
+      "text": "21 rows"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "When to choose Dovetail",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "When to choose Dovetail"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder copy for this section. Additional placeholder words keep the line lengths realistic. Replace with approved copy before."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder copy for this section. Replace with approved copy before publishing."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder copy for this section. The real text is."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder copy for this section. Sample sentence to fill the remaining space."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder copy for this section. Additional placeholder words keep the line lengths realistic. Replace with approved copy before publishing."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Decision summary",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Decision summary"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Replace with approved copy before publishing. More filler text appears here. This text stands in for the."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Additional placeholder words keep the line lengths realistic. Replace with approved copy before publishing. More filler text appears here. This text stands in for the original description and is used for layout only. It approximates the length of the real paragraph without repeating its."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. Sample sentence to fill the remaining space. Additional placeholder words keep the line lengths realistic. Replace with approved copy before publishing."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder copy for this section. The."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.related-topics",
+   "variant": "default",
+   "content": {
+    "heading": "RELATED TOPICS",
+    "actions": [
+     {
+      "label": "[CUSTOMER RESEARCH]",
+      "href": "/customer-research/"
+     },
+     {
+      "label": "[DESIGN THINKING]",
+      "href": "/design-thinking/"
+     },
+     {
+      "label": "[EMPLOYEE EXPERIENCE]",
+      "href": "/employee-experience/"
+     },
+     {
+      "label": "[ENTERPRISE]",
+      "href": "/enterprise/"
+     },
+     {
+      "label": "[MARKET RESEARCH]",
+      "href": "/market-research/"
+     },
+     {
+      "label": "[PATIENT EXPERIENCE]",
+      "href": "/patient-experience/"
+     }
+    ],
+    "items": [
+     {
+      "title": "[CUSTOMER RESEARCH]",
+      "href": "/customer-research/"
+     },
+     {
+      "title": "[DESIGN THINKING]",
+      "href": "/design-thinking/"
+     },
+     {
+      "title": "[EMPLOYEE EXPERIENCE]",
+      "href": "/employee-experience/"
+     },
+     {
+      "title": "[ENTERPRISE]",
+      "href": "/enterprise/"
+     },
+     {
+      "title": "[MARKET RESEARCH]",
+      "href": "/market-research/"
+     },
+     {
+      "title": "[PATIENT EXPERIENCE]",
+      "href": "/patient-experience/"
+     },
+     {
+      "title": "[PRODUCT DEVELOPMENT]",
+      "href": "/product-development/"
+     },
+     {
+      "title": "[PRODUCT MANAGEMENT]",
+      "href": "/product-management/"
+     },
+     {
+      "title": "[RESEARCH MATURITY ASSESSMENT]",
+      "href": "/research-maturity-assessment/"
+     },
+     {
+      "title": "[RESEARCH METHODS]",
+      "href": "/research/"
+     },
+     {
+      "title": "[SURVEYS]",
+      "href": "/surveys/"
+     },
+     {
+      "title": "[USER EXPERIENCE (UX)]",
+      "href": "/ux/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.inline-band",
+   "variant": "light",
+   "content": {
+    "heading": "Turn customer feedback into product innovation",
+    "actions": [
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     },
+     {
+      "label": "Try Dovetail free",
+      "href": "/auth/signup/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "light",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "interactive.toc-sheet",
+   "variant": "default",
+   "content": {},
+   "motion": {
+    "pattern": "sheet.slide",
+    "reducedMotionFallback": "show-immediately"
+   },
+   "retrievalEligible": false
+  }
+ ]
+}

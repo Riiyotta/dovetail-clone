@@ -1,0 +1,194 @@
+{
+ "id": "event.description",
+ "title": "Event description",
+ "semantic": {
+  "id": "event.description",
+  "category": "EVENT"
+ },
+ "source": {
+  "id": "component:EventDetail:ev-content",
+  "file": "src/pages/events/EventDetail.jsx",
+  "tag": "div",
+  "lines": "82-94",
+  "tagLine": 82,
+  "anchor": "ev-content",
+  "anchorLine": 82
+ },
+ "purpose": "Event image and rich-text description (agenda, speakers).",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "body",
+    "heading",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 47,
+   "observedOn": [
+    "/events/a-balancing-act-mastering-customer-feedback/",
+    "/events/a-chat-with-jon-alferness/",
+    "/events/ai-powered-ux-process-how-ai-is-transforming-the-design-process/",
+    "/events/channels-by-dovetail-a-deep-dive-into-automating-your-feedback-workflows/",
+    "/events/config-watch-party-sydney/",
+    "/events/cursor-curated-sydney/",
+    "/events/data-driven-design-mastering-user-research/",
+    "/events/dig-deeper-level-up-your-a-b-testing-to-build-better-products/",
+    "/events/dovetail-for-designers-webinar/",
+    "/events/dovetail-for-product-managers-webinar/",
+    "/events/dovetail-for-researchers-webinar/",
+    "/events/forrester-cx-summit-north-america/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "body",
+   "heading",
+   "media"
+  ],
+  "fields": {
+   "body[].media.alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 3,
+    "assetAlt": true
+   },
+   "body[].text": {
+    "type": "text",
+    "maxWords": 60,
+    "maxChars": 399,
+    "observedIn": 46
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 10,
+    "maxChars": 60,
+    "observedIn": 3
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 3,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "media": [
+    1,
+    1
+   ],
+   "body": [
+    10,
+    23
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": [
+   "heading",
+   "image",
+   "list-item",
+   "paragraph"
+  ]
+ },
+ "assets": {
+  "fields": {
+   "body[].media": {
+    "type": "asset",
+    "referenceRoles": [
+     "product.screenshot",
+     "rating.badge"
+    ],
+    "generatedRoles": [
+     "product.generated-visual",
+     "rating.placeholder"
+    ]
+   },
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "product.screenshot",
+     "rating.badge"
+    ],
+    "generatedRoles": [
+     "product.generated-visual",
+     "rating.placeholder"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "product.generated-visual",
+  "rating.placeholder"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 47,
+   "nodes": 47,
+   "minPx": 374.3,
+   "maxPx": 2615.3,
+   "medianPx": 1263,
+   "sample": {
+    "/events/a-balancing-act-mastering-customer-feedback/": [
+     1354.3
+    ],
+    "/events/a-chat-with-jon-alferness/": [
+     2542.3
+    ],
+    "/events/ai-powered-ux-process-how-ai-is-transforming-the-design-process/": [
+     642.3
+    ],
+    "/events/channels-by-dovetail-a-deep-dive-into-automating-your-feedback-workflows/": [
+     1422.3
+    ],
+    "/events/config-watch-party-sydney/": [
+     2266.8
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/events/EventDetail.jsx:82-94",
+  "specs/event-detail.md:1-30"
+ ]
+}

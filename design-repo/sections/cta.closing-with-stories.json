@@ -1,0 +1,240 @@
+{
+ "id": "cta.closing-with-stories",
+ "title": "Closing CTA with related stories",
+ "semantic": {
+  "id": "cta.closing-with-stories",
+  "category": "CTA"
+ },
+ "source": {
+  "id": "component:BestNeverGuess:co-bng",
+  "file": "src/components/company/BestNeverGuess.jsx",
+  "tag": "section",
+  "lines": "23-35",
+  "tagLine": 23,
+  "anchor": "co-bng",
+  "anchorLine": 23
+ },
+ "purpose": "'The best never guess' H64 rotator, paragraph and buttons followed by related story cards.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "items",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 39,
+   "observedOn": [
+    "/customers/achievers/",
+    "/customers/atlassian-design/",
+    "/customers/atlassian/",
+    "/customers/aws/",
+    "/customers/bower/",
+    "/customers/breville/",
+    "/customers/canva-ai/",
+    "/customers/canva/",
+    "/customers/careship/",
+    "/customers/cnh/",
+    "/customers/eucalyptus/",
+    "/customers/flagship-airline-group/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions",
+   "heading",
+   "items",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 6
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 16,
+    "observedIn": 6
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 4,
+    "maxChars": 20,
+    "observedIn": 3
+   },
+   "items[].href": {
+    "type": "link",
+    "observedIn": 9
+   },
+   "items[].media.alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 9,
+    "assetAlt": true
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 27,
+    "observedIn": 3
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 45,
+    "maxChars": 295,
+    "observedIn": 9
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 12,
+    "maxChars": 79,
+    "observedIn": 3
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 48,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "actions": [
+    2,
+    2
+   ],
+   "items": [
+    3,
+    3
+   ],
+   "media": [
+    16,
+    16
+   ]
+  },
+  "itemRequiredFields": [
+   "href",
+   "media",
+   "title"
+  ],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "items[].media": {
+    "type": "asset",
+    "referenceRoles": [
+     "icon.source",
+     "photo.real-scene",
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "icon.generic",
+     "photo.generated-scene",
+     "product.generated-visual"
+    ]
+   },
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "customer.logo"
+    ],
+    "generatedRoles": [
+     "customer.placeholder-logo"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "customer.placeholder-logo",
+  "icon.generic",
+  "photo.generated-scene",
+  "product.generated-visual"
+ ],
+ "style": {
+  "props": {
+   "spaceBefore": {
+    "kind": "token",
+    "allowed": [
+     "space.section.s120"
+    ]
+   }
+  },
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "text.rotator",
+   "pixel.dissolve-hover"
+  ],
+  "requiredPatterns": [
+   "text.rotator"
+  ],
+  "reducedMotionFallback": {
+   "text.rotator": "unchanged",
+   "pixel.dissolve-hover": "unchanged"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 39,
+   "nodes": 39,
+   "minPx": 1161.8,
+   "maxPx": 1245.8,
+   "medianPx": 1189.8,
+   "sample": {
+    "/customers/achievers/": [
+     1161.8
+    ],
+    "/customers/atlassian-design/": [
+     1189.8
+    ],
+    "/customers/atlassian/": [
+     1189.8
+    ],
+    "/customers/aws/": [
+     1189.8
+    ],
+    "/customers/bower/": [
+     1189.8
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/components/company/BestNeverGuess.jsx:23-35",
+  "specs/customers-story.md:1-30"
+ ]
+}

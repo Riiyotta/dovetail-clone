@@ -1,0 +1,235 @@
+{
+ "url": "/ux-research-plan-template/",
+ "template": "template-landing",
+ "meta": {
+  "title": "UX research plan template",
+  "description": "A practical UX research plan template—objectives, research questions, methods, participants, and timeline—plus how to run the whole study in Dovetail."
+ },
+ "sections": [
+  {
+   "type": "hero",
+   "eyebrow": "UX research plan template",
+   "h1": "Start every study with a plan your team can get behind",
+   "intro": {
+    "placeholder": true,
+    "chars": 242
+   },
+   "ctas": [
+    {
+     "text": "Contact sales",
+     "href": "/contact-sales/"
+    },
+    {
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "newTab": true
+    }
+   ],
+   "image": {
+    "src": "/assets/tools/Projects.png",
+    "originalSrc": "/media/Projects.png",
+    "alt": "A research project in Dovetail showing data, highlights, and insights organized in one place",
+    "natural": "800x560"
+   }
+  },
+  {
+   "type": "logoMarquee",
+   "heading": "Connecting the world's leading teams to their customers",
+   "rows": [
+    [
+     {
+      "name": "Breville",
+      "src": "/assets/white-logo(3).svg",
+      "originalSrc": "/customers/breville/white-logo.svg",
+      "alt": "Breville",
+      "natural": "132x32"
+     },
+     {
+      "name": "Atlassian",
+      "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+      "originalSrc": "/customers/atlassian/white-logo.svg",
+      "alt": "Atlassian",
+      "natural": "160x20"
+     },
+     {
+      "name": "Notion",
+      "src": "/assets/marketing/customer-notion-white-logo.svg",
+      "originalSrc": "/customers/notion/white-logo.svg",
+      "alt": "Notion",
+      "natural": "160x72"
+     },
+     {
+      "name": "Okta",
+      "src": "/assets/white-logo(1).svg",
+      "originalSrc": "/customers/okta/white-logo.svg",
+      "alt": "Okta",
+      "natural": "160x72"
+     },
+     {
+      "name": "AWS",
+      "src": "/assets/marketing/customer-aws-white-logo.svg",
+      "originalSrc": "/customers/aws/white-logo.svg",
+      "alt": "AWS",
+      "natural": "160x72"
+     },
+     {
+      "name": "Toyota",
+      "src": "/assets/marketing/customer-toyota-white-logo.svg",
+      "originalSrc": "/customers/toyota/white-logo.svg",
+      "alt": "Toyota",
+      "natural": "160x72"
+     }
+    ],
+    [
+     {
+      "name": "Qantas",
+      "src": "/assets/marketing/customer-qantas-white-logo.svg",
+      "originalSrc": "/customers/qantas/white-logo.svg",
+      "alt": "Qantas",
+      "natural": "160x32"
+     },
+     {
+      "name": "NCRVoyix",
+      "src": "/assets/marketing/customer-ncrvoyix-white-logo.svg",
+      "originalSrc": "/customers/ncrvoyix/white-logo.svg",
+      "alt": "NCRVoyix",
+      "natural": "160x72"
+     },
+     {
+      "name": "ASML",
+      "src": "/assets/marketing/customer-asml-white-logo.svg",
+      "originalSrc": "/customers/asml/white-logo.svg",
+      "alt": "ASML",
+      "natural": "160x72"
+     },
+     {
+      "name": "Zapier",
+      "src": "/assets/marketing/customer-zapier-white-logo.svg",
+      "originalSrc": "/customers/zapier/white-logo.svg",
+      "alt": "Zapier",
+      "natural": "160x72"
+     }
+    ]
+   ],
+   "note": "Row 1 scrolls left-to-right (ltr), row 2 right-to-left (rtl) with left offset 120px; each row is rendered twice for the loop."
+  },
+  {
+   "type": "centeredIntro",
+   "eyebrow": "The template",
+   "h2": "What a UX research plan covers",
+   "p": {
+    "placeholder": true,
+    "chars": 493
+   }
+  },
+  {
+   "type": "split",
+   "imageSide": "right",
+   "eyebrow": "Objectives",
+   "h2": "Anchor the plan to a decision",
+   "p": {
+    "placeholder": true,
+    "chars": 471
+   },
+   "image": {
+    "src": "/assets/tools/create-and-share-insights-faster-with-insight-templates.png",
+    "originalSrc": "/media/create-and-share-insights-faster-with-insight-templates.png",
+    "alt": "Creating a structured insight from a template in Dovetail",
+    "natural": "5888x3080"
+   }
+  },
+  {
+   "type": "split",
+   "imageSide": "left",
+   "eyebrow": "Participants",
+   "h2": "Define who you need to hear from",
+   "p": {
+    "placeholder": true,
+    "chars": 405
+   },
+   "image": {
+    "src": "/assets/tools/ai-generated-recruit-plan.png",
+    "originalSrc": "/media/ai-generated-recruit-plan.png",
+    "alt": "An AI-generated participant recruitment plan in Dovetail",
+    "natural": "2048x1056"
+   }
+  },
+  {
+   "type": "split",
+   "imageSide": "right",
+   "eyebrow": "From plan to insights",
+   "h2": "Run the study where you’ll analyze it",
+   "p": {
+    "placeholder": true,
+    "chars": 328
+   },
+   "image": {
+    "src": "/assets/tools/analyze-projects.webp",
+    "originalSrc": "/media/analyze-projects.webp",
+    "alt": "AI analysis surfacing themes across research sessions in a Dovetail project",
+    "natural": "1232x872"
+   }
+  },
+  {
+   "type": "checklistGrid",
+   "h2": "Three things to nail before your first session",
+   "p": "Most studies that drift skipped one of these.",
+   "items": [
+    {
+     "title": "Objectives",
+     "text": "One or two decisions this research will inform—written down, agreed with stakeholders"
+    },
+    {
+     "title": "Research questions",
+     "text": "What you need to learn, phrased as questions evidence can answer—not interview questions"
+    },
+    {
+     "title": "Method and sample",
+     "text": "Interviews, usability tests, or surveys—and the screener criteria for who takes part"
+    }
+   ]
+  },
+  {
+   "type": "faq",
+   "heading": "FAQs",
+   "items": [
+    {
+     "question": "What should a UX research plan include?",
+     "answer": {
+      "placeholder": true,
+      "chars": 355
+     }
+    },
+    {
+     "question": "How long should a research plan be?",
+     "answer": {
+      "placeholder": true,
+      "chars": 217
+     }
+    },
+    {
+     "question": "What’s the difference between a research plan and a research brief?",
+     "answer": {
+      "placeholder": true,
+      "chars": 320
+     }
+    },
+    {
+     "question": "How do I write good research questions?",
+     "answer": {
+      "placeholder": true,
+      "chars": 322
+     }
+    },
+    {
+     "question": "Can I manage my research plan in Dovetail?",
+     "answer": {
+      "placeholder": true,
+      "chars": 352
+     }
+    }
+   ]
+  }
+ ],
+ "finalCta": false
+}

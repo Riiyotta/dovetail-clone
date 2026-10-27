@@ -1,0 +1,11 @@
+/* GridImageBackground — marketing-shared.md §7.7 (e1ms7w8v*) */
+.mk-gridbg { position: relative; pointer-events: none; margin: 0 auto; height: 100%; overflow-x: clip; }
+.mk-gridbg__layer { position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 100vw; height: auto; }
+/* sic: Y is 0%, so the image hangs from the vertical centre of its (zero-height) layer */
+.mk-gridbg__img { position: absolute; top: 50%; left: 50%; transform: translate(-50%, 0%); object-fit: cover; object-position: center;
+  width: var(--gb-w); height: var(--gb-h); max-width: none; }
+.mk-gridbg__content { display: flex; align-items: center; position: relative; height: var(--gb-h); z-index: 1; pointer-events: auto; }
+@media (max-width: 799px) {
+  .mk-gridbg__content { height: auto; }
+  .mk-gridbg__layer--hide-sm { display: none; }
+}

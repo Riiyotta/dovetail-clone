@@ -1,0 +1,188 @@
+{
+ "id": "interactive.prompt-cards",
+ "title": "Prompt cards",
+ "semantic": {
+  "id": "interactive.prompt-cards",
+  "category": "INTERACTIVE"
+ },
+ "source": {
+  "id": "component:ProductPromptCards:pd-prompts",
+  "file": "src/pages/product/ProductPromptCards.jsx",
+  "tag": "div",
+  "lines": "28-40",
+  "tagLine": 28,
+  "anchor": "pd-prompts",
+  "anchorLine": 28
+ },
+ "purpose": "Heading + sub over a grid of prompt cards that open a prompt modal.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "heading",
+    "lead"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 3,
+   "observedOn": [
+    "/product/ai-agents/",
+    "/product/ai-chat/",
+    "/product/digital-twins/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "heading",
+   "lead"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 7,
+    "maxChars": 33,
+    "observedIn": 2
+   },
+   "items[].media.alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 9,
+    "assetAlt": true
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 7,
+    "maxChars": 45,
+    "observedIn": 9
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 24,
+    "observedIn": 9
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 16,
+    "maxChars": 96,
+    "observedIn": 2
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 6,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "media": [
+    6,
+    6
+   ],
+   "items": [
+    9,
+    9
+   ]
+  },
+  "itemRequiredFields": [
+   "media",
+   "text",
+   "title"
+  ],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "items[].media": {
+    "type": "asset",
+    "referenceRoles": [
+     "illustration.brand"
+    ],
+    "generatedRoles": [
+     "illustration.generated"
+    ]
+   },
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "illustration.generated",
+  "product.generated-visual"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "hover.overlay",
+   "modal.fade-scale"
+  ],
+  "requiredPatterns": [
+   "hover.overlay"
+  ],
+  "reducedMotionFallback": {
+   "hover.overlay": "none-needed",
+   "modal.fade-scale": "show-immediately"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 3,
+   "nodes": 3,
+   "minPx": 1128,
+   "maxPx": 1592,
+   "medianPx": 1128,
+   "sample": {
+    "/product/ai-agents/": [
+     1128
+    ],
+    "/product/ai-chat/": [
+     1128
+    ],
+    "/product/digital-twins/": [
+     1592
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/product/ProductPromptCards.jsx:28-40",
+  "specs/product.md:1-40"
+ ]
+}

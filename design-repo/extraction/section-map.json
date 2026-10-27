@@ -1,0 +1,2201 @@
+{
+ "note": "measurement rules per template for extraction/measure_sections.mjs (rendered-DOM selectors are evidence tooling only; no contract field depends on them). Rule kinds: sel (each match = node), union (all matches = one node), split (chapters bounded by headings), groups (children separated by spacer children), years (listing rows grouped by year), virtual (overlay without page height).",
+ "templates": {
+  "T0": {
+   "name": "home",
+   "rules": [
+    {
+     "s": "hero.home",
+     "sel": "main > div.hero"
+    },
+    {
+     "s": "features.topic-tabs",
+     "sel": "main > section.topics-section",
+     "vmap": [
+      [
+       ".prompt-section",
+       "prompt"
+      ]
+     ],
+     "v": "context",
+     "items": "[role=tab]"
+    },
+    {
+     "s": "features.data-diagram",
+     "sel": "main > section.raw-data"
+    },
+    {
+     "s": "features.sticky-loop",
+     "sel": "main > section.loop-section",
+     "items": ".loop-track h3"
+    },
+    {
+     "s": "features.govern-grid",
+     "sel": "main > section.govern-section",
+     "items": "h3"
+    },
+    {
+     "s": "social-proof.story-marquee",
+     "sel": "main > section.stories"
+    },
+    {
+     "s": "cta.final-cta",
+     "sel": "section.fcta",
+     "vmap": [
+      [
+       ".fcta--light",
+       "light"
+      ]
+     ],
+     "v": "dark"
+    },
+    {
+     "s": "cta.twins-modal",
+     "virtual": "#root"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T1": {
+   "name": "product",
+   "rules": [
+    {
+     "s": "hero.product",
+     "sel": "main > div.pd-hero",
+     "vmap": [
+      [
+       ".pd-hero__right--no-card",
+       "media"
+      ]
+     ],
+     "v": "video-card"
+    },
+    {
+     "s": "social-proof.logo-marquee",
+     "sel": "main > div.pd-logos",
+     "vmap": [
+      [
+       ".pd-ratings",
+       "with-ratings"
+      ]
+     ],
+     "v": "single-row"
+    },
+    {
+     "s": "content.statement",
+     "sel": "main > section.pd-statement",
+     "opt": true
+    },
+    {
+     "s": "content.scroll-video",
+     "sel": "main > div.pd-svideo",
+     "opt": true
+    },
+    {
+     "s": "social-proof.product-quote",
+     "sel": "main > div.pd-dt-quote, main > div.mk-pquote",
+     "opt": true
+    },
+    {
+     "s": "features.sticky-features",
+     "sel": "main > section.pd-feat",
+     "items": ".pd-feat__item"
+    },
+    {
+     "s": "features.voice-mode",
+     "sel": "main > section.pd-voice",
+     "opt": true
+    },
+    {
+     "s": "interactive.prompt-cards",
+     "sel": "main > div.pd-prompts",
+     "opt": true,
+     "items": ".pd-cell"
+    },
+    {
+     "s": "features.audience-rows",
+     "sel": "main > div.pd-for",
+     "opt": true,
+     "items": ".pd-for__row"
+    },
+    {
+     "s": "features.card-carousel",
+     "sel": "main .pd-car",
+     "items": ".pd-car__card"
+    },
+    {
+     "s": "features.findings-grid",
+     "sel": "main .pd-find",
+     "opt": true
+    },
+    {
+     "s": "social-proof.customer-stories",
+     "sel": "main > div.mk-stories, main > section.cu-band",
+     "v": "video-band",
+     "items": ".mk-stories__story, .cu-slides > *"
+    },
+    {
+     "s": "interactive.faq",
+     "sel": "main .mk-faq",
+     "v": "marketing",
+     "items": ".mk-faq__item"
+    },
+    {
+     "s": "cta.final-cta",
+     "sel": "section.fcta",
+     "vmap": [
+      [
+       ".fcta--light",
+       "light"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "accent",
+     "none"
+    ],
+    "nav": [
+     "accent"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T2": {
+   "name": "roles",
+   "rules": [
+    {
+     "s": "hero.role",
+     "sel": "main > div.rh"
+    },
+    {
+     "s": "content.manifesto",
+     "sel": "main > div.mk-container:has(.ch__grid)"
+    },
+    {
+     "s": "features.benefit-cards",
+     "union": [
+      "main > div.mk-grid:has(> .hh__col)",
+      "main > div.mk-container:has(.hh__grid)"
+     ],
+     "items": ".hh__card"
+    },
+    {
+     "s": "features.numbered-steps",
+     "sel": "main > div.mk-grid:has(.pr__list)",
+     "opt": true,
+     "items": ".pr__step"
+    },
+    {
+     "s": "features.integrations-list",
+     "sel": "main > div.in__grid",
+     "items": ".in__list > li"
+    },
+    {
+     "s": "interactive.use-case-tabs",
+     "sel": "main > div:has(.uc__card):not([class])",
+     "items": ".uc__card"
+    },
+    {
+     "s": "social-proof.testimonial",
+     "sel": "main > div.mk-testi, main > div.t-testi, main > div.ltesti",
+     "v": "featured"
+    },
+    {
+     "s": "social-proof.story-cards",
+     "sel": "main > div.mk-container:has(.sc__card)",
+     "items": ".sc__card"
+    },
+    {
+     "s": "cta.quiz-promo",
+     "sel": "main > section.qp",
+     "opt": true
+    },
+    {
+     "s": "interactive.faq",
+     "sel": "main .mk-faq",
+     "v": "marketing",
+     "items": ".mk-faq__item"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T3": {
+   "name": "solutions",
+   "rules": [
+    {
+     "s": "hero.solution",
+     "sel": "main > div.sh"
+    },
+    {
+     "s": "social-proof.logo-marquee",
+     "sel": "main .mk-clogo",
+     "v": "two-row"
+    },
+    {
+     "s": "features.alternating-row",
+     "sel": "main > section.ss",
+     "vmap": [
+      [
+       ".ss__center",
+       "centered"
+      ],
+      [
+       ".ss__text--right",
+       "media-left"
+      ]
+     ],
+     "v": "media-right"
+    },
+    {
+     "s": "features.channel-grid",
+     "sel": "main > div.mk-grid:has(.sf__intro)",
+     "opt": true
+    },
+    {
+     "s": "social-proof.testimonial",
+     "sel": "main > div.mk-testi, main > div.t-testi, main > div.ltesti",
+     "v": "featured",
+     "opt": true
+    },
+    {
+     "s": "cta.trial-band",
+     "sel": "main > div#trial-cta, main > section.cmp-trial",
+     "v": "solutions"
+    },
+    {
+     "s": "interactive.faq",
+     "sel": "main .mk-faq",
+     "v": "marketing",
+     "items": ".mk-faq__item"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "cta-band"
+    ]
+   }
+  },
+  "T4": {
+   "name": "enterprise",
+   "rules": [
+    {
+     "s": "hero.split-media",
+     "sel": "main > div.mk-slicegrid:has(.en-hero__text)",
+     "v": "enterprise"
+    },
+    {
+     "s": "social-proof.logo-marquee",
+     "sel": "main .mk-clogo",
+     "v": "two-row"
+    },
+    {
+     "s": "interactive.vertical-tabs",
+     "sel": "main > div.mk-container:has(.en-vt__grid)"
+    },
+    {
+     "s": "features.roi-map",
+     "sel": "main > section.en-roi"
+    },
+    {
+     "s": "features.integrations-grid",
+     "sel": "main > div.co-sbg:has(.en-int__inner)"
+    },
+    {
+     "s": "social-proof.testimonial",
+     "sel": "main > div.mk-testi, main > div.t-testi, main > div.ltesti",
+     "v": "featured"
+    },
+    {
+     "s": "features.security-compliance",
+     "sel": "main .co-security"
+    },
+    {
+     "s": "social-proof.customer-stories",
+     "sel": "main > div.mk-stories, main > section.cu-band",
+     "v": "video-band",
+     "items": ".mk-stories__story, .cu-slides > *"
+    },
+    {
+     "s": "listing.resource-cards",
+     "sel": "main .en-res"
+    },
+    {
+     "s": "cta.final-cta",
+     "sel": "section.fcta",
+     "vmap": [
+      [
+       ".fcta--light",
+       "light"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T5": {
+   "name": "pricing",
+   "rules": [
+    {
+     "s": "hero.pricing",
+     "sel": "main > div.pr-hero"
+    },
+    {
+     "s": "pricing.plan-cards",
+     "sel": "main > div.pr-cards"
+    },
+    {
+     "s": "social-proof.logo-marquee",
+     "sel": "main .mk-clogo",
+     "v": "two-row"
+    },
+    {
+     "s": "pricing.comparison-group",
+     "sel": "main .pr-table .pr-anchor"
+    },
+    {
+     "s": "pricing.sticky-plan-bar",
+     "virtual": "main .pr-sticky"
+    },
+    {
+     "s": "interactive.faq",
+     "sel": "main .mk-faq",
+     "v": "marketing",
+     "items": ".mk-faq__item"
+    },
+    {
+     "s": "cta.final-cta",
+     "sel": "section.fcta",
+     "vmap": [
+      [
+       ".fcta--light",
+       "light"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T6": {
+   "name": "deploy",
+   "rules": [
+    {
+     "s": "hero.split-media",
+     "sel": "main > div.mk-slicegrid:has(.en-hero__text)",
+     "v": "deploy"
+    },
+    {
+     "s": "social-proof.logo-marquee",
+     "sel": "main .mk-clogo",
+     "v": "two-row"
+    },
+    {
+     "s": "content.statement",
+     "sel": "main > div.mk-container:has(.dp-intro)",
+     "v": "compact"
+    },
+    {
+     "s": "content.section-intro",
+     "sel": "main > div.mk-container:has(.dp-problems-head)"
+    },
+    {
+     "s": "features.alternating-row",
+     "sel": "main > div.dp-problem",
+     "vmap": [
+      [
+       ".dp-problem--odd",
+       "media-left"
+      ]
+     ],
+     "v": "media-right"
+    },
+    {
+     "s": "features.icon-grid",
+     "union": [
+      "main > div.mk-slicegrid:has(.dp-why__head)",
+      "main > div.mk-slicegrid:has(.dp-why__item)"
+     ],
+     "items": ".dp-why__item"
+    },
+    {
+     "s": "features.security-compliance",
+     "sel": "main .co-security"
+    },
+    {
+     "s": "conversion.lead-form",
+     "sel": "main > div#book-a-call",
+     "v": "scoping-call"
+    },
+    {
+     "s": "interactive.faq",
+     "sel": "main .mk-faq",
+     "v": "marketing",
+     "items": ".mk-faq__item"
+    },
+    {
+     "s": "cta.closing-band",
+     "sel": "main > div.mk-slicegrid:has(.dp-cta)"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T7": {
+   "name": "demo-form",
+   "rules": [
+    {
+     "s": "conversion.lead-form",
+     "sel": "main > section.t-grid:has(.df-form)",
+     "v": "demo"
+    },
+    {
+     "s": "social-proof.logo-marquee",
+     "sel": "main > div.t-logos, main section.rr-logos",
+     "v": "two-row"
+    },
+    {
+     "s": "social-proof.tei-card",
+     "sel": "main > section.t-grid:has(.df-stats)",
+     "v": "stats"
+    },
+    {
+     "s": "features.icon-grid",
+     "union": [
+      "main > section.t-grid:has(.df-feat__head)",
+      "main > section.t-grid:has(.df-feat)"
+     ],
+     "items": ".df-feat"
+    },
+    {
+     "s": "social-proof.testimonial",
+     "sel": "main > div.mk-testi, main > div.t-testi, main > div.ltesti",
+     "v": "featured"
+    },
+    {
+     "s": "cta.final-cta",
+     "sel": "section.fcta",
+     "vmap": [
+      [
+       ".fcta--light",
+       "light"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T8": {
+   "name": "comparison-landing",
+   "rules": [
+    {
+     "s": "hero.comparison",
+     "sel": "main > section.lgrid:has(.cmp-hero)"
+    },
+    {
+     "s": "content.full-bleed-image",
+     "sel": "main > img.cmp-hero-img"
+    },
+    {
+     "s": "social-proof.logo-marquee",
+     "sel": "main > div.llogos",
+     "v": "single-row"
+    },
+    {
+     "s": "content.split-intro",
+     "sel": "main > section.cmp-split:not(:has(.cmp-story__stats))"
+    },
+    {
+     "s": "social-proof.tei-card",
+     "sel": "main > section.lgrid:has(.cmp-tei)",
+     "v": "banner"
+    },
+    {
+     "s": "social-proof.testimonial",
+     "sel": "main > div.mk-testi, main > div.t-testi, main > div.ltesti",
+     "v": "featured",
+     "opt": true
+    },
+    {
+     "s": "features.choose-grid",
+     "sel": "main > section.lgrid:has(.cmp-choose__h2)"
+    },
+    {
+     "s": "comparison.intro",
+     "sel": "main > section.lgrid:has(.cmp-cintro__h2)"
+    },
+    {
+     "s": "comparison.table",
+     "sel": "main > section.lgrid:has(.cmp-table)",
+     "items": ".cmp-table__row",
+     "itemTitle": ".cmp-table__label, .cmp-table__hcell",
+     "itemText": ".cmp-table__val"
+    },
+    {
+     "s": "social-proof.awards-marquee",
+     "sel": "main > div.lcont:has(.lawards)",
+     "items": ".lawards__item"
+    },
+    {
+     "s": "social-proof.story-highlight",
+     "sel": "main > section.cmp-split:has(.cmp-story__stats)",
+     "opt": true
+    },
+    {
+     "s": "cta.migrate-band",
+     "sel": "main > section.lgrid:has(.cmp-migrate__head)"
+    },
+    {
+     "s": "cta.trial-band",
+     "sel": "main > section.cmp-trial",
+     "v": "comparison"
+    },
+    {
+     "s": "interactive.faq",
+     "sel": "main .lfaq",
+     "v": "tools",
+     "items": ".lfaq__item"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T9": {
+   "name": "template-landing",
+   "rules": [
+    {
+     "s": "hero.template",
+     "sel": "main > div.tl-hero"
+    },
+    {
+     "s": "social-proof.logo-marquee",
+     "sel": "main > div.t-logos, main section.rr-logos",
+     "v": "two-row"
+    },
+    {
+     "s": "content.section-intro",
+     "sel": "main > section.tl-sect:has(.tl-ci)",
+     "v": "centered"
+    },
+    {
+     "s": "features.alternating-row",
+     "sel": "main > section.tl-sect:has(.tl-split__text)",
+     "vmap": [
+      [
+       ".tl-split__img--l",
+       "media-left"
+      ]
+     ],
+     "v": "media-right"
+    },
+    {
+     "s": "features.checklist-grid",
+     "sel": "main > section.t-grid:has(.tl-cl__grid)",
+     "items": ".tl-cl__item"
+    },
+    {
+     "s": "interactive.faq",
+     "sel": "main > section.t-grid:has(.t-faq__left)",
+     "v": "tools",
+     "items": ".t-faq__btn"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T10": {
+   "name": "roi-calculator",
+   "rules": [
+    {
+     "s": "hero.tool",
+     "sel": "main > section.t-container:has(.roi-h1)"
+    },
+    {
+     "s": "interactive.roi-calculator",
+     "sel": "main > section.t-grid:has(.roi-left)"
+    },
+    {
+     "s": "conversion.report-download",
+     "sel": "main > section.t-grid:has(.roi-dl)"
+    },
+    {
+     "s": "cta.inline-band",
+     "sel": "section.inline-cta, section.co-pagecta, section.t-grid:has(> .t-ctaf__col), main section.cl-grid:has(> .cl-cta)",
+     "vmap": [
+      [
+       ".inline-cta--light, .co-pagecta--light",
+       "light"
+      ],
+      [
+       ".t-ctaf__col",
+       "compact"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T11": {
+   "name": "quiz-hub",
+   "rules": [
+    {
+     "s": "hero.quiz-hub",
+     "sel": "main > section.qh",
+     "items": ".qh-card"
+    },
+    {
+     "s": "cta.inline-band",
+     "sel": "section.inline-cta, section.co-pagecta, section.t-grid:has(> .t-ctaf__col), main section.cl-grid:has(> .cl-cta)",
+     "vmap": [
+      [
+       ".inline-cta--light, .co-pagecta--light",
+       "light"
+      ],
+      [
+       ".t-ctaf__col",
+       "compact"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T12": {
+   "name": "role-quiz",
+   "rules": [
+    {
+     "s": "interactive.role-quiz",
+     "sel": "main > section.qz"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T13": {
+   "name": "campaign-best-never-guess",
+   "rules": [
+    {
+     "s": "shell.campaign-nav",
+     "sel": "main > nav.bng-nav"
+    },
+    {
+     "s": "hero.campaign",
+     "sel": "main > section.bh"
+    },
+    {
+     "s": "content.campaign-text",
+     "sel": "main > section.bng-text"
+    },
+    {
+     "s": "social-proof.testimonial",
+     "sel": "main > section.bng-quote",
+     "v": "campaign"
+    },
+    {
+     "s": "social-proof.story-grid",
+     "sel": "main > div.bng-stories",
+     "items": "a"
+    },
+    {
+     "s": "social-proof.team-proof",
+     "sel": "main > section.bng-team"
+    },
+    {
+     "s": "conversion.trial-signup",
+     "sel": "main > section.bng-formslice"
+    },
+    {
+     "s": "shell.campaign-footer",
+     "sel": "main > footer.bng-footer",
+     "v": "campaign"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "none"
+    ],
+    "nav": [
+     "none"
+    ],
+    "footer": [
+     "none"
+    ]
+   }
+  },
+  "T14": {
+   "name": "campaign-launch",
+   "rules": [
+    {
+     "s": "shell.section-nav",
+     "virtual": "main > nav.lx-secnav"
+    },
+    {
+     "s": "hero.launch",
+     "sel": "main > div.lx-hero"
+    },
+    {
+     "s": "content.launch-recap",
+     "sel": "main > div.lx-shipped"
+    },
+    {
+     "s": "features.launch-feature",
+     "sel": "main > section.lx-anchor",
+     "vmap": [
+      [
+       ".lx-titleblock",
+       "title-block"
+      ],
+      [
+       ".lx-twins__head",
+       "people"
+      ],
+      [
+       ".lx-oneway__title",
+       "bullets"
+      ]
+     ],
+     "v": "split"
+    },
+    {
+     "s": "cta.launch-closing",
+     "sel": "main > section.lx-cta"
+    },
+    {
+     "s": "shell.campaign-footer",
+     "sel": "main > footer.lx-footer",
+     "v": "launch"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "none"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "none"
+    ]
+   }
+  },
+  "T15": {
+   "name": "campaign-event",
+   "rules": [
+    {
+     "s": "shell.campaign-nav",
+     "sel": "main > nav.aw-nav"
+    },
+    {
+     "s": "hero.campaign",
+     "sel": "main > section.aw-hero"
+    },
+    {
+     "s": "content.campaign-text",
+     "sel": "main > div.aw-text"
+    },
+    {
+     "s": "social-proof.testimonial",
+     "sel": "main > div.aw-quote",
+     "v": "campaign"
+    },
+    {
+     "s": "social-proof.story-grid",
+     "sel": "main > section.aw-stories",
+     "items": ".aw-stories__cell"
+    },
+    {
+     "s": "social-proof.team-proof",
+     "sel": "main > div.aw-team"
+    },
+    {
+     "s": "conversion.trial-signup",
+     "sel": "main > div.aw-formslice"
+    },
+    {
+     "s": "company.careers-callout",
+     "sel": "main .aw-careers__sec"
+    },
+    {
+     "s": "shell.campaign-footer",
+     "sel": "main footer.aw-footer",
+     "v": "campaign"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "none"
+    ],
+    "nav": [
+     "none"
+    ],
+    "footer": [
+     "none"
+    ]
+   }
+  },
+  "T16": {
+   "name": "blog-index",
+   "rules": [
+    {
+     "s": "listing.featured-header",
+     "sel": "main > section.blog-grid--index",
+     "items": ".blog-card--featured"
+    },
+    {
+     "s": "listing.card-grid",
+     "sel": "main > div.blog-index__grid-wrap",
+     "v": "blog",
+     "items": ".blog-index__cell .blog-card"
+    },
+    {
+     "s": "cta.final-cta",
+     "sel": "section.fcta",
+     "vmap": [
+      [
+       ".fcta--light",
+       "light"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T17": {
+   "name": "blog-post",
+   "rules": [
+    {
+     "s": "article.header",
+     "sel": "main > section.blog-grid:has(.blog-post__title-cell)",
+     "v": "dark-media"
+    },
+    {
+     "s": "article.lede",
+     "sel": "main .blog-post__lede-cell"
+    },
+    {
+     "s": "cta.sidebar-card",
+     "sel": "main .blog-post__sticky-card",
+     "aside": true,
+     "asideOf": "article.chapter"
+    },
+    {
+     "s": "article.chapter",
+     "split": {
+      "in": "main .blog-post__content-cell",
+      "at": "h2, h3"
+     },
+     "prose": true,
+     "v": "dark"
+    },
+    {
+     "s": "listing.related-articles",
+     "sel": "main .blog-post__related-cell",
+     "v": "cards",
+     "items": ".blog-card"
+    },
+    {
+     "s": "cta.final-cta",
+     "sel": "section.fcta",
+     "vmap": [
+      [
+       ".fcta--light",
+       "light"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T18": {
+   "name": "changelog-index",
+   "rules": [
+    {
+     "s": "listing.page-header",
+     "sel": "main > div.cl-hero",
+     "v": "changelog"
+    },
+    {
+     "s": "listing.year-group",
+     "years": {
+      "rows": "main section.cl-grid .cl-cell-full > div:has(> a.cl-row)",
+      "date": ".cl-row__meta"
+     },
+     "items": "a.cl-row"
+    },
+    {
+     "s": "cta.inline-band",
+     "sel": "main section.cl-grid:has(> .cl-cta)",
+     "vmap": [
+      [
+       ".inline-cta--light, .co-pagecta--light",
+       "light"
+      ],
+      [
+       ".t-ctaf__col",
+       "compact"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T19": {
+   "name": "changelog-entry",
+   "rules": [
+    {
+     "s": "article.header",
+     "union": [
+      "main .cl-entry__back-cell",
+      "main .cl-entry__dateline",
+      "main h1.cl-entry__title"
+     ],
+     "v": "compact"
+    },
+    {
+     "s": "article.hero-media",
+     "sel": "main img.cl-entry__hero, main video.cl-entry__hero",
+     "opt": true
+    },
+    {
+     "s": "article.chapter",
+     "split": {
+      "in": "main .cl-rich",
+      "at": ":scope > h2"
+     },
+     "prose": true,
+     "v": "dark"
+    },
+    {
+     "s": "cta.entry-actions",
+     "sel": "main .cl-entry__actions",
+     "opt": true
+    },
+    {
+     "s": "listing.prev-next",
+     "sel": "main .cl-pn",
+     "opt": true
+    },
+    {
+     "s": "cta.final-cta",
+     "sel": "section.fcta",
+     "vmap": [
+      [
+       ".fcta--light",
+       "light"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T20": {
+   "name": "guide-hub",
+   "rules": [
+    {
+     "s": "article.header",
+     "sel": "main > div.ctitle",
+     "v": "light"
+    },
+    {
+     "s": "article.byline",
+     "sel": "main .ga__meta",
+     "aside": true,
+     "asideOf": "article.chapter"
+    },
+    {
+     "s": "cta.sidebar-card",
+     "sel": "main .ga__desktop .ga-promo",
+     "aside": true,
+     "asideOf": "article.chapter",
+     "opt": true
+    },
+    {
+     "s": "article.contents-nav",
+     "union": [
+      "main .ga__desktop .ga__contents-h",
+      "main .ga__desktop ul.toc"
+     ],
+     "aside": true,
+     "asideOf": "article.chapter",
+     "opt": true
+    },
+    {
+     "s": "article.chapter",
+     "split": {
+      "in": "main .ga__content > .rt",
+      "at": ":scope > h2, :scope > h3"
+     },
+     "prose": true,
+     "v": "light"
+    },
+    {
+     "s": "article.related-topics",
+     "sel": "main .ga__content > div:has(> .tags)",
+     "opt": true,
+     "items": ".tags a, .tags button"
+    },
+    {
+     "s": "listing.article-carousel",
+     "sel": "main section.cplain .ccar",
+     "headingFromPrev": "h2.ccar__h",
+     "items": ".ccar a",
+     "opt": false
+    },
+    {
+     "s": "interactive.toc-sheet",
+     "virtual": "main div.csheet"
+    },
+    {
+     "s": "cta.inline-band",
+     "sel": "section.inline-cta",
+     "vmap": [
+      [
+       ".inline-cta--light, .co-pagecta--light",
+       "light"
+      ],
+      [
+       ".t-ctaf__col",
+       "compact"
+      ]
+     ],
+     "v": "dark"
+    },
+    {
+     "s": "listing.az-index",
+     "sel": "nav.ga-index",
+     "afterFooter": true,
+     "items": "li"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "light"
+    ],
+    "nav": [
+     "light"
+    ],
+    "footer": [
+     "light"
+    ]
+   }
+  },
+  "T21": {
+   "name": "editorial-article",
+   "rules": [
+    {
+     "s": "article.header",
+     "sel": "main > div.ctitle",
+     "v": "light"
+    },
+    {
+     "s": "article.byline",
+     "sel": "main .ga__meta",
+     "aside": true,
+     "asideOf": "article.chapter"
+    },
+    {
+     "s": "cta.sidebar-card",
+     "sel": "main .ga__desktop .ga-promo",
+     "aside": true,
+     "asideOf": "article.chapter",
+     "opt": true
+    },
+    {
+     "s": "article.contents-nav",
+     "union": [
+      "main .ga__desktop .ga__contents-h",
+      "main .ga__desktop ul.toc"
+     ],
+     "aside": true,
+     "asideOf": "article.chapter",
+     "opt": true
+    },
+    {
+     "s": "article.chapter",
+     "split": {
+      "in": "main .ga__content > .rt",
+      "at": ":scope > h2, :scope > h3"
+     },
+     "prose": true,
+     "v": "light"
+    },
+    {
+     "s": "article.related-topics",
+     "sel": "main .ga__content > div:has(> .tags)",
+     "opt": true,
+     "items": ".tags a, .tags button"
+    },
+    {
+     "s": "listing.article-carousel",
+     "sel": "main section.cplain .ccar",
+     "headingFromPrev": "h2.ccar__h",
+     "items": ".ccar a",
+     "opt": true
+    },
+    {
+     "s": "interactive.toc-sheet",
+     "virtual": "main div.csheet"
+    },
+    {
+     "s": "cta.inline-band",
+     "sel": "section.inline-cta",
+     "vmap": [
+      [
+       ".inline-cta--light, .co-pagecta--light",
+       "light"
+      ],
+      [
+       ".t-ctaf__col",
+       "compact"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "light",
+     "default"
+    ],
+    "nav": [
+     "light"
+    ],
+    "footer": [
+     "light"
+    ]
+   }
+  },
+  "T22": {
+   "name": "comparison-article",
+   "rules": [
+    {
+     "s": "article.header",
+     "sel": "main > div.ctitle",
+     "v": "light"
+    },
+    {
+     "s": "article.byline",
+     "sel": "main .ga__meta",
+     "aside": true,
+     "asideOf": "article.chapter"
+    },
+    {
+     "s": "cta.sidebar-card",
+     "sel": "main .ga__desktop .ga-promo",
+     "aside": true,
+     "asideOf": "article.chapter",
+     "opt": true
+    },
+    {
+     "s": "article.contents-nav",
+     "union": [
+      "main .ga__desktop .ga__contents-h",
+      "main .ga__desktop ul.toc"
+     ],
+     "aside": true,
+     "asideOf": "article.chapter",
+     "opt": true
+    },
+    {
+     "s": "article.chapter",
+     "split": {
+      "in": "main .ga__content > .rt",
+      "at": ":scope > h2, :scope > h3"
+     },
+     "prose": true,
+     "v": "light"
+    },
+    {
+     "s": "article.related-topics",
+     "sel": "main .ga__content > div:has(> .tags)",
+     "opt": true,
+     "items": ".tags a, .tags button"
+    },
+    {
+     "s": "listing.related-articles",
+     "sel": "main > section.co-container:has(.rg-related), main > section.co-container:has(h2)",
+     "v": "text-links",
+     "opt": true,
+     "items": "a"
+    },
+    {
+     "s": "interactive.toc-sheet",
+     "virtual": "main div.csheet"
+    },
+    {
+     "s": "cta.inline-band",
+     "sel": "section.inline-cta, section.co-pagecta",
+     "vmap": [
+      [
+       ".inline-cta--light, .co-pagecta--light",
+       "light"
+      ],
+      [
+       ".t-ctaf__col",
+       "compact"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "light",
+     "default"
+    ],
+    "nav": [
+     "light"
+    ],
+    "footer": [
+     "light"
+    ]
+   }
+  },
+  "T23": {
+   "name": "guides-index",
+   "rules": [
+    {
+     "s": "listing.page-header",
+     "sel": "main > section.container:has(.gi__h1)",
+     "v": "intro-actions"
+    },
+    {
+     "s": "social-proof.tei-card",
+     "sel": "main > div.container:has(.gi-tei)",
+     "v": "banner"
+    },
+    {
+     "s": "listing.topic-links",
+     "sel": "main > section.cgrid:has(.gi-topics)",
+     "items": ".gi-topic"
+    },
+    {
+     "s": "cta.final-cta",
+     "sel": "section.fcta",
+     "vmap": [
+      [
+       ".fcta--light",
+       "light"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T24": {
+   "name": "contributors-index",
+   "rules": [
+    {
+     "s": "listing.page-header",
+     "sel": "main > div.ctitle",
+     "v": "light"
+    },
+    {
+     "s": "listing.people-rows",
+     "split": {
+      "in": "main > section.container",
+      "at": ":scope > h2.ct__group-h"
+     },
+     "items": ".ct-row"
+    },
+    {
+     "s": "content.editorial-process",
+     "sel": "main > div.ebox"
+    },
+    {
+     "s": "cta.final-cta",
+     "sel": "section.fcta",
+     "vmap": [
+      [
+       ".fcta--light",
+       "light"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "light"
+    ],
+    "nav": [
+     "light"
+    ],
+    "footer": [
+     "light"
+    ]
+   }
+  },
+  "T25": {
+   "name": "contributor-profile",
+   "rules": [
+    {
+     "s": "content.profile-header",
+     "sel": "main > div.ctitle"
+    },
+    {
+     "s": "content.skills-tags",
+     "sel": "main > section.container:has(.ct__skills)",
+     "opt": true,
+     "items": ".tags__link"
+    },
+    {
+     "s": "content.editorial-process",
+     "sel": "main > div.ebox"
+    },
+    {
+     "s": "listing.article-list",
+     "sel": "main > section.cgrid--rg64",
+     "items": ".c-keep"
+    },
+    {
+     "s": "cta.final-cta",
+     "sel": "section.fcta",
+     "vmap": [
+      [
+       ".fcta--light",
+       "light"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "light"
+    ],
+    "nav": [
+     "light"
+    ],
+    "footer": [
+     "light"
+    ]
+   }
+  },
+  "T26": {
+   "name": "customers-index",
+   "rules": [
+    {
+     "s": "hero.typewriter",
+     "sel": "main > section.cu-hero"
+    },
+    {
+     "s": "listing.story-grid",
+     "sel": "main > section.co-container:has(.cu-grid)",
+     "items": ".co-story"
+    },
+    {
+     "s": "social-proof.logo-wall",
+     "sel": "main > section.cu-logos",
+     "items": ".cu-logos__cell"
+    },
+    {
+     "s": "social-proof.customer-stories",
+     "sel": "main > div.mk-stories, main > section.cu-band",
+     "v": "video-band",
+     "items": ".mk-stories__story, .cu-slides > *"
+    },
+    {
+     "s": "social-proof.ratings",
+     "sel": "main > section.cu-ratings"
+    },
+    {
+     "s": "social-proof.testimonial-wall",
+     "sel": "main > section.cu-wall",
+     "items": ".cu-wall__item"
+    },
+    {
+     "s": "cta.final-cta",
+     "sel": "section.fcta",
+     "vmap": [
+      [
+       ".fcta--light",
+       "light"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T27": {
+   "name": "customer-story",
+   "rules": [
+    {
+     "s": "hero.story",
+     "sel": "main > section.cs-hero",
+     "vmap": [
+      [
+       ".cs-hero__video, .co-video",
+       "video"
+      ]
+     ],
+     "v": "image"
+    },
+    {
+     "s": "article.story-facts",
+     "sel": "main .cs-body > .cs-rail",
+     "aside": true,
+     "asideOf": "article.story-chapter",
+     "opt": true
+    },
+    {
+     "s": "article.story-chapter",
+     "groups": {
+      "in": "main .cs-body",
+      "child": ":scope > .cs-block",
+      "sep": ":scope > .co-sp"
+     },
+     "prose": true
+    },
+    {
+     "s": "cta.closing-with-stories",
+     "sel": "main > section.co-bng",
+     "items": ".co-story"
+    },
+    {
+     "s": "interactive.faq",
+     "sel": "main section.co-faq",
+     "v": "company",
+     "items": ".co-faq__q",
+     "opt": true
+    },
+    {
+     "s": "cta.final-cta",
+     "sel": "section.fcta",
+     "vmap": [
+      [
+       ".fcta--light",
+       "light"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "accent"
+    ],
+    "nav": [
+     "accent"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T28": {
+   "name": "events-index",
+   "rules": [
+    {
+     "s": "hero.dot-title",
+     "sel": "main > div.ev-hero"
+    },
+    {
+     "s": "listing.event-cards",
+     "sel": "main > section.co-grid:has(.co-event)",
+     "items": ".co-event"
+    },
+    {
+     "s": "listing.row-list",
+     "sel": "main > section.co-container:has(.ev-rows)",
+     "v": "past-events",
+     "items": ".co-row"
+    },
+    {
+     "s": "cta.inline-band",
+     "sel": "section.inline-cta, section.co-pagecta, section.t-grid:has(> .t-ctaf__col), main section.cl-grid:has(> .cl-cta)",
+     "vmap": [
+      [
+       ".inline-cta--light, .co-pagecta--light",
+       "light"
+      ],
+      [
+       ".t-ctaf__col",
+       "compact"
+      ]
+     ],
+     "v": "dark",
+     "opt": true
+    },
+    {
+     "s": "cta.final-cta",
+     "sel": "section.fcta",
+     "vmap": [
+      [
+       ".fcta--light",
+       "light"
+      ]
+     ],
+     "v": "dark",
+     "opt": true
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T29": {
+   "name": "event-detail",
+   "rules": [
+    {
+     "s": "event.header",
+     "sel": "main .ev-head"
+    },
+    {
+     "s": "event.details-sidebar",
+     "sel": "main aside.ev-sidebar .ev-sidebar__box",
+     "aside": true,
+     "asideOf": "event.description"
+    },
+    {
+     "s": "event.description",
+     "sel": "main .ev-content",
+     "prose": true
+    },
+    {
+     "s": "listing.event-cards",
+     "union": [
+      "main > section.co-container:has(.ev-heading)",
+      "main > section.co-grid:has(.ev-more__card)"
+     ],
+     "v": "more-events",
+     "items": ".co-event"
+    },
+    {
+     "s": "interactive.faq",
+     "sel": "main > div.ev-qa",
+     "v": "company",
+     "opt": true,
+     "items": ".co-faq__q"
+    },
+    {
+     "s": "cta.final-cta",
+     "sel": "section.fcta",
+     "vmap": [
+      [
+       ".fcta--light",
+       "light"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T30": {
+   "name": "live-demos",
+   "rules": [
+    {
+     "s": "hero.simple",
+     "sel": "main > div.ld-hero"
+    },
+    {
+     "s": "listing.video-grid",
+     "sel": "main > section.ld-grid",
+     "items": ".ld-card"
+    },
+    {
+     "s": "interactive.video-modal",
+     "virtual": "main .ld-grid"
+    },
+    {
+     "s": "cta.final-cta",
+     "sel": "section.fcta",
+     "vmap": [
+      [
+       ".fcta--light",
+       "light"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T31": {
+   "name": "resources-index",
+   "rules": [
+    {
+     "s": "hero.simple",
+     "sel": "main > section.ri-hero",
+     "v": "with-action"
+    },
+    {
+     "s": "listing.link-list",
+     "sel": "main > section.ri-list",
+     "items": ".ri-item"
+    },
+    {
+     "s": "social-proof.tei-card",
+     "sel": "main > section.co-container:has(.ri-tei)",
+     "v": "banner"
+    },
+    {
+     "s": "cta.tool-card",
+     "sel": "main > section.co-container:has(.ri-roi)"
+    },
+    {
+     "s": "listing.card-grid",
+     "union": [
+      "main > section.co-container:has(+ div + section.co-grid .ri-blog)",
+      "main > section.co-grid:has(.ri-blog)"
+     ],
+     "v": "blog-teasers",
+     "items": ".ri-blog"
+    },
+    {
+     "s": "listing.video-grid",
+     "union": [
+      "main > section.co-container:has(+ div + section.co-container .ri-demos)",
+      "main > section.co-container:has(.ri-demos)"
+     ],
+     "v": "row",
+     "items": ".co-video"
+    },
+    {
+     "s": "cta.inline-band",
+     "sel": "section.inline-cta, section.co-pagecta, section.t-grid:has(> .t-ctaf__col), main section.cl-grid:has(> .cl-cta)",
+     "vmap": [
+      [
+       ".inline-cta--light, .co-pagecta--light",
+       "light"
+      ],
+      [
+       ".t-ctaf__col",
+       "compact"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T32": {
+   "name": "resources-report",
+   "rules": [
+    {
+     "s": "conversion.lead-form",
+     "sel": "main > section.rr-hero",
+     "v": "gated-report"
+    },
+    {
+     "s": "social-proof.logo-marquee",
+     "sel": "main > div.t-logos, main section.rr-logos",
+     "v": "two-row"
+    },
+    {
+     "s": "cta.inline-band",
+     "sel": "section.inline-cta, section.co-pagecta, section.t-grid:has(> .t-ctaf__col), main section.cl-grid:has(> .cl-cta)",
+     "vmap": [
+      [
+       ".inline-cta--light, .co-pagecta--light",
+       "light"
+      ],
+      [
+       ".t-ctaf__col",
+       "compact"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T33": {
+   "name": "careers",
+   "rules": [
+    {
+     "s": "hero.careers",
+     "sel": "main > div.cr-hero"
+    },
+    {
+     "s": "company.globe-story",
+     "sel": "main > div.cr-gs",
+     "items": ".cr-panel"
+    },
+    {
+     "s": "company.open-positions",
+     "sel": "main > section.cr-op"
+    },
+    {
+     "s": "cta.talent-callout",
+     "sel": "main > section.cr-talent"
+    },
+    {
+     "s": "company.people-accordion",
+     "sel": "main > section.cr-people",
+     "items": ".cr-person"
+    },
+    {
+     "s": "company.benefits",
+     "sel": "main > section.cr-ben",
+     "items": ".cr-ben__item"
+    },
+    {
+     "s": "company.video-gallery",
+     "sel": "main > div.cr-gal",
+     "items": ".cr-gal__item"
+    },
+    {
+     "s": "company.values",
+     "union": [
+      "main > section.co-container:has(.cr-values__h2)",
+      "main > div.cr-values__carousel"
+     ],
+     "items": ".cr-values__carousel .cr-val, .cr-values__carousel [class*=cr-val]"
+    },
+    {
+     "s": "company.hiring-steps",
+     "sel": "main > section.co-container:has(.cr-hire__h2)",
+     "items": ".cr-hire__step"
+    },
+    {
+     "s": "interactive.faq",
+     "sel": "main section.co-faq",
+     "v": "company",
+     "items": ".co-faq__q"
+    },
+    {
+     "s": "cta.careers-prefooter",
+     "sel": "div.cr-pre"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T34": {
+   "name": "podcast",
+   "rules": [
+    {
+     "s": "hero.podcast",
+     "sel": "main .pc-intro"
+    },
+    {
+     "s": "listing.episode-cards",
+     "union": [
+      "main a.pc-card"
+     ],
+     "items": "a.pc-card"
+    },
+    {
+     "s": "interactive.faq",
+     "sel": "main section.co-faq",
+     "v": "company",
+     "items": ".co-faq__q"
+    },
+    {
+     "s": "cta.inline-band",
+     "sel": "section.inline-cta, section.co-pagecta, section.t-grid:has(> .t-ctaf__col), main section.cl-grid:has(> .cl-cta)",
+     "vmap": [
+      [
+       ".inline-cta--light, .co-pagecta--light",
+       "light"
+      ],
+      [
+       ".t-ctaf__col",
+       "compact"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T35": {
+   "name": "legal-index",
+   "rules": [
+    {
+     "s": "listing.page-header",
+     "sel": "main .lgi > .lcol-full",
+     "v": "legal"
+    },
+    {
+     "s": "listing.link-list",
+     "sel": "main .lgi > .lgi__left",
+     "pair": true,
+     "v": "legal",
+     "items": ".lgi__item"
+    },
+    {
+     "s": "cta.final-cta",
+     "sel": "section.fcta",
+     "vmap": [
+      [
+       ".fcta--light",
+       "light"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "legal"
+    ],
+    "nav": [
+     "legal"
+    ],
+    "footer": [
+     "light"
+    ]
+   }
+  },
+  "T36": {
+   "name": "legal-doc",
+   "rules": [
+    {
+     "s": "legal.doc-header",
+     "sel": "main > div.ltitle"
+    },
+    {
+     "s": "legal.side-nav",
+     "sel": "main aside.ldoc__nav",
+     "aside": true,
+     "asideOf": "legal.doc-part"
+    },
+    {
+     "s": "legal.doc-part",
+     "split": {
+      "in": "main .ldoc__center .lprose",
+      "at": ":scope > h2"
+     },
+     "prose": true
+    },
+    {
+     "s": "legal.updated-meta",
+     "sel": "main .ldoc__updated"
+    },
+    {
+     "s": "legal.on-this-page",
+     "virtual": "main .ldoc__toc"
+    },
+    {
+     "s": "cta.final-cta",
+     "sel": "section.fcta",
+     "vmap": [
+      [
+       ".fcta--light",
+       "light"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "legal"
+    ],
+    "nav": [
+     "legal"
+    ],
+    "footer": [
+     "light"
+    ]
+   }
+  },
+  "T37": {
+   "name": "menu",
+   "rules": [
+    {
+     "s": "shell.menu-header",
+     "sel": "main > div.mn-header"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "none"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  },
+  "T38": {
+   "name": "not-found",
+   "rules": [
+    {
+     "s": "utility.not-found",
+     "sel": "main > div.nf"
+    },
+    {
+     "s": "cta.final-cta",
+     "sel": "section.fcta",
+     "vmap": [
+      [
+       ".fcta--light",
+       "light"
+      ]
+     ],
+     "v": "dark"
+    }
+   ],
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   }
+  }
+ }
+}

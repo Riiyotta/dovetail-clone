@@ -1,0 +1,103 @@
+/* Events group pages: events-index (/events/, /webinars/), event-detail (/events/:slug/), live-demos.
+   Specs: specs/events-index.md, specs/event-detail.md, specs/live-demos.md, specs/company-shared.md.
+   Layout/spacers/type/buttons: src/styles/company/base.css (co-*). Shared components: src/styles/company/components.css. */
+
+.ev-text-secondary { color: #A7A7A7; }
+.ev-sp-160-fixed { width: 100%; height: 160px; flex-shrink: 0; }  /* S160-fixed (event-detail §1) */
+.ev-sp-24 { width: 100%; height: 24px; flex-shrink: 0; }          /* S24 (S13 heading → form) */
+.ev-heading { color: #FFFFFF; }
+
+/* ======================================================================
+   events-index §1 Hero (DotBackground S12 behind the content)
+   ====================================================================== */
+.ev-hero { position: relative; }
+.ev-hero__dots { position: absolute; inset: 0; pointer-events: none; }
+.ev-hero__intro { color: #A7A7A7; max-width: 350px; }
+.ev-h160 { font-size: 160px; line-height: 164px; font-weight: 600; letter-spacing: -4px; color: #FFFFFF; }
+@media (max-width: 799px) { .ev-h160 { font-size: 48px; line-height: 52px; letter-spacing: -1px; } }
+
+/* §2 Upcoming events */
+.ev-upcoming__col { grid-column: span 8; min-width: 0; }
+.ev-cardgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px 32px; }
+@media (max-width: 1280px) {
+  .ev-upcoming__col { grid-column: 1 / -1; }
+  .ev-cardgrid { grid-template-columns: 1fr; gap: 24px; }
+}
+
+/* §3 Past events — S4 rows are 58 tall (RowButton keeps the Button's 1px transparent border) and the
+   200ms colour transition also applies to the small text and title. */
+.ev-rows .co-row { border: 1px solid transparent; }
+.ev-rows .co-row__small, .ev-rows .co-row__title { transition: color 200ms; }
+
+/* ======================================================================
+   event-detail
+   ====================================================================== */
+.ev-head { grid-column: 1 / -1; min-width: 0; }
+/* Back link is a Button: 1px transparent border → 67.5x26 at 1440 (2 + 24 icon + 41.5 label; no label margin) */
+.ev-back { border: 1px solid transparent; }
+.ev-detail__h1 { margin-top: 32px; color: #FFFFFF; }
+
+.ev-sidebar { grid-column: 1 / span 4; min-width: 0; }
+.ev-sidebar__box { display: flex; flex-direction: column; gap: 48px; position: sticky; top: 96px; }
+.ev-details { display: flex; flex-direction: column; }
+.ev-detail-row { padding: 16px 0; display: flex; gap: 8px; }
+.ev-detail-row__label { color: #FFFFFF; min-width: 100px; }
+.ev-detail-row__value { color: #A7A7A7; }
+.ev-register-link { font-size: 14px; color: #FFFFFF; text-decoration: underline; }
+.ev-register-link:hover, .ev-register-link:focus-visible { color: #A7A7A7; }
+
+.ev-content { grid-column: 6 / span 6; min-width: 0; }
+.ev-hero-img { display: block; width: 100%; height: auto; border-radius: 8px; }
+@media (max-width: 1280px) {
+  .ev-sidebar, .ev-content { grid-column: 1 / -1; }
+}
+
+/* Body hr: S0.6 doesn't style it; uses the group's standard 1px rgba(255,255,255,.24) divider (flagged). */
+.ev-body hr { border: 0; height: 1px; background: rgba(255,255,255,.24); margin: 0 0 24px; }
+
+.ev-form-h3 { color: #FFFFFF; }
+
+/* More events */
+.ev-more__card { grid-column: span 4; min-width: 0; }
+@media (max-width: 799px) { .ev-more__card { grid-column: 1 / -1; } }
+
+/* Q&A */
+.ev-qa__head { grid-column: span 8; min-width: 0; }
+.ev-qa__h2 { color: #FFFFFF; }
+.ev-qa__sub { margin-top: 16px; font-size: 18px; line-height: 24px; color: #A7A7A7; }
+@media (max-width: 1280px) {
+  .ev-qa__head { grid-column: 1 / -1; }
+  .ev-qa__sub { font-size: 16px; line-height: 24px; }
+}
+/* Compact group heading: overflow-wrap:anywhere; text-wrap:pretty (event-detail §5) */
+.ev-qa .co-faq__h2 { overflow-wrap: anywhere; text-wrap: pretty; }
+
+/* ======================================================================
+   live-demos
+   ====================================================================== */
+.ld-hero { position: relative; overflow: visible; }
+.ld-hero__bg { position: absolute; top: 0; left: 0; right: 0; z-index: 0; pointer-events: none; display: block; width: 100%; height: auto; }
+.ld-hero__fade-top { position: absolute; inset: 0 0 auto; height: 143px; z-index: 1; pointer-events: none;
+  background: linear-gradient(0deg, rgba(0,0,0,0) 0%, #0A0A0A 100%); }
+.ld-hero__fade-bottom { position: absolute; left: 0; right: 0; bottom: -160px; height: 238px; pointer-events: none;
+  background: linear-gradient(180deg, rgba(0,0,0,0), #0A0A0A); }
+.ld-hero__content { position: relative; z-index: 1; }
+.ld-hero__h1 { margin: 32px 0; color: #FFFFFF; }
+.ld-hero__intro { max-width: 614px; color: #FFFFFF; }
+@media (max-width: 799px) { .ld-hero__bg { display: none; } }
+
+.ld-grid { position: relative; gap: 96px 32px; }
+.ld-card { grid-column: span 4; min-width: 0; }
+.ld-card .co-video__btn { min-width: 364px; }
+@media (max-width: 1280px) {
+  .ld-grid { gap: 64px 24px; }
+  .ld-card { grid-column: span 6; }
+  .ld-card .co-video__btn { min-width: unset; }
+}
+@media (max-width: 799px) { .ld-card { grid-column: 1 / -1; } }
+
+.ld-foot { grid-column: 1 / -1; min-width: 0; }
+.ld-foot__h2 { color: #FFFFFF; }
+.ld-foot__link { margin-top: 8px; letter-spacing: -0.25px; }
+.ld-foot__link .co-textlink__arrow { color: #A7A7A7; }
+@media (max-width: 799px) { .ld-foot__link { font-size: 16px; line-height: 24px; } }

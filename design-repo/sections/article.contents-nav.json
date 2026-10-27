@@ -1,0 +1,139 @@
+{
+ "id": "article.contents-nav",
+ "title": "Contents list",
+ "semantic": {
+  "id": "article.contents-nav",
+  "category": "ARTICLE"
+ },
+ "source": {
+  "id": "component:GuideArticle:ga__contents-h",
+  "file": "src/pages/guides/GuideArticle.jsx",
+  "tag": "h3",
+  "lines": "143-155",
+  "tagLine": 143,
+  "anchor": "ga__contents-h",
+  "anchorLine": 143
+ },
+ "purpose": "'Contents' heading and the list of the article's H2 links in the side column (scroll-spy highlight).",
+ "retrievalEligible": false,
+ "retrievalIneligibleReason": "In-page navigation generated from the article's own headings (scroll-spy state); duplicates content, utility UI.",
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "actions"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 1131,
+   "observedOn": [
+    "/customer-research/actionable-feedback/",
+    "/customer-research/actionable-insights/",
+    "/customer-research/ai-customer-experience/",
+    "/customer-research/analyze-app-store-reviews-with-interview-transcripts/",
+    "/customer-research/are-digital-twins-reliable/",
+    "/customer-research/b2b-customer-journey-map/",
+    "/customer-research/b2b-customer-service/",
+    "/customer-research/benefits-of-customer-feedback/",
+    "/customer-research/best-open-ended-sales-questions/",
+    "/customer-research/best-sales-discovery-questions/",
+    "/customer-research/best-sentiment-analysis-tools/",
+    "/customer-research/brand-trust/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 30
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 8,
+    "maxChars": 49,
+    "observedIn": 30
+   }
+  },
+  "listSizes": {
+   "actions": [
+    6,
+    6
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "scroll.spy"
+  ],
+  "requiredPatterns": [
+   "scroll.spy"
+  ],
+  "reducedMotionFallback": {
+   "scroll.spy": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "side column"
+  },
+  {
+   "range": "<=1280",
+   "behavior": "moved to the mobile sheet"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 1131,
+   "nodes": 1131,
+   "minPx": 40,
+   "maxPx": 2304,
+   "medianPx": 746,
+   "sample": {
+    "/customer-research/actionable-feedback/": [
+     328
+    ],
+    "/customer-research/actionable-insights/": [
+     594
+    ],
+    "/customer-research/ai-customer-experience/": [
+     898
+    ],
+    "/customer-research/analyze-app-store-reviews-with-interview-transcripts/": [
+     898
+    ],
+    "/customer-research/are-digital-twins-reliable/": [
+     632
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/guides/GuideArticle.jsx:143-155",
+  "specs/guide-article.md:1-40",
+  "specs/resources-guide.md:1-30"
+ ]
+}

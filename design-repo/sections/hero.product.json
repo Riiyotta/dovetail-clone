@@ -1,0 +1,200 @@
+{
+ "id": "hero.product",
+ "title": "Product hero",
+ "semantic": {
+  "id": "hero.product",
+  "category": "HERO"
+ },
+ "source": {
+  "id": "component:ProductHero:pd-hero",
+  "file": "src/pages/product/ProductHero.jsx",
+  "tag": "div",
+  "lines": "34-46",
+  "tagLine": 34,
+  "anchor": "pd-hero",
+  "anchorLine": 34
+ },
+ "purpose": "Product page opener on the product accent colour: two-part H1 with inline icon and serif word, lead, CTA row, large product media (video card or image).",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "media": {
+   "description": "variant 'media'",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 6,
+   "observedOn": [
+    "/product/ai-agents/",
+    "/product/ai-chat/",
+    "/product/ai-dashboards/",
+    "/product/ai-docs/",
+    "/product/ai-projects/",
+    "/product/digital-twins/"
+   ],
+   "contentSampled": true
+  },
+  "video-card": {
+   "description": "variant 'video-card'",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 1,
+   "observedOn": [
+    "/product/ai-channels/"
+   ],
+   "contentSampled": false
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions",
+   "heading",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 8
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 17,
+    "observedIn": 8
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 11,
+    "maxChars": 69,
+    "observedIn": 3
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 41,
+    "maxChars": 268,
+    "observedIn": 3
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 32,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "actions": [
+    2,
+    3
+   ],
+   "media": [
+    10,
+    11
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "icon.source",
+     "illustration.brand",
+     "person.photo",
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "icon.generic",
+     "illustration.generated",
+     "person.fictional-avatar",
+     "product.generated-visual"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "icon.generic",
+  "illustration.generated",
+  "person.fictional-avatar",
+  "product.generated-visual"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static",
+   "video.inview-autoplay"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed",
+   "video.inview-autoplay": "unchanged"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 7,
+   "nodes": 7,
+   "minPx": 879.5,
+   "maxPx": 1015.5,
+   "medianPx": 907.5,
+   "sample": {
+    "/product/ai-agents/": [
+     907.5
+    ],
+    "/product/ai-channels/": [
+     907.5
+    ],
+    "/product/ai-chat/": [
+     907.5
+    ],
+    "/product/ai-dashboards/": [
+     879.5
+    ],
+    "/product/ai-docs/": [
+     895.5
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/product/ProductHero.jsx:34-46",
+  "specs/product.md:1-40"
+ ]
+}

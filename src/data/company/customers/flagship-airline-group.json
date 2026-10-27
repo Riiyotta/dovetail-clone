@@ -1,0 +1,325 @@
+{
+ "slug": "flagship-airline-group",
+ "path": "/customers/flagship-airline-group/",
+ "title": "How a flagship airline group turned siloed research into shared customer intelligence",
+ "eyebrow": "CUSTOMER / A FLAGSHIP AIRLINE GROUP",
+ "companyName": "A flagship airline group",
+ "isAnonymous": true,
+ "industry": "Airlines and Aviation",
+ "intro": {
+  "placeholder": true,
+  "chars": 212
+ },
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/external/unsplash-photo-1483450388369-9ed95738483c-b3f2ac.jpg",
+  "width": 1080,
+  "height": 721,
+  "youtubeId": null,
+  "caption": []
+ },
+ "stats": [
+  {
+   "value": "300+",
+   "label": "customer interviews turned into searchable intelligence in a single three-week research sprint"
+  },
+  {
+   "value": "4",
+   "label": "major research programs running end-to-end simultaneously in Dovetail"
+  },
+  {
+   "value": "50,000",
+   "label": "employees across the group, with customer research now accessible to every team"
+  }
+ ],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "A flagship airline group with no shared view of the customer",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 485
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 249
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 355
+    }
+   ]
+  },
+  {
+   "heading": "The challenge: 10,000 research slides, none of them findable",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 478
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 551
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 274
+    }
+   ]
+  },
+  {
+   "heading": "The solution: one platform for the airline, the loyalty program, and the second brand",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 450
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 479,
+     "links": [
+      {
+       "text": "Chat",
+       "href": "/product/ai-chat/"
+      }
+     ]
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/contextual-chat-query-product-image.png",
+     "alt": "Dovetail Chat—ask anything about your customers and get an instant, cited answer",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 448
+    },
+    {
+     "t": "blockquote",
+     "placeholder": true,
+     "chars": 151
+    }
+   ]
+  },
+  {
+   "heading": "The payoff: 300 interviews in three weeks, and a second brand joining",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 229
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 239
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 392
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 296
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 180
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 301
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 185
+    }
+   ],
+   "pullQuotes": [
+    {
+     "quote": "“The more we use Dovetail, the more powerful it becomes.”",
+     "name": null,
+     "role": "Head of Design",
+     "avatar": null,
+     "href": "/customers/flagship-airline-group/"
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": {
+  "quote": "“The more we use Dovetail, the more powerful it becomes.”",
+  "name": null,
+  "role": "Head of Design"
+ },
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "iconic-global-automaker",
+   "href": "/customers/iconic-global-automaker/",
+   "title": "How one of the world's most iconic automakers put customer intelligence in the hands of its engineers",
+   "industry": "Manufacturing",
+   "order": 99,
+   "companyName": "One of the world's most iconic automakers",
+   "gridTitle": "Iconic global automaker",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-iconic-global-automaker.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 252
+    },
+    "name": null,
+    "role": "Lead UX Strategist"
+   }
+  },
+  {
+   "slug": "global-financial-institution",
+   "href": "/customers/global-financial-institution/",
+   "title": "How a global financial institution cleared one of finance's most rigorous AI security reviews and built its customer intelligence layer with Dovetail",
+   "industry": "Finance",
+   "order": 99,
+   "companyName": "A global financial institution",
+   "gridTitle": "Global financial powerhouse",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-global-financial-institution.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 295
+    },
+    "name": null,
+    "role": "Delivery Manager, Research Operations"
+   }
+  },
+  {
+   "slug": "fleet-management-tech-leader",
+   "href": "/customers/fleet-management-tech-leader/",
+   "title": "How a fleet management technology company gave every leader direct access to customer intelligence",
+   "industry": "Technology",
+   "order": 99,
+   "companyName": "A connected fleet technology company",
+   "gridTitle": "Connected fleet technology provider",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-fleet-management-tech-leader.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 149
+    },
+    "name": null,
+    "role": "Research Operations Lead"
+   }
+  }
+ ],
+ "faq": {
+  "heading": "FAQs",
+  "items": [
+   {
+    "q": "Can Dovetail support customer research across multiple brands or business units within one company?",
+    "a": {
+     "placeholder": true,
+     "chars": 319
+    }
+   },
+   {
+    "q": "How quickly can Dovetail turn a large batch of customer interviews into usable insights?",
+    "a": {
+     "placeholder": true,
+     "chars": 328
+    }
+   },
+   {
+    "q": "How accurate is Dovetail’s AI at surfacing relevant highlights from interview transcripts?",
+    "a": {
+     "placeholder": true,
+     "chars": 315
+    }
+   },
+   {
+    "q": "Does Dovetail support PII redaction for organizations with strict data governance requirements?",
+    "a": {
+     "placeholder": true,
+     "chars": 279
+    }
+   },
+   {
+    "q": "Can teams search or ask questions across multiple research projects instead of digging through individual reports?",
+    "a": {
+     "placeholder": true,
+     "chars": 313
+    }
+   }
+  ]
+ }
+}

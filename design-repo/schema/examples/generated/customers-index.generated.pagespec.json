@@ -1,0 +1,1763 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T26",
+ "route": "/customers-index-larkholt/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Larkholt"
+ },
+ "meta": {
+  "title": "Larkholt | Customers"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Sort tidal",
+    "actions": [
+     {
+      "label": "Weigh beacon",
+      "href": "https://larkholt.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Atlas",
+      "href": "https://larkholt.example/navbar-0"
+     },
+     {
+      "label": "Canvas",
+      "href": "https://larkholt.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Trace"
+     },
+     {
+      "title": "Sketch"
+     },
+     {
+      "title": "Ember"
+     },
+     {
+      "title": "Shape"
+     },
+     {
+      "title": "Cinder"
+     },
+     {
+      "title": "Summit"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Steer cobalt",
+      "text": "Harbor fjord falcon basil atlas bundle canvas cedar"
+     },
+     {
+      "title": "Trace sketch",
+      "text": "Plan shape cinder notice harvest sort tidal lantern"
+     },
+     {
+      "title": "Signal basil",
+      "text": "Atlas bundle tidy cedar compass quarry field shape"
+     },
+     {
+      "title": "Cinder summit",
+      "text": "Steer sort harbor willow falcon beacon rowan bundle"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.typewriter",
+   "variant": "default",
+   "content": {
+    "heading": "Tidy cedar compass marble",
+    "lead": "Ember orbit gather notice",
+    "media": [
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/hero.typewriter-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "typewriter",
+    "reducedMotionFallback": "full-text-no-caret"
+   }
+  },
+  {
+   "section": "listing.story-grid",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Cobalt",
+      "href": "https://larkholt.example/story-grid-0"
+     },
+     {
+      "label": "Harbor",
+      "href": "https://larkholt.example/story-grid-1"
+     },
+     {
+      "label": "Willow",
+      "href": "https://larkholt.example/story-grid-2"
+     },
+     {
+      "label": "Signal",
+      "href": "https://larkholt.example/story-grid-3"
+     },
+     {
+      "label": "Refine",
+      "href": "https://larkholt.example/story-grid-4"
+     },
+     {
+      "label": "Atlas",
+      "href": "https://larkholt.example/story-grid-5"
+     }
+    ],
+    "items": [
+     {
+      "title": "Pebble tidy thread",
+      "text": "Trace sketch plan prism meadow",
+      "href": "https://larkholt.example/story-grid-item0",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item0"
+      }
+     },
+     {
+      "title": "Notice juniper cobalt",
+      "text": "Harbor fjord signal refine atlas",
+      "href": "https://larkholt.example/story-grid-item1",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item1"
+      }
+     },
+     {
+      "title": "Pebble tidy cedar",
+      "text": "Compass quarry plan orbit cinder",
+      "href": "https://larkholt.example/story-grid-item2",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item2"
+      }
+     },
+     {
+      "title": "Sprout juniper ledger",
+      "text": "Share lantern signal basil measure",
+      "href": "https://larkholt.example/story-grid-item3",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item3"
+      }
+     },
+     {
+      "title": "Bundle tidy map",
+      "text": "Compass sketch plan orbit meadow",
+      "href": "https://larkholt.example/story-grid-item4",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item4"
+      }
+     },
+     {
+      "title": "Notice steer ledger",
+      "text": "Share willow signal refine atlas",
+      "href": "https://larkholt.example/story-grid-item5",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item5"
+      }
+     },
+     {
+      "title": "Pebble tidy thread",
+      "text": "Compass quarry plan shape gather",
+      "href": "https://larkholt.example/story-grid-item6",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item6"
+      }
+     },
+     {
+      "title": "Summit juniper sort",
+      "text": "Tidal lantern weigh refine atlas",
+      "href": "https://larkholt.example/story-grid-item7",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item7"
+      }
+     },
+     {
+      "title": "Bundle grove thread",
+      "text": "Compass sketch ember shape meadow",
+      "href": "https://larkholt.example/story-grid-item8",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item8"
+      }
+     },
+     {
+      "title": "Notice juniper sort",
+      "text": "Tidal lantern falcon basil rowan",
+      "href": "https://larkholt.example/story-grid-item9",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item9"
+      }
+     },
+     {
+      "title": "Pebble grove map",
+      "text": "Delta sketch ember shape cinder",
+      "href": "https://larkholt.example/story-grid-item10",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item10"
+      }
+     },
+     {
+      "title": "Notice juniper ledger",
+      "text": "Share lantern signal refine atlas",
+      "href": "https://larkholt.example/story-grid-item11",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item11"
+      }
+     },
+     {
+      "title": "Pebble canvas cedar",
+      "text": "Trace quarry ember shape meadow",
+      "href": "https://larkholt.example/story-grid-item12",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item12"
+      }
+     },
+     {
+      "title": "Notice harvest cobalt",
+      "text": "Share lantern weigh refine atlas",
+      "href": "https://larkholt.example/story-grid-item13",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item13"
+      }
+     },
+     {
+      "title": "Nimbus grove cedar",
+      "text": "Compass quarry ember orbit gather",
+      "href": "https://larkholt.example/story-grid-item14",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item14"
+      }
+     },
+     {
+      "title": "Summit harvest cobalt",
+      "text": "Tidal fjord weigh basil measure",
+      "href": "https://larkholt.example/story-grid-item15",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item15"
+      }
+     },
+     {
+      "title": "Bundle tidy map",
+      "text": "Trace quarry ember prism cinder",
+      "href": "https://larkholt.example/story-grid-item16",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item16"
+      }
+     },
+     {
+      "title": "Sprout juniper cobalt",
+      "text": "Share willow falcon basil atlas",
+      "href": "https://larkholt.example/story-grid-item17",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item17"
+      }
+     },
+     {
+      "title": "Pebble grove thread",
+      "text": "Compass quarry ember prism meadow",
+      "href": "https://larkholt.example/story-grid-item18",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item18"
+      }
+     },
+     {
+      "title": "Sprout steer sort",
+      "text": "Tidal fjord signal beacon atlas",
+      "href": "https://larkholt.example/story-grid-item19",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item19"
+      }
+     },
+     {
+      "title": "Pebble tidy cedar",
+      "text": "Delta sketch ember orbit meadow",
+      "href": "https://larkholt.example/story-grid-item20",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item20"
+      }
+     },
+     {
+      "title": "Sprout juniper ledger",
+      "text": "Share willow weigh refine atlas",
+      "href": "https://larkholt.example/story-grid-item21",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item21"
+      }
+     },
+     {
+      "title": "Bundle grove map",
+      "text": "Trace marble ember prism meadow",
+      "href": "https://larkholt.example/story-grid-item22",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item22"
+      }
+     },
+     {
+      "title": "Sprout steer cobalt",
+      "text": "Share willow falcon beacon rowan",
+      "href": "https://larkholt.example/story-grid-item23",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item23"
+      }
+     },
+     {
+      "title": "Bundle tidy thread",
+      "text": "Compass sketch ember shape meadow",
+      "href": "https://larkholt.example/story-grid-item24",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item24"
+      }
+     },
+     {
+      "title": "Summit juniper ledger",
+      "text": "Share fjord weigh basil atlas",
+      "href": "https://larkholt.example/story-grid-item25",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item25"
+      }
+     },
+     {
+      "title": "Nimbus tidy thread",
+      "text": "Compass marble ember shape gather",
+      "href": "https://larkholt.example/story-grid-item26",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item26"
+      }
+     },
+     {
+      "title": "Sprout juniper sort",
+      "text": "Tidal willow signal beacon measure",
+      "href": "https://larkholt.example/story-grid-item27",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item27"
+      }
+     },
+     {
+      "title": "Nimbus grove thread",
+      "text": "Trace sketch ember prism meadow",
+      "href": "https://larkholt.example/story-grid-item28",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item28"
+      }
+     },
+     {
+      "title": "Sprout steer sort",
+      "text": "Harbor fjord falcon basil measure",
+      "href": "https://larkholt.example/story-grid-item29",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item29"
+      }
+     },
+     {
+      "title": "Nimbus canvas map",
+      "text": "Delta quarry field orbit cinder",
+      "href": "https://larkholt.example/story-grid-item30",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item30"
+      }
+     },
+     {
+      "title": "Sprout steer sort",
+      "text": "Share lantern falcon refine atlas",
+      "href": "https://larkholt.example/story-grid-item31",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item31"
+      }
+     },
+     {
+      "title": "Bundle grove thread",
+      "text": "Compass quarry ember orbit cinder",
+      "href": "https://larkholt.example/story-grid-item32",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item32"
+      }
+     },
+     {
+      "title": "Summit harvest sort",
+      "text": "Harbor fjord falcon refine atlas",
+      "href": "https://larkholt.example/story-grid-item33",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item33"
+      }
+     },
+     {
+      "title": "Pebble tidy cedar",
+      "text": "Compass sketch plan prism gather",
+      "href": "https://larkholt.example/story-grid-item34",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item34"
+      }
+     },
+     {
+      "title": "Sprout juniper cobalt",
+      "text": "Share willow falcon basil measure",
+      "href": "https://larkholt.example/story-grid-item35",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item35"
+      }
+     },
+     {
+      "title": "Nimbus tidy map",
+      "text": "Delta sketch ember orbit gather",
+      "href": "https://larkholt.example/story-grid-item36",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item36"
+      }
+     },
+     {
+      "title": "Notice harvest sort",
+      "text": "Harbor fjord falcon refine atlas",
+      "href": "https://larkholt.example/story-grid-item37",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item37"
+      }
+     },
+     {
+      "title": "Pebble canvas map",
+      "text": "Compass sketch plan prism meadow",
+      "href": "https://larkholt.example/story-grid-item38",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/listing.story-grid-item38"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "pixel.dissolve-hover",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "social-proof.logo-wall",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item0"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item1"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item2"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item3"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item4"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item5"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item6"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item7"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item8"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item9"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item10"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item11"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item12"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item13"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item14"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item15"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item16"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item17"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item18"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item19"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item20"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item21"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item22"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item23"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item24"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item25"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item26"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item27"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item28"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item29"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item30"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item31"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item32"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item33"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item34"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item35"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item36"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item37"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item38"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item39"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item40"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item41"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item42"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item43"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item44"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item45"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item46"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item47"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item48"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item49"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item50"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item51"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item52"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item53"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item54"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item55"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item56"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item57"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item58"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.logo-wall-item59"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.customer-stories",
+   "variant": "video-band",
+   "content": {
+    "actions": [
+     {
+      "label": "No",
+      "href": "https://larkholt.example/customer-stories-0"
+     },
+     {
+      "label": "Ju",
+      "href": "https://larkholt.example/customer-stories-1"
+     },
+     {
+      "label": "Co",
+      "href": "https://larkholt.example/customer-stories-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Tidal lantern weigh",
+      "text": "Beacon atlas bundle grove cedar trace sketch field",
+      "href": "https://larkholt.example/customer-stories-item0",
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.customer-stories-item0"
+      }
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Prism cinder",
+      "ref": "generate:customer.placeholder-logo/social-proof.customer-stories-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Notice steer",
+      "ref": "generate:customer.placeholder-logo/social-proof.customer-stories-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Sort tidal",
+      "ref": "generate:customer.placeholder-logo/social-proof.customer-stories-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.autoplay",
+    "reducedMotionFallback": "no-autoplay"
+   }
+  },
+  {
+   "section": "social-proof.ratings",
+   "variant": "default",
+   "content": {
+    "lead": "Willow signal refine",
+    "actions": [
+     {
+      "label": "Tidy",
+      "href": "https://larkholt.example/ratings-0"
+     },
+     {
+      "label": "Map",
+      "href": "https://larkholt.example/ratings-1"
+     },
+     {
+      "label": "Compass",
+      "href": "https://larkholt.example/ratings-2"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.ratings-0"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.ratings-1"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.ratings-2"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.ratings-3"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.ratings-4"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.ratings-5"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.ratings-6"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.ratings-7"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.ratings-8"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.ratings-9"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.ratings-10"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.ratings-11"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.ratings-12"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.ratings-13"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.ratings-14"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.ratings-15"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "marquee.loop",
+    "reducedMotionFallback": "paused"
+   }
+  },
+  {
+   "section": "social-proof.testimonial-wall",
+   "variant": "default",
+   "content": {
+    "quote": {
+     "text": "Quarry plan shape gather notice steer sort share willow signal beacon rowan pebble canvas thread trace"
+    },
+    "items": [
+     {
+      "title": "Quarry ember orbit",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item0"
+      }
+     },
+     {
+      "title": "Gather summit steer",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item1"
+      }
+     },
+     {
+      "title": "Sort share lantern",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item2"
+      }
+     },
+     {
+      "title": "Signal refine rowan",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item3"
+      }
+     },
+     {
+      "title": "Bundle canvas thread",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item4"
+      }
+     },
+     {
+      "title": "Delta sketch ember",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item5"
+      }
+     },
+     {
+      "title": "Orbit gather sprout",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item6"
+      }
+     },
+     {
+      "title": "Steer cobalt tidal",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item7"
+      }
+     },
+     {
+      "title": "Lantern weigh refine",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item8"
+      }
+     },
+     {
+      "title": "Rowan nimbus tidy",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item9"
+      }
+     },
+     {
+      "title": "Thread trace sketch",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item10"
+      }
+     },
+     {
+      "title": "Ember shape meadow",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item11"
+      }
+     },
+     {
+      "title": "Sprout steer sort",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item12"
+      }
+     },
+     {
+      "title": "Harbor fjord falcon",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item13"
+      }
+     },
+     {
+      "title": "Beacon rowan pebble",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item14"
+      }
+     },
+     {
+      "title": "Grove map delta",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item15"
+      }
+     },
+     {
+      "title": "Marble field shape",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item16"
+      }
+     },
+     {
+      "title": "Cinder notice steer",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item17"
+      }
+     },
+     {
+      "title": "Cobalt tidal lantern",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item18"
+      }
+     },
+     {
+      "title": "Weigh refine rowan",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item19"
+      }
+     },
+     {
+      "title": "Nimbus grove cedar",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item20"
+      }
+     },
+     {
+      "title": "Delta quarry field",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item21"
+      }
+     },
+     {
+      "title": "Prism gather notice",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item22"
+      }
+     },
+     {
+      "title": "Steer cobalt harbor",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item23"
+      }
+     },
+     {
+      "title": "Willow falcon basil",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item24"
+      }
+     },
+     {
+      "title": "Measure bundle tidy",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item25"
+      }
+     },
+     {
+      "title": "Cedar compass quarry",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item26"
+      }
+     },
+     {
+      "title": "Ember shape gather",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item27"
+      }
+     },
+     {
+      "title": "Sprout juniper sort",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item28"
+      }
+     },
+     {
+      "title": "Tidal fjord signal",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item29"
+      }
+     },
+     {
+      "title": "Refine measure bundle",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item30"
+      }
+     },
+     {
+      "title": "Tidy thread compass",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item31"
+      }
+     },
+     {
+      "title": "Marble field shape",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item32"
+      }
+     },
+     {
+      "title": "Meadow notice juniper",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item33"
+      }
+     },
+     {
+      "title": "Ledger share lantern",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item34"
+      }
+     },
+     {
+      "title": "Falcon refine measure",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item35"
+      }
+     },
+     {
+      "title": "Nimbus tidy thread",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item36"
+      }
+     },
+     {
+      "title": "Trace marble field",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item37"
+      }
+     },
+     {
+      "title": "Shape cinder sprout",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item38"
+      }
+     },
+     {
+      "title": "Steer cobalt tidal",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item39"
+      }
+     },
+     {
+      "title": "Lantern signal basil",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item40"
+      }
+     },
+     {
+      "title": "Rowan pebble grove",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item41"
+      }
+     },
+     {
+      "title": "Thread compass quarry",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item42"
+      }
+     },
+     {
+      "title": "Ember orbit cinder",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item43"
+      }
+     },
+     {
+      "title": "Summit juniper ledger",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item44"
+      }
+     },
+     {
+      "title": "Tidal fjord signal",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item45"
+      }
+     },
+     {
+      "title": "Refine atlas nimbus",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item46"
+      }
+     },
+     {
+      "title": "Grove thread trace",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item47"
+      }
+     },
+     {
+      "title": "Quarry plan prism",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item48"
+      }
+     },
+     {
+      "title": "Gather summit juniper",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item49"
+      }
+     },
+     {
+      "title": "Sort share fjord",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item50"
+      }
+     },
+     {
+      "title": "Signal refine rowan",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item51"
+      }
+     },
+     {
+      "title": "Bundle tidy cedar",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item52"
+      }
+     },
+     {
+      "title": "Delta quarry field",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item53"
+      }
+     },
+     {
+      "title": "Orbit meadow sprout",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item54"
+      }
+     },
+     {
+      "title": "Steer sort tidal",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item55"
+      }
+     },
+     {
+      "title": "Lantern signal refine",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item56"
+      }
+     },
+     {
+      "title": "Measure bundle tidy",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item57"
+      }
+     },
+     {
+      "title": "Cedar trace marble",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item58"
+      }
+     },
+     {
+      "title": "Ember prism gather",
+      "media": {
+       "assetRole": "person.fictional-avatar",
+       "alt": "",
+       "ref": "generate:person.fictional-avatar/social-proof.testimonial-wall-item59"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "dark",
+   "content": {
+    "heading": "Summit juniper",
+    "actions": [
+     {
+      "label": "Lantern falcon",
+      "href": "https://larkholt.example/final-cta-0"
+     },
+     {
+      "label": "Beacon measure",
+      "href": "https://larkholt.example/final-cta-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-7"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "lead": "Nimbus canvas map compass sketch",
+    "actions": [
+     {
+      "label": "Orbit gather",
+      "href": "https://larkholt.example/footer-0"
+     },
+     {
+      "label": "Notice steer",
+      "href": "https://larkholt.example/footer-1"
+     },
+     {
+      "label": "Sort share",
+      "href": "https://larkholt.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Lantern"
+     },
+     {
+      "title": "Weigh"
+     },
+     {
+      "title": "Refine"
+     },
+     {
+      "title": "Rowan"
+     },
+     {
+      "title": "Pebble"
+     },
+     {
+      "title": "Canvas"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

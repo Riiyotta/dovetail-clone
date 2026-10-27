@@ -1,0 +1,293 @@
+{
+ "note": "color tokens. Every value cites path:line in the clone project and the text that line contains (`match`); extraction/verify_all.py re-reads them.",
+ "tokens": {
+  "color.black.base": {
+   "value": "#0A0A0A",
+   "category": "color",
+   "cite": "tailwind.config.js:20",
+   "match": "bg: '#0A0A0A'"
+  },
+  "color.white.strong": {
+   "value": "#FAFAFA",
+   "category": "color",
+   "cite": "tailwind.config.js:21",
+   "match": "'text-strong': '#FAFAFA'"
+  },
+  "color.alpha.white-64": {
+   "value": "rgba(255,255,255,0.64)",
+   "category": "color",
+   "cite": "tailwind.config.js:22",
+   "match": "'text-muted': 'rgba(255,255,255,0.64)'"
+  },
+  "color.white.64": {
+   "value": "#A7A7A7",
+   "category": "color",
+   "cite": "tailwind.config.js:23",
+   "match": "'text-dim': '#A7A7A7'"
+  },
+  "color.grey.chat": {
+   "value": "#B1B1B1",
+   "category": "color",
+   "cite": "tailwind.config.js:24",
+   "match": "'chat-grey': '#B1B1B1'"
+  },
+  "color.blue.base": {
+   "value": "#0044FF",
+   "category": "color",
+   "cite": "tailwind.config.js:25",
+   "match": "DEFAULT: '#0044FF'"
+  },
+  "color.blue.80": {
+   "value": "#0238CE",
+   "category": "color",
+   "cite": "tailwind.config.js:25",
+   "match": "80: '#0238CE'"
+  },
+  "color.black.80": {
+   "value": "#121212",
+   "category": "color",
+   "cite": "tailwind.config.js:26",
+   "match": "1: '#121212'"
+  },
+  "color.black.64": {
+   "value": "#191919",
+   "category": "color",
+   "cite": "tailwind.config.js:26",
+   "match": "2: '#191919'"
+  },
+  "color.surface.panel": {
+   "value": "#1D1D1D",
+   "category": "color",
+   "cite": "tailwind.config.js:26",
+   "match": "3: '#1D1D1D'"
+  },
+  "color.surface.bubble": {
+   "value": "#272727",
+   "category": "color",
+   "cite": "tailwind.config.js:26",
+   "match": "4: '#272727'"
+  },
+  "color.black.32": {
+   "value": "#2C2C2C",
+   "category": "color",
+   "cite": "tailwind.config.js:27",
+   "match": "'pill-hover': '#2C2C2C'"
+  },
+  "color.black.24": {
+   "value": "#3B3B3B",
+   "category": "color",
+   "cite": "tailwind.config.js:28",
+   "match": "line: '#3B3B3B'"
+  },
+  "color.black.08": {
+   "value": "#626262",
+   "category": "color",
+   "cite": "tailwind.config.js:29",
+   "match": "'globe-line': '#626262'"
+  },
+  "color.alpha.white-08": {
+   "value": "rgba(255,255,255,0.08)",
+   "category": "color",
+   "cite": "tailwind.config.js:30",
+   "match": "'border-subtle': 'rgba(255,255,255,0.08)'"
+  },
+  "color.alpha.white-24": {
+   "value": "rgba(255,255,255,0.24)",
+   "category": "color",
+   "cite": "tailwind.config.js:31",
+   "match": "'border-strong': 'rgba(255,255,255,0.24)'"
+  },
+  "color.alpha.white-16": {
+   "value": "rgba(255,255,255,0.16)",
+   "category": "color",
+   "cite": "tailwind.config.js:34",
+   "match": "'banner-bg': 'rgba(255,255,255,0.16)'"
+  },
+  "color.overlay.64": {
+   "value": "rgba(10,10,10,0.64)",
+   "category": "color",
+   "cite": "tailwind.config.js:37",
+   "match": "overlay: 'rgba(10,10,10,0.64)'"
+  },
+  "color.white.80": {
+   "value": "#CECECE",
+   "category": "color",
+   "cite": "tailwind.config.js:38",
+   "match": "'white-hover': '#CECECE'"
+  },
+  "color.accent.twins": {
+   "value": "#9601FF",
+   "category": "color",
+   "cite": "tailwind.config.js:36",
+   "match": "twins: '#9601FF'"
+  },
+  "color.accent.agents": {
+   "value": "#5D00A1",
+   "category": "color",
+   "cite": "tailwind.config.js:36",
+   "match": "agents: '#5D00A1'"
+  },
+  "color.accent.channels": {
+   "value": "#982500",
+   "category": "color",
+   "cite": "tailwind.config.js:36",
+   "match": "channels: '#982500'"
+  },
+  "color.accent.docs": {
+   "value": "#99004F",
+   "category": "color",
+   "cite": "tailwind.config.js:36",
+   "match": "docs: '#99004F'"
+  },
+  "color.accent.chat": {
+   "value": "#0029A6",
+   "category": "color",
+   "cite": "tailwind.config.js:36",
+   "match": "chat: '#0029A6'"
+  },
+  "color.accent.dashboards": {
+   "value": "#154C14",
+   "category": "color",
+   "cite": "tailwind.config.js:36",
+   "match": "dash: '#154C14'"
+  },
+  "color.accent.twin-text": {
+   "value": "#A65CFF",
+   "category": "color",
+   "cite": "tailwind.config.js:35",
+   "match": "text: '#A65CFF'"
+  },
+  "color.white.base": {
+   "value": "#FFFFFF",
+   "category": "color",
+   "cite": "specs/marketing-shared.md:78",
+   "match": "`#FFFFFF`"
+  },
+  "color.white.48": {
+   "value": "#808080",
+   "category": "color",
+   "cite": "specs/marketing-shared.md:78",
+   "match": "`#808080`"
+  },
+  "color.white.32": {
+   "value": "#585858",
+   "category": "color",
+   "cite": "specs/marketing-shared.md:78",
+   "match": "`#585858`"
+  },
+  "color.white.24": {
+   "value": "#454545",
+   "category": "color",
+   "cite": "specs/marketing-shared.md:78",
+   "match": "`#454545`"
+  },
+  "color.white.16": {
+   "value": "#313131",
+   "category": "color",
+   "cite": "specs/marketing-shared.md:78",
+   "match": "`#313131`"
+  },
+  "color.white.08": {
+   "value": "#1E1E1E",
+   "category": "color",
+   "cite": "specs/marketing-shared.md:78",
+   "match": "`#1E1E1E`"
+  },
+  "color.white.04": {
+   "value": "#141414",
+   "category": "color",
+   "cite": "specs/marketing-shared.md:78",
+   "match": "`#141414`"
+  },
+  "color.blue.100": {
+   "value": "#001A75",
+   "category": "color",
+   "cite": "specs/marketing-shared.md:78",
+   "match": "`#001A75`"
+  },
+  "color.orange.base": {
+   "value": "#FF4400",
+   "category": "color",
+   "cite": "specs/marketing-shared.md:78",
+   "match": "`#FF4400`"
+  },
+  "color.green.base": {
+   "value": "#009900",
+   "category": "color",
+   "cite": "specs/marketing-shared.md:78",
+   "match": "`#009900`"
+  },
+  "color.black.48": {
+   "value": "#212121",
+   "category": "color",
+   "cite": "specs/marketing-shared.md:78",
+   "match": "`#212121`"
+  },
+  "color.black.16": {
+   "value": "#4F4F4F",
+   "category": "color",
+   "cite": "specs/marketing-shared.md:78",
+   "match": "`#4F4F4F`"
+  },
+  "color.black.04": {
+   "value": "#7C7C7C",
+   "category": "color",
+   "cite": "specs/marketing-shared.md:78",
+   "match": "`#7C7C7C`"
+  },
+  "color.accent.twins-hero": {
+   "value": "#7D00D6",
+   "category": "color",
+   "cite": "specs/marketing-shared.md:80",
+   "match": "digitalTwinsHero `#7D00D6`"
+  },
+  "color.accent.twins-feature": {
+   "value": "#9C57EF",
+   "category": "color",
+   "cite": "specs/marketing-shared.md:80",
+   "match": "digitalTwinsFeatureNumber `#9C57EF`"
+  },
+  "color.blue.product": {
+   "value": "#6798FF",
+   "category": "color",
+   "cite": "specs/company-shared.md:35",
+   "match": "productBlue | `#6798FF`"
+  },
+  "color.light.muted": {
+   "value": "#626262",
+   "category": "color",
+   "cite": "specs/content-shared.md:53",
+   "match": "| ink-muted | `#626262`"
+  },
+  "color.light.border": {
+   "value": "#C4C4C4",
+   "category": "color",
+   "cite": "specs/content-shared.md:55",
+   "match": "| border-soft | `#C4C4C4`"
+  },
+  "color.light.table-line": {
+   "value": "#D8D8D8",
+   "category": "color",
+   "cite": "specs/content-shared.md:56",
+   "match": "| table-line | `#D8D8D8`"
+  },
+  "color.light.surface": {
+   "value": "#F5F5F5",
+   "category": "color",
+   "cite": "specs/content-shared.md:57",
+   "match": "`#F5F5F5` bg + `#EBEBEB` border"
+  },
+  "color.light.surface-border": {
+   "value": "#EBEBEB",
+   "category": "color",
+   "cite": "specs/content-shared.md:57",
+   "match": "`#F5F5F5` bg + `#EBEBEB` border"
+  },
+  "color.alpha.ink-24": {
+   "value": "rgba(10,10,10,0.24)",
+   "category": "color",
+   "cite": "specs/content-shared.md:54",
+   "match": "| line | `rgba(10,10,10,0.24)`"
+  }
+ }
+}

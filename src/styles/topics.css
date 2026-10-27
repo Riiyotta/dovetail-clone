@@ -1,0 +1,132 @@
+/* Shared building blocks for §4 "Build your customer context layer" and §6 "Put the customer in every prompt".
+   Also hosts the H96 section-heading styles reused by §5. Values: CLONE_SPEC.md §0.5, §4, §6. */
+
+/* ---------- Section H2 "H96" (§0.5) ---------- */
+.h96 { font-family: Inter, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, "Segoe UI", Roboto, sans-serif;
+  font-size: 96px; line-height: 100px; font-weight: 600; letter-spacing: -2px; color: #FAFAFA; }
+.h96-serif { font-family: "PP Mondwest", Georgia, serif; font-weight: 400; font-size: 120px; }
+@media (max-width: 1280px) {
+  .h96 { font-size: 72px; line-height: 76px; letter-spacing: -2px; }
+  .h96-serif { font-size: 90px; }
+}
+@media (max-width: 799px) {
+  .h96 { font-size: 48px; line-height: 52px; letter-spacing: -1px; }
+  .h96-serif { font-size: 60px; }
+}
+
+/* Inline image inside an H2 line (§5, §6) — per-section width/height/translate set by modifier classes */
+.h2-inline-img { display: inline-block; vertical-align: middle; height: 0; position: relative; z-index: 1; line-height: 0; font-size: 0; }
+.h2-inline-img > img { position: absolute; top: 50%; left: 50%; width: auto; object-fit: contain; }
+
+/* ---------- Section shell ---------- */
+.topics-section { background: #0A0A0A; }
+.topics-section > .container { display: flex; flex-direction: column; gap: 64px; }
+@media (max-width: 1280px) { .topics-section > .container { gap: 24px; } }
+
+/* ---------- Topics row ---------- */
+.topics-row { display: flex; justify-content: space-between; gap: 140px; }
+.topics-left { flex: 0 0 510px; width: 510px; max-width: 100%; display: flex; flex-direction: column; justify-content: space-between; gap: 64px; }
+.topics-intro { display: flex; flex-direction: column; gap: 24px; }
+.topics-intro p { font-size: 24px; line-height: 32px; font-weight: 400; letter-spacing: -0.25px; color: #FAFAFA; }
+
+.topics-tablist { display: flex; flex-direction: column; gap: 24px; }
+.topics-tab { display: flex; flex-direction: column; gap: 24px; text-align: left; width: 100%;
+  font-size: 24px; line-height: 32px; font-weight: 500; letter-spacing: -0.25px;
+  color: rgba(255,255,255,0.64); transition: color 150ms; }
+.topics-tab:hover, .topics-tab[aria-selected="true"] { color: #FAFAFA; }
+.topics-tab:focus-visible { outline: 1px solid #FAFAFA; outline-offset: 4px; }
+.topics-progress { display: block; width: 100%; height: 1px; background: #3B3B3B; overflow: hidden; }
+.topics-progress-fill { display: block; width: 100%; height: 100%; background: #FAFAFA; transform-origin: left;
+  transform: scaleX(0); animation: topics-progress 6000ms linear forwards; }
+.topics-progress-fill[data-paused="true"] { animation-play-state: paused; }
+@keyframes topics-progress { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+.topics-right { flex: 0 1 616px; width: 616px; min-width: 0; display: flex; flex-direction: column; gap: 32px; }
+.topics-images { display: grid; border-radius: 8px; overflow: hidden; aspect-ratio: 616 / 400; }
+.topics-images > img { grid-area: 1 / 1; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 300ms; }
+.topics-images > img[data-active="true"] { opacity: 1; }
+.topics-panels { display: grid; }
+.topics-panel { grid-area: 1 / 1; display: flex; flex-direction: column; align-items: flex-start; gap: 16px; transition: opacity 150ms; }
+.topics-panel[data-active="false"] { opacity: 0; visibility: hidden; }
+
+.topics-desc { font-size: 16px; line-height: 24px; font-weight: 400; color: rgba(255,255,255,0.64); max-width: 568px; }
+.topics-link { position: relative; display: inline-block; font-size: 16px; line-height: 24px; font-weight: 600; color: #FAFAFA; }
+.topics-link::after { content: ""; position: absolute; left: 0; right: 0; bottom: 1px; height: 1px; background: #FAFAFA;
+  transform: scaleX(0); transform-origin: left; transition: transform 200ms ease-out; }
+.topics-link:hover::after { transform: scaleX(1); }
+
+/* ≤1280 carousel (replaces tablist + right column) */
+.topics-carousel { display: none; }
+@media (max-width: 1280px) {
+  .topics-row { display: block; }
+  .topics-intro p { font-size: 16px; line-height: 24px; letter-spacing: normal; }
+  .topics-left { width: auto; }
+  .topics-tablist, .topics-right { display: none; }
+  .topics-carousel { display: grid; grid-auto-flow: column; grid-auto-columns: 88%; gap: 32px;
+    overflow-x: auto; scroll-snap-type: x mandatory; overscroll-behavior-x: contain; scrollbar-width: none;
+    margin-inline: -64px; padding-inline: 64px; scroll-padding-inline: 64px; margin-top: 48px; }
+  .topics-carousel::-webkit-scrollbar { display: none; }
+}
+.topics-carousel-item { scroll-snap-align: start; display: flex; flex-direction: column; gap: 32px; }
+.topics-carousel-img { aspect-ratio: 616 / 400; border-radius: 8px; overflow: hidden; }
+.topics-carousel-img > img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.topics-carousel-text { display: flex; flex-direction: column; align-items: flex-start; gap: 16px; }
+.topics-carousel-text h3 { font-size: 24px; line-height: 32px; font-weight: 500; letter-spacing: -0.25px; color: #FAFAFA; }
+@media (max-width: 799px) {
+  .topics-carousel { grid-auto-columns: 85%; margin-inline: -16px; padding-inline: 16px; scroll-padding-inline: 16px; }
+  .topics-carousel-text h3 { font-size: 20px; line-height: 28px; }
+}
+
+/* ---------- Proof row ---------- */
+.proof-row { display: flex; gap: 32px; align-items: stretch; margin-top: 56px; }
+@media (max-width: 1280px) { .proof-row { flex-direction: column; margin-top: 24px; } }
+@media (max-width: 799px) { .proof-row { margin-top: 40px; } }
+
+/* Quote card */
+.quote-card { position: relative; flex: 1; display: flex; flex-direction: column; justify-content: space-between; gap: 64px;
+  padding: 48px; background: #0238CE; border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; overflow: hidden; }
+.quote-card-text { position: relative; z-index: 1; max-width: 700px; color: #FAFAFA;
+  font-size: 24px; line-height: 32px; font-weight: 500; letter-spacing: -0.5px; }
+.quote-card-bottom { position: relative; z-index: 1; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.quote-card-person { display: flex; align-items: center; gap: 16px; }
+.quote-card-avatar { width: 40px; height: 40px; border-radius: 4px; object-fit: cover; display: block; }
+.quote-card-name { font-size: 16px; line-height: 24px; font-weight: 500; color: #FAFAFA; }
+.quote-card-role { font-size: 14px; line-height: 16px; font-weight: 400; color: #FAFAFA; }
+.quote-card-logo { position: relative; overflow: hidden; flex-shrink: 0; }
+.quote-card-logo > img { position: absolute; max-width: none; }
+.quote-card-toplogo { display: none; position: relative; z-index: 1; }
+@media (max-width: 1280px) { .quote-card-text { font-size: 20px; line-height: 28px; letter-spacing: -0.25px; } }
+@media (max-width: 799px) {
+  .quote-card { padding: 32px; gap: 40px; }
+  .quote-card-text { font-size: 18px; line-height: 24px; letter-spacing: -0.25px; }
+  .quote-card-bottom .quote-card-logo { display: none; }
+  .quote-card-toplogo { display: block; }
+}
+
+/* Stat card */
+.stat-card { position: relative; flex: 0 0 400px; display: block; background: #121212;
+  border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; overflow: hidden; }
+@media (max-width: 1280px) { .stat-card { flex: 1 1 auto; } }
+.stat-card-content { height: 100%; padding: 48px; display: flex; flex-direction: column; justify-content: space-between; gap: 40px; }
+.stat-card-top { display: flex; gap: 8px; }
+.stat-card-mark { width: 32px; height: 39px; margin-top: 16px; flex-shrink: 0; display: block; }
+.stat-card-number { font-family: "PP Mondwest", Georgia, serif; font-weight: 400; font-size: 96px; line-height: 96px; color: #FAFAFA; }
+.stat-card-bottom { display: flex; flex-direction: column; gap: 4px; }
+.stat-card-title { font-size: 16px; line-height: 24px; font-weight: 500; color: #FAFAFA; }
+.stat-card-desc { font-size: 14px; line-height: 20px; font-weight: 400; color: rgba(255,255,255,0.64); }
+.stat-card-dissolve { position: absolute; inset: 0; z-index: 2; pointer-events: none; }
+.stat-card-overlay { position: absolute; inset: 0; z-index: 3; padding: 48px; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 10px; opacity: 0; color: #FAFAFA; pointer-events: none;
+  transition: opacity 150ms; /* original base rule: fades out over 150ms on mouse-out (hover rule: 400ms 300ms) */ }
+.stat-card:hover .stat-card-overlay, .stat-card:focus-visible .stat-card-overlay { opacity: 1; transition: opacity 400ms 300ms; }
+.stat-card-overlay svg { width: 32px; height: 32px; display: block; }
+.stat-card-overlay p { font-size: 16px; line-height: 24px; font-weight: 500; text-align: center; max-width: 280px; }
+@media (max-width: 799px) {
+  .stat-card-content { padding: 32px; }
+  .stat-card-number { font-size: 74px; line-height: 74px; }
+}
+@media (hover: none) { .stat-card-dissolve, .stat-card-overlay { display: none; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .topics-progress-fill { animation: none; transform: none; }
+}

@@ -1,0 +1,348 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T16",
+ "route": "/blog-index-wrenfield/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Wrenfield"
+ },
+ "meta": {
+  "title": "Wrenfield | Blog"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Grove cedar trace",
+    "actions": [
+     {
+      "label": "Quarry ember",
+      "href": "https://wrenfield.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Shape",
+      "href": "https://wrenfield.example/navbar-0"
+     },
+     {
+      "label": "Notice",
+      "href": "https://wrenfield.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Ledger"
+     },
+     {
+      "title": "Tidal"
+     },
+     {
+      "title": "Lantern"
+     },
+     {
+      "title": "Weigh"
+     },
+     {
+      "title": "Refine"
+     },
+     {
+      "title": "Rowan"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Nimbus tidy",
+      "text": "Thread compass marble ember shape cinder sprout harvest"
+     },
+     {
+      "title": "Cobalt tidal",
+      "text": "Willow signal refine rowan bundle canvas map trace"
+     },
+     {
+      "title": "Quarry plan",
+      "text": "Orbit gather notice steer ledger harbor willow signal"
+     },
+     {
+      "title": "Refine rowan",
+      "text": "Bundle grove cedar compass sketch field orbit meadow"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "listing.featured-header",
+   "variant": "default",
+   "content": {
+    "heading": "Spro",
+    "actions": [
+     {
+      "label": "Steer sort",
+      "href": "https://wrenfield.example/featured-header-0"
+     },
+     {
+      "label": "Harbor",
+      "href": "https://wrenfield.example/featured-header-1"
+     },
+     {
+      "label": "Falcon refine",
+      "href": "https://wrenfield.example/featured-header-2"
+     },
+     {
+      "label": "Measure",
+      "href": "https://wrenfield.example/featured-header-3"
+     },
+     {
+      "label": "Grove cedar",
+      "href": "https://wrenfield.example/featured-header-4"
+     },
+     {
+      "label": "Trace sketch",
+      "href": "https://wrenfield.example/featured-header-5"
+     }
+    ],
+    "items": [
+     {
+      "title": "Plan orbit gather",
+      "text": "Notice steer",
+      "href": "https://wrenfield.example/featured-header-item0",
+      "media": {
+       "assetRole": "content.generated-cover",
+       "alt": "",
+       "ref": "generate:content.generated-cover/listing.featured-header-item0"
+      }
+     },
+     {
+      "title": "Harbor lantern falcon",
+      "text": "Beacon rowan",
+      "href": "https://wrenfield.example/featured-header-item1",
+      "media": {
+       "assetRole": "content.generated-cover",
+       "alt": "",
+       "ref": "generate:content.generated-cover/listing.featured-header-item1"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.card-grid",
+   "variant": "blog",
+   "content": {
+    "actions": [
+     {
+      "label": "Grove map",
+      "href": "https://wrenfield.example/card-grid-0"
+     }
+    ],
+    "items": [
+     {
+      "title": "Compass sketch ember",
+      "text": "Shape cinder",
+      "href": "https://wrenfield.example/card-grid-item0",
+      "media": {
+       "assetRole": "content.generated-cover",
+       "alt": "Steer sort share",
+       "ref": "generate:content.generated-cover/listing.card-grid-item0"
+      }
+     },
+     {
+      "title": "Lantern weigh basil",
+      "text": "Rowan bundle tidy",
+      "href": "https://wrenfield.example/card-grid-item1",
+      "media": {
+       "assetRole": "content.generated-cover",
+       "alt": "Thread compass quarry",
+       "ref": "generate:content.generated-cover/listing.card-grid-item1"
+      }
+     },
+     {
+      "title": "Ember shape gather",
+      "text": "Sprout juniper",
+      "href": "https://wrenfield.example/card-grid-item2",
+      "media": {
+       "assetRole": "content.generated-cover",
+       "alt": "Tidal willow weigh",
+       "ref": "generate:content.generated-cover/listing.card-grid-item2"
+      }
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "content.generated-cover",
+      "alt": "",
+      "ref": "generate:content.generated-cover/listing.card-grid-0"
+     },
+     {
+      "assetRole": "content.generated-cover",
+      "alt": "",
+      "ref": "generate:content.generated-cover/listing.card-grid-1"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "dark",
+   "content": {
+    "heading": "Beacon measure",
+    "actions": [
+     {
+      "label": "Thread delta",
+      "href": "https://wrenfield.example/final-cta-0"
+     },
+     {
+      "label": "Sketch field",
+      "href": "https://wrenfield.example/final-cta-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-7"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "lead": "Prism cinder summit steer ledger",
+    "actions": [
+     {
+      "label": "Lantern weigh",
+      "href": "https://wrenfield.example/footer-0"
+     },
+     {
+      "label": "Refine rowan",
+      "href": "https://wrenfield.example/footer-1"
+     },
+     {
+      "label": "Pebble tidy",
+      "href": "https://wrenfield.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Thread"
+     },
+     {
+      "title": "Compass"
+     },
+     {
+      "title": "Marble"
+     },
+     {
+      "title": "Plan"
+     },
+     {
+      "title": "Shape"
+     },
+     {
+      "title": "Meadow"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

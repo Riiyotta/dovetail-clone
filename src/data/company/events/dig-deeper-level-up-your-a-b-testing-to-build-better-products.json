@@ -1,0 +1,104 @@
+{
+ "slug": "dig-deeper-level-up-your-a-b-testing-to-build-better-products",
+ "path": "/events/dig-deeper-level-up-your-a-b-testing-to-build-better-products/",
+ "title": "Dig deeper: level up your A/B testing to build better products",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2023-12-06T00:00+11:00",
+ "endDate": null,
+ "onlineEvent": true,
+ "location": "Online",
+ "hosts": [
+  "Che Sharma",
+  "Sean Bruce"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": "-3SwcV7XG7w",
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Che Sharma, Sean Bruce"
+  },
+  {
+   "label": "[START]",
+   "value": "05 Dec 2023 5:00AM PST"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Online"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "video",
+  "image": "/assets/company/media/InsightOutABTest_1080_v3.png",
+  "width": 1920,
+  "height": 1080,
+  "youtubeId": "-3SwcV7XG7w"
+ },
+ "body": [
+  {
+   "t": "h2",
+   "text": "About this talk"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 503
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 263
+  },
+  {
+   "t": "p",
+   "text": "In this webinar Chetan will cover:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 64
+    },
+    {
+     "text": "Steps for increasing your experimentation velocity"
+    },
+    {
+     "placeholder": true,
+     "chars": 134
+    },
+    {
+     "placeholder": true,
+     "chars": 72
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 42,
+   "links": [
+    {
+     "text": "Reach out to our team",
+     "href": "/contact-sales/"
+    }
+   ]
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

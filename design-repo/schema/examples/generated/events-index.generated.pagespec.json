@@ -1,0 +1,398 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T28",
+ "route": "/events-index-cindercove/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Cindercove"
+ },
+ "meta": {
+  "title": "Cindercove | Events"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Bundle tidy",
+    "actions": [
+     {
+      "label": "Trace sketch",
+      "href": "https://cindercove.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Field prism",
+      "href": "https://cindercove.example/navbar-0"
+     },
+     {
+      "label": "Cinder",
+      "href": "https://cindercove.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Juniper"
+     },
+     {
+      "title": "Cobalt"
+     },
+     {
+      "title": "Share"
+     },
+     {
+      "title": "Lantern"
+     },
+     {
+      "title": "Falcon"
+     },
+     {
+      "title": "Beacon"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Rowan pebble",
+      "text": "Tidy map trace marble ember shape gather summit"
+     },
+     {
+      "title": "Juniper sort",
+      "text": "Tidal lantern signal basil measure nimbus grove map"
+     },
+     {
+      "title": "Compass",
+      "text": "Plan orbit meadow summit juniper cobalt share fjord"
+     },
+     {
+      "title": "Weigh basil",
+      "text": "Rowan nimbus canvas cedar compass quarry field shape"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.dot-title",
+   "variant": "default",
+   "content": {
+    "heading": "Cinder",
+    "lead": "Notice steer cobalt share lantern falcon refine rowan bundle tidy thread delta quarry plan"
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.event-cards",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Shape gather sprout",
+      "text": "Juniper cobalt",
+      "href": "https://cindercove.example/event-cards-item0",
+      "media": {
+       "assetRole": "product.generated-visual",
+       "alt": "",
+       "ref": "generate:product.generated-visual/listing.event-cards-item0"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.row-list",
+   "variant": "past-events",
+   "content": {
+    "actions": [
+     {
+      "label": "Falcon beacon",
+      "href": "https://cindercove.example/row-list-0"
+     },
+     {
+      "label": "Atlas nimbus",
+      "href": "https://cindercove.example/row-list-1"
+     },
+     {
+      "label": "Tidy thread",
+      "href": "https://cindercove.example/row-list-2"
+     },
+     {
+      "label": "Compass marble",
+      "href": "https://cindercove.example/row-list-3"
+     },
+     {
+      "label": "Field prism",
+      "href": "https://cindercove.example/row-list-4"
+     }
+    ],
+    "items": [
+     {
+      "title": "Gather summit juniper",
+      "href": "https://cindercove.example/row-list-item0"
+     },
+     {
+      "title": "Sort harbor fjord",
+      "href": "https://cindercove.example/row-list-item1"
+     },
+     {
+      "title": "Signal refine rowan",
+      "href": "https://cindercove.example/row-list-item2"
+     },
+     {
+      "title": "Pebble tidy thread",
+      "href": "https://cindercove.example/row-list-item3"
+     },
+     {
+      "title": "Delta quarry field",
+      "href": "https://cindercove.example/row-list-item4"
+     },
+     {
+      "title": "Prism meadow notice",
+      "href": "https://cindercove.example/row-list-item5"
+     },
+     {
+      "title": "Harvest sort harbor",
+      "href": "https://cindercove.example/row-list-item6"
+     },
+     {
+      "title": "Willow signal refine",
+      "href": "https://cindercove.example/row-list-item7"
+     },
+     {
+      "title": "Atlas bundle canvas",
+      "href": "https://cindercove.example/row-list-item8"
+     },
+     {
+      "title": "Cedar compass marble",
+      "href": "https://cindercove.example/row-list-item9"
+     },
+     {
+      "title": "Field orbit cinder",
+      "href": "https://cindercove.example/row-list-item10"
+     },
+     {
+      "title": "Notice juniper ledger",
+      "href": "https://cindercove.example/row-list-item11"
+     },
+     {
+      "title": "Tidal lantern falcon",
+      "href": "https://cindercove.example/row-list-item12"
+     },
+     {
+      "title": "Beacon atlas nimbus",
+      "href": "https://cindercove.example/row-list-item13"
+     },
+     {
+      "title": "Grove cedar compass",
+      "href": "https://cindercove.example/row-list-item14"
+     },
+     {
+      "title": "Marble plan orbit",
+      "href": "https://cindercove.example/row-list-item15"
+     },
+     {
+      "title": "Gather summit harvest",
+      "href": "https://cindercove.example/row-list-item16"
+     },
+     {
+      "title": "Sort share willow",
+      "href": "https://cindercove.example/row-list-item17"
+     },
+     {
+      "title": "Signal basil rowan",
+      "href": "https://cindercove.example/row-list-item18"
+     },
+     {
+      "title": "Bundle tidy map",
+      "href": "https://cindercove.example/row-list-item19"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "dark",
+   "content": {
+    "heading": "Delta marble ember",
+    "actions": [
+     {
+      "label": "Meadow notice",
+      "href": "https://cindercove.example/final-cta-0"
+     },
+     {
+      "label": "Juniper sort",
+      "href": "https://cindercove.example/final-cta-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-7"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "cta.inline-band",
+   "variant": "dark",
+   "content": {
+    "heading": "Share willow signal beacon",
+    "actions": [
+     {
+      "label": "Rowan nimbus",
+      "href": "https://cindercove.example/inline-band-0"
+     },
+     {
+      "label": "Tidy cedar",
+      "href": "https://cindercove.example/inline-band-1"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "lead": "Compass quarry ember prism meadow",
+    "actions": [
+     {
+      "label": "Juniper cobalt",
+      "href": "https://cindercove.example/footer-0"
+     },
+     {
+      "label": "Harbor willow",
+      "href": "https://cindercove.example/footer-1"
+     },
+     {
+      "label": "Weigh refine",
+      "href": "https://cindercove.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Atlas"
+     },
+     {
+      "title": "Bundle"
+     },
+     {
+      "title": "Tidy"
+     },
+     {
+      "title": "Cedar"
+     },
+     {
+      "title": "Trace"
+     },
+     {
+      "title": "Sketch"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

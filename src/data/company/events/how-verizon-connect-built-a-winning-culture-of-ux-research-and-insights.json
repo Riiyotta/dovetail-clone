@@ -1,0 +1,96 @@
+{
+ "slug": "how-verizon-connect-built-a-winning-culture-of-ux-research-and-insights",
+ "path": "/events/how-verizon-connect-built-a-winning-culture-of-ux-research-and-insights/",
+ "title": "How Verizon Connect built a winning culture of UX research and insights",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2025-01-14T00:00+11:00",
+ "endDate": null,
+ "onlineEvent": true,
+ "location": "Online",
+ "hosts": [
+  "Cheryl Abellanoza",
+  "PhD",
+  "Iris Barrera",
+  "Alissa Lydon"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": "PkJEDbxWROY",
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Cheryl Abellanoza, PhD, Iris Barrera, Alissa Lydon"
+  },
+  {
+   "label": "[START]",
+   "value": "13 Jan 2025 5:00AM PST"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Online"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "video",
+  "image": "/assets/company/media/verizon_webinar_-_events_page_hero.png",
+  "width": 3840,
+  "height": 2160,
+  "youtubeId": "PkJEDbxWROY"
+ },
+ "body": [
+  {
+   "t": "h2",
+   "text": "How do you communicate the value of customer insights?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 556
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 369
+  },
+  {
+   "t": "p",
+   "text": "In this session you will learn how:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 107
+    },
+    {
+     "placeholder": true,
+     "chars": 126
+    },
+    {
+     "placeholder": true,
+     "chars": 160
+    },
+    {
+     "placeholder": true,
+     "chars": 145
+    }
+   ]
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

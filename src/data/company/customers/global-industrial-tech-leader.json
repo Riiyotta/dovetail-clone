@@ -1,0 +1,327 @@
+{
+ "slug": "global-industrial-tech-leader",
+ "path": "/customers/global-industrial-tech-leader/",
+ "title": "How a global industrial technology company got decision-makers acting on customer intelligence",
+ "eyebrow": "CUSTOMER / A GLOBAL INDUSTRIAL TECHNOLOGY COMPANY",
+ "companyName": "A global industrial technology company",
+ "isAnonymous": true,
+ "industry": "Technology",
+ "intro": {
+  "placeholder": true,
+  "chars": 254
+ },
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/external/unsplash-photo-1682663810771-89d21838530f-623771.jpg",
+  "width": 1080,
+  "height": 810,
+  "youtubeId": null,
+  "caption": []
+ },
+ "stats": [
+  {
+   "value": "1,900+",
+   "label": "insights created from real customer conversations, cited and reusable across teams"
+  },
+  {
+   "value": "800+",
+   "label": "cited answers pulled straight from customer data through Chat"
+  },
+  {
+   "value": "425",
+   "label": "team members across the organization with access to one shared source of customer evidence"
+  }
+ ],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "A global industrial technology company that runs on precision",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 387
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 411
+    }
+   ]
+  },
+  {
+   "heading": "The challenge: research scattered, redundant, and easy to ignore",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 383
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 259
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 193,
+     "links": [
+      {
+       "text": "ask an LLM",
+       "href": "/blog/no-your-team-cant-just-use-chatgpt-for-this/"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 206
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 338
+    }
+   ]
+  },
+  {
+   "heading": "The solution: AI answers grounded in real customer voice",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 303
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 336
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 273,
+     "links": [
+      {
+       "text": "Chat",
+       "href": "/product/ai-chat/"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 278
+    }
+   ],
+   "pullQuotes": [
+    {
+     "quote": {
+      "placeholder": true,
+      "chars": 136
+     },
+     "name": null,
+     "role": "Head of Research",
+     "avatar": null,
+     "href": "/customers/global-industrial-tech-leader/"
+    }
+   ]
+  },
+  {
+   "heading": "The payoff: evidence-based decisions",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 377
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 388
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 429
+    }
+   ],
+   "pullQuotes": [
+    {
+     "quote": {
+      "placeholder": true,
+      "chars": 145
+     },
+     "name": null,
+     "role": "Senior UX Researcher",
+     "avatar": null,
+     "href": "/customers/global-industrial-tech-leader/"
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": {
+  "quote": {
+   "placeholder": true,
+   "chars": 145
+  },
+  "name": null,
+  "role": "Senior UX Researcher"
+ },
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "global-agricultural-equipment-maker",
+   "href": "/customers/global-agricultural-equipment-maker/",
+   "title": "How a global agricultural equipment maker unified customer intelligence across 100+ product lines",
+   "industry": "Manufacturing",
+   "order": 99,
+   "companyName": "A global leader in agricultural and construction equipment",
+   "gridTitle": "Agricultural machinery corporation",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-agricultural-machinery-corporation.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 243
+    },
+    "name": null,
+    "role": "UX Researcher"
+   }
+  },
+  {
+   "slug": "fleet-management-tech-leader",
+   "href": "/customers/fleet-management-tech-leader/",
+   "title": "How a fleet management technology company gave every leader direct access to customer intelligence",
+   "industry": "Technology",
+   "order": 99,
+   "companyName": "A connected fleet technology company",
+   "gridTitle": "Connected fleet technology provider",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-fleet-management-tech-leader.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 149
+    },
+    "name": null,
+    "role": "Research Operations Lead"
+   }
+  },
+  {
+   "slug": "iconic-global-automaker",
+   "href": "/customers/iconic-global-automaker/",
+   "title": "How one of the world's most iconic automakers put customer intelligence in the hands of its engineers",
+   "industry": "Manufacturing",
+   "order": 99,
+   "companyName": "One of the world's most iconic automakers",
+   "gridTitle": "Iconic global automaker",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-iconic-global-automaker.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 252
+    },
+    "name": null,
+    "role": "Lead UX Strategist"
+   }
+  }
+ ],
+ "faq": {
+  "heading": "FAQs",
+  "items": [
+   {
+    "q": "How does Dovetail handle customer research spread across multiple business units or regions?",
+    "a": {
+     "placeholder": true,
+     "chars": 241
+    }
+   },
+   {
+    "q": "Can Dovetail’s AI answer questions with citations instead of generic AI-generated guesses?",
+    "a": {
+     "placeholder": true,
+     "chars": 308
+    }
+   },
+   {
+    "q": "Can Dovetail stop teams from re-running research that’s already been done?",
+    "a": {
+     "placeholder": true,
+     "chars": 442
+    }
+   },
+   {
+    "q": "How does Dovetail help teams see how often the same customer issue comes up?",
+    "a": {
+     "placeholder": true,
+     "chars": 249
+    }
+   },
+   {
+    "q": "Can Dovetail give an entire organization, not just the research team, access to the same customer evidence?",
+    "a": {
+     "placeholder": true,
+     "chars": 243
+    }
+   }
+  ]
+ }
+}

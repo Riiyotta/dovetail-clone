@@ -1,0 +1,715 @@
+{
+ "path": "/resources/dovetail-vs-enterpret/",
+ "title": "Dovetail vs Enterpret: Key Differences for Customer Feedback Analysis",
+ "breadcrumb": [
+  {
+   "label": "Guides",
+   "href": "/guides/"
+  },
+  {
+   "label": "Dovetail vs Enterpret",
+   "href": null
+  }
+ ],
+ "h1": "Dovetail vs Enterpret",
+ "meta": [
+  [
+   "Last updated",
+   "28 September 2026"
+  ]
+ ],
+ "share": [
+  {
+   "heading": "Share",
+   "links": [
+    {
+     "label": "Copy link",
+     "href": null
+    },
+    {
+     "label": "Share on Facebook",
+     "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-enterpret%2F"
+    },
+    {
+     "label": "Share on LinkedIn",
+     "href": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-enterpret%2F"
+    },
+    {
+     "label": "Share on X",
+     "href": "https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20article%20at%20Dovetail!&url=https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-enterpret%2F&via=hidovetail"
+    }
+   ]
+  },
+  {
+   "heading": "Summarize with AI",
+   "links": [
+    {
+     "label": "Summarize with ChatGPT",
+     "href": "https://chat.openai.com/?q=Summarize%20this%20article%20%22Dovetail%20vs%20Enterpret%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-enterpret%2F"
+    },
+    {
+     "label": "Summarize with Claude",
+     "href": "https://claude.ai/new?q=Summarize%20this%20article%20%22Dovetail%20vs%20Enterpret%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-enterpret%2F"
+    },
+    {
+     "label": "Summarize with Perplexity",
+     "href": "https://www.perplexity.ai/search?q=Summarize%20this%20article%20%22Dovetail%20vs%20Enterpret%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-enterpret%2F"
+    },
+    {
+     "label": "Summarize with Grok",
+     "href": "https://x.com/i/grok?text=Summarize%20this%20article%20%22Dovetail%20vs%20Enterpret%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-enterpret%2F"
+    }
+   ]
+  }
+ ],
+ "sidebarCta": {
+  "heading": "Get started today",
+  "body": "Go from raw data to valuable insights with a flexible research platform",
+  "button": {
+   "label": "Contact sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "toc": [
+  "Quick answer",
+  "What is Enterpret?",
+  "What is Dovetail?",
+  "Is Dovetail just a research repository?",
+  "Where Enterpret’s scope ends",
+  "AI capabilities compared",
+  "Integrations and workflows",
+  "Governance and security",
+  "Side-by-side comparison",
+  "When to choose Dovetail",
+  "Decision summary"
+ ],
+ "body": [
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 113
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 261,
+   "strong": [
+    "Reviewed and updated in September 2026.",
+    "AI Agents",
+    "MCP server"
+   ],
+   "links": [
+    {
+     "text": "AI Agents",
+     "href": "https://www.enterpret.com/platform/ai-agents"
+    },
+    {
+     "text": "MCP server",
+     "href": "https://www.enterpret.com/platform/enterpret-mcp-server"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Quick answer"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 234
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 303
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 264,
+   "strong": [
+    "Choose Enterpret",
+    "Choose Dovetail"
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "What is Enterpret?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 172,
+   "strong": [
+    "a Customer Intelligence Platform"
+   ],
+   "links": [
+    {
+     "text": "a Customer Intelligence Platform",
+     "href": "https://www.enterpret.com/"
+    }
+   ]
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 233,
+     "strong": [
+      "Adaptive Taxonomy:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 95,
+     "strong": [
+      "Customer Context Graph:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 131,
+     "strong": [
+      "Wisdom:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 191,
+     "strong": [
+      "AI Agents:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 219,
+     "strong": [
+      "Integrations:"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 109,
+   "strong": [
+    "security page"
+   ],
+   "links": [
+    {
+     "text": "security page",
+     "href": "https://www.enterpret.com/security"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "What is Dovetail?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 162
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 303,
+     "strong": [
+      "Channels:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 206,
+     "strong": [
+      "Research projects:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 124,
+     "strong": [
+      "AI Chat and AI Docs:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 94,
+     "strong": [
+      "Highlight reels:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 189,
+     "strong": [
+      "AI Agents:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 148,
+     "strong": [
+      "Digital twins:"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Is Dovetail just a research repository?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 199
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 529,
+   "strong": [
+    "tagged automatically as it arrives"
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 264
+  },
+  {
+   "t": "h2",
+   "text": "Where Enterpret’s scope ends"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 299,
+   "strong": [
+    "Zoom integration"
+   ],
+   "links": [
+    {
+     "text": "Zoom integration",
+     "href": "https://helpcenter.enterpret.com/en/articles/14195667-zoom-integration"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 406
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 243
+  },
+  {
+   "t": "h2",
+   "text": "AI capabilities compared"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 97
+  },
+  {
+   "t": "table",
+   "head": [
+    "Capability",
+    "Dovetail",
+    "Enterpret"
+   ],
+   "rows": [
+    [
+     "Automatic classification",
+     {
+      "placeholder": true,
+      "chars": 81
+     },
+     {
+      "placeholder": true,
+      "chars": 70
+     }
+    ],
+    [
+     "AI assistant",
+     {
+      "placeholder": true,
+      "chars": 66
+     },
+     "Wisdom, with citations, in-app and in Slack and Linear"
+    ],
+    [
+     "Agents",
+     {
+      "placeholder": true,
+      "chars": 101
+     },
+     {
+      "placeholder": true,
+      "chars": 65
+     }
+    ],
+    [
+     "Customer simulation",
+     {
+      "placeholder": true,
+      "chars": 61
+     },
+     "Not publicly documented"
+    ],
+    [
+     "Research synthesis",
+     "AI Analysis across interviews, usability tests, and feedback",
+     "Not publicly documented"
+    ]
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Integrations and workflows"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 496,
+   "strong": [
+    "help documentation"
+   ],
+   "links": [
+    {
+     "text": "help documentation",
+     "href": "https://helpcenter.enterpret.com/en/articles/13940912-linear-integration"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Governance and security"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 387
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 152
+  },
+  {
+   "t": "h2",
+   "text": "Side-by-side comparison"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 29,
+   "strong": [
+    "Last reviewed: September 2026"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    "If you need...",
+    "Dovetail",
+    "Enterpret"
+   ],
+   "rows": [
+    [
+     "Continuous ingestion of tickets, calls, reviews, and surveys",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "Automatic classification without manual tagging",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "Feedback ranked by ARR and account",
+     "Yes, via Salesforce or HubSpot",
+     "Yes"
+    ],
+    [
+     "AI answers with citations",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "AI agents that monitor feedback and take action",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "MCP server for Claude and ChatGPT",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "Social and community feedback sources",
+     "Via Snowflake or CSV",
+     "Yes, native connectors"
+    ],
+    [
+     "Interview recording and transcription",
+     "Yes",
+     "Zoom external calls"
+    ],
+    [
+     "Usability test analysis and research synthesis",
+     "Yes",
+     "Not publicly documented"
+    ],
+    [
+     "Highlight reels and research reports",
+     "Yes",
+     "Not publicly documented"
+    ],
+    [
+     "AI-moderated interviews",
+     "Via Outset integration",
+     "Not publicly documented"
+    ],
+    [
+     "Digital twins grounded in real customer evidence",
+     "Yes",
+     "Not publicly documented"
+    ],
+    [
+     "Create Linear issues from feedback",
+     "Yes",
+     "Listed as upcoming"
+    ],
+    [
+     "Data residency outside the US",
+     "US, EU, and APAC",
+     "Not publicly documented"
+    ],
+    [
+     "ISO 42001",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "Free trial",
+     "60 days, no credit card",
+     "Self-serve trial; pricing not published"
+    ]
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "When to choose Dovetail"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 19
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 86
+    },
+    {
+     "placeholder": true,
+     "chars": 94
+    },
+    {
+     "placeholder": true,
+     "chars": 86
+    },
+    {
+     "text": "You need data residency in the EU or APAC"
+    },
+    {
+     "placeholder": true,
+     "chars": 92
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Decision summary"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 438
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 234,
+   "strong": [
+    "Dovetail vs Enterpret"
+   ],
+   "links": [
+    {
+     "text": "Dovetail vs Enterpret",
+     "href": "/dovetail-vs-enterpret/"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "FAQs"
+  },
+  {
+   "t": "h3",
+   "text": "What are the key differences between Dovetail and Enterpret?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 496
+  },
+  {
+   "t": "h3",
+   "text": "Is Dovetail or Enterpret better for customer feedback analysis?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 404
+  },
+  {
+   "t": "h3",
+   "text": "Does Dovetail require manual tagging?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 322
+  },
+  {
+   "t": "h3",
+   "text": "Can Dovetail tie customer feedback to revenue like Enterpret?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 246
+  },
+  {
+   "t": "h3",
+   "text": "What’s a good alternative to Enterpret for feedback analysis?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 365
+  },
+  {
+   "t": "h3",
+   "text": "Can I migrate from Enterpret to Dovetail?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 228
+  }
+ ],
+ "relatedTopics": [
+  {
+   "label": "[Customer research]",
+   "href": "/customer-research/"
+  },
+  {
+   "label": "[Design thinking]",
+   "href": "/design-thinking/"
+  },
+  {
+   "label": "[Employee experience]",
+   "href": "/employee-experience/"
+  },
+  {
+   "label": "[Enterprise]",
+   "href": "/enterprise/"
+  },
+  {
+   "label": "[Market research]",
+   "href": "/market-research/"
+  },
+  {
+   "label": "[Patient experience]",
+   "href": "/patient-experience/"
+  },
+  {
+   "label": "[Product development]",
+   "href": "/product-development/"
+  },
+  {
+   "label": "[Product management]",
+   "href": "/product-management/"
+  },
+  {
+   "label": "[Research maturity assessment]",
+   "href": "/research-maturity-assessment/"
+  },
+  {
+   "label": "[Research methods]",
+   "href": "/research/"
+  },
+  {
+   "label": "[Surveys]",
+   "href": "/surveys/"
+  },
+  {
+   "label": "[User experience (UX)]",
+   "href": "/ux/"
+  }
+ ],
+ "relatedArticles": [
+  {
+   "title": "What can I use instead of Insight7? Alternatives by use case",
+   "href": "/resources/insight7-alternatives/",
+   "date": "20 October 2026"
+  },
+  {
+   "title": "How does Dovetail compare to Aurelius for user research?",
+   "href": "/resources/dovetail-vs-aurelius/",
+   "date": "20 October 2026"
+  },
+  {
+   "title": "Dovetail review: tagging, search, AI, and pricing in 2026",
+   "href": "/resources/dovetail-review/",
+   "date": "29 September 2026"
+  },
+  {
+   "title": "Dovetail vs Marvin",
+   "href": "/resources/dovetail-vs-marvin/",
+   "date": "28 September 2026"
+  },
+  {
+   "title": "Dovetail vs Qualtrics",
+   "href": "/resources/dovetail-vs-qualtrics/",
+   "date": "28 September 2026"
+  }
+ ],
+ "cta": {
+  "heading": "Turn customer feedback into product innovation",
+  "buttons": [
+   {
+    "label": "Contact sales",
+    "href": "/contact-sales/"
+   },
+   {
+    "label": "Try Dovetail free",
+    "href": "/auth/signup/"
+   }
+  ]
+ },
+ "theme": "light"
+}

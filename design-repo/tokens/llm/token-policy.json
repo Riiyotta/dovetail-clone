@@ -1,0 +1,302 @@
+{
+ "version": "1.0.0",
+ "themes": [
+  "dark",
+  "light",
+  "campaign"
+ ],
+ "categories": [
+  "breakpoint",
+  "color",
+  "elevation",
+  "fontFamily",
+  "fontWeight",
+  "iconSize",
+  "layout",
+  "motion",
+  "radius",
+  "spacing",
+  "typography",
+  "zIndex"
+ ],
+ "rawValueRestrictions": {
+  "color": "no raw hex/rgb/hsl colours in a PageSpec: colour props take color.* tokens",
+  "spacing": "no raw lengths: spacing props take space.* tokens",
+  "fontFamily": "no font names: fonts come from the section contracts; PP Mondwest is a commercial face (reference only)"
+ },
+ "unsupportedFonts": [
+  "PP Mondwest",
+  "Mondwest",
+  "Georgia",
+  "Arial",
+  "Helvetica",
+  "Times",
+  "Comic Sans"
+ ],
+ "themeTokenRules": {
+  "accent": {
+   "themes": [
+    "dark"
+   ],
+   "note": "product/story accent colours are only used on dark-theme pages (nav + banner veil)"
+  }
+ },
+ "styleProps": {
+  "spaceBefore": {
+   "kind": "token",
+   "categories": [
+    "spacing"
+   ],
+   "allowedBySection": {
+    "article.header": [
+     "space.section.hero"
+    ],
+    "article.lede": [
+     "space.section.s200"
+    ],
+    "company.benefits": [
+     "space.section.s200"
+    ],
+    "company.hiring-steps": [
+     "space.section.s200"
+    ],
+    "company.open-positions": [
+     "space.section.s200"
+    ],
+    "company.people-accordion": [
+     "space.section.s200"
+    ],
+    "company.values": [
+     "space.section.s200"
+    ],
+    "company.video-gallery": [
+     "space.section.s200"
+    ],
+    "comparison.intro": [
+     "space.section.s160"
+    ],
+    "comparison.table": [
+     "space.section.s64"
+    ],
+    "content.editorial-process": [
+     "space.section.s200"
+    ],
+    "content.full-bleed-image": [
+     "space.section.hero"
+    ],
+    "content.launch-recap": [
+     "space.campaign.240"
+    ],
+    "content.manifesto": [
+     "space.section.s160"
+    ],
+    "content.section-intro": [
+     "space.section.s200",
+     "space.stack.56"
+    ],
+    "content.skills-tags": [
+     "space.section.s64"
+    ],
+    "content.split-intro": [
+     "space.section.s160"
+    ],
+    "content.statement": [
+     "space.section.s200"
+    ],
+    "conversion.lead-form": [
+     "space.section.hero",
+     "space.section.s200"
+    ],
+    "conversion.report-download": [
+     "space.section.s64"
+    ],
+    "conversion.trial-signup": [
+     "space.section.s246"
+    ],
+    "cta.closing-with-stories": [
+     "space.section.s120"
+    ],
+    "cta.final-cta": [
+     "space.section.s160"
+    ],
+    "cta.inline-band": [
+     "space.section.s200"
+    ],
+    "cta.launch-closing": [
+     "space.campaign.320"
+    ],
+    "cta.migrate-band": [
+     "space.section.s160"
+    ],
+    "cta.quiz-promo": [
+     "space.section.s200"
+    ],
+    "cta.sidebar-card": [
+     "space.section.s200"
+    ],
+    "cta.talent-callout": [
+     "space.section.hero"
+    ],
+    "cta.tool-card": [
+     "space.section.s200"
+    ],
+    "cta.trial-band": [
+     "space.section.s200"
+    ],
+    "features.alternating-row": [
+     "space.section.hero",
+     "space.stack.56"
+    ],
+    "features.benefit-cards": [
+     "space.section.s200"
+    ],
+    "features.channel-grid": [
+     "space.section.hero"
+    ],
+    "features.checklist-grid": [
+     "space.section.hero"
+    ],
+    "features.choose-grid": [
+     "space.section.s160"
+    ],
+    "features.icon-grid": [
+     "space.section.s200"
+    ],
+    "features.integrations-grid": [
+     "space.section.s200"
+    ],
+    "features.integrations-list": [
+     "space.section.s200"
+    ],
+    "features.launch-feature": [
+     "space.campaign.240",
+     "space.campaign.320",
+     "space.section.s160"
+    ],
+    "features.numbered-steps": [
+     "space.section.s200"
+    ],
+    "features.roi-map": [
+     "space.section.s200"
+    ],
+    "features.security-compliance": [
+     "space.section.s200"
+    ],
+    "hero.comparison": [
+     "space.section.hero"
+    ],
+    "hero.split-media": [
+     "space.section.hero"
+    ],
+    "hero.tool": [
+     "space.section.s200"
+    ],
+    "interactive.faq": [
+     "space.section.hero",
+     "space.section.s160",
+     "space.section.s200"
+    ],
+    "interactive.role-quiz": [
+     "space.section.header"
+    ],
+    "interactive.use-case-tabs": [
+     "space.section.s200"
+    ],
+    "interactive.vertical-tabs": [
+     "space.section.s200"
+    ],
+    "listing.article-list": [
+     "space.section.s200"
+    ],
+    "listing.card-grid": [
+     "space.section.s200",
+     "space.section.s80"
+    ],
+    "listing.event-cards": [
+     "space.section.s200"
+    ],
+    "listing.featured-header": [
+     "space.section.hero"
+    ],
+    "listing.link-list": [
+     "space.section.hero",
+     "space.section.s200"
+    ],
+    "listing.page-header": [
+     "space.section.hero"
+    ],
+    "listing.related-articles": [
+     "space.section.s200"
+    ],
+    "listing.row-list": [
+     "space.section.s200"
+    ],
+    "listing.topic-links": [
+     "space.section.s200"
+    ],
+    "listing.video-grid": [
+     "space.section.hero",
+     "space.section.s200"
+    ],
+    "pricing.plan-cards": [
+     "space.section.hero"
+    ],
+    "shell.campaign-footer": [
+     "space.section.s160"
+    ],
+    "social-proof.awards-marquee": [
+     "space.section.hero"
+    ],
+    "social-proof.logo-marquee": [
+     "space.section.s120",
+     "space.section.s160",
+     "space.section.s200"
+    ],
+    "social-proof.logo-wall": [
+     "space.section.s200"
+    ],
+    "social-proof.story-cards": [
+     "space.section.s200"
+    ],
+    "social-proof.story-grid": [
+     "space.section.hero"
+    ],
+    "social-proof.team-proof": [
+     "space.section.s246"
+    ],
+    "social-proof.tei-card": [
+     "space.section.hero",
+     "space.section.s160",
+     "space.section.s200"
+    ],
+    "social-proof.testimonial": [
+     "space.campaign.224",
+     "space.section.s160",
+     "space.section.s200"
+    ]
+   },
+   "note": "spacer above a section, measured in the rendered clone (extraction/measured-values.json) and mapped to the spacer scale"
+  },
+  "accent": {
+   "kind": "token",
+   "categories": [
+    "color"
+   ],
+   "allowedBySection": {
+    "shell.banner": [
+     "color.accent.agents",
+     "color.accent.dashboards",
+     "color.blue.base"
+    ],
+    "shell.navbar": [
+     "color.accent.agents",
+     "color.accent.dashboards",
+     "color.accent.twins-hero",
+     "color.blue.base"
+    ]
+   },
+   "note": "solid nav background / banner veil colour on product and customer-story pages"
+  }
+ },
+ "overrides": "A PageSpec styles nothing else: every other visual value is owned by the section contract. There is no per-instance colour/typography override field (recorded, not invented)."
+}

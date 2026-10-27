@@ -1,0 +1,638 @@
+{
+ "url": "/resources/dovetail-vs-qualtrics/",
+ "template": "article",
+ "meta": {
+  "title": "Dovetail vs Qualtrics: Qualitative Research, Feedback Analysis, and When to Use Both",
+  "description": "Qualtrics measures experience at scale through surveys, panels, and XM programs. Dovetail explains the scores with interviews, support tickets, and sales…"
+ },
+ "theme": "light",
+ "breadcrumb": [
+  {
+   "text": "Guides",
+   "href": "/guides/"
+  },
+  {
+   "text": "Dovetail vs Qualtrics",
+   "href": null
+  }
+ ],
+ "h1": "Dovetail vs Qualtrics",
+ "lastUpdated": {
+  "label": "Last updated",
+  "date": "28 September 2026"
+ },
+ "share": {
+  "heading": "Share",
+  "buttons": [
+   {
+    "aria": "Copy link",
+    "icon": "/assets/tools/svg/share-copy-link.svg",
+    "kind": "button"
+   },
+   {
+    "aria": "Share on Facebook",
+    "icon": "/assets/tools/svg/share-facebook.svg",
+    "hrefPattern": "https://www.facebook.com/sharer/sharer.php?u={url}"
+   },
+   {
+    "aria": "Share on LinkedIn",
+    "icon": "/assets/tools/svg/share-linkedin.svg",
+    "hrefPattern": "https://www.linkedin.com/sharing/share-offsite/?url={url}"
+   },
+   {
+    "aria": "Share on X",
+    "icon": "/assets/tools/svg/share-x.svg",
+    "hrefPattern": "https://twitter.com/intent/tweet?text=...&url={url}"
+   }
+  ]
+ },
+ "summarize": {
+  "heading": "Summarize with AI",
+  "buttons": [
+   {
+    "aria": "Summarize with ChatGPT",
+    "icon": "/assets/tools/svg/summarize-chatgpt.svg",
+    "hrefPattern": "https://chat.openai.com/?q=Summarize this article \"{title}\" {url}"
+   },
+   {
+    "aria": "Summarize with Claude",
+    "icon": "/assets/tools/svg/summarize-claude.svg",
+    "hrefPattern": "https://claude.ai/new?q=Summarize this article \"{title}\" {url}"
+   },
+   {
+    "aria": "Summarize with Perplexity",
+    "icon": "/assets/tools/svg/summarize-perplexity.svg",
+    "hrefPattern": "https://www.perplexity.ai/search?q=Summarize this article \"{title}\" {url}"
+   },
+   {
+    "aria": "Summarize with Grok",
+    "icon": "/assets/tools/svg/summarize-grok.svg",
+    "hrefPattern": "https://x.com/i/grok?text=Summarize this article \"{title}\" {url}"
+   }
+  ]
+ },
+ "sidebarCta": {
+  "text": {
+   "placeholder": true,
+   "chars": 71
+  },
+  "cta": [
+   {
+    "text": "Contact sales",
+    "href": "/contact-sales/"
+   }
+  ]
+ },
+ "toc": [
+  "Quick answer",
+  "What is Qualtrics?",
+  "What is Dovetail?",
+  "Is Dovetail a replacement for Qualtrics?",
+  "Where Qualtrics’ qualitative tools stop",
+  "AI capabilities compared",
+  "Qualtrics AI",
+  "Dovetail AI",
+  "Implementation and access",
+  "Governance and security",
+  "Side-by-side comparison",
+  "When to choose Dovetail",
+  "Decision summary"
+ ],
+ "body": [
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 119
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 303,
+   "links": [
+    {
+     "chars": 22,
+     "href": "https://www.qualtrics.com/support/survey-platform/my-projects/moderated-user-testing/moderated-user-testing-overview/"
+    },
+    {
+     "chars": 12,
+     "href": "https://www.qualtrics.com/support/research-hub/research-hub-overview/"
+    }
+   ],
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "quick-answer",
+   "text": "Quick answer"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 499
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 367,
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "what-is-qualtrics",
+   "text": "What is Qualtrics?"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 166,
+   "links": [
+    {
+     "chars": 25,
+     "href": "https://www.qualtrics.com/"
+    }
+   ],
+   "hasBold": true
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 131
+    },
+    {
+     "placeholder": true,
+     "chars": 94,
+     "links": 1
+    },
+    {
+     "placeholder": true,
+     "chars": 148
+    },
+    {
+     "placeholder": true,
+     "chars": 112
+    },
+    {
+     "placeholder": true,
+     "chars": 58
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 181,
+   "links": [
+    {
+     "chars": 61,
+     "href": "https://www.qualtrics.com/platform/security/"
+    }
+   ],
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "what-is-dovetail",
+   "text": "What is Dovetail?"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 135
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 205,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 297,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 138,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 149,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 147,
+     "boldLead": true
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "is-dovetail-a-replacement-for-qualtrics",
+   "text": "Is Dovetail a replacement for Qualtrics?"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 369
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 461,
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "where-qualtrics-qualitative-tools-stop",
+   "text": "Where Qualtrics’ qualitative tools stop"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 311,
+   "links": [
+    {
+     "chars": 23,
+     "href": "https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/specialty-questions/video-response-question/"
+    },
+    {
+     "chars": 27,
+     "href": "https://www.qualtrics.com/support/survey-platform/my-projects/imported-video-and-audio-projects/"
+    }
+   ],
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 546,
+   "links": [
+    {
+     "chars": 33,
+     "href": "https://www.qualtrics.com/support/omnichannel-listening/text-analytics-xm/text-analytics-overview/"
+    }
+   ],
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 293
+  },
+  {
+   "type": "h2",
+   "id": "ai-capabilities-compared",
+   "text": "AI capabilities compared"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 81
+  },
+  {
+   "type": "h3",
+   "id": "qualtrics-ai",
+   "text": "Qualtrics AI"
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 112,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 110,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 80,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 142,
+     "boldLead": true,
+     "links": 1
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "id": "dovetail-ai",
+   "text": "Dovetail AI"
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 131,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 123,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 158,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 154,
+     "boldLead": true
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 235
+  },
+  {
+   "type": "h2",
+   "id": "implementation-and-access",
+   "text": "Implementation and access"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 284,
+   "links": [
+    {
+     "chars": 17,
+     "href": "https://www.qualtrics.com/buy-online/"
+    }
+   ],
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 198,
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "governance-and-security",
+   "text": "Governance and security"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 194
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 340
+  },
+  {
+   "type": "h2",
+   "id": "side-by-side-comparison",
+   "text": "Side-by-side comparison"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 29,
+   "hasBold": true
+  },
+  {
+   "type": "table",
+   "headers": [
+    "If you need...",
+    "Dovetail",
+    "Qualtrics"
+   ],
+   "rows": [
+    [
+     "Large-scale survey design and distribution",
+     "Not a survey tool",
+     "Yes"
+    ],
+    [
+     "NPS, CSAT, and CES program tracking",
+     "Tracks scores imported from Qualtrics and other sources",
+     "Yes"
+    ],
+    [
+     "Panel recruitment across global markets",
+     "No",
+     "Yes"
+    ],
+    [
+     "Conjoint and MaxDiff studies",
+     "No",
+     "Yes"
+    ],
+    [
+     "Interview recording, transcription, and synthesis",
+     "Yes",
+     "Yes, with recordings metered per minute as responses"
+    ],
+    [
+     "Moderated interview and usability sessions",
+     {
+      "placeholder": true,
+      "chars": 96
+     },
+     "Moderated User Testing, on simplified pricing plans or Preview Program"
+    ],
+    [
+     "Research repository",
+     "Yes",
+     "Research Hub, on simplified pricing plans or Preview Program"
+    ],
+    [
+     "One analysis across interviews, tickets, calls, reviews, and surveys",
+     "Yes",
+     "Split across Text iQ, Text Analytics, and XM Discover"
+    ],
+    [
+     "AI answers cited to the original transcript, ticket, or call",
+     "Yes",
+     "Qualtrics Assist summarizes dashboard open text"
+    ],
+    [
+     "Highlight reels for stakeholder buy-in",
+     "Yes",
+     "Video reels from survey responses"
+    ],
+    [
+     "Feedback ranked by ARR, plan tier, and account",
+     "Yes, via Salesforce or HubSpot",
+     "Not publicly documented"
+    ],
+    [
+     "AI agents that monitor feedback and take action",
+     "Yes",
+     "Yes, Experience Agents"
+    ],
+    [
+     "Digital twins grounded in real customer evidence",
+     "Yes",
+     "Synthetic panels (US English)"
+    ],
+    [
+     "MCP server",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "FedRAMP High",
+     "No",
+     "Yes"
+    ],
+    [
+     "Native integration between the two",
+     "Qualtrics integration in Channels",
+     "Connects through the same integration"
+    ],
+    [
+     "Free trial",
+     "60 days, no credit card",
+     "Free Surveys plan; 30-day professional trial"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "when-to-choose-dovetail",
+   "text": "When to choose Dovetail"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 19
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 152
+    },
+    {
+     "placeholder": true,
+     "chars": 70
+    },
+    {
+     "placeholder": true,
+     "chars": 97
+    },
+    {
+     "placeholder": true,
+     "chars": 109
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 127
+  },
+  {
+   "type": "h2",
+   "id": "decision-summary",
+   "text": "Decision summary"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 332
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 258,
+   "links": [
+    {
+     "chars": 21,
+     "href": "/dovetail-vs-qualtrics/"
+    }
+   ],
+   "hasBold": true
+  }
+ ],
+ "relatedTopics": {
+  "heading": "Related topics",
+  "links": [
+   {
+    "text": "[Customer research]",
+    "href": "/customer-research/"
+   },
+   {
+    "text": "[Design thinking]",
+    "href": "/design-thinking/"
+   },
+   {
+    "text": "[Employee experience]",
+    "href": "/employee-experience/"
+   },
+   {
+    "text": "[Enterprise]",
+    "href": "/enterprise/"
+   },
+   {
+    "text": "[Market research]",
+    "href": "/market-research/"
+   },
+   {
+    "text": "[Patient experience]",
+    "href": "/patient-experience/"
+   },
+   {
+    "text": "[Product development]",
+    "href": "/product-development/"
+   },
+   {
+    "text": "[Product management]",
+    "href": "/product-management/"
+   },
+   {
+    "text": "[Research maturity assessment]",
+    "href": "/research-maturity-assessment/"
+   },
+   {
+    "text": "[Research methods]",
+    "href": "/research/"
+   },
+   {
+    "text": "[Surveys]",
+    "href": "/surveys/"
+   },
+   {
+    "text": "[User experience (UX)]",
+    "href": "/ux/"
+   }
+  ]
+ },
+ "ctaFooter": {
+  "h2": "Turn customer feedback into product innovation",
+  "ctas": [
+   {
+    "text": "Contact sales",
+    "href": "/contact-sales/"
+   },
+   {
+    "text": "Try Dovetail free",
+    "href": "/auth/signup/",
+    "newTab": true
+   }
+  ]
+ },
+ "finalCta": false
+}

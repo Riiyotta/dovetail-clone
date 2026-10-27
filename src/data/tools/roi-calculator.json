@@ -1,0 +1,184 @@
+{
+ "url": "/roi-calculator/",
+ "template": "roi-calculator",
+ "meta": {
+  "title": "ROI Calculator | Dovetail",
+  "description": "Estimate the ROI of faster decisions and less wrong turns."
+ },
+ "hero": {
+  "eyebrow": "Roi Calculator",
+  "h1": "Measure the revenue impact of Dovetail",
+  "intro": "Estimate the ROI of faster decisions and less wrong turns.",
+  "ctas": [
+   {
+    "text": "Contact sales",
+    "href": "/contact-sales/"
+   },
+   {
+    "text": "Try Dovetail free",
+    "href": "/auth/signup/",
+    "newTab": true
+   }
+  ]
+ },
+ "inputs": [
+  {
+   "id": "teamSize",
+   "label": "Total team size",
+   "description": "Everyone involved in building and shipping product.",
+   "unit": "/people",
+   "display": "{n}",
+   "min": 1,
+   "max": 1000,
+   "step": 1,
+   "default": 10
+  },
+  {
+   "id": "avgAnnualSalary",
+   "label": "Average annual salary",
+   "description": "Used to calculate opportunity cost, not salary savings.",
+   "unit": "/year",
+   "display": "currency",
+   "min": 40000,
+   "max": 500000,
+   "step": 5000,
+   "default": 120000
+  },
+  {
+   "id": "hoursPerWeek",
+   "label": "Hours/week on customer understanding (per person)",
+   "description": "Time spent on discovery, analysis and alignment.",
+   "unit": "/week",
+   "display": "{n} hrs",
+   "min": 0,
+   "max": 40,
+   "step": 0.5,
+   "default": 10
+  },
+  {
+   "id": "dovetailAnnualCost",
+   "label": "Dovetail estimated annual cost",
+   "description": "Your investment in faster decisions and less rework.",
+   "unit": "/year",
+   "display": "currency",
+   "min": 10000,
+   "max": 200000,
+   "step": 5000,
+   "default": 60000
+  }
+ ],
+ "advanced": {
+  "toggleClosed": "Advanced assumptions",
+  "toggleOpen": "Hide advanced assumptions",
+  "defaultOpen": false,
+  "inputs": [
+   {
+    "id": "savingsRate",
+    "label": "Time savings rate",
+    "type": "number",
+    "max": 1,
+    "step": 0.05,
+    "default": 0.3
+   },
+   {
+    "id": "rdPaybackRatio",
+    "label": "R&D payback ratio",
+    "type": "number",
+    "max": 10,
+    "step": 0.5,
+    "default": 3
+   }
+  ],
+  "noteTemplate": "Current assumptions: {round(savingsRate*100)}% reduction in customer research time. {rdPaybackRatio}x revenue impact per R&D dollar reinvested. Hourly rate assumes a 40-hour week."
+ },
+ "formula": {
+  "hourlyRate": "avgAnnualSalary / 52 / 40",
+  "annualHours": "teamSize * hoursPerWeek * 52",
+  "totalAnnualTimeSavingsHours": "annualHours * savingsRate",
+  "totalValue": "totalAnnualTimeSavingsHours * hourlyRate",
+  "rdImpactValue": "totalValue * rdPaybackRatio",
+  "totalImpactValue": "totalValue + rdImpactValue",
+  "netAnnualRoi": "totalImpactValue - dovetailAnnualCost",
+  "roiPercent": "dovetailAnnualCost > 0 ? netAnnualRoi / dovetailAnnualCost : 0 (computed, not displayed)",
+  "currencyFormat": "value.toLocaleString('en-AU', {style:'currency', currency:'AUD', maximumFractionDigits:0})  -> '$120,000'",
+  "hoursFormat": "value.toLocaleString('en-AU', {maximumFractionDigits:0}) + ' hrs'",
+  "nonFiniteInput": "ignored (keeps previous value)"
+ },
+ "outputs": [
+  {
+   "label": "Total annual time savings",
+   "value": "totalAnnualTimeSavingsHours",
+   "format": "hours",
+   "defaultDisplay": "1,560 hrs"
+  },
+  {
+   "label": "Value of R&D budget unlocked",
+   "value": "totalValue",
+   "format": "currency",
+   "defaultDisplay": "$90,000"
+  },
+  {
+   "label": "Return on R&D investment",
+   "value": "rdImpactValue",
+   "format": "currency",
+   "defaultDisplay": "$270,000"
+  },
+  {
+   "label": "Total estimated annual ROI",
+   "value": "max(0, netAnnualRoi)",
+   "format": "currency",
+   "defaultDisplay": "$300,000",
+   "highlight": true,
+   "aside": [
+    {
+     "label": "Total value: ",
+     "value": "totalImpactValue",
+     "defaultDisplay": "$360,000"
+    },
+    {
+     "label": "Cost: ",
+     "value": "dovetailAnnualCost",
+     "defaultDisplay": "$60,000"
+    }
+   ]
+  }
+ ],
+ "download": {
+  "h2": "Download your ROI report",
+  "p": "Get a PDF business case you can share with your team or leadership, based on your ROI results.",
+  "field": {
+   "id": "roi-company-name",
+   "name": "company",
+   "label": "Company name*",
+   "placeholder": "Spotify",
+   "required": true,
+   "autocomplete": "organization"
+  },
+  "button": {
+   "label": "Download PDF",
+   "busyLabel": "Generating…",
+   "disabledWhen": "company name is blank (trimmed) or generating"
+  },
+  "image": {
+   "src": "/assets/tools/pdf-gen.png",
+   "alt": "ROI report preview"
+  },
+  "staticNonSubmitting": true,
+  "liveBehaviour": "POST /api/website/generate-business-case-pdf then downloads Dovetail-ROI.pdf; errors render in a role=alert P14 secondary line. Do not replicate the network call."
+ },
+ "ctaFooter": {
+  "h2": "Turn customer feedback into product innovation",
+  "ctas": [
+   {
+    "text": "Contact sales",
+    "href": "/contact-sales/"
+   },
+   {
+    "text": "Try Dovetail free",
+    "href": "/auth/signup/",
+    "newTab": true
+   }
+  ]
+ },
+ "finalCta": false
+}

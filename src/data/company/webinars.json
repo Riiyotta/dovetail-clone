@@ -1,0 +1,162 @@
+{
+ "path": "/webinars/",
+ "title": "Webinars | Dovetail",
+ "hero": {
+  "intro": null,
+  "h1": "Webinars"
+ },
+ "upcoming": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": {
+    "src": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png",
+    "alt": "",
+    "w": 1920,
+    "h": 1080
+   },
+   "when": "19 Nov 2026",
+   "where": "Online",
+   "startDate": "2026-11-19T09:00-08:00",
+   "endDate": "2026-11-19T10:00-08:00"
+  }
+ ],
+ "pastHeading": "Past events",
+ "past": [
+  {
+   "date": "01 Sep 2026",
+   "title": "Digital Twins, explained",
+   "href": "/events/suns-out-digital-twins-deep-dive/",
+   "startDate": "2026-09-02T07:00+10:00"
+  },
+  {
+   "date": "10 Aug 2026",
+   "title": "Dovetail Sun’s Out: Product deep dive",
+   "href": "/events/suns-out-product-deep-dive/",
+   "startDate": "2026-08-10T14:00-07:00"
+  },
+  {
+   "date": "22 Jan 2026",
+   "title": "What’s new with Dovetail Jan’26",
+   "href": "/events/whats-new-in-dovetail-jan-2026/",
+   "startDate": "2026-01-22T11:00-08:00"
+  },
+  {
+   "date": "23 Oct 2025",
+   "title": "The AI future of customer intelligence: CEO insights",
+   "href": "/events/the-ai-future-of-customer-intelligence-ceo-insights/",
+   "startDate": "2025-10-23T14:00-07:00"
+  },
+  {
+   "date": "17 Sep 2025",
+   "title": "Voice of the customer: transforming financial services through listenings",
+   "href": "/events/voice-of-the-customer-transforming-financial-services-through-listening/",
+   "startDate": "2025-09-17T13:00-07:00"
+  },
+  {
+   "date": "28 Aug 2025",
+   "title": "From customer feedback to business impact: how Dovetail customers build a culture of customer centricity",
+   "href": "/events/from-customer-feedback-to-business-impact-how-dovetail-customers-build-a/",
+   "startDate": "2025-08-28T11:00-07:00"
+  },
+  {
+   "date": "19 Aug 2025",
+   "title": "From insights to impact in medical products—evolving our research practices to more effectively shape product success",
+   "href": "/events/from-insights-to-impact-in-medical-products-evolving-our-research-practices/",
+   "startDate": "2025-08-19T13:00-07:00"
+  },
+  {
+   "date": "31 Jul 2025",
+   "title": "Level up your research: how AI in Dovetail is transforming user research",
+   "href": "/events/level-up-your-research-how-ai-in-dovetail-is-transforming-user-research/",
+   "startDate": "2025-07-31T13:00-07:00"
+  },
+  {
+   "date": "25 Jun 2025",
+   "title": "Channels by Dovetail: a deep dive into automating your feedback workflows",
+   "href": "/events/channels-by-dovetail-a-deep-dive-into-automating-your-feedback-workflows/",
+   "startDate": "2025-06-25T13:00-07:00"
+  },
+  {
+   "date": "29 May 2025",
+   "title": "What’s new in Dovetail 2025",
+   "href": "/events/whats-new-in-dovetail-IO-launch-2025/",
+   "startDate": "2025-05-29T13:00-07:00"
+  },
+  {
+   "date": "27 Mar 2025",
+   "title": "Usability in the age of AI: what still matters",
+   "href": "/events/usability-age-AI/",
+   "startDate": "2025-03-27T10:00-08:00"
+  },
+  {
+   "date": "25 Feb 2025",
+   "title": "How customer insights drive innovative product design at Autodesk",
+   "href": "/events/how-customer-insights-drive-innovative-product-design-at-autodesk/",
+   "startDate": "2025-02-25T10:00-08:00"
+  },
+  {
+   "date": "13 Jan 2025",
+   "title": "How Verizon Connect built a winning culture of UX research and insights",
+   "href": "/events/how-verizon-connect-built-a-winning-culture-of-ux-research-and-insights/",
+   "startDate": "2025-01-14T00:00+11:00"
+  },
+  {
+   "date": "11 Sep 2024",
+   "title": "Dovetail for designers introductory session",
+   "href": "/events/dovetail-for-designers-webinar/",
+   "startDate": "2024-09-12T00:00+11:00"
+  },
+  {
+   "date": "28 Aug 2024",
+   "title": "Dovetail for product managers introductory session",
+   "href": "/events/dovetail-for-product-managers-webinar/",
+   "startDate": "2024-08-29T00:00+11:00"
+  },
+  {
+   "date": "14 Aug 2024",
+   "title": "Dovetail for researchers introductory session",
+   "href": "/events/dovetail-for-researchers-webinar/",
+   "startDate": "2024-08-15T00:00+11:00"
+  },
+  {
+   "date": "21 Feb 2024",
+   "title": "Product strategy is simple: an actionable and hands-on guide to getting it right",
+   "href": "/events/product-strategy-is-simple-an-actionable-and-hands-on-guide-to-getting-it/",
+   "startDate": "2024-02-22T00:00+11:00"
+  },
+  {
+   "date": "05 Dec 2023",
+   "title": "Dig deeper: level up your A/B testing to build better products",
+   "href": "/events/dig-deeper-level-up-your-a-b-testing-to-build-better-products/",
+   "startDate": "2023-12-06T00:00+11:00"
+  },
+  {
+   "date": "28 Nov 2023",
+   "title": "Turning heads: how to craft insights that influence",
+   "href": "/events/turning-heads-how-to-craft-insights-that-influence/",
+   "startDate": "2023-11-29T00:00+11:00"
+  },
+  {
+   "date": "23 Oct 2023",
+   "title": "Insights at scale: learn how Okta and Webflow are growing their research culture",
+   "href": "/events/insights-at-scale-learn-how-okta-and-webflow-are-growing-their-research/",
+   "startDate": "2023-10-24T00:00+11:00"
+  }
+ ],
+ "filterRule": "onlineEvent=true only",
+ "snapshotDate": "2026-10-26",
+ "cta": {
+  "heading": "Turn customer feedback into product innovation",
+  "buttons": [
+   {
+    "label": "Contact sales",
+    "href": "/contact-sales/"
+   },
+   {
+    "label": "Try Dovetail free",
+    "href": "/auth/signup/"
+   }
+  ]
+ }
+}

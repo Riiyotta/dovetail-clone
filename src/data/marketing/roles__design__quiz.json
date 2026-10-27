@@ -1,0 +1,288 @@
+{
+ "url": "/roles/design/quiz/",
+ "template": "quiz",
+ "title": "UX Designer Quiz: How Customer-Driven Is Your Design Process?",
+ "metaDescription": "Take the UX designer quiz. See how connected your design process is to real customer insight—and where the gaps are costing you.",
+ "documentHeight": {
+  "1440": 2308,
+  "1280": 2768,
+  "768": 3084,
+  "390": 3134
+ },
+ "chrome": {
+  "alertBar": true,
+  "navBackground": null,
+  "footer": "finalCta"
+ },
+ "sections": [
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 88,
+    "1280": 88,
+    "768": 88,
+    "390": 88
+   }
+  },
+  {
+   "slice": "ev3cpd60",
+   "el": "ev3cpd60",
+   "measuredHeight": {
+    "1440": 433,
+    "1280": 359,
+    "768": 311,
+    "390": 391
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "2-minute quiz",
+     "el": "ev3cpd62"
+    },
+    {
+     "role": "h1",
+     "text": "Are your designs grounded in real customer insight?",
+     "el": "ev3cpd63"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 186,
+     "el": "ev3cpd64"
+    },
+    {
+     "role": "button",
+     "text": "Start the quiz",
+     "el": "button"
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "introHeading": "Are your designs grounded in real customer insight?",
+  "introSubtitle": {
+   "placeholder": true,
+   "chars": 186
+  },
+  "questions": [
+   {
+    "text": "When you start a new design, how do you understand what customers actually need?",
+    "options": [
+     "Intuition and past experience—I know the product well",
+     "I reference old research if I can find it",
+     "I work with a researcher on discovery before I start",
+     "I have instant access to a searchable library of current customer insights"
+    ]
+   },
+   {
+    "text": "When a stakeholder pushes back on a design decision, how do you defend it?",
+    "options": [
+     "By explaining my design rationale and aesthetic choices",
+     "By referencing a piece of customer feedback I remember",
+     "By pulling up a research report that supports the decision",
+     "By surfacing specific customer quotes, clips, or data from our insights repository"
+    ]
+   },
+   {
+    "text": "How quickly can you validate a design concept with real customer feedback?",
+    "options": [
+     "Weeks—setting up a study takes time and research team capacity",
+     "1–2 weeks, if research has bandwidth",
+     "A few days—we have efficient processes for rapid validation",
+     "Hours to days—we have continuous feedback streams and always-on research"
+    ]
+   },
+   {
+    "text": "How do you stay informed about what customers are struggling with in the current product?",
+    "options": [
+     "Support tickets that occasionally get shared with me",
+     "I join user calls occasionally and read Slack summaries",
+     "I have access to a research repo and check it when designing",
+     "Customer pain points are proactively surfaced to me through automated feedback analysis"
+    ]
+   },
+   {
+    "text": "When a design ships and something isn’t working, how do you find out?",
+    "options": [
+     "Someone mentions it in Slack or a meeting",
+     "We see it in analytics—but not why it’s happening",
+     "We monitor feedback channels and flag themes to the team",
+     "Automated systems surface it with customer context before it becomes a real problem"
+    ]
+   },
+   {
+    "text": "How often do you design something that gets significantly reworked after user testing or launch?",
+    "options": [
+     "Often—we find out what users actually need after we’ve built it",
+     "Sometimes—testing helps but we still miss things",
+     "Occasionally—our validation process catches most issues early",
+     "Rarely—we’re grounded in customer insight before we start designing"
+    ]
+   },
+   {
+    "text": "How do you collaborate with your research team?",
+    "options": [
+     "We work in silos—design and research don’t overlap much",
+     "I request studies when I need them and wait for results",
+     "We collaborate on projects, but the process is slower than ideal",
+     "Research and design are deeply integrated—insights flow into my work automatically"
+    ]
+   },
+   {
+    "text": "How do you communicate the ’why’ behind your design decisions to product and engineering?",
+    "options": [
+     "I explain my thinking in design reviews",
+     "I include a summary of relevant research in my design docs",
+     "I link to research reports and highlight relevant findings",
+     "I embed customer quotes, clips, and data directly into my design artifacts"
+    ]
+   },
+   {
+    "text": "When working on a new feature, how much customer evidence do you have before you start?",
+    "options": [
+     "Very little—we often design first and validate later",
+     "Some—I use what research is available, even if it’s dated",
+     "A decent amount—we usually run discovery research beforehand",
+     "A lot—I have access to a continuously updated picture of customer needs"
+    ]
+   },
+   {
+    "text": "How confident are you that your designs are solving real customer problems?",
+    "options": [
+     "Not very—it’s hard to know until something ships",
+     "Somewhat—we do some validation but it’s not always enough",
+     "Fairly—our process includes enough testing to feel confident",
+     "Very—every design is grounded in real, current customer insight"
+    ]
+   }
+  ],
+  "tiers": [
+   {
+    "level": 1,
+    "name": "The Intuitive Designer",
+    "tagline": "You’re talented. But you’re designing for a mental model.",
+    "description": {
+     "placeholder": true,
+     "chars": 221
+    },
+    "cost": {
+     "placeholder": true,
+     "chars": 133
+    },
+    "nextLevel": {
+     "placeholder": true,
+     "chars": 114
+    },
+    "dovetailPitch": {
+     "placeholder": true,
+     "chars": 257
+    }
+   },
+   {
+    "level": 2,
+    "name": "The Feedback-Gatherer",
+    "tagline": "You’re seeking validation. But it’s too late in the process.",
+    "description": {
+     "placeholder": true,
+     "chars": 227
+    },
+    "cost": {
+     "placeholder": true,
+     "chars": 143
+    },
+    "nextLevel": {
+     "placeholder": true,
+     "chars": 106
+    },
+    "dovetailPitch": {
+     "placeholder": true,
+     "chars": 246
+    }
+   },
+   {
+    "level": 3,
+    "name": "The Evidence-Seeker",
+    "tagline": "You want customer insight in your process. The tooling isn’t there yet.",
+    "description": {
+     "placeholder": true,
+     "chars": 214
+    },
+    "cost": {
+     "placeholder": true,
+     "chars": 170
+    },
+    "nextLevel": {
+     "placeholder": true,
+     "chars": 144
+    },
+    "dovetailPitch": {
+     "placeholder": true,
+     "chars": 251
+    }
+   },
+   {
+    "level": 4,
+    "name": "The Insight-Led Designer",
+    "tagline": "Customer evidence is core to how you design.",
+    "description": {
+     "placeholder": true,
+     "chars": 216
+    },
+    "cost": {
+     "placeholder": true,
+     "chars": 180
+    },
+    "nextLevel": {
+     "placeholder": true,
+     "chars": 139
+    },
+    "dovetailPitch": {
+     "placeholder": true,
+     "chars": 257
+    }
+   },
+   {
+    "level": 5,
+    "name": "The Customer Advocate",
+    "tagline": "You’re the bridge between customers and the product.",
+    "description": {
+     "placeholder": true,
+     "chars": 294
+    },
+    "cost": null,
+    "nextLevel": null,
+    "dovetailPitch": {
+     "placeholder": true,
+     "chars": 262
+    }
+   }
+  ],
+  "scoring": "score per answer = option index+1 (A=1..D=4); avg=sum/40; level 1 <=.4, 2 <=.575, 3 <=.75, 4 <=.9, else 5",
+  "resultCta": {
+   "level<=2": {
+    "label": "Start for free",
+    "href": "/auth/signup/"
+   },
+   "level3-4": {
+    "label": "Book a demo",
+    "href": "/request-a-demo/"
+   },
+   "level5": {
+    "label": "Talk to us",
+    "href": "/request-a-demo/"
+   },
+   "secondary": "Retake quiz"
+  },
+  "resultFooterCta": {
+   "heading": "Turn customer feedback into product innovation",
+   "primary": {
+    "label": "Start for free",
+    "href": "/auth/signup/"
+   },
+   "secondary": {
+    "label": "Book a demo",
+    "href": "/request-a-demo/"
+   }
+  }
+ }
+}

@@ -1,0 +1,418 @@
+{
+ "url": "/privacy/data-subject-access-request/",
+ "template": "legal-doc",
+ "meta": {
+  "title": "Data Subject Access Request",
+  "description": "Dovetail’s legal and privacy documents, including the user terms of service, privacy policy, data processing agreement, and acceptable use policy."
+ },
+ "theme": "light",
+ "breadcrumb": [
+  {
+   "text": "Home",
+   "href": "/"
+  },
+  {
+   "text": "Legal",
+   "href": "/legal/"
+  }
+ ],
+ "h1": "Data Subject Access Request",
+ "sideNav": {
+  "groups": [
+   {
+    "group": "Legal",
+    "links": [
+     {
+      "text": "Master Subscription Agreement",
+      "href": "/legal/master-subscription-agreement/"
+     },
+     {
+      "text": "User Terms of Service",
+      "href": "/legal/user-terms-of-service/"
+     },
+     {
+      "text": "Acceptable Use Policy",
+      "href": "/legal/acceptable-use-policy/"
+     },
+     {
+      "text": "Product-Specific Terms: AI Features",
+      "href": "/legal/ai-features/"
+     },
+     {
+      "text": "Mutual Non-Disclosure Agreement",
+      "href": "/legal/mutual-non-disclosure-agreement/"
+     },
+     {
+      "text": "Product-Specific Terms: Recruit",
+      "href": "/legal/product-specific-terms-recruit/"
+     },
+     {
+      "text": "Community Code of Conduct",
+      "href": "/legal/community-code-of-conduct/"
+     },
+     {
+      "text": "Insurance",
+      "href": "/legal/insurance/"
+     },
+     {
+      "text": "Accessibility Statement",
+      "href": "/legal/accessibility-statement/"
+     },
+     {
+      "text": "Open Source",
+      "href": "/legal/open-source/"
+     },
+     {
+      "text": "Press Kit and Logo Usage",
+      "href": "/legal/press-kit/"
+     },
+     {
+      "text": "Modern Slavery Statement",
+      "href": "/legal/modern-slavery-statement/"
+     },
+     {
+      "text": "Anti-Bribery and Anti-Corruption Statement",
+      "href": "/legal/anti-bribery-and-anti-corruption-statement/"
+     },
+     {
+      "text": "AI Models",
+      "href": "/legal/ai-models/"
+     }
+    ]
+   },
+   {
+    "group": "Privacy",
+    "links": [
+     {
+      "text": "Compliance With Laws",
+      "href": "/privacy/compliance-with-laws/"
+     },
+     {
+      "text": "Data Processing Agreement",
+      "href": "/privacy/data-processing-agreement/"
+     },
+     {
+      "text": "Privacy Policy",
+      "href": "/privacy/privacy-policy/"
+     },
+     {
+      "text": "Data Subject Access Request",
+      "href": "/privacy/data-subject-access-request/"
+     },
+     {
+      "text": "Event Release",
+      "href": "/privacy/event-release/"
+     }
+    ]
+   }
+  ],
+  "expandedGroup": "Privacy",
+  "current": "/privacy/data-subject-access-request/"
+ },
+ "toc": [
+  "Scope and Purpose",
+  "Data Subject Access Request",
+  "The Rights of a Data Subject",
+  "Requirements for a valid DSAR",
+  "DSAR Process",
+  "Request",
+  "Identity verification",
+  "Information for Data Subject Access Request",
+  "Review of Information",
+  "Response to Access Requests",
+  "Archiving",
+  "Exemptions",
+  "Responsibilities"
+ ],
+ "body": [
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 91
+  },
+  {
+   "type": "h2",
+   "id": "scope-and-purpose",
+   "text": "Scope and Purpose"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 423,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 130
+  },
+  {
+   "type": "h2",
+   "id": "data-subject-access-request",
+   "text": "Data Subject Access Request"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 321,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 382
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 79,
+   "links": [
+    {
+     "chars": 18,
+     "href": "mailto:legal@dovetail.com"
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "the-rights-of-a-data-subject",
+   "text": "The Rights of a Data Subject"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 56
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 66
+    },
+    {
+     "placeholder": true,
+     "chars": 104
+    },
+    {
+     "placeholder": true,
+     "chars": 101
+    },
+    {
+     "placeholder": true,
+     "chars": 156
+    },
+    {
+     "placeholder": true,
+     "chars": 382
+    },
+    {
+     "placeholder": true,
+     "chars": 185
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 218,
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "requirements-for-a-valid-dsar",
+   "text": "Requirements for a valid DSAR"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 259
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 218
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 252
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 453
+  },
+  {
+   "type": "h2",
+   "id": "dsar-process",
+   "text": "DSAR Process"
+  },
+  {
+   "type": "h3",
+   "id": "request",
+   "text": "Request"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 217
+  },
+  {
+   "type": "h3",
+   "id": "identity-verification",
+   "text": "Identity verification"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 392
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 145
+  },
+  {
+   "type": "h3",
+   "id": "information-for-data-subject-access-request",
+   "text": "Information for Data Subject Access Request"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 167
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 515
+  },
+  {
+   "type": "h3",
+   "id": "review-of-information",
+   "text": "Review of Information"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 239
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 396
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 159
+  },
+  {
+   "type": "h3",
+   "id": "response-to-access-requests",
+   "text": "Response to Access Requests"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 354
+  },
+  {
+   "type": "h3",
+   "id": "archiving",
+   "text": "Archiving"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 130
+  },
+  {
+   "type": "h2",
+   "id": "exemptions",
+   "text": "Exemptions"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 167
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 249
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 130
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 276
+    },
+    {
+     "placeholder": true,
+     "chars": 235
+    },
+    {
+     "placeholder": true,
+     "chars": 132
+    },
+    {
+     "placeholder": true,
+     "chars": 233
+    },
+    {
+     "placeholder": true,
+     "chars": 329
+    },
+    {
+     "placeholder": true,
+     "chars": 430
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "responsibilities",
+   "text": "Responsibilities"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 114
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 157
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 214
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 59,
+   "links": [
+    {
+     "chars": 18,
+     "href": "mailto:legal@dovetail.com"
+    }
+   ]
+  }
+ ],
+ "lastUpdated": {
+  "label": "Last updated",
+  "date": "1 July 2025"
+ },
+ "navRightButtons": false,
+ "finalCta": true
+}

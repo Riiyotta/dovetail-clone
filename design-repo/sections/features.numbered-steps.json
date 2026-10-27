@@ -1,0 +1,144 @@
+{
+ "id": "features.numbered-steps",
+ "title": "Numbered steps",
+ "semantic": {
+  "id": "features.numbered-steps",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "component:RoleSections:pr__list",
+  "file": "src/pages/roles/RoleSections.jsx",
+  "tag": "ol",
+  "lines": "178-190",
+  "tagLine": 178,
+  "anchor": "pr__list",
+  "anchorLine": 178
+ },
+ "purpose": "Eyebrow + H56 heading, intro and a numbered step list.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "heading",
+    "items",
+    "lead"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 1,
+   "observedOn": [
+    "/roles/product-management/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "heading",
+   "items",
+   "lead"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 7,
+    "maxChars": 42,
+    "observedIn": 1
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 25,
+    "maxChars": 160,
+    "observedIn": 3
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 6,
+    "maxChars": 40,
+    "observedIn": 3
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 59,
+    "maxChars": 392,
+    "observedIn": 1
+   }
+  },
+  "listSizes": {
+   "items": [
+    3,
+    3
+   ]
+  },
+  "itemRequiredFields": [
+   "text",
+   "title"
+  ],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {
+   "spaceBefore": {
+    "kind": "token",
+    "allowed": [
+     "space.section.s200"
+    ]
+   }
+  },
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 1,
+   "nodes": 1,
+   "minPx": 376,
+   "maxPx": 376,
+   "medianPx": 376,
+   "sample": {
+    "/roles/product-management/": [
+     376
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/roles/RoleSections.jsx:178-190",
+  "specs/roles.md:1-40"
+ ]
+}

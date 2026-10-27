@@ -1,0 +1,43 @@
+{
+ "url": "/menu/",
+ "template": "menu",
+ "title": "Menu | Dovetail",
+ "metaDescription": "Browse Dovetail’s platform, use cases, resources, comparisons, customers, and company pages.",
+ "documentHeight": {
+  "1440": 900,
+  "1280": 1521,
+  "768": 2250,
+  "390": 2250
+ },
+ "chrome": {
+  "alertBar": true,
+  "navBackground": null,
+  "footer": "plain"
+ },
+ "sections": [
+  {
+   "slice": "MenuHeader",
+   "el": "e1tmyrcp0",
+   "measuredHeight": {
+    "1440": 88,
+    "1280": 88,
+    "768": 88,
+    "390": 88
+   },
+   "content": [
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1ndvfkf0-972496.svg",
+     "w": 21.6,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "button",
+     "text": "Close",
+     "el": "button"
+    }
+   ]
+  }
+ ]
+}

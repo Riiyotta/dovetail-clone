@@ -1,0 +1,32 @@
+/* Light rich text — specs/legal-doc.md §2b (shared with the tools-article body). */
+.lprose { font-size: 18px; line-height: 24px; font-weight: 400; color: var(--l-muted); }
+.lprose > :first-child { margin-top: 0; }
+.lprose p { font-size: 18px; line-height: 28px; margin: 0 0 24px; text-wrap: pretty; }
+.lprose h1, .lprose h2 { font-size: 32px; line-height: 40px; font-weight: 500; letter-spacing: -0.5px; color: var(--l-ink);
+  margin: 48px 0 24px; scroll-margin-top: 32px; }
+.lprose h3 { font-size: 24px; line-height: 32px; font-weight: 500; letter-spacing: -0.5px; color: var(--l-ink);
+  margin: 40px 0 24px; scroll-margin-top: 32px; }
+.lprose h4, .lprose h5, .lprose h6 { font-size: 24px; line-height: 32px; font-weight: 500; letter-spacing: -0.5px; color: var(--l-ink); margin: 16px 0 8px; }
+.lprose ul { font-size: 18px; padding-left: 24px; margin: 0 0 24px; list-style: disc; }
+.lprose ol { font-size: 18px; padding-left: 24px; margin: 0 0 24px; list-style: decimal; list-style-position: outside; }
+.lprose li { line-height: 28px; margin-bottom: 8px; }
+.lprose li p { margin-bottom: 8px; }
+.lprose strong, .lprose b { color: var(--l-ink); font-weight: 500; }
+.lprose blockquote { color: var(--l-muted); border-left: 2px solid var(--l-muted); padding-left: 16px; margin: 0; }
+.lprose table { border-collapse: collapse; width: 100%; margin: 48px 0; font-size: 16px; line-height: 24px; }
+.lprose th { color: var(--l-ink); font-weight: 600; text-align: left; padding: 12px 16px; border-bottom: 2px solid var(--l-table-line); background: rgba(255,255,255,.04); }
+.lprose td { color: var(--l-muted); padding: 10px 16px; border-bottom: 1px solid var(--l-table-line); vertical-align: top; }
+.lprose tbody tr:last-child td { border-bottom: 0; }
+.lprose img { display: block; width: 100%; height: auto; border-radius: 8px; margin: 64px 0; }
+.lprose hr { height: 2px; border: 0; background: #808080; margin: 9px 0 32px; }
+@media (max-width: 1280px) {
+  .lprose { font-size: 16px; }
+  .lprose h1, .lprose h2 { font-size: 24px; line-height: 32px; letter-spacing: -0.25px; }
+  .lprose h3, .lprose h4, .lprose h5, .lprose h6 { font-size: 20px; line-height: 28px; letter-spacing: -0.25px; }
+  .lprose hr { margin-top: 8px; }
+}
+@media (max-width: 799px) {
+  .lprose h3, .lprose h4, .lprose h5, .lprose h6 { font-size: 18px; line-height: 24px; }
+  .lprose table { margin: 32px 0; }
+  .lprose img { margin: 32px 0; }
+}

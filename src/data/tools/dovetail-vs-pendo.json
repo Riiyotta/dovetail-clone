@@ -1,0 +1,645 @@
+{
+ "url": "/dovetail-vs-pendo/",
+ "template": "comparison",
+ "meta": {
+  "title": "Dovetail vs Pendo: from usage data to the why behind it",
+  "description": "Pendo tracks product usage and in-app feedback at scale. Dovetail analyzes interviews and support conversations to explain why users behave that way."
+ },
+ "competitor": "Pendo",
+ "sections": [
+  {
+   "type": "hero",
+   "eyebrow": "Pendo Alternative",
+   "h1": "From product usage data to the evidence that explains it",
+   "intro": {
+    "placeholder": true,
+    "chars": 433
+   },
+   "ctas": [
+    {
+     "text": "Start a 60-day free trial",
+     "href": "#trial-cta",
+     "newTab": true
+    },
+    {
+     "text": "Get a migration plan",
+     "href": "/contact-sales/migration-plan/"
+    }
+   ],
+   "note": {
+    "title": "Moving from Pendo? We’ll help you find the fastest path to Dovetail.",
+    "subtitle": "No credit card required. Free migration included."
+   }
+  },
+  {
+   "type": "heroImage",
+   "src": "/assets/tools/Centralize_fragmented_data.png",
+   "originalSrc": "/media/Centralize_fragmented_data.png",
+   "alt": "Centralize customer evidence across support, sales, and research in Dovetail",
+   "natural": "3024x1200"
+  },
+  {
+   "type": "logoMarquee",
+   "heading": "Connecting the world's leading teams to their customers",
+   "rows": [
+    [
+     {
+      "name": "Breville",
+      "src": "/assets/white-logo(3).svg",
+      "originalSrc": "/customers/breville/white-logo.svg",
+      "alt": "Breville",
+      "natural": "132x32"
+     },
+     {
+      "name": "Atlassian",
+      "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+      "originalSrc": "/customers/atlassian/white-logo.svg",
+      "alt": "Atlassian",
+      "natural": "160x20"
+     },
+     {
+      "name": "Notion",
+      "src": "/assets/marketing/customer-notion-white-logo.svg",
+      "originalSrc": "/customers/notion/white-logo.svg",
+      "alt": "Notion",
+      "natural": "160x72"
+     },
+     {
+      "name": "Okta",
+      "src": "/assets/white-logo(1).svg",
+      "originalSrc": "/customers/okta/white-logo.svg",
+      "alt": "Okta",
+      "natural": "160x72"
+     },
+     {
+      "name": "AWS",
+      "src": "/assets/marketing/customer-aws-white-logo.svg",
+      "originalSrc": "/customers/aws/white-logo.svg",
+      "alt": "AWS",
+      "natural": "160x72"
+     },
+     {
+      "name": "Toyota",
+      "src": "/assets/marketing/customer-toyota-white-logo.svg",
+      "originalSrc": "/customers/toyota/white-logo.svg",
+      "alt": "Toyota",
+      "natural": "160x72"
+     },
+     {
+      "name": "Qantas",
+      "src": "/assets/marketing/customer-qantas-white-logo.svg",
+      "originalSrc": "/customers/qantas/white-logo.svg",
+      "alt": "Qantas",
+      "natural": "160x32"
+     },
+     {
+      "name": "NCRVoyix",
+      "src": "/assets/marketing/customer-ncrvoyix-white-logo.svg",
+      "originalSrc": "/customers/ncrvoyix/white-logo.svg",
+      "alt": "NCRVoyix",
+      "natural": "160x72"
+     }
+    ]
+   ],
+   "note": "Row 1 scrolls left-to-right (ltr), row 2 right-to-left (rtl) with left offset 120px; each row is rendered twice for the loop."
+  },
+  {
+   "type": "intro",
+   "h2": "Tracking behavior isn’t the same as understanding it",
+   "paragraphs": [
+    {
+     "placeholder": true,
+     "chars": 330
+    },
+    {
+     "placeholder": true,
+     "chars": 259
+    },
+    {
+     "placeholder": true,
+     "chars": 283
+    }
+   ],
+   "ctas": [
+    {
+     "text": "Start a 60-day free trial",
+     "href": "#trial-cta",
+     "newTab": true
+    },
+    {
+     "text": "Book a demo",
+     "href": "/contact-sales/"
+    }
+   ],
+   "image": {
+    "src": "/assets/tools/continuous_AI_analysis-4.png",
+    "originalSrc": "/media/continuous_AI_analysis-4.png",
+    "alt": "Continuous AI analysis across customer channels in Dovetail",
+    "natural": "1232x1400"
+   }
+  },
+  {
+   "type": "teiCard",
+   "eyebrow": "Proven business impact",
+   "text": "Dovetail customers have seen 2.3x ROI, 30 hours saved per user each week, and 66% faster shipping in a commissioned Forrester study.",
+   "link": {
+    "text": "Download the Forrester Total Economic Impact™ Study →",
+    "href": "/resources/industry-reports/2025-forrester-TEI-of-Dovetail/"
+   },
+   "image": {
+    "src": "/assets/tools/forrester-tei-module.png",
+    "originalSrc": "/media/forrester-tei-module.png",
+    "alt": "The Total Economic Impact of Dovetail—Forrester study",
+    "natural": "1016x664"
+   }
+  },
+  {
+   "type": "testimonial",
+   "href": "/customers/",
+   "tooltip": "All customer stories",
+   "avatar": null,
+   "quote": {
+    "placeholder": true,
+    "chars": 220
+   },
+   "logo": {
+    "src": "/assets/tools/logos/ford-credit-white-logo.svg",
+    "originalSrc": "/customers/ford-credit/white-logo.svg",
+    "alt": "Ford Credit",
+    "natural": "160x72"
+   },
+   "name": "Lina Reynolds",
+   "role": "Lead UX Strategist",
+   "background": {
+    "src": "/assets/marketing/testimonial-grid-bg.png.png",
+    "originalSrc": "/media/testimonial-grid-bg.png.png",
+    "alt": "Grid background",
+    "natural": "2520x1120"
+   }
+  },
+  {
+   "type": "chooseGrid",
+   "h2": "Choose Dovetail when evidence needs to move beyond a usage chart",
+   "p": {
+    "placeholder": true,
+    "chars": 191
+   },
+   "ctas": [
+    {
+     "text": "Start a 60-day free trial",
+     "href": "#trial-cta",
+     "newTab": true
+    },
+    {
+     "text": "Book a demo",
+     "href": "/contact-sales/"
+    }
+   ],
+   "cards": [
+    {
+     "image": {
+      "src": "/assets/tools/Choose_dovetail_1.png",
+      "originalSrc": "/media/Choose_dovetail_1.png",
+      "alt": "",
+      "natural": "800x560"
+     },
+     "title": "Understand the why behind the click",
+     "text": {
+      "placeholder": true,
+      "chars": 182
+     }
+    },
+    {
+     "image": {
+      "src": "/assets/tools/Choose_dovetail_2.png",
+      "originalSrc": "/media/Choose_dovetail_2.png",
+      "alt": "",
+      "natural": "800x560"
+     },
+     "title": "Run research your team owns",
+     "text": "Record, transcribe, and analyze interviews and usability tests natively, without exporting behavioral data into a separate research tool."
+    },
+    {
+     "image": {
+      "src": "/assets/tools/Choose_dovetail_3.png",
+      "originalSrc": "/media/Choose_dovetail_3.png",
+      "alt": "",
+      "natural": "800x560"
+     },
+     "title": "One place for every kind of customer evidence",
+     "text": {
+      "placeholder": true,
+      "chars": 180
+     }
+    },
+    {
+     "image": {
+      "src": "/assets/tools/Choose_dovetail_4.png",
+      "originalSrc": "/media/Choose_dovetail_4.png",
+      "alt": "",
+      "natural": "800x560"
+     },
+     "title": "Stakeholders get cited answers, not just dashboards",
+     "text": "Let anyone ask a question in plain language and get an AI answer grounded in the original transcript or ticket, not just a usage segment."
+    },
+    {
+     "image": {
+      "src": "/assets/tools/Choose_dovetail_5.png",
+      "originalSrc": "/media/Choose_dovetail_5.png",
+      "alt": "",
+      "natural": "800x560"
+     },
+     "title": "Feedback that goes deeper than a widget",
+     "text": {
+      "placeholder": true,
+      "chars": 147
+     }
+    },
+    {
+     "image": {
+      "src": "/assets/tools/Choose_dovetail_6.png",
+      "originalSrc": "/media/Choose_dovetail_6.png",
+      "alt": "",
+      "natural": "800x560"
+     },
+     "title": "Every team gets a seat",
+     "text": {
+      "placeholder": true,
+      "chars": 149
+     }
+    }
+   ]
+  },
+  {
+   "type": "compareIntro",
+   "h2": "How Dovetail compares to Pendo",
+   "p": {
+    "placeholder": true,
+    "chars": 246
+   }
+  },
+  {
+   "type": "comparisonTable",
+   "columns": [
+    "",
+    "Dovetail",
+    "Pendo"
+   ],
+   "tickIcon": "/assets/tools/svg/icon-check-24.svg",
+   "rows": [
+    {
+     "label": "AI-categorized feedback themes",
+     "cells": [
+      {
+       "type": "tick"
+      },
+      {
+       "type": "tick"
+      }
+     ]
+    },
+    {
+     "label": "Interview recording, transcription, and synthesis",
+     "cells": [
+      {
+       "type": "tick"
+      },
+      {
+       "type": "text",
+       "text": "No native qualitative research tooling"
+      }
+     ]
+    },
+    {
+     "label": "Usability test session analysis",
+     "cells": [
+      {
+       "type": "tick"
+      },
+      {
+       "type": "text",
+       "text": "No clear equivalent publicly listed"
+      }
+     ]
+    },
+    {
+     "label": "AI answers grounded in cited customer evidence",
+     "cells": [
+      {
+       "type": "tick"
+      },
+      {
+       "type": "text",
+       "text": "Behavioral analytics and feedback dashboards"
+      }
+     ]
+    },
+    {
+     "label": "Support ticket, sales call, and review ingestion",
+     "cells": [
+      {
+       "type": "tick"
+      },
+      {
+       "type": "text",
+       "text": "Limited outside product usage and feedback data"
+      }
+     ]
+    },
+    {
+     "label": "Always-on tracking for emerging qualitative themes across channels",
+     "cells": [
+      {
+       "type": "tick"
+      },
+      {
+       "type": "text",
+       "text": "Feedback-only, not connected to support or sales conversations"
+      }
+     ]
+    },
+    {
+     "label": "Slack, Jira, Linear, and Salesforce workflows",
+     "cells": [
+      {
+       "type": "tick"
+      },
+      {
+       "type": "text",
+       "text": "Salesforce and Zendesk feedback submission; broader workflows vary by plan"
+      }
+     ]
+    },
+    {
+     "label": "Unlimited stakeholder viewers",
+     "cells": [
+      {
+       "type": "tick"
+      },
+      {
+       "type": "text",
+       "text": "Plan-dependent"
+      }
+     ]
+    },
+    {
+     "label": "Free migration from existing tools",
+     "cells": [
+      {
+       "type": "tick"
+      },
+      {
+       "type": "text",
+       "text": "Not publicly listed"
+      }
+     ]
+    }
+   ],
+   "note": "Only tick icons are used on the live site; there are no cross icons. Non-tick cells are plain text."
+  },
+  {
+   "type": "awardsMarquee",
+   "direction": "rtl",
+   "items": [
+    {
+     "badge": {
+      "src": "/assets/tools/buyer-s-choice-2026-flat.svg",
+      "originalSrc": "/media/buyer-s-choice-2026-flat.svg",
+      "alt": "",
+      "natural": null
+     },
+     "title": "Buyer's choice award",
+     "source": "Trust radius, 2026"
+    },
+    {
+     "badge": {
+      "src": "/assets/tools/getapp-category-leader.svg",
+      "originalSrc": "/media/getapp-category-leader.svg",
+      "alt": "",
+      "natural": null
+     },
+     "title": "Category Leader",
+     "source": "GetApp's category leaders 2025"
+    },
+    {
+     "badge": {
+      "src": "/assets/tools/Group_427321620.svg",
+      "originalSrc": "/media/Group_427321620.svg",
+      "alt": "",
+      "natural": null
+     },
+     "title": "Top UX Research Product",
+     "source": "Proddy awards by product school"
+    },
+    {
+     "badge": {
+      "src": "/assets/tools/g2-high-performer-enterprise-summer-2026.png",
+      "originalSrc": "/media/g2-high-performer-enterprise-summer-2026.png",
+      "alt": "",
+      "natural": null
+     },
+     "title": "High Performer",
+     "source": "g2, summer 2026"
+    },
+    {
+     "badge": {
+      "src": "/assets/tools/tech-cares-2026-flat.webp",
+      "originalSrc": "/media/tech-cares-2026-flat.webp",
+      "alt": "",
+      "natural": null
+     },
+     "title": "Tech Cares",
+     "source": "Trust radius, 2026"
+    },
+    {
+     "badge": {
+      "src": "/assets/tools/tech-cares-2025-gradient_1.svg",
+      "originalSrc": "/media/tech-cares-2025-gradient_1.svg",
+      "alt": "",
+      "natural": null
+     },
+     "title": "Tech Cares",
+     "source": "Trust radius, 2025"
+    },
+    {
+     "badge": {
+      "src": "/assets/tools/g2-momentum-leader-summer-2026.png",
+      "originalSrc": "/media/g2-momentum-leader-summer-2026.png",
+      "alt": "",
+      "natural": null
+     },
+     "title": "Momentum Leader",
+     "source": "g2, summer 2026"
+    },
+    {
+     "badge": {
+      "src": "/assets/tools/top-rated-2026-flat.png",
+      "originalSrc": "/media/top-rated-2026-flat.png",
+      "alt": "",
+      "natural": null
+     },
+     "title": "Top Rated",
+     "source": "Trust radius, 2026"
+    },
+    {
+     "badge": {
+      "src": "/assets/tools/g2-leader-summer-2026.png",
+      "originalSrc": "/media/g2-leader-summer-2026.png",
+      "alt": "",
+      "natural": null
+     },
+     "title": "Leader",
+     "source": "g2, summer 2026"
+    },
+    {
+     "badge": {
+      "src": "/assets/tools/g2-best-relationship-summer-2026.png",
+      "originalSrc": "/media/g2-best-relationship-summer-2026.png",
+      "alt": "",
+      "natural": null
+     },
+     "title": "Best Relationship",
+     "source": "g2, summer 2026"
+    },
+    {
+     "badge": {
+      "src": "/assets/tools/g2-best-roi-summer-2026.png",
+      "originalSrc": "/media/g2-best-roi-summer-2026.png",
+      "alt": "",
+      "natural": null
+     },
+     "title": "Best Estimated ROI",
+     "source": "g2, summer 2026"
+    },
+    {
+     "badge": {
+      "src": "/assets/tools/g2-fastest-implementation-summer-2026.png",
+      "originalSrc": "/media/g2-fastest-implementation-summer-2026.png",
+      "alt": "",
+      "natural": null
+     },
+     "title": "Fastest Implementation",
+     "source": "g2, summer 2026"
+    }
+   ]
+  },
+  {
+   "type": "migrate",
+   "h2": "Bring your qualitative evidence alongside your usage data",
+   "p": {
+    "placeholder": true,
+    "chars": 264
+   },
+   "ctas": [
+    {
+     "text": "Start a 60-day free trial",
+     "href": "#trial-cta",
+     "newTab": true
+    },
+    {
+     "text": "Get a migration plan",
+     "href": "/contact-sales/migration-plan/"
+    }
+   ],
+   "features": [
+    {
+     "icon": "/assets/tools/svg/migrate-guided-setup.svg",
+     "title": "Guided setup",
+     "text": "Bring your research history and get support setting up a workspace your team can use right away."
+    },
+    {
+     "icon": "/assets/tools/svg/migrate-searchable-history.svg",
+     "title": "Searchable history",
+     "text": "Make interviews, notes, findings, and feedback easy to query."
+    },
+    {
+     "icon": "/assets/tools/svg/migrate-unlimited-viewers.svg",
+     "title": "Unlimited viewers",
+     "text": "Give every team access to intelligence without seat limits."
+    },
+    {
+     "icon": "/assets/tools/svg/migrate-connected-workflows.svg",
+     "title": "Connected workflows",
+     "text": "Link customer evidence to the tools teams already use."
+    }
+   ]
+  },
+  {
+   "type": "trialCta",
+   "id": "trial-cta",
+   "h2": "Turn customer conversations into evidence your team can act on",
+   "p": {
+    "placeholder": true,
+    "chars": 193
+   },
+   "ctas": [
+    {
+     "text": "Start a 60-day free trial",
+     "href": "/auth/signup?promo=ENTERPRISE_SOLUTIONS_2026_D60",
+     "newTab": true
+    },
+    {
+     "text": "Book a demo",
+     "href": "/contact-sales/"
+    }
+   ],
+   "checklist": [
+    "60 days full access, no feature limits",
+    "Onboarding support from a research specialist",
+    "Free migration from your current tool",
+    "Full export if you decide not to continue"
+   ],
+   "checkIcon": "/assets/tools/svg/icon-check-trial-24.svg",
+   "background": "/assets/marketing/solution-trial-grid-bg.svg"
+  },
+  {
+   "type": "faq",
+   "heading": "FAQs",
+   "items": [
+    {
+     "question": "Can Dovetail replace Pendo?",
+     "answer": {
+      "placeholder": true,
+      "chars": 417
+     }
+    },
+    {
+     "question": "How does Dovetail’s AI compare to Pendo’s Leo and Agent Analytics?",
+     "answer": {
+      "placeholder": true,
+      "chars": 440
+     }
+    },
+    {
+     "question": "Can I bring my Pendo Listen feedback into Dovetail?",
+     "answer": {
+      "placeholder": true,
+      "chars": 227
+     }
+    },
+    {
+     "question": "What kinds of customer conversations does Dovetail capture?",
+     "answer": {
+      "placeholder": true,
+      "chars": 274
+     }
+    },
+    {
+     "question": "Can I ask why a customer behaves the way Pendo’s data shows?",
+     "answer": {
+      "placeholder": true,
+      "chars": 274
+     }
+    },
+    {
+     "question": "How long does it take to get started with Dovetail?",
+     "answer": {
+      "placeholder": true,
+      "chars": 224
+     }
+    }
+   ]
+  }
+ ],
+ "finalCta": false
+}

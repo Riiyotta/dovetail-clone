@@ -1,0 +1,524 @@
+{
+ "path": "/resources/dovetail-review/",
+ "title": "Dovetail Review 2026: Tagging, Search, AI, and Pricing",
+ "breadcrumb": [
+  {
+   "label": "Guides",
+   "href": "/guides/"
+  },
+  {
+   "label": "Dovetail review: tagging, search, AI, and pricing in 2026",
+   "href": null
+  }
+ ],
+ "h1": "Dovetail review: tagging, search, AI, and pricing in 2026",
+ "meta": [
+  [
+   "Last updated",
+   "29 September 2026"
+  ]
+ ],
+ "share": [
+  {
+   "heading": "Share",
+   "links": [
+    {
+     "label": "Copy link",
+     "href": null
+    },
+    {
+     "label": "Share on Facebook",
+     "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-review%2F"
+    },
+    {
+     "label": "Share on LinkedIn",
+     "href": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-review%2F"
+    },
+    {
+     "label": "Share on X",
+     "href": "https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20article%20at%20Dovetail!&url=https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-review%2F&via=hidovetail"
+    }
+   ]
+  },
+  {
+   "heading": "Summarize with AI",
+   "links": [
+    {
+     "label": "Summarize with ChatGPT",
+     "href": "https://chat.openai.com/?q=Summarize%20this%20article%20%22Dovetail%20review%3A%20tagging%2C%20search%2C%20AI%2C%20and%20pricing%20in%202026%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-review%2F"
+    },
+    {
+     "label": "Summarize with Claude",
+     "href": "https://claude.ai/new?q=Summarize%20this%20article%20%22Dovetail%20review%3A%20tagging%2C%20search%2C%20AI%2C%20and%20pricing%20in%202026%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-review%2F"
+    },
+    {
+     "label": "Summarize with Perplexity",
+     "href": "https://www.perplexity.ai/search?q=Summarize%20this%20article%20%22Dovetail%20review%3A%20tagging%2C%20search%2C%20AI%2C%20and%20pricing%20in%202026%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-review%2F"
+    },
+    {
+     "label": "Summarize with Grok",
+     "href": "https://x.com/i/grok?text=Summarize%20this%20article%20%22Dovetail%20review%3A%20tagging%2C%20search%2C%20AI%2C%20and%20pricing%20in%202026%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-review%2F"
+    }
+   ]
+  }
+ ],
+ "sidebarCta": {
+  "heading": "Get started today",
+  "body": "Go from raw data to valuable insights with a flexible research platform",
+  "button": {
+   "label": "Contact sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "toc": [
+  "Quick answer",
+  "What’s changed since 2024",
+  "Challenge 1: “Tagging is extensive and laborious”",
+  "Challenge 2: “Search functionality is flawed”",
+  "Challenge 3: “Dovetail’s AI is not there yet”",
+  "Challenge 4: “Dovetail is expensive”",
+  "Where to go next"
+ ],
+ "body": [
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 354,
+   "strong": [
+    "Reviewed and updated in September 2026."
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 201
+  },
+  {
+   "t": "h2",
+   "text": "Quick answer"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 345
+  },
+  {
+   "t": "h2",
+   "text": "What’s changed since 2024"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Criticism",
+    "What the claim says",
+    "What Dovetail does in September 2026"
+   ],
+   "rows": [
+    [
+     "Tagging is laborious",
+     {
+      "placeholder": true,
+      "chars": 75
+     },
+     {
+      "placeholder": true,
+      "chars": 124
+     }
+    ],
+    [
+     "Search is flawed",
+     {
+      "placeholder": true,
+      "chars": 71
+     },
+     {
+      "placeholder": true,
+      "chars": 103
+     }
+    ],
+    [
+     "AI isn’t ready",
+     "AI features feel bolted on",
+     {
+      "placeholder": true,
+      "chars": 123
+     }
+    ],
+    [
+     "Expensive",
+     "Per-seat purchases and unexpected price increases",
+     {
+      "placeholder": true,
+      "chars": 96
+     }
+    ]
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Challenge 1: “Tagging is extensive and laborious”"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 350
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 362
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 414,
+   "strong": [
+    "Tags in Channels 2.0"
+   ],
+   "links": [
+    {
+     "text": "Tags in Channels 2.0",
+     "href": "/changelog/tags-in-channels/"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 296,
+   "strong": [
+    "prioritizes your tags over auto-tags"
+   ],
+   "links": [
+    {
+     "text": "prioritizes your tags over auto-tags",
+     "href": "https://docs.dovetail.com/help/channels/tags"
+    }
+   ]
+  },
+  {
+   "t": "blockquote",
+   "placeholder": true,
+   "chars": 128
+  },
+  {
+   "t": "h2",
+   "text": "Challenge 2: “Search functionality is flawed”"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 280
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 312,
+   "strong": [
+    "Dovetail search"
+   ],
+   "links": [
+    {
+     "text": "Dovetail search",
+     "href": "https://docs.dovetail.com/help/search"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 438,
+   "strong": [
+    "Chat",
+    "November 2025"
+   ],
+   "links": [
+    {
+     "text": "Chat",
+     "href": "/product/ai-chat/"
+    },
+    {
+     "text": "November 2025",
+     "href": "/changelog/dovetail-chat-in-ga/"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 192,
+   "strong": [
+    "only searches content your account can already access"
+   ],
+   "links": [
+    {
+     "text": "only searches content your account can already access",
+     "href": "https://docs.dovetail.com/help/chat"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Challenge 3: “Dovetail’s AI is not there yet”"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 223
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 486,
+   "strong": [
+    "Sun’s Out launch",
+    "AI Agents to general availability"
+   ],
+   "links": [
+    {
+     "text": "Sun’s Out launch",
+     "href": "/blog/suns-out-2026-launch/"
+    },
+    {
+     "text": "AI Agents to general availability",
+     "href": "/changelog/agents-general-availability/"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 233
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 422,
+   "strong": [
+    "Dovetail MCP server"
+   ],
+   "links": [
+    {
+     "text": "Dovetail MCP server",
+     "href": "https://docs.dovetail.com/integrations/mcp-server"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Challenge 4: “Dovetail is expensive”"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 201,
+   "strong": [
+    "Enterprise pricing"
+   ],
+   "links": [
+    {
+     "text": "Enterprise pricing",
+     "href": "/pricing/"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 401,
+   "strong": [
+    "Forrester Total Economic Impact study"
+   ],
+   "links": [
+    {
+     "text": "Forrester Total Economic Impact study",
+     "href": "/resources/industry-reports/2025-forrester-TEI-of-Dovetail/"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Where to go next"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 193,
+     "strong": [
+      "Getting started:",
+      "start-by-role guide"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 83,
+     "strong": [
+      "Changelog:",
+      "Dovetail changelog"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 191,
+     "strong": [
+      "Usability FAQ:",
+      "Dovetail usability FAQ"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "FAQs"
+  },
+  {
+   "t": "h3",
+   "text": "Is tagging in Dovetail still manual and laborious?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 496
+  },
+  {
+   "t": "h3",
+   "text": "Do you need a perfect tag taxonomy to find anything in Dovetail search?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 466
+  },
+  {
+   "t": "h3",
+   "text": "Is Dovetail’s AI mature enough to rely on?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 472
+  },
+  {
+   "t": "h3",
+   "text": "Is Dovetail expensive?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 344
+  }
+ ],
+ "relatedTopics": [
+  {
+   "label": "[Customer research]",
+   "href": "/customer-research/"
+  },
+  {
+   "label": "[Design thinking]",
+   "href": "/design-thinking/"
+  },
+  {
+   "label": "[Employee experience]",
+   "href": "/employee-experience/"
+  },
+  {
+   "label": "[Enterprise]",
+   "href": "/enterprise/"
+  },
+  {
+   "label": "[Market research]",
+   "href": "/market-research/"
+  },
+  {
+   "label": "[Patient experience]",
+   "href": "/patient-experience/"
+  },
+  {
+   "label": "[Product development]",
+   "href": "/product-development/"
+  },
+  {
+   "label": "[Product management]",
+   "href": "/product-management/"
+  },
+  {
+   "label": "[Research maturity assessment]",
+   "href": "/research-maturity-assessment/"
+  },
+  {
+   "label": "[Research methods]",
+   "href": "/research/"
+  },
+  {
+   "label": "[Surveys]",
+   "href": "/surveys/"
+  },
+  {
+   "label": "[User experience (UX)]",
+   "href": "/ux/"
+  }
+ ],
+ "relatedArticles": [
+  {
+   "title": "Dovetail vs Enterpret",
+   "href": "/resources/dovetail-vs-enterpret/",
+   "date": "28 September 2026"
+  },
+  {
+   "title": "Dovetail vs Marvin",
+   "href": "/resources/dovetail-vs-marvin/",
+   "date": "28 September 2026"
+  },
+  {
+   "title": "Dovetail vs Qualtrics",
+   "href": "/resources/dovetail-vs-qualtrics/",
+   "date": "28 September 2026"
+  },
+  {
+   "title": "What can I use instead of Insight7? Alternatives by use case",
+   "href": "/resources/insight7-alternatives/",
+   "date": "20 October 2026"
+  },
+  {
+   "title": "What can I use instead of Insight7? Alternatives by use case",
+   "href": "/resources/insight7-alternatives/",
+   "date": "20 October 2026"
+  },
+  {
+   "title": "How does Dovetail compare to Aurelius for user research?",
+   "href": "/resources/dovetail-vs-aurelius/",
+   "date": "20 October 2026"
+  },
+  {
+   "title": "Dovetail vs Enterpret",
+   "href": "/resources/dovetail-vs-enterpret/",
+   "date": "28 September 2026"
+  },
+  {
+   "title": "Dovetail vs Marvin",
+   "href": "/resources/dovetail-vs-marvin/",
+   "date": "28 September 2026"
+  },
+  {
+   "title": "Dovetail vs Qualtrics",
+   "href": "/resources/dovetail-vs-qualtrics/",
+   "date": "28 September 2026"
+  }
+ ],
+ "cta": {
+  "heading": "Turn customer feedback into product innovation",
+  "buttons": [
+   {
+    "label": "Contact sales",
+    "href": "/contact-sales/"
+   },
+   {
+    "label": "Try Dovetail free",
+    "href": "/auth/signup/"
+   }
+  ]
+ },
+ "theme": "light"
+}

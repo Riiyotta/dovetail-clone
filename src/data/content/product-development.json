@@ -1,0 +1,5827 @@
+{
+ "source": "https://dovetail.com/product-development/",
+ "template": "guide-hub",
+ "categoryName": "Product development",
+ "hubPath": "/product-development/",
+ "pillar": {
+  "h1": "The ultimate product development guide",
+  "pageTitle": "Product Development 101—What You Need to Know",
+  "metaDescription": "Learn all about product development—the process of bringing a new product from idea to market. This comprehensive guide covers the key stages…",
+  "meta": [
+   {
+    "label": "Last updated",
+    "values": [
+     {
+      "text": "16 October 2025",
+      "href": null
+     }
+    ]
+   },
+   {
+    "label": "Author",
+    "values": [
+     {
+      "text": "Chloe Garnham",
+      "href": "/contributors/chloe-garnham/"
+     }
+    ]
+   },
+   {
+    "label": "Reviewed by",
+    "values": [
+     {
+      "text": "Jean Kaluza",
+      "href": "/contributors/jean-kaluza/"
+     }
+    ]
+   }
+  ],
+  "tocItems": 6,
+  "bodyShape": {
+   "chars": 11934,
+   "p": 58,
+   "h2": 8,
+   "h3": 9,
+   "ul": 5,
+   "li": 23
+  },
+  "bodyOrder": "h2 h2 h2 h2 h2 h2 h3 ul h3 ul h3 ul h3 ul h3 h3 h2 h2 h3 ul h3 h3"
+ },
+ "editorsPicks": [
+  {
+   "href": "/product-development/new-research-finds-online-consumers-are-falling-victim-to-dark-patterns/",
+   "title": "Dovetail Calls for ‘Design Empowerment’ as New Research Reveals Online Consumers Are Still Falling Victim to Dark Patterns",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/product-development/color-theory/",
+   "title": "What is color theory, and why does it matter in design?",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/product-development/iterative-design/",
+   "title": "What is iterative design: Definition and benefits",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/product-development/ideation/",
+   "title": "What is the ideation process?",
+   "date": "11 June 2026"
+  }
+ ],
+ "latestArticles": [
+  {
+   "href": "/product-development/customer-digital-twin-vs-customer-360/",
+   "title": "Customer digital twin vs. Customer 360: What’s the difference?",
+   "date": "14 September 2026"
+  },
+  {
+   "href": "/product-development/what-is-a-digital-twin-of-a-customer/",
+   "title": "What is a digital twin of a customer?",
+   "date": "14 September 2026"
+  },
+  {
+   "href": "/product-development/research-debriefs-product-trios-shared-understanding/",
+   "title": "How to run effective research debriefs with product trios that lead to shared understanding and aligned next steps",
+   "date": "18 August 2026"
+  },
+  {
+   "href": "/product-development/customer-digital-twin-use-cases/",
+   "title": "Nine customer digital twin use cases for B2B teams",
+   "date": "13 August 2026"
+  },
+  {
+   "href": "/product-development/how-to-build-a-customer-digital-twin/",
+   "title": "How to build a customer digital twin from first-party data",
+   "date": "13 August 2026"
+  },
+  {
+   "href": "/product-development/customer-digital-twin-vs-ai-persona/",
+   "title": "Customer digital twin vs. AI persona vs. synthetic customer",
+   "date": "13 August 2026"
+  },
+  {
+   "href": "/product-development/dovetail-research-highlights-jira-sprint-planning/",
+   "title": "How to integrate Dovetail research highlights into Jira tickets for better sprint planning",
+   "date": "14 July 2026"
+  },
+  {
+   "href": "/product-development/jobs-to-be-done-interviews-unmet-needs-mature-products/",
+   "title": "How to use jobs-to-be-done interviews to identify unmet needs in mature product categories",
+   "date": "30 June 2026"
+  }
+ ],
+ "relatedTopics": [
+  {
+   "href": "/customer-research/",
+   "text": "Customer research"
+  },
+  {
+   "href": "/design-thinking/",
+   "text": "Design thinking"
+  },
+  {
+   "href": "/employee-experience/",
+   "text": "Employee experience"
+  },
+  {
+   "href": "/enterprise/",
+   "text": "Enterprise"
+  },
+  {
+   "href": "/market-research/",
+   "text": "Market research"
+  },
+  {
+   "href": "/patient-experience/",
+   "text": "Patient experience"
+  },
+  {
+   "href": "/product-management/",
+   "text": "Product management"
+  },
+  {
+   "href": "/research-maturity-assessment/",
+   "text": "Research maturity assessment"
+  },
+  {
+   "href": "/research/",
+   "text": "Research methods"
+  },
+  {
+   "href": "/surveys/",
+   "text": "Surveys"
+  },
+  {
+   "href": "/ux/",
+   "text": "User experience (UX)"
+  }
+ ],
+ "allArticlesHeading": "All Product development articles",
+ "note": "articles[] = the \"All <category> articles\" A-Z list rendered after the footer on the hub page (order as on site). title = list title; h1 = the article page H1 (can differ). Article pages show the hub editorsPicks/latestArticles unless editorsPicksOverride/latestArticlesOverride (href lists; titles/dates resolvable from articles[] / hub carousels) is set for that article. No thumbnails exist for guide articles. sidebarCta = the desktop sidebar promo shown on every article of this hub (not on the hub pillar page itself).",
+ "routesNotInList": [],
+ "articles": [
+  {
+   "path": "/product-development/simple-retrospectives/",
+   "title": "10 simple retrospective ideas for your next sprint",
+   "h1": "10 simple retrospective ideas for your next sprint",
+   "lastUpdated": "1 June 2023",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Sophia Emifoniye",
+    "href": "/contributors/sophia-emifoniye/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 12255,
+    "p": 33,
+    "h2": 4,
+    "ul": 11,
+    "li": 40,
+    "h3": 14
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/slack-communities-for-product-managers/",
+   "title": "10 Slack community groups for product managers",
+   "h1": "10 Slack community groups for product managers",
+   "lastUpdated": "18 April 2024",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 12774,
+    "p": 54,
+    "h2": 4,
+    "h3": 13,
+    "ul": 11,
+    "li": 40
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-management-tools/",
+   "title": "11 essential product management tools",
+   "h1": "11 essential product management tools",
+   "lastUpdated": "23 May 2023",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 16159,
+    "p": 56,
+    "h2": 4,
+    "ul": 12,
+    "li": 39,
+    "h3": 15
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-management-best-practices/",
+   "title": "12 essential product management best practices",
+   "h1": "12 essential product management best practices",
+   "lastUpdated": "25 November 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 9254,
+    "p": 36,
+    "h2": 2,
+    "h3": 12
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/best-product-discovery-tools-for-product-teams/",
+   "title": "15 top product discovery tools for product teams",
+   "h1": "15 top product discovery tools for product teams",
+   "lastUpdated": "16 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 26,
+   "bodyShape": {
+    "chars": 19902,
+    "p": 118,
+    "h2": 3,
+    "h3": 23,
+    "ul": 28,
+    "li": 123
+   },
+   "bodyOrder": "h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 ul ul h3 ul ul h3 ul ul h3 ul ul h3 ul ul h3 ul ul h3 ul h3 ul ul h3 ul ul h3 ul ul h3 ul ul h3 ul ul h3 ul h3 ul ul h3 ul ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/best-design-thinking-tools/",
+   "title": "17 Essential Design Thinking Tools",
+   "h1": "17 Essential Design Thinking Tools",
+   "lastUpdated": "12 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 17034,
+    "p": 105,
+    "h2": 3,
+    "h3": 25,
+    "ul": 3,
+    "li": 11
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h3 h2 h3 ul h3 h3 h3 ul h3 ul h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/best-product-management-podcasts/",
+   "title": "17 product management podcasts to listen to",
+   "h1": "17 product management podcasts to listen to",
+   "lastUpdated": "27 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 15398,
+    "p": 56,
+    "h2": 3,
+    "ul": 2,
+    "li": 9,
+    "h3": 17
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/software-project-ideas/",
+   "title": "18 software project ideas to inspire you",
+   "h1": "18 software project ideas to inspire you",
+   "lastUpdated": "11 January 2024",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 27,
+   "bodyShape": {
+    "chars": 17779,
+    "p": 85,
+    "h2": 10,
+    "ol": 2,
+    "li": 11,
+    "ul": 1,
+    "h3": 20
+   },
+   "bodyOrder": "h2 ol h2 h2 ol h2 h2 ul h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-management-kpis/",
+   "title": "20 KPIs every product manager needs to track",
+   "h1": "20 KPIs every product manager needs to track",
+   "lastUpdated": "20 July 2024",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 16974,
+    "p": 93,
+    "h2": 7,
+    "ul": 4,
+    "li": 17,
+    "h3": 12
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 ul h2 ul h2 h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/top-product-newsletters/",
+   "title": "25 product newsletters that’ll keep you ahead of the curve",
+   "h1": "25 product newsletters that’ll keep you ahead of the curve",
+   "lastUpdated": "10 August 2024",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 27,
+   "bodyShape": {
+    "chars": 20593,
+    "p": 127,
+    "h2": 4,
+    "ol": 1,
+    "li": 25,
+    "h3": 26
+   },
+   "bodyOrder": "h2 h2 ol h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-management-certification/",
+   "title": "6 Best career-boosting product management certifications",
+   "h1": "6 Best career-boosting product management certifications",
+   "lastUpdated": "23 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 12144,
+    "p": 63,
+    "ul": 11,
+    "li": 42,
+    "h2": 6,
+    "h3": 6
+   },
+   "bodyOrder": "ul h2 ul h2 h2 ul h2 h3 ul h3 ul ul h3 ul h3 ul h3 ul ul h3 ul h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-metrics/",
+   "title": "6 product metrics your team should be tracking and why",
+   "h1": "6 product metrics your team should be tracking and why",
+   "lastUpdated": "6 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 14707,
+    "p": 60,
+    "ul": 7,
+    "li": 25,
+    "h2": 5,
+    "h3": 16
+   },
+   "bodyOrder": "ul h2 ul h3 h3 h3 h2 h3 ul h3 h3 ul h3 ul h3 h3 ul ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-positioning/",
+   "title": "A beginner’s guide to product positioning",
+   "h1": "A beginner’s guide to product positioning",
+   "lastUpdated": "12 May 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jen Lee",
+    "href": "/contributors/jen-lee/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 12238,
+    "p": 67,
+    "h2": 6,
+    "ul": 4,
+    "li": 18,
+    "h3": 16
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 ul h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 ul h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/critical-path-method-guide/",
+   "title": "A beginner’s guide to the critical path method in project management",
+   "h1": "A beginner’s guide to the critical path method in project management",
+   "lastUpdated": "21 December 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 31,
+   "bodyShape": {
+    "chars": 19692,
+    "p": 78,
+    "h2": 7,
+    "h3": 24,
+    "ol": 1,
+    "li": 47,
+    "ul": 7
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h2 ol h3 h2 h3 h3 h2 h3 ul h3 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 ul ul ul h3 h3 h2 h3 ul h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/ice-scoring-model/",
+   "title": "A complete guide to the ICE score",
+   "h1": "A complete guide to the ICE score",
+   "lastUpdated": "4 July 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 7050,
+    "p": 29,
+    "h2": 8,
+    "ul": 1,
+    "li": 3,
+    "h3": 3
+   },
+   "bodyOrder": "h2 ul h2 h2 h2 h2 h2 h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/stakeholder-analysis/",
+   "title": "A comprehensive guide to stakeholder analysis",
+   "h1": "A comprehensive guide to stakeholder analysis",
+   "lastUpdated": "23 May 2023",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Sophia Emifoniye",
+    "href": "/contributors/sophia-emifoniye/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 13350,
+    "p": 49,
+    "h2": 6,
+    "ul": 6,
+    "li": 29,
+    "h3": 13
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h2 h3 ul h3 ul h2 h3 h3 h3 h2 h3 ul h3 h3 ul h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-feature-driven-development/",
+   "title": "A guide to feature-driven development (FDD)",
+   "h1": "A guide to feature-driven development (FDD)",
+   "lastUpdated": "11 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 9549,
+    "p": 41,
+    "h2": 8,
+    "h3": 13,
+    "ol": 2,
+    "li": 16,
+    "ul": 1
+   },
+   "bodyOrder": "h2 h2 h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 ol h2 ul h2 h3 ol h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-development-process/",
+   "title": "A guide to the product development process",
+   "h1": "A guide to the product development process",
+   "lastUpdated": "30 March 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Tim Scharks",
+    "href": "/contributors/tim-scharks/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 15918,
+    "p": 60,
+    "h2": 8,
+    "h3": 22,
+    "ul": 8,
+    "li": 42
+   },
+   "bodyOrder": "h2 h3 h2 h3 ul ul h2 h3 ul h3 ul h3 h3 ul h3 h3 h2 h3 h3 h3 ul ul h3 h3 h2 ul h2 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/agile-terminology-guide/",
+   "title": "Agile terminology essentials: a detailed guide to common terms",
+   "h1": "Agile terminology essentials: a detailed guide to common terms",
+   "lastUpdated": "18 September 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 60,
+   "bodyShape": {
+    "chars": 19959,
+    "p": 91,
+    "h2": 60,
+    "ul": 2,
+    "li": 8
+   },
+   "bodyOrder": "h2 h2 h2 h2 ul h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 ul h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/agile-vs-design-thinking/",
+   "title": "Agile vs design thinking: Which methodology is right for your team?",
+   "h1": "Agile vs design thinking: Which methodology is right for your team?",
+   "lastUpdated": "14 February 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 9201,
+    "p": 37,
+    "h2": 7,
+    "ul": 3,
+    "li": 17,
+    "h3": 4
+   },
+   "bodyOrder": "h2 h2 ul h2 ul ul h2 h3 h3 h3 h3 h2 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/ai-in-product-development/",
+   "title": "AI in product development: Uses, benefits, and examples",
+   "h1": "AI in product development: Uses, benefits, and examples",
+   "lastUpdated": "8 April 2025",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 26,
+   "bodyShape": {
+    "chars": 9989,
+    "p": 40,
+    "h2": 6,
+    "h3": 24,
+    "ul": 8,
+    "li": 13,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 ol h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/how-to-facilitate-a-meeting/",
+   "title": "An actionable guide to facilitating meetings",
+   "h1": "An actionable guide to facilitating meetings",
+   "lastUpdated": "23 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 6,
+   "bodyShape": {
+    "chars": 12762,
+    "p": 53,
+    "h2": 3,
+    "ul": 9,
+    "li": 43,
+    "h3": 3
+   },
+   "bodyOrder": "h2 ul h2 h3 ul ul ul h3 ul ul ul ul ul h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-marketing/",
+   "title": "An essential guide to product marketing",
+   "h1": "An essential guide to product marketing",
+   "lastUpdated": "29 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 12255,
+    "p": 49,
+    "h2": 7,
+    "ul": 8,
+    "li": 30,
+    "h3": 15
+   },
+   "bodyOrder": "h2 h2 ul h2 ul h2 ul h3 h3 ul h3 h3 h2 h3 ul h3 h3 h3 ul h3 h3 ul h3 h3 h3 h2 h3 ul h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-an-agile-epic/",
+   "title": "An introduction to agile epics",
+   "h1": "An introduction to agile epics",
+   "lastUpdated": "11 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 6922,
+    "p": 30,
+    "h2": 11,
+    "h3": 5
+   },
+   "bodyOrder": "h2 h2 h3 h3 h2 h2 h2 h2 h2 h3 h3 h3 h2 h2 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-the-shape-up-method/",
+   "title": "An introduction to the Shape Up Method",
+   "h1": "An introduction to the Shape Up Method",
+   "lastUpdated": "29 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 11152,
+    "p": 39,
+    "h2": 6,
+    "h3": 9
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h2 h3 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/stakeholder-management/",
+   "title": "An overview of stakeholder management",
+   "h1": "An overview of stakeholder management",
+   "lastUpdated": "13 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Sophia Emifoniye",
+    "href": "/contributors/sophia-emifoniye/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 15270,
+    "p": 60,
+    "h2": 10,
+    "h3": 15,
+    "ol": 2,
+    "li": 24,
+    "ul": 3
+   },
+   "bodyOrder": "h2 h3 ol h3 ul h2 h2 h3 ul h2 h2 h3 h3 h2 h3 h3 ol h3 h3 h3 h2 h2 h3 h3 h3 h3 h3 h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/how-to-do-a-product-competitive-analysis/",
+   "title": "Analyzing your competitor’s products with a competitive product analysis",
+   "h1": "Analyzing your competitor’s products with a competitive product analysis",
+   "lastUpdated": "21 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 12114,
+    "p": 41,
+    "h2": 5,
+    "ul": 9,
+    "li": 23,
+    "h3": 12
+   },
+   "bodyOrder": "h2 ul h3 h2 ul h2 h3 h3 h3 ul h3 h3 h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/ai-in-product-design/",
+   "title": "Artificial intelligence is revolutionizing product design",
+   "h1": "Artificial intelligence is revolutionizing product design",
+   "lastUpdated": "22 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 9124,
+    "p": 56,
+    "h2": 7,
+    "ul": 7,
+    "li": 35,
+    "h3": 8,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 h3 ul ul h3 ul h2 ul h3 h3 h3 h2 ol h2 ul h2 ul h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-management-conferences/",
+   "title": "Best product management conferences in 2026 and 2027",
+   "h1": "Best product management conferences in 2026 and 2027",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 9,
+   "bodyShape": {
+    "chars": 5096,
+    "p": 26,
+    "h2": 9
+   },
+   "bodyOrder": "h2 h2 h2 h2 h2 h2 h2 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/concept-testing/",
+   "title": "Concept testing 101: what is it & when should you do it?",
+   "h1": "Concept testing 101: what is it & when should you do it?",
+   "lastUpdated": "16 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jen Lee",
+    "href": "/contributors/jen-lee/"
+   },
+   "tocItems": 43,
+   "bodyShape": {
+    "chars": 18166,
+    "h2": 12,
+    "p": 61,
+    "h3": 34
+   },
+   "bodyOrder": "h2 h3 h2 h2 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/continuous-interviewing/",
+   "title": "Continuous interviewing: how it helps in product management",
+   "h1": "Continuous interviewing: how it helps in product management",
+   "lastUpdated": "20 July 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 34,
+   "bodyShape": {
+    "chars": 12720,
+    "p": 46,
+    "h2": 10,
+    "ul": 1,
+    "li": 12,
+    "h3": 24,
+    "ol": 2
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h2 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h2 ol h2 h3 h3 h3 h3 h2 ol",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/continuous-product-discovery-best-practices/",
+   "title": "Continuous product discovery best practices & tips",
+   "h1": "Continuous product discovery best practices & tips",
+   "lastUpdated": "20 July 2024",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 12225,
+    "p": 40,
+    "h2": 9,
+    "ul": 7,
+    "li": 38,
+    "h3": 11,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 ul h3 h3 h3 h2 h3 h3 h3 ul h3 h3 h3 h2 ul h2 ul h2 ul h2 ul h2 ol h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/guide-to-outcome-based-roadmaps/",
+   "title": "Creating an effective outcome-based roadmap",
+   "h1": "Creating an effective outcome-based roadmap",
+   "lastUpdated": "24 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 9708,
+    "p": 35,
+    "h2": 7,
+    "h3": 10,
+    "ul": 2,
+    "li": 9
+   },
+   "bodyOrder": "h2 h3 h3 h2 ul h2 h3 h3 h3 h2 h3 h3 h3 h2 ul h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/customer-digital-twin-vs-ai-persona/",
+   "title": "Customer digital twin vs. AI persona vs. synthetic customer",
+   "h1": "Customer digital twin vs. AI persona vs. synthetic customer",
+   "lastUpdated": "13 August 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 13832,
+    "p": 54,
+    "h2": 12,
+    "table": 1,
+    "ol": 2,
+    "li": 23,
+    "h3": 8,
+    "ul": 2
+   },
+   "bodyOrder": "h2 table h2 h2 h2 h2 ol h2 h3 h3 h3 ul h3 h2 h2 ol h2 h2 h2 ul h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/product-development/customer-digital-twin-vs-customer-360/",
+    "/product-development/what-is-a-digital-twin-of-a-customer/",
+    "/product-development/research-debriefs-product-trios-shared-understanding/",
+    "/product-development/customer-digital-twin-use-cases/",
+    "/product-development/how-to-build-a-customer-digital-twin/",
+    "/product-development/dovetail-research-highlights-jira-sprint-planning/",
+    "/product-development/jobs-to-be-done-interviews-unmet-needs-mature-products/",
+    "/product-development/balance-generative-evaluative-research-product-discovery-sprint/"
+   ]
+  },
+  {
+   "path": "/product-development/customer-digital-twin-vs-customer-360/",
+   "title": "Customer digital twin vs. Customer 360: What’s the difference?",
+   "h1": "Customer digital twin vs. Customer 360: What’s the difference?",
+   "lastUpdated": "14 September 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 15925,
+    "p": 64,
+    "blockquote": 1,
+    "h2": 13,
+    "table": 1,
+    "ul": 10,
+    "li": 61,
+    "ol": 1,
+    "h3": 6
+   },
+   "bodyOrder": "blockquote h2 table h2 ul h2 ol h2 ul ul h2 h3 h3 ul h2 ul ul h2 ul h2 ul h2 ul h2 h2 h2 ul h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/product-development/what-is-a-digital-twin-of-a-customer/",
+    "/product-development/research-debriefs-product-trios-shared-understanding/",
+    "/product-development/customer-digital-twin-use-cases/",
+    "/product-development/how-to-build-a-customer-digital-twin/",
+    "/product-development/customer-digital-twin-vs-ai-persona/",
+    "/product-development/dovetail-research-highlights-jira-sprint-planning/",
+    "/product-development/jobs-to-be-done-interviews-unmet-needs-mature-products/",
+    "/product-development/balance-generative-evaluative-research-product-discovery-sprint/"
+   ]
+  },
+  {
+   "path": "/product-development/what-is-behavioral-analytics/",
+   "title": "Decoding behavioral analytics: How it works and why it matters",
+   "h1": "Decoding behavioral analytics: How it works and why it matters",
+   "lastUpdated": "5 February 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 12629,
+    "p": 73,
+    "h2": 7,
+    "ul": 3,
+    "li": 12,
+    "h3": 17
+   },
+   "bodyOrder": "h2 ul h2 ul ul h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/design-process/",
+   "title": "Design process 101: How to get started",
+   "h1": "Design process 101: How to get started",
+   "lastUpdated": "23 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 12482,
+    "p": 69,
+    "h2": 8,
+    "h3": 16,
+    "ul": 7,
+    "li": 34,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 ul ul h3 ul ul ul h3 ol h3 ul h3 h3 h2 h3 h3 h3 h2 h3 h3 ul h3 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-a-development-team/",
+   "title": "Development team: Overview, roles, and structure",
+   "h1": "Development team: Overview, roles, and structure",
+   "lastUpdated": "1 May 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 7785,
+    "p": 32,
+    "h2": 6,
+    "h3": 15,
+    "ul": 7,
+    "li": 30
+   },
+   "bodyOrder": "h2 h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h2 ul h2 h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/do-product-managers-need-to-code/",
+   "title": "Do product managers need to code?",
+   "h1": "Do product managers need to code?",
+   "lastUpdated": "10 August 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 9183,
+    "p": 36,
+    "h2": 4,
+    "ul": 4,
+    "li": 19,
+    "h3": 8,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 ul h3 h3 ul h3 ul h2 h3 h3 h3 h3 ol h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/new-research-finds-online-consumers-are-falling-victim-to-dark-patterns/",
+   "title": "Dovetail Calls for ‘Design Empowerment’ as New Research Reveals Online Consumers Are Still Falling Victim to Dark Patterns",
+   "h1": "Dovetail Calls for ‘Design Empowerment’ as New Research Reveals Online Consumers Are Still Falling Victim to Dark Patterns",
+   "lastUpdated": "11 June 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 0,
+   "bodyShape": {
+    "chars": 3841,
+    "p": 9
+   },
+   "bodyOrder": "",
+   "editorsPicksOverride": [
+    "/product-development/color-theory/",
+    "/product-development/iterative-design/",
+    "/product-development/ideation/",
+    "/product-development/principles-of-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/jobs-to-be-done/",
+   "title": "Everything you need to know about “Jobs to be Done”",
+   "h1": "Everything you need to know about “Jobs to be Done”",
+   "lastUpdated": "29 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 5998,
+    "p": 22,
+    "h2": 6,
+    "h3": 11,
+    "ol": 1,
+    "li": 7
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h2 ol h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/beta-testing/",
+   "title": "Everything you need to know about beta testing",
+   "h1": "Everything you need to know about beta testing",
+   "lastUpdated": "15 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 9100,
+    "p": 51,
+    "h2": 8,
+    "ul": 4,
+    "li": 13,
+    "h3": 22
+   },
+   "bodyOrder": "h2 ul h2 h2 h3 h3 h3 h3 h2 ul h2 h2 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 ul h3 h3 ul h2 h3 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/forming-storming-norming-performing/",
+   "title": "Four stages of group development: Forming, storming, norming, and performing",
+   "h1": "Four stages of group development: Forming, storming, norming, and performing",
+   "lastUpdated": "20 December 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 7,
+   "bodyShape": {
+    "chars": 10322,
+    "p": 137,
+    "h2": 3,
+    "h3": 9,
+    "ul": 4,
+    "li": 121,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h3 ul h3 ul h3 ul h3 ul h3 h2 h3 ol h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/now-next-later-roadmap-guide/",
+   "title": "From Chaos to Clarity: The Now-Next-Later Roadmap Guide",
+   "h1": "From Chaos to Clarity: The Now-Next-Later Roadmap Guide",
+   "lastUpdated": "22 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 10343,
+    "p": 43,
+    "h2": 6,
+    "ul": 8,
+    "li": 34,
+    "h3": 17
+   },
+   "bodyOrder": "h2 ul h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 ul h3 ul h3 ul h2 h3 ul h3 ul h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/how-to-create-a-customer-facing-roadmap/",
+   "title": "From start to finish: Building a customer roadmap",
+   "h1": "From start to finish: Building a customer roadmap",
+   "lastUpdated": "19 November 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 14433,
+    "p": 61,
+    "h2": 7,
+    "ul": 16,
+    "li": 63,
+    "h3": 17
+   },
+   "bodyOrder": "h2 h2 ul h3 ul h3 ul h3 ul h2 h3 ul h3 h3 ul h3 h3 h3 ul h2 h3 ul h3 ul h3 ul h2 h2 h3 ul h3 ul h3 ul h3 ul h3 ul ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/gestalt-psychology/",
+   "title": "Gestalt psychology: Basic principles, examples, and uses",
+   "h1": "Gestalt psychology: Basic principles, examples, and uses",
+   "lastUpdated": "2 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 13131,
+    "p": 49,
+    "h2": 8,
+    "ul": 2,
+    "li": 12,
+    "h3": 21
+   },
+   "bodyOrder": "h2 h2 h2 h2 ul h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3 h3 h3 ul h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/prioritization-matrix/",
+   "title": "Guide to the prioritization matrix",
+   "h1": "Guide to the prioritization matrix",
+   "lastUpdated": "25 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 10673,
+    "p": 48,
+    "h2": 5,
+    "h3": 13,
+    "ul": 3,
+    "li": 12
+   },
+   "bodyOrder": "h2 h3 h3 h3 ul h2 h3 h3 h3 h2 h3 ul h3 h3 h3 h2 ul h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/ai-in-product-management/",
+   "title": "How AI can transform product management",
+   "h1": "How AI can transform product management",
+   "lastUpdated": "10 August 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 15699,
+    "p": 74,
+    "h2": 4,
+    "h3": 16
+   },
+   "bodyOrder": "h2 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/how-to-become-a-product-designer/",
+   "title": "How can I become a product designer?",
+   "h1": "How can I become a product designer?",
+   "lastUpdated": "27 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 9520,
+    "p": 38,
+    "h2": 7,
+    "ul": 3,
+    "li": 14,
+    "h3": 9
+   },
+   "bodyOrder": "h2 h2 ul h2 h2 h3 h3 ul h3 h3 h3 h3 h2 ul h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/balance-generative-evaluative-research-product-discovery-sprint/",
+   "title": "How to balance generative and evaluative research within a single product discovery sprint",
+   "h1": "How to balance generative and evaluative research within a single product discovery sprint",
+   "lastUpdated": "16 June 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 14279,
+    "p": 43,
+    "h2": 8,
+    "h3": 15,
+    "ul": 2,
+    "li": 8,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h3 h3 h2 h2 h3 ul h3 h3 ol h3 h3 h3 h2 h3 h3 h3 h3 h2 ul h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-design-engineer/",
+   "title": "How to become a product design engineer",
+   "h1": "How to become a product design engineer",
+   "lastUpdated": "27 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 10,
+   "bodyShape": {
+    "chars": 7414,
+    "p": 27,
+    "h2": 7,
+    "ul": 3,
+    "li": 27,
+    "h3": 6
+   },
+   "bodyOrder": "h2 h2 ul h2 ul h2 h3 ul h3 h3 h3 h2 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/how-to-build-a-customer-digital-twin/",
+   "title": "How to build a customer digital twin from first-party data",
+   "h1": "How to build a customer digital twin from first-party data",
+   "lastUpdated": "13 August 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 14057,
+    "p": 56,
+    "ol": 1,
+    "li": 87,
+    "h2": 11,
+    "h3": 10,
+    "ul": 12,
+    "blockquote": 2
+   },
+   "bodyOrder": "ol h2 h3 h3 h3 h2 ul blockquote blockquote h2 ul h2 h3 ul h3 ul h3 ul h2 ul h2 ul h2 h3 ul h3 h3 ul h3 h2 ul h2 ul h2 h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/product-development/customer-digital-twin-vs-customer-360/",
+    "/product-development/what-is-a-digital-twin-of-a-customer/",
+    "/product-development/research-debriefs-product-trios-shared-understanding/",
+    "/product-development/customer-digital-twin-use-cases/",
+    "/product-development/customer-digital-twin-vs-ai-persona/",
+    "/product-development/dovetail-research-highlights-jira-sprint-planning/",
+    "/product-development/jobs-to-be-done-interviews-unmet-needs-mature-products/",
+    "/product-development/balance-generative-evaluative-research-product-discovery-sprint/"
+   ]
+  },
+  {
+   "path": "/product-development/how-to-conduct-a-product-feature-analysis/",
+   "title": "How to conduct a product feature analysis",
+   "h1": "How to conduct a product feature analysis",
+   "lastUpdated": "22 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 13319,
+    "p": 42,
+    "h2": 6,
+    "h3": 14,
+    "ul": 11,
+    "li": 37
+   },
+   "bodyOrder": "h2 h2 h3 ul h3 ul h3 ul h3 ul h2 h3 h3 h3 h3 h2 h3 ul h3 ul h3 h3 ul ul ul h3 ul h3 h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/how-to-do-product-research/",
+   "title": "How to conduct effective product research",
+   "h1": "How to conduct effective product research",
+   "lastUpdated": "27 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 14682,
+    "p": 53,
+    "h2": 7,
+    "h3": 15,
+    "ul": 6,
+    "li": 28
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 ul h2 ul h2 ul h3 ul h2 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/design-workshops/",
+   "title": "How to create & run engaging design workshops",
+   "h1": "How to create & run engaging design workshops",
+   "lastUpdated": "22 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 26,
+   "bodyShape": {
+    "chars": 14947,
+    "p": 50,
+    "h2": 6,
+    "h3": 24,
+    "ul": 1,
+    "li": 20
+   },
+   "bodyOrder": "h2 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 ul h3 h2 h3 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-a-project-scope/",
+   "title": "How to create a clear project scope",
+   "h1": "How to create a clear project scope",
+   "lastUpdated": "21 December 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 7515,
+    "p": 26,
+    "h2": 6,
+    "ul": 2,
+    "li": 10,
+    "h3": 6
+   },
+   "bodyOrder": "h2 ul h2 h2 h3 h2 h3 h3 h3 h3 h3 h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/how-to-create-the-ultimate-product-roadmap/",
+   "title": "How to create the ultimate product roadmap",
+   "h1": "How to create the ultimate product roadmap",
+   "lastUpdated": "15 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 26,
+   "bodyShape": {
+    "chars": 13370,
+    "p": 58,
+    "h2": 14,
+    "ul": 7,
+    "li": 33,
+    "h3": 12,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h3 h3 h3 h3 h2 ul h2 ul h2 h3 h3 h2 h2 h3 h3 h3 h2 ul h3 ul ul h3 h3 h2 h2 ol h2 h2 h2 ul h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/value-proposition-template/",
+   "title": "How to develop a unique value proposition",
+   "h1": "How to develop a unique value proposition",
+   "lastUpdated": "23 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 10089,
+    "p": 38,
+    "h2": 9,
+    "h3": 12,
+    "ul": 3,
+    "li": 10
+   },
+   "bodyOrder": "h2 h2 h2 h2 h2 h2 h3 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 ul h3 ul h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-a-product-mindset/",
+   "title": "How to develop a winning product mindset",
+   "h1": "How to develop a winning product mindset",
+   "lastUpdated": "2 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 10,
+   "bodyShape": {
+    "chars": 9288,
+    "p": 42,
+    "h2": 6,
+    "ul": 6,
+    "li": 18,
+    "h3": 7
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 ul ul h2 h3 ul ul h3 ul h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-scrum-product-management/",
+   "title": "How to get started with scrum",
+   "h1": "How to get started with scrum",
+   "lastUpdated": "20 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 15466,
+    "p": 66,
+    "h2": 9,
+    "h3": 13,
+    "ul": 6,
+    "li": 38,
+    "ol": 2
+   },
+   "bodyOrder": "h2 h3 ul h3 h2 ol h2 ol ul h2 h3 h3 h3 h3 h3 h2 h2 h2 h2 ul h2 h3 h3 h3 h3 ul h3 ul h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/how-to-grow-with-data-driven-insights/",
+   "title": "How to grow your business with data-driven insights",
+   "h1": "How to grow your business with data-driven insights",
+   "lastUpdated": "22 August 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 30,
+   "bodyShape": {
+    "chars": 17370,
+    "p": 63,
+    "h2": 8,
+    "h3": 22,
+    "ul": 1,
+    "li": 9,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h3 ul h2 h3 h3 h3 h3 h3 h2 ol h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/how-to-implement-successful-product-change-management/",
+   "title": "How to implement successful product change management",
+   "h1": "How to implement successful product change management",
+   "lastUpdated": "22 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 13728,
+    "p": 58,
+    "h2": 5,
+    "ul": 5,
+    "li": 19,
+    "h3": 20
+   },
+   "bodyOrder": "h2 ul h3 ul h2 ul h2 h3 h3 h3 h3 h3 h3 h3 ul h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/dovetail-research-highlights-jira-sprint-planning/",
+   "title": "How to integrate Dovetail research highlights into Jira tickets for better sprint planning",
+   "h1": "How to integrate Dovetail research highlights into Jira tickets for better sprint planning",
+   "lastUpdated": "14 July 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 12672,
+    "p": 44,
+    "h2": 8,
+    "h3": 21,
+    "ol": 2,
+    "li": 12,
+    "ul": 2,
+    "blockquote": 2
+   },
+   "bodyOrder": "h2 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 ol h3 ul h3 ol h2 h3 blockquote h3 blockquote ul h2 h3 h3 h3 h2 h3 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/product-development/customer-digital-twin-vs-customer-360/",
+    "/product-development/what-is-a-digital-twin-of-a-customer/",
+    "/product-development/research-debriefs-product-trios-shared-understanding/",
+    "/product-development/customer-digital-twin-use-cases/",
+    "/product-development/how-to-build-a-customer-digital-twin/",
+    "/product-development/customer-digital-twin-vs-ai-persona/",
+    "/product-development/jobs-to-be-done-interviews-unmet-needs-mature-products/",
+    "/product-development/balance-generative-evaluative-research-product-discovery-sprint/"
+   ]
+  },
+  {
+   "path": "/product-development/how-to-manage-the-hippo-effect-in-product-management/",
+   "title": "How to manage the HiPPO effect in your product strategy",
+   "h1": "How to manage the HiPPO effect in your product strategy",
+   "lastUpdated": "16 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 8105,
+    "p": 28,
+    "h2": 6,
+    "ol": 2,
+    "li": 14,
+    "h3": 7,
+    "ul": 1
+   },
+   "bodyOrder": "h2 ol h2 h2 ol h2 h3 h3 h3 h3 h2 ul h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/how-to-prioritize-projects-in-product-development/",
+   "title": "How to prioritize projects in product development",
+   "h1": "How to prioritize projects in product development",
+   "lastUpdated": "15 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 11459,
+    "p": 50,
+    "h2": 6,
+    "h3": 16,
+    "ol": 1,
+    "li": 5
+   },
+   "bodyOrder": "h2 h3 ol h2 h2 h3 h3 h3 h2 h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/how-to-prioritize-tasks/",
+   "title": "How to prioritize tasks: 11 techniques to try",
+   "h1": "How to prioritize tasks: 11 techniques to try",
+   "lastUpdated": "1 May 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 15904,
+    "p": 84,
+    "h2": 8,
+    "h3": 13,
+    "ul": 2,
+    "li": 10
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h3 ul h3 h3 h3 h3 h3 h3 h2 h2 h2 ul h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-critique/",
+   "title": "How to run a product critique session",
+   "h1": "How to run a product critique session",
+   "lastUpdated": "23 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 15967,
+    "p": 66,
+    "ul": 11,
+    "li": 43,
+    "h2": 7,
+    "h3": 17
+   },
+   "bodyOrder": "ul h2 ul h2 ul h2 ul h3 h3 h3 h3 h2 h3 h3 ul h3 ul h3 h3 h2 h3 ul h3 ul h3 ul ul h3 ul h2 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/research-debriefs-product-trios-shared-understanding/",
+   "title": "How to run effective research debriefs with product trios that lead to shared understanding and aligned next steps",
+   "h1": "How to run effective research debriefs with product trios that lead to shared understanding and aligned next steps",
+   "lastUpdated": "18 August 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 13509,
+    "p": 46,
+    "h2": 9,
+    "ul": 5,
+    "li": 22,
+    "h3": 15,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 h2 h3 ul h3 ul h3 h2 h3 h3 ul h3 ul h3 ol h2 h3 h3 h3 h3 h3 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/product-development/customer-digital-twin-vs-customer-360/",
+    "/product-development/what-is-a-digital-twin-of-a-customer/",
+    "/product-development/customer-digital-twin-use-cases/",
+    "/product-development/how-to-build-a-customer-digital-twin/",
+    "/product-development/customer-digital-twin-vs-ai-persona/",
+    "/product-development/dovetail-research-highlights-jira-sprint-planning/",
+    "/product-development/jobs-to-be-done-interviews-unmet-needs-mature-products/",
+    "/product-development/balance-generative-evaluative-research-product-discovery-sprint/"
+   ]
+  },
+  {
+   "path": "/product-development/product-pricing/",
+   "title": "How to set the right price for your product",
+   "h1": "How to set the right price for your product",
+   "lastUpdated": "6 May 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 11336,
+    "p": 42,
+    "h2": 6,
+    "h3": 16,
+    "ul": 4,
+    "li": 12
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 ul h2 h3 h3 h3 h3 ul h3 ul h2 h3 h3 h2 h3 h3 h3 ul h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/prioritization-how-to/",
+   "title": "How to use data-driven prioritization in product management",
+   "h1": "How to use data-driven prioritization in product management",
+   "lastUpdated": "22 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 13096,
+    "p": 43,
+    "h2": 4,
+    "ul": 9,
+    "li": 37,
+    "h3": 10
+   },
+   "bodyOrder": "h2 ul h2 h2 h3 ul h3 ul h3 ul h3 ul ul h3 h3 h3 ul h3 h3 ul h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/design-tests/",
+   "title": "How to use design tests to deliver better products",
+   "h1": "How to use design tests to deliver better products",
+   "lastUpdated": "22 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 10943,
+    "p": 68,
+    "h2": 5,
+    "h3": 12,
+    "ul": 3,
+    "li": 9
+   },
+   "bodyOrder": "h2 h3 ul h3 h3 h3 h2 h3 h3 h3 h2 h3 ul h3 ul h3 h2 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/jobs-to-be-done-interviews-unmet-needs-mature-products/",
+   "title": "How to use jobs-to-be-done interviews to identify unmet needs in mature product categories",
+   "h1": "How to use jobs-to-be-done interviews to identify unmet needs in mature product categories",
+   "lastUpdated": "30 June 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 15333,
+    "p": 46,
+    "h2": 8,
+    "h3": 15,
+    "ul": 5,
+    "li": 23,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h3 h3 ul h3 ol h2 h3 ul h3 ul h3 ul h2 h3 h3 h3 h2 h3 h3 ul h3 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/product-development/customer-digital-twin-vs-customer-360/",
+    "/product-development/what-is-a-digital-twin-of-a-customer/",
+    "/product-development/research-debriefs-product-trios-shared-understanding/",
+    "/product-development/customer-digital-twin-use-cases/",
+    "/product-development/how-to-build-a-customer-digital-twin/",
+    "/product-development/customer-digital-twin-vs-ai-persona/",
+    "/product-development/dovetail-research-highlights-jira-sprint-planning/",
+    "/product-development/balance-generative-evaluative-research-product-discovery-sprint/"
+   ]
+  },
+  {
+   "path": "/product-development/common-product-pricing-strategies/",
+   "title": "How to use product pricing strategies to maximize revenue",
+   "h1": "How to use product pricing strategies to maximize revenue",
+   "lastUpdated": "17 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 31,
+   "bodyShape": {
+    "chars": 18269,
+    "p": 76,
+    "h2": 8,
+    "h3": 23,
+    "ul": 4,
+    "li": 16
+   },
+   "bodyOrder": "h2 h3 ul h2 h2 h3 h3 h3 h2 h3 ul h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 ul h3 ul h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/retrospective-how-to/",
+   "title": "How to use retrospectives to improve your product team",
+   "h1": "How to use retrospectives to improve your product team",
+   "lastUpdated": "11 June 2026",
+   "author": null,
+   "reviewer": {
+    "name": "Jen Lee",
+    "href": "/contributors/jen-lee/"
+   },
+   "tocItems": 26,
+   "bodyShape": {
+    "chars": 10520,
+    "p": 39,
+    "h2": 7,
+    "h3": 19,
+    "ul": 8,
+    "li": 34,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 h3 ul h2 h3 ul h3 ol h3 ul h2 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/how-to-write-a-project-plan/",
+   "title": "How to write a winning project plan",
+   "h1": "How to write a winning project plan",
+   "lastUpdated": "16 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jen Lee",
+    "href": "/contributors/jen-lee/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 14240,
+    "p": 39,
+    "h2": 6,
+    "h3": 12,
+    "ul": 4,
+    "li": 24
+   },
+   "bodyOrder": "h2 h3 ul h3 ul h3 ul h2 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 ul h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/how-to-write-project-requirements/",
+   "title": "How to write project requirements that drive results",
+   "h1": "How to write project requirements that drive results",
+   "lastUpdated": "11 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 14861,
+    "p": 61,
+    "h2": 9,
+    "h3": 20,
+    "ol": 2,
+    "li": 8
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h2 ol h2 h3 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 ol h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/how-to-create-an-action-plan/",
+   "title": "How to: Action plan template and instructions",
+   "h1": "How to: Action plan template and instructions",
+   "lastUpdated": "21 December 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 11422,
+    "p": 78,
+    "h2": 7,
+    "ul": 10,
+    "li": 33,
+    "h3": 17
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h3 h3 h2 h3 ul h3 ul h3 h3 ul h3 h2 h3 h3 h3 h2 h3 h3 h3 h2 ul ul ul ul ul ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/visual-hierarchy/",
+   "title": "How visual hierarchy can help you create effective designs",
+   "h1": "How visual hierarchy can help you create effective designs",
+   "lastUpdated": "6 May 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Sophia Emifoniye",
+    "href": "/contributors/sophia-emifoniye/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 10332,
+    "p": 59,
+    "h2": 5,
+    "h3": 10,
+    "ul": 2,
+    "li": 6
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h3 ul h3 ul h2 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/kanban-vs-scrum/",
+   "title": "Kanban vs scrum: Which agile methodology is right for your company?",
+   "h1": "Kanban vs scrum: Which agile methodology is right for your company?",
+   "lastUpdated": "11 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 12800,
+    "p": 66,
+    "h2": 9,
+    "ol": 1,
+    "li": 57,
+    "h3": 17,
+    "ul": 10
+   },
+   "bodyOrder": "h2 h2 ol h3 ul h3 ul h3 ul h3 h3 h2 h2 h3 h3 ul h3 ul h3 h3 ul h2 h3 ul h3 ul h2 h2 h2 h2 h3 h3 h3 h3 ul h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/market-requirements-document/",
+   "title": "Market requirements document (MRD): definition, criteria, and best practices",
+   "h1": "Market requirements document (MRD): definition, criteria, and best practices",
+   "lastUpdated": "20 July 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 9250,
+    "p": 26,
+    "h2": 5,
+    "h3": 8,
+    "ul": 3,
+    "li": 21,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h3 h3 h2 h2 ul ul h3 ol h2 h3 h3 h3 h3 h3 h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-product-sense/",
+   "title": "Mastering product sense: an in-depth overview and definition",
+   "h1": "Mastering product sense: an in-depth overview and definition",
+   "lastUpdated": "20 July 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 12334,
+    "p": 53,
+    "h2": 9,
+    "h3": 16,
+    "ul": 8,
+    "li": 40
+   },
+   "bodyOrder": "h2 h2 h3 ul h3 ul h3 h3 h2 ul h2 h2 h3 h3 ul h3 h3 ul h2 h3 h3 h3 ul h2 ul h3 h3 h2 ul h3 h3 h2 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-feedback-loop/",
+   "title": "Mastering the product feedback loop: the ultimate guide",
+   "h1": "Mastering the product feedback loop: the ultimate guide",
+   "lastUpdated": "27 July 2024",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 16808,
+    "p": 58,
+    "h2": 9,
+    "h3": 19,
+    "ol": 6,
+    "li": 36,
+    "ul": 1
+   },
+   "bodyOrder": "h2 h3 ol ol h2 ol h2 h3 h3 h3 h2 h3 h3 ul h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 ol h2 ol h2 h2 h3 ol h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-adoption-metrics/",
+   "title": "Measuring success: 12 key adoption metrics for product development",
+   "h1": "Measuring success: 12 key adoption metrics for product development",
+   "lastUpdated": "11 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 17814,
+    "p": 120,
+    "h2": 7,
+    "h3": 22
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h2 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-mind-mapping/",
+   "title": "Mind mapping 101: What is it and how can it help?",
+   "h1": "Mind mapping 101: What is it and how can it help?",
+   "lastUpdated": "24 September 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 8,
+   "bodyShape": {
+    "chars": 8295,
+    "p": 33,
+    "h2": 9,
+    "ol": 1,
+    "li": 9,
+    "ul": 1,
+    "h3": 2
+   },
+   "bodyOrder": "h2 h2 h2 h2 h2 ol h2 ul h2 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-manager-career-path/",
+   "title": "Navigating the product manager career path",
+   "h1": "Navigating the product manager career path",
+   "lastUpdated": "1 May 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 14930,
+    "p": 66,
+    "h2": 4,
+    "h3": 14,
+    "ul": 4,
+    "li": 19,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h3 ul h3 h3 h3 h3 h2 h3 h3 ul h3 ol h3 ul h3 h3 h3 ul h2 h3 h3",
+   "editorsPicksOverride": [
+    "/product-development/retrospective-how-to/",
+    "/product-development/new-research-finds-online-consumers-are-falling-victim-to-dark-patterns/",
+    "/product-development/color-theory/",
+    "/product-development/iterative-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/customer-digital-twin-use-cases/",
+   "title": "Nine customer digital twin use cases for B2B teams",
+   "h1": "Nine customer digital twin use cases for B2B teams",
+   "lastUpdated": "13 August 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 13257,
+    "p": 53,
+    "h2": 12,
+    "ul": 9,
+    "li": 45,
+    "ol": 1,
+    "table": 1
+   },
+   "bodyOrder": "h2 ul h2 ul h2 ul h2 ul h2 h2 ul h2 ul h2 ul h2 ul h2 ol table h2 h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/product-development/customer-digital-twin-vs-customer-360/",
+    "/product-development/what-is-a-digital-twin-of-a-customer/",
+    "/product-development/research-debriefs-product-trios-shared-understanding/",
+    "/product-development/how-to-build-a-customer-digital-twin/",
+    "/product-development/customer-digital-twin-vs-ai-persona/",
+    "/product-development/dovetail-research-highlights-jira-sprint-planning/",
+    "/product-development/jobs-to-be-done-interviews-unmet-needs-mature-products/",
+    "/product-development/balance-generative-evaluative-research-product-discovery-sprint/"
+   ]
+  },
+  {
+   "path": "/product-development/outcome-vs-output-product-management/",
+   "title": "Outcome vs. output in product management: understanding the difference",
+   "h1": "Outcome vs. output in product management: understanding the difference",
+   "lastUpdated": "13 August 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 10779,
+    "p": 40,
+    "h2": 8,
+    "h3": 18,
+    "ul": 3,
+    "li": 14
+   },
+   "bodyOrder": "h2 h3 h3 h2 h3 h3 h3 h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 ul h2 h3 ul h2 h2 h3 h3 ul h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-product-lifecycle-management/",
+   "title": "Product lifecycle management 101: definition, stages, and benefits",
+   "h1": "Product lifecycle management 101: definition, stages, and benefits",
+   "lastUpdated": "12 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 16346,
+    "p": 38,
+    "h2": 7,
+    "h3": 16,
+    "ul": 7,
+    "li": 38
+   },
+   "bodyOrder": "h2 h2 h3 ul h3 ul h3 ul h3 ul h3 ul h2 h3 h3 h3 h3 h3 h2 h3 ul h3 ul h2 h2 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-manager-vs-project-manager/",
+   "title": "Product manager vs project manager: differences & similarities",
+   "h1": "Product manager vs project manager: differences & similarities",
+   "lastUpdated": "23 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 11151,
+    "p": 38,
+    "h2": 8,
+    "h3": 16,
+    "ul": 7,
+    "li": 40,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h3 ul h3 ol h3 ul h2 h2 ul h3 ul h3 ul h2 h3 h2 h2 h3 h3 h3 ul ul h2 h3 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/product-development/retrospective-how-to/",
+    "/product-development/new-research-finds-online-consumers-are-falling-victim-to-dark-patterns/",
+    "/product-development/color-theory/",
+    "/product-development/iterative-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-roadmap-vs-backlog/",
+   "title": "Product roadmaps vs. backlogs—what’s the difference?",
+   "h1": "Product roadmaps vs. backlogs—what’s the difference?",
+   "lastUpdated": "20 July 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 8438,
+    "p": 38,
+    "h2": 8,
+    "ul": 1,
+    "li": 3,
+    "h3": 7
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h3 h2 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-strategy-vs-product-management/",
+   "title": "Product strategy vs. product management: What’s the difference?",
+   "h1": "Product strategy vs. product management: What’s the difference?",
+   "lastUpdated": "15 July 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 6,
+   "bodyShape": {
+    "chars": 9710,
+    "p": 29,
+    "h2": 6,
+    "ol": 1,
+    "li": 21,
+    "ul": 6,
+    "h3": 4
+   },
+   "bodyOrder": "h2 ol ul h3 h2 ul ul h2 ul h2 h2 ul ul h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-strategy-framework-guide/",
+   "title": "Product strategy: A step-by-step guide",
+   "h1": "Product strategy: A step-by-step guide",
+   "lastUpdated": "2 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 11116,
+    "p": 41,
+    "h2": 4,
+    "ul": 4,
+    "li": 13,
+    "h3": 14
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 ul h3 h2 h3 ul h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-validation/",
+   "title": "Product validation guide",
+   "h1": "Product validation guide",
+   "lastUpdated": "12 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Sophia Emifoniye",
+    "href": "/contributors/sophia-emifoniye/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 12611,
+    "p": 40,
+    "h2": 7,
+    "h3": 15,
+    "ul": 8,
+    "li": 35
+   },
+   "bodyOrder": "h2 h3 h3 h2 h3 ul h3 ul h2 ul h3 h2 ul h3 ul h3 h3 ul h2 h2 h3 ul h3 h3 h3 h3 h3 h3 h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-a-production-environment/",
+   "title": "Production environment: The definitive guide",
+   "h1": "Production environment: The definitive guide",
+   "lastUpdated": "17 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 9647,
+    "p": 44,
+    "h2": 7,
+    "ul": 2,
+    "li": 8,
+    "h3": 12
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 h3 ul h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/program-manager-vs-product-manager/",
+   "title": "Program manager vs. product manager: a comprehensive comparison",
+   "h1": "Program manager vs. product manager: a comprehensive comparison",
+   "lastUpdated": "11 July 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 13289,
+    "p": 59,
+    "h2": 6,
+    "h3": 21,
+    "ul": 4,
+    "li": 18
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 ul ul h3 ul ul h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/rapid-prototype/",
+   "title": "Rapid prototyping: A fast and effective way to test your ideas",
+   "h1": "Rapid prototyping: A fast and effective way to test your ideas",
+   "lastUpdated": "2 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Sophia Emifoniye",
+    "href": "/contributors/sophia-emifoniye/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 12684,
+    "p": 45,
+    "h2": 6,
+    "h3": 12,
+    "ul": 4,
+    "li": 20
+   },
+   "bodyOrder": "h2 h3 h3 ul h3 h2 h3 h3 h3 h3 ul h3 h2 ul h2 h3 h3 h3 h3 h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/rice-scoring-model/",
+   "title": "RICE scoring explained: What it is and how to use it",
+   "h1": "RICE scoring explained: What it is and how to use it",
+   "lastUpdated": "3 May 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 10744,
+    "p": 66,
+    "h2": 8,
+    "ul": 5,
+    "li": 22,
+    "h3": 15
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 ul h3 ul h3 h2 h2 h3 h3 h2 h2 h3 h3 h3 ul ul h2 h3 h3 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-scope-creep/",
+   "title": "Scope creep: What it is and how to avoid it",
+   "h1": "Scope creep: What it is and how to avoid it",
+   "lastUpdated": "12 December 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 14162,
+    "p": 47,
+    "h2": 8,
+    "ul": 6,
+    "li": 40,
+    "ol": 1,
+    "h3": 15
+   },
+   "bodyOrder": "h2 ul ol h2 h2 ul h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 ul h2 ul h2 h3 h3 h3 h3 ul h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/shiny-object-syndrome/",
+   "title": "Shiny object syndrome: The downsides of focusing on quick fixes",
+   "h1": "Shiny object syndrome: The downsides of focusing on quick fixes",
+   "lastUpdated": "17 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 8,
+   "bodyShape": {
+    "chars": 8735,
+    "p": 36,
+    "h2": 7,
+    "ul": 7,
+    "li": 41,
+    "ol": 2,
+    "h3": 1
+   },
+   "bodyOrder": "h2 ul ul ul h2 ol h3 h2 ul h2 ol h2 ul h2 ul h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-product-experimentation/",
+   "title": "Step-by-Step Guide to Better Product Experimentation",
+   "h1": "Step-by-Step Guide to Better Product Experimentation",
+   "lastUpdated": "5 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 41,
+   "bodyShape": {
+    "chars": 19685,
+    "p": 111,
+    "h2": 8,
+    "h3": 33,
+    "ul": 4,
+    "li": 17
+   },
+   "bodyOrder": "h2 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 ul h3 ul h3 h2 ul ul h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/sunk-cost/",
+   "title": "Sunk costs: why they matter and how to avoid them",
+   "h1": "Sunk costs: why they matter and how to avoid them",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jen Lee",
+    "href": "/contributors/jen-lee/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 12125,
+    "p": 60,
+    "h2": 7,
+    "h3": 27,
+    "ul": 8,
+    "li": 30
+   },
+   "bodyOrder": "h2 h2 h3 ul h3 h3 ul h3 h3 ul h2 h3 ul h2 h3 h3 h3 h3 ul h2 ul h3 h2 h3 ul h3 h3 h3 h3 h3 h2 h3 ul h3 h3 h3 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-manager-community-groups/",
+   "title": "The 10 top product manager communities to join",
+   "h1": "The 10 top product manager communities to join",
+   "lastUpdated": "8 May 2024",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 9631,
+    "p": 48,
+    "h2": 4,
+    "h3": 13,
+    "ul": 11,
+    "li": 40
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2",
+   "editorsPicksOverride": [
+    "/product-development/retrospective-how-to/",
+    "/product-development/new-research-finds-online-consumers-are-falling-victim-to-dark-patterns/",
+    "/product-development/color-theory/",
+    "/product-development/iterative-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/best-product-management-books/",
+   "title": "The 13 best product management books to read",
+   "h1": "The 13 best product management books to read",
+   "lastUpdated": "12 February 2024",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 11159,
+    "p": 60,
+    "h2": 7,
+    "h3": 13
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h2 h3 h3 h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/principles-of-design/",
+   "title": "The 7 principles of design and how to implement them",
+   "h1": "The 7 principles of design and how to implement them",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 7371,
+    "p": 28,
+    "h2": 5,
+    "h3": 7
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h3 h3 h3 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/best-agile-product-management-tools/",
+   "title": "The Best Agile Tools for Product Management",
+   "h1": "The Best Agile Tools for Product Management",
+   "lastUpdated": "22 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 9954,
+    "p": 58,
+    "h2": 5,
+    "ul": 5,
+    "li": 23,
+    "h3": 19
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 ul h3 h3 h3 h3 h3 ul h3 h3 h3 h3 ul h2 h2 h3 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-a-north-star-metric/",
+   "title": "The North Star metric: a comprehensive overview",
+   "h1": "The North Star metric: a comprehensive overview",
+   "lastUpdated": "18 September 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 13062,
+    "p": 49,
+    "h2": 6,
+    "ul": 3,
+    "li": 10,
+    "h3": 12
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 ul h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/5-ws-and-h-in-product-management/",
+   "title": "The power of the 5 Ws and H in product management",
+   "h1": "The power of the 5 Ws and H in product management",
+   "lastUpdated": "17 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 10,
+   "bodyShape": {
+    "chars": 9315,
+    "p": 28,
+    "h2": 8,
+    "ul": 7,
+    "li": 49,
+    "h3": 2,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 ul h3 ul h3 h2 ul h2 ul h2 h2 ul h2 ul ul h2 ol",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/user-research-in-product-management/",
+   "title": "The power of user research in product management",
+   "h1": "The power of user research in product management",
+   "lastUpdated": "18 February 2025",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 28,
+   "bodyShape": {
+    "chars": 13511,
+    "p": 50,
+    "h2": 9,
+    "h3": 23,
+    "ul": 5,
+    "li": 23
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 ul ul h2 h3 h3 ul h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 ul h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/the-product-design-process-explained/",
+   "title": "The product design process explained: a step-by-step guide",
+   "h1": "The product design process explained: a step-by-step guide",
+   "lastUpdated": "22 October 2024",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 26,
+   "bodyShape": {
+    "chars": 18821,
+    "p": 84,
+    "h2": 8,
+    "ul": 16,
+    "li": 71,
+    "h3": 20
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 h3 ul h3 h3 h2 h3 ul h3 ul h2 ul h3 ul h3 ul h3 ul ul h3 ul h3 ul h3 h3 ul h3 ul h3 ul h2 h3 h3 h3 h3 h2 h2 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-product-discovery/",
+   "title": "The ultimate guide to product discovery",
+   "h1": "The ultimate guide to product discovery",
+   "lastUpdated": "5 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 18423,
+    "p": 93,
+    "h2": 7,
+    "h3": 15,
+    "ul": 3,
+    "li": 16
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 h3 h2 h2 h3 h3 ul h3 h3 h3 ul h2 ul h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/guide-to-product-intelligence/",
+   "title": "The ultimate guide to product intelligence",
+   "h1": "The ultimate guide to product intelligence",
+   "lastUpdated": "30 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 9134,
+    "p": 53,
+    "h2": 12,
+    "ul": 5,
+    "li": 25,
+    "h3": 8
+   },
+   "bodyOrder": "h2 h2 ul h2 h2 h3 h3 h3 h3 h3 h2 h2 ul h2 h2 h2 ul h2 ul h2 ul h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/how-to-name-a-product/",
+   "title": "The ultimate guide to product naming",
+   "h1": "The ultimate guide to product naming",
+   "lastUpdated": "18 April 2024",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 11222,
+    "p": 57,
+    "h2": 5,
+    "ul": 6,
+    "li": 26,
+    "h3": 12
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h2 h3 ul ul h3 ul h3 ul h3 ul h2 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/top-feature-prioritization-frameworks/",
+   "title": "Top 10 frameworks for feature prioritization",
+   "h1": "Top 10 frameworks for feature prioritization",
+   "lastUpdated": "23 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 14557,
+    "p": 88,
+    "h2": 5,
+    "h3": 20,
+    "ul": 4,
+    "li": 16
+   },
+   "bodyOrder": "h2 h3 ul h2 h3 ul h3 h3 h3 h3 h3 h3 h3 ul h3 ul h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/best-product-feedback-tools/",
+   "title": "Top product feedback tools",
+   "h1": "Top product feedback tools",
+   "lastUpdated": "10 January 2025",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 31,
+   "bodyShape": {
+    "chars": 18685,
+    "p": 111,
+    "h2": 5,
+    "h3": 26,
+    "ul": 3,
+    "li": 13
+   },
+   "bodyOrder": "h2 h3 ul h3 ul h2 ul h2 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/best-product-roadmap-tools/",
+   "title": "Top six roadmap tools every product manager needs",
+   "h1": "Top six roadmap tools every product manager needs",
+   "lastUpdated": "22 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 15004,
+    "p": 56,
+    "h2": 8,
+    "ul": 15,
+    "li": 56,
+    "h3": 6,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 ul ul h3 ul h3 h2 ul h2 h2 ol h2 h3 ul ul ul ul ul h3 ul ul h3 ul ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-dual-track-agile/",
+   "title": "Understanding dual-track Agile for product development",
+   "h1": "Understanding dual-track Agile for product development",
+   "lastUpdated": "24 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 8061,
+    "p": 35,
+    "h2": 8,
+    "h3": 8,
+    "ul": 2,
+    "li": 11
+   },
+   "bodyOrder": "h2 h2 h2 h2 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3 h2 ul ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-a-flow-chart/",
+   "title": "Understanding flowcharts: Key concepts and uses",
+   "h1": "Understanding flowcharts: Key concepts and uses",
+   "lastUpdated": "25 November 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 28,
+   "bodyShape": {
+    "chars": 15086,
+    "p": 56,
+    "h2": 8,
+    "ul": 8,
+    "li": 37,
+    "h3": 20
+   },
+   "bodyOrder": "h2 h2 ul h2 ul h2 h3 h3 h3 h3 h2 h3 ul h3 ul h2 h3 h3 h3 h3 h3 h3 h2 h3 ul h3 ul h3 ul h3 ul h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/project-roles-and-responsibility/",
+   "title": "Understanding project roles to build better teams",
+   "h1": "Understanding project roles to build better teams",
+   "lastUpdated": "22 February 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 11600,
+    "p": 48,
+    "h2": 7,
+    "ul": 7,
+    "li": 22,
+    "h3": 17
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 ul h3 h3 ul h3 h2 h3 h3 ul h3 ul h3 h2 ul h2 h3 h3 h3 h3 ul h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/data-driven-vs-data-informed/",
+   "title": "Understanding the difference between data-driven and data-informed",
+   "h1": "Understanding the difference between data-driven and data-informed",
+   "lastUpdated": "2 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 8,
+   "bodyShape": {
+    "chars": 8678,
+    "p": 29,
+    "h2": 5,
+    "h3": 7,
+    "ul": 4,
+    "li": 11
+   },
+   "bodyOrder": "h2 h3 ul h3 ul h2 h3 ul h3 ul h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-the-double-diamond-design-process/",
+   "title": "Understanding the Double Diamond design process",
+   "h1": "Understanding the Double Diamond design process",
+   "lastUpdated": "19 November 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 13563,
+    "p": 49,
+    "h2": 9,
+    "h3": 14,
+    "ul": 2,
+    "li": 15,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h2 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h2 h2 ul h2 ul h2 h2 h3 ol h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/engineering-design-process/",
+   "title": "Understanding the engineering design process",
+   "h1": "Understanding the engineering design process",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 10560,
+    "p": 39,
+    "h2": 4,
+    "h3": 17,
+    "ul": 3,
+    "li": 28,
+    "ol": 2
+   },
+   "bodyOrder": "h2 h3 ul h3 h2 h3 h3 ul h3 h3 h3 h2 h3 h3 ul h3 h3 h3 h3 h3 h3 h2 h3 ol h3 ol",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-the-hook-model/",
+   "title": "Understanding the Hook Model: how to create habit-forming products",
+   "h1": "Understanding the Hook Model: how to create habit-forming products",
+   "lastUpdated": "17 August 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 32,
+   "bodyShape": {
+    "chars": 15584,
+    "p": 54,
+    "h2": 14,
+    "h3": 21,
+    "ol": 2,
+    "li": 10,
+    "ul": 1
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3 h2 h3 h3 h2 h3 h3 h2 ol h2 ol h2 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/customer-feedback-management/",
+   "title": "Understanding the power of customer feedback management",
+   "h1": "Understanding the power of customer feedback management",
+   "lastUpdated": "26 July 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 29,
+   "bodyShape": {
+    "chars": 14961,
+    "p": 87,
+    "h2": 7,
+    "ul": 6,
+    "li": 28,
+    "h3": 22
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 ul h3 h3 ul h3 ul h3 ul h3 ul h2 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-user-segmentation/",
+   "title": "User segmentation 101: Enhance engagement and personalization",
+   "h1": "User segmentation 101: Enhance engagement and personalization",
+   "lastUpdated": "24 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 29,
+   "bodyShape": {
+    "chars": 13881,
+    "p": 56,
+    "h2": 6,
+    "h3": 23,
+    "ol": 2,
+    "li": 22,
+    "ul": 2
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 ol h3 ul h3 ul h2 ol h2 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/kano-model/",
+   "title": "Using the Kano Model to get product feedback",
+   "h1": "Using the Kano Model to get product feedback",
+   "lastUpdated": "29 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 13280,
+    "p": 37,
+    "h2": 10,
+    "h3": 8,
+    "ul": 6,
+    "li": 47,
+    "ol": 5
+   },
+   "bodyOrder": "h2 h3 h2 h2 ul h2 ul h2 ol ul h3 ol h3 h3 ul h2 ul h2 ul h2 h2 h2 h3 ol h3 ol h3 h3 ol",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-acceptance-criteria/",
+   "title": "What are acceptance criteria?",
+   "h1": "What are acceptance criteria?",
+   "lastUpdated": "11 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 11020,
+    "p": 44,
+    "h2": 10,
+    "ul": 2,
+    "li": 11,
+    "ol": 1,
+    "h3": 13
+   },
+   "bodyOrder": "h2 h2 ul h2 h2 h2 ol h3 h3 h3 h2 h2 h3 h3 h3 h3 h3 h3 h3 h2 ul h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/agile-principles/",
+   "title": "What are Agile principles?",
+   "h1": "What are Agile principles?",
+   "lastUpdated": "6 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Sophia Emifoniye",
+    "href": "/contributors/sophia-emifoniye/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 11095,
+    "p": 22,
+    "h2": 14,
+    "h3": 15,
+    "ul": 12,
+    "li": 20
+   },
+   "bodyOrder": "h2 h2 h3 ul h2 h3 ul h2 h3 ul h2 h3 ul h2 h3 ul h2 h3 ul h2 h3 ul h2 h3 ul h2 h3 ul h2 h3 ul h2 h3 ul h2 h3 ul h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-are-cross-functional-teams/",
+   "title": "What are cross-functional teams and how do they work best?",
+   "h1": "What are cross-functional teams and how do they work best?",
+   "lastUpdated": "12 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 9227,
+    "p": 37,
+    "h2": 8,
+    "h3": 14
+   },
+   "bodyOrder": "h2 h2 h2 h2 h3 h3 h3 h3 h2 h3 h3 h2 h3 h3 h3 h2 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/pert-chart/",
+   "title": "What are PERT charts and how do they help with project management?",
+   "h1": "What are PERT charts and how do they help with project management?",
+   "lastUpdated": "15 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jen Lee",
+    "href": "/contributors/jen-lee/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 9219,
+    "p": 39,
+    "h2": 9,
+    "ul": 4,
+    "li": 25,
+    "ol": 2,
+    "h3": 12
+   },
+   "bodyOrder": "h2 ul h2 ul h2 ol h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 ul h2 ul h2 h2 h3 h3 ol h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-a-product-specification/",
+   "title": "What are product specifications?",
+   "h1": "What are product specifications?",
+   "lastUpdated": "6 March 2025",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 10,
+   "bodyShape": {
+    "chars": 8955,
+    "p": 25,
+    "h2": 6,
+    "h3": 7,
+    "ul": 4,
+    "li": 22,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h3 ul h2 ul h2 h3 ul h3 h3 h2 ul h2 h3 h2 h3 h3 ol",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/project-deliverables/",
+   "title": "What are project deliverables?",
+   "h1": "What are project deliverables?",
+   "lastUpdated": "22 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 10568,
+    "p": 69,
+    "h2": 9,
+    "h3": 18,
+    "ul": 9,
+    "li": 32
+   },
+   "bodyOrder": "h2 h3 h3 h2 h3 h3 ul h3 h3 ul h2 h3 ul h3 h3 ul h3 ul h2 h2 h3 ul h3 h3 h3 h2 h3 h3 ul h3 h2 h2 ul ul h2 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-are-release-notes/",
+   "title": "What are release notes?",
+   "h1": "What are release notes?",
+   "lastUpdated": "8 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 7909,
+    "p": 49,
+    "h2": 9,
+    "ul": 1,
+    "li": 6,
+    "h3": 12
+   },
+   "bodyOrder": "h2 h2 h2 h2 ul h2 h2 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/user-story/",
+   "title": "What are user stories?",
+   "h1": "What are user stories?",
+   "lastUpdated": "23 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 31,
+   "bodyShape": {
+    "chars": 7806,
+    "p": 43,
+    "h2": 6,
+    "ul": 1,
+    "li": 6,
+    "h3": 25
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/dogfooding/",
+   "title": "What does ‘dogfooding’ mean in tech?",
+   "h1": "What does ‘dogfooding’ mean in tech?",
+   "lastUpdated": "23 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Sophia Emifoniye",
+    "href": "/contributors/sophia-emifoniye/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 7670,
+    "p": 32,
+    "h2": 8,
+    "h3": 19
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-a-digital-product-manager/",
+   "title": "What does a digital product manager do?",
+   "h1": "What does a digital product manager do?",
+   "lastUpdated": "30 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 9767,
+    "p": 50,
+    "h2": 5,
+    "ul": 7,
+    "li": 33,
+    "h3": 15
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h3 h3 h3 h3 ul h2 h3 h3 ul h3 ul h3 h3 h3 ul ul h2 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-designer/",
+   "title": "What does a product designer do?",
+   "h1": "What does a product designer do?",
+   "lastUpdated": "22 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 26,
+   "bodyShape": {
+    "chars": 9438,
+    "p": 43,
+    "h2": 7,
+    "h3": 19,
+    "ul": 4,
+    "li": 20
+   },
+   "bodyOrder": "h2 h3 h2 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 ul h3 ul h2 h3 h3 ul h2 h3 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-a-scrum-master/",
+   "title": "What does a scrum master do?",
+   "h1": "What does a scrum master do?",
+   "lastUpdated": "11 June 2026",
+   "author": null,
+   "reviewer": {
+    "name": "Jen Lee",
+    "href": "/contributors/jen-lee/"
+   },
+   "tocItems": 10,
+   "bodyShape": {
+    "chars": 7852,
+    "p": 41,
+    "h2": 8,
+    "h3": 7,
+    "ul": 11,
+    "li": 70
+   },
+   "bodyOrder": "h2 h3 ul h3 h2 ul h2 ul h2 ul h2 ul h2 h2 ul h3 ul h2 h3 ul h3 ul h3 ul ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/technical-product-manager/",
+   "title": "What does a technical product manager do?",
+   "h1": "What does a technical product manager do?",
+   "lastUpdated": "6 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Sophia Emifoniye",
+    "href": "/contributors/sophia-emifoniye/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 8648,
+    "p": 25,
+    "h2": 7,
+    "ul": 2,
+    "li": 11,
+    "h3": 15
+   },
+   "bodyOrder": "h2 h2 ul h2 ul h2 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/associate-product-manager/",
+   "title": "What does an associate product manager do?",
+   "h1": "What does an associate product manager do?",
+   "lastUpdated": "27 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Sophia Emifoniye",
+    "href": "/contributors/sophia-emifoniye/"
+   },
+   "tocItems": 32,
+   "bodyShape": {
+    "chars": 14909,
+    "p": 60,
+    "h2": 12,
+    "h3": 20,
+    "ul": 6,
+    "li": 24
+   },
+   "bodyOrder": "h2 h3 ul h3 h2 h3 ul h3 ul h3 h2 h3 h2 h3 h3 h3 h3 h2 h2 h2 h3 ul h3 h2 h3 ul h3 ul h3 h2 h3 h2 h3 h3 h3 h3 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/chief-product-officer/",
+   "title": "What is a chief product officer (CPO)?",
+   "h1": "What is a chief product officer (CPO)?",
+   "lastUpdated": "29 March 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 11917,
+    "p": 42,
+    "h2": 9,
+    "h3": 17,
+    "ul": 4,
+    "li": 18
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 ul h3 ul h3 h3 h3 h2 h3 h3 h3 h2 ul h2 h2 h2 ul h2 h2 h3 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/design-review/",
+   "title": "What is a design review, and when should you do one?",
+   "h1": "What is a design review, and when should you do one?",
+   "lastUpdated": "18 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 6904,
+    "p": 28,
+    "h2": 4,
+    "h3": 11,
+    "ul": 2,
+    "li": 13
+   },
+   "bodyOrder": "h2 h3 h3 ul h3 ul h2 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-a-digital-twin-of-a-customer/",
+   "title": "What is a digital twin of a customer?",
+   "h1": "What is a digital twin of a customer?",
+   "lastUpdated": "14 September 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 13220,
+    "p": 51,
+    "h2": 10,
+    "ul": 7,
+    "li": 37,
+    "h3": 10
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 ul h3 h3 h3 h3 h2 ul h2 ul h2 ul h2 h2 h2 ul h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/product-development/customer-digital-twin-vs-customer-360/",
+    "/product-development/research-debriefs-product-trios-shared-understanding/",
+    "/product-development/customer-digital-twin-use-cases/",
+    "/product-development/how-to-build-a-customer-digital-twin/",
+    "/product-development/customer-digital-twin-vs-ai-persona/",
+    "/product-development/dovetail-research-highlights-jira-sprint-planning/",
+    "/product-development/jobs-to-be-done-interviews-unmet-needs-mature-products/",
+    "/product-development/balance-generative-evaluative-research-product-discovery-sprint/"
+   ]
+  },
+  {
+   "path": "/product-development/what-is-a-gantt-chart-used-for/",
+   "title": "What is a Gantt chart useful for?",
+   "h1": "What is a Gantt chart useful for?",
+   "lastUpdated": "11 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 9561,
+    "p": 26,
+    "h2": 5,
+    "ul": 6,
+    "li": 28,
+    "h3": 8
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h2 h3 ul h3 ul h2 ul h2 h3 ul h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/greenfield-project/",
+   "title": "What is a greenfield project in product development?",
+   "h1": "What is a greenfield project in product development?",
+   "lastUpdated": "19 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jen Lee",
+    "href": "/contributors/jen-lee/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 10056,
+    "p": 45,
+    "ul": 8,
+    "li": 34,
+    "h2": 5,
+    "h3": 17
+   },
+   "bodyOrder": "ul h2 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 ul h3 ul h3 ul ul h3 h3 ul h2 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-a-growth-product-manager/",
+   "title": "What is a growth product manager, and what do they do?",
+   "h1": "What is a growth product manager, and what do they do?",
+   "lastUpdated": "2 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 13988,
+    "p": 48,
+    "ul": 13,
+    "li": 66,
+    "h2": 8,
+    "h3": 10,
+    "ol": 2
+   },
+   "bodyOrder": "ul h2 h3 ul ul h2 ul h2 ul ul h2 ol ul h3 h3 ul h3 h3 ul h3 h3 h3 h2 ul h2 ul ul h2 ul h2 h3 ol h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/minimum-viable-product/",
+   "title": "What Is a Minimum Viable Product (MVP)?",
+   "h1": "What Is a Minimum Viable Product (MVP)?",
+   "lastUpdated": "23 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 34,
+   "bodyShape": {
+    "chars": 15378,
+    "p": 60,
+    "h2": 9,
+    "ul": 2,
+    "li": 6,
+    "h3": 29
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2 h3 ul h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/common-pricing-models/",
+   "title": "What is a pricing model? Choosing the best approach for your business",
+   "h1": "What is a pricing model? Choosing the best approach for your business",
+   "lastUpdated": "30 August 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 33,
+   "bodyShape": {
+    "chars": 16313,
+    "p": 79,
+    "h2": 7,
+    "h3": 26
+   },
+   "bodyOrder": "h2 h2 h2 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-analyst/",
+   "title": "What is a product analyst?",
+   "h1": "What is a product analyst?",
+   "lastUpdated": "25 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 9940,
+    "p": 34,
+    "h2": 8,
+    "h3": 7,
+    "ul": 4,
+    "li": 23
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h3 ul h3 ul h3 h3 h2 ul h2 h2 ul h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-backlog/",
+   "title": "What is a product backlog? Understand the basics",
+   "h1": "What is a product backlog? Understand the basics",
+   "lastUpdated": "27 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Sophia Emifoniye",
+    "href": "/contributors/sophia-emifoniye/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 10292,
+    "p": 70,
+    "h2": 11,
+    "ul": 2,
+    "li": 8,
+    "h3": 12
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 ul h3 h3 h3 h3 h2 h2 h2 h3 h3 h2 h3 h3 h3 h3 h2 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-a-product-concept/",
+   "title": "What is a product concept?",
+   "h1": "What is a product concept?",
+   "lastUpdated": "18 April 2024",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 11792,
+    "p": 55,
+    "h2": 5,
+    "ul": 2,
+    "li": 10,
+    "h3": 11
+   },
+   "bodyOrder": "h2 ul h3 h2 h3 h3 h3 h3 h2 h3 h3 ul h3 h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-launch/",
+   "title": "What is a product launch?",
+   "h1": "What is a product launch?",
+   "lastUpdated": "27 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jen Lee",
+    "href": "/contributors/jen-lee/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 15930,
+    "p": 60,
+    "h2": 10,
+    "h3": 19,
+    "ul": 4,
+    "li": 27
+   },
+   "bodyOrder": "h2 h3 h3 h3 h2 h2 h3 h3 h3 h2 h2 h3 h3 h3 h3 ul h3 ul h3 h3 h2 ul h2 ul h2 h3 h3 h2 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-line/",
+   "title": "What is a product line?",
+   "h1": "What is a product line?",
+   "lastUpdated": "25 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 6,
+   "bodyShape": {
+    "chars": 7487,
+    "p": 22,
+    "h2": 3,
+    "ul": 4,
+    "li": 21,
+    "h3": 6,
+    "ol": 6
+   },
+   "bodyOrder": "h2 ul h3 ul h3 h2 ol h3 ul h3 h2 h3 ul h3 ol ol ol ol ol",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-mix/",
+   "title": "What is a product mix?",
+   "h1": "What is a product mix?",
+   "lastUpdated": "10 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 8426,
+    "p": 34,
+    "h2": 9,
+    "ul": 2,
+    "li": 13,
+    "ol": 1,
+    "h3": 12
+   },
+   "bodyOrder": "h2 ul h2 ol h2 h2 ul h2 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-requirements-document/",
+   "title": "What is a product requirements document (PRD)?",
+   "h1": "What is a product requirements document (PRD)?",
+   "lastUpdated": "6 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 9256,
+    "p": 33,
+    "h2": 4,
+    "ul": 6,
+    "li": 24,
+    "h3": 15
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h3 h3 ul h3 ul h3 h3 h3 ul h2 h3 ul h3 ul h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-strategy/",
+   "title": "What is a product strategy?",
+   "h1": "What is a product strategy?",
+   "lastUpdated": "15 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 29,
+   "bodyShape": {
+    "chars": 10227,
+    "p": 43,
+    "h2": 10,
+    "h3": 19
+   },
+   "bodyOrder": "h2 h3 h2 h3 h3 h3 h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2 h2 h3 h3 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-vision/",
+   "title": "What is a product vision?",
+   "h1": "What is a product vision?",
+   "lastUpdated": "1 May 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 10945,
+    "p": 40,
+    "h2": 7,
+    "ul": 2,
+    "li": 9,
+    "h3": 12
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h2 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/project-roadmap/",
+   "title": "What is a project roadmap?",
+   "h1": "What is a project roadmap?",
+   "lastUpdated": "15 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 8846,
+    "p": 36,
+    "h2": 8,
+    "ul": 3,
+    "li": 17,
+    "h3": 15,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 ul h2 h3 h3 ol h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/similarity-matrix/",
+   "title": "What is a similarity matrix?",
+   "h1": "What is a similarity matrix?",
+   "lastUpdated": "11 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Sophia Emifoniye",
+    "href": "/contributors/sophia-emifoniye/"
+   },
+   "tocItems": 7,
+   "bodyShape": {
+    "chars": 7204,
+    "p": 25,
+    "h2": 5,
+    "h3": 6
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/sprint-backlog/",
+   "title": "What is a sprint backlog?",
+   "h1": "What is a sprint backlog?",
+   "lastUpdated": "29 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 11176,
+    "p": 38,
+    "h2": 8,
+    "h3": 15,
+    "ol": 3,
+    "li": 9
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h3 h3 h2 h2 h2 h3 h3 ol h3 ol h3 h3 h3 ol h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-a-staging-environment/",
+   "title": "What is a staging environment?",
+   "h1": "What is a staging environment?",
+   "lastUpdated": "11 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 9787,
+    "p": 40,
+    "h2": 5,
+    "h3": 11,
+    "ul": 2,
+    "li": 10
+   },
+   "bodyOrder": "h2 h3 h3 h3 h2 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-a-strategic-roadmap/",
+   "title": "What is a strategic roadmap?",
+   "h1": "What is a strategic roadmap?",
+   "lastUpdated": "17 August 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 12844,
+    "p": 55,
+    "h2": 8,
+    "ul": 14,
+    "li": 81,
+    "h3": 18,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 h2 h3 h3 h3 h3 h3 h3 h3 h2 ul ul ul h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2 h3 ul ul h2 h2 h3 ol h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-a-use-case/",
+   "title": "What is a use case?",
+   "h1": "What is a use case?",
+   "lastUpdated": "10 February 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 7714,
+    "p": 45,
+    "h2": 8,
+    "h3": 13,
+    "ul": 2,
+    "li": 12
+   },
+   "bodyOrder": "h2 h3 ul h3 h2 h3 h2 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h2 h2 ul h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/agile-development/",
+   "title": "What is agile development?",
+   "h1": "What is agile development?",
+   "lastUpdated": "11 May 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Sophia Emifoniye",
+    "href": "/contributors/sophia-emifoniye/"
+   },
+   "tocItems": 41,
+   "bodyShape": {
+    "chars": 13524,
+    "p": 83,
+    "h2": 9,
+    "ul": 5,
+    "li": 19,
+    "h3": 40
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 ul h3 h3 h3 h2 h3 ul h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 ul h3 h3 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-an-ai-product-manager/",
+   "title": "What is an AI product manager?",
+   "h1": "What is an AI product manager?",
+   "lastUpdated": "18 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 9914,
+    "p": 43,
+    "h2": 6,
+    "ul": 6,
+    "li": 39,
+    "h3": 5,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 ul h3 h3 h3 h3 ul h3 h2 ol h2 ul h2 ul ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-an-innovation-strategy/",
+   "title": "What is an innovation strategy?",
+   "h1": "What is an innovation strategy?",
+   "lastUpdated": "13 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 12472,
+    "p": 42,
+    "h2": 7,
+    "h3": 13,
+    "ul": 3,
+    "li": 10
+   },
+   "bodyOrder": "h2 h2 h2 h3 ul h3 h3 h2 h3 h3 h3 h3 h2 ul h3 h3 h3 h3 h2 ul h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/color-theory/",
+   "title": "What is color theory, and why does it matter in design?",
+   "h1": "What is color theory, and why does it matter in design?",
+   "lastUpdated": "11 June 2026",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 29,
+   "bodyShape": {
+    "chars": 11089,
+    "p": 66,
+    "h2": 13,
+    "h3": 20
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h2 h2 h2 h2 h2 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/product-development/new-research-finds-online-consumers-are-falling-victim-to-dark-patterns/",
+    "/product-development/iterative-design/",
+    "/product-development/ideation/",
+    "/product-development/principles-of-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/continuous-improvement/",
+   "title": "What is continuous improvement?",
+   "h1": "What is continuous improvement?",
+   "lastUpdated": "22 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 8864,
+    "p": 33,
+    "h2": 9,
+    "ol": 5,
+    "li": 32,
+    "ul": 3,
+    "h3": 5
+   },
+   "bodyOrder": "h2 h2 ol h2 ul ol ul h2 ol h3 ol h3 h3 ol h2 h2 ul h2 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/customer-development/",
+   "title": "What is customer development?",
+   "h1": "What is customer development?",
+   "lastUpdated": "23 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 8834,
+    "p": 60,
+    "h2": 9,
+    "h3": 13,
+    "ul": 2,
+    "li": 10
+   },
+   "bodyOrder": "h2 h2 h3 h3 h2 h3 h3 h3 h2 h3 h3 h2 h2 h2 h3 h3 h3 ul h3 h2 ul h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/design-by-committee/",
+   "title": "What is design by committee, and why should you avoid it?",
+   "h1": "What is design by committee, and why should you avoid it?",
+   "lastUpdated": "16 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jen Lee",
+    "href": "/contributors/jen-lee/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 11582,
+    "p": 35,
+    "h2": 5,
+    "h3": 9,
+    "ul": 4,
+    "li": 12
+   },
+   "bodyOrder": "h2 h2 h3 h2 h2 h3 ul h3 ul h3 ul ul h3 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-designops/",
+   "title": "What is DesignOps?",
+   "h1": "What is DesignOps?",
+   "lastUpdated": "17 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 10354,
+    "p": 59,
+    "h2": 8,
+    "h3": 15,
+    "ul": 3,
+    "li": 13,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 ul h3 h2 ol h2 h3 h3 h2 h3 ul h3 h3 h2 h3 h3 h3 h3 ul h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-enterprise-product-management/",
+   "title": "What is enterprise product management?",
+   "h1": "What is enterprise product management?",
+   "lastUpdated": "8 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 13269,
+    "p": 69,
+    "ul": 15,
+    "li": 50,
+    "h2": 10,
+    "h3": 17
+   },
+   "bodyOrder": "ul h2 ul ul h2 h3 ul h3 ul h2 h3 ul h3 h2 h3 ul h3 ul h2 h3 h3 h2 h3 ul h3 ul h2 ul h3 h3 h2 h3 ul h3 h2 ul h3 ul ul h3 h2 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-extreme-programming/",
+   "title": "What is extreme programming (XP)?",
+   "h1": "What is extreme programming (XP)?",
+   "lastUpdated": "31 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 34,
+   "bodyShape": {
+    "chars": 21451,
+    "p": 59,
+    "h2": 10,
+    "h3": 29,
+    "ul": 15,
+    "li": 36
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 ul ul ul ul ul ul ul h3 ul ul ul ul ul h2 ul h2 ul h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-feature-adoption/",
+   "title": "What is feature adoption?",
+   "h1": "What is feature adoption?",
+   "lastUpdated": "29 February 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Phillips",
+    "href": "/contributors/mary-phillips/"
+   },
+   "tocItems": 31,
+   "bodyShape": {
+    "chars": 17090,
+    "p": 71,
+    "h2": 8,
+    "h3": 23,
+    "ul": 3,
+    "li": 12
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h2 h3 ul h2 h3 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h2 ul h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-feature-creep/",
+   "title": "What is feature creep, and how can you avoid it?",
+   "h1": "What is feature creep, and how can you avoid it?",
+   "lastUpdated": "17 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 10,
+   "bodyShape": {
+    "chars": 8128,
+    "p": 30,
+    "h2": 7,
+    "h3": 6,
+    "ul": 1,
+    "li": 3
+   },
+   "bodyOrder": "h2 h2 h2 h2 h2 h3 h3 h3 h3 h2 ul h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/human-computer-interaction/",
+   "title": "What is human-computer interaction (HCI)?",
+   "h1": "What is human-computer interaction (HCI)?",
+   "lastUpdated": "16 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 14387,
+    "p": 60,
+    "h2": 8,
+    "ul": 10,
+    "li": 40,
+    "h3": 20
+   },
+   "bodyOrder": "h2 ul ul h2 h2 h3 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h2 ul h3 ul h3 ul ul h3 h3 h3 ul ul h2 ul h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/inclusive-design/",
+   "title": "What is inclusive design?",
+   "h1": "What is inclusive design?",
+   "lastUpdated": "16 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jen Lee",
+    "href": "/contributors/jen-lee/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 16315,
+    "p": 60,
+    "h2": 9,
+    "ul": 3,
+    "li": 12,
+    "h3": 17
+   },
+   "bodyOrder": "h2 ul h2 h2 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 ul h3 h3 h3 ul h2 h2 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/industrial-design/",
+   "title": "What is industrial design?",
+   "h1": "What is industrial design?",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 27,
+   "bodyShape": {
+    "chars": 7931,
+    "p": 39,
+    "h2": 8,
+    "h3": 23
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-integration-testing/",
+   "title": "What is integration testing?",
+   "h1": "What is integration testing?",
+   "lastUpdated": "11 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 8661,
+    "p": 35,
+    "h2": 6,
+    "h3": 8,
+    "ul": 2,
+    "li": 8
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h2 h3 h2 ul h2 h3 h3 h3 h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/iterative-design/",
+   "title": "What is iterative design: Definition and benefits",
+   "h1": "What is iterative design: Definition and benefits",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 8,
+   "bodyShape": {
+    "chars": 6649,
+    "p": 21,
+    "h2": 9,
+    "ol": 1,
+    "li": 8,
+    "ul": 1,
+    "h3": 3
+   },
+   "bodyOrder": "h2 h2 h2 ol h2 ul h2 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/product-development/new-research-finds-online-consumers-are-falling-victim-to-dark-patterns/",
+    "/product-development/color-theory/",
+    "/product-development/ideation/",
+    "/product-development/principles-of-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/new-product-development/",
+   "title": "What is new product development?",
+   "h1": "What is new product development?",
+   "lastUpdated": "27 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jen Lee",
+    "href": "/contributors/jen-lee/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 15007,
+    "p": 89,
+    "h2": 5,
+    "ol": 1,
+    "li": 42,
+    "h3": 23,
+    "ul": 9
+   },
+   "bodyOrder": "h2 ol h3 h3 h3 h3 h3 h3 h3 h3 ul h3 ul h3 ul h3 h3 h3 h3 h3 h3 h3 ul h3 ul h2 h3 h3 h3 ul h2 ul h2 ul h2 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-pi-planning-in-agile/",
+   "title": "What is PI planning in agile?",
+   "h1": "What is PI planning in agile?",
+   "lastUpdated": "9 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Sophia Emifoniye",
+    "href": "/contributors/sophia-emifoniye/"
+   },
+   "tocItems": 28,
+   "bodyShape": {
+    "chars": 14091,
+    "p": 95,
+    "h2": 7,
+    "ul": 4,
+    "li": 14,
+    "h3": 24
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 ul h3 h2 h3 ul h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/problem-framing/",
+   "title": "What is problem framing?",
+   "h1": "What is problem framing?",
+   "lastUpdated": "14 May 2023",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 10,
+   "bodyShape": {
+    "chars": 9697,
+    "p": 33,
+    "h2": 7,
+    "ul": 2,
+    "li": 11,
+    "h3": 6
+   },
+   "bodyOrder": "h2 h2 ul h2 ul h2 h3 h3 h3 h3 h2 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-analytics/",
+   "title": "What is product analytics?",
+   "h1": "What is product analytics?",
+   "lastUpdated": "6 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 9256,
+    "p": 39,
+    "h2": 7,
+    "h3": 22,
+    "ul": 1,
+    "li": 3
+   },
+   "bodyOrder": "h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 ul h2 h2 h2 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-product-branding/",
+   "title": "What is product branding? A comprehensive overview",
+   "h1": "What is product branding? A comprehensive overview",
+   "lastUpdated": "26 September 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 26,
+   "bodyShape": {
+    "chars": 13039,
+    "p": 60,
+    "h2": 7,
+    "h3": 22,
+    "ul": 4,
+    "li": 18,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h2 ul h2 h3 h3 ul h3 h3 h3 h3 h2 h3 h3 ul h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h2 h3 ul h3 ol",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-design/",
+   "title": "What is product design?",
+   "h1": "What is product design?",
+   "lastUpdated": "2 April 2023",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 13044,
+    "p": 58,
+    "h2": 8,
+    "h3": 16,
+    "ul": 5,
+    "li": 24
+   },
+   "bodyOrder": "h2 h3 h3 h3 h2 h3 ul h3 h3 ul h3 h3 ul h3 h2 ul h2 ul h2 h2 h3 h3 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-product-management/",
+   "title": "What is product management?",
+   "h1": "What is product management?",
+   "lastUpdated": "11 May 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Sophia Emifoniye",
+    "href": "/contributors/sophia-emifoniye/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 13329,
+    "p": 76,
+    "h2": 12,
+    "ul": 7,
+    "li": 34,
+    "h3": 14
+   },
+   "bodyOrder": "h2 h2 ul h3 h3 h3 h2 h2 h3 h3 h3 h3 h2 ul h2 h2 ul ul ul h2 h2 h3 h3 h2 h3 h3 h3 h3 h2 ul ul h2 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-operations/",
+   "title": "What is product operations, and why is it important?",
+   "h1": "What is product operations, and why is it important?",
+   "lastUpdated": "9 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 11662,
+    "p": 84,
+    "h2": 8,
+    "ul": 7,
+    "li": 28,
+    "h3": 15
+   },
+   "bodyOrder": "h2 ul h2 h2 h2 h3 ul h3 ul h3 h3 h3 h2 h2 ul h3 h3 h3 h3 h3 h3 h2 ul h2 h3 ul h3 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-led-growth/",
+   "title": "What is product-led growth?",
+   "h1": "What is product-led growth?",
+   "lastUpdated": "1 May 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jen Lee",
+    "href": "/contributors/jen-lee/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 14450,
+    "p": 77,
+    "h2": 5,
+    "h3": 18,
+    "ul": 3,
+    "li": 16
+   },
+   "bodyOrder": "h2 h3 h3 h2 h3 h3 h3 h3 h3 ul h2 ul h2 h3 h3 ul h3 h3 h3 h3 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-market/",
+   "title": "What is product-market fit, and why does it matter?",
+   "h1": "What is product-market fit, and why does it matter?",
+   "lastUpdated": "23 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 5517,
+    "p": 29,
+    "h2": 7,
+    "ul": 4,
+    "li": 19,
+    "h3": 7
+   },
+   "bodyOrder": "h2 ul h2 h2 ul h2 ul h2 h3 h3 h3 h3 h3 h3 h2 ul h2 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/prototyping/",
+   "title": "What is prototyping?",
+   "h1": "What is prototyping?",
+   "lastUpdated": "23 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 13406,
+    "p": 33,
+    "h2": 7,
+    "ul": 8,
+    "li": 37,
+    "h3": 5,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h2 h2 ul h2 h3 ul ul h3 ul ul h3 ul ul h2 ul h2 h3 h3 ol",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-quality-assurance-in-software-development/",
+   "title": "What is quality assurance in software development?",
+   "h1": "What is quality assurance in software development?",
+   "lastUpdated": "11 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 11968,
+    "p": 43,
+    "h2": 6,
+    "ul": 2,
+    "li": 14,
+    "h3": 8,
+    "ol": 2
+   },
+   "bodyOrder": "h2 ul h2 h2 h2 ul h2 h3 h3 h3 ol h3 ol h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-rapid-application-development/",
+   "title": "What is Rapid Application Development (RAD)?",
+   "h1": "What is Rapid Application Development (RAD)?",
+   "lastUpdated": "30 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 13102,
+    "p": 42,
+    "ul": 8,
+    "li": 24,
+    "h2": 6,
+    "h3": 15
+   },
+   "bodyOrder": "ul h2 ul h2 h3 ul h3 ul h2 h3 h3 h3 h2 h3 ul h3 h3 h3 h2 h3 h3 h3 ul h3 h2 h3 ul h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/sprint-planning/",
+   "title": "What is sprint planning?",
+   "h1": "What is sprint planning?",
+   "lastUpdated": "22 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jen Lee",
+    "href": "/contributors/jen-lee/"
+   },
+   "tocItems": 29,
+   "bodyShape": {
+    "chars": 14162,
+    "p": 47,
+    "h2": 12,
+    "h3": 17,
+    "ul": 1,
+    "li": 5
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3 h2 h3 h3 h3 h2 h2 h2 h3 h3 h3 h2 h2 ul h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/stakeholder-engagement/",
+   "title": "What is stakeholder engagement?",
+   "h1": "What is stakeholder engagement?",
+   "lastUpdated": "11 May 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Sophia Emifoniye",
+    "href": "/contributors/sophia-emifoniye/"
+   },
+   "tocItems": 10,
+   "bodyShape": {
+    "chars": 13880,
+    "p": 46,
+    "h2": 7,
+    "ul": 9,
+    "li": 70,
+    "ol": 3,
+    "h3": 7
+   },
+   "bodyOrder": "h2 ul h2 ul ul h2 ol h2 ol h3 ul h3 ul h3 ul h2 ol h2 h3 ul h2 h3 h3 ul h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-strategic-management/",
+   "title": "What is strategic management? A definitive overview",
+   "h1": "What is strategic management? A definitive overview",
+   "lastUpdated": "4 July 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 9163,
+    "p": 46,
+    "h2": 8,
+    "ul": 2,
+    "li": 8,
+    "h3": 9
+   },
+   "bodyOrder": "h2 ul h3 h3 h3 h3 h2 ul h2 h2 h2 h2 h3 h3 h3 h3 h3 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/technical-debt/",
+   "title": "What is technical debt?",
+   "h1": "What is technical debt?",
+   "lastUpdated": "2 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Sophia Emifoniye",
+    "href": "/contributors/sophia-emifoniye/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 8438,
+    "p": 33,
+    "h2": 7,
+    "h3": 6,
+    "ul": 3,
+    "li": 19
+   },
+   "bodyOrder": "h2 h3 h3 h2 ul ul h2 h3 h2 h2 ul h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/customer-discovery/",
+   "title": "What is the customer discovery process?",
+   "h1": "What is the customer discovery process?",
+   "lastUpdated": "23 May 2023",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 13841,
+    "p": 63,
+    "h2": 7,
+    "h3": 15,
+    "ul": 9,
+    "li": 44,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 h3 ul h3 ul h3 ul h3 ul h2 h3 ul h3 ul h3 ul h2 h2 ul h2 h3 ol h3 ul h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/design-thinking-process/",
+   "title": "What is the design thinking process?",
+   "h1": "What is the design thinking process?",
+   "lastUpdated": "19 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 10804,
+    "p": 38,
+    "h2": 6,
+    "h3": 11
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/eisenhower-matrix/",
+   "title": "What is the Eisenhower Matrix?",
+   "h1": "What is the Eisenhower Matrix?",
+   "lastUpdated": "19 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Sophia Emifoniye",
+    "href": "/contributors/sophia-emifoniye/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 9310,
+    "p": 63,
+    "h2": 6,
+    "ol": 1,
+    "li": 28,
+    "h3": 7,
+    "ul": 3
+   },
+   "bodyOrder": "h2 h2 h2 h2 ol h2 h3 h3 h3 h3 h2 h3 ul h3 ul h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/ideation/",
+   "title": "What is the ideation process?",
+   "h1": "What is the ideation process?",
+   "lastUpdated": "11 June 2026",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 14090,
+    "p": 54,
+    "h2": 7,
+    "h3": 16
+   },
+   "bodyOrder": "h2 h3 h3 h2 h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/product-development/new-research-finds-online-consumers-are-falling-victim-to-dark-patterns/",
+    "/product-development/color-theory/",
+    "/product-development/iterative-design/",
+    "/product-development/principles-of-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-the-moscow-method/",
+   "title": "What is the MoSCoW prioritization method?",
+   "h1": "What is the MoSCoW prioritization method?",
+   "lastUpdated": "17 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 10411,
+    "p": 39,
+    "h2": 10,
+    "ul": 10,
+    "li": 32,
+    "h3": 8
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 ul h3 h3 h3 h2 h2 ul ul ul ul ul h2 ul h2 h2 h3 h3 h3 h2 ul h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-the-nominal-group-technique/",
+   "title": "What is the nominal group technique?",
+   "h1": "What is the nominal group technique?",
+   "lastUpdated": "27 July 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 9620,
+    "p": 36,
+    "h2": 7,
+    "h3": 13,
+    "ul": 2,
+    "li": 14
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/process-product-management/",
+   "title": "What is the product management process?",
+   "h1": "What is the product management process?",
+   "lastUpdated": "27 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Sophia Emifoniye",
+    "href": "/contributors/sophia-emifoniye/"
+   },
+   "tocItems": 28,
+   "bodyShape": {
+    "chars": 11253,
+    "p": 61,
+    "h2": 5,
+    "h3": 23,
+    "ul": 1,
+    "li": 3
+   },
+   "bodyOrder": "h2 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 ul h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/scamper/",
+   "title": "What is the SCAMPER method?",
+   "h1": "What is the SCAMPER method?",
+   "lastUpdated": "22 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 10766,
+    "p": 49,
+    "h2": 6,
+    "ul": 8,
+    "li": 32,
+    "h3": 12
+   },
+   "bodyOrder": "h2 ul h2 h2 h3 h3 h3 h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/sdlc-meaning/",
+   "title": "What is the software development life cycle (SDLC)",
+   "h1": "What is the software development life cycle (SDLC)",
+   "lastUpdated": "22 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Sophia Emifoniye",
+    "href": "/contributors/sophia-emifoniye/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 9412,
+    "p": 56,
+    "h2": 4,
+    "ul": 7,
+    "li": 14,
+    "h3": 15
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h2 h3 ul h3 ul ul h3 h3 h3 ul ul ul h3 h2 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/waterfall-project-management/",
+   "title": "What is the Waterfall methodology in project management?",
+   "h1": "What is the Waterfall methodology in project management?",
+   "lastUpdated": "20 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 9437,
+    "p": 22,
+    "h2": 6,
+    "ul": 5,
+    "li": 29,
+    "ol": 1,
+    "h3": 11
+   },
+   "bodyOrder": "h2 ul h2 ul h2 ul h2 ol h3 h3 ul h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-traceability-in-product-development/",
+   "title": "What is traceability in product development?",
+   "h1": "What is traceability in product development?",
+   "lastUpdated": "19 December 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 5981,
+    "p": 18,
+    "h2": 3,
+    "h3": 8,
+    "ol": 1,
+    "li": 6,
+    "ul": 1
+   },
+   "bodyOrder": "h2 h3 ol h3 h3 h2 ul h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-agile-project-management/",
+   "title": "What you need to know about agile project management",
+   "h1": "What you need to know about agile project management",
+   "lastUpdated": "11 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 12191,
+    "p": 49,
+    "h2": 8,
+    "ul": 7,
+    "li": 41,
+    "h3": 13,
+    "ol": 3
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 ul h2 h3 ul ol ol h3 ol h2 h3 ul h3 ul h3 h3 ul h2 ul h2 h3 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-agile-release-planning/",
+   "title": "What you need to know about Agile release planning",
+   "h1": "What you need to know about Agile release planning",
+   "lastUpdated": "15 May 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 31,
+   "bodyShape": {
+    "chars": 8135,
+    "p": 53,
+    "h2": 7,
+    "h3": 24
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-engineer/",
+   "title": "What you need to know about being a product engineer",
+   "h1": "What you need to know about being a product engineer",
+   "lastUpdated": "22 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Sophia Emifoniye",
+    "href": "/contributors/sophia-emifoniye/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 9545,
+    "p": 33,
+    "h2": 7,
+    "h3": 18,
+    "ul": 1,
+    "li": 6
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/digital-prototype/",
+   "title": "What you need to know about digital prototypes",
+   "h1": "What you need to know about digital prototypes",
+   "lastUpdated": "30 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 9918,
+    "p": 66,
+    "h2": 9,
+    "h3": 12,
+    "ul": 4,
+    "li": 25
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 h3 ul h2 ul h3 h3 h2 h2 h3 h3 h3 h3 h3 h2 ul h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-are-feature-flags/",
+   "title": "What you need to know about feature flags",
+   "h1": "What you need to know about feature flags",
+   "lastUpdated": "23 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 13848,
+    "p": 43,
+    "h2": 8,
+    "ul": 2,
+    "li": 10,
+    "h3": 15
+   },
+   "bodyOrder": "h2 ul h2 h3 ul h3 h3 h3 h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-iterative-development/",
+   "title": "What you need to know about iterative development",
+   "h1": "What you need to know about iterative development",
+   "lastUpdated": "21 December 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 12884,
+    "p": 41,
+    "h2": 7,
+    "ul": 3,
+    "li": 12,
+    "h3": 18,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h3 ol h3 ul h3 h2 h2 h2 h3 h2 h3 h3 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-experience/",
+   "title": "What you need to know about product experience",
+   "h1": "What you need to know about product experience",
+   "lastUpdated": "3 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 13006,
+    "p": 56,
+    "h2": 8,
+    "ul": 4,
+    "li": 12,
+    "h3": 17
+   },
+   "bodyOrder": "h2 ul h2 h2 h3 h3 h3 h3 h3 h2 h2 h3 ul h3 ul h3 h3 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/product-innovation/",
+   "title": "What you need to know about product innovation",
+   "h1": "What you need to know about product innovation",
+   "lastUpdated": "25 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 34,
+   "bodyShape": {
+    "chars": 18253,
+    "p": 60,
+    "h2": 9,
+    "h3": 29,
+    "ol": 1,
+    "li": 3
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 ol h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-is-project-management/",
+   "title": "What you need to know about project management",
+   "h1": "What you need to know about project management",
+   "lastUpdated": "2 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 15775,
+    "p": 56,
+    "h2": 9,
+    "ul": 4,
+    "li": 27,
+    "h3": 16,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 ul h3 h3 h2 ul h2 ol h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 ul h2 h2 h3 h3 h3 h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/what-are-project-teams/",
+   "title": "What you need to know about project teams",
+   "h1": "What you need to know about project teams",
+   "lastUpdated": "18 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 13568,
+    "p": 60,
+    "h2": 6,
+    "ul": 2,
+    "li": 11,
+    "h3": 18
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h3 h2 h3 ul h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/decision-making-process/",
+   "title": "What you need to know about the decision-making process",
+   "h1": "What you need to know about the decision-making process",
+   "lastUpdated": "30 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 34,
+   "bodyShape": {
+    "chars": 11112,
+    "p": 65,
+    "h2": 7,
+    "h3": 27,
+    "ul": 3,
+    "li": 18,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h3 h3 h3 ul h2 h3 h3 h3 h2 ul h3 ol h2 h3 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/goals-vs-objectives/",
+   "title": "What's the difference between goals and objectives?",
+   "h1": "What's the difference between goals and objectives?",
+   "lastUpdated": "19 December 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 11365,
+    "p": 69,
+    "h2": 5,
+    "h3": 15,
+    "ul": 7,
+    "li": 20
+   },
+   "bodyOrder": "h2 h3 h3 h2 ul h3 h3 ul h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 h2 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/difference-between-prototype-vs-wireframe/",
+   "title": "What’s the difference between prototyping and wireframing?",
+   "h1": "What’s the difference between prototyping and wireframing?",
+   "lastUpdated": "11 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 8,
+   "bodyShape": {
+    "chars": 8060,
+    "p": 39,
+    "h2": 5,
+    "h3": 8,
+    "ul": 1,
+    "li": 5
+   },
+   "bodyOrder": "h2 h3 h3 h2 h3 h3 h2 ul h2 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/who-are-project-stakeholders/",
+   "title": "Who are the stakeholders in project management?",
+   "h1": "Who are the stakeholders in project management?",
+   "lastUpdated": "30 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Mary Mikhail",
+    "href": "/contributors/mary-mikhail/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 12227,
+    "p": 41,
+    "h2": 5,
+    "h3": 15,
+    "ol": 1,
+    "li": 14,
+    "ul": 2
+   },
+   "bodyOrder": "h2 h2 h3 h3 h2 h3 h3 h2 h3 ol h3 ul h3 ul h2 h3 h3 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-development/wireframing/",
+   "title": "Wireframing 101: How to create effective wireframes",
+   "h1": "Wireframing 101: How to create effective wireframes",
+   "lastUpdated": "15 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 8590,
+    "p": 48,
+    "h2": 11,
+    "ul": 2,
+    "li": 9,
+    "h3": 13
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h2 h3 h3 h3 h2 h2 h2 ul h2 h3 h3 h2 h2 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  }
+ ],
+ "sidebarCta": {
+  "heading": "Analyze your interviews",
+  "body": "Easily analyze stakeholder and user interviews to create actionable findings that drive alignment.",
+  "button": {
+   "text": "Contact sales",
+   "href": "/contact-sales/"
+  }
+ }
+}

@@ -1,0 +1,19 @@
+/* Shared components A/B/C — CLONE_SPEC.md */
+.ascii-field { position: absolute; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; }
+.ascii-field canvas { display: block; width: 100%; height: 100%; }
+
+.pixel-dissolve { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 2; pointer-events: none; }
+
+.cursor-tooltip { position: fixed; top: 0; left: 0; z-index: 4; display: flex; opacity: 0; pointer-events: none; transition: opacity 150ms; }
+@media (max-width: 799px) { .cursor-tooltip { display: none; } }
+.cursor-tooltip__label { color: #FAFAFA; background: #0A0A0A; padding: 8px 10px; border-radius: 4px;
+  opacity: 0; transform: translateY(6px); transition: opacity 260ms, transform 260ms; }
+.cursor-tooltip__label[data-visible="true"] { opacity: 1; transform: translateY(0); }
+
+/* currentColor SVGs from /assets/svg rendered as masks so they take the text colour */
+.svg-icon { display: inline-block; flex-shrink: 0; background-color: currentColor;
+  -webkit-mask: var(--icon) center / contain no-repeat; mask: var(--icon) center / contain no-repeat; }
+
+/* Light theme page base (content-shared.md §2): html bg #FAFAFA, body ink #0A0A0A */
+html[data-theme="light"], html[data-theme="light"] body { background: #FAFAFA; }
+html[data-theme="light"] body { color: #0A0A0A; }

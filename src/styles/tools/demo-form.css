@@ -1,0 +1,87 @@
+/* specs/demo-form.md */
+
+/* §1 hero + form */
+.df-left { grid-column: span 5; }
+.df-block { display: flex; flex-direction: column; gap: 48px; justify-content: center; margin: auto; }
+.df-intro { color: #FFFFFF; margin: 32px 0 0; max-width: 800px; }
+.df-bullets { list-style: none; margin: 0; padding: 0; }
+.df-bullet { display: flex; gap: 24px; margin-bottom: 32px; }
+.df-bullet__mark { width: 12px; height: 12px; min-width: 12px; background: #FFFFFF; margin-top: 10px; }
+.df-bullet__title { font-weight: 500; letter-spacing: -0.25px; color: #FFFFFF; }
+.df-bullet__text { max-width: 506px; }
+.df-right { grid-column: 7 / -1; position: relative; }
+
+@media (max-width: 1280px) {
+  .df-left { grid-column: span 8; }
+  .df-right { grid-column: 1 / -1; margin: 48px 0; }
+  /* bullet title stays 20/28 at ≤1280 (t-p20 would step down) */
+  .df-bullet__title { font-size: 20px; line-height: 28px; }
+}
+@media (max-width: 799px) {
+  .df-bullet__title { font-size: 16px; line-height: 24px; }
+}
+
+/* form */
+.df-form { background: #1E1E1E; border: 1px solid rgba(255,255,255,.08); border-radius: 8px;
+  display: flex; flex-direction: column; gap: 24px; padding: 32px; }
+@media (max-width: 1280px) { .df-form { padding: 32px 20px; } }
+.df-field { display: flex; flex-direction: column; }
+.df-namerow { display: flex; gap: 16px; }
+/* children are not flex-grown: each sizes to the input's intrinsic width (221px at 1440, as measured) */
+@media (max-width: 1280px) { .df-namerow { flex-direction: column; } }
+.df-label { display: flex; font: 400 16px/24px Inter, -apple-system, system-ui, sans-serif; letter-spacing: 0; margin: 0 0 8px; color: #FFFFFF; }
+.df-req { margin-left: 2px; }
+
+.df-control {
+  -webkit-appearance: none; appearance: none; width: 100%; height: 40px; box-sizing: border-box; padding: 10px 16px;
+  background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.48); border-radius: 8px;
+  color: #FFFFFF; font: 400 16px/28px Inter, -apple-system, system-ui, sans-serif; letter-spacing: -0.5px;
+  text-overflow: ellipsis; transition: 300ms; margin: 0;
+}
+.df-control::placeholder { color: #A7A7A7; }
+.df-control:hover, .df-control:focus { background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.64); }
+.df-control:focus { outline: none; }
+.df-control:focus-visible { outline: currentColor solid 2px; outline-offset: 2px; }
+.df-control--select { padding: 8px 16px; font-weight: 500; line-height: 24px; cursor: pointer; }
+.df-control--select option { background: #1E1E1E; }
+.df-control--textarea { height: 200px; resize: vertical; }
+.df-error { color: #FF4400; font: 500 14px/20px Inter, -apple-system, system-ui, sans-serif; margin-top: 4px; }
+
+.df-consent { color: #FFFFFF; }
+.df-consent a { text-decoration: underline; }
+
+.df-submit { display: inline-flex; align-items: center; justify-content: center; width: 100%; min-width: 146px; height: 38px;
+  border: 0; border-radius: 8px; padding: 10px 16px; background: #FFFFFF; color: #0A0A0A;
+  font: 500 16px/18px Inter, -apple-system, system-ui, sans-serif; cursor: pointer; transition: background 150ms, color 150ms; }
+.df-submit:hover { background: #CECECE; }
+.df-submit:focus-visible { outline: currentColor solid 2px; outline-offset: 2px; }
+.df-submit:disabled { cursor: not-allowed; opacity: .7; }
+
+/* §3 Forrester TEI */
+.df-tei__left { grid-column: span 5; }
+.df-tei__p { color: #FFFFFF; margin-top: 32px; max-width: 800px; }
+.df-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; }
+.df-stat { grid-column: span 2; }
+.df-stat__value { font-size: 40px; line-height: 48px; font-weight: 500; letter-spacing: -1px; color: #FFFFFF; margin-bottom: 8px; }
+.df-tei__right { grid-column: 7 / span 6; }
+/* inline (not preflight block): the live slice is 5px taller than the image from the baseline gap */
+.df-tei__img { display: inline; vertical-align: baseline; width: 100%; height: auto; object-fit: contain; }
+@media (max-width: 1280px) {
+  .df-tei__left { grid-column: span 10; }
+  .df-tei__right { grid-column: 1 / -1; }
+  .df-stats { gap: 24px; }
+  .df-stat__value { font-size: 32px; line-height: 40px; letter-spacing: -0.25px; }
+}
+@media (max-width: 799px) {
+  .df-stat { grid-column: 1 / -1; }
+  .df-stat__value { font-size: 24px; line-height: 32px; }
+}
+
+/* §4 / §5 feature grid */
+.df-feat__head { grid-column: span 9; }
+.df-feat { grid-column: span 4; }
+/* inline, as live: each item carries the baseline gap under the icon */
+.df-feat__icon { display: inline; vertical-align: baseline; width: 64px; height: 64px; margin-bottom: 16px; }
+.df-feat__title { margin-bottom: 16px; }
+.df-feat__text { max-width: 456px; }
+@media (max-width: 1280px) { .df-feat { grid-column: span 6; } }

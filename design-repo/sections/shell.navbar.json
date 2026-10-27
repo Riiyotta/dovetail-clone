@@ -1,0 +1,255 @@
+{
+ "id": "shell.navbar",
+ "title": "Site navigation bar",
+ "semantic": {
+  "id": "shell.navbar",
+  "category": "SHELL"
+ },
+ "source": {
+  "id": "component:Navbar:aria-label=\"Main navigation\" className={",
+  "file": "src/components/Navbar.jsx",
+  "tag": "nav",
+  "lines": "133-145",
+  "tagLine": 133,
+  "anchor": "aria-label=\"Main navigation\" className={cls}",
+  "anchorLine": 133
+ },
+ "purpose": "88px non-sticky top nav: logo, three dropdown triggers, three links, log in + book a demo; light/legal palettes and solid product accent backgrounds.",
+ "retrievalEligible": true,
+ "placement": "chrome",
+ "variants": {
+  "accent": {
+   "description": "variant 'accent'",
+   "requiredFields": [
+    "actions",
+    "items",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 46,
+   "observedOn": [
+    "/customers/achievers/",
+    "/customers/atlassian-design/",
+    "/customers/atlassian/",
+    "/customers/aws/",
+    "/customers/bower/",
+    "/customers/breville/",
+    "/customers/canva-ai/",
+    "/customers/canva/",
+    "/customers/careship/",
+    "/customers/cnh/",
+    "/customers/eucalyptus/",
+    "/customers/flagship-airline-group/"
+   ],
+   "contentSampled": true
+  },
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "actions",
+    "items",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 662,
+   "observedOn": [
+    "/",
+    "/b2bsaasy/",
+    "/blog/",
+    "/blog/2025-fall-launch/",
+    "/blog/30-days-in/",
+    "/blog/60-days-in/",
+    "/blog/9-digital-twins-you-can-build-today/",
+    "/blog/a-conversation-with-trellos-head-of-design/",
+    "/blog/a-nuclear-meltdown-caused-by-design/",
+    "/blog/accountable-ai/",
+    "/blog/ai-generated-privacy-breaches/",
+    "/blog/ai-powered-contextual-chat/"
+   ],
+   "contentSampled": true
+  },
+  "legal": {
+   "description": "variant 'legal'",
+   "requiredFields": [
+    "actions",
+    "items",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 20,
+   "observedOn": [
+    "/legal/",
+    "/legal/acceptable-use-policy/",
+    "/legal/accessibility-statement/",
+    "/legal/ai-features/",
+    "/legal/ai-models/",
+    "/legal/anti-bribery-and-anti-corruption-statement/",
+    "/legal/community-code-of-conduct/",
+    "/legal/insurance/",
+    "/legal/master-subscription-agreement/",
+    "/legal/modern-slavery-statement/",
+    "/legal/mutual-non-disclosure-agreement/",
+    "/legal/open-source/"
+   ],
+   "contentSampled": true
+  },
+  "light": {
+   "description": "variant 'light'",
+   "requiredFields": [
+    "actions",
+    "items",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 1167,
+   "observedOn": [
+    "/contributors/",
+    "/contributors/brittany-ferri/",
+    "/contributors/cathy-heath/",
+    "/contributors/chloe-garnham/",
+    "/contributors/claire-bonneau/",
+    "/contributors/claudia-natasia/",
+    "/contributors/dovetail-editorial-team/",
+    "/contributors/hugh-good/",
+    "/contributors/jean-kaluza/",
+    "/contributors/jen-lee/",
+    "/contributors/katie-reed/",
+    "/contributors/lara-leganger/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions",
+   "items",
+   "media"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 144
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 11,
+    "observedIn": 144
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 10,
+    "observedIn": 432
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 8,
+    "observedIn": 72,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "actions": [
+    2,
+    2
+   ],
+   "items": [
+    6,
+    6
+   ],
+   "media": [
+    1,
+    1
+   ]
+  },
+  "itemRequiredFields": [
+   "title"
+  ],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "brand.wordmark"
+    ],
+    "generatedRoles": [
+     "brand.placeholder-mark",
+     "brand.user-supplied-mark"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "brand.placeholder-mark",
+  "brand.user-supplied-mark"
+ ],
+ "style": {
+  "props": {
+   "accent": {
+    "kind": "token",
+    "allowed": [
+     "color.accent.agents",
+     "color.accent.dashboards",
+     "color.accent.twins-hero",
+     "color.blue.base"
+    ]
+   }
+  },
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1185",
+   "behavior": "full link row + right buttons"
+  },
+  {
+   "range": "<=1185",
+   "behavior": "links hidden; a 'Menu' pill links to /menu/"
+  },
+  {
+   "range": "<=799",
+   "behavior": "padding 0 16"
+  }
+ ],
+ "runtimeUi": [
+  {
+   "part": "menu pill",
+   "behavior": "at <=1185px the links hide and a 'Menu' pill links to the /menu/ route"
+  }
+ ],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 0,
+   "nodes": 0,
+   "minPx": 0,
+   "maxPx": 0,
+   "medianPx": 0,
+   "sample": {}
+  }
+ },
+ "evidence": [
+  "src/components/Navbar.jsx:133-145",
+  "CLONE_SPEC.md:9-21",
+  "specs/product.md:1-40"
+ ]
+}

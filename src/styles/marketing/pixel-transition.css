@@ -1,0 +1,17 @@
+/* PixelTransitionSlice — marketing-shared.md §7.2 (elyp12t*, e70som0*) */
+.mk-pixel-wrap { position: relative; z-index: 3; pointer-events: none; }
+.mk-pixel-wrap--bottom { margin-bottom: calc(var(--px-h) * -1); }
+.mk-pixel-wrap--top { margin-top: calc(var(--px-h) * -1); }
+@media (max-width: 1280px) { .mk-pixel-wrap--bottom, .mk-pixel-wrap--top { margin-top: 0; margin-bottom: 0; } }
+.mk-pixel-wrap__inner { background: #0A0A0A; pointer-events: auto; }
+
+.mk-pixel-band { --mk-pixel-fill: #0A0A0A; display: flex; flex-direction: column; height: var(--px-h); width: 100%; position: relative;
+  z-index: 2; pointer-events: none; overflow: hidden; }
+.mk-pixel-band__row { display: flex; height: var(--px-size); flex-shrink: 0; }
+.mk-pixel-band__cell { width: var(--px-size); height: 100%; flex-shrink: 0; background-color: transparent; }
+.mk-pixel-band__cell[data-filled="true"] { background-color: var(--mk-pixel-fill); }
+/* Standalone band between sibling sections: carries the wrapper's stacking + negative margin itself */
+.mk-pixel-band--standalone { z-index: 3; }
+.mk-pixel-band--standalone.mk-pixel-band--bottom { margin-bottom: calc(var(--px-h) * -1); }
+.mk-pixel-band--standalone.mk-pixel-band--top { margin-top: calc(var(--px-h) * -1); }
+@media (max-width: 1280px) { .mk-pixel-band { display: none; } }

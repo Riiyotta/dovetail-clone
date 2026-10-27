@@ -1,0 +1,907 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T0",
+ "route": "/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail clone (local)"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.home",
+   "variant": "default",
+   "content": {
+    "heading": "Feed the facts machine",
+    "lead": "The Customer Context Layer turns sales calls, support tickets and interviews your teams already collect into the structured context that every agent reads before it acts.",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "#"
+     },
+     {
+      "label": "Start free trial",
+      "href": "#"
+     },
+     {
+      "label": "G2",
+      "href": "https://www.g2.com/products/dovetail-research-pty-ltd-dovetail"
+     },
+     {
+      "label": "CAPTERRA",
+      "href": "https://www.capterra.com.au/software/174077/dovetail"
+     },
+     {
+      "label": "TRUSTRADIUS",
+      "href": "https://www.trustradius.com/products/dovetail-user-research"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/svg/rating-star-half.svg"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/svg/rating-star-half.svg"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/svg/rating-star-half.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/home-hero-fax.png"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Amazon",
+      "ref": "/assets/svg/hero-logo-amazon.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Toyota",
+      "ref": "/assets/svg/hero-logo-toyota.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Canva",
+      "ref": "/assets/svg/hero-logo-canva.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Ford",
+      "ref": "/assets/svg/hero-logo-ford.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Notion",
+      "ref": "/assets/svg/hero-logo-notion.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Salesforce",
+      "ref": "/assets/svg/hero-logo-salesforce.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Dyson",
+      "ref": "/assets/svg/hero-logo-dyson.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Milwaukee",
+      "ref": "/assets/svg/hero-logo-milwaukee.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Shopify",
+      "ref": "/assets/svg/hero-logo-shopify.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Wise",
+      "ref": "/assets/svg/hero-logo-wise.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Dovetail product screenshot",
+      "ref": "/assets/hero-image-bg.png"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/svg/chat-glow.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "fade.in",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "features.topic-tabs",
+   "variant": "context",
+   "content": {
+    "heading": "Build your customer context layer",
+    "lead": "Bring in every interview, ticket, call and survey into one shared layer so your teams and tools can draw on the same up-to-date picture of the people you build for.",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "#"
+     },
+     {
+      "label": "Start free trial",
+      "href": "#"
+     },
+     {
+      "label": "Turn every customer interaction into context",
+      "href": "#"
+     },
+     {
+      "label": "Stop paying to process the same data twice",
+      "href": "#"
+     },
+     {
+      "label": "Bring customer context into your AI tools",
+      "href": "#"
+     },
+     {
+      "label": "Integrate Dovetail into your existing stack",
+      "href": "#"
+     }
+    ],
+    "items": [
+     {
+      "title": "Turn every customer interaction into context"
+     },
+     {
+      "title": "Stop paying to process the same data twice"
+     },
+     {
+      "title": "Bring customer context into your AI tools"
+     },
+     {
+      "title": "Integrate Dovetail into your existing stack"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/home-context-magnifier.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-context-integrations.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-context-ai.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-context-mcp.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-context-api.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-context-integrations.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-context-ai.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-context-mcp.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-context-api.png"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/white-logo.svg"
+     },
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/home-punch-avatar-renato.png"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/forrester-mark.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "tabs.auto-advance",
+    "reducedMotionFallback": "no-autoplay"
+   }
+  },
+  {
+   "section": "features.data-diagram",
+   "variant": "default",
+   "content": {
+    "heading": "Turn raw data into rich context",
+    "lead": "Recordings, documents, tickets and images arrive in every format. Each one is processed into structured, searchable, linked knowledge that your people and your tools can trust and act on.",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "#"
+     },
+     {
+      "label": "Start free trial",
+      "href": "#"
+     },
+     {
+      "label": "INDEXATION",
+      "href": "#"
+     },
+     {
+      "label": "CLASSIFICATION",
+      "href": "#"
+     },
+     {
+      "label": "SYNTHESIS",
+      "href": "#"
+     },
+     {
+      "label": "EMBEDDING",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/home-diagram-raw-data.png"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/home-diagram-glow.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/home-diagram-database.png"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/home-diagram-glow.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/home-diagram-database.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "canvas.orbit",
+    "reducedMotionFallback": "static-layout"
+   }
+  },
+  {
+   "section": "features.topic-tabs",
+   "variant": "prompt",
+   "content": {
+    "heading": "Put the customer in every prompt",
+    "lead": "Give every model, agent and teammate the same grounded view of your customers, so the work they produce starts from real needs instead of assumptions pulled from thin air.",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "#"
+     },
+     {
+      "label": "Start free trial",
+      "href": "#"
+     },
+     {
+      "label": "Simulate customers and market segments",
+      "href": "#"
+     },
+     {
+      "label": "Bring customer evidence into every build",
+      "href": "#"
+     },
+     {
+      "label": "Align your whole team with your customers",
+      "href": "#"
+     },
+     {
+      "label": "Automate entire workflows",
+      "href": "#"
+     }
+    ],
+    "items": [
+     {
+      "title": "Simulate customers and market segments"
+     },
+     {
+      "title": "Bring customer evidence into every build"
+     },
+     {
+      "title": "Align your whole team with your customers"
+     },
+     {
+      "title": "Automate entire workflows"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/home-prompt-ship-it.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-prompt-twins.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-prompt-channels.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-prompt-chat.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-prompt-agents.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-prompt-twins.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-prompt-channels.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-prompt-chat.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-prompt-agents.png"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/white-logo(1).svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/white-logo(1).svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/forrester-mark.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "tabs.auto-advance",
+    "reducedMotionFallback": "no-autoplay"
+   }
+  },
+  {
+   "section": "features.sticky-loop",
+   "variant": "default",
+   "content": {
+    "heading": "Make your software self improving",
+    "lead": "Every signal your customers share feeds a loop that keeps learning. Placeholder copy describes how feedback is turned into ranked work, shipped changes, and updates sent back out.",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "#"
+     },
+     {
+      "label": "Start free trial",
+      "href": "#"
+     }
+    ],
+    "items": [
+     {
+      "title": "Close the loop with customers"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/home-loop-atom.svg"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-loop-step-1.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-loop-step-2.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-loop-step-3.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-loop-step-4.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-loop-step-5.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-loop-step-1.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-loop-step-2.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-loop-step-3.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-loop-step-4.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-loop-step-5.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "scroll.sticky-progress",
+    "reducedMotionFallback": "static-steps"
+   }
+  },
+  {
+   "section": "features.govern-grid",
+   "variant": "default",
+   "content": {
+    "heading": "Govern customer context at scale",
+    "lead": "Placeholder copy for this whole section. It describes how teams keep shared customer knowledge organised, safe, and consistent as use grows across many groups, with clear controls that hold up well for large organisations and strict audits.",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "#"
+     },
+     {
+      "label": "Start free trial",
+      "href": "#"
+     }
+    ],
+    "items": [
+     {
+      "title": "Multiplayer AI"
+     },
+     {
+      "title": "Built-in privacy"
+     },
+     {
+      "title": "Shared standards"
+     },
+     {
+      "title": "Predictable token usage"
+     },
+     {
+      "title": "Granular permissions"
+     },
+     {
+      "title": "Enterprise-grade security"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "icon.source",
+      "alt": "",
+      "ref": "/assets/home-govern-icon.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-govern-multiplayer.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-govern-privacy.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-govern-standards.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-govern-tokens.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-govern-permissions.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/home-govern-security.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.story-marquee",
+   "variant": "default",
+   "content": {
+    "heading": "In their words, not ours",
+    "actions": [
+     {
+      "label": "See all stories",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "photo.real-scene",
+      "alt": "",
+      "ref": "/assets/Customer_Itau.png"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Itaú Unibanco",
+      "ref": "/assets/home-story-itau-mark.svg"
+     },
+     {
+      "assetRole": "photo.real-scene",
+      "alt": "",
+      "ref": "/assets/Customer_Atlassian.png"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Atlassian",
+      "ref": "/assets/home-story-atlassian-mark.svg"
+     },
+     {
+      "assetRole": "photo.real-scene",
+      "alt": "",
+      "ref": "/assets/Customer_Canva_AI.png"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Canva",
+      "ref": "/assets/white-logo(2).svg"
+     },
+     {
+      "assetRole": "photo.real-scene",
+      "alt": "",
+      "ref": "/assets/Customer_Breville.png"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Breville",
+      "ref": "/assets/white-logo(3).svg"
+     },
+     {
+      "assetRole": "photo.real-scene",
+      "alt": "",
+      "ref": "/assets/Customer_CNHIndustrial.png"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "CNH",
+      "ref": "/assets/white-logo(4).svg"
+     },
+     {
+      "assetRole": "photo.real-scene",
+      "alt": "",
+      "ref": "/assets/Customer_SmartRecruiter.png"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "SmartRecruiters",
+      "ref": "/assets/white-logo(5).svg"
+     },
+     {
+      "assetRole": "photo.real-scene",
+      "alt": "",
+      "ref": "/assets/Customer_Itau.png"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Itaú Unibanco",
+      "ref": "/assets/home-story-itau-mark.svg"
+     },
+     {
+      "assetRole": "photo.real-scene",
+      "alt": "",
+      "ref": "/assets/Customer_Atlassian.png"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Atlassian",
+      "ref": "/assets/home-story-atlassian-mark.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "marquee.loop",
+    "reducedMotionFallback": "paused"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "dark",
+   "content": {
+    "heading": "The best never guess",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "#"
+     },
+     {
+      "label": "Start free trial",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-theright-salesforce.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestfarleft-aws.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestleft-canva.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestright-airwallex.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverright-notion.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverfarright-zapier.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessleft-wise.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessfarleft-breville.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.twins-modal",
+   "variant": "default",
+   "content": {},
+   "motion": {
+    "pattern": "modal.fade-scale",
+    "reducedMotionFallback": "show-immediately"
+   },
+   "retrievalEligible": false
+  }
+ ]
+}

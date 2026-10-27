@@ -1,0 +1,1639 @@
+window['facebook-pixelDeps'] = ["/integrations/vendor/commons.1b78f84a8c1751144d06.js"];window['facebook-pixelLoader'] = function() { return window["facebook-pixelIntegration"] =
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// install a JSONP callback for chunk loading
+/******/ 	function webpackJsonpCallback(data) {
+/******/ 		var chunkIds = data[0];
+/******/ 		var moreModules = data[1];
+/******/ 		var executeModules = data[2];
+/******/
+/******/ 		// add "moreModules" to the modules object,
+/******/ 		// then flag all "chunkIds" as loaded and fire callback
+/******/ 		var moduleId, chunkId, i = 0, resolves = [];
+/******/ 		for(;i < chunkIds.length; i++) {
+/******/ 			chunkId = chunkIds[i];
+/******/ 			if(Object.prototype.hasOwnProperty.call(installedChunks, chunkId) && installedChunks[chunkId]) {
+/******/ 				resolves.push(installedChunks[chunkId][0]);
+/******/ 			}
+/******/ 			installedChunks[chunkId] = 0;
+/******/ 		}
+/******/ 		for(moduleId in moreModules) {
+/******/ 			if(Object.prototype.hasOwnProperty.call(moreModules, moduleId)) {
+/******/ 				modules[moduleId] = moreModules[moduleId];
+/******/ 			}
+/******/ 		}
+/******/ 		if(parentJsonpFunction) parentJsonpFunction(data);
+/******/
+/******/ 		while(resolves.length) {
+/******/ 			resolves.shift()();
+/******/ 		}
+/******/
+/******/ 		// add entry modules from loaded chunk to deferred list
+/******/ 		deferredModules.push.apply(deferredModules, executeModules || []);
+/******/
+/******/ 		// run deferred modules when all chunks ready
+/******/ 		return checkDeferredModules();
+/******/ 	};
+/******/ 	function checkDeferredModules() {
+/******/ 		var result;
+/******/ 		for(var i = 0; i < deferredModules.length; i++) {
+/******/ 			var deferredModule = deferredModules[i];
+/******/ 			var fulfilled = true;
+/******/ 			for(var j = 1; j < deferredModule.length; j++) {
+/******/ 				var depId = deferredModule[j];
+/******/ 				if(installedChunks[depId] !== 0) fulfilled = false;
+/******/ 			}
+/******/ 			if(fulfilled) {
+/******/ 				deferredModules.splice(i--, 1);
+/******/ 				result = __webpack_require__(__webpack_require__.s = deferredModule[0]);
+/******/ 			}
+/******/ 		}
+/******/
+/******/ 		return result;
+/******/ 	}
+/******/
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// object to store loaded and loading chunks
+/******/ 	// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 	// Promise = chunk loading, 0 = chunk loaded
+/******/ 	var installedChunks = {
+/******/ 		"facebook-pixel": 0
+/******/ 	};
+/******/
+/******/ 	var deferredModules = [];
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = __webpack_require__(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/ 	var jsonpArray = window["webpackJsonp_name_Integration"] = window["webpackJsonp_name_Integration"] || [];
+/******/ 	var oldJsonpFunction = jsonpArray.push.bind(jsonpArray);
+/******/ 	jsonpArray.push = webpackJsonpCallback;
+/******/ 	jsonpArray = jsonpArray.slice();
+/******/ 	for(var i = 0; i < jsonpArray.length; i++) webpackJsonpCallback(jsonpArray[i]);
+/******/ 	var parentJsonpFunction = oldJsonpFunction;
+/******/
+/******/
+/******/ 	// add entry module to deferred list
+/******/ 	deferredModules.push(["qzi5","commons"]);
+/******/ 	// run deferred modules when ready
+/******/ 	return checkDeferredModules();
+/******/ })
+/************************************************************************/
+/******/ ({
+
+/***/ "F39V":
+/*!*********************************************!*\
+  !*** ./node_modules/to-camel-case/index.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var space = __webpack_require__(/*! to-space-case */ "NtLt")
+
+/**
+ * Export.
+ */
+
+module.exports = toCamelCase
+
+/**
+ * Convert a `string` to camel case.
+ *
+ * @param {String} string
+ * @return {String}
+ */
+
+function toCamelCase(string) {
+  return space(string).replace(/\s(\w)/g, function (matches, letter) {
+    return letter.toUpperCase()
+  })
+}
+
+
+/***/ }),
+
+/***/ "qzi5":
+/*!**************************************************!*\
+  !*** ./integrations/facebook-pixel/lib/index.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * Module dependencies.
+ */
+
+var integration = __webpack_require__(/*! @segment/analytics.js-integration */ "hjHq");
+
+var each = __webpack_require__(/*! @ndhoule/each */ "6YGp");
+
+var reject = __webpack_require__(/*! reject */ "bmjW");
+
+var camel = __webpack_require__(/*! to-camel-case */ "F39V");
+
+var is = __webpack_require__(/*! is */ "qMUi");
+
+var dateformat = __webpack_require__(/*! dateformat */ "ubkq");
+
+var Track = __webpack_require__(/*! segmentio-facade */ "NGGi").Track;
+
+var sha256 = __webpack_require__(/*! js-sha256 */ "wFFe");
+/**
+ * Expose `Facebook Pixel`.
+ */
+
+
+var FacebookPixel = module.exports = integration('Facebook Pixel').global('fbq').option('pixelId', '').option('agent', 'seg').option('valueIdentifier', 'value').option('initWithExistingTraits', false).option('traverse', false).option('automaticConfiguration', true).option('whitelistPiiProperties', []).option('blacklistPiiProperties', []).option('standardEventsCustomProperties', []).option('keyForExternalId', '').option('userIdAsExternalId', false).option('limitedDataUse', true).mapping('standardEvents').mapping('legacyEvents').mapping('contentTypes').tag('<script src="//connect.facebook.net/en_US/fbevents.js">');
+/**
+ * FB requires these date fields be formatted in a specific way.
+ * The specifications are non iso8601 compliant.
+ * https://developers.facebook.com/docs/marketing-api/dynamic-ads-for-travel/audience
+ * Therefore, we check if the property is one of these reserved fields.
+ * If so, we check if we have converted it to an iso date object already.
+ * If we have, we convert it again into Facebook's spec.
+ * If we have not, the user has likely passed in a date string that already
+ * adheres to FB's docs so we can just pass it through as is.
+ */
+
+var dateFields = ['checkinDate', 'checkoutDate', 'departingArrivalDate', 'departingDepartureDate', 'returningArrivalDate', 'returningDepartureDate', 'travelEnd', 'travelStart'];
+/**
+ * FB does not allow sending PII data with events. They provide a list of what they consider PII here:
+ * https://developers.facebook.com/docs/facebook-pixel/pixel-with-ads/conversion-tracking
+ * We need to check each property key to see if it matches what FB considers to be a PII property and strip it from the payload.
+ * User's can override this by manually whitelisting keys they are ok with sending through in their integration settings.
+ */
+
+var defaultPiiProperties = ['email', 'firstName', 'lastName', 'gender', 'city', 'country', 'phone', 'state', 'zip', 'birthday'];
+/**
+ * Initialize Facebook Pixel.
+ *
+ * @param {Facade} page
+ */
+
+FacebookPixel.prototype.initialize = function () {
+  window._fbq = function () {
+    if (window.fbq.callMethod) {
+      window.fbq.callMethod.apply(window.fbq, arguments);
+    } else {
+      window.fbq.queue.push(arguments);
+    }
+  };
+
+  window.fbq = window.fbq || window._fbq;
+  window.fbq.push = window.fbq;
+  window.fbq.loaded = true;
+  window.fbq.disablePushState = true; // disables automatic pageview tracking
+
+  window.fbq.allowDuplicatePageViews = true; // enables fb
+
+  window.fbq.agent = this.options.agent;
+  window.fbq.version = '2.0';
+  window.fbq.queue = [];
+  this.load(this.ready);
+
+  if (!this.options.automaticConfiguration) {
+    window.fbq('set', 'autoConfig', false, this.options.pixelId);
+  }
+
+  if (this.options.limitedDataUse) {
+    this.validateAndSetDataProcessing(this.options.dataProcessingOptions || [['LDU'], 0, 0]);
+  } else {
+    // explicitly not enable Limited Data Use (LDU) mode
+    window.fbq('dataProcessingOptions', []);
+  }
+
+  if (this.options.initWithExistingTraits) {
+    var traits = this.formatTraits(this.analytics);
+    window.fbq('init', this.options.pixelId, traits);
+  } else {
+    window.fbq('init', this.options.pixelId);
+  }
+};
+/**
+ * Has the Facebook Pixel library been loaded yet?
+ *
+ * @return {Boolean}
+ */
+
+
+FacebookPixel.prototype.loaded = function () {
+  return !!(window.fbq && window.fbq.callMethod);
+};
+/**
+ * Trigger a page view.
+ *
+ * @param {Facade} identify
+ */
+
+
+FacebookPixel.prototype.page = function (track) {
+  window.fbq('track', 'PageView', {}, {
+    eventID: track.proxy('messageId')
+  });
+};
+/**
+ * Track an event.
+ *
+ * @param {Facade} track
+ */
+
+
+FacebookPixel.prototype.track = function (track) {
+  var self = this;
+  var event = track.event();
+  var revenue = formatRevenue(track.revenue());
+  var payload = this.buildPayload(track); // Revenue
+
+  if (track.properties().hasOwnProperty('revenue')) {
+    payload.value = formatRevenue(track.revenue()); // To keep compatible with the old implementation
+    // that never added revenue to the payload
+
+    delete payload.revenue;
+  }
+
+  var standard = this.standardEvents(event);
+  var legacy = this.legacyEvents(event); // non-mapped events get sent as "custom events" with full
+  // tranformed payload
+
+  if (![].concat(standard, legacy).length) {
+    window.fbq('trackSingleCustom', this.options.pixelId, event, payload, {
+      eventID: track.proxy('messageId')
+    });
+    return;
+  } // standard conversion events, mapped to one of 9 standard events
+  // "Purchase" requires a currency parameter;
+  // send full transformed payload
+
+
+  each(function (event) {
+    if (event === 'Purchase') payload.currency = track.currency(); // defaults to 'USD'
+
+    window.fbq('trackSingle', self.options.pixelId, event, payload, {
+      eventID: track.proxy('messageId')
+    });
+  }, standard); // legacy conversion events — mapped to specific "pixelId"s
+  // send only currency and value
+
+  each(function (event) {
+    window.fbq('trackSingle', self.options.pixelId, event, {
+      currency: track.currency(),
+      value: revenue
+    }, {
+      eventID: track.proxy('messageId')
+    });
+  }, legacy);
+};
+/**
+ * Product List Viewed.
+ *
+ * @api private
+ * @param {Track} track category
+ */
+
+
+FacebookPixel.prototype.productListViewed = function (track) {
+  var self = this;
+  var contentType;
+  var contentIds = [];
+  var contents = [];
+  var products = track.products();
+  var customProperties = this.buildPayload(track, true); // First, check to see if a products array with productIds has been defined.
+
+  if (Array.isArray(products)) {
+    products.forEach(function (product) {
+      var track = new Track({
+        properties: product
+      });
+      var productId = track.proxy('properties.product_id') || track.productId() || track.id();
+
+      if (productId) {
+        contentIds.push(productId);
+        contents.push({
+          id: productId,
+          quantity: track.quantity()
+        });
+      }
+    });
+  } // If no products have been defined, fallback on legacy behavior.
+  // Facebook documents the content_type parameter decision here: https://developers.facebook.com/docs/facebook-pixel/api-reference
+
+
+  if (contentIds.length) {
+    contentType = ['product'];
+  } else {
+    contentIds.push(track.category() || '');
+    contents.push({
+      id: track.category() || '',
+      quantity: 1
+    });
+    contentType = ['product_group'];
+  }
+
+  window.fbq('trackSingle', this.options.pixelId, 'ViewContent', merge({
+    content_ids: contentIds,
+    content_type: this.getContentType(track, contentType),
+    contents: contents
+  }, customProperties), {
+    eventID: track.proxy('messageId')
+  }); // fall through for mapped legacy conversions
+
+  each(function (event) {
+    window.fbq('trackSingle', self.options.pixelId, event, {
+      currency: track.currency(),
+      value: formatRevenue(track.revenue())
+    }, {
+      eventID: track.proxy('messageId')
+    });
+  }, this.legacyEvents(track.event()));
+};
+/**
+ * Product viewed.
+ *
+ * @api private
+ * @param {Track} track
+ */
+
+
+FacebookPixel.prototype.productViewed = function (track) {
+  var self = this;
+  var useValue = this.options.valueIdentifier === 'value';
+  var customProperties = this.buildPayload(track, true);
+  window.fbq('trackSingle', this.options.pixelId, 'ViewContent', merge({
+    content_ids: [track.productId() || track.id() || track.sku() || ''],
+    content_type: this.getContentType(track, ['product']),
+    content_name: track.name() || '',
+    content_category: track.category() || '',
+    currency: track.currency(),
+    value: useValue ? formatRevenue(track.value()) : formatRevenue(track.price()),
+    contents: [{
+      id: track.productId() || track.id() || track.sku() || '',
+      quantity: track.quantity(),
+      item_price: track.price()
+    }]
+  }, customProperties), {
+    eventID: track.proxy('messageId')
+  }); // fall through for mapped legacy conversions
+
+  each(function (event) {
+    window.fbq('trackSingle', self.options.pixelId, event, {
+      currency: track.currency(),
+      value: useValue ? formatRevenue(track.value()) : formatRevenue(track.price())
+    }, {
+      eventID: track.proxy('messageId')
+    });
+  }, this.legacyEvents(track.event()));
+};
+/**
+ * Product added.
+ *
+ * @api private
+ * @param {Track} track
+ */
+
+
+FacebookPixel.prototype.productAdded = function (track) {
+  var self = this;
+  var useValue = this.options.valueIdentifier === 'value';
+  var customProperties = this.buildPayload(track, true);
+  window.fbq('trackSingle', this.options.pixelId, 'AddToCart', merge({
+    content_ids: [track.productId() || track.id() || track.sku() || ''],
+    content_type: this.getContentType(track, ['product']),
+    content_name: track.name() || '',
+    content_category: track.category() || '',
+    currency: track.currency(),
+    value: useValue ? formatRevenue(track.value()) : formatRevenue(track.price()),
+    contents: [{
+      id: track.productId() || track.id() || track.sku() || '',
+      quantity: track.quantity(),
+      item_price: track.price()
+    }]
+  }, customProperties), {
+    eventID: track.proxy('messageId')
+  }); // fall through for mapped legacy conversions
+
+  each(function (event) {
+    window.fbq('trackSingle', self.options.pixelId, event, {
+      currency: track.currency(),
+      value: useValue ? formatRevenue(track.value()) : formatRevenue(track.price())
+    }, {
+      eventID: track.proxy('messageId')
+    });
+  }, this.legacyEvents(track.event()));
+};
+/**
+ * Order Completed.
+ *
+ * @api private
+ * @param {Track} track
+ */
+
+
+FacebookPixel.prototype.orderCompleted = function (track) {
+  var self = this;
+  var products = track.products();
+  var customProperties = this.buildPayload(track, true);
+  var revenue = formatRevenue(track.revenue()); // Order completed doesn't have a top-level category spec'd.
+  // Let's default to the category of the first product. - @gabriel
+
+  var contentType = this.getContentType(track, ['product']);
+  var contentIds = [];
+  var contents = [];
+
+  for (var i = 0; i < products.length; i++) {
+    var trackItem = new Track({
+      properties: products[i]
+    });
+    var pId = trackItem.productId() || trackItem.id() || trackItem.sku();
+    contentIds.push(pId);
+    var content = {
+      id: pId,
+      quantity: trackItem.quantity()
+    };
+
+    if (trackItem.price()) {
+      content.item_price = trackItem.price();
+    }
+
+    contents.push(content);
+  }
+
+  window.fbq('trackSingle', this.options.pixelId, 'Purchase', merge({
+    content_ids: contentIds,
+    content_type: contentType,
+    currency: track.currency(),
+    value: revenue,
+    contents: contents,
+    num_items: contentIds.length
+  }, customProperties), {
+    eventID: track.proxy('messageId')
+  }); // fall through for mapped legacy conversions
+
+  each(function (event) {
+    window.fbq('trackSingle', self.options.pixelId, event, {
+      currency: track.currency(),
+      value: formatRevenue(track.revenue())
+    }, {
+      eventID: track.proxy('messageId')
+    });
+  }, this.legacyEvents(track.event()));
+};
+
+FacebookPixel.prototype.productsSearched = function (track) {
+  var self = this;
+  var customProperties = this.buildPayload(track, true);
+  window.fbq('trackSingle', this.options.pixelId, 'Search', merge({
+    search_string: track.proxy('properties.query')
+  }, customProperties), {
+    eventID: track.proxy('messageId')
+  }); // fall through for mapped legacy conversions
+
+  each(function (event) {
+    window.fbq('trackSingle', self.options.pixelId, event, {
+      currency: track.currency(),
+      value: formatRevenue(track.revenue())
+    }, {
+      eventID: track.proxy('messageId')
+    });
+  }, this.legacyEvents(track.event()));
+};
+
+FacebookPixel.prototype.checkoutStarted = function (track) {
+  var self = this;
+  var products = track.products();
+  var contentIds = [];
+  var contents = [];
+  var contentCategory = track.category();
+  var customProperties = this.buildPayload(track, true);
+
+  for (var i = 0; i < products.length; i++) {
+    var trackItem = new Track({
+      properties: products[i]
+    });
+    var pId = trackItem.productId() || trackItem.id() || trackItem.sku();
+    contentIds.push(pId);
+    var content = {
+      id: pId,
+      quantity: trackItem.quantity(),
+      item_price: track.price()
+    };
+
+    if (trackItem.price()) {
+      content.item_price = trackItem.price();
+    }
+
+    contents.push(content);
+  } // If no top-level category was defined use that of the first product. @gabriel
+
+
+  if (!contentCategory && products[0] && products[0].category) {
+    contentCategory = products[0].category;
+  }
+
+  window.fbq('trackSingle', this.options.pixelId, 'InitiateCheckout', merge({
+    content_category: contentCategory,
+    content_ids: contentIds,
+    content_type: this.getContentType(track, ['product']),
+    contents: contents,
+    currency: track.currency(),
+    num_items: contentIds.length,
+    value: formatRevenue(track.revenue())
+  }, customProperties), {
+    eventID: track.proxy('messageId')
+  }); // fall through for mapped legacy conversions
+
+  each(function (event) {
+    window.fbq('trackSingle', self.options.pixelId, event, {
+      currency: track.currency(),
+      value: formatRevenue(track.revenue())
+    }, {
+      eventID: track.proxy('messageId')
+    });
+  }, this.legacyEvents(track.event()));
+};
+/**
+ * Returns an array of mapped content types for the category,
+ * the provided value as an integration option or the default provided value.
+ *
+ * @param {Facade.Track} track Track payload
+ * @param {Array} defaultValue Default array value returned if the previous parameters are not defined.
+ *
+ * @return Content Type array as defined in:
+ * - https://developers.facebook.com/docs/facebook-pixel/reference/#object-properties
+ * - https://developers.facebook.com/docs/marketing-api/dynamic-ads-for-real-estate/audience
+ */
+
+
+FacebookPixel.prototype.getContentType = function (track, defaultValue) {
+  // 1- Integration options takes preference over everything
+  var options = track.options('Facebook Pixel');
+
+  if (options && options.contentType) {
+    return [options.contentType];
+  } // 2- Defined by category and its mappings
+
+
+  var category = track.category();
+
+  if (!category) {
+    // Get the first product's category
+    var products = track.products();
+
+    if (products && products.length) {
+      category = products[0].category;
+    }
+  }
+
+  if (category) {
+    var mapped = this.contentTypes(category);
+
+    if (mapped.length) {
+      return mapped;
+    }
+  } // 3- The default value
+
+
+  return defaultValue;
+};
+/**
+ * Get Revenue Formatted Correctly for FB.
+ *
+ * @api private
+ * @param {Track} track
+ */
+
+
+function formatRevenue(revenue) {
+  return Number(revenue || 0).toFixed(2);
+}
+/**
+ * Get Traits Formatted Correctly for FB.
+ *
+ * https://developers.facebook.com/docs/facebook-pixel/pixel-with-ads/conversion-tracking#advanced_match
+ *
+ * @api private
+ */
+
+
+FacebookPixel.prototype.formatTraits = function formatTraits(analytics) {
+  var traits = analytics && analytics.user().traits();
+  if (!traits) return {};
+  var firstName;
+  var lastName; // Check for firstName property
+  // else check for name
+
+  if (traits.firstName || traits.first_name) {
+    firstName = traits.firstName || traits.first_name;
+    lastName = traits.lastName || traits.last_name;
+  } else {
+    var nameArray = traits.name && traits.name.toLowerCase().split(' ') || [];
+    firstName = nameArray.shift();
+    lastName = nameArray.pop();
+  }
+
+  var gender;
+
+  if (traits.gender && is.string(traits.gender)) {
+    gender = traits.gender.slice(0, 1).toLowerCase();
+  }
+
+  var birthday = traits.birthday && dateformat(traits.birthday, 'yyyymmdd');
+  var address = traits.address || {};
+  var city = address.city && address.city.split(' ').join('').toLowerCase();
+  var state = address.state && address.state.toLowerCase();
+  var postalCode = address.postalCode || address.postal_code;
+  var external_id; // eslint-disable-line
+
+  if (this.options.keyForExternalId) {
+    external_id = traits[this.options.keyForExternalId]; // eslint-disable-line
+  }
+
+  if (!external_id && this.options.userIdAsExternalId && analytics) {
+    // eslint-disable-line
+    external_id = analytics.user().id() || analytics.user().anonymousId(); // eslint-disable-line
+  }
+
+  return reject({
+    em: traits.email,
+    fn: firstName,
+    ln: lastName,
+    ph: traits.phone,
+    ge: gender,
+    db: birthday,
+    ct: city,
+    st: state,
+    zp: postalCode,
+    external_id: external_id // eslint-disable-line
+
+  });
+};
+/**
+ * Builds the FB Event payload. It checks for PII fields and custom properties. If the event is Standard Event,
+ * only properties defined in the setting are passed to the payload.
+ *
+ * @param {Facade.Track} track Track event.
+ * @param {boolean} isStandardEvent Defines if the track call is a standard event.
+ *
+ * @return Payload to send deriveded from the track properties.
+ */
+
+
+FacebookPixel.prototype.buildPayload = function (track, isStandardEvent) {
+  var whitelistPiiProperties = this.options.whitelistPiiProperties || [];
+  var blacklistPiiProperties = this.options.blacklistPiiProperties || [];
+  var standardEventsCustomProperties = this.options.standardEventsCustomProperties || []; // Transforming the setting in a map for easier lookups.
+
+  var customPiiProperties = {};
+
+  for (var i = 0; i < blacklistPiiProperties.length; i++) {
+    var configuration = blacklistPiiProperties[i];
+    customPiiProperties[configuration.propertyName] = configuration.hashProperty;
+  }
+
+  var payload = {};
+  var properties = track.properties();
+
+  for (var property in properties) {
+    if (!properties.hasOwnProperty(property)) {
+      continue;
+    } // Standard Events only contains custom properties defined in the configuration
+    // If the property is not listed there, we just drop it.
+
+
+    if (isStandardEvent && standardEventsCustomProperties.indexOf(property) < 0) {
+      continue;
+    }
+
+    var value = properties[property]; // Dates
+
+    if (dateFields.indexOf(camel(property)) >= 0) {
+      if (is.date(value)) {
+        payload[property] = value.toISOString().split('T')[0];
+        continue;
+      }
+    } // Custom PII properties
+
+
+    if (customPiiProperties.hasOwnProperty(property)) {
+      // hash or drop
+      if (customPiiProperties[property] && typeof value === 'string') {
+        payload[property] = sha256(value);
+      }
+
+      continue;
+    } // Default PII properties
+
+
+    var isPropertyPii = defaultPiiProperties.indexOf(property) >= 0;
+    var isPropertyWhitelisted = whitelistPiiProperties.indexOf(property) >= 0;
+
+    if (!isPropertyPii || isPropertyWhitelisted) {
+      payload[property] = value;
+    }
+  }
+
+  return payload;
+};
+/**
+ * Validates that a set of parameters are formatted correctly and passes them to the pixel instance.
+ * https://developers.facebook.com/docs/marketing-apis/data-processing-options#reference
+ *
+ * @param {Array} options
+ *
+ * @api private
+ */
+
+
+FacebookPixel.prototype.validateAndSetDataProcessing = function (params) {
+  var lenOk = params.length === 3;
+  var valOk = Array.isArray(params[0]) && typeof params[1] === 'number' && typeof params[2] === 'number'; // Pass the data processing options if they're valid, otherwise, fallback to geolocation.
+
+  if (lenOk && valOk) {
+    window.fbq('dataProcessingOptions', params[0], params[1], params[2]);
+  } else {
+    window.fbq('dataProcessingOptions', ['LDU'], 0, 0);
+  }
+};
+/**
+ * Merge two javascript objects. This works similarly to `Object.assign({}, obj1, obj2)`
+ * but it's compatible with old browsers. The properties of the first argument takes preference
+ * over the other.
+ *
+ * It does not do fancy stuff, just use it with top level properties.
+ *
+ * @param {Object} obj1 Object 1
+ * @param {Object} obj2 Object 2
+ *
+ * @return {Object} a new object with all the properties of obj1 and the remainder of obj2.
+ */
+
+
+function merge(obj1, obj2) {
+  var res = {}; // All properties of obj1
+
+  for (var propObj1 in obj1) {
+    if (obj1.hasOwnProperty(propObj1)) {
+      res[propObj1] = obj1[propObj1];
+    }
+  } // Extra properties of obj2
+
+
+  for (var propObj2 in obj2) {
+    if (obj2.hasOwnProperty(propObj2) && !res.hasOwnProperty(propObj2)) {
+      res[propObj2] = obj2[propObj2];
+    }
+  }
+
+  return res;
+} // Exposed only for testing
+
+
+FacebookPixel.merge = merge;
+
+/***/ }),
+
+/***/ "ubkq":
+/*!***************************************************!*\
+  !*** ./node_modules/dateformat/lib/dateformat.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_RESULT__;/*
+ * Date Format 1.2.3
+ * (c) 2007-2009 Steven Levithan <stevenlevithan.com>
+ * MIT license
+ *
+ * Includes enhancements by Scott Trenda <scott.trenda.net>
+ * and Kris Kowal <cixar.com/~kris.kowal/>
+ *
+ * Accepts a date, a mask, or a date and a mask.
+ * Returns a formatted version of the given date.
+ * The date defaults to the current date/time.
+ * The mask defaults to dateFormat.masks.default.
+ */
+
+(function(global) {
+  'use strict';
+
+  var dateFormat = (function() {
+      var token = /d{1,4}|m{1,4}|yy(?:yy)?|([HhMsTt])\1?|[LloSZWN]|'[^']*'|'[^']*'/g;
+      var timezone = /\b(?:[PMCEA][SDP]T|(?:Pacific|Mountain|Central|Eastern|Atlantic) (?:Standard|Daylight|Prevailing) Time|(?:GMT|UTC)(?:[-+]\d{4})?)\b/g;
+      var timezoneClip = /[^-+\dA-Z]/g;
+  
+      // Regexes and supporting functions are cached through closure
+      return function (date, mask, utc, gmt) {
+  
+        // You can't provide utc if you skip other args (use the 'UTC:' mask prefix)
+        if (arguments.length === 1 && kindOf(date) === 'string' && !/\d/.test(date)) {
+          mask = date;
+          date = undefined;
+        }
+  
+        date = date || new Date;
+  
+        if(!(date instanceof Date)) {
+          date = new Date(date);
+        }
+  
+        if (isNaN(date)) {
+          throw TypeError('Invalid date');
+        }
+  
+        mask = String(dateFormat.masks[mask] || mask || dateFormat.masks['default']);
+  
+        // Allow setting the utc/gmt argument via the mask
+        var maskSlice = mask.slice(0, 4);
+        if (maskSlice === 'UTC:' || maskSlice === 'GMT:') {
+          mask = mask.slice(4);
+          utc = true;
+          if (maskSlice === 'GMT:') {
+            gmt = true;
+          }
+        }
+  
+        var _ = utc ? 'getUTC' : 'get';
+        var d = date[_ + 'Date']();
+        var D = date[_ + 'Day']();
+        var m = date[_ + 'Month']();
+        var y = date[_ + 'FullYear']();
+        var H = date[_ + 'Hours']();
+        var M = date[_ + 'Minutes']();
+        var s = date[_ + 'Seconds']();
+        var L = date[_ + 'Milliseconds']();
+        var o = utc ? 0 : date.getTimezoneOffset();
+        var W = getWeek(date);
+        var N = getDayOfWeek(date);
+        var flags = {
+          d:    d,
+          dd:   pad(d),
+          ddd:  dateFormat.i18n.dayNames[D],
+          dddd: dateFormat.i18n.dayNames[D + 7],
+          m:    m + 1,
+          mm:   pad(m + 1),
+          mmm:  dateFormat.i18n.monthNames[m],
+          mmmm: dateFormat.i18n.monthNames[m + 12],
+          yy:   String(y).slice(2),
+          yyyy: y,
+          h:    H % 12 || 12,
+          hh:   pad(H % 12 || 12),
+          H:    H,
+          HH:   pad(H),
+          M:    M,
+          MM:   pad(M),
+          s:    s,
+          ss:   pad(s),
+          l:    pad(L, 3),
+          L:    pad(Math.round(L / 10)),
+          t:    H < 12 ? 'a'  : 'p',
+          tt:   H < 12 ? 'am' : 'pm',
+          T:    H < 12 ? 'A'  : 'P',
+          TT:   H < 12 ? 'AM' : 'PM',
+          Z:    gmt ? 'GMT' : utc ? 'UTC' : (String(date).match(timezone) || ['']).pop().replace(timezoneClip, ''),
+          o:    (o > 0 ? '-' : '+') + pad(Math.floor(Math.abs(o) / 60) * 100 + Math.abs(o) % 60, 4),
+          S:    ['th', 'st', 'nd', 'rd'][d % 10 > 3 ? 0 : (d % 100 - d % 10 != 10) * d % 10],
+          W:    W,
+          N:    N
+        };
+  
+        return mask.replace(token, function (match) {
+          if (match in flags) {
+            return flags[match];
+          }
+          return match.slice(1, match.length - 1);
+        });
+      };
+    })();
+
+  dateFormat.masks = {
+    'default':               'ddd mmm dd yyyy HH:MM:ss',
+    'shortDate':             'm/d/yy',
+    'mediumDate':            'mmm d, yyyy',
+    'longDate':              'mmmm d, yyyy',
+    'fullDate':              'dddd, mmmm d, yyyy',
+    'shortTime':             'h:MM TT',
+    'mediumTime':            'h:MM:ss TT',
+    'longTime':              'h:MM:ss TT Z',
+    'isoDate':               'yyyy-mm-dd',
+    'isoTime':               'HH:MM:ss',
+    'isoDateTime':           'yyyy-mm-dd\'T\'HH:MM:sso',
+    'isoUtcDateTime':        'UTC:yyyy-mm-dd\'T\'HH:MM:ss\'Z\'',
+    'expiresHeaderFormat':   'ddd, dd mmm yyyy HH:MM:ss Z'
+  };
+
+  // Internationalization strings
+  dateFormat.i18n = {
+    dayNames: [
+      'Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat',
+      'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'
+    ],
+    monthNames: [
+      'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec',
+      'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'
+    ]
+  };
+
+function pad(val, len) {
+  val = String(val);
+  len = len || 2;
+  while (val.length < len) {
+    val = '0' + val;
+  }
+  return val;
+}
+
+/**
+ * Get the ISO 8601 week number
+ * Based on comments from
+ * http://techblog.procurios.nl/k/n618/news/view/33796/14863/Calculate-ISO-8601-week-and-year-in-javascript.html
+ *
+ * @param  {Object} `date`
+ * @return {Number}
+ */
+function getWeek(date) {
+  // Remove time components of date
+  var targetThursday = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+
+  // Change date to Thursday same week
+  targetThursday.setDate(targetThursday.getDate() - ((targetThursday.getDay() + 6) % 7) + 3);
+
+  // Take January 4th as it is always in week 1 (see ISO 8601)
+  var firstThursday = new Date(targetThursday.getFullYear(), 0, 4);
+
+  // Change date to Thursday same week
+  firstThursday.setDate(firstThursday.getDate() - ((firstThursday.getDay() + 6) % 7) + 3);
+
+  // Check if daylight-saving-time-switch occured and correct for it
+  var ds = targetThursday.getTimezoneOffset() - firstThursday.getTimezoneOffset();
+  targetThursday.setHours(targetThursday.getHours() - ds);
+
+  // Number of weeks between target Thursday and first Thursday
+  var weekDiff = (targetThursday - firstThursday) / (86400000*7);
+  return 1 + Math.floor(weekDiff);
+}
+
+/**
+ * Get ISO-8601 numeric representation of the day of the week
+ * 1 (for Monday) through 7 (for Sunday)
+ * 
+ * @param  {Object} `date`
+ * @return {Number}
+ */
+function getDayOfWeek(date) {
+  var dow = date.getDay();
+  if(dow === 0) {
+    dow = 7;
+  }
+  return dow;
+}
+
+/**
+ * kind-of shortcut
+ * @param  {*} val
+ * @return {String}
+ */
+function kindOf(val) {
+  if (val === null) {
+    return 'null';
+  }
+
+  if (val === undefined) {
+    return 'undefined';
+  }
+
+  if (typeof val !== 'object') {
+    return typeof val;
+  }
+
+  if (Array.isArray(val)) {
+    return 'array';
+  }
+
+  return {}.toString.call(val)
+    .slice(8, -1).toLowerCase();
+};
+
+
+
+  if (true) {
+    !(__WEBPACK_AMD_DEFINE_RESULT__ = (function () {
+      return dateFormat;
+    }).call(exports, __webpack_require__, exports, module),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else {}
+})(this);
+
+
+/***/ }),
+
+/***/ "wFFe":
+/*!**************************************************************************!*\
+  !*** ./integrations/facebook-pixel/node_modules/js-sha256/src/sha256.js ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(process, global) {var __WEBPACK_AMD_DEFINE_RESULT__;/**
+ * [js-sha256]{@link https://github.com/emn178/js-sha256}
+ *
+ * @version 0.9.0
+ * @author Chen, Yi-Cyuan [emn178@gmail.com]
+ * @copyright Chen, Yi-Cyuan 2014-2017
+ * @license MIT
+ */
+/*jslint bitwise: true */
+(function () {
+  'use strict';
+
+  var ERROR = 'input is invalid type';
+  var WINDOW = typeof window === 'object';
+  var root = WINDOW ? window : {};
+  if (root.JS_SHA256_NO_WINDOW) {
+    WINDOW = false;
+  }
+  var WEB_WORKER = !WINDOW && typeof self === 'object';
+  var NODE_JS = !root.JS_SHA256_NO_NODE_JS && typeof process === 'object' && process.versions && process.versions.node;
+  if (NODE_JS) {
+    root = global;
+  } else if (WEB_WORKER) {
+    root = self;
+  }
+  var COMMON_JS = !root.JS_SHA256_NO_COMMON_JS && typeof module === 'object' && module.exports;
+  var AMD =  true && __webpack_require__(/*! !webpack amd options */ "PDX0");
+  var ARRAY_BUFFER = !root.JS_SHA256_NO_ARRAY_BUFFER && typeof ArrayBuffer !== 'undefined';
+  var HEX_CHARS = '0123456789abcdef'.split('');
+  var EXTRA = [-2147483648, 8388608, 32768, 128];
+  var SHIFT = [24, 16, 8, 0];
+  var K = [
+    0x428a2f98, 0x71374491, 0xb5c0fbcf, 0xe9b5dba5, 0x3956c25b, 0x59f111f1, 0x923f82a4, 0xab1c5ed5,
+    0xd807aa98, 0x12835b01, 0x243185be, 0x550c7dc3, 0x72be5d74, 0x80deb1fe, 0x9bdc06a7, 0xc19bf174,
+    0xe49b69c1, 0xefbe4786, 0x0fc19dc6, 0x240ca1cc, 0x2de92c6f, 0x4a7484aa, 0x5cb0a9dc, 0x76f988da,
+    0x983e5152, 0xa831c66d, 0xb00327c8, 0xbf597fc7, 0xc6e00bf3, 0xd5a79147, 0x06ca6351, 0x14292967,
+    0x27b70a85, 0x2e1b2138, 0x4d2c6dfc, 0x53380d13, 0x650a7354, 0x766a0abb, 0x81c2c92e, 0x92722c85,
+    0xa2bfe8a1, 0xa81a664b, 0xc24b8b70, 0xc76c51a3, 0xd192e819, 0xd6990624, 0xf40e3585, 0x106aa070,
+    0x19a4c116, 0x1e376c08, 0x2748774c, 0x34b0bcb5, 0x391c0cb3, 0x4ed8aa4a, 0x5b9cca4f, 0x682e6ff3,
+    0x748f82ee, 0x78a5636f, 0x84c87814, 0x8cc70208, 0x90befffa, 0xa4506ceb, 0xbef9a3f7, 0xc67178f2
+  ];
+  var OUTPUT_TYPES = ['hex', 'array', 'digest', 'arrayBuffer'];
+
+  var blocks = [];
+
+  if (root.JS_SHA256_NO_NODE_JS || !Array.isArray) {
+    Array.isArray = function (obj) {
+      return Object.prototype.toString.call(obj) === '[object Array]';
+    };
+  }
+
+  if (ARRAY_BUFFER && (root.JS_SHA256_NO_ARRAY_BUFFER_IS_VIEW || !ArrayBuffer.isView)) {
+    ArrayBuffer.isView = function (obj) {
+      return typeof obj === 'object' && obj.buffer && obj.buffer.constructor === ArrayBuffer;
+    };
+  }
+
+  var createOutputMethod = function (outputType, is224) {
+    return function (message) {
+      return new Sha256(is224, true).update(message)[outputType]();
+    };
+  };
+
+  var createMethod = function (is224) {
+    var method = createOutputMethod('hex', is224);
+    if (NODE_JS) {
+      method = nodeWrap(method, is224);
+    }
+    method.create = function () {
+      return new Sha256(is224);
+    };
+    method.update = function (message) {
+      return method.create().update(message);
+    };
+    for (var i = 0; i < OUTPUT_TYPES.length; ++i) {
+      var type = OUTPUT_TYPES[i];
+      method[type] = createOutputMethod(type, is224);
+    }
+    return method;
+  };
+
+  var nodeWrap = function (method, is224) {
+    var crypto = eval("require('crypto')");
+    var Buffer = eval("require('buffer').Buffer");
+    var algorithm = is224 ? 'sha224' : 'sha256';
+    var nodeMethod = function (message) {
+      if (typeof message === 'string') {
+        return crypto.createHash(algorithm).update(message, 'utf8').digest('hex');
+      } else {
+        if (message === null || message === undefined) {
+          throw new Error(ERROR);
+        } else if (message.constructor === ArrayBuffer) {
+          message = new Uint8Array(message);
+        }
+      }
+      if (Array.isArray(message) || ArrayBuffer.isView(message) ||
+        message.constructor === Buffer) {
+        return crypto.createHash(algorithm).update(new Buffer(message)).digest('hex');
+      } else {
+        return method(message);
+      }
+    };
+    return nodeMethod;
+  };
+
+  var createHmacOutputMethod = function (outputType, is224) {
+    return function (key, message) {
+      return new HmacSha256(key, is224, true).update(message)[outputType]();
+    };
+  };
+
+  var createHmacMethod = function (is224) {
+    var method = createHmacOutputMethod('hex', is224);
+    method.create = function (key) {
+      return new HmacSha256(key, is224);
+    };
+    method.update = function (key, message) {
+      return method.create(key).update(message);
+    };
+    for (var i = 0; i < OUTPUT_TYPES.length; ++i) {
+      var type = OUTPUT_TYPES[i];
+      method[type] = createHmacOutputMethod(type, is224);
+    }
+    return method;
+  };
+
+  function Sha256(is224, sharedMemory) {
+    if (sharedMemory) {
+      blocks[0] = blocks[16] = blocks[1] = blocks[2] = blocks[3] =
+        blocks[4] = blocks[5] = blocks[6] = blocks[7] =
+        blocks[8] = blocks[9] = blocks[10] = blocks[11] =
+        blocks[12] = blocks[13] = blocks[14] = blocks[15] = 0;
+      this.blocks = blocks;
+    } else {
+      this.blocks = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    }
+
+    if (is224) {
+      this.h0 = 0xc1059ed8;
+      this.h1 = 0x367cd507;
+      this.h2 = 0x3070dd17;
+      this.h3 = 0xf70e5939;
+      this.h4 = 0xffc00b31;
+      this.h5 = 0x68581511;
+      this.h6 = 0x64f98fa7;
+      this.h7 = 0xbefa4fa4;
+    } else { // 256
+      this.h0 = 0x6a09e667;
+      this.h1 = 0xbb67ae85;
+      this.h2 = 0x3c6ef372;
+      this.h3 = 0xa54ff53a;
+      this.h4 = 0x510e527f;
+      this.h5 = 0x9b05688c;
+      this.h6 = 0x1f83d9ab;
+      this.h7 = 0x5be0cd19;
+    }
+
+    this.block = this.start = this.bytes = this.hBytes = 0;
+    this.finalized = this.hashed = false;
+    this.first = true;
+    this.is224 = is224;
+  }
+
+  Sha256.prototype.update = function (message) {
+    if (this.finalized) {
+      return;
+    }
+    var notString, type = typeof message;
+    if (type !== 'string') {
+      if (type === 'object') {
+        if (message === null) {
+          throw new Error(ERROR);
+        } else if (ARRAY_BUFFER && message.constructor === ArrayBuffer) {
+          message = new Uint8Array(message);
+        } else if (!Array.isArray(message)) {
+          if (!ARRAY_BUFFER || !ArrayBuffer.isView(message)) {
+            throw new Error(ERROR);
+          }
+        }
+      } else {
+        throw new Error(ERROR);
+      }
+      notString = true;
+    }
+    var code, index = 0, i, length = message.length, blocks = this.blocks;
+
+    while (index < length) {
+      if (this.hashed) {
+        this.hashed = false;
+        blocks[0] = this.block;
+        blocks[16] = blocks[1] = blocks[2] = blocks[3] =
+          blocks[4] = blocks[5] = blocks[6] = blocks[7] =
+          blocks[8] = blocks[9] = blocks[10] = blocks[11] =
+          blocks[12] = blocks[13] = blocks[14] = blocks[15] = 0;
+      }
+
+      if (notString) {
+        for (i = this.start; index < length && i < 64; ++index) {
+          blocks[i >> 2] |= message[index] << SHIFT[i++ & 3];
+        }
+      } else {
+        for (i = this.start; index < length && i < 64; ++index) {
+          code = message.charCodeAt(index);
+          if (code < 0x80) {
+            blocks[i >> 2] |= code << SHIFT[i++ & 3];
+          } else if (code < 0x800) {
+            blocks[i >> 2] |= (0xc0 | (code >> 6)) << SHIFT[i++ & 3];
+            blocks[i >> 2] |= (0x80 | (code & 0x3f)) << SHIFT[i++ & 3];
+          } else if (code < 0xd800 || code >= 0xe000) {
+            blocks[i >> 2] |= (0xe0 | (code >> 12)) << SHIFT[i++ & 3];
+            blocks[i >> 2] |= (0x80 | ((code >> 6) & 0x3f)) << SHIFT[i++ & 3];
+            blocks[i >> 2] |= (0x80 | (code & 0x3f)) << SHIFT[i++ & 3];
+          } else {
+            code = 0x10000 + (((code & 0x3ff) << 10) | (message.charCodeAt(++index) & 0x3ff));
+            blocks[i >> 2] |= (0xf0 | (code >> 18)) << SHIFT[i++ & 3];
+            blocks[i >> 2] |= (0x80 | ((code >> 12) & 0x3f)) << SHIFT[i++ & 3];
+            blocks[i >> 2] |= (0x80 | ((code >> 6) & 0x3f)) << SHIFT[i++ & 3];
+            blocks[i >> 2] |= (0x80 | (code & 0x3f)) << SHIFT[i++ & 3];
+          }
+        }
+      }
+
+      this.lastByteIndex = i;
+      this.bytes += i - this.start;
+      if (i >= 64) {
+        this.block = blocks[16];
+        this.start = i - 64;
+        this.hash();
+        this.hashed = true;
+      } else {
+        this.start = i;
+      }
+    }
+    if (this.bytes > 4294967295) {
+      this.hBytes += this.bytes / 4294967296 << 0;
+      this.bytes = this.bytes % 4294967296;
+    }
+    return this;
+  };
+
+  Sha256.prototype.finalize = function () {
+    if (this.finalized) {
+      return;
+    }
+    this.finalized = true;
+    var blocks = this.blocks, i = this.lastByteIndex;
+    blocks[16] = this.block;
+    blocks[i >> 2] |= EXTRA[i & 3];
+    this.block = blocks[16];
+    if (i >= 56) {
+      if (!this.hashed) {
+        this.hash();
+      }
+      blocks[0] = this.block;
+      blocks[16] = blocks[1] = blocks[2] = blocks[3] =
+        blocks[4] = blocks[5] = blocks[6] = blocks[7] =
+        blocks[8] = blocks[9] = blocks[10] = blocks[11] =
+        blocks[12] = blocks[13] = blocks[14] = blocks[15] = 0;
+    }
+    blocks[14] = this.hBytes << 3 | this.bytes >>> 29;
+    blocks[15] = this.bytes << 3;
+    this.hash();
+  };
+
+  Sha256.prototype.hash = function () {
+    var a = this.h0, b = this.h1, c = this.h2, d = this.h3, e = this.h4, f = this.h5, g = this.h6,
+      h = this.h7, blocks = this.blocks, j, s0, s1, maj, t1, t2, ch, ab, da, cd, bc;
+
+    for (j = 16; j < 64; ++j) {
+      // rightrotate
+      t1 = blocks[j - 15];
+      s0 = ((t1 >>> 7) | (t1 << 25)) ^ ((t1 >>> 18) | (t1 << 14)) ^ (t1 >>> 3);
+      t1 = blocks[j - 2];
+      s1 = ((t1 >>> 17) | (t1 << 15)) ^ ((t1 >>> 19) | (t1 << 13)) ^ (t1 >>> 10);
+      blocks[j] = blocks[j - 16] + s0 + blocks[j - 7] + s1 << 0;
+    }
+
+    bc = b & c;
+    for (j = 0; j < 64; j += 4) {
+      if (this.first) {
+        if (this.is224) {
+          ab = 300032;
+          t1 = blocks[0] - 1413257819;
+          h = t1 - 150054599 << 0;
+          d = t1 + 24177077 << 0;
+        } else {
+          ab = 704751109;
+          t1 = blocks[0] - 210244248;
+          h = t1 - 1521486534 << 0;
+          d = t1 + 143694565 << 0;
+        }
+        this.first = false;
+      } else {
+        s0 = ((a >>> 2) | (a << 30)) ^ ((a >>> 13) | (a << 19)) ^ ((a >>> 22) | (a << 10));
+        s1 = ((e >>> 6) | (e << 26)) ^ ((e >>> 11) | (e << 21)) ^ ((e >>> 25) | (e << 7));
+        ab = a & b;
+        maj = ab ^ (a & c) ^ bc;
+        ch = (e & f) ^ (~e & g);
+        t1 = h + s1 + ch + K[j] + blocks[j];
+        t2 = s0 + maj;
+        h = d + t1 << 0;
+        d = t1 + t2 << 0;
+      }
+      s0 = ((d >>> 2) | (d << 30)) ^ ((d >>> 13) | (d << 19)) ^ ((d >>> 22) | (d << 10));
+      s1 = ((h >>> 6) | (h << 26)) ^ ((h >>> 11) | (h << 21)) ^ ((h >>> 25) | (h << 7));
+      da = d & a;
+      maj = da ^ (d & b) ^ ab;
+      ch = (h & e) ^ (~h & f);
+      t1 = g + s1 + ch + K[j + 1] + blocks[j + 1];
+      t2 = s0 + maj;
+      g = c + t1 << 0;
+      c = t1 + t2 << 0;
+      s0 = ((c >>> 2) | (c << 30)) ^ ((c >>> 13) | (c << 19)) ^ ((c >>> 22) | (c << 10));
+      s1 = ((g >>> 6) | (g << 26)) ^ ((g >>> 11) | (g << 21)) ^ ((g >>> 25) | (g << 7));
+      cd = c & d;
+      maj = cd ^ (c & a) ^ da;
+      ch = (g & h) ^ (~g & e);
+      t1 = f + s1 + ch + K[j + 2] + blocks[j + 2];
+      t2 = s0 + maj;
+      f = b + t1 << 0;
+      b = t1 + t2 << 0;
+      s0 = ((b >>> 2) | (b << 30)) ^ ((b >>> 13) | (b << 19)) ^ ((b >>> 22) | (b << 10));
+      s1 = ((f >>> 6) | (f << 26)) ^ ((f >>> 11) | (f << 21)) ^ ((f >>> 25) | (f << 7));
+      bc = b & c;
+      maj = bc ^ (b & d) ^ cd;
+      ch = (f & g) ^ (~f & h);
+      t1 = e + s1 + ch + K[j + 3] + blocks[j + 3];
+      t2 = s0 + maj;
+      e = a + t1 << 0;
+      a = t1 + t2 << 0;
+    }
+
+    this.h0 = this.h0 + a << 0;
+    this.h1 = this.h1 + b << 0;
+    this.h2 = this.h2 + c << 0;
+    this.h3 = this.h3 + d << 0;
+    this.h4 = this.h4 + e << 0;
+    this.h5 = this.h5 + f << 0;
+    this.h6 = this.h6 + g << 0;
+    this.h7 = this.h7 + h << 0;
+  };
+
+  Sha256.prototype.hex = function () {
+    this.finalize();
+
+    var h0 = this.h0, h1 = this.h1, h2 = this.h2, h3 = this.h3, h4 = this.h4, h5 = this.h5,
+      h6 = this.h6, h7 = this.h7;
+
+    var hex = HEX_CHARS[(h0 >> 28) & 0x0F] + HEX_CHARS[(h0 >> 24) & 0x0F] +
+      HEX_CHARS[(h0 >> 20) & 0x0F] + HEX_CHARS[(h0 >> 16) & 0x0F] +
+      HEX_CHARS[(h0 >> 12) & 0x0F] + HEX_CHARS[(h0 >> 8) & 0x0F] +
+      HEX_CHARS[(h0 >> 4) & 0x0F] + HEX_CHARS[h0 & 0x0F] +
+      HEX_CHARS[(h1 >> 28) & 0x0F] + HEX_CHARS[(h1 >> 24) & 0x0F] +
+      HEX_CHARS[(h1 >> 20) & 0x0F] + HEX_CHARS[(h1 >> 16) & 0x0F] +
+      HEX_CHARS[(h1 >> 12) & 0x0F] + HEX_CHARS[(h1 >> 8) & 0x0F] +
+      HEX_CHARS[(h1 >> 4) & 0x0F] + HEX_CHARS[h1 & 0x0F] +
+      HEX_CHARS[(h2 >> 28) & 0x0F] + HEX_CHARS[(h2 >> 24) & 0x0F] +
+      HEX_CHARS[(h2 >> 20) & 0x0F] + HEX_CHARS[(h2 >> 16) & 0x0F] +
+      HEX_CHARS[(h2 >> 12) & 0x0F] + HEX_CHARS[(h2 >> 8) & 0x0F] +
+      HEX_CHARS[(h2 >> 4) & 0x0F] + HEX_CHARS[h2 & 0x0F] +
+      HEX_CHARS[(h3 >> 28) & 0x0F] + HEX_CHARS[(h3 >> 24) & 0x0F] +
+      HEX_CHARS[(h3 >> 20) & 0x0F] + HEX_CHARS[(h3 >> 16) & 0x0F] +
+      HEX_CHARS[(h3 >> 12) & 0x0F] + HEX_CHARS[(h3 >> 8) & 0x0F] +
+      HEX_CHARS[(h3 >> 4) & 0x0F] + HEX_CHARS[h3 & 0x0F] +
+      HEX_CHARS[(h4 >> 28) & 0x0F] + HEX_CHARS[(h4 >> 24) & 0x0F] +
+      HEX_CHARS[(h4 >> 20) & 0x0F] + HEX_CHARS[(h4 >> 16) & 0x0F] +
+      HEX_CHARS[(h4 >> 12) & 0x0F] + HEX_CHARS[(h4 >> 8) & 0x0F] +
+      HEX_CHARS[(h4 >> 4) & 0x0F] + HEX_CHARS[h4 & 0x0F] +
+      HEX_CHARS[(h5 >> 28) & 0x0F] + HEX_CHARS[(h5 >> 24) & 0x0F] +
+      HEX_CHARS[(h5 >> 20) & 0x0F] + HEX_CHARS[(h5 >> 16) & 0x0F] +
+      HEX_CHARS[(h5 >> 12) & 0x0F] + HEX_CHARS[(h5 >> 8) & 0x0F] +
+      HEX_CHARS[(h5 >> 4) & 0x0F] + HEX_CHARS[h5 & 0x0F] +
+      HEX_CHARS[(h6 >> 28) & 0x0F] + HEX_CHARS[(h6 >> 24) & 0x0F] +
+      HEX_CHARS[(h6 >> 20) & 0x0F] + HEX_CHARS[(h6 >> 16) & 0x0F] +
+      HEX_CHARS[(h6 >> 12) & 0x0F] + HEX_CHARS[(h6 >> 8) & 0x0F] +
+      HEX_CHARS[(h6 >> 4) & 0x0F] + HEX_CHARS[h6 & 0x0F];
+    if (!this.is224) {
+      hex += HEX_CHARS[(h7 >> 28) & 0x0F] + HEX_CHARS[(h7 >> 24) & 0x0F] +
+        HEX_CHARS[(h7 >> 20) & 0x0F] + HEX_CHARS[(h7 >> 16) & 0x0F] +
+        HEX_CHARS[(h7 >> 12) & 0x0F] + HEX_CHARS[(h7 >> 8) & 0x0F] +
+        HEX_CHARS[(h7 >> 4) & 0x0F] + HEX_CHARS[h7 & 0x0F];
+    }
+    return hex;
+  };
+
+  Sha256.prototype.toString = Sha256.prototype.hex;
+
+  Sha256.prototype.digest = function () {
+    this.finalize();
+
+    var h0 = this.h0, h1 = this.h1, h2 = this.h2, h3 = this.h3, h4 = this.h4, h5 = this.h5,
+      h6 = this.h6, h7 = this.h7;
+
+    var arr = [
+      (h0 >> 24) & 0xFF, (h0 >> 16) & 0xFF, (h0 >> 8) & 0xFF, h0 & 0xFF,
+      (h1 >> 24) & 0xFF, (h1 >> 16) & 0xFF, (h1 >> 8) & 0xFF, h1 & 0xFF,
+      (h2 >> 24) & 0xFF, (h2 >> 16) & 0xFF, (h2 >> 8) & 0xFF, h2 & 0xFF,
+      (h3 >> 24) & 0xFF, (h3 >> 16) & 0xFF, (h3 >> 8) & 0xFF, h3 & 0xFF,
+      (h4 >> 24) & 0xFF, (h4 >> 16) & 0xFF, (h4 >> 8) & 0xFF, h4 & 0xFF,
+      (h5 >> 24) & 0xFF, (h5 >> 16) & 0xFF, (h5 >> 8) & 0xFF, h5 & 0xFF,
+      (h6 >> 24) & 0xFF, (h6 >> 16) & 0xFF, (h6 >> 8) & 0xFF, h6 & 0xFF
+    ];
+    if (!this.is224) {
+      arr.push((h7 >> 24) & 0xFF, (h7 >> 16) & 0xFF, (h7 >> 8) & 0xFF, h7 & 0xFF);
+    }
+    return arr;
+  };
+
+  Sha256.prototype.array = Sha256.prototype.digest;
+
+  Sha256.prototype.arrayBuffer = function () {
+    this.finalize();
+
+    var buffer = new ArrayBuffer(this.is224 ? 28 : 32);
+    var dataView = new DataView(buffer);
+    dataView.setUint32(0, this.h0);
+    dataView.setUint32(4, this.h1);
+    dataView.setUint32(8, this.h2);
+    dataView.setUint32(12, this.h3);
+    dataView.setUint32(16, this.h4);
+    dataView.setUint32(20, this.h5);
+    dataView.setUint32(24, this.h6);
+    if (!this.is224) {
+      dataView.setUint32(28, this.h7);
+    }
+    return buffer;
+  };
+
+  function HmacSha256(key, is224, sharedMemory) {
+    var i, type = typeof key;
+    if (type === 'string') {
+      var bytes = [], length = key.length, index = 0, code;
+      for (i = 0; i < length; ++i) {
+        code = key.charCodeAt(i);
+        if (code < 0x80) {
+          bytes[index++] = code;
+        } else if (code < 0x800) {
+          bytes[index++] = (0xc0 | (code >> 6));
+          bytes[index++] = (0x80 | (code & 0x3f));
+        } else if (code < 0xd800 || code >= 0xe000) {
+          bytes[index++] = (0xe0 | (code >> 12));
+          bytes[index++] = (0x80 | ((code >> 6) & 0x3f));
+          bytes[index++] = (0x80 | (code & 0x3f));
+        } else {
+          code = 0x10000 + (((code & 0x3ff) << 10) | (key.charCodeAt(++i) & 0x3ff));
+          bytes[index++] = (0xf0 | (code >> 18));
+          bytes[index++] = (0x80 | ((code >> 12) & 0x3f));
+          bytes[index++] = (0x80 | ((code >> 6) & 0x3f));
+          bytes[index++] = (0x80 | (code & 0x3f));
+        }
+      }
+      key = bytes;
+    } else {
+      if (type === 'object') {
+        if (key === null) {
+          throw new Error(ERROR);
+        } else if (ARRAY_BUFFER && key.constructor === ArrayBuffer) {
+          key = new Uint8Array(key);
+        } else if (!Array.isArray(key)) {
+          if (!ARRAY_BUFFER || !ArrayBuffer.isView(key)) {
+            throw new Error(ERROR);
+          }
+        }
+      } else {
+        throw new Error(ERROR);
+      }
+    }
+
+    if (key.length > 64) {
+      key = (new Sha256(is224, true)).update(key).array();
+    }
+
+    var oKeyPad = [], iKeyPad = [];
+    for (i = 0; i < 64; ++i) {
+      var b = key[i] || 0;
+      oKeyPad[i] = 0x5c ^ b;
+      iKeyPad[i] = 0x36 ^ b;
+    }
+
+    Sha256.call(this, is224, sharedMemory);
+
+    this.update(iKeyPad);
+    this.oKeyPad = oKeyPad;
+    this.inner = true;
+    this.sharedMemory = sharedMemory;
+  }
+  HmacSha256.prototype = new Sha256();
+
+  HmacSha256.prototype.finalize = function () {
+    Sha256.prototype.finalize.call(this);
+    if (this.inner) {
+      this.inner = false;
+      var innerHash = this.array();
+      Sha256.call(this, this.is224, this.sharedMemory);
+      this.update(this.oKeyPad);
+      this.update(innerHash);
+      Sha256.prototype.finalize.call(this);
+    }
+  };
+
+  var exports = createMethod();
+  exports.sha256 = exports;
+  exports.sha224 = createMethod(true);
+  exports.sha256.hmac = createHmacMethod();
+  exports.sha224.hmac = createHmacMethod(true);
+
+  if (COMMON_JS) {
+    module.exports = exports;
+  } else {
+    root.sha256 = exports.sha256;
+    root.sha224 = exports.sha224;
+    if (AMD) {
+      !(__WEBPACK_AMD_DEFINE_RESULT__ = (function () {
+        return exports;
+      }).call(exports, __webpack_require__, exports, module),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+    }
+  }
+})();
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../node_modules/process/browser.js */ "8oxB"), __webpack_require__(/*! ./../../../../../node_modules/webpack/buildin/global.js */ "yLpj")))
+
+/***/ })
+
+/******/ });
+//# sourceMappingURL=facebook-pixel.js.map
+};

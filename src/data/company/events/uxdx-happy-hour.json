@@ -1,0 +1,94 @@
+{
+ "slug": "uxdx-happy-hour",
+ "path": "/events/uxdx-happy-hour/",
+ "title": "UXDX happy hour",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2026-05-13T16:30-04:00",
+ "endDate": "2026-05-13T19:30-04:00",
+ "onlineEvent": false,
+ "location": "Sir Henry's New York",
+ "hosts": [
+  "Dovetail team"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": null,
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Dovetail team"
+  },
+  {
+   "label": "[START]",
+   "value": "13 May 2026 1:30PM PDT"
+  },
+  {
+   "label": "[END]",
+   "value": "13 May 2026 4:30PM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Sir Henry's New York"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/uxdx-happy-hour.png",
+  "width": 1920,
+  "height": 1080,
+  "youtubeId": null
+ },
+ "body": [
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 71
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 178
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 211
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 63
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 61
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 26,
+   "links": [
+    {
+     "text": "Request a spot to join us.",
+     "href": "https://luma.com/l4x2xifk"
+    }
+   ]
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

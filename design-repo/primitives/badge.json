@@ -1,0 +1,15 @@
+{
+ "id": "badge",
+ "kind": "primitive",
+ "title": "Badge",
+ "variants": {
+  "default": "mono 12, 8% white bg, pad 4/6, radius 4"
+ },
+ "tokens": [
+  "badge.bg",
+  "badge.radius"
+ ],
+ "evidence": [
+  "CLONE_SPEC.md:231"
+ ]
+}

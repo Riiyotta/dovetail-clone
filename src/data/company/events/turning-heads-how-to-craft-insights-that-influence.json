@@ -1,0 +1,92 @@
+{
+ "slug": "turning-heads-how-to-craft-insights-that-influence",
+ "path": "/events/turning-heads-how-to-craft-insights-that-influence/",
+ "title": "Turning heads: how to craft insights that influence",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2023-11-29T00:00+11:00",
+ "endDate": null,
+ "onlineEvent": true,
+ "location": "Online",
+ "hosts": [
+  "Bret Scofield",
+  "Kaho Okuno",
+  "Noah Isibor"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": "7v0IKiEF5N4",
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Bret Scofield, Kaho Okuno, Noah Isibor"
+  },
+  {
+   "label": "[START]",
+   "value": "28 Nov 2023 5:00AM PST"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Online"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "video",
+  "image": "/assets/company/media/Frame_427321905.png",
+  "width": 3840,
+  "height": 2160,
+  "youtubeId": "7v0IKiEF5N4"
+ },
+ "body": [
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 254
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 139
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 61
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "text": "Craft a UX insight so it’s actionable—fast"
+    },
+    {
+     "placeholder": true,
+     "chars": 67
+    },
+    {
+     "placeholder": true,
+     "chars": 91
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 232
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

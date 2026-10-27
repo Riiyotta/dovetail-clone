@@ -1,0 +1,129 @@
+{
+ "id": "interactive.roi-calculator",
+ "title": "ROI calculator",
+ "semantic": {
+  "id": "interactive.roi-calculator",
+  "category": "INTERACTIVE"
+ },
+ "source": {
+  "id": "component:RoiCalculator:roi-left",
+  "file": "src/pages/tools/RoiCalculator.jsx",
+  "tag": "div",
+  "lines": "158-170",
+  "tagLine": 158,
+  "anchor": "roi-left",
+  "anchorLine": 158
+ },
+ "purpose": "Sliders and advanced inputs on the left, live computed results on the right.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "actions",
+    "lead"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 1,
+   "observedOn": [
+    "/roi-calculator/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions",
+   "lead"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 1
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 2,
+    "maxChars": 20,
+    "observedIn": 1
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 15,
+    "observedIn": 1
+   }
+  },
+  "listSizes": {
+   "actions": [
+    1,
+    1
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [
+  {
+   "part": "live result",
+   "behavior": "slider input recomputes the ROI figures client-side"
+  }
+ ],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 1,
+   "nodes": 1,
+   "minPx": 556,
+   "maxPx": 556,
+   "medianPx": 556,
+   "sample": {
+    "/roi-calculator/": [
+     556
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/tools/RoiCalculator.jsx:158-170",
+  "specs/roi-calculator.md:1-30"
+ ]
+}

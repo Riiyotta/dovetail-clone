@@ -1,0 +1,375 @@
+{
+ "slug": "suns-out-product-deep-dive",
+ "path": "/events/suns-out-product-deep-dive/",
+ "title": "Dovetail Sun’s Out: Product deep dive",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2026-08-10T14:00-07:00",
+ "endDate": "2026-08-10T14:50-07:00",
+ "onlineEvent": true,
+ "location": "Zoom",
+ "hosts": [
+  "Sascha Kerbert",
+  "Cheri March",
+  "Doug Rathbone"
+ ],
+ "registrationUrl": "https://dovetail.zoom.us/webinar/register/WN__CznwmmzR3ORwbRZbSEOvg",
+ "zoomWebinarId": null,
+ "youtubeId": null,
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Sascha Kerbert, Cheri March, Doug Rathbone"
+  },
+  {
+   "label": "[START]",
+   "value": "10 Aug 2026 2:00PM PDT"
+  },
+  {
+   "label": "[END]",
+   "value": "10 Aug 2026 2:50PM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Zoom"
+  },
+  {
+   "label": "[REGISTER]",
+   "value": "Register here",
+   "href": "https://dovetail.zoom.us/webinar/register/WN__CznwmmzR3ORwbRZbSEOvg",
+   "linkText": "Register here"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/suns-out-product-deep-dive.png",
+  "width": 1280,
+  "height": 800,
+  "youtubeId": null
+ },
+ "body": [
+  {
+   "t": "h2",
+   "text": "Go beyond the keynote"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 265
+  },
+  {
+   "t": "h2",
+   "text": "Register here"
+  },
+  {
+   "t": "h2",
+   "text": "What you’ll see"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 85,
+     "strong": [
+      "Digital Twins"
+     ]
+    },
+    {
+     "strong": [
+      "Dovetail Agents"
+     ],
+     "text": "Dovetail Agents—in action"
+    },
+    {
+     "strong": [
+      "Channels 2.0"
+     ],
+     "text": "Channels 2.0—and AI-powered product ideas"
+    },
+    {
+     "strong": [
+      "New MCP connectors and integrations"
+     ],
+     "text": "New MCP connectors and integrations"
+    },
+    {
+     "strong": [
+      "Enterprise governance and deployment features"
+     ],
+     "text": "Enterprise governance and deployment features"
+    },
+    {
+     "strong": [
+      "Live Q&A"
+     ],
+     "text": "Live Q&A—with the product team"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 142
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ],
+ "qa": {
+  "heading": "Q&A from the webinar",
+  "subtitle": "Questions asked live or submitted separately.",
+  "groups": [
+   {
+    "heading": "Agents and Digital Twins",
+    "items": [
+     {
+      "q": "What is a Digital Twin?",
+      "a": {
+       "placeholder": true,
+       "chars": 1120
+      },
+      "links": [
+       {
+        "text": "More in Digital twins",
+        "href": "https://docs.dovetail.com/help/agents/digital-twins"
+       }
+      ]
+     },
+     {
+      "q": "How is a Digital Twin different from a traditional persona?",
+      "a": {
+       "placeholder": true,
+       "chars": 849
+      }
+     },
+     {
+      "q": "Why use a Digital Twin instead of just asking Chat?",
+      "a": {
+       "placeholder": true,
+       "chars": 537
+      },
+      "links": [
+       {
+        "text": "More in Chat",
+        "href": "https://docs.dovetail.com/help/chat"
+       }
+      ]
+     },
+     {
+      "q": "What do teams actually use Digital Twins for?",
+      "a": {
+       "placeholder": true,
+       "chars": 932
+      },
+      "links": [
+       {
+        "text": "More in Digital Twin use cases",
+        "href": "https://docs.dovetail.com/help/agents-use-cases/digital-twins-experts"
+       }
+      ]
+     },
+     {
+      "q": "Do Digital Twins replace talking to customers?",
+      "a": {
+       "placeholder": true,
+       "chars": 572
+      }
+     },
+     {
+      "q": "How do I control which customer data a Digital Twin uses?",
+      "a": {
+       "placeholder": true,
+       "chars": 561
+      },
+      "links": [
+       {
+        "text": "More in Guide to writing instructions",
+        "href": "https://docs.dovetail.com/help/agents/agent-instructions"
+       }
+      ]
+     },
+     {
+      "q": "What can I configure on an Agent?",
+      "a": {
+       "placeholder": true,
+       "chars": 625
+      },
+      "links": [
+       {
+        "text": "More in Agents overview",
+        "href": "https://docs.dovetail.com/help/agents"
+       }
+      ]
+     },
+     {
+      "q": "How do I know a Digital Twin’s answers are trustworthy?",
+      "a": {
+       "placeholder": true,
+       "chars": 539
+      }
+     },
+     {
+      "q": "Can Digital Twins use quantitative data, or only qual?",
+      "a": {
+       "placeholder": true,
+       "chars": 760
+      }
+     }
+    ]
+   },
+   {
+    "heading": "Channels 2.0",
+    "items": [
+     {
+      "q": "What changed in Channels 2.0?",
+      "a": {
+       "placeholder": true,
+       "chars": 568
+      },
+      "links": [
+       {
+        "text": "More in Channels",
+        "href": "https://docs.dovetail.com/help/channels"
+       }
+      ]
+     },
+     {
+      "q": "How does Channels decide what matters most?",
+      "a": {
+       "placeholder": true,
+       "chars": 559
+      },
+      "links": [
+       {
+        "text": "More in Build a Channels strategy",
+        "href": "https://docs.dovetail.com/help/channels/build-channels-strategy"
+       }
+      ]
+     },
+     {
+      "q": "Can we trace an Idea back to what customers actually said?",
+      "a": {
+       "placeholder": true,
+       "chars": 553
+      }
+     },
+     {
+      "q": "Can we close the loop with customers after we ship?",
+      "a": {
+       "placeholder": true,
+       "chars": 493
+      }
+     },
+     {
+      "q": "Can Ideas flow into the tools where our team plans work?",
+      "a": {
+       "placeholder": true,
+       "chars": 533
+      }
+     }
+    ]
+   },
+   {
+    "heading": "Dovetail Ecosystem",
+    "items": [
+     {
+      "q": "Can Dovetail work with data that lives in other tools?",
+      "a": {
+       "placeholder": true,
+       "chars": 644
+      },
+      "links": [
+       {
+        "text": "More in Integrations",
+        "href": "https://docs.dovetail.com/integrations/home"
+       }
+      ]
+     },
+     {
+      "q": "Can an Agent take action in tools outside Dovetail?",
+      "a": {
+       "placeholder": true,
+       "chars": 563
+      }
+     },
+     {
+      "q": "Can we use Dovetail from inside Claude, ChatGPT or Copilot?",
+      "a": {
+       "placeholder": true,
+       "chars": 600
+      },
+      "links": [
+       {
+        "text": "More in MCP server",
+        "href": "https://docs.dovetail.com/integrations/mcp-server"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "Enterprise and governance",
+    "items": [
+     {
+      "q": "Who at Dovetail can see our workspace content?",
+      "a": {
+       "placeholder": true,
+       "chars": 427
+      },
+      "links": [
+       {
+        "text": "More in Security information",
+        "href": "https://docs.dovetail.com/help/security-information"
+       }
+      ]
+     },
+     {
+      "q": "Does our data train AI models?",
+      "a": {
+       "placeholder": true,
+       "chars": 461
+      },
+      "links": [
+       {
+        "text": "More in Dovetail AI",
+        "href": "https://docs.dovetail.com/help/dovetail-ai/overview"
+       }
+      ]
+     },
+     {
+      "q": "What security certifications does Dovetail hold?",
+      "a": {
+       "placeholder": true,
+       "chars": 517
+      },
+      "links": [
+       {
+        "text": "More in Trust Center",
+        "href": "https://trust.dovetail.com"
+       }
+      ]
+     },
+     {
+      "q": "Is Dovetail suitable for regulated industries?",
+      "a": {
+       "placeholder": true,
+       "chars": 453
+      }
+     }
+    ]
+   }
+  ]
+ }
+}

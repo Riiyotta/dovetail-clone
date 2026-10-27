@@ -1,0 +1,362 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T29",
+ "route": "/events/a-balancing-act-mastering-customer-feedback/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail clone (local)"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "event.header",
+   "variant": "default",
+   "content": {
+    "heading": "A balancing act: mastering customer feedback",
+    "actions": [
+     {
+      "label": "Back",
+      "href": "/events/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "event.details-sidebar",
+   "variant": "default",
+   "content": {
+    "lead": "[WHO] ANAHITA JAMSHIDI FARD, SARAH BURTON, TAMARA PAULIN, DR. FATIMA KAMALI"
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "event.description",
+   "variant": "default",
+   "content": {
+    "heading": "Join us for an engaging in-person panel discussion and mixer",
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/company/media/Expert_Panel_long.png"
+     }
+    ],
+    "body": [
+     {
+      "kind": "image",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/Expert_Panel_long.png"
+      }
+     },
+     {
+      "kind": "heading",
+      "text": "Join us for an engaging in-person panel discussion and mixer"
+     },
+     {
+      "kind": "paragraph",
+      "text": "This is a past event."
+     },
+     {
+      "kind": "paragraph",
+      "text": "​Schedule:"
+     },
+     {
+      "kind": "list-item",
+      "text": "​Small bites and networking | 5:00 - 6:00 pm"
+     },
+     {
+      "kind": "list-item",
+      "text": "​Panel | 6:00 - 6:45 pm"
+     },
+     {
+      "kind": "list-item",
+      "text": "​Q&A | 6:45 - 7:00 pm"
+     },
+     {
+      "kind": "list-item",
+      "text": "​Group photo and more social time | 7:00 - 7:30 pm"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Lorem sit adipiscing do incididunt et aliqua minim nostrud laboris. Ex consequat irure voluptate cillum pariatur occaecat proident qui mollit est ipsum amet."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt id lorem sit. Adipiscing do incididunt et aliqua minim nostrud laboris ex. Consequat irure voluptate cillum."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Anim laborum dolor consectetur sed tempor labore magna ad quis ullamco. Aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt. Id lorem sit."
+     },
+     {
+      "kind": "list-item",
+      "text": "Exercitation nisi ea duis in velit. Anahita Jamshidi Fard"
+     },
+     {
+      "kind": "list-item",
+      "text": "​Panelist: Tamara Paulin, Senior User Researcher at Canva"
+     },
+     {
+      "kind": "list-item",
+      "text": "Voluptate cillum pariatur occaecat proident qui mollit. Fatima Kamali, PhD"
+     },
+     {
+      "kind": "list-item",
+      "text": "​Panelist: Sarah Burton, Lead Product Designer at Dovetail"
+     },
+     {
+      "kind": "paragraph",
+      "text": "*Note that panelists' views are their own"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.event-cards",
+   "variant": "more-events",
+   "content": {
+    "items": [
+     {
+      "title": "How CS turns customer conversations into roadmap decisions",
+      "text": "[WHEN] 19 NOV 2026",
+      "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "dark",
+   "content": {
+    "heading": "The best never guess",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "#"
+     },
+     {
+      "label": "Start free trial",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-theright-salesforce.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestfarleft-aws.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestleft-canva.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestright-airwallex.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverright-notion.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverfarright-zapier.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessleft-wise.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessfarleft-breville.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

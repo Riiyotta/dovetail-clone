@@ -1,0 +1,251 @@
+{
+ "note": "typography tokens. Every value cites path:line in the clone project and the text that line contains (`match`); extraction/verify_all.py re-reads them.",
+ "tokens": {
+  "font.family.sans": {
+   "value": "Inter",
+   "category": "fontFamily",
+   "cite": "tailwind.config.js:41",
+   "match": "sans: ['Inter'",
+   "stack": "Inter, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, \"Segoe UI\", Roboto, sans-serif"
+  },
+  "font.family.mono": {
+   "value": "JetBrains Mono",
+   "category": "fontFamily",
+   "cite": "tailwind.config.js:42",
+   "match": "mono: ['\"JetBrains Mono\"'",
+   "stack": "\"JetBrains Mono\", \"SF Mono\", Consolas, Roboto, sans-serif"
+  },
+  "font.family.serif": {
+   "value": "PP Mondwest",
+   "category": "fontFamily",
+   "cite": "tailwind.config.js:43",
+   "match": "serif: ['\"PP Mondwest\"'",
+   "stack": "\"PP Mondwest\", Georgia, serif",
+   "licensing": "commercial display face (Pangram Pangram): reference reconstruction only; generated pages must use a licensed or OFL substitute"
+  },
+  "font.weight.400": {
+   "value": "400",
+   "category": "fontWeight",
+   "cite": "src/index.css:2",
+   "match": "font-family:Inter;font-weight:400"
+  },
+  "font.weight.500": {
+   "value": "500",
+   "category": "fontWeight",
+   "cite": "src/index.css:3",
+   "match": "font-family:Inter;font-weight:500"
+  },
+  "font.weight.600": {
+   "value": "600",
+   "category": "fontWeight",
+   "cite": "src/index.css:4",
+   "match": "font-family:Inter;font-weight:600"
+  },
+  "font.preset.h160": {
+   "value": "160px",
+   "category": "typography",
+   "cite": "specs/marketing-shared.md:102",
+   "match": "| H160 | 160/164 w600 ls -4 |",
+   "lineHeight": "164px",
+   "weight": "600",
+   "family": "font.family.sans"
+  },
+  "font.preset.h96": {
+   "value": "96px",
+   "category": "typography",
+   "cite": "specs/marketing-shared.md:103",
+   "match": "| H96 | 96/100 w600 ls -2 |",
+   "lineHeight": "100px",
+   "weight": "600",
+   "family": "font.family.sans"
+  },
+  "font.preset.h80": {
+   "value": "80px",
+   "category": "typography",
+   "cite": "specs/marketing-shared.md:104",
+   "match": "| H80 | 80/84 w600 ls -2 |",
+   "lineHeight": "84px",
+   "weight": "600",
+   "family": "font.family.sans"
+  },
+  "font.preset.h72": {
+   "value": "72px",
+   "category": "typography",
+   "cite": "specs/marketing-shared.md:105",
+   "match": "| H72 | 72/76 w600 ls -2 |",
+   "lineHeight": "76px",
+   "weight": "600",
+   "family": "font.family.sans"
+  },
+  "font.preset.h64": {
+   "value": "64px",
+   "category": "typography",
+   "cite": "specs/marketing-shared.md:106",
+   "match": "| H64 | 64/68 w600 ls -2 |",
+   "lineHeight": "68px",
+   "weight": "600",
+   "family": "font.family.sans"
+  },
+  "font.preset.h56": {
+   "value": "56px",
+   "category": "typography",
+   "cite": "specs/marketing-shared.md:107",
+   "match": "| H56 | 56/60 w600 ls -2 |",
+   "lineHeight": "60px",
+   "weight": "600",
+   "family": "font.family.sans"
+  },
+  "font.preset.h48": {
+   "value": "48px",
+   "category": "typography",
+   "cite": "specs/marketing-shared.md:108",
+   "match": "| H48 | 48/56 **w500** ls -1 |",
+   "lineHeight": "56px",
+   "weight": "500",
+   "family": "font.family.sans"
+  },
+  "font.preset.h40": {
+   "value": "40px",
+   "category": "typography",
+   "cite": "specs/marketing-shared.md:109",
+   "match": "| H40 | 40/48 w500 ls -1 |",
+   "lineHeight": "48px",
+   "weight": "500",
+   "family": "font.family.sans"
+  },
+  "font.preset.h32": {
+   "value": "32px",
+   "category": "typography",
+   "cite": "specs/marketing-shared.md:110",
+   "match": "| H32 | 32/40 w500 ls -0.5 |",
+   "lineHeight": "40px",
+   "weight": "500",
+   "family": "font.family.sans"
+  },
+  "font.preset.h24": {
+   "value": "24px",
+   "category": "typography",
+   "cite": "specs/marketing-shared.md:111",
+   "match": "| H24 | 24/32 w500 ls -0.5 |",
+   "lineHeight": "32px",
+   "weight": "500",
+   "family": "font.family.sans"
+  },
+  "font.preset.h20": {
+   "value": "20px",
+   "category": "typography",
+   "cite": "specs/marketing-shared.md:112",
+   "match": "| H20 | 20/28 w500 ls -0.25 |",
+   "lineHeight": "28px",
+   "weight": "500",
+   "family": "font.family.sans"
+  },
+  "font.preset.h18": {
+   "value": "18px",
+   "category": "typography",
+   "cite": "specs/marketing-shared.md:113",
+   "match": "| H18 | 18/24 w500 ls -0.25 |",
+   "lineHeight": "24px",
+   "weight": "500",
+   "family": "font.family.sans"
+  },
+  "font.preset.h16": {
+   "value": "16px",
+   "category": "typography",
+   "cite": "specs/marketing-shared.md:114",
+   "match": "| H16 | 16/24 w500 ls 0 |",
+   "lineHeight": "24px",
+   "weight": "500",
+   "family": "font.family.sans"
+  },
+  "font.preset.h14": {
+   "value": "14px",
+   "category": "typography",
+   "cite": "specs/marketing-shared.md:115",
+   "match": "| H14 | 14/18 w600 |",
+   "lineHeight": "18px",
+   "weight": "600",
+   "family": "font.family.sans"
+  },
+  "font.preset.p24": {
+   "value": "24px",
+   "category": "typography",
+   "cite": "specs/marketing-shared.md:116",
+   "match": "| P24 | 24/32 w400 ls -0.5 |",
+   "lineHeight": "32px",
+   "weight": "400",
+   "family": "font.family.sans"
+  },
+  "font.preset.p20": {
+   "value": "20px",
+   "category": "typography",
+   "cite": "specs/marketing-shared.md:117",
+   "match": "| P20 | 20/28 w400 |",
+   "lineHeight": "28px",
+   "weight": "400",
+   "family": "font.family.sans"
+  },
+  "font.preset.p18": {
+   "value": "18px",
+   "category": "typography",
+   "cite": "specs/marketing-shared.md:118",
+   "match": "| P18 | 18/24 w400 |",
+   "lineHeight": "24px",
+   "weight": "400",
+   "family": "font.family.sans"
+  },
+  "font.preset.p16": {
+   "value": "16px",
+   "category": "typography",
+   "cite": "specs/marketing-shared.md:119",
+   "match": "| P16 | 16/24 w400 |",
+   "lineHeight": "24px",
+   "weight": "400",
+   "family": "font.family.sans"
+  },
+  "font.preset.p14": {
+   "value": "14px",
+   "category": "typography",
+   "cite": "specs/marketing-shared.md:120",
+   "match": "| P14 | 14/22 w400 |",
+   "lineHeight": "22px",
+   "weight": "400",
+   "family": "font.family.sans"
+  },
+  "font.preset.m14": {
+   "value": "14px",
+   "category": "typography",
+   "cite": "specs/marketing-shared.md:121",
+   "match": "| M14 | mono 14 / 140% ls 1 uppercase |",
+   "lineHeight": "140%",
+   "weight": "400",
+   "family": "font.family.mono"
+  },
+  "font.preset.m12": {
+   "value": "12px",
+   "category": "typography",
+   "cite": "specs/marketing-shared.md:122",
+   "match": "| M12 | mono 12/12 ls 1 uppercase |",
+   "lineHeight": "12px",
+   "weight": "400",
+   "family": "font.family.mono"
+  },
+  "font.preset.hero-h1": {
+   "value": "160px",
+   "category": "typography",
+   "cite": "CLONE_SPEC.md:103",
+   "match": "| Hero H1 (Inter 600, #FAFAFA) | 160/140",
+   "lineHeight": "140px",
+   "weight": "600",
+   "family": "font.family.sans"
+  },
+  "font.preset.serif-accent": {
+   "value": "1.16em",
+   "category": "typography",
+   "cite": "specs/marketing-shared.md:124",
+   "match": "mondwestSize(n) = round(1.16 * n) px",
+   "weight": "400",
+   "family": "font.family.serif"
+  }
+ }
+}

@@ -1,0 +1,19 @@
+/* /b2bsaasy/ — specs/podcast.md */
+.pc-hero { position: relative; }
+.pc-hero__fade-top { height: 147px; }
+.pc-hero__fade-bottom { height: 120px; }
+.pc-grid { position: relative; z-index: 2; gap: 96px 32px; }
+@media (max-width: 1280px) { .pc-grid { gap: 64px 24px; } }
+.pc-intro { grid-column: 1 / -1; min-width: 0; }
+.pc-intro__h1 { margin: 32px 0; }
+.pc-intro__p { color: #FFFFFF; max-width: 614px; }
+
+/* Episode cards. The S5 wrapper ::after darkens the card on hover (200ms ease-in-out); no play tile. */
+.pc-card { position: relative; display: block; grid-column: span 4; min-width: 0; text-decoration: none; }
+.pc-card::after { content: ""; position: absolute; inset: 0; background: transparent; transition: background-color 200ms ease-in-out; pointer-events: none; }
+.pc-card:hover::after, .pc-card:focus-visible::after { background: rgba(0,0,0,.2); }
+.pc-card__media { display: block; aspect-ratio: 16 / 9; border: 1px solid rgb(49,49,49); border-radius: 4px; overflow: hidden; }
+.pc-card__media img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.pc-card__title { color: #FFFFFF; margin: 32px 0 24px; overflow-wrap: anywhere; }
+@media (max-width: 1280px) { .pc-card { grid-column: span 6; } }
+@media (max-width: 799px) { .pc-card { grid-column: 1 / -1; } }

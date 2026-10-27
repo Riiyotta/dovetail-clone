@@ -1,0 +1,256 @@
+{
+ "slug": "vital-voices",
+ "path": "/customers/vital-voices/",
+ "title": "Dovetail helps Vital Voices analyze global leadership stories 5x faster to secure donor funding",
+ "eyebrow": "CUSTOMER / VITAL VOICES",
+ "companyName": "Vital Voices",
+ "isAnonymous": false,
+ "industry": "Nonprofit",
+ "intro": {
+  "placeholder": true,
+  "chars": 325
+ },
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/Vital%20Voices.png",
+  "width": 624,
+  "height": 416,
+  "youtubeId": null,
+  "caption": [
+   "CRISTY B., DATA ENGINEER"
+  ]
+ },
+ "stats": [
+  {
+   "value": "5x",
+   "label": "faster analysis—reports that took weeks now take days"
+  },
+  {
+   "value": "10",
+   "label": "funder reports generated using Dovetail-backed evidence"
+  },
+  {
+   "value": "49,000+",
+   "label": "change-makers' voices centralized across 195 countries and territories"
+  }
+ ],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "Nations can’t move forward without women’s voices",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 344
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 372
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 354
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 89
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/vital-voices-festival.jpg",
+     "alt": "Women leaders gathered at the Vital Voices Annual Festival 2024.",
+     "w": 3872,
+     "h": 2581
+    }
+   ]
+  },
+  {
+   "heading": "A central intelligence layer for a global mission",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 197
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 491
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 237
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 161
+    }
+   ],
+   "pullQuotes": [
+    {
+     "quote": {
+      "placeholder": true,
+      "chars": 175
+     },
+     "name": "Cristy B.",
+     "role": "Data Engineer",
+     "avatar": null,
+     "href": "/customers/vital-voices/"
+    }
+   ]
+  },
+  {
+   "heading": "AI turns raw responses into decision-ready evidence",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 320
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 357
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 186
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 264
+    }
+   ]
+  },
+  {
+   "heading": "From faster analysis to global impact",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 359
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 339
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 336
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": {
+  "quote": {
+   "placeholder": true,
+   "chars": 175
+  },
+  "name": "Cristy B.",
+  "role": "Data Engineer"
+ },
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "careship",
+   "href": "/customers/careship/",
+   "title": "Careship gains a competitive advantage with fast customer intelligence",
+   "industry": "Technology",
+   "order": 14,
+   "companyName": "Careship",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/company/media/Customer_Careship.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/company/customers/careship/white-logo.svg",
+    "alt": "Careship",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": null
+  },
+  {
+   "slug": "harvard-business-publishing",
+   "href": "/customers/harvard-business-publishing/",
+   "title": "Dovetail fuels world-class research at Harvard Business Publishing",
+   "industry": "Consumer",
+   "order": 12,
+   "companyName": "Harvard Business Publishing",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Harvard.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-harvard-business-publishing-white-logo.svg",
+    "alt": "Harvard Business Publishing",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 227
+    },
+    "name": "David Turell",
+    "role": "Head of New Product Design"
+   }
+  }
+ ]
+}

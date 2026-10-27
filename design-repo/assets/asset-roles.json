@@ -1,0 +1,613 @@
+{
+ "version": "1.0.0",
+ "availabilityEnum": [
+  "reference-only",
+  "generation-safe",
+  "blocked-for-generation"
+ ],
+ "generationPolicyEnum": [
+  "reference-reuse-only",
+  "may-generate-new",
+  "must-not-fabricate",
+  "must-not-reuse-live-endpoint"
+ ],
+ "licensing": "The clone reproduces the layout AND real identity of a live company (Dovetail Research Pty. Ltd.): real customer logos (a 368-logo wall), real customer names and stories, named testimonials, review-site ratings and awards, employee/speaker photos, an analyst (Forrester TEI) study, YouTube video ids and third-party form/registration links. Long-form copy in the clone is already placeholder text of the original's length. Reference mode may use the recorded material as evidence ONLY to reconstruct the clone. Generated pages must never reproduce, trace or imitate: real logos or wordmarks, real people's photos or likenesses, real ratings/awards/certifications, the source's product names, copy, URLs or live endpoints, or its commercial display face (PP Mondwest). Use the generation-safe roles and draw new material in the same visual language (near-black #0A0A0A surfaces, #0044FF blue, 8px radii, mono uppercase eyebrows, pixel/ASCII decoration).",
+ "forbiddenInAllModes": [
+  "store.badge",
+  "link.live-endpoint",
+  "copy.source-longform"
+ ],
+ "roles": {
+  "brand.wordmark": {
+   "kind": "media",
+   "availability": "reference-only",
+   "generationPolicy": "reference-reuse-only",
+   "description": "the source brand's own logo/wordmark (nav, footer). Identifies the source: never reused or imitated in generated pages.",
+   "generationSafeSubstitutes": [
+    "brand.placeholder-mark",
+    "brand.user-supplied-mark"
+   ],
+   "usedBySections": [
+    "shell.navbar"
+   ]
+  },
+  "product.screenshot": {
+   "kind": "media",
+   "availability": "reference-only",
+   "generationPolicy": "reference-reuse-only",
+   "description": "the source product's UI screenshots and product composites (heroes, feature rows, carousels).",
+   "generationSafeSubstitutes": [
+    "product.generated-visual"
+   ],
+   "usedBySections": [
+    "article.story-chapter",
+    "article.story-facts",
+    "company.careers-callout",
+    "company.hiring-steps",
+    "company.values",
+    "content.full-bleed-image",
+    "content.launch-recap",
+    "content.split-intro",
+    "conversion.report-download",
+    "cta.closing-with-stories",
+    "event.description",
+    "features.alternating-row",
+    "features.audience-rows",
+    "features.benefit-cards",
+    "features.card-carousel",
+    "features.choose-grid",
+    "features.findings-grid",
+    "features.govern-grid",
+    "features.integrations-grid",
+    "features.launch-feature",
+    "features.security-compliance",
+    "features.sticky-features",
+    "features.sticky-loop",
+    "features.topic-tabs",
+    "features.voice-mode",
+    "hero.launch",
+    "hero.pricing",
+    "hero.product",
+    "hero.role",
+    "hero.simple",
+    "hero.split-media",
+    "hero.template",
+    "interactive.prompt-cards",
+    "interactive.use-case-tabs",
+    "interactive.vertical-tabs",
+    "listing.episode-cards",
+    "listing.event-cards",
+    "listing.story-grid",
+    "listing.video-grid",
+    "pricing.comparison-group",
+    "social-proof.customer-stories",
+    "social-proof.product-quote",
+    "social-proof.ratings",
+    "social-proof.testimonial",
+    "social-proof.testimonial-wall"
+   ]
+  },
+  "illustration.brand": {
+   "kind": "media",
+   "availability": "reference-only",
+   "generationPolicy": "reference-reuse-only",
+   "description": "proprietary brand illustration: 3D icons, inline heading images, pixel/glyph decoration, grid and dot backgrounds.",
+   "generationSafeSubstitutes": [
+    "illustration.generated"
+   ],
+   "usedBySections": [
+    "company.careers-callout",
+    "content.campaign-text",
+    "content.manifesto",
+    "conversion.trial-signup",
+    "cta.launch-closing",
+    "features.data-diagram",
+    "features.icon-grid",
+    "features.launch-feature",
+    "features.roi-map",
+    "features.security-compliance",
+    "features.sticky-loop",
+    "features.topic-tabs",
+    "hero.campaign",
+    "hero.home",
+    "hero.product",
+    "interactive.prompt-cards",
+    "listing.resource-cards",
+    "pricing.plan-cards",
+    "shell.banner",
+    "shell.campaign-footer",
+    "shell.campaign-nav",
+    "social-proof.customer-stories",
+    "social-proof.logo-marquee",
+    "social-proof.product-quote",
+    "social-proof.ratings",
+    "social-proof.team-proof",
+    "social-proof.testimonial",
+    "utility.not-found"
+   ]
+  },
+  "video.product": {
+   "kind": "media",
+   "availability": "reference-only",
+   "generationPolicy": "reference-reuse-only",
+   "description": "the source's product / brand videos (mp4 loops, YouTube ids).",
+   "generationSafeSubstitutes": [
+    "video.placeholder-poster"
+   ],
+   "usedBySections": [
+    "content.scroll-video",
+    "features.launch-feature",
+    "hero.launch",
+    "social-proof.customer-stories"
+   ]
+  },
+  "content.cover": {
+   "kind": "media",
+   "availability": "reference-only",
+   "generationPolicy": "reference-reuse-only",
+   "description": "blog/changelog/guide cover images (several are hot-linked from the live site's media host in the clone).",
+   "generationSafeSubstitutes": [
+    "content.generated-cover"
+   ],
+   "usedBySections": [
+    "article.header",
+    "article.hero-media",
+    "cta.sidebar-card",
+    "listing.card-grid",
+    "listing.featured-header",
+    "listing.related-articles",
+    "social-proof.tei-card"
+   ]
+  },
+  "icon.source": {
+   "kind": "media",
+   "availability": "reference-only",
+   "generationPolicy": "reference-reuse-only",
+   "description": "the source's own UI icon files (arrows, chevrons, nav icons).",
+   "generationSafeSubstitutes": [
+    "icon.generic"
+   ],
+   "usedBySections": [
+    "content.launch-recap",
+    "cta.closing-with-stories",
+    "features.findings-grid",
+    "features.govern-grid",
+    "features.launch-feature",
+    "hero.product",
+    "hero.typewriter",
+    "listing.story-grid"
+   ]
+  },
+  "customer.logo": {
+   "kind": "media",
+   "availability": "blocked-for-generation",
+   "generationPolicy": "must-not-fabricate",
+   "description": "REAL third-party customer/company logos (marquees, 368-logo wall, CTA tiles, story marks). Allowed only as reference evidence; generators must not reproduce, trace or imitate any real mark.",
+   "generationSafeSubstitutes": [
+    "customer.placeholder-logo"
+   ],
+   "usedBySections": [
+    "company.globe-story",
+    "cta.closing-with-stories",
+    "cta.final-cta",
+    "features.topic-tabs",
+    "hero.campaign",
+    "hero.home",
+    "hero.role",
+    "social-proof.customer-stories",
+    "social-proof.logo-marquee",
+    "social-proof.logo-wall",
+    "social-proof.product-quote",
+    "social-proof.story-marquee",
+    "social-proof.testimonial"
+   ]
+  },
+  "partner.logo": {
+   "kind": "media",
+   "availability": "blocked-for-generation",
+   "generationPolicy": "must-not-fabricate",
+   "description": "REAL integration-partner marks (integration lists/grids).",
+   "generationSafeSubstitutes": [
+    "partner.placeholder-icon"
+   ],
+   "usedBySections": [
+    "features.integrations-list"
+   ]
+  },
+  "person.photo": {
+   "kind": "media",
+   "availability": "blocked-for-generation",
+   "generationPolicy": "must-not-fabricate",
+   "description": "photos/likenesses of identifiable people: customers, employees, speakers, testimonial portraits. Never reproduce or generate a look-alike of a real person.",
+   "generationSafeSubstitutes": [
+    "person.fictional-avatar"
+   ],
+   "usedBySections": [
+    "company.people-accordion",
+    "features.launch-feature",
+    "features.topic-tabs",
+    "hero.product",
+    "listing.card-grid",
+    "listing.story-grid",
+    "social-proof.product-quote",
+    "social-proof.team-proof",
+    "social-proof.testimonial",
+    "social-proof.testimonial-wall"
+   ]
+  },
+  "rating.badge": {
+   "kind": "media",
+   "availability": "blocked-for-generation",
+   "generationPolicy": "must-not-fabricate",
+   "description": "review-site stars, award badges (G2, Capterra, TrustRadius, GetApp, Proddy) and certification marks (ISO/SOC). Never fabricate a rating or award.",
+   "generationSafeSubstitutes": [
+    "rating.placeholder"
+   ],
+   "usedBySections": [
+    "event.description",
+    "features.integrations-list",
+    "hero.home",
+    "pricing.comparison-group",
+    "social-proof.awards-marquee",
+    "social-proof.ratings"
+   ]
+  },
+  "analyst.mark": {
+   "kind": "media",
+   "availability": "blocked-for-generation",
+   "generationPolicy": "must-not-fabricate",
+   "description": "analyst-firm marks and study covers (the Forrester TEI study).",
+   "generationSafeSubstitutes": [
+    "rating.placeholder"
+   ],
+   "usedBySections": [
+    "social-proof.tei-card"
+   ]
+  },
+  "photo.real-scene": {
+   "kind": "media",
+   "availability": "blocked-for-generation",
+   "generationPolicy": "must-not-fabricate",
+   "description": "photos of real customer workplaces, events and offices (story heroes, careers gallery).",
+   "generationSafeSubstitutes": [
+    "photo.generated-scene"
+   ],
+   "usedBySections": [
+    "article.story-chapter",
+    "company.globe-story",
+    "company.values",
+    "company.video-gallery",
+    "cta.closing-with-stories",
+    "hero.careers",
+    "hero.story",
+    "hero.template",
+    "listing.story-grid",
+    "social-proof.story-cards",
+    "social-proof.story-grid",
+    "social-proof.story-marquee",
+    "social-proof.testimonial-wall"
+   ]
+  },
+  "store.badge": {
+   "kind": "media",
+   "availability": "blocked-for-generation",
+   "generationPolicy": "must-not-fabricate",
+   "description": "app-store / marketplace badges. The clone has none; forbidden in every mode so none can be introduced.",
+   "generationSafeSubstitutes": [
+    "link.placeholder"
+   ],
+   "forbiddenInAllModes": true,
+   "usedBySections": []
+  },
+  "brand.placeholder-mark": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "a neutral placeholder mark for the generated page's own (fictional or supplied) brand",
+   "usedBySections": [
+    "shell.navbar"
+   ]
+  },
+  "brand.user-supplied-mark": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "the requesting customer's own mark, supplied by them (ref 'user-supplied:...')",
+   "usedBySections": [
+    "shell.navbar"
+   ]
+  },
+  "customer.placeholder-logo": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "fictional customer marks drawn new (no resemblance to real companies)",
+   "usedBySections": [
+    "company.globe-story",
+    "cta.closing-with-stories",
+    "cta.final-cta",
+    "features.topic-tabs",
+    "hero.campaign",
+    "hero.home",
+    "hero.role",
+    "social-proof.customer-stories",
+    "social-proof.logo-marquee",
+    "social-proof.logo-wall",
+    "social-proof.product-quote",
+    "social-proof.story-marquee",
+    "social-proof.testimonial"
+   ]
+  },
+  "partner.placeholder-icon": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "generic integration placeholder icons",
+   "usedBySections": [
+    "features.integrations-list"
+   ]
+  },
+  "person.fictional-avatar": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "illustrated or generated avatars of fictional people (no real likeness)",
+   "usedBySections": [
+    "company.people-accordion",
+    "features.launch-feature",
+    "features.topic-tabs",
+    "hero.product",
+    "listing.card-grid",
+    "listing.story-grid",
+    "social-proof.product-quote",
+    "social-proof.team-proof",
+    "social-proof.testimonial",
+    "social-proof.testimonial-wall"
+   ]
+  },
+  "rating.placeholder": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "clearly placeholder rating/award graphic with no real review site or score",
+   "usedBySections": [
+    "event.description",
+    "features.integrations-list",
+    "hero.home",
+    "pricing.comparison-group",
+    "social-proof.awards-marquee",
+    "social-proof.ratings",
+    "social-proof.tei-card"
+   ]
+  },
+  "product.generated-visual": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "newly generated product UI visual for the generated brand",
+   "usedBySections": [
+    "article.story-chapter",
+    "article.story-facts",
+    "company.careers-callout",
+    "company.hiring-steps",
+    "company.values",
+    "content.full-bleed-image",
+    "content.launch-recap",
+    "content.split-intro",
+    "conversion.report-download",
+    "cta.closing-with-stories",
+    "event.description",
+    "features.alternating-row",
+    "features.audience-rows",
+    "features.benefit-cards",
+    "features.card-carousel",
+    "features.choose-grid",
+    "features.findings-grid",
+    "features.govern-grid",
+    "features.integrations-grid",
+    "features.launch-feature",
+    "features.security-compliance",
+    "features.sticky-features",
+    "features.sticky-loop",
+    "features.topic-tabs",
+    "features.voice-mode",
+    "hero.launch",
+    "hero.pricing",
+    "hero.product",
+    "hero.role",
+    "hero.simple",
+    "hero.split-media",
+    "hero.template",
+    "interactive.prompt-cards",
+    "interactive.use-case-tabs",
+    "interactive.vertical-tabs",
+    "listing.episode-cards",
+    "listing.event-cards",
+    "listing.story-grid",
+    "listing.video-grid",
+    "pricing.comparison-group",
+    "social-proof.customer-stories",
+    "social-proof.product-quote",
+    "social-proof.ratings",
+    "social-proof.testimonial",
+    "social-proof.testimonial-wall"
+   ]
+  },
+  "illustration.generated": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "newly drawn decorative illustration in the same visual language (pixel/glyph, 8px radius)",
+   "usedBySections": [
+    "company.careers-callout",
+    "content.campaign-text",
+    "content.manifesto",
+    "conversion.trial-signup",
+    "cta.launch-closing",
+    "features.data-diagram",
+    "features.icon-grid",
+    "features.launch-feature",
+    "features.roi-map",
+    "features.security-compliance",
+    "features.sticky-loop",
+    "features.topic-tabs",
+    "hero.campaign",
+    "hero.home",
+    "hero.product",
+    "interactive.prompt-cards",
+    "listing.resource-cards",
+    "pricing.plan-cards",
+    "shell.banner",
+    "shell.campaign-footer",
+    "shell.campaign-nav",
+    "social-proof.customer-stories",
+    "social-proof.logo-marquee",
+    "social-proof.product-quote",
+    "social-proof.ratings",
+    "social-proof.team-proof",
+    "social-proof.testimonial",
+    "utility.not-found"
+   ]
+  },
+  "video.placeholder-poster": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "placeholder poster frame for a video the requester supplies",
+   "usedBySections": [
+    "content.scroll-video",
+    "features.launch-feature",
+    "hero.launch",
+    "social-proof.customer-stories"
+   ]
+  },
+  "content.generated-cover": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "newly generated article/listing cover image",
+   "usedBySections": [
+    "article.header",
+    "article.hero-media",
+    "cta.sidebar-card",
+    "listing.card-grid",
+    "listing.featured-header",
+    "listing.related-articles",
+    "social-proof.tei-card"
+   ]
+  },
+  "icon.generic": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "generic UI glyphs (arrow, chevron, plus, check) drawn new or from an open icon set",
+   "usedBySections": [
+    "content.launch-recap",
+    "cta.closing-with-stories",
+    "features.findings-grid",
+    "features.govern-grid",
+    "features.launch-feature",
+    "hero.product",
+    "hero.typewriter",
+    "listing.story-grid"
+   ]
+  },
+  "photo.generated-scene": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "generated scene photo with fictional people only",
+   "usedBySections": [
+    "article.story-chapter",
+    "company.globe-story",
+    "company.values",
+    "company.video-gallery",
+    "cta.closing-with-stories",
+    "hero.careers",
+    "hero.story",
+    "hero.template",
+    "listing.story-grid",
+    "social-proof.story-cards",
+    "social-proof.story-grid",
+    "social-proof.story-marquee",
+    "social-proof.testimonial-wall"
+   ]
+  },
+  "link.site-route": {
+   "kind": "link",
+   "availability": "reference-only",
+   "generationPolicy": "reference-reuse-only",
+   "description": "relative routes of the source site (/pricing/, /customers/okta/ ...).",
+   "generationSafeSubstitutes": [
+    "link.placeholder"
+   ],
+   "usedBySections": []
+  },
+  "link.source-external": {
+   "kind": "link",
+   "availability": "blocked-for-generation",
+   "generationPolicy": "must-not-fabricate",
+   "description": "the source's external URLs: its domains, docs, trust centre, social profiles, community invite, review-site listings, job board.",
+   "generationSafeSubstitutes": [
+    "link.placeholder"
+   ],
+   "usedBySections": []
+  },
+  "link.live-endpoint": {
+   "kind": "link",
+   "availability": "blocked-for-generation",
+   "generationPolicy": "must-not-reuse-live-endpoint",
+   "description": "live third-party form / registration endpoints (marketing-automation forms, webinar registration). The clone's forms never submit; no PageSpec may carry one.",
+   "generationSafeSubstitutes": [
+    "link.placeholder"
+   ],
+   "forbiddenInAllModes": true,
+   "usedBySections": []
+  },
+  "link.placeholder": {
+   "kind": "link",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "'#', neutral relative paths, or absolute URLs on reserved .example / .invalid domains only.",
+   "usedBySections": []
+  },
+  "copy.source-verbatim": {
+   "kind": "copy",
+   "availability": "reference-only",
+   "generationPolicy": "reference-reuse-only",
+   "description": "the source's verbatim short strings recorded in the clone (headings, labels, names, stats, short quotes).",
+   "generationSafeSubstitutes": [
+    "copy.original"
+   ],
+   "usedBySections": []
+  },
+  "copy.clone-placeholder": {
+   "kind": "copy",
+   "availability": "reference-only",
+   "generationPolicy": "reference-reuse-only",
+   "description": "the clone's placeholder long-form copy (same length as the original, not its wording).",
+   "generationSafeSubstitutes": [
+    "copy.original"
+   ],
+   "usedBySections": []
+  },
+  "copy.source-longform": {
+   "kind": "copy",
+   "availability": "blocked-for-generation",
+   "generationPolicy": "must-not-fabricate",
+   "description": "the original site's long-form copy (articles, legal text, answers). The clone does not contain it; forbidden in every mode.",
+   "generationSafeSubstitutes": [
+    "copy.original"
+   ],
+   "forbiddenInAllModes": true,
+   "usedBySections": []
+  },
+  "copy.original": {
+   "kind": "copy",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "newly written copy within each field's maxWords/maxChars budget.",
+   "usedBySections": []
+  }
+ }
+}

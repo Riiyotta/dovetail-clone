@@ -1,0 +1,1269 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T20",
+ "route": "/product-development/",
+ "theme": "light",
+ "chrome": {
+  "banner": "light",
+  "nav": "light",
+  "footer": "light"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail clone (local)"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "light",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "light",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "article.header",
+   "variant": "light",
+   "content": {
+    "heading": "The ultimate product development guide",
+    "actions": [
+     {
+      "label": "GUIDES",
+      "href": "/guides/"
+     },
+     {
+      "label": "PRODUCT DEVELOPMENT",
+      "href": "#"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.byline",
+   "variant": "default",
+   "content": {
+    "heading": "Share",
+    "actions": [
+     {
+      "label": "CHLOE GARNHAM",
+      "href": "/contributors/chloe-garnham/"
+     },
+     {
+      "label": "JEAN KALUZA",
+      "href": "/contributors/jean-kaluza/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Overview",
+    "body": [
+     {
+      "kind": "paragraph",
+      "text": "Keep the audience in mind throughout. Teams often begin by agreeing on the question they want to answer and the decision it will inform. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Mixing a few complementary methods usually gives a more balanced picture than relying on one. Keeping the language plain helps readers focus on what matters most."
+     },
+     {
+      "kind": "heading",
+      "text": "Overview"
+     },
+     {
+      "kind": "paragraph",
+      "text": "This section is placeholder copy that stands in for the original article text. Teams often begin by agreeing on the question they want to answer and the decision it will inform."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Feedback from a pilot run often highlights steps that need to be clarified. Responsibilities are clearer when each step has a named owner. Not every finding needs action, but every finding deserves a clear status. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "It is worth checking early assumptions against what people actually say and do. Clear summaries make it simpler for colleagues outside the project to act on the findings. Outcomes are easier to judge when there is a baseline to compare against."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Key concepts",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Key concepts"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Where possible, combine numbers with quotes so the story stays grounded. Start small and adjust as you go. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Over time, a shared library of past work saves effort and avoids repeating the same study. Keeping the language plain helps readers focus on what matters most. Revisiting the original goal at the end is a useful way to check whether it was met."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Short sessions with a focused agenda tend to produce more usable notes. Start small and adjust as you go. Review the results together as a team. This is placeholder text. This section is placeholder copy that stands in for."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Why it matters",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Why it matters"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Sharing progress openly invites useful questions before the work is finished. Outcomes are easier to judge when there is a baseline to compare against. This section is placeholder copy that stands in for the original article text."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Teams often begin by agreeing on the question they want to answer and the decision it will inform. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Start small and adjust as you go. Keep the audience in mind throughout. Teams often begin by agreeing on the question they want to answer and the decision it will inform."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Getting started",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Getting started"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Revisiting the original goal at the end is a useful way to check whether it was met. Short sessions with a focused agenda tend to produce more usable notes."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Teams often begin by agreeing on the question they want to answer and the decision it will inform. This section is placeholder copy that stands in for the original article text."
+     },
+     {
+      "kind": "paragraph",
+      "text": "A short planning step helps everyone understand the scope, the timeline and who needs to be involved. Responsibilities are clearer when each step has a named owner."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Revisiting the original goal at the end is a useful way to check whether it was met. Short sessions with a focused agenda tend to produce more usable notes. Start small and adjust as you go."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Common approaches",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Common approaches"
+     },
+     {
+      "kind": "paragraph",
+      "text": "The examples below are illustrative and should be adapted to your own context. Responsibilities are clearer when each step has a named owner. Not every finding needs action, but every finding deserves a clear status."
+     },
+     {
+      "kind": "paragraph",
+      "text": "This is placeholder text. This section is placeholder copy that stands in for the original article text. A short planning step helps everyone understand the scope, the timeline and who needs to be involved."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Keeping the language plain helps readers focus on what matters most. Visual summaries can help when the audience has limited time."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Planning the work",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Planning the work"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Start small and adjust as you go. Review the results together as a team. This section is placeholder copy that stands in for the original article text. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Over time, a shared library of past work saves effort and avoids repeating the same study. Feedback from a pilot run often highlights steps that need to be clarified."
+     },
+     {
+      "kind": "paragraph",
+      "text": "A simple checklist can keep the process consistent from one round to the next. Outcomes are easier to judge when there is a baseline to compare against. The examples below are illustrative and should."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Define the goal"
+     },
+     {
+      "kind": "paragraph",
+      "text": "A short planning step helps everyone understand the scope, the timeline and who needs to be involved. Notes gathered along the way are easier to compare when they follow a consistent structure. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "A short planning step helps everyone understand the scope, the timeline and who needs to be involved. Small, regular reviews tend to surface patterns."
+     },
+     {
+      "kind": "paragraph",
+      "text": "This is placeholder text. A short planning step helps everyone understand the scope, the timeline and who needs to be involved. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Mixing a few complementary methods usually gives a more balanced picture than relying on one. Start small and adjust as you go."
+     },
+     {
+      "kind": "list-item",
+      "text": "Checkpoints for reviewing progress"
+     },
+     {
+      "kind": "list-item",
+      "text": "A plan for follow-up"
+     },
+     {
+      "kind": "list-item",
+      "text": "Known constraints and risks"
+     },
+     {
+      "kind": "list-item",
+      "text": "A clear statement of the goal"
+     },
+     {
+      "kind": "list-item",
+      "text": "A realistic timeline"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Choose a method"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Outcomes are easier to judge when there is a baseline to compare against. The examples below are illustrative and should be adapted to your own context. Responsibilities are clearer when each step has a named owner. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Writing down the reasoning behind a decision makes it easier to revisit later. Sharing progress openly invites useful questions before the work is finished. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "The examples below are illustrative and should be adapted to your own context. Review the results together as a team."
+     },
+     {
+      "kind": "list-item",
+      "text": "A clear statement of the goal"
+     },
+     {
+      "kind": "list-item",
+      "text": "A realistic timeline"
+     },
+     {
+      "kind": "list-item",
+      "text": "The people who need to be involved"
+     },
+     {
+      "kind": "list-item",
+      "text": "How results will be shared"
+     },
+     {
+      "kind": "list-item",
+      "text": "A consistent note-taking format"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Gather inputs"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Sharing progress openly invites useful questions before the work is finished. Outcomes are easier to judge when there is a baseline to compare against."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Short sessions with a focused agenda tend to produce more usable notes. Where possible, combine numbers with quotes so the story stays grounded. Review the results together as a team."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Visual summaries can help when the audience has limited time. Where possible, combine numbers with quotes so the story stays grounded. Review the results together as a team."
+     },
+     {
+      "kind": "list-item",
+      "text": "A clear statement of the goal"
+     },
+     {
+      "kind": "list-item",
+      "text": "A realistic timeline"
+     },
+     {
+      "kind": "list-item",
+      "text": "The people who need to be involved"
+     },
+     {
+      "kind": "list-item",
+      "text": "How results will be shared"
+     },
+     {
+      "kind": "list-item",
+      "text": "A consistent note-taking format"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Review the evidence"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Short sessions with a focused agenda tend to produce more usable notes. Start small and adjust as you go. Review the results together as a team. Keep the audience in mind throughout."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Notes gathered along the way are easier to compare when they follow a consistent structure. Keeping the language plain helps readers focus on what matters most."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Keep the audience in mind throughout. Teams often begin by agreeing on the question they want to answer and the decision it will inform. Start small and adjust as you go."
+     },
+     {
+      "kind": "list-item",
+      "text": "The people who need to be involved"
+     },
+     {
+      "kind": "list-item",
+      "text": "How results will be shared"
+     },
+     {
+      "kind": "list-item",
+      "text": "A consistent note-taking format"
+     },
+     {
+      "kind": "list-item",
+      "text": "Criteria for deciding what comes next"
+     },
+     {
+      "kind": "list-item",
+      "text": "A short list of open questions"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Share what you learn"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Where possible, combine numbers with quotes so the story stays grounded. Context matters here. Keep the audience in mind throughout. This is placeholder text. A short planning step helps everyone understand."
+     },
+     {
+      "kind": "paragraph",
+      "text": "It is worth checking early assumptions against what people actually say and do. Teams often begin by agreeing on the question they want to answer and the decision it will inform."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Sharing progress openly invites useful questions before the work is finished. This section is placeholder copy that stands in for the original article text."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Sharing progress openly invites useful questions before the work is finished. Review the results together as a team."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Set a baseline"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Keep the audience in mind throughout. This is placeholder text. A short planning step helps everyone understand the scope, the timeline and who needs to be involved. Responsibilities are clearer when each step has a named owner."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Review the results together as a team. This is placeholder text. A short planning step helps everyone understand the scope, the timeline and who needs to be involved."
+     },
+     {
+      "kind": "paragraph",
+      "text": "A short planning step helps everyone understand the scope, the timeline and who needs to be involved. This section is placeholder copy that stands in for the original article text."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Putting it into practice",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Putting it into practice"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Context matters here. Review the results together as a team. This is placeholder text. This section is placeholder copy that stands in for the original article text."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Keeping the language plain helps readers focus on what matters most. Not every finding needs action, but every finding deserves a clear status."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Visual summaries can help when the audience has limited time. Start small and adjust as you go. Keep the audience in mind throughout."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Measuring outcomes",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Measuring outcomes"
+     },
+     {
+      "kind": "paragraph",
+      "text": "This is placeholder text. A short planning step helps everyone understand the scope, the timeline and who needs to be involved. Keeping the language plain helps readers focus on what matters most."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Keep the audience in mind throughout. This section is placeholder copy that stands in for the original article text."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Visual summaries can help when the audience has limited time. Start small and adjust as you go. Review the results together as a team. This is placeholder text. This section is placeholder copy that stands in for the original article text."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Outcomes are easier to judge when there is a baseline to compare against. The examples below are illustrative and should be adapted to your own context. Context matters here."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Involve the right people"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Writing down the reasoning behind a decision makes it easier to revisit later. Sharing progress openly invites useful questions."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Feedback from a pilot run often highlights steps that need to be clarified. The examples below are illustrative and should be adapted to your own context. Not every finding needs action, but every finding deserves a clear status."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Not every finding needs action, but every finding deserves a clear status. Good documentation lets new team members pick up the work without starting over. Where possible, combine numbers with quotes so the."
+     },
+     {
+      "kind": "list-item",
+      "text": "A short list of open questions"
+     },
+     {
+      "kind": "list-item",
+      "text": "Where supporting material is stored"
+     },
+     {
+      "kind": "list-item",
+      "text": "An agreed definition of done"
+     },
+     {
+      "kind": "list-item",
+      "text": "Checkpoints for reviewing progress"
+     },
+     {
+      "kind": "list-item",
+      "text": "A plan for follow-up"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Document decisions"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Feedback from a pilot run often highlights steps that need to be clarified. Keeping the language plain helps readers focus on what matters most."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Keeping the language plain helps readers focus on what matters most. Not every finding needs action, but every finding deserves a clear status. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Short sessions with a focused agenda tend to produce more usable notes. Start small and adjust as you go. Context matters here. Review the results together as a team."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Check assumptions"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Revisiting the original goal at the end is a useful way to check whether it was met. Good documentation lets new team members pick up the work without starting over. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Keeping the language plain helps readers focus on what matters most. Keeping the language plain helps readers focus on what matters most."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Responsibilities are clearer when each step has a named owner. Good documentation lets new team members pick up the work without starting over. Short sessions with a focused agenda tend to."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Responsibilities are clearer when each step has a named owner. Good documentation lets new team members pick up the work without starting over. Short sessions with a focused agenda tend to produce more usable notes."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.related-topics",
+   "variant": "default",
+   "content": {
+    "heading": "RELATED TOPICS",
+    "actions": [
+     {
+      "label": "[CUSTOMER RESEARCH]",
+      "href": "/customer-research/"
+     },
+     {
+      "label": "[DESIGN THINKING]",
+      "href": "/design-thinking/"
+     },
+     {
+      "label": "[EMPLOYEE EXPERIENCE]",
+      "href": "/employee-experience/"
+     },
+     {
+      "label": "[ENTERPRISE]",
+      "href": "/enterprise/"
+     },
+     {
+      "label": "[MARKET RESEARCH]",
+      "href": "/market-research/"
+     },
+     {
+      "label": "[PATIENT EXPERIENCE]",
+      "href": "/patient-experience/"
+     }
+    ],
+    "items": [
+     {
+      "title": "[CUSTOMER RESEARCH]",
+      "href": "/customer-research/"
+     },
+     {
+      "title": "[DESIGN THINKING]",
+      "href": "/design-thinking/"
+     },
+     {
+      "title": "[EMPLOYEE EXPERIENCE]",
+      "href": "/employee-experience/"
+     },
+     {
+      "title": "[ENTERPRISE]",
+      "href": "/enterprise/"
+     },
+     {
+      "title": "[MARKET RESEARCH]",
+      "href": "/market-research/"
+     },
+     {
+      "title": "[PATIENT EXPERIENCE]",
+      "href": "/patient-experience/"
+     },
+     {
+      "title": "[PRODUCT MANAGEMENT]",
+      "href": "/product-management/"
+     },
+     {
+      "title": "[RESEARCH MATURITY ASSESSMENT]",
+      "href": "/research-maturity-assessment/"
+     },
+     {
+      "title": "[RESEARCH METHODS]",
+      "href": "/research/"
+     },
+     {
+      "title": "[SURVEYS]",
+      "href": "/surveys/"
+     },
+     {
+      "title": "[USER EXPERIENCE (UX)]",
+      "href": "/ux/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.article-carousel",
+   "variant": "default",
+   "content": {
+    "heading": "Editor's picks↘",
+    "actions": [
+     {
+      "label": "What is iterative design: Definition and benefits",
+      "href": "/product-development/iterative-design/"
+     },
+     {
+      "label": "What is the ideation process?",
+      "href": "/product-development/ideation/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Dovetail Calls for ‘Design Empowerment’ as New Research Reveals Online Consumers Are Still Falling Victim to Dark Patterns",
+      "href": "/product-development/new-research-finds-online-consumers-are-falling-victim-to-dark-patterns/"
+     },
+     {
+      "title": "What is color theory, and why does it matter in design?",
+      "href": "/product-development/color-theory/"
+     },
+     {
+      "title": "What is iterative design: Definition and benefits",
+      "href": "/product-development/iterative-design/"
+     },
+     {
+      "title": "What is the ideation process?",
+      "href": "/product-development/ideation/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.manual",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.article-carousel",
+   "variant": "default",
+   "content": {
+    "heading": "Latest articles↘",
+    "actions": [
+     {
+      "label": "What is a digital twin of a customer?",
+      "href": "/product-development/what-is-a-digital-twin-of-a-customer/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Customer digital twin vs. Customer 360: What’s the difference?",
+      "href": "/product-development/customer-digital-twin-vs-customer-360/"
+     },
+     {
+      "title": "What is a digital twin of a customer?",
+      "href": "/product-development/what-is-a-digital-twin-of-a-customer/"
+     },
+     {
+      "title": "How to run effective research debriefs with product trios that lead to shared understanding and aligned next steps",
+      "href": "/product-development/research-debriefs-product-trios-shared-understanding/"
+     },
+     {
+      "title": "Nine customer digital twin use cases for B2B teams",
+      "href": "/product-development/customer-digital-twin-use-cases/"
+     },
+     {
+      "title": "How to build a customer digital twin from first-party data",
+      "href": "/product-development/how-to-build-a-customer-digital-twin/"
+     },
+     {
+      "title": "Customer digital twin vs. AI persona vs. synthetic customer",
+      "href": "/product-development/customer-digital-twin-vs-ai-persona/"
+     },
+     {
+      "title": "How to integrate Dovetail research highlights into Jira tickets for better sprint planning",
+      "href": "/product-development/dovetail-research-highlights-jira-sprint-planning/"
+     },
+     {
+      "title": "How to use jobs-to-be-done interviews to identify unmet needs in mature product categories",
+      "href": "/product-development/jobs-to-be-done-interviews-unmet-needs-mature-products/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.manual",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.inline-band",
+   "variant": "light",
+   "content": {
+    "heading": "Turn customer feedback into product innovation",
+    "actions": [
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     },
+     {
+      "label": "Try Dovetail free",
+      "href": "/auth/signup/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "light",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.az-index",
+   "variant": "default",
+   "content": {
+    "heading": "All Product development articles",
+    "items": [
+     {
+      "title": "10 simple retrospective ideas for your next sprint",
+      "href": "/product-development/simple-retrospectives/"
+     },
+     {
+      "title": "10 Slack community groups for product managers",
+      "href": "/product-development/slack-communities-for-product-managers/"
+     },
+     {
+      "title": "11 essential product management tools",
+      "href": "/product-development/product-management-tools/"
+     },
+     {
+      "title": "12 essential product management best practices",
+      "href": "/product-development/product-management-best-practices/"
+     },
+     {
+      "title": "15 top product discovery tools for product teams",
+      "href": "/product-development/best-product-discovery-tools-for-product-teams/"
+     },
+     {
+      "title": "17 Essential Design Thinking Tools",
+      "href": "/product-development/best-design-thinking-tools/"
+     },
+     {
+      "title": "17 product management podcasts to listen to",
+      "href": "/product-development/best-product-management-podcasts/"
+     },
+     {
+      "title": "18 software project ideas to inspire you",
+      "href": "/product-development/software-project-ideas/"
+     },
+     {
+      "title": "20 KPIs every product manager needs to track",
+      "href": "/product-development/product-management-kpis/"
+     },
+     {
+      "title": "25 product newsletters that’ll keep you ahead of the curve",
+      "href": "/product-development/top-product-newsletters/"
+     },
+     {
+      "title": "6 Best career-boosting product management certifications",
+      "href": "/product-development/product-management-certification/"
+     },
+     {
+      "title": "6 product metrics your team should be tracking and why",
+      "href": "/product-development/product-metrics/"
+     },
+     {
+      "title": "A beginner’s guide to product positioning",
+      "href": "/product-development/product-positioning/"
+     },
+     {
+      "title": "A beginner’s guide to the critical path method in project management",
+      "href": "/product-development/critical-path-method-guide/"
+     },
+     {
+      "title": "A complete guide to the ICE score",
+      "href": "/product-development/ice-scoring-model/"
+     },
+     {
+      "title": "A comprehensive guide to stakeholder analysis",
+      "href": "/product-development/stakeholder-analysis/"
+     },
+     {
+      "title": "A guide to feature-driven development (FDD)",
+      "href": "/product-development/what-is-feature-driven-development/"
+     },
+     {
+      "title": "A guide to the product development process",
+      "href": "/product-development/product-development-process/"
+     },
+     {
+      "title": "Agile terminology essentials: a detailed guide to common terms",
+      "href": "/product-development/agile-terminology-guide/"
+     },
+     {
+      "title": "Agile vs design thinking: Which methodology is right for your team?",
+      "href": "/product-development/agile-vs-design-thinking/"
+     },
+     {
+      "title": "AI in product development: Uses, benefits, and examples",
+      "href": "/product-development/ai-in-product-development/"
+     },
+     {
+      "title": "An actionable guide to facilitating meetings",
+      "href": "/product-development/how-to-facilitate-a-meeting/"
+     },
+     {
+      "title": "An essential guide to product marketing",
+      "href": "/product-development/product-marketing/"
+     },
+     {
+      "title": "An introduction to agile epics",
+      "href": "/product-development/what-is-an-agile-epic/"
+     },
+     {
+      "title": "An introduction to the Shape Up Method",
+      "href": "/product-development/what-is-the-shape-up-method/"
+     },
+     {
+      "title": "An overview of stakeholder management",
+      "href": "/product-development/stakeholder-management/"
+     },
+     {
+      "title": "Analyzing your competitor’s products with a competitive product analysis",
+      "href": "/product-development/how-to-do-a-product-competitive-analysis/"
+     },
+     {
+      "title": "Artificial intelligence is revolutionizing product design",
+      "href": "/product-development/ai-in-product-design/"
+     },
+     {
+      "title": "Best product management conferences in 2026 and 2027",
+      "href": "/product-development/product-management-conferences/"
+     },
+     {
+      "title": "Concept testing 101: what is it & when should you do it?",
+      "href": "/product-development/concept-testing/"
+     },
+     {
+      "title": "Continuous interviewing: how it helps in product management",
+      "href": "/product-development/continuous-interviewing/"
+     },
+     {
+      "title": "Continuous product discovery best practices & tips",
+      "href": "/product-development/continuous-product-discovery-best-practices/"
+     },
+     {
+      "title": "Creating an effective outcome-based roadmap",
+      "href": "/product-development/guide-to-outcome-based-roadmaps/"
+     },
+     {
+      "title": "Customer digital twin vs. AI persona vs. synthetic customer",
+      "href": "/product-development/customer-digital-twin-vs-ai-persona/"
+     },
+     {
+      "title": "Customer digital twin vs. Customer 360: What’s the difference?",
+      "href": "/product-development/customer-digital-twin-vs-customer-360/"
+     },
+     {
+      "title": "Decoding behavioral analytics: How it works and why it matters",
+      "href": "/product-development/what-is-behavioral-analytics/"
+     },
+     {
+      "title": "Design process 101: How to get started",
+      "href": "/product-development/design-process/"
+     },
+     {
+      "title": "Development team: Overview, roles, and structure",
+      "href": "/product-development/what-is-a-development-team/"
+     },
+     {
+      "title": "Do product managers need to code?",
+      "href": "/product-development/do-product-managers-need-to-code/"
+     },
+     {
+      "title": "Dovetail Calls for ‘Design Empowerment’ as New Research Reveals Online Consumers Are Still Falling Victim to Dark Patterns",
+      "href": "/product-development/new-research-finds-online-consumers-are-falling-victim-to-dark-patterns/"
+     },
+     {
+      "title": "Everything you need to know about “Jobs to be Done”",
+      "href": "/product-development/jobs-to-be-done/"
+     },
+     {
+      "title": "Everything you need to know about beta testing",
+      "href": "/product-development/beta-testing/"
+     },
+     {
+      "title": "Four stages of group development: Forming, storming, norming, and performing",
+      "href": "/product-development/forming-storming-norming-performing/"
+     },
+     {
+      "title": "From Chaos to Clarity: The Now-Next-Later Roadmap Guide",
+      "href": "/product-development/now-next-later-roadmap-guide/"
+     },
+     {
+      "title": "From start to finish: Building a customer roadmap",
+      "href": "/product-development/how-to-create-a-customer-facing-roadmap/"
+     },
+     {
+      "title": "Gestalt psychology: Basic principles, examples, and uses",
+      "href": "/product-development/gestalt-psychology/"
+     },
+     {
+      "title": "Guide to the prioritization matrix",
+      "href": "/product-development/prioritization-matrix/"
+     },
+     {
+      "title": "How AI can transform product management",
+      "href": "/product-development/ai-in-product-management/"
+     },
+     {
+      "title": "How can I become a product designer?",
+      "href": "/product-development/how-to-become-a-product-designer/"
+     },
+     {
+      "title": "How to balance generative and evaluative research within a single product discovery sprint",
+      "href": "/product-development/balance-generative-evaluative-research-product-discovery-sprint/"
+     },
+     {
+      "title": "How to become a product design engineer",
+      "href": "/product-development/product-design-engineer/"
+     },
+     {
+      "title": "How to build a customer digital twin from first-party data",
+      "href": "/product-development/how-to-build-a-customer-digital-twin/"
+     },
+     {
+      "title": "How to conduct a product feature analysis",
+      "href": "/product-development/how-to-conduct-a-product-feature-analysis/"
+     },
+     {
+      "title": "How to conduct effective product research",
+      "href": "/product-development/how-to-do-product-research/"
+     },
+     {
+      "title": "How to create & run engaging design workshops",
+      "href": "/product-development/design-workshops/"
+     },
+     {
+      "title": "How to create a clear project scope",
+      "href": "/product-development/what-is-a-project-scope/"
+     },
+     {
+      "title": "How to create the ultimate product roadmap",
+      "href": "/product-development/how-to-create-the-ultimate-product-roadmap/"
+     },
+     {
+      "title": "How to develop a unique value proposition",
+      "href": "/product-development/value-proposition-template/"
+     },
+     {
+      "title": "How to develop a winning product mindset",
+      "href": "/product-development/what-is-a-product-mindset/"
+     },
+     {
+      "title": "How to get started with scrum",
+      "href": "/product-development/what-is-scrum-product-management/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "interactive.toc-sheet",
+   "variant": "default",
+   "content": {},
+   "motion": {
+    "pattern": "sheet.slide",
+    "reducedMotionFallback": "show-immediately"
+   },
+   "retrievalEligible": false
+  }
+ ]
+}

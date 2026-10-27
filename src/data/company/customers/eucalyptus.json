@@ -1,0 +1,211 @@
+{
+ "slug": "eucalyptus",
+ "path": "/customers/eucalyptus/",
+ "title": "Eucalyptus uses Dovetail to scale customer intelligence and shape the future of healthcare",
+ "eyebrow": "CUSTOMER / EUCALYPTUS",
+ "companyName": "Eucalyptus",
+ "isAnonymous": false,
+ "industry": "Health",
+ "intro": {
+  "placeholder": true,
+  "chars": 439
+ },
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/Eucalyptus.png",
+  "width": 1086,
+  "height": 700,
+  "youtubeId": null,
+  "caption": []
+ },
+ "stats": [],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "This is how Eucalyptus is using Dovetail to change the future of healthcare",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 305
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 439
+    }
+   ]
+  },
+  {
+   "heading": "Revolutionizing healthcare through customer closeness",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 194
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 460
+    }
+   ]
+  },
+  {
+   "heading": "Supporting continuous customer intelligence through one centralized platform",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 324
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 326
+    }
+   ]
+  },
+  {
+   "heading": "Scaling customer intelligence across marketing, data, creative, and engineering teams",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 433
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": null,
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "achievers",
+   "href": "/customers/achievers/",
+   "title": "How Achievers powers employee experience with always-on customer intelligence",
+   "industry": "Technology",
+   "order": 6,
+   "companyName": "Achievers",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Achievers.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-achievers-white-logo.svg",
+    "alt": "Achievers",
+    "w": 143,
+    "h": 28
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 229
+    },
+    "name": "Marie-Andrée Turgeon",
+    "role": "Senior Manager of Product Operations"
+   }
+  },
+  {
+   "slug": "breville",
+   "href": "/customers/breville/",
+   "title": "How customer insights drive and inspire Breville’s product innovation",
+   "industry": "Consumer",
+   "order": 3,
+   "companyName": "Breville",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/Customer_Breville.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/white-logo(3).svg",
+    "alt": "Breville",
+    "w": 132,
+    "h": 32
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 217
+    },
+    "name": "Constance Docos",
+    "role": "Senior UX Designer"
+   }
+  },
+  {
+   "slug": "atlassian-design",
+   "href": "/customers/atlassian-design/",
+   "title": "How Atlassian turns customer signals into confident product decisions",
+   "industry": "Technology",
+   "order": 2,
+   "companyName": "Atlassian",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/company/media/Customer_Atlassian.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+    "alt": "Atlassian",
+    "w": 160,
+    "h": 20
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 190
+    },
+    "name": "Martin Jerkovic",
+    "role": "Lead Product Designer"
+   }
+  }
+ ]
+}

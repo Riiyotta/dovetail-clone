@@ -1,0 +1,125 @@
+{
+ "note": "motion tokens. Every value cites path:line in the clone project and the text that line contains (`match`); extraction/verify_all.py re-reads them.",
+ "tokens": {
+  "duration.fast": {
+   "value": "150ms",
+   "category": "motion",
+   "cite": "specs/marketing-shared.md:128",
+   "match": "`FAST_TRANSITION` 150ms"
+  },
+  "duration.medium": {
+   "value": "300ms",
+   "category": "motion",
+   "cite": "specs/marketing-shared.md:128",
+   "match": "`MEDIUM_TRANSITION` 300ms"
+  },
+  "duration.button": {
+   "value": "200ms",
+   "category": "motion",
+   "cite": "specs/marketing-shared.md:138",
+   "match": "transition: color 200ms, background 200ms, opacity 200ms"
+  },
+  "duration.fade-step": {
+   "value": "250ms",
+   "category": "motion",
+   "cite": "CLONE_SPEC.md:394",
+   "match": "over 250ms (transition on opacity and transform)"
+  },
+  "duration.logo-fade": {
+   "value": "350ms",
+   "category": "motion",
+   "cite": "CLONE_SPEC.md:300",
+   "match": "swaps after **350ms**"
+  },
+  "duration.overlay": {
+   "value": "400ms",
+   "category": "motion",
+   "cite": "CLONE_SPEC.md:368",
+   "match": "`transition: opacity 400ms 300ms`"
+  },
+  "duration.tab-progress": {
+   "value": "6000ms",
+   "category": "motion",
+   "cite": "CLONE_SPEC.md:336",
+   "match": "linear, **6000ms**"
+  },
+  "duration.logo-cycle": {
+   "value": "2200ms",
+   "category": "motion",
+   "cite": "CLONE_SPEC.md:300",
+   "match": "every **2200ms**"
+  },
+  "duration.story-marquee": {
+   "value": "170s",
+   "category": "motion",
+   "cite": "CLONE_SPEC.md:512",
+   "match": "animation: marquee 170s linear infinite"
+  },
+  "duration.logo-marquee": {
+   "value": "60s",
+   "category": "motion",
+   "cite": "specs/marketing-shared.md:274",
+   "match": "over **60s**"
+  },
+  "duration.story-autoadvance": {
+   "value": "11s",
+   "category": "motion",
+   "cite": "specs/marketing-shared.md:248",
+   "match": "so each story lasts 11s"
+  },
+  "duration.testimonial-autoadvance": {
+   "value": "10s",
+   "category": "motion",
+   "cite": "specs/marketing-shared.md:261",
+   "match": "10s per quote"
+  },
+  "duration.product-quote": {
+   "value": "6s",
+   "category": "motion",
+   "cite": "specs/marketing-shared.md:296",
+   "match": "60ms/step → 6s"
+  },
+  "duration.modal": {
+   "value": "300ms",
+   "category": "motion",
+   "cite": "CLONE_SPEC.md:611",
+   "match": "over **300ms ease**"
+  },
+  "easing.default": {
+   "value": "ease",
+   "category": "motion",
+   "cite": "CLONE_SPEC.md:151",
+   "match": "`transition` with no easing means CSS default `ease`"
+  },
+  "easing.out": {
+   "value": "ease-out",
+   "category": "motion",
+   "cite": "CLONE_SPEC.md:341",
+   "match": "`transform 200ms ease-out`"
+  },
+  "easing.arrow": {
+   "value": "cubic-bezier(.2,.6,.6,1)",
+   "category": "motion",
+   "cite": "CLONE_SPEC.md:151",
+   "match": "transform 150ms cubic-bezier(.2,.6,.6,1)"
+  },
+  "easing.linear": {
+   "value": "linear",
+   "category": "motion",
+   "cite": "CLONE_SPEC.md:336",
+   "match": "linear, **6000ms**"
+  },
+  "easing.gsap-power2-out": {
+   "value": "power2.out",
+   "category": "motion",
+   "cite": "CLONE_SPEC.md:568",
+   "match": "ease:\"power2.out\""
+  },
+  "easing.gsap-power1-out": {
+   "value": "power1.out",
+   "category": "motion",
+   "cite": "specs/marketing-shared.md:212",
+   "match": "default ease `power1.out`"
+  }
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "id": "serif-accent",
+ "kind": "primitive",
+ "title": "Serif accent word",
+ "variants": {
+  "default": "PP Mondwest at round(1.16 x heading size) inside a sans heading"
+ },
+ "tokens": [
+  "font.family.serif",
+  "font.preset.serif-accent"
+ ],
+ "evidence": [
+  "specs/marketing-shared.md:124"
+ ]
+}

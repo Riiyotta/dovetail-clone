@@ -1,0 +1,1225 @@
+{
+ "url": "/product/ai-dashboards/",
+ "template": "product",
+ "title": "AI Dashboards | Dovetail",
+ "metaDescription": "Visualize how customer intelligence metrics like sentiment change over time. Slice data across key segments to proactively identify risks and measure…",
+ "documentHeight": {
+  "1440": 15302,
+  "1280": 15568,
+  "768": 13658,
+  "390": 11709
+ },
+ "chrome": {
+  "alertBar": true,
+  "navBackground": "#154C14",
+  "footer": "finalCta"
+ },
+ "sections": [
+  {
+   "slice": "ProductHero",
+   "el": "e10k4luw0",
+   "measuredHeight": {
+    "1440": 879.4,
+    "1280": 896.8,
+    "768": 1055.1,
+    "390": 749.1
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/pixel-shapes-left.png",
+     "alt": "",
+     "w": 286,
+     "h": 102.8,
+     "el": "e10k4luw2"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/pixel-shapes-right.png",
+     "alt": "",
+     "w": 286,
+     "h": 123.4,
+     "el": "e10k4luw3"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e10k4luw6-005504.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "text": "Dashboards",
+     "el": "e10k4luw7"
+    },
+    {
+     "role": "text",
+     "text": "Beta",
+     "el": "e10k4luw8"
+    },
+    {
+     "role": "h1",
+     "text": "The metrics your\nCRM can’t give you",
+     "parts": [
+      {
+       "el": "e10k4luw9",
+       "text": "The",
+       "font": "Inter"
+      },
+      {
+       "el": "e10k4luw10",
+       "text": "metrics",
+       "font": "PP Mondwest"
+      },
+      {
+       "el": "e10k4luw12",
+       "img": "/assets/marketing/ai-dashboards-hero-icon.png"
+      },
+      {
+       "el": "e10k4luw9",
+       "text": "your\nCRM can’t give you",
+       "font": "Inter"
+      }
+     ],
+     "el": "e10k4luw13"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-dashboards-hero-icon.png",
+     "alt": "",
+     "w": 77,
+     "h": 72,
+     "el": "e10k4luw12"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 147,
+     "el": "e10k4luw14"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "Analyze data from",
+     "el": "e10k4luw18"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/DataSource1.svg",
+     "alt": "Intercom",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/AppStore.svg",
+     "alt": "App Store",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Zendesk.svg",
+     "alt": "Zendesk",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Slack.svg",
+     "alt": "Slack",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/DataSource2.svg",
+     "alt": "Pendo",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/GooglePlay.svg",
+     "alt": "Google Play",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "link",
+     "text": "+",
+     "href": "https://docs.dovetail.com/integrations",
+     "ariaLabel": "See all integrations",
+     "el": "e10k4luw21"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-dashboards-hero.png",
+     "alt": "",
+     "w": 1192,
+     "h": 603.4,
+     "el": "e10k4luw24"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-dashboards-mobile-hero.png",
+     "alt": "",
+     "w": 0,
+     "h": 0,
+     "el": "e10k4luw25",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "LogoMarqueeWrap",
+   "el": "e10e80xt0",
+   "measuredHeight": {
+    "1440": 503.6,
+    "1280": 444.9,
+    "768": 79.6,
+    "390": 99.2
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Connecting the world’s greatest companies to their customers",
+     "el": "e1jzkpz90"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/amazon-918921.svg",
+     "w": 88.9,
+     "h": 40,
+     "ariaLabel": "Amazon",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/dyson-990499.svg",
+     "w": 88.9,
+     "h": 40,
+     "ariaLabel": "Dyson",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/mercedes-benz-133521.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Mercedes-Benz",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/qantas-584168.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Qantas",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/aws-271091.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "AWS",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/toyota-301058.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Toyota",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/canva-585358.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Canva",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/volvo-486139.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Volvo",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/notion-653232.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Notion",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/salesforce-823526.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Salesforce",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/milwaukee-672003.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Milwaukee",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/kpmg-168064.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "KPMG",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/wise-541877.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Wise",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/mckinsey-company-197947.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "McKinsey & Company",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ford-139900.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Ford",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/walgreens-861455.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Walgreens",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/shopify-732620.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Shopify",
+     "el": "svg"
+    }
+   ]
+  },
+  {
+   "slice": "ProductFeatures",
+   "el": "e1r1adlk0",
+   "measuredHeight": {
+    "1440": 3600,
+    "1280": 4072,
+    "768": 4279.4,
+    "390": 2849.3
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-dashboards-feature-1.png",
+     "alt": "Dovetail Dashboards product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-dashboards-feature-2.png",
+     "alt": "Dovetail Dashboards product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-dashboards-feature-3.png",
+     "alt": "Dovetail Dashboards product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-dashboards-feature-4.png",
+     "alt": "Dovetail Dashboards product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "01",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "The what and the why, together",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 151,
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "02",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "Agents act on it",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "text": "The moment a signal crosses your threshold, an Agent already knows why it moved and can act on it, before you've even opened the dashboard.",
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "03",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "The executive view your leaders need",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 174,
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "04",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "Quantify your voice of customer",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 176,
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-dashboards-feature-1.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-dashboards-feature-2.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-dashboards-feature-3.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-dashboards-feature-4.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "ProductFor",
+   "el": "eea47v90",
+   "measuredHeight": {
+    "1440": 3400,
+    "1280": 3300,
+    "768": 616,
+    "390": 820
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "Dashboards for",
+     "el": "eea47v94"
+    },
+    {
+     "role": "button",
+     "text": "Sentiment monitoring",
+     "el": "eea47v98"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-googly-neutral.png",
+     "alt": "",
+     "w": 56,
+     "h": 56,
+     "el": "eea47v910"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 167,
+     "el": "eea47v913"
+    },
+    {
+     "role": "button",
+     "text": "Product health",
+     "el": "eea47v98"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-temperature.png",
+     "alt": "",
+     "w": 56,
+     "h": 56,
+     "el": "eea47v910"
+    },
+    {
+     "role": "button",
+     "text": "Leadership reporting",
+     "el": "eea47v98"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-crown.png",
+     "alt": "",
+     "w": 56,
+     "h": 56,
+     "el": "eea47v910"
+    },
+    {
+     "role": "button",
+     "text": "Cross-team alignment",
+     "el": "eea47v98"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-target.png",
+     "alt": "",
+     "w": 56,
+     "h": 56,
+     "el": "eea47v910"
+    },
+    {
+     "role": "button",
+     "text": "Drill-in and zoom out",
+     "el": "eea47v98"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-magnifier.png",
+     "alt": "",
+     "w": 56,
+     "h": 56,
+     "el": "eea47v910"
+    }
+   ]
+  },
+  {
+   "slice": "ProductQuote",
+   "el": "e1cnxsk60",
+   "measuredHeight": {
+    "1440": 560,
+    "1280": 560,
+    "768": 333.6,
+    "390": 397.6
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/testimonial-grid-bg.png.png",
+     "alt": "Grid background",
+     "w": 1260,
+     "h": 560,
+     "el": "e1ms7w8v3"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti__3_.png",
+     "alt": "",
+     "w": 80,
+     "h": 80,
+     "el": "e1cnxsk65"
+    },
+    {
+     "role": "quote",
+     "placeholder": true,
+     "chars": 217,
+     "el": "e1cnxsk66"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-breville-white-logo.svg",
+     "alt": "",
+     "w": 99,
+     "h": 24,
+     "el": "e1cnxsk68"
+    },
+    {
+     "role": "text",
+     "text": "Constance Docos",
+     "el": "e1cnxsk611"
+    },
+    {
+     "role": "text",
+     "text": "Senior UX Designer",
+     "el": "e1cnxsk612"
+    },
+    {
+     "role": "button",
+     "text": "01",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "02",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "03",
+     "el": "e5b4pau2"
+    }
+   ]
+  },
+  {
+   "slice": "ProductCarousel",
+   "el": "e1c9zraz0",
+   "measuredHeight": {
+    "1440": 1213.8,
+    "1280": 1071.8,
+    "768": 855.2,
+    "390": 879.2
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "Built to scale with\nyour data",
+     "el": "e1c9zraz3"
+    },
+    {
+     "role": "text",
+     "text": "Customizable, permission-aware, and shareable with anyone in your workspace.",
+     "el": "e1c9zraz6"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e5zj3j12-080716.svg",
+     "w": 32,
+     "h": 26.3,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e5zj3j12-080716.svg",
+     "w": 32,
+     "h": 26.3,
+     "el": "svg"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-dashboards-carousel-1.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Auto-populated on creation",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Dovetail analyzes your workspace on creation and suggests relevant widgets based on the data available to you.",
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-dashboards-carousel-2.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Unlimited widgets",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Add as many widgets as your team needs with no cap on the views you can build or share.",
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-dashboards-carousel-3.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Shareable dashboards",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Share a live dashboard view with anyone in your workspace so stakeholders stay current on customer intelligence.",
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-dashboards-carousel-4.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Permission controls",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Dashboard data respects source-level permissions automatically, so users only see what they're authorized to access.",
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-dashboards-carousel-5.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "From question to chart, instantly",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Ask Chat a quantitative question and get a real calculation and visualization back—the report’s built as fast as the question’s asked.",
+     "el": "e1c9zraz17"
+    }
+   ]
+  },
+  {
+   "slice": "Findings",
+   "el": "e1fjikez0",
+   "measuredHeight": {
+    "1440": 1691.8,
+    "1280": 1568.4,
+    "768": 2511.1,
+    "390": 1872.6
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "Get more from your findings",
+     "parts": [
+      {
+       "el": "e1fjikez2",
+       "text": "Get",
+       "font": "Inter"
+      },
+      {
+       "el": "e1fjikez5",
+       "img": "/assets/marketing/product-findings-icon.png"
+      },
+      {
+       "el": "e1fjikez3",
+       "text": "more",
+       "font": "PP Mondwest"
+      },
+      {
+       "el": "e1fjikez2",
+       "text": "from your findings",
+       "font": "Inter"
+      }
+     ],
+     "el": "e1fjikez1"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/product-findings-icon.png",
+     "alt": "",
+     "w": 157.3,
+     "h": 96,
+     "el": "e1fjikez5"
+    },
+    {
+     "role": "text",
+     "text": "The real value isn’t in the analysis. It’s in what you do with it next.",
+     "el": "e1fjikez6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-dashboards-findings-chat.png",
+     "alt": "Dovetail Dashboards findings in Dovetail Chat",
+     "w": 578,
+     "h": 411.1,
+     "el": "img"
+    },
+    {
+     "role": "h3",
+     "text": "AI Chat",
+     "el": "e1fjikez7"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-icon-chat.svg",
+     "alt": "",
+     "w": 24,
+     "h": 24,
+     "el": "e1fjikez8"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 166,
+     "el": "eiz8yhc2"
+    },
+    {
+     "role": "link",
+     "text": "Learn more",
+     "href": "/product/ai-chat/",
+     "el": "eiz8yhc4"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eiz8yhc4-194629.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-dashboards-findings-docs.png",
+     "alt": "Dovetail Dashboards findings in Dovetail Docs",
+     "w": 578,
+     "h": 411.1,
+     "el": "img"
+    },
+    {
+     "role": "h3",
+     "text": "AI Docs",
+     "el": "e1fjikez7"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-icon-docs.svg",
+     "alt": "",
+     "w": 24,
+     "h": 24,
+     "el": "e1fjikez8"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 161,
+     "el": "eiz8yhc2"
+    },
+    {
+     "role": "link",
+     "text": "Learn more",
+     "href": "/product/ai-docs/",
+     "el": "eiz8yhc4"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eiz8yhc4-194629.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-dashboards-findings-agents.png",
+     "alt": "Dovetail Dashboards findings shared by Dovetail AI Agents",
+     "w": 614,
+     "h": 436.7,
+     "el": "img"
+    },
+    {
+     "role": "h3",
+     "text": "AI Agents",
+     "el": "e1fjikez7"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-icon-agents.svg",
+     "alt": "",
+     "w": 24,
+     "h": 24,
+     "el": "e1fjikez8"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 171,
+     "el": "eiz8yhc2"
+    },
+    {
+     "role": "link",
+     "text": "Learn more",
+     "href": "/product/ai-agents/",
+     "el": "eiz8yhc4"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eiz8yhc4-194629.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    }
+   ]
+  },
+  {
+   "slice": "PixelBand",
+   "el": "e70som00",
+   "measuredHeight": {
+    "1440": 120,
+    "1280": 0,
+    "768": 0,
+    "390": 0
+   },
+   "content": []
+  },
+  {
+   "slice": "CustomerStories",
+   "el": "elme6fd0",
+   "measuredHeight": {
+    "1440": 910,
+    "1280": 700,
+    "768": 501.9,
+    "390": 621.9
+   },
+   "content": [
+    {
+     "role": "button",
+     "text": "01",
+     "ariaLabel": "Breville customer story",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "02",
+     "ariaLabel": "Atlassian customer story",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "03",
+     "ariaLabel": "Itaú Unibanco customer story",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "h3",
+     "text": "How customer insights drive and inspire Breville’s product innovation",
+     "el": "e1wn1hrv5"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1wn1hrv9-593209.svg",
+     "w": 56,
+     "h": 56,
+     "el": "e1wn1hrv11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 207,
+     "el": "e1wn1hrv6"
+    },
+    {
+     "role": "link",
+     "text": "Read the story",
+     "href": "/customers/breville/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "All customer stories",
+     "href": "/customers/",
+     "el": "e1wn1hrv8"
+    },
+    {
+     "role": "h3",
+     "text": "How Atlassian turns customer signals into confident product decisions",
+     "el": "e1wn1hrv5",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1wn1hrv9-661009.svg",
+     "w": 0,
+     "h": 0,
+     "el": "e1wn1hrv11",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 153,
+     "el": "e1wn1hrv6",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "link",
+     "text": "Read the story",
+     "href": "/customers/atlassian-design/",
+     "el": "a",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "h3",
+     "text": "How Itaú Unibanco delivers better banking experiences with Dovetail",
+     "el": "e1wn1hrv5",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1wn1hrv9-365555.svg",
+     "w": 0,
+     "h": 0,
+     "el": "e1wn1hrv11",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 183,
+     "el": "e1wn1hrv6",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "link",
+     "text": "Read the story",
+     "href": "/customers/itau-unibanco/",
+     "el": "a",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "PixelBand",
+   "el": "e70som00",
+   "measuredHeight": {
+    "1440": 120,
+    "1280": 0,
+    "768": 0,
+    "390": 0
+   },
+   "content": []
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 64,
+    "768": 64,
+    "390": 64
+   }
+  },
+  {
+   "slice": "FAQ",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 437,
+    "1280": 505,
+    "768": 485,
+    "390": 509
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "FAQs",
+     "el": "ef2kgtv0"
+    },
+    {
+     "role": "button",
+     "text": "What are Dovetail AI Dashboards?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ea410al3-082750.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 138,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "How do dashboards help me spot issues early?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 111,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Can I use them to identify opportunities?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 98,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "What can I track and visualize?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 161,
+     "el": "ef2kgtv2"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 64,
+    "768": 64,
+    "390": 64
+   }
+  }
+ ]
+}

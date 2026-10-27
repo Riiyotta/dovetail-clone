@@ -1,0 +1,115 @@
+{
+ "path": "/b2bsaasy/",
+ "title": "B2B Sassy—The Podcast from Dovetail",
+ "hero": {
+  "eyebrow": "Podcast",
+  "h1": "B2B SaaSy",
+  "intro": {
+   "placeholder": true,
+   "chars": 137
+  }
+ },
+ "episodes": [
+  {
+   "href": "https://open.spotify.com/episode/2e4pFTlaYecZCXkJqGZaDM",
+   "image": {
+    "src": "/assets/company/media/b2b_saasy_web_ep_04.png",
+    "alt": "",
+    "w": 800,
+    "h": 450
+   },
+   "title": "AI is doing 90% of the job, the other 10% has never mattered more.",
+   "date": "June 17, 2026"
+  },
+  {
+   "href": "https://open.spotify.com/episode/3Om61maff4Z2toirRS6toH",
+   "image": {
+    "src": "/assets/company/media/b2b_saasy_web_ep_03.png",
+    "alt": "",
+    "w": 800,
+    "h": 450
+   },
+   "title": "The accidental product manager, a new party trick, and how AI is helping remove career stigmas",
+   "date": "May 5, 2026"
+  },
+  {
+   "href": "https://open.spotify.com/episode/3uXMGpix5UHIQUmqVJpv67",
+   "image": {
+    "src": "/assets/company/media/b2b_saasy_web_ep_02.png",
+    "alt": "",
+    "w": 800,
+    "h": 450
+   },
+   "title": "The death of deterministic code, AI etiquette, and why your prompt engineering is failing",
+   "date": "March 3, 2026"
+  },
+  {
+   "href": "https://open.spotify.com/episode/3NWFZ6XbCqJqiD06mUAhGU",
+   "image": {
+    "src": "/assets/company/media/b2b_saasy_web_ep_01.png",
+    "alt": "",
+    "w": 800,
+    "h": 450
+   },
+   "title": "AI, kids, and other things you can’t leave unsupervised",
+   "date": "January 27, 2026"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What is B2B SaaSy?",
+   "a": {
+    "placeholder": true,
+    "chars": 418
+   }
+  },
+  {
+   "q": "Who hosts the B2B SaaSy podcast?",
+   "a": {
+    "placeholder": true,
+    "chars": 489
+   }
+  },
+  {
+   "q": "Where can I listen to B2B SaaSy?",
+   "a": {
+    "placeholder": true,
+    "chars": 38
+   }
+  },
+  {
+   "q": "How often does B2B SaaSy release new episodes?",
+   "a": {
+    "placeholder": true,
+    "chars": 107
+   }
+  },
+  {
+   "q": "What topics does B2B SaaSy cover?",
+   "a": {
+    "placeholder": true,
+    "chars": 246
+   }
+  },
+  {
+   "q": "Is B2B SaaSy made by Dovetail?",
+   "a": {
+    "placeholder": true,
+    "chars": 234
+   }
+  }
+ ],
+ "cta": {
+  "heading": "Unlock customer intelligence for your organization",
+  "buttons": [
+   {
+    "label": "Contact sales",
+    "href": "/contact-sales/"
+   },
+   {
+    "label": "Try Dovetail free",
+    "href": "/auth/signup/"
+   }
+  ]
+ }
+}

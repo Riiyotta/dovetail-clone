@@ -1,0 +1,82 @@
+/* CLONE_SPEC.md §2 */
+.nav { position: relative; z-index: 5; height: 88px; padding: 24px; display: flex; justify-content: space-between; align-items: center; background: transparent; }
+.nav__left { display: flex; align-items: center; }
+.nav__logo { padding: 10px 11px; border: 1px solid transparent; border-radius: 8px; margin-right: 8px; display: flex; }
+.nav__logo-mark { width: 21.6px; height: 24px; color: #FFF; }
+.nav__links { display: flex; align-items: center; gap: 4px; }
+.nav-link { color: #FFF; }
+.nav__right { display: flex; justify-content: flex-end; align-items: center; gap: 8px; }
+/* 1px transparent border reconciles the measured 72x38 with pad 10/16 + 14/16 text (same +2px seen on the nav buttons) */
+.nav__menu { display: none; border: 1px solid transparent; padding: 10px 16px; font-size: 14px; line-height: 16px; font-weight: 600; background: #FFF; color: #0A0A0A; border-radius: 8px; white-space: nowrap; }
+
+@media (max-width: 1185px) {
+  .nav { padding: 0 64px; }
+  .nav__links, .nav__right { display: none; }
+  .nav__menu { display: inline-flex; align-items: center; justify-content: center; }
+}
+@media (max-width: 799px) { .nav { padding: 0 16px; } }
+
+/* Dropdowns — hover bridge wrapper */
+.nav-dd { padding: 0 8px; margin: 0 -8px; position: relative; }
+.nav-dd__positioner { position: absolute; top: 100%; left: 0; z-index: 6; opacity: 0; visibility: hidden; pointer-events: none;
+  transition: opacity 150ms, visibility 150ms; }
+.nav-dd:hover .nav-dd__positioner { opacity: 1; visibility: visible; pointer-events: auto; }
+.nav-dd__panel { margin-top: 8px; padding: 16px; display: flex; flex-direction: column; gap: 16px; border-radius: 8px;
+  backdrop-filter: blur(32px); -webkit-backdrop-filter: blur(32px); color: #FFF; }
+.nav-dd__row { display: flex; gap: 16px; }
+.nav-dd__columns { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; min-width: 552px; flex: 1; }
+.nav-dd__col { display: flex; flex-direction: column; gap: 4px; }
+.nav-dd__heading { padding: 16px 16px 8px; min-height: 44px; }
+.nav-dd__item { display: flex; flex-direction: column; gap: 4px; padding: 12px 16px; min-width: 272px; border: 1px solid transparent; border-radius: 8px; transition: 300ms; }
+.nav-dd__item:hover { background: rgba(255,255,255,.08); }
+.nav-dd__title-row { display: flex; align-items: center; gap: 8px; }
+.nav-dd__tile { width: 20px; height: 20px; border-radius: 4px; display: flex; flex-shrink: 0; }
+.nav-dd__tile img { display: block; width: 20px; height: 20px; }
+.nav-dd__title { font-size: 16px; line-height: 24px; font-weight: 500; white-space: nowrap; }
+.nav-dd__badge { padding: 4px 6px; border-radius: 4px; color: rgba(255,255,255,.64); }
+.nav-dd__desc { font-size: 14px; line-height: 22px; font-weight: 400; width: 238px; }
+.nav-dd__desc--wide { width: 260px; }
+
+/* Product promo card */
+.nav-promo { position: relative; width: 292px; height: 350px; flex-shrink: 0; border-radius: 8px; overflow: hidden;
+  display: flex; flex-direction: column; justify-content: space-between; color: #FFF; transition: 300ms; }
+.nav-promo:hover, .nav-promo:focus-visible { color: #A7A7A7; }
+.nav-promo__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center bottom; transition: transform 400ms; }
+.nav-promo:hover .nav-promo__img, .nav-promo:focus-visible .nav-promo__img { transform: scale(1.04); }
+.nav-promo__eyebrow, .nav-promo__heading { position: relative; padding: 16px; }
+.nav-promo__heading { font-size: 40px; font-weight: 600; line-height: 1.05; letter-spacing: -1.2px; }
+
+/* Product footer card */
+.nav-footcard { display: flex; align-items: center; gap: 8px; padding: 16px 24px; border-radius: 8px; color: #FFF; transition: 300ms; }
+.nav-footcard:hover, .nav-footcard:focus-visible { background: #191919; color: #A7A7A7; }
+.nav-footcard__title { font-size: 16px; line-height: 24px; font-weight: 500; }
+.nav-footcard__desc { font-size: 14px; line-height: 22px; }
+
+/* ---- Header spacer (content-shared.md §1): div{height:88px} under the nav, 88 at every width ---- */
+.nav-spacer { height: 88px; }
+
+/* ---- Light nav (content-shared.md §2) — guide/contributor pages ---- */
+.nav--light { color: #0A0A0A; }
+.nav--light .nav-link { color: #0A0A0A; }
+/* Ghost hover stays rgba(255,255,255,.08) (base rule) — effectively invisible on #FAFAFA; faithful quirk. */
+.nav--light .nav__logo-mark { color: #0A0A0A; }
+.nav--light .btn-nav-white,
+.nav--light .nav__menu { background: #0A0A0A; color: #FAFAFA; transition: all 300ms; }
+.nav--light .btn-nav-white:hover,
+.nav--light .nav__menu:hover { background: #3B3B3B; }
+.nav--light .nav-dd__panel { background: #F5F5F5; border-color: rgba(10,10,10,.04); color: #0A0A0A; }
+.nav--light .nav-dd__item:hover { background: #EBEBEB; }
+/* Descriptions stay rgba(255,255,255,.64) (inherited from .text-text-muted) — live-site bug, reproduced. */
+
+/* ---- Legal palette (tools-shared.md §I; colours re-measured on dovetail.com/legal/ at 1440) — layered on .nav--light ---- */
+.nav--legal .btn-nav-ghost:hover { background: #EBEBEB; }
+.nav--legal .nav-dd__panel { background: #D8D8D8; border-color: rgba(10,10,10,.04); color: #0A0A0A; }
+.nav--legal .nav-dd__item { color: #0A0A0A; }
+.nav--legal .nav-dd__item:hover { background: rgba(10,10,10,.04); }
+.nav--legal .nav-dd__desc { color: #4F4F4F; }
+.nav--legal .nav-dd__badge { background: rgba(10,10,10,.04); color: #4F4F4F; }
+/* Live quirk: the promo and API footer cards keep their dark fills but take the ink colour #0A0A0A, hover #626262. */
+.nav--legal .nav-promo,
+.nav--legal .nav-footcard { color: #0A0A0A; }
+.nav--legal .nav-promo:hover, .nav--legal .nav-promo:focus-visible,
+.nav--legal .nav-footcard:hover, .nav--legal .nav-footcard:focus-visible { color: #626262; }

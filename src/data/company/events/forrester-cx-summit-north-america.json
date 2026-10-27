@@ -1,0 +1,114 @@
+{
+ "slug": "forrester-cx-summit-north-america",
+ "path": "/events/forrester-cx-summit-north-america/",
+ "title": "Forrester CX Summit North America",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2025-06-23T13:30-08:00",
+ "endDate": "2025-06-26T13:30-08:00",
+ "onlineEvent": false,
+ "location": "Nashville & Digital",
+ "hosts": [
+  "Jeremie Gluckman",
+  "Alissa Lydon",
+  "Cheryl Abellanoza",
+  "PhD"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": null,
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Jeremie Gluckman, Alissa Lydon, Cheryl Abellanoza, PhD"
+  },
+  {
+   "label": "[START]",
+   "value": "23 Jun 2025 2:30PM PDT"
+  },
+  {
+   "label": "[END]",
+   "value": "26 Jun 2025 2:30PM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Nashville & Digital"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/slack-imgs.jpg",
+  "width": 1200,
+  "height": 628,
+  "youtubeId": null
+ },
+ "body": [
+  {
+   "t": "h2",
+   "text": "Click here to learn more!"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 85
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 342
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 521
+  },
+  {
+   "t": "p",
+   "text": "More info:"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 90,
+   "strong": [
+    "Independent Study Reveals 236% ROI with Dovetail’s AI-First Customer Intelligence Platform"
+   ],
+   "links": [
+    {
+     "text": "Independent Study Reveals 236% ROI with Dovetail’s AI-First Customer Intelligence Platform",
+     "href": "https://www.businesswire.com/news/home/20250618219017/en/Independent-Study-Reveals-236-ROI-with-Dovetails-AI-First-Customer-Intelligence-Platform"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 59,
+   "strong": [
+    "Discover how organizations using Dovetail achieved 236% ROI",
+    "Discover how organizations using Dovetail achieved 236% ROI",
+    "Discover how organizations using Dovetail achieved 236% ROI"
+   ],
+   "links": [
+    {
+     "text": "Discover how organizations using Dovetail achieved 236% ROI",
+     "href": "/resources/industry-reports/2025-forrester-TEI-of-Dovetail/#discover-how-organizations-using-dovetail-achieved-236-roi"
+    }
+   ]
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

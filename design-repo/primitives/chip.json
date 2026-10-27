@@ -1,0 +1,15 @@
+{
+ "id": "chip",
+ "kind": "primitive",
+ "title": "Filter chip / pill",
+ "variants": {
+  "default": "pill used for category filters and diagram steps"
+ },
+ "tokens": [
+  "radius.default",
+  "blur.pill"
+ ],
+ "evidence": [
+  "CLONE_SPEC.md:396"
+ ]
+}

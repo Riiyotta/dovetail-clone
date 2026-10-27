@@ -1,0 +1,240 @@
+{
+ "slug": "netguru",
+ "path": "/customers/netguru/",
+ "title": "Netguru reclaims 38+ hours per week by centralizing intelligence with the Dovetail platform",
+ "eyebrow": "CUSTOMER / NETGURU",
+ "companyName": "Netguru",
+ "isAnonymous": false,
+ "industry": "Technology",
+ "intro": {
+  "placeholder": true,
+  "chars": 498
+ },
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/Netguru.png",
+  "width": 1086,
+  "height": 700,
+  "youtubeId": null,
+  "caption": [
+   "EWELINA SZCZEPANIAK-WENTING, SENIOR UX RESEARCHER, TISCHNER EUROPEAN UNIVERSITY LECTURER"
+  ]
+ },
+ "stats": [
+  {
+   "value": "38+",
+   "label": "hours saved weekly"
+  },
+  {
+   "value": "30+",
+   "label": "languages transcribed"
+  },
+  {
+   "value": "40+",
+   "label": "insights shared annually"
+  }
+ ],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "How Netguru saves 38+ hours every week, collaborates on multiple projects at once, and shares digestible findings their stakeholders love",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 498
+    }
+   ]
+  },
+  {
+   "heading": "Juggling multiple intelligence projects across teams with ease",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 446,
+     "links": [
+      {
+       "text": "transcribing in 30+ languages",
+       "href": "https://docs.dovetail.com/help/import-data-to-projects/#transcribe-video-and-audio-files"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "Generating customer intelligence efficiently and effectively to save 38+ hours of work weekly",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 710,
+     "links": [
+      {
+       "text": "security features",
+       "href": "https://trust.dovetail.com/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "Sharing digestible customer intelligence that stakeholders actually want to read",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 330
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 299
+    }
+   ]
+  },
+  {
+   "heading": "Applying Dovetail in university classrooms",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 309
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 218
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": {
+  "quote": {
+   "placeholder": true,
+   "chars": 183
+  },
+  "name": "Ewelina Szczepaniak-Wenting",
+  "role": "Senior UX Researcher, Tischner European University lecturer"
+ },
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "okta",
+   "href": "/customers/okta/",
+   "title": "How Okta built a customer intelligence platform trusted by 200+ users across 30+ teams",
+   "industry": "Technology",
+   "order": 9,
+   "companyName": "Okta",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Okta.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/white-logo(1).svg",
+    "alt": "Okta",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 219
+    },
+    "name": "Jared Forney",
+    "role": "Research Operations Principal"
+   }
+  },
+  {
+   "slug": "zapier",
+   "href": "/customers/zapier/",
+   "title": "How Zapier puts customer intelligence in everyone’s hands and gets tens of hours back every week",
+   "industry": "Technology",
+   "order": 11,
+   "companyName": "Zapier",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Zapier.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-zapier-white-logo.svg",
+    "alt": "Zapier",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": "“Dovetail helps us simplify the process of pouring all our customer data and all our insights into one spot.”",
+    "name": "Roy Olende",
+    "role": "Head of UX Research"
+   }
+  },
+  {
+   "slug": "atlassian",
+   "href": "/customers/atlassian/",
+   "title": "Atlassian champions the customer at a global scale with Dovetail",
+   "industry": "Technology",
+   "order": 10,
+   "companyName": "Atlassian",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Atlassian2.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+    "alt": "Atlassian",
+    "w": 160,
+    "h": 20
+   },
+   "testimonial": null
+  }
+ ]
+}

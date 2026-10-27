@@ -1,0 +1,869 @@
+{
+ "url": "/roles/research/",
+ "template": "roles",
+ "title": "Dovetail for Researchers",
+ "metaDescription": "Make every research insight go further with customer intelligence. Dovetail helps teams analyze faster and share evidence-backed answers across the org.",
+ "documentHeight": {
+  "1440": 11061,
+  "1280": 11987,
+  "768": 13951,
+  "390": 12465
+ },
+ "chrome": {
+  "alertBar": true,
+  "navBackground": null,
+  "footer": "finalCta"
+ },
+ "sections": [
+  {
+   "slice": "RoleHero",
+   "el": "eb5iodx0",
+   "measuredHeight": {
+    "1440": 857.1,
+    "1280": 761.9,
+    "768": 792.6,
+    "390": 637.5
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-researcher-hero.png",
+     "alt": "",
+     "w": 1440,
+     "h": 857.1,
+     "el": "eb5iodx2"
+    },
+    {
+     "role": "text",
+     "text": "Dovetail for User Research",
+     "el": "eb5iodx5.etfyu4r0"
+    },
+    {
+     "role": "h1",
+     "text": "Make every research insight go further",
+     "el": "eb5iodx6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-wise-white-logo.svg",
+     "alt": "Wise",
+     "w": 71.1,
+     "h": 32,
+     "el": "eb5iodx11"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-aws-white-logo.svg",
+     "alt": "AWS",
+     "w": 71.1,
+     "h": 32,
+     "el": "eb5iodx11"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-zapier-white-logo.svg",
+     "alt": "Zapier",
+     "w": 71.1,
+     "h": 32,
+     "el": "eb5iodx11"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-shopify-white-logo.svg",
+     "alt": "Shopify",
+     "w": 71.1,
+     "h": 32,
+     "el": "eb5iodx11"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-researcher-hero-mobile.png",
+     "alt": "",
+     "w": 0,
+     "h": 0,
+     "el": "eb5iodx3",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "Challenge",
+   "el": "etid8i64",
+   "measuredHeight": {
+    "1440": 856,
+    "1280": 856,
+    "768": 281.6,
+    "390": 473.6
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/how-it-works-grid-bg.png.png",
+     "alt": "Grid background",
+     "w": 1260,
+     "h": 856,
+     "el": "e1ms7w8v3"
+    },
+    {
+     "role": "text",
+     "text": "The challenge",
+     "el": "e1qa43fr0.etfyu4r0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 244,
+     "el": "visually-hidden"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Request a demo",
+     "href": "/request-a-demo/",
+     "el": "a"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "HowDovetailHelps",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 267.6,
+    "1280": 143.6,
+    "768": 135.6,
+    "390": 171.6
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "How Dovetail helps",
+     "el": "e1hzr4mi0.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Scale insight without slowing down",
+     "el": "e1hzr4mi1"
+    }
+   ]
+  },
+  {
+   "slice": "HowDovetailHelps",
+   "el": "etid8i64",
+   "measuredHeight": {
+    "1440": 1177.2,
+    "1280": 1147.3,
+    "768": 2752.4,
+    "390": 1863.4
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-researcher-feature-1.png",
+     "alt": "",
+     "w": 582,
+     "h": 434.6,
+     "el": "e1hzr4mi3"
+    },
+    {
+     "role": "h3",
+     "text": "Spend time on the work that matters most",
+     "el": "e1hzr4mi5"
+    },
+    {
+     "role": "text",
+     "text": "Automate repetitive tasks like tagging, identifying themes, and summarising data, so you can act on insights faster.",
+     "el": "e1hzr4mi6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-researcher-feature-2.png",
+     "alt": "",
+     "w": 582,
+     "h": 434.6,
+     "el": "e1hzr4mi3"
+    },
+    {
+     "role": "h3",
+     "text": "Let stakeholders find answers without asking",
+     "el": "e1hzr4mi5"
+    },
+    {
+     "role": "text",
+     "text": "Dovetail lets teams self-serve insights, reducing repeated requests so researchers can focus on impactful work.",
+     "el": "e1hzr4mi6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-researcher-feature-3.png",
+     "alt": "",
+     "w": 582,
+     "h": 434.6,
+     "el": "e1hzr4mi3"
+    },
+    {
+     "role": "h3",
+     "text": "Increase visibility and research impact org-wide",
+     "el": "e1hzr4mi5"
+    },
+    {
+     "role": "text",
+     "text": "Generate summaries, synthesize findings, and create stakeholder-ready briefs automatically.",
+     "el": "e1hzr4mi6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-researcher-feature-4.png",
+     "alt": "",
+     "w": 582,
+     "h": 434.6,
+     "el": "e1hzr4mi3"
+    },
+    {
+     "role": "h3",
+     "text": "Turn raw data into structured summaries",
+     "el": "e1hzr4mi5"
+    },
+    {
+     "role": "text",
+     "text": "Use AI-powered frameworks to structure findings and create clear, repeatable summaries your team can trust.",
+     "el": "e1hzr4mi6"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "Integrations",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 1532,
+    "1280": 1665.6,
+    "768": 1705.6,
+    "390": 2173.6
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Integrations",
+     "el": "e1ttzgas0.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Connect to the tools you use",
+     "el": "e1ttzgas1"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Request a demo",
+     "href": "/request-a-demo/",
+     "el": "a"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Zoom.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Zoom",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 153,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/GoogleMeet.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Google Meet",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 169,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/GoogleDrive.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Google Drive",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 165,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/MicrosoftOneDrive.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Microsoft OneDrive",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 168,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Slack.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Teams.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Slack & Teams",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 170,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Sprig.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Sprig",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 167,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/UserSnap.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Usersnap",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 163,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Claude.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Claude",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 183,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ChatGPT.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "ChatGPT",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "text": "Bring your research insights into ChatGPT and turn findings into decisions without leaving the conversation.",
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "link",
+     "text": "Discover all integrations",
+     "href": "https://docs.dovetail.com/integrations/",
+     "el": "e1ttzgas13"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1ttzgas13-277801.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "UseCaseTabs",
+   "el": "e1af4wr40",
+   "measuredHeight": {
+    "1440": 927.6,
+    "1280": 1343,
+    "768": 1040.2,
+    "390": 870.6
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Use cases",
+     "el": "e1af4wr41.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Practical ways research teams use Dovetail",
+     "el": "e1af4wr42"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-researcher-usecase-deep-analysis.png",
+     "alt": "",
+     "w": 616,
+     "h": 472,
+     "el": "e1af4wr45"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-researcher-usecase-instant-answers.png",
+     "alt": "",
+     "w": 616,
+     "h": 472,
+     "el": "e1af4wr45"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-researcher-usecase-automated-updates.png",
+     "alt": "",
+     "w": 616,
+     "h": 472,
+     "el": "e1af4wr45"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-researcher-usecase-centralized-research.png",
+     "alt": "",
+     "w": 616,
+     "h": 472,
+     "el": "e1af4wr45"
+    },
+    {
+     "role": "button",
+     "text": "Deep analysis",
+     "el": "e1af4wr49"
+    },
+    {
+     "role": "button",
+     "text": "Instant answers",
+     "el": "e1af4wr49"
+    },
+    {
+     "role": "button",
+     "text": "Automated updates",
+     "el": "e1af4wr49"
+    },
+    {
+     "role": "button",
+     "text": "Centralized research",
+     "el": "e1af4wr49"
+    },
+    {
+     "role": "text",
+     "text": "Analyze user research sessions in detail, uncovering themes, behaviors, and insights across interviews and studies.",
+     "el": "e1af4wr410"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "TestimonialSlice",
+   "el": "eqa8jb90",
+   "measuredHeight": {
+    "1440": 560,
+    "1280": 560,
+    "768": 242,
+    "390": 400.4
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/testimonial-grid-bg.png.png",
+     "alt": "Grid background",
+     "w": 1260,
+     "h": 560,
+     "el": "e1ms7w8v3"
+    },
+    {
+     "role": "link-card",
+     "text": null,
+     "href": "/customers/cnh/",
+     "el": "e1i468kp0"
+    },
+    {
+     "role": "text",
+     "text": "Read customer story",
+     "el": "e1i468kp8"
+    },
+    {
+     "role": "quote",
+     "placeholder": true,
+     "chars": 207,
+     "el": "e1i468kp5"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-cnh-white-logo.svg",
+     "alt": "CNH",
+     "w": 142,
+     "h": 40,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "Matthew Klopfenstein",
+     "el": "e1i468kp6"
+    },
+    {
+     "role": "text",
+     "text": "Portfolio Management–Cash Crop Segment Specialist",
+     "el": "e1i468kp7"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "CustomerStoryCards",
+   "el": "etid8i64",
+   "measuredHeight": {
+    "1440": 531.8,
+    "1280": 1445.3,
+    "768": 2675.9,
+    "390": 1427.9
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/Customer_Atlassian2.png",
+     "alt": "",
+     "w": 376,
+     "h": 413.8,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+     "alt": "Atlassian",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "link",
+     "text": "Atlassian champions the customer at a global scale with Dovetail ↘",
+     "href": "/customers/atlassian/",
+     "el": "e1xybz5410"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Customer_Canva.png",
+     "alt": "",
+     "w": 376,
+     "h": 413.8,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-canva-white-logo.svg",
+     "alt": "Canva",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "link-card",
+     "text": null,
+     "href": "/customers/canva/",
+     "el": "e1xybz5410"
+    },
+    {
+     "role": "img",
+     "src": "/assets/Customer_Breville.png",
+     "alt": "",
+     "w": 376,
+     "h": 413.8,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-breville-white-logo.svg",
+     "alt": "Breville",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "link",
+     "text": "How customer insights drive and inspire Breville’s product innovation ↘",
+     "href": "/customers/breville/",
+     "el": "e1xybz5410"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "QuizPromo",
+   "el": "e1l2hegs0",
+   "measuredHeight": {
+    "1440": 395,
+    "1280": 361,
+    "768": 281,
+    "390": 337
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "2-minute quiz",
+     "el": "e1l2hegs3"
+    },
+    {
+     "role": "h2",
+     "text": "How impactful is your UX research practice?",
+     "el": "e1l2hegs4"
+    },
+    {
+     "role": "text",
+     "text": "Answer 10 questions and find out how your research practice compares.",
+     "el": "e1l2hegs5"
+    },
+    {
+     "role": "link",
+     "text": "Take the quiz",
+     "href": "/roles/research/quiz/",
+     "el": "a"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "FAQ",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 538,
+    "1280": 606,
+    "768": 583,
+    "390": 679
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "FAQs",
+     "el": "ef2kgtv0"
+    },
+    {
+     "role": "button",
+     "text": "Does AI compromise research rigor?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ea410al3-082750.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 143,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Can Dovetail handle large research datasets?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 108,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Can stakeholders access insights without training?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 124,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "How does Dovetail differ from a traditional research repository?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 112,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Can we compare insights across time or segments?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 97,
+     "el": "ef2kgtv2"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  }
+ ]
+}

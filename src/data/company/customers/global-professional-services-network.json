@@ -1,0 +1,334 @@
+{
+ "slug": "global-professional-services-network",
+ "path": "/customers/global-professional-services-network/",
+ "title": "How a global professional services network turned customer intelligence into a delivery standard across three continents",
+ "eyebrow": "CUSTOMER / ONE OF THE WORLD’S FOUR LARGEST PROFESSIONAL SERVICES NETWORKS",
+ "companyName": "One of the world’s four largest professional services networks",
+ "isAnonymous": true,
+ "industry": "Professional Services",
+ "intro": {
+  "placeholder": true,
+  "chars": 303
+ },
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/global-professional-services-network-hero.jpg",
+  "width": 4242,
+  "height": 2817,
+  "youtubeId": null,
+  "caption": []
+ },
+ "stats": [
+  {
+   "value": "5+ years",
+   "label": "of Dovetail supporting client delivery in the Customer Strategy practice"
+  },
+  {
+   "value": "3 regions",
+   "label": "across the US, Mexico, and India sharing one workspace"
+  },
+  {
+   "value": "460K+ professionals",
+   "label": "across the global network behind this Customer Strategy practice"
+  }
+ ],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "Where insight is the client deliverable",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 359
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 529
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 341
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 155
+    }
+   ]
+  },
+  {
+   "heading": "The challenge: one firm, three regions, no shared intelligence",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 434
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 316
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 276
+    }
+   ]
+  },
+  {
+   "heading": "The solution: one workspace connecting three continents",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 414,
+     "strong": [
+      "Dovetail was built for exactly this problem."
+     ]
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 425
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 280
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 393
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 314
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 312,
+     "links": [
+      {
+       "text": "AI Analysis",
+       "href": "/product/ai-projects/"
+      }
+     ]
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/AI_Analysis_Hero__1_.png",
+     "alt": "Dovetail AI Analysis",
+     "w": 0,
+     "h": 0
+    }
+   ]
+  },
+  {
+   "heading": "The payoff: intelligence that travels beyond the firm’s walls",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 281
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 456
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 244
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 348
+    }
+   ],
+   "pullQuotes": [
+    {
+     "quote": {
+      "placeholder": true,
+      "chars": 203
+     },
+     "name": null,
+     "role": "Enablement Lead, Customer Strategy Practice",
+     "avatar": null,
+     "href": "/customers/global-professional-services-network/"
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": {
+  "quote": {
+   "placeholder": true,
+   "chars": 203
+  },
+  "name": null,
+  "role": "Enablement Lead, Customer Strategy Practice"
+ },
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "global-financial-institution",
+   "href": "/customers/global-financial-institution/",
+   "title": "How a global financial institution cleared one of finance's most rigorous AI security reviews and built its customer intelligence layer with Dovetail",
+   "industry": "Finance",
+   "order": 99,
+   "companyName": "A global financial institution",
+   "gridTitle": "Global financial powerhouse",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-global-financial-institution.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 295
+    },
+    "name": null,
+    "role": "Delivery Manager, Research Operations"
+   }
+  },
+  {
+   "slug": "global-home-furnishings-retailer",
+   "href": "/customers/global-home-furnishings-retailer/",
+   "title": "How a global retailer freed its research team—and built a customer intelligence engine",
+   "industry": "Retail",
+   "order": 99,
+   "companyName": "A global home furnishings retailer",
+   "gridTitle": "Global furnishing retailer",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-global-furnishing-retailer.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 206
+    },
+    "name": null,
+    "role": "Head of Research Operations"
+   }
+  },
+  {
+   "slug": "iconic-global-automaker",
+   "href": "/customers/iconic-global-automaker/",
+   "title": "How one of the world's most iconic automakers put customer intelligence in the hands of its engineers",
+   "industry": "Manufacturing",
+   "order": 99,
+   "companyName": "One of the world's most iconic automakers",
+   "gridTitle": "Iconic global automaker",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-iconic-global-automaker.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 252
+    },
+    "name": null,
+    "role": "Lead UX Strategist"
+   }
+  }
+ ],
+ "faq": {
+  "heading": "FAQs",
+  "items": [
+   {
+    "q": "Can Dovetail support research teams working across different regions or offices on the same engagement?",
+    "a": {
+     "placeholder": true,
+     "chars": 279
+    }
+   },
+   {
+    "q": "How does Dovetail help teams handle the volume of transcripts and notes that client research work generates?",
+    "a": {
+     "placeholder": true,
+     "chars": 200
+    }
+   },
+   {
+    "q": "Can Dovetail be used to share research findings directly with clients, not just internal teams?",
+    "a": {
+     "placeholder": true,
+     "chars": 294
+    }
+   },
+   {
+    "q": "Does Dovetail let teams search and reuse findings from past projects instead of starting research from scratch each time?",
+    "a": {
+     "placeholder": true,
+     "chars": 235
+    }
+   },
+   {
+    "q": "How long has Dovetail supported research operations at a large professional services firm, and does adoption tend to expand over time?",
+    "a": {
+     "placeholder": true,
+     "chars": 268
+    }
+   }
+  ]
+ }
+}

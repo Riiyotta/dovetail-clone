@@ -1,0 +1,92 @@
+/* Corporate pages — shared type presets and slices (marketing-shared.md §3, enterprise.md §1/§5).
+   Breakpoints: md ≤1280, sm ≤799. Desktop-first like the original. */
+
+/* ---- Typography presets ---- */
+.co-h80 { font-weight: 600; font-size: 80px; line-height: 84px; letter-spacing: -2px; }
+.co-h72 { font-weight: 600; font-size: 72px; line-height: 76px; letter-spacing: -2px; }
+.co-h64 { font-weight: 600; font-size: 64px; line-height: 68px; letter-spacing: -2px; }
+.co-h56 { font-weight: 600; font-size: 56px; line-height: 60px; letter-spacing: -2px; }
+.co-h48 { font-weight: 500; font-size: 48px; line-height: 56px; letter-spacing: -1px; }
+.co-h32 { font-weight: 500; font-size: 32px; line-height: 40px; letter-spacing: -0.5px; }
+.co-h24 { font-weight: 500; font-size: 24px; line-height: 32px; letter-spacing: -0.5px; }
+.co-h20 { font-weight: 500; font-size: 20px; line-height: 28px; letter-spacing: -0.25px; }
+.co-h18 { font-weight: 500; font-size: 18px; line-height: 24px; letter-spacing: -0.25px; }
+.co-h16 { font-weight: 500; font-size: 16px; line-height: 24px; letter-spacing: 0; }
+.co-h14 { font-weight: 600; font-size: 14px; line-height: 18px; letter-spacing: 0; }
+.co-p20 { font-weight: 400; font-size: 20px; line-height: 28px; }
+.co-p16 { font-weight: 400; font-size: 16px; line-height: 24px; }
+.co-p14 { font-weight: 400; font-size: 14px; line-height: 22px; letter-spacing: 0; }
+.co-m14 { font-family: "JetBrains Mono", "SF Mono", Consolas, Roboto, sans-serif; font-weight: 400; font-size: 14px;
+  line-height: 140%; letter-spacing: 1px; text-transform: uppercase; }
+@media (max-width: 1280px) {
+  .co-h80 { font-size: 64px; line-height: 68px; }
+  .co-h72 { font-size: 56px; line-height: 60px; }
+  .co-h64 { font-size: 48px; line-height: 52px; letter-spacing: -1px; }
+  .co-h56 { font-size: 40px; line-height: 44px; letter-spacing: -1px; }
+  .co-h48 { font-size: 32px; line-height: 40px; letter-spacing: -0.25px; }
+  .co-h32 { font-size: 24px; line-height: 32px; letter-spacing: -0.25px; }
+  .co-h24 { font-size: 20px; line-height: 28px; letter-spacing: -0.25px; }
+  .co-h18 { font-size: 16px; line-height: 24px; }
+  .co-h14 { line-height: 16px; }
+  .co-p20 { font-size: 16px; line-height: 24px; }
+}
+@media (max-width: 799px) {
+  .co-h80 { font-size: 40px; line-height: 44px; letter-spacing: -1px; }
+  .co-h72 { font-size: 40px; line-height: 44px; letter-spacing: -1px; }
+  .co-h64 { font-size: 32px; line-height: 36px; letter-spacing: -0.25px; }
+  .co-h56 { font-size: 32px; line-height: 36px; letter-spacing: -0.25px; }
+  .co-h48 { font-size: 24px; line-height: 32px; }
+  .co-h24 { font-size: 18px; line-height: 24px; }
+  .co-h20 { font-size: 16px; line-height: 24px; }
+}
+
+/* ---- Grid helpers on top of .mk-slicegrid / .mk-innergrid ---- */
+.co-rowgap-0 { row-gap: 0; }
+.co-col-full { grid-column: 1 / -1; }
+
+/* ---- BaseHeading (e18o1u1v*) ---- */
+.co-heading { display: block; }
+.co-heading__eyebrow { margin-bottom: 32px; }
+.co-heading__title { display: block; color: #FFFFFF; }
+.co-heading__sub { display: block; color: #FFFFFF; margin: 32px 0; }
+.co-heading__sub--flush { margin-bottom: 0; }
+.co-heading__ctas { margin-top: 32px; }
+
+/* ---- SectionImageBackgroundContainer (e1jvfgez*) ---- */
+.co-sbg { position: relative; overflow-x: clip; }
+.co-sbg__img { position: absolute; top: 0; left: 0; right: 0; width: 100%; height: auto; margin: unset; z-index: 0;
+  pointer-events: none; display: block; }
+@media (max-width: 799px) { .co-sbg__img { display: none; } }
+.co-sbg__inner { position: relative; z-index: 1; }
+
+/* ---- GradientBanner ---- */
+.co-gbanner { position: absolute; left: 0; right: 0; pointer-events: none; }
+
+/* ---- SecurityAndCompliance (e10uz04f*, e1u51w9m*) ---- */
+.co-security__inner { padding: 120px 0 0; margin: -120px 0 0; }
+.co-security__frame { display: flex; gap: 0; justify-content: center; flex-wrap: wrap; margin: auto; position: relative; }
+.co-security__frame::after { content: ""; position: absolute; inset: 0; display: block; width: 100%; height: 100%;
+  border: 1px solid #454545; border-radius: 8px; pointer-events: none; }
+.co-security__cell { display: flex; flex-direction: column; gap: 32px; padding: 40px; background: #141414; box-sizing: border-box;
+  flex-basis: 33.33%; border-right: 1px solid #454545; border-top: unset; }
+.co-security__art { color: #A7A7A7; margin: auto; }
+.co-security__art img { max-width: 100%; height: auto; }
+.co-security__title { font-size: 18px; font-weight: 500; line-height: 24px; letter-spacing: -0.25px; margin-bottom: 4px; }
+.co-security__cell--3, .co-security__cell--6 { border-right: unset; }
+.co-security__cell--4, .co-security__cell--5, .co-security__cell--6 { border-top: 1px solid #454545; }
+@media (max-width: 1280px) {
+  .co-security__cell { padding: 32px; flex-basis: 50%; }
+  .co-security__title { font-size: 16px; line-height: 24px; }
+  .co-security__cell--1 { border-right: 1px solid #454545; border-top: unset; }
+  .co-security__cell--2 { border-right: unset; border-top: unset; }
+  .co-security__cell--3 { border-right: 1px solid #454545; border-top: 1px solid #454545; }
+  .co-security__cell--4 { border-right: unset; border-top: 1px solid #454545; }
+  .co-security__cell--5 { border-right: 1px solid #454545; border-top: 1px solid #454545; }
+  .co-security__cell--6 { border-right: unset; border-top: 1px solid #454545; }
+}
+@media (max-width: 799px) {
+  .co-security__cell { flex-basis: 100%; border-right: unset; border-top: 1px solid #454545; }
+  .co-security__cell--1 { border-right: unset; border-top: unset; }
+}
+/* Inline link inside SOC 2 copy (styling not specced: inherits colour, underlined like the form links) */
+.co-inline-link { color: inherit; text-decoration: underline; }

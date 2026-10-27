@@ -1,0 +1,216 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T11",
+ "route": "/quiz-hub-ivyhaven/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Ivyhaven"
+ },
+ "meta": {
+  "title": "Ivyhaven | Lead Tool"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Sprout steer",
+    "actions": [
+     {
+      "label": "Share fjord",
+      "href": "https://ivyhaven.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Weigh",
+      "href": "https://ivyhaven.example/navbar-0"
+     },
+     {
+      "label": "Rowan",
+      "href": "https://ivyhaven.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Canvas"
+     },
+     {
+      "title": "Map"
+     },
+     {
+      "title": "Compass"
+     },
+     {
+      "title": "Quarry"
+     },
+     {
+      "title": "Ember"
+     },
+     {
+      "title": "Orbit"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Cinder sprout",
+      "text": "Harvest cobalt share fjord falcon basil measure pebble"
+     },
+     {
+      "title": "Grove thread",
+      "text": "Compass marble ember orbit gather summit steer cobalt"
+     },
+     {
+      "title": "Harbor willow",
+      "text": "Signal beacon atlas nimbus tidy cedar compass marble"
+     },
+     {
+      "title": "Field shape",
+      "text": "Meadow summit steer sort harbor fjord signal refine"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.quiz-hub",
+   "variant": "default",
+   "content": {
+    "heading": "Atlas pebble canvas thread",
+    "lead": "Compass quarry field orbit meadow summit juniper sort harbor fjord signal beacon rowan pebble",
+    "items": [
+     {
+      "title": "Tidy cedar compass",
+      "text": "Sketch plan orbit meadow sprout steer sort harbor",
+      "href": "https://ivyhaven.example/quiz-hub-item0"
+     },
+     {
+      "title": "Willow weigh refine",
+      "text": "Rowan nimbus grove thread compass sketch ember orbit",
+      "href": "https://ivyhaven.example/quiz-hub-item1"
+     },
+     {
+      "title": "Gather notice juniper",
+      "text": "Sort tidal lantern weigh beacon rowan pebble canvas",
+      "href": "https://ivyhaven.example/quiz-hub-item2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.inline-band",
+   "variant": "compact",
+   "content": {
+    "heading": "Thread trace marble field",
+    "actions": [
+     {
+      "label": "Prism gather",
+      "href": "https://ivyhaven.example/inline-band-0"
+     },
+     {
+      "label": "Summit steer",
+      "href": "https://ivyhaven.example/inline-band-1"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "lead": "Cobalt harbor willow weigh refine",
+    "actions": [
+     {
+      "label": "Nimbus canvas",
+      "href": "https://ivyhaven.example/footer-0"
+     },
+     {
+      "label": "Cedar compass",
+      "href": "https://ivyhaven.example/footer-1"
+     },
+     {
+      "label": "Quarry field",
+      "href": "https://ivyhaven.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Orbit"
+     },
+     {
+      "title": "Meadow"
+     },
+     {
+      "title": "Summit"
+     },
+     {
+      "title": "Steer"
+     },
+     {
+      "title": "Sort"
+     },
+     {
+      "title": "Share"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

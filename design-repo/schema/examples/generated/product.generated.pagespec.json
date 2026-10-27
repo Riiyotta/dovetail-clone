@@ -1,0 +1,1034 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T1",
+ "route": "/product-quillmere/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "accent",
+  "nav": "accent",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Quillmere"
+ },
+ "meta": {
+  "title": "Quillmere | Marketing"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "accent",
+   "content": {
+    "lead": "Cinder sprout",
+    "actions": [
+     {
+      "label": "Cobalt tidal",
+      "href": "https://quillmere.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false,
+   "style": {
+    "accent": "color.accent.agents"
+   }
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "accent",
+   "content": {
+    "actions": [
+     {
+      "label": "Lantern",
+      "href": "https://quillmere.example/navbar-0"
+     },
+     {
+      "label": "Basil atlas",
+      "href": "https://quillmere.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Pebble"
+     },
+     {
+      "title": "Canvas"
+     },
+     {
+      "title": "Map"
+     },
+     {
+      "title": "Delta"
+     },
+     {
+      "title": "Marble"
+     },
+     {
+      "title": "Field"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "accent": "color.accent.agents"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Orbit meadow",
+      "text": "Sprout harvest ledger tidal fjord falcon refine measure"
+     },
+     {
+      "title": "Bundle grove",
+      "text": "Map trace sketch ember orbit cinder sprout steer"
+     },
+     {
+      "title": "Cobalt tidal",
+      "text": "Fjord weigh beacon rowan bundle grove map delta"
+     },
+     {
+      "title": "Quarry field",
+      "text": "Orbit gather summit juniper ledger share fjord falcon"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.product",
+   "variant": "media",
+   "content": {
+    "heading": "Beacon rowan nimbus grove",
+    "lead": "Cedar delta sketch plan shape cinder notice harvest ledger tidal lantern weigh refine measure",
+    "actions": [
+     {
+      "label": "Nimbus tidy",
+      "href": "https://quillmere.example/product-0"
+     },
+     {
+      "label": "Map delta",
+      "href": "https://quillmere.example/product-1"
+     },
+     {
+      "label": "Sketch plan",
+      "href": "https://quillmere.example/product-2"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/hero.product-0"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/hero.product-1"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/hero.product-2"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/hero.product-3"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/hero.product-4"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/hero.product-5"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/hero.product-6"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/hero.product-7"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/hero.product-8"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/hero.product-9"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.logo-marquee",
+   "variant": "single-row",
+   "content": {
+    "lead": "Prism meadow notice juniper sort share fjord falcon",
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Refine atlas",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Tidy map compass",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Sketch ember orbit",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Cinder sprout",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Sort share fjord",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Weigh basil rowan",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Bundle canvas map",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Compass marble",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-7"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Shape gather",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-8"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Harvest sort share",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-9"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Willow weigh",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-10"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Measure bundle",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-11"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Map trace quarry",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-12"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Plan shape cinder",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-13"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Sprout steer",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-14"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Harbor lantern",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-15"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "marquee.loop",
+    "reducedMotionFallback": "paused"
+   }
+  },
+  {
+   "section": "content.statement",
+   "variant": "default",
+   "content": {
+    "heading": "Refine rowan nimbus grove",
+    "lead": "Thread trace sketch plan shape meadow notice juniper ledger harbor fjord weigh basil measure"
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "content.scroll-video",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "video.placeholder-poster",
+      "alt": "",
+      "ref": "generate:video.placeholder-poster/content.scroll-video-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "scroll.scale",
+    "reducedMotionFallback": "static-scale"
+   }
+  },
+  {
+   "section": "social-proof.product-quote",
+   "variant": "default",
+   "content": {
+    "lead": "Nimbus canvas cedar delta marble",
+    "quote": {
+     "text": "Field orbit cinder sprout steer ledger tidal lantern weigh refine measure bundle canvas thread compass marble"
+    },
+    "actions": [
+     {
+      "label": "Fi",
+      "href": "https://quillmere.example/product-quote-0"
+     },
+     {
+      "label": "Sh",
+      "href": "https://quillmere.example/product-quote-1"
+     },
+     {
+      "label": "Ga",
+      "href": "https://quillmere.example/product-quote-2"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/social-proof.product-quote-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/social-proof.product-quote-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/social-proof.product-quote-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.autoplay",
+    "reducedMotionFallback": "no-autoplay"
+   }
+  },
+  {
+   "section": "features.sticky-features",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Sprout harvest ledger",
+      "text": "Ti",
+      "href": "https://quillmere.example/sticky-features-item0"
+     },
+     {
+      "title": "Willow weigh refine",
+      "text": "At",
+      "href": "https://quillmere.example/sticky-features-item1"
+     },
+     {
+      "title": "Nimbus tidy thread",
+      "text": "Tr",
+      "href": "https://quillmere.example/sticky-features-item2"
+     },
+     {
+      "title": "Sketch ember orbit",
+      "text": "Ci",
+      "href": "https://quillmere.example/sticky-features-item3"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "Summit juniper ledger",
+      "ref": "generate:product.generated-visual/features.sticky-features-0"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "Tidal fjord falcon",
+      "ref": "generate:product.generated-visual/features.sticky-features-1"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "Beacon rowan pebble",
+      "ref": "generate:product.generated-visual/features.sticky-features-2"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "Tidy thread trace",
+      "ref": "generate:product.generated-visual/features.sticky-features-3"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "Quarry ember orbit",
+      "ref": "generate:product.generated-visual/features.sticky-features-4"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "Gather summit juniper",
+      "ref": "generate:product.generated-visual/features.sticky-features-5"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "Cobalt share willow",
+      "ref": "generate:product.generated-visual/features.sticky-features-6"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "Weigh basil rowan",
+      "ref": "generate:product.generated-visual/features.sticky-features-7"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "sticky.pin",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.audience-rows",
+   "variant": "default",
+   "content": {
+    "heading": "Bundle tidy",
+    "items": [
+     {
+      "title": "Cedar delta marble",
+      "text": "Field orbit gather notice juniper sort share fjord",
+      "media": {
+       "assetRole": "product.generated-visual",
+       "alt": "",
+       "ref": "generate:product.generated-visual/features.audience-rows-item0"
+      }
+     },
+     {
+      "title": "Weigh basil atlas",
+      "text": "Bundle grove cedar compass marble field orbit gather",
+      "media": {
+       "assetRole": "product.generated-visual",
+       "alt": "",
+       "ref": "generate:product.generated-visual/features.audience-rows-item1"
+      }
+     },
+     {
+      "title": "Summit harvest ledger",
+      "text": "Harbor fjord signal beacon measure nimbus tidy cedar",
+      "media": {
+       "assetRole": "product.generated-visual",
+       "alt": "",
+       "ref": "generate:product.generated-visual/features.audience-rows-item2"
+      }
+     },
+     {
+      "title": "Trace quarry ember",
+      "text": "Orbit cinder notice juniper sort share lantern weigh",
+      "media": {
+       "assetRole": "product.generated-visual",
+       "alt": "",
+       "ref": "generate:product.generated-visual/features.audience-rows-item3"
+      }
+     },
+     {
+      "title": "Beacon measure bundle",
+      "text": "Grove map compass quarry plan prism meadow summit",
+      "media": {
+       "assetRole": "product.generated-visual",
+       "alt": "",
+       "ref": "generate:product.generated-visual/features.audience-rows-item4"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "sticky.pin",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.voice-mode",
+   "variant": "default",
+   "content": {
+    "heading": "Steer ledger harbor willow",
+    "lead": "Signal basil measure bundle canvas map trace quarry plan prism gather sprout juniper sort",
+    "actions": [
+     {
+      "label": "Tidal fjord",
+      "href": "https://quillmere.example/voice-mode-0"
+     },
+     {
+      "label": "Weigh beacon",
+      "href": "https://quillmere.example/voice-mode-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/features.voice-mode-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "interactive.prompt-cards",
+   "variant": "default",
+   "content": {
+    "heading": "Atlas bundle tidy cedar",
+    "lead": "Compass marble plan shape cinder notice harvest ledger tidal fjord signal refine measure pebble",
+    "items": [
+     {
+      "title": "Grove cedar delta",
+      "text": "Quarry plan prism gather sprout juniper",
+      "media": {
+       "assetRole": "illustration.generated",
+       "alt": "",
+       "ref": "generate:illustration.generated/interactive.prompt-cards-item0"
+      }
+     },
+     {
+      "title": "Tidal lantern signal",
+      "text": "Beacon rowan bundle grove map delta quarry",
+      "media": {
+       "assetRole": "illustration.generated",
+       "alt": "",
+       "ref": "generate:illustration.generated/interactive.prompt-cards-item1"
+      }
+     },
+     {
+      "title": "Field orbit cinder",
+      "text": "Notice juniper cobalt tidal lantern signal",
+      "media": {
+       "assetRole": "illustration.generated",
+       "alt": "",
+       "ref": "generate:illustration.generated/interactive.prompt-cards-item2"
+      }
+     },
+     {
+      "title": "Measure bundle grove",
+      "text": "Map compass marble field prism gather notice",
+      "media": {
+       "assetRole": "illustration.generated",
+       "alt": "",
+       "ref": "generate:illustration.generated/interactive.prompt-cards-item3"
+      }
+     },
+     {
+      "title": "Juniper ledger tidal",
+      "text": "Willow signal refine rowan pebble canvas",
+      "media": {
+       "assetRole": "illustration.generated",
+       "alt": "",
+       "ref": "generate:illustration.generated/interactive.prompt-cards-item4"
+      }
+     },
+     {
+      "title": "Trace quarry field",
+      "text": "Prism meadow sprout juniper ledger harbor",
+      "media": {
+       "assetRole": "illustration.generated",
+       "alt": "",
+       "ref": "generate:illustration.generated/interactive.prompt-cards-item5"
+      }
+     },
+     {
+      "title": "Weigh refine measure",
+      "text": "Nimbus grove cedar compass sketch plan orbit",
+      "media": {
+       "assetRole": "illustration.generated",
+       "alt": "",
+       "ref": "generate:illustration.generated/interactive.prompt-cards-item6"
+      }
+     },
+     {
+      "title": "Meadow notice juniper",
+      "text": "Cobalt share lantern falcon basil rowan",
+      "media": {
+       "assetRole": "illustration.generated",
+       "alt": "",
+       "ref": "generate:illustration.generated/interactive.prompt-cards-item7"
+      }
+     },
+     {
+      "title": "Canvas thread compass",
+      "text": "Marble field orbit gather sprout juniper",
+      "media": {
+       "assetRole": "illustration.generated",
+       "alt": "",
+       "ref": "generate:illustration.generated/interactive.prompt-cards-item8"
+      }
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/interactive.prompt-cards-0"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/interactive.prompt-cards-1"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/interactive.prompt-cards-2"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/interactive.prompt-cards-3"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/interactive.prompt-cards-4"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/interactive.prompt-cards-5"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "hover.overlay",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.product-quote",
+   "variant": "default",
+   "content": {
+    "lead": "Tidal lantern weigh beacon rowan",
+    "quote": {
+     "text": "Pebble tidy thread delta sketch field shape cinder notice harvest cobalt harbor willow falcon basil measure"
+    },
+    "actions": [
+     {
+      "label": "Ni",
+      "href": "https://quillmere.example/product-quote-0"
+     },
+     {
+      "label": "Ca",
+      "href": "https://quillmere.example/product-quote-1"
+     },
+     {
+      "label": "Th",
+      "href": "https://quillmere.example/product-quote-2"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/social-proof.product-quote-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/social-proof.product-quote-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/social-proof.product-quote-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.autoplay",
+    "reducedMotionFallback": "no-autoplay"
+   }
+  },
+  {
+   "section": "features.card-carousel",
+   "variant": "default",
+   "content": {
+    "heading": "Delta sketch plan shape",
+    "lead": "Cinder notice juniper ledger tidal willow falcon refine measure pebble tidy thread compass sketch",
+    "actions": [
+     {
+      "label": "Field prism",
+      "href": "https://quillmere.example/card-carousel-0"
+     },
+     {
+      "label": "Meadow sprout",
+      "href": "https://quillmere.example/card-carousel-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Steer sort share",
+      "text": "Willow weigh basil rowan bundle grove thread compass",
+      "media": {
+       "assetRole": "product.generated-visual",
+       "alt": "",
+       "ref": "generate:product.generated-visual/features.card-carousel-item0"
+      }
+     },
+     {
+      "title": "Marble plan prism",
+      "text": "Cinder notice juniper cobalt harbor fjord falcon refine",
+      "media": {
+       "assetRole": "product.generated-visual",
+       "alt": "",
+       "ref": "generate:product.generated-visual/features.card-carousel-item1"
+      }
+     },
+     {
+      "title": "Atlas nimbus canvas",
+      "text": "Cedar delta sketch plan orbit gather notice steer",
+      "media": {
+       "assetRole": "product.generated-visual",
+       "alt": "",
+       "ref": "generate:product.generated-visual/features.card-carousel-item2"
+      }
+     },
+     {
+      "title": "Ledger tidal willow",
+      "text": "Weigh beacon measure nimbus canvas thread trace marble",
+      "media": {
+       "assetRole": "product.generated-visual",
+       "alt": "",
+       "ref": "generate:product.generated-visual/features.card-carousel-item3"
+      }
+     },
+     {
+      "title": "Field orbit gather",
+      "text": "Summit harvest cobalt share willow falcon beacon rowan",
+      "media": {
+       "assetRole": "product.generated-visual",
+       "alt": "",
+       "ref": "generate:product.generated-visual/features.card-carousel-item4"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.manual",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.findings-grid",
+   "variant": "default",
+   "content": {
+    "heading": "Bundle tidy cedar delta",
+    "lead": "Quarry plan shape cinder summit steer ledger share fjord signal basil",
+    "actions": [
+     {
+      "label": "Cedar",
+      "href": "https://quillmere.example/findings-grid-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "icon.generic",
+      "alt": "Sketch plan orbit",
+      "ref": "generate:icon.generic/features.findings-grid-0"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Gather sprout harvest",
+      "ref": "generate:icon.generic/features.findings-grid-1"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Cobalt harbor fjord",
+      "ref": "generate:icon.generic/features.findings-grid-2"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Weigh basil measure",
+      "ref": "generate:icon.generic/features.findings-grid-3"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Nimbus canvas thread",
+      "ref": "generate:icon.generic/features.findings-grid-4"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Delta quarry ember",
+      "ref": "generate:icon.generic/features.findings-grid-5"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Shape meadow notice",
+      "ref": "generate:icon.generic/features.findings-grid-6"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.customer-stories",
+   "variant": "video-band",
+   "content": {
+    "actions": [
+     {
+      "label": "Ju",
+      "href": "https://quillmere.example/customer-stories-0"
+     },
+     {
+      "label": "Le",
+      "href": "https://quillmere.example/customer-stories-1"
+     },
+     {
+      "label": "Ha",
+      "href": "https://quillmere.example/customer-stories-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Fjord falcon basil",
+      "text": "Atlas bundle canvas map trace quarry field shape",
+      "href": "https://quillmere.example/customer-stories-item0",
+      "media": {
+       "assetRole": "customer.placeholder-logo",
+       "alt": "",
+       "ref": "generate:customer.placeholder-logo/social-proof.customer-stories-item0"
+      }
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Gather notice",
+      "ref": "generate:customer.placeholder-logo/social-proof.customer-stories-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Harvest",
+      "ref": "generate:customer.placeholder-logo/social-proof.customer-stories-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Tidal fjord",
+      "ref": "generate:customer.placeholder-logo/social-proof.customer-stories-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.autoplay",
+    "reducedMotionFallback": "no-autoplay"
+   }
+  },
+  {
+   "section": "interactive.faq",
+   "variant": "marketing",
+   "content": {
+    "heading": "Falc",
+    "lead": "Beacon measure pebble grove map trace quarry ember prism cinder notice harvest cobalt tidal",
+    "actions": [
+     {
+      "label": "Willow signal",
+      "href": "https://quillmere.example/faq-0"
+     },
+     {
+      "label": "Refine measure",
+      "href": "https://quillmere.example/faq-1"
+     },
+     {
+      "label": "Bundle tidy",
+      "href": "https://quillmere.example/faq-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Thread trace marble",
+      "text": "Plan orbit meadow notice juniper cobalt share fjord"
+     },
+     {
+      "title": "Weigh beacon atlas",
+      "text": "Pebble grove map compass sketch field prism gather"
+     },
+     {
+      "title": "Sprout juniper ledger",
+      "text": "Tidal lantern signal basil rowan nimbus tidy map"
+     },
+     {
+      "title": "Delta quarry ember",
+      "text": "Orbit cinder notice harvest cobalt share lantern weigh"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "accordion.height",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "dark",
+   "content": {
+    "heading": "Beacon atlas pebble",
+    "actions": [
+     {
+      "label": "Thread compass",
+      "href": "https://quillmere.example/final-cta-0"
+     },
+     {
+      "label": "Quarry plan",
+      "href": "https://quillmere.example/final-cta-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-7"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "lead": "Prism cinder notice harvest ledger",
+    "actions": [
+     {
+      "label": "Fjord weigh",
+      "href": "https://quillmere.example/footer-0"
+     },
+     {
+      "label": "Refine measure",
+      "href": "https://quillmere.example/footer-1"
+     },
+     {
+      "label": "Bundle grove",
+      "href": "https://quillmere.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Thread"
+     },
+     {
+      "title": "Compass"
+     },
+     {
+      "title": "Quarry"
+     },
+     {
+      "title": "Field"
+     },
+     {
+      "title": "Orbit"
+     },
+     {
+      "title": "Cinder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

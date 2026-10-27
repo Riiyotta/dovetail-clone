@@ -1,0 +1,226 @@
+{
+ "url": "/legal/open-source/",
+ "template": "legal-doc",
+ "meta": {
+  "title": "Open Source",
+  "description": "Dovetail’s legal and privacy documents, including the user terms of service, privacy policy, data processing agreement, and acceptable use policy."
+ },
+ "theme": "light",
+ "breadcrumb": [
+  {
+   "text": "Home",
+   "href": "/"
+  },
+  {
+   "text": "Legal",
+   "href": "/legal/"
+  }
+ ],
+ "h1": "Open Source",
+ "sideNav": {
+  "groups": [
+   {
+    "group": "Legal",
+    "links": [
+     {
+      "text": "Master Subscription Agreement",
+      "href": "/legal/master-subscription-agreement/"
+     },
+     {
+      "text": "User Terms of Service",
+      "href": "/legal/user-terms-of-service/"
+     },
+     {
+      "text": "Acceptable Use Policy",
+      "href": "/legal/acceptable-use-policy/"
+     },
+     {
+      "text": "Product-Specific Terms: AI Features",
+      "href": "/legal/ai-features/"
+     },
+     {
+      "text": "Mutual Non-Disclosure Agreement",
+      "href": "/legal/mutual-non-disclosure-agreement/"
+     },
+     {
+      "text": "Product-Specific Terms: Recruit",
+      "href": "/legal/product-specific-terms-recruit/"
+     },
+     {
+      "text": "Community Code of Conduct",
+      "href": "/legal/community-code-of-conduct/"
+     },
+     {
+      "text": "Insurance",
+      "href": "/legal/insurance/"
+     },
+     {
+      "text": "Accessibility Statement",
+      "href": "/legal/accessibility-statement/"
+     },
+     {
+      "text": "Open Source",
+      "href": "/legal/open-source/"
+     },
+     {
+      "text": "Press Kit and Logo Usage",
+      "href": "/legal/press-kit/"
+     },
+     {
+      "text": "Modern Slavery Statement",
+      "href": "/legal/modern-slavery-statement/"
+     },
+     {
+      "text": "Anti-Bribery and Anti-Corruption Statement",
+      "href": "/legal/anti-bribery-and-anti-corruption-statement/"
+     },
+     {
+      "text": "AI Models",
+      "href": "/legal/ai-models/"
+     }
+    ]
+   },
+   {
+    "group": "Privacy",
+    "links": [
+     {
+      "text": "Compliance With Laws",
+      "href": "/privacy/compliance-with-laws/"
+     },
+     {
+      "text": "Data Processing Agreement",
+      "href": "/privacy/data-processing-agreement/"
+     },
+     {
+      "text": "Privacy Policy",
+      "href": "/privacy/privacy-policy/"
+     },
+     {
+      "text": "Data Subject Access Request",
+      "href": "/privacy/data-subject-access-request/"
+     },
+     {
+      "text": "Event Release",
+      "href": "/privacy/event-release/"
+     }
+    ]
+   }
+  ],
+  "expandedGroup": "Legal",
+  "current": "/legal/open-source/"
+ },
+ "toc": [
+  "Approved licenses",
+  "Vulnerability management"
+ ],
+ "body": [
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 217
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 329
+  },
+  {
+   "type": "h2",
+   "id": "approved-licenses",
+   "text": "Approved licenses"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 197
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 3
+    },
+    {
+     "placeholder": true,
+     "chars": 10
+    },
+    {
+     "placeholder": true,
+     "chars": 3
+    },
+    {
+     "placeholder": true,
+     "chars": 3
+    },
+    {
+     "placeholder": true,
+     "chars": 3
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 159
+  },
+  {
+   "type": "h2",
+   "id": "vulnerability-management",
+   "text": "Vulnerability management"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 140
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 433,
+   "links": [
+    {
+     "chars": 4,
+     "href": "https://classic.yarnpkg.com/en/docs/cli/audit/"
+    },
+    {
+     "chars": 32,
+     "href": "https://help.github.com/en/github/managing-security-vulnerabilities/about-security-alerts-for-vulnerable-dependencies"
+    },
+    {
+     "chars": 25,
+     "href": "https://docs.aws.amazon.com/AmazonECR/latest/userguide/image-scanning.html"
+    },
+    {
+     "chars": 5,
+     "href": "https://vanta.com/"
+    },
+    {
+     "chars": 42,
+     "href": "https://www.first.org/cvss/"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 166,
+   "links": [
+    {
+     "chars": 31,
+     "href": "https://docs.dovetail.com/help/security-information/#security-policies"
+    },
+    {
+     "chars": 39,
+     "href": "https://docs.dovetail.com/help/security-information/"
+    }
+   ]
+  }
+ ],
+ "lastUpdated": {
+  "label": "Last updated",
+  "date": "01 July 2025"
+ },
+ "navRightButtons": false,
+ "finalCta": true
+}

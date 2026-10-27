@@ -1,0 +1,238 @@
+{
+ "source": "https://dovetail.com/guides/",
+ "template": "guides-index",
+ "h1": "Guides",
+ "pageTitle": "Guides | Dovetail",
+ "metaDescription": "Explore Dovetail's resource library, learning about various content guides, including research, UX, market research, product development, and more.",
+ "intro": {
+  "chars": 149,
+  "firstSentence": "Welcome to our comprehensive guides and resources page."
+ },
+ "ctas": [
+  {
+   "text": "Contact sales",
+   "href": "/contact-sales/"
+  },
+  {
+   "text": "Try Dovetail free",
+   "href": "/auth/signup/",
+   "target": "_blank"
+  }
+ ],
+ "teiCard": {
+  "title": "The Total Economic Impact™ of Dovetail",
+  "bodyFirstSentence": "Discover how orgs using Dovetail achieved 236% ROI.",
+  "bodyChars": 129,
+  "image": "/assets/content/Contact_sales_slice__3_.png",
+  "imageRemote": "https://dovetail.com/media/Contact_sales_slice__3_.png",
+  "href": null
+ },
+ "topicsHeading": "Topics",
+ "topicsIntroChars": 244,
+ "topics": [
+  {
+   "path": "/customer-research/",
+   "title": "Customer research ↗",
+   "description": "Customer research is one of the most important things any business can do to ensure success.",
+   "descriptionChars": 137
+  },
+  {
+   "path": "/product-development/",
+   "title": "Product development ↗",
+   "description": "Learn all about product development—the process of bringing a new product from idea to market.",
+   "descriptionChars": 209
+  },
+  {
+   "path": "/ux/",
+   "title": "User experience (UX) ↗",
+   "description": "Learn everything there is to know about user experience design and the best practices to propel your UX design journey forward.",
+   "descriptionChars": 127
+  },
+  {
+   "path": "/patient-experience/",
+   "title": "Patient experience ↗",
+   "description": "Improve the patient experience by implementing these proven tips and strategies.",
+   "descriptionChars": 80
+  },
+  {
+   "path": "/market-research/",
+   "title": "Market research ↗",
+   "description": "Market research is where you gather information about your target market to see if your business idea is worthwhile.",
+   "descriptionChars": 159
+  },
+  {
+   "path": "/surveys/",
+   "title": "Surveys ↗",
+   "description": "A survey can help businesses in so many ways.",
+   "descriptionChars": 151
+  },
+  {
+   "path": "/employee-experience/",
+   "title": "Employee experience ↗",
+   "description": "Wondering what employee experience can do for your company?",
+   "descriptionChars": 136
+  }
+ ],
+ "note": "The 4 /guides/* routes are guide-article template pages (light theme); /guides/ index does not list them.",
+ "articles": [
+  {
+   "path": "/guides/automated-feedback-categorization/",
+   "title": "Automated feedback categorization: how Channels builds your taxonomy",
+   "crumbs": [
+    {
+     "text": "Guides",
+     "href": "/guides/"
+    },
+    {
+     "text": "Automated feedback categorization: how Channels builds your taxonomy",
+     "href": null
+    }
+   ],
+   "lastUpdated": "7 September 2026",
+   "tocItems": 4,
+   "bodyShape": {
+    "chars": 6924,
+    "p": 13,
+    "h2": 5,
+    "ol": 1,
+    "li": 4,
+    "table": 1,
+    "h3": 4
+   },
+   "bodyOrder": "h2 ol h2 h2 h2 table h2 h3 h3 h3 h3",
+   "editorsPicks": [
+    {
+     "href": "/guides/dovetail-usability-faq/",
+     "title": "Dovetail usability FAQ: navigation, interface changes, and getting started",
+     "date": "29 September 2026"
+    },
+    {
+     "href": "/guides/compare-customer-sentiment-across-channels/",
+     "title": "How to compare customer sentiment across marketplaces, review sites, and support tickets in one dashboard",
+     "date": "13 October 2026"
+    }
+   ],
+   "latestArticles": [
+    {
+     "href": "/guides/compare-customer-sentiment-across-channels/",
+     "title": "How to compare customer sentiment across marketplaces, review sites, and support tickets in one dashboard",
+     "date": "13 October 2026"
+    },
+    {
+     "href": "/guides/dovetail-usability-faq/",
+     "title": "Dovetail usability FAQ: navigation, interface changes, and getting started",
+     "date": "29 September 2026"
+    }
+   ]
+  },
+  {
+   "path": "/guides/compare-customer-sentiment-across-channels/",
+   "title": "How to compare customer sentiment across marketplaces, review sites, and support tickets in one dashboard",
+   "crumbs": [
+    {
+     "text": "Guides",
+     "href": "/guides/"
+    },
+    {
+     "text": "How to compare customer sentiment across marketplaces, review sites, and support tickets in one dashboard",
+     "href": null
+    }
+   ],
+   "lastUpdated": "13 October 2026",
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 13845,
+    "p": 25,
+    "h2": 8,
+    "ul": 4,
+    "li": 25,
+    "table": 2,
+    "h3": 11,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 table h2 table h2 h3 h3 ul h3 h3 h3 h3 h2 ol h2 ul h2 ul h2 h3 h3 h3 h3 h3",
+   "editorsPicks": [
+    {
+     "href": "/guides/automated-feedback-categorization/",
+     "title": "Automated feedback categorization: how Channels builds your taxonomy",
+     "date": "7 September 2026"
+    },
+    {
+     "href": "/guides/dovetail-usability-faq/",
+     "title": "Dovetail usability FAQ: navigation, interface changes, and getting started",
+     "date": "29 September 2026"
+    }
+   ],
+   "latestArticles": [
+    {
+     "href": "/guides/dovetail-usability-faq/",
+     "title": "Dovetail usability FAQ: navigation, interface changes, and getting started",
+     "date": "29 September 2026"
+    },
+    {
+     "href": "/guides/automated-feedback-categorization/",
+     "title": "Automated feedback categorization: how Channels builds your taxonomy",
+     "date": "7 September 2026"
+    }
+   ]
+  },
+  {
+   "path": "/guides/dovetail-usability-faq/",
+   "title": "Dovetail usability FAQ: navigation, interface changes, and getting started",
+   "crumbs": [
+    {
+     "text": "Guides",
+     "href": "/guides/"
+    },
+    {
+     "text": "Dovetail usability FAQ: navigation, interface changes, and getting started",
+     "href": null
+    }
+   ],
+   "lastUpdated": "29 September 2026",
+   "tocItems": 4,
+   "bodyShape": {
+    "chars": 7977,
+    "p": 19,
+    "h2": 2,
+    "figure": 3,
+    "img": 3,
+    "h3": 16,
+    "table": 1
+   },
+   "bodyOrder": "h2 figure img figure img figure img h3 table h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3",
+   "editorsPicks": [
+    {
+     "href": "/guides/automated-feedback-categorization/",
+     "title": "Automated feedback categorization: how Channels builds your taxonomy",
+     "date": "7 September 2026"
+    },
+    {
+     "href": "/guides/compare-customer-sentiment-across-channels/",
+     "title": "How to compare customer sentiment across marketplaces, review sites, and support tickets in one dashboard",
+     "date": "13 October 2026"
+    }
+   ],
+   "latestArticles": [
+    {
+     "href": "/guides/compare-customer-sentiment-across-channels/",
+     "title": "How to compare customer sentiment across marketplaces, review sites, and support tickets in one dashboard",
+     "date": "13 October 2026"
+    },
+    {
+     "href": "/guides/automated-feedback-categorization/",
+     "title": "Automated feedback categorization: how Channels builds your taxonomy",
+     "date": "7 September 2026"
+    }
+   ]
+  }
+ ],
+ "articleSidebarCta": {
+  "heading": "Get started today",
+  "body": "Go from raw data to valuable insights with a flexible research platform",
+  "button": {
+   "text": "Contact sales",
+   "href": "/contact-sales/"
+  }
+ }
+}

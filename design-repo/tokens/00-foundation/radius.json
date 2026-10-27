@@ -1,0 +1,23 @@
+{
+ "note": "radius tokens. Every value cites path:line in the clone project and the text that line contains (`match`); extraction/verify_all.py re-reads them.",
+ "tokens": {
+  "radius.default": {
+   "value": "8px",
+   "category": "radius",
+   "cite": "tailwind.config.js:45",
+   "match": "borderRadius: { DEFAULT: '8px'"
+  },
+  "radius.sm": {
+   "value": "4px",
+   "category": "radius",
+   "cite": "tailwind.config.js:45",
+   "match": "sm: '4px'"
+  },
+  "radius.round": {
+   "value": "50%",
+   "category": "radius",
+   "cite": "CLONE_SPEC.md:135",
+   "match": "50% for the Canva CTA logo and the eyeballs"
+  }
+ }
+}

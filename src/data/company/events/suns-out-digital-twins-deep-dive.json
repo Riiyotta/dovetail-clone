@@ -1,0 +1,156 @@
+{
+ "slug": "suns-out-digital-twins-deep-dive",
+ "path": "/events/suns-out-digital-twins-deep-dive/",
+ "title": "Digital Twins, explained",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2026-09-02T07:00+10:00",
+ "endDate": "2026-09-02T07:50+10:00",
+ "onlineEvent": true,
+ "location": "Zoom",
+ "hosts": [
+  "Benjamin Humphrey",
+  "Cheri March",
+  "Sascha Kerbert"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": "81520470125",
+ "youtubeId": null,
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Benjamin Humphrey, Cheri March, Sascha Kerbert"
+  },
+  {
+   "label": "[START]",
+   "value": "01 Sep 2026 2:00PM PDT"
+  },
+  {
+   "label": "[END]",
+   "value": "01 Sep 2026 2:50PM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Zoom"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/suns-out-digital-twins-deep-dive-v2.png",
+  "width": 1280,
+  "height": 800,
+  "youtubeId": null
+ },
+ "body": [
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 104
+  },
+  {
+   "t": "h2",
+   "text": "What you’ll learn"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 116,
+     "strong": [
+      "The evolution of the software development lifecycle:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 100,
+     "strong": [
+      "What Digital Twins are:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 118,
+     "strong": [
+      "How to build a Digital Twin in Dovetail:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 143,
+     "strong": [
+      "Real-world examples:"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 138
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ],
+ "form": {
+  "heading": "Register to attend",
+  "fields": [
+   {
+    "label": "First name",
+    "type": "text",
+    "name": "firstName",
+    "placeholder": "Jane",
+    "required": true
+   },
+   {
+    "label": "Last name",
+    "type": "text",
+    "name": "lastName",
+    "placeholder": "Doe",
+    "required": true
+   },
+   {
+    "label": "Work email",
+    "type": "email",
+    "name": "email",
+    "placeholder": "pete@spotify.com",
+    "required": true
+   },
+   {
+    "label": "Company",
+    "type": "text",
+    "name": "company",
+    "placeholder": "Acme Corp",
+    "required": true
+   },
+   {
+    "label": "Job title",
+    "type": "text",
+    "name": "jobTitle",
+    "placeholder": "Product manager",
+    "required": true
+   },
+   {
+    "label": "Questions & comments",
+    "type": "textarea",
+    "name": null,
+    "placeholder": null,
+    "required": false
+   }
+  ],
+  "submit": "Register",
+  "note": "Static, non-submitting in the rebuild. Validation messages: 'This field is required.', 'Please enter a valid email address.', 'Please use your work email'. Success: 'You're registered! Check your email for the calendar invite and join link.'"
+ }
+}

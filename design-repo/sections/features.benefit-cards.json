@@ -1,0 +1,173 @@
+{
+ "id": "features.benefit-cards",
+ "title": "Benefit cards",
+ "semantic": {
+  "id": "features.benefit-cards",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "component:RoleSections:hh__grid",
+  "file": "src/pages/roles/RoleSections.jsx",
+  "tag": "div",
+  "lines": "142-154",
+  "tagLine": 142,
+  "anchor": "hh__grid",
+  "anchorLine": 142
+ },
+ "purpose": "Eyebrow + H56 heading and a grid of image cards with title and text.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "heading",
+    "items"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 6,
+   "observedOn": [
+    "/roles/customer-experience/",
+    "/roles/design/",
+    "/roles/marketing/",
+    "/roles/product-management/",
+    "/roles/research/",
+    "/roles/sales-and-cs/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "heading",
+   "items"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 6,
+    "maxChars": 41,
+    "observedIn": 3
+   },
+   "items[].media.alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 12,
+    "assetAlt": true
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 23,
+    "maxChars": 148,
+    "observedIn": 12
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 8,
+    "maxChars": 46,
+    "observedIn": 12
+   }
+  },
+  "listSizes": {
+   "items": [
+    4,
+    4
+   ]
+  },
+  "itemRequiredFields": [
+   "media",
+   "text",
+   "title"
+  ],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "items[].media": {
+    "type": "asset",
+    "referenceRoles": [
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "product.generated-visual"
+ ],
+ "style": {
+  "props": {
+   "spaceBefore": {
+    "kind": "token",
+    "allowed": [
+     "space.section.s200"
+    ]
+   }
+  },
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 6,
+   "nodes": 6,
+   "minPx": 1444.8,
+   "maxPx": 1494.2,
+   "medianPx": 1469.5,
+   "sample": {
+    "/roles/customer-experience/": [
+     1494.2
+    ],
+    "/roles/design/": [
+     1444.8
+    ],
+    "/roles/marketing/": [
+     1494.2
+    ],
+    "/roles/product-management/": [
+     1444.8
+    ],
+    "/roles/research/": [
+     1444.8
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/roles/RoleSections.jsx:142-154",
+  "specs/roles.md:1-40"
+ ]
+}

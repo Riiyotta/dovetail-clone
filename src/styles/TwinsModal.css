@@ -1,0 +1,60 @@
+/* CLONE_SPEC.md §12 Digital Twins modal. Values re-measured on the live page (no exit animation: the
+   original unmounts the dialog immediately on close). */
+.twins-modal {
+  position: fixed; inset: 0; z-index: 6;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  line-height: normal;
+}
+.twins-backdrop { position: fixed; inset: 0; z-index: 1; cursor: default; background: rgba(10,10,10,.6); }
+
+.twins-dialog {
+  position: relative; z-index: 2; box-sizing: border-box;
+  width: calc(100vw - 32px); max-width: 832px;
+  display: flex; align-items: center;
+  background: #191919; border: 1px solid rgba(255,255,255,.08); border-radius: 8px; overflow: hidden;
+  animation: twins-in 300ms ease;
+}
+@keyframes twins-in {
+  from { opacity: 0; transform: translateY(8px) scale(.98); }
+  to { opacity: 1; transform: none; }
+}
+/* No reduced-motion override: measured on the live page with prefers-reduced-motion: reduce, the dialog
+   still plays the same 300ms entry animation. */
+
+.twins-close {
+  position: absolute; top: 8px; right: 8px; z-index: 3;
+  width: 32px; height: 32px; padding: 0; border: none; appearance: none; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  color: #FFF; background: rgba(255,255,255,.16); border-radius: 4px; transition: background 150ms;
+}
+.twins-close:hover, .twins-close:focus-visible { background: rgba(255,255,255,.24); }
+.twins-close svg { display: block; }
+
+.twins-copy {
+  box-sizing: border-box; flex: 1 1 auto; min-width: 0; padding: 48px;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.twins-h2 { margin: 0; font-size: 48px; line-height: 56px; font-weight: 600; letter-spacing: -1px; color: #FFF; }
+.twins-p { margin: 0; font-size: 20px; line-height: 28px; font-weight: 400; color: rgba(255,255,255,0.64); }
+.twins-cta {
+  align-self: flex-start; margin: 24px 0 0; padding: 10px 16px; border: 1px solid transparent;
+  background: #FFF; color: #0A0A0A; font-size: 14px; line-height: 18px; font-weight: 500; letter-spacing: 0;
+  transition: color 200ms, background 200ms, opacity 200ms;
+}
+.twins-cta:hover, .twins-cta:focus-visible { background: #CECECE; }
+.twins-cta:focus-visible { outline: solid 1px #0A0A0A; outline-offset: 1px; }
+.twins-img { display: block; flex-shrink: 0; width: 400px; height: auto; }
+
+@media (max-width: 1280px) {
+  .twins-h2 { font-size: 32px; line-height: 40px; letter-spacing: -0.25px; }
+  .twins-p { font-size: 16px; line-height: 24px; }
+  .twins-cta { line-height: 16px; }
+}
+
+@media (max-width: 799px) {
+  .twins-dialog { flex-direction: column; align-items: stretch; }
+  .twins-img { order: 1; margin: 0 auto; width: min(320px, 80%); }
+  .twins-copy { order: 2; padding: 0 24px 32px; }
+  .twins-h2 { font-size: 24px; line-height: 32px; letter-spacing: -0.25px; }
+  .twins-cta { margin-top: 16px; }
+}

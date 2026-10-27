@@ -1,0 +1,105 @@
+{
+ "slug": "channels-by-dovetail-a-deep-dive-into-automating-your-feedback-workflows",
+ "path": "/events/channels-by-dovetail-a-deep-dive-into-automating-your-feedback-workflows/",
+ "title": "Channels by Dovetail: a deep dive into automating your feedback workflows",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2025-06-25T13:00-07:00",
+ "endDate": null,
+ "onlineEvent": true,
+ "location": "Online",
+ "hosts": [
+  "Alissa Lydon",
+  "Cheri March"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": "lWzLwwpFBmY",
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Alissa Lydon, Cheri March"
+  },
+  {
+   "label": "[START]",
+   "value": "25 Jun 2025 1:00PM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Online"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "video",
+  "image": "/assets/company/media/Webinar_-_Channels_Deep_Dive_-_Hero__1_.png",
+  "width": 0,
+  "height": 0,
+  "youtubeId": "lWzLwwpFBmY"
+ },
+ "body": [
+  {
+   "t": "h1",
+   "text": "Automate your feedback workflows: a tactical session for product teams"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 176
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 254
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 105
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 86
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 179
+    },
+    {
+     "placeholder": true,
+     "chars": 145
+    },
+    {
+     "placeholder": true,
+     "chars": 156
+    },
+    {
+     "placeholder": true,
+     "chars": 171
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 181
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

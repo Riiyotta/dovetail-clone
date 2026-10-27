@@ -1,0 +1,12 @@
+{
+ "id": "video-card",
+ "kind": "component",
+ "title": "Video card",
+ "composes": [
+  "image",
+  "button"
+ ],
+ "evidence": [
+  "specs/company-shared.md:203"
+ ]
+}

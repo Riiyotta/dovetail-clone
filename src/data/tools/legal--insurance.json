@@ -1,0 +1,216 @@
+{
+ "url": "/legal/insurance/",
+ "template": "legal-doc",
+ "meta": {
+  "title": "Insurance",
+  "description": "Dovetail’s legal and privacy documents, including the user terms of service, privacy policy, data processing agreement, and acceptable use policy."
+ },
+ "theme": "light",
+ "breadcrumb": [
+  {
+   "text": "Home",
+   "href": "/"
+  },
+  {
+   "text": "Legal",
+   "href": "/legal/"
+  }
+ ],
+ "h1": "Insurance",
+ "sideNav": {
+  "groups": [
+   {
+    "group": "Legal",
+    "links": [
+     {
+      "text": "Master Subscription Agreement",
+      "href": "/legal/master-subscription-agreement/"
+     },
+     {
+      "text": "User Terms of Service",
+      "href": "/legal/user-terms-of-service/"
+     },
+     {
+      "text": "Acceptable Use Policy",
+      "href": "/legal/acceptable-use-policy/"
+     },
+     {
+      "text": "Product-Specific Terms: AI Features",
+      "href": "/legal/ai-features/"
+     },
+     {
+      "text": "Mutual Non-Disclosure Agreement",
+      "href": "/legal/mutual-non-disclosure-agreement/"
+     },
+     {
+      "text": "Product-Specific Terms: Recruit",
+      "href": "/legal/product-specific-terms-recruit/"
+     },
+     {
+      "text": "Community Code of Conduct",
+      "href": "/legal/community-code-of-conduct/"
+     },
+     {
+      "text": "Insurance",
+      "href": "/legal/insurance/"
+     },
+     {
+      "text": "Accessibility Statement",
+      "href": "/legal/accessibility-statement/"
+     },
+     {
+      "text": "Open Source",
+      "href": "/legal/open-source/"
+     },
+     {
+      "text": "Press Kit and Logo Usage",
+      "href": "/legal/press-kit/"
+     },
+     {
+      "text": "Modern Slavery Statement",
+      "href": "/legal/modern-slavery-statement/"
+     },
+     {
+      "text": "Anti-Bribery and Anti-Corruption Statement",
+      "href": "/legal/anti-bribery-and-anti-corruption-statement/"
+     },
+     {
+      "text": "AI Models",
+      "href": "/legal/ai-models/"
+     }
+    ]
+   },
+   {
+    "group": "Privacy",
+    "links": [
+     {
+      "text": "Compliance With Laws",
+      "href": "/privacy/compliance-with-laws/"
+     },
+     {
+      "text": "Data Processing Agreement",
+      "href": "/privacy/data-processing-agreement/"
+     },
+     {
+      "text": "Privacy Policy",
+      "href": "/privacy/privacy-policy/"
+     },
+     {
+      "text": "Data Subject Access Request",
+      "href": "/privacy/data-subject-access-request/"
+     },
+     {
+      "text": "Event Release",
+      "href": "/privacy/event-release/"
+     }
+    ]
+   }
+  ],
+  "expandedGroup": "Legal",
+  "current": "/legal/insurance/"
+ },
+ "toc": [],
+ "body": [
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 216,
+   "links": [
+    {
+     "chars": 15,
+     "href": "https://www.chubb.com/"
+    },
+    {
+     "chars": 25,
+     "href": "https://investors.chubb.com/"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 97
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 37
+    },
+    {
+     "placeholder": true,
+     "chars": 28
+    },
+    {
+     "placeholder": true,
+     "chars": 16
+    },
+    {
+     "placeholder": true,
+     "chars": 15
+    },
+    {
+     "placeholder": true,
+     "chars": 38
+    },
+    {
+     "placeholder": true,
+     "chars": 18
+    },
+    {
+     "placeholder": true,
+     "chars": 9
+    },
+    {
+     "placeholder": true,
+     "chars": 17
+    },
+    {
+     "placeholder": true,
+     "chars": 21
+    },
+    {
+     "placeholder": true,
+     "chars": 24
+    },
+    {
+     "placeholder": true,
+     "chars": 15
+    },
+    {
+     "placeholder": true,
+     "chars": 11
+    },
+    {
+     "placeholder": true,
+     "chars": 16
+    },
+    {
+     "placeholder": true,
+     "chars": 17
+    },
+    {
+     "placeholder": true,
+     "chars": 15
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 131
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 104
+  }
+ ],
+ "lastUpdated": {
+  "label": "Last updated",
+  "date": "01 July 2025"
+ },
+ "navRightButtons": false,
+ "finalCta": true
+}

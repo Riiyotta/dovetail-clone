@@ -1,0 +1,199 @@
+{
+ "id": "shell.footer",
+ "title": "Site footer",
+ "semantic": {
+  "id": "shell.footer",
+  "category": "SHELL"
+ },
+ "source": {
+  "id": "component:Footer:light ? 'site-footer site-footer--light'",
+  "file": "src/components/Footer.jsx",
+  "tag": "footer",
+  "lines": "97-109",
+  "tagLine": 97,
+  "anchor": "light ? 'site-footer site-footer--light' : 'site-footer'",
+  "anchorLine": 97
+ },
+ "purpose": "Six-column link grid (platform, roles, resources, comparisons, customers, contact) and a mono bottom bar; the cta-band variant adds a 560px CTA band above the grid.",
+ "retrievalEligible": true,
+ "placement": "chrome",
+ "variants": {
+  "cta-band": {
+   "description": "variant 'cta-band'",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "items",
+    "lead"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 4,
+   "observedOn": [
+    "/solutions/healthcare/",
+    "/solutions/product-research/",
+    "/solutions/research-repository/",
+    "/solutions/voice-of-customer/"
+   ],
+   "contentSampled": true
+  },
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "actions",
+    "items",
+    "lead"
+   ],
+   "forbiddenFields": [
+    "heading"
+   ],
+   "observedOnRoutes": 704,
+   "observedOn": [
+    "/",
+    "/b2bsaasy/",
+    "/blog/",
+    "/blog/2025-fall-launch/",
+    "/blog/30-days-in/",
+    "/blog/60-days-in/",
+    "/blog/9-digital-twins-you-can-build-today/",
+    "/blog/a-conversation-with-trellos-head-of-design/",
+    "/blog/a-nuclear-meltdown-caused-by-design/",
+    "/blog/accountable-ai/",
+    "/blog/ai-generated-privacy-breaches/",
+    "/blog/ai-powered-contextual-chat/"
+   ],
+   "contentSampled": true
+  },
+  "light": {
+   "description": "variant 'light'",
+   "requiredFields": [
+    "actions",
+    "items",
+    "lead"
+   ],
+   "forbiddenFields": [
+    "heading"
+   ],
+   "observedOnRoutes": 1187,
+   "observedOn": [
+    "/contributors/",
+    "/contributors/brittany-ferri/",
+    "/contributors/cathy-heath/",
+    "/contributors/chloe-garnham/",
+    "/contributors/claire-bonneau/",
+    "/contributors/claudia-natasia/",
+    "/contributors/dovetail-editorial-team/",
+    "/contributors/hugh-good/",
+    "/contributors/jean-kaluza/",
+    "/contributors/jen-lee/",
+    "/contributors/katie-reed/",
+    "/contributors/lara-leganger/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions",
+   "items",
+   "lead"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 78
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 17,
+    "observedIn": 78
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 9,
+    "maxChars": 57,
+    "observedIn": 3
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 11,
+    "observedIn": 432
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 6,
+    "maxChars": 34,
+    "observedIn": 72
+   }
+  },
+  "listSizes": {
+   "actions": [
+    1,
+    3
+   ],
+   "items": [
+    6,
+    6
+   ]
+  },
+  "itemRequiredFields": [
+   "title"
+  ],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "12-col grid, six blocks span 2"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "two columns, comparisons hidden, login/demo buttons stack"
+  },
+  {
+   "range": "<=799",
+   "behavior": "single column"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 0,
+   "nodes": 0,
+   "minPx": 0,
+   "maxPx": 0,
+   "medianPx": 0,
+   "sample": {}
+  }
+ },
+ "evidence": [
+  "src/components/Footer.jsx:97-109",
+  "CLONE_SPEC.md:9-21",
+  "specs/product.md:1-40"
+ ]
+}

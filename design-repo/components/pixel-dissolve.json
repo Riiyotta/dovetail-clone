@@ -1,0 +1,9 @@
+{
+ "id": "pixel-dissolve",
+ "kind": "component",
+ "title": "Pixel dissolve overlay",
+ "composes": [],
+ "evidence": [
+  "CLONE_SPEC.md:184"
+ ]
+}

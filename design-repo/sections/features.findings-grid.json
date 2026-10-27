@@ -1,0 +1,176 @@
+{
+ "id": "features.findings-grid",
+ "title": "Findings grid",
+ "semantic": {
+  "id": "features.findings-grid",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "component:Findings:pd-find",
+  "file": "src/pages/product/Findings.jsx",
+  "tag": "div",
+  "lines": "21-33",
+  "tagLine": 21,
+  "anchor": "pd-find",
+  "anchorLine": 21
+ },
+ "purpose": "Heading with serif word and a grid of feature cards.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 5,
+   "observedOn": [
+    "/product/ai-channels/",
+    "/product/ai-chat/",
+    "/product/ai-dashboards/",
+    "/product/ai-docs/",
+    "/product/ai-projects/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions",
+   "heading",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 1
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 2,
+    "maxChars": 10,
+    "observedIn": 1
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 5,
+    "maxChars": 27,
+    "observedIn": 1
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 15,
+    "maxChars": 71,
+    "observedIn": 1
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 8,
+    "maxChars": 57,
+    "observedIn": 7,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "actions": [
+    1,
+    1
+   ],
+   "media": [
+    7,
+    7
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "icon.source",
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "icon.generic",
+     "product.generated-visual"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "icon.generic",
+  "product.generated-visual"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 5,
+   "nodes": 5,
+   "minPx": 1014.7,
+   "maxPx": 1681.8,
+   "medianPx": 1681.8,
+   "sample": {
+    "/product/ai-channels/": [
+     1681.8
+    ],
+    "/product/ai-chat/": [
+     1187.1
+    ],
+    "/product/ai-dashboards/": [
+     1681.8
+    ],
+    "/product/ai-docs/": [
+     1014.7
+    ],
+    "/product/ai-projects/": [
+     1681.8
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/product/Findings.jsx:21-33",
+  "specs/product.md:1-40"
+ ]
+}

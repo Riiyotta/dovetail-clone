@@ -1,0 +1,1718 @@
+{
+ "url": "/launch/suns-out/",
+ "template": "launch",
+ "title": "Dovetail Launch ’26",
+ "metaDescription": "Dovetail is the Customer Intelligence Platform. See what’s new in our 2026 launch.",
+ "documentHeight": {
+  "1440": 16732,
+  "1280": 16017,
+  "768": 17203,
+  "390": 15530
+ },
+ "chrome": {
+  "alertBar": false,
+  "navBackground": null,
+  "footer": "campaign"
+ },
+ "sections": [
+  {
+   "slice": "LaunchSectionNav",
+   "el": "enicust0",
+   "measuredHeight": {
+    "1440": 56,
+    "1280": 56,
+    "768": 0,
+    "390": 0
+   },
+   "content": [
+    {
+     "role": "button",
+     "text": "AI Agents in GA",
+     "el": "enicust2"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-icon-bolt.png",
+     "alt": "",
+     "w": 23.6,
+     "h": 32,
+     "el": "enicust3"
+    },
+    {
+     "role": "button",
+     "text": "Channels 2.0",
+     "el": "enicust2"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-icon-channels.png",
+     "alt": "",
+     "w": 40.7,
+     "h": 32,
+     "el": "enicust3"
+    },
+    {
+     "role": "button",
+     "text": "Dovetail ecosystem",
+     "el": "enicust2"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-icon-star.png",
+     "alt": "",
+     "w": 31.3,
+     "h": 32,
+     "el": "enicust3"
+    },
+    {
+     "role": "button",
+     "text": "Enterprise upgrades",
+     "el": "enicust2"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-icon-queen.png",
+     "alt": "",
+     "w": 18.5,
+     "h": 32,
+     "el": "enicust3"
+    }
+   ]
+  },
+  {
+   "slice": "LaunchHero",
+   "el": "e4sdv0e0",
+   "measuredHeight": {
+    "1440": 1800,
+    "1280": 1248.4,
+    "768": 1038.8,
+    "390": 865.9
+   },
+   "content": [
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e4sdv0e3-166409.svg",
+     "w": 20.8,
+     "h": 24,
+     "el": "e4sdv0e4"
+    },
+    {
+     "role": "text",
+     "text": "Dovetail Launch ’26",
+     "el": "e4sdv0e5"
+    },
+    {
+     "role": "h1",
+     "text": "Dovetail Launch ’26: Sun’s Out",
+     "el": "visually-hidden"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e4sdv0e6-742045.svg",
+     "w": 800,
+     "h": 480,
+     "el": "e4sdv0e9"
+    },
+    {
+     "role": "text",
+     "text": "Sun’s",
+     "el": "e4sdv0e7"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-sun.png",
+     "alt": "",
+     "w": 376.7,
+     "h": 376.7,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "Out",
+     "el": "e4sdv0e7"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 192,
+     "el": "e4sdv0e11"
+    },
+    {
+     "role": "link",
+     "text": "Talk to our team",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "video",
+     "src": "/assets/marketing/suns-out-hero-loop.mp4",
+     "poster": "/assets/marketing/suns-out-hero-poster.jpg",
+     "el": "e4sdv0e16"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e4sdv0e19-056090.svg",
+     "w": 12.8,
+     "h": 12.8,
+     "el": "svg"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 240,
+    "1280": 160,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "LaunchShipped",
+   "el": "e1ot4t9i0",
+   "measuredHeight": {
+    "1440": 780,
+    "1280": 764,
+    "768": 428,
+    "390": 956
+   },
+   "content": [
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1ot4t9i2-e1keqfn60-768413.svg",
+     "w": 472.1,
+     "h": 420,
+     "el": "svg"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-shipped-sticker.png",
+     "alt": "",
+     "w": 255,
+     "h": 353.4,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "A lot shipped",
+     "el": "e1ot4t9i3"
+    },
+    {
+     "role": "text",
+     "text": "Here’s what’s new",
+     "el": "e1ot4t9i5"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-icon-bolt.png",
+     "alt": "",
+     "w": 29.5,
+     "h": 40,
+     "el": "e1ot4t9i9"
+    },
+    {
+     "role": "link",
+     "text": "AI Agents in GA",
+     "href": "#launch-agents",
+     "el": "e1ot4t9i7"
+    },
+    {
+     "role": "link",
+     "text": "Digital twins",
+     "href": "#launch-digital-twins",
+     "el": "e1ot4t9i7"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-icon-hexagon.png",
+     "alt": "",
+     "w": 36.4,
+     "h": 40,
+     "el": "e1ot4t9i9"
+    },
+    {
+     "role": "link",
+     "text": "Multiplayer agents",
+     "href": "#launch-multiplayer",
+     "el": "e1ot4t9i7"
+    },
+    {
+     "role": "link",
+     "text": "Self-improving context",
+     "href": "#launch-agents-autonomous",
+     "el": "e1ot4t9i7"
+    },
+    {
+     "role": "text",
+     "text": "Version history",
+     "el": "e1ot4t9i8"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-icon-channels.png",
+     "alt": "",
+     "w": 50.9,
+     "h": 40,
+     "el": "e1ot4t9i9"
+    },
+    {
+     "role": "link",
+     "text": "Channels 2.0",
+     "href": "#launch-channels",
+     "el": "e1ot4t9i7"
+    },
+    {
+     "role": "link",
+     "text": "Feedback-to-code",
+     "href": "#launch-channels-idea-to-pr",
+     "el": "e1ot4t9i7"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-icon-siren.png",
+     "alt": "",
+     "w": 34.1,
+     "h": 40,
+     "el": "e1ot4t9i9"
+    },
+    {
+     "role": "link",
+     "text": "Trend tracking",
+     "href": "#launch-trends",
+     "el": "e1ot4t9i7"
+    },
+    {
+     "role": "link",
+     "text": "Multiplayer prioritization",
+     "href": "#launch-multiplayer",
+     "el": "e1ot4t9i7"
+    },
+    {
+     "role": "link",
+     "text": "30+ integrations",
+     "href": "#launch-integrations",
+     "el": "e1ot4t9i7"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-icon-star.png",
+     "alt": "",
+     "w": 39.1,
+     "h": 40,
+     "el": "e1ot4t9i9"
+    },
+    {
+     "role": "link",
+     "text": "Dovetail ecosystem",
+     "href": "#launch-ecosystem",
+     "el": "e1ot4t9i7"
+    },
+    {
+     "role": "link",
+     "text": "MCP in Chat and Agents",
+     "href": "#launch-ecosystem-integrations",
+     "el": "e1ot4t9i7"
+    },
+    {
+     "role": "link",
+     "text": "First-party AI connectors",
+     "href": "#launch-ecosystem-enrich",
+     "el": "e1ot4t9i7"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-icon-queen.png",
+     "alt": "",
+     "w": 23.2,
+     "h": 40,
+     "el": "e1ot4t9i9"
+    },
+    {
+     "role": "link",
+     "text": "Enterprise upgrades",
+     "href": "#launch-enterprise",
+     "el": "e1ot4t9i7"
+    },
+    {
+     "role": "link",
+     "text": "Workspace context",
+     "href": "#launch-enterprise-context",
+     "el": "e1ot4t9i7"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-icon-binoculars.png",
+     "alt": "",
+     "w": 45.9,
+     "h": 40,
+     "el": "e1ot4t9i9"
+    },
+    {
+     "role": "link",
+     "text": "AI Redaction",
+     "href": "#launch-protected",
+     "el": "e1ot4t9i7"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-icon-shield.png",
+     "alt": "",
+     "w": 35.5,
+     "h": 40,
+     "el": "e1ot4t9i9"
+    },
+    {
+     "role": "link",
+     "text": "ISO 42001 AI certification",
+     "href": "#launch-protected",
+     "el": "e1ot4t9i7"
+    },
+    {
+     "role": "link",
+     "text": "Custom home",
+     "href": "#launch-one-way",
+     "el": "e1ot4t9i7"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 320,
+    "1280": 160,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "LaunchAgents",
+   "el": "e1osxjcu0",
+   "measuredHeight": {
+    "1440": 1018.6,
+    "1280": 1269.2,
+    "768": 1137.1,
+    "390": 902.7
+   },
+   "content": [
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1osxjcu2-e1keqfn60-831416.svg",
+     "w": 427,
+     "h": 427,
+     "el": "svg"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-agents-bot.png",
+     "alt": "",
+     "w": 147.5,
+     "h": 200,
+     "el": "e1osxjcu4"
+    },
+    {
+     "role": "text",
+     "text": "AI Agents",
+     "el": "e1osxjcu5"
+    },
+    {
+     "role": "text",
+     "text": "Now available in GA",
+     "el": "e1osxjcu7"
+    },
+    {
+     "role": "text",
+     "text": "Autonomous. Self-improving.",
+     "el": "e1osxjcu10"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 158,
+     "el": "e1osxjcu11"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1osxjcu13-542444.svg",
+     "w": 29.3,
+     "h": 24,
+     "el": "e1osxjcu14"
+    },
+    {
+     "role": "text",
+     "text": "Choose your trigger",
+     "el": "e1osxjcu15"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1osxjcu13-542444.svg",
+     "w": 29.3,
+     "h": 24,
+     "el": "e1osxjcu14"
+    },
+    {
+     "role": "text",
+     "text": "Read/write MCP connectors",
+     "el": "e1osxjcu15"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1osxjcu13-542444.svg",
+     "w": 29.3,
+     "h": 24,
+     "el": "e1osxjcu14"
+    },
+    {
+     "role": "text",
+     "text": "Improved memory across runs",
+     "el": "e1osxjcu15"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-agents-diagram.png",
+     "alt": "",
+     "w": 682,
+     "h": 574.6,
+     "el": "e1osxjcu16"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 160,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "LaunchDigitalTwins",
+   "el": "e5zj3j0",
+   "measuredHeight": {
+    "1440": 664.6,
+    "1280": 1214.1,
+    "768": 1270.1,
+    "390": 1262.6
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Build a digital twin of your customer",
+     "el": "e5zj3j1"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 166,
+     "el": "e5zj3j2"
+    },
+    {
+     "role": "text",
+     "text": "actually",
+     "el": "em"
+    },
+    {
+     "role": "text",
+     "text": "Jess",
+     "el": "e5zj3j6"
+    },
+    {
+     "role": "text",
+     "text": "Enterprise IT buyer",
+     "el": "e5zj3j7"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 200,
+     "el": "e5zj3j8"
+    },
+    {
+     "role": "button",
+     "text": "01",
+     "ariaLabel": "Show Jess",
+     "el": "e5zj3j10"
+    },
+    {
+     "role": "button",
+     "text": "02",
+     "ariaLabel": "Show Anahita",
+     "el": "e5zj3j10"
+    },
+    {
+     "role": "button",
+     "text": "03",
+     "ariaLabel": "Show Travis",
+     "el": "e5zj3j10"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-twin-pixels.svg",
+     "alt": "",
+     "w": 560,
+     "h": 448.6,
+     "el": "e5zj3j14"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-twin-jess.png",
+     "alt": "Jess, Enterprise IT buyer",
+     "w": 420,
+     "h": 420,
+     "el": "e5zj3j17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-twin-ana.png",
+     "alt": "Anahita, Power user",
+     "w": 420,
+     "h": 420,
+     "el": "e5zj3j17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-twin-trav.png",
+     "alt": "Travis, Churned customer",
+     "w": 420,
+     "h": 420,
+     "el": "e5zj3j17"
+    },
+    {
+     "role": "video",
+     "src": "/assets/marketing/launch-2026-twin-jess.mp4",
+     "poster": "/assets/marketing/launch-2026-twin-thumb.png",
+     "el": "e5zj3j20"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-twin-teams.svg",
+     "alt": "",
+     "w": 67.2,
+     "h": 67.2,
+     "el": "e5zj3j22"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-twin-zoom.svg",
+     "alt": "",
+     "w": 67.2,
+     "h": 67.2,
+     "el": "e5zj3j22"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-twin-drive.svg",
+     "alt": "",
+     "w": 67.2,
+     "h": 67.2,
+     "el": "e5zj3j22"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-twin-questionnaire.png",
+     "alt": "",
+     "w": 110.3,
+     "h": 147.1,
+     "el": "e5zj3j24"
+    },
+    {
+     "role": "text",
+     "text": "What’s blocking this deal from closing?",
+     "el": "e5zj3j26"
+    },
+    {
+     "role": "text",
+     "text": "What does your security team need to see before sign-off?",
+     "el": "e5zj3j28"
+    },
+    {
+     "role": "text",
+     "text": "for every use case",
+     "el": "e5zj3j30"
+    },
+    {
+     "role": "text",
+     "text": "Validate design work",
+     "el": "e5zj3j31"
+    },
+    {
+     "role": "text",
+     "text": "Role play customer discovery",
+     "el": "e5zj3j31"
+    },
+    {
+     "role": "text",
+     "text": "Test research plans",
+     "el": "e5zj3j31"
+    },
+    {
+     "role": "text",
+     "text": "Prepare for QBRs",
+     "el": "e5zj3j31"
+    },
+    {
+     "role": "text",
+     "text": "Pressure test roadmap decisions",
+     "el": "e5zj3j31"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e5zj3j12-080716.svg",
+     "w": 32,
+     "h": 26.3,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e5zj3j12-080716.svg",
+     "w": 32,
+     "h": 26.3,
+     "el": "svg"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 160,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "LaunchMultiplayer",
+   "el": "ea0q8q80",
+   "measuredHeight": {
+    "1440": 846.2,
+    "1280": 1103.6,
+    "768": 1423.6,
+    "390": 1242.3
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Multiplayer AI for human-agent collaboration",
+     "el": "ea0q8q82"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 148,
+     "el": "ea0q8q83"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ea0q8q85-779151.svg",
+     "w": 29.3,
+     "h": 24,
+     "el": "ea0q8q86"
+    },
+    {
+     "role": "text",
+     "text": "Access controls",
+     "el": "ea0q8q87"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ea0q8q85-779151.svg",
+     "w": 29.3,
+     "h": 24,
+     "el": "ea0q8q86"
+    },
+    {
+     "role": "text",
+     "text": "Invoke from Chat",
+     "el": "ea0q8q87"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-multiplayer-chat.png",
+     "alt": "AI agents collaborating with a team in Dovetail Chat",
+     "w": 580,
+     "h": 602.6,
+     "el": "ea0q8q88"
+    },
+    {
+     "role": "text",
+     "text": "The agents deployed at Dovetail:",
+     "el": "ea0q8q89"
+    },
+    {
+     "role": "button",
+     "text": "Ronald Research Agent →",
+     "el": "ea0q8q811"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-agent-ronald.png",
+     "alt": "",
+     "w": 64,
+     "h": 64,
+     "el": "ea0q8q812"
+    },
+    {
+     "role": "button",
+     "text": "Rita RevOps Agent →",
+     "el": "ea0q8q811"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-agent-rita.png",
+     "alt": "",
+     "w": 64,
+     "h": 64,
+     "el": "ea0q8q812"
+    },
+    {
+     "role": "link",
+     "text": "Build your own custom agent →",
+     "href": "https://dovetail.com/home",
+     "el": "ea0q8q811"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-agent-custom.png",
+     "alt": "",
+     "w": 64,
+     "h": 64,
+     "el": "ea0q8q812"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 320,
+    "1280": 160,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "LaunchChannels",
+   "el": "eeuo5qc0",
+   "measuredHeight": {
+    "1440": 991.7,
+    "1280": 1177.2,
+    "768": 1046,
+    "390": 1030.1
+   },
+   "content": [
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eeuo5qc2-e1keqfn60-351114.svg",
+     "w": 427,
+     "h": 427,
+     "el": "svg"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-channels-icon.png",
+     "alt": "",
+     "w": 230,
+     "h": 200,
+     "el": "eeuo5qc4"
+    },
+    {
+     "role": "text",
+     "text": "Channels",
+     "el": "eeuo5qc5"
+    },
+    {
+     "role": "text",
+     "text": "2.0",
+     "el": "eeuo5qc6"
+    },
+    {
+     "role": "text",
+     "text": "Closing the gap between feedback and code",
+     "el": "eeuo5qc8"
+    },
+    {
+     "role": "text",
+     "text": "Idea to PR in one click",
+     "el": "eeuo5qc10"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 175,
+     "el": "eeuo5qc11"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eeuo5qc13-590241.svg",
+     "w": 29.3,
+     "h": 24,
+     "el": "eeuo5qc14"
+    },
+    {
+     "role": "text",
+     "text": "One-click send to coding tools",
+     "el": "eeuo5qc15"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eeuo5qc13-590241.svg",
+     "w": 29.3,
+     "h": 24,
+     "el": "eeuo5qc14"
+    },
+    {
+     "role": "text",
+     "text": "Tags bugs, features and requests",
+     "el": "eeuo5qc15"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eeuo5qc13-590241.svg",
+     "w": 29.3,
+     "h": 24,
+     "el": "eeuo5qc14"
+    },
+    {
+     "role": "text",
+     "text": "Two-way sync with Linear and Jira",
+     "el": "eeuo5qc15"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/channels-launch-1.png",
+     "alt": "Turning customer feedback into a pull request in Dovetail",
+     "w": 580,
+     "h": 487.7,
+     "el": "eeuo5qc16"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 160,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "LaunchChannelsFeatures",
+   "el": "e2brdi70",
+   "measuredHeight": {
+    "1440": 1337.3,
+    "1280": 1410.8,
+    "768": 2725.2,
+    "390": 1968.9
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/channels-launch-2.png",
+     "alt": "Dovetail surfacing customer trends before they become problems",
+     "w": 580,
+     "h": 487.7,
+     "el": "e2brdi72"
+    },
+    {
+     "role": "text",
+     "text": "Spot trends problems arise",
+     "el": "e2brdi73"
+    },
+    {
+     "role": "text",
+     "text": "before",
+     "el": "em"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 169,
+     "el": "e2brdi74"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e2brdi76-475647.svg",
+     "w": 29.3,
+     "h": 24,
+     "el": "e2brdi77"
+    },
+    {
+     "role": "text",
+     "text": "Salesforce and HubSpot enrichment",
+     "el": "e2brdi78"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e2brdi76-475647.svg",
+     "w": 29.3,
+     "h": 24,
+     "el": "e2brdi77"
+    },
+    {
+     "role": "text",
+     "text": "Now with 30+ integrations",
+     "el": "e2brdi78"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/channels-launch-3.png",
+     "alt": "GTM gets a vote",
+     "w": 376,
+     "h": 225.6,
+     "el": "e2brdi710"
+    },
+    {
+     "role": "text",
+     "text": "GTM gets a vote",
+     "el": "e2brdi711"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 125,
+     "el": "e2brdi712"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/channels-launch-4.png",
+     "alt": "Close the loop, automatically",
+     "w": 376,
+     "h": 225.6,
+     "el": "e2brdi710"
+    },
+    {
+     "role": "text",
+     "text": "Close the loop, automatically",
+     "el": "e2brdi711"
+    },
+    {
+     "role": "text",
+     "text": "Generate a personalized follow-up email in seconds to let your customers know their issues have been resolved.",
+     "el": "e2brdi712"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/channels-launch-5.png",
+     "alt": "Now with 30+ integrations",
+     "w": 376,
+     "h": 225.6,
+     "el": "e2brdi710"
+    },
+    {
+     "role": "text",
+     "text": "Now with 30+ integrations",
+     "el": "e2brdi711"
+    },
+    {
+     "role": "text",
+     "text": "Data flows in, and intelligence flows out to every AI tool your team already works in.",
+     "el": "e2brdi712"
+    },
+    {
+     "role": "text",
+     "text": "Now available in your workspace.",
+     "el": "e2brdi713"
+    },
+    {
+     "role": "link",
+     "text": "Try it in open beta →",
+     "href": "https://dovetail.com/settings/beta",
+     "el": "e2brdi714"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 240,
+    "1280": 160,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "LaunchEcosystem",
+   "el": "e5j80f50",
+   "measuredHeight": {
+    "1440": 1414.1,
+    "1280": 1574.8,
+    "768": 1486.5,
+    "390": 1556
+   },
+   "content": [
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e5j80f52-e1keqfn60-384268.svg",
+     "w": 480,
+     "h": 374,
+     "el": "svg"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-ecosystem-chain.png",
+     "alt": "",
+     "w": 197,
+     "h": 200,
+     "el": "e5j80f53"
+    },
+    {
+     "role": "text",
+     "text": "Ecosystem",
+     "el": "e5j80f54"
+    },
+    {
+     "role": "text",
+     "text": "Customer intelligence, everywhere you work",
+     "el": "e5j80f59",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 127,
+     "el": "e5j80f513",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ecosystem-launch-1.png",
+     "alt": "Dovetail agents connecting to external tools",
+     "w": 478,
+     "h": 393.3,
+     "el": "e5j80f58"
+    },
+    {
+     "role": "text",
+     "text": "Agents can now talk to your tools",
+     "el": "e5j80f512"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 238,
+     "el": "e5j80f513"
+    },
+    {
+     "role": "text",
+     "text": "Customer intelligence, everywhere you work",
+     "el": "e5j80f59"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 127,
+     "el": "e5j80f513"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ecosystem-launch-2.png",
+     "alt": "Enriching AI answers with Dovetail customer context",
+     "w": 472,
+     "h": 372.1,
+     "el": "e5j80f58"
+    },
+    {
+     "role": "text",
+     "text": "Enrich your AI with customer context",
+     "el": "e5j80f512"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 160,
+     "el": "e5j80f513"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 240,
+    "1280": 160,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "LaunchEnterprise",
+   "el": "e1l1dk620",
+   "measuredHeight": {
+    "1440": 3073.4,
+    "1280": 2670.6,
+    "768": 2773.3,
+    "390": 2241.4
+   },
+   "content": [
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eeuo5qc2-e1keqfn60-351114.svg",
+     "w": 427,
+     "h": 427,
+     "el": "svg"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-enterprise-lock.png",
+     "alt": "",
+     "w": 167.2,
+     "h": 220,
+     "el": "e1l1dk624"
+    },
+    {
+     "role": "text",
+     "text": "Enterprise",
+     "el": "e1l1dk625"
+    },
+    {
+     "role": "text",
+     "text": "Built for the complexity of large organizations",
+     "el": "e1l1dk627"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-enterprise-layer-query.png",
+     "alt": "",
+     "w": 600.2,
+     "h": 277.7,
+     "el": "erteesl4"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-enterprise-layer-apps.png",
+     "alt": "",
+     "w": 600.2,
+     "h": 261.9,
+     "el": "erteesl4"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-enterprise-layer-data.png",
+     "alt": "",
+     "w": 600.2,
+     "h": 262.8,
+     "el": "erteesl4"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/launch-2026-enterprise-layer-platform.png",
+     "alt": "",
+     "w": 600.2,
+     "h": 317.5,
+     "el": "erteesl4"
+    },
+    {
+     "role": "text",
+     "text": "Query",
+     "el": "erteesl7"
+    },
+    {
+     "role": "text",
+     "text": "One layer lets humans and agents query all the data in your workspace—and serves the answer wherever you work.",
+     "el": "erteesl8"
+    },
+    {
+     "role": "text",
+     "text": "Apps",
+     "el": "erteesl7"
+    },
+    {
+     "role": "text",
+     "text": "Data",
+     "el": "erteesl7"
+    },
+    {
+     "role": "text",
+     "text": "Platform",
+     "el": "erteesl7"
+    },
+    {
+     "role": "text",
+     "text": "AI that knows your business",
+     "el": "e1l1dk629"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 232,
+     "el": "e1l1dk6210"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1l1dk6212-437965.svg",
+     "w": 29.3,
+     "h": 24,
+     "el": "e1l1dk6213"
+    },
+    {
+     "role": "text",
+     "text": "Global and local context docs",
+     "el": "e1l1dk6214"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1l1dk6212-437965.svg",
+     "w": 29.3,
+     "h": 24,
+     "el": "e1l1dk6213"
+    },
+    {
+     "role": "text",
+     "text": "Controls for tone, bias, and hallucinations",
+     "el": "e1l1dk6214"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1l1dk6212-437965.svg",
+     "w": 29.3,
+     "h": 24,
+     "el": "e1l1dk6213"
+    },
+    {
+     "role": "text",
+     "text": "Traceable rich citations",
+     "el": "e1l1dk6214"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/enterprise-launch-1.png",
+     "alt": "Dovetail AI grounded in your business context",
+     "w": 580,
+     "h": 601.4,
+     "el": "e1l1dk6215"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 160,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "LaunchOneWay",
+   "el": "ecsil9t0",
+   "measuredHeight": {
+    "1440": 934,
+    "1280": 380,
+    "768": 758.5,
+    "390": 717.3
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "One way to work, across every team",
+     "el": "ecsil9t1"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/enterprise-launch-2.png",
+     "alt": "Teams across an organization working in one Dovetail workspace",
+     "w": 1192,
+     "h": 546,
+     "el": "ecsil9t2"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ecsil9t5-377920.svg",
+     "w": 29.3,
+     "h": 24,
+     "el": "ecsil9t6"
+    },
+    {
+     "role": "text",
+     "text": "Custom home",
+     "el": "ecsil9t7"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ecsil9t5-377920.svg",
+     "w": 29.3,
+     "h": 24,
+     "el": "ecsil9t6"
+    },
+    {
+     "role": "text",
+     "text": "Project and doc templates",
+     "el": "ecsil9t7"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ecsil9t5-377920.svg",
+     "w": 29.3,
+     "h": 24,
+     "el": "ecsil9t6"
+    },
+    {
+     "role": "text",
+     "text": "Global fields and global tags",
+     "el": "ecsil9t7"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 243,
+     "el": "ecsil9t8"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 160,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "LaunchProtected",
+   "el": "e120p5ma0",
+   "measuredHeight": {
+    "1440": 538.1,
+    "1280": 364,
+    "768": 975.5,
+    "390": 730.4
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/enterprise-launch-3.png",
+     "alt": "Dovetail enterprise security and access controls",
+     "w": 580,
+     "h": 538.1,
+     "el": "e120p5ma2"
+    },
+    {
+     "role": "text",
+     "text": "Protected by default",
+     "el": "e120p5ma3"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 204,
+     "el": "e120p5ma4"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e120p5ma6-104509.svg",
+     "w": 29.3,
+     "h": 24,
+     "el": "e120p5ma7"
+    },
+    {
+     "role": "text",
+     "text": "AI Redaction",
+     "el": "e120p5ma8"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e120p5ma6-104509.svg",
+     "w": 29.3,
+     "h": 24,
+     "el": "e120p5ma7"
+    },
+    {
+     "role": "text",
+     "text": "Custom data retention",
+     "el": "e120p5ma8"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e120p5ma6-104509.svg",
+     "w": 29.3,
+     "h": 24,
+     "el": "e120p5ma7"
+    },
+    {
+     "role": "text",
+     "text": "ISO 42001 AI certification",
+     "el": "e120p5ma8"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 320,
+    "1280": 160,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "LaunchCta",
+   "el": "e1uk7pdk0",
+   "measuredHeight": {
+    "1440": 608,
+    "1280": 682,
+    "768": 688.2,
+    "390": 604.5
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "The best never guess",
+     "parts": [
+      {
+       "el": "e1uk7pdk2",
+       "text": "The best",
+       "font": "Inter"
+      },
+      {
+       "el": "e1uk7pdk2",
+       "text": "never guess",
+       "font": "Inter"
+      }
+     ],
+     "el": "e1uk7pdk1"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1uk7pdk4-e1keqfn60-787385.svg",
+     "w": 400,
+     "h": 400,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/salesforce-938518.svg",
+     "w": 214.4,
+     "h": 150,
+     "ariaLabel": "Salesforce",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/aws-739361.svg",
+     "w": 150,
+     "h": 150,
+     "ariaLabel": "AWS",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/canva-431516.svg",
+     "w": 150,
+     "h": 150,
+     "ariaLabel": "Canva",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/airwallex-332823.svg",
+     "w": 150,
+     "h": 150,
+     "ariaLabel": "Airwallex",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/zapier-376199.svg",
+     "w": 150,
+     "h": 150,
+     "ariaLabel": "Zapier",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/notion-413769.svg",
+     "w": 150,
+     "h": 150,
+     "ariaLabel": "Notion",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/itau-386720.svg",
+     "w": 124,
+     "h": 124,
+     "ariaLabel": "Itau",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/wise-678343.svg",
+     "w": 150,
+     "h": 150,
+     "ariaLabel": "Wise",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/salesforce-938518.svg",
+     "w": 214.4,
+     "h": 150,
+     "ariaLabel": "Salesforce",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/aws-739361.svg",
+     "w": 150,
+     "h": 150,
+     "ariaLabel": "AWS",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/canva-431516.svg",
+     "w": 150,
+     "h": 150,
+     "ariaLabel": "Canva",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/airwallex-332823.svg",
+     "w": 150,
+     "h": 150,
+     "ariaLabel": "Airwallex",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/zapier-376199.svg",
+     "w": 150,
+     "h": 150,
+     "ariaLabel": "Zapier",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/notion-413769.svg",
+     "w": 150,
+     "h": 150,
+     "ariaLabel": "Notion",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/itau-386720.svg",
+     "w": 124,
+     "h": 124,
+     "ariaLabel": "Itau",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/wise-678343.svg",
+     "w": 150,
+     "h": 150,
+     "ariaLabel": "Wise",
+     "el": "svg"
+    },
+    {
+     "role": "button",
+     "text": "WATCH THE KEYNOTE",
+     "ariaLabel": "Watch the keynote",
+     "el": "e1uk7pdk12"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1uk7pdk15-905180.svg",
+     "w": 12,
+     "h": 12,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 239,
+     "el": "e1uk7pdk8"
+    },
+    {
+     "role": "link",
+     "text": "Talk to our team",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 160,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "LaunchFooter",
+   "el": "e1560hmp0",
+   "measuredHeight": {
+    "1440": 86,
+    "1280": 86,
+    "768": 180,
+    "390": 180
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "© 2026 Dovetail Research Pty. Ltd.",
+     "el": "e1560hmp2"
+    },
+    {
+     "role": "button",
+     "text": "Cookie preferences",
+     "el": "e1560hmp4"
+    },
+    {
+     "role": "link",
+     "text": "Legal & Privacy",
+     "href": "/legal/",
+     "el": "e1560hmp4"
+    },
+    {
+     "role": "text",
+     "text": "Follow us",
+     "el": "e1560hmp6"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1560hmp8-953445.svg",
+     "w": 32,
+     "h": 32,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1560hmp8-353728.svg",
+     "w": 32,
+     "h": 32,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1560hmp8-849418.svg",
+     "w": 32,
+     "h": 32,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1560hmp8-296591.svg",
+     "w": 32,
+     "h": 32,
+     "el": "svg"
+    }
+   ]
+  }
+ ]
+}

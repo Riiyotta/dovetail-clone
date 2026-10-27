@@ -1,0 +1,546 @@
+{
+ "path": "/careers/",
+ "title": "Careers at Dovetail",
+ "hero": {
+  "eyebrow": "Careers at Dovetail",
+  "lines": [
+   "Help build",
+   "the future of",
+   "customer",
+   "intelligence"
+  ],
+  "images": [
+   {
+    "src": "/assets/company/media/hand_group.png",
+    "alt": "",
+    "w": 492,
+    "h": 457
+   },
+   {
+    "src": "/assets/company/media/Group_1699555905.png",
+    "alt": "",
+    "w": 622,
+    "h": 709
+   },
+   {
+    "src": "/assets/company/media/Group_1699555903.png",
+    "alt": "",
+    "w": 682,
+    "h": 638
+   },
+   {
+    "src": "/assets/company/media/Group_1699555898.png",
+    "alt": "",
+    "w": 439,
+    "h": 694
+   }
+  ],
+  "button": "See open roles"
+ },
+ "globePanels": [
+  {
+   "heading": "Dovetail is building the Customer [Intelligence] Platform used by the world’s [logo-rotator] best orgs",
+   "mondwest": [
+    "Intelligence"
+   ],
+   "icons": [],
+   "body": {
+    "placeholder": true,
+    "chars": 223
+   }
+  },
+  {
+   "heading": "AI has been at our core loooong before it was mainstream",
+   "mondwest": [
+    "loooong"
+   ],
+   "icons": [
+    "/assets/company/media/icon-star.png"
+   ],
+   "body": {
+    "placeholder": true,
+    "chars": 260
+   }
+  },
+  {
+   "heading": "Together, we’re all working to solve the same problem...",
+   "mondwest": [
+    "problem...",
+    "understand"
+   ],
+   "icons": [
+    "/assets/company/media/working-icon.svg",
+    "/assets/company/media/understand-icon.svg"
+   ],
+   "body": {
+    "placeholder": true,
+    "chars": 52
+   }
+  }
+ ],
+ "openPositions": {
+  "heading": "Open positions",
+  "intro": {
+   "placeholder": true,
+   "chars": 464
+  },
+  "filters": {
+   "team": [
+    "all teams",
+    "Sales & Customer Success",
+    "Marketing",
+    "Engineering",
+    "Design & Research"
+   ],
+   "location": [
+    "all locations",
+    "US Remote",
+    "Sydney"
+   ]
+  },
+  "groups": [
+   {
+    "team": "Sales & Customer Success",
+    "jobs": [
+     {
+      "location": "US Remote",
+      "title": "Account Executive (Enterprise)",
+      "href": "https://jobs.ashbyhq.com/dovetail/f1340462-c5be-4d61-9d8f-050e2c763783"
+     },
+     {
+      "location": "US Remote",
+      "title": "Sales Development Representative",
+      "href": "https://jobs.ashbyhq.com/dovetail/26ebd1c1-f5b1-4b84-928c-dce24d685232"
+     }
+    ]
+   },
+   {
+    "team": "Marketing",
+    "jobs": [
+     {
+      "location": "Sydney",
+      "title": "Demand Generation Lead",
+      "href": "https://jobs.ashbyhq.com/dovetail/f06a202e-08a1-4453-b38a-8393eb48af0e"
+     },
+     {
+      "location": "US Remote",
+      "title": "Demand Generation Lead",
+      "href": "https://jobs.ashbyhq.com/dovetail/bb3754de-d037-473a-9fa1-2f4e939c9608"
+     },
+     {
+      "location": "Sydney",
+      "title": "Growth Marketer",
+      "href": "https://jobs.ashbyhq.com/dovetail/21b93d7c-f871-474f-89f4-962aa93e5b77"
+     },
+     {
+      "location": "US Remote",
+      "title": "Growth Marketer",
+      "href": "https://jobs.ashbyhq.com/dovetail/80c18054-f7eb-4019-b6f5-ee3c68fd3239"
+     },
+     {
+      "location": "Sydney",
+      "title": "Senior Web Engineer",
+      "href": "https://jobs.ashbyhq.com/dovetail/2af0d837-e636-44e3-99a8-fd22199b699f"
+     }
+    ]
+   },
+   {
+    "team": "Engineering",
+    "jobs": [
+     {
+      "location": "Sydney",
+      "title": "Security Engineering Lead",
+      "href": "https://jobs.ashbyhq.com/dovetail/7902c644-99b9-451a-899e-ff6216cdb3a1"
+     }
+    ]
+   },
+   {
+    "team": "Design & Research",
+    "jobs": [
+     {
+      "location": "Sydney",
+      "title": "Senior Product Designer",
+      "href": "https://jobs.ashbyhq.com/dovetail/b209d867-082c-4691-b03f-ba4309098058"
+     }
+    ]
+   }
+  ]
+ },
+ "talent": {
+  "heading": "Can’t see the role you’re looking for?",
+  "body": {
+   "placeholder": true,
+   "chars": 171
+  },
+  "link": {
+   "label": "Join our talent community",
+   "href": "https://jobs.ashbyhq.com/dovetail/form/future-of-dovetail-talent-pool"
+  }
+ },
+ "people": {
+  "heading": "Meet some of the humans behind the product",
+  "members": [
+   {
+    "name": "Anahita",
+    "role": "User Experience Manager",
+    "photo": "/assets/company/media/careers-anahita.png",
+    "paragraphs": [
+     {
+      "placeholder": true,
+      "chars": 219
+     },
+     {
+      "placeholder": true,
+      "chars": 201
+     },
+     {
+      "placeholder": true,
+      "chars": 172
+     }
+    ]
+   },
+   {
+    "name": "Ben",
+    "role": "Software Engineer",
+    "photo": "/assets/company/media/careers-ben.png",
+    "paragraphs": [
+     {
+      "placeholder": true,
+      "chars": 226
+     },
+     {
+      "placeholder": true,
+      "chars": 246
+     }
+    ]
+   },
+   {
+    "name": "Tia",
+    "role": "Senior Creative Director",
+    "photo": "/assets/company/media/careers-tia.png",
+    "paragraphs": [
+     {
+      "placeholder": true,
+      "chars": 155
+     },
+     {
+      "placeholder": true,
+      "chars": 159
+     },
+     {
+      "placeholder": true,
+      "chars": 191
+     }
+    ]
+   },
+   {
+    "name": "Seb",
+    "role": "Software Engineer",
+    "photo": "/assets/company/media/careers-seb.png",
+    "paragraphs": [
+     {
+      "placeholder": true,
+      "chars": 319
+     },
+     {
+      "placeholder": true,
+      "chars": 246
+     }
+    ]
+   }
+  ]
+ },
+ "benefits": [
+  {
+   "index": "[01]",
+   "title": "Equity for everyone",
+   "body": {
+    "placeholder": true,
+    "chars": 92
+   }
+  },
+  {
+   "index": "[02]",
+   "title": "How we work",
+   "body": {
+    "placeholder": true,
+    "chars": 89
+   }
+  },
+  {
+   "index": "[03]",
+   "title": "Time to recharge",
+   "body": {
+    "placeholder": true,
+    "chars": 108
+   }
+  },
+  {
+   "index": "[04]",
+   "title": "Built-in connection",
+   "body": {
+    "placeholder": true,
+    "chars": 90
+   }
+  },
+  {
+   "index": "[05]",
+   "title": "Four weeks from anywhere",
+   "body": {
+    "placeholder": true,
+    "chars": 98
+   }
+  },
+  {
+   "index": "[06]",
+   "title": "Learning and development",
+   "body": {
+    "placeholder": true,
+    "chars": 95
+   }
+  },
+  {
+   "index": "[07]",
+   "title": "Parental leave",
+   "body": {
+    "placeholder": true,
+    "chars": 96
+   }
+  },
+  {
+   "index": "[08]",
+   "title": "4 years = 4 weeks’ sabbatical",
+   "body": {
+    "placeholder": true,
+    "chars": 86
+   }
+  }
+ ],
+ "benefitsHeading": "The full package",
+ "gallery": [
+  {
+   "image": {
+    "src": "/assets/company/media/tommy-careers.png",
+    "alt": "",
+    "w": 798,
+    "h": 1340
+   },
+   "caption": "Join Tommy, as he takes you on a grand tour of Dovetail’s headquarters in Sydney.",
+   "video": true,
+   "youtubeId": "DzEbrR2WyHg"
+  },
+  {
+   "image": {
+    "src": "/assets/company/media/Screenshot_2026-01-14_at_13.55.55_1.png",
+    "alt": "",
+    "w": 800,
+    "h": 510
+   },
+   "caption": "A look back on Dovetail in 2025.",
+   "video": true,
+   "youtubeId": "xSG0Ogvn4iM"
+  },
+  {
+   "image": {
+    "src": "/assets/company/media/makeit.png",
+    "alt": "",
+    "w": 2240,
+    "h": 1248
+   },
+   "caption": "A snapshot from Make It week, one of our favorite rituals.",
+   "video": true,
+   "youtubeId": "KAgOFWktDKc"
+  }
+ ],
+ "values": {
+  "heading": "Driven by values",
+  "intro": {
+   "placeholder": true,
+   "chars": 311
+  },
+  "posters": [
+   {
+    "image": {
+     "src": "/assets/company/media/poster_put_the_customer_first.png",
+     "alt": "",
+     "w": 0,
+     "h": 0
+    },
+    "title": "Put the customer first",
+    "body": {
+     "placeholder": true,
+     "chars": 180
+    }
+   },
+   {
+    "image": {
+     "src": "/assets/company/media/poster_stay_humble.png",
+     "alt": "",
+     "w": 0,
+     "h": 0
+    },
+    "title": "Stay humble",
+    "body": {
+     "placeholder": true,
+     "chars": 159
+    }
+   },
+   {
+    "image": {
+     "src": "/assets/company/media/poster_do_the_thing.png",
+     "alt": "",
+     "w": 0,
+     "h": 0
+    },
+    "title": "Do the thing",
+    "body": {
+     "placeholder": true,
+     "chars": 191
+    }
+   },
+   {
+    "image": {
+     "src": "/assets/company/media/poster_we_nail_it.png",
+     "alt": "",
+     "w": 0,
+     "h": 0
+    },
+    "title": "If we do it, we nail it",
+    "body": {
+     "placeholder": true,
+     "chars": 183
+    }
+   },
+   {
+    "image": {
+     "src": "/assets/company/media/poster_open_by_default.png",
+     "alt": "",
+     "w": 0,
+     "h": 0
+    },
+    "title": "Open by default",
+    "body": {
+     "placeholder": true,
+     "chars": 162
+    }
+   }
+  ]
+ },
+ "hiring": {
+  "heading": "How we hire",
+  "steps": [
+   {
+    "icon": "/assets/company/media/careers-video-screener.png",
+    "title": "Video intro",
+    "body": {
+     "placeholder": true,
+     "chars": 111
+    }
+   },
+   {
+    "icon": "/assets/company/media/careers-technical-interview.png",
+    "title": "Technical interview",
+    "body": {
+     "placeholder": true,
+     "chars": 115
+    }
+   },
+   {
+    "icon": "/assets/company/media/careers-values-interview.png",
+    "title": "Values interview",
+    "body": {
+     "placeholder": true,
+     "chars": 105
+    }
+   },
+   {
+    "icon": "/assets/company/media/careers-final-interview.png",
+    "title": "Final interview",
+    "body": {
+     "placeholder": true,
+     "chars": 120
+    }
+   }
+  ]
+ },
+ "faqs": [
+  {
+   "q": "Where are Dovetail’s offices located?",
+   "a": {
+    "placeholder": true,
+    "chars": 192
+   }
+  },
+  {
+   "q": "What is Dovetail’s hybrid working policy?",
+   "a": {
+    "placeholder": true,
+    "chars": 437
+   }
+  },
+  {
+   "q": "What kind of team is Dovetail building?",
+   "a": {
+    "placeholder": true,
+    "chars": 213
+   }
+  },
+  {
+   "q": "What does it mean to “build with AI” at Dovetail?",
+   "a": {
+    "placeholder": true,
+    "chars": 296
+   }
+  },
+  {
+   "q": "How does the team work day-to-day?",
+   "a": {
+    "placeholder": true,
+    "chars": 240
+   }
+  },
+  {
+   "q": "What does ownership look like at Dovetail?",
+   "a": {
+    "placeholder": true,
+    "chars": 237
+   }
+  },
+  {
+   "q": "Do engineers interact with customers?",
+   "a": {
+    "placeholder": true,
+    "chars": 239
+   }
+  },
+  {
+   "q": "How are product decisions made?",
+   "a": {
+    "placeholder": true,
+    "chars": 271
+   }
+  },
+  {
+   "q": "How does career progression work at Dovetail?",
+   "a": {
+    "placeholder": true,
+    "chars": 400
+   }
+  },
+  {
+   "q": "Does Dovetail welcome furry best friends in the office?",
+   "a": {
+    "placeholder": true,
+    "chars": 84
+   }
+  }
+ ],
+ "prefooter": {
+  "heading": "Help build the platform trusted by the best",
+  "button": {
+   "label": "See open roles",
+   "action": "scroll to #open-roles (offset -120px, smooth)"
+  },
+  "background": "/assets/marketing/footer-bg.webp"
+ }
+}

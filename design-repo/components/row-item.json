@@ -1,0 +1,12 @@
+{
+ "id": "row-item",
+ "kind": "component",
+ "title": "Row list item",
+ "composes": [
+  "divider",
+  "text-link"
+ ],
+ "evidence": [
+  "specs/company-shared.md:195"
+ ]
+}

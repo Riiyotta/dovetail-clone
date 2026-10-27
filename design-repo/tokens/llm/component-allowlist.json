@@ -1,0 +1,3563 @@
+{
+ "version": "1.0.0",
+ "note": "closed list of what a generator may place and set. settable = exactly the contract + schema surface (checked by extraction/verify_all.py ALLOWLIST_PARITY).",
+ "entries": [
+  {
+   "id": "button",
+   "kind": "primitive",
+   "file": "primitives/button.json"
+  },
+  {
+   "id": "text-link",
+   "kind": "primitive",
+   "file": "primitives/text-link.json"
+  },
+  {
+   "id": "eyebrow",
+   "kind": "primitive",
+   "file": "primitives/eyebrow.json"
+  },
+  {
+   "id": "heading",
+   "kind": "primitive",
+   "file": "primitives/heading.json"
+  },
+  {
+   "id": "serif-accent",
+   "kind": "primitive",
+   "file": "primitives/serif-accent.json"
+  },
+  {
+   "id": "inline-heading-image",
+   "kind": "primitive",
+   "file": "primitives/inline-heading-image.json"
+  },
+  {
+   "id": "badge",
+   "kind": "primitive",
+   "file": "primitives/badge.json"
+  },
+  {
+   "id": "icon-tile",
+   "kind": "primitive",
+   "file": "primitives/icon-tile.json"
+  },
+  {
+   "id": "image",
+   "kind": "primitive",
+   "file": "primitives/image.json"
+  },
+  {
+   "id": "chip",
+   "kind": "primitive",
+   "file": "primitives/chip.json"
+  },
+  {
+   "id": "divider",
+   "kind": "primitive",
+   "file": "primitives/divider.json"
+  },
+  {
+   "id": "spacer",
+   "kind": "primitive",
+   "file": "primitives/spacer.json"
+  },
+  {
+   "id": "ascii-field",
+   "kind": "component",
+   "file": "components/ascii-field.json"
+  },
+  {
+   "id": "pixel-dissolve",
+   "kind": "component",
+   "file": "components/pixel-dissolve.json"
+  },
+  {
+   "id": "cursor-tooltip",
+   "kind": "component",
+   "file": "components/cursor-tooltip.json"
+  },
+  {
+   "id": "quote-card",
+   "kind": "component",
+   "file": "components/quote-card.json"
+  },
+  {
+   "id": "stat-card",
+   "kind": "component",
+   "file": "components/stat-card.json"
+  },
+  {
+   "id": "story-card",
+   "kind": "component",
+   "file": "components/story-card.json"
+  },
+  {
+   "id": "event-card",
+   "kind": "component",
+   "file": "components/event-card.json"
+  },
+  {
+   "id": "row-item",
+   "kind": "component",
+   "file": "components/row-item.json"
+  },
+  {
+   "id": "video-card",
+   "kind": "component",
+   "file": "components/video-card.json"
+  },
+  {
+   "id": "faq-item",
+   "kind": "component",
+   "file": "components/faq-item.json"
+  },
+  {
+   "id": "image-card",
+   "kind": "component",
+   "file": "components/image-card.json"
+  },
+  {
+   "id": "rich-text",
+   "kind": "component",
+   "file": "components/rich-text.json"
+  },
+  {
+   "id": "progress-tabs",
+   "kind": "component",
+   "file": "components/progress-tabs.json"
+  },
+  {
+   "id": "marquee",
+   "kind": "component",
+   "file": "components/marquee.json"
+  },
+  {
+   "id": "article.byline",
+   "kind": "section",
+   "file": "sections/article.byline.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "article.chapter",
+   "kind": "section",
+   "file": "sections/article.chapter.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "dark",
+     "light"
+    ],
+    "content": [
+     "body",
+     "heading"
+    ],
+    "style": [],
+    "motion": [
+     "video.inview-autoplay",
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "article.contents-nav",
+   "kind": "section",
+   "file": "sections/article.contents-nav.json",
+   "retrievalEligible": false,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions"
+    ],
+    "style": [],
+    "motion": [
+     "scroll.spy"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "article.header",
+   "kind": "section",
+   "file": "sections/article.header.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "compact",
+     "dark-media",
+     "light"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "content.generated-cover"
+    ]
+   }
+  },
+  {
+   "id": "article.hero-media",
+   "kind": "section",
+   "file": "sections/article.hero-media.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "video.inview-autoplay",
+     "static"
+    ],
+    "assetRoles": [
+     "content.generated-cover"
+    ]
+   }
+  },
+  {
+   "id": "article.lede",
+   "kind": "section",
+   "file": "sections/article.lede.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "article.related-topics",
+   "kind": "section",
+   "file": "sections/article.related-topics.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "items"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "article.story-chapter",
+   "kind": "section",
+   "file": "sections/article.story-chapter.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "body",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "photo.generated-scene",
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "article.story-facts",
+   "kind": "section",
+   "file": "sections/article.story-facts.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "lead",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "sticky.pin"
+    ],
+    "assetRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "company.benefits",
+   "kind": "section",
+   "file": "sections/company.benefits.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "items",
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "company.careers-callout",
+   "kind": "section",
+   "file": "sections/company.careers-callout.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "pixel.band-scrub"
+    ],
+    "assetRoles": [
+     "illustration.generated",
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "company.globe-story",
+   "kind": "section",
+   "file": "sections/company.globe-story.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "items"
+    ],
+    "style": [],
+    "motion": [
+     "sticky.pin",
+     "canvas.globe-spin"
+    ],
+    "assetRoles": [
+     "customer.placeholder-logo",
+     "photo.generated-scene"
+    ]
+   }
+  },
+  {
+   "id": "company.hiring-steps",
+   "kind": "section",
+   "file": "sections/company.hiring-steps.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "items"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "company.open-positions",
+   "kind": "section",
+   "file": "sections/company.open-positions.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "company.people-accordion",
+   "kind": "section",
+   "file": "sections/company.people-accordion.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "items",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "accordion.height"
+    ],
+    "assetRoles": [
+     "person.fictional-avatar"
+    ]
+   }
+  },
+  {
+   "id": "company.values",
+   "kind": "section",
+   "file": "sections/company.values.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "items",
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "carousel.manual"
+    ],
+    "assetRoles": [
+     "photo.generated-scene",
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "company.video-gallery",
+   "kind": "section",
+   "file": "sections/company.video-gallery.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "items"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "video.modal"
+    ],
+    "assetRoles": [
+     "photo.generated-scene"
+    ]
+   }
+  },
+  {
+   "id": "comparison.intro",
+   "kind": "section",
+   "file": "sections/comparison.intro.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "comparison.table",
+   "kind": "section",
+   "file": "sections/comparison.table.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "items"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "content.campaign-text",
+   "kind": "section",
+   "file": "sections/content.campaign-text.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "illustration.generated"
+    ]
+   }
+  },
+  {
+   "id": "content.editorial-process",
+   "kind": "section",
+   "file": "sections/content.editorial-process.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "content.full-bleed-image",
+   "kind": "section",
+   "file": "sections/content.full-bleed-image.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "content.launch-recap",
+   "kind": "section",
+   "file": "sections/content.launch-recap.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "lead",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "icon.generic",
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "content.manifesto",
+   "kind": "section",
+   "file": "sections/content.manifesto.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "lead",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "illustration.generated"
+    ]
+   }
+  },
+  {
+   "id": "content.profile-header",
+   "kind": "section",
+   "file": "sections/content.profile-header.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "content.scroll-video",
+   "kind": "section",
+   "file": "sections/content.scroll-video.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "scroll.scale",
+     "video.modal"
+    ],
+    "assetRoles": [
+     "video.placeholder-poster"
+    ]
+   }
+  },
+  {
+   "id": "content.section-intro",
+   "kind": "section",
+   "file": "sections/content.section-intro.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "centered",
+     "default"
+    ],
+    "content": [
+     "heading",
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "content.skills-tags",
+   "kind": "section",
+   "file": "sections/content.skills-tags.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "items"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "content.split-intro",
+   "kind": "section",
+   "file": "sections/content.split-intro.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "content.statement",
+   "kind": "section",
+   "file": "sections/content.statement.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "compact",
+     "default"
+    ],
+    "content": [
+     "heading",
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "conversion.lead-form",
+   "kind": "section",
+   "file": "sections/conversion.lead-form.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "demo",
+     "gated-report",
+     "scoping-call"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "conversion.report-download",
+   "kind": "section",
+   "file": "sections/conversion.report-download.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "conversion.trial-signup",
+   "kind": "section",
+   "file": "sections/conversion.trial-signup.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "illustration.generated"
+    ]
+   }
+  },
+  {
+   "id": "cta.careers-prefooter",
+   "kind": "section",
+   "file": "sections/cta.careers-prefooter.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "cta.closing-band",
+   "kind": "section",
+   "file": "sections/cta.closing-band.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "cta.closing-with-stories",
+   "kind": "section",
+   "file": "sections/cta.closing-with-stories.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "items",
+     "lead",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "text.rotator",
+     "pixel.dissolve-hover"
+    ],
+    "assetRoles": [
+     "customer.placeholder-logo",
+     "icon.generic",
+     "photo.generated-scene",
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "cta.entry-actions",
+   "kind": "section",
+   "file": "sections/cta.entry-actions.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "cta.final-cta",
+   "kind": "section",
+   "file": "sections/cta.final-cta.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "dark",
+     "light"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "gsap.mount-stagger",
+     "canvas.ascii-field"
+    ],
+    "assetRoles": [
+     "customer.placeholder-logo"
+    ]
+   }
+  },
+  {
+   "id": "cta.inline-band",
+   "kind": "section",
+   "file": "sections/cta.inline-band.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "compact",
+     "dark",
+     "light"
+    ],
+    "content": [
+     "actions",
+     "heading"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "cta.launch-closing",
+   "kind": "section",
+   "file": "sections/cta.launch-closing.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "pixel.reveal"
+    ],
+    "assetRoles": [
+     "illustration.generated"
+    ]
+   }
+  },
+  {
+   "id": "cta.migrate-band",
+   "kind": "section",
+   "file": "sections/cta.migrate-band.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "cta.quiz-promo",
+   "kind": "section",
+   "file": "sections/cta.quiz-promo.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "cta.sidebar-card",
+   "kind": "section",
+   "file": "sections/cta.sidebar-card.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "sticky.pin"
+    ],
+    "assetRoles": [
+     "content.generated-cover"
+    ]
+   }
+  },
+  {
+   "id": "cta.talent-callout",
+   "kind": "section",
+   "file": "sections/cta.talent-callout.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "cta.tool-card",
+   "kind": "section",
+   "file": "sections/cta.tool-card.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "cta.trial-band",
+   "kind": "section",
+   "file": "sections/cta.trial-band.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "comparison",
+     "solutions"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "cta.twins-modal",
+   "kind": "section",
+   "file": "sections/cta.twins-modal.json",
+   "retrievalEligible": false,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [],
+    "style": [],
+    "motion": [
+     "modal.fade-scale"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "event.description",
+   "kind": "section",
+   "file": "sections/event.description.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "body",
+     "heading",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "product.generated-visual",
+     "rating.placeholder"
+    ]
+   }
+  },
+  {
+   "id": "event.details-sidebar",
+   "kind": "section",
+   "file": "sections/event.details-sidebar.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "lead"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "event.header",
+   "kind": "section",
+   "file": "sections/event.header.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "features.alternating-row",
+   "kind": "section",
+   "file": "sections/features.alternating-row.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "centered",
+     "media-left",
+     "media-right"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "features.audience-rows",
+   "kind": "section",
+   "file": "sections/features.audience-rows.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "items"
+    ],
+    "style": [],
+    "motion": [
+     "sticky.pin"
+    ],
+    "assetRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "features.benefit-cards",
+   "kind": "section",
+   "file": "sections/features.benefit-cards.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "items"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "features.card-carousel",
+   "kind": "section",
+   "file": "sections/features.card-carousel.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "items",
+     "lead"
+    ],
+    "style": [],
+    "motion": [
+     "carousel.manual"
+    ],
+    "assetRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "features.channel-grid",
+   "kind": "section",
+   "file": "sections/features.channel-grid.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "features.checklist-grid",
+   "kind": "section",
+   "file": "sections/features.checklist-grid.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "items",
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "features.choose-grid",
+   "kind": "section",
+   "file": "sections/features.choose-grid.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "features.data-diagram",
+   "kind": "section",
+   "file": "sections/features.data-diagram.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "canvas.orbit"
+    ],
+    "assetRoles": [
+     "illustration.generated"
+    ]
+   }
+  },
+  {
+   "id": "features.findings-grid",
+   "kind": "section",
+   "file": "sections/features.findings-grid.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "icon.generic",
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "features.govern-grid",
+   "kind": "section",
+   "file": "sections/features.govern-grid.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "items",
+     "lead",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "icon.generic",
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "features.icon-grid",
+   "kind": "section",
+   "file": "sections/features.icon-grid.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "items"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "illustration.generated"
+    ]
+   }
+  },
+  {
+   "id": "features.integrations-grid",
+   "kind": "section",
+   "file": "sections/features.integrations-grid.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "features.integrations-list",
+   "kind": "section",
+   "file": "sections/features.integrations-list.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "items"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "sticky.pin"
+    ],
+    "assetRoles": [
+     "partner.placeholder-icon",
+     "rating.placeholder"
+    ]
+   }
+  },
+  {
+   "id": "features.launch-feature",
+   "kind": "section",
+   "file": "sections/features.launch-feature.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "bullets",
+     "people",
+     "split",
+     "title-block"
+    ],
+    "content": [
+     "actions",
+     "lead",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "pixel.reveal",
+     "video.modal"
+    ],
+    "assetRoles": [
+     "icon.generic",
+     "illustration.generated",
+     "person.fictional-avatar",
+     "product.generated-visual",
+     "video.placeholder-poster"
+    ]
+   }
+  },
+  {
+   "id": "features.numbered-steps",
+   "kind": "section",
+   "file": "sections/features.numbered-steps.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "items",
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "features.roi-map",
+   "kind": "section",
+   "file": "sections/features.roi-map.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "illustration.generated"
+    ]
+   }
+  },
+  {
+   "id": "features.security-compliance",
+   "kind": "section",
+   "file": "sections/features.security-compliance.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "lead",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "pixel.band-scrub"
+    ],
+    "assetRoles": [
+     "illustration.generated",
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "features.sticky-features",
+   "kind": "section",
+   "file": "sections/features.sticky-features.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "items",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "sticky.pin"
+    ],
+    "assetRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "features.sticky-loop",
+   "kind": "section",
+   "file": "sections/features.sticky-loop.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "items",
+     "lead",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "scroll.sticky-progress",
+     "canvas.globe-spin"
+    ],
+    "assetRoles": [
+     "illustration.generated",
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "features.topic-tabs",
+   "kind": "section",
+   "file": "sections/features.topic-tabs.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "context",
+     "prompt"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "items",
+     "lead",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "tabs.auto-advance",
+     "canvas.ascii-field",
+     "pixel.dissolve-hover"
+    ],
+    "assetRoles": [
+     "customer.placeholder-logo",
+     "illustration.generated",
+     "person.fictional-avatar",
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "features.voice-mode",
+   "kind": "section",
+   "file": "sections/features.voice-mode.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "hero.campaign",
+   "kind": "section",
+   "file": "sections/hero.campaign.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "gsap.mount-stagger"
+    ],
+    "assetRoles": [
+     "customer.placeholder-logo",
+     "illustration.generated"
+    ]
+   }
+  },
+  {
+   "id": "hero.careers",
+   "kind": "section",
+   "file": "sections/hero.careers.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "photo.generated-scene"
+    ]
+   }
+  },
+  {
+   "id": "hero.comparison",
+   "kind": "section",
+   "file": "sections/hero.comparison.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "hero.dot-title",
+   "kind": "section",
+   "file": "sections/hero.dot-title.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "lead"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "hero.home",
+   "kind": "section",
+   "file": "sections/hero.home.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "fade.in",
+     "canvas.ascii-field",
+     "logo.cycler",
+     "pointer.follow"
+    ],
+    "assetRoles": [
+     "customer.placeholder-logo",
+     "illustration.generated",
+     "rating.placeholder"
+    ]
+   }
+  },
+  {
+   "id": "hero.launch",
+   "kind": "section",
+   "file": "sections/hero.launch.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "sticky.pin",
+     "pixel.reveal"
+    ],
+    "assetRoles": [
+     "product.generated-visual",
+     "video.placeholder-poster"
+    ]
+   }
+  },
+  {
+   "id": "hero.podcast",
+   "kind": "section",
+   "file": "sections/hero.podcast.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "lead"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "hero.pricing",
+   "kind": "section",
+   "file": "sections/hero.pricing.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "hero.product",
+   "kind": "section",
+   "file": "sections/hero.product.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "media",
+     "video-card"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "static",
+     "video.inview-autoplay"
+    ],
+    "assetRoles": [
+     "icon.generic",
+     "illustration.generated",
+     "person.fictional-avatar",
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "hero.quiz-hub",
+   "kind": "section",
+   "file": "sections/hero.quiz-hub.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "items",
+     "lead"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "hero.role",
+   "kind": "section",
+   "file": "sections/hero.role.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "customer.placeholder-logo",
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "hero.simple",
+   "kind": "section",
+   "file": "sections/hero.simple.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default",
+     "with-action"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "hero.solution",
+   "kind": "section",
+   "file": "sections/hero.solution.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "hero.split-media",
+   "kind": "section",
+   "file": "sections/hero.split-media.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "deploy",
+     "enterprise"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "hero.story",
+   "kind": "section",
+   "file": "sections/hero.story.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "image",
+     "video"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "static",
+     "video.modal"
+    ],
+    "assetRoles": [
+     "photo.generated-scene"
+    ]
+   }
+  },
+  {
+   "id": "hero.template",
+   "kind": "section",
+   "file": "sections/hero.template.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "photo.generated-scene",
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "hero.tool",
+   "kind": "section",
+   "file": "sections/hero.tool.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "hero.typewriter",
+   "kind": "section",
+   "file": "sections/hero.typewriter.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "typewriter"
+    ],
+    "assetRoles": [
+     "icon.generic"
+    ]
+   }
+  },
+  {
+   "id": "interactive.faq",
+   "kind": "section",
+   "file": "sections/interactive.faq.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "company",
+     "marketing",
+     "tools"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "items",
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "accordion.height"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "interactive.prompt-cards",
+   "kind": "section",
+   "file": "sections/interactive.prompt-cards.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "items",
+     "lead",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "hover.overlay",
+     "modal.fade-scale"
+    ],
+    "assetRoles": [
+     "illustration.generated",
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "interactive.roi-calculator",
+   "kind": "section",
+   "file": "sections/interactive.roi-calculator.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "lead"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "interactive.role-quiz",
+   "kind": "section",
+   "file": "sections/interactive.role-quiz.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "interactive.toc-sheet",
+   "kind": "section",
+   "file": "sections/interactive.toc-sheet.json",
+   "retrievalEligible": false,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [],
+    "style": [],
+    "motion": [
+     "sheet.slide"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "interactive.use-case-tabs",
+   "kind": "section",
+   "file": "sections/interactive.use-case-tabs.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "items"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "tabs.auto-advance"
+    ],
+    "assetRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "interactive.vertical-tabs",
+   "kind": "section",
+   "file": "sections/interactive.vertical-tabs.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "tabs.auto-advance"
+    ],
+    "assetRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "interactive.video-modal",
+   "kind": "section",
+   "file": "sections/interactive.video-modal.json",
+   "retrievalEligible": false,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [],
+    "style": [],
+    "motion": [
+     "modal.fade-scale"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "legal.doc-header",
+   "kind": "section",
+   "file": "sections/legal.doc-header.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "legal.doc-part",
+   "kind": "section",
+   "file": "sections/legal.doc-part.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "body",
+     "heading"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "legal.on-this-page",
+   "kind": "section",
+   "file": "sections/legal.on-this-page.json",
+   "retrievalEligible": false,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [],
+    "style": [],
+    "motion": [
+     "scroll.spy"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "legal.side-nav",
+   "kind": "section",
+   "file": "sections/legal.side-nav.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions"
+    ],
+    "style": [],
+    "motion": [
+     "sticky.pin"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "legal.updated-meta",
+   "kind": "section",
+   "file": "sections/legal.updated-meta.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "listing.article-carousel",
+   "kind": "section",
+   "file": "sections/listing.article-carousel.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "items"
+    ],
+    "style": [],
+    "motion": [
+     "carousel.manual"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "listing.article-list",
+   "kind": "section",
+   "file": "sections/listing.article-list.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "items"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "listing.az-index",
+   "kind": "section",
+   "file": "sections/listing.az-index.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "items"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "listing.card-grid",
+   "kind": "section",
+   "file": "sections/listing.card-grid.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "blog",
+     "blog-teasers"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "items",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "content.generated-cover",
+     "person.fictional-avatar"
+    ]
+   }
+  },
+  {
+   "id": "listing.episode-cards",
+   "kind": "section",
+   "file": "sections/listing.episode-cards.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "items"
+    ],
+    "style": [],
+    "motion": [
+     "hover.overlay"
+    ],
+    "assetRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "listing.event-cards",
+   "kind": "section",
+   "file": "sections/listing.event-cards.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default",
+     "more-events"
+    ],
+    "content": [
+     "items"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "listing.featured-header",
+   "kind": "section",
+   "file": "sections/listing.featured-header.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "items"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "content.generated-cover"
+    ]
+   }
+  },
+  {
+   "id": "listing.link-list",
+   "kind": "section",
+   "file": "sections/listing.link-list.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default",
+     "legal"
+    ],
+    "content": [
+     "heading",
+     "items",
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "listing.page-header",
+   "kind": "section",
+   "file": "sections/listing.page-header.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "changelog",
+     "intro-actions",
+     "legal",
+     "light"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "listing.people-rows",
+   "kind": "section",
+   "file": "sections/listing.people-rows.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "items"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "listing.prev-next",
+   "kind": "section",
+   "file": "sections/listing.prev-next.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "listing.related-articles",
+   "kind": "section",
+   "file": "sections/listing.related-articles.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "cards",
+     "text-links"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "items"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "content.generated-cover"
+    ]
+   }
+  },
+  {
+   "id": "listing.resource-cards",
+   "kind": "section",
+   "file": "sections/listing.resource-cards.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "pixel.band-scrub"
+    ],
+    "assetRoles": [
+     "illustration.generated"
+    ]
+   }
+  },
+  {
+   "id": "listing.row-list",
+   "kind": "section",
+   "file": "sections/listing.row-list.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "past-events"
+    ],
+    "content": [
+     "actions",
+     "items"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "listing.story-grid",
+   "kind": "section",
+   "file": "sections/listing.story-grid.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "items"
+    ],
+    "style": [],
+    "motion": [
+     "pixel.dissolve-hover"
+    ],
+    "assetRoles": [
+     "icon.generic",
+     "person.fictional-avatar",
+     "photo.generated-scene",
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "listing.topic-links",
+   "kind": "section",
+   "file": "sections/listing.topic-links.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "items",
+     "lead"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "listing.video-grid",
+   "kind": "section",
+   "file": "sections/listing.video-grid.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default",
+     "row"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "items"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "video.modal"
+    ],
+    "assetRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "listing.year-group",
+   "kind": "section",
+   "file": "sections/listing.year-group.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "items"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "pricing.comparison-group",
+   "kind": "section",
+   "file": "sections/pricing.comparison-group.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "product.generated-visual",
+     "rating.placeholder"
+    ]
+   }
+  },
+  {
+   "id": "pricing.plan-cards",
+   "kind": "section",
+   "file": "sections/pricing.plan-cards.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "lead",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "illustration.generated"
+    ]
+   }
+  },
+  {
+   "id": "pricing.sticky-plan-bar",
+   "kind": "section",
+   "file": "sections/pricing.sticky-plan-bar.json",
+   "retrievalEligible": false,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [],
+    "style": [],
+    "motion": [
+     "sticky.pin"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "shell.banner",
+   "kind": "section",
+   "file": "sections/shell.banner.json",
+   "retrievalEligible": false,
+   "settable": {
+    "variant": [
+     "accent",
+     "default",
+     "legal",
+     "light"
+    ],
+    "content": [
+     "actions",
+     "lead",
+     "media"
+    ],
+    "style": [
+     "accent"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "illustration.generated"
+    ]
+   }
+  },
+  {
+   "id": "shell.campaign-footer",
+   "kind": "section",
+   "file": "sections/shell.campaign-footer.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "campaign",
+     "launch"
+    ],
+    "content": [
+     "actions",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "illustration.generated"
+    ]
+   }
+  },
+  {
+   "id": "shell.campaign-nav",
+   "kind": "section",
+   "file": "sections/shell.campaign-nav.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "illustration.generated"
+    ]
+   }
+  },
+  {
+   "id": "shell.footer",
+   "kind": "section",
+   "file": "sections/shell.footer.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "cta-band",
+     "default",
+     "light"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "items",
+     "lead"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "shell.menu-header",
+   "kind": "section",
+   "file": "sections/shell.menu-header.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "shell.nav-dropdowns",
+   "kind": "section",
+   "file": "sections/shell.nav-dropdowns.json",
+   "retrievalEligible": false,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "items"
+    ],
+    "style": [],
+    "motion": [
+     "dropdown.fade"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "shell.navbar",
+   "kind": "section",
+   "file": "sections/shell.navbar.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "accent",
+     "default",
+     "legal",
+     "light"
+    ],
+    "content": [
+     "actions",
+     "items",
+     "media"
+    ],
+    "style": [
+     "accent"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "brand.placeholder-mark",
+     "brand.user-supplied-mark"
+    ]
+   }
+  },
+  {
+   "id": "shell.section-nav",
+   "kind": "section",
+   "file": "sections/shell.section-nav.json",
+   "retrievalEligible": false,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [],
+    "style": [],
+    "motion": [
+     "scroll.spy"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "social-proof.awards-marquee",
+   "kind": "section",
+   "file": "sections/social-proof.awards-marquee.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "items",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "marquee.loop"
+    ],
+    "assetRoles": [
+     "rating.placeholder"
+    ]
+   }
+  },
+  {
+   "id": "social-proof.customer-stories",
+   "kind": "section",
+   "file": "sections/social-proof.customer-stories.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "video-band"
+    ],
+    "content": [
+     "actions",
+     "items",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "carousel.autoplay",
+     "video.inview-autoplay"
+    ],
+    "assetRoles": [
+     "customer.placeholder-logo",
+     "illustration.generated",
+     "product.generated-visual",
+     "video.placeholder-poster"
+    ]
+   }
+  },
+  {
+   "id": "social-proof.logo-marquee",
+   "kind": "section",
+   "file": "sections/social-proof.logo-marquee.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "single-row",
+     "two-row",
+     "with-ratings"
+    ],
+    "content": [
+     "actions",
+     "lead",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "marquee.loop"
+    ],
+    "assetRoles": [
+     "customer.placeholder-logo",
+     "illustration.generated"
+    ]
+   }
+  },
+  {
+   "id": "social-proof.logo-wall",
+   "kind": "section",
+   "file": "sections/social-proof.logo-wall.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "items"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "customer.placeholder-logo"
+    ]
+   }
+  },
+  {
+   "id": "social-proof.product-quote",
+   "kind": "section",
+   "file": "sections/social-proof.product-quote.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "lead",
+     "media",
+     "quote"
+    ],
+    "style": [],
+    "motion": [
+     "carousel.autoplay"
+    ],
+    "assetRoles": [
+     "customer.placeholder-logo",
+     "illustration.generated",
+     "person.fictional-avatar",
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "social-proof.ratings",
+   "kind": "section",
+   "file": "sections/social-proof.ratings.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "lead",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "marquee.loop"
+    ],
+    "assetRoles": [
+     "illustration.generated",
+     "product.generated-visual",
+     "rating.placeholder"
+    ]
+   }
+  },
+  {
+   "id": "social-proof.story-cards",
+   "kind": "section",
+   "file": "sections/social-proof.story-cards.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "items"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "pixel.dissolve-hover"
+    ],
+    "assetRoles": [
+     "photo.generated-scene"
+    ]
+   }
+  },
+  {
+   "id": "social-proof.story-grid",
+   "kind": "section",
+   "file": "sections/social-proof.story-grid.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "items"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "pixel.dissolve-hover"
+    ],
+    "assetRoles": [
+     "photo.generated-scene"
+    ]
+   }
+  },
+  {
+   "id": "social-proof.story-highlight",
+   "kind": "section",
+   "file": "sections/social-proof.story-highlight.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": []
+   }
+  },
+  {
+   "id": "social-proof.story-marquee",
+   "kind": "section",
+   "file": "sections/social-proof.story-marquee.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "marquee.loop",
+     "pixel.dissolve-hover",
+     "cursor.tooltip"
+    ],
+    "assetRoles": [
+     "customer.placeholder-logo",
+     "photo.generated-scene"
+    ]
+   }
+  },
+  {
+   "id": "social-proof.team-proof",
+   "kind": "section",
+   "file": "sections/social-proof.team-proof.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "illustration.generated",
+     "person.fictional-avatar"
+    ]
+   }
+  },
+  {
+   "id": "social-proof.tei-card",
+   "kind": "section",
+   "file": "sections/social-proof.tei-card.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "banner",
+     "stats"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "content.generated-cover",
+     "rating.placeholder"
+    ]
+   }
+  },
+  {
+   "id": "social-proof.testimonial",
+   "kind": "section",
+   "file": "sections/social-proof.testimonial.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "campaign",
+     "featured"
+    ],
+    "content": [
+     "actions",
+     "lead",
+     "media",
+     "quote"
+    ],
+    "style": [
+     "spaceBefore"
+    ],
+    "motion": [
+     "cursor.tooltip",
+     "carousel.autoplay"
+    ],
+    "assetRoles": [
+     "customer.placeholder-logo",
+     "illustration.generated",
+     "person.fictional-avatar",
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "social-proof.testimonial-wall",
+   "kind": "section",
+   "file": "sections/social-proof.testimonial-wall.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "items",
+     "quote"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "person.fictional-avatar",
+     "photo.generated-scene",
+     "product.generated-visual"
+    ]
+   }
+  },
+  {
+   "id": "utility.not-found",
+   "kind": "section",
+   "file": "sections/utility.not-found.json",
+   "retrievalEligible": true,
+   "settable": {
+    "variant": [
+     "default"
+    ],
+    "content": [
+     "actions",
+     "heading",
+     "lead",
+     "media"
+    ],
+    "style": [],
+    "motion": [
+     "static"
+    ],
+    "assetRoles": [
+     "illustration.generated"
+    ]
+   }
+  }
+ ]
+}

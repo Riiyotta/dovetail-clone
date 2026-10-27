@@ -1,0 +1,1315 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T20",
+ "route": "/customer-research/",
+ "theme": "light",
+ "chrome": {
+  "banner": "light",
+  "nav": "light",
+  "footer": "light"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail clone (local)"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "light",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "light",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "article.header",
+   "variant": "light",
+   "content": {
+    "heading": "What is customer research?",
+    "actions": [
+     {
+      "label": "GUIDES",
+      "href": "/guides/"
+     },
+     {
+      "label": "CUSTOMER RESEARCH",
+      "href": "#"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.byline",
+   "variant": "default",
+   "content": {
+    "heading": "Share",
+    "actions": [
+     {
+      "label": "CHLOE GARNHAM",
+      "href": "/contributors/chloe-garnham/"
+     },
+     {
+      "label": "HUGH GOOD",
+      "href": "/contributors/hugh-good/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Overview",
+    "body": [
+     {
+      "kind": "paragraph",
+      "text": "It is worth checking early assumptions against what people actually say and do. Responsibilities are clearer when each step has a named owner."
+     },
+     {
+      "kind": "paragraph",
+      "text": "This section is placeholder copy that stands in for the original article text. This section is placeholder copy that stands in for the original article text."
+     },
+     {
+      "kind": "heading",
+      "text": "Overview"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Review the results together as a team. This section is placeholder copy that stands in for the original article text. Outcomes are easier to judge when there is a baseline to compare against."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Not every finding needs action, but every finding deserves a clear status. Responsibilities are clearer when each step has a named owner."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Small, regular reviews tend to surface patterns sooner than one large review at the end. Review the results together as a team."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Key concepts",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Key concepts"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Keep the audience in mind throughout. This is placeholder text. This section is placeholder copy that stands in for the original article text. This section is placeholder copy that stands in for the original article text."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Keeping the language plain helps readers focus on what matters most. Revisiting the original goal at the end is a useful way to check whether it was met."
+     },
+     {
+      "kind": "paragraph",
+      "text": "A simple checklist can keep the process consistent from one round to the next. Review the results together as a team."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Why it matters",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Why it matters"
+     },
+     {
+      "kind": "paragraph",
+      "text": "This is placeholder text. This section is placeholder copy that stands in for the original article text. Teams often begin by agreeing on the question they want to answer and the decision it will inform."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Feedback from a pilot run often highlights steps that need to be clarified. The examples below are illustrative and should be adapted to your own context. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Revisiting the original goal at the end is a useful way to check whether it was met. Visual summaries can help when the audience has limited time. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Review the results together as a team. Keep the audience in mind throughout. This is placeholder text. A short planning step helps everyone understand the scope, the timeline and who needs to be involved."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Define the goal"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Clear summaries make it simpler for colleagues outside the project to act on the findings. Keeping the language plain helps readers focus on what matters most."
+     },
+     {
+      "kind": "paragraph",
+      "text": "It is worth checking early assumptions against what people actually say and do. This section is placeholder copy that stands in for the original article text."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Writing down the reasoning behind a decision makes it easier to revisit later. Sharing progress openly invites useful questions before the work is finished. Outcomes are easier to judge when there is a baseline to compare against."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Choose a method"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Outcomes are easier to judge when there is a baseline to compare against. Over time, a shared library of past work saves effort and avoids repeating the same study."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Over time, a shared library of past work saves effort and avoids repeating the same study. Feedback from a pilot run often highlights steps that need to be clarified."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Where possible, combine numbers with quotes so the story stays grounded. Review the results together as a team. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "A short planning step helps everyone understand the scope, the timeline and who needs to be involved. This section is placeholder copy that stands in for the original article text."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Getting started",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Getting started"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Visual summaries can help when the audience has limited time. Start small and adjust as you go. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "A short planning step helps everyone understand the scope, the timeline and who needs to be involved. This section is placeholder copy that stands in for the original article text."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Small, regular reviews tend to surface patterns sooner than one large review at the end. Writing down the reasoning behind a decision makes it easier to revisit later."
+     },
+     {
+      "kind": "list-item",
+      "text": "Known constraints and risks"
+     },
+     {
+      "kind": "list-item",
+      "text": "A clear statement of the goal"
+     },
+     {
+      "kind": "list-item",
+      "text": "A realistic timeline"
+     },
+     {
+      "kind": "list-item",
+      "text": "The people who need to be involved"
+     },
+     {
+      "kind": "list-item",
+      "text": "How results will be shared"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Gather inputs"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Small, regular reviews tend to surface patterns sooner than one large review at the end. Clear summaries make it simpler for colleagues outside the project to act on the findings. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Over time, a shared library of past work saves effort and avoids repeating the same study. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Feedback from a pilot run often highlights steps that need to be clarified. Responsibilities are clearer when each step has a named owner. Responsibilities are clearer when each step has a named owner."
+     },
+     {
+      "kind": "paragraph",
+      "text": "The examples below are illustrative and should be adapted to your own context. Review the results together as a team."
+     },
+     {
+      "kind": "list-item",
+      "text": "How results will be shared"
+     },
+     {
+      "kind": "list-item",
+      "text": "A consistent note-taking format"
+     },
+     {
+      "kind": "list-item",
+      "text": "Criteria for deciding what comes next"
+     },
+     {
+      "kind": "list-item",
+      "text": "A short list of open questions"
+     },
+     {
+      "kind": "list-item",
+      "text": "Where supporting material is stored"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Review the evidence"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Writing down the reasoning behind a decision makes it easier to revisit later. A simple checklist can keep the process consistent from one round to the next. Responsibilities are clearer when each step has a named owner."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Feedback from a pilot run often highlights steps that need to be clarified. The examples below are illustrative and should be adapted to your own context. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Small, regular reviews tend to surface patterns sooner than one large review at the end. Writing down the reasoning behind a decision makes it easier to revisit later. Context matters here."
+     },
+     {
+      "kind": "list-item",
+      "text": "Checkpoints for reviewing progress"
+     },
+     {
+      "kind": "list-item",
+      "text": "A plan for follow-up"
+     },
+     {
+      "kind": "list-item",
+      "text": "Known constraints and risks"
+     },
+     {
+      "kind": "list-item",
+      "text": "A clear statement of the goal"
+     },
+     {
+      "kind": "list-item",
+      "text": "A realistic timeline"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Share what you learn"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Over time, a shared library of past work saves effort and avoids repeating the same study. Keeping the language plain helps readers focus on what matters most."
+     },
+     {
+      "kind": "paragraph",
+      "text": "A simple checklist can keep the process consistent from one round to the next. Feedback from a pilot run often highlights steps that need to be clarified. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Start small and adjust as you go. Review the results together as a team. This section is placeholder copy that stands in for the original article text."
+     },
+     {
+      "kind": "paragraph",
+      "text": "It is worth checking early assumptions against what people actually say and do. Review the results together as a team."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Set a baseline"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Outcomes are easier to judge when there is a baseline to compare against. The examples below are illustrative and should be adapted to your own context. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "This section is placeholder copy that stands in for the original article text. Teams often begin by agreeing on the question they want to answer and the decision it will inform."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Mixing a few complementary methods usually gives a more balanced picture than relying on one. Context matters here."
+     },
+     {
+      "kind": "list-item",
+      "text": "Known constraints and risks"
+     },
+     {
+      "kind": "list-item",
+      "text": "A clear statement of the goal"
+     },
+     {
+      "kind": "list-item",
+      "text": "A realistic timeline"
+     },
+     {
+      "kind": "list-item",
+      "text": "The people who need to be involved"
+     },
+     {
+      "kind": "list-item",
+      "text": "How results will be shared"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Involve the right people"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Visual summaries can help when the audience has limited time. Where possible, combine numbers with quotes so the story stays grounded. Context matters here. This is placeholder text. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Feedback from a pilot run often highlights steps that need to be clarified. The examples below are illustrative and should be adapted to your own context."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Good documentation lets new team members pick up the work without starting over. Start small and adjust as you go."
+     },
+     {
+      "kind": "list-item",
+      "text": "Criteria for deciding what comes next"
+     },
+     {
+      "kind": "list-item",
+      "text": "A short list of open questions"
+     },
+     {
+      "kind": "list-item",
+      "text": "Where supporting material is stored"
+     },
+     {
+      "kind": "list-item",
+      "text": "An agreed definition of done"
+     },
+     {
+      "kind": "list-item",
+      "text": "Checkpoints for reviewing progress"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Common approaches",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Common approaches"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Writing down the reasoning behind a decision makes it easier to revisit later. Sharing progress openly invites useful questions before the work is finished. A simple checklist can keep the process."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Responsibilities are clearer when each step has a named owner. Outcomes are easier to judge when there is a baseline to compare against."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Mixing a few complementary methods usually gives a more balanced picture than relying on one. Sharing progress openly invites useful questions before the work is finished. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Sharing progress openly invites useful questions before the work is finished. This section is placeholder copy that stands in for the original article text."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Document decisions"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Mixing a few complementary methods usually gives a more balanced picture than relying on one. Responsibilities are clearer when each step has a named owner."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Where possible, combine numbers with quotes so the story stays grounded. Review the results together as a team. Keep the audience in mind throughout. Review the results together as a team."
+     },
+     {
+      "kind": "paragraph",
+      "text": "It is worth checking early assumptions against what people actually say and do. Keeping the language plain helps readers focus on what matters most."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Check assumptions"
+     },
+     {
+      "kind": "paragraph",
+      "text": "A simple checklist can keep the process consistent from one round to the next. Outcomes are easier to judge when there is a baseline to compare against. Sharing progress openly invites useful questions before the work is finished."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Revisiting the original goal at the end is a useful way to check whether it was met. Good documentation lets new team members pick up the work without starting over. Responsibilities are clearer when each step has a named owner."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Notes gathered along the way are easier to compare when they follow a consistent structure. Small, regular reviews tend to surface patterns sooner than one large review at the end."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Outcomes are easier to judge when there is a baseline to compare against. This section is placeholder copy that stands in for the original article text."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Plan the timeline"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Clear summaries make it simpler for colleagues outside the project to act on the findings. Writing down the reasoning behind a decision makes it easier to revisit later. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "This is placeholder text. Notes gathered along the way are easier to compare when they follow a consistent structure."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Teams often begin by agreeing on the question they want to answer and the decision it will inform. It is worth checking early assumptions against what people actually say and do."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Keep it consistent"
+     },
+     {
+      "kind": "paragraph",
+      "text": "This section is placeholder copy that stands in for the original article text. Review the results together as a team."
+     },
+     {
+      "kind": "paragraph",
+      "text": "This section is placeholder copy that stands in for the original article text. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Sharing progress openly invites useful questions before the work is finished. A simple checklist can keep the process consistent."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Small, regular reviews tend to surface patterns sooner than one large review at the end. Keeping the language plain helps readers focus on what matters most."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Look for patterns"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Review the results together as a team. This section is placeholder copy that stands in for the original article text."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Notes gathered along the way are easier to compare when they follow a consistent structure. Small, regular reviews tend to surface patterns sooner than one large review at the end. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "It is worth checking early assumptions against what people actually say and do. Small, regular reviews tend to surface patterns."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Planning the work",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Planning the work"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Small, regular reviews tend to surface patterns sooner than one large review at the end. Writing down the reasoning behind a decision makes."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Context matters here. Keep the audience in mind throughout. Teams often begin by agreeing on the question they want to answer and the decision it will inform. A short planning step helps everyone understand the."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Outcomes are easier to judge when there is a baseline to compare against. Responsibilities are clearer when each step has a named owner."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Mixing a few complementary methods usually gives a more balanced picture than relying on one. A simple checklist can keep the process consistent."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.related-topics",
+   "variant": "default",
+   "content": {
+    "heading": "RELATED TOPICS",
+    "actions": [
+     {
+      "label": "[DESIGN THINKING]",
+      "href": "/design-thinking/"
+     },
+     {
+      "label": "[EMPLOYEE EXPERIENCE]",
+      "href": "/employee-experience/"
+     },
+     {
+      "label": "[ENTERPRISE]",
+      "href": "/enterprise/"
+     },
+     {
+      "label": "[MARKET RESEARCH]",
+      "href": "/market-research/"
+     },
+     {
+      "label": "[PATIENT EXPERIENCE]",
+      "href": "/patient-experience/"
+     },
+     {
+      "label": "[PRODUCT DEVELOPMENT]",
+      "href": "/product-development/"
+     }
+    ],
+    "items": [
+     {
+      "title": "[DESIGN THINKING]",
+      "href": "/design-thinking/"
+     },
+     {
+      "title": "[EMPLOYEE EXPERIENCE]",
+      "href": "/employee-experience/"
+     },
+     {
+      "title": "[ENTERPRISE]",
+      "href": "/enterprise/"
+     },
+     {
+      "title": "[MARKET RESEARCH]",
+      "href": "/market-research/"
+     },
+     {
+      "title": "[PATIENT EXPERIENCE]",
+      "href": "/patient-experience/"
+     },
+     {
+      "title": "[PRODUCT DEVELOPMENT]",
+      "href": "/product-development/"
+     },
+     {
+      "title": "[PRODUCT MANAGEMENT]",
+      "href": "/product-management/"
+     },
+     {
+      "title": "[RESEARCH MATURITY ASSESSMENT]",
+      "href": "/research-maturity-assessment/"
+     },
+     {
+      "title": "[RESEARCH METHODS]",
+      "href": "/research/"
+     },
+     {
+      "title": "[SURVEYS]",
+      "href": "/surveys/"
+     },
+     {
+      "title": "[USER EXPERIENCE (UX)]",
+      "href": "/ux/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.article-carousel",
+   "variant": "default",
+   "content": {
+    "heading": "Editor's picks↘",
+    "actions": [
+     {
+      "label": "Ultimate guide to open-ended survey questions (with examples)",
+      "href": "/customer-research/open-ended-questions/"
+     }
+    ],
+    "items": [
+     {
+      "title": "How to analyze app store reviews alongside interview transcripts to prioritize mobile roadmap fixes",
+      "href": "/customer-research/analyze-app-store-reviews-with-interview-transcripts/"
+     },
+     {
+      "title": "How to use customer support transcripts as secondary research data to identify usability issues at scale",
+      "href": "/customer-research/support-transcripts-as-secondary-research-data/"
+     },
+     {
+      "title": "Is consumer services a good career path for you?",
+      "href": "/customer-research/is-consumer-services-a-good-career-path/"
+     },
+     {
+      "title": "Ultimate guide to open-ended survey questions (with examples)",
+      "href": "/customer-research/open-ended-questions/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.manual",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.article-carousel",
+   "variant": "default",
+   "content": {
+    "heading": "Latest articles↘",
+    "actions": [
+     {
+      "label": "Unlocking customer insights: maximizing surveys for actionable feedback",
+      "href": "/customer-research/customer-feedback-survey/"
+     },
+     {
+      "label": "How to analyze your NPS results",
+      "href": "/customer-research/how-to-analyze-nps-results/"
+     },
+     {
+      "label": "Customer digital twin: the complete guide",
+      "href": "/customer-research/customer-digital-twin/"
+     },
+     {
+      "label": "Customer churn statistics and benchmarks for 2026",
+      "href": "/customer-research/customer-churn-statistics/"
+     }
+    ],
+    "items": [
+     {
+      "title": "How to analyze app store reviews alongside interview transcripts to prioritize mobile roadmap fixes",
+      "href": "/customer-research/analyze-app-store-reviews-with-interview-transcripts/"
+     },
+     {
+      "title": "How to conduct churned customer interviews in B2B SaaS when former users have little reason to talk",
+      "href": "/customer-research/churned-customer-interviews-b2b-saas/"
+     },
+     {
+      "title": "Are digital twins reliable? A practitioner’s guide to trusting AI customers",
+      "href": "/customer-research/are-digital-twins-reliable/"
+     },
+     {
+      "title": "Unlocking customer insights: maximizing surveys for actionable feedback",
+      "href": "/customer-research/customer-feedback-survey/"
+     },
+     {
+      "title": "How to analyze your NPS results",
+      "href": "/customer-research/how-to-analyze-nps-results/"
+     },
+     {
+      "title": "How to use customer support transcripts as secondary research data to identify usability issues at scale",
+      "href": "/customer-research/support-transcripts-as-secondary-research-data/"
+     },
+     {
+      "title": "Customer digital twin: the complete guide",
+      "href": "/customer-research/customer-digital-twin/"
+     },
+     {
+      "title": "Customer churn statistics and benchmarks for 2026",
+      "href": "/customer-research/customer-churn-statistics/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.manual",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.inline-band",
+   "variant": "light",
+   "content": {
+    "heading": "Turn customer feedback into product innovation",
+    "actions": [
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     },
+     {
+      "label": "Try Dovetail free",
+      "href": "/auth/signup/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "light",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.az-index",
+   "variant": "default",
+   "content": {
+    "heading": "All Customer research articles",
+    "items": [
+     {
+      "title": "10 best customer success software solutions",
+      "href": "/customer-research/customer-success-software/"
+     },
+     {
+      "title": "10 customer success metrics that deserve your attention",
+      "href": "/customer-research/customer-success-metrics/"
+     },
+     {
+      "title": "10 voice of the customer (VoC) metrics to track",
+      "href": "/customer-research/what-are-voc-metrics/"
+     },
+     {
+      "title": "10 voice of the customer tools to get better feedback",
+      "href": "/customer-research/voice-of-the-customer-tools/"
+     },
+     {
+      "title": "11 customer experience analytics tools compared in 2026",
+      "href": "/customer-research/customer-experience-analytics-tools/"
+     },
+     {
+      "title": "13 common customer types",
+      "href": "/customer-research/type-of-customer/"
+     },
+     {
+      "title": "16 customer feedback tools to help you grow",
+      "href": "/customer-research/customer-feedback-tools/"
+     },
+     {
+      "title": "16 top customer insight tools for effective customer research",
+      "href": "/customer-research/customer-insight-tools/"
+     },
+     {
+      "title": "19 must-have CX tools for every business",
+      "href": "/customer-research/customer-experience-tools/"
+     },
+     {
+      "title": "20 questions to ask on your next sales discovery call",
+      "href": "/customer-research/best-sales-discovery-questions/"
+     },
+     {
+      "title": "3 ways to get more actionable feedback from your customers",
+      "href": "/customer-research/actionable-feedback/"
+     },
+     {
+      "title": "30 open-ended sales questions to use during the sales process",
+      "href": "/customer-research/best-open-ended-sales-questions/"
+     },
+     {
+      "title": "4 powerful ways to create customer connection",
+      "href": "/customer-research/customer-connection/"
+     },
+     {
+      "title": "7 inspirational voice of the customer (VoC) examples",
+      "href": "/customer-research/voice-of-customer-examples/"
+     },
+     {
+      "title": "A guide to customer journey analytics",
+      "href": "/customer-research/customer-journey-analytics/"
+     },
+     {
+      "title": "A guide to mastering the SaaS customer journey",
+      "href": "/customer-research/guide-to-the-saas-customer-journey/"
+     },
+     {
+      "title": "A guide to text analysis techniques with use cases",
+      "href": "/customer-research/text-analysis/"
+     },
+     {
+      "title": "A step-by-step guide to customer experience management",
+      "href": "/customer-research/customer-experience-management/"
+     },
+     {
+      "title": "Are digital twins reliable? A practitioner’s guide to trusting AI customers",
+      "href": "/customer-research/are-digital-twins-reliable/"
+     },
+     {
+      "title": "Best NPS survey and NPS analysis templates",
+      "href": "/customer-research/nps-template/"
+     },
+     {
+      "title": "Buyers guide for an enterprise customer intelligence platform",
+      "href": "/customer-research/buyers-guide-for-enterprise-customer-intelligence-platform/"
+     },
+     {
+      "title": "Checklist: How to improve customer experience",
+      "href": "/customer-research/improve-customer-experience/"
+     },
+     {
+      "title": "Communication plan 101: Overview, content and examples",
+      "href": "/customer-research/what-is-a-communication-plan/"
+     },
+     {
+      "title": "Consumer insights: A quick guide",
+      "href": "/customer-research/what-are-customer-insights/"
+     },
+     {
+      "title": "Customer base: Definition, make-up, strategies for growth",
+      "href": "/customer-research/what-is-a-customer-base/"
+     },
+     {
+      "title": "Customer churn statistics and benchmarks for 2026",
+      "href": "/customer-research/customer-churn-statistics/"
+     },
+     {
+      "title": "Customer data integration 101",
+      "href": "/customer-research/customer-data-integration/"
+     },
+     {
+      "title": "Customer digital twin: the complete guide",
+      "href": "/customer-research/customer-digital-twin/"
+     },
+     {
+      "title": "Customer effort score (CES): What it is & how to calculate it",
+      "href": "/customer-research/customer-effort-score/"
+     },
+     {
+      "title": "Customer engagement 101: The complete guide",
+      "href": "/customer-research/customer-engagement/"
+     },
+     {
+      "title": "Customer feedback: Everything you need to know",
+      "href": "/customer-research/customer-feedback-guide/"
+     },
+     {
+      "title": "Customer lifecycle: Understanding the journey to lasting loyalty",
+      "href": "/customer-research/what-is-the-customer-lifecycle/"
+     },
+     {
+      "title": "Customer perceived value: What it is & why it matters to pricing",
+      "href": "/customer-research/perceived-value/"
+     },
+     {
+      "title": "Customer satisfaction: What it means and how to measure it",
+      "href": "/customer-research/customer-satisfaction/"
+     },
+     {
+      "title": "Enterprise use cases for a customer intelligence platform like Dovetail",
+      "href": "/customer-research/enterprise-use-cases/"
+     },
+     {
+      "title": "Feedback loop: What you need to know",
+      "href": "/customer-research/feedback-loop/"
+     },
+     {
+      "title": "From feedback to impact: How to organize and act on customer insights",
+      "href": "/customer-research/how-to-organize-customer-feedback/"
+     },
+     {
+      "title": "How Dovetail ensures enterprise-grade security and compliance",
+      "href": "/customer-research/dovetail-enterprise-grade-security-and-compliance/"
+     },
+     {
+      "title": "How to analyze app store reviews alongside interview transcripts to prioritize mobile roadmap fixes",
+      "href": "/customer-research/analyze-app-store-reviews-with-interview-transcripts/"
+     },
+     {
+      "title": "How to analyze customer feedback to get better insights",
+      "href": "/customer-research/customer-feedback-analysis/"
+     },
+     {
+      "title": "How to analyze your NPS results",
+      "href": "/customer-research/how-to-analyze-nps-results/"
+     },
+     {
+      "title": "How to combine jobs-to-be-done interviews with outcome-driven innovation scoring to prioritize product opportunities",
+      "href": "/customer-research/jobs-to-be-done-outcome-driven-innovation-scoring/"
+     },
+     {
+      "title": "How to combine support ticket analysis with user interview findings for stronger customer insights",
+      "href": "/customer-research/how-to-combine-support-ticket-analysis-user-interview-findings/"
+     },
+     {
+      "title": "How to conduct a competitive analysis",
+      "href": "/customer-research/competitive-analysis/"
+     },
+     {
+      "title": "How to conduct churned customer interviews in B2B SaaS when former users have little reason to talk",
+      "href": "/customer-research/churned-customer-interviews-b2b-saas/"
+     },
+     {
+      "title": "How to conduct customer research without breaking the bank",
+      "href": "/customer-research/how-to-do-customer-research-on-a-budget/"
+     },
+     {
+      "title": "How to create customer profiles and reach the right people",
+      "href": "/customer-research/how-to-create-customer-profiles/"
+     },
+     {
+      "title": "How to create your ideal customer profile (ICP)",
+      "href": "/customer-research/ideal-customer-profile/"
+     },
+     {
+      "title": "How to find and fix customer pain points",
+      "href": "/customer-research/what-are-customer-pain-points/"
+     },
+     {
+      "title": "How to identify and leverage customer intent",
+      "href": "/customer-research/customer-intent/"
+     },
+     {
+      "title": "How to improve customer satisfaction",
+      "href": "/customer-research/how-to-improve-customer-satisfaction/"
+     },
+     {
+      "title": "How to improve your customer retention rate",
+      "href": "/customer-research/customer-retention-rate/"
+     },
+     {
+      "title": "How to make a customer journey map",
+      "href": "/customer-research/how-to-make-a-customer-journey-map/"
+     },
+     {
+      "title": "How to make your business more customer-centric",
+      "href": "/customer-research/customer-centric/"
+     },
+     {
+      "title": "How to recruit hard-to-reach B2B participants like CFOs and CISOs for user interviews",
+      "href": "/customer-research/how-to-recruit-hard-to-reach-b2b-participants-for-user-interviews/"
+     },
+     {
+      "title": "How to run a results-driven journey mapping workshop",
+      "href": "/customer-research/how-to-run-a-customer-journey-mapping-workshop/"
+     },
+     {
+      "title": "How to triangulate support ticket themes, usability test findings, and NPS verbatims into a single insights narrative",
+      "href": "/customer-research/triangulate-support-tickets-usability-tests-nps-verbatims/"
+     },
+     {
+      "title": "How to use customer support transcripts as secondary research data to identify usability issues at scale",
+      "href": "/customer-research/support-transcripts-as-secondary-research-data/"
+     },
+     {
+      "title": "How to use jobs-to-be-done interviews to identify unmet needs in mature, saturated product categories",
+      "href": "/customer-research/jobs-to-be-done-interviews-unmet-needs-mature-products/"
+     },
+     {
+      "title": "How to use onboarding session recordings and interview transcripts to identify activation friction points",
+      "href": "/customer-research/onboarding-session-recordings-interview-transcripts-activation-friction/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "interactive.toc-sheet",
+   "variant": "default",
+   "content": {},
+   "motion": {
+    "pattern": "sheet.slide",
+    "reducedMotionFallback": "show-immediately"
+   },
+   "retrievalEligible": false
+  }
+ ]
+}

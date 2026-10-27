@@ -1,0 +1,231 @@
+{
+ "id": "article.header",
+ "title": "Article header",
+ "semantic": {
+  "id": "article.header",
+  "category": "ARTICLE"
+ },
+ "source": {
+  "id": "component:GuideArticle:ctitle",
+  "file": "src/pages/guides/GuideArticle.jsx",
+  "tag": "div",
+  "lines": "112-124",
+  "tagLine": 112,
+  "anchor": "ctitle",
+  "anchorLine": 112
+ },
+ "purpose": "Breadcrumb, H1 title and (blog) date/author meta with cover media; the compact variant is a changelog dateline + title.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "compact": {
+   "description": "variant 'compact'",
+   "requiredFields": [
+    "actions",
+    "heading"
+   ],
+   "forbiddenFields": [
+    "media"
+   ],
+   "observedOnRoutes": 349,
+   "observedOn": [
+    "/changelog/15-small-improvements/",
+    "/changelog/20-quality-of-life-improvements/",
+    "/changelog/2024-07-10-magic-highlight-improvements/",
+    "/changelog/2024-07-13-search-via-our-api/",
+    "/changelog/2024-07-17-share-highlights-with-public-links/",
+    "/changelog/2024-07-26-embed-highlights-in-asana/",
+    "/changelog/2024-08-14-automatically-apply-tags-to-magic-highlights/",
+    "/changelog/2024-08-16-improved-note-and-insights-editor/",
+    "/changelog/2024-08-19-dovetail-is-now-iso-27001-certified/",
+    "/changelog/2024-09-07-magic-cluster-improvements/",
+    "/changelog/2024-09-10-identify-and-filter-dovetail-magic-contributions/",
+    "/changelog/2024-09-28-embed-highlight-reels-in-jira-confluence-and-trello/"
+   ],
+   "contentSampled": true
+  },
+  "dark-media": {
+   "description": "variant 'dark-media'",
+   "requiredFields": [
+    "heading",
+    "media"
+   ],
+   "forbiddenFields": [
+    "actions"
+   ],
+   "observedOnRoutes": 202,
+   "observedOn": [
+    "/blog/2025-fall-launch/",
+    "/blog/30-days-in/",
+    "/blog/60-days-in/",
+    "/blog/9-digital-twins-you-can-build-today/",
+    "/blog/a-conversation-with-trellos-head-of-design/",
+    "/blog/a-nuclear-meltdown-caused-by-design/",
+    "/blog/accountable-ai/",
+    "/blog/ai-generated-privacy-breaches/",
+    "/blog/ai-powered-contextual-chat/",
+    "/blog/alloy/",
+    "/blog/avoiding-the-moral-crumple-zone/",
+    "/blog/bad-data-decision/"
+   ],
+   "contentSampled": true
+  },
+  "light": {
+   "description": "variant 'light'",
+   "requiredFields": [
+    "actions",
+    "heading"
+   ],
+   "forbiddenFields": [
+    "media"
+   ],
+   "observedOnRoutes": 1146,
+   "observedOn": [
+    "/customer-research/",
+    "/customer-research/actionable-feedback/",
+    "/customer-research/actionable-insights/",
+    "/customer-research/ai-customer-experience/",
+    "/customer-research/analyze-app-store-reviews-with-interview-transcripts/",
+    "/customer-research/are-digital-twins-reliable/",
+    "/customer-research/b2b-customer-journey-map/",
+    "/customer-research/b2b-customer-service/",
+    "/customer-research/benefits-of-customer-feedback/",
+    "/customer-research/best-open-ended-sales-questions/",
+    "/customer-research/best-sales-discovery-questions/",
+    "/customer-research/best-sentiment-analysis-tools/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "heading"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 21
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 6,
+    "maxChars": 45,
+    "observedIn": 21
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 12,
+    "maxChars": 92,
+    "observedIn": 15
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 12,
+    "maxChars": 92,
+    "observedIn": 3,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "media": [
+    1,
+    1
+   ],
+   "actions": [
+    1,
+    3
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "content.cover"
+    ],
+    "generatedRoles": [
+     "content.generated-cover"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "content.generated-cover"
+ ],
+ "style": {
+  "props": {
+   "spaceBefore": {
+    "kind": "token",
+    "allowed": [
+     "space.section.hero"
+    ]
+   }
+  },
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 1697,
+   "nodes": 1697,
+   "minPx": 406,
+   "maxPx": 1742.4,
+   "medianPx": 482,
+   "sample": {
+    "/blog/2025-fall-launch/": [
+     695.4
+    ],
+    "/blog/30-days-in/": [
+     867.3
+    ],
+    "/blog/60-days-in/": [
+     899
+    ],
+    "/blog/9-digital-twins-you-can-build-today/": [
+     691.3
+    ],
+    "/blog/a-conversation-with-trellos-head-of-design/": [
+     695.4
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/guides/GuideArticle.jsx:112-124",
+  "specs/blog-post.md:1-30",
+  "specs/changelog-entry.md:1-30"
+ ]
+}

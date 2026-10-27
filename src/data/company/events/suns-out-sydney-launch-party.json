@@ -1,0 +1,146 @@
+{
+ "slug": "suns-out-sydney-launch-party",
+ "path": "/events/suns-out-sydney-launch-party/",
+ "title": "Dovetail Sun’s Out: Sydney launch party",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2026-07-16T17:30+10:00",
+ "endDate": "2026-07-16T19:30+10:00",
+ "onlineEvent": false,
+ "location": "Dovetail, 276 Devonshire Street, Surry Hills, NSW 2010",
+ "hosts": [
+  "Dovetail team"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": null,
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Dovetail team"
+  },
+  {
+   "label": "[START]",
+   "value": "16 Jul 2026 12:30AM PDT"
+  },
+  {
+   "label": "[END]",
+   "value": "16 Jul 2026 2:30AM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Dovetail, 276 Devonshire Street, Surry Hills, NSW 2010"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/suns-out-sydney-launch-party.png",
+  "width": 1136,
+  "height": 640,
+  "youtubeId": null
+ },
+ "body": [
+  {
+   "t": "p",
+   "text": "AI has changed the economics of building products."
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 209
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 139
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 223
+  },
+  {
+   "t": "h2",
+   "text": "What to expect"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 92,
+     "strong": [
+      "An evening at Dovetail HQ"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 103,
+     "strong": [
+      "A first look at our latest launch"
+     ]
+    },
+    {
+     "strong": [
+      "Mulled wine and nibbles"
+     ],
+     "text": "Mulled wine and nibbles—we’ve got you covered."
+    },
+    {
+     "placeholder": true,
+     "chars": 66,
+     "strong": [
+      "Time with the Dovetail team"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Details"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "strong": [
+      "When:"
+     ],
+     "text": "When: Thursday, July 16, 5:30–7:30pm AEST"
+    },
+    {
+     "placeholder": true,
+     "chars": 61,
+     "strong": [
+      "Where:"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 12,
+   "links": [
+    {
+     "text": "Register now",
+     "href": "https://luma.com/9a0i2td2"
+    }
+   ]
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

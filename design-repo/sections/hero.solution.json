@@ -1,0 +1,144 @@
+{
+ "id": "hero.solution",
+ "title": "Solution hero",
+ "semantic": {
+  "id": "hero.solution",
+  "category": "HERO"
+ },
+ "source": {
+  "id": "component:SolutionPage:sh",
+  "file": "src/pages/roles/SolutionPage.jsx",
+  "tag": "div",
+  "lines": "40-52",
+  "tagLine": 40,
+  "anchor": "sh",
+  "anchorLine": 40
+ },
+ "purpose": "Use-case page opener over a grid background with edge fades: eyebrow, H1, lead, CTA row.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "lead"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 4,
+   "observedOn": [
+    "/solutions/healthcare/",
+    "/solutions/product-research/",
+    "/solutions/research-repository/",
+    "/solutions/voice-of-customer/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions",
+   "heading",
+   "lead"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 6
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 5,
+    "maxChars": 25,
+    "observedIn": 6
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 13,
+    "maxChars": 74,
+    "observedIn": 3
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 32,
+    "maxChars": 215,
+    "observedIn": 3
+   }
+  },
+  "listSizes": {
+   "actions": [
+    2,
+    2
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 4,
+   "nodes": 4,
+   "minPx": 785.6,
+   "maxPx": 877.6,
+   "medianPx": 817.6,
+   "sample": {
+    "/solutions/healthcare/": [
+     877.6
+    ],
+    "/solutions/product-research/": [
+     785.6
+    ],
+    "/solutions/research-repository/": [
+     789.6
+    ],
+    "/solutions/voice-of-customer/": [
+     845.6
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/roles/SolutionPage.jsx:40-52",
+  "specs/solutions.md:1-40"
+ ]
+}

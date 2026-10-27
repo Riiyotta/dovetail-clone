@@ -1,0 +1,15 @@
+{
+ "id": "divider",
+ "kind": "primitive",
+ "title": "Divider rule",
+ "variants": {
+  "dark": "1px rgba(255,255,255,.24)",
+  "light": "1px rgba(10,10,10,.24)"
+ },
+ "tokens": [
+  "border.strong"
+ ],
+ "evidence": [
+  "specs/marketing-shared.md:91"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "id": "ascii-field",
+ "kind": "component",
+ "title": "ASCII field canvas",
+ "composes": [
+  "image"
+ ],
+ "evidence": [
+  "CLONE_SPEC.md:155"
+ ]
+}

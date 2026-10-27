@@ -1,0 +1,994 @@
+{
+ "path": "/resources/dovetail-vs-marvin/",
+ "title": "Dovetail vs Marvin: Why Research Teams Choose Dovetail",
+ "breadcrumb": [
+  {
+   "label": "Guides",
+   "href": "/guides/"
+  },
+  {
+   "label": "Dovetail vs Marvin",
+   "href": null
+  }
+ ],
+ "h1": "Dovetail vs Marvin",
+ "meta": [
+  [
+   "Last updated",
+   "28 September 2026"
+  ]
+ ],
+ "share": [
+  {
+   "heading": "Share",
+   "links": [
+    {
+     "label": "Copy link",
+     "href": null
+    },
+    {
+     "label": "Share on Facebook",
+     "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-marvin%2F"
+    },
+    {
+     "label": "Share on LinkedIn",
+     "href": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-marvin%2F"
+    },
+    {
+     "label": "Share on X",
+     "href": "https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20article%20at%20Dovetail!&url=https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-marvin%2F&via=hidovetail"
+    }
+   ]
+  },
+  {
+   "heading": "Summarize with AI",
+   "links": [
+    {
+     "label": "Summarize with ChatGPT",
+     "href": "https://chat.openai.com/?q=Summarize%20this%20article%20%22Dovetail%20vs%20Marvin%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-marvin%2F"
+    },
+    {
+     "label": "Summarize with Claude",
+     "href": "https://claude.ai/new?q=Summarize%20this%20article%20%22Dovetail%20vs%20Marvin%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-marvin%2F"
+    },
+    {
+     "label": "Summarize with Perplexity",
+     "href": "https://www.perplexity.ai/search?q=Summarize%20this%20article%20%22Dovetail%20vs%20Marvin%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-marvin%2F"
+    },
+    {
+     "label": "Summarize with Grok",
+     "href": "https://x.com/i/grok?text=Summarize%20this%20article%20%22Dovetail%20vs%20Marvin%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-marvin%2F"
+    }
+   ]
+  }
+ ],
+ "sidebarCta": {
+  "heading": "Get started today",
+  "body": "Go from raw data to valuable insights with a flexible research platform",
+  "button": {
+   "label": "Contact sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "toc": [
+  "Quick answer",
+  "What is Dovetail?",
+  "What is Marvin?",
+  "Are Dovetail and Marvin “repository-only” tools?",
+  "Where Marvin stops working",
+  "AI capabilities: research-grade, not just research-scoped",
+  "Where Dovetail's AI goes further for researchers",
+  "Marvin's AI",
+  "Decision lens: AI-moderated interviews",
+  "Interviews and evidence workflows",
+  "Reduce capture friction",
+  "Support the full evidence workflow",
+  "Make evidence easy to share",
+  "Quantitative signals and trend tracking",
+  "Marvin",
+  "Dovetail",
+  "Governance and regulated environments",
+  "Integrations and operationalization",
+  "Side-by-side comparison",
+  "When to choose Dovetail",
+  "Decision summary"
+ ],
+ "body": [
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 47
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 172
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 355,
+   "strong": [
+    "Reviewed and updated in September 2026.",
+    "Live Intercept"
+   ],
+   "links": [
+    {
+     "text": "Live Intercept",
+     "href": "https://heymarvin.com/product/ai-moderated-interviewer"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Quick answer"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 139
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 277
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 123,
+   "strong": [
+    "Choose Dovetail"
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "What is Dovetail?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 131
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 56
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 102,
+     "strong": [
+      "Capture and transcribe"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 129,
+     "strong": [
+      "Analyze and synthesize"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 115,
+     "strong": [
+      "Query your evidence"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 126,
+     "strong": [
+      "Create structured outputs"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 122,
+     "strong": [
+      "Track trends over time"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 119,
+     "strong": [
+      "Automate monitoring"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 162
+  },
+  {
+   "t": "h2",
+   "text": "What is Marvin?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 155
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "text": "Transcribe and summarize interviews and recordings"
+    },
+    {
+     "text": "Identify themes and extract supporting quotes"
+    },
+    {
+     "text": "Query a research repository conversationally"
+    },
+    {
+     "text": "Produce synthesis outputs for stakeholders"
+    },
+    {
+     "text": "Apply PII masking and redaction in research workflows"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 190
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 97
+  },
+  {
+   "t": "h2",
+   "text": "Are Dovetail and Marvin “repository-only” tools?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 448
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 459
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 447
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 339
+  },
+  {
+   "t": "h2",
+   "text": "Where Marvin stops working"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 136
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 48
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 187,
+     "strong": [
+      "A second team needs access."
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 232,
+     "strong": [
+      "Leadership wants patterns across sources."
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 232,
+     "strong": [
+      "You need governance at scale."
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 204,
+     "strong": [
+      "Research outputs need to flow into product and GTM workflows."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 142
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 119
+  },
+  {
+   "t": "h2",
+   "text": "AI capabilities: research-grade, not just research-scoped"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 140
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 34
+  },
+  {
+   "t": "h3",
+   "text": "Where Dovetail's AI goes further for researchers"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 190,
+     "strong": [
+      "AI Analysis"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 145,
+     "strong": [
+      "AI Chat and search"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 140,
+     "strong": [
+      "AI Docs"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 173,
+     "strong": [
+      "AI Dashboards"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 193,
+     "strong": [
+      "AI Agents"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "text": "Marvin's AI"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 163
+  },
+  {
+   "t": "h3",
+   "text": "Decision lens: AI-moderated interviews"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 29,
+   "strong": [
+    "Last reviewed: September 2026"
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 465,
+   "strong": [
+    "Live Intercept"
+   ],
+   "links": [
+    {
+     "text": "Live Intercept",
+     "href": "https://heymarvin.com/product/ai-moderated-interviewer"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 265
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 207
+  },
+  {
+   "t": "h2",
+   "text": "Interviews and evidence workflows"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 133
+  },
+  {
+   "t": "h3",
+   "text": "Reduce capture friction"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 151,
+     "strong": [
+      "Calendar integrations"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 67,
+     "strong": [
+      "Zoom cloud recording import"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 100,
+     "strong": [
+      "Gong integration"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 77,
+     "strong": [
+      "Microsoft Teams integration"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "text": "Support the full evidence workflow"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 198
+  },
+  {
+   "t": "h3",
+   "text": "Make evidence easy to share"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 255
+  },
+  {
+   "t": "h2",
+   "text": "Quantitative signals and trend tracking"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 142
+  },
+  {
+   "t": "h3",
+   "text": "Marvin"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 181
+  },
+  {
+   "t": "h3",
+   "text": "Dovetail"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 65
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 106,
+     "strong": [
+      "AI Dashboards"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 149,
+     "strong": [
+      "Channels"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 120,
+     "strong": [
+      "AI Agents"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 177
+  },
+  {
+   "t": "h2",
+   "text": "Governance and regulated environments"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 105
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 107
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 184
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 49
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "text": "Fine-grained access control across projects and workspaces"
+    },
+    {
+     "text": "Role-based permission management across teams and functions"
+    },
+    {
+     "placeholder": true,
+     "chars": 72,
+     "strong": [
+      "Secure redaction"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 64,
+     "strong": [
+      "Standardized taxonomy"
+     ]
+    },
+    {
+     "text": "Auditability across Channels and projects"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 255
+  },
+  {
+   "t": "h2",
+   "text": "Integrations and operationalization"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 97
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "text": "Conversations and interviews: Gong, Zoom, Microsoft Teams"
+    },
+    {
+     "text": "Support and service: Zendesk, Intercom, Freshdesk"
+    },
+    {
+     "text": "Product: Jira, Linear, Productboard"
+    },
+    {
+     "text": "GTM: Salesforce, HubSpot"
+    },
+    {
+     "text": "Collaboration: Slack, Zapier"
+    },
+    {
+     "text": "Research and build: Outset, Figma, Alloy"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 220
+  },
+  {
+   "t": "h2",
+   "text": "Side-by-side comparison"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 29,
+   "strong": [
+    "Last reviewed: September 2026"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    "If you need...",
+    "Dovetail",
+    "Marvin"
+   ],
+   "rows": [
+    [
+     "Fast qualitative tagging and synthesis",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "AI transcription and summaries",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "Conversational querying",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "Strong fit for research-heavy teams",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "HIPAA-ready workflows",
+     "Yes",
+     "Yes"
+    ],
+    [
+     {
+      "placeholder": true,
+      "chars": 62
+     },
+     "Yes",
+     "No"
+    ],
+    [
+     "AI-moderated interviews (native)",
+     "Via Outset integration",
+     "Yes, via Live Intercept"
+    ],
+    [
+     "Highlight reels for stakeholder buy-in",
+     "Yes",
+     "No"
+    ],
+    [
+     "AI Docs for structured research outputs",
+     "Yes",
+     "No"
+    ],
+    [
+     "Global taxonomy and standardized tags",
+     "Yes",
+     "No"
+    ],
+    [
+     "Cross-team access for product, support, and GTM",
+     "Yes",
+     "No"
+    ],
+    [
+     "Ongoing signal tracking across sources",
+     "Yes",
+     "No"
+    ],
+    [
+     {
+      "placeholder": true,
+      "chars": 78
+     },
+     "Yes",
+     "No"
+    ],
+    [
+     "AI Dashboards tied to business metrics",
+     "Yes",
+     "No"
+    ],
+    [
+     {
+      "placeholder": true,
+      "chars": 86
+     },
+     "Yes",
+     "No"
+    ],
+    [
+     {
+      "placeholder": true,
+      "chars": 69
+     },
+     "Yes",
+     "No"
+    ],
+    [
+     {
+      "placeholder": true,
+      "chars": 69
+     },
+     "Yes",
+     "Not publicly documented"
+    ],
+    [
+     "Enterprise governance at scale",
+     "Yes",
+     "No"
+    ],
+    [
+     "MCP connectors listed on Claude and ChatGPT marketplaces",
+     "Yes",
+     "MCP access on Pro plan and higher"
+    ],
+    [
+     "30+ integrations across the workflow",
+     "Yes",
+     "Limited"
+    ]
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "When to choose Dovetail"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 19
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 130
+    },
+    {
+     "placeholder": true,
+     "chars": 87
+    },
+    {
+     "placeholder": true,
+     "chars": 64
+    },
+    {
+     "placeholder": true,
+     "chars": 80
+    },
+    {
+     "placeholder": true,
+     "chars": 153
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Decision summary"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 140
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 326
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 206
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 39
+  },
+  {
+   "t": "h2",
+   "text": "FAQs"
+  },
+  {
+   "t": "h3",
+   "text": "Can Dovetail replace Marvin?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 433
+  },
+  {
+   "t": "h3",
+   "text": "How does Marvin’s AI-moderated interviewing compare to Dovetail’s?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 377
+  },
+  {
+   "t": "h3",
+   "text": "Can I migrate my studies and research history from Marvin to Dovetail?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 280
+  },
+  {
+   "t": "h3",
+   "text": "Can I ask a digital twin for a customer’s perspective instead of rereading a research report?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 321
+  },
+  {
+   "t": "h3",
+   "text": "Is Dovetail just a research repository?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 412
+  },
+  {
+   "t": "h3",
+   "text": "How long does it take to get started with Dovetail?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 179
+  }
+ ],
+ "relatedTopics": [
+  {
+   "label": "[Customer research]",
+   "href": "/customer-research/"
+  },
+  {
+   "label": "[Design thinking]",
+   "href": "/design-thinking/"
+  },
+  {
+   "label": "[Employee experience]",
+   "href": "/employee-experience/"
+  },
+  {
+   "label": "[Enterprise]",
+   "href": "/enterprise/"
+  },
+  {
+   "label": "[Market research]",
+   "href": "/market-research/"
+  },
+  {
+   "label": "[Patient experience]",
+   "href": "/patient-experience/"
+  },
+  {
+   "label": "[Product development]",
+   "href": "/product-development/"
+  },
+  {
+   "label": "[Product management]",
+   "href": "/product-management/"
+  },
+  {
+   "label": "[Research maturity assessment]",
+   "href": "/research-maturity-assessment/"
+  },
+  {
+   "label": "[Research methods]",
+   "href": "/research/"
+  },
+  {
+   "label": "[Surveys]",
+   "href": "/surveys/"
+  },
+  {
+   "label": "[User experience (UX)]",
+   "href": "/ux/"
+  }
+ ],
+ "relatedArticles": [
+  {
+   "title": "What can I use instead of Insight7? Alternatives by use case",
+   "href": "/resources/insight7-alternatives/",
+   "date": "20 October 2026"
+  },
+  {
+   "title": "How does Dovetail compare to Aurelius for user research?",
+   "href": "/resources/dovetail-vs-aurelius/",
+   "date": "20 October 2026"
+  },
+  {
+   "title": "Dovetail review: tagging, search, AI, and pricing in 2026",
+   "href": "/resources/dovetail-review/",
+   "date": "29 September 2026"
+  },
+  {
+   "title": "Dovetail vs Enterpret",
+   "href": "/resources/dovetail-vs-enterpret/",
+   "date": "28 September 2026"
+  },
+  {
+   "title": "Dovetail vs Qualtrics",
+   "href": "/resources/dovetail-vs-qualtrics/",
+   "date": "28 September 2026"
+  }
+ ],
+ "cta": {
+  "heading": "Turn customer feedback into product innovation",
+  "buttons": [
+   {
+    "label": "Contact sales",
+    "href": "/contact-sales/"
+   },
+   {
+    "label": "Try Dovetail free",
+    "href": "/auth/signup/"
+   }
+  ]
+ },
+ "theme": "light"
+}

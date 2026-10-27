@@ -1,0 +1,16 @@
+{
+ "id": "eyebrow",
+ "kind": "primitive",
+ "title": "Mono eyebrow",
+ "variants": {
+  "m12": "mono 12/12 ls 1 uppercase",
+  "m14": "mono 14/140% ls 1 uppercase"
+ },
+ "tokens": [
+  "font.preset.m12",
+  "font.preset.m14"
+ ],
+ "evidence": [
+  "specs/marketing-shared.md:122"
+ ]
+}

@@ -1,0 +1,74 @@
+/* Legal index (specs/legal-index.md) + legal doc (specs/legal-doc.md). Light theme. */
+
+.lg-page { color: var(--l-ink); background: var(--l-paper); }
+
+/* ---------- Legal index ---------- */
+.lgi__left { grid-column: span 4; }
+.lgi__right { grid-column: span 8; display: flex; flex-direction: column; }
+/* Unstyled <h2> on the live site: browser default 700 30px / normal (Tailwind preflight resets it, so set explicitly). */
+.lgi__h2 { font-size: 30px; line-height: normal; font-weight: 700; color: var(--l-ink); margin: 0; }
+.lgi__item { display: flex; flex-direction: column; gap: 16px; padding: 16px 0; }
+.lgi__link { align-self: flex-start; border: 1px solid transparent; font-size: 20px; line-height: 28px; font-weight: 500;
+  letter-spacing: -0.25px; color: var(--l-ink); text-align: left; overflow-wrap: anywhere; }
+.lgi__link:hover, .lgi__link:focus-visible { color: var(--l-muted); }
+.lgi__link:hover, .lgi__link:active { text-decoration: underline; }
+@media (max-width: 1280px) {
+  .lgi__left, .lgi__right { grid-column: 1 / -1; }
+}
+
+/* ---------- Title block (legal-doc §1; also tools-article) ---------- */
+.ltitle { padding: 80px 0 160px; border-radius: 8px; }
+.ltitle__h1 { color: var(--l-ink); margin-bottom: 32px; }
+@media (max-width: 1280px) {
+  .ltitle { padding: 40px 0 0; border-radius: 0; margin: 0; }
+  .ltitle__h1 { margin-bottom: 24px; }
+}
+
+/* Breadcrumb */
+.lcrumb { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; }
+.lcrumb__part { display: inline-flex; align-items: center; gap: 4px; }
+.lcrumb__home { color: var(--l-ink); opacity: .6; }
+.lcrumb__home:hover, .lcrumb__home:focus-visible { text-decoration: underline; }
+.lcrumb__slash { color: var(--l-ink); opacity: .6; }
+.lcrumb__mid, .lcrumb__current { font-size: 14px; line-height: 22px; font-weight: 400; letter-spacing: 0; text-transform: uppercase; color: var(--l-ink); }
+.lcrumb__mid { opacity: .6; }
+.lcrumb__mid:hover, .lcrumb__current:hover, .lcrumb__mid:focus-visible, .lcrumb__current:focus-visible { text-decoration: underline; }
+.lcrumb__current--btn { padding: 1px 6px; cursor: default; }
+.lcrumb__current--btn:hover { text-decoration: none; }
+
+/* ---------- Doc layout (§2) ---------- */
+.ldoc { display: flex; gap: 32px; padding: 0 32px; }
+.ldoc__nav, .ldoc__toc { width: 292px; flex-shrink: 0; position: sticky; top: 96px; align-self: flex-start;
+  max-height: calc(100vh - 104px); overflow-y: auto; }
+.ldoc__center { flex: 1 1 0; min-width: 0; padding-top: 48px; }
+.ldoc__inner { max-width: 856px; width: 100%; margin: 0 auto; }
+@media (max-width: 1280px) {
+  .ldoc { flex-direction: column-reverse; padding: 0; }
+  .ldoc__nav, .ldoc__toc { display: none; }
+  .ldoc__center { padding-top: 0; }
+  .ldoc__inner { padding: 0 64px; }
+}
+@media (max-width: 799px) { .ldoc__inner { padding: 0 16px; } }
+
+/* §2a side nav */
+.ldoc__nav { background: var(--l-paper); color: var(--l-ink); display: flex; flex-direction: column; justify-content: space-between; margin-top: 8px; }
+.ldoc__groups { display: flex; flex-direction: column; gap: 16px; }
+.ldoc__ghead { display: flex; align-items: center; gap: 8px; margin: 0 0 8px; }
+.ldoc__chev { width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; background: transparent; color: var(--l-ink); flex-shrink: 0; }
+.ldoc__chev:hover { color: var(--l-muted); }
+.ldoc__glabel { font-size: 14px; line-height: 18px; font-weight: 600; color: var(--l-ink); }
+.ldoc__glabel:hover { color: var(--l-muted); text-decoration: underline; }
+.ldoc__links { list-style: none; margin: 0; padding: 0 0 0 32px; }
+.ldoc__link { display: block; font-size: 14px; line-height: 22px; font-weight: 400; color: var(--l-muted); margin: 0 0 8px; }
+.ldoc__link:hover, .ldoc__link:focus-visible, .ldoc__link:active { color: var(--l-ink); text-decoration: underline; }
+.ldoc__link.is-current { color: var(--l-ink); text-decoration: underline; }
+
+/* after-body "Last updated" row */
+.ldoc__updated { display: flex; padding: 16px 0; }
+.ldoc__updated > span { width: 150px; }
+
+/* §2c "On this page" TOC */
+.ldoc__toclist { display: flex; flex-direction: column; gap: 16px; list-style: none; margin: 8px 0 16px; padding: 0; opacity: 1; }
+.ldoc__tocbtn { display: inline; text-align: left; white-space: normal; overflow-wrap: anywhere; width: 100%; padding: 0;
+  font-size: 14px; line-height: 22px; font-weight: 400; color: var(--l-ink); background: none; border: 0; cursor: pointer; }
+.ldoc__tocbtn:hover, .ldoc__tocbtn:active { color: var(--l-muted); text-decoration: underline; }

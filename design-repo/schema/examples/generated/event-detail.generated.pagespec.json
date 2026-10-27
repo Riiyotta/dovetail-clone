@@ -1,0 +1,382 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T29",
+ "route": "/event-detail-cindercove/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Cindercove"
+ },
+ "meta": {
+  "title": "Cindercove | Events"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Weigh beacon",
+    "actions": [
+     {
+      "label": "Nimbus tidy",
+      "href": "https://cindercove.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Cedar trace",
+      "href": "https://cindercove.example/navbar-0"
+     },
+     {
+      "label": "Sketch plan",
+      "href": "https://cindercove.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Orbit"
+     },
+     {
+      "title": "Gather"
+     },
+     {
+      "title": "Sprout"
+     },
+     {
+      "title": "Steer"
+     },
+     {
+      "title": "Ledger"
+     },
+     {
+      "title": "Harbor"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Fjord weigh",
+      "text": "Basil atlas nimbus tidy map compass sketch plan"
+     },
+     {
+      "title": "Orbit meadow",
+      "text": "Summit juniper sort share willow signal refine rowan"
+     },
+     {
+      "title": "Pebble grove",
+      "text": "Map compass quarry field shape cinder sprout juniper"
+     },
+     {
+      "title": "Cobalt tidal",
+      "text": "Fjord falcon basil measure pebble tidy cedar delta"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "event.header",
+   "variant": "default",
+   "content": {
+    "heading": "Quarry ember orbit gather",
+    "actions": [
+     {
+      "label": "Spro",
+      "href": "https://cindercove.example/header-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "event.details-sidebar",
+   "variant": "default",
+   "content": {
+    "lead": "Juniper ledger tidal willow weigh beacon rowan bundle canvas map trace"
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "event.description",
+   "variant": "default",
+   "content": {
+    "heading": "Sketch ember shape cinder",
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/event.description-0"
+     }
+    ],
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Summit harvest cobalt tidal"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Lantern falcon beacon rowan nimbus canvas cedar delta sketch field shape meadow notice steer ledger tidal willow falcon beacon measure nimbus grove map delta sketch ember orbit meadow summit juniper"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Ledger share willow weigh basil atlas bundle grove cedar trace sketch field shape cinder sprout harvest ledger harbor lantern signal basil atlas pebble tidy cedar trace sketch plan prism meadow"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Summit steer sort tidal fjord falcon refine rowan bundle canvas thread delta marble plan orbit gather notice juniper ledger share lantern weigh basil measure nimbus canvas thread compass sketch ember"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Orbit meadow sprout steer ledger share fjord signal basil measure nimbus grove map compass sketch ember shape gather summit harvest ledger tidal lantern signal basil rowan nimbus tidy thread compass"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Quarry plan orbit meadow summit harvest sort tidal lantern falcon refine measure bundle tidy thread compass quarry plan prism meadow sprout juniper cobalt harbor willow weigh refine rowan bundle grove"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Cedar delta marble plan prism cinder summit harvest cobalt tidal lantern signal beacon rowan nimbus canvas cedar compass sketch ember prism gather sprout steer cobalt share willow falcon beacon atlas"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Pebble canvas cedar compass quarry plan prism cinder sprout juniper sort tidal lantern signal refine rowan bundle tidy cedar delta marble field orbit meadow notice juniper sort tidal lantern falcon"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Basil rowan bundle canvas map compass marble plan shape gather sprout steer sort tidal lantern weigh beacon measure nimbus tidy thread trace marble ember shape gather summit juniper sort harbor"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Fjord falcon beacon measure bundle tidy map compass quarry field prism gather notice harvest sort tidal willow weigh refine atlas pebble grove cedar compass quarry ember shape meadow summit juniper"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.event-cards",
+   "variant": "more-events",
+   "content": {
+    "items": [
+     {
+      "title": "Cobalt tidal fjord",
+      "text": "Falcon refine",
+      "href": "https://cindercove.example/event-cards-item0",
+      "media": {
+       "assetRole": "product.generated-visual",
+       "alt": "",
+       "ref": "generate:product.generated-visual/listing.event-cards-item0"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "interactive.faq",
+   "variant": "company",
+   "content": {
+    "heading": "Canv",
+    "actions": [
+     {
+      "label": "Map trace",
+      "href": "https://cindercove.example/faq-0"
+     },
+     {
+      "label": "Sketch plan",
+      "href": "https://cindercove.example/faq-1"
+     },
+     {
+      "label": "Shape gather",
+      "href": "https://cindercove.example/faq-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Summit juniper ledger",
+      "text": "Harbor fjord signal beacon measure nimbus grove map"
+     },
+     {
+      "title": "Compass sketch plan",
+      "text": "Orbit meadow notice harvest ledger harbor willow weigh"
+     },
+     {
+      "title": "Basil atlas bundle",
+      "text": "Grove map delta marble plan shape meadow sprout"
+     },
+     {
+      "title": "Harvest cobalt harbor",
+      "text": "Fjord falcon basil measure nimbus canvas cedar delta"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "accordion.height",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "dark",
+   "content": {
+    "heading": "Sketch field shape",
+    "actions": [
+     {
+      "label": "Sprout juniper",
+      "href": "https://cindercove.example/final-cta-0"
+     },
+     {
+      "label": "Cobalt harbor",
+      "href": "https://cindercove.example/final-cta-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-7"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "lead": "Willow falcon basil measure pebble",
+    "actions": [
+     {
+      "label": "Thread delta",
+      "href": "https://cindercove.example/footer-0"
+     },
+     {
+      "label": "Sketch ember",
+      "href": "https://cindercove.example/footer-1"
+     },
+     {
+      "label": "Orbit cinder",
+      "href": "https://cindercove.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Summit"
+     },
+     {
+      "title": "Juniper"
+     },
+     {
+      "title": "Ledger"
+     },
+     {
+      "title": "Tidal"
+     },
+     {
+      "title": "Lantern"
+     },
+     {
+      "title": "Weigh"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

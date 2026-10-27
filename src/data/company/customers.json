@@ -1,0 +1,4921 @@
+{
+ "path": "/customers/",
+ "title": "Customers | Dovetail",
+ "hero": {
+  "eyebrow": "Customer stories",
+  "quotes": [
+   {
+    "id": "cry",
+    "parts": [
+     {
+      "text": "“I will cry "
+     },
+     {
+      "icon": "eyes"
+     },
+     {
+      "text": " if you take this tool away from me.”"
+     }
+    ]
+   },
+   {
+    "id": "best-from-ai",
+    "parts": [
+     {
+      "text": "“This is the best thing I have ever gotten from AI. Shows the thinking "
+     },
+     {
+      "icon": "bulb"
+     },
+     {
+      "text": " so I don’t have to wonder.”"
+     }
+    ]
+   },
+   {
+    "id": "comprehensive",
+    "parts": [
+     {
+      "text": "“So comprehensive and on "
+     },
+     {
+      "icon": "nose"
+     },
+     {
+      "text": " the nose.”"
+     }
+    ]
+   },
+   {
+    "id": "week-to-days",
+    "parts": [
+     {
+      "text": "“We’ve gone from a week plus on analysis to 1 to 2 days… "
+     },
+     {
+      "icon": "clock"
+     },
+     {
+      "text": " within a day if it’s a lighter project.”"
+     }
+    ]
+   },
+   {
+    "id": "api-features",
+    "parts": [
+     {
+      "text": "“I’m in love with the new API features and how they work with "
+     },
+     {
+      "icon": "computer"
+     },
+     {
+      "text": " chat.”"
+     }
+    ]
+   }
+  ],
+  "icons": {
+   "eyes": {
+    "src": "/assets/company/media/icon-googly-eyes.png",
+    "wrapperWidth": [
+     181,
+     136,
+     90
+    ]
+   },
+   "clock": {
+    "src": "/assets/company/media/icon-clock.png",
+    "wrapperWidth": [
+     94,
+     70,
+     47
+    ]
+   },
+   "computer": {
+    "src": "/assets/company/media/icon-old-computer.png",
+    "wrapperWidth": [
+     100,
+     75,
+     50
+    ]
+   },
+   "bulb": {
+    "src": "/assets/company/media/icon-bulb.png",
+    "wrapperWidth": [
+     64,
+     48,
+     32
+    ]
+   },
+   "nose": {
+    "src": "/assets/company/media/icon-nose.png",
+    "wrapperWidth": [
+     86,
+     64,
+     43
+    ]
+   }
+  },
+  "tagline": {
+   "text": "Our customers words,",
+   "emphasis": "not ours."
+  },
+  "timing": {
+   "charMs": 42,
+   "iconMs": 260,
+   "holdMs": 1800,
+   "highlightMs": 450,
+   "blankMs": 260,
+   "reducedMotionIntervalMs": 5000
+  }
+ },
+ "filters": [
+  "All",
+  "Technology",
+  "Consumer",
+  "Manufacturing",
+  "Health",
+  "Finance",
+  "Nonprofit",
+  "Airlines and Aviation",
+  "Life Sciences",
+  "Retail",
+  "Professional Services",
+  "Consumer Goods",
+  "Education",
+  "Financial Services"
+ ],
+ "storyCards": [
+  {
+   "slug": "itau-unibanco",
+   "href": "/customers/itau-unibanco/",
+   "title": "How Itaú Unibanco delivers better banking experiences with Dovetail",
+   "industry": "Finance",
+   "order": 1,
+   "companyName": "Itau Unibanco",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/Customer_Itau.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/white-logo.svg",
+    "alt": "Itaú Unibanco",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 213
+    },
+    "name": "Renato Cerqueira Leite",
+    "role": "Head of research Operations"
+   }
+  },
+  {
+   "slug": "atlassian-design",
+   "href": "/customers/atlassian-design/",
+   "title": "How Atlassian turns customer signals into confident product decisions",
+   "industry": "Technology",
+   "order": 2,
+   "companyName": "Atlassian",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/company/media/Customer_Atlassian.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+    "alt": "Atlassian",
+    "w": 160,
+    "h": 20
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 190
+    },
+    "name": "Martin Jerkovic",
+    "role": "Lead Product Designer"
+   }
+  },
+  {
+   "slug": "canva-ai",
+   "href": "/customers/canva-ai/",
+   "title": "Dovetail helps Canva turn millions of design moments into product decisions that shape how the world designs",
+   "industry": "Technology",
+   "order": 2,
+   "companyName": "Canva",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/company/media/Customer_Canva_AI.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/white-logo(2).svg",
+    "alt": "Canva",
+    "w": 120,
+    "h": 41
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 169
+    },
+    "name": "Craig Boustred",
+    "role": "Design Researcher"
+   }
+  },
+  {
+   "slug": "breville",
+   "href": "/customers/breville/",
+   "title": "How customer insights drive and inspire Breville’s product innovation",
+   "industry": "Consumer",
+   "order": 3,
+   "companyName": "Breville",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/Customer_Breville.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/white-logo(3).svg",
+    "alt": "Breville",
+    "w": 132,
+    "h": 32
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 217
+    },
+    "name": "Constance Docos",
+    "role": "Senior UX Designer"
+   }
+  },
+  {
+   "slug": "cnh",
+   "href": "/customers/cnh/",
+   "title": "How CNH builds better agricultural machinery, 50% faster with Dovetail",
+   "industry": "Manufacturing",
+   "order": 3,
+   "companyName": "CNH",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/Customer_CNHIndustrial.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/white-logo(4).svg",
+    "alt": "CNH",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 207
+    },
+    "name": "Matthew Klopfenstein",
+    "role": "Portfolio Management–Cash Crop Segment Specialist"
+   }
+  },
+  {
+   "slug": "smartrecruiters",
+   "href": "/customers/smartrecruiters/",
+   "title": "Unlocking the AI edge for hiring the best talent with SmartRecruiters and Dovetail",
+   "industry": "Technology",
+   "order": 3,
+   "companyName": "SmartRecruiters",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/Customer_SmartRecruiter.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/white-logo(5).svg",
+    "alt": "SmartRecruiters",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 212
+    },
+    "name": "Danielle Reid",
+    "role": "Senior Design Manager"
+   }
+  },
+  {
+   "slug": "safetyculture",
+   "href": "/customers/safetyculture/",
+   "title": "SafetyCulture puts the customer at the heart of decision with Dovetail",
+   "industry": "Technology",
+   "order": 5,
+   "companyName": "SafetyCulture",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_SafetyCulture.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-safetyculture-white-logo.svg",
+    "alt": "SafetyCulture",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 158
+    },
+    "name": "Jules Lipman",
+    "role": "Product Designer"
+   }
+  },
+  {
+   "slug": "achievers",
+   "href": "/customers/achievers/",
+   "title": "How Achievers powers employee experience with always-on customer intelligence",
+   "industry": "Technology",
+   "order": 6,
+   "companyName": "Achievers",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Achievers.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-achievers-white-logo.svg",
+    "alt": "Achievers",
+    "w": 143,
+    "h": 28
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 229
+    },
+    "name": "Marie-Andrée Turgeon",
+    "role": "Senior Manager of Product Operations"
+   }
+  },
+  {
+   "slug": "pvcase",
+   "href": "/customers/pvcase/",
+   "title": "Dovetail helps PVcase put the customer’s voice at the center of every product decision",
+   "industry": "Technology",
+   "order": 6,
+   "companyName": "PVcase",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/company/media/solar-toggle-02.webp",
+    "alt": "",
+    "w": 2880,
+    "h": 1600
+   },
+   "logo": {
+    "src": "/assets/company/customers/pvcase/white-logo.png",
+    "alt": "PVcase",
+    "w": 520,
+    "h": 80
+   },
+   "testimonial": {
+    "quote": "“Now I can search for specific surfacing topics or user problems across the entire database with the help of Dovetail’s AI agent.”",
+    "name": "Imre Horváth",
+    "role": "R&D Lead, PVcase"
+   }
+  },
+  {
+   "slug": "vital-voices",
+   "href": "/customers/vital-voices/",
+   "title": "Dovetail helps Vital Voices analyze global leadership stories 5x faster to secure donor funding",
+   "industry": "Nonprofit",
+   "order": 7,
+   "companyName": "Vital Voices",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/company/media/vital-voices-thumbnail.jpg",
+    "alt": "",
+    "w": 3872,
+    "h": 2581
+   },
+   "logo": {
+    "src": "/assets/company/customers/vital-voices/white-logo.svg",
+    "alt": "Vital Voices",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 175
+    },
+    "name": "Cristy B.",
+    "role": "Data Engineer"
+   }
+  },
+  {
+   "slug": "eucalyptus",
+   "href": "/customers/eucalyptus/",
+   "title": "Eucalyptus uses Dovetail to scale customer intelligence and shape the future of healthcare",
+   "industry": "Health",
+   "order": 8,
+   "companyName": "Eucalyptus",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/company/media/Customer_Eucalyptus.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/company/customers/eucalyptus/white-logo.svg",
+    "alt": "Eucalyptus",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": null
+  },
+  {
+   "slug": "petal-health",
+   "href": "/customers/petal-health/",
+   "title": "How Petal Health builds healthcare solutions confidently with Dovetail",
+   "industry": "Health",
+   "order": 8,
+   "companyName": "Petal Health",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/company/media/Customer_Petal.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/company/customers/petal-health/white-logo.svg",
+    "alt": "Petal Health",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 210
+    },
+    "name": "Clémentine Nowak",
+    "role": "Principal UX Researcher"
+   }
+  },
+  {
+   "slug": "okta",
+   "href": "/customers/okta/",
+   "title": "How Okta built a customer intelligence platform trusted by 200+ users across 30+ teams",
+   "industry": "Technology",
+   "order": 9,
+   "companyName": "Okta",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Okta.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/white-logo(1).svg",
+    "alt": "Okta",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 219
+    },
+    "name": "Jared Forney",
+    "role": "Research Operations Principal"
+   }
+  },
+  {
+   "slug": "atlassian",
+   "href": "/customers/atlassian/",
+   "title": "Atlassian champions the customer at a global scale with Dovetail",
+   "industry": "Technology",
+   "order": 10,
+   "companyName": "Atlassian",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Atlassian2.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+    "alt": "Atlassian",
+    "w": 160,
+    "h": 20
+   },
+   "testimonial": null
+  },
+  {
+   "slug": "zapier",
+   "href": "/customers/zapier/",
+   "title": "How Zapier puts customer intelligence in everyone’s hands and gets tens of hours back every week",
+   "industry": "Technology",
+   "order": 11,
+   "companyName": "Zapier",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Zapier.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-zapier-white-logo.svg",
+    "alt": "Zapier",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": "“Dovetail helps us simplify the process of pouring all our customer data and all our insights into one spot.”",
+    "name": "Roy Olende",
+    "role": "Head of UX Research"
+   }
+  },
+  {
+   "slug": "harvard-business-publishing",
+   "href": "/customers/harvard-business-publishing/",
+   "title": "Dovetail fuels world-class research at Harvard Business Publishing",
+   "industry": "Consumer",
+   "order": 12,
+   "companyName": "Harvard Business Publishing",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Harvard.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-harvard-business-publishing-white-logo.svg",
+    "alt": "Harvard Business Publishing",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 227
+    },
+    "name": "David Turell",
+    "role": "Head of New Product Design"
+   }
+  },
+  {
+   "slug": "netguru",
+   "href": "/customers/netguru/",
+   "title": "Netguru reclaims 38+ hours per week by centralizing intelligence with the Dovetail platform",
+   "industry": "Technology",
+   "order": 13,
+   "companyName": "Netguru",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/company/media/Customer_NetGuru.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/company/customers/netguru/white-logo.svg",
+    "alt": "Netguru",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 183
+    },
+    "name": "Ewelina Szczepaniak-Wenting",
+    "role": "Senior UX Researcher, Tischner European University lecturer"
+   }
+  },
+  {
+   "slug": "careship",
+   "href": "/customers/careship/",
+   "title": "Careship gains a competitive advantage with fast customer intelligence",
+   "industry": "Technology",
+   "order": 14,
+   "companyName": "Careship",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/company/media/Customer_Careship.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/company/customers/careship/white-logo.svg",
+    "alt": "Careship",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": null
+  },
+  {
+   "slug": "aws",
+   "href": "/customers/aws/",
+   "title": "Dovetail helps AWS turn scattered research into a shared source of customer truth",
+   "industry": "Technology",
+   "order": 99,
+   "companyName": "AWS",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/company/media/Customer_AWS.jpg",
+    "alt": "",
+    "w": 5184,
+    "h": 3456
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-aws-white-logo.svg",
+    "alt": "AWS",
+    "w": 0,
+    "h": 0
+   },
+   "testimonial": null
+  },
+  {
+   "slug": "bower",
+   "href": "/customers/bower/",
+   "title": "Dovetail helps Bower build products from what scientists say",
+   "industry": "Technology",
+   "order": 99,
+   "companyName": "Bower",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/company/media/bower-michelle-thumbnail.jpg",
+    "alt": "",
+    "w": 1200,
+    "h": 1200
+   },
+   "logo": {
+    "src": "/assets/company/customers/bower/white-logo.svg",
+    "alt": "Bower",
+    "w": 160,
+    "h": 35
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 151
+    },
+    "name": "Michelle MacRae",
+    "role": "CEO and Co-founder"
+   }
+  },
+  {
+   "slug": "canva",
+   "href": "/customers/canva/",
+   "title": "Dovetail helps Canva empower the world to design, one customer insight at a time",
+   "industry": "Technology",
+   "order": 99,
+   "companyName": "Canva",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Canva.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/white-logo(2).svg",
+    "alt": "Canva",
+    "w": 120,
+    "h": 41
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 197
+    },
+    "name": "Craig Boustred",
+    "role": "Design Researcher"
+   }
+  },
+  {
+   "slug": "flagship-airline-group",
+   "href": "/customers/flagship-airline-group/",
+   "title": "How a flagship airline group turned siloed research into shared customer intelligence",
+   "industry": "Airlines and Aviation",
+   "order": 99,
+   "companyName": "A flagship airline group",
+   "gridTitle": "Flagship airline group",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-flagship-airline-group.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": "“The more we use Dovetail, the more powerful it becomes.”",
+    "name": null,
+    "role": "Head of Design"
+   }
+  },
+  {
+   "slug": "fleet-management-tech-leader",
+   "href": "/customers/fleet-management-tech-leader/",
+   "title": "How a fleet management technology company gave every leader direct access to customer intelligence",
+   "industry": "Technology",
+   "order": 99,
+   "companyName": "A connected fleet technology company",
+   "gridTitle": "Connected fleet technology provider",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-fleet-management-tech-leader.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 149
+    },
+    "name": null,
+    "role": "Research Operations Lead"
+   }
+  },
+  {
+   "slug": "global-agricultural-equipment-maker",
+   "href": "/customers/global-agricultural-equipment-maker/",
+   "title": "How a global agricultural equipment maker unified customer intelligence across 100+ product lines",
+   "industry": "Manufacturing",
+   "order": 99,
+   "companyName": "A global leader in agricultural and construction equipment",
+   "gridTitle": "Agricultural machinery corporation",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-agricultural-machinery-corporation.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 243
+    },
+    "name": null,
+    "role": "UX Researcher"
+   }
+  },
+  {
+   "slug": "global-enterprise-cloud-platform",
+   "href": "/customers/global-enterprise-cloud-platform/",
+   "title": "How one of the world’s largest software companies built a shared customer intelligence layer",
+   "industry": "Technology",
+   "order": 99,
+   "companyName": "A global enterprise software company",
+   "gridTitle": "Global B2B cloud leader",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-global-enterprise-cloud-platform.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": "“The primary value for us here is in giving access to the data to non-researchers.”",
+    "name": null,
+    "role": "Senior Product Lead, Research & Insights"
+   }
+  },
+  {
+   "slug": "global-enterprise-life-sciences",
+   "href": "/customers/global-enterprise-life-sciences/",
+   "title": "How a global life sciences enterprise turned two years of research into on‑demand intelligence",
+   "industry": "Life Sciences",
+   "order": 99,
+   "companyName": "A global life sciences enterprise with a dedicated internal research function",
+   "gridTitle": "Leading research enterprise",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-global-enterprise-life-sciences.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 101
+    },
+    "name": null,
+    "role": "Research Operations Lead"
+   }
+  },
+  {
+   "slug": "global-financial-institution",
+   "href": "/customers/global-financial-institution/",
+   "title": "How a global financial institution cleared one of finance's most rigorous AI security reviews and built its customer intelligence layer with Dovetail",
+   "industry": "Finance",
+   "order": 99,
+   "companyName": "A global financial institution",
+   "gridTitle": "Global financial powerhouse",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-global-financial-institution.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 295
+    },
+    "name": null,
+    "role": "Delivery Manager, Research Operations"
+   }
+  },
+  {
+   "slug": "global-home-furnishings-retailer",
+   "href": "/customers/global-home-furnishings-retailer/",
+   "title": "How a global retailer freed its research team—and built a customer intelligence engine",
+   "industry": "Retail",
+   "order": 99,
+   "companyName": "A global home furnishings retailer",
+   "gridTitle": "Global furnishing retailer",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-global-furnishing-retailer.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 206
+    },
+    "name": null,
+    "role": "Head of Research Operations"
+   }
+  },
+  {
+   "slug": "global-industrial-tech-leader",
+   "href": "/customers/global-industrial-tech-leader/",
+   "title": "How a global industrial technology company got decision-makers acting on customer intelligence",
+   "industry": "Technology",
+   "order": 99,
+   "companyName": "A global industrial technology company",
+   "gridTitle": "Global industrial technology leader",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-global-industrial-tech-leader.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 145
+    },
+    "name": null,
+    "role": "Senior UX Researcher"
+   }
+  },
+  {
+   "slug": "global-management-consulting-firm",
+   "href": "/customers/global-management-consulting-firm/",
+   "title": "How a global management consulting firm turned single-team research into a self-serving intelligence system for 300+ practitioners",
+   "industry": "Professional Services",
+   "order": 99,
+   "companyName": "A global management consulting firm",
+   "gridTitle": "Global management consulting",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-global-management-consulting-firm.png",
+    "alt": "",
+    "w": 896,
+    "h": 1280
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": "“People would come to me and say, ‘You saved me so many hours of research. I was able to just use your videos and add my own tags.’”",
+    "name": null,
+    "role": "Research Operations Lead"
+   }
+  },
+  {
+   "slug": "global-pos-and-payments-platform",
+   "href": "/customers/global-pos-and-payments-platform/",
+   "title": "How a global POS and payments platform unified five product verticals under one customer intelligence layer",
+   "industry": "Technology",
+   "order": 99,
+   "companyName": "A global POS and payments platform",
+   "gridTitle": "Global POS and payments platform",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-global-commerce-platform.png",
+    "alt": "",
+    "w": 896,
+    "h": 1280
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 141
+    },
+    "name": null,
+    "role": "Head of UX Research"
+   }
+  },
+  {
+   "slug": "global-power-tool-manufacturer",
+   "href": "/customers/global-power-tool-manufacturer/",
+   "title": "How a power-tool leader made years of field research searchable across its product organization",
+   "industry": "Manufacturing",
+   "order": 99,
+   "companyName": "A global professional power-tool manufacturer",
+   "gridTitle": "Global power‑tool manufacturer",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-global-power-tool-manufacturer.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 157
+    },
+    "name": null,
+    "role": "Senior Manager, Design Research"
+   }
+  },
+  {
+   "slug": "global-professional-services-network",
+   "href": "/customers/global-professional-services-network/",
+   "title": "How a global professional services network turned customer intelligence into a delivery standard across three continents",
+   "industry": "Professional Services",
+   "order": 99,
+   "companyName": "One of the world’s four largest professional services networks",
+   "gridTitle": "Global professional services network",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-global-professional-services-network.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 203
+    },
+    "name": null,
+    "role": "Enablement Lead, Customer Strategy Practice"
+   }
+  },
+  {
+   "slug": "global-saas-leader",
+   "href": "/customers/global-saas-leader/",
+   "title": "How a global SaaS leader built a single source of truth from nearly 2,000 customer sessions",
+   "industry": "Technology",
+   "order": 99,
+   "companyName": "A global SaaS leader",
+   "gridTitle": "Global SaaS leader",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-global-saas-leader.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": "“Dovetail is currently the biggest source of truth where all of our recordings live.”",
+    "name": null,
+    "role": "Research Ops Manager"
+   }
+  },
+  {
+   "slug": "iconic-global-automaker",
+   "href": "/customers/iconic-global-automaker/",
+   "title": "How one of the world's most iconic automakers put customer intelligence in the hands of its engineers",
+   "industry": "Manufacturing",
+   "order": 99,
+   "companyName": "One of the world's most iconic automakers",
+   "gridTitle": "Iconic global automaker",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-iconic-global-automaker.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 252
+    },
+    "name": null,
+    "role": "Lead UX Strategist"
+   }
+  },
+  {
+   "slug": "iconic-toy-brand",
+   "href": "/customers/iconic-toy-brand/",
+   "title": "How a global toy brand builds with confidence by putting customer intelligence where decisions are made",
+   "industry": "Consumer Goods",
+   "order": 99,
+   "companyName": "A family-owned toy company with products in more than 120 countries",
+   "gridTitle": "Iconic toy brand",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-iconic-toy-brand.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 158
+    },
+    "name": null,
+    "role": "Head of Research, Retail Division"
+   }
+  },
+  {
+   "slug": "leading-education-publisher",
+   "href": "/customers/leading-education-publisher/",
+   "title": "How a leading education company made customer intelligence everyone’s job",
+   "industry": "Education",
+   "order": 99,
+   "companyName": "A leading educational content and learning technology company",
+   "gridTitle": "Leading education publisher",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-leading-education-publisher.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 161
+    },
+    "name": null,
+    "role": "UX Researcher, Platform Experience Team"
+   }
+  },
+  {
+   "slug": "major-personal-bank",
+   "href": "/customers/major-personal-bank/",
+   "title": "How a major bank securely connects 700+ personnel with customer intelligence",
+   "industry": "Financial Services",
+   "order": 99,
+   "companyName": "A personal banking provider serving millions",
+   "gridTitle": "Major retail bank",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-major-personal-bank.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": "“When anyone has a question, they can go into Dovetail and find what we’ve already learned.”",
+    "name": null,
+    "role": "Head of Research, Experience Design"
+   }
+  },
+  {
+   "slug": "modern-business-banking-platform",
+   "href": "/customers/modern-business-banking-platform/",
+   "title": "How a banking platform turned fragmented feedback into company-wide customer intelligence",
+   "industry": "Financial Services",
+   "order": 99,
+   "companyName": "A modern banking platform for ambitious businesses",
+   "gridTitle": "Modern banking platform",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-modern-business-banking-platform.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": "“Channels has made a real difference to how we work as an organization.”",
+    "name": null,
+    "role": "Product Operations Lead"
+   }
+  }
+ ],
+ "logoWall": [
+  {
+   "src": "/assets/company/customers/khan-academy/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/1-800-got-junk/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/23andme-research-institute/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/84-51-degrees/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/abnormal-security-corporation/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/abrsm/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/academy-sports-outdoors/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/acculynx/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/marketing/customer-achievers-white-logo.svg",
+   "alt": "",
+   "w": 143,
+   "h": 28
+  },
+  {
+   "src": "/assets/company/customers/aetonix/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/affirm/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/aflac/white-logo.png",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/air-up/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/airteam/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/aize/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/aker-solutions/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/akur8/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/alinta-energy/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/altium/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/marketing/customer-amazon-white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/america-s-test-kitchen/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/analog-devices/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/anheuser-busch-inbev/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/anthill/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/appfire/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/apprilis/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/appsflyer/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/appspace/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/ardoq/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/argo/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/arm/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/ascensus/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/marketing/customer-asml-white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/assent/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+   "alt": "",
+   "w": 160,
+   "h": 20
+  },
+  {
+   "src": "/assets/company/customers/auctane/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/aurora-solar/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/autodesk/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/autostore/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/awin-global/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/marketing/customer-aws-white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/bamboohr/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/banco-de-chile/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/bank-of-montreal/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/barnardos/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/bayer/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/bear/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/benevolentai/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/berkeley-research-group-brg/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/bestsecret-gmbh/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/beyondtrust/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/bezero-carbon/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/bfbs/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/bforbank/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/bigcommerce/white-logo.svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/billcom/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/bixal/white-logo.svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/blue-cross-blue-shield/white-logo.svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/blue-prism/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/blue-yonder/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/boehringer-ingelheim-gmbh/white-logo.svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/bonusly/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/bounce/white-logo.svg",
+   "alt": "",
+   "w": 300,
+   "h": 64
+  },
+  {
+   "src": "/assets/company/customers/bower/white-logo.svg",
+   "alt": "",
+   "w": 160,
+   "h": 35
+  },
+  {
+   "src": "/assets/company/customers/bp/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/braunability/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/brenntag/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/white-logo(3).svg",
+   "alt": "",
+   "w": 132,
+   "h": 32
+  },
+  {
+   "src": "/assets/company/customers/brevo/white-logo.svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/bsi/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/bupa/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/buspatrol/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/canonical/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/white-logo(2).svg",
+   "alt": "",
+   "w": 120,
+   "h": 41
+  },
+  {
+   "src": "/assets/company/customers/captura/white-logo.svg",
+   "alt": "",
+   "w": 300,
+   "h": 100
+  },
+  {
+   "src": "/assets/company/customers/careship/white-logo.svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/carevicinity/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/carrefour/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/cbc/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/cdiscount/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/ciena/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/ciklum/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/circle-internet-financial/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/circles/white-logo.svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/clear-sale/white-logo.svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/cleerly/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/cloudflare/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/cme-group/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/white-logo(4).svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/coforma/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/cognite/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/common-knowledge/white-logo.svg",
+   "alt": "",
+   "w": 292,
+   "h": 20
+  },
+  {
+   "src": "/assets/company/customers/companycam/white-logo.svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/conduent/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/connect-the-dots/white-logo.svg",
+   "alt": "",
+   "w": 121,
+   "h": 41
+  },
+  {
+   "src": "/assets/company/customers/conrad/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/constrcutconnect/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/contentsquare/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/continental-properties/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/corbin/white-logo.svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/corpay/white-logo.svg",
+   "alt": "",
+   "w": 300,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/craft-docs/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/crown-commercial-service/white-logo.svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/crypto-tax-calculator/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/cultureamp/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/dailymotion/white-logo.svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/dataiku/white-logo.svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/datasite/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/daxko/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/deakin-university/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/delta-air-lines/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/dentsu/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/deputy/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/dext/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/diligent/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/disruptive-edge/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/dll/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/dnv/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/domain/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/doublecheck/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/drugbank/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/duke-energy-corporation/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/dunnhumby/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/dynatron-software-inc/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/dyson/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/eagleview/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/easypark/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/ecocart/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/edc/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/ediphi/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/ellab-validation-monitoring-solutions/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/elli/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/elsevier/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/emoney/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/enedis/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/entrust/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/estimateone/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/etribes/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/eucalyptus/white-logo.svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/euromonitor/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/europcar/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/everbridge/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/ezcater/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/f-secure/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/fabletics/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/fcs-america/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/fidelity/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/fig-food-is-good/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/flagstone/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/flashacademy/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/flexera/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/flipdish/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/tools/logos/ford-credit-white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/formunauts/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/forrester/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/frontiers-media/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/fullbay/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/genesys/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/genuine-parts-company/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/gitlab/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/givaudan/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/global-relay/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/goformz/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/goodnotes/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/grafana/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/gravyty/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/groupe-bpce/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/grow-therapy/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/guild-mortgage/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/hackerone/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/handshake/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/marketing/customer-harvard-business-publishing-white-logo.svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/hastings-direct/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/hcm-deck/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/healthstream/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/hewlett-packard-enterprise/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/hi-marley/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/hireup/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/honeycomb/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/honeywell/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/hostel-world/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/hotels-combined/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/hotmart/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/hub24/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/hudl/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/hungerstation/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/ideagen/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/imdb/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/index/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/infobip/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/inovalon/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/instawork/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/intrepid-group/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/intuit/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/iog/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/ipsos/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/iris/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/white-logo.svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/jetstar/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/jobnimbus/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/john-hopkins-university/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/john-lewis/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/besitos/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/keller-williams-realty/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/kickstand/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/king/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/klm/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/kolecto/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/komodo-health/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/kroger/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/laerdal-medical/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/lcs/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/leanix/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/learning-care-group/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/lexis-nexis/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/lift-healthcare/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/lighthouse/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/livanova/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/lumin-digital/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/luxottica/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/maersk/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/magic-cabinet/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/manulife/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/manychat/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/medibank/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/medtronic/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/meld-studio/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/mendix/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/merck/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/meridian/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/metacore/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/metro-digital/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/milliporesigma/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/moneysupermarket-group/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/mongodb/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/moody-s/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/motability-operations/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/motorola/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/multigate/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/multiverse/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/mural/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/mystery-science/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/nature/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/marketing/customer-ncrvoyix-white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/nea/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/nelson/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/netguru/white-logo.svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/netwealth/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/nice/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/marketing/customer-notion-white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/nsw-gov/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/o-reilly/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/ocean-technologies-group/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/octopus-deploy/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/office-of-innovation-state-of-new-jersey/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/white-logo(1).svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/olo/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/onenz/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/orgvue/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/our-future-health/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/oura/white-logo.png",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/owens-corning/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/pandadoc/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/par/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/paradox-interactive/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/parentpay/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/payfit/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/pccw-global/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/pearson/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/pensionbee/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/petal-health/white-logo.svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/petcube/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/pexa/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/powerschool/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/ppg/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/preqin/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/project-management-institute/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/propeller/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/ptc/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/publicis-media/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/pushpay/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/pvcase/white-logo.png",
+   "alt": "",
+   "w": 520,
+   "h": 80
+  },
+  {
+   "src": "/assets/company/customers/q4inc/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/marketing/customer-qantas-white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/qhr-tech/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/quickbase/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/rapid7/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/rea-group/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/realogy/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/remote/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/reuters/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/revenuecat/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/risepoint/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/roche/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/royal-bank-of-scotland/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/runyon/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/safe-software/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/marketing/customer-safetyculture-white-logo.svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/sage/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/marketing/customer-salesforce-white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/salsify/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/sam-s-club/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/sanity/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/sanofi/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/saviynt/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/schneider-electric/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/schoox/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/seek/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/sentinelone/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/servicetitan/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/marketing/customer-shopify-white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/sinch/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/sitecore/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/skan-ai/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/sma-technologies/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/white-logo(5).svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/sonos/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/sparksoft/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/spoton/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/springer-nature/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/sram/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/state-affairs/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/steelcase/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/stellar-elements/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/stepstone-group/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/strata-decision-tech/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/3t-software-labs/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/sustena/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/swinburne-university/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/synthesia/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/tadaweb/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/talon-one/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/tantus/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/techsmith/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/textnow/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/the-yuki-company/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/marketing/customer-toyota-white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/trainline/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/transbank/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/triple-whale/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/turnitin/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/tyme/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/ucla/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/ukg/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/university-of-auckland/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/veed/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/vena-solutions/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/veo/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/vital-voices/white-logo.svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/voices/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/wealthsimple/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/wealthwizards/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/webjet/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/whole-foods/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/whoop/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/wiley/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/marketing/customer-wise-white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/wood-mackenzie/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/workrise/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/worley/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/wp-engine/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/wrapbook/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/ynab/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/yum-brands/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/marketing/customer-zapier-white-logo.svg",
+   "alt": "",
+   "w": 160,
+   "h": 72
+  },
+  {
+   "src": "/assets/company/customers/zip/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/zoco/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  },
+  {
+   "src": "/assets/company/customers/zurich/white-logo.svg",
+   "alt": "",
+   "w": 0,
+   "h": 0
+  }
+ ],
+ "storyCarousel": {
+  "autoplay": {
+   "tickMs": 110,
+   "ticksPerSlide": 100
+  },
+  "slides": [
+   {
+    "tab": "01",
+    "slug": "breville",
+    "heading": "How customer insights drive and inspire Breville’s product innovation",
+    "headingLogoAfter": "Breville",
+    "inlineLogoSvg": "/assets/svg/cta-logo-guessfarleft-breville.svg",
+    "paragraph": {
+     "placeholder": true,
+     "chars": 207
+    },
+    "button": {
+     "label": "Read the story",
+     "href": "/customers/breville/"
+    },
+    "backgroundVideo": {
+     "url": "https://dovetail.com/media/CustomerStoryBrevilleLoop.mp4",
+     "downloaded": false,
+     "poster": "/assets/company/media/CustomerStoryBrevilleLoop_copy.png"
+    }
+   },
+   {
+    "tab": "02",
+    "slug": "atlassian-design",
+    "heading": "How Atlassian turns customer signals into confident product decisions",
+    "headingLogoAfter": "Atlassian",
+    "inlineLogoSvg": "/assets/company/svg/carousel-logo-atlassian.svg",
+    "paragraph": {
+     "placeholder": true,
+     "chars": 153
+    },
+    "button": {
+     "label": "Read the story",
+     "href": "/customers/atlassian-design/"
+    },
+    "backgroundVideo": {
+     "url": "https://dovetail.com/media/AtlassianStoryLoop.mp4",
+     "downloaded": false,
+     "poster": "/assets/company/media/Frame_1948762765.png"
+    }
+   },
+   {
+    "tab": "03",
+    "slug": "itau-unibanco",
+    "heading": "How Itaú Unibanco delivers better banking experiences with Dovetail",
+    "headingLogoAfter": "Itau Unibanco",
+    "inlineLogoSvg": "/assets/company/svg/carousel-logo-itau.svg",
+    "paragraph": {
+     "placeholder": true,
+     "chars": 183
+    },
+    "button": {
+     "label": "Read the story",
+     "href": "/customers/itau-unibanco/"
+    },
+    "backgroundVideo": {
+     "url": "https://dovetail.com/media/Itau_Trimmed.mov.webm",
+     "downloaded": false,
+     "poster": "/assets/company/media/Itau_Trimmed.mov.webp"
+    }
+   }
+  ]
+ },
+ "ratings": [
+  {
+   "platform": "G2",
+   "rating": 4.5,
+   "href": "https://www.g2.com/products/dovetail-research-pty-ltd-dovetail"
+  },
+  {
+   "platform": "Capterra",
+   "rating": 4.6,
+   "href": "https://www.capterra.com.au/software/174077/dovetail"
+  },
+  {
+   "platform": "TrustRadius",
+   "rating": 4.3,
+   "href": "https://www.trustradius.com/products/dovetail-user-research"
+  }
+ ],
+ "headline": {
+  "line1": [
+   "Trusted",
+   {
+    "image": "/assets/marketing/3d-flag.png"
+   },
+   "and"
+  ],
+  "line2": [
+   "loved by",
+   {
+    "mondwest": "users"
+   }
+  ]
+ },
+ "awards": [
+  {
+   "image": "/assets/tools/buyer-s-choice-2026-flat.svg",
+   "title": "Buyer's choice award",
+   "name": "Trust radius, 2026"
+  },
+  {
+   "image": "/assets/tools/getapp-category-leader.svg",
+   "title": "Category Leader",
+   "name": "GetApp's category leaders 2025"
+  },
+  {
+   "image": "/assets/tools/Group_427321620.svg",
+   "title": "Top UX Research Product",
+   "name": "Proddy awards by product school"
+  },
+  {
+   "image": "/assets/tools/g2-high-performer-enterprise-summer-2026.png",
+   "title": "High Performer",
+   "name": "g2, summer 2026"
+  },
+  {
+   "image": "/assets/tools/tech-cares-2026-flat.webp",
+   "title": "Tech Cares",
+   "name": "Trust radius, 2026"
+  },
+  {
+   "image": "/assets/tools/tech-cares-2025-gradient_1.svg",
+   "title": "Tech Cares",
+   "name": "Trust radius, 2025"
+  },
+  {
+   "image": "/assets/tools/g2-momentum-leader-summer-2026.png",
+   "title": "Momentum Leader",
+   "name": "g2, summer 2026"
+  },
+  {
+   "image": "/assets/tools/top-rated-2026-flat.png",
+   "title": "Top Rated",
+   "name": "Trust radius, 2026"
+  },
+  {
+   "image": "/assets/tools/g2-leader-summer-2026.png",
+   "title": "Leader",
+   "name": "g2, summer 2026"
+  },
+  {
+   "image": "/assets/tools/g2-best-relationship-summer-2026.png",
+   "title": "Best Relationship",
+   "name": "g2, summer 2026"
+  },
+  {
+   "image": "/assets/tools/g2-best-roi-summer-2026.png",
+   "title": "Best Estimated ROI",
+   "name": "g2, summer 2026"
+  },
+  {
+   "image": "/assets/tools/g2-fastest-implementation-summer-2026.png",
+   "title": "Fastest Implementation",
+   "name": "g2, summer 2026"
+  }
+ ],
+ "testimonials": [
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 169
+   },
+   "name": "Craig Boustred",
+   "company": "Canva",
+   "avatar": "/assets/company/media/Customer_Canva_AI.png"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 247
+   },
+   "name": "Simone Ellis",
+   "company": "Qantas",
+   "avatar": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti.png"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 286
+   },
+   "name": "Micah Underwood",
+   "company": "LIFT Healthcare",
+   "avatar": "/assets/company/media/lift_headshot.png"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 197
+   },
+   "name": "Craig Boustred",
+   "company": "Canva",
+   "avatar": "/assets/company/media/Customer_Canva_AI.png"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 221
+   },
+   "name": "Mariana Bartholomeu",
+   "company": "Itaú Unibanco",
+   "avatar": "/assets/marketing/Frame_1948762769.png"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 213
+   },
+   "name": "Renato Cerqueira Leite",
+   "company": "Itaú Unibanco",
+   "avatar": "/assets/company/media/Itau.png"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 152
+   },
+   "name": "Martin Jerkovic",
+   "company": "Atlassian",
+   "avatar": "/assets/marketing/MartinJerkovicPhoto.webp"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 175
+   },
+   "name": "Cristy B.",
+   "company": "Vital Voices"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 207
+   },
+   "name": "Matthew Klopfenstein",
+   "company": "CNH"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 306
+   },
+   "name": "Martin Jerkovic",
+   "company": "Atlassian"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 220
+   },
+   "name": "Lina Reynolds",
+   "company": "Ford Credit"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 216
+   },
+   "name": "Nadiya Kravets",
+   "company": "Ipsos"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 274
+   },
+   "name": "Lina Reynolds",
+   "company": "Ford Credit"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 316
+   },
+   "name": "Dr. Philip Rhodes",
+   "company": "SentinelOne"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 258
+   },
+   "name": "Max Graj",
+   "company": "Accenture"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 149
+   },
+   "name": "Dr. Philip Rhodes",
+   "company": "SentinelOne"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 308
+   },
+   "name": "Joyce Lee",
+   "company": "Senior User Experience Researcher"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 210
+   },
+   "name": "Julianna Lynch",
+   "company": "Research Operations Coordinator"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 379
+   },
+   "name": "Roy Olende",
+   "company": "Head of UX Research"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 302
+   },
+   "name": "Natasha Wolf",
+   "company": "Product Manager"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 184
+   },
+   "name": "Matt Hinds",
+   "company": "Product Manager"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 449
+   },
+   "name": "Sophie Ellis",
+   "company": "Director"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 205
+   },
+   "name": "Becky White",
+   "company": "Head of Design Research"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 142
+   },
+   "name": "Katherine Agnew",
+   "company": "Senior UX Researcher"
+  },
+  {
+   "quote": "“Great UI, UX for video managment, tag management, and having 85+% accurate transcription is super helpful in research analysis! ”",
+   "name": "Luis Valencia",
+   "company": ""
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 148
+   },
+   "name": "Sara Riedel",
+   "company": "Associate Director of Research"
+  },
+  {
+   "quote": "“Dovetail helps us simplify the process of pouring all our customer data and all our insights into one spot.”",
+   "name": "Roy Olende",
+   "company": "Head of UX Research"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 185
+   },
+   "name": "Alex Duckmanton",
+   "company": "Head of Design"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 118
+   },
+   "name": "Albert Chu",
+   "company": "Chief of Staff"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 161
+   },
+   "name": "Joel Pinkham",
+   "company": "VP of Growth and Strategic Projects"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 183
+   },
+   "name": "Ewelina Szczepaniak-Wenting",
+   "company": "Senior UX Researcher, Tischner European University lecturer"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 107
+   },
+   "name": "Ali Moody",
+   "company": "Senior Product Designer"
+  },
+  {
+   "quote": "“Magic search helps us uncover deeper insights from our hub”",
+   "name": "Karolina Kowalczyk",
+   "company": "Sr. User Experience Researcher"
+  },
+  {
+   "quote": "“Channels is instrumental in both identifying themes and patterns within minutes and sparking my team's understanding of UX repositories.”",
+   "name": "Emil Vaneva Forsmann",
+   "company": "Lead Product Designer"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 224
+   },
+   "name": "David Turell",
+   "company": "Head of New Product Design"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 176
+   },
+   "name": "Emi Fogg",
+   "company": "Research Operations Assistant"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 142
+   },
+   "name": "Rody Van Vianen",
+   "company": "Senior Product Marketing Manager"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 246
+   },
+   "name": "Anne Büttner",
+   "company": "User Experience Researcher"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 269
+   },
+   "name": "Dassi Shusterman",
+   "company": "Senior Director of Product Design"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 115
+   },
+   "name": "Rashina B.",
+   "company": "Director of Research and Strategy"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 225
+   },
+   "name": "Verified User",
+   "company": "Contributor"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 165
+   },
+   "name": "Verified User",
+   "company": "Contributor"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 192
+   },
+   "name": "Gonzalo M. G.",
+   "company": "UX Researcher"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 206
+   },
+   "name": "Verified User",
+   "company": "Product Manager"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 190
+   },
+   "name": "Lada G.",
+   "company": "Senior Director"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 158
+   },
+   "name": "Nic N.",
+   "company": "Senior UX/UI Designer"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 180
+   },
+   "name": "Thiago M.",
+   "company": "Product and Design Director"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 226
+   },
+   "name": "Daniel G.",
+   "company": "Principal Researcher"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 122
+   },
+   "name": "Kyril S.",
+   "company": "Content Creator"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 129
+   },
+   "name": "G2 Verified User",
+   "company": ""
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 187
+   },
+   "name": "G2 Verified User",
+   "company": ""
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 192
+   },
+   "name": "Donald H.",
+   "company": "Principal User Experience Designer"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 219
+   },
+   "name": "Katie G.",
+   "company": "Product Designer"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 165
+   },
+   "name": "Daminan L.",
+   "company": "User Experience Designer"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 157
+   },
+   "name": "",
+   "company": "Senior Manager, Design Research"
+  },
+  {
+   "quote": "“Channels has made a real difference to how we work as an organization.”",
+   "name": "",
+   "company": "Product Operations Lead"
+  },
+  {
+   "quote": "“The primary value for us here is in giving access to the data to non-researchers.”",
+   "name": "",
+   "company": "Senior Product Lead, Research & Insights"
+  },
+  {
+   "quote": "“Dovetail is currently the biggest source of truth where all of our recordings live.”",
+   "name": "",
+   "company": "Research Ops Manager"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 149
+   },
+   "name": "",
+   "company": "Research Operations Lead"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 141
+   },
+   "name": "",
+   "company": "Head of UX Research"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 252
+   },
+   "name": "",
+   "company": "Lead UX Strategist"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 206
+   },
+   "name": "",
+   "company": "Head of Research Operations"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 207
+   },
+   "name": "Becky White",
+   "company": "Canva",
+   "avatar": "/assets/marketing/Customer_Canva.png"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 217
+   },
+   "name": "Micah Underwood",
+   "company": "LIFT Healthcare",
+   "avatar": "/assets/company/media/lift_headshot.png"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 191
+   },
+   "name": "Simone Ellis",
+   "company": "Qantas",
+   "avatar": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti.png"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 245
+   },
+   "name": "Micah Underwood",
+   "company": "LIFT Healthcare",
+   "avatar": "/assets/company/media/lift_headshot.png"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 229
+   },
+   "name": "Marie-Andrée Turgeon",
+   "company": "Achievers",
+   "avatar": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti-4.png"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 210
+   },
+   "name": "Simone Ellis",
+   "company": "Qantas",
+   "avatar": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti.png"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 151
+   },
+   "name": "Michelle MacRae",
+   "company": "Bower"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 94
+   },
+   "name": "Marius Puzaras",
+   "company": "PVcase"
+  },
+  {
+   "quote": "“Now I can search for specific surfacing topics or user problems across the entire database with the help of Dovetail’s AI agent.”",
+   "name": "Imre Horváth",
+   "company": "PVcase"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 212
+   },
+   "name": "Danielle Reid",
+   "company": "SmartRecruiters"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 212
+   },
+   "name": "Dassi Shusterman",
+   "company": "BigCommerce"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 205
+   },
+   "name": "Lina Reynolds",
+   "company": "Ford Credit"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 213
+   },
+   "name": "Nadiya Kravets",
+   "company": "Ipsos"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 192
+   },
+   "name": "Olga Levchik",
+   "company": "CultureAmp"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 302
+   },
+   "name": "Dr. Philip Rhodes",
+   "company": "SentinelOne"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 227
+   },
+   "name": "David Turell",
+   "company": "Harvard Business Publishing"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 184
+   },
+   "name": "Natalie Rowland",
+   "company": "Lead Researcher"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 219
+   },
+   "name": "Benjamin Jackson",
+   "company": "Founder"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 264
+   },
+   "name": "Craig Boustred",
+   "company": "Design Researcher"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 178
+   },
+   "name": "Eric Liu",
+   "company": "Product Manager"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 288
+   },
+   "name": "Ewelina Szczepaniak-Wenting",
+   "company": "Senior UX Researcher, Tischner European University lecturer"
+  },
+  {
+   "quote": "“Life saver for organizing insights from large data sets, transcription is working beautifully, and a very delightful user experience.”",
+   "name": "Eliz Ayaydin",
+   "company": "Design Researcher and Strategist"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 168
+   },
+   "name": "Sara Lessing",
+   "company": "User Researcher"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 117
+   },
+   "name": "Will Gregory",
+   "company": "Senior UX/UI Designer"
+  },
+  {
+   "quote": "“Dovetail has dramatically improved the way we store, analyze, and synthesize qualitative research data.”",
+   "name": "Sonja Bobrowska",
+   "company": "CX Researcher"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 117
+   },
+   "name": "Oyin Williams",
+   "company": "Product Design Lead"
+  },
+  {
+   "quote": "“Dovetail has been a huge help for ensuring everyone is close to the customer and really understands their problems.”",
+   "name": "Chris Hexton",
+   "company": "CEO and Co-Founder"
+  },
+  {
+   "quote": "“Dovetail helps us to centralize raw research and insights from across our company—and across the globe.”",
+   "name": "Gemma Sherwood",
+   "company": "UX Manager"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 201
+   },
+   "name": "Ryan Sorley",
+   "company": "Founder and CEO"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 208
+   },
+   "name": "Julianna Lynch",
+   "company": "Research Operations Coordinator"
+  },
+  {
+   "quote": "“To be able to see a user’s face, hear their voice, and sense their emotion when they’re talking—is incomparable.”",
+   "name": "Becky White",
+   "company": "Head of Design Research"
+  },
+  {
+   "quote": "“Dovetail instantly reduced my workload from 100 hours down to 10 to share out customer insights.”",
+   "name": "Eric Liu",
+   "company": "Product Manager"
+  },
+  {
+   "quote": "“We’re identifying, prioritizing and solving issues faster than ever before”",
+   "name": "Becky White",
+   "company": "Head of Design Research"
+  },
+  {
+   "quote": "“Dovetail’s AI features save me hours per project, giving me more time to focus on nuance instead of broad strokes.”",
+   "name": "Emi Fogg",
+   "company": "Research Operations Assistant"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 119
+   },
+   "name": "Robin Faigmane",
+   "company": ""
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 171
+   },
+   "name": "Rody Van Vianen",
+   "company": "Senior Product Marketing Manager"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 171
+   },
+   "name": "Andrew Gregorace",
+   "company": "Senior UX Designer"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 145
+   },
+   "name": "Dassi Shusterman",
+   "company": "Senior Director of Product Design"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 210
+   },
+   "name": "Clémentine Nowak",
+   "company": "Principal UX Researcher"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 159
+   },
+   "name": "Anne B.",
+   "company": "Senior UX Researcher"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 177
+   },
+   "name": "Alessandro C.",
+   "company": "Senior Product Designer"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 188
+   },
+   "name": "Hector M.",
+   "company": "Design Director"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 206
+   },
+   "name": "Verified User",
+   "company": "Contributor"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 170
+   },
+   "name": "Dave M.",
+   "company": "Research Manager"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 206
+   },
+   "name": "Verified User",
+   "company": "Contributor"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 202
+   },
+   "name": "Keisha A.",
+   "company": "UX Research Program Manager"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 201
+   },
+   "name": "Kathryn R.",
+   "company": "Product Designer"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 235
+   },
+   "name": "TrustRadius Verified User",
+   "company": ""
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 125
+   },
+   "name": "Marlana C.",
+   "company": "Lead UX Researcher"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 212
+   },
+   "name": "Alessandro C.",
+   "company": "Sr. Product Designer"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 153
+   },
+   "name": "Marisa T.",
+   "company": "Director of UX"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 255
+   },
+   "name": "Jess K.",
+   "company": "Senior Product Designer"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 156
+   },
+   "name": "Emily T.",
+   "company": "User Experience Researcher"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 242
+   },
+   "name": "Valeria G.",
+   "company": "Senior Product Designer"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 199
+   },
+   "name": "",
+   "company": "Senior Manager, Design Research"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 145
+   },
+   "name": "",
+   "company": "Senior UX Researcher"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 116
+   },
+   "name": "",
+   "company": "Research Ops Manager"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 101
+   },
+   "name": "",
+   "company": "Research Operations Lead"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 161
+   },
+   "name": "",
+   "company": "UX Researcher, Platform Experience Team"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 295
+   },
+   "name": "",
+   "company": "Delivery Manager, Research Operations"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 158
+   },
+   "name": "",
+   "company": "Head of Research, Retail Division"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 203
+   },
+   "name": "",
+   "company": "Enablement Lead, Customer Strategy Practice"
+  },
+  {
+   "quote": "“One of my favorite things is seeing people not behave the way we expect them to behave.”",
+   "name": "Craig Boustred",
+   "company": "Canva",
+   "avatar": "/assets/company/media/Customer_Canva_AI.png"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 372
+   },
+   "name": "Simone Ellis",
+   "company": "Qantas",
+   "avatar": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti.png"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 298
+   },
+   "name": "Micah Underwood",
+   "company": "LIFT Healthcare",
+   "avatar": "/assets/company/media/lift_headshot.png"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 185
+   },
+   "name": "Becky White",
+   "company": "Canva",
+   "avatar": "/assets/marketing/Customer_Canva.png"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 190
+   },
+   "name": "Martin Jerkovic",
+   "company": "Atlassian",
+   "avatar": "/assets/marketing/MartinJerkovicPhoto.webp"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 217
+   },
+   "name": "Constance Docos",
+   "company": "Breville",
+   "avatar": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti__3_.png"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 141
+   },
+   "name": "Roy Olende",
+   "company": "Zapier"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 242
+   },
+   "name": "Imre Horváth",
+   "company": "PVcase"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 158
+   },
+   "name": "Jules Lipman",
+   "company": "SafetyCulture"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 142
+   },
+   "name": "Dassi Shusterman",
+   "company": "BigCommerce"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 184
+   },
+   "name": "Lina Reynolds",
+   "company": "Ford Credit"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 192
+   },
+   "name": "Nadiya Kravets",
+   "company": "Ipsos"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 274
+   },
+   "name": "Olga Levchik",
+   "company": "CultureAmp"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 222
+   },
+   "name": "Dr. Philip Rhodes",
+   "company": "SentinelOne"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 184
+   },
+   "name": "Max Graj",
+   "company": "Accenture"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 141
+   },
+   "name": "Matt Hinds",
+   "company": "SafetyCulture"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 280
+   },
+   "name": "Craig Boustred",
+   "company": "Design Researcher"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 532
+   },
+   "name": "Sonja Bobrowska",
+   "company": "CX Researcher"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 422
+   },
+   "name": "David Turell",
+   "company": "Head of New Product Design"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 325
+   },
+   "name": "Ria Chan",
+   "company": "DesignOps Manager"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 295
+   },
+   "name": "Chris Hexton",
+   "company": "CEO and Co-Founder"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 431
+   },
+   "name": "Sherif Mansour",
+   "company": "Distinguished PM"
+  },
+  {
+   "quote": "“Thanks Dovetail for helping me drive customer understanding in my product team and making my job as a solo researcher better. ”",
+   "name": "Marc Hofmann",
+   "company": "User Experience Researcher"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 142
+   },
+   "name": "Elle Beebe-Tron",
+   "company": "Staff UX Researcher"
+  },
+  {
+   "quote": "“Especially for non-researchers, Dovetail makes getting started with research analysis more approachable and even fun.”",
+   "name": "Becky White",
+   "company": "Head of Design Research"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 163
+   },
+   "name": "Paras Aggarwal",
+   "company": "Head of Design"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 199
+   },
+   "name": "Sofia Rehman",
+   "company": "Senior Product Designer"
+  },
+  {
+   "quote": "“Everything is faster when I’m using Dovetail, a platform built for this purpose.”",
+   "name": "Benjamin Jackson",
+   "company": "Founder"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 228
+   },
+   "name": "Lyena Fi",
+   "company": "Senior Product Manager"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 219
+   },
+   "name": "Jared Forney",
+   "company": "Research Operations Principal"
+  },
+  {
+   "quote": "“With Dovetail, the work we’ve done in the past is always available so that the work we do in the future isn’t redundant.”",
+   "name": "Roy Olende",
+   "company": "Head of UX Research"
+  },
+  {
+   "quote": "“Dovetail’s magic features have opened up a whole new world of possibilities for us”",
+   "name": "Heather Ashley",
+   "company": "User Research Coordinator"
+  },
+  {
+   "quote": "“It’s like having a librarian, where you're able to query a system and get real information back that's cited with references.”",
+   "name": "Jared Forney",
+   "company": "Research Operations Principal"
+  },
+  {
+   "quote": "“Being able to have a source of truth and get everyone on the same page quicker is an absolute game changer”",
+   "name": "Matt Hinds",
+   "company": "Product Manager"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 129
+   },
+   "name": "Abby Harris",
+   "company": "UI/UX Designer"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 212
+   },
+   "name": "Constance Docos",
+   "company": "Senior UX Designer"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 149
+   },
+   "name": "Vic Hsieh",
+   "company": "Design Manager"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 219
+   },
+   "name": "Olga Levchik",
+   "company": "Head of Competitive Intelligence"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 147
+   },
+   "name": "Martin Jerkovic",
+   "company": "Lead Product Designer"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 214
+   },
+   "name": "Marlana C.",
+   "company": "Lead UX Researcher"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 205
+   },
+   "name": "Daniel C.",
+   "company": "Director"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 176
+   },
+   "name": "Verified User",
+   "company": "Contributor"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 185
+   },
+   "name": "Alaine B.",
+   "company": "Head of Customer Insight"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 175
+   },
+   "name": "Verified User",
+   "company": "Analyst"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 145
+   },
+   "name": "Alaine B.",
+   "company": "Head of Customer Insight"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 203
+   },
+   "name": "Danielle L.",
+   "company": "Product Designer"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 167
+   },
+   "name": "G2 Verified User in Financial Services",
+   "company": ""
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 169
+   },
+   "name": "G2 Verified User",
+   "company": ""
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 121
+   },
+   "name": "Rashina B.",
+   "company": "Director of research and strategy"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 145
+   },
+   "name": "TrustRadius Verified User",
+   "company": "Product Manager"
+  },
+  {
+   "quote": "“The best tool for turning user feedback into insights.”",
+   "name": "Ofer C.",
+   "company": "Product Manager"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 238
+   },
+   "name": "Brian R.",
+   "company": "User Experience Lead/Product Designer"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 175
+   },
+   "name": "Carlos G.",
+   "company": "Senior User Experience Research Manager"
+  },
+  {
+   "quote": "“Enables beautiful reports, video clips, and roll-ups of information.”",
+   "name": "Olivia H.",
+   "company": "Principal User Researcher"
+  },
+  {
+   "quote": "“When anyone has a question, they can go into Dovetail and find what we’ve already learned.”",
+   "name": "",
+   "company": "Head of Research, Experience Design"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 136
+   },
+   "name": "",
+   "company": "Head of Research"
+  },
+  {
+   "quote": "“The more we use Dovetail, the more powerful it becomes.”",
+   "name": "",
+   "company": "Head of Design"
+  },
+  {
+   "quote": "“Hugely important tool for us to get into the mix and into our workflow.”",
+   "name": "",
+   "company": "Manager, Digital Consulting Practice"
+  },
+  {
+   "quote": "“When I can't see what they're doing and everyone's using different prompts, we just open ourselves up to more mess.”",
+   "name": "",
+   "company": "UX Research Ops Manager"
+  },
+  {
+   "quote": "“People would come to me and say, ‘You saved me so many hours of research. I was able to just use your videos and add my own tags.’”",
+   "name": "",
+   "company": "Research Operations Lead"
+  },
+  {
+   "quote": {
+    "placeholder": true,
+    "chars": 243
+   },
+   "name": "",
+   "company": "UX Researcher"
+  }
+ ],
+ "notes": "Quotes/paragraphs longer than one sentence are placeholders {placeholder,chars}. storyCards are in displayed order (sorted by `order`, nulls last)."
+}

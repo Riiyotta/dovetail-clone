@@ -1,0 +1,43 @@
+/* Shared by /launch/suns-out/ and /the-best-never-guess/.
+   Both pages paint the document blue (launch.md intro; best-never-guess.md §0, theme bestNeverGuess colors.background). */
+html[data-campaign="blue"],
+html[data-campaign="blue"] body { background: theme('colors.blue.DEFAULT'); }
+
+.cmp-sr {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
+
+/* SliceContainer (marketing-shared.md §2). Both campaign themes use a 32px gutter at ≤799
+   (launch e4sdv0e1/enicust1 CSS; bestNeverGuess theme note in §2). */
+.cmp-container { margin: 0 auto; max-width: 1512px; padding: 0 124px; position: relative; text-align: left; width: 100%; }
+@media (max-width: 1280px) { .cmp-container { padding: 0 64px; } }
+@media (max-width: 799px) { .cmp-container { padding: 0 32px; } }
+
+/* 12-col BaseGrid (marketing-shared.md §2) */
+.cmp-grid { display: grid; gap: 32px; grid-template-columns: repeat(12, 1fr); width: 100%; }
+@media (max-width: 1280px) { .cmp-grid { gap: 24px; } }
+@media (max-width: 799px) { .cmp-grid { gap: 24px; grid-template-columns: repeat(4, 1fr); } }
+
+/* Spacer (marketing-shared.md §2). Heights per tier come from the data file via --h / --h-md / --h-sm. */
+.cmp-spacer { height: var(--h); width: 100%; }
+@media (max-width: 1280px) { .cmp-spacer { height: var(--h-md); } }
+@media (max-width: 799px) { .cmp-spacer { height: var(--h-sm); } }
+
+/* Marketing Button (marketing-shared.md §4), dark-theme primary/secondary — used by the launch page. */
+.cmp-btn { display: inline-flex; align-items: center; justify-content: center; border: 1px solid transparent; border-radius: 8px;
+  padding: 10px 16px; font: 500 14px/18px Inter, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, "Segoe UI", Roboto, sans-serif;
+  letter-spacing: 0; white-space: nowrap; max-width: 100%; text-align: center; cursor: pointer;
+  transition: color 200ms, background 200ms, opacity 200ms; }
+@media (max-width: 1280px) { .cmp-btn { line-height: 16px; } }
+.cmp-btn:focus-visible { outline: 1px solid; outline-offset: 1px; }
+.cmp-btn--primary { background: #FFFFFF; color: #0A0A0A; }
+.cmp-btn--primary:hover, .cmp-btn--primary:focus-visible { background: theme('colors.white-hover'); }
+.cmp-btn--secondary { background: rgba(255,255,255,.08); color: #FFFFFF; border-color: rgba(255,255,255,.24); }
+.cmp-btn--secondary:hover, .cmp-btn--secondary:focus-visible { background: rgba(255,255,255,.16); }
+
+/* bestNeverGuess theme buttons (best-never-guess.md §0/§1): primary black H18, secondary white. */
+.cmp-btn--bng { padding: 10px 16px; font-size: 18px; line-height: 24px; font-weight: 500; letter-spacing: -0.25px; }
+@media (max-width: 1280px) { .cmp-btn--bng { font-size: 16px; line-height: 24px; } }
+.cmp-btn--black { background: #0A0A0A; color: #FFFFFF; }
+.cmp-btn--black:hover, .cmp-btn--black:focus-visible { background: rgba(10,10,10,.8); }

@@ -1,0 +1,3724 @@
+{
+ "source": "https://dovetail.com/employee-experience/",
+ "template": "guide-hub",
+ "categoryName": "Employee experience",
+ "hubPath": "/employee-experience/",
+ "pillar": {
+  "h1": "Understand what employee experience is and why it matters",
+  "pageTitle": "What is Employee Experience?",
+  "metaDescription": "Wondering what employee experience can do for your company? Get acquainted with this important concept and learn how it affects success.",
+  "meta": [
+   {
+    "label": "Last updated",
+    "values": [
+     {
+      "text": "16 October 2025",
+      "href": null
+     }
+    ]
+   },
+   {
+    "label": "Author",
+    "values": [
+     {
+      "text": "Dovetail Editorial Team",
+      "href": "/contributors/dovetail-editorial-team/"
+     }
+    ]
+   },
+   {
+    "label": "Reviewed by",
+    "values": [
+     {
+      "text": "Shawnna Johnson",
+      "href": "/contributors/shawnna-johnson/"
+     }
+    ]
+   }
+  ],
+  "tocItems": 24,
+  "bodyShape": {
+   "chars": 19745,
+   "p": 132,
+   "h2": 8,
+   "ul": 9,
+   "li": 35,
+   "h3": 40
+  },
+  "bodyOrder": "h2 ul h3 ul ul h3 h3 ul h3 h3 h3 h2 h3 h3 ul h3 h3 ul h3 h2 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 ul h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 ul h3 ul h3 h3 h2"
+ },
+ "editorsPicks": [
+  {
+   "href": "/employee-experience/how-to-increase-your-emotional-intelligence/",
+   "title": "How to boost your emotional intelligence for career success",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/employee-experience/what-is-hr/",
+   "title": "What is human resources?",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/employee-experience/what-is-bereavement-leave/",
+   "title": "Guide to bereavement leave for employers",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/employee-experience/what-are-soft-skills/",
+   "title": "5 top soft skills to impress employers",
+   "date": "11 June 2026"
+  }
+ ],
+ "latestArticles": [
+  {
+   "href": "/employee-experience/how-to-increase-your-emotional-intelligence/",
+   "title": "How to boost your emotional intelligence for career success",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/employee-experience/what-are-soft-skills/",
+   "title": "5 top soft skills to impress employers",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/employee-experience/what-is-social-loafing/",
+   "title": "What is social loafing?",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/employee-experience/what-is-unconscious-bias-in-the-workplace/",
+   "title": "What is unconscious bias in the workplace?",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/employee-experience/how-to-practice-shadow-work/",
+   "title": "How to practice shadow work for self-improvement",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/employee-experience/what-are-leadership-skills/",
+   "title": "11 essential leadership skills for workplace success",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/employee-experience/what-is-leadership/",
+   "title": "What is leadership? Definition, traits, and styles",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/employee-experience/what-is-a-hostile-work-environment/",
+   "title": "What is a hostile work environment?",
+   "date": "11 June 2026"
+  }
+ ],
+ "relatedTopics": [
+  {
+   "href": "/customer-research/",
+   "text": "Customer research"
+  },
+  {
+   "href": "/design-thinking/",
+   "text": "Design thinking"
+  },
+  {
+   "href": "/enterprise/",
+   "text": "Enterprise"
+  },
+  {
+   "href": "/market-research/",
+   "text": "Market research"
+  },
+  {
+   "href": "/patient-experience/",
+   "text": "Patient experience"
+  },
+  {
+   "href": "/product-development/",
+   "text": "Product development"
+  },
+  {
+   "href": "/product-management/",
+   "text": "Product management"
+  },
+  {
+   "href": "/research-maturity-assessment/",
+   "text": "Research maturity assessment"
+  },
+  {
+   "href": "/research/",
+   "text": "Research methods"
+  },
+  {
+   "href": "/surveys/",
+   "text": "Surveys"
+  },
+  {
+   "href": "/ux/",
+   "text": "User experience (UX)"
+  }
+ ],
+ "allArticlesHeading": "All Employee experience articles",
+ "note": "articles[] = the \"All <category> articles\" A-Z list rendered after the footer on the hub page (order as on site). title = list title; h1 = the article page H1 (can differ). Article pages show the hub editorsPicks/latestArticles unless editorsPicksOverride/latestArticlesOverride (href lists; titles/dates resolvable from articles[] / hub carousels) is set for that article. No thumbnails exist for guide articles. sidebarCta = the desktop sidebar promo shown on every article of this hub (not on the hub pillar page itself).",
+ "routesNotInList": [],
+ "articles": [
+  {
+   "path": "/employee-experience/employee-recognition-programs/",
+   "title": "10 employee recognition program ideas to make your employees feel valued",
+   "h1": "10 employee recognition program ideas to make your employees feel valued",
+   "lastUpdated": "21 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 29,
+   "bodyShape": {
+    "chars": 16738,
+    "p": 44,
+    "h2": 10,
+    "ul": 2,
+    "li": 14,
+    "h3": 22,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 ul h2 ol h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/employee-incentive-programs-to-boost-motivation/",
+   "title": "11 employee incentive programs to boost motivation & performance",
+   "h1": "11 employee incentive programs to boost motivation & performance",
+   "lastUpdated": "23 November 2023",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 16507,
+    "p": 92,
+    "h2": 5,
+    "h3": 19,
+    "ul": 7,
+    "li": 26
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 h3 h3 ul h3 h3 ul h3 h3 h3 ul h3 h3 h3 h3 ul h2 h3 ul h3 ul h3 ul h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-are-leadership-skills/",
+   "title": "11 essential leadership skills for workplace success",
+   "h1": "11 essential leadership skills for workplace success",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 11757,
+    "p": 59,
+    "h2": 5,
+    "ul": 3,
+    "li": 12,
+    "h3": 20
+   },
+   "bodyOrder": "h2 ul h2 h3 ul h3 ul h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/employee-experience/how-to-increase-your-emotional-intelligence/",
+    "/employee-experience/what-are-soft-skills/",
+    "/employee-experience/what-is-social-loafing/",
+    "/employee-experience/what-is-unconscious-bias-in-the-workplace/",
+    "/employee-experience/how-to-practice-shadow-work/",
+    "/employee-experience/what-is-leadership/",
+    "/employee-experience/what-is-a-hostile-work-environment/",
+    "/employee-experience/what-weaknesses-reveal-in-interviews/"
+   ]
+  },
+  {
+   "path": "/employee-experience/words-to-describe-company-culture/",
+   "title": "131 words to describe your work culture (and why it matters)",
+   "h1": "131 words to describe your work culture (and why it matters)",
+   "lastUpdated": "27 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 8,
+   "bodyShape": {
+    "chars": 7461,
+    "h2": 9,
+    "p": 19,
+    "ol": 3,
+    "li": 132,
+    "ul": 1,
+    "h3": 2
+   },
+   "bodyOrder": "h2 h2 h2 ol h2 ol h2 ol h2 ul h2 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/examples-of-smart-leadership-goals/",
+   "title": "14 examples of effective SMART personal leadership goals",
+   "h1": "14 examples of effective SMART personal leadership goals",
+   "lastUpdated": "19 December 2023",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 17125,
+    "p": 106,
+    "h2": 7,
+    "ul": 2,
+    "li": 15,
+    "ol": 1,
+    "h3": 17
+   },
+   "bodyOrder": "h2 h2 ul h2 ul h2 ol h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/personal-development-goals-examples/",
+   "title": "14 examples of personal development goals to boost your career",
+   "h1": "14 examples of personal development goals to boost your career",
+   "lastUpdated": "29 November 2023",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 16630,
+    "p": 74,
+    "h2": 6,
+    "h3": 22,
+    "ul": 4,
+    "li": 21
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 ul h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 ul h3 h3 h3 h3 h2 h2 h3 ul h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/employee-benefits-survey/",
+   "title": "15 employee benefits questions to ask in a survey",
+   "h1": "15 employee benefits questions to ask in a survey",
+   "lastUpdated": "26 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 7411,
+    "p": 27,
+    "h2": 4,
+    "h3": 14,
+    "ol": 3,
+    "li": 15
+   },
+   "bodyOrder": "h2 h3 h3 h2 h3 ol ol h3 ol h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/onboarding-survey/",
+   "title": "15 questions to ask new employees in an onboarding survey",
+   "h1": "15 questions to ask new employees in an onboarding survey",
+   "lastUpdated": "26 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 9178,
+    "p": 44,
+    "h2": 8,
+    "ul": 3,
+    "li": 35,
+    "h3": 7,
+    "ol": 16
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 h3 h3 ol h3 h2 h3 ol ol ol ol ol ol h3 ol ol ol ol ol ol ol ol ol h2 ul h2 h2 h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/examples-of-short-term-goals/",
+   "title": "16 examples of short-term goals to help you grow",
+   "h1": "16 examples of short-term goals to help you grow",
+   "lastUpdated": "23 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 20318,
+    "p": 70,
+    "h2": 8,
+    "ul": 10,
+    "li": 33,
+    "h3": 14
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 ul h2 ul h3 ul h2 ul h3 h3 h3 ul h3 h3 ul h2 h2 ul h3 h3 h3 h3 h2 ul h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-to-give-employee-feedback/",
+   "title": "16 tips for giving effective employee feedback (with examples)",
+   "h1": "16 tips for giving effective employee feedback (with examples)",
+   "lastUpdated": "13 January 2024",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 27,
+   "bodyShape": {
+    "chars": 15518,
+    "p": 60,
+    "h2": 6,
+    "h3": 21,
+    "ol": 1,
+    "li": 2
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 ol h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-weaknesses-reveal-in-interviews/",
+   "title": "17 “weaknesses” that might actually make great hires",
+   "h1": "17 “weaknesses” that might actually make great hires",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 8474,
+    "p": 35,
+    "h2": 7,
+    "ul": 5,
+    "li": 22,
+    "h3": 19,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 ul h2 ul h2 ul h2 h3 ul h3 ol",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/exit-interview-questions/",
+   "title": "18 exit interview questions to ask your employees",
+   "h1": "18 exit interview questions to ask your employees",
+   "lastUpdated": "26 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 7,
+   "bodyShape": {
+    "chars": 13048,
+    "p": 35,
+    "ul": 9,
+    "li": 52,
+    "h2": 5,
+    "h3": 9,
+    "ol": 1
+   },
+   "bodyOrder": "ul h2 ul h3 ul ul h2 h3 ul h3 ul h2 ol h2 ul h2 h3 h3 h3 ul h3 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/employee-recognition-ideas/",
+   "title": "27 creative employee recognition ideas to boost engagement",
+   "h1": "27 creative employee recognition ideas to boost engagement",
+   "lastUpdated": "26 June 2023",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 36,
+   "bodyShape": {
+    "chars": 16844,
+    "p": 100,
+    "h2": 4,
+    "h3": 32,
+    "ul": 2,
+    "li": 4
+   },
+   "bodyOrder": "h2 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 ul h3 h3 ul h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-ai-is-changing-employee-experience/",
+   "title": "3 ways AI is changing employee experience",
+   "h1": "3 ways AI is changing employee experience",
+   "lastUpdated": "1 May 2024",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 7,
+   "bodyShape": {
+    "chars": 8529,
+    "p": 24,
+    "h2": 4,
+    "h3": 3,
+    "ul": 4,
+    "li": 9
+   },
+   "bodyOrder": "h2 h2 h3 ul h3 ul h3 ul h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-to-foster-employee-belonging-at-work/",
+   "title": "3 ways to foster a sense of belonging at work",
+   "h1": "3 ways to foster a sense of belonging at work",
+   "lastUpdated": "15 February 2024",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 6,
+   "bodyShape": {
+    "chars": 8259,
+    "p": 19,
+    "h2": 6,
+    "h3": 3,
+    "ul": 2,
+    "li": 16
+   },
+   "bodyOrder": "h2 h2 h3 ul h2 ul h2 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/company-culture-survey-questions/",
+   "title": "35 insightful company culture survey questions",
+   "h1": "35 insightful company culture survey questions",
+   "lastUpdated": "13 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 12008,
+    "p": 43,
+    "h2": 9,
+    "ul": 2,
+    "li": 44,
+    "ol": 1,
+    "h3": 8
+   },
+   "bodyOrder": "h2 h2 ul h2 h2 h2 ul ol h2 h2 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-are-soft-skills/",
+   "title": "5 top soft skills to impress employers",
+   "h1": "5 top soft skills to impress employers",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 7202,
+    "p": 39,
+    "h2": 8,
+    "h3": 9,
+    "ul": 1,
+    "li": 4
+   },
+   "bodyOrder": "h2 h2 h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 h2 ul h2 h2 h3 h3",
+   "editorsPicksOverride": [
+    "/employee-experience/how-to-increase-your-emotional-intelligence/",
+    "/employee-experience/what-is-hr/",
+    "/employee-experience/what-is-bereavement-leave/",
+    "/employee-experience/what-is-implicit-bias-in-the-workplace/"
+   ],
+   "latestArticlesOverride": [
+    "/employee-experience/how-to-increase-your-emotional-intelligence/",
+    "/employee-experience/what-is-social-loafing/",
+    "/employee-experience/what-is-unconscious-bias-in-the-workplace/",
+    "/employee-experience/how-to-practice-shadow-work/",
+    "/employee-experience/what-are-leadership-skills/",
+    "/employee-experience/what-is-leadership/",
+    "/employee-experience/what-is-a-hostile-work-environment/",
+    "/employee-experience/what-weaknesses-reveal-in-interviews/"
+   ]
+  },
+  {
+   "path": "/employee-experience/types-of-employees/",
+   "title": "5 types of employees you’ll encounter in the workplace",
+   "h1": "5 types of employees you’ll encounter in the workplace",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 7,
+   "bodyShape": {
+    "chars": 9555,
+    "p": 44,
+    "h2": 3,
+    "h3": 7
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-to-improve-candidate-experience/",
+   "title": "6 tips for improving candidate experience",
+   "h1": "6 tips for improving candidate experience",
+   "lastUpdated": "29 November 2023",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 10803,
+    "p": 55,
+    "h2": 5,
+    "h3": 13,
+    "ul": 4,
+    "li": 17
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 h3 ul h3 ul h3 ul h3 ul h3 h3 h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-to-hire-the-right-candidate/",
+   "title": "7 tips for hiring great talent",
+   "h1": "7 tips for hiring great talent",
+   "lastUpdated": "8 December 2023",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 11426,
+    "p": 53,
+    "h2": 4,
+    "h3": 14,
+    "ul": 7,
+    "li": 42
+   },
+   "bodyOrder": "h2 h3 h3 h3 h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 h3 ul ul h2 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/list-of-common-interview-questions/",
+   "title": "8 common interview questions with example answers",
+   "h1": "8 common interview questions with example answers",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 30,
+   "bodyShape": {
+    "chars": 13779,
+    "p": 67,
+    "h2": 3,
+    "h3": 27,
+    "ul": 25,
+    "li": 78
+   },
+   "bodyOrder": "h2 h3 ul h3 h3 ul ul h3 ul h3 h3 ul ul h3 ul h3 h3 ul ul h3 ul h3 h3 ul ul h3 ul h3 h3 ul ul h3 ul h3 h3 ul ul h3 ul ul h3 h3 ul ul h3 ul h3 h3 ul ul h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/voice-of-the-employe/",
+   "title": "9 ways voice of employee (VoE) can help your organization",
+   "h1": "9 ways voice of employee (VoE) can help your organization",
+   "lastUpdated": "8 August 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 9538,
+    "p": 68,
+    "h2": 3,
+    "ul": 3,
+    "li": 14,
+    "h3": 9
+   },
+   "bodyOrder": "h2 ul h2 ul h3 h3 h3 h3 h3 h3 ul h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-career-pathing/",
+   "title": "A complete guide to career pathing",
+   "h1": "A complete guide to career pathing",
+   "lastUpdated": "31 January 2024",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 9604,
+    "p": 39,
+    "h2": 4,
+    "ul": 4,
+    "li": 15,
+    "h3": 11
+   },
+   "bodyOrder": "h2 ul h3 ul h2 h3 h3 h3 h3 h2 h3 ul h3 ul h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-employee-relations/",
+   "title": "A comprehensive guide to employee relations",
+   "h1": "A comprehensive guide to employee relations",
+   "lastUpdated": "16 November 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 11971,
+    "p": 47,
+    "h2": 5,
+    "h3": 15,
+    "ul": 2,
+    "li": 12,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 ul h2 h3 h3 ol h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/employee-personas/",
+   "title": "A guide to employee personas",
+   "h1": "A guide to employee personas",
+   "lastUpdated": "27 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 10156,
+    "p": 46,
+    "h2": 5,
+    "ul": 3,
+    "li": 15,
+    "h3": 12
+   },
+   "bodyOrder": "h2 ul h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 ul h3 ul h3 h3 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-are-personal-values-in-the-workplace/",
+   "title": "A guide to personal values in the workplace",
+   "h1": "A guide to personal values in the workplace",
+   "lastUpdated": "21 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 7491,
+    "p": 27,
+    "h2": 6,
+    "ul": 3,
+    "li": 15,
+    "h3": 8
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h2 ul h2 ul h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-respect-in-the-workplace/",
+   "title": "A guide to respect in the workplace: Benefits, signs, and examples",
+   "h1": "A guide to respect in the workplace: Benefits, signs, and examples",
+   "lastUpdated": "8 December 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 26,
+   "bodyShape": {
+    "chars": 12054,
+    "p": 47,
+    "h2": 7,
+    "h3": 19,
+    "ul": 2,
+    "li": 14
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 ul ul h2 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-the-availability-heuristic/",
+   "title": "Availability Heuristic: Overview, Bias, and Examples",
+   "h1": "Availability Heuristic: Overview, Bias, and Examples",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 7951,
+    "p": 28,
+    "h2": 8,
+    "h3": 12
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h2 h2 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h2 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/guide-to-people-management/",
+   "title": "Beginner’s guide to people management: Overview, skills & development",
+   "h1": "Beginner’s guide to people management: Overview, skills & development",
+   "lastUpdated": "13 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 32,
+   "bodyShape": {
+    "chars": 14606,
+    "p": 94,
+    "h2": 7,
+    "h3": 25,
+    "ul": 10,
+    "li": 33
+   },
+   "bodyOrder": "h2 h3 ul ul h3 h2 h3 ul h3 h3 ul h3 ul h2 h3 ul h3 h3 ul h3 h3 h3 ul h2 h3 h3 h3 ul h3 h3 h2 h3 h3 h3 h3 ul h3 h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/paid-family-leave-in-california-eligibility-guide/",
+   "title": "California Paid Family Leave: Benefits & eligibility guide",
+   "h1": "California Paid Family Leave: Benefits & eligibility guide",
+   "lastUpdated": "3 October 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 7110,
+    "p": 32,
+    "h2": 3,
+    "ul": 6,
+    "li": 25,
+    "h3": 19
+   },
+   "bodyOrder": "h2 ul h3 h3 ul h3 ul h3 h3 h3 ul h3 h3 h2 h3 h3 h3 ul h3 ul h3 h3 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/candidate-experience-survey-questions/",
+   "title": "Candidate experience survey questions that are worth asking",
+   "h1": "Candidate experience survey questions that are worth asking",
+   "lastUpdated": "8 December 2023",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 9604,
+    "p": 36,
+    "h2": 5,
+    "h3": 10,
+    "ul": 5,
+    "li": 21
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h3 ul h3 ul h3 ul h3 ul h3 h3 h3 h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/candidate-relationship-management/",
+   "title": "Candidate relationship management (CRM): A quick guide",
+   "h1": "Candidate relationship management (CRM): A quick guide",
+   "lastUpdated": "27 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 28,
+   "bodyShape": {
+    "chars": 7633,
+    "p": 47,
+    "h2": 6,
+    "h3": 29,
+    "ul": 3,
+    "li": 13
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h3 h3 h2 ul h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 ul h3 h3 ul h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/difference-between-compassion-vs-empathy/",
+   "title": "Compassion vs empathy: Understanding the key differences",
+   "h1": "Compassion vs empathy: Understanding the key differences",
+   "lastUpdated": "16 December 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 10777,
+    "p": 37,
+    "h2": 7,
+    "h3": 16,
+    "ul": 4,
+    "li": 18
+   },
+   "bodyOrder": "h2 h3 ul h3 h2 h3 ul h3 ul h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h2 h3 h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-a-compressed-work-week/",
+   "title": "Compressed workweek: Definition, schedules & benefits",
+   "h1": "Compressed workweek: Definition, schedules & benefits",
+   "lastUpdated": "31 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 12302,
+    "p": 61,
+    "h2": 6,
+    "h3": 8,
+    "ul": 1,
+    "li": 10,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h2 h2 ul h2 ol",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/examples-of-company-values/",
+   "title": "Core company values examples to help shape your culture",
+   "h1": "Core company values examples to help shape your culture",
+   "lastUpdated": "12 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 28,
+   "bodyShape": {
+    "chars": 14604,
+    "p": 48,
+    "h2": 8,
+    "h3": 23,
+    "ul": 11,
+    "li": 66,
+    "ol": 2
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2 ol h2 ul h2 h3 h3 h3 h3 h3 h3 h2 ol h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-the-democratic-leadership-style/",
+   "title": "Democratic leadership style: key principles and effective practices",
+   "h1": "Democratic leadership style: key principles and effective practices",
+   "lastUpdated": "8 October 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 11245,
+    "p": 40,
+    "h2": 8,
+    "ul": 5,
+    "li": 22,
+    "h3": 10
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h2 ul h2 ul h2 h2 h3 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-are-employee-benefits/",
+   "title": "Employee benefits: Why are they important?",
+   "h1": "Employee benefits: Why are they important?",
+   "lastUpdated": "5 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 12958,
+    "p": 50,
+    "h2": 9,
+    "h3": 13,
+    "ul": 14,
+    "li": 108,
+    "ol": 4
+   },
+   "bodyOrder": "h2 h2 h3 ul h3 ul h3 ul h3 ul h2 ul h2 h2 ul ul h2 h3 h3 ul h2 ul h2 h3 ul h3 ul h2 h3 ol h3 ol ol h3 ul h3 ol h3 ul ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/employee-journey-mapping-how-to-guide/",
+   "title": "Employee journey mapping: How to guide",
+   "h1": "Employee journey mapping: How to guide",
+   "lastUpdated": "26 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 11081,
+    "p": 66,
+    "h2": 7,
+    "ul": 6,
+    "li": 29,
+    "h3": 15,
+    "ol": 2
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h2 ol h3 ul ul h3 h3 h3 h2 h3 h3 h3 h3 h3 ul h3 ul h2 h2 h3 ol h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/employee-listening/",
+   "title": "Employee listening: How to retain great talent",
+   "h1": "Employee listening: How to retain great talent",
+   "lastUpdated": "27 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 29,
+   "bodyShape": {
+    "chars": 11906,
+    "p": 71,
+    "h2": 8,
+    "h3": 23,
+    "ul": 9,
+    "li": 35
+   },
+   "bodyOrder": "h2 h2 h3 h3 h2 ul ul h2 h3 h3 h3 h3 h3 h3 h2 h3 ul h3 ul h3 h3 ul h3 h3 h3 ul h3 h3 ul h3 h3 h2 h2 h3 ul h3 ul h3 h2 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/employee-satisfaction-survey/",
+   "title": "Employee satisfaction surveys 101: Measuring the employee experience",
+   "h1": "Employee satisfaction surveys 101: Measuring the employee experience",
+   "lastUpdated": "26 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 35,
+   "bodyShape": {
+    "chars": 16823,
+    "p": 76,
+    "h2": 11,
+    "ul": 4,
+    "li": 39,
+    "h3": 28,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h2 h2 ol h2 ul h2 h3 ul h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-employee-turnover/",
+   "title": "Employee turnover: Definition, causes, and solutions",
+   "h1": "Employee turnover: Definition, causes, and solutions",
+   "lastUpdated": "11 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 11326,
+    "p": 55,
+    "h2": 9,
+    "h3": 10,
+    "ul": 12,
+    "li": 52
+   },
+   "bodyOrder": "h2 h2 h3 h3 h2 ul h2 ul h2 h3 ul ul h3 ul h2 ul ul h3 h3 h3 h3 ul ul h2 h3 ul h3 h2 ul ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-to-enhance-employee-happiness/",
+   "title": "Enhancing employee happiness: 14 tips for a positive workplace",
+   "h1": "Enhancing employee happiness: 14 tips for a positive workplace",
+   "lastUpdated": "8 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 11448,
+    "p": 68,
+    "h2": 6,
+    "h3": 20,
+    "ul": 3,
+    "li": 14
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 h2 h2 h3 h3 h3 h3 h3 h3 h3 ul h3 ul h3 h3 h3 h3 h3 h3 h2 h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/differences-between-eq-and-iq/",
+   "title": "EQ vs. IQ: What’s the difference, and why are they important?",
+   "h1": "EQ vs. IQ: What’s the difference, and why are they important?",
+   "lastUpdated": "19 November 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 11913,
+    "p": 48,
+    "h2": 8,
+    "ul": 5,
+    "li": 19,
+    "h3": 7
+   },
+   "bodyOrder": "h2 h2 ul h2 h2 h3 ul h3 ul h2 ul h2 h3 ul h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-bereavement-leave/",
+   "title": "Guide to bereavement leave for employers",
+   "h1": "Guide to bereavement leave for employers",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 8222,
+    "p": 29,
+    "h2": 13,
+    "ul": 7,
+    "li": 36,
+    "h3": 1
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 ul h2 ul h2 ul h2 h2 h2 ul h2 ul h2 ul h2 h2 h3",
+   "editorsPicksOverride": [
+    "/employee-experience/how-to-increase-your-emotional-intelligence/",
+    "/employee-experience/what-is-hr/",
+    "/employee-experience/what-are-soft-skills/",
+    "/employee-experience/what-is-implicit-bias-in-the-workplace/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-long-is-maternity-leave-by-state/",
+   "title": "How long is maternity leave in each state?",
+   "h1": "How long is maternity leave in each state?",
+   "lastUpdated": "5 October 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 52,
+   "bodyShape": {
+    "chars": 13492,
+    "p": 75,
+    "h2": 3,
+    "h3": 52
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-to-analyze-employee-feedback/",
+   "title": "How to analyze employee feedback to inspire action",
+   "h1": "How to analyze employee feedback to inspire action",
+   "lastUpdated": "14 November 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 10422,
+    "p": 68,
+    "h2": 5,
+    "h3": 22
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-to-increase-your-emotional-intelligence/",
+   "title": "How to boost your emotional intelligence for career success",
+   "h1": "How to boost your emotional intelligence for career success",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 10538,
+    "p": 39,
+    "h2": 10,
+    "ul": 5,
+    "li": 22,
+    "h3": 13
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 h3 h3 ul h3 h3 h2 ul h2 ul h2 ul h2 h3 h3 h3 h2 h2 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/employee-experience/what-is-hr/",
+    "/employee-experience/what-is-bereavement-leave/",
+    "/employee-experience/what-are-soft-skills/",
+    "/employee-experience/what-is-implicit-bias-in-the-workplace/"
+   ],
+   "latestArticlesOverride": [
+    "/employee-experience/what-are-soft-skills/",
+    "/employee-experience/what-is-social-loafing/",
+    "/employee-experience/what-is-unconscious-bias-in-the-workplace/",
+    "/employee-experience/how-to-practice-shadow-work/",
+    "/employee-experience/what-are-leadership-skills/",
+    "/employee-experience/what-is-leadership/",
+    "/employee-experience/what-is-a-hostile-work-environment/",
+    "/employee-experience/what-weaknesses-reveal-in-interviews/"
+   ]
+  },
+  {
+   "path": "/employee-experience/employee-self-evaluation/",
+   "title": "How to complete an effective employee self-evaluation",
+   "h1": "How to complete an effective employee self-evaluation",
+   "lastUpdated": "10 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 26,
+   "bodyShape": {
+    "chars": 13905,
+    "p": 61,
+    "h2": 7,
+    "h3": 19,
+    "ul": 1,
+    "li": 7
+   },
+   "bodyOrder": "h2 h2 h3 h3 h2 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/inclusive-workplace-meaning/",
+   "title": "How to create a more inclusive workplace",
+   "h1": "How to create a more inclusive workplace",
+   "lastUpdated": "14 February 2024",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 9,
+   "bodyShape": {
+    "chars": 9687,
+    "p": 40,
+    "h2": 4,
+    "ul": 18,
+    "li": 40,
+    "h3": 5,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 h3 ul ul ul ul ul h3 ul ul ul ul ul h3 ul ul ul h3 ul h3 ul ul ul h2 ol h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-to-build-an-employee-referral-program/",
+   "title": "How to create and implement an employee referral program",
+   "h1": "How to create and implement an employee referral program",
+   "lastUpdated": "11 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 10466,
+    "p": 37,
+    "h2": 5,
+    "ul": 2,
+    "li": 10,
+    "h3": 15
+   },
+   "bodyOrder": "h2 h2 ul h3 ul h2 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-to-give-and-receive-constructive-criticism/",
+   "title": "How to give and receive constructive criticism",
+   "h1": "How to give and receive constructive criticism",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 39,
+   "bodyShape": {
+    "chars": 11453,
+    "p": 52,
+    "h2": 7,
+    "h3": 32
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/interview-feedback/",
+   "title": "How to give effective interview feedback: tips and best practices",
+   "h1": "How to give effective interview feedback: tips and best practices",
+   "lastUpdated": "28 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 10171,
+    "p": 34,
+    "h2": 6,
+    "h3": 16,
+    "ul": 3,
+    "li": 8
+   },
+   "bodyOrder": "h2 h2 h3 h3 ul h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h2 h3 ul h3 ul h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-to-implement-a-change-management-process/",
+   "title": "How to implement an effective change management process",
+   "h1": "How to implement an effective change management process",
+   "lastUpdated": "29 February 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 28,
+   "bodyShape": {
+    "chars": 16384,
+    "p": 65,
+    "h2": 8,
+    "h3": 23,
+    "ol": 3,
+    "li": 34,
+    "ul": 4
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 ol h3 h3 h3 h2 h3 h3 h3 ul h3 ul h3 h3 ul h2 h3 ol h3 ol h2 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-to-increase-emotional-intelligence/",
+   "title": "How to improve your emotional intelligence in life and at work",
+   "h1": "How to improve your emotional intelligence in life and at work",
+   "lastUpdated": "27 November 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 12747,
+    "p": 60,
+    "h2": 5,
+    "h3": 8,
+    "ul": 4,
+    "li": 25
+   },
+   "bodyOrder": "h2 h3 ul h3 ul h2 h2 ul h3 h3 h2 h3 h3 h3 h2 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-to-measure-company-culture/",
+   "title": "How to measure company culture and why it matters",
+   "h1": "How to measure company culture and why it matters",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 9217,
+    "p": 42,
+    "h2": 6,
+    "ul": 5,
+    "li": 25,
+    "h3": 18
+   },
+   "bodyOrder": "h2 ul ul ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 ul h3 h2 h3 h3 h3 h3 h3 h2 h2 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-to-measure-employee-engagement/",
+   "title": "How to measure employee engagement and get actionable insights",
+   "h1": "How to measure employee engagement and get actionable insights",
+   "lastUpdated": "15 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 11176,
+    "p": 39,
+    "h2": 6,
+    "ul": 5,
+    "li": 22,
+    "h3": 15
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h3 ul h3 h3 h2 h3 h3 h3 h3 h3 h2 ul h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-to-measure-employee-experience/",
+   "title": "How to measure employee experience",
+   "h1": "How to measure employee experience",
+   "lastUpdated": "19 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 8,
+   "bodyShape": {
+    "chars": 12110,
+    "p": 46,
+    "h2": 5,
+    "ul": 10,
+    "li": 62,
+    "h3": 6
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 ul h3 ul ul ul ul ul h3 ul h3 h2 ul h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-to-overcome-self-sabotage-at-work/",
+   "title": "How to overcome self-sabotaging behavior at work",
+   "h1": "How to overcome self-sabotaging behavior at work",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 16173,
+    "p": 61,
+    "h2": 5,
+    "h3": 21
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-to-practice-shadow-work/",
+   "title": "How to practice shadow work for self-improvement",
+   "h1": "How to practice shadow work for self-improvement",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 12313,
+    "p": 49,
+    "h2": 7,
+    "h3": 18,
+    "ol": 1,
+    "li": 28,
+    "ul": 5
+   },
+   "bodyOrder": "h2 h2 h2 h2 h3 h3 h3 h3 h2 ol h3 h3 h3 h3 h2 h3 h3 ul h3 ul h3 ul h3 ul h3 h2 h3 h3 ul h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/employee-experience/how-to-increase-your-emotional-intelligence/",
+    "/employee-experience/what-are-soft-skills/",
+    "/employee-experience/what-is-social-loafing/",
+    "/employee-experience/what-is-unconscious-bias-in-the-workplace/",
+    "/employee-experience/what-are-leadership-skills/",
+    "/employee-experience/what-is-leadership/",
+    "/employee-experience/what-is-a-hostile-work-environment/",
+    "/employee-experience/what-weaknesses-reveal-in-interviews/"
+   ]
+  },
+  {
+   "path": "/employee-experience/employee-retention/",
+   "title": "How to retain great employees",
+   "h1": "How to retain great employees",
+   "lastUpdated": "26 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 11149,
+    "p": 47,
+    "h2": 6,
+    "h3": 20
+   },
+   "bodyOrder": "h2 h2 h2 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-to-set-employee-expectations/",
+   "title": "How to set clear employee expectations",
+   "h1": "How to set clear employee expectations",
+   "lastUpdated": "16 December 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 15608,
+    "p": 60,
+    "h2": 8,
+    "ul": 7,
+    "li": 40,
+    "h3": 21
+   },
+   "bodyOrder": "h2 ul h2 h2 ul h2 h3 h3 h3 h2 h3 h3 h2 h3 h3 h3 h3 h2 h3 ul h3 h3 h3 ul h3 ul h3 h3 ul h3 h3 h2 h3 h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-to-set-smart-goals/",
+   "title": "How to set SMART goals and make them actionable",
+   "h1": "How to set SMART goals and make them actionable",
+   "lastUpdated": "16 November 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 9412,
+    "p": 60,
+    "h2": 6,
+    "ul": 5,
+    "li": 20,
+    "h3": 14
+   },
+   "bodyOrder": "h2 ul h3 ul h3 h3 h3 h3 h2 h2 h2 h3 h3 ul h3 h3 h2 h3 h3 h3 h3 h2 h3 ul ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-to-spot-change-fatigue/",
+   "title": "How to spot and combat change fatigue in the workplace",
+   "h1": "How to spot and combat change fatigue in the workplace",
+   "lastUpdated": "15 February 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 6,
+   "bodyShape": {
+    "chars": 6818,
+    "p": 17,
+    "h2": 6,
+    "h3": 3,
+    "ul": 4,
+    "li": 28
+   },
+   "bodyOrder": "h2 h3 h2 ul h2 ul h2 ul h2 ul h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-to-welcome-a-new-employee/",
+   "title": "How to welcome a new employee to your business",
+   "h1": "How to welcome a new employee to your business",
+   "lastUpdated": "21 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 14313,
+    "p": 51,
+    "h2": 7,
+    "ul": 6,
+    "li": 30,
+    "h3": 13
+   },
+   "bodyOrder": "h2 ul h2 h3 ul h3 h3 h3 ul h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 ul h2 ul h2 h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-to-create-a-management-plan/",
+   "title": "Management plan 101: How to create a comprehensive plan",
+   "h1": "Management plan 101: How to create a comprehensive plan",
+   "lastUpdated": "31 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 11844,
+    "p": 64,
+    "h2": 5,
+    "h3": 15,
+    "ul": 10,
+    "li": 28
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 ul h3 h3 ul h3 h2 ul ul ul ul ul ul ul ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-the-star-interview-method/",
+   "title": "Master the STAR method for answering interview questions",
+   "h1": "Master the STAR method for answering interview questions",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 8752,
+    "p": 19,
+    "h2": 4,
+    "ul": 6,
+    "li": 24,
+    "h3": 7
+   },
+   "bodyOrder": "h2 ul ul h2 h3 ul h3 ul h3 ul h3 ul h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/culture-fit-interview-questions/",
+   "title": "Mastering culture-fit interviews: top 30 questions to ask",
+   "h1": "Mastering culture-fit interviews: top 30 questions to ask",
+   "lastUpdated": "12 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 7,
+   "bodyShape": {
+    "chars": 8457,
+    "p": 25,
+    "h2": 7,
+    "h3": 3,
+    "ol": 2,
+    "li": 30
+   },
+   "bodyOrder": "h2 h2 h3 h2 h2 ol h2 ol h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-effective-communication-at-work/",
+   "title": "Mastering effective communication: tips & techniques",
+   "h1": "Mastering effective communication: tips & techniques",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 12457,
+    "p": 58,
+    "h2": 6,
+    "h3": 22,
+    "ul": 3,
+    "li": 14
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h3 ul h2 ul h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-does-a-medical-leave-of-absence-work/",
+   "title": "Medical leaves of absence: how do they work, and who qualifies?",
+   "h1": "Medical leaves of absence: how do they work, and who qualifies?",
+   "lastUpdated": "23 November 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 8,
+   "bodyShape": {
+    "chars": 10980,
+    "p": 47,
+    "h2": 8,
+    "h3": 5,
+    "ul": 1,
+    "li": 7
+   },
+   "bodyOrder": "h2 h2 h2 h2 h3 ul h2 h2 h2 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-mental-exhaustion/",
+   "title": "Mental exhaustion: Signs, symptoms, and strategies to help you cope",
+   "h1": "Mental exhaustion: Signs, symptoms, and strategies to help you cope",
+   "lastUpdated": "8 December 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 11130,
+    "p": 41,
+    "h2": 10,
+    "h3": 11,
+    "ul": 4,
+    "li": 21
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h2 h2 h3 ul h3 ul h3 h2 h2 h3 h3 h3 h3 h2 ul h2 h2 ul h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/how-to-motivate-employees/",
+   "title": "Proven ways to motivate employees",
+   "h1": "Proven ways to motivate employees",
+   "lastUpdated": "16 November 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 11851,
+    "p": 40,
+    "h2": 7,
+    "ul": 2,
+    "li": 17,
+    "h3": 9,
+    "ol": 2
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h3 h3 h2 h2 h2 ol h2 h3 ol h3 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-quiet-quitting/",
+   "title": "Quiet quitting: TikTok trend or HR nightmare?",
+   "h1": "Quiet quitting: TikTok trend or HR nightmare?",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 8216,
+    "p": 39,
+    "h2": 6,
+    "ul": 1,
+    "li": 8,
+    "h3": 8
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/team-building-activities-for-work/",
+   "title": "The 21 top team-building activities for work",
+   "h1": "The 21 top team-building activities for work",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 14092,
+    "p": 118,
+    "h2": 3,
+    "h3": 10
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/guide-to-effective-communication-in-the-workplace/",
+   "title": "The ultimate guide to effective communication in the workplace",
+   "h1": "The ultimate guide to effective communication in the workplace",
+   "lastUpdated": "21 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 14554,
+    "p": 43,
+    "h2": 6,
+    "ul": 6,
+    "li": 41,
+    "h3": 10
+   },
+   "bodyOrder": "h2 h2 ul h2 ul h2 h2 h3 h3 h3 h3 ul h3 h3 h3 h2 h3 ul h3 ul h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/employee-engagement-survey/",
+   "title": "The ultimate list of employee engagement survey questions",
+   "h1": "The ultimate list of employee engagement survey questions",
+   "lastUpdated": "26 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 11988,
+    "p": 49,
+    "h2": 5,
+    "ul": 10,
+    "li": 84,
+    "h3": 9
+   },
+   "bodyOrder": "h2 ul h3 ul h3 h3 ul h3 ul h2 ul h2 h3 ul h3 ul h3 ul h3 ul h2 h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/list-of-good-leadership-qualities/",
+   "title": "Top leadership qualities of great leaders",
+   "h1": "Top leadership qualities of great leaders",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 11742,
+    "p": 50,
+    "h2": 6,
+    "h3": 17,
+    "ul": 5,
+    "li": 19
+   },
+   "bodyOrder": "h2 h2 h3 h3 ul h3 h3 h3 h3 h3 h3 h3 h3 h3 ul h3 h2 ul h2 h3 h3 h3 ul h3 ul h3 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-affinity-bias/",
+   "title": "Understanding affinity bias",
+   "h1": "Understanding affinity bias",
+   "lastUpdated": "8 October 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 10643,
+    "p": 31,
+    "h2": 7,
+    "h3": 9,
+    "ol": 2,
+    "li": 12
+   },
+   "bodyOrder": "h2 h3 h3 h2 h3 h3 h3 h2 ol h2 h2 h3 h2 h3 h3 h3 h2 ol",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/vividness-bias-in-the-workplace/",
+   "title": "Understanding how vividness bias appears in the workplace",
+   "h1": "Understanding how vividness bias appears in the workplace",
+   "lastUpdated": "23 November 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 7504,
+    "p": 44,
+    "h2": 6,
+    "h3": 9
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h2 h2 h3 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-implicit-bias-in-the-workplace/",
+   "title": "Understanding implicit bias and how to counteract it",
+   "h1": "Understanding implicit bias and how to counteract it",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 10886,
+    "p": 41,
+    "h2": 5,
+    "h3": 12,
+    "ul": 4,
+    "li": 24
+   },
+   "bodyOrder": "h2 h3 ul h3 h3 h2 h2 h3 h3 h3 ul h3 h2 h3 ul h3 h3 h2 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/digital-employee-experience/",
+   "title": "Understanding the digital employee experience",
+   "h1": "Understanding the digital employee experience",
+   "lastUpdated": "15 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 27,
+   "bodyShape": {
+    "chars": 13535,
+    "p": 48,
+    "h2": 9,
+    "ul": 1,
+    "li": 8,
+    "h3": 21,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 h2 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h2 h3 ol h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/employee-evaluation/",
+   "title": "Understanding the employee evaluation process",
+   "h1": "Understanding the employee evaluation process",
+   "lastUpdated": "27 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 13420,
+    "p": 42,
+    "h2": 7,
+    "ul": 3,
+    "li": 19,
+    "h3": 16
+   },
+   "bodyOrder": "h2 h2 ul h2 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/employee-life-cycle/",
+   "title": "Understanding the employee life cycle",
+   "h1": "Understanding the employee life cycle",
+   "lastUpdated": "15 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 27,
+   "bodyShape": {
+    "chars": 12965,
+    "p": 64,
+    "h2": 6,
+    "h3": 21,
+    "ul": 1,
+    "li": 3
+   },
+   "bodyOrder": "h2 h3 h3 h3 h2 h3 ul h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-a-toxic-work-environment/",
+   "title": "Warning Signs of a Toxic Work Environment",
+   "h1": "Warning Signs of a Toxic Work Environment",
+   "lastUpdated": "5 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 12870,
+    "p": 53,
+    "h2": 6,
+    "h3": 23,
+    "ul": 3,
+    "li": 13
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h2 h3 ul h3 ul h3 h3 h3 h3 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-are-information-silos/",
+   "title": "What are information silos & how can you prevent them?",
+   "h1": "What are information silos & how can you prevent them?",
+   "lastUpdated": "13 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 8199,
+    "p": 43,
+    "h2": 7,
+    "ul": 2,
+    "li": 17,
+    "h3": 11
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-are-the-theories-of-motivation/",
+   "title": "What are motivation theories, and how do they enhance the employee experience?",
+   "h1": "What are motivation theories, and how do they enhance the employee experience?",
+   "lastUpdated": "10 February 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 26,
+   "bodyShape": {
+    "chars": 15769,
+    "p": 63,
+    "h2": 5,
+    "ul": 4,
+    "li": 15,
+    "h3": 24
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 ul h3 h3 ul h3 ul h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-are-the-six-work-styles/",
+   "title": "What are the 6 work styles, and how can they work together?",
+   "h1": "What are the 6 work styles, and how can they work together?",
+   "lastUpdated": "6 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 30,
+   "bodyShape": {
+    "chars": 15708,
+    "p": 78,
+    "h2": 7,
+    "ul": 8,
+    "li": 27,
+    "h3": 26
+   },
+   "bodyOrder": "h2 ul h2 h3 ul h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-a-positive-work-environment/",
+   "title": "What does a positive work environment look like?",
+   "h1": "What does a positive work environment look like?",
+   "lastUpdated": "16 November 2023",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 11338,
+    "p": 57,
+    "h2": 5,
+    "h3": 12,
+    "ul": 5,
+    "li": 20
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 h3 ul ul h3 ul h3 ul h2 h3 h3 h3 h3 ul h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-innovation-culture/",
+   "title": "What does an innovation culture look like?",
+   "h1": "What does an innovation culture look like?",
+   "lastUpdated": "15 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 26,
+   "bodyShape": {
+    "chars": 14275,
+    "p": 50,
+    "h2": 9,
+    "h3": 20,
+    "ul": 6,
+    "li": 30
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h3 ul h3 ul h3 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h2 ul h2 h3 h3 h3 h2 h3 ul h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-emotional-intelligence-in-leadership/",
+   "title": "What does emotionally intelligent leadership look like?",
+   "h1": "What does emotionally intelligent leadership look like?",
+   "lastUpdated": "2 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 9360,
+    "p": 35,
+    "h2": 6,
+    "h3": 11
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-inclusive-leadership/",
+   "title": "What does inclusive leadership look like?",
+   "h1": "What does inclusive leadership look like?",
+   "lastUpdated": "16 December 2023",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 10616,
+    "p": 46,
+    "h2": 5,
+    "h3": 13,
+    "ul": 7,
+    "li": 21
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-a-hostile-work-environment/",
+   "title": "What is a hostile work environment?",
+   "h1": "What is a hostile work environment?",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 5,
+   "bodyShape": {
+    "chars": 6921,
+    "p": 29,
+    "h3": 6,
+    "ul": 3,
+    "li": 24,
+    "h2": 3,
+    "ol": 1
+   },
+   "bodyOrder": "h3 h3 ul h3 h2 ol h2 ul h2 h3 ul h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/employee-experience/how-to-increase-your-emotional-intelligence/",
+    "/employee-experience/what-are-soft-skills/",
+    "/employee-experience/what-is-social-loafing/",
+    "/employee-experience/what-is-unconscious-bias-in-the-workplace/",
+    "/employee-experience/how-to-practice-shadow-work/",
+    "/employee-experience/what-are-leadership-skills/",
+    "/employee-experience/what-is-leadership/",
+    "/employee-experience/what-weaknesses-reveal-in-interviews/"
+   ]
+  },
+  {
+   "path": "/employee-experience/pulse-survey/",
+   "title": "What is a pulse survey?",
+   "h1": "What is a pulse survey?",
+   "lastUpdated": "26 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 9411,
+    "p": 27,
+    "h2": 8,
+    "ul": 7,
+    "li": 28,
+    "h3": 5
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 ul h2 h3 ul h3 ul h3 ul h3 ul h3 ul h2 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-a-secondment/",
+   "title": "What is a secondment, and what benefits can it offer?",
+   "h1": "What is a secondment, and what benefits can it offer?",
+   "lastUpdated": "16 December 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 13932,
+    "p": 70,
+    "h2": 5,
+    "ul": 1,
+    "li": 27,
+    "h3": 8,
+    "ol": 2
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h2 h3 h3 h2 h3 ol h3 ol h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-an-employee-assistance-program/",
+   "title": "What is an employee assistance program (EAP)?",
+   "h1": "What is an employee assistance program (EAP)?",
+   "lastUpdated": "30 August 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 6098,
+    "p": 21,
+    "h2": 7,
+    "ul": 4,
+    "li": 30,
+    "h3": 5
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 h3 h3 h3 h3 h2 h2 ul h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-are-employee-resource-groups/",
+   "title": "What is an employee resource group (ERG)?",
+   "h1": "What is an employee resource group (ERG)?",
+   "lastUpdated": "5 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 9833,
+    "p": 54,
+    "h2": 6,
+    "ul": 5,
+    "li": 26,
+    "h3": 13
+   },
+   "bodyOrder": "h2 ul ul h2 h3 h3 h3 h3 h3 h2 h2 h2 h3 ul h3 h3 ul h3 ul h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-an-employee-wellness-program/",
+   "title": "What is an employee wellness program, and how does it help?",
+   "h1": "What is an employee wellness program, and how does it help?",
+   "lastUpdated": "23 November 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 10344,
+    "p": 37,
+    "h2": 6,
+    "h3": 10,
+    "ul": 1,
+    "li": 7
+   },
+   "bodyOrder": "h2 h2 h2 h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 ul h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-async-work/",
+   "title": "What is asynchronous work?",
+   "h1": "What is asynchronous work?",
+   "lastUpdated": "17 January 2024",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 15796,
+    "p": 63,
+    "h2": 6,
+    "h3": 17,
+    "ul": 7,
+    "li": 32
+   },
+   "bodyOrder": "h2 h3 ul ul h2 h3 h3 h3 h2 h3 h3 h2 h3 ul h3 ul h3 ul h3 ul h3 ul h2 h3 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/career-growth-guide/",
+   "title": "What is career growth, and how can you work on yours?",
+   "h1": "What is career growth, and how can you work on yours?",
+   "lastUpdated": "8 December 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 13300,
+    "p": 54,
+    "h2": 7,
+    "ul": 2,
+    "li": 8,
+    "h3": 16
+   },
+   "bodyOrder": "h2 h2 h2 h2 ul h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 ul h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-company-culture/",
+   "title": "What is company culture, and why is it important?",
+   "h1": "What is company culture, and why is it important?",
+   "lastUpdated": "3 October 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 16081,
+    "p": 51,
+    "h2": 7,
+    "h3": 13,
+    "ul": 5,
+    "li": 21
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h2 h3 h2 ul h3 h2 h3 h3 h3 ul ul h3 ul h2 h2 ul h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-continuous-feedback/",
+   "title": "What is continuous feedback, and why is it important?",
+   "h1": "What is continuous feedback, and why is it important?",
+   "lastUpdated": "3 May 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 13733,
+    "p": 58,
+    "h2": 8,
+    "h3": 21,
+    "ul": 1,
+    "li": 4
+   },
+   "bodyOrder": "h2 h3 h3 h3 h2 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 ul h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-dei/",
+   "title": "What is diversity, equity, and inclusion (DEI) in the workplace?",
+   "h1": "What is diversity, equity, and inclusion (DEI) in the workplace?",
+   "lastUpdated": "25 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 9576,
+    "p": 39,
+    "h2": 6,
+    "h3": 17,
+    "ul": 2,
+    "li": 12
+   },
+   "bodyOrder": "h2 h3 ul h3 h3 h2 h2 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 ul h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-are-emotional-regulation-skills/",
+   "title": "What is emotional regulation? 6 skills that can help",
+   "h1": "What is emotional regulation? 6 skills that can help",
+   "lastUpdated": "23 November 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 14023,
+    "p": 53,
+    "h2": 8,
+    "ul": 7,
+    "li": 29,
+    "h3": 16
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h3 h3 ul h3 h2 h2 h2 ul h3 ul ul h2 h3 h3 h3 h3 h3 h3 ul h2 h3 h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-employee-attrition/",
+   "title": "What is employee attrition & how can you reduce it?",
+   "h1": "What is employee attrition & how can you reduce it?",
+   "lastUpdated": "16 December 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 10753,
+    "p": 71,
+    "h2": 7,
+    "h3": 15,
+    "ul": 1,
+    "li": 6
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 ul h2 h2 h3 h3 h3 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/employee-burnout/",
+   "title": "What is employee burnout, and how do you prevent it?",
+   "h1": "What is employee burnout, and how do you prevent it?",
+   "lastUpdated": "18 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 26,
+   "bodyShape": {
+    "chars": 10481,
+    "p": 65,
+    "h2": 8,
+    "ul": 5,
+    "li": 21,
+    "h3": 23
+   },
+   "bodyOrder": "h2 ul ul h2 h2 h3 h3 h3 ul h3 h3 h3 h2 h3 h3 h3 h2 h3 ul h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/employee-development/",
+   "title": "What is employee development?",
+   "h1": "What is employee development?",
+   "lastUpdated": "18 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 14152,
+    "p": 56,
+    "h2": 6,
+    "h3": 18,
+    "ul": 2,
+    "li": 15
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 ul h3 ul h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/employee-wellbeing/",
+   "title": "What is employee well-being, and how can you improve it?",
+   "h1": "What is employee well-being, and how can you improve it?",
+   "lastUpdated": "26 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 19009,
+    "p": 77,
+    "h2": 10,
+    "ul": 10,
+    "li": 89,
+    "h3": 18
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 ul h2 h2 h3 h3 ul h3 h3 ul h3 ul h2 h3 h3 ul h3 h3 h3 h3 h3 h3 h3 ul h2 ul ul h2 h2 h3 h3 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-hr/",
+   "title": "What is human resources?",
+   "h1": "What is human resources?",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 7808,
+    "p": 33,
+    "h2": 5,
+    "h3": 10,
+    "ul": 2,
+    "li": 11
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 ul h2",
+   "editorsPicksOverride": [
+    "/employee-experience/how-to-increase-your-emotional-intelligence/",
+    "/employee-experience/what-is-bereavement-leave/",
+    "/employee-experience/what-are-soft-skills/",
+    "/employee-experience/what-is-implicit-bias-in-the-workplace/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-hybrid-remote-work/",
+   "title": "What is hybrid remote working?",
+   "h1": "What is hybrid remote working?",
+   "lastUpdated": "20 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 9654,
+    "p": 32,
+    "h2": 8,
+    "h3": 12,
+    "ul": 5,
+    "li": 25
+   },
+   "bodyOrder": "h2 h3 h3 h3 h2 ul h2 ul h2 ul h2 h3 h3 h3 h3 h3 h2 ul h2 ul h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-hybrid-working/",
+   "title": "What is hybrid working, and how can you make it work for your company?",
+   "h1": "What is hybrid working, and how can you make it work for your company?",
+   "lastUpdated": "23 November 2023",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 11025,
+    "p": 60,
+    "h2": 5,
+    "h3": 11,
+    "ul": 7,
+    "li": 35
+   },
+   "bodyOrder": "h2 h3 h2 h3 ul h3 ul h3 ul h3 ul h2 h3 h3 h3 h2 h3 ul h3 ul h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-imposter-syndrome/",
+   "title": "What is imposter syndrome?",
+   "h1": "What is imposter syndrome?",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 11723,
+    "p": 57,
+    "h2": 9,
+    "ol": 2,
+    "li": 31,
+    "ul": 2,
+    "h3": 10
+   },
+   "bodyOrder": "h2 ol h2 ul h2 h2 h2 ul h2 h3 h2 h3 h3 ol h2 h3 h3 h3 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-impression-management/",
+   "title": "What is impression management?",
+   "h1": "What is impression management?",
+   "lastUpdated": "8 October 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 27,
+   "bodyShape": {
+    "chars": 14281,
+    "p": 67,
+    "h2": 8,
+    "h3": 23
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-leadership/",
+   "title": "What is leadership? Definition, traits, and styles",
+   "h1": "What is leadership? Definition, traits, and styles",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 14369,
+    "p": 46,
+    "h2": 10,
+    "h3": 15,
+    "ul": 4,
+    "li": 47,
+    "ol": 2
+   },
+   "bodyOrder": "h2 h3 h3 ul h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2 ol ul h2 h2 h2 h2 h2 h3 h3 ol h3 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/employee-experience/how-to-increase-your-emotional-intelligence/",
+    "/employee-experience/what-are-soft-skills/",
+    "/employee-experience/what-is-social-loafing/",
+    "/employee-experience/what-is-unconscious-bias-in-the-workplace/",
+    "/employee-experience/how-to-practice-shadow-work/",
+    "/employee-experience/what-are-leadership-skills/",
+    "/employee-experience/what-is-a-hostile-work-environment/",
+    "/employee-experience/what-weaknesses-reveal-in-interviews/"
+   ]
+  },
+  {
+   "path": "/employee-experience/what-is-mental-toughness/",
+   "title": "What is mental toughness, and how do you build it?",
+   "h1": "What is mental toughness, and how do you build it?",
+   "lastUpdated": "12 December 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 9876,
+    "p": 38,
+    "h2": 9,
+    "h3": 14,
+    "ul": 4,
+    "li": 22
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 ul h2 ul h2 ul h2 h2 h3 h3 h3 h3 h3 h3 h2 h2 h3 ul h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-organizational-change/",
+   "title": "What is organizational change and how is it best managed?",
+   "h1": "What is organizational change and how is it best managed?",
+   "lastUpdated": "19 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 13591,
+    "p": 45,
+    "h2": 8,
+    "ul": 3,
+    "li": 22,
+    "h3": 7
+   },
+   "bodyOrder": "h2 h2 ul h2 ul h2 h3 h3 h3 h3 h3 h3 h2 h2 h3 h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-organizational-culture/",
+   "title": "What is organizational culture, and why is it important?",
+   "h1": "What is organizational culture, and why is it important?",
+   "lastUpdated": "5 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 27,
+   "bodyShape": {
+    "chars": 13083,
+    "p": 50,
+    "h2": 7,
+    "ul": 3,
+    "li": 26,
+    "h3": 26
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 ul h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-psychological-safety-at-work/",
+   "title": "What is psychological safety at work?",
+   "h1": "What is psychological safety at work?",
+   "lastUpdated": "27 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 9,
+   "bodyShape": {
+    "chars": 11356,
+    "p": 40,
+    "h2": 7,
+    "h3": 6,
+    "ul": 1,
+    "li": 8
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h2 ul h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-social-loafing/",
+   "title": "What is social loafing?",
+   "h1": "What is social loafing?",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 11245,
+    "p": 44,
+    "h2": 6,
+    "ul": 8,
+    "li": 30,
+    "h3": 23
+   },
+   "bodyOrder": "h2 ul h3 h3 h2 h3 ul h3 ul h3 ul h2 ul h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 ul h3 ul h2 h3 h3 ul h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/employee-experience/how-to-increase-your-emotional-intelligence/",
+    "/employee-experience/what-are-soft-skills/",
+    "/employee-experience/what-is-unconscious-bias-in-the-workplace/",
+    "/employee-experience/how-to-practice-shadow-work/",
+    "/employee-experience/what-are-leadership-skills/",
+    "/employee-experience/what-is-leadership/",
+    "/employee-experience/what-is-a-hostile-work-environment/",
+    "/employee-experience/what-weaknesses-reveal-in-interviews/"
+   ]
+  },
+  {
+   "path": "/employee-experience/what-is-team-leadership/",
+   "title": "What is team leadership, and why is it important?",
+   "h1": "What is team leadership, and why is it important?",
+   "lastUpdated": "6 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 8519,
+    "p": 38,
+    "h2": 8,
+    "h3": 10,
+    "ul": 1,
+    "li": 7
+   },
+   "bodyOrder": "h2 h2 h2 h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h2 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-the-contingency-theory-of-leadership/",
+   "title": "What is the contingency theory of leadership, and how does it work?",
+   "h1": "What is the contingency theory of leadership, and how does it work?",
+   "lastUpdated": "22 February 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 9,
+   "bodyShape": {
+    "chars": 12485,
+    "p": 46,
+    "h2": 6,
+    "ul": 6,
+    "li": 30,
+    "h3": 3,
+    "ol": 2
+   },
+   "bodyOrder": "h2 h2 h2 h2 h2 ul h3 ol ol h3 ul ul h3 ul ul ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-are-the-horn-and-halo-effect-bias/",
+   "title": "What is the horn effect, and how does it appear in the workplace?",
+   "h1": "What is the horn effect, and how does it appear in the workplace?",
+   "lastUpdated": "17 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 8,
+   "bodyShape": {
+    "chars": 6148,
+    "p": 34,
+    "h2": 7,
+    "h3": 3,
+    "ul": 1,
+    "li": 5
+   },
+   "bodyOrder": "h2 h3 h2 h3 h2 h2 h2 ul h2 h2 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-toxic-positivity/",
+   "title": "What is toxic positivity?",
+   "h1": "What is toxic positivity?",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 7149,
+    "p": 38,
+    "h2": 7,
+    "h3": 23,
+    "ul": 3,
+    "li": 12
+   },
+   "bodyOrder": "h2 h2 h2 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 ul h3 ul h2 h3 h3 h3 h3 h3 h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-tribal-knowledge/",
+   "title": "What is tribal knowledge, and how can you retain it?",
+   "h1": "What is tribal knowledge, and how can you retain it?",
+   "lastUpdated": "31 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 7258,
+    "p": 31,
+    "h2": 7,
+    "h3": 15,
+    "ul": 2,
+    "li": 9
+   },
+   "bodyOrder": "h2 h3 h2 h3 h3 h3 h2 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 ul h2 ul h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-unconscious-bias-in-the-workplace/",
+   "title": "What is unconscious bias in the workplace?",
+   "h1": "What is unconscious bias in the workplace?",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 14456,
+    "p": 52,
+    "h2": 7,
+    "h3": 10,
+    "ul": 10,
+    "li": 38
+   },
+   "bodyOrder": "h2 h2 h2 h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/employee-experience/how-to-increase-your-emotional-intelligence/",
+    "/employee-experience/what-are-soft-skills/",
+    "/employee-experience/what-is-social-loafing/",
+    "/employee-experience/how-to-practice-shadow-work/",
+    "/employee-experience/what-are-leadership-skills/",
+    "/employee-experience/what-is-leadership/",
+    "/employee-experience/what-is-a-hostile-work-environment/",
+    "/employee-experience/what-weaknesses-reveal-in-interviews/"
+   ]
+  },
+  {
+   "path": "/employee-experience/what-is-work-life-balance/",
+   "title": "What is work–life balance?",
+   "h1": "What is work–life balance?",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Lara Leganger",
+    "href": "/contributors/lara-leganger/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 9412,
+    "p": 39,
+    "h2": 6,
+    "ul": 2,
+    "li": 10,
+    "h3": 17
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/360-assessment/",
+   "title": "What you need to know about 360-degree feedback",
+   "h1": "What you need to know about 360-degree feedback",
+   "lastUpdated": "18 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 9778,
+    "p": 38,
+    "h2": 7,
+    "ul": 6,
+    "li": 28,
+    "h3": 13
+   },
+   "bodyOrder": "h2 ul h3 ul h2 ul h2 ul ul h2 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/diversity-and-inclusion-training/",
+   "title": "What you need to know about diversity and inclusion training",
+   "h1": "What you need to know about diversity and inclusion training",
+   "lastUpdated": "26 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 44,
+   "bodyShape": {
+    "chars": 21743,
+    "p": 119,
+    "h2": 11,
+    "ul": 8,
+    "li": 58,
+    "h3": 35,
+    "ol": 2
+   },
+   "bodyOrder": "h2 ul ul h2 h3 h3 h3 h2 h3 h3 h3 h3 h2 h2 h3 ul h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 ul h2 h3 h3 ol h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 ul h3 ul h3 h3 ul h3 ul h2 h2 h3 ol",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-participative-leadership/",
+   "title": "What you need to know about participative leadership",
+   "h1": "What you need to know about participative leadership",
+   "lastUpdated": "8 December 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 11187,
+    "p": 62,
+    "h2": 7,
+    "ul": 2,
+    "li": 12,
+    "h3": 14
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h2 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-sabbatical-leave/",
+   "title": "What you need to know about sabbatical leave",
+   "h1": "What you need to know about sabbatical leave",
+   "lastUpdated": "13 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 9358,
+    "p": 39,
+    "h2": 6,
+    "h3": 11
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h3 h3 h2 h3 h3 h3 h3 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/importance-of-leadership-in-the-workplace/",
+   "title": "Why is leadership so critical to success in the workplace?",
+   "h1": "Why is leadership so critical to success in the workplace?",
+   "lastUpdated": "31 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 12433,
+    "p": 36,
+    "h2": 7,
+    "h3": 12,
+    "ul": 5,
+    "li": 32
+   },
+   "bodyOrder": "h2 h3 h3 h3 ul h3 h3 h3 h3 h2 ul h2 h2 h2 h3 h3 ul h2 h3 h3 ul h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-the-work-environment/",
+   "title": "Work environments 101: Understanding the importance and impact",
+   "h1": "Work environments 101: Understanding the importance and impact",
+   "lastUpdated": "1 May 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 14332,
+    "p": 56,
+    "ul": 9,
+    "li": 30,
+    "h2": 6,
+    "h3": 15
+   },
+   "bodyOrder": "ul h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2 h2 h3 h3 h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/employee-review/",
+   "title": "Writing an employee review: Templates, tips, and more",
+   "h1": "Writing an employee review: Templates, tips, and more",
+   "lastUpdated": "26 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 14061,
+    "p": 79,
+    "h2": 8,
+    "ul": 6,
+    "li": 23,
+    "h3": 23
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h3 h3 h2 ul h2 h3 ul h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 ul h3 h3 ul h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/internal-communication-plan/",
+   "title": "Your guide to crafting an internal communication plan",
+   "h1": "Your guide to crafting an internal communication plan",
+   "lastUpdated": "1 May 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Warren Jonas ACC",
+    "href": "/contributors/warren-jonas/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 12755,
+    "p": 48,
+    "h2": 8,
+    "ul": 4,
+    "li": 30,
+    "h3": 16,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h3 h3 h2 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h2 ol h2 h3 h3 h3 h3 h2 ul h2 h3 ul h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/employee-experience/what-is-an-inclusive-interview/",
+   "title": "Your guide to running an inclusive interview",
+   "h1": "Your guide to running an inclusive interview",
+   "lastUpdated": "29 November 2023",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Shawnna Johnson",
+    "href": "/contributors/shawnna-johnson/"
+   },
+   "tocItems": 7,
+   "bodyShape": {
+    "chars": 8279,
+    "p": 35,
+    "h2": 3,
+    "h3": 4,
+    "ul": 1,
+    "li": 3
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  }
+ ],
+ "sidebarCta": {
+  "heading": "Build an employee experience that wins in today's job market",
+  "body": "Use Dovetail to track and understand what’s important to existing and future employees.",
+  "button": {
+   "text": "Contact sales",
+   "href": "/contact-sales/"
+  }
+ }
+}

@@ -1,0 +1,15 @@
+/* CompactLogoSlice — marketing-shared.md §7.5 (e1a4s9wi*) */
+.mk-clogo__heading { font-family: "JetBrains Mono", "SF Mono", Consolas, Roboto, sans-serif; font-size: 14px; line-height: 140%;
+  letter-spacing: 1px; text-transform: uppercase; color: #FFFFFF; margin: 0 auto 64px; text-align: center; min-height: 20px; }
+@media (max-width: 1280px) { .mk-clogo__heading { max-width: 400px; } }
+.mk-clogo__rows { width: 100%; overflow: hidden; position: relative; display: flex; flex-direction: column; gap: 40px; min-height: 168px; }
+@media (max-width: 1280px) { .mk-clogo__rows { gap: 20px; min-height: 148px; } }
+.mk-clogo__row { display: flex; justify-content: center; align-items: center; opacity: .32; height: 64px; position: relative; }
+.mk-clogo__row--offset { left: 120px; }
+.mk-clogo__item { padding: 0 40px; flex-shrink: 0; }
+@media (max-width: 1280px) { .mk-clogo__item { padding: 0 20px; } }
+.mk-clogo__img { display: block; width: 142px; height: 64px; object-fit: contain; }
+.mk-clogo__fade { position: absolute; top: 0; bottom: 0; width: 180px; z-index: 2; pointer-events: none; }
+.mk-clogo__fade--left { left: 0; background: linear-gradient(270deg, transparent 0%, #0A0A0A 100%); }
+.mk-clogo__fade--right { right: 0; background: linear-gradient(90deg, transparent 0%, #0A0A0A 100%); }
+@media (max-width: 799px) { .mk-clogo__fade { width: 60px; } }

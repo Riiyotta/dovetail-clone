@@ -1,0 +1,101 @@
+{
+ "slug": "product-strategy-is-simple-an-actionable-and-hands-on-guide-to-getting-it",
+ "path": "/events/product-strategy-is-simple-an-actionable-and-hands-on-guide-to-getting-it/",
+ "title": "Product strategy is simple: an actionable and hands-on guide to getting it right",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2024-02-22T00:00+11:00",
+ "endDate": null,
+ "onlineEvent": true,
+ "location": "Online",
+ "hosts": [
+  "Henry Latham",
+  "Sean Bruce"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": "nNqK3-LmuUc",
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Henry Latham, Sean Bruce"
+  },
+  {
+   "label": "[START]",
+   "value": "21 Feb 2024 5:00AM PST"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Online"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "video",
+  "image": "/assets/company/media/io-webinar-feb2024-cover-updated.png",
+  "width": 7680,
+  "height": 4320,
+  "youtubeId": "nNqK3-LmuUc"
+ },
+ "body": [
+  {
+   "t": "h2",
+   "text": "About this talk"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 159
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 108
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 235
+  },
+  {
+   "t": "p",
+   "text": "In this webinar, Henry will cover:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "text": "Actionable ways to define your product strategy"
+    },
+    {
+     "text": "How to validate product strategy before building anything"
+    },
+    {
+     "text": "How product discovery can help you define product strategy"
+    },
+    {
+     "placeholder": true,
+     "chars": 72
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 355
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

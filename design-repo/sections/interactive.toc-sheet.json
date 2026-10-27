@@ -1,0 +1,103 @@
+{
+ "id": "interactive.toc-sheet",
+ "title": "Mobile contents sheet",
+ "semantic": {
+  "id": "interactive.toc-sheet",
+  "category": "INTERACTIVE"
+ },
+ "source": {
+  "id": "component:ResourcesGuide:csheet",
+  "file": "src/pages/company/ResourcesGuide.jsx",
+  "tag": "div",
+  "lines": "197-209",
+  "tagLine": 197,
+  "anchor": "csheet",
+  "anchorLine": 197
+ },
+ "purpose": "Bottom sheet listing the article's headings on small screens.",
+ "retrievalEligible": false,
+ "retrievalIneligibleReason": "Runtime drawer: mobile bottom-sheet table of contents duplicating article headings.",
+ "placement": "overlay",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [],
+   "forbiddenFields": [],
+   "observedOnRoutes": 1146,
+   "observedOn": [
+    "/customer-research/",
+    "/customer-research/actionable-feedback/",
+    "/customer-research/actionable-insights/",
+    "/customer-research/ai-customer-experience/",
+    "/customer-research/analyze-app-store-reviews-with-interview-transcripts/",
+    "/customer-research/are-digital-twins-reliable/",
+    "/customer-research/b2b-customer-journey-map/",
+    "/customer-research/b2b-customer-service/",
+    "/customer-research/benefits-of-customer-feedback/",
+    "/customer-research/best-open-ended-sales-questions/",
+    "/customer-research/best-sales-discovery-questions/",
+    "/customer-research/best-sentiment-analysis-tools/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [],
+  "fields": {},
+  "listSizes": {},
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "sheet.slide"
+  ],
+  "requiredPatterns": [
+   "sheet.slide"
+  ],
+  "reducedMotionFallback": {
+   "sheet.slide": "show-immediately"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "not shown"
+  },
+  {
+   "range": "<=1280",
+   "behavior": "bottom sheet"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 0,
+   "nodes": 0,
+   "minPx": 0,
+   "maxPx": 0,
+   "medianPx": 0,
+   "sample": {}
+  }
+ },
+ "evidence": [
+  "src/pages/company/ResourcesGuide.jsx:197-209",
+  "specs/guide-article.md:1-40",
+  "specs/guide-article.md:1-40"
+ ]
+}

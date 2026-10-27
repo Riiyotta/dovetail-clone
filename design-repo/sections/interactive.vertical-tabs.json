@@ -1,0 +1,166 @@
+{
+ "id": "interactive.vertical-tabs",
+ "title": "Vertical tabs",
+ "semantic": {
+  "id": "interactive.vertical-tabs",
+  "category": "INTERACTIVE"
+ },
+ "source": {
+  "id": "component:Enterprise:en-vt__grid",
+  "file": "src/pages/corporate/Enterprise.jsx",
+  "tag": "div",
+  "lines": "128-140",
+  "tagLine": 128,
+  "anchor": "en-vt__grid",
+  "anchorLine": 128
+ },
+ "purpose": "Heading block, CTA row and vertical tabs swapping an image panel.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 1,
+   "observedOn": [
+    "/enterprise/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions",
+   "heading",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 5
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 19,
+    "observedIn": 5
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 4,
+    "maxChars": 34,
+    "observedIn": 1
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 15,
+    "maxChars": 111,
+    "observedIn": 1
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 5,
+    "maxChars": 31,
+    "observedIn": 4,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "actions": [
+    5,
+    5
+   ],
+   "media": [
+    4,
+    4
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "product.generated-visual"
+ ],
+ "style": {
+  "props": {
+   "spaceBefore": {
+    "kind": "token",
+    "allowed": [
+     "space.section.s200"
+    ]
+   }
+  },
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "tabs.auto-advance"
+  ],
+  "requiredPatterns": [
+   "tabs.auto-advance"
+  ],
+  "reducedMotionFallback": {
+   "tabs.auto-advance": "no-autoplay"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 1,
+   "nodes": 1,
+   "minPx": 955.4,
+   "maxPx": 955.4,
+   "medianPx": 955.4,
+   "sample": {
+    "/enterprise/": [
+     955.4
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/corporate/Enterprise.jsx:128-140",
+  "specs/enterprise.md:1-40"
+ ]
+}

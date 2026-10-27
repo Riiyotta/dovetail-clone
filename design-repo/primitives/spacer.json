@@ -1,0 +1,18 @@
+{
+ "id": "spacer",
+ "kind": "primitive",
+ "title": "Spacer",
+ "variants": {
+  "s200": "200/96/96",
+  "s160": "160/96/96",
+  "s96": "96/64/64"
+ },
+ "tokens": [
+  "space.section.s200",
+  "space.section.s160",
+  "space.section.s96"
+ ],
+ "evidence": [
+  "specs/company-shared.md:58"
+ ]
+}

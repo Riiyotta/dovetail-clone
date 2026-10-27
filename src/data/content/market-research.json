@@ -1,0 +1,2304 @@
+{
+ "source": "https://dovetail.com/market-research/",
+ "template": "guide-hub",
+ "categoryName": "Market research",
+ "hubPath": "/market-research/",
+ "pillar": {
+  "h1": "Market research: Everything you need to know",
+  "pageTitle": "Guide to Market Research: History, Methods, and Examples",
+  "metaDescription": "Market research is where you gather information about your target market to see if your business idea is worthwhile. Check out our guide to learn all…",
+  "meta": [
+   {
+    "label": "Last updated",
+    "values": [
+     {
+      "text": "16 October 2025",
+      "href": null
+     }
+    ]
+   },
+   {
+    "label": "Reviewed by",
+    "values": [
+     {
+      "text": "Tanya Williams",
+      "href": "/contributors/tanya-williams/"
+     }
+    ]
+   }
+  ],
+  "tocItems": 9,
+  "bodyShape": {
+   "chars": 18041,
+   "p": 64,
+   "h2": 9,
+   "ul": 10,
+   "li": 54,
+   "ol": 1,
+   "h3": 10
+  },
+  "bodyOrder": "h2 ul h2 h2 ul h2 h2 ul ol h3 h2 h3 h3 h3 ul ul h3 h3 ul h2 ul h2 h3 ul h3 ul h3 ul h3 h2"
+ },
+ "editorsPicks": [
+  {
+   "href": "/market-research/how-technology-is-democratizing-consumer-research/",
+   "title": "Democratization of research: how technology is reshaping access to consumer research",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/market-research/gap-analysis/",
+   "title": "What is a gap analysis, and how can you use it to get closer to your goals?",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/market-research/brand-equity/",
+   "title": "What is brand equity, and how can you get it?",
+   "date": "3 April 2024"
+  },
+  {
+   "href": "/market-research/customer-lifetime-value/",
+   "title": "A guide to calculating and improving your customer lifetime value (CLV)",
+   "date": "3 April 2024"
+  }
+ ],
+ "latestArticles": [
+  {
+   "href": "/market-research/how-technology-is-democratizing-consumer-research/",
+   "title": "Democratization of research: how technology is reshaping access to consumer research",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/market-research/product-life-cycle/",
+   "title": "What is a product life cycle?",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/market-research/swot-analysis/",
+   "title": "How to perform a SWOT analysis for effective decision-making",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/market-research/social-media-market-research-opportunities-and-challenges/",
+   "title": "Social media market research: Navigating opportunities and challenges",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/market-research/market-segmentation/",
+   "title": "What is market segmentation?",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/market-research/gap-analysis/",
+   "title": "What is a gap analysis, and how can you use it to get closer to your goals?",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/market-research/digital-pr-strategies-guide/",
+   "title": "Unlocking the power of digital PR: a strategic guide",
+   "date": "8 October 2025"
+  },
+  {
+   "href": "/market-research/what-is-behavioral-segmentation/",
+   "title": "Why behavioral segmentation in market research matters",
+   "date": "10 January 2025"
+  }
+ ],
+ "relatedTopics": [
+  {
+   "href": "/customer-research/",
+   "text": "Customer research"
+  },
+  {
+   "href": "/design-thinking/",
+   "text": "Design thinking"
+  },
+  {
+   "href": "/employee-experience/",
+   "text": "Employee experience"
+  },
+  {
+   "href": "/enterprise/",
+   "text": "Enterprise"
+  },
+  {
+   "href": "/patient-experience/",
+   "text": "Patient experience"
+  },
+  {
+   "href": "/product-development/",
+   "text": "Product development"
+  },
+  {
+   "href": "/product-management/",
+   "text": "Product management"
+  },
+  {
+   "href": "/research-maturity-assessment/",
+   "text": "Research maturity assessment"
+  },
+  {
+   "href": "/research/",
+   "text": "Research methods"
+  },
+  {
+   "href": "/surveys/",
+   "text": "Surveys"
+  },
+  {
+   "href": "/ux/",
+   "text": "User experience (UX)"
+  }
+ ],
+ "allArticlesHeading": "All Market research articles",
+ "note": "articles[] = the \"All <category> articles\" A-Z list rendered after the footer on the hub page (order as on site). title = list title; h1 = the article page H1 (can differ). Article pages show the hub editorsPicks/latestArticles unless editorsPicksOverride/latestArticlesOverride (href lists; titles/dates resolvable from articles[] / hub carousels) is set for that article. No thumbnails exist for guide articles. sidebarCta = the desktop sidebar promo shown on every article of this hub (not on the hub pillar page itself).",
+ "routesNotInList": [],
+ "articles": [
+  {
+   "path": "/market-research/questions-for-market-research/",
+   "title": "12 must-ask questions for market research",
+   "h1": "12 must-ask questions for market research",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 11529,
+    "p": 67,
+    "h2": 4,
+    "ul": 4,
+    "li": 51,
+    "h3": 15,
+    "ol": 6
+   },
+   "bodyOrder": "h2 ul h2 h3 ol h3 ol h3 h3 h3 ul h3 ul h3 h2 ul h3 ol h3 ol h3 ol h2 h3 ol h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/market-research-tools/",
+   "title": "15 Best market research tools",
+   "h1": "15 Best market research tools",
+   "lastUpdated": "3 April 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 15410,
+    "p": 76,
+    "h2": 4,
+    "ul": 1,
+    "li": 5,
+    "h3": 21
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/market-research-software/",
+   "title": "19 best market research software tools",
+   "h1": "19 best market research software tools",
+   "lastUpdated": "25 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 12776,
+    "p": 56,
+    "h2": 6,
+    "ul": 12,
+    "li": 55,
+    "h3": 17
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h2 h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2 ul h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/examples-of-research-projects/",
+   "title": "5 compelling examples of research projects",
+   "h1": "5 compelling examples of research projects",
+   "lastUpdated": "3 April 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 11897,
+    "p": 35,
+    "h2": 4,
+    "h3": 12,
+    "ul": 8,
+    "li": 40
+   },
+   "bodyOrder": "h2 h3 ul h3 ul h3 ul h3 ul h3 ul h2 h3 h3 h3 h2 ul h2 h3 h3 ul h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/gap-analysis-tools/",
+   "title": "8 gap analysis tools to help your business grow",
+   "h1": "8 gap analysis tools to help your business grow",
+   "lastUpdated": "1 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 8878,
+    "p": 52,
+    "h2": 4,
+    "ul": 9,
+    "li": 61,
+    "ol": 2,
+    "h3": 11
+   },
+   "bodyOrder": "h2 h2 ul ol h2 h3 ul h3 h3 ul h3 ol h3 ul ul h3 ul h3 ul h3 h2 h3 h3 ul h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/market-potential/",
+   "title": "A beginner's guide to market potential",
+   "h1": "A beginner's guide to market potential",
+   "lastUpdated": "8 May 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 12138,
+    "p": 45,
+    "h2": 5,
+    "h3": 11,
+    "ul": 1,
+    "li": 6
+   },
+   "bodyOrder": "h2 h3 h2 h3 h2 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/customer-satisfaction-research/",
+   "title": "A complete guide to customer satisfaction research",
+   "h1": "A complete guide to customer satisfaction research",
+   "lastUpdated": "10 August 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 12954,
+    "p": 48,
+    "h2": 6,
+    "ul": 8,
+    "li": 41,
+    "h3": 10
+   },
+   "bodyOrder": "h2 h2 ul h2 ul h2 ul h2 h3 ul h3 ul h3 ul h2 h3 h3 h3 h3 ul h3 ul h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/guide-to-qualitative-market-research/",
+   "title": "A comprehensive guide to qualitative market research",
+   "h1": "A comprehensive guide to qualitative market research",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 14363,
+    "p": 55,
+    "ul": 3,
+    "li": 12,
+    "h2": 9,
+    "h3": 14
+   },
+   "bodyOrder": "ul h2 h2 h2 h2 h2 h3 h3 h3 h3 h3 h3 h3 ul h3 h2 h2 h3 h3 ul h3 h3 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/customer-lifetime-value/",
+   "title": "A guide to calculating and improving your customer lifetime value (CLV)",
+   "h1": "A guide to calculating and improving your customer lifetime value (CLV)",
+   "lastUpdated": "3 April 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 11259,
+    "p": 74,
+    "h2": 4,
+    "ul": 6,
+    "li": 19,
+    "h3": 19
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h3 ul h3 ul h3 h3 h3 h3 h2 h3 ul h3 h2 h3 ul h3 ul h3 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/market-research/how-to-do-market-research-for-branding-and-positioning/",
+    "/market-research/swot-analysis/",
+    "/market-research/social-media-market-research-opportunities-and-challenges/",
+    "/market-research/how-technology-is-democratizing-consumer-research/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/competitor-benchmarking/",
+   "title": "A guide to competitive benchmarking",
+   "h1": "A guide to competitive benchmarking",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 14369,
+    "p": 51,
+    "h2": 5,
+    "ul": 4,
+    "li": 13,
+    "h3": 17
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 ul ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/ai-and-market-research-technology/",
+   "title": "AI and market research technology: Researchers have been lucky over the last few decades, but has our luck run out?",
+   "h1": "AI and market research technology: Researchers have been lucky over the last few decades, but has our luck run out?",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "reviewer": null,
+   "tocItems": 9,
+   "bodyShape": {
+    "chars": 14266,
+    "p": 66,
+    "ol": 1,
+    "li": 2,
+    "h2": 9
+   },
+   "bodyOrder": "ol h2 h2 h2 h2 h2 h2 h2 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/beginning-of-ai-in-market-research/",
+   "title": "AI has arrived – What does this mean for market researchers right now?",
+   "h1": "AI has arrived – What does this mean for market researchers right now?",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "reviewer": null,
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 14823,
+    "h3": 7,
+    "p": 66,
+    "h2": 6,
+    "ul": 2,
+    "li": 9
+   },
+   "bodyOrder": "h3 h2 h2 h3 ul h2 h3 h2 h3 h2 h3 h3 h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/conjoint-analysis/",
+   "title": "An introduction to conjoint analysis",
+   "h1": "An introduction to conjoint analysis",
+   "lastUpdated": "1 April 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 9277,
+    "p": 43,
+    "h2": 10,
+    "ul": 4,
+    "li": 26,
+    "h3": 18,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 ul h2 ul h2 h2 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 ol h2 h3 ul h3 ul h2 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/market-research/how-to-do-market-research-for-branding-and-positioning/",
+    "/market-research/swot-analysis/",
+    "/market-research/social-media-market-research-opportunities-and-challenges/",
+    "/market-research/how-technology-is-democratizing-consumer-research/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/customer-analysis/",
+   "title": "An introduction to customer analysis",
+   "h1": "An introduction to customer analysis",
+   "lastUpdated": "3 April 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 10167,
+    "p": 50,
+    "h2": 5,
+    "ul": 8,
+    "li": 38,
+    "h3": 9
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h2 ul h3 ul ul h3 h2 h3 ul ul h3 ul ul h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/audience-analysis/",
+   "title": "Audience analysis: How to understand your audience better",
+   "h1": "Audience analysis: How to understand your audience better",
+   "lastUpdated": "1 April 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 27,
+   "bodyShape": {
+    "chars": 12596,
+    "p": 45,
+    "h2": 15,
+    "h3": 12,
+    "ul": 11,
+    "li": 82
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h2 h2 ul h2 h2 ul ul h2 h3 ul h3 ul h3 ul h2 ul h2 ul h2 h2 ul ul h2 h3 h3 h3 h3 h3 h2 ul h3 h2",
+   "editorsPicksOverride": [
+    "/market-research/how-to-do-market-research-for-branding-and-positioning/",
+    "/market-research/swot-analysis/",
+    "/market-research/social-media-market-research-opportunities-and-challenges/",
+    "/market-research/how-technology-is-democratizing-consumer-research/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/innovative-techniques-in-modern-market-research/",
+   "title": "Beyond surveys: Innovative techniques in modern market research",
+   "h1": "Beyond surveys: Innovative techniques in modern market research",
+   "lastUpdated": "2 October 2024",
+   "author": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "reviewer": null,
+   "tocItems": 8,
+   "bodyShape": {
+    "chars": 14459,
+    "p": 53,
+    "h2": 8,
+    "ul": 1,
+    "li": 4
+   },
+   "bodyOrder": "h2 h2 ul h2 h2 h2 h2 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/business-research-methods/",
+   "title": "Business research methods: A comprehensive overview",
+   "h1": "Business research methods: A comprehensive overview",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 11272,
+    "p": 78,
+    "ul": 12,
+    "li": 51,
+    "h2": 3,
+    "h3": 13,
+    "ol": 3
+   },
+   "bodyOrder": "ul h2 h3 h3 h3 h3 h2 h3 ul h3 ul h3 ul ul h2 h3 ul ul ul h3 h3 ul ul h3 ul h3 ul h3 ol ol ol",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/competitive-analysis/",
+   "title": "Competitive analysis: How to do one step-by-step",
+   "h1": "Competitive analysis: How to do one step-by-step",
+   "lastUpdated": "1 April 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 12395,
+    "p": 58,
+    "h2": 5,
+    "ul": 11,
+    "li": 60,
+    "h3": 9
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 ul h3 ul h3 ul h3 h3 ul h3 ul ul h3 ul ul h3 h2 ul ul h2",
+   "editorsPicksOverride": [
+    "/market-research/how-to-do-market-research-for-branding-and-positioning/",
+    "/market-research/swot-analysis/",
+    "/market-research/social-media-market-research-opportunities-and-challenges/",
+    "/market-research/how-technology-is-democratizing-consumer-research/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/what-is-competitive-intelligence/",
+   "title": "Competitive intelligence 101: What it is & how to use it",
+   "h1": "Competitive intelligence 101: What it is & how to use it",
+   "lastUpdated": "5 March 2024",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 10764,
+    "p": 60,
+    "h2": 5,
+    "h3": 12,
+    "ul": 4,
+    "li": 14
+   },
+   "bodyOrder": "h2 h2 h3 h3 ul h2 h3 ul h3 h3 ul h3 h3 ul h2 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/competitive-positioning/",
+   "title": "Competitive positioning: How to gain a winning edge",
+   "h1": "Competitive positioning: How to gain a winning edge",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 9385,
+    "p": 42,
+    "h2": 6,
+    "h3": 13
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/competitive-pricing-analysis/",
+   "title": "Competitive pricing analysis 101",
+   "h1": "Competitive pricing analysis 101",
+   "lastUpdated": "1 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 9484,
+    "p": 55,
+    "h2": 6,
+    "h3": 11,
+    "ul": 2,
+    "li": 8
+   },
+   "bodyOrder": "h2 h2 h3 h3 ul h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/competitive-matrix/",
+   "title": "Competitor matrix: examples and how to use it",
+   "h1": "Competitor matrix: examples and how to use it",
+   "lastUpdated": "3 April 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 12172,
+    "p": 29,
+    "h2": 5,
+    "ul": 5,
+    "li": 29,
+    "h3": 6,
+    "ol": 2
+   },
+   "bodyOrder": "h2 ul h3 ol h2 ul h2 h3 ul h3 ul h3 h3 h3 h2 ol h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/competitor-audit/",
+   "title": "Conducting an effective competitor audit",
+   "h1": "Conducting an effective competitor audit",
+   "lastUpdated": "3 April 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 7736,
+    "p": 43,
+    "h2": 7,
+    "h3": 10,
+    "ul": 5,
+    "li": 31
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 ul h3 h2 h2 h2 ul h2 ul ul h2 h3 h3 h3 ul h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/consumer-behavior/",
+   "title": "Consumer behavior 101: What is it, and why does it matter?",
+   "h1": "Consumer behavior 101: What is it, and why does it matter?",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 15831,
+    "p": 97,
+    "h2": 7,
+    "ul": 7,
+    "li": 45,
+    "h3": 11,
+    "ol": 4
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 ul h3 h3 h3 ul h2 ol h3 h3 h3 ul ul ul h2 ol h2 h2 h3 h3 ol h3 ul h3 ol",
+   "editorsPicksOverride": [
+    "/market-research/how-to-do-market-research-for-branding-and-positioning/",
+    "/market-research/swot-analysis/",
+    "/market-research/social-media-market-research-opportunities-and-challenges/",
+    "/market-research/how-technology-is-democratizing-consumer-research/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/content-marketing-research/",
+   "title": "Content marketing research: the power of data-driven strategy",
+   "h1": "Content marketing research: the power of data-driven strategy",
+   "lastUpdated": "23 July 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 10702,
+    "p": 41,
+    "h2": 6,
+    "ul": 5,
+    "li": 25,
+    "h3": 9,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul ul h2 h3 h2 ul h2 h3 h3 ul h3 h3 ol h3 h3 h3 h3 h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/analytics-vs-analysis/",
+   "title": "Data analytics vs. data analysis: Know the difference",
+   "h1": "Data analytics vs. data analysis: Know the difference",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 6,
+   "bodyShape": {
+    "chars": 6775,
+    "p": 30,
+    "h2": 3,
+    "h3": 7,
+    "ul": 2,
+    "li": 16
+   },
+   "bodyOrder": "h2 h3 h3 ul ul h2 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/target-audience-analysis/",
+   "title": "Deep dive into target audience analysis",
+   "h1": "Deep dive into target audience analysis",
+   "lastUpdated": "1 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 13408,
+    "p": 47,
+    "h2": 8,
+    "h3": 20
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h2 h2 h3 h3 h3 h2 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/how-technology-is-democratizing-consumer-research/",
+   "title": "Democratization of research: how technology is reshaping access to consumer research",
+   "h1": "Democratization of research: how technology is reshaping access to consumer research",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "reviewer": null,
+   "tocItems": 9,
+   "bodyShape": {
+    "chars": 11163,
+    "p": 41,
+    "h2": 9
+   },
+   "bodyOrder": "h2 h2 h2 h2 h2 h2 h2 h2 h2",
+   "editorsPicksOverride": [
+    "/market-research/how-to-do-market-research-for-branding-and-positioning/",
+    "/market-research/swot-analysis/",
+    "/market-research/social-media-market-research-opportunities-and-challenges/",
+    "/market-research/product-life-cycle/"
+   ],
+   "latestArticlesOverride": [
+    "/market-research/product-life-cycle/",
+    "/market-research/swot-analysis/",
+    "/market-research/social-media-market-research-opportunities-and-challenges/",
+    "/market-research/market-segmentation/",
+    "/market-research/gap-analysis/",
+    "/market-research/digital-pr-strategies-guide/",
+    "/market-research/what-is-behavioral-segmentation/",
+    "/market-research/the-impact-of-insights-on-decision-making/"
+   ]
+  },
+  {
+   "path": "/market-research/direct-competition/",
+   "title": "Find your competitors: direct vs. indirect competition",
+   "h1": "Find your competitors: direct vs. indirect competition",
+   "lastUpdated": "1 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 10503,
+    "p": 42,
+    "h2": 8,
+    "h3": 12,
+    "ul": 3,
+    "li": 29
+   },
+   "bodyOrder": "h2 h3 ul h2 h3 ul h2 h2 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/competitive-analysis-example/",
+   "title": "Getting started with competitive analysis: Examples and best practices",
+   "h1": "Getting started with competitive analysis: Examples and best practices",
+   "lastUpdated": "1 April 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 8154,
+    "p": 43,
+    "h2": 3,
+    "h3": 12,
+    "ul": 8,
+    "li": 31
+   },
+   "bodyOrder": "h2 h2 h3 ul h3 ul ul h3 h3 h3 ul h3 h3 ul h3 h3 h2 h3 h3 ul h3 ul ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/demographic-segmentation/",
+   "title": "Guide to demographic segmentation",
+   "h1": "Guide to demographic segmentation",
+   "lastUpdated": "3 April 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 27,
+   "bodyShape": {
+    "chars": 13742,
+    "p": 66,
+    "h2": 9,
+    "h3": 18,
+    "ul": 2,
+    "li": 11,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 ul h3 h2 h3 h3 h3 h3 h2 h2 ol h2 ul h2",
+   "editorsPicksOverride": [
+    "/market-research/how-to-do-market-research-for-branding-and-positioning/",
+    "/market-research/swot-analysis/",
+    "/market-research/social-media-market-research-opportunities-and-challenges/",
+    "/market-research/how-technology-is-democratizing-consumer-research/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/how-to-conduct-a-market-opportunity-analysis/",
+   "title": "How to conduct a successful market opportunity analysis",
+   "h1": "How to conduct a successful market opportunity analysis",
+   "lastUpdated": "23 July 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 28,
+   "bodyShape": {
+    "chars": 18908,
+    "p": 48,
+    "h2": 7,
+    "ul": 16,
+    "li": 83,
+    "h3": 21
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 h3 ul h3 ul h3 ul h3 ul h2 h3 ul h3 ul h3 ul h2 h3 h3 h3 h3 h3 h3 h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/mobile-app-research/",
+   "title": "How to conduct mobile app market research",
+   "h1": "How to conduct mobile app market research",
+   "lastUpdated": "1 April 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 12658,
+    "p": 40,
+    "h2": 8,
+    "ul": 11,
+    "li": 54,
+    "h3": 10
+   },
+   "bodyOrder": "h2 ul h2 ul h2 ul h2 h3 ul h3 h3 ul h3 ul h2 h3 h3 ul h3 ul h3 ul h3 h3 h2 ul h2 h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/marketing-plan-templates/",
+   "title": "How to develop your marketing plan (with templates)",
+   "h1": "How to develop your marketing plan (with templates)",
+   "lastUpdated": "1 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 30,
+   "bodyShape": {
+    "chars": 17371,
+    "p": 165,
+    "h2": 6,
+    "ul": 6,
+    "li": 26,
+    "h3": 28
+   },
+   "bodyOrder": "h2 ul h3 h3 h3 h2 h3 h3 ul h3 ul h3 ul h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 ul h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/how-to-do-market-research-for-small-business/",
+   "title": "How to do market research for a small business",
+   "h1": "How to do market research for a small business",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 12888,
+    "p": 53,
+    "h2": 9,
+    "ul": 8,
+    "li": 40,
+    "h3": 12
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 ul h3 h3 h2 h2 ul h2 ul h2 h3 h3 h3 h3 h3 h3 ul h3 ul h3 h2 ul ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/how-to-do-market-research-for-a-startup/",
+   "title": "How to do market research for a start-up",
+   "h1": "How to do market research for a start-up",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 12065,
+    "p": 51,
+    "h2": 8,
+    "ul": 9,
+    "li": 31,
+    "h3": 14
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h2 h3 ul h3 ul h2 h3 ul h3 ul h2 h3 ul h3 h3 ul h3 h3 h3 h2 ul h2 h2 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/how-to-do-market-research-for-branding-and-positioning/",
+   "title": "How to do market research for branding and positioning",
+   "h1": "How to do market research for branding and positioning",
+   "lastUpdated": "10 August 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 13924,
+    "p": 56,
+    "h2": 6,
+    "ol": 1,
+    "li": 8,
+    "h3": 18,
+    "ul": 1
+   },
+   "bodyOrder": "h2 ol h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 ul h2 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/market-research/swot-analysis/",
+    "/market-research/social-media-market-research-opportunities-and-challenges/",
+    "/market-research/how-technology-is-democratizing-consumer-research/",
+    "/market-research/product-life-cycle/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/how-to-do-market-research-for-a-business-idea/",
+   "title": "How to do market research for your business idea",
+   "h1": "How to do market research for your business idea",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 16415,
+    "p": 66,
+    "h2": 7,
+    "ul": 23,
+    "li": 106,
+    "h3": 19,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 h3 ul ul h3 ul h3 h3 ul ul h3 ul h3 h2 ul h2 h3 ul ul h3 ul h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul ul h3 ul h3 ul h3 ul ul h2 ol h2 h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/how-to-find-gaps-in-the-market/",
+   "title": "How to find and fill gaps in the market",
+   "h1": "How to find and fill gaps in the market",
+   "lastUpdated": "30 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 12462,
+    "p": 47,
+    "h2": 7,
+    "ul": 3,
+    "li": 12,
+    "h3": 18
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 ul h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/how-to-find-competitors-of-a-company/",
+   "title": "How to find competitors of a company (plus 8 tools that can help)",
+   "h1": "How to find competitors of a company (plus 8 tools that can help)",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 9262,
+    "p": 38,
+    "h2": 6,
+    "ul": 2,
+    "li": 11,
+    "h3": 18
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 ul h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/swot-analysis/",
+   "title": "How to perform a SWOT analysis for effective decision-making",
+   "h1": "How to perform a SWOT analysis for effective decision-making",
+   "lastUpdated": "11 June 2026",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 13373,
+    "p": 37,
+    "h2": 11,
+    "ul": 11,
+    "li": 56,
+    "h3": 18
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 ul h3 ul h2 h3 ul h3 ul h3 ul h3 ul h2 h3 ul h3 ul h3 ul h3 ul h2 h2 h3 h3 h3 h3 h3 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/market-research/how-technology-is-democratizing-consumer-research/",
+    "/market-research/product-life-cycle/",
+    "/market-research/social-media-market-research-opportunities-and-challenges/",
+    "/market-research/market-segmentation/",
+    "/market-research/gap-analysis/",
+    "/market-research/digital-pr-strategies-guide/",
+    "/market-research/what-is-behavioral-segmentation/",
+    "/market-research/the-impact-of-insights-on-decision-making/"
+   ]
+  },
+  {
+   "path": "/market-research/surveys-in-market-research/",
+   "title": "How to use market surveys to gather actionable insights",
+   "h1": "How to use market surveys to gather actionable insights",
+   "lastUpdated": "1 April 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 14831,
+    "p": 55,
+    "h2": 5,
+    "ul": 4,
+    "li": 16,
+    "h3": 13
+   },
+   "bodyOrder": "h2 ul h3 h2 h3 h3 h3 h3 h3 h2 h3 ul h3 ul h3 ul h2 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/psychographics/",
+   "title": "How to use psychographics to understand your audience",
+   "h1": "How to use psychographics to understand your audience",
+   "lastUpdated": "1 April 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 11258,
+    "p": 59,
+    "h2": 6,
+    "ul": 5,
+    "li": 33,
+    "h3": 22,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h3 ul ul h2 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 ol h3 ul h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/what-is-market-demand/",
+   "title": "Market demand 101: How to research and calculate it for a product",
+   "h1": "Market demand 101: How to research and calculate it for a product",
+   "lastUpdated": "5 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 8,
+   "bodyShape": {
+    "chars": 11897,
+    "p": 31,
+    "h2": 8,
+    "h3": 4,
+    "ul": 2,
+    "li": 10
+   },
+   "bodyOrder": "h2 h3 h2 h2 h2 ul h2 ul h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/market-entry-framework/",
+   "title": "Market entry framework: how to successfully enter a new market",
+   "h1": "Market entry framework: how to successfully enter a new market",
+   "lastUpdated": "26 July 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 15220,
+    "p": 42,
+    "h2": 9,
+    "ol": 3,
+    "li": 39,
+    "ul": 5,
+    "h3": 11
+   },
+   "bodyOrder": "h2 ol ul h3 ol h2 ul h2 ol h2 ul h2 h3 h3 h3 h2 h3 h3 h3 h3 ul h2 ul h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/market-intelligence/",
+   "title": "Market intelligence: A quick guide",
+   "h1": "Market intelligence: A quick guide",
+   "lastUpdated": "1 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 7343,
+    "p": 48,
+    "h2": 9,
+    "ul": 5,
+    "li": 24,
+    "h3": 11
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h2 ul h2 h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 ul ul h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/market-research-trend-analysis-guide/",
+   "title": "Market research trend analysis: a step-by-step guide",
+   "h1": "Market research trend analysis: a step-by-step guide",
+   "lastUpdated": "23 July 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 11287,
+    "p": 39,
+    "h2": 6,
+    "h3": 11,
+    "ul": 2,
+    "li": 8
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 h3 h3 ul h3 h3 h3 h2 h2 h2 h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/market-trends/",
+   "title": "Market trends: What you need to know",
+   "h1": "Market trends: What you need to know",
+   "lastUpdated": "1 April 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 6803,
+    "p": 25,
+    "h2": 5,
+    "h3": 7,
+    "ul": 2,
+    "li": 7
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 ul h2 ul h2 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/mastering-the-peso-model/",
+   "title": "Mastering the PESO model: A guide to amplifying your PR and marketing impact",
+   "h1": "Mastering the PESO model: A guide to amplifying your PR and marketing impact",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "reviewer": null,
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 13139,
+    "p": 40,
+    "h2": 4,
+    "h3": 11,
+    "ul": 3,
+    "li": 10
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 ul h3 h2 h3 ul h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/product-differentiation/",
+   "title": "Product differentiation: What makes your brand stand out?",
+   "h1": "Product differentiation: What makes your brand stand out?",
+   "lastUpdated": "3 April 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 10,
+   "bodyShape": {
+    "chars": 8430,
+    "p": 43,
+    "h2": 8,
+    "ul": 5,
+    "li": 18,
+    "h3": 8
+   },
+   "bodyOrder": "h2 ul h2 h2 h2 ul h3 h3 h3 h2 ul h2 ul ul h2 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/product-research/",
+   "title": "Product research: What you need to know",
+   "h1": "Product research: What you need to know",
+   "lastUpdated": "3 April 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 38,
+   "bodyShape": {
+    "chars": 16591,
+    "p": 76,
+    "ul": 9,
+    "li": 39,
+    "h2": 9,
+    "h3": 33,
+    "ol": 1
+   },
+   "bodyOrder": "ul h2 ul h2 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h3 ul h2 h3 ul h3 h3 ul h3 h3 h3 ul h2 h3 h3 h2 h3 ul h3 h3 h3 h3 ul h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 ol h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/the-impact-of-insights-on-decision-making/",
+   "title": "Real-time market research: the impact of instant insights on decision-making",
+   "h1": "Real-time market research: the impact of instant insights on decision-making",
+   "lastUpdated": "14 November 2024",
+   "author": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "reviewer": null,
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 15506,
+    "p": 55,
+    "h2": 7,
+    "h3": 13,
+    "ul": 3,
+    "li": 6
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 ul h3 ul h3 ul h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/how-brands-grow-changed-market-research/",
+   "title": "Reshaping the marketing and market research scene: Byron Sharp’s “How Brands Grow”",
+   "h1": "Reshaping the marketing and market research scene: Byron Sharp’s “How Brands Grow”",
+   "lastUpdated": "22 February 2024",
+   "author": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "reviewer": null,
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 13086,
+    "p": 59,
+    "h2": 5,
+    "h3": 10,
+    "ul": 1,
+    "li": 2
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 ul h3 h2 h3 h3 h3 h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/social-media-market-research-opportunities-and-challenges/",
+   "title": "Social media market research: Navigating opportunities and challenges",
+   "h1": "Social media market research: Navigating opportunities and challenges",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "reviewer": null,
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 11126,
+    "p": 49,
+    "h2": 12,
+    "ul": 1,
+    "li": 3
+   },
+   "bodyOrder": "h2 h2 h2 h2 ul h2 h2 h2 h2 h2 h2 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/market-research/how-technology-is-democratizing-consumer-research/",
+    "/market-research/product-life-cycle/",
+    "/market-research/swot-analysis/",
+    "/market-research/market-segmentation/",
+    "/market-research/gap-analysis/",
+    "/market-research/digital-pr-strategies-guide/",
+    "/market-research/what-is-behavioral-segmentation/",
+    "/market-research/the-impact-of-insights-on-decision-making/"
+   ]
+  },
+  {
+   "path": "/market-research/impact-of-behavioral-science-on-market-research/",
+   "title": "The impact of behavioral science on market research and consumer insights: from ‘Nudge’ to ‘Thinking, Fast and Slow,’ and beyond",
+   "h1": "The impact of behavioral science on market research and consumer insights: from ‘Nudge’ to ‘Thinking, Fast and Slow,’ and beyond",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "reviewer": null,
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 14851,
+    "p": 59,
+    "h2": 9,
+    "ul": 2,
+    "li": 6,
+    "h3": 2
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 h2 h3 h3 ul h2 h2 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/market-research-for-customer-retention/",
+   "title": "The power of market research for customer retention",
+   "h1": "The power of market research for customer retention",
+   "lastUpdated": "23 July 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 13365,
+    "p": 46,
+    "h2": 4,
+    "h3": 15,
+    "ol": 1,
+    "li": 21,
+    "ul": 3
+   },
+   "bodyOrder": "h2 h3 h3 ol h2 h3 ul h3 h3 h3 h3 h2 h3 ul h3 h3 ul h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/what-is-psychographic-segmentation/",
+   "title": "The ultimate guide to psychographic segmentation",
+   "h1": "The ultimate guide to psychographic segmentation",
+   "lastUpdated": "25 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 14907,
+    "p": 53,
+    "h2": 6,
+    "h3": 9,
+    "ul": 8,
+    "li": 49,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h3 h2 ul h3 ul h2 ul h2 ul ul h3 h2 h3 ul ul h3 ol h3 h2 h3 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/what-is-a-sustainable-competitive-advantage/",
+   "title": "Understanding sustainable competitive advantage and why it matters",
+   "h1": "Understanding sustainable competitive advantage and why it matters",
+   "lastUpdated": "15 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 27,
+   "bodyShape": {
+    "chars": 13669,
+    "p": 49,
+    "h2": 9,
+    "ul": 3,
+    "li": 18,
+    "h3": 18,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 ol h3 h3 h3 h3 h3 h3 h3 h2 ul h2 ul h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/marketing-mix-modeling/",
+   "title": "Understanding the basics of marketing mix modeling",
+   "h1": "Understanding the basics of marketing mix modeling",
+   "lastUpdated": "3 April 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 32,
+   "bodyShape": {
+    "chars": 13442,
+    "p": 61,
+    "h2": 8,
+    "h3": 24
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/digital-pr-strategies-guide/",
+   "title": "Unlocking the power of digital PR: a strategic guide",
+   "h1": "Unlocking the power of digital PR: a strategic guide",
+   "lastUpdated": "8 October 2025",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 16983,
+    "p": 49,
+    "h2": 7,
+    "h3": 5,
+    "ul": 17,
+    "li": 42
+   },
+   "bodyOrder": "h2 h3 ul h3 ul ul ul ul h2 h3 ul h3 ul h2 ul ul ul h2 h3 ul h2 ul ul ul ul ul ul h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/market-research/how-technology-is-democratizing-consumer-research/",
+    "/market-research/product-life-cycle/",
+    "/market-research/swot-analysis/",
+    "/market-research/social-media-market-research-opportunities-and-challenges/",
+    "/market-research/market-segmentation/",
+    "/market-research/gap-analysis/",
+    "/market-research/what-is-behavioral-segmentation/",
+    "/market-research/the-impact-of-insights-on-decision-making/"
+   ]
+  },
+  {
+   "path": "/market-research/gap-analysis/",
+   "title": "What is a gap analysis, and how can you use it to get closer to your goals?",
+   "h1": "What is a gap analysis, and how can you use it to get closer to your goals?",
+   "lastUpdated": "11 June 2026",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 7828,
+    "p": 44,
+    "h2": 6,
+    "ul": 6,
+    "li": 23,
+    "h3": 14
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 h3 ul h3 ul h3 ul h3 h2 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/market-research/how-to-do-market-research-for-branding-and-positioning/",
+    "/market-research/swot-analysis/",
+    "/market-research/social-media-market-research-opportunities-and-challenges/",
+    "/market-research/how-technology-is-democratizing-consumer-research/"
+   ],
+   "latestArticlesOverride": [
+    "/market-research/how-technology-is-democratizing-consumer-research/",
+    "/market-research/product-life-cycle/",
+    "/market-research/swot-analysis/",
+    "/market-research/social-media-market-research-opportunities-and-challenges/",
+    "/market-research/market-segmentation/",
+    "/market-research/digital-pr-strategies-guide/",
+    "/market-research/what-is-behavioral-segmentation/",
+    "/market-research/the-impact-of-insights-on-decision-making/"
+   ]
+  },
+  {
+   "path": "/market-research/what-is-a-niche-market/",
+   "title": "What is a niche market? Understand the basics",
+   "h1": "What is a niche market? Understand the basics",
+   "lastUpdated": "25 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 26,
+   "bodyShape": {
+    "chars": 13248,
+    "p": 80,
+    "h2": 6,
+    "h3": 26,
+    "ul": 10,
+    "li": 52
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 ul h3 ul h3 h3 ul h2 h3 ul h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/pest-analysis/",
+   "title": "What is a PEST analysis?",
+   "h1": "What is a PEST analysis?",
+   "lastUpdated": "1 April 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 7751,
+    "p": 31,
+    "h2": 6,
+    "h3": 11,
+    "ul": 6,
+    "li": 37
+   },
+   "bodyOrder": "h2 h2 h3 ul h3 ul h3 ul h3 ul h2 ul h2 h3 ul h3 h3 h2 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/product-life-cycle/",
+   "title": "What is a product life cycle?",
+   "h1": "What is a product life cycle?",
+   "lastUpdated": "11 June 2026",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 15681,
+    "p": 54,
+    "h2": 7,
+    "ul": 15,
+    "li": 58,
+    "h3": 14
+   },
+   "bodyOrder": "h2 ul h3 ul h3 ul h3 ul ul h3 ul ul h3 ul ul h2 ul ul ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 ul h3 h2 ul h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/market-research/how-technology-is-democratizing-consumer-research/",
+    "/market-research/swot-analysis/",
+    "/market-research/social-media-market-research-opportunities-and-challenges/",
+    "/market-research/market-segmentation/",
+    "/market-research/gap-analysis/",
+    "/market-research/digital-pr-strategies-guide/",
+    "/market-research/what-is-behavioral-segmentation/",
+    "/market-research/the-impact-of-insights-on-decision-making/"
+   ]
+  },
+  {
+   "path": "/market-research/representative-sample/",
+   "title": "What is a representative sample?",
+   "h1": "What is a representative sample?",
+   "lastUpdated": "1 April 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 9244,
+    "p": 41,
+    "h2": 8,
+    "h3": 14
+   },
+   "bodyOrder": "h2 h3 h2 h3 h3 h3 h3 h2 h2 h3 h3 h2 h3 h2 h3 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/what-is-a-unique-selling-proposition/",
+   "title": "What is a unique selling proposition?",
+   "h1": "What is a unique selling proposition?",
+   "lastUpdated": "30 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 9,
+   "bodyShape": {
+    "chars": 10867,
+    "p": 39,
+    "h2": 8,
+    "ol": 4,
+    "li": 35,
+    "h3": 4,
+    "ul": 2
+   },
+   "bodyOrder": "h2 h2 ol h2 h3 ul h3 ol h2 ul h2 ol h2 h2 h2 h3 ol h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/environmental-analysis/",
+   "title": "What is an environmental analysis in marketing?",
+   "h1": "What is an environmental analysis in marketing?",
+   "lastUpdated": "1 April 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 8126,
+    "p": 39,
+    "h2": 4,
+    "ul": 6,
+    "li": 26,
+    "h3": 9
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 h3 h3 ul h3 ul h3 h3 h3 h3 ul h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/brand-equity/",
+   "title": "What is brand equity, and how can you get it?",
+   "h1": "What is brand equity, and how can you get it?",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 34,
+   "bodyShape": {
+    "chars": 13491,
+    "p": 54,
+    "h2": 13,
+    "ul": 1,
+    "li": 3,
+    "h3": 25
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h2 h3 h3 h3 h2 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/market-research/how-to-do-market-research-for-branding-and-positioning/",
+    "/market-research/swot-analysis/",
+    "/market-research/social-media-market-research-opportunities-and-challenges/",
+    "/market-research/how-technology-is-democratizing-consumer-research/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/what-is-brand-extension/",
+   "title": "What is brand extension, and when would you use it?",
+   "h1": "What is brand extension, and when would you use it?",
+   "lastUpdated": "17 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 27,
+   "bodyShape": {
+    "chars": 12624,
+    "p": 50,
+    "h2": 7,
+    "h3": 24,
+    "ol": 1,
+    "li": 20,
+    "ul": 3
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 ol h3 h3 h3 h3 h2 ul h2 ul ul h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/brand-vision/",
+   "title": "What is brand vision, and why is it important?",
+   "h1": "What is brand vision, and why is it important?",
+   "lastUpdated": "1 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 8470,
+    "p": 31,
+    "h2": 4,
+    "h3": 12,
+    "ul": 1,
+    "li": 5
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h2 h3 ul h3 h3 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/copy-test/",
+   "title": "What is copy testing and how do you do it?",
+   "h1": "What is copy testing and how do you do it?",
+   "lastUpdated": "1 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 8894,
+    "p": 32,
+    "h2": 8,
+    "ul": 2,
+    "li": 9,
+    "h3": 10
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h2 h3 ul h3 h3 h2 h2 h2 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/correspondence-analysis/",
+   "title": "What is correspondence analysis?",
+   "h1": "What is correspondence analysis?",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 10546,
+    "p": 35,
+    "h2": 8,
+    "ul": 4,
+    "li": 18,
+    "h3": 6
+   },
+   "bodyOrder": "h2 h2 h2 h2 ul h2 h3 h3 ul h3 ul h3 h2 ul h2 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/market-segmentation/",
+   "title": "What is market segmentation?",
+   "h1": "What is market segmentation?",
+   "lastUpdated": "11 June 2026",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 39,
+   "bodyShape": {
+    "chars": 14802,
+    "p": 51,
+    "h2": 10,
+    "h3": 35,
+    "ul": 3,
+    "li": 9
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 ul h3 ul h3 h2 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/market-research/how-technology-is-democratizing-consumer-research/",
+    "/market-research/product-life-cycle/",
+    "/market-research/swot-analysis/",
+    "/market-research/social-media-market-research-opportunities-and-challenges/",
+    "/market-research/gap-analysis/",
+    "/market-research/digital-pr-strategies-guide/",
+    "/market-research/what-is-behavioral-segmentation/",
+    "/market-research/the-impact-of-insights-on-decision-making/"
+   ]
+  },
+  {
+   "path": "/market-research/what-is-market-share-analysis/",
+   "title": "What is market share analysis?",
+   "h1": "What is market share analysis?",
+   "lastUpdated": "22 August 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 12811,
+    "p": 54,
+    "h2": 8,
+    "ul": 1,
+    "li": 5,
+    "h3": 16,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h2 h3 ol h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/price-sensitivity/",
+   "title": "What is price sensitivity, and how can you measure it?",
+   "h1": "What is price sensitivity, and how can you measure it?",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 10719,
+    "p": 67,
+    "h2": 9,
+    "ul": 4,
+    "li": 18,
+    "h3": 18
+   },
+   "bodyOrder": "h2 h2 h2 h2 ul h2 h3 ul h3 h3 h3 h3 h2 h3 h3 h3 h3 ul h2 h2 h3 ul h3 h3 h3 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/risk-analysis/",
+   "title": "What is risk analysis?",
+   "h1": "What is risk analysis?",
+   "lastUpdated": "3 April 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 8449,
+    "p": 27,
+    "h2": 9,
+    "ol": 1,
+    "li": 17,
+    "ul": 4,
+    "h3": 11
+   },
+   "bodyOrder": "h2 ol h2 h2 ul h2 ul h2 ul h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 ul h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/secondary-market-research/",
+   "title": "What is secondary market research?",
+   "h1": "What is secondary market research?",
+   "lastUpdated": "3 April 2024",
+   "author": null,
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 34,
+   "bodyShape": {
+    "chars": 13293,
+    "p": 52,
+    "h2": 10,
+    "ul": 2,
+    "li": 9,
+    "h3": 24
+   },
+   "bodyOrder": "h2 ul h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/social-interaction-theory/",
+   "title": "What is social interactionist theory?",
+   "h1": "What is social interactionist theory?",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 8121,
+    "p": 31,
+    "h2": 7,
+    "h3": 6,
+    "ul": 7,
+    "li": 28
+   },
+   "bodyOrder": "h2 h2 h3 ul h3 h2 h3 h3 ul h2 ul h2 ul h3 ul ul h3 h2 h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/what-is-target-market-analysis/",
+   "title": "What is target market analysis? An overview",
+   "h1": "What is target market analysis? An overview",
+   "lastUpdated": "15 July 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 8,
+   "bodyShape": {
+    "chars": 8056,
+    "p": 27,
+    "ul": 6,
+    "li": 26,
+    "h2": 7,
+    "h3": 3
+   },
+   "bodyOrder": "ul h2 h2 h2 h2 ul h2 ul h3 h3 ul ul h2 ul h2 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/primary-market-research/",
+   "title": "What you need to know about primary market research",
+   "h1": "What you need to know about primary market research",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 10,
+   "bodyShape": {
+    "chars": 5938,
+    "h2": 6,
+    "p": 31,
+    "ul": 5,
+    "li": 17,
+    "h3": 7
+   },
+   "bodyOrder": "h2 ul h2 h2 h2 ul h3 ul h3 ul h3 h3 h3 h2 h2 h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/the-future-of-market-research-post-chatgpt/",
+   "title": "Where next for market research in an AI world?",
+   "h1": "Where next for market research in an AI world?",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "reviewer": null,
+   "tocItems": 10,
+   "bodyShape": {
+    "chars": 12000,
+    "h3": 1,
+    "p": 49,
+    "h2": 9
+   },
+   "bodyOrder": "h3 h2 h2 h2 h2 h2 h2 h2 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/market-research/what-is-behavioral-segmentation/",
+   "title": "Why behavioral segmentation in market research matters",
+   "h1": "Why behavioral segmentation in market research matters",
+   "lastUpdated": "10 January 2025",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 27,
+   "bodyShape": {
+    "chars": 15309,
+    "p": 63,
+    "h2": 9,
+    "h3": 21
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h2 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/market-research/how-technology-is-democratizing-consumer-research/",
+    "/market-research/product-life-cycle/",
+    "/market-research/swot-analysis/",
+    "/market-research/social-media-market-research-opportunities-and-challenges/",
+    "/market-research/market-segmentation/",
+    "/market-research/gap-analysis/",
+    "/market-research/digital-pr-strategies-guide/",
+    "/market-research/the-impact-of-insights-on-decision-making/"
+   ]
+  }
+ ],
+ "sidebarCta": {
+  "heading": "Turn market research into insights",
+  "body": "Use Dovetail's powerful analysis features to save time, highlight crucial insights, and drive strategic decisions.",
+  "button": {
+   "text": "Contact sales",
+   "href": "/contact-sales/"
+  }
+ }
+}

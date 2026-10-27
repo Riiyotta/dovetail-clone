@@ -1,0 +1,834 @@
+{
+ "url": "/legal/master-subscription-agreement/",
+ "template": "legal-doc",
+ "meta": {
+  "title": "Master Subscription Agreement",
+  "description": "Dovetail’s legal and privacy documents, including the user terms of service, privacy policy, data processing agreement, and acceptable use policy."
+ },
+ "theme": "light",
+ "breadcrumb": [
+  {
+   "text": "Home",
+   "href": "/"
+  },
+  {
+   "text": "Legal",
+   "href": "/legal/"
+  }
+ ],
+ "h1": "Master Subscription Agreement",
+ "sideNav": {
+  "groups": [
+   {
+    "group": "Legal",
+    "links": [
+     {
+      "text": "Master Subscription Agreement",
+      "href": "/legal/master-subscription-agreement/"
+     },
+     {
+      "text": "User Terms of Service",
+      "href": "/legal/user-terms-of-service/"
+     },
+     {
+      "text": "Acceptable Use Policy",
+      "href": "/legal/acceptable-use-policy/"
+     },
+     {
+      "text": "Product-Specific Terms: AI Features",
+      "href": "/legal/ai-features/"
+     },
+     {
+      "text": "Mutual Non-Disclosure Agreement",
+      "href": "/legal/mutual-non-disclosure-agreement/"
+     },
+     {
+      "text": "Product-Specific Terms: Recruit",
+      "href": "/legal/product-specific-terms-recruit/"
+     },
+     {
+      "text": "Community Code of Conduct",
+      "href": "/legal/community-code-of-conduct/"
+     },
+     {
+      "text": "Insurance",
+      "href": "/legal/insurance/"
+     },
+     {
+      "text": "Accessibility Statement",
+      "href": "/legal/accessibility-statement/"
+     },
+     {
+      "text": "Open Source",
+      "href": "/legal/open-source/"
+     },
+     {
+      "text": "Press Kit and Logo Usage",
+      "href": "/legal/press-kit/"
+     },
+     {
+      "text": "Modern Slavery Statement",
+      "href": "/legal/modern-slavery-statement/"
+     },
+     {
+      "text": "Anti-Bribery and Anti-Corruption Statement",
+      "href": "/legal/anti-bribery-and-anti-corruption-statement/"
+     },
+     {
+      "text": "AI Models",
+      "href": "/legal/ai-models/"
+     }
+    ]
+   },
+   {
+    "group": "Privacy",
+    "links": [
+     {
+      "text": "Compliance With Laws",
+      "href": "/privacy/compliance-with-laws/"
+     },
+     {
+      "text": "Data Processing Agreement",
+      "href": "/privacy/data-processing-agreement/"
+     },
+     {
+      "text": "Privacy Policy",
+      "href": "/privacy/privacy-policy/"
+     },
+     {
+      "text": "Data Subject Access Request",
+      "href": "/privacy/data-subject-access-request/"
+     },
+     {
+      "text": "Event Release",
+      "href": "/privacy/event-release/"
+     }
+    ]
+   }
+  ],
+  "expandedGroup": "Legal",
+  "current": "/legal/master-subscription-agreement/"
+ },
+ "toc": [
+  "1. Orders",
+  "2. Access and Use",
+  "3. Hosting and Other Providers",
+  "4. Security and Privacy",
+  "5. Customer Responsibilities and Restrictions",
+  "6. Compliance",
+  "7. Pricing and Fees",
+  "8. Service Plans; Automatic Renewal; Cancellation",
+  "9. Taxes",
+  "10. Ownership",
+  "11. Confidentiality",
+  "12. Disclaimers",
+  "13. Term and Termination",
+  "14. Indemnification",
+  "15. Limitations of Liability",
+  "16. Publicity",
+  "17. Notices",
+  "18. Assignments",
+  "19. U.S. Government Contractors",
+  "20. Independent Parties; No Third-Party Beneficiaries",
+  "21. Force Majeure",
+  "22. Governing Law; Venue",
+  "23. Miscellaneous",
+  "24. Counterparts",
+  "25. Changes to this Agreement",
+  "26. Definitions"
+ ],
+ "body": [
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 304,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 328,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 721,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 344,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 292,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 123
+  },
+  {
+   "type": "h2",
+   "id": "1-orders",
+   "text": "1. Orders"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 347
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 295
+  },
+  {
+   "type": "h2",
+   "id": "2-access-and-use",
+   "text": "2. Access and Use"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 192
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 1104,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 872,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 507,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 634,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 513
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 719
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 168
+  },
+  {
+   "type": "h2",
+   "id": "3-hosting-and-other-providers",
+   "text": "3. Hosting and Other Providers"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 797,
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "4-security-and-privacy",
+   "text": "4. Security and Privacy"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 565,
+   "links": [
+    {
+     "chars": 52,
+     "href": "https://docs.dovetail.com/help/security-information/"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 641,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 1266,
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "5-customer-responsibilities-and-restrictions",
+   "text": "5. Customer Responsibilities and Restrictions"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 1139
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 1366
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 950,
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "6-compliance",
+   "text": "6. Compliance"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 852,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 807
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 701,
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "7-pricing-and-fees",
+   "text": "7. Pricing and Fees"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 406,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 1060
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 1150
+  },
+  {
+   "type": "h2",
+   "id": "8-service-plans-automatic-renewal-cancellation",
+   "text": "8. Service Plans; Automatic Renewal; Cancellation"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 19
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 231
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 436
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 170
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 922,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 1134,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 141
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 225
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 88
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 337
+  },
+  {
+   "type": "h2",
+   "id": "9-taxes",
+   "text": "9. Taxes"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 935,
+   "links": [
+    {
+     "chars": 46,
+     "href": "https://docs.dovetail.com/help/taxes-and-fees/"
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "10-ownership",
+   "text": "10. Ownership"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 557,
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "11-confidentiality",
+   "text": "11. Confidentiality"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 1368,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 1387
+  },
+  {
+   "type": "h2",
+   "id": "12-disclaimers",
+   "text": "12. Disclaimers"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 497,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 1006,
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "13-term-and-termination",
+   "text": "13. Term and Termination"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 127
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 590
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 650
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 693,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 716
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 310
+  },
+  {
+   "type": "h2",
+   "id": "14-indemnification",
+   "text": "14. Indemnification"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 797,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 1214,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 369,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 1096,
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "15-limitations-of-liability",
+   "text": "15. Limitations of Liability"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 1274,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 190,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 631
+  },
+  {
+   "type": "h2",
+   "id": "16-publicity",
+   "text": "16. Publicity"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 491
+  },
+  {
+   "type": "h2",
+   "id": "17-notices",
+   "text": "17. Notices"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 1136,
+   "links": [
+    {
+     "chars": 18,
+     "href": "mailto:legal@dovetail.com"
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "18-assignments",
+   "text": "18. Assignments"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 1536
+  },
+  {
+   "type": "h2",
+   "id": "19-us-government-contractors",
+   "text": "19. U.S. Government Contractors"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 737,
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "20-independent-parties-no-third-party-beneficiaries",
+   "text": "20. Independent Parties; No Third-Party Beneficiaries"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 543
+  },
+  {
+   "type": "h2",
+   "id": "21-force-majeure",
+   "text": "21. Force Majeure"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 980,
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "22-governing-law-venue",
+   "text": "22. Governing Law; Venue"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 707
+  },
+  {
+   "type": "h2",
+   "id": "23-miscellaneous",
+   "text": "23. Miscellaneous"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 2361
+  },
+  {
+   "type": "h2",
+   "id": "24-counterparts",
+   "text": "24. Counterparts"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 441
+  },
+  {
+   "type": "h2",
+   "id": "25-changes-to-this-agreement",
+   "text": "25. Changes to this Agreement"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 850,
+   "links": [
+    {
+     "chars": 27,
+     "href": "/legal/"
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "26-definitions",
+   "text": "26. Definitions"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 129
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 451,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 280,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 173,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 128,
+   "links": [
+    {
+     "chars": 49,
+     "href": "/legal/acceptable-use-policy/"
+    }
+   ],
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 338,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 129,
+   "links": [
+    {
+     "chars": 26,
+     "href": "https://docs.dovetail.com/"
+    }
+   ],
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 199,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 285,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 368,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 138,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 438,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 493,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 44,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 188,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 61,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 164,
+   "links": [
+    {
+     "chars": 29,
+     "href": "/pricing/"
+    }
+   ],
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 253,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 167,
+   "links": [
+    {
+     "chars": 27,
+     "href": "/legal/"
+    }
+   ],
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 1016,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 171,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 692,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 80,
+   "hasBold": true
+  }
+ ],
+ "lastUpdated": {
+  "label": "Last updated",
+  "date": "16 July 2025"
+ },
+ "navRightButtons": false,
+ "finalCta": true
+}

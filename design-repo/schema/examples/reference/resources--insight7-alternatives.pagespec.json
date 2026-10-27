@@ -1,0 +1,818 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T22",
+ "route": "/resources/insight7-alternatives/",
+ "theme": "light",
+ "chrome": {
+  "banner": "light",
+  "nav": "light",
+  "footer": "light"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Insight7 Alternatives: Tools for Research and Call Analysis"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "light",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "light",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "article.header",
+   "variant": "light",
+   "content": {
+    "heading": "What can I use instead of Insight7? Alternatives by use case",
+    "actions": [
+     {
+      "label": "GUIDES",
+      "href": "/guides/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.byline",
+   "variant": "default",
+   "content": {},
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.sidebar-card",
+   "variant": "default",
+   "content": {
+    "heading": "Get started today",
+    "lead": "Go from raw data to valuable insights with a flexible research platform",
+    "actions": [
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "sticky.pin",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.contents-nav",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "What are the main alternatives to Insight7?",
+      "href": "#"
+     },
+     {
+      "label": "What Dovetail does for research teams",
+      "href": "#"
+     },
+     {
+      "label": "How the other options compare",
+      "href": "#"
+     },
+     {
+      "label": "How should I evaluate an Insight7 alternative?",
+      "href": "#"
+     },
+     {
+      "label": "Questions about fit",
+      "href": "#"
+     },
+     {
+      "label": "Questions about trust and longevity",
+      "href": "#"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "scroll.spy",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "What is Insight7 used for, and why does that matter when you choose a replacement?",
+    "body": [
+     {
+      "kind": "paragraph",
+      "text": "Nisi ea duis in velit fugiat excepteur cupidatat sunt officia. Anim laborum dolor consectetur sed tempor labore magna ad quis ullamco aliquip commodo aute. Reprehenderit esse nulla sint non culpa deserunt id lorem sit adipiscing do incididunt et. Aliqua minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident qui mollit. Est ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi ea duis in. Velit fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco aliquip commodo aute reprehenderit."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Aute reprehenderit esse nulla sint non culpa deserunt id lorem sit. Adipiscing do incididunt et aliqua minim nostrud laboris ex consequat irure. Voluptate cillum pariatur occaecat proident qui mollit est ipsum. Amet elit eiusmod ut dolore enim veniam exercitation. Nisi ea duis in velit fugiat excepteur cupidatat sunt officia anim. Laborum dolor consectetur sed tempor labore magna ad."
+     },
+     {
+      "kind": "heading",
+      "text": "What is Insight7 used for, and why does that matter when you choose a replacement?"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Cupidatat sunt officia anim laborum dolor consectetur sed tempor labore magna ad quis. Ullamco aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt id. Lorem sit adipiscing do incididunt et aliqua minim nostrud laboris ex consequat irure. Voluptate."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Deserunt id lorem sit adipiscing do."
+     },
+     {
+      "kind": "list-item",
+      "text": "Research and product teams Ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi. Ea duis in velit fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur. Sed tempor."
+     },
+     {
+      "kind": "list-item",
+      "text": "Sales and contact center teams Sed tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit. Esse nulla sint non culpa deserunt id."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Sed tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit. Esse nulla sint non culpa deserunt id lorem sit adipiscing. Do incididunt et aliqua minim nostrud laboris ex consequat irure voluptate cillum. Pariatur occaecat proident qui mollit est ipsum."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "What are the main alternatives to Insight7?",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "What are the main alternatives to Insight7?"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt officia anim. Laborum dolor consectetur sed tempor labore magna ad quis ullamco aliquip. Commodo aute reprehenderit esse nulla sint non culpa deserunt. Id lorem sit adipiscing do incididunt et aliqua."
+     },
+     {
+      "kind": "table",
+      "text": "10 rows"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Which Insight7 alternative is best for UX research and interview analysis?",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Which Insight7 alternative is best for UX research and interview analysis?"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor. Labore magna ad quis ullamco aliquip commodo aute. Reprehenderit esse nulla sint non culpa deserunt id lorem sit adipiscing. Do incididunt et aliqua minim."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "What Dovetail does for research teams"
+     },
+     {
+      "kind": "list-item",
+      "text": "Automatic transcription Mollit est ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi ea. Duis in velit fugiat."
+     },
+     {
+      "kind": "list-item",
+      "text": "Highlights Dolor consectetur sed tempor labore magna ad quis ullamco. Aliquip commodo aute reprehenderit esse nulla."
+     },
+     {
+      "kind": "list-item",
+      "text": "Tags and themes across projects Do incididunt et aliqua minim nostrud laboris ex consequat irure. Voluptate."
+     },
+     {
+      "kind": "list-item",
+      "text": "AI-powered analysis Dolore enim veniam exercitation nisi ea duis in velit fugiat excepteur. Cupidatat."
+     },
+     {
+      "kind": "list-item",
+      "text": "Docs and integrations Quis ullamco aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt. Id lorem sit."
+     },
+     {
+      "kind": "quote",
+      "text": "Dolor consectetur sed tempor labore magna ad quis ullamco. Aliquip commodo aute reprehenderit esse nulla sint."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "How the other options compare"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Dolore enim veniam exercitation nisi ea duis in velit fugiat excepteur. Cupidatat sunt officia anim laborum dolor consectetur sed tempor labore magna ad quis ullamco. Aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt id lorem sit adipiscing. Do incididunt et aliqua minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat. Proident qui mollit est."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Quis ullamco aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt. Id lorem sit adipiscing do incididunt et aliqua minim nostrud laboris. Ex consequat irure voluptate cillum pariatur occaecat proident qui. Mollit est ipsum amet elit eiusmod ut dolore."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Which alternative works for support tickets, reviews, and survey feedback?",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Which alternative works for support tickets, reviews, and survey feedback?"
+     },
+     {
+      "kind": "paragraph",
+      "text": "In velit fugiat excepteur cupidatat sunt officia anim laborum. Dolor consectetur sed tempor labore magna ad quis ullamco aliquip commodo. Aute reprehenderit esse nulla sint non culpa deserunt id. Lorem sit adipiscing do incididunt et aliqua minim. Nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident qui. Mollit est ipsum amet elit eiusmod ut dolore enim. Veniam exercitation nisi ea duis in velit fugiat. Excepteur cupidatat."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Nulla sint non culpa deserunt id lorem sit adipiscing do. Incididunt et aliqua minim nostrud laboris ex consequat. Irure voluptate cillum pariatur occaecat proident qui mollit est ipsum amet. Elit eiusmod ut dolore enim veniam exercitation nisi ea. Duis in velit fugiat excepteur cupidatat sunt officia. Anim laborum dolor consectetur sed tempor labore magna ad quis ullamco. Aliquip commodo."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Proident qui mollit est ipsum amet elit eiusmod ut dolore enim. Veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt officia. Anim laborum dolor consectetur sed tempor labore magna ad quis ullamco aliquip commodo. Aute reprehenderit esse nulla sint non culpa."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "What should I use if I mainly analyze sales or contact center calls?",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "What should I use if I mainly analyze sales or contact center calls?"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Sit adipiscing do incididunt et aliqua minim nostrud laboris ex consequat irure voluptate. Cillum pariatur occaecat proident qui mollit est ipsum amet elit eiusmod ut dolore enim. Veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt officia anim laborum."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Eiusmod ut dolore enim veniam exercitation nisi ea duis. In velit fugiat excepteur cupidatat sunt officia anim laborum dolor. Consectetur sed tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit. Esse nulla sint non culpa deserunt id lorem sit adipiscing do incididunt et. Aliqua minim nostrud laboris ex consequat irure voluptate cillum pariatur. Occaecat proident qui mollit est."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "What if I only need transcription and meeting notes?",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "What if I only need transcription and meeting notes?"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident qui. Mollit est ipsum amet elit eiusmod ut dolore enim veniam exercitation. Nisi ea duis in velit fugiat excepteur cupidatat sunt. Officia anim laborum dolor consectetur sed tempor labore. Magna ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint. Non culpa deserunt id lorem sit adipiscing do."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "How should I evaluate an Insight7 alternative?",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "How should I evaluate an Insight7 alternative?"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Reprehenderit esse nulla sint non culpa deserunt id lorem sit adipiscing do incididunt. Et aliqua minim nostrud laboris ex consequat irure voluptate cillum."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Questions about fit"
+     },
+     {
+      "kind": "list-item",
+      "text": "What’s the main job? Sunt officia anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco aliquip commodo aute."
+     },
+     {
+      "kind": "list-item",
+      "text": "Which data sources matter? Id lorem sit adipiscing do incididunt et aliqua minim nostrud laboris. Ex consequat irure voluptate cillum pariatur occaecat proident qui. Mollit est."
+     },
+     {
+      "kind": "list-item",
+      "text": "Who will use it? Amet elit eiusmod ut dolore enim veniam exercitation nisi ea duis in. Velit fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur sed."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Questions about trust and longevity"
+     },
+     {
+      "kind": "list-item",
+      "text": "Can you verify AI output? Amet elit eiusmod ut dolore enim veniam exercitation nisi ea duis in. Velit fugiat excepteur."
+     },
+     {
+      "kind": "list-item",
+      "text": "Do insights accumulate? Tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint. Non culpa deserunt id."
+     },
+     {
+      "kind": "list-item",
+      "text": "How do findings reach stakeholders? Aliqua minim nostrud laboris ex consequat irure voluptate cillum. Pariatur occaecat proident qui mollit est ipsum amet elit."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Questions about switching"
+     },
+     {
+      "kind": "list-item",
+      "text": "What can you bring with you? Aliqua minim nostrud laboris ex consequat irure voluptate cillum. Pariatur occaecat proident qui mollit est ipsum amet elit eiusmod ut dolore enim veniam. Exercitation nisi ea duis."
+     },
+     {
+      "kind": "list-item",
+      "text": "Can you test it on real data? Exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt. Officia anim laborum dolor consectetur sed tempor."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Is it better to replace Insight7 with one platform or several tools?",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Is it better to replace Insight7 with one platform or several tools?"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Commodo aute reprehenderit esse nulla sint non culpa deserunt id lorem. Sit adipiscing do incididunt et aliqua minim nostrud. Laboris ex consequat irure voluptate cillum pariatur occaecat proident qui."
+     },
+     {
+      "kind": "list-item",
+      "text": "Product, research, and CX teams Voluptate cillum pariatur occaecat proident qui mollit est ipsum amet elit eiusmod. Ut dolore enim veniam exercitation."
+     },
+     {
+      "kind": "list-item",
+      "text": "Sales and support operations Excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor."
+     },
+     {
+      "kind": "list-item",
+      "text": "The Gong integration connects the two Culpa deserunt id lorem sit adipiscing do incididunt et. Aliqua minim."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor labore magna ad. Quis ullamco aliquip commodo aute reprehenderit esse nulla sint. Non culpa deserunt id lorem sit adipiscing do. Incididunt et."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "FAQs",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "FAQs"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "What is the best alternative to Insight7?"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Consectetur sed tempor labore magna ad quis ullamco aliquip commodo aute. Reprehenderit esse nulla sint non culpa deserunt id lorem sit adipiscing do incididunt et. Aliqua minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident qui mollit. Est ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi ea duis in. Velit fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt id. Lorem sit adipiscing do incididunt et aliqua."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Why choose Dovetail over Insight7?"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Enim veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt officia. Anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint non. Culpa deserunt id lorem sit adipiscing do incididunt et. Aliqua minim nostrud laboris ex consequat irure voluptate. Cillum pariatur occaecat proident qui mollit est ipsum amet elit eiusmod. Ut dolore enim veniam exercitation nisi ea duis in. Velit fugiat excepteur cupidatat sunt officia anim laborum. Dolor consectetur."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Can Dovetail analyze sales and support calls?"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Consequat irure voluptate cillum pariatur occaecat proident qui mollit est. Ipsum amet elit eiusmod ut dolore enim veniam. Exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt officia. Anim laborum dolor consectetur sed tempor labore magna ad. Quis ullamco aliquip commodo aute reprehenderit esse nulla. Sint non culpa deserunt id lorem sit adipiscing do incididunt et."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Do I need a research repository or an AI analysis tool?"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Sint non culpa deserunt id lorem sit adipiscing do incididunt et aliqua. Minim nostrud laboris ex consequat irure voluptate cillum pariatur. Occaecat proident qui mollit est ipsum amet elit. Eiusmod ut dolore enim veniam exercitation nisi ea duis in velit. Fugiat excepteur cupidatat sunt officia anim laborum."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Can I analyze support tickets and reviews alongside user interviews?"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Laborum dolor consectetur sed tempor labore magna ad quis. Ullamco aliquip commodo aute reprehenderit esse nulla sint non. Culpa deserunt id lorem sit adipiscing do incididunt. Et aliqua minim nostrud laboris ex consequat irure voluptate cillum pariatur. Occaecat proident qui mollit est ipsum."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "listing.related-articles",
+   "variant": "text-links",
+   "content": {
+    "heading": "Related articles↘",
+    "actions": [
+     {
+      "label": "Dovetail vs Enterpret",
+      "href": "/resources/dovetail-vs-enterpret/"
+     },
+     {
+      "label": "Dovetail vs Marvin",
+      "href": "/resources/dovetail-vs-marvin/"
+     },
+     {
+      "label": "Dovetail vs Qualtrics",
+      "href": "/resources/dovetail-vs-qualtrics/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Dovetail review: tagging, search, AI, and pricing in 2026",
+      "href": "/resources/dovetail-review/"
+     },
+     {
+      "title": "Dovetail vs Enterpret",
+      "href": "/resources/dovetail-vs-enterpret/"
+     },
+     {
+      "title": "Dovetail vs Marvin",
+      "href": "/resources/dovetail-vs-marvin/"
+     },
+     {
+      "title": "Dovetail vs Qualtrics",
+      "href": "/resources/dovetail-vs-qualtrics/"
+     },
+     {
+      "title": "How does Dovetail compare to Aurelius for user research?",
+      "href": "/resources/dovetail-vs-aurelius/"
+     },
+     {
+      "title": "Dovetail review: tagging, search, AI, and pricing in 2026",
+      "href": "/resources/dovetail-review/"
+     },
+     {
+      "title": "Dovetail vs Enterpret",
+      "href": "/resources/dovetail-vs-enterpret/"
+     },
+     {
+      "title": "Dovetail vs Marvin",
+      "href": "/resources/dovetail-vs-marvin/"
+     },
+     {
+      "title": "Dovetail vs Qualtrics",
+      "href": "/resources/dovetail-vs-qualtrics/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.inline-band",
+   "variant": "light",
+   "content": {
+    "heading": "Turn customer feedback into product innovation",
+    "actions": [
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     },
+     {
+      "label": "Try Dovetail free",
+      "href": "/auth/signup/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "light",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "interactive.toc-sheet",
+   "variant": "default",
+   "content": {},
+   "motion": {
+    "pattern": "sheet.slide",
+    "reducedMotionFallback": "show-immediately"
+   },
+   "retrievalEligible": false
+  }
+ ]
+}

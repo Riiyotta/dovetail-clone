@@ -1,0 +1,11 @@
+{
+ "id": "cursor-tooltip",
+ "kind": "component",
+ "title": "Cursor tooltip",
+ "composes": [
+  "eyebrow"
+ ],
+ "evidence": [
+  "CLONE_SPEC.md:194"
+ ]
+}

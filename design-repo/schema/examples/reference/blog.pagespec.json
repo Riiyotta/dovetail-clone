@@ -1,0 +1,556 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T16",
+ "route": "/blog/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail clone (local)"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "listing.featured-header",
+   "variant": "default",
+   "content": {
+    "heading": "Blog",
+    "actions": [
+     {
+      "label": "All",
+      "href": "#"
+     },
+     {
+      "label": "AI",
+      "href": "#"
+     },
+     {
+      "label": "Dovetail team",
+      "href": "#"
+     },
+     {
+      "label": "Engineering",
+      "href": "#"
+     },
+     {
+      "label": "Product",
+      "href": "#"
+     },
+     {
+      "label": "Ideas",
+      "href": "#"
+     }
+    ],
+    "items": [
+     {
+      "title": "How to get stakeholders to trust your design decisions",
+      "text": "7 September 2026",
+      "href": "/blog/stakeholder-trust-design-decisions/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/stakeholder-trust-design-decisions-hero-poster.png"
+      }
+     },
+     {
+      "title": "AI made building faster, now customer understanding is the bottleneck",
+      "text": "27 August 2026",
+      "href": "/blog/customer-understanding-ai-bottleneck-digital-twins/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/customer-understanding-ai-bottleneck-digital-twins.jpg"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.hero"
+   }
+  },
+  {
+   "section": "listing.card-grid",
+   "variant": "blog",
+   "content": {
+    "actions": [
+     {
+      "label": "Load more",
+      "href": "#"
+     }
+    ],
+    "items": [
+     {
+      "title": "9 Digital Twins you can build today (and exactly what they’ll do for you)",
+      "text": "26 August 2026",
+      "href": "/blog/9-digital-twins-you-can-build-today/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/9-digital-twins-you-can-build-today.jpg"
+      }
+     },
+     {
+      "title": "Unlocking the product brain: the secret to tackling PM bottlenecks with Ordermentum’s CPO",
+      "text": "20 August 2026",
+      "href": "/blog/unlocking-the-product-brain-with-ordermentums-cpo/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/unlocking-the-product-brain-with-ordermentums-cpo-hero-poster.png"
+      }
+     },
+     {
+      "title": "Quality work you don’t see",
+      "text": "13 August 2026",
+      "href": "/blog/the-work-you-dont-see/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/the-work-you-dont-see-hero.png"
+      }
+     },
+     {
+      "title": "Your brand tracker isn’t dead. It’s finally doing the job it was designed for.",
+      "text": "12 August 2026",
+      "href": "/blog/brand-trackers-arent-dead/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/brand-trackers-arent-dead-hero-poster.png"
+      }
+     },
+     {
+      "title": "Why vertical integration is the enterprise AI competitive advantage",
+      "text": "4 August 2026",
+      "href": "/blog/vertical-integration-enterprise-ai-advantage/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/vertical-integration-enterprise-ai-advantage.jpg"
+      }
+     },
+     {
+      "title": "Governance controls, context engineering, and standardization capabilities at enterprise scale",
+      "text": "28 July 2026",
+      "href": "/blog/suns-out-enterprise/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/suns-out-enterprise-thumbnail.png"
+      }
+     },
+     {
+      "title": "Avoiding the moral crumple zone: how to build successful medical AI systems by design",
+      "text": "24 July 2026",
+      "href": "/blog/avoiding-the-moral-crumple-zone/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/moral-crumple-zone-hero-poster.png"
+      }
+     },
+     {
+      "title": "Dovetail’s ecosystem grows with 18 new integrations and first-party MCP connectors",
+      "text": "21 July 2026",
+      "href": "/blog/suns-out-ecosystem/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/suns-out-ecosystem.png"
+      }
+     },
+     {
+      "title": "Channels 2.0: from customer feedback to code in one click",
+      "text": "20 July 2026",
+      "href": "/blog/suns-out-channels/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/suns-out-channels.png"
+      }
+     },
+     {
+      "title": "Meet the team you didn’t have headcount for—Digital Twins and Agents now in Dovetail",
+      "text": "17 July 2026",
+      "href": "/blog/suns-out-ai-agents/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/suns-out-ai-agents.png"
+      }
+     },
+     {
+      "title": "Dovetail launches major AI-powered platform expansion including Agents and category-defining Digital Twins, to close the gap between customer signal and business outcomes",
+      "text": "14 July 2026",
+      "href": "/blog/suns-out-summer-launch-26/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/suns-out-2026-press-release.png"
+      }
+     },
+     {
+      "title": "Our Sun’s Out launch: Introducing Digital Twins, agents, Channels 2.0, and new enterprise-grade features",
+      "text": "14 July 2026",
+      "href": "/blog/suns-out-2026-launch/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/suns-out-summer-launch-26.png"
+      }
+     },
+     {
+      "title": "You can’t build trustworthy AI on top of untrustworthy data",
+      "text": "1 July 2026",
+      "href": "/blog/you-cant-build-trustworthy-ai-on-untrustworthy-data/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/chaka-you-cant-build-trustworthy-ai.jpg"
+      }
+     },
+     {
+      "title": "The quiet transition: UXR jobs in the Builder's Era",
+      "text": "25 June 2026",
+      "href": "/blog/uxr-quiet-transition-builders-era/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/uxr-quiet-transition-builders-era-poster.png"
+      }
+     },
+     {
+      "title": "What a fragmented VoC program can cost you",
+      "text": "23 June 2026",
+      "href": "/blog/voc-program-fragmentation-problem/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/image-5-.png"
+      }
+     },
+     {
+      "title": "Should you build or buy your next piece of software?",
+      "text": "16 June 2026",
+      "href": "/blog/should-you-build-or-buy-your-next-piece-of-software/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/should-you-build-or-buy-your-next-piece-of-software.jpg"
+      }
+     },
+     {
+      "title": "Engineers, you're not the first to panic about democratization",
+      "text": "15 June 2026",
+      "href": "/blog/engineers-youre-not-the-first-to-panic-about-democratization/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/engineers-youre-not-the-first-to-panic-about-democratization.png"
+      }
+     },
+     {
+      "title": "Fetch once, use everywhere: rebuilding how Dovetail ingests your data",
+      "text": "15 June 2026",
+      "href": "/blog/fetch-once-use-everywhere-rebuilding-data-ingestion/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/fetch-once-use-everywhere-rebuilding-data-ingestion.jpg"
+      }
+     },
+     {
+      "title": "Pixel-f**ing the new chat library",
+      "text": "15 June 2026",
+      "href": "/blog/pixel-fing-the-new-chat-library/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/pixel-fing-the-new-chat-library.jpg"
+      }
+     },
+     {
+      "title": "The innovation paradox: How AI may be making us less innovative",
+      "text": "12 June 2026",
+      "href": "/blog/the-innovation-paradox/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/innovation-paradox-hero-poster.png"
+      }
+     },
+     {
+      "title": "Your research is good. So why isn't it changing anything?",
+      "text": "10 June 2026",
+      "href": "/blog/your-research-is-good-so-why-isnt-it-changing-anything/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/05_Query_736x492.png"
+      }
+     },
+     {
+      "title": "If you don't go on-call for your customer, you don't own it",
+      "text": "3 June 2026",
+      "href": "/blog/if-you-dont-go-on-call-you-dont-own-it/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/if-you-dont-go-on-call-you-dont-own-it.png"
+      }
+     },
+     {
+      "title": "Unreasonable experiences: why great products are no longer enough",
+      "text": "3 June 2026",
+      "href": "/blog/unreasonable-experiences-why-great-products-are-no-longer-enough/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/unreasonable-experiences-why-great-products-are-no-longer-enough.png"
+      }
+     },
+     {
+      "title": "What if the organization was your research subject?",
+      "text": "21 May 2026",
+      "href": "/blog/what-if-the-organization-was-your-research-subject/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/what-if-the-organization-was-your-research-subject-poster.png"
+      }
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "content.cover",
+      "alt": "",
+      "ref": "/assets/content/stakeholder-trust-design-decisions-hero-poster.png"
+     },
+     {
+      "assetRole": "content.cover",
+      "alt": "",
+      "ref": "/assets/content/customer-understanding-ai-bottleneck-digital-twins.jpg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s80"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "dark",
+   "content": {
+    "heading": "The best never guess",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "#"
+     },
+     {
+      "label": "Start free trial",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-theright-salesforce.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestfarleft-aws.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestleft-canva.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestright-airwallex.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverright-notion.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverfarright-zapier.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessleft-wise.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessfarleft-breville.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

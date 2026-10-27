@@ -1,0 +1,98 @@
+{
+ "slug": "the-widening-empathy-gap",
+ "path": "/events/the-widening-empathy-gap/",
+ "title": "The widening empathy gap",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2026-04-20T17:30+10:00",
+ "endDate": null,
+ "onlineEvent": false,
+ "location": "Dovetail, Surry Hills, New South Wales",
+ "hosts": [
+  "Tom Belica"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": null,
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Tom Belica"
+  },
+  {
+   "label": "[START]",
+   "value": "20 Apr 2026 12:30AM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Dovetail, Surry Hills, New South Wales"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png",
+  "width": 1920,
+  "height": 1080,
+  "youtubeId": null
+ },
+ "body": [
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 262
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 358
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 197
+  },
+  {
+   "t": "h2",
+   "text": "Schedule"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "text": "5:30–6:00 pm—Welcome"
+    },
+    {
+     "text": "6:00–6:30 pm—Talk"
+    },
+    {
+     "text": "6:30–7:30 pm—Mini workshop"
+    },
+    {
+     "text": "7:30–8:00 pm—Wrap-up and networking"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Location"
+  },
+  {
+   "t": "p",
+   "text": "Dovetail, 276 Devonshire St, Surry Hills NSW 2010, Australia"
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

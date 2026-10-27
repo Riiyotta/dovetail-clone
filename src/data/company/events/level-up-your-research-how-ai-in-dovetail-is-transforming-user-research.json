@@ -1,0 +1,95 @@
+{
+ "slug": "level-up-your-research-how-ai-in-dovetail-is-transforming-user-research",
+ "path": "/events/level-up-your-research-how-ai-in-dovetail-is-transforming-user-research/",
+ "title": "Level up your research: how AI in Dovetail is transforming user research",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2025-07-31T13:00-07:00",
+ "endDate": null,
+ "onlineEvent": true,
+ "location": "Online",
+ "hosts": [
+  "Anahita Jamshidi Fard",
+  "Alissa Lydon"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": "izh0DOS8Qgk",
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Anahita Jamshidi Fard, Alissa Lydon"
+  },
+  {
+   "label": "[START]",
+   "value": "31 Jul 2025 1:00PM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Online"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "video",
+  "image": "/assets/company/media/Webinar_July_BT_Banner.png",
+  "width": 640,
+  "height": 360,
+  "youtubeId": "izh0DOS8Qgk"
+ },
+ "body": [
+  {
+   "t": "h2",
+   "text": "About this talk"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 484
+  },
+  {
+   "t": "p",
+   "text": "You’ll gain insights into:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 97
+    },
+    {
+     "placeholder": true,
+     "chars": 88
+    },
+    {
+     "placeholder": true,
+     "chars": 94
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 201
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 119
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

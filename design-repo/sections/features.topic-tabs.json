@@ -1,0 +1,208 @@
+{
+ "id": "features.topic-tabs",
+ "title": "Topic tabs with proof row",
+ "semantic": {
+  "id": "features.topic-tabs",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "component:ContextLayer:topics-section",
+  "file": "src/components/ContextLayer.jsx",
+  "tag": "section",
+  "lines": "43-55",
+  "tagLine": 43,
+  "anchor": "topics-section",
+  "anchorLine": 43
+ },
+ "purpose": "H96 heading with inline image and serif word, intro + CTA row, four auto-advancing vertical topic tabs swapping image and description, then a customer quote card and a stat card.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "context": {
+   "description": "variant 'context'",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "items",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 1,
+   "observedOn": [
+    "/"
+   ],
+   "contentSampled": true
+  },
+  "prompt": {
+   "description": "variant 'prompt'",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "items",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 1,
+   "observedOn": [
+    "/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions",
+   "heading",
+   "items",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 12
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 8,
+    "maxChars": 44,
+    "observedIn": 12
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 6,
+    "maxChars": 33,
+    "observedIn": 2
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 8,
+    "maxChars": 44,
+    "observedIn": 8
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 30,
+    "maxChars": 171,
+    "observedIn": 2
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 25,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "actions": [
+    6,
+    6
+   ],
+   "items": [
+    4,
+    4
+   ],
+   "media": [
+    12,
+    13
+   ]
+  },
+  "itemRequiredFields": [
+   "title"
+  ],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "customer.logo",
+     "illustration.brand",
+     "person.photo",
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "customer.placeholder-logo",
+     "illustration.generated",
+     "person.fictional-avatar",
+     "product.generated-visual"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "customer.placeholder-logo",
+  "illustration.generated",
+  "person.fictional-avatar",
+  "product.generated-visual"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 2,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "tabs.auto-advance",
+   "canvas.ascii-field",
+   "pixel.dissolve-hover"
+  ],
+  "requiredPatterns": [
+   "tabs.auto-advance"
+  ],
+  "reducedMotionFallback": {
+   "tabs.auto-advance": "no-autoplay",
+   "canvas.ascii-field": "render-static-frame",
+   "pixel.dissolve-hover": "unchanged"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "tabs left, image + panel right"
+  },
+  {
+   "range": "<=1280",
+   "behavior": "tabs become a snap carousel"
+  },
+  {
+   "range": "<=799",
+   "behavior": "carousel 85% cards, stat card stacked"
+  }
+ ],
+ "runtimeUi": [
+  {
+   "part": "tab progress",
+   "behavior": "6s progress bar auto-advances tabs; pauses on hover/focus"
+  }
+ ],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 1,
+   "nodes": 2,
+   "minPx": 1507.9,
+   "maxPx": 1513.9,
+   "medianPx": 1510.9,
+   "sample": {
+    "/": [
+     1513.9,
+     1507.9
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/components/ContextLayer.jsx:43-55",
+  "CLONE_SPEC.md:9-21"
+ ]
+}

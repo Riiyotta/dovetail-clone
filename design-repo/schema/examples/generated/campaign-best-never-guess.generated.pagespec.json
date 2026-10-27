@@ -1,0 +1,419 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T13",
+ "route": "/campaign-best-never-guess-mossgrove/",
+ "theme": "campaign",
+ "chrome": {
+  "banner": "none",
+  "nav": "none",
+  "footer": "none"
+ },
+ "brand": {
+  "name": "Mossgrove"
+ },
+ "meta": {
+  "title": "Mossgrove | Campaign"
+ },
+ "nodes": [
+  {
+   "section": "shell.campaign-nav",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Beacon atlas",
+      "href": "https://mossgrove.example/campaign-nav-0"
+     },
+     {
+      "label": "Nimbus canvas",
+      "href": "https://mossgrove.example/campaign-nav-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.campaign-nav-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "hero.campaign",
+   "variant": "default",
+   "content": {
+    "heading": "Cedar delta quarry",
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/hero.campaign-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/hero.campaign-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/hero.campaign-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/hero.campaign-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/hero.campaign-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/hero.campaign-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/hero.campaign-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/hero.campaign-7"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "content.campaign-text",
+   "variant": "default",
+   "content": {
+    "heading": "Orbit cinder summit juniper",
+    "actions": [
+     {
+      "label": "Ledger tidal",
+      "href": "https://mossgrove.example/campaign-text-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/content.campaign-text-0"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/content.campaign-text-1"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/content.campaign-text-2"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/content.campaign-text-3"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/content.campaign-text-4"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/content.campaign-text-5"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/content.campaign-text-6"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/content.campaign-text-7"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/content.campaign-text-8"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/content.campaign-text-9"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/content.campaign-text-10"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.testimonial",
+   "variant": "campaign",
+   "content": {
+    "lead": "Lantern weigh refine measure nimbus grove cedar",
+    "quote": {
+     "text": "Delta marble ember shape cinder sprout juniper sort share willow falcon beacon measure pebble canvas thread"
+    },
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Delta marble",
+      "ref": "generate:customer.placeholder-logo/social-proof.testimonial-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Plan prism",
+      "ref": "generate:customer.placeholder-logo/social-proof.testimonial-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Meadow notice",
+      "ref": "generate:customer.placeholder-logo/social-proof.testimonial-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "cursor.tooltip",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "social-proof.story-grid",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Steer cobalt harbor",
+      "text": "Fjord weigh basil",
+      "href": "https://mossgrove.example/story-grid-item0",
+      "media": {
+       "assetRole": "photo.generated-scene",
+       "alt": "",
+       "ref": "generate:photo.generated-scene/social-proof.story-grid-item0"
+      }
+     },
+     {
+      "title": "Measure bundle canvas",
+      "text": "Cedar delta marble",
+      "href": "https://mossgrove.example/story-grid-item1",
+      "media": {
+       "assetRole": "photo.generated-scene",
+       "alt": "",
+       "ref": "generate:photo.generated-scene/social-proof.story-grid-item1"
+      }
+     },
+     {
+      "title": "Field orbit gather",
+      "text": "Notice steer ledger",
+      "href": "https://mossgrove.example/story-grid-item2",
+      "media": {
+       "assetRole": "photo.generated-scene",
+       "alt": "",
+       "ref": "generate:photo.generated-scene/social-proof.story-grid-item2"
+      }
+     },
+     {
+      "title": "Tidal willow falcon",
+      "text": "Refine atlas nimbus",
+      "href": "https://mossgrove.example/story-grid-item3",
+      "media": {
+       "assetRole": "photo.generated-scene",
+       "alt": "",
+       "ref": "generate:photo.generated-scene/social-proof.story-grid-item3"
+      }
+     },
+     {
+      "title": "Tidy cedar delta",
+      "text": "Sketch plan shape",
+      "href": "https://mossgrove.example/story-grid-item4",
+      "media": {
+       "assetRole": "photo.generated-scene",
+       "alt": "",
+       "ref": "generate:photo.generated-scene/social-proof.story-grid-item4"
+      }
+     },
+     {
+      "title": "Cinder summit harvest",
+      "text": "Sort share willow",
+      "href": "https://mossgrove.example/story-grid-item5",
+      "media": {
+       "assetRole": "photo.generated-scene",
+       "alt": "",
+       "ref": "generate:photo.generated-scene/social-proof.story-grid-item5"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "pixel.dissolve-hover",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "social-proof.team-proof",
+   "variant": "default",
+   "content": {
+    "heading": "Falcon refine rowan pebble",
+    "lead": "Grove cedar delta quarry plan prism meadow notice",
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-0"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-1"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-2"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-3"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-4"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-5"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-6"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-7"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-8"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-9"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-10"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-11"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-12"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "conversion.trial-signup",
+   "variant": "default",
+   "content": {
+    "heading": "Steer cobalt harbor lantern",
+    "lead": "Weigh refine rowan pebble canvas cedar trace marble field orbit gather sprout harvest cobalt",
+    "actions": [
+     {
+      "label": "Tidal fjord",
+      "href": "https://mossgrove.example/trial-signup-0"
+     },
+     {
+      "label": "Signal beacon",
+      "href": "https://mossgrove.example/trial-signup-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/conversion.trial-signup-0"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/conversion.trial-signup-1"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/conversion.trial-signup-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.campaign-footer",
+   "variant": "campaign",
+   "content": {
+    "actions": [
+     {
+      "label": "Atlas nimbus",
+      "href": "https://mossgrove.example/campaign-footer-0"
+     },
+     {
+      "label": "Canvas map",
+      "href": "https://mossgrove.example/campaign-footer-1"
+     },
+     {
+      "label": "Compass sketch",
+      "href": "https://mossgrove.example/campaign-footer-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

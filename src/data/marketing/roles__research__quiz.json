@@ -1,0 +1,288 @@
+{
+ "url": "/roles/research/quiz/",
+ "template": "quiz",
+ "title": "UX Research Maturity Quiz: How Impactful Is Your Practice?",
+ "metaDescription": "Take the UX research maturity quiz. Discover whether your insights are actually influencing decisions—or getting buried in docs nobody reads.",
+ "documentHeight": {
+  "1440": 2308,
+  "1280": 2768,
+  "768": 3084,
+  "390": 3110
+ },
+ "chrome": {
+  "alertBar": true,
+  "navBackground": null,
+  "footer": "finalCta"
+ },
+ "sections": [
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 88,
+    "1280": 88,
+    "768": 88,
+    "390": 88
+   }
+  },
+  {
+   "slice": "ev3cpd60",
+   "el": "ev3cpd60",
+   "measuredHeight": {
+    "1440": 433,
+    "1280": 359,
+    "768": 311,
+    "390": 367
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "2-minute quiz",
+     "el": "ev3cpd62"
+    },
+    {
+     "role": "h1",
+     "text": "How impactful is your UX research practice?",
+     "el": "ev3cpd63"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 175,
+     "el": "ev3cpd64"
+    },
+    {
+     "role": "button",
+     "text": "Start the quiz",
+     "el": "button"
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "introHeading": "How impactful is your UX research practice?",
+  "introSubtitle": {
+   "placeholder": true,
+   "chars": 175
+  },
+  "questions": [
+   {
+    "text": "How long does it take to go from raw interview data to a shareable insight?",
+    "options": [
+     "Weeks—transcription and synthesis alone take forever",
+     "1–2 weeks of solid manual effort",
+     "A few days with good tooling and templates",
+     "Hours—AI handles transcription and first-pass synthesis"
+    ]
+   },
+   {
+    "text": "When a PM asks for research evidence during a planning meeting, what happens?",
+    "options": [
+     "You promise to get back to them after you’ve had time to look",
+     "You recall a study from memory and hope it’s still relevant",
+     "You find something in your repo, but it takes time to navigate",
+     "You search your repository and surface the answer in minutes"
+    ]
+   },
+   {
+    "text": "How do you currently handle transcription and note-taking after interviews?",
+    "options": [
+     "Manually—it’s one of the most time-consuming parts of the job",
+     "Lightweight tools, but you’re still doing most of the analysis",
+     "Good tooling for transcription, but synthesis is still manual",
+     "Automated transcription with AI-assisted tagging and analysis"
+    ]
+   },
+   {
+    "text": "How do research insights get discovered by people outside the research team?",
+    "options": [
+     "They don’t, unless someone explicitly asks",
+     "We share a doc or report after each study",
+     "We have a repository, but people rarely explore it on their own",
+     "Insights are proactively surfaced and shared across teams"
+    ]
+   },
+   {
+    "text": "How do you measure the impact of your research on product decisions?",
+    "options": [
+     "We don’t—it’s hard to trace",
+     "Anecdotally—we notice when a study influenced a decision",
+     "We track which studies were cited in PRDs or roadmap decisions",
+     "We have dashboards that connect research to shipped features and outcomes"
+    ]
+   },
+   {
+    "text": "How do you handle high-volume qualitative data—like 30+ interviews or thousands of survey responses?",
+    "options": [
+     "We sample a subset and hope it’s representative",
+     "We manually read everything, which takes weeks",
+     "We use affinity mapping, but it’s still slow and labour-intensive",
+     "AI analyzes it all and surfaces themes we can dig into"
+    ]
+   },
+   {
+    "text": "How often do you find yourself re-doing research that probably already exists somewhere?",
+    "options": [
+     "Constantly—there’s no way to know what’s been done before",
+     "Sometimes—the knowledge exists but it’s hard to find",
+     "Occasionally—our repo helps but it’s incomplete",
+     "Rarely—our searchable system prevents duplication"
+    ]
+   },
+   {
+    "text": "How do stakeholders typically engage with completed research?",
+    "options": [
+     "They don’t—reports get sent and never read",
+     "They skim the summary slide and ask follow-up questions later",
+     "They read it when it’s directly relevant to a decision they’re making",
+     "They proactively explore our insights repository on their own"
+    ]
+   },
+   {
+    "text": "When a product ships and underperforms, how involved is research in understanding why?",
+    "options": [
+     "Not very—by the time we find out, the team has moved on",
+     "We do a post-launch study, but results come too late to course-correct",
+     "We monitor feedback channels and flag themes to the team",
+     "Research signals automatically surface post-launch issues in real time"
+    ]
+   },
+   {
+    "text": "How confident are you that your research is influencing the most important product decisions?",
+    "options": [
+     "Not confident—it’s hard to even get a seat at the table",
+     "Somewhat—research is considered but often overridden",
+     "Fairly confident—we’re consulted regularly on major decisions",
+     "Very confident—research is embedded in how the whole team decides"
+    ]
+   }
+  ],
+  "tiers": [
+   {
+    "level": 1,
+    "name": "The Reactive Researcher",
+    "tagline": "You’re doing real work. But it’s not landing.",
+    "description": {
+     "placeholder": true,
+     "chars": 220
+    },
+    "cost": {
+     "placeholder": true,
+     "chars": 158
+    },
+    "nextLevel": {
+     "placeholder": true,
+     "chars": 102
+    },
+    "dovetailPitch": {
+     "placeholder": true,
+     "chars": 240
+    }
+   },
+   {
+    "level": 2,
+    "name": "The Process-Builder",
+    "tagline": "You have methods. But synthesis is still the bottleneck.",
+    "description": {
+     "placeholder": true,
+     "chars": 226
+    },
+    "cost": {
+     "placeholder": true,
+     "chars": 131
+    },
+    "nextLevel": {
+     "placeholder": true,
+     "chars": 144
+    },
+    "dovetailPitch": {
+     "placeholder": true,
+     "chars": 285
+    }
+   },
+   {
+    "level": 3,
+    "name": "The Repository-Keeper",
+    "tagline": "You’ve built infrastructure. Now you need reach.",
+    "description": {
+     "placeholder": true,
+     "chars": 228
+    },
+    "cost": {
+     "placeholder": true,
+     "chars": 124
+    },
+    "nextLevel": {
+     "placeholder": true,
+     "chars": 119
+    },
+    "dovetailPitch": {
+     "placeholder": true,
+     "chars": 259
+    }
+   },
+   {
+    "level": 4,
+    "name": "The Strategic Partner",
+    "tagline": "Research is valued. Now make it scale.",
+    "description": {
+     "placeholder": true,
+     "chars": 235
+    },
+    "cost": {
+     "placeholder": true,
+     "chars": 160
+    },
+    "nextLevel": {
+     "placeholder": true,
+     "chars": 123
+    },
+    "dovetailPitch": {
+     "placeholder": true,
+     "chars": 247
+    }
+   },
+   {
+    "level": 5,
+    "name": "The Intelligence Engine",
+    "tagline": "Research is how your whole org makes decisions.",
+    "description": {
+     "placeholder": true,
+     "chars": 275
+    },
+    "cost": null,
+    "nextLevel": null,
+    "dovetailPitch": {
+     "placeholder": true,
+     "chars": 273
+    }
+   }
+  ],
+  "scoring": "score per answer = option index+1 (A=1..D=4); avg=sum/40; level 1 <=.4, 2 <=.575, 3 <=.75, 4 <=.9, else 5",
+  "resultCta": {
+   "level<=2": {
+    "label": "Start for free",
+    "href": "/auth/signup/"
+   },
+   "level3-4": {
+    "label": "Book a demo",
+    "href": "/request-a-demo/"
+   },
+   "level5": {
+    "label": "Talk to us",
+    "href": "/request-a-demo/"
+   },
+   "secondary": "Retake quiz"
+  },
+  "resultFooterCta": {
+   "heading": "Turn customer feedback into product innovation",
+   "primary": {
+    "label": "Start for free",
+    "href": "/auth/signup/"
+   },
+   "secondary": {
+    "label": "Book a demo",
+    "href": "/request-a-demo/"
+   }
+  }
+ }
+}

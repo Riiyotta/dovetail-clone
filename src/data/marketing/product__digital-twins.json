@@ -1,0 +1,1619 @@
+{
+ "url": "/product/digital-twins/",
+ "template": "product",
+ "title": "Digital Twins | Dovetail",
+ "metaDescription": "Assembled from real sales calls, support tickets, and user research that continuously update as new data lands, so you’re hearing what your customers are…",
+ "documentHeight": {
+  "1440": 14937,
+  "1280": 15547,
+  "768": 15259,
+  "390": 14001
+ },
+ "chrome": {
+  "alertBar": false,
+  "navBackground": "#7D00D6",
+  "footer": "finalCta"
+ },
+ "sections": [
+  {
+   "slice": "ProductHero",
+   "el": "e10k4luw0",
+   "measuredHeight": {
+    "1440": 987.4,
+    "1280": 920.8,
+    "768": 1079.1,
+    "390": 885.1
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/pixel-shapes-left.png",
+     "alt": "",
+     "w": 286,
+     "h": 102.8,
+     "el": "e10k4luw2"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/pixel-shapes-right.png",
+     "alt": "",
+     "w": 286,
+     "h": 123.4,
+     "el": "e10k4luw3"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e10k4luw6-113056.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "text": "Digital Twins",
+     "el": "e10k4luw7"
+    },
+    {
+     "role": "h1",
+     "text": "Personas describe your customers. Digital Twins let you talk to them.",
+     "parts": [
+      {
+       "el": "e10k4luw9",
+       "text": "Personas describe your customers. Digital Twins",
+       "font": "Inter"
+      },
+      {
+       "el": "e10k4luw9",
+       "text": "let you",
+       "font": "Inter"
+      },
+      {
+       "el": "e10k4luw12",
+       "img": "/assets/marketing/3d-megaphone.png"
+      },
+      {
+       "el": "e10k4luw10",
+       "text": "talk to them.",
+       "font": "PP Mondwest"
+      }
+     ],
+     "el": "e10k4luw13"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-megaphone.png",
+     "alt": "",
+     "w": 72,
+     "h": 72,
+     "el": "e10k4luw12"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 270,
+     "el": "e10k4luw14"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "Built on your data from",
+     "el": "e10k4luw18"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/GoogleMeet.svg",
+     "alt": "Google Meet",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/MicrosoftTeams.svg",
+     "alt": "Microsoft Teams",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Zoom.svg",
+     "alt": "Zoom",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/GoogleDrive.svg",
+     "alt": "Google Drive",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Salesforce.svg",
+     "alt": "Salesforce",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "link",
+     "text": "+",
+     "href": "https://docs.dovetail.com/integrations",
+     "ariaLabel": "See all integrations",
+     "el": "e10k4luw21"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/digital-twins-hero.png",
+     "alt": "",
+     "w": 1192,
+     "h": 603.4,
+     "el": "e10k4luw24"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/digital-twins-mobile-hero.png",
+     "alt": "",
+     "w": 0,
+     "h": 0,
+     "el": "e10k4luw25",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "LogoMarqueeWrap",
+   "el": "eoxsi442",
+   "measuredHeight": {
+    "1440": 569.6,
+    "1280": 510.9,
+    "768": 229.6,
+    "390": 249.2
+   },
+   "content": [
+    {
+     "role": "link",
+     "text": "G2",
+     "href": "https://www.g2.com/products/dovetail-research-pty-ltd-dovetail",
+     "el": "eoxsi444.e1oz23xw2"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1oz23xw0-239480.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1oz23xw0-239480.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1oz23xw0-239480.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1oz23xw0-239480.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1oz23xw0-921551.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "link",
+     "text": "CAPTERRA",
+     "href": "https://www.capterra.com.au/software/174077/dovetail",
+     "el": "eoxsi444.e1oz23xw2"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1oz23xw0-239480.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1oz23xw0-239480.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1oz23xw0-239480.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1oz23xw0-239480.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1oz23xw0-921551.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "link",
+     "text": "TRUSTRADIUS",
+     "href": "https://www.trustradius.com/products/dovetail-user-research",
+     "el": "eoxsi444.e1oz23xw2"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1oz23xw0-239480.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1oz23xw0-239480.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1oz23xw0-239480.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1oz23xw0-239480.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1oz23xw0-921551.svg",
+     "w": 16,
+     "h": 16,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "text": "Connecting the world’s greatest companies to their customers",
+     "el": "e1jzkpz90"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/amazon-918921.svg",
+     "w": 88.9,
+     "h": 40,
+     "ariaLabel": "Amazon",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/dyson-990499.svg",
+     "w": 88.9,
+     "h": 40,
+     "ariaLabel": "Dyson",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/mercedes-benz-133521.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Mercedes-Benz",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/qantas-584168.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Qantas",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/aws-271091.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "AWS",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/toyota-301058.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Toyota",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/canva-585358.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Canva",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/volvo-486139.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Volvo",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/notion-653232.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Notion",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/salesforce-823526.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Salesforce",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/milwaukee-672003.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Milwaukee",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/kpmg-168064.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "KPMG",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/wise-541877.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Wise",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/mckinsey-company-197947.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "McKinsey & Company",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ford-139900.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Ford",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/walgreens-861455.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Walgreens",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/shopify-732620.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Shopify",
+     "el": "svg"
+    }
+   ]
+  },
+  {
+   "slice": "ProductStatement",
+   "el": "e1ql6xhm0",
+   "measuredHeight": {
+    "1440": 544,
+    "1280": 360,
+    "768": 172,
+    "390": 256
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "Validate decisions as fast as you build",
+     "el": "e1ql6xhm1"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 219,
+     "el": "e1ql6xhm2"
+    }
+   ]
+  },
+  {
+   "slice": "ProductScrollVideo",
+   "el": "e182vtoz0",
+   "measuredHeight": {
+    "1440": 830.5,
+    "1280": 768,
+    "768": 510,
+    "390": 297.4
+   },
+   "content": [
+    {
+     "role": "video",
+     "src": "/assets/marketing/digital-twins-scroll-loop.mp4",
+     "poster": "https://img.youtube.com/vi/llo7_0UC4v8/maxresdefault.jpg",
+     "el": "e182vtoz3"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e4sdv0e19-056090.svg",
+     "w": 40,
+     "h": 40,
+     "el": "svg"
+    }
+   ]
+  },
+  {
+   "slice": "ProductQuote",
+   "el": "eoxsi445",
+   "measuredHeight": {
+    "1440": 560,
+    "1280": 560,
+    "768": 312,
+    "390": 466
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/testimonial-grid-bg.png.png",
+     "alt": "Grid background",
+     "w": 1260,
+     "h": 560,
+     "el": "e1ms7w8v3"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/MartinJerkovicPhoto.webp",
+     "alt": "",
+     "w": 80,
+     "h": 80,
+     "el": "e1cnxsk65"
+    },
+    {
+     "role": "quote",
+     "placeholder": true,
+     "chars": 190,
+     "el": "e1cnxsk66"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+     "alt": "",
+     "w": 192,
+     "h": 24,
+     "el": "e1cnxsk68"
+    },
+    {
+     "role": "text",
+     "text": "Martin Jerkovic",
+     "el": "e1cnxsk611"
+    },
+    {
+     "role": "text",
+     "text": "Lead Product Designer",
+     "el": "e1cnxsk612"
+    }
+   ]
+  },
+  {
+   "slice": "ProductFeatures",
+   "el": "e1r1adlk0",
+   "measuredHeight": {
+    "1440": 3600,
+    "1280": 4044,
+    "768": 4279.4,
+    "390": 2817.3
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/digital-twins-feature-3.png",
+     "alt": "Dovetail Digital Twins product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/digital-twins-feature-1.png",
+     "alt": "Dovetail Digital Twins product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/digital-twins-feature-2.png",
+     "alt": "Dovetail Digital Twins product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/digital-twins-feature-4.png",
+     "alt": "Dovetail Digital Twins product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "01",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "Shared intelligence across teams",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "text": "Give everyone the same view of the customer, so departments act in lockstep and learnings compound.",
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "02",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "Build from evidence, not vibes",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 134,
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "03",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "Ask questions\nmid-meeting",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 129,
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "04",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "Keep up with customers as they change",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 141,
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/digital-twins-feature-3.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/digital-twins-feature-1.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/digital-twins-feature-2.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/digital-twins-feature-4.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "VoiceMode",
+   "el": "e13rmnxw0",
+   "measuredHeight": {
+    "1440": 888,
+    "1280": 896,
+    "768": 672.1,
+    "390": 527.6
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "Ask out loud, with voice mode",
+     "el": "e13rmnxw4"
+    },
+    {
+     "role": "text",
+     "text": "Talk to your Digital Twins the same way you’d talk to a customer, and get instant, evidence-backed answers.",
+     "el": "e13rmnxw6"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/digital-twins-voice-mode.png",
+     "alt": "",
+     "w": 832,
+     "h": 450,
+     "el": "e13rmnxw5"
+    }
+   ]
+  },
+  {
+   "slice": "ProductPromptCards",
+   "el": "e1y8zjgx0",
+   "measuredHeight": {
+    "1440": 1592,
+    "1280": 2042,
+    "768": 2822,
+    "390": 3038
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "A Digital Twin for\nevery use case",
+     "el": "e1y8zjgx1"
+    },
+    {
+     "role": "text",
+     "text": "Whatever the role, whatever the question, there’s a Digital Twin you can build to answer it.",
+     "el": "e1y8zjgx2"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "e1y8zjgx7"
+    },
+    {
+     "role": "text",
+     "text": "Executive",
+     "el": "e1y8zjgx9"
+    },
+    {
+     "role": "text",
+     "text": "End the guessing, get one org-wide view",
+     "el": "e1y8zjgx12"
+    },
+    {
+     "role": "text",
+     "text": "Get a single, current view of what customers think, pulled together automatically from every team’s work.",
+     "el": "e1y8zjgx13"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/prompt-cell-hover-overlay-e1y8zjgx5-284436.svg",
+     "w": 69.9,
+     "h": 80,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "text": "Try Digital Twin",
+     "el": "e1y8zjgx6"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "e1y8zjgx7"
+    },
+    {
+     "role": "text",
+     "text": "Chief Customer Officer",
+     "el": "e1y8zjgx9"
+    },
+    {
+     "role": "text",
+     "text": "Set up a churn prevention system",
+     "el": "e1y8zjgx12"
+    },
+    {
+     "role": "text",
+     "text": "A CCO on-demand that spots patterns across your entire book, finds what’s driving churn, and proposes solutions.",
+     "el": "e1y8zjgx13"
+    },
+    {
+     "role": "text",
+     "text": "Try Digital Twin",
+     "el": "e1y8zjgx6"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "e1y8zjgx7"
+    },
+    {
+     "role": "text",
+     "text": "Product Manager",
+     "el": "e1y8zjgx9"
+    },
+    {
+     "role": "text",
+     "text": "Pressure-test the roadmap before you build",
+     "el": "e1y8zjgx12"
+    },
+    {
+     "role": "text",
+     "text": "Ask a Twin of your priority customer segment which feature to build next, before eng writes a line of code.",
+     "el": "e1y8zjgx13"
+    },
+    {
+     "role": "text",
+     "text": "Try Digital Twin",
+     "el": "e1y8zjgx6"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "e1y8zjgx7"
+    },
+    {
+     "role": "text",
+     "text": "Designer",
+     "el": "e1y8zjgx9"
+    },
+    {
+     "role": "text",
+     "text": "Validate a concept before you build",
+     "el": "e1y8zjgx12"
+    },
+    {
+     "role": "text",
+     "text": "Show a Twin your concept and hear how the segment reacts, red flags included. No recruiting needed.",
+     "el": "e1y8zjgx13"
+    },
+    {
+     "role": "text",
+     "text": "Try Digital Twin",
+     "el": "e1y8zjgx6"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "e1y8zjgx7"
+    },
+    {
+     "role": "text",
+     "text": "Researcher",
+     "el": "e1y8zjgx9"
+    },
+    {
+     "role": "text",
+     "text": "Give stakeholders self-serve answers",
+     "el": "e1y8zjgx12"
+    },
+    {
+     "role": "text",
+     "text": "Send stakeholders to a Digital Twin for anything you’ve already researched.",
+     "el": "e1y8zjgx13"
+    },
+    {
+     "role": "text",
+     "text": "Try Digital Twin",
+     "el": "e1y8zjgx6"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "e1y8zjgx7"
+    },
+    {
+     "role": "text",
+     "text": "Customer Success Manager",
+     "el": "e1y8zjgx9"
+    },
+    {
+     "role": "text",
+     "text": "Get ahead of renewal objections",
+     "el": "e1y8zjgx12"
+    },
+    {
+     "role": "text",
+     "text": "Ask a Twin of your at-risk segment what drives renewal hesitation, so you walk into the QBR ready for it.",
+     "el": "e1y8zjgx13"
+    },
+    {
+     "role": "text",
+     "text": "Try Digital Twin",
+     "el": "e1y8zjgx6"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "e1y8zjgx7"
+    },
+    {
+     "role": "text",
+     "text": "Account Executive",
+     "el": "e1y8zjgx9"
+    },
+    {
+     "role": "text",
+     "text": "Rehearse the deal, objection by objection",
+     "el": "e1y8zjgx12"
+    },
+    {
+     "role": "text",
+     "text": "Role-play objection handling against a Twin of a customer segment, in the language your prospects actually use.",
+     "el": "e1y8zjgx13"
+    },
+    {
+     "role": "text",
+     "text": "Try Digital Twin",
+     "el": "e1y8zjgx6"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "e1y8zjgx7"
+    },
+    {
+     "role": "text",
+     "text": "Sales Leader",
+     "el": "e1y8zjgx9"
+    },
+    {
+     "role": "text",
+     "text": "Keep a live read on the competition",
+     "el": "e1y8zjgx12"
+    },
+    {
+     "role": "text",
+     "text": "Ask why you keep losing on price and get the answer pulled from the exact calls where it came up.",
+     "el": "e1y8zjgx13"
+    },
+    {
+     "role": "text",
+     "text": "Try Digital Twin",
+     "el": "e1y8zjgx6"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "e1y8zjgx7"
+    },
+    {
+     "role": "text",
+     "text": "Product Marketer",
+     "el": "e1y8zjgx9"
+    },
+    {
+     "role": "text",
+     "text": "Run messaging tests on real customer language",
+     "el": "e1y8zjgx12"
+    },
+    {
+     "role": "text",
+     "text": "Ask a Digital Twin which value props resonate, which don’t, and how they could be improved.",
+     "el": "e1y8zjgx13"
+    },
+    {
+     "role": "text",
+     "text": "Try Digital Twin",
+     "el": "e1y8zjgx6"
+    }
+   ]
+  },
+  {
+   "slice": "ProductQuote",
+   "el": "e1cnxsk60",
+   "measuredHeight": {
+    "1440": 560,
+    "1280": 560,
+    "768": 333.6,
+    "390": 429.6
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/testimonial-grid-bg.png.png",
+     "alt": "Grid background",
+     "w": 1260,
+     "h": 560,
+     "el": "e1ms7w8v3"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti-4.png",
+     "alt": "",
+     "w": 80,
+     "h": 80,
+     "el": "e1cnxsk65"
+    },
+    {
+     "role": "quote",
+     "placeholder": true,
+     "chars": 229,
+     "el": "e1cnxsk66"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-achievers-white-logo.svg",
+     "alt": "",
+     "w": 122.6,
+     "h": 24,
+     "el": "e1cnxsk68"
+    },
+    {
+     "role": "text",
+     "text": "Marie-Andrée Turgeon",
+     "el": "e1cnxsk611"
+    },
+    {
+     "role": "text",
+     "text": "Senior Manager of Product Operations",
+     "el": "e1cnxsk612"
+    },
+    {
+     "role": "button",
+     "text": "01",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "02",
+     "el": "e5b4pau2"
+    }
+   ]
+  },
+  {
+   "slice": "ProductCarousel",
+   "el": "e1c9zraz0",
+   "measuredHeight": {
+    "1440": 1179.8,
+    "1280": 1059.8,
+    "768": 827.2,
+    "390": 851.2
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "Configure once.\nTrust every answer.",
+     "el": "e1c9zraz3"
+    },
+    {
+     "role": "text",
+     "text": "Set data, skills, and guardrails—the twin handles the rest.",
+     "el": "e1c9zraz6"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e5zj3j12-080716.svg",
+     "w": 32,
+     "h": 26.3,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e5zj3j12-080716.svg",
+     "w": 32,
+     "h": 26.3,
+     "el": "svg"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/digital-twins-carousel-1.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Twins on demand",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 125,
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/digital-twins-carousel-3.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Human-in-the-loop",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 130,
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/digital-twins-carousel-4.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Scope to what matters",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Point each Digital Twin to the relevant data sources so it only uses what matters for that particular customer, segment, or vertical.",
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/digital-twins-carousel-5.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Skills for complex tasks",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Give Digital Twins a repeatable playbook to define their tone of voice, how they respond, and what they know.",
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/digital-twins-carousel-6.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Workspace governance",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Automatic PII redaction, custom retention rules, and traceable citations to keep admins in control as twins scale across the org.",
+     "el": "e1c9zraz17"
+    }
+   ]
+  },
+  {
+   "slice": "PixelBand",
+   "el": "e70som00",
+   "measuredHeight": {
+    "1440": 120,
+    "1280": 0,
+    "768": 0,
+    "390": 0
+   },
+   "content": []
+  },
+  {
+   "slice": "CustomerStories",
+   "el": "elme6fd0",
+   "measuredHeight": {
+    "1440": 910,
+    "1280": 700,
+    "768": 501.9,
+    "390": 621.9
+   },
+   "content": [
+    {
+     "role": "button",
+     "text": "01",
+     "ariaLabel": "Breville customer story",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "02",
+     "ariaLabel": "Atlassian customer story",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "03",
+     "ariaLabel": "Itaú Unibanco customer story",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "h3",
+     "text": "How customer insights drive and inspire Breville’s product innovation",
+     "el": "e1wn1hrv5"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1wn1hrv9-593209.svg",
+     "w": 56,
+     "h": 56,
+     "el": "e1wn1hrv11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 207,
+     "el": "e1wn1hrv6"
+    },
+    {
+     "role": "link",
+     "text": "Read the story",
+     "href": "/customers/breville/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "All customer stories",
+     "href": "/customers/",
+     "el": "e1wn1hrv8"
+    },
+    {
+     "role": "h3",
+     "text": "How Atlassian turns customer signals into confident product decisions",
+     "el": "e1wn1hrv5",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1wn1hrv9-661009.svg",
+     "w": 0,
+     "h": 0,
+     "el": "e1wn1hrv11",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 153,
+     "el": "e1wn1hrv6",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "link",
+     "text": "Read the story",
+     "href": "/customers/atlassian-design/",
+     "el": "a",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "h3",
+     "text": "How Itaú Unibanco delivers better banking experiences with Dovetail",
+     "el": "e1wn1hrv5",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1wn1hrv9-365555.svg",
+     "w": 0,
+     "h": 0,
+     "el": "e1wn1hrv11",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 183,
+     "el": "e1wn1hrv6",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "link",
+     "text": "Read the story",
+     "href": "/customers/itau-unibanco/",
+     "el": "a",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "PixelBand",
+   "el": "e70som00",
+   "measuredHeight": {
+    "1440": 120,
+    "1280": 0,
+    "768": 0,
+    "390": 0
+   },
+   "content": []
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 64,
+    "768": 64,
+    "390": 64
+   }
+  },
+  {
+   "slice": "FAQ",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 639,
+    "1280": 707,
+    "768": 681,
+    "390": 753
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "FAQs",
+     "el": "ef2kgtv0"
+    },
+    {
+     "role": "button",
+     "text": "What is a Digital Twin?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ea410al3-082750.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 292,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "What data points are used to train a Digital Twin?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 228,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "How is a Digital Twin different from synthetic personas or general AI?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 325,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Can I build a Digital Twin without existing customer data?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 153,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "What user roles can create a Digital Twin?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 214,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "How do I interact with a Digital Twin?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 136,
+     "el": "ef2kgtv2"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 64,
+    "768": 64,
+    "390": 64
+   }
+  }
+ ],
+ "promptModals": [
+  {
+   "cardTitle": "End the guessing, get one org-wide view",
+   "prompts": [
+    {
+     "label": "Org-wide customer view twin",
+     "textChars": 247
+    },
+    {
+     "label": "C-suite briefing twin",
+     "textChars": 220
+    }
+   ],
+   "promptText": "placeholder (long)"
+  },
+  {
+   "cardTitle": "Set up a churn prevention system",
+   "prompts": [
+    {
+     "label": "Churned customer twin",
+     "textChars": 260
+    },
+    {
+     "label": "At-risk account twin",
+     "textChars": 255
+    }
+   ],
+   "promptText": "placeholder (long)"
+  },
+  {
+   "cardTitle": "Pressure-test the roadmap before you build",
+   "prompts": [
+    {
+     "label": "Feature reaction twin",
+     "textChars": 257
+    },
+    {
+     "label": "Churned customer twin",
+     "textChars": 261
+    }
+   ],
+   "promptText": "placeholder (long)"
+  },
+  {
+   "cardTitle": "Validate a concept before you build",
+   "prompts": [
+    {
+     "label": "Concept reaction twin",
+     "textChars": 284
+    },
+    {
+     "label": "Design critique twin",
+     "textChars": 243
+    }
+   ],
+   "promptText": "placeholder (long)"
+  },
+  {
+   "cardTitle": "Give stakeholders self-serve answers",
+   "prompts": [
+    {
+     "label": "Research findings twin",
+     "textChars": 272
+    },
+    {
+     "label": "Segment knowledge twin",
+     "textChars": 241
+    }
+   ],
+   "promptText": "placeholder (long)"
+  },
+  {
+   "cardTitle": "Get ahead of renewal objections",
+   "prompts": [
+    {
+     "label": "Renewal objection twin",
+     "textChars": 229
+    },
+    {
+     "label": "Account health twin",
+     "textChars": 241
+    }
+   ],
+   "promptText": "placeholder (long)"
+  },
+  {
+   "cardTitle": "Rehearse the deal, objection by objection",
+   "prompts": [
+    {
+     "label": "Deal rehearsal twin",
+     "textChars": 259
+    },
+    {
+     "label": "Objection handling twin",
+     "textChars": 261
+    }
+   ],
+   "promptText": "placeholder (long)"
+  },
+  {
+   "cardTitle": "Keep a live read on the competition",
+   "prompts": [
+    {
+     "label": "Competitive landscape twin",
+     "textChars": 223
+    },
+    {
+     "label": "Buyer evaluation twin",
+     "textChars": 241
+    }
+   ],
+   "promptText": "placeholder (long)"
+  },
+  {
+   "cardTitle": "Run messaging tests on real customer language",
+   "prompts": [
+    {
+     "label": "Messaging reaction twin",
+     "textChars": 267
+    },
+    {
+     "label": "Positioning test twin",
+     "textChars": 277
+    }
+   ],
+   "promptText": "placeholder (long)"
+  }
+ ]
+}

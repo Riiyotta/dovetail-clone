@@ -1,0 +1,1241 @@
+{
+ "url": "/quiz/",
+ "template": "quiz-hub",
+ "meta": {
+  "title": "How Customer-Driven Is Your Team? [Quiz]",
+  "description": "Take a quick quiz for product managers, researchers, and designers to see how much real customer insight drives your team’s roadmap, decisions, and…"
+ },
+ "hero": {
+  "eyebrow": "2-minute quiz",
+  "h1": "How customer-driven is your team?",
+  "intro": "Pick your role to get a score, a benchmark, and a clear picture of what the next level looks like for you."
+ },
+ "cards": [
+  {
+   "eyebrow": "Product",
+   "title": "Are you a data-driven PM?",
+   "text": "Find out if your roadmap is driven by real customer signal—or gut feel and the loudest voice in the room.",
+   "cta": {
+    "text": "Take the quiz",
+    "href": "/roles/product-management/quiz/"
+   }
+  },
+  {
+   "eyebrow": "Research",
+   "title": "How impactful is your research?",
+   "text": "Discover whether your insights are actually influencing decisions—or getting buried in docs nobody reads.",
+   "cta": {
+    "text": "Take the quiz",
+    "href": "/roles/research/quiz/"
+   }
+  },
+  {
+   "eyebrow": "Design",
+   "title": "Are your designs customer-driven?",
+   "text": "See how connected your design process is to real customer insight—and where the gaps are costing you.",
+   "cta": {
+    "text": "Take the quiz",
+    "href": "/roles/design/quiz/"
+   }
+  }
+ ],
+ "ctaFooter": {
+  "h2": "Turn customer feedback into product innovation",
+  "ctas": [
+   {
+    "text": "Start for free",
+    "href": "/auth/signup/",
+    "newTab": true
+   },
+   {
+    "text": "Book a demo",
+    "href": "/request-a-demo/"
+   }
+  ]
+ },
+ "roleQuizzes": {
+  "product": {
+   "url": "/roles/product-management/quiz/",
+   "quizId": "product",
+   "eyebrow": "2-minute quiz",
+   "introHeading": "Are you a data-driven product manager?",
+   "introSubtitle": {
+    "placeholder": true,
+    "chars": 192
+   },
+   "startLabel": "Start the quiz",
+   "questions": [
+    {
+     "text": "Where does customer feedback live at your company?",
+     "options": [
+      {
+       "key": "A",
+       "text": "Mostly in people’s heads and notes apps",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "Spread across Slack, email, Notion, and other tools",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "We have a dedicated tool, but not everyone uses it",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "One central place the whole team can access",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "When a PM needs customer evidence for a roadmap decision, what happens?",
+     "options": [
+      {
+       "key": "A",
+       "text": "They go from memory or ask around",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "They ping the research team and wait days or weeks",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "They dig through old Notion docs themselves",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "They search a shared repository and find something quickly",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "How long does it typically take to synthesize a round of user interviews?",
+     "options": [
+      {
+       "key": "A",
+       "text": "We don’t really synthesize—we just share raw notes",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "1–2 weeks of manual work",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "A few days with good tooling",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "Hours—AI handles most of the heavy lifting",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "How does your team share research findings?",
+     "options": [
+      {
+       "key": "A",
+       "text": "Verbally or in a long email nobody reads",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "A Notion doc that gets forgotten",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "A research report shared in Slack once",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "A living repository teammates can query anytime",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "How often does customer feedback directly influence your roadmap?",
+     "options": [
+      {
+       "key": "A",
+       "text": "Rarely—we move too fast for that",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "Occasionally, when research aligns with planning",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "Often, but it’s hard to prove the connection",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "Consistently—every initiative is tied to customer signal",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "Which best describes your support and sales feedback loop?",
+     "options": [
+      {
+       "key": "A",
+       "text": "Support and research teams don’t really talk",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "Someone forwards Zendesk tickets occasionally",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "We aggregate it, but analysis is slow",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "Feedback from support and sales flows into insights automatically",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "How do you handle high-volume feedback—app reviews, NPS, support tickets?",
+     "options": [
+      {
+       "key": "A",
+       "text": "We look at the numbers but not the actual comments",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "Someone reads a sample and reports themes manually",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "We tag and categorize it, but it takes significant time",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "It’s automatically classified and we get alerted to emerging trends",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "How would a new PM find out what customers have said about a specific problem?",
+     "options": [
+      {
+       "key": "A",
+       "text": "Ask around the office",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "Dig through Slack threads and docs for an hour",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "Find a research repo but struggle to navigate it",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "Search and get an answer in minutes",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "How do you know if a customer pain point is getting worse over time?",
+     "options": [
+      {
+       "key": "A",
+       "text": "When it starts showing up in churn interviews",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "When support tickets spike and someone flags it",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "We check manually on a regular cadence",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "We have automated monitoring that alerts us to trend shifts",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "When leadership asks \"what do customers think about X?\", what happens?",
+     "options": [
+      {
+       "key": "A",
+       "text": "Someone scrambles to pull together an answer",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "We surface a few relevant quotes and hope for the best",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "We have a decent answer but it takes a day to prepare",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "We point them to a dashboard or send a generated report in minutes",
+       "score": 4
+      }
+     ]
+    }
+   ],
+   "tiers": [
+    {
+     "level": 1,
+     "name": "Instinct-Driven",
+     "tagline": "You’re moving fast, but flying blind.",
+     "description": {
+      "placeholder": true,
+      "chars": 238
+     },
+     "cost": "Roadmaps that miss the mark. Churn that surprises you. Features built for the wrong people.",
+     "nextLevel": "Teams at Level 2 start centralizing feedback in one place—so decisions are grounded in something real.",
+     "dovetailPitch": {
+      "placeholder": true,
+      "chars": 260
+     }
+    },
+    {
+     "level": 2,
+     "name": "Feedback-Aware",
+     "tagline": "You’re collecting. But it’s not turning into action.",
+     "description": {
+      "placeholder": true,
+      "chars": 239
+     },
+     "cost": "Hours of manual work. Insights that don’t reach the people who need them. Decisions made without the evidence that was sitting right there.",
+     "nextLevel": "Level 3 teams have a real research process—but the leap to Level 4 is where insights start reaching everyone, fast.",
+     "dovetailPitch": {
+      "placeholder": true,
+      "chars": 252
+     }
+    },
+    {
+     "level": 3,
+     "name": "Research-Powered",
+     "tagline": "You have a process. But it doesn’t scale.",
+     "description": {
+      "placeholder": true,
+      "chars": 210
+     },
+     "cost": {
+      "placeholder": true,
+      "chars": 143
+     },
+     "nextLevel": "Level 4 teams share insights proactively across the whole org—not just with the people who asked.",
+     "dovetailPitch": {
+      "placeholder": true,
+      "chars": 243
+     }
+    },
+    {
+     "level": 4,
+     "name": "Insight-Led",
+     "tagline": "Strong foundation. Time to go further.",
+     "description": {
+      "placeholder": true,
+      "chars": 243
+     },
+     "cost": "Manual work that should be automated. Gaps in coverage for high-volume feedback. Insights that reach leadership too slowly.",
+     "nextLevel": "Level 5 teams use AI agents to monitor feedback streams, generate reports automatically, and surface risks before they become problems.",
+     "dovetailPitch": {
+      "placeholder": true,
+      "chars": 258
+     }
+    },
+    {
+     "level": 5,
+     "name": "Customer-Intelligent",
+     "tagline": "Your whole company runs on customer signal.",
+     "description": {
+      "placeholder": true,
+      "chars": 276
+     },
+     "cost": "",
+     "nextLevel": null,
+     "dovetailPitch": {
+      "placeholder": true,
+      "chars": 242
+     }
+    }
+   ],
+   "result": {
+    "levelLabel": "Level {level} of 5",
+    "costHeading": "What this costs you",
+    "pitchHeading": "How Dovetail helps",
+    "scoreLabel": "Your score: {score} / {max}",
+    "retakeLabel": "Retake quiz",
+    "primaryCta": {
+     "level<=2": {
+      "label": "Start for free",
+      "href": "/auth/signup/"
+     },
+     "level<=4": {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     },
+     "level5": {
+      "label": "Talk to us",
+      "href": "/request-a-demo/"
+     }
+    }
+   },
+   "ctaFooter": {
+    "h2": "Turn customer feedback into product innovation",
+    "ctas": [
+     {
+      "text": "Start for free",
+      "href": "/auth/signup/"
+     },
+     {
+      "text": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "scoring": {
+    "optionScore": "A=1, B=2, C=3, D=4",
+    "normalized": "sum / (4 * questionCount)",
+    "tierThresholds": [
+     "<=0.4 -> 1",
+     "<=0.575 -> 2",
+     "<=0.75 -> 3",
+     "<=0.9 -> 4",
+     "else 5"
+    ]
+   },
+   "finalCta": true
+  },
+  "research": {
+   "url": "/roles/research/quiz/",
+   "quizId": "research",
+   "eyebrow": "2-minute quiz",
+   "introHeading": "How impactful is your UX research practice?",
+   "introSubtitle": {
+    "placeholder": true,
+    "chars": 175
+   },
+   "startLabel": "Start the quiz",
+   "questions": [
+    {
+     "text": "How long does it take to go from raw interview data to a shareable insight?",
+     "options": [
+      {
+       "key": "A",
+       "text": "Weeks—transcription and synthesis alone take forever",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "1–2 weeks of solid manual effort",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "A few days with good tooling and templates",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "Hours—AI handles transcription and first-pass synthesis",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "When a PM asks for research evidence during a planning meeting, what happens?",
+     "options": [
+      {
+       "key": "A",
+       "text": "You promise to get back to them after you’ve had time to look",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "You recall a study from memory and hope it’s still relevant",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "You find something in your repo, but it takes time to navigate",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "You search your repository and surface the answer in minutes",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "How do you currently handle transcription and note-taking after interviews?",
+     "options": [
+      {
+       "key": "A",
+       "text": "Manually—it’s one of the most time-consuming parts of the job",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "Lightweight tools, but you’re still doing most of the analysis",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "Good tooling for transcription, but synthesis is still manual",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "Automated transcription with AI-assisted tagging and analysis",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "How do research insights get discovered by people outside the research team?",
+     "options": [
+      {
+       "key": "A",
+       "text": "They don’t, unless someone explicitly asks",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "We share a doc or report after each study",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "We have a repository, but people rarely explore it on their own",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "Insights are proactively surfaced and shared across teams",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "How do you measure the impact of your research on product decisions?",
+     "options": [
+      {
+       "key": "A",
+       "text": "We don’t—it’s hard to trace",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "Anecdotally—we notice when a study influenced a decision",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "We track which studies were cited in PRDs or roadmap decisions",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "We have dashboards that connect research to shipped features and outcomes",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "How do you handle high-volume qualitative data—like 30+ interviews or thousands of survey responses?",
+     "options": [
+      {
+       "key": "A",
+       "text": "We sample a subset and hope it’s representative",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "We manually read everything, which takes weeks",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "We use affinity mapping, but it’s still slow and labour-intensive",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "AI analyzes it all and surfaces themes we can dig into",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "How often do you find yourself re-doing research that probably already exists somewhere?",
+     "options": [
+      {
+       "key": "A",
+       "text": "Constantly—there’s no way to know what’s been done before",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "Sometimes—the knowledge exists but it’s hard to find",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "Occasionally—our repo helps but it’s incomplete",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "Rarely—our searchable system prevents duplication",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "How do stakeholders typically engage with completed research?",
+     "options": [
+      {
+       "key": "A",
+       "text": "They don’t—reports get sent and never read",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "They skim the summary slide and ask follow-up questions later",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "They read it when it’s directly relevant to a decision they’re making",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "They proactively explore our insights repository on their own",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "When a product ships and underperforms, how involved is research in understanding why?",
+     "options": [
+      {
+       "key": "A",
+       "text": "Not very—by the time we find out, the team has moved on",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "We do a post-launch study, but results come too late to course-correct",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "We monitor feedback channels and flag themes to the team",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "Research signals automatically surface post-launch issues in real time",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "How confident are you that your research is influencing the most important product decisions?",
+     "options": [
+      {
+       "key": "A",
+       "text": "Not confident—it’s hard to even get a seat at the table",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "Somewhat—research is considered but often overridden",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "Fairly confident—we’re consulted regularly on major decisions",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "Very confident—research is embedded in how the whole team decides",
+       "score": 4
+      }
+     ]
+    }
+   ],
+   "tiers": [
+    {
+     "level": 1,
+     "name": "The Reactive Researcher",
+     "tagline": "You’re doing real work. But it’s not landing.",
+     "description": {
+      "placeholder": true,
+      "chars": 220
+     },
+     "cost": {
+      "placeholder": true,
+      "chars": 158
+     },
+     "nextLevel": "Researchers at Level 2 start building methods and consistency—reducing the time from study to insight.",
+     "dovetailPitch": {
+      "placeholder": true,
+      "chars": 240
+     }
+    },
+    {
+     "level": 2,
+     "name": "The Process-Builder",
+     "tagline": "You have methods. But synthesis is still the bottleneck.",
+     "description": {
+      "placeholder": true,
+      "chars": 226
+     },
+     "cost": "Weeks lost to transcription and note-taking. Insights that reach stakeholders too late. A growing backlog you’ll never fully clear.",
+     "nextLevel": {
+      "placeholder": true,
+      "chars": 144
+     },
+     "dovetailPitch": {
+      "placeholder": true,
+      "chars": 285
+     }
+    },
+    {
+     "level": 3,
+     "name": "The Repository-Keeper",
+     "tagline": "You’ve built infrastructure. Now you need reach.",
+     "description": {
+      "placeholder": true,
+      "chars": 228
+     },
+     "cost": "A repo only researchers use. Impact that’s hard to quantify. Time spent maintaining systems instead of running more studies.",
+     "nextLevel": "Level 4 researchers are treated as strategic partners—their insights are actively sought out and shape major decisions.",
+     "dovetailPitch": {
+      "placeholder": true,
+      "chars": 259
+     }
+    },
+    {
+     "level": 4,
+     "name": "The Strategic Partner",
+     "tagline": "Research is valued. Now make it scale.",
+     "description": {
+      "placeholder": true,
+      "chars": 235
+     },
+     "cost": {
+      "placeholder": true,
+      "chars": 160
+     },
+     "nextLevel": "Level 5 researchers use AI to handle the scale problem—so they can focus on the work that actually requires human judgment.",
+     "dovetailPitch": {
+      "placeholder": true,
+      "chars": 247
+     }
+    },
+    {
+     "level": 5,
+     "name": "The Intelligence Engine",
+     "tagline": "Research is how your whole org makes decisions.",
+     "description": {
+      "placeholder": true,
+      "chars": 275
+     },
+     "cost": "",
+     "nextLevel": null,
+     "dovetailPitch": {
+      "placeholder": true,
+      "chars": 273
+     }
+    }
+   ],
+   "result": {
+    "levelLabel": "Level {level} of 5",
+    "costHeading": "What this costs you",
+    "pitchHeading": "How Dovetail helps",
+    "scoreLabel": "Your score: {score} / {max}",
+    "retakeLabel": "Retake quiz",
+    "primaryCta": {
+     "level<=2": {
+      "label": "Start for free",
+      "href": "/auth/signup/"
+     },
+     "level<=4": {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     },
+     "level5": {
+      "label": "Talk to us",
+      "href": "/request-a-demo/"
+     }
+    }
+   },
+   "ctaFooter": {
+    "h2": "Turn customer feedback into product innovation",
+    "ctas": [
+     {
+      "text": "Start for free",
+      "href": "/auth/signup/"
+     },
+     {
+      "text": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "scoring": {
+    "optionScore": "A=1, B=2, C=3, D=4",
+    "normalized": "sum / (4 * questionCount)",
+    "tierThresholds": [
+     "<=0.4 -> 1",
+     "<=0.575 -> 2",
+     "<=0.75 -> 3",
+     "<=0.9 -> 4",
+     "else 5"
+    ]
+   },
+   "finalCta": true
+  },
+  "design": {
+   "url": "/roles/design/quiz/",
+   "quizId": "design",
+   "eyebrow": "2-minute quiz",
+   "introHeading": "Are your designs grounded in real customer insight?",
+   "introSubtitle": {
+    "placeholder": true,
+    "chars": 186
+   },
+   "startLabel": "Start the quiz",
+   "questions": [
+    {
+     "text": "When you start a new design, how do you understand what customers actually need?",
+     "options": [
+      {
+       "key": "A",
+       "text": "Intuition and past experience—I know the product well",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "I reference old research if I can find it",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "I work with a researcher on discovery before I start",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "I have instant access to a searchable library of current customer insights",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "When a stakeholder pushes back on a design decision, how do you defend it?",
+     "options": [
+      {
+       "key": "A",
+       "text": "By explaining my design rationale and aesthetic choices",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "By referencing a piece of customer feedback I remember",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "By pulling up a research report that supports the decision",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "By surfacing specific customer quotes, clips, or data from our insights repository",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "How quickly can you validate a design concept with real customer feedback?",
+     "options": [
+      {
+       "key": "A",
+       "text": "Weeks—setting up a study takes time and research team capacity",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "1–2 weeks, if research has bandwidth",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "A few days—we have efficient processes for rapid validation",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "Hours to days—we have continuous feedback streams and always-on research",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "How do you stay informed about what customers are struggling with in the current product?",
+     "options": [
+      {
+       "key": "A",
+       "text": "Support tickets that occasionally get shared with me",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "I join user calls occasionally and read Slack summaries",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "I have access to a research repo and check it when designing",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "Customer pain points are proactively surfaced to me through automated feedback analysis",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "When a design ships and something isn’t working, how do you find out?",
+     "options": [
+      {
+       "key": "A",
+       "text": "Someone mentions it in Slack or a meeting",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "We see it in analytics—but not why it’s happening",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "We monitor feedback channels and flag themes to the team",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "Automated systems surface it with customer context before it becomes a real problem",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "How often do you design something that gets significantly reworked after user testing or launch?",
+     "options": [
+      {
+       "key": "A",
+       "text": "Often—we find out what users actually need after we’ve built it",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "Sometimes—testing helps but we still miss things",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "Occasionally—our validation process catches most issues early",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "Rarely—we’re grounded in customer insight before we start designing",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "How do you collaborate with your research team?",
+     "options": [
+      {
+       "key": "A",
+       "text": "We work in silos—design and research don’t overlap much",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "I request studies when I need them and wait for results",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "We collaborate on projects, but the process is slower than ideal",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "Research and design are deeply integrated—insights flow into my work automatically",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "How do you communicate the ’why’ behind your design decisions to product and engineering?",
+     "options": [
+      {
+       "key": "A",
+       "text": "I explain my thinking in design reviews",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "I include a summary of relevant research in my design docs",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "I link to research reports and highlight relevant findings",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "I embed customer quotes, clips, and data directly into my design artifacts",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "When working on a new feature, how much customer evidence do you have before you start?",
+     "options": [
+      {
+       "key": "A",
+       "text": "Very little—we often design first and validate later",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "Some—I use what research is available, even if it’s dated",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "A decent amount—we usually run discovery research beforehand",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "A lot—I have access to a continuously updated picture of customer needs",
+       "score": 4
+      }
+     ]
+    },
+    {
+     "text": "How confident are you that your designs are solving real customer problems?",
+     "options": [
+      {
+       "key": "A",
+       "text": "Not very—it’s hard to know until something ships",
+       "score": 1
+      },
+      {
+       "key": "B",
+       "text": "Somewhat—we do some validation but it’s not always enough",
+       "score": 2
+      },
+      {
+       "key": "C",
+       "text": "Fairly—our process includes enough testing to feel confident",
+       "score": 3
+      },
+      {
+       "key": "D",
+       "text": "Very—every design is grounded in real, current customer insight",
+       "score": 4
+      }
+     ]
+    }
+   ],
+   "tiers": [
+    {
+     "level": 1,
+     "name": "The Intuitive Designer",
+     "tagline": "You’re talented. But you’re designing for a mental model.",
+     "description": {
+      "placeholder": true,
+      "chars": 221
+     },
+     "cost": "Designs that look great but miss the mark. Rework after user testing. Stakeholder debates that customer data could settle in minutes.",
+     "nextLevel": "Designers at Level 2 start building customer validation into their process—even if it’s still reactive and ad-hoc.",
+     "dovetailPitch": {
+      "placeholder": true,
+      "chars": 257
+     }
+    },
+    {
+     "level": 2,
+     "name": "The Feedback-Gatherer",
+     "tagline": "You’re seeking validation. But it’s too late in the process.",
+     "description": {
+      "placeholder": true,
+      "chars": 227
+     },
+     "cost": {
+      "placeholder": true,
+      "chars": 143
+     },
+     "nextLevel": "Level 3 designers build insight into the early stages of design—not just as a final check before shipping.",
+     "dovetailPitch": {
+      "placeholder": true,
+      "chars": 246
+     }
+    },
+    {
+     "level": 3,
+     "name": "The Evidence-Seeker",
+     "tagline": "You want customer insight in your process. The tooling isn’t there yet.",
+     "description": {
+      "placeholder": true,
+      "chars": 214
+     },
+     "cost": {
+      "placeholder": true,
+      "chars": 170
+     },
+     "nextLevel": {
+      "placeholder": true,
+      "chars": 144
+     },
+     "dovetailPitch": {
+      "placeholder": true,
+      "chars": 251
+     }
+    },
+    {
+     "level": 4,
+     "name": "The Insight-Led Designer",
+     "tagline": "Customer evidence is core to how you design.",
+     "description": {
+      "placeholder": true,
+      "chars": 216
+     },
+     "cost": {
+      "placeholder": true,
+      "chars": 180
+     },
+     "nextLevel": "Level 5 designers have customer signal flowing into their work automatically—so they spend their time on judgment, not on finding evidence.",
+     "dovetailPitch": {
+      "placeholder": true,
+      "chars": 257
+     }
+    },
+    {
+     "level": 5,
+     "name": "The Customer Advocate",
+     "tagline": "You’re the bridge between customers and the product.",
+     "description": {
+      "placeholder": true,
+      "chars": 294
+     },
+     "cost": "",
+     "nextLevel": null,
+     "dovetailPitch": {
+      "placeholder": true,
+      "chars": 262
+     }
+    }
+   ],
+   "result": {
+    "levelLabel": "Level {level} of 5",
+    "costHeading": "What this costs you",
+    "pitchHeading": "How Dovetail helps",
+    "scoreLabel": "Your score: {score} / {max}",
+    "retakeLabel": "Retake quiz",
+    "primaryCta": {
+     "level<=2": {
+      "label": "Start for free",
+      "href": "/auth/signup/"
+     },
+     "level<=4": {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     },
+     "level5": {
+      "label": "Talk to us",
+      "href": "/request-a-demo/"
+     }
+    }
+   },
+   "ctaFooter": {
+    "h2": "Turn customer feedback into product innovation",
+    "ctas": [
+     {
+      "text": "Start for free",
+      "href": "/auth/signup/"
+     },
+     {
+      "text": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "scoring": {
+    "optionScore": "A=1, B=2, C=3, D=4",
+    "normalized": "sum / (4 * questionCount)",
+    "tierThresholds": [
+     "<=0.4 -> 1",
+     "<=0.575 -> 2",
+     "<=0.75 -> 3",
+     "<=0.9 -> 4",
+     "else 5"
+    ]
+   },
+   "finalCta": true
+  }
+ },
+ "finalCta": false
+}

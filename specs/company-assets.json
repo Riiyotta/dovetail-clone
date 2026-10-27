@@ -1,0 +1,5344 @@
+{
+ "source": "https://dovetail.com/",
+ "generated": "2026-10-26",
+ "group": "company (customers, events, resources, careers, b2bsaasy, aws-summit)",
+ "images": [
+  {
+   "original": "https://dovetail.com/customers/1-800-got-junk/white-logo.svg",
+   "local": "/assets/company/customers/1-800-got-junk/white-logo.svg",
+   "format": "svg",
+   "bytes": 19677,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/23andme-research-institute/white-logo.svg",
+   "local": "/assets/company/customers/23andme-research-institute/white-logo.svg",
+   "format": "svg",
+   "bytes": 4254,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/3t-software-labs/white-logo.svg",
+   "local": "/assets/company/customers/3t-software-labs/white-logo.svg",
+   "format": "svg",
+   "bytes": 2686,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/84-51-degrees/white-logo.svg",
+   "local": "/assets/company/customers/84-51-degrees/white-logo.svg",
+   "format": "svg",
+   "bytes": 2091,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/abnormal-security-corporation/white-logo.svg",
+   "local": "/assets/company/customers/abnormal-security-corporation/white-logo.svg",
+   "format": "svg",
+   "bytes": 2473,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/abrsm/white-logo.svg",
+   "local": "/assets/company/customers/abrsm/white-logo.svg",
+   "format": "svg",
+   "bytes": 2004,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/academy-sports-outdoors/white-logo.svg",
+   "local": "/assets/company/customers/academy-sports-outdoors/white-logo.svg",
+   "format": "svg",
+   "bytes": 8048,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/acculynx/white-logo.svg",
+   "local": "/assets/company/customers/acculynx/white-logo.svg",
+   "format": "svg",
+   "bytes": 3513,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/achievers/white-logo.svg",
+   "local": "/assets/marketing/customer-achievers-white-logo.svg",
+   "format": "svg",
+   "bytes": 6560,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/customers/aetonix/white-logo.svg",
+   "local": "/assets/company/customers/aetonix/white-logo.svg",
+   "format": "svg",
+   "bytes": 10643,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/affirm/white-logo.svg",
+   "local": "/assets/company/customers/affirm/white-logo.svg",
+   "format": "svg",
+   "bytes": 2554,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/aflac/white-logo.png",
+   "local": "/assets/company/customers/aflac/white-logo.png",
+   "format": "png",
+   "bytes": 18689,
+   "width": 600,
+   "height": 192,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/air-up/white-logo.svg",
+   "local": "/assets/company/customers/air-up/white-logo.svg",
+   "format": "svg",
+   "bytes": 5376,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/airteam/white-logo.svg",
+   "local": "/assets/company/customers/airteam/white-logo.svg",
+   "format": "svg",
+   "bytes": 6103,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/aize/white-logo.svg",
+   "local": "/assets/company/customers/aize/white-logo.svg",
+   "format": "svg",
+   "bytes": 1966,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/aker-solutions/white-logo.svg",
+   "local": "/assets/company/customers/aker-solutions/white-logo.svg",
+   "format": "svg",
+   "bytes": 12930,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/akur8/white-logo.svg",
+   "local": "/assets/company/customers/akur8/white-logo.svg",
+   "format": "svg",
+   "bytes": 4152,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/alinta-energy/white-logo.svg",
+   "local": "/assets/company/customers/alinta-energy/white-logo.svg",
+   "format": "svg",
+   "bytes": 9148,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/altium/white-logo.svg",
+   "local": "/assets/company/customers/altium/white-logo.svg",
+   "format": "svg",
+   "bytes": 4591,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/amazon/white-logo.svg",
+   "local": "/assets/marketing/customer-amazon-white-logo.svg",
+   "format": "svg",
+   "bytes": 5786,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/customers/america-s-test-kitchen/white-logo.svg",
+   "local": "/assets/company/customers/america-s-test-kitchen/white-logo.svg",
+   "format": "svg",
+   "bytes": 2134,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/analog-devices/white-logo.svg",
+   "local": "/assets/company/customers/analog-devices/white-logo.svg",
+   "format": "svg",
+   "bytes": 3199,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/anheuser-busch-inbev/white-logo.svg",
+   "local": "/assets/company/customers/anheuser-busch-inbev/white-logo.svg",
+   "format": "svg",
+   "bytes": 4089,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/anthill/white-logo.svg",
+   "local": "/assets/company/customers/anthill/white-logo.svg",
+   "format": "svg",
+   "bytes": 1409,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/appfire/white-logo.svg",
+   "local": "/assets/company/customers/appfire/white-logo.svg",
+   "format": "svg",
+   "bytes": 3857,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/apprilis/white-logo.svg",
+   "local": "/assets/company/customers/apprilis/white-logo.svg",
+   "format": "svg",
+   "bytes": 8786,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/appsflyer/white-logo.svg",
+   "local": "/assets/company/customers/appsflyer/white-logo.svg",
+   "format": "svg",
+   "bytes": 4417,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/appspace/white-logo.svg",
+   "local": "/assets/company/customers/appspace/white-logo.svg",
+   "format": "svg",
+   "bytes": 5123,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/ardoq/white-logo.svg",
+   "local": "/assets/company/customers/ardoq/white-logo.svg",
+   "format": "svg",
+   "bytes": 2542,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/argo/white-logo.svg",
+   "local": "/assets/company/customers/argo/white-logo.svg",
+   "format": "svg",
+   "bytes": 4112,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/arm/white-logo.svg",
+   "local": "/assets/company/customers/arm/white-logo.svg",
+   "format": "svg",
+   "bytes": 1703,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/ascensus/white-logo.svg",
+   "local": "/assets/company/customers/ascensus/white-logo.svg",
+   "format": "svg",
+   "bytes": 5144,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/asml/white-logo.svg",
+   "local": "/assets/marketing/customer-asml-white-logo.svg",
+   "format": "svg",
+   "bytes": 1112,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/customers/assent/white-logo.svg",
+   "local": "/assets/company/customers/assent/white-logo.svg",
+   "format": "svg",
+   "bytes": 3411,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/atlassian/white-logo.svg",
+   "local": "/assets/marketing/customer-atlassian-white-logo.svg",
+   "format": "svg",
+   "bytes": 3503,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/customers/auctane/white-logo.svg",
+   "local": "/assets/company/customers/auctane/white-logo.svg",
+   "format": "svg",
+   "bytes": 2881,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/aurora-solar/white-logo.svg",
+   "local": "/assets/company/customers/aurora-solar/white-logo.svg",
+   "format": "svg",
+   "bytes": 6292,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/autodesk/white-logo.svg",
+   "local": "/assets/company/customers/autodesk/white-logo.svg",
+   "format": "svg",
+   "bytes": 3099,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/autostore/white-logo.svg",
+   "local": "/assets/company/customers/autostore/white-logo.svg",
+   "format": "svg",
+   "bytes": 4688,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/awin-global/white-logo.svg",
+   "local": "/assets/company/customers/awin-global/white-logo.svg",
+   "format": "svg",
+   "bytes": 3060,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/aws/white-logo.svg",
+   "local": "/assets/marketing/customer-aws-white-logo.svg",
+   "format": "svg",
+   "bytes": 5789,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/customers/bamboohr/white-logo.svg",
+   "local": "/assets/company/customers/bamboohr/white-logo.svg",
+   "format": "svg",
+   "bytes": 6035,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/banco-de-chile/white-logo.svg",
+   "local": "/assets/company/customers/banco-de-chile/white-logo.svg",
+   "format": "svg",
+   "bytes": 3946,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/bank-of-montreal/white-logo.svg",
+   "local": "/assets/company/customers/bank-of-montreal/white-logo.svg",
+   "format": "svg",
+   "bytes": 4004,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/barnardos/white-logo.svg",
+   "local": "/assets/company/customers/barnardos/white-logo.svg",
+   "format": "svg",
+   "bytes": 11501,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/bayer/white-logo.svg",
+   "local": "/assets/company/customers/bayer/white-logo.svg",
+   "format": "svg",
+   "bytes": 3049,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/bear/white-logo.svg",
+   "local": "/assets/company/customers/bear/white-logo.svg",
+   "format": "svg",
+   "bytes": 2838,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/benevolentai/white-logo.svg",
+   "local": "/assets/company/customers/benevolentai/white-logo.svg",
+   "format": "svg",
+   "bytes": 4663,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/berkeley-research-group-brg/white-logo.svg",
+   "local": "/assets/company/customers/berkeley-research-group-brg/white-logo.svg",
+   "format": "svg",
+   "bytes": 4772,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/besitos/white-logo.svg",
+   "local": "/assets/company/customers/besitos/white-logo.svg",
+   "format": "svg",
+   "bytes": 5441,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/bestsecret-gmbh/white-logo.svg",
+   "local": "/assets/company/customers/bestsecret-gmbh/white-logo.svg",
+   "format": "svg",
+   "bytes": 7258,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/beyondtrust/white-logo.svg",
+   "local": "/assets/company/customers/beyondtrust/white-logo.svg",
+   "format": "svg",
+   "bytes": 7167,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/bezero-carbon/white-logo.svg",
+   "local": "/assets/company/customers/bezero-carbon/white-logo.svg",
+   "format": "svg",
+   "bytes": 5287,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/bfbs/white-logo.svg",
+   "local": "/assets/company/customers/bfbs/white-logo.svg",
+   "format": "svg",
+   "bytes": 2355,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/bforbank/white-logo.svg",
+   "local": "/assets/company/customers/bforbank/white-logo.svg",
+   "format": "svg",
+   "bytes": 3664,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/bigcommerce/white-logo.svg",
+   "local": "/assets/company/customers/bigcommerce/white-logo.svg",
+   "format": "svg",
+   "bytes": 7410,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/billcom/white-logo.svg",
+   "local": "/assets/company/customers/billcom/white-logo.svg",
+   "format": "svg",
+   "bytes": 2875,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/bixal/white-logo.svg",
+   "local": "/assets/company/customers/bixal/white-logo.svg",
+   "format": "svg",
+   "bytes": 1826,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/blue-cross-blue-shield/white-logo.svg",
+   "local": "/assets/company/customers/blue-cross-blue-shield/white-logo.svg",
+   "format": "svg",
+   "bytes": 14844,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/blue-prism/white-logo.svg",
+   "local": "/assets/company/customers/blue-prism/white-logo.svg",
+   "format": "svg",
+   "bytes": 7065,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/blue-yonder/white-logo.svg",
+   "local": "/assets/company/customers/blue-yonder/white-logo.svg",
+   "format": "svg",
+   "bytes": 4604,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/boehringer-ingelheim-gmbh/white-logo.svg",
+   "local": "/assets/company/customers/boehringer-ingelheim-gmbh/white-logo.svg",
+   "format": "svg",
+   "bytes": 11128,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/bonusly/white-logo.svg",
+   "local": "/assets/company/customers/bonusly/white-logo.svg",
+   "format": "svg",
+   "bytes": 6752,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/bounce/white-logo.svg",
+   "local": "/assets/company/customers/bounce/white-logo.svg",
+   "format": "svg",
+   "bytes": 5308,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/bower/white-logo.svg",
+   "local": "/assets/company/customers/bower/white-logo.svg",
+   "format": "svg",
+   "bytes": 6619,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/bp/white-logo.svg",
+   "local": "/assets/company/customers/bp/white-logo.svg",
+   "format": "svg",
+   "bytes": 13379,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/braunability/white-logo.svg",
+   "local": "/assets/company/customers/braunability/white-logo.svg",
+   "format": "svg",
+   "bytes": 7115,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/brenntag/white-logo.svg",
+   "local": "/assets/company/customers/brenntag/white-logo.svg",
+   "format": "svg",
+   "bytes": 2932,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/breville/white-logo.svg",
+   "local": "/assets/white-logo(3).svg",
+   "format": "svg",
+   "bytes": 2946,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/customers/brevo/white-logo.svg",
+   "local": "/assets/company/customers/brevo/white-logo.svg",
+   "format": "svg",
+   "bytes": 2085,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/bsi/white-logo.svg",
+   "local": "/assets/company/customers/bsi/white-logo.svg",
+   "format": "svg",
+   "bytes": 3084,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/bupa/white-logo.svg",
+   "local": "/assets/company/customers/bupa/white-logo.svg",
+   "format": "svg",
+   "bytes": 4706,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/buspatrol/white-logo.svg",
+   "local": "/assets/company/customers/buspatrol/white-logo.svg",
+   "format": "svg",
+   "bytes": 19627,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/canonical/white-logo.svg",
+   "local": "/assets/company/customers/canonical/white-logo.svg",
+   "format": "svg",
+   "bytes": 7580,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/canva/white-logo.svg",
+   "local": "/assets/white-logo(2).svg",
+   "format": "svg",
+   "bytes": 3864,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/customers/captura/white-logo.svg",
+   "local": "/assets/company/customers/captura/white-logo.svg",
+   "format": "svg",
+   "bytes": 3547,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/careship/white-logo.svg",
+   "local": "/assets/company/customers/careship/white-logo.svg",
+   "format": "svg",
+   "bytes": 23137,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/carevicinity/white-logo.svg",
+   "local": "/assets/company/customers/carevicinity/white-logo.svg",
+   "format": "svg",
+   "bytes": 13313,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/carrefour/white-logo.svg",
+   "local": "/assets/company/customers/carrefour/white-logo.svg",
+   "format": "svg",
+   "bytes": 16962,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/cbc/white-logo.svg",
+   "local": "/assets/company/customers/cbc/white-logo.svg",
+   "format": "svg",
+   "bytes": 14616,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/cdiscount/white-logo.svg",
+   "local": "/assets/company/customers/cdiscount/white-logo.svg",
+   "format": "svg",
+   "bytes": 4597,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/ciena/white-logo.svg",
+   "local": "/assets/company/customers/ciena/white-logo.svg",
+   "format": "svg",
+   "bytes": 4975,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/ciklum/white-logo.svg",
+   "local": "/assets/company/customers/ciklum/white-logo.svg",
+   "format": "svg",
+   "bytes": 9181,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/circle-internet-financial/white-logo.svg",
+   "local": "/assets/company/customers/circle-internet-financial/white-logo.svg",
+   "format": "svg",
+   "bytes": 5657,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/circles/white-logo.svg",
+   "local": "/assets/company/customers/circles/white-logo.svg",
+   "format": "svg",
+   "bytes": 4907,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/clear-sale/white-logo.svg",
+   "local": "/assets/company/customers/clear-sale/white-logo.svg",
+   "format": "svg",
+   "bytes": 10054,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/cleerly/white-logo.svg",
+   "local": "/assets/company/customers/cleerly/white-logo.svg",
+   "format": "svg",
+   "bytes": 3462,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/cloudflare/white-logo.svg",
+   "local": "/assets/company/customers/cloudflare/white-logo.svg",
+   "format": "svg",
+   "bytes": 4911,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/cme-group/white-logo.svg",
+   "local": "/assets/company/customers/cme-group/white-logo.svg",
+   "format": "svg",
+   "bytes": 4037,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/cnh/white-logo.svg",
+   "local": "/assets/white-logo(4).svg",
+   "format": "svg",
+   "bytes": 740,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/customers/coforma/white-logo.svg",
+   "local": "/assets/company/customers/coforma/white-logo.svg",
+   "format": "svg",
+   "bytes": 9641,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/cognite/white-logo.svg",
+   "local": "/assets/company/customers/cognite/white-logo.svg",
+   "format": "svg",
+   "bytes": 6778,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/common-knowledge/white-logo.svg",
+   "local": "/assets/company/customers/common-knowledge/white-logo.svg",
+   "format": "svg",
+   "bytes": 4287,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/companycam/white-logo.svg",
+   "local": "/assets/company/customers/companycam/white-logo.svg",
+   "format": "svg",
+   "bytes": 21868,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/conduent/white-logo.svg",
+   "local": "/assets/company/customers/conduent/white-logo.svg",
+   "format": "svg",
+   "bytes": 3158,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/connect-the-dots/white-logo.svg",
+   "local": "/assets/company/customers/connect-the-dots/white-logo.svg",
+   "format": "svg",
+   "bytes": 1569,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/conrad/white-logo.svg",
+   "local": "/assets/company/customers/conrad/white-logo.svg",
+   "format": "svg",
+   "bytes": 1926,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/constrcutconnect/white-logo.svg",
+   "local": "/assets/company/customers/constrcutconnect/white-logo.svg",
+   "format": "svg",
+   "bytes": 10620,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/contentsquare/white-logo.svg",
+   "local": "/assets/company/customers/contentsquare/white-logo.svg",
+   "format": "svg",
+   "bytes": 6994,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/continental-properties/white-logo.svg",
+   "local": "/assets/company/customers/continental-properties/white-logo.svg",
+   "format": "svg",
+   "bytes": 4348,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/corbin/white-logo.svg",
+   "local": "/assets/company/customers/corbin/white-logo.svg",
+   "format": "svg",
+   "bytes": 6701,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/corpay/white-logo.svg",
+   "local": "/assets/company/customers/corpay/white-logo.svg",
+   "format": "svg",
+   "bytes": 2273,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/craft-docs/white-logo.svg",
+   "local": "/assets/company/customers/craft-docs/white-logo.svg",
+   "format": "svg",
+   "bytes": 2159,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/crown-commercial-service/white-logo.svg",
+   "local": "/assets/company/customers/crown-commercial-service/white-logo.svg",
+   "format": "svg",
+   "bytes": 131047,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/crypto-tax-calculator/white-logo.svg",
+   "local": "/assets/company/customers/crypto-tax-calculator/white-logo.svg",
+   "format": "svg",
+   "bytes": 7204,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/cultureamp/white-logo.svg",
+   "local": "/assets/company/customers/cultureamp/white-logo.svg",
+   "format": "svg",
+   "bytes": 13815,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/dailymotion/white-logo.svg",
+   "local": "/assets/company/customers/dailymotion/white-logo.svg",
+   "format": "svg",
+   "bytes": 2925,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/dataiku/white-logo.svg",
+   "local": "/assets/company/customers/dataiku/white-logo.svg",
+   "format": "svg",
+   "bytes": 5423,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/datasite/white-logo.svg",
+   "local": "/assets/company/customers/datasite/white-logo.svg",
+   "format": "svg",
+   "bytes": 4017,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/daxko/white-logo.svg",
+   "local": "/assets/company/customers/daxko/white-logo.svg",
+   "format": "svg",
+   "bytes": 3908,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/deakin-university/white-logo.svg",
+   "local": "/assets/company/customers/deakin-university/white-logo.svg",
+   "format": "svg",
+   "bytes": 17455,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/delta-air-lines/white-logo.svg",
+   "local": "/assets/company/customers/delta-air-lines/white-logo.svg",
+   "format": "svg",
+   "bytes": 2001,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/dentsu/white-logo.svg",
+   "local": "/assets/company/customers/dentsu/white-logo.svg",
+   "format": "svg",
+   "bytes": 3178,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/deputy/white-logo.svg",
+   "local": "/assets/company/customers/deputy/white-logo.svg",
+   "format": "svg",
+   "bytes": 3460,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/dext/white-logo.svg",
+   "local": "/assets/company/customers/dext/white-logo.svg",
+   "format": "svg",
+   "bytes": 2286,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/diligent/white-logo.svg",
+   "local": "/assets/company/customers/diligent/white-logo.svg",
+   "format": "svg",
+   "bytes": 6138,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/disruptive-edge/white-logo.svg",
+   "local": "/assets/company/customers/disruptive-edge/white-logo.svg",
+   "format": "svg",
+   "bytes": 802,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/dll/white-logo.svg",
+   "local": "/assets/company/customers/dll/white-logo.svg",
+   "format": "svg",
+   "bytes": 25057,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/dnv/white-logo.svg",
+   "local": "/assets/company/customers/dnv/white-logo.svg",
+   "format": "svg",
+   "bytes": 1494,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/domain/white-logo.svg",
+   "local": "/assets/company/customers/domain/white-logo.svg",
+   "format": "svg",
+   "bytes": 2999,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/doublecheck/white-logo.svg",
+   "local": "/assets/company/customers/doublecheck/white-logo.svg",
+   "format": "svg",
+   "bytes": 9872,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/drugbank/white-logo.svg",
+   "local": "/assets/company/customers/drugbank/white-logo.svg",
+   "format": "svg",
+   "bytes": 6471,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/duke-energy-corporation/white-logo.svg",
+   "local": "/assets/company/customers/duke-energy-corporation/white-logo.svg",
+   "format": "svg",
+   "bytes": 6830,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/dunnhumby/white-logo.svg",
+   "local": "/assets/company/customers/dunnhumby/white-logo.svg",
+   "format": "svg",
+   "bytes": 6113,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/dynatron-software-inc/white-logo.svg",
+   "local": "/assets/company/customers/dynatron-software-inc/white-logo.svg",
+   "format": "svg",
+   "bytes": 6488,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/dyson/white-logo.svg",
+   "local": "/assets/company/customers/dyson/white-logo.svg",
+   "format": "svg",
+   "bytes": 2847,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/eagleview/white-logo.svg",
+   "local": "/assets/company/customers/eagleview/white-logo.svg",
+   "format": "svg",
+   "bytes": 6693,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/easypark/white-logo.svg",
+   "local": "/assets/company/customers/easypark/white-logo.svg",
+   "format": "svg",
+   "bytes": 8241,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/ecocart/white-logo.svg",
+   "local": "/assets/company/customers/ecocart/white-logo.svg",
+   "format": "svg",
+   "bytes": 2555,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/edc/white-logo.svg",
+   "local": "/assets/company/customers/edc/white-logo.svg",
+   "format": "svg",
+   "bytes": 2956,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/ediphi/white-logo.svg",
+   "local": "/assets/company/customers/ediphi/white-logo.svg",
+   "format": "svg",
+   "bytes": 10329,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/ellab-validation-monitoring-solutions/white-logo.svg",
+   "local": "/assets/company/customers/ellab-validation-monitoring-solutions/white-logo.svg",
+   "format": "svg",
+   "bytes": 1392,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/elli/white-logo.svg",
+   "local": "/assets/company/customers/elli/white-logo.svg",
+   "format": "svg",
+   "bytes": 14254,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/elsevier/white-logo.svg",
+   "local": "/assets/company/customers/elsevier/white-logo.svg",
+   "format": "svg",
+   "bytes": 91667,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/emoney/white-logo.svg",
+   "local": "/assets/company/customers/emoney/white-logo.svg",
+   "format": "svg",
+   "bytes": 2363,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/enedis/white-logo.svg",
+   "local": "/assets/company/customers/enedis/white-logo.svg",
+   "format": "svg",
+   "bytes": 3550,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/entrust/white-logo.svg",
+   "local": "/assets/company/customers/entrust/white-logo.svg",
+   "format": "svg",
+   "bytes": 2404,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/estimateone/white-logo.svg",
+   "local": "/assets/company/customers/estimateone/white-logo.svg",
+   "format": "svg",
+   "bytes": 1687,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/etribes/white-logo.svg",
+   "local": "/assets/company/customers/etribes/white-logo.svg",
+   "format": "svg",
+   "bytes": 7232,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/eucalyptus/white-logo.svg",
+   "local": "/assets/company/customers/eucalyptus/white-logo.svg",
+   "format": "svg",
+   "bytes": 17068,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/euromonitor/white-logo.svg",
+   "local": "/assets/company/customers/euromonitor/white-logo.svg",
+   "format": "svg",
+   "bytes": 12407,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/europcar/white-logo.svg",
+   "local": "/assets/company/customers/europcar/white-logo.svg",
+   "format": "svg",
+   "bytes": 3515,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/everbridge/white-logo.svg",
+   "local": "/assets/company/customers/everbridge/white-logo.svg",
+   "format": "svg",
+   "bytes": 12477,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/ezcater/white-logo.svg",
+   "local": "/assets/company/customers/ezcater/white-logo.svg",
+   "format": "svg",
+   "bytes": 6543,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/f-secure/white-logo.svg",
+   "local": "/assets/company/customers/f-secure/white-logo.svg",
+   "format": "svg",
+   "bytes": 4268,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/fabletics/white-logo.svg",
+   "local": "/assets/company/customers/fabletics/white-logo.svg",
+   "format": "svg",
+   "bytes": 3275,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/fcs-america/white-logo.svg",
+   "local": "/assets/company/customers/fcs-america/white-logo.svg",
+   "format": "svg",
+   "bytes": 15597,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/fidelity/white-logo.svg",
+   "local": "/assets/company/customers/fidelity/white-logo.svg",
+   "format": "svg",
+   "bytes": 3348,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/fig-food-is-good/white-logo.svg",
+   "local": "/assets/company/customers/fig-food-is-good/white-logo.svg",
+   "format": "svg",
+   "bytes": 1078,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/flagstone/white-logo.svg",
+   "local": "/assets/company/customers/flagstone/white-logo.svg",
+   "format": "svg",
+   "bytes": 5980,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/flashacademy/white-logo.svg",
+   "local": "/assets/company/customers/flashacademy/white-logo.svg",
+   "format": "svg",
+   "bytes": 8679,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/flexera/white-logo.svg",
+   "local": "/assets/company/customers/flexera/white-logo.svg",
+   "format": "svg",
+   "bytes": 5135,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/flipdish/white-logo.svg",
+   "local": "/assets/company/customers/flipdish/white-logo.svg",
+   "format": "svg",
+   "bytes": 4680,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/ford-credit/white-logo.svg",
+   "local": "/assets/tools/logos/ford-credit-white-logo.svg",
+   "format": "svg",
+   "bytes": 13498,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/customers/formunauts/white-logo.svg",
+   "local": "/assets/company/customers/formunauts/white-logo.svg",
+   "format": "svg",
+   "bytes": 4048,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/forrester/white-logo.svg",
+   "local": "/assets/company/customers/forrester/white-logo.svg",
+   "format": "svg",
+   "bytes": 13094,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/frontiers-media/white-logo.svg",
+   "local": "/assets/company/customers/frontiers-media/white-logo.svg",
+   "format": "svg",
+   "bytes": 9287,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/fullbay/white-logo.svg",
+   "local": "/assets/company/customers/fullbay/white-logo.svg",
+   "format": "svg",
+   "bytes": 3706,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/genesys/white-logo.svg",
+   "local": "/assets/company/customers/genesys/white-logo.svg",
+   "format": "svg",
+   "bytes": 5675,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/genuine-parts-company/white-logo.svg",
+   "local": "/assets/company/customers/genuine-parts-company/white-logo.svg",
+   "format": "svg",
+   "bytes": 8865,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/gitlab/white-logo.svg",
+   "local": "/assets/company/customers/gitlab/white-logo.svg",
+   "format": "svg",
+   "bytes": 3510,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/givaudan/white-logo.svg",
+   "local": "/assets/company/customers/givaudan/white-logo.svg",
+   "format": "svg",
+   "bytes": 3092,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/global-relay/white-logo.svg",
+   "local": "/assets/company/customers/global-relay/white-logo.svg",
+   "format": "svg",
+   "bytes": 9166,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/goformz/white-logo.svg",
+   "local": "/assets/company/customers/goformz/white-logo.svg",
+   "format": "svg",
+   "bytes": 9096,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/goodnotes/white-logo.svg",
+   "local": "/assets/company/customers/goodnotes/white-logo.svg",
+   "format": "svg",
+   "bytes": 13111,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/grafana/white-logo.svg",
+   "local": "/assets/company/customers/grafana/white-logo.svg",
+   "format": "svg",
+   "bytes": 13013,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/gravyty/white-logo.svg",
+   "local": "/assets/company/customers/gravyty/white-logo.svg",
+   "format": "svg",
+   "bytes": 2481,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/groupe-bpce/white-logo.svg",
+   "local": "/assets/company/customers/groupe-bpce/white-logo.svg",
+   "format": "svg",
+   "bytes": 178414,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/grow-therapy/white-logo.svg",
+   "local": "/assets/company/customers/grow-therapy/white-logo.svg",
+   "format": "svg",
+   "bytes": 5765,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/guild-mortgage/white-logo.svg",
+   "local": "/assets/company/customers/guild-mortgage/white-logo.svg",
+   "format": "svg",
+   "bytes": 11923,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/hackerone/white-logo.svg",
+   "local": "/assets/company/customers/hackerone/white-logo.svg",
+   "format": "svg",
+   "bytes": 9271,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/handshake/white-logo.svg",
+   "local": "/assets/company/customers/handshake/white-logo.svg",
+   "format": "svg",
+   "bytes": 4205,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/harvard-business-publishing/white-logo.svg",
+   "local": "/assets/marketing/customer-harvard-business-publishing-white-logo.svg",
+   "format": "svg",
+   "bytes": 45012,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/customers/hastings-direct/white-logo.svg",
+   "local": "/assets/company/customers/hastings-direct/white-logo.svg",
+   "format": "svg",
+   "bytes": 17467,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/hcm-deck/white-logo.svg",
+   "local": "/assets/company/customers/hcm-deck/white-logo.svg",
+   "format": "svg",
+   "bytes": 5663,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/healthstream/white-logo.svg",
+   "local": "/assets/company/customers/healthstream/white-logo.svg",
+   "format": "svg",
+   "bytes": 8842,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/hewlett-packard-enterprise/white-logo.svg",
+   "local": "/assets/company/customers/hewlett-packard-enterprise/white-logo.svg",
+   "format": "svg",
+   "bytes": 8929,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/hi-marley/white-logo.svg",
+   "local": "/assets/company/customers/hi-marley/white-logo.svg",
+   "format": "svg",
+   "bytes": 4441,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/hireup/white-logo.svg",
+   "local": "/assets/company/customers/hireup/white-logo.svg",
+   "format": "svg",
+   "bytes": 5717,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/honeycomb/white-logo.svg",
+   "local": "/assets/company/customers/honeycomb/white-logo.svg",
+   "format": "svg",
+   "bytes": 11410,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/honeywell/white-logo.svg",
+   "local": "/assets/company/customers/honeywell/white-logo.svg",
+   "format": "svg",
+   "bytes": 4965,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/hostel-world/white-logo.svg",
+   "local": "/assets/company/customers/hostel-world/white-logo.svg",
+   "format": "svg",
+   "bytes": 7200,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/hotels-combined/white-logo.svg",
+   "local": "/assets/company/customers/hotels-combined/white-logo.svg",
+   "format": "svg",
+   "bytes": 6930,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/hotmart/white-logo.svg",
+   "local": "/assets/company/customers/hotmart/white-logo.svg",
+   "format": "svg",
+   "bytes": 5882,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/hub24/white-logo.svg",
+   "local": "/assets/company/customers/hub24/white-logo.svg",
+   "format": "svg",
+   "bytes": 4661,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/hudl/white-logo.svg",
+   "local": "/assets/company/customers/hudl/white-logo.svg",
+   "format": "svg",
+   "bytes": 4300,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/hungerstation/white-logo.svg",
+   "local": "/assets/company/customers/hungerstation/white-logo.svg",
+   "format": "svg",
+   "bytes": 5364,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/ideagen/white-logo.svg",
+   "local": "/assets/company/customers/ideagen/white-logo.svg",
+   "format": "svg",
+   "bytes": 8049,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/imdb/white-logo.svg",
+   "local": "/assets/company/customers/imdb/white-logo.svg",
+   "format": "svg",
+   "bytes": 1678,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/index/white-logo.svg",
+   "local": "/assets/company/customers/index/white-logo.svg",
+   "format": "svg",
+   "bytes": 1933,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/infobip/white-logo.svg",
+   "local": "/assets/company/customers/infobip/white-logo.svg",
+   "format": "svg",
+   "bytes": 5846,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/inovalon/white-logo.svg",
+   "local": "/assets/company/customers/inovalon/white-logo.svg",
+   "format": "svg",
+   "bytes": 33338,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/instawork/white-logo.svg",
+   "local": "/assets/company/customers/instawork/white-logo.svg",
+   "format": "svg",
+   "bytes": 3837,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/intrepid-group/white-logo.svg",
+   "local": "/assets/company/customers/intrepid-group/white-logo.svg",
+   "format": "svg",
+   "bytes": 4801,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/intuit/white-logo.svg",
+   "local": "/assets/company/customers/intuit/white-logo.svg",
+   "format": "svg",
+   "bytes": 3038,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/iog/white-logo.svg",
+   "local": "/assets/company/customers/iog/white-logo.svg",
+   "format": "svg",
+   "bytes": 6219,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/ipsos/white-logo.svg",
+   "local": "/assets/company/customers/ipsos/white-logo.svg",
+   "format": "svg",
+   "bytes": 19426,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/iris/white-logo.svg",
+   "local": "/assets/company/customers/iris/white-logo.svg",
+   "format": "svg",
+   "bytes": 2971,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/itau-unibanco/white-logo.svg",
+   "local": "/assets/white-logo.svg",
+   "format": "svg",
+   "bytes": 16941,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/customers/jetstar/white-logo.svg",
+   "local": "/assets/company/customers/jetstar/white-logo.svg",
+   "format": "svg",
+   "bytes": 3382,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/jobnimbus/white-logo.svg",
+   "local": "/assets/company/customers/jobnimbus/white-logo.svg",
+   "format": "svg",
+   "bytes": 9647,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/john-hopkins-university/white-logo.svg",
+   "local": "/assets/company/customers/john-hopkins-university/white-logo.svg",
+   "format": "svg",
+   "bytes": 33665,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/john-lewis/white-logo.svg",
+   "local": "/assets/company/customers/john-lewis/white-logo.svg",
+   "format": "svg",
+   "bytes": 7559,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/keller-williams-realty/white-logo.svg",
+   "local": "/assets/company/customers/keller-williams-realty/white-logo.svg",
+   "format": "svg",
+   "bytes": 8008,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/khan-academy/white-logo.svg",
+   "local": "/assets/company/customers/khan-academy/white-logo.svg",
+   "format": "svg",
+   "bytes": 12390,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/kickstand/white-logo.svg",
+   "local": "/assets/company/customers/kickstand/white-logo.svg",
+   "format": "svg",
+   "bytes": 3613,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/king/white-logo.svg",
+   "local": "/assets/company/customers/king/white-logo.svg",
+   "format": "svg",
+   "bytes": 9429,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/klm/white-logo.svg",
+   "local": "/assets/company/customers/klm/white-logo.svg",
+   "format": "svg",
+   "bytes": 2317,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/kolecto/white-logo.svg",
+   "local": "/assets/company/customers/kolecto/white-logo.svg",
+   "format": "svg",
+   "bytes": 7010,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/komodo-health/white-logo.svg",
+   "local": "/assets/company/customers/komodo-health/white-logo.svg",
+   "format": "svg",
+   "bytes": 3902,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/kroger/white-logo.svg",
+   "local": "/assets/company/customers/kroger/white-logo.svg",
+   "format": "svg",
+   "bytes": 4764,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/laerdal-medical/white-logo.svg",
+   "local": "/assets/company/customers/laerdal-medical/white-logo.svg",
+   "format": "svg",
+   "bytes": 38681,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/lcs/white-logo.svg",
+   "local": "/assets/company/customers/lcs/white-logo.svg",
+   "format": "svg",
+   "bytes": 11625,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/leanix/white-logo.svg",
+   "local": "/assets/company/customers/leanix/white-logo.svg",
+   "format": "svg",
+   "bytes": 3582,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/learning-care-group/white-logo.svg",
+   "local": "/assets/company/customers/learning-care-group/white-logo.svg",
+   "format": "svg",
+   "bytes": 13237,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/lexis-nexis/white-logo.svg",
+   "local": "/assets/company/customers/lexis-nexis/white-logo.svg",
+   "format": "svg",
+   "bytes": 8646,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/lift-healthcare/white-logo.svg",
+   "local": "/assets/company/customers/lift-healthcare/white-logo.svg",
+   "format": "svg",
+   "bytes": 6529,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/lighthouse/white-logo.svg",
+   "local": "/assets/company/customers/lighthouse/white-logo.svg",
+   "format": "svg",
+   "bytes": 19170,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/livanova/white-logo.svg",
+   "local": "/assets/company/customers/livanova/white-logo.svg",
+   "format": "svg",
+   "bytes": 12951,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/lumin-digital/white-logo.svg",
+   "local": "/assets/company/customers/lumin-digital/white-logo.svg",
+   "format": "svg",
+   "bytes": 5519,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/luxottica/white-logo.svg",
+   "local": "/assets/company/customers/luxottica/white-logo.svg",
+   "format": "svg",
+   "bytes": 6067,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/maersk/white-logo.svg",
+   "local": "/assets/company/customers/maersk/white-logo.svg",
+   "format": "svg",
+   "bytes": 3099,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/magic-cabinet/white-logo.svg",
+   "local": "/assets/company/customers/magic-cabinet/white-logo.svg",
+   "format": "svg",
+   "bytes": 28946,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/manulife/white-logo.svg",
+   "local": "/assets/company/customers/manulife/white-logo.svg",
+   "format": "svg",
+   "bytes": 2602,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/manychat/white-logo.svg",
+   "local": "/assets/company/customers/manychat/white-logo.svg",
+   "format": "svg",
+   "bytes": 6796,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/medibank/white-logo.svg",
+   "local": "/assets/company/customers/medibank/white-logo.svg",
+   "format": "svg",
+   "bytes": 7013,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/medtronic/white-logo.svg",
+   "local": "/assets/company/customers/medtronic/white-logo.svg",
+   "format": "svg",
+   "bytes": 5308,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/meld-studio/white-logo.svg",
+   "local": "/assets/company/customers/meld-studio/white-logo.svg",
+   "format": "svg",
+   "bytes": 15970,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/mendix/white-logo.svg",
+   "local": "/assets/company/customers/mendix/white-logo.svg",
+   "format": "svg",
+   "bytes": 2409,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/merck/white-logo.svg",
+   "local": "/assets/company/customers/merck/white-logo.svg",
+   "format": "svg",
+   "bytes": 1897,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/meridian/white-logo.svg",
+   "local": "/assets/company/customers/meridian/white-logo.svg",
+   "format": "svg",
+   "bytes": 3907,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/metacore/white-logo.svg",
+   "local": "/assets/company/customers/metacore/white-logo.svg",
+   "format": "svg",
+   "bytes": 5806,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/metro-digital/white-logo.svg",
+   "local": "/assets/company/customers/metro-digital/white-logo.svg",
+   "format": "svg",
+   "bytes": 7074,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/milliporesigma/white-logo.svg",
+   "local": "/assets/company/customers/milliporesigma/white-logo.svg",
+   "format": "svg",
+   "bytes": 8765,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/moneysupermarket-group/white-logo.svg",
+   "local": "/assets/company/customers/moneysupermarket-group/white-logo.svg",
+   "format": "svg",
+   "bytes": 9847,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/mongodb/white-logo.svg",
+   "local": "/assets/company/customers/mongodb/white-logo.svg",
+   "format": "svg",
+   "bytes": 11941,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/moody-s/white-logo.svg",
+   "local": "/assets/company/customers/moody-s/white-logo.svg",
+   "format": "svg",
+   "bytes": 6053,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/motability-operations/white-logo.svg",
+   "local": "/assets/company/customers/motability-operations/white-logo.svg",
+   "format": "svg",
+   "bytes": 9030,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/motorola/white-logo.svg",
+   "local": "/assets/company/customers/motorola/white-logo.svg",
+   "format": "svg",
+   "bytes": 7968,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/multigate/white-logo.svg",
+   "local": "/assets/company/customers/multigate/white-logo.svg",
+   "format": "svg",
+   "bytes": 7324,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/multiverse/white-logo.svg",
+   "local": "/assets/company/customers/multiverse/white-logo.svg",
+   "format": "svg",
+   "bytes": 3900,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/mural/white-logo.svg",
+   "local": "/assets/company/customers/mural/white-logo.svg",
+   "format": "svg",
+   "bytes": 2078,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/mystery-science/white-logo.svg",
+   "local": "/assets/company/customers/mystery-science/white-logo.svg",
+   "format": "svg",
+   "bytes": 6479,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/nature/white-logo.svg",
+   "local": "/assets/company/customers/nature/white-logo.svg",
+   "format": "svg",
+   "bytes": 2092,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/ncrvoyix/white-logo.svg",
+   "local": "/assets/marketing/customer-ncrvoyix-white-logo.svg",
+   "format": "svg",
+   "bytes": 3410,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/customers/nea/white-logo.svg",
+   "local": "/assets/company/customers/nea/white-logo.svg",
+   "format": "svg",
+   "bytes": 16837,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/nelson/white-logo.svg",
+   "local": "/assets/company/customers/nelson/white-logo.svg",
+   "format": "svg",
+   "bytes": 1971,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/netguru/white-logo.svg",
+   "local": "/assets/company/customers/netguru/white-logo.svg",
+   "format": "svg",
+   "bytes": 3779,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/netwealth/white-logo.svg",
+   "local": "/assets/company/customers/netwealth/white-logo.svg",
+   "format": "svg",
+   "bytes": 3895,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/nice/white-logo.svg",
+   "local": "/assets/company/customers/nice/white-logo.svg",
+   "format": "svg",
+   "bytes": 1645,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/notion/white-logo.svg",
+   "local": "/assets/marketing/customer-notion-white-logo.svg",
+   "format": "svg",
+   "bytes": 3427,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/customers/nsw-gov/white-logo.svg",
+   "local": "/assets/company/customers/nsw-gov/white-logo.svg",
+   "format": "svg",
+   "bytes": 10803,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/o-reilly/white-logo.svg",
+   "local": "/assets/company/customers/o-reilly/white-logo.svg",
+   "format": "svg",
+   "bytes": 2549,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/ocean-technologies-group/white-logo.svg",
+   "local": "/assets/company/customers/ocean-technologies-group/white-logo.svg",
+   "format": "svg",
+   "bytes": 10200,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/octopus-deploy/white-logo.svg",
+   "local": "/assets/company/customers/octopus-deploy/white-logo.svg",
+   "format": "svg",
+   "bytes": 13061,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/office-of-innovation-state-of-new-jersey/white-logo.svg",
+   "local": "/assets/company/customers/office-of-innovation-state-of-new-jersey/white-logo.svg",
+   "format": "svg",
+   "bytes": 9151,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/okta/white-logo.svg",
+   "local": "/assets/white-logo(1).svg",
+   "format": "svg",
+   "bytes": 7282,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/customers/olo/white-logo.svg",
+   "local": "/assets/company/customers/olo/white-logo.svg",
+   "format": "svg",
+   "bytes": 2565,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/onenz/white-logo.svg",
+   "local": "/assets/company/customers/onenz/white-logo.svg",
+   "format": "svg",
+   "bytes": 4138,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/orgvue/white-logo.svg",
+   "local": "/assets/company/customers/orgvue/white-logo.svg",
+   "format": "svg",
+   "bytes": 3410,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/our-future-health/white-logo.svg",
+   "local": "/assets/company/customers/our-future-health/white-logo.svg",
+   "format": "svg",
+   "bytes": 8782,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/oura/white-logo.png",
+   "local": "/assets/company/customers/oura/white-logo.png",
+   "format": "png",
+   "bytes": 17050,
+   "width": 600,
+   "height": 187,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/owens-corning/white-logo.svg",
+   "local": "/assets/company/customers/owens-corning/white-logo.svg",
+   "format": "svg",
+   "bytes": 7919,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/pandadoc/white-logo.svg",
+   "local": "/assets/company/customers/pandadoc/white-logo.svg",
+   "format": "svg",
+   "bytes": 991,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/par/white-logo.svg",
+   "local": "/assets/company/customers/par/white-logo.svg",
+   "format": "svg",
+   "bytes": 8408,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/paradox-interactive/white-logo.svg",
+   "local": "/assets/company/customers/paradox-interactive/white-logo.svg",
+   "format": "svg",
+   "bytes": 12204,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/parentpay/white-logo.svg",
+   "local": "/assets/company/customers/parentpay/white-logo.svg",
+   "format": "svg",
+   "bytes": 6400,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/payfit/white-logo.svg",
+   "local": "/assets/company/customers/payfit/white-logo.svg",
+   "format": "svg",
+   "bytes": 7737,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/pccw-global/white-logo.svg",
+   "local": "/assets/company/customers/pccw-global/white-logo.svg",
+   "format": "svg",
+   "bytes": 8331,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/pearson/white-logo.svg",
+   "local": "/assets/company/customers/pearson/white-logo.svg",
+   "format": "svg",
+   "bytes": 8507,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/pensionbee/white-logo.svg",
+   "local": "/assets/company/customers/pensionbee/white-logo.svg",
+   "format": "svg",
+   "bytes": 6269,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/petal-health/white-logo.svg",
+   "local": "/assets/company/customers/petal-health/white-logo.svg",
+   "format": "svg",
+   "bytes": 8252,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/petcube/white-logo.svg",
+   "local": "/assets/company/customers/petcube/white-logo.svg",
+   "format": "svg",
+   "bytes": 2239,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/pexa/white-logo.svg",
+   "local": "/assets/company/customers/pexa/white-logo.svg",
+   "format": "svg",
+   "bytes": 3986,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/powerschool/white-logo.svg",
+   "local": "/assets/company/customers/powerschool/white-logo.svg",
+   "format": "svg",
+   "bytes": 14364,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/ppg/white-logo.svg",
+   "local": "/assets/company/customers/ppg/white-logo.svg",
+   "format": "svg",
+   "bytes": 2204,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/preqin/white-logo.svg",
+   "local": "/assets/company/customers/preqin/white-logo.svg",
+   "format": "svg",
+   "bytes": 1946,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/project-management-institute/white-logo.svg",
+   "local": "/assets/company/customers/project-management-institute/white-logo.svg",
+   "format": "svg",
+   "bytes": 28254,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/propeller/white-logo.svg",
+   "local": "/assets/company/customers/propeller/white-logo.svg",
+   "format": "svg",
+   "bytes": 8133,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/ptc/white-logo.svg",
+   "local": "/assets/company/customers/ptc/white-logo.svg",
+   "format": "svg",
+   "bytes": 2502,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/publicis-media/white-logo.svg",
+   "local": "/assets/company/customers/publicis-media/white-logo.svg",
+   "format": "svg",
+   "bytes": 21988,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/pushpay/white-logo.svg",
+   "local": "/assets/company/customers/pushpay/white-logo.svg",
+   "format": "svg",
+   "bytes": 6436,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/pvcase/white-logo.png",
+   "local": "/assets/company/customers/pvcase/white-logo.png",
+   "format": "png",
+   "bytes": 10401,
+   "width": 520,
+   "height": 80,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/q4inc/white-logo.svg",
+   "local": "/assets/company/customers/q4inc/white-logo.svg",
+   "format": "svg",
+   "bytes": 1470,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/qantas/white-logo.svg",
+   "local": "/assets/marketing/customer-qantas-white-logo.svg",
+   "format": "svg",
+   "bytes": 3851,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/customers/qhr-tech/white-logo.svg",
+   "local": "/assets/company/customers/qhr-tech/white-logo.svg",
+   "format": "svg",
+   "bytes": 14843,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/quickbase/white-logo.svg",
+   "local": "/assets/company/customers/quickbase/white-logo.svg",
+   "format": "svg",
+   "bytes": 4191,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/rapid7/white-logo.svg",
+   "local": "/assets/company/customers/rapid7/white-logo.svg",
+   "format": "svg",
+   "bytes": 1851,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/rea-group/white-logo.svg",
+   "local": "/assets/company/customers/rea-group/white-logo.svg",
+   "format": "svg",
+   "bytes": 4039,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/realogy/white-logo.svg",
+   "local": "/assets/company/customers/realogy/white-logo.svg",
+   "format": "svg",
+   "bytes": 5420,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/remote/white-logo.svg",
+   "local": "/assets/company/customers/remote/white-logo.svg",
+   "format": "svg",
+   "bytes": 4516,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/reuters/white-logo.svg",
+   "local": "/assets/company/customers/reuters/white-logo.svg",
+   "format": "svg",
+   "bytes": 16485,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/revenuecat/white-logo.svg",
+   "local": "/assets/company/customers/revenuecat/white-logo.svg",
+   "format": "svg",
+   "bytes": 6437,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/risepoint/white-logo.svg",
+   "local": "/assets/company/customers/risepoint/white-logo.svg",
+   "format": "svg",
+   "bytes": 6124,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/roche/white-logo.svg",
+   "local": "/assets/company/customers/roche/white-logo.svg",
+   "format": "svg",
+   "bytes": 2752,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/royal-bank-of-scotland/white-logo.svg",
+   "local": "/assets/company/customers/royal-bank-of-scotland/white-logo.svg",
+   "format": "svg",
+   "bytes": 10218,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/runyon/white-logo.svg",
+   "local": "/assets/company/customers/runyon/white-logo.svg",
+   "format": "svg",
+   "bytes": 2455,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/safe-software/white-logo.svg",
+   "local": "/assets/company/customers/safe-software/white-logo.svg",
+   "format": "svg",
+   "bytes": 10657,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/safetyculture/white-logo.svg",
+   "local": "/assets/marketing/customer-safetyculture-white-logo.svg",
+   "format": "svg",
+   "bytes": 18593,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/customers/sage/white-logo.svg",
+   "local": "/assets/company/customers/sage/white-logo.svg",
+   "format": "svg",
+   "bytes": 3049,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/salesforce/white-logo.svg",
+   "local": "/assets/marketing/customer-salesforce-white-logo.svg",
+   "format": "svg",
+   "bytes": 11594,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/customers/salsify/white-logo.svg",
+   "local": "/assets/company/customers/salsify/white-logo.svg",
+   "format": "svg",
+   "bytes": 12597,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/sam-s-club/white-logo.svg",
+   "local": "/assets/company/customers/sam-s-club/white-logo.svg",
+   "format": "svg",
+   "bytes": 4868,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/sanity/white-logo.svg",
+   "local": "/assets/company/customers/sanity/white-logo.svg",
+   "format": "svg",
+   "bytes": 2405,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/sanofi/white-logo.svg",
+   "local": "/assets/company/customers/sanofi/white-logo.svg",
+   "format": "svg",
+   "bytes": 3865,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/saviynt/white-logo.svg",
+   "local": "/assets/company/customers/saviynt/white-logo.svg",
+   "format": "svg",
+   "bytes": 3277,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/schneider-electric/white-logo.svg",
+   "local": "/assets/company/customers/schneider-electric/white-logo.svg",
+   "format": "svg",
+   "bytes": 9290,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/schoox/white-logo.svg",
+   "local": "/assets/company/customers/schoox/white-logo.svg",
+   "format": "svg",
+   "bytes": 3701,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/seek/white-logo.svg",
+   "local": "/assets/company/customers/seek/white-logo.svg",
+   "format": "svg",
+   "bytes": 9228,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/sentinelone/white-logo.svg",
+   "local": "/assets/company/customers/sentinelone/white-logo.svg",
+   "format": "svg",
+   "bytes": 10810,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/servicetitan/white-logo.svg",
+   "local": "/assets/company/customers/servicetitan/white-logo.svg",
+   "format": "svg",
+   "bytes": 14241,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/shopify/white-logo.svg",
+   "local": "/assets/marketing/customer-shopify-white-logo.svg",
+   "format": "svg",
+   "bytes": 5891,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/customers/sinch/white-logo.svg",
+   "local": "/assets/company/customers/sinch/white-logo.svg",
+   "format": "svg",
+   "bytes": 5402,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/sitecore/white-logo.svg",
+   "local": "/assets/company/customers/sitecore/white-logo.svg",
+   "format": "svg",
+   "bytes": 9802,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/skan-ai/white-logo.svg",
+   "local": "/assets/company/customers/skan-ai/white-logo.svg",
+   "format": "svg",
+   "bytes": 2227,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/sma-technologies/white-logo.svg",
+   "local": "/assets/company/customers/sma-technologies/white-logo.svg",
+   "format": "svg",
+   "bytes": 8386,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/smartrecruiters/white-logo.svg",
+   "local": "/assets/white-logo(5).svg",
+   "format": "svg",
+   "bytes": 12998,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/customers/sonos/white-logo.svg",
+   "local": "/assets/company/customers/sonos/white-logo.svg",
+   "format": "svg",
+   "bytes": 2755,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/sparksoft/white-logo.svg",
+   "local": "/assets/company/customers/sparksoft/white-logo.svg",
+   "format": "svg",
+   "bytes": 18706,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/spoton/white-logo.svg",
+   "local": "/assets/company/customers/spoton/white-logo.svg",
+   "format": "svg",
+   "bytes": 3701,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/springer-nature/white-logo.svg",
+   "local": "/assets/company/customers/springer-nature/white-logo.svg",
+   "format": "svg",
+   "bytes": 5045,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/sram/white-logo.svg",
+   "local": "/assets/company/customers/sram/white-logo.svg",
+   "format": "svg",
+   "bytes": 2735,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/state-affairs/white-logo.svg",
+   "local": "/assets/company/customers/state-affairs/white-logo.svg",
+   "format": "svg",
+   "bytes": 3504,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/steelcase/white-logo.svg",
+   "local": "/assets/company/customers/steelcase/white-logo.svg",
+   "format": "svg",
+   "bytes": 4308,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/stellar-elements/white-logo.svg",
+   "local": "/assets/company/customers/stellar-elements/white-logo.svg",
+   "format": "svg",
+   "bytes": 11704,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/stepstone-group/white-logo.svg",
+   "local": "/assets/company/customers/stepstone-group/white-logo.svg",
+   "format": "svg",
+   "bytes": 12186,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/strata-decision-tech/white-logo.svg",
+   "local": "/assets/company/customers/strata-decision-tech/white-logo.svg",
+   "format": "svg",
+   "bytes": 25376,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/sustena/white-logo.svg",
+   "local": "/assets/company/customers/sustena/white-logo.svg",
+   "format": "svg",
+   "bytes": 7817,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/swinburne-university/white-logo.svg",
+   "local": "/assets/company/customers/swinburne-university/white-logo.svg",
+   "format": "svg",
+   "bytes": 17990,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/synthesia/white-logo.svg",
+   "local": "/assets/company/customers/synthesia/white-logo.svg",
+   "format": "svg",
+   "bytes": 3789,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/tadaweb/white-logo.svg",
+   "local": "/assets/company/customers/tadaweb/white-logo.svg",
+   "format": "svg",
+   "bytes": 5836,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/talon-one/white-logo.svg",
+   "local": "/assets/company/customers/talon-one/white-logo.svg",
+   "format": "svg",
+   "bytes": 7232,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/tantus/white-logo.svg",
+   "local": "/assets/company/customers/tantus/white-logo.svg",
+   "format": "svg",
+   "bytes": 15152,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/techsmith/white-logo.svg",
+   "local": "/assets/company/customers/techsmith/white-logo.svg",
+   "format": "svg",
+   "bytes": 3112,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/textnow/white-logo.svg",
+   "local": "/assets/company/customers/textnow/white-logo.svg",
+   "format": "svg",
+   "bytes": 2522,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/the-yuki-company/white-logo.svg",
+   "local": "/assets/company/customers/the-yuki-company/white-logo.svg",
+   "format": "svg",
+   "bytes": 10139,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/toyota/white-logo.svg",
+   "local": "/assets/marketing/customer-toyota-white-logo.svg",
+   "format": "svg",
+   "bytes": 3903,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/customers/trainline/white-logo.svg",
+   "local": "/assets/company/customers/trainline/white-logo.svg",
+   "format": "svg",
+   "bytes": 5548,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/transbank/white-logo.svg",
+   "local": "/assets/company/customers/transbank/white-logo.svg",
+   "format": "svg",
+   "bytes": 23448,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/triple-whale/white-logo.svg",
+   "local": "/assets/company/customers/triple-whale/white-logo.svg",
+   "format": "svg",
+   "bytes": 4207,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/turnitin/white-logo.svg",
+   "local": "/assets/company/customers/turnitin/white-logo.svg",
+   "format": "svg",
+   "bytes": 4626,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/tyme/white-logo.svg",
+   "local": "/assets/company/customers/tyme/white-logo.svg",
+   "format": "svg",
+   "bytes": 4064,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/ucla/white-logo.svg",
+   "local": "/assets/company/customers/ucla/white-logo.svg",
+   "format": "svg",
+   "bytes": 1453,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/ukg/white-logo.svg",
+   "local": "/assets/company/customers/ukg/white-logo.svg",
+   "format": "svg",
+   "bytes": 3588,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/university-of-auckland/white-logo.svg",
+   "local": "/assets/company/customers/university-of-auckland/white-logo.svg",
+   "format": "svg",
+   "bytes": 57060,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/veed/white-logo.svg",
+   "local": "/assets/company/customers/veed/white-logo.svg",
+   "format": "svg",
+   "bytes": 3288,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/vena-solutions/white-logo.svg",
+   "local": "/assets/company/customers/vena-solutions/white-logo.svg",
+   "format": "svg",
+   "bytes": 1667,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/veo/white-logo.svg",
+   "local": "/assets/company/customers/veo/white-logo.svg",
+   "format": "svg",
+   "bytes": 1757,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/vital-voices/white-logo.svg",
+   "local": "/assets/company/customers/vital-voices/white-logo.svg",
+   "format": "svg",
+   "bytes": 21959,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/voices/white-logo.svg",
+   "local": "/assets/company/customers/voices/white-logo.svg",
+   "format": "svg",
+   "bytes": 3006,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/wealthsimple/white-logo.svg",
+   "local": "/assets/company/customers/wealthsimple/white-logo.svg",
+   "format": "svg",
+   "bytes": 14639,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/wealthwizards/white-logo.svg",
+   "local": "/assets/company/customers/wealthwizards/white-logo.svg",
+   "format": "svg",
+   "bytes": 8482,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/webjet/white-logo.svg",
+   "local": "/assets/company/customers/webjet/white-logo.svg",
+   "format": "svg",
+   "bytes": 3172,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/whole-foods/white-logo.svg",
+   "local": "/assets/company/customers/whole-foods/white-logo.svg",
+   "format": "svg",
+   "bytes": 17091,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/whoop/white-logo.svg",
+   "local": "/assets/company/customers/whoop/white-logo.svg",
+   "format": "svg",
+   "bytes": 5484,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/wiley/white-logo.svg",
+   "local": "/assets/company/customers/wiley/white-logo.svg",
+   "format": "svg",
+   "bytes": 1354,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/wise/white-logo.svg",
+   "local": "/assets/marketing/customer-wise-white-logo.svg",
+   "format": "svg",
+   "bytes": 10079,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/customers/wood-mackenzie/white-logo.svg",
+   "local": "/assets/company/customers/wood-mackenzie/white-logo.svg",
+   "format": "svg",
+   "bytes": 8347,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/workrise/white-logo.svg",
+   "local": "/assets/company/customers/workrise/white-logo.svg",
+   "format": "svg",
+   "bytes": 3909,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/worley/white-logo.svg",
+   "local": "/assets/company/customers/worley/white-logo.svg",
+   "format": "svg",
+   "bytes": 14106,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/wp-engine/white-logo.svg",
+   "local": "/assets/company/customers/wp-engine/white-logo.svg",
+   "format": "svg",
+   "bytes": 11911,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/wrapbook/white-logo.svg",
+   "local": "/assets/company/customers/wrapbook/white-logo.svg",
+   "format": "svg",
+   "bytes": 2874,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/ynab/white-logo.svg",
+   "local": "/assets/company/customers/ynab/white-logo.svg",
+   "format": "svg",
+   "bytes": 1270,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/yum-brands/white-logo.svg",
+   "local": "/assets/company/customers/yum-brands/white-logo.svg",
+   "format": "svg",
+   "bytes": 5625,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/zapier/white-logo.svg",
+   "local": "/assets/marketing/customer-zapier-white-logo.svg",
+   "format": "svg",
+   "bytes": 4898,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/customers/zip/white-logo.svg",
+   "local": "/assets/company/customers/zip/white-logo.svg",
+   "format": "svg",
+   "bytes": 4406,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/zoco/white-logo.svg",
+   "local": "/assets/company/customers/zoco/white-logo.svg",
+   "format": "svg",
+   "bytes": 6593,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/customers/zurich/white-logo.svg",
+   "local": "/assets/company/customers/zurich/white-logo.svg",
+   "format": "svg",
+   "bytes": 9389,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/dottile.png",
+   "local": "/assets/company/dottile.png",
+   "format": "png",
+   "bytes": 144,
+   "width": 16,
+   "height": 16,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/005C_customer_story_Atlassian__1_.png",
+   "local": "/assets/company/media/005C_customer_story_Atlassian__1_.png",
+   "format": "png",
+   "bytes": 3203794,
+   "width": 1472,
+   "height": 948,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/005C_customer_story_Itau_Unibanco-social.jpg",
+   "local": "/assets/company/media/005C_customer_story_Itau_Unibanco-social.jpg",
+   "format": "jpg",
+   "bytes": 98162,
+   "width": 1472,
+   "height": 948,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/005C_customer_story_achievers.png",
+   "local": "/assets/company/media/005C_customer_story_achievers.png",
+   "format": "png",
+   "bytes": 828493,
+   "width": 736,
+   "height": 474,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/005C_customer_story_petal_health.png",
+   "local": "/assets/company/media/005C_customer_story_petal_health.png",
+   "format": "png",
+   "bytes": 724447,
+   "width": 736,
+   "height": 474,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/12e77758-3dde-45df-868c-4ffdd404c054.avif",
+   "local": "/assets/company/media/12e77758-3dde-45df-868c-4ffdd404c054.avif",
+   "format": "avif",
+   "bytes": 16635,
+   "width": 799,
+   "height": 450,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/2024-08-14-automatically-apply-tags-to-magic-highlights.png",
+   "local": "/assets/company/media/2024-08-14-automatically-apply-tags-to-magic-highlights.png",
+   "format": "png",
+   "bytes": 348482,
+   "width": 3720,
+   "height": 1920,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/2024_Live_Demo_Roles__6_.png",
+   "local": "/assets/company/media/2024_Live_Demo_Roles__6_.png",
+   "format": "png",
+   "bytes": 1899499,
+   "width": 7000,
+   "height": 3937,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/3d-flag.png",
+   "local": "/assets/marketing/3d-flag.png",
+   "format": "png",
+   "bytes": 14505,
+   "width": 128,
+   "height": 128,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/3d-icon-digital-twin.png",
+   "local": "/assets/3d-icon-digital-twin.png",
+   "format": "png",
+   "bytes": 10864,
+   "width": 96,
+   "height": 96,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/9-digital-twins-you-can-build-today.jpg",
+   "local": "/assets/content/9-digital-twins-you-can-build-today.jpg",
+   "format": "jpg",
+   "bytes": 124491,
+   "width": 1467,
+   "height": 984,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/A42I7979.jpg",
+   "local": "/assets/company/media/A42I7979.jpg",
+   "format": "jpg",
+   "bytes": 218819,
+   "width": 1920,
+   "height": 1188,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/A42I8052.jpg",
+   "local": "/assets/company/media/A42I8052.jpg",
+   "format": "jpg",
+   "bytes": 143740,
+   "width": 1920,
+   "height": 1091,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/AI_Analysis_Hero__1_-5jkaobyLyLYbZ5x3Y5en15.png",
+   "local": "/assets/company/media/AI_Analysis_Hero__1_-5jkaobyLyLYbZ5x3Y5en15.png",
+   "format": "png",
+   "bytes": 1108805,
+   "width": 2528,
+   "height": 1600,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/AI_Analysis_Hero__1_.png",
+   "local": "/assets/company/media/AI_Analysis_Hero__1_.png",
+   "format": "png",
+   "bytes": 1379067,
+   "width": 2528,
+   "height": 1600,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/AWS.jpg",
+   "local": "/assets/company/media/AWS.jpg",
+   "format": "jpg",
+   "bytes": 1715439,
+   "width": 5184,
+   "height": 3456,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Ask_Dovetail_AI_Assistant_in_Slack.png",
+   "local": "/assets/company/media/Ask_Dovetail_AI_Assistant_in_Slack.png",
+   "format": "png",
+   "bytes": 70840,
+   "width": 1472,
+   "height": 1072,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Atlassian.png",
+   "local": "/assets/company/media/Atlassian.png",
+   "format": "png",
+   "bytes": 874968,
+   "width": 1086,
+   "height": 700,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Autodesk_Hero__2_.jpg",
+   "local": "/assets/company/media/Autodesk_Hero__2_.jpg",
+   "format": "jpg",
+   "bytes": 310562,
+   "width": 3840,
+   "height": 2160,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Breville.jpg",
+   "local": "/assets/company/media/Breville.jpg",
+   "format": "jpg",
+   "bytes": 46906,
+   "width": 1086,
+   "height": 700,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Breville_collaboration.png",
+   "local": "/assets/company/media/Breville_collaboration.png",
+   "format": "png",
+   "bytes": 2547122,
+   "width": 2506,
+   "height": 1402,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Breville_customer_insights.png",
+   "local": "/assets/company/media/Breville_customer_insights.png",
+   "format": "png",
+   "bytes": 3886754,
+   "width": 2518,
+   "height": 1406,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/CNH_before_after_1.png",
+   "local": "/assets/company/media/CNH_before_after_1.png",
+   "format": "png",
+   "bytes": 1461394,
+   "width": 1472,
+   "height": 528,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/CNH_before_after_2.png",
+   "local": "/assets/company/media/CNH_before_after_2.png",
+   "format": "png",
+   "bytes": 2219518,
+   "width": 1472,
+   "height": 802,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/CNH_before_after_3.png",
+   "local": "/assets/company/media/CNH_before_after_3.png",
+   "format": "png",
+   "bytes": 1392901,
+   "width": 1472,
+   "height": 458,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/CNH_before_after_table.png",
+   "local": "/assets/company/media/CNH_before_after_table.png",
+   "format": "png",
+   "bytes": 48155,
+   "width": 1472,
+   "height": 682,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/CNH_headshot.png",
+   "local": "/assets/company/media/CNH_headshot.png",
+   "format": "png",
+   "bytes": 2585076,
+   "width": 1472,
+   "height": 948,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Canva.jpg",
+   "local": "/assets/company/media/Canva.jpg",
+   "format": "jpg",
+   "bytes": 292096,
+   "width": 2240,
+   "height": 1260,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Canva.png",
+   "local": "/assets/company/media/Canva.png",
+   "format": "png",
+   "bytes": 1373265,
+   "width": 1086,
+   "height": 700,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Canva3.jpg",
+   "local": "/assets/company/media/Canva3.jpg",
+   "format": "jpg",
+   "bytes": 297670,
+   "width": 2240,
+   "height": 1260,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Canva_AI.jpg",
+   "local": "/assets/company/media/Canva_AI.jpg",
+   "format": "jpg",
+   "bytes": 297704,
+   "width": 2240,
+   "height": 1260,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Canva_AI_cover.jpg",
+   "local": "/assets/company/media/Canva_AI_cover.jpg",
+   "format": "jpg",
+   "bytes": 51911,
+   "width": 1086,
+   "height": 700,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Careship.png",
+   "local": "/assets/company/media/Careship.png",
+   "format": "png",
+   "bytes": 1727361,
+   "width": 1086,
+   "height": 700,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Channels-AI-generated_themes-product-image.png",
+   "local": "/assets/marketing/Channels-AI-generated_themes-product-image.png",
+   "format": "png",
+   "bytes": 411540,
+   "width": 2094,
+   "height": 1448,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/Chat_and_Search.png",
+   "local": "/assets/company/media/Chat_and_Search.png",
+   "format": "png",
+   "bytes": 605994,
+   "width": 2528,
+   "height": 1200,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Contact_sales_slice__3_.png",
+   "local": "/assets/content/Contact_sales_slice__3_.png",
+   "format": "png",
+   "bytes": 133162,
+   "width": 1232,
+   "height": 1296,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/Contextual-chat-inline-2.png",
+   "local": "/assets/company/media/Contextual-chat-inline-2.png",
+   "format": "png",
+   "bytes": 343748,
+   "width": 1472,
+   "height": 984,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/CustomerStoryBrevilleLoop_copy.png",
+   "local": "/assets/company/media/CustomerStoryBrevilleLoop_copy.png",
+   "format": "png",
+   "bytes": 708435,
+   "width": 1920,
+   "height": 1080,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Customer_AWS.jpg",
+   "local": "/assets/company/media/Customer_AWS.jpg",
+   "format": "jpg",
+   "bytes": 1715439,
+   "width": 5184,
+   "height": 3456,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Customer_Achievers.png",
+   "local": "/assets/marketing/Customer_Achievers.png",
+   "format": "png",
+   "bytes": 204510,
+   "width": 272,
+   "height": 300,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/Customer_Atlassian.png",
+   "local": "/assets/company/media/Customer_Atlassian.png",
+   "format": "png",
+   "bytes": 184441,
+   "width": 272,
+   "height": 300,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Customer_Atlassian2.png",
+   "local": "/assets/marketing/Customer_Atlassian2.png",
+   "format": "png",
+   "bytes": 936707,
+   "width": 800,
+   "height": 880,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/Customer_Breville.png",
+   "local": "/assets/Customer_Breville.png",
+   "format": "png",
+   "bytes": 146867,
+   "width": 272,
+   "height": 300,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/Customer_CNHIndustrial.png",
+   "local": "/assets/Customer_CNHIndustrial.png",
+   "format": "png",
+   "bytes": 1344189,
+   "width": 800,
+   "height": 880,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/Customer_Canva.png",
+   "local": "/assets/marketing/Customer_Canva.png",
+   "format": "png",
+   "bytes": 1155392,
+   "width": 800,
+   "height": 880,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/Customer_Canva_AI.png",
+   "local": "/assets/company/media/Customer_Canva_AI.png",
+   "format": "png",
+   "bytes": 1068529,
+   "width": 800,
+   "height": 880,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Customer_Careship.png",
+   "local": "/assets/company/media/Customer_Careship.png",
+   "format": "png",
+   "bytes": 1179848,
+   "width": 800,
+   "height": 880,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Customer_Eucalyptus.png",
+   "local": "/assets/company/media/Customer_Eucalyptus.png",
+   "format": "png",
+   "bytes": 1254167,
+   "width": 800,
+   "height": 880,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Customer_Harvard.png",
+   "local": "/assets/marketing/Customer_Harvard.png",
+   "format": "png",
+   "bytes": 1348248,
+   "width": 800,
+   "height": 880,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/Customer_Itau.png",
+   "local": "/assets/Customer_Itau.png",
+   "format": "png",
+   "bytes": 159566,
+   "width": 272,
+   "height": 300,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/Customer_NetGuru.png",
+   "local": "/assets/company/media/Customer_NetGuru.png",
+   "format": "png",
+   "bytes": 1205150,
+   "width": 800,
+   "height": 880,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Customer_Okta.png",
+   "local": "/assets/marketing/Customer_Okta.png",
+   "format": "png",
+   "bytes": 1150384,
+   "width": 800,
+   "height": 880,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/Customer_Petal.png",
+   "local": "/assets/company/media/Customer_Petal.png",
+   "format": "png",
+   "bytes": 1325175,
+   "width": 800,
+   "height": 880,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Customer_SafetyCulture.png",
+   "local": "/assets/marketing/Customer_SafetyCulture.png",
+   "format": "png",
+   "bytes": 1346927,
+   "width": 800,
+   "height": 880,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/Customer_SmartRecruiter.png",
+   "local": "/assets/Customer_SmartRecruiter.png",
+   "format": "png",
+   "bytes": 1056449,
+   "width": 800,
+   "height": 880,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/Customer_Zapier.png",
+   "local": "/assets/marketing/Customer_Zapier.png",
+   "format": "png",
+   "bytes": 807211,
+   "width": 800,
+   "height": 880,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/Customer_Zapier_Landscape.png",
+   "local": "/assets/company/media/Customer_Zapier_Landscape.png",
+   "format": "png",
+   "bytes": 2369914,
+   "width": 2172,
+   "height": 1400,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Dovetail_for_Researchers_Thumbnail__1_.png",
+   "local": "/assets/company/media/Dovetail_for_Researchers_Thumbnail__1_.png",
+   "format": "png",
+   "bytes": 2543916,
+   "width": 7680,
+   "height": 4320,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Dublin---April-24--7-.png",
+   "local": "/assets/company/media/Dublin---April-24--7-.png",
+   "format": "png",
+   "bytes": 675157,
+   "width": 1200,
+   "height": 627,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Eucalyptus.png",
+   "local": "/assets/company/media/Eucalyptus.png",
+   "format": "png",
+   "bytes": 1105280,
+   "width": 1086,
+   "height": 700,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Expert_Panel_long.png",
+   "local": "/assets/company/media/Expert_Panel_long.png",
+   "format": "png",
+   "bytes": 3531620,
+   "width": 5760,
+   "height": 3240,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Frame_1948762514__1_.png",
+   "local": "/assets/company/media/Frame_1948762514__1_.png",
+   "format": "png",
+   "bytes": 1923877,
+   "width": 2528,
+   "height": 1488,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Frame_1948762765.png",
+   "local": "/assets/company/media/Frame_1948762765.png",
+   "format": "png",
+   "bytes": 5117126,
+   "width": 3840,
+   "height": 2160,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Frame_1948762769.png",
+   "local": "/assets/marketing/Frame_1948762769.png",
+   "format": "png",
+   "bytes": 415936,
+   "width": 720,
+   "height": 720,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/Frame_1948763217.png",
+   "local": "/assets/marketing/Frame_1948763217.png",
+   "format": "png",
+   "bytes": 293281,
+   "width": 3024,
+   "height": 1026,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/Frame_427321905.png",
+   "local": "/assets/company/media/Frame_427321905.png",
+   "format": "png",
+   "bytes": 1830639,
+   "width": 3840,
+   "height": 2160,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Gemini_Generated_Image_57tisi57tisi57ti-4.png",
+   "local": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti-4.png",
+   "format": "png",
+   "bytes": 1176852,
+   "width": 720,
+   "height": 720,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/Gemini_Generated_Image_57tisi57tisi57ti.png",
+   "local": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti.png",
+   "format": "png",
+   "bytes": 1203247,
+   "width": 720,
+   "height": 720,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/Gemini_Generated_Image_57tisi57tisi57ti__3_.png",
+   "local": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti__3_.png",
+   "format": "png",
+   "bytes": 953182,
+   "width": 720,
+   "height": 720,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/Group_1699555898.png",
+   "local": "/assets/company/media/Group_1699555898.png",
+   "format": "png",
+   "bytes": 145085,
+   "width": 439,
+   "height": 694,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Group_1699555903.png",
+   "local": "/assets/company/media/Group_1699555903.png",
+   "format": "png",
+   "bytes": 287136,
+   "width": 682,
+   "height": 638,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Group_1699555905.png",
+   "local": "/assets/company/media/Group_1699555905.png",
+   "format": "png",
+   "bytes": 179336,
+   "width": 622,
+   "height": 709,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Group_427321620.svg",
+   "local": "/assets/tools/Group_427321620.svg",
+   "format": "svg",
+   "bytes": 290244,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/Harvard_Business_Publishing.png",
+   "local": "/assets/company/media/Harvard_Business_Publishing.png",
+   "format": "png",
+   "bytes": 1298759,
+   "width": 1086,
+   "height": 700,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Hero_Image_2025-IzKQ5Irb2byEblpJ8pxJT.png",
+   "local": "/assets/company/media/Hero_Image_2025-IzKQ5Irb2byEblpJ8pxJT.png",
+   "format": "png",
+   "bytes": 76446,
+   "width": 1664,
+   "height": 1040,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Highlight_reel.jpeg",
+   "local": "/assets/company/media/Highlight_reel.jpeg",
+   "format": "jpeg",
+   "bytes": 119657,
+   "width": 2032,
+   "height": 1280,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/InsightOutABTest_1080_v3.png",
+   "local": "/assets/company/media/InsightOutABTest_1080_v3.png",
+   "format": "png",
+   "bytes": 371141,
+   "width": 1920,
+   "height": 1080,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Insights_at_scale.png",
+   "local": "/assets/company/media/Insights_at_scale.png",
+   "format": "png",
+   "bytes": 4239857,
+   "width": 7000,
+   "height": 3937,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Itau.png",
+   "local": "/assets/company/media/Itau.png",
+   "format": "png",
+   "bytes": 1251620,
+   "width": 720,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Itau_Trimmed.mov.webp",
+   "local": "/assets/company/media/Itau_Trimmed.mov.webp",
+   "format": "webp",
+   "bytes": 758008,
+   "width": 1920,
+   "height": 1080,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/LiveDemo_Agents.png",
+   "local": "/assets/company/media/LiveDemo_Agents.png",
+   "format": "png",
+   "bytes": 95206,
+   "width": 800,
+   "height": 450,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/LiveDemo_Channels.png",
+   "local": "/assets/company/media/LiveDemo_Channels.png",
+   "format": "png",
+   "bytes": 66150,
+   "width": 800,
+   "height": 450,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/LiveDemo_Chat.png",
+   "local": "/assets/company/media/LiveDemo_Chat.png",
+   "format": "png",
+   "bytes": 109474,
+   "width": 800,
+   "height": 450,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/LiveDemo_Gong.png",
+   "local": "/assets/company/media/LiveDemo_Gong.png",
+   "format": "png",
+   "bytes": 81756,
+   "width": 800,
+   "height": 450,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/LiveDemo_Home.png",
+   "local": "/assets/company/media/LiveDemo_Home.png",
+   "format": "png",
+   "bytes": 42417,
+   "width": 800,
+   "height": 450,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/LiveDemo_Projects.png",
+   "local": "/assets/company/media/LiveDemo_Projects.png",
+   "format": "png",
+   "bytes": 157473,
+   "width": 800,
+   "height": 450,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/MartinJerkovicPhoto.webp",
+   "local": "/assets/marketing/MartinJerkovicPhoto.webp",
+   "format": "webp",
+   "bytes": 6568,
+   "width": 224,
+   "height": 224,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/Netguru.png",
+   "local": "/assets/company/media/Netguru.png",
+   "format": "png",
+   "bytes": 1032778,
+   "width": 1086,
+   "height": 700,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Okta.png",
+   "local": "/assets/company/media/Okta.png",
+   "format": "png",
+   "bytes": 4468510,
+   "width": 2172,
+   "height": 1400,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Raven_CNH_Industrial_Brand_image.avif",
+   "local": "/assets/company/media/Raven_CNH_Industrial_Brand_image.avif",
+   "format": "avif",
+   "bytes": 117541,
+   "width": 936,
+   "height": 936,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/SafetyCulture.jpg",
+   "local": "/assets/company/media/SafetyCulture.jpg",
+   "format": "jpg",
+   "bytes": 127813,
+   "width": 1088,
+   "height": 1400,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/SafetyCulture_Dovetail_screen.jpg",
+   "local": "/assets/company/media/SafetyCulture_Dovetail_screen.jpg",
+   "format": "jpg",
+   "bytes": 169256,
+   "width": 2240,
+   "height": 1260,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/SafetyCulture_Portrait.jpg",
+   "local": "/assets/company/media/SafetyCulture_Portrait.jpg",
+   "format": "jpg",
+   "bytes": 95945,
+   "width": 1088,
+   "height": 1400,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Safetyculture.png",
+   "local": "/assets/company/media/Safetyculture.png",
+   "format": "png",
+   "bytes": 1511929,
+   "width": 1086,
+   "height": 700,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Screenshot_2026-01-14_at_13.55.55_1.png",
+   "local": "/assets/company/media/Screenshot_2026-01-14_at_13.55.55_1.png",
+   "format": "png",
+   "bytes": 1076502,
+   "width": 800,
+   "height": 510,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Vital Voices.png",
+   "local": "/assets/company/media/Vital Voices.png",
+   "format": "png",
+   "bytes": 580329,
+   "width": 624,
+   "height": 416,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Vital%20Voices.png",
+   "local": "/assets/company/media/Vital%20Voices.png",
+   "format": "png",
+   "bytes": 580329,
+   "width": 624,
+   "height": 416,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Webinar_-_Channels_Deep_Dive_-_Hero__1_.png",
+   "local": "/assets/company/media/Webinar_-_Channels_Deep_Dive_-_Hero__1_.png",
+   "format": "png",
+   "bytes": 1040297,
+   "width": 4480,
+   "height": 2520,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Webinar_-_Nielsen_-_Hero__4_.png",
+   "local": "/assets/company/media/Webinar_-_Nielsen_-_Hero__4_.png",
+   "format": "png",
+   "bytes": 614988,
+   "width": 2240,
+   "height": 1260,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Webinar_-_What-s_new_IO25_-_Hero.png",
+   "local": "/assets/company/media/Webinar_-_What-s_new_IO25_-_Hero.png",
+   "format": "png",
+   "bytes": 2500728,
+   "width": 4480,
+   "height": 2520,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Webinar_August_Hero__1_.png",
+   "local": "/assets/company/media/Webinar_August_Hero__1_.png",
+   "format": "png",
+   "bytes": 747314,
+   "width": 2240,
+   "height": 1260,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Webinar_August_Hero__2_.png",
+   "local": "/assets/company/media/Webinar_August_Hero__2_.png",
+   "format": "png",
+   "bytes": 732974,
+   "width": 2240,
+   "height": 1260,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Webinar_August_Hero__4_.png",
+   "local": "/assets/company/media/Webinar_August_Hero__4_.png",
+   "format": "png",
+   "bytes": 703749,
+   "width": 2240,
+   "height": 1260,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Webinar_Dovetail_x_Outset_Hero.png",
+   "local": "/assets/company/media/Webinar_Dovetail_x_Outset_Hero.png",
+   "format": "png",
+   "bytes": 739874,
+   "width": 2240,
+   "height": 1260,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Webinar_July_BT_Banner.png",
+   "local": "/assets/company/media/Webinar_July_BT_Banner.png",
+   "format": "png",
+   "bytes": 65152,
+   "width": 640,
+   "height": 360,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/Webinar_What-s_new_with_Dovetail_Hero.png",
+   "local": "/assets/company/media/Webinar_What-s_new_with_Dovetail_Hero.png",
+   "format": "png",
+   "bytes": 1981113,
+   "width": 3840,
+   "height": 2160,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/a-chat-with-jon-alferness.png",
+   "local": "/assets/company/media/a-chat-with-jon-alferness.png",
+   "format": "png",
+   "bytes": 1435767,
+   "width": 1920,
+   "height": 1080,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/adplist-sf-dvtl-16x9.png",
+   "local": "/assets/company/media/adplist-sf-dvtl-16x9.png",
+   "format": "png",
+   "bytes": 1919226,
+   "width": 3840,
+   "height": 2160,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/adrien-olichon-ll3sJhzd8Ms-unsplash.jpg",
+   "local": "/assets/company/media/adrien-olichon-ll3sJhzd8Ms-unsplash.jpg",
+   "format": "jpg",
+   "bytes": 5582071,
+   "width": 9081,
+   "height": 6044,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/agents-features-sense-notify.png",
+   "local": "/assets/company/media/agents-features-sense-notify.png",
+   "format": "png",
+   "bytes": 464398,
+   "width": 1664,
+   "height": 1248,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/agents-general-availability.png",
+   "local": "/assets/company/media/agents-general-availability.png",
+   "format": "png",
+   "bytes": 104475,
+   "width": 1664,
+   "height": 832,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/analysis-channels-slice-1.png",
+   "local": "/assets/company/media/analysis-channels-slice-1.png",
+   "format": "png",
+   "bytes": 855490,
+   "width": 1664,
+   "height": 2020,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/analysis-projects-slice-1.png",
+   "local": "/assets/company/media/analysis-projects-slice-1.png",
+   "format": "png",
+   "bytes": 587963,
+   "width": 1660,
+   "height": 1400,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/b2b_saasy_web_ep_01.png",
+   "local": "/assets/company/media/b2b_saasy_web_ep_01.png",
+   "format": "png",
+   "bytes": 393893,
+   "width": 800,
+   "height": 450,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/b2b_saasy_web_ep_02.png",
+   "local": "/assets/company/media/b2b_saasy_web_ep_02.png",
+   "format": "png",
+   "bytes": 394023,
+   "width": 800,
+   "height": 450,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/b2b_saasy_web_ep_03.png",
+   "local": "/assets/company/media/b2b_saasy_web_ep_03.png",
+   "format": "png",
+   "bytes": 382398,
+   "width": 800,
+   "height": 450,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/b2b_saasy_web_ep_04.png",
+   "local": "/assets/company/media/b2b_saasy_web_ep_04.png",
+   "format": "png",
+   "bytes": 333341,
+   "width": 800,
+   "height": 450,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/bng/careers-right-center-decoration.svg",
+   "local": "/assets/company/media/bng/careers-right-center-decoration.svg",
+   "format": "svg",
+   "bytes": 18085,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/bng/form-bottom-left-decoration.svg",
+   "local": "/assets/marketing/bng-form-bottom-left-decoration.svg",
+   "format": "svg",
+   "bytes": 6764,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/bng/form-bottom-right-decoration.svg",
+   "local": "/assets/marketing/bng-form-bottom-right-decoration.svg",
+   "format": "svg",
+   "bytes": 13727,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/bng/mobile-careers-bottom-right-decoration.svg",
+   "local": "/assets/company/media/bng/mobile-careers-bottom-right-decoration.svg",
+   "format": "svg",
+   "bytes": 11464,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/bng/mobile-form-bottom-left-decoration.svg",
+   "local": "/assets/company/media/bng/mobile-form-bottom-left-decoration.svg",
+   "format": "svg",
+   "bytes": 7656,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/bng/mobile-team-switch-bottom-left-decoration.svg",
+   "local": "/assets/marketing/bng-mobile-team-switch-bottom-left-decoration.svg",
+   "format": "svg",
+   "bytes": 11665,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/bng/mobile-team-switch-center-right-decoration.svg",
+   "local": "/assets/marketing/bng-mobile-team-switch-center-right-decoration.svg",
+   "format": "svg",
+   "bytes": 8934,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/bng/mobile-testimonial-top-right-decoration.svg",
+   "local": "/assets/marketing/bng-mobile-testimonial-top-right-decoration.svg",
+   "format": "svg",
+   "bytes": 7089,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/bng/team-switch-left-center-decoration.svg",
+   "local": "/assets/marketing/bng-team-switch-left-center-decoration.svg",
+   "format": "svg",
+   "bytes": 13175,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/bng/team-switch-right-bottom-decoration.svg",
+   "local": "/assets/marketing/bng-team-switch-right-bottom-decoration.svg",
+   "format": "svg",
+   "bytes": 14055,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/bng/team-switch-right-top-decoration.svg",
+   "local": "/assets/marketing/bng-team-switch-right-top-decoration.svg",
+   "format": "svg",
+   "bytes": 8023,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/bng/text-slice-bottom-right-decoration.svg",
+   "local": "/assets/marketing/bng-text-slice-bottom-right-decoration.svg",
+   "format": "svg",
+   "bytes": 10392,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/bower-dovetail-workspace.png",
+   "local": "/assets/company/media/bower-dovetail-workspace.png",
+   "format": "png",
+   "bytes": 49052,
+   "width": 1774,
+   "height": 834,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/bower-lab-bench.jpg",
+   "local": "/assets/company/media/bower-lab-bench.jpg",
+   "format": "jpg",
+   "bytes": 247554,
+   "width": 2528,
+   "height": 1684,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/bower-michelle-cover.jpg",
+   "local": "/assets/company/media/bower-michelle-cover.jpg",
+   "format": "jpg",
+   "bytes": 164837,
+   "width": 1200,
+   "height": 1200,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/bower-michelle-thumbnail.jpg",
+   "local": "/assets/company/media/bower-michelle-thumbnail.jpg",
+   "format": "jpg",
+   "bytes": 155799,
+   "width": 1200,
+   "height": 1200,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/breville-girl.webp",
+   "local": "/assets/marketing/breville-girl.webp",
+   "format": "webp",
+   "bytes": 5512,
+   "width": 160,
+   "height": 160,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/breville.png",
+   "local": "/assets/marketing/breville.png",
+   "format": "png",
+   "bytes": 6090,
+   "width": 320,
+   "height": 320,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/buyer-s-choice-2026-flat.svg",
+   "local": "/assets/tools/buyer-s-choice-2026-flat.svg",
+   "format": "svg",
+   "bytes": 21818,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/canva2.jpg",
+   "local": "/assets/company/media/canva2.jpg",
+   "format": "jpg",
+   "bytes": 127891,
+   "width": 1088,
+   "height": 1400,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/canva4.jpg",
+   "local": "/assets/company/media/canva4.jpg",
+   "format": "jpg",
+   "bytes": 58330,
+   "width": 544,
+   "height": 700,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/careers-anahita.png",
+   "local": "/assets/company/media/careers-anahita.png",
+   "format": "png",
+   "bytes": 505676,
+   "width": 432,
+   "height": 432,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/careers-ben.png",
+   "local": "/assets/company/media/careers-ben.png",
+   "format": "png",
+   "bytes": 514716,
+   "width": 432,
+   "height": 432,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/careers-final-interview.png",
+   "local": "/assets/company/media/careers-final-interview.png",
+   "format": "png",
+   "bytes": 38433,
+   "width": 168,
+   "height": 128,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/careers-seb.png",
+   "local": "/assets/company/media/careers-seb.png",
+   "format": "png",
+   "bytes": 443452,
+   "width": 432,
+   "height": 432,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/careers-technical-interview.png",
+   "local": "/assets/company/media/careers-technical-interview.png",
+   "format": "png",
+   "bytes": 39332,
+   "width": 152,
+   "height": 128,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/careers-tia.png",
+   "local": "/assets/company/media/careers-tia.png",
+   "format": "png",
+   "bytes": 444504,
+   "width": 432,
+   "height": 432,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/careers-values-interview.png",
+   "local": "/assets/company/media/careers-values-interview.png",
+   "format": "png",
+   "bytes": 27534,
+   "width": 140,
+   "height": 128,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/careers-video-screener.png",
+   "local": "/assets/company/media/careers-video-screener.png",
+   "format": "png",
+   "bytes": 52273,
+   "width": 188,
+   "height": 128,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/chat-deep-research-mode.png",
+   "local": "/assets/company/media/chat-deep-research-mode.png",
+   "format": "png",
+   "bytes": 135677,
+   "width": 1664,
+   "height": 832,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/config-watch-party-sydney.png",
+   "local": "/assets/company/media/config-watch-party-sydney.png",
+   "format": "png",
+   "bytes": 346972,
+   "width": 1136,
+   "height": 640,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/contextual-chat-query-product-image.png",
+   "local": "/assets/company/media/contextual-chat-query-product-image.png",
+   "format": "png",
+   "bytes": 497430,
+   "width": 1664,
+   "height": 1400,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/cover-image-fleet-management-tech-leader.png",
+   "local": "/assets/company/media/cover-image-fleet-management-tech-leader.png",
+   "format": "png",
+   "bytes": 2067380,
+   "width": 1535,
+   "height": 1024,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/customer-understanding-ai-bottleneck-digital-twins.jpg",
+   "local": "/assets/content/customer-understanding-ai-bottleneck-digital-twins.jpg",
+   "format": "jpg",
+   "bytes": 124685,
+   "width": 1467,
+   "height": 984,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/eduardo-soares-utWyPB8_FU8-unsplash.jpg",
+   "local": "/assets/company/media/eduardo-soares-utWyPB8_FU8-unsplash.jpg",
+   "format": "jpg",
+   "bytes": 2360711,
+   "width": 5157,
+   "height": 3438,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/ezgif.com-video-to-gif-converter__2_.gif",
+   "local": "/assets/company/media/ezgif.com-video-to-gif-converter__2_.gif",
+   "format": "gif",
+   "bytes": 5850720,
+   "width": 800,
+   "height": 453,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/footer-bg.webp",
+   "local": "/assets/marketing/footer-bg.webp",
+   "format": "webp",
+   "bytes": 378086,
+   "width": 3024,
+   "height": 1120,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/future-product-days-resized.png",
+   "local": "/assets/company/media/future-product-days-resized.png",
+   "format": "png",
+   "bytes": 2881144,
+   "width": 1344,
+   "height": 768,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/g2-best-relationship-summer-2026.png",
+   "local": "/assets/tools/g2-best-relationship-summer-2026.png",
+   "format": "png",
+   "bytes": 40521,
+   "width": 868,
+   "height": 1000,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/g2-best-roi-summer-2026.png",
+   "local": "/assets/tools/g2-best-roi-summer-2026.png",
+   "format": "png",
+   "bytes": 42661,
+   "width": 868,
+   "height": 1000,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/g2-fastest-implementation-summer-2026.png",
+   "local": "/assets/tools/g2-fastest-implementation-summer-2026.png",
+   "format": "png",
+   "bytes": 42030,
+   "width": 868,
+   "height": 1000,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/g2-high-performer-enterprise-summer-2026.png",
+   "local": "/assets/tools/g2-high-performer-enterprise-summer-2026.png",
+   "format": "png",
+   "bytes": 40893,
+   "width": 868,
+   "height": 1000,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/g2-leader-summer-2026.png",
+   "local": "/assets/tools/g2-leader-summer-2026.png",
+   "format": "png",
+   "bytes": 40219,
+   "width": 868,
+   "height": 1000,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/g2-momentum-leader-summer-2026.png",
+   "local": "/assets/tools/g2-momentum-leader-summer-2026.png",
+   "format": "png",
+   "bytes": 46775,
+   "width": 868,
+   "height": 1000,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/getapp-category-leader.svg",
+   "local": "/assets/tools/getapp-category-leader.svg",
+   "format": "svg",
+   "bytes": 22911,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/global-home-furnishings-retailer-cover.jpg",
+   "local": "/assets/company/media/global-home-furnishings-retailer-cover.jpg",
+   "format": "jpg",
+   "bytes": 621490,
+   "width": 3500,
+   "height": 2333,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/global-professional-services-network-hero.jpg",
+   "local": "/assets/company/media/global-professional-services-network-hero.jpg",
+   "format": "jpg",
+   "bytes": 1579773,
+   "width": 4242,
+   "height": 2817,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/grid-image-agricultural-machinery-corporation.png",
+   "local": "/assets/company/media/grid-image-agricultural-machinery-corporation.png",
+   "format": "png",
+   "bytes": 1834476,
+   "width": 800,
+   "height": 876,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/grid-image-flagship-airline-group.png",
+   "local": "/assets/company/media/grid-image-flagship-airline-group.png",
+   "format": "png",
+   "bytes": 758796,
+   "width": 800,
+   "height": 876,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/grid-image-fleet-management-tech-leader.png",
+   "local": "/assets/company/media/grid-image-fleet-management-tech-leader.png",
+   "format": "png",
+   "bytes": 401677,
+   "width": 800,
+   "height": 876,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/grid-image-global-commerce-platform.png",
+   "local": "/assets/company/media/grid-image-global-commerce-platform.png",
+   "format": "png",
+   "bytes": 1833480,
+   "width": 896,
+   "height": 1280,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/grid-image-global-enterprise-cloud-platform.png",
+   "local": "/assets/company/media/grid-image-global-enterprise-cloud-platform.png",
+   "format": "png",
+   "bytes": 802596,
+   "width": 800,
+   "height": 876,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/grid-image-global-enterprise-life-sciences.png",
+   "local": "/assets/company/media/grid-image-global-enterprise-life-sciences.png",
+   "format": "png",
+   "bytes": 409161,
+   "width": 800,
+   "height": 876,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/grid-image-global-financial-institution.png",
+   "local": "/assets/company/media/grid-image-global-financial-institution.png",
+   "format": "png",
+   "bytes": 1966082,
+   "width": 800,
+   "height": 876,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/grid-image-global-furnishing-retailer.png",
+   "local": "/assets/company/media/grid-image-global-furnishing-retailer.png",
+   "format": "png",
+   "bytes": 1863734,
+   "width": 800,
+   "height": 876,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/grid-image-global-industrial-tech-leader.png",
+   "local": "/assets/company/media/grid-image-global-industrial-tech-leader.png",
+   "format": "png",
+   "bytes": 1173753,
+   "width": 800,
+   "height": 876,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/grid-image-global-management-consulting-firm.png",
+   "local": "/assets/company/media/grid-image-global-management-consulting-firm.png",
+   "format": "png",
+   "bytes": 1629702,
+   "width": 896,
+   "height": 1280,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/grid-image-global-power-tool-manufacturer.png",
+   "local": "/assets/company/media/grid-image-global-power-tool-manufacturer.png",
+   "format": "png",
+   "bytes": 1517296,
+   "width": 800,
+   "height": 876,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/grid-image-global-professional-services-network.png",
+   "local": "/assets/company/media/grid-image-global-professional-services-network.png",
+   "format": "png",
+   "bytes": 778607,
+   "width": 800,
+   "height": 876,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/grid-image-global-saas-leader.png",
+   "local": "/assets/company/media/grid-image-global-saas-leader.png",
+   "format": "png",
+   "bytes": 1083683,
+   "width": 800,
+   "height": 876,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/grid-image-iconic-global-automaker.png",
+   "local": "/assets/company/media/grid-image-iconic-global-automaker.png",
+   "format": "png",
+   "bytes": 1851709,
+   "width": 800,
+   "height": 876,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/grid-image-iconic-toy-brand.png",
+   "local": "/assets/company/media/grid-image-iconic-toy-brand.png",
+   "format": "png",
+   "bytes": 1883582,
+   "width": 800,
+   "height": 876,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/grid-image-leading-education-publisher.png",
+   "local": "/assets/company/media/grid-image-leading-education-publisher.png",
+   "format": "png",
+   "bytes": 1063890,
+   "width": 800,
+   "height": 876,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/grid-image-major-personal-bank.png",
+   "local": "/assets/company/media/grid-image-major-personal-bank.png",
+   "format": "png",
+   "bytes": 1019006,
+   "width": 800,
+   "height": 876,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/grid-image-modern-business-banking-platform.png",
+   "local": "/assets/company/media/grid-image-modern-business-banking-platform.png",
+   "format": "png",
+   "bytes": 1054235,
+   "width": 800,
+   "height": 876,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/hand_group.png",
+   "local": "/assets/company/media/hand_group.png",
+   "format": "png",
+   "bytes": 149773,
+   "width": 492,
+   "height": 457,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/hero-image.png",
+   "local": "/assets/company/media/hero-image.png",
+   "format": "png",
+   "bytes": 777051,
+   "width": 2528,
+   "height": 1140,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png",
+   "local": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png",
+   "format": "png",
+   "bytes": 1860217,
+   "width": 1920,
+   "height": 1080,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/icon-bulb.png",
+   "local": "/assets/company/media/icon-bulb.png",
+   "format": "png",
+   "bytes": 42902,
+   "width": 133,
+   "height": 200,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/icon-clock.png",
+   "local": "/assets/company/media/icon-clock.png",
+   "format": "png",
+   "bytes": 71317,
+   "width": 214,
+   "height": 220,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/icon-googly-eyes.png",
+   "local": "/assets/company/media/icon-googly-eyes.png",
+   "format": "png",
+   "bytes": 70411,
+   "width": 320,
+   "height": 170,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/icon-nose.png",
+   "local": "/assets/company/media/icon-nose.png",
+   "format": "png",
+   "bytes": 59341,
+   "width": 179,
+   "height": 200,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/icon-old-computer.png",
+   "local": "/assets/company/media/icon-old-computer.png",
+   "format": "png",
+   "bytes": 67501,
+   "width": 228,
+   "height": 220,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/icon-star.png",
+   "local": "/assets/company/media/icon-star.png",
+   "format": "png",
+   "bytes": 32448,
+   "width": 168,
+   "height": 180,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/iconic-toy-brand-design-team.png",
+   "local": "/assets/company/media/iconic-toy-brand-design-team.png",
+   "format": "png",
+   "bytes": 2639411,
+   "width": 1408,
+   "height": 768,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/iconic-toy-brand-kids-playing.png",
+   "local": "/assets/company/media/iconic-toy-brand-kids-playing.png",
+   "format": "png",
+   "bytes": 1878378,
+   "width": 1344,
+   "height": 768,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/image-1.png",
+   "local": "/assets/company/media/image-1.png",
+   "format": "png",
+   "bytes": 38036,
+   "width": 176,
+   "height": 176,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/image-2.png",
+   "local": "/assets/company/media/image-2.png",
+   "format": "png",
+   "bytes": 31684,
+   "width": 176,
+   "height": 176,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/image-3.png",
+   "local": "/assets/company/media/image-3.png",
+   "format": "png",
+   "bytes": 39019,
+   "width": 176,
+   "height": 176,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/image-ale.png",
+   "local": "/assets/company/media/image-ale.png",
+   "format": "png",
+   "bytes": 30148,
+   "width": 176,
+   "height": 176,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/image.png",
+   "local": "/assets/company/media/image.png",
+   "format": "png",
+   "bytes": 40330,
+   "width": 176,
+   "height": 176,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/image_227.png",
+   "local": "/assets/company/media/image_227.png",
+   "format": "png",
+   "bytes": 1665757,
+   "width": 1568,
+   "height": 1176,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/image_5.png",
+   "local": "/assets/company/media/image_5.png",
+   "format": "png",
+   "bytes": 55050,
+   "width": 1024,
+   "height": 576,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/image_75.png",
+   "local": "/assets/company/media/image_75.png",
+   "format": "png",
+   "bytes": 47104,
+   "width": 176,
+   "height": 176,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/io-webinar-feb2024-cover-updated.png",
+   "local": "/assets/company/media/io-webinar-feb2024-cover-updated.png",
+   "format": "png",
+   "bytes": 2603241,
+   "width": 7680,
+   "height": 4320,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/lift_headshot.png",
+   "local": "/assets/company/media/lift_headshot.png",
+   "format": "png",
+   "bytes": 1127933,
+   "width": 720,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/makeit.png",
+   "local": "/assets/company/media/makeit.png",
+   "format": "png",
+   "bytes": 2542540,
+   "width": 2240,
+   "height": 1248,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/meet-careers.png",
+   "local": "/assets/company/media/meet-careers.png",
+   "format": "png",
+   "bytes": 24103,
+   "width": 144,
+   "height": 128,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/nav-digital-twins.webp",
+   "local": "/assets/nav-digital-twins.webp",
+   "format": "webp",
+   "bytes": 31682,
+   "width": 588,
+   "height": 704,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/offline-and-unfiltered-config-comedy-night.png",
+   "local": "/assets/company/media/offline-and-unfiltered-config-comedy-night.png",
+   "format": "png",
+   "bytes": 215249,
+   "width": 1136,
+   "height": 640,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/pexels-bertellifotografia-20184571.jpg",
+   "local": "/assets/company/media/pexels-bertellifotografia-20184571.jpg",
+   "format": "jpg",
+   "bytes": 1714374,
+   "width": 4480,
+   "height": 3360,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/pexels-rdne-4921260.jpg",
+   "local": "/assets/company/media/pexels-rdne-4921260.jpg",
+   "format": "jpg",
+   "bytes": 626746,
+   "width": 5526,
+   "height": 3684,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/pexels-tima-miroshnichenko-6474473.jpg",
+   "local": "/assets/company/media/pexels-tima-miroshnichenko-6474473.jpg",
+   "format": "jpg",
+   "bytes": 2060819,
+   "width": 6000,
+   "height": 4000,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/poster_do_the_thing.png",
+   "local": "/assets/company/media/poster_do_the_thing.png",
+   "format": "png",
+   "bytes": 197640,
+   "width": 800,
+   "height": 1132,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/poster_open_by_default.png",
+   "local": "/assets/company/media/poster_open_by_default.png",
+   "format": "png",
+   "bytes": 123962,
+   "width": 400,
+   "height": 567,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/poster_put_the_customer_first.png",
+   "local": "/assets/company/media/poster_put_the_customer_first.png",
+   "format": "png",
+   "bytes": 453910,
+   "width": 800,
+   "height": 1132,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/poster_stay_humble.png",
+   "local": "/assets/company/media/poster_stay_humble.png",
+   "format": "png",
+   "bytes": 152482,
+   "width": 800,
+   "height": 1132,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/poster_we_nail_it.png",
+   "local": "/assets/company/media/poster_we_nail_it.png",
+   "format": "png",
+   "bytes": 384968,
+   "width": 800,
+   "height": 1132,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/roles-researcher-usecase-centralized-research.png",
+   "local": "/assets/marketing/roles-researcher-usecase-centralized-research.png",
+   "format": "png",
+   "bytes": 383478,
+   "width": 1232,
+   "height": 944,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/sales-cta-img.png",
+   "local": "/assets/company/media/sales-cta-img.png",
+   "format": "png",
+   "bytes": 32683,
+   "width": 184,
+   "height": 100,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/sean-pollock-PhYq704ffdA-unsplash.jpg",
+   "local": "/assets/company/media/sean-pollock-PhYq704ffdA-unsplash.jpg",
+   "format": "jpg",
+   "bytes": 1764229,
+   "width": 6000,
+   "height": 4000,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/search.poster.jpg",
+   "local": "/assets/company/media/search.poster.jpg",
+   "format": "jpg",
+   "bytes": 59348,
+   "width": 1600,
+   "height": 918,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/slack-imgs-2.jpeg",
+   "local": "/assets/company/media/slack-imgs-2.jpeg",
+   "format": "jpeg",
+   "bytes": 97727,
+   "width": 2500,
+   "height": 1313,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/slack-imgs.jpg",
+   "local": "/assets/company/media/slack-imgs.jpg",
+   "format": "jpg",
+   "bytes": 144280,
+   "width": 1200,
+   "height": 628,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/smartrecruiters_edit.png",
+   "local": "/assets/company/media/smartrecruiters_edit.png",
+   "format": "png",
+   "bytes": 2239985,
+   "width": 2112,
+   "height": 1148,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/solar-toggle-02.webp",
+   "local": "/assets/company/media/solar-toggle-02.webp",
+   "format": "webp",
+   "bytes": 344288,
+   "width": 2880,
+   "height": 1600,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/spring25_dark_half.png",
+   "local": "/assets/company/media/spring25_dark_half.png",
+   "format": "png",
+   "bytes": 278552,
+   "width": 1920,
+   "height": 1080,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/stakeholder-trust-design-decisions-hero-poster.png",
+   "local": "/assets/content/stakeholder-trust-design-decisions-hero-poster.png",
+   "format": "png",
+   "bytes": 535336,
+   "width": 1200,
+   "height": 676,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/suns-out-digital-twins-deep-dive-v2.png",
+   "local": "/assets/company/media/suns-out-digital-twins-deep-dive-v2.png",
+   "format": "png",
+   "bytes": 409466,
+   "width": 1280,
+   "height": 800,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/suns-out-ny-launch-party.png",
+   "local": "/assets/company/media/suns-out-ny-launch-party.png",
+   "format": "png",
+   "bytes": 512317,
+   "width": 1136,
+   "height": 640,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/suns-out-product-deep-dive.png",
+   "local": "/assets/company/media/suns-out-product-deep-dive.png",
+   "format": "png",
+   "bytes": 991633,
+   "width": 1280,
+   "height": 800,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/suns-out-sf-launch-party.png",
+   "local": "/assets/company/media/suns-out-sf-launch-party.png",
+   "format": "png",
+   "bytes": 512317,
+   "width": 1136,
+   "height": 640,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/suns-out-sydney-launch-party.png",
+   "local": "/assets/company/media/suns-out-sydney-launch-party.png",
+   "format": "png",
+   "bytes": 559936,
+   "width": 1136,
+   "height": 640,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/tags-in-channels.png",
+   "local": "/assets/content/tags-in-channels.png",
+   "format": "png",
+   "bytes": 191492,
+   "width": 1664,
+   "height": 832,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/tech-cares-2025-gradient_1.svg",
+   "local": "/assets/tools/tech-cares-2025-gradient_1.svg",
+   "format": "svg",
+   "bytes": 22360,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/tech-cares-2026-flat.webp",
+   "local": "/assets/tools/tech-cares-2026-flat.webp",
+   "format": "webp",
+   "bytes": 29112,
+   "width": 1914,
+   "height": 2209,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/tommy-careers.png",
+   "local": "/assets/company/media/tommy-careers.png",
+   "format": "png",
+   "bytes": 1685525,
+   "width": 798,
+   "height": 1340,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/top-rated-2026-flat.png",
+   "local": "/assets/tools/top-rated-2026-flat.png",
+   "format": "png",
+   "bytes": 40290,
+   "width": 1105,
+   "height": 1105,
+   "reused": true
+  },
+  {
+   "original": "https://dovetail.com/media/transcription-translation.png",
+   "local": "/assets/company/media/transcription-translation.png",
+   "format": "png",
+   "bytes": 119224,
+   "width": 1024,
+   "height": 723,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/understand-icon.svg",
+   "local": "/assets/company/media/understand-icon.svg",
+   "format": "svg",
+   "bytes": 96212,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/uxdx-happy-hour.png",
+   "local": "/assets/company/media/uxdx-happy-hour.png",
+   "format": "png",
+   "bytes": 54928,
+   "width": 1920,
+   "height": 1080,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/verizon_webinar_-_events_page_hero.png",
+   "local": "/assets/company/media/verizon_webinar_-_events_page_hero.png",
+   "format": "png",
+   "bytes": 236360,
+   "width": 3840,
+   "height": 2160,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/video-audio-and-text-redaction.png",
+   "local": "/assets/company/media/video-audio-and-text-redaction.png",
+   "format": "png",
+   "bytes": 3303085,
+   "width": 4416,
+   "height": 2310,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/vital-voices-chapter3.poster.jpg",
+   "local": "/assets/company/media/vital-voices-chapter3.poster.jpg",
+   "format": "jpg",
+   "bytes": 33637,
+   "width": 832,
+   "height": 416,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/vital-voices-festival.jpg",
+   "local": "/assets/company/media/vital-voices-festival.jpg",
+   "format": "jpg",
+   "bytes": 1593380,
+   "width": 3872,
+   "height": 2581,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/vital-voices-thumbnail.jpg",
+   "local": "/assets/company/media/vital-voices-thumbnail.jpg",
+   "format": "jpg",
+   "bytes": 1027357,
+   "width": 3872,
+   "height": 2581,
+   "reused": false
+  },
+  {
+   "original": "https://dovetail.com/media/working-icon.svg",
+   "local": "/assets/company/media/working-icon.svg",
+   "format": "svg",
+   "bytes": 51216,
+   "reused": false
+  },
+  {
+   "original": "https://i.ytimg.com/vi/GDo8GDPdPwE/maxresdefault.jpg",
+   "local": "/assets/company/external/youtube-GDo8GDPdPwE.jpg",
+   "format": "jpg",
+   "bytes": 81410,
+   "width": 1280,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://i.ytimg.com/vi/XdVIpmaAQXc/maxresdefault.jpg",
+   "local": "/assets/company/external/youtube-XdVIpmaAQXc.jpg",
+   "format": "jpg",
+   "bytes": 42444,
+   "width": 1280,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://i.ytimg.com/vi/az5T_dE6AaY/maxresdefault.jpg",
+   "local": "/assets/company/external/youtube-az5T_dE6AaY.jpg",
+   "format": "jpg",
+   "bytes": 70354,
+   "width": 1280,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://i.ytimg.com/vi/lnjA8Vxd05U/maxresdefault.jpg",
+   "local": "/assets/company/external/youtube-lnjA8Vxd05U.jpg",
+   "format": "jpg",
+   "bytes": 83894,
+   "width": 1280,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://i.ytimg.com/vi/lnjA8Vxd05U/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgYChSMA8=&rs=AOn4CLBFT-c7ofnEsjbb0LWEth_YEXa7jA",
+   "local": "/assets/company/external/youtube-lnjA8Vxd05U.jpg",
+   "format": "jpg",
+   "bytes": 83894,
+   "width": 1280,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://i.ytimg.com/vi/nsa2ithVElA/maxresdefault.jpg",
+   "local": "/assets/company/external/youtube-nsa2ithVElA.jpg",
+   "format": "jpg",
+   "bytes": 107115,
+   "width": 1280,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://i.ytimg.com/vi/spmBPVUbMwY/maxresdefault.jpg",
+   "local": "/assets/company/external/youtube-spmBPVUbMwY.jpg",
+   "format": "jpg",
+   "bytes": 15823,
+   "width": 1280,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://i.ytimg.com/vi/u4GzgMd42qY/maxresdefault.jpg",
+   "local": "/assets/company/external/youtube-u4GzgMd42qY.jpg",
+   "format": "jpg",
+   "bytes": 45991,
+   "width": 1280,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://i.ytimg.com/vi/u4GzgMd42qY/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLBkfKyyXe1BIhztDdqSt03_k33wlw",
+   "local": "/assets/company/external/youtube-u4GzgMd42qY.jpg",
+   "format": "jpg",
+   "bytes": 45991,
+   "width": 1280,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://images.pexels.com/photos/36398773/pexels-photo-36398773.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1080&q=80",
+   "local": "/assets/company/external/pexels-photo-36398773.jpeg",
+   "format": "jpeg",
+   "bytes": 132769,
+   "width": 1080,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://images.unsplash.com/photo-1483450388369-9ed95738483c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM2NzN8MHwxfGFsbHx8fHx8fHx8fDE3ODE3MjU4OTB8&ixlib=rb-4.1.0&q=80&w=1080",
+   "local": "/assets/company/external/unsplash-photo-1483450388369-9ed95738483c-b3f2ac.jpg",
+   "format": "jpg",
+   "bytes": 94099,
+   "width": 1080,
+   "height": 721,
+   "reused": false
+  },
+  {
+   "original": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM2NzN8MHwxfHNlYXJjaHwxfHxzb2xhciUyMGZhcm0lMjBwYW5lbHMlMjBhZXJpYWx8ZW58MHwwfHx8MTc3OTQzNDQwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+   "local": "/assets/company/external/unsplash-photo-1497435334941-8c899ee9e8e9-cb5b3c.jpg",
+   "format": "jpg",
+   "bytes": 341844,
+   "width": 1080,
+   "height": 809,
+   "reused": false
+  },
+  {
+   "original": "https://images.unsplash.com/photo-1509017174183-0b7e0278f1ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+   "local": "/assets/company/external/unsplash-photo-1509017174183-0b7e0278f1ec-a9c82c.jpg",
+   "format": "jpg",
+   "bytes": 82245,
+   "width": 1080,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM2NzN8MHwxfHNlYXJjaHwzfHxtYW5hZ2VtZW50JTIwY29uc3VsdGluZyUyMHN0cmF0ZWd5JTIwbWVldGluZyUyMHByb2Zlc3Npb25hbHxlbnwwfDB8fHwxNzc4NzIzMzY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+   "local": "/assets/company/external/unsplash-photo-1517245386807-bb43f82c33c4-69f4d5.jpg",
+   "format": "jpg",
+   "bytes": 100225,
+   "width": 1080,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM2NzN8MHwxfHNlYXJjaHwxfHxyZXNlYXJjaCUyMGRhdGElMjBpbnNpZ2h0cyUyMHRlYW0lMjBjb2xsYWJvcmF0aW9ufGVufDB8MHx8fDE3Nzg4MDY1MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+   "local": "/assets/company/external/unsplash-photo-1522071820081-009f0129c71c-528736.jpg",
+   "format": "jpg",
+   "bytes": 125952,
+   "width": 1080,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://images.unsplash.com/photo-1531482615713-2afd69097998?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080",
+   "local": "/assets/company/external/unsplash-photo-1531482615713-2afd69097998-540561.jpg",
+   "format": "jpg",
+   "bytes": 126633,
+   "width": 1080,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM2NzN8MHwxfHNlYXJjaHwyfHxlbnRlcnByaXNlJTIwdGVjaG5vbG9neSUyMGNvbGxhYm9yYXRpb24lMjBtZWV0aW5nfGVufDB8MHx8fDE3Nzg3MjQwNzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+   "local": "/assets/company/external/unsplash-photo-1542744173-8e7e53415bb0-4e132f.jpg",
+   "format": "jpg",
+   "bytes": 145206,
+   "width": 1080,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1400",
+   "local": "/assets/company/external/unsplash-photo-1553877522-43269d4ea984-096576.jpg",
+   "format": "jpg",
+   "bytes": 223639,
+   "width": 1400,
+   "height": 933,
+   "reused": false
+  },
+  {
+   "original": "https://images.unsplash.com/photo-1556745750-68295fefafc5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM2NzN8MHwxfHNlYXJjaHwxfHxjb21tZXJjZSUyMHBsYXRmb3JtJTIwcmV0YWlsJTIwcmVzdGF1cmFudCUyMG1lcmNoYW50fGVufDB8MHx8fDE3NzkxNzE4NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+   "local": "/assets/company/external/unsplash-photo-1556745750-68295fefafc5-efdd3a.jpg",
+   "format": "jpg",
+   "bytes": 159256,
+   "width": 1080,
+   "height": 810,
+   "reused": false
+  },
+  {
+   "original": "https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM2NzN8MHwxfHNlYXJjaHwxfHxhdXRvbW90aXZlJTIwbWFudWZhY3R1cmluZyUyMGVuZ2luZWVyaW5nJTIwZGVzaWduJTIwdGVhbXxlbnwwfDB8fHwxNzc4ODA2NDIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+   "local": "/assets/company/external/unsplash-photo-1581091226033-d5c48150dbaa-5e12b7.jpg",
+   "format": "jpg",
+   "bytes": 157425,
+   "width": 1080,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://images.unsplash.com/photo-1581091226205-b28ac533a45f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM2NzN8MHwxfHNlYXJjaHw0fHxhdXRvbW90aXZlJTIwbWFudWZhY3R1cmluZyUyMGVuZ2luZWVyaW5nJTIwZGVzaWduJTIwdGVhbXxlbnwwfDB8fHwxNzc4ODA2NDIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+   "local": "/assets/company/external/unsplash-photo-1581091226205-b28ac533a45f-5a1e6b.jpg",
+   "format": "jpg",
+   "bytes": 148898,
+   "width": 1080,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://images.unsplash.com/photo-1587038787166-becd08a156f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM2NzN8MHwxfHNlYXJjaHwxfHxlZHVjYXRpb24lMjBsZWFybmluZyUyMHJlc2VhcmNoJTIwdGVhbSUyMHByb2Zlc3Npb25hbHxlbnwwfDB8fHwxNzc5MzkwNjQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+   "local": "/assets/company/external/unsplash-photo-1587038787166-becd08a156f7-f700ad.jpg",
+   "format": "jpg",
+   "bytes": 156304,
+   "width": 1080,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM2NzN8MHwxfHNlYXJjaHwxfHxyZW1vdGUlMjB2aWRlbyUyMGNhbGwlMjBtZWV0aW5nJTIwc2NyZWVuJTIwcGFydGljaXBhbnRzfGVufDB8MHx8fDE3ODExNDEwNDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+   "local": "/assets/company/external/unsplash-photo-1588196749597-9ff075ee6b5b-29f36d.jpg",
+   "format": "jpg",
+   "bytes": 153331,
+   "width": 1080,
+   "height": 810,
+   "reused": false
+  },
+  {
+   "original": "https://images.unsplash.com/photo-1606836591695-4d58a73eba1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM2NzN8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBnbGFzcyUyMG9mZmljZSUyMGNvbmZlcmVuY2UlMjByb29tJTIwbWVldGluZ3xlbnwwfDB8fHwxNzgxMTQxMjMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+   "local": "/assets/company/external/unsplash-photo-1606836591695-4d58a73eba1e-e0f0c9.jpg",
+   "format": "jpg",
+   "bytes": 110147,
+   "width": 1080,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM2NzN8MHwxfHNlYXJjaHwxfHxxdWFsaXRhdGl2ZSUyMHJlc2VhcmNoJTIwZGF0YSUyMmFuYWx5c2lzJTIwb2ZmaWNlfGVufDB8MHx8fDE3Nzg3MjQwNzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+   "local": "/assets/company/external/unsplash-photo-1606857521015-7f9fcf423740-111ebc.jpg",
+   "format": "jpg",
+   "bytes": 135730,
+   "width": 1080,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM2NzN8MHwxfHNlYXJjaHwyfHxzb2Z0d2FyZSUyMHByb2R1Y3QlMjB0ZWFtJTIwd29ya2luZyUyMG9mZmljZXxlbnwwfDB8fHwxNzgyNTA0OTcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+   "local": "/assets/company/external/unsplash-photo-1606857521015-7f9fcf423740-495ce9.jpg",
+   "format": "jpg",
+   "bytes": 135730,
+   "width": 1080,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080",
+   "local": "/assets/company/external/unsplash-photo-1610374792793-f016b77ca51a-06242a.jpg",
+   "format": "jpg",
+   "bytes": 155450,
+   "width": 1080,
+   "height": 810,
+   "reused": false
+  },
+  {
+   "original": "https://images.unsplash.com/photo-1635174815474-f16ace18a08f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080",
+   "local": "/assets/company/external/unsplash-photo-1635174815474-f16ace18a08f-edf310.jpg",
+   "format": "jpg",
+   "bytes": 131333,
+   "width": 1080,
+   "height": 719,
+   "reused": false
+  },
+  {
+   "original": "https://images.unsplash.com/photo-1682663810771-89d21838530f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM2NzN8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwZW5naW5lZXJpbmclMjBzdXJ2ZXlpbmd8ZW58MHwwfHx8MTc4Mjg2MjIwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+   "local": "/assets/company/external/unsplash-photo-1682663810771-89d21838530f-623771.jpg",
+   "format": "jpg",
+   "bytes": 66739,
+   "width": 1080,
+   "height": 810,
+   "reused": false
+  },
+  {
+   "original": "https://images.unsplash.com/photo-1694522362256-6c907336af43?w=1600&q=80&auto=format&fit=crop",
+   "local": "/assets/company/external/unsplash-photo-1694522362256-6c907336af43-1059f6.jpg",
+   "format": "jpg",
+   "bytes": 252106,
+   "width": 1600,
+   "height": 1067,
+   "reused": false
+  },
+  {
+   "original": "https://images.unsplash.com/photo-1699838222616-5acc9fdaeced?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM2NzN8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHByb2Zlc3Npb25hbHMlMjB0b3klMjBkZXNpZ24lMjB3b3Jrc2hvcCUyMG9mZmljZSUyMGJsb2Nrc3xlbnwwfDB8fHwxNzc4NTU5ODMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+   "local": "/assets/company/external/unsplash-photo-1699838222616-5acc9fdaeced-70c9af.jpg",
+   "format": "jpg",
+   "bytes": 72211,
+   "width": 1080,
+   "height": 720,
+   "reused": false
+  },
+  {
+   "original": "https://images.unsplash.com/photo-1758873115221-9a27e7090614?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM2NzN8MHwxfHNlYXJjaHwxfHxhZ3JpY3VsdHVyYWwlMjB0cmFjdG9yJTIwZmFybSUyMHRlY2hub2xvZ3klMjBmaWVsZHxlbnwwfDB8fHwxNzc4NjMwNTk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+   "local": "/assets/company/external/unsplash-photo-1758873115221-9a27e7090614-bf3df5.jpg",
+   "format": "jpg",
+   "bytes": 170995,
+   "width": 1080,
+   "height": 608,
+   "reused": false
+  },
+  {
+   "original": "https://images.unsplash.com/photo-1760299092531-65343a514b86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzM2NzN8MHwxfHNlYXJjaHwzfHxmYXJtZXIlMjBmaWVsZCUyMGhhcnZlc3QlMjBjcm9wJTIwYWdyaWN1bHR1cmV8ZW58MHwwfHx8MTc3ODYzMDU5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+   "local": "/assets/company/external/unsplash-photo-1760299092531-65343a514b86-927cb6.jpg",
+   "format": "jpg",
+   "bytes": 275742,
+   "width": 1080,
+   "height": 810,
+   "reused": false
+  }
+ ],
+ "inlineSvgs": [
+  {
+   "name": "ai-chatgpt.svg",
+   "local": "/assets/company/svg/ai-chatgpt.svg",
+   "reused": false
+  },
+  {
+   "name": "ai-claude.svg",
+   "local": "/assets/company/svg/ai-claude.svg",
+   "reused": false
+  },
+  {
+   "name": "ai-grok.svg",
+   "local": "/assets/company/svg/ai-grok.svg",
+   "reused": false
+  },
+  {
+   "name": "ai-perplexity.svg",
+   "local": "/assets/company/svg/ai-perplexity.svg",
+   "reused": false
+  },
+  {
+   "name": "arrow-pixel-39x32.svg",
+   "local": "/assets/company/svg/arrow-pixel-39x32.svg",
+   "reused": false
+  },
+  {
+   "name": "aws-deco-hero-bottom-left.svg",
+   "local": "/assets/company/svg/aws-deco-hero-bottom-left.svg",
+   "reused": false
+  },
+  {
+   "name": "aws-deco-hero-bottom-right.svg",
+   "local": "/assets/company/svg/aws-deco-hero-bottom-right.svg",
+   "reused": false
+  },
+  {
+   "name": "aws-deco-hero-mobile-1.svg",
+   "local": "/assets/company/svg/aws-deco-hero-mobile-1.svg",
+   "reused": false
+  },
+  {
+   "name": "aws-deco-hero-mobile-2.svg",
+   "local": "/assets/company/svg/aws-deco-hero-mobile-2.svg",
+   "reused": false
+  },
+  {
+   "name": "aws-deco-hero-mobile-3.svg",
+   "local": "/assets/company/svg/aws-deco-hero-mobile-3.svg",
+   "reused": false
+  },
+  {
+   "name": "aws-deco-hero-mobile-4.svg",
+   "local": "/assets/company/svg/aws-deco-hero-mobile-4.svg",
+   "reused": false
+  },
+  {
+   "name": "aws-deco-hero-top-left.svg",
+   "local": "/assets/company/svg/aws-deco-hero-top-left.svg",
+   "reused": false
+  },
+  {
+   "name": "aws-deco-hero-top-right.svg",
+   "local": "/assets/company/svg/aws-deco-hero-top-right.svg",
+   "reused": false
+  },
+  {
+   "name": "aws-hero-tile-airwallex.svg",
+   "local": "/assets/svg/cta-logo-bestright-airwallex.svg",
+   "reused": true
+  },
+  {
+   "name": "aws-hero-tile-aws.svg",
+   "local": "/assets/svg/cta-logo-bestfarleft-aws.svg",
+   "reused": true
+  },
+  {
+   "name": "aws-hero-tile-canva.svg",
+   "local": "/assets/svg/cta-logo-bestleft-canva.svg",
+   "reused": true
+  },
+  {
+   "name": "aws-hero-tile-notion.svg",
+   "local": "/assets/svg/cta-logo-neverright-notion.svg",
+   "reused": true
+  },
+  {
+   "name": "aws-hero-tile-salesforce.svg",
+   "local": "/assets/svg/cta-logo-theright-salesforce.svg",
+   "reused": true
+  },
+  {
+   "name": "aws-hero-tile-wise.svg",
+   "local": "/assets/svg/cta-logo-guessleft-wise.svg",
+   "reused": true
+  },
+  {
+   "name": "aws-hero-tile-zapier.svg",
+   "local": "/assets/svg/cta-logo-neverfarright-zapier.svg",
+   "reused": true
+  },
+  {
+   "name": "aws-nav-wordmark.svg",
+   "local": "/assets/company/svg/aws-nav-wordmark.svg",
+   "reused": false
+  },
+  {
+   "name": "aws-team-rotator-canva.svg",
+   "local": "/assets/company/svg/aws-team-rotator-canva.svg",
+   "reused": false
+  },
+  {
+   "name": "aws-team-rotator-itau.svg",
+   "local": "/assets/company/svg/aws-team-rotator-itau.svg",
+   "reused": false
+  },
+  {
+   "name": "aws-team-rotator-notion.svg",
+   "local": "/assets/company/svg/aws-team-rotator-notion.svg",
+   "reused": false
+  },
+  {
+   "name": "aws-team-rotator-zapier.svg",
+   "local": "/assets/company/svg/aws-team-rotator-zapier.svg",
+   "reused": false
+  },
+  {
+   "name": "aws-text-rotator-airwallex.svg",
+   "local": "/assets/company/svg/aws-text-rotator-airwallex.svg",
+   "reused": false
+  },
+  {
+   "name": "aws-text-rotator-lovable.svg",
+   "local": "/assets/company/svg/aws-text-rotator-lovable.svg",
+   "reused": false
+  },
+  {
+   "name": "aws-text-rotator-qantas.svg",
+   "local": "/assets/company/svg/aws-text-rotator-qantas.svg",
+   "reused": false
+  },
+  {
+   "name": "aws-text-rotator-shopify.svg",
+   "local": "/assets/company/svg/aws-text-rotator-shopify.svg",
+   "reused": false
+  },
+  {
+   "name": "aws-text-rotator-wise.svg",
+   "local": "/assets/company/svg/aws-text-rotator-wise.svg",
+   "reused": false
+  },
+  {
+   "name": "careers-globe-wireframe.svg",
+   "local": "/assets/company/svg/careers-globe-wireframe.svg",
+   "reused": false
+  },
+  {
+   "name": "careers-pixel-arrow.svg",
+   "local": "/assets/company/svg/careers-pixel-arrow.svg",
+   "reused": false
+  },
+  {
+   "name": "carousel-logo-atlassian.svg",
+   "local": "/assets/company/svg/carousel-logo-atlassian.svg",
+   "reused": false
+  },
+  {
+   "name": "carousel-logo-breville.svg",
+   "local": "/assets/svg/cta-logo-guessfarleft-breville.svg",
+   "reused": true
+  },
+  {
+   "name": "carousel-logo-itau.svg",
+   "local": "/assets/company/svg/carousel-logo-itau.svg",
+   "reused": false
+  },
+  {
+   "name": "icon-back-arrow.svg",
+   "local": "/assets/company/svg/icon-back-arrow.svg",
+   "reused": false
+  },
+  {
+   "name": "icon-breadcrumb-slash.svg",
+   "local": "/assets/company/svg/icon-breadcrumb-slash.svg",
+   "reused": false
+  },
+  {
+   "name": "icon-chevron-down-toc.svg",
+   "local": "/assets/company/svg/icon-chevron-down-toc.svg",
+   "reused": false
+  },
+  {
+   "name": "icon-chevron-down.svg",
+   "local": "/assets/company/svg/icon-chevron-down.svg",
+   "reused": false
+  },
+  {
+   "name": "icon-play.svg",
+   "local": "/assets/company/svg/icon-play.svg",
+   "reused": false
+  },
+  {
+   "name": "icon-roi-bars.svg",
+   "local": "/assets/company/svg/icon-roi-bars.svg",
+   "reused": false
+  },
+  {
+   "name": "icon-row-arrow.svg",
+   "local": "/assets/company/svg/icon-row-arrow.svg",
+   "reused": false
+  },
+  {
+   "name": "rating-star-full-16.svg",
+   "local": "/assets/company/svg/rating-star-full-16.svg",
+   "reused": false
+  },
+  {
+   "name": "rating-star-half-16.svg",
+   "local": "/assets/company/svg/rating-star-half-16.svg",
+   "reused": false
+  },
+  {
+   "name": "rotator-logo-airwallex.svg",
+   "local": "/assets/company/svg/rotator-logo-airwallex.svg",
+   "reused": false
+  },
+  {
+   "name": "rotator-logo-aws.svg",
+   "local": "/assets/company/svg/rotator-logo-aws.svg",
+   "reused": false
+  },
+  {
+   "name": "rotator-logo-canva.svg",
+   "local": "/assets/company/svg/rotator-logo-canva.svg",
+   "reused": false
+  },
+  {
+   "name": "rotator-logo-itau.svg",
+   "local": "/assets/company/svg/rotator-logo-itau.svg",
+   "reused": false
+  },
+  {
+   "name": "rotator-logo-notion.svg",
+   "local": "/assets/company/svg/rotator-logo-notion.svg",
+   "reused": false
+  },
+  {
+   "name": "rotator-logo-salesforce.svg",
+   "local": "/assets/company/svg/rotator-logo-salesforce.svg",
+   "reused": false
+  },
+  {
+   "name": "rotator-logo-wise.svg",
+   "local": "/assets/company/svg/rotator-logo-wise.svg",
+   "reused": false
+  },
+  {
+   "name": "rotator-logo-zapier.svg",
+   "local": "/assets/company/svg/rotator-logo-zapier.svg",
+   "reused": false
+  },
+  {
+   "name": "share-copy-link.svg",
+   "local": "/assets/company/svg/share-copy-link.svg",
+   "reused": false
+  },
+  {
+   "name": "share-facebook.svg",
+   "local": "/assets/company/svg/share-facebook.svg",
+   "reused": false
+  },
+  {
+   "name": "share-linkedin.svg",
+   "local": "/assets/company/svg/share-linkedin.svg",
+   "reused": false
+  },
+  {
+   "name": "share-x.svg",
+   "local": "/assets/company/svg/share-x.svg",
+   "reused": false
+  }
+ ],
+ "notDownloaded": {
+  "videos": [
+   "https://dovetail.com/media/CustomerStoryBrevilleLoop.mp4",
+   "https://dovetail.com/media/AtlassianStoryLoop.mp4",
+   "https://dovetail.com/media/Itau_Trimmed.mov.webm"
+  ],
+  "brokenOnLiveSite": [
+   "https://dovetail.com/media/Canva_AI_interviews.gif (404; referenced in /customers/canva-ai/ body)"
+  ],
+  "thirdParty": [
+   "YouTube embeds/modals (ids in data files); posters for inline story embeds downloaded as external/youtube-<id>.jpg",
+   "HubSpot form scripts (not reproduced)",
+   "Black logo variants /customers/*/black-logo.svg (light theme only, unused on these pages)"
+  ]
+ },
+ "fonts": "No new fonts needed: Inter 400/500/600, JetBrains Mono, PP Mondwest already in /assets/fonts/"
+}

@@ -1,0 +1,29 @@
+{
+ "note": "icon-size tokens. Every value cites path:line in the clone project and the text that line contains (`match`); extraction/verify_all.py re-reads them.",
+ "tokens": {
+  "icon.16": {
+   "value": "16px",
+   "category": "iconSize",
+   "cite": "CLONE_SPEC.md:214",
+   "match": "16x16 `svg/banner-dismiss-x.svg`"
+  },
+  "icon.20": {
+   "value": "20px",
+   "category": "iconSize",
+   "cite": "CLONE_SPEC.md:208",
+   "match": "`3d-icon-digital-twin.png` 20x20"
+  },
+  "icon.24": {
+   "value": "24px",
+   "category": "iconSize",
+   "cite": "specs/marketing-shared.md:203",
+   "match": "width:24px; height:24px"
+  },
+  "icon.32": {
+   "value": "32px",
+   "category": "iconSize",
+   "cite": "CLONE_SPEC.md:359",
+   "match": "`svg/icon-download.svg` (32px"
+  }
+ }
+}

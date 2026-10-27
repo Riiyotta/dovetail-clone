@@ -1,0 +1,1478 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T20",
+ "route": "/ux/",
+ "theme": "light",
+ "chrome": {
+  "banner": "light",
+  "nav": "light",
+  "footer": "light"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail clone (local)"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "light",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "light",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "article.header",
+   "variant": "light",
+   "content": {
+    "heading": "What is user experience (UX) design?",
+    "actions": [
+     {
+      "label": "GUIDES",
+      "href": "/guides/"
+     },
+     {
+      "label": "USER EXPERIENCE (UX)",
+      "href": "#"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.byline",
+   "variant": "default",
+   "content": {
+    "heading": "Share",
+    "actions": [
+     {
+      "label": "CHLOE GARNHAM",
+      "href": "/contributors/chloe-garnham/"
+     },
+     {
+      "label": "KATIE REED",
+      "href": "/contributors/katie-reed/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Overview",
+    "body": [
+     {
+      "kind": "paragraph",
+      "text": "Short sessions with a focused agenda tend to produce more usable notes. Start small and adjust as you go. Context matters here. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Revisiting the original goal at the end is a useful way to check whether it was met. Good documentation lets new team members pick up the work without starting over."
+     },
+     {
+      "kind": "heading",
+      "text": "Overview"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Clear summaries make it simpler for colleagues outside the project to act on the findings. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Revisiting the original goal at the end is a useful way to check whether it was met. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Revisiting the original goal at the end is a useful way to check whether it was met. Short sessions with a focused agenda tend to produce more usable notes."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Key concepts",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Key concepts"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Responsibilities are clearer when each step has a named owner. This section is placeholder copy that stands in for the original article text."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Mixing a few complementary methods usually gives a more balanced picture than relying on one. Sharing progress openly invites useful questions."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Teams often begin by agreeing on the question they want to answer and the decision it will inform. Keeping the language plain helps readers focus on what matters most."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Sharing progress openly invites useful questions before the work is finished. Responsibilities are clearer when each step has a named owner."
+     },
+     {
+      "kind": "list-item",
+      "text": "A plan for follow-up"
+     },
+     {
+      "kind": "list-item",
+      "text": "Known constraints and risks"
+     },
+     {
+      "kind": "list-item",
+      "text": "A clear statement of the goal"
+     },
+     {
+      "kind": "list-item",
+      "text": "A realistic timeline"
+     },
+     {
+      "kind": "list-item",
+      "text": "The people who need to be involved"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Why it matters",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Why it matters"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Keeping the language plain helps readers focus on what matters most. Responsibilities are clearer when each step has a named owner."
+     },
+     {
+      "kind": "paragraph",
+      "text": "It is worth checking early assumptions against what people actually say and do. Teams often begin by agreeing on the question they want to answer and the decision it will inform."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Writing down the reasoning behind a decision makes it easier to revisit later. Context matters here."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Getting started",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Getting started"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Small, regular reviews tend to surface patterns sooner than one large review at the end. Review the results together as a team."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Short sessions with a focused agenda tend to produce more usable notes. Start small and adjust as you go. Review the results together as a team. This is placeholder text. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Good documentation lets new team members pick up the work without starting over. Visual summaries can help when the audience has limited time."
+     },
+     {
+      "kind": "paragraph",
+      "text": "This is placeholder text. Teams often begin by agreeing on the question they want to answer and the decision it will inform."
+     },
+     {
+      "kind": "list-item",
+      "text": "Known constraints and risks"
+     },
+     {
+      "kind": "list-item",
+      "text": "A clear statement of the goal"
+     },
+     {
+      "kind": "list-item",
+      "text": "A realistic timeline"
+     },
+     {
+      "kind": "list-item",
+      "text": "The people who need to be involved"
+     },
+     {
+      "kind": "list-item",
+      "text": "How results will be shared"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Common approaches",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Common approaches"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Review the results together as a team. This is placeholder text. Outcomes are easier to judge when there is a baseline to compare against."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Sharing progress openly invites useful questions before the work is finished. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Notes gathered along the way are easier to compare when they follow a consistent structure. Review the results together as a team."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Keeping the language plain helps readers focus on what matters most. Context matters here."
+     },
+     {
+      "kind": "list-item",
+      "text": "A clear statement of the goal"
+     },
+     {
+      "kind": "list-item",
+      "text": "A realistic timeline"
+     },
+     {
+      "kind": "list-item",
+      "text": "The people who need to be involved"
+     },
+     {
+      "kind": "list-item",
+      "text": "How results will be shared"
+     },
+     {
+      "kind": "list-item",
+      "text": "A consistent note-taking format"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Planning the work",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Planning the work"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Over time, a shared library of past work saves effort and avoids repeating the same study. Keeping the language plain helps readers focus on what matters most."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Visual summaries can help when the audience has limited time. Where possible, combine numbers with quotes so the story stays grounded. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "It is worth checking early assumptions against what people actually say and do. Small, regular reviews tend to surface patterns sooner than one large review at the end."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Putting it into practice",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Putting it into practice"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Start small and adjust as you go. Keep the audience in mind throughout. Responsibilities are clearer when each step has a named owner."
+     },
+     {
+      "kind": "paragraph",
+      "text": "This is placeholder text. This section is placeholder copy that stands in for the original article text."
+     },
+     {
+      "kind": "paragraph",
+      "text": "The examples below are illustrative and should be adapted to your own context. Not every finding needs action, but every finding deserves a clear status. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Visual summaries can help when the audience has limited time. Context matters here. This is placeholder text. Outcomes are easier to judge when there is a baseline to compare against."
+     },
+     {
+      "kind": "list-item",
+      "text": "How results will be shared"
+     },
+     {
+      "kind": "list-item",
+      "text": "A consistent note-taking format"
+     },
+     {
+      "kind": "list-item",
+      "text": "Criteria for deciding what comes next"
+     },
+     {
+      "kind": "list-item",
+      "text": "A short list of open questions"
+     },
+     {
+      "kind": "list-item",
+      "text": "Where supporting material is stored"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Measuring outcomes",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Measuring outcomes"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Not every finding needs action, but every finding deserves a clear status. Revisiting the original goal at the end is a useful way to check whether it was met."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Sharing progress openly invites useful questions before the work is finished. Outcomes are easier to judge when there is a baseline to compare against. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "This is placeholder text. Teams often begin by agreeing on the question they want to answer and the decision it will inform. Notes gathered along the way are easier to."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Short sessions with a focused agenda tend to produce more usable notes. Where possible, combine numbers with quotes so the story stays grounded. Review the results together as a team."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Challenges to watch for",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Challenges to watch for"
+     },
+     {
+      "kind": "paragraph",
+      "text": "A simple checklist can keep the process consistent from one round to the next. Review the results together as a team."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Review the results together as a team. Keep the audience in mind throughout. This section is placeholder copy that stands in for the original article text."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Keeping the language plain helps readers focus on what matters most. Responsibilities are clearer when each step has a named owner."
+     },
+     {
+      "kind": "list-item",
+      "text": "An agreed definition of done"
+     },
+     {
+      "kind": "list-item",
+      "text": "Checkpoints for reviewing progress"
+     },
+     {
+      "kind": "list-item",
+      "text": "A plan for follow-up"
+     },
+     {
+      "kind": "list-item",
+      "text": "Known constraints and risks"
+     },
+     {
+      "kind": "list-item",
+      "text": "A clear statement of the goal"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Tools and resources",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Tools and resources"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Teams often begin by agreeing on the question they want to answer and the decision it will inform. This section is placeholder copy that stands in for the original article text."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Keeping the language plain helps readers focus on what matters most. Not every finding needs action, but every finding deserves a clear status. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "The examples below are illustrative and should be adapted to your own context. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Where possible, combine numbers with quotes so the story stays grounded. Start small and adjust as you go. Context matters here."
+     },
+     {
+      "kind": "list-item",
+      "text": "A realistic timeline"
+     },
+     {
+      "kind": "list-item",
+      "text": "The people who need to be involved"
+     },
+     {
+      "kind": "list-item",
+      "text": "How results will be shared"
+     },
+     {
+      "kind": "list-item",
+      "text": "A consistent note-taking format"
+     },
+     {
+      "kind": "list-item",
+      "text": "Criteria for deciding what comes next"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Define the goal"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Responsibilities are clearer when each step has a named owner. Not every finding needs action, but every finding deserves a clear status. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Clear summaries make it simpler for colleagues outside the project to act on the findings."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Clear summaries make it simpler for colleagues outside the project to act on the findings. Keeping the language plain helps readers focus on what matters most."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Good practices",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Good practices"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Context matters here. Review the results together as a team. Keep the audience in mind throughout. This is placeholder text. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "A simple checklist can keep the process consistent from one round to the next. Outcomes are easier to judge when there is a baseline to compare against. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "The examples below are illustrative and should be adapted to your own context. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Responsibilities are clearer when each step has a named owner. Responsibilities are clearer when each step has a named owner."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Working with stakeholders",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Working with stakeholders"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Teams often begin by agreeing on the question they want to answer and the decision it will inform. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Revisiting the original goal at the end is a useful way to check whether it was met."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Context matters here. Keep the audience in mind throughout. Notes gathered along the way are easier to compare when they follow a consistent structure."
+     },
+     {
+      "kind": "paragraph",
+      "text": "A short planning step helps everyone understand the scope, the timeline and who needs to be involved. This section is placeholder copy that stands in for the original article text."
+     },
+     {
+      "kind": "list-item",
+      "text": "A plan for follow-up"
+     },
+     {
+      "kind": "list-item",
+      "text": "Known constraints and risks"
+     },
+     {
+      "kind": "list-item",
+      "text": "A clear statement of the goal"
+     },
+     {
+      "kind": "list-item",
+      "text": "A realistic timeline"
+     },
+     {
+      "kind": "list-item",
+      "text": "The people who need to be involved"
+     },
+     {
+      "kind": "list-item",
+      "text": "Where supporting material is stored"
+     },
+     {
+      "kind": "list-item",
+      "text": "An agreed definition of done"
+     },
+     {
+      "kind": "list-item",
+      "text": "Checkpoints for reviewing progress"
+     },
+     {
+      "kind": "list-item",
+      "text": "A plan for follow-up"
+     },
+     {
+      "kind": "list-item",
+      "text": "Known constraints and risks"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Examples",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Examples"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Start small and adjust as you go. Keep the audience in mind throughout. This is placeholder text. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Short sessions with a focused agenda tend to produce more usable notes. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "This is placeholder text. This section is placeholder copy that stands in for the original article text."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Choose a method"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Start small and adjust as you go. Context matters here. Keep the audience in mind throughout."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Teams often begin by agreeing on the question they want to answer and the decision it will inform."
+     },
+     {
+      "kind": "paragraph",
+      "text": "A simple checklist can keep the process consistent from one round to the next. Feedback from a pilot run often highlights steps that need to be clarified. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Short sessions with a focused agenda tend to produce more usable notes. Visual summaries can help when the audience has limited time. Start small and adjust as you go."
+     },
+     {
+      "kind": "list-item",
+      "text": "An agreed definition of done"
+     },
+     {
+      "kind": "list-item",
+      "text": "Checkpoints for reviewing progress"
+     },
+     {
+      "kind": "list-item",
+      "text": "A plan for follow-up"
+     },
+     {
+      "kind": "list-item",
+      "text": "Known constraints and risks"
+     },
+     {
+      "kind": "list-item",
+      "text": "A clear statement of the goal"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Next steps",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Next steps"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Feedback from a pilot run often highlights steps that need to be clarified. Responsibilities are clearer when each step has a named owner."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Feedback from a pilot run often highlights steps that need to be clarified. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Good documentation lets new team members pick up the work without starting over. Visual summaries can help when the audience has limited time. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Sharing progress openly invites useful questions before the work is finished. Start small and adjust as you go."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Summary",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Summary"
+     },
+     {
+      "kind": "paragraph",
+      "text": "A short planning step helps everyone understand the scope, the timeline and who needs to be involved. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Where possible, combine numbers with quotes so the story stays grounded. Start small and adjust as you go. Keep the audience in mind throughout. This is placeholder text. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Over time, a shared library of past work saves effort and avoids repeating the same study. Start small and adjust as you go."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Overview",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Overview"
+     },
+     {
+      "kind": "paragraph",
+      "text": "It is worth checking early assumptions against what people actually say and do. Small, regular reviews tend to surface patterns."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Visual summaries can help when the audience has limited time. Start small and adjust as you go. Review the results together as a team."
+     },
+     {
+      "kind": "paragraph",
+      "text": "This is placeholder text. This section is placeholder copy that stands in for the original article text. Review the results together as a team."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Clear summaries make it simpler for colleagues outside the project to act on the findings. This section is placeholder copy that stands in for the original article text."
+     },
+     {
+      "kind": "list-item",
+      "text": "Where supporting material is stored"
+     },
+     {
+      "kind": "list-item",
+      "text": "An agreed definition of done"
+     },
+     {
+      "kind": "list-item",
+      "text": "Checkpoints for reviewing progress"
+     },
+     {
+      "kind": "list-item",
+      "text": "A plan for follow-up"
+     },
+     {
+      "kind": "list-item",
+      "text": "Known constraints and risks"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Key concepts",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Key concepts"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Keep the audience in mind throughout. Teams often begin by agreeing on the question they want to answer and the decision it will inform."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Notes gathered along the way are easier to compare when they follow a consistent structure. This section is placeholder copy that stands in for the original article text."
+     },
+     {
+      "kind": "paragraph",
+      "text": "This section is placeholder copy that stands in for the original article text. This section is placeholder copy that stands in for the original article text."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Notes gathered along the way are easier to compare when they follow a consistent structure. Clear summaries make it simpler for colleagues."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.related-topics",
+   "variant": "default",
+   "content": {
+    "heading": "RELATED TOPICS",
+    "actions": [
+     {
+      "label": "[CUSTOMER RESEARCH]",
+      "href": "/customer-research/"
+     },
+     {
+      "label": "[DESIGN THINKING]",
+      "href": "/design-thinking/"
+     },
+     {
+      "label": "[EMPLOYEE EXPERIENCE]",
+      "href": "/employee-experience/"
+     },
+     {
+      "label": "[ENTERPRISE]",
+      "href": "/enterprise/"
+     },
+     {
+      "label": "[MARKET RESEARCH]",
+      "href": "/market-research/"
+     },
+     {
+      "label": "[PATIENT EXPERIENCE]",
+      "href": "/patient-experience/"
+     }
+    ],
+    "items": [
+     {
+      "title": "[CUSTOMER RESEARCH]",
+      "href": "/customer-research/"
+     },
+     {
+      "title": "[DESIGN THINKING]",
+      "href": "/design-thinking/"
+     },
+     {
+      "title": "[EMPLOYEE EXPERIENCE]",
+      "href": "/employee-experience/"
+     },
+     {
+      "title": "[ENTERPRISE]",
+      "href": "/enterprise/"
+     },
+     {
+      "title": "[MARKET RESEARCH]",
+      "href": "/market-research/"
+     },
+     {
+      "title": "[PATIENT EXPERIENCE]",
+      "href": "/patient-experience/"
+     },
+     {
+      "title": "[PRODUCT DEVELOPMENT]",
+      "href": "/product-development/"
+     },
+     {
+      "title": "[PRODUCT MANAGEMENT]",
+      "href": "/product-management/"
+     },
+     {
+      "title": "[RESEARCH MATURITY ASSESSMENT]",
+      "href": "/research-maturity-assessment/"
+     },
+     {
+      "title": "[RESEARCH METHODS]",
+      "href": "/research/"
+     },
+     {
+      "title": "[SURVEYS]",
+      "href": "/surveys/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.article-carousel",
+   "variant": "default",
+   "content": {
+    "heading": "Editor's picks↘",
+    "actions": [
+     {
+      "label": "Must-attend UX research conferences in 2026 and 2027",
+      "href": "/ux/ux-research-conferences-2024/"
+     },
+     {
+      "label": "Top 10 UX design trends to know about",
+      "href": "/ux/ux-design-trends-2024/"
+     },
+     {
+      "label": "The ultimate guide to heuristics",
+      "href": "/ux/heuristics/"
+     },
+     {
+      "label": "Using gestalt principles to create more effective designs",
+      "href": "/ux/gestalt-principles/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Must-attend UX research conferences in 2026 and 2027",
+      "href": "/ux/ux-research-conferences-2024/"
+     },
+     {
+      "title": "Top 10 UX design trends to know about",
+      "href": "/ux/ux-design-trends-2024/"
+     },
+     {
+      "title": "The ultimate guide to heuristics",
+      "href": "/ux/heuristics/"
+     },
+     {
+      "title": "Using gestalt principles to create more effective designs",
+      "href": "/ux/gestalt-principles/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.manual",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.article-carousel",
+   "variant": "default",
+   "content": {
+    "heading": "Latest articles↘",
+    "actions": [
+     {
+      "label": "What you need to know about usability testing",
+      "href": "/ux/what-is-usability-testing/"
+     },
+     {
+      "label": "The best usability testing tools in 2026",
+      "href": "/ux/usability-testing-tools/"
+     },
+     {
+      "label": "The best user research tools in 2026",
+      "href": "/ux/best-user-research-tools/"
+     }
+    ],
+    "items": [
+     {
+      "title": "How to design usability studies for AI agent features with non-deterministic outputs",
+      "href": "/ux/usability-testing-non-deterministic-ai-agent-features/"
+     },
+     {
+      "title": "How to design unmoderated usability tests for complex enterprise dashboards",
+      "href": "/ux/unmoderated-usability-tests-complex-enterprise-dashboards/"
+     },
+     {
+      "title": "How to run comparative usability benchmark studies across multiple product releases to quantify UX improvement over time",
+      "href": "/ux/comparative-usability-benchmark-studies-across-releases/"
+     },
+     {
+      "title": "25 AI Tools for UX research in 2026 (and which one fits your team)",
+      "href": "/ux/ai-tools-for-ux-research/"
+     },
+     {
+      "title": "What you need to know about usability testing",
+      "href": "/ux/what-is-usability-testing/"
+     },
+     {
+      "title": "The best usability testing tools in 2026",
+      "href": "/ux/usability-testing-tools/"
+     },
+     {
+      "title": "The best user research tools in 2026",
+      "href": "/ux/best-user-research-tools/"
+     },
+     {
+      "title": "How to run unmoderated usability tests for complex enterprise B2B workflows",
+      "href": "/ux/unmoderated-usability-testing-complex-enterprise-b2b-workflows/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.manual",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.inline-band",
+   "variant": "light",
+   "content": {
+    "heading": "Turn customer feedback into product innovation",
+    "actions": [
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     },
+     {
+      "label": "Try Dovetail free",
+      "href": "/auth/signup/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "light",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.az-index",
+   "variant": "default",
+   "content": {
+    "heading": "All User experience (UX) articles",
+    "items": [
+     {
+      "title": "10 best UX design bootcamps",
+      "href": "/ux/best-ux-design-bootcamps/"
+     },
+     {
+      "title": "10 Strategies for effective participant recruitment in UX research",
+      "href": "/ux/recruiting-participants-for-research/"
+     },
+     {
+      "title": "11 steps for creating a usability testing plan that works",
+      "href": "/ux/steps-to-create-a-usability-testing-plan/"
+     },
+     {
+      "title": "12 sources of inspiration for designers",
+      "href": "/ux/inspiration-for-designers/"
+     },
+     {
+      "title": "13 actionable steps for improving patient experience",
+      "href": "/ux/improving-patient-experience/"
+     },
+     {
+      "title": "13 essential CRO metrics for measuring success",
+      "href": "/ux/cro-metrics-guide/"
+     },
+     {
+      "title": "14 eye-opening UX statistics that will transform your website design",
+      "href": "/ux/ux-statistics/"
+     },
+     {
+      "title": "21 ingenious UX design examples for inspiration",
+      "href": "/ux/ux-design-examples/"
+     },
+     {
+      "title": "25 AI Tools for UX research in 2026 (and which one fits your team)",
+      "href": "/ux/ai-tools-for-ux-research/"
+     },
+     {
+      "title": "32 common UX job interview questions with example answers",
+      "href": "/ux/ux-research-job-interview-questions/"
+     },
+     {
+      "title": "6 tips on choosing a research topic",
+      "href": "/ux/research-topics/"
+     },
+     {
+      "title": "7 usability metrics you should be tracking",
+      "href": "/ux/list-of-usability-testing-metrics/"
+     },
+     {
+      "title": "8 best customer experience software solutions",
+      "href": "/ux/customer-experience-software/"
+     },
+     {
+      "title": "A complete guide to UX preference testing",
+      "href": "/ux/what-is-preference-testing/"
+     },
+     {
+      "title": "A comprehensive guide to understanding design research",
+      "href": "/ux/design-research/"
+     },
+     {
+      "title": "A guide to human-centered design",
+      "href": "/ux/human-centered-design/"
+     },
+     {
+      "title": "A guide to predictive analytics",
+      "href": "/ux/predictive-analysis/"
+     },
+     {
+      "title": "A guide to tree testing in UX design",
+      "href": "/ux/what-is-tree-testing/"
+     },
+     {
+      "title": "A guide to using AI in UX research",
+      "href": "/ux/ai-in-ux-research/"
+     },
+     {
+      "title": "A practical guide to CX in financial services",
+      "href": "/ux/customer-experience-in-financial-services/"
+     },
+     {
+      "title": "A quick guide to enterprise UI design",
+      "href": "/ux/ui-enterprise/"
+     },
+     {
+      "title": "A step-by-step guide to designing effective user scenarios",
+      "href": "/ux/user-scenarios/"
+     },
+     {
+      "title": "A step-by-step guide to writing an effective usability test script",
+      "href": "/ux/how-to-write-a-usability-testing-script/"
+     },
+     {
+      "title": "A UX designer's guide to the Principle of Least Surprise",
+      "href": "/ux/principle-of-least-surprise/"
+     },
+     {
+      "title": "All you need to know about UX research",
+      "href": "/ux/what-is-ux-research/"
+     },
+     {
+      "title": "Balancing qualitative and quantitative data in UX research: Our full guide",
+      "href": "/ux/qualitative-and-quantitative-data-in-ux-research/"
+     },
+     {
+      "title": "Best 9 user research methods",
+      "href": "/ux/user-research-methods/"
+     },
+     {
+      "title": "Best UserZoom alternatives",
+      "href": "/ux/userzoom-alternatives/"
+     },
+     {
+      "title": "Calculating the costs of poor UX design",
+      "href": "/ux/how-to-calculate-lost-revenue-from-poor-ux/"
+     },
+     {
+      "title": "Career guide: Customer experience manager",
+      "href": "/ux/customer-experience-manager/"
+     },
+     {
+      "title": "Career guide: Customer experience specialist",
+      "href": "/ux/customer-experience-specialist/"
+     },
+     {
+      "title": "Complete guide to AI in UX design",
+      "href": "/ux/ai-in-ux-design/"
+     },
+     {
+      "title": "Comprehensive guide to conducting user interviews",
+      "href": "/ux/user-interviews/"
+     },
+     {
+      "title": "Conduct a cognitive walkthrough in 9 steps",
+      "href": "/ux/cognitive-walkthrough/"
+     },
+     {
+      "title": "Conducting a UX competitor analysis for improved user experience",
+      "href": "/ux/ux-competitor-analysis/"
+     },
+     {
+      "title": "Customer experience (CX) teams: What you need to know",
+      "href": "/ux/cx-team/"
+     },
+     {
+      "title": "Customer experience in banking: 13 top insights",
+      "href": "/ux/customer-experience-in-banking-trends/"
+     },
+     {
+      "title": "Customer journey management: A quick guide",
+      "href": "/ux/customer-journey-management/"
+     },
+     {
+      "title": "CX vs. UX: How they differ and why you need both",
+      "href": "/ux/cx-vs-ux/"
+     },
+     {
+      "title": "Design conferences you can’t miss in 2026 and 2027",
+      "href": "/ux/list-of-design-conferences/"
+     },
+     {
+      "title": "Design system: Ultimate guide with examples",
+      "href": "/ux/design-systems/"
+     },
+     {
+      "title": "Empathy mapping 101: Create experiences users love",
+      "href": "/ux/empathy-map/"
+     },
+     {
+      "title": "Enhancing scannability in UX for a seamless user journey",
+      "href": "/ux/scannability/"
+     },
+     {
+      "title": "Ensuring data quality in UX research: best practices and pitfalls to avoid",
+      "href": "/ux/data-quality-in-ux-research/"
+     },
+     {
+      "title": "Essential UX metrics to track for your next project",
+      "href": "/ux/ux-metrics/"
+     },
+     {
+      "title": "Five steps to create your customer persona",
+      "href": "/ux/customer-persona/"
+     },
+     {
+      "title": "Get ahead of the game: The top AI qualitative data analysis tools",
+      "href": "/ux/ai-for-qualitative-data-analysis/"
+     },
+     {
+      "title": "Getting started with UX writing",
+      "href": "/ux/ux-writing/"
+     },
+     {
+      "title": "Guide to generative UX research",
+      "href": "/ux/generative-research/"
+     },
+     {
+      "title": "Guide to user testing: learn what users really want",
+      "href": "/ux/user-testing/"
+     },
+     {
+      "title": "Hamburger menu design 101",
+      "href": "/ux/hamburger-menu/"
+     },
+     {
+      "title": "Hick’s Law and UX design: What you need to know",
+      "href": "/ux/hicks-law/"
+     },
+     {
+      "title": "How to analyze usability testing results effectively",
+      "href": "/ux/how-to-analyze-usability-testing-results/"
+     },
+     {
+      "title": "How to analyze user interviews: Step-by-step guide",
+      "href": "/ux/how-to-analyze-user-interviews/"
+     },
+     {
+      "title": "How to assemble a winning UX design team",
+      "href": "/ux/how-to-structure-a-ux-design-team/"
+     },
+     {
+      "title": "How to calculate the ROI of customer experience",
+      "href": "/ux/customer-experience-roi/"
+     },
+     {
+      "title": "How to carry out effective user experience mapping",
+      "href": "/ux/user-experience-mapping/"
+     },
+     {
+      "title": "How to conduct a heuristic evaluation for UX design",
+      "href": "/ux/heuristic-evaluation/"
+     },
+     {
+      "title": "How to conduct a successful UX audit",
+      "href": "/ux/how-to-do-a-ux-audit/"
+     },
+     {
+      "title": "How to conduct accessibility research with neurodivergent participants for complex data visualization tools",
+      "href": "/ux/accessibility-research-neurodivergent-participants-data-visualization/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "interactive.toc-sheet",
+   "variant": "default",
+   "content": {},
+   "motion": {
+    "pattern": "sheet.slide",
+    "reducedMotionFallback": "show-immediately"
+   },
+   "retrievalEligible": false
+  }
+ ]
+}

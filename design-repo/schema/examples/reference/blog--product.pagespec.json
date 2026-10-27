@@ -1,0 +1,544 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T16",
+ "route": "/blog/product/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail clone (local)"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "listing.featured-header",
+   "variant": "default",
+   "content": {
+    "heading": "Blog",
+    "actions": [
+     {
+      "label": "All",
+      "href": "#"
+     },
+     {
+      "label": "AI",
+      "href": "#"
+     },
+     {
+      "label": "Dovetail team",
+      "href": "#"
+     },
+     {
+      "label": "Engineering",
+      "href": "#"
+     },
+     {
+      "label": "Product",
+      "href": "#"
+     },
+     {
+      "label": "Ideas",
+      "href": "#"
+     }
+    ],
+    "items": [
+     {
+      "title": "How to get stakeholders to trust your design decisions",
+      "text": "7 September 2026",
+      "href": "/blog/stakeholder-trust-design-decisions/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/stakeholder-trust-design-decisions-hero-poster.png"
+      }
+     },
+     {
+      "title": "AI made building faster, now customer understanding is the bottleneck",
+      "text": "27 August 2026",
+      "href": "/blog/customer-understanding-ai-bottleneck-digital-twins/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/customer-understanding-ai-bottleneck-digital-twins.jpg"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.hero"
+   }
+  },
+  {
+   "section": "listing.card-grid",
+   "variant": "blog",
+   "content": {
+    "actions": [
+     {
+      "label": "Load more",
+      "href": "#"
+     }
+    ],
+    "items": [
+     {
+      "title": "Unlocking the product brain: the secret to tackling PM bottlenecks with Ordermentum’s CPO",
+      "text": "20 August 2026",
+      "href": "/blog/unlocking-the-product-brain-with-ordermentums-cpo/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/unlocking-the-product-brain-with-ordermentums-cpo-hero-poster.png"
+      }
+     },
+     {
+      "title": "Governance controls, context engineering, and standardization capabilities at enterprise scale",
+      "text": "28 July 2026",
+      "href": "/blog/suns-out-enterprise/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/suns-out-enterprise-thumbnail.png"
+      }
+     },
+     {
+      "title": "Dovetail’s ecosystem grows with 18 new integrations and first-party MCP connectors",
+      "text": "21 July 2026",
+      "href": "/blog/suns-out-ecosystem/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/suns-out-ecosystem.png"
+      }
+     },
+     {
+      "title": "Channels 2.0: from customer feedback to code in one click",
+      "text": "20 July 2026",
+      "href": "/blog/suns-out-channels/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/suns-out-channels.png"
+      }
+     },
+     {
+      "title": "Meet the team you didn’t have headcount for—Digital Twins and Agents now in Dovetail",
+      "text": "17 July 2026",
+      "href": "/blog/suns-out-ai-agents/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/suns-out-ai-agents.png"
+      }
+     },
+     {
+      "title": "Dovetail launches major AI-powered platform expansion including Agents and category-defining Digital Twins, to close the gap between customer signal and business outcomes",
+      "text": "14 July 2026",
+      "href": "/blog/suns-out-summer-launch-26/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/suns-out-2026-press-release.png"
+      }
+     },
+     {
+      "title": "Our Sun’s Out launch: Introducing Digital Twins, agents, Channels 2.0, and new enterprise-grade features",
+      "text": "14 July 2026",
+      "href": "/blog/suns-out-2026-launch/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/suns-out-summer-launch-26.png"
+      }
+     },
+     {
+      "title": "Fetch once, use everywhere: rebuilding how Dovetail ingests your data",
+      "text": "15 June 2026",
+      "href": "/blog/fetch-once-use-everywhere-rebuilding-data-ingestion/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/fetch-once-use-everywhere-rebuilding-data-ingestion.jpg"
+      }
+     },
+     {
+      "title": "Pixel-f**ing the new chat library",
+      "text": "15 June 2026",
+      "href": "/blog/pixel-fing-the-new-chat-library/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/pixel-fing-the-new-chat-library.jpg"
+      }
+     },
+     {
+      "title": "Unreasonable experiences: why great products are no longer enough",
+      "text": "3 June 2026",
+      "href": "/blog/unreasonable-experiences-why-great-products-are-no-longer-enough/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/unreasonable-experiences-why-great-products-are-no-longer-enough.png"
+      }
+     },
+     {
+      "title": "What’s possible when Claude’s connected to Dovetail",
+      "text": "20 May 2026",
+      "href": "/blog/whats-possible-with-claude-x-dovetail/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "https://dovetail.com/media/whats-possible-with-claude-x-dovetail-poster.jpg"
+      }
+     },
+     {
+      "title": "Introducing Dovetail’s most powerful chat yet",
+      "text": "12 May 2026",
+      "href": "/blog/the-most-powerful-version-of-chat-in-dovetail-is-now-live/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "https://dovetail.com/media/the-most-powerful-version-of-chat-in-dovetail-is-now-live.png"
+      }
+     },
+     {
+      "title": "No, your team can't just use ChatGPT for this",
+      "text": "24 April 2026",
+      "href": "/blog/no-your-team-cant-just-use-chatgpt-for-this/",
+      "media": {
+       "assetRole": "person.photo",
+       "alt": "",
+       "ref": "https://dovetail.com/media/no-your-team-cant-just-use-chatgpt-for-this.jpg"
+      }
+     },
+     {
+      "title": "Introducing the new Dovetail experience—a simpler way to get around",
+      "text": "31 March 2026",
+      "href": "/blog/new-dovetail-experience/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "https://dovetail.com/media/new-dovetail-experience-cover.png"
+      }
+     },
+     {
+      "title": "Introducing Explore: a new way to dive into customer knowledge",
+      "text": "27 March 2026",
+      "href": "/blog/introducing-explore-a-new-way-to-dive-into-customer-knowledge/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "https://dovetail.com/media/explore_cover.png"
+      }
+     },
+     {
+      "title": "The end of the passive researcher: trading academic rigor for radical agility with Dovetail's Experience Team",
+      "text": "23 March 2026",
+      "href": "/blog/end-of-the-passive-researcher/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "https://dovetail.com/media/01_Hero-poster.png"
+      }
+     },
+     {
+      "title": "How we measure AI quality at Dovetail",
+      "text": "20 March 2026",
+      "href": "/blog/how-we-measure-ai-quality-at-dovetail/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "https://dovetail.com/media/how-we-measure-ai-quality-at-dovetail.png"
+      }
+     },
+     {
+      "title": "Prototype with real customer data using the Dovetail connector for Figma Make",
+      "text": "17 February 2026",
+      "href": "/blog/dovetail-connector-figma-make/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "https://dovetail.com/media/dovetail-connector-figma-make-poster.png"
+      }
+     },
+     {
+      "title": "The product-building culture shift—minimizing the work around the work with Intercom’s VP of product",
+      "text": "26 January 2026",
+      "href": "/blog/the-product-building-culture-shift-minimizing-the-work-around-the-work-with/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "https://dovetail.com/media/01_Hero-1IkEy6xRcSPk101lp7khSY-poster.png"
+      }
+     },
+     {
+      "title": "Evolving our colour system: refining the palette",
+      "text": "6 November 2025",
+      "href": "/blog/evolving-our-colour-system-refining-the-palette/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "https://dovetail.com/media/evolving-our-colour-system-refining-the-palette.png"
+      }
+     },
+     {
+      "title": "Introducing Dovetail’s Fall 2025 Launch: AI Agents, Dashboards, Docs, integrations, and more",
+      "text": "8 October 2025",
+      "href": "/blog/2025-fall-launch/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "https://dovetail.com/media/2025-fall-launch.png"
+      }
+     },
+     {
+      "title": "How to power your product strategy with customer intelligence—a PM’s guide",
+      "text": "8 October 2025",
+      "href": "/blog/power-product-strategy-with-customer-intelligence-pms-guide/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "https://dovetail.com/media/power-product-strategy-with-customer-intelligence-pms-guide.png"
+      }
+     },
+     {
+      "title": "Dovetail launches AI-first customer intelligence platform to power customer-led product development",
+      "text": "8 October 2025",
+      "href": "/blog/dovetail-launches-customer-intelligence-platform/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "https://dovetail.com/media/dovetail-launches-customer-intelligence-platform.png"
+      }
+     },
+     {
+      "title": "From customer feedback to instant AI prototypes: Announcing our Alloy partnership",
+      "text": "3 October 2025",
+      "href": "/blog/alloy/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "https://dovetail.com/media/alloy.png"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s80"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "dark",
+   "content": {
+    "heading": "The best never guess",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "#"
+     },
+     {
+      "label": "Start free trial",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-theright-salesforce.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestfarleft-aws.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestleft-canva.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestright-airwallex.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverright-notion.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverfarright-zapier.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessleft-wise.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessfarleft-breville.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1048 @@
+{
+ "url": "/roles/product-management/",
+ "template": "roles",
+ "title": "Dovetail for Product Managers",
+ "metaDescription": "Build roadmaps with customer intelligence, not opinion. Dovetail helps product teams spot demand, align priorities, and act on signals faster.",
+ "documentHeight": {
+  "1440": 12526,
+  "1280": 13507,
+  "768": 15648,
+  "390": 14730
+ },
+ "chrome": {
+  "alertBar": true,
+  "navBackground": null,
+  "footer": "finalCta"
+ },
+ "sections": [
+  {
+   "slice": "RoleHero",
+   "el": "eb5iodx0",
+   "measuredHeight": {
+    "1440": 857.1,
+    "1280": 761.9,
+    "768": 792.6,
+    "390": 673.5
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-pm-hero.png",
+     "alt": "",
+     "w": 1440,
+     "h": 857.1,
+     "el": "eb5iodx2"
+    },
+    {
+     "role": "text",
+     "text": "Dovetail for Product Management",
+     "el": "eb5iodx5.etfyu4r0"
+    },
+    {
+     "role": "h1",
+     "text": "Build roadmaps on customer evidence, not opinion",
+     "el": "eb5iodx6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-wise-white-logo.svg",
+     "alt": "Wise",
+     "w": 71.1,
+     "h": 32,
+     "el": "eb5iodx11"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-aws-white-logo.svg",
+     "alt": "AWS",
+     "w": 72,
+     "h": 32,
+     "el": "eb5iodx11"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-zapier-white-logo.svg",
+     "alt": "Zapier",
+     "w": 71.1,
+     "h": 32,
+     "el": "eb5iodx11"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-shopify-white-logo.svg",
+     "alt": "Shopify",
+     "w": 71.1,
+     "h": 32,
+     "el": "eb5iodx11"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-pm-hero-mobile.png",
+     "alt": "",
+     "w": 0,
+     "h": 0,
+     "el": "eb5iodx3",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "Challenge",
+   "el": "etid8i64",
+   "measuredHeight": {
+    "1440": 856,
+    "1280": 856,
+    "768": 313.6,
+    "390": 569.6
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/how-it-works-grid-bg.png.png",
+     "alt": "Grid background",
+     "w": 1260,
+     "h": 856,
+     "el": "e1ms7w8v3"
+    },
+    {
+     "role": "text",
+     "text": "The challenge",
+     "el": "e1qa43fr0.etfyu4r0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 315,
+     "el": "visually-hidden"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Request a demo",
+     "href": "/request-a-demo/",
+     "el": "a"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "HowDovetailHelps",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 267.6,
+    "1280": 187.6,
+    "768": 135.6,
+    "390": 171.6
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "How Dovetail helps",
+     "el": "e1hzr4mi0.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Build on evidence, not opinion",
+     "el": "e1hzr4mi1"
+    }
+   ]
+  },
+  {
+   "slice": "HowDovetailHelps",
+   "el": "etid8i64",
+   "measuredHeight": {
+    "1440": 1177.2,
+    "1280": 1147.3,
+    "768": 2752.4,
+    "390": 1815.4
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-pm-feature-1.png",
+     "alt": "",
+     "w": 582,
+     "h": 434.6,
+     "el": "e1hzr4mi3"
+    },
+    {
+     "role": "h3",
+     "text": "See demand, trends, and impact clearly",
+     "el": "e1hzr4mi5"
+    },
+    {
+     "role": "text",
+     "text": "Automatically categorize and cluster feedback to highlight the most frequent requests and important trends.",
+     "el": "e1hzr4mi6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-pm-feature-2.png",
+     "alt": "",
+     "w": 582,
+     "h": 434.6,
+     "el": "e1hzr4mi3"
+    },
+    {
+     "role": "h3",
+     "text": "Build stronger cases and align stakeholders",
+     "el": "e1hzr4mi5"
+    },
+    {
+     "role": "text",
+     "text": "Link initiatives directly to real customer evidence to guide priorities and align stakeholders.",
+     "el": "e1hzr4mi6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-pm-feature-3.png",
+     "alt": "",
+     "w": 582,
+     "h": 434.6,
+     "el": "e1hzr4mi3"
+    },
+    {
+     "role": "h3",
+     "text": "Act on issues before they affect revenue",
+     "el": "e1hzr4mi5"
+    },
+    {
+     "role": "text",
+     "text": "Surface recurring complaints and sentiment changes across channels in real time.",
+     "el": "e1hzr4mi6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-pm-feature-4.png",
+     "alt": "",
+     "w": 582,
+     "h": 434.6,
+     "el": "e1hzr4mi3"
+    },
+    {
+     "role": "h3",
+     "text": "Get automatic alerts without extra work",
+     "el": "e1hzr4mi5"
+    },
+    {
+     "role": "text",
+     "text": "Receive summaries and alerts automatically to stay informed without extra reporting.",
+     "el": "e1hzr4mi6"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "Prioritization",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 400,
+    "1280": 615.6,
+    "768": 643.6,
+    "390": 919.6
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Feature prioritization",
+     "el": "exidxjs0.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Using Dovetail to prioritize what to build",
+     "el": "exidxjs1"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 396,
+     "el": "exidxjs2"
+    },
+    {
+     "role": "text",
+     "text": "1",
+     "el": "exidxjs5"
+    },
+    {
+     "role": "h3",
+     "text": "Gather feedback in Dovetail",
+     "el": "exidxjs7"
+    },
+    {
+     "role": "text",
+     "text": "Centralize support tickets, sales calls, surveys, and past research in one searchable place instead of scattered spreadsheets and decks.",
+     "el": "exidxjs8"
+    },
+    {
+     "role": "text",
+     "text": "2",
+     "el": "exidxjs5"
+    },
+    {
+     "role": "h3",
+     "text": "Surface priority themes with AI Channels",
+     "el": "exidxjs7"
+    },
+    {
+     "role": "text",
+     "text": "AI Channels clusters raw feedback into themes and ranks them by frequency, so the most-requested features rise to the top automatically.",
+     "el": "exidxjs8"
+    },
+    {
+     "role": "text",
+     "text": "3",
+     "el": "exidxjs5"
+    },
+    {
+     "role": "h3",
+     "text": "Export evidence to Productboard or Jira",
+     "el": "exidxjs7"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 166,
+     "el": "exidxjs8"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "Integrations",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 2433,
+    "1280": 2470.6,
+    "768": 2510.6,
+    "390": 3266.6
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Integrations",
+     "el": "e1ttzgas0.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Connect to the tools you use",
+     "el": "e1ttzgas1"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Request a demo",
+     "href": "/request-a-demo/",
+     "el": "a"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Jira.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Jira",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 159,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Linear.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Linear",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 185,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Productboard.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Productboard",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 162,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Salesforce.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Salesforce",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 168,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Zendesk.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Zendesk",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 160,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/HubSpot.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "HubSpot",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 178,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Slack.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Slack",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 187,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Gong.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Gong",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 152,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Pendo.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Pendo",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 168,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Sprig.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Sprig",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 167,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/UserSnap.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Usersnap",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 163,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/PostHog.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "PostHog",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 173,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Claude.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Claude",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 176,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ChatGPT.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "ChatGPT",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "text": "Bring your customer feedback into ChatGPT and turn product insights into decisions without leaving the conversation.",
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "link",
+     "text": "Discover all integrations",
+     "href": "https://docs.dovetail.com/integrations/",
+     "el": "e1ttzgas13"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1ttzgas13-277801.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "UseCaseTabs",
+   "el": "e1af4wr40",
+   "measuredHeight": {
+    "1440": 867.6,
+    "1280": 1343,
+    "768": 1040.2,
+    "390": 810.6
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Use cases",
+     "el": "e1af4wr41.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Practical ways product managers use Dovetail",
+     "el": "e1af4wr42"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-pm-usecase-roadmap-planning.png",
+     "alt": "",
+     "w": 616,
+     "h": 472,
+     "el": "e1af4wr45"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-pm-usecase-churn-signals.png",
+     "alt": "",
+     "w": 616,
+     "h": 472,
+     "el": "e1af4wr45"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-pm-usecase-feature-validation.png",
+     "alt": "",
+     "w": 616,
+     "h": 472,
+     "el": "e1af4wr45"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-pm-usecase-decision-alignment.png",
+     "alt": "",
+     "w": 616,
+     "h": 472,
+     "el": "e1af4wr45"
+    },
+    {
+     "role": "button",
+     "text": "Roadmap planning",
+     "el": "e1af4wr49"
+    },
+    {
+     "role": "button",
+     "text": "Churn signals",
+     "el": "e1af4wr49"
+    },
+    {
+     "role": "button",
+     "text": "Feature validation",
+     "el": "e1af4wr49"
+    },
+    {
+     "role": "button",
+     "text": "Decision alignment",
+     "el": "e1af4wr49"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 117,
+     "el": "e1af4wr410"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "TestimonialSlice",
+   "el": "eqa8jb90",
+   "measuredHeight": {
+    "1440": 560,
+    "1280": 560,
+    "768": 362,
+    "390": 532.8
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/testimonial-grid-bg.png.png",
+     "alt": "Grid background",
+     "w": 1260,
+     "h": 560,
+     "el": "e1ms7w8v3"
+    },
+    {
+     "role": "link-card",
+     "text": null,
+     "href": "/customers/achievers/",
+     "el": "e1i468kp0"
+    },
+    {
+     "role": "text",
+     "text": "Read customer story",
+     "el": "e1i468kp8"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti-4.png",
+     "alt": "",
+     "w": 80,
+     "h": 80,
+     "el": "e1i468kp2"
+    },
+    {
+     "role": "quote",
+     "placeholder": true,
+     "chars": 229,
+     "el": "e1i468kp5"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-achievers-white-logo.svg",
+     "alt": "Achievers",
+     "w": 142,
+     "h": 40,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "Marie-Andrée Turgeon",
+     "el": "e1i468kp6"
+    },
+    {
+     "role": "text",
+     "text": "Senior Manager of Product Operations",
+     "el": "e1i468kp7"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "CustomerStoryCards",
+   "el": "etid8i64",
+   "measuredHeight": {
+    "1440": 531.8,
+    "1280": 1445.3,
+    "768": 2675.9,
+    "390": 1427.9
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/Customer_Achievers.png",
+     "alt": "",
+     "w": 376,
+     "h": 413.8,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-achievers-white-logo.svg",
+     "alt": "Achievers",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "link",
+     "text": "How Achievers powers employee experience with always-on customer intelligence ↘",
+     "href": "/customers/achievers/",
+     "el": "e1xybz5410"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Customer_SafetyCulture.png",
+     "alt": "",
+     "w": 376,
+     "h": 413.8,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-safetyculture-white-logo.svg",
+     "alt": "SafetyCulture",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "link",
+     "text": "SafetyCulture puts the customer at the heart of decision with Dovetail ↘",
+     "href": "/customers/safetyculture/",
+     "el": "e1xybz5410"
+    },
+    {
+     "role": "img",
+     "src": "/assets/Customer_Itau.png",
+     "alt": "",
+     "w": 376,
+     "h": 413.8,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-itau-unibanco-white-logo.svg",
+     "alt": "Itaú Unibanco",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "link",
+     "text": "How Itaú Unibanco delivers better banking experiences with Dovetail ↘",
+     "href": "/customers/itau-unibanco/",
+     "el": "e1xybz5410"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "QuizPromo",
+   "el": "e1l2hegs0",
+   "measuredHeight": {
+    "1440": 419,
+    "1280": 321,
+    "768": 281,
+    "390": 361
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "2-minute quiz",
+     "el": "e1l2hegs3"
+    },
+    {
+     "role": "h2",
+     "text": "Are you a data-driven product manager?",
+     "el": "e1l2hegs4"
+    },
+    {
+     "role": "text",
+     "text": "Answer 10 questions and find out how data-driven your product practice really is.",
+     "el": "e1l2hegs5"
+    },
+    {
+     "role": "link",
+     "text": "Take the quiz",
+     "href": "/roles/product-management/quiz/",
+     "el": "a"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "FAQ",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 538,
+    "1280": 606,
+    "768": 583,
+    "390": 655
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "FAQs",
+     "el": "ef2kgtv0"
+    },
+    {
+     "role": "button",
+     "text": "How does Dovetail help with prioritization?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ea410al3-082750.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 164,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Can product managers use Dovetail directly?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 117,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Does Dovetail replace product analytics tools?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 110,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "How does Dovetail surface churn risk?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 128,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Can insights be shared with leadership easily?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 90,
+     "el": "ef2kgtv2"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  }
+ ]
+}

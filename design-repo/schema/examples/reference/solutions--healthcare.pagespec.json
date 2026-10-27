@@ -1,0 +1,462 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T3",
+ "route": "/solutions/healthcare/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "cta-band"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Healthcare"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.solution",
+   "variant": "default",
+   "content": {
+    "heading": "Understand your patients deeply—without compromising on compliance",
+    "lead": "Lorem sit adipiscing do incididunt et aliqua minim nostrud. Laboris ex consequat irure voluptate cillum pariatur occaecat proident qui mollit. Est ipsum amet elit eiusmod ut.",
+    "actions": [
+     {
+      "label": "Start a 60-day free trial",
+      "href": "#trial-cta"
+     },
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.logo-marquee",
+   "variant": "two-row",
+   "content": {
+    "lead": "CONNECTING THE WORLD'S LEADING TEAMS TO THEIR CUSTOMERS",
+    "media": [
+     {
+      "assetRole": "customer.logo",
+      "alt": "Breville",
+      "ref": "/assets/marketing/customer-breville-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Atlassian",
+      "ref": "/assets/marketing/customer-atlassian-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Notion",
+      "ref": "/assets/marketing/customer-notion-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Okta",
+      "ref": "/assets/marketing/customer-okta-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "AWS",
+      "ref": "/assets/marketing/customer-aws-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Toyota",
+      "ref": "/assets/marketing/customer-toyota-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Breville",
+      "ref": "/assets/marketing/customer-breville-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Atlassian",
+      "ref": "/assets/marketing/customer-atlassian-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Notion",
+      "ref": "/assets/marketing/customer-notion-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Okta",
+      "ref": "/assets/marketing/customer-okta-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "AWS",
+      "ref": "/assets/marketing/customer-aws-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Toyota",
+      "ref": "/assets/marketing/customer-toyota-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Qantas",
+      "ref": "/assets/marketing/customer-qantas-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "NCRVoyix",
+      "ref": "/assets/marketing/customer-ncrvoyix-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "ASML",
+      "ref": "/assets/marketing/customer-asml-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Zapier",
+      "ref": "/assets/marketing/customer-zapier-white-logo.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "marquee.loop",
+    "reducedMotionFallback": "paused"
+   },
+   "style": {
+    "spaceBefore": "space.section.s120"
+   }
+  },
+  {
+   "section": "features.alternating-row",
+   "variant": "media-right",
+   "content": {
+    "heading": "HIPAA-ready analysis with redaction built in",
+    "lead": "Nisi ea duis in velit fugiat excepteur cupidatat sunt officia anim laborum dolor. Consectetur sed tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit esse. Nulla sint non culpa deserunt id lorem sit adipiscing do. Incididunt et aliqua minim nostrud laboris ex consequat irure voluptate cillum pariatur. Occaecat proident qui.",
+    "actions": [
+     {
+      "label": "Start a 60-day free trial",
+      "href": "#trial-cta"
+     },
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Automatic PII redaction settings in Dovetail",
+      "ref": "/assets/marketing/automatic-redaction.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.stack.56"
+   }
+  },
+  {
+   "section": "features.alternating-row",
+   "variant": "media-left",
+   "content": {
+    "heading": "Every patient signal in one place",
+    "lead": "Aute reprehenderit esse nulla sint non culpa deserunt id. Lorem sit adipiscing do incididunt et aliqua minim nostrud. Laboris ex consequat irure voluptate cillum pariatur occaecat. Proident qui mollit est ipsum amet elit eiusmod ut dolore enim. Veniam exercitation nisi ea duis in velit fugiat excepteur. Cupidatat sunt officia anim laborum.",
+    "actions": [
+     {
+      "label": "Start a 60-day free trial",
+      "href": "#trial-cta"
+     },
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Patient feedback sources connected to Dovetail channels",
+      "ref": "/assets/marketing/Channels_sources.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.alternating-row",
+   "variant": "media-right",
+   "content": {
+    "heading": "Patient experience themes, no manual tagging",
+    "lead": "Cillum pariatur occaecat proident qui mollit est ipsum amet elit. Eiusmod ut dolore enim veniam exercitation nisi ea duis in velit fugiat excepteur. Cupidatat sunt officia anim laborum dolor consectetur sed tempor labore. Magna ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint non. Culpa deserunt id lorem sit adipiscing do incididunt et aliqua minim.",
+    "actions": [
+     {
+      "label": "Start a 60-day free trial",
+      "href": "#trial-cta"
+     },
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "AI-generated themes from patient feedback in Dovetail",
+      "ref": "/assets/marketing/Channels-AI-generated_themes-product-image.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.alternating-row",
+   "variant": "media-left",
+   "content": {
+    "heading": "Control who sees what",
+    "lead": "Cupidatat sunt officia anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint. Non culpa deserunt id lorem sit adipiscing do incididunt et aliqua minim. Nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident qui mollit est. Ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi. Ea.",
+    "actions": [
+     {
+      "label": "Start a 60-day free trial",
+      "href": "#trial-cta"
+     },
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Role-based permissions protecting sensitive patient data in Dovetail",
+      "ref": "/assets/marketing/home-enterprise-3.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.trial-band",
+   "variant": "solutions",
+   "content": {
+    "heading": "Bring customer evidence into your next roadmap decision",
+    "lead": "Ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi ea duis in. Velit fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor. Labore magna ad.",
+    "actions": [
+     {
+      "label": "Start a 60-day free trial",
+      "href": "/auth/signup?promo=ENTERPRISE_SOLUTIONS_2026_D60"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/contact-sales/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "interactive.faq",
+   "variant": "marketing",
+   "content": {
+    "heading": "FAQs",
+    "items": [
+     {
+      "title": "Is Dovetail HIPAA compliant? Do you sign BAAs?",
+      "text": "Elit eiusmod ut dolore enim veniam exercitation nisi ea duis. In velit fugiat excepteur cupidatat sunt officia anim. Laborum dolor consectetur sed tempor labore magna ad quis ullamco aliquip. Commodo aute."
+     },
+     {
+      "title": "How does Dovetail handle PHI and other identifying details?",
+      "text": "Nisi ea duis in velit fugiat excepteur cupidatat sunt officia anim laborum dolor. Consectetur sed tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit esse. Nulla sint non culpa deserunt id lorem sit adipiscing do. Incididunt et aliqua minim nostrud laboris ex consequat irure."
+     },
+     {
+      "title": "Where does our data live, and is it used to train AI models?",
+      "text": "Cillum pariatur occaecat proident qui mollit est ipsum amet elit. Eiusmod ut dolore enim veniam exercitation nisi ea duis in velit fugiat excepteur. Cupidatat sunt officia anim laborum dolor consectetur sed tempor labore. Magna."
+     },
+     {
+      "title": "Which feedback channels can we connect?",
+      "text": "Deserunt id lorem sit adipiscing do incididunt et aliqua minim nostrud laboris. Ex consequat irure voluptate cillum pariatur occaecat proident qui mollit est ipsum amet elit. Eiusmod ut dolore enim veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat. Sunt officia anim laborum."
+     },
+     {
+      "title": "Is Dovetail for research teams or CX teams?",
+      "text": "Sed tempor labore magna ad quis ullamco aliquip commodo. Aute reprehenderit esse nulla sint non culpa deserunt. Id lorem sit adipiscing do incididunt et aliqua minim nostrud laboris. Ex consequat irure voluptate cillum pariatur occaecat proident qui. Mollit est ipsum amet elit eiusmod ut dolore. Enim veniam exercitation nisi ea duis in velit fugiat."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "accordion.height",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "cta-band",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     },
+     {
+      "label": "Try Dovetail free",
+      "href": "/auth/signup/"
+     },
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ],
+    "heading": "See what Dovetail can do for your healthcare organization"
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

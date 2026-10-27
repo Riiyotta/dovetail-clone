@@ -1,0 +1,630 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T14",
+ "route": "/campaign-launch-mossgrove/",
+ "theme": "campaign",
+ "chrome": {
+  "banner": "none",
+  "nav": "default",
+  "footer": "none"
+ },
+ "brand": {
+  "name": "Mossgrove"
+ },
+ "meta": {
+  "title": "Mossgrove | Campaign"
+ },
+ "nodes": [
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Compass",
+      "href": "https://mossgrove.example/navbar-0"
+     },
+     {
+      "label": "Plan shape",
+      "href": "https://mossgrove.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Cinder"
+     },
+     {
+      "title": "Sprout"
+     },
+     {
+      "title": "Steer"
+     },
+     {
+      "title": "Cobalt"
+     },
+     {
+      "title": "Share"
+     },
+     {
+      "title": "Willow"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Weigh basil",
+      "text": "Measure bundle tidy thread delta sketch field orbit"
+     },
+     {
+      "title": "Gather sprout",
+      "text": "Steer sort tidal fjord falcon refine measure nimbus"
+     },
+     {
+      "title": "Grove thread",
+      "text": "Trace marble field orbit meadow notice juniper sort"
+     },
+     {
+      "title": "Harbor willow",
+      "text": "Weigh basil atlas nimbus grove map delta marble"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.launch",
+   "variant": "default",
+   "content": {
+    "heading": "Field shape meadow sprout",
+    "lead": "Juniper sort share",
+    "actions": [
+     {
+      "label": "Willow signal",
+      "href": "https://mossgrove.example/launch-0"
+     },
+     {
+      "label": "Beacon rowan",
+      "href": "https://mossgrove.example/launch-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/hero.launch-0"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/hero.launch-1"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "sticky.pin",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "content.launch-recap",
+   "variant": "default",
+   "content": {
+    "lead": "Pebble tidy",
+    "actions": [
+     {
+      "label": "Trace sketch",
+      "href": "https://mossgrove.example/launch-recap-0"
+     },
+     {
+      "label": "Field orbit",
+      "href": "https://mossgrove.example/launch-recap-1"
+     },
+     {
+      "label": "Gather notice",
+      "href": "https://mossgrove.example/launch-recap-2"
+     },
+     {
+      "label": "Harvest sort",
+      "href": "https://mossgrove.example/launch-recap-3"
+     },
+     {
+      "label": "Harbor lantern",
+      "href": "https://mossgrove.example/launch-recap-4"
+     },
+     {
+      "label": "Signal refine",
+      "href": "https://mossgrove.example/launch-recap-5"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/content.launch-recap-0"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/content.launch-recap-1"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/content.launch-recap-2"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/content.launch-recap-3"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/content.launch-recap-4"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/content.launch-recap-5"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/content.launch-recap-6"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/content.launch-recap-7"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "",
+      "ref": "generate:icon.generic/content.launch-recap-8"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.launch-feature",
+   "variant": "title-block",
+   "content": {
+    "lead": "Rowan bundle grove cedar compass quarry plan",
+    "media": [
+     {
+      "assetRole": "icon.generic",
+      "alt": "Prism meadow sprout",
+      "ref": "generate:icon.generic/features.launch-feature-0"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Harvest sort harbor",
+      "ref": "generate:icon.generic/features.launch-feature-1"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Willow signal basil",
+      "ref": "generate:icon.generic/features.launch-feature-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "pixel.reveal",
+    "reducedMotionFallback": "show-final-state"
+   }
+  },
+  {
+   "section": "features.launch-feature",
+   "variant": "title-block",
+   "content": {
+    "lead": "Rowan bundle grove cedar compass quarry plan",
+    "media": [
+     {
+      "assetRole": "icon.generic",
+      "alt": "Shape gather notice",
+      "ref": "generate:icon.generic/features.launch-feature-0"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Juniper sort share",
+      "ref": "generate:icon.generic/features.launch-feature-1"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Fjord falcon basil",
+      "ref": "generate:icon.generic/features.launch-feature-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "pixel.reveal",
+    "reducedMotionFallback": "show-final-state"
+   }
+  },
+  {
+   "section": "features.launch-feature",
+   "variant": "title-block",
+   "content": {
+    "lead": "Measure bundle grove thread compass sketch",
+    "media": [
+     {
+      "assetRole": "icon.generic",
+      "alt": "Shape cinder sprout",
+      "ref": "generate:icon.generic/features.launch-feature-0"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Juniper sort tidal",
+      "ref": "generate:icon.generic/features.launch-feature-1"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Fjord weigh basil",
+      "ref": "generate:icon.generic/features.launch-feature-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "pixel.reveal",
+    "reducedMotionFallback": "show-final-state"
+   }
+  },
+  {
+   "section": "features.launch-feature",
+   "variant": "title-block",
+   "content": {
+    "lead": "Rowan nimbus tidy thread trace quarry field",
+    "media": [
+     {
+      "assetRole": "icon.generic",
+      "alt": "Prism meadow sprout",
+      "ref": "generate:icon.generic/features.launch-feature-0"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Steer cobalt share",
+      "ref": "generate:icon.generic/features.launch-feature-1"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Willow signal basil",
+      "ref": "generate:icon.generic/features.launch-feature-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "pixel.reveal",
+    "reducedMotionFallback": "show-final-state"
+   }
+  },
+  {
+   "section": "features.launch-feature",
+   "variant": "title-block",
+   "content": {
+    "lead": "Rowan nimbus canvas cedar delta quarry field",
+    "media": [
+     {
+      "assetRole": "icon.generic",
+      "alt": "Prism gather sprout",
+      "ref": "generate:icon.generic/features.launch-feature-0"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Steer cobalt harbor",
+      "ref": "generate:icon.generic/features.launch-feature-1"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Lantern signal refine",
+      "ref": "generate:icon.generic/features.launch-feature-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "pixel.reveal",
+    "reducedMotionFallback": "show-final-state"
+   }
+  },
+  {
+   "section": "features.launch-feature",
+   "variant": "title-block",
+   "content": {
+    "lead": "Measure bundle tidy map delta marble plan",
+    "media": [
+     {
+      "assetRole": "icon.generic",
+      "alt": "Shape gather summit",
+      "ref": "generate:icon.generic/features.launch-feature-0"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Harvest sort share",
+      "ref": "generate:icon.generic/features.launch-feature-1"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Fjord signal basil",
+      "ref": "generate:icon.generic/features.launch-feature-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "pixel.reveal",
+    "reducedMotionFallback": "show-final-state"
+   }
+  },
+  {
+   "section": "features.launch-feature",
+   "variant": "title-block",
+   "content": {
+    "lead": "Atlas bundle tidy thread delta sketch field",
+    "media": [
+     {
+      "assetRole": "icon.generic",
+      "alt": "Orbit meadow summit",
+      "ref": "generate:icon.generic/features.launch-feature-0"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Juniper sort share",
+      "ref": "generate:icon.generic/features.launch-feature-1"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Fjord weigh refine",
+      "ref": "generate:icon.generic/features.launch-feature-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "pixel.reveal",
+    "reducedMotionFallback": "show-final-state"
+   }
+  },
+  {
+   "section": "features.launch-feature",
+   "variant": "title-block",
+   "content": {
+    "lead": "Rowan bundle grove cedar delta quarry plan",
+    "media": [
+     {
+      "assetRole": "icon.generic",
+      "alt": "Orbit cinder summit",
+      "ref": "generate:icon.generic/features.launch-feature-0"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Juniper cobalt tidal",
+      "ref": "generate:icon.generic/features.launch-feature-1"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Willow signal basil",
+      "ref": "generate:icon.generic/features.launch-feature-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "pixel.reveal",
+    "reducedMotionFallback": "show-final-state"
+   }
+  },
+  {
+   "section": "features.launch-feature",
+   "variant": "title-block",
+   "content": {
+    "lead": "Rowan nimbus canvas cedar trace sketch plan",
+    "media": [
+     {
+      "assetRole": "icon.generic",
+      "alt": "Orbit meadow notice",
+      "ref": "generate:icon.generic/features.launch-feature-0"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Juniper ledger share",
+      "ref": "generate:icon.generic/features.launch-feature-1"
+     },
+     {
+      "assetRole": "icon.generic",
+      "alt": "Lantern falcon refine",
+      "ref": "generate:icon.generic/features.launch-feature-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "pixel.reveal",
+    "reducedMotionFallback": "show-final-state"
+   }
+  },
+  {
+   "section": "cta.launch-closing",
+   "variant": "default",
+   "content": {
+    "heading": "Measure bundle tidy cedar",
+    "lead": "Delta sketch field shape meadow notice juniper ledger harbor lantern signal beacon rowan bundle",
+    "actions": [
+     {
+      "label": "Grove map",
+      "href": "https://mossgrove.example/launch-closing-0"
+     },
+     {
+      "label": "Delta marble",
+      "href": "https://mossgrove.example/launch-closing-1"
+     },
+     {
+      "label": "Field prism",
+      "href": "https://mossgrove.example/launch-closing-2"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/cta.launch-closing-0"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/cta.launch-closing-1"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/cta.launch-closing-2"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/cta.launch-closing-3"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/cta.launch-closing-4"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/cta.launch-closing-5"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/cta.launch-closing-6"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/cta.launch-closing-7"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/cta.launch-closing-8"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/cta.launch-closing-9"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/cta.launch-closing-10"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/cta.launch-closing-11"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/cta.launch-closing-12"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/cta.launch-closing-13"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/cta.launch-closing-14"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/cta.launch-closing-15"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "pixel.reveal",
+    "reducedMotionFallback": "show-final-state"
+   }
+  },
+  {
+   "section": "shell.campaign-footer",
+   "variant": "launch",
+   "content": {
+    "actions": [
+     {
+      "label": "Gather summit",
+      "href": "https://mossgrove.example/campaign-footer-0"
+     },
+     {
+      "label": "Juniper ledger",
+      "href": "https://mossgrove.example/campaign-footer-1"
+     },
+     {
+      "label": "Share lantern",
+      "href": "https://mossgrove.example/campaign-footer-2"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.campaign-footer-0"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.campaign-footer-1"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.campaign-footer-2"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.campaign-footer-3"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.section-nav",
+   "variant": "default",
+   "content": {},
+   "motion": {
+    "pattern": "scroll.spy",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  }
+ ]
+}

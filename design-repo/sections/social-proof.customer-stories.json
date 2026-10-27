@@ -1,0 +1,220 @@
+{
+ "id": "social-proof.customer-stories",
+ "title": "Customer story carousel band",
+ "semantic": {
+  "id": "social-proof.customer-stories",
+  "category": "SOCIAL_PROOF"
+ },
+ "source": {
+  "id": "component:CustomerStoriesSlice:mk-stories",
+  "file": "src/components/marketing/CustomerStoriesSlice.jsx",
+  "tag": "div",
+  "lines": "48-60",
+  "tagLine": 48,
+  "anchor": "mk-stories",
+  "anchorLine": 48
+ },
+ "purpose": "910px blue band with a muted looping video, numbered progress tabs and one story at a time (H56 title with inline logo, paragraph, two buttons).",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "video-band": {
+   "description": "variant 'video-band'",
+   "requiredFields": [
+    "actions",
+    "items",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 9,
+   "observedOn": [
+    "/customers/",
+    "/enterprise/",
+    "/product/ai-agents/",
+    "/product/ai-channels/",
+    "/product/ai-chat/",
+    "/product/ai-dashboards/",
+    "/product/ai-docs/",
+    "/product/ai-projects/",
+    "/product/digital-twins/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions",
+   "items",
+   "media"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 15
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 2,
+    "observedIn": 15
+   },
+   "items[].href": {
+    "type": "link",
+    "observedIn": 5
+   },
+   "items[].media.alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 8,
+    "observedIn": 5,
+    "assetAlt": true
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 31,
+    "maxChars": 201,
+    "observedIn": 5
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 11,
+    "maxChars": 73,
+    "observedIn": 5
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 2,
+    "maxChars": 13,
+    "observedIn": 15,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "actions": [
+    3,
+    3
+   ],
+   "items": [
+    1,
+    1
+   ],
+   "media": [
+    3,
+    3
+   ]
+  },
+  "itemRequiredFields": [
+   "href",
+   "media",
+   "text",
+   "title"
+  ],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "items[].media": {
+    "type": "asset",
+    "referenceRoles": [
+     "customer.logo",
+     "illustration.brand"
+    ],
+    "generatedRoles": [
+     "customer.placeholder-logo",
+     "illustration.generated"
+    ]
+   },
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "customer.logo",
+     "illustration.brand",
+     "product.screenshot",
+     "video.product"
+    ],
+    "generatedRoles": [
+     "customer.placeholder-logo",
+     "illustration.generated",
+     "product.generated-visual",
+     "video.placeholder-poster"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "customer.placeholder-logo",
+  "illustration.generated",
+  "product.generated-visual",
+  "video.placeholder-poster"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "carousel.autoplay",
+   "video.inview-autoplay"
+  ],
+  "requiredPatterns": [
+   "carousel.autoplay"
+  ],
+  "reducedMotionFallback": {
+   "carousel.autoplay": "no-autoplay",
+   "video.inview-autoplay": "unchanged"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "910px band"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "700px"
+  },
+  {
+   "range": "<=799",
+   "behavior": "auto height"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 9,
+   "nodes": 9,
+   "minPx": 910,
+   "maxPx": 910,
+   "medianPx": 910,
+   "sample": {
+    "/customers/": [
+     910
+    ],
+    "/enterprise/": [
+     910
+    ],
+    "/product/ai-agents/": [
+     910
+    ],
+    "/product/ai-channels/": [
+     910
+    ],
+    "/product/ai-chat/": [
+     910
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/components/marketing/CustomerStoriesSlice.jsx:48-60",
+  "specs/product.md:1-40",
+  "specs/enterprise.md:1-40"
+ ]
+}

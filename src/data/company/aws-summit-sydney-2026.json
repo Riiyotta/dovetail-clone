@@ -1,0 +1,756 @@
+{
+ "path": "/aws-summit-sydney-2026/",
+ "title": "Dovetail at AWS Summit Sydney 2026",
+ "sections": [
+  {
+   "tag": "SECTION",
+   "cls": "css-62vsu3",
+   "headings": [
+    {
+     "tag": "H1",
+     "text": "The best never guess"
+    }
+   ],
+   "texts": [
+    "The",
+    "best",
+    "never",
+    "guess"
+   ],
+   "images": [],
+   "links": []
+  },
+  {
+   "tag": "SECTION",
+   "cls": "css-79elbk",
+   "headings": [
+    {
+     "tag": "H2",
+     "text": {
+      "placeholder": true,
+      "chars": 304
+     }
+    }
+   ],
+   "texts": [],
+   "images": [
+    {
+     "src": "/assets/marketing/bng-text-slice-bottom-right-decoration.svg",
+     "alt": "",
+     "w": 371,
+     "h": 418
+    }
+   ],
+   "links": [
+    {
+     "label": "Get 60 days full access",
+     "href": "#60-day-trial-offer"
+    }
+   ]
+  },
+  {
+   "tag": "DIV",
+   "cls": "css-79elbk",
+   "headings": [
+    {
+     "tag": "BLOCKQUOTE",
+     "text": "“Dovetail enables us to access all of Breville’s customer data gathered from around the globe—all in one place.“"
+    }
+   ],
+   "texts": [
+    "Constance Docos, Senior UX Designer at Breville"
+   ],
+   "images": [
+    {
+     "src": "/assets/marketing/bng-mobile-testimonial-top-right-decoration.svg",
+     "alt": "",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "/assets/marketing/breville-girl.webp",
+     "alt": "",
+     "w": 160,
+     "h": 160
+    },
+    {
+     "src": "/assets/marketing/breville.png",
+     "alt": "",
+     "w": 320,
+     "h": 320
+    }
+   ],
+   "links": []
+  },
+  {
+   "tag": "DIV",
+   "cls": "css-6iqyr2",
+   "headings": [],
+   "texts": [
+    {
+     "placeholder": true,
+     "chars": 213
+    },
+    "Renato Cerqueira Leite",
+    "Head of research Operations",
+    {
+     "placeholder": true,
+     "chars": 190
+    },
+    "Martin Jerkovic",
+    "Lead Product Designer",
+    {
+     "placeholder": true,
+     "chars": 169
+    },
+    "Craig Boustred",
+    "Design Researcher",
+    {
+     "placeholder": true,
+     "chars": 217
+    },
+    "Constance Docos",
+    "Senior UX Designer",
+    {
+     "placeholder": true,
+     "chars": 207
+    },
+    "Matthew Klopfenstein",
+    "Portfolio Management–Cash Crop Segment Specialist",
+    {
+     "placeholder": true,
+     "chars": 212
+    },
+    "Danielle Reid",
+    "Senior Design Manager"
+   ],
+   "images": [
+    {
+     "src": "/assets/Customer_Itau.png",
+     "alt": "",
+     "w": 272,
+     "h": 300
+    },
+    {
+     "src": "/assets/white-logo.svg",
+     "alt": "Itaú Unibanco",
+     "w": 160,
+     "h": 72
+    },
+    {
+     "src": "/assets/company/media/Customer_Atlassian.png",
+     "alt": "",
+     "w": 272,
+     "h": 300
+    },
+    {
+     "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+     "alt": "Atlassian",
+     "w": 160,
+     "h": 20
+    },
+    {
+     "src": "/assets/company/media/Customer_Canva_AI.png",
+     "alt": "",
+     "w": 800,
+     "h": 880
+    },
+    {
+     "src": "/assets/white-logo(2).svg",
+     "alt": "Canva",
+     "w": 120,
+     "h": 41
+    },
+    {
+     "src": "/assets/Customer_Breville.png",
+     "alt": "",
+     "w": 272,
+     "h": 300
+    },
+    {
+     "src": "/assets/white-logo(3).svg",
+     "alt": "Breville",
+     "w": 132,
+     "h": 32
+    },
+    {
+     "src": "/assets/Customer_CNHIndustrial.png",
+     "alt": "",
+     "w": 800,
+     "h": 880
+    },
+    {
+     "src": "/assets/white-logo(4).svg",
+     "alt": "CNH",
+     "w": 160,
+     "h": 72
+    },
+    {
+     "src": "/assets/Customer_SmartRecruiter.png",
+     "alt": "",
+     "w": 800,
+     "h": 880
+    },
+    {
+     "src": "/assets/white-logo(5).svg",
+     "alt": "SmartRecruiters",
+     "w": 160,
+     "h": 72
+    }
+   ],
+   "links": [
+    {
+     "label": {
+      "placeholder": true,
+      "chars": 262,
+      "note": "story card link: thumbnail + hover quote + title; see customersIndex storyCards"
+     },
+     "href": "/customers/itau-unibanco/"
+    },
+    {
+     "label": "How Itaú Unibanco delivers better banking experiences with Dovetail ↘",
+     "href": "/customers/itau-unibanco/"
+    },
+    {
+     "label": {
+      "placeholder": true,
+      "chars": 226,
+      "note": "story card link: thumbnail + hover quote + title; see customersIndex storyCards"
+     },
+     "href": "/customers/atlassian-design/"
+    },
+    {
+     "label": "How Atlassian turns customer signals into confident product decisions ↘",
+     "href": "/customers/atlassian-design/"
+    },
+    {
+     "label": {
+      "placeholder": true,
+      "chars": 200,
+      "note": "story card link: thumbnail + hover quote + title; see customersIndex storyCards"
+     },
+     "href": "/customers/canva-ai/"
+    },
+    {
+     "label": "Dovetail helps Canva turn millions of design moments into product decisions that shape how the world designs ↘",
+     "href": "/customers/canva-ai/"
+    },
+    {
+     "label": {
+      "placeholder": true,
+      "chars": 250,
+      "note": "story card link: thumbnail + hover quote + title; see customersIndex storyCards"
+     },
+     "href": "/customers/breville/"
+    },
+    {
+     "label": "How customer insights drive and inspire Breville’s product innovation ↘",
+     "href": "/customers/breville/"
+    },
+    {
+     "label": {
+      "placeholder": true,
+      "chars": 276,
+      "note": "story card link: thumbnail + hover quote + title; see customersIndex storyCards"
+     },
+     "href": "/customers/cnh/"
+    },
+    {
+     "label": "How CNH builds better agricultural machinery, 50% faster with Dovetail ↘",
+     "href": "/customers/cnh/"
+    },
+    {
+     "label": {
+      "placeholder": true,
+      "chars": 246,
+      "note": "story card link: thumbnail + hover quote + title; see customersIndex storyCards"
+     },
+     "href": "/customers/smartrecruiters/"
+    },
+    {
+     "label": "Unlocking the AI edge for hiring the best talent with SmartRecruiters and Dovetail ↘",
+     "href": "/customers/smartrecruiters/"
+    }
+   ]
+  },
+  {
+   "tag": "DIV",
+   "cls": "css-3wh4rg",
+   "headings": [],
+   "texts": [
+    {
+     "placeholder": true,
+     "chars": 213
+    },
+    "Renato Cerqueira Leite",
+    "Head of research Operations",
+    {
+     "placeholder": true,
+     "chars": 190
+    },
+    "Martin Jerkovic",
+    "Lead Product Designer",
+    {
+     "placeholder": true,
+     "chars": 169
+    },
+    "Craig Boustred",
+    "Design Researcher",
+    {
+     "placeholder": true,
+     "chars": 217
+    },
+    "Constance Docos",
+    "Senior UX Designer",
+    {
+     "placeholder": true,
+     "chars": 207
+    },
+    "Matthew Klopfenstein",
+    "Portfolio Management–Cash Crop Segment Specialist",
+    {
+     "placeholder": true,
+     "chars": 212
+    },
+    "Danielle Reid",
+    "Senior Design Manager"
+   ],
+   "images": [
+    {
+     "src": "/assets/Customer_Itau.png",
+     "alt": "",
+     "w": 272,
+     "h": 300
+    },
+    {
+     "src": "/assets/white-logo.svg",
+     "alt": "Itaú Unibanco",
+     "w": 160,
+     "h": 72
+    },
+    {
+     "src": "/assets/company/media/Customer_Atlassian.png",
+     "alt": "",
+     "w": 272,
+     "h": 300
+    },
+    {
+     "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+     "alt": "Atlassian",
+     "w": 160,
+     "h": 20
+    },
+    {
+     "src": "/assets/company/media/Customer_Canva_AI.png",
+     "alt": "",
+     "w": 800,
+     "h": 880
+    },
+    {
+     "src": "/assets/white-logo(2).svg",
+     "alt": "Canva",
+     "w": 120,
+     "h": 41
+    },
+    {
+     "src": "/assets/Customer_Breville.png",
+     "alt": "",
+     "w": 272,
+     "h": 300
+    },
+    {
+     "src": "/assets/white-logo(3).svg",
+     "alt": "Breville",
+     "w": 132,
+     "h": 32
+    },
+    {
+     "src": "/assets/Customer_CNHIndustrial.png",
+     "alt": "",
+     "w": 800,
+     "h": 880
+    },
+    {
+     "src": "/assets/white-logo(4).svg",
+     "alt": "CNH",
+     "w": 160,
+     "h": 72
+    },
+    {
+     "src": "/assets/Customer_SmartRecruiter.png",
+     "alt": "",
+     "w": 800,
+     "h": 880
+    },
+    {
+     "src": "/assets/white-logo(5).svg",
+     "alt": "SmartRecruiters",
+     "w": 160,
+     "h": 72
+    }
+   ],
+   "links": [
+    {
+     "label": {
+      "placeholder": true,
+      "chars": 262,
+      "note": "story card link: thumbnail + hover quote + title; see customersIndex storyCards"
+     },
+     "href": "/customers/itau-unibanco/"
+    },
+    {
+     "label": "How Itaú Unibanco delivers better banking experiences with Dovetail ↘",
+     "href": "/customers/itau-unibanco/"
+    },
+    {
+     "label": {
+      "placeholder": true,
+      "chars": 226,
+      "note": "story card link: thumbnail + hover quote + title; see customersIndex storyCards"
+     },
+     "href": "/customers/atlassian-design/"
+    },
+    {
+     "label": "How Atlassian turns customer signals into confident product decisions ↘",
+     "href": "/customers/atlassian-design/"
+    },
+    {
+     "label": {
+      "placeholder": true,
+      "chars": 200,
+      "note": "story card link: thumbnail + hover quote + title; see customersIndex storyCards"
+     },
+     "href": "/customers/canva-ai/"
+    },
+    {
+     "label": "Dovetail helps Canva turn millions of design moments into product decisions that shape how the world designs ↘",
+     "href": "/customers/canva-ai/"
+    },
+    {
+     "label": {
+      "placeholder": true,
+      "chars": 250,
+      "note": "story card link: thumbnail + hover quote + title; see customersIndex storyCards"
+     },
+     "href": "/customers/breville/"
+    },
+    {
+     "label": "How customer insights drive and inspire Breville’s product innovation ↘",
+     "href": "/customers/breville/"
+    },
+    {
+     "label": {
+      "placeholder": true,
+      "chars": 276,
+      "note": "story card link: thumbnail + hover quote + title; see customersIndex storyCards"
+     },
+     "href": "/customers/cnh/"
+    },
+    {
+     "label": "How CNH builds better agricultural machinery, 50% faster with Dovetail ↘",
+     "href": "/customers/cnh/"
+    },
+    {
+     "label": {
+      "placeholder": true,
+      "chars": 246,
+      "note": "story card link: thumbnail + hover quote + title; see customersIndex storyCards"
+     },
+     "href": "/customers/smartrecruiters/"
+    },
+    {
+     "label": "Unlocking the AI edge for hiring the best talent with SmartRecruiters and Dovetail ↘",
+     "href": "/customers/smartrecruiters/"
+    }
+   ]
+  },
+  {
+   "tag": "SECTION",
+   "cls": "css-79elbk",
+   "headings": [
+    {
+     "tag": "H2",
+     "text": "Trusted by the best. Built by us."
+    },
+    {
+     "tag": "H2",
+     "text": {
+      "placeholder": true,
+      "chars": 195
+     }
+    }
+   ],
+   "texts": [
+    "Forrester’s The Total Economic Impact™ of Dovetail, 2025",
+    "2.3x",
+    "Return on investment",
+    "30%",
+    "Increased team capacity",
+    "66%",
+    "Faster shipping"
+   ],
+   "images": [
+    {
+     "src": "/assets/marketing/bng-team-switch-left-center-decoration.svg",
+     "alt": "",
+     "w": 201,
+     "h": 730
+    },
+    {
+     "src": "/assets/marketing/bng-team-switch-right-top-decoration.svg",
+     "alt": "",
+     "w": 234,
+     "h": 442
+    },
+    {
+     "src": "/assets/marketing/bng-team-switch-right-bottom-decoration.svg",
+     "alt": "",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "/assets/marketing/bng-mobile-team-switch-bottom-left-decoration.svg",
+     "alt": "",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "/assets/marketing/bng-mobile-team-switch-center-right-decoration.svg",
+     "alt": "",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "links": []
+  },
+  {
+   "tag": "SECTION",
+   "cls": "css-79elbk",
+   "headings": [
+    {
+     "tag": "H2",
+     "text": "Join the world's leading teams.Sign up for Enterprise and get your first 60 days on us."
+    },
+    {
+     "tag": "H3",
+     "text": {
+      "placeholder": true,
+      "chars": 209
+     }
+    }
+   ],
+   "texts": [],
+   "images": [
+    {
+     "src": "/assets/marketing/bng-form-bottom-left-decoration.svg",
+     "alt": "",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "/assets/marketing/bng-form-bottom-right-decoration.svg",
+     "alt": "",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "/assets/company/media/bng/mobile-form-bottom-left-decoration.svg",
+     "alt": "",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "links": [
+    {
+     "label": "Terms of Service",
+     "href": "https://dovetail.com/legal/user-terms-of-service/"
+    },
+    {
+     "label": "Privacy Policy",
+     "href": "https://dovetail.com/privacy/privacy-policy/"
+    }
+   ]
+  },
+  {
+   "tag": "DIV",
+   "cls": "css-1875a9i",
+   "headings": [
+    {
+     "tag": "H2",
+     "text": "Build with the best in Sydney [] for the best globally."
+    },
+    {
+     "tag": "H3",
+     "text": "Engineering roles"
+    }
+   ],
+   "texts": [
+    "We’re looking for Sydney’s best engineers to help us scale the world’s leading AI-native customer intelligence platform.",
+    "Security Engineering Lead",
+    {
+     "placeholder": true,
+     "chars": 94
+    }
+   ],
+   "images": [
+    {
+     "src": "/assets/company/media/bng/careers-right-center-decoration.svg",
+     "alt": "",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "/assets/company/media/bng/mobile-careers-bottom-right-decoration.svg",
+     "alt": "",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "/assets/company/media/image-ale.png",
+     "alt": "",
+     "w": 176,
+     "h": 176
+    },
+    {
+     "src": "/assets/company/media/image-3.png",
+     "alt": "",
+     "w": 176,
+     "h": 176
+    },
+    {
+     "src": "/assets/company/media/image-2.png",
+     "alt": "",
+     "w": 176,
+     "h": 176
+    },
+    {
+     "src": "/assets/company/media/image.png",
+     "alt": "",
+     "w": 176,
+     "h": 176
+    },
+    {
+     "src": "/assets/company/media/image_75.png",
+     "alt": "",
+     "w": 176,
+     "h": 176
+    },
+    {
+     "src": "/assets/company/media/image-1.png",
+     "alt": "",
+     "w": 176,
+     "h": 176
+    },
+    {
+     "src": "/assets/company/media/image-ale.png",
+     "alt": "",
+     "w": 176,
+     "h": 176
+    },
+    {
+     "src": "/assets/company/media/image-3.png",
+     "alt": "",
+     "w": 176,
+     "h": 176
+    },
+    {
+     "src": "/assets/company/media/image-2.png",
+     "alt": "",
+     "w": 176,
+     "h": 176
+    },
+    {
+     "src": "/assets/company/media/image.png",
+     "alt": "",
+     "w": 176,
+     "h": 176
+    },
+    {
+     "src": "/assets/company/media/image_75.png",
+     "alt": "",
+     "w": 176,
+     "h": 176
+    },
+    {
+     "src": "/assets/company/media/image-1.png",
+     "alt": "",
+     "w": 176,
+     "h": 176
+    }
+   ],
+   "links": [
+    {
+     "label": "SydneySecurity Engineering Lead",
+     "href": "https://jobs.ashbyhq.com/dovetail/7902c644-99b9-451a-899e-ff6216cdb3a1?utm_source=dovetail_website&utm_medium=landing_page&utm_campaign=best_never_guess&utm_content=engineering_roles"
+    },
+    {
+     "label": "Refer a mate",
+     "href": "https://jobs.ashbyhq.com/dovetail/form/tbng-refer-a-mate"
+    },
+    {
+     "label": "Trust center",
+     "href": "https://trust.dovetail.com/"
+    },
+    {
+     "label": "Legal and privacy",
+     "href": "/legal/"
+    }
+   ]
+  }
+ ],
+ "form": {
+  "fields": [
+   {
+    "label": "First name",
+    "type": "text",
+    "name": "firstname",
+    "placeholder": "First name*",
+    "required": true
+   },
+   {
+    "label": "Last name",
+    "type": "text",
+    "name": "lastname",
+    "placeholder": "Last name*",
+    "required": true
+   },
+   {
+    "label": "Company email",
+    "type": "email",
+    "name": "email",
+    "placeholder": "Company email*",
+    "required": true
+   },
+   {
+    "label": "Company name",
+    "type": "text",
+    "name": "company",
+    "placeholder": "Company name*",
+    "required": true
+   },
+   {
+    "label": "Job title",
+    "type": "text",
+    "name": "jobtitle",
+    "placeholder": "Job title*",
+    "required": true
+   },
+   {
+    "label": "Phone number",
+    "type": "tel",
+    "name": "phone",
+    "placeholder": "Phone number*",
+    "required": true
+   },
+   {
+    "label": null,
+    "type": "submit",
+    "name": "",
+    "placeholder": null,
+    "required": false,
+    "value": "Register now"
+   }
+  ],
+  "note": "Original is an embedded HubSpot form (underline variant); build static and non-submitting. Legal consent text: placeholder 252 chars."
+ }
+}

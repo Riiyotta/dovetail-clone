@@ -1,0 +1,206 @@
+{
+ "id": "social-proof.tei-card",
+ "title": "Analyst study card",
+ "semantic": {
+  "id": "social-proof.tei-card",
+  "category": "SOCIAL_PROOF"
+ },
+ "source": {
+  "id": "component:DemoForm:df-stats",
+  "file": "src/pages/tools/DemoForm.jsx",
+  "tag": "div",
+  "lines": "149-161",
+  "tagLine": 149,
+  "anchor": "df-stats",
+  "anchorLine": 149
+ },
+ "purpose": "Card promoting a third-party economic-impact study: heading/eyebrow, headline stats, download link and study cover.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "banner": {
+   "description": "variant 'banner'",
+   "requiredFields": [
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 18,
+   "observedOn": [
+    "/dovetail-vs-aurelius/",
+    "/dovetail-vs-chattermill/",
+    "/dovetail-vs-condens/",
+    "/dovetail-vs-enterpret/",
+    "/dovetail-vs-great-question/",
+    "/dovetail-vs-insight7/",
+    "/dovetail-vs-lookback/",
+    "/dovetail-vs-looppanel/",
+    "/dovetail-vs-marvin/",
+    "/dovetail-vs-maze/",
+    "/dovetail-vs-medallia/",
+    "/dovetail-vs-notably/"
+   ],
+   "contentSampled": true
+  },
+  "stats": {
+   "description": "variant 'stats'",
+   "requiredFields": [
+    "heading",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [
+    "actions"
+   ],
+   "observedOnRoutes": 2,
+   "observedOn": [
+    "/contact-sales/",
+    "/request-a-demo/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 4
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 8,
+    "maxChars": 53,
+    "observedIn": 4
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 6,
+    "maxChars": 38,
+    "observedIn": 4
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 21,
+    "maxChars": 135,
+    "observedIn": 7
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 7,
+    "maxChars": 53,
+    "observedIn": 7,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "media": [
+    1,
+    1
+   ],
+   "actions": [
+    1,
+    1
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "analyst.mark",
+     "content.cover"
+    ],
+    "generatedRoles": [
+     "content.generated-cover",
+     "rating.placeholder"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "content.generated-cover",
+  "rating.placeholder"
+ ],
+ "style": {
+  "props": {
+   "spaceBefore": {
+    "kind": "token",
+    "allowed": [
+     "space.section.hero",
+     "space.section.s160",
+     "space.section.s200"
+    ]
+   }
+  },
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 20,
+   "nodes": 20,
+   "minPx": 310.6,
+   "maxPx": 615.1,
+   "medianPx": 310.6,
+   "sample": {
+    "/contact-sales/": [
+     615.1
+    ],
+    "/dovetail-vs-aurelius/": [
+     310.6
+    ],
+    "/dovetail-vs-chattermill/": [
+     310.6
+    ],
+    "/dovetail-vs-condens/": [
+     310.6
+    ],
+    "/dovetail-vs-enterpret/": [
+     310.6
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/tools/DemoForm.jsx:149-161",
+  "specs/demo-form.md:1-40",
+  "specs/comparison.md:1-40"
+ ]
+}

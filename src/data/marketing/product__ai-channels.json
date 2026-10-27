@@ -1,0 +1,1356 @@
+{
+ "url": "/product/ai-channels/",
+ "template": "product",
+ "title": "AI Channels | Dovetail",
+ "metaDescription": "Channels gives you a 360 degree view of your customer feedback for product discovery and validation, automatically turning support tickets, app reviews…",
+ "documentHeight": {
+  "1440": 16464,
+  "1280": 16865,
+  "768": 12897,
+  "390": 13005
+ },
+ "chrome": {
+  "alertBar": true,
+  "navBackground": "#982500",
+  "footer": "finalCta"
+ },
+ "sections": [
+  {
+   "slice": "ProductHero",
+   "el": "e10k4luw0",
+   "measuredHeight": {
+    "1440": 907.4,
+    "1280": 1064.3,
+    "768": 1403.3,
+    "390": 1080.1
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/pixel-shapes-left.png",
+     "alt": "",
+     "w": 286,
+     "h": 102.8,
+     "el": "e10k4luw2"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/pixel-shapes-right.png",
+     "alt": "",
+     "w": 286,
+     "h": 123.4,
+     "el": "e10k4luw3"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e10k4luw6-346678.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "text": "Channels 2.0",
+     "el": "e10k4luw7"
+    },
+    {
+     "role": "text",
+     "text": "Beta",
+     "el": "e10k4luw8"
+    },
+    {
+     "role": "h1",
+     "text": "Stop reading tickets. Start making changes.",
+     "parts": [
+      {
+       "el": "e10k4luw9",
+       "text": "Stop",
+       "font": "Inter"
+      },
+      {
+       "el": "e10k4luw12",
+       "img": "/assets/marketing/ai-channels-hero-icon.png"
+      },
+      {
+       "el": "e10k4luw9",
+       "text": "reading tickets.",
+       "font": "Inter"
+      },
+      {
+       "el": "e10k4luw9",
+       "text": "Start",
+       "font": "Inter"
+      },
+      {
+       "el": "e10k4luw10",
+       "text": "making changes.",
+       "font": "PP Mondwest"
+      }
+     ],
+     "el": "e10k4luw13"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-channels-hero-icon.png",
+     "alt": "",
+     "w": 57,
+     "h": 72,
+     "el": "e10k4luw12"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 217,
+     "el": "e10k4luw14"
+    },
+    {
+     "role": "link",
+     "text": "Join open beta",
+     "href": "/settings/beta",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "button",
+     "text": "Channels 2.0 is here See what's new →",
+     "ariaLabel": "Play video",
+     "el": "efrydo00"
+    },
+    {
+     "role": "video",
+     "src": "/assets/marketing/launch-2026-twin-trav.mp4",
+     "poster": "/assets/marketing/launch-2026-twin-trav-poster.jpg",
+     "el": "video"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1uk7pdk15-905180.svg",
+     "w": 12,
+     "h": 12,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "text": "Connect data sources from",
+     "el": "e10k4luw18"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/DataSource1.svg",
+     "alt": "Intercom",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/AppStore.svg",
+     "alt": "App Store",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Zendesk.svg",
+     "alt": "Zendesk",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Slack.svg",
+     "alt": "Slack",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/DataSource2.svg",
+     "alt": "Pendo",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/GooglePlay.svg",
+     "alt": "Google Play",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "link",
+     "text": "+",
+     "href": "https://docs.dovetail.com/integrations",
+     "ariaLabel": "See all integrations",
+     "el": "e10k4luw21"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-channels-hero-image.png",
+     "alt": "",
+     "w": 1192,
+     "h": 603.4,
+     "el": "e10k4luw24"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-channels-mobile-hero.png",
+     "alt": "",
+     "w": 0,
+     "h": 0,
+     "el": "e10k4luw25",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "LogoMarqueeWrap",
+   "el": "ez69ol20",
+   "measuredHeight": {
+    "1440": 503.6,
+    "1280": 444.9,
+    "768": 79.6,
+    "390": 99.2
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Connecting the world’s greatest companies to their customers",
+     "el": "e1jzkpz90"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/amazon-918921.svg",
+     "w": 88.9,
+     "h": 40,
+     "ariaLabel": "Amazon",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/dyson-990499.svg",
+     "w": 88.9,
+     "h": 40,
+     "ariaLabel": "Dyson",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/mercedes-benz-133521.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Mercedes-Benz",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/qantas-584168.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Qantas",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/aws-271091.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "AWS",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/toyota-301058.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Toyota",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/canva-585358.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Canva",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/volvo-486139.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Volvo",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/notion-653232.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Notion",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/salesforce-823526.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Salesforce",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/milwaukee-672003.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Milwaukee",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/kpmg-168064.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "KPMG",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/wise-541877.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Wise",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/mckinsey-company-197947.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "McKinsey & Company",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ford-139900.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Ford",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/walgreens-527994.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Walgreens",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/shopify-732620.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Shopify",
+     "el": "svg"
+    }
+   ]
+  },
+  {
+   "slice": "ProductFeatures",
+   "el": "e1r1adlk0",
+   "measuredHeight": {
+    "1440": 3600,
+    "1280": 4072,
+    "768": 3467.1,
+    "390": 2961.3
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-channels-feature-1.png",
+     "alt": "Dovetail Channels product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-channels-feature-2.png",
+     "alt": "Dovetail Channels product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-channels-feature-3.png",
+     "alt": "Dovetail Channels product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-channels-feature-4.png",
+     "alt": "Dovetail Channels product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "01",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "Always on, so you don’t have to be",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 142,
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Join open beta",
+     "href": "/settings/beta",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "02",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "Know what to build next, and why it matters",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 202,
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Join open beta",
+     "href": "/settings/beta",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "03",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "From idea to product, in one click",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 190,
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Join open beta",
+     "href": "/settings/beta",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "04",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "Never leave customers hanging",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 193,
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Join open beta",
+     "href": "/settings/beta",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-channels-feature-1.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-channels-feature-2.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-channels-feature-3.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-channels-feature-4.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "ProductFor",
+   "el": "eea47v90",
+   "measuredHeight": {
+    "1440": 3900,
+    "1280": 3800,
+    "768": 688,
+    "390": 916
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "Channels for",
+     "el": "eea47v94"
+    },
+    {
+     "role": "button",
+     "text": "Roadmap prioritization",
+     "el": "eea47v98"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-flag.png",
+     "alt": "",
+     "w": 56,
+     "h": 56,
+     "el": "eea47v910"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 191,
+     "el": "eea47v913"
+    },
+    {
+     "role": "button",
+     "text": "Voice of customer",
+     "el": "eea47v98"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-megaphone.png",
+     "alt": "",
+     "w": 56,
+     "h": 56,
+     "el": "eea47v910"
+    },
+    {
+     "role": "button",
+     "text": "High-volume feedback",
+     "el": "eea47v98"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-messy-folder.png",
+     "alt": "",
+     "w": 56,
+     "h": 56,
+     "el": "eea47v910"
+    },
+    {
+     "role": "button",
+     "text": "Multi-team collaboration",
+     "el": "eea47v98"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-potato-wave.png",
+     "alt": "",
+     "w": 56,
+     "h": 56,
+     "el": "eea47v910"
+    },
+    {
+     "role": "button",
+     "text": "Trend detection",
+     "el": "eea47v98"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-temperature.png",
+     "alt": "",
+     "w": 56,
+     "h": 56,
+     "el": "eea47v910"
+    },
+    {
+     "role": "button",
+     "text": "Engineering and SDLC",
+     "el": "eea47v98"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-key-shipit.png",
+     "alt": "",
+     "w": 56,
+     "h": 56,
+     "el": "eea47v910"
+    }
+   ]
+  },
+  {
+   "slice": "ProductQuote",
+   "el": "e1cnxsk60",
+   "measuredHeight": {
+    "1440": 560,
+    "1280": 560,
+    "768": 333.6,
+    "390": 397.6
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/testimonial-grid-bg.png.png",
+     "alt": "Grid background",
+     "w": 1260,
+     "h": 560,
+     "el": "e1ms7w8v3"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti-4.png",
+     "alt": "",
+     "w": 80,
+     "h": 80,
+     "el": "e1cnxsk65"
+    },
+    {
+     "role": "quote",
+     "placeholder": true,
+     "chars": 229,
+     "el": "e1cnxsk66"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-achievers-white-logo.svg",
+     "alt": "",
+     "w": 122.6,
+     "h": 24,
+     "el": "e1cnxsk68"
+    },
+    {
+     "role": "text",
+     "text": "Marie-Andrée Turgeon",
+     "el": "e1cnxsk611"
+    },
+    {
+     "role": "text",
+     "text": "Senior Manager of Product Operations",
+     "el": "e1cnxsk612"
+    },
+    {
+     "role": "button",
+     "text": "01",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "02",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "03",
+     "el": "e5b4pau2"
+    }
+   ]
+  },
+  {
+   "slice": "ProductCarousel",
+   "el": "e1c9zraz0",
+   "measuredHeight": {
+    "1440": 1213.8,
+    "1280": 1095.8,
+    "768": 880.2,
+    "390": 904.2
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "Track what matters, act before it escalates",
+     "parts": [
+      {
+       "el": "e1c9zraz4",
+       "text": "Track",
+       "font": "Inter"
+      },
+      {
+       "el": "e1c9zraz5",
+       "text": "what matters,",
+       "font": "PP Mondwest"
+      },
+      {
+       "el": "e1c9zraz4",
+       "text": "act before it escalates",
+       "font": "Inter"
+      }
+     ],
+     "el": "e1c9zraz3"
+    },
+    {
+     "role": "text",
+     "text": "See rising trends, understand the impact, and get to the right people before it becomes a problem.",
+     "el": "e1c9zraz6"
+    },
+    {
+     "role": "link",
+     "text": "Join open beta",
+     "href": "/settings/beta",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e5zj3j12-080716.svg",
+     "w": 32,
+     "h": 26.3,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e5zj3j12-080716.svg",
+     "w": 32,
+     "h": 26.3,
+     "el": "svg"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-channels-carousel-1.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Prioritize based on value",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Link themes to CRM data to show the revenue impact and truly understand what to prioritize.",
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-channels-carousel-2.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Get alerts on emerging trends",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Receive automated weekly updates in Slack or email for bugs, complaints, or feature requests before they escalate.",
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-channels-carousel-3.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Actions menu and integrations",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Push any theme or data point directly into Jira, Salesforce, Zendesk, and your SDLC from the actions menu.",
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-channels-carousel-4.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Heat map and visualizations",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "See a heat map and visual breakdown of your data over time to spot patterns and spikes at a glance.",
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-channels-carousel-5.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Multi-team collaboration",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 109,
+     "el": "e1c9zraz17"
+    }
+   ]
+  },
+  {
+   "slice": "Findings",
+   "el": "e1fjikez0",
+   "measuredHeight": {
+    "1440": 1691.8,
+    "1280": 1568.4,
+    "768": 1505,
+    "390": 1848.6
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "Get more from your findings",
+     "parts": [
+      {
+       "el": "e1fjikez2",
+       "text": "Get",
+       "font": "Inter"
+      },
+      {
+       "el": "e1fjikez5",
+       "img": "/assets/marketing/product-findings-icon.png"
+      },
+      {
+       "el": "e1fjikez3",
+       "text": "more",
+       "font": "PP Mondwest"
+      },
+      {
+       "el": "e1fjikez2",
+       "text": "from your findings",
+       "font": "Inter"
+      }
+     ],
+     "el": "e1fjikez1"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/product-findings-icon.png",
+     "alt": "",
+     "w": 157.3,
+     "h": 96,
+     "el": "e1fjikez5"
+    },
+    {
+     "role": "text",
+     "text": "The real value isn’t in the analysis. It’s in what you do with it next.",
+     "el": "e1fjikez6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-channels-findings-chat.png",
+     "alt": "Dovetail Channels findings in Dovetail Chat",
+     "w": 0,
+     "h": 0,
+     "el": "img"
+    },
+    {
+     "role": "h3",
+     "text": "AI Chat",
+     "el": "e1fjikez7"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-icon-chat.svg",
+     "alt": "",
+     "w": 24,
+     "h": 24,
+     "el": "e1fjikez8"
+    },
+    {
+     "role": "text",
+     "text": "Ask questions across your channels in natural language and get cited, evidence-backed answers in seconds, without reading every data point.",
+     "el": "eiz8yhc2"
+    },
+    {
+     "role": "link",
+     "text": "Learn more",
+     "href": "/product/ai-chat/",
+     "el": "eiz8yhc4"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eiz8yhc4-194629.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-channels-findings-docs.png",
+     "alt": "Dovetail Channels findings in Dovetail Docs",
+     "w": 578,
+     "h": 411.1,
+     "el": "img"
+    },
+    {
+     "role": "h3",
+     "text": "AI Docs",
+     "el": "e1fjikez7"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-icon-docs.svg",
+     "alt": "",
+     "w": 24,
+     "h": 24,
+     "el": "e1fjikez8"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 160,
+     "el": "eiz8yhc2"
+    },
+    {
+     "role": "link",
+     "text": "Learn more",
+     "href": "/product/ai-docs/",
+     "el": "eiz8yhc4"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eiz8yhc4-194629.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-channels-findings-agents.png",
+     "alt": "Dovetail Channels findings shared by Dovetail AI Agents",
+     "w": 614,
+     "h": 436.7,
+     "el": "img"
+    },
+    {
+     "role": "h3",
+     "text": "AI Agents",
+     "el": "e1fjikez7"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-icon-agents.svg",
+     "alt": "",
+     "w": 24,
+     "h": 24,
+     "el": "e1fjikez8"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 144,
+     "el": "eiz8yhc2"
+    },
+    {
+     "role": "link",
+     "text": "Learn more",
+     "href": "/product/ai-agents/",
+     "el": "eiz8yhc4"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eiz8yhc4-194629.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    }
+   ]
+  },
+  {
+   "slice": "PixelBand",
+   "el": "e70som00",
+   "measuredHeight": {
+    "1440": 120,
+    "1280": 0,
+    "768": 0,
+    "390": 0
+   },
+   "content": []
+  },
+  {
+   "slice": "CustomerStories",
+   "el": "elme6fd0",
+   "measuredHeight": {
+    "1440": 910,
+    "1280": 700,
+    "768": 501.9,
+    "390": 621.9
+   },
+   "content": [
+    {
+     "role": "button",
+     "text": "01",
+     "ariaLabel": "Breville customer story",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "02",
+     "ariaLabel": "Atlassian customer story",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "03",
+     "ariaLabel": "Itaú Unibanco customer story",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "h3",
+     "text": "How customer insights drive and inspire Breville’s product innovation",
+     "el": "e1wn1hrv5"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1wn1hrv9-593209.svg",
+     "w": 56,
+     "h": 56,
+     "el": "e1wn1hrv11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 207,
+     "el": "e1wn1hrv6"
+    },
+    {
+     "role": "link",
+     "text": "Read the story",
+     "href": "/customers/breville/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "All customer stories",
+     "href": "/customers/",
+     "el": "e1wn1hrv8"
+    },
+    {
+     "role": "h3",
+     "text": "How Atlassian turns customer signals into confident product decisions",
+     "el": "e1wn1hrv5",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1wn1hrv9-661009.svg",
+     "w": 0,
+     "h": 0,
+     "el": "e1wn1hrv11",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 153,
+     "el": "e1wn1hrv6",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "link",
+     "text": "Read the story",
+     "href": "/customers/atlassian-design/",
+     "el": "a",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "h3",
+     "text": "How Itaú Unibanco delivers better banking experiences with Dovetail",
+     "el": "e1wn1hrv5",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1wn1hrv9-365555.svg",
+     "w": 0,
+     "h": 0,
+     "el": "e1wn1hrv11",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 183,
+     "el": "e1wn1hrv6",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "link",
+     "text": "Read the story",
+     "href": "/customers/itau-unibanco/",
+     "el": "a",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "PixelBand",
+   "el": "e70som00",
+   "measuredHeight": {
+    "1440": 120,
+    "1280": 0,
+    "768": 0,
+    "390": 0
+   },
+   "content": []
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 64,
+    "768": 64,
+    "390": 64
+   }
+  },
+  {
+   "slice": "FAQ",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 1071,
+    "1280": 1111,
+    "768": 1097,
+    "390": 1265
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "FAQs",
+     "el": "ef2kgtv0"
+    },
+    {
+     "role": "button",
+     "text": "What is Channels?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ea410al3-082750.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 172,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "How does Channels support product discovery and validation?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 211,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "How are opportunities ranked?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 107,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Where does the feedback come from?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 139,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Can I act on an opportunity directly from Channels?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 159,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Who should use Channels?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 120,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "text": "Can AI automatically categorize feedback from reviews and NPS comments without manual tagging?",
+     "el": "ea410al1"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 330,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Does Dovetail support custom taxonomy for feedback categories?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 314,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "text": "Can Dovetail cluster feedback by theme and sentiment across multiple data sources?",
+     "el": "ea410al1"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 347,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "What data sources does Dovetail's automatic categorization work with?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 490,
+     "el": "ef2kgtv2"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 64,
+    "768": 64,
+    "390": 64
+   }
+  }
+ ]
+}

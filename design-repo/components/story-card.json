@@ -1,0 +1,12 @@
+{
+ "id": "story-card",
+ "kind": "component",
+ "title": "Customer story card",
+ "composes": [
+  "image",
+  "badge"
+ ],
+ "evidence": [
+  "specs/company-shared.md:163"
+ ]
+}

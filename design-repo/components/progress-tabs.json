@@ -1,0 +1,11 @@
+{
+ "id": "progress-tabs",
+ "kind": "component",
+ "title": "Progress tabs",
+ "composes": [
+  "eyebrow"
+ ],
+ "evidence": [
+  "specs/marketing-shared.md:249"
+ ]
+}

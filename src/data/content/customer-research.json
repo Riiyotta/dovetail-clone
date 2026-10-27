@@ -1,0 +1,3090 @@
+{
+ "source": "https://dovetail.com/customer-research/",
+ "template": "guide-hub",
+ "categoryName": "Customer research",
+ "hubPath": "/customer-research/",
+ "pillar": {
+  "h1": "What is customer research?",
+  "pageTitle": "The Ultimate Guide to Customer Research",
+  "metaDescription": "Customer research is one of the most important things any business can do to ensure success. Here’s everything you need to know about it.",
+  "meta": [
+   {
+    "label": "Last updated",
+    "values": [
+     {
+      "text": "16 October 2025",
+      "href": null
+     }
+    ]
+   },
+   {
+    "label": "Author",
+    "values": [
+     {
+      "text": "Chloe Garnham",
+      "href": "/contributors/chloe-garnham/"
+     }
+    ]
+   },
+   {
+    "label": "Reviewed by",
+    "values": [
+     {
+      "text": "Hugh Good",
+      "href": "/contributors/hugh-good/"
+     }
+    ]
+   }
+  ],
+  "tocItems": 9,
+  "bodyShape": {
+   "chars": 12147,
+   "p": 64,
+   "h2": 6,
+   "h3": 12,
+   "ul": 5,
+   "li": 23
+  },
+  "bodyOrder": "h2 h2 h2 h3 h3 h2 ul h3 ul h3 ul h3 h3 ul h3 ul h2 h3 h3 h3 h3 h3 h2"
+ },
+ "editorsPicks": [
+  {
+   "href": "/customer-research/analyze-app-store-reviews-with-interview-transcripts/",
+   "title": "How to analyze app store reviews alongside interview transcripts to prioritize mobile roadmap fixes",
+   "date": "20 October 2026"
+  },
+  {
+   "href": "/customer-research/support-transcripts-as-secondary-research-data/",
+   "title": "How to use customer support transcripts as secondary research data to identify usability issues at scale",
+   "date": "15 September 2026"
+  },
+  {
+   "href": "/customer-research/is-consumer-services-a-good-career-path/",
+   "title": "Is consumer services a good career path for you?",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/customer-research/open-ended-questions/",
+   "title": "Ultimate guide to open-ended survey questions (with examples)",
+   "date": "11 June 2026"
+  }
+ ],
+ "latestArticles": [
+  {
+   "href": "/customer-research/analyze-app-store-reviews-with-interview-transcripts/",
+   "title": "How to analyze app store reviews alongside interview transcripts to prioritize mobile roadmap fixes",
+   "date": "20 October 2026"
+  },
+  {
+   "href": "/customer-research/churned-customer-interviews-b2b-saas/",
+   "title": "How to conduct churned customer interviews in B2B SaaS when former users have little reason to talk",
+   "date": "13 October 2026"
+  },
+  {
+   "href": "/customer-research/are-digital-twins-reliable/",
+   "title": "Are digital twins reliable? A practitioner’s guide to trusting AI customers",
+   "date": "29 September 2026"
+  },
+  {
+   "href": "/customer-research/customer-feedback-survey/",
+   "title": "Unlocking customer insights: maximizing surveys for actionable feedback",
+   "date": "22 September 2026"
+  },
+  {
+   "href": "/customer-research/how-to-analyze-nps-results/",
+   "title": "How to analyze your NPS results",
+   "date": "22 September 2026"
+  },
+  {
+   "href": "/customer-research/support-transcripts-as-secondary-research-data/",
+   "title": "How to use customer support transcripts as secondary research data to identify usability issues at scale",
+   "date": "15 September 2026"
+  },
+  {
+   "href": "/customer-research/customer-digital-twin/",
+   "title": "Customer digital twin: the complete guide",
+   "date": "14 September 2026"
+  },
+  {
+   "href": "/customer-research/customer-churn-statistics/",
+   "title": "Customer churn statistics and benchmarks for 2026",
+   "date": "1 September 2026"
+  }
+ ],
+ "relatedTopics": [
+  {
+   "href": "/design-thinking/",
+   "text": "Design thinking"
+  },
+  {
+   "href": "/employee-experience/",
+   "text": "Employee experience"
+  },
+  {
+   "href": "/enterprise/",
+   "text": "Enterprise"
+  },
+  {
+   "href": "/market-research/",
+   "text": "Market research"
+  },
+  {
+   "href": "/patient-experience/",
+   "text": "Patient experience"
+  },
+  {
+   "href": "/product-development/",
+   "text": "Product development"
+  },
+  {
+   "href": "/product-management/",
+   "text": "Product management"
+  },
+  {
+   "href": "/research-maturity-assessment/",
+   "text": "Research maturity assessment"
+  },
+  {
+   "href": "/research/",
+   "text": "Research methods"
+  },
+  {
+   "href": "/surveys/",
+   "text": "Surveys"
+  },
+  {
+   "href": "/ux/",
+   "text": "User experience (UX)"
+  }
+ ],
+ "allArticlesHeading": "All Customer research articles",
+ "note": "articles[] = the \"All <category> articles\" A-Z list rendered after the footer on the hub page (order as on site). title = list title; h1 = the article page H1 (can differ). Article pages show the hub editorsPicks/latestArticles unless editorsPicksOverride/latestArticlesOverride (href lists; titles/dates resolvable from articles[] / hub carousels) is set for that article. No thumbnails exist for guide articles. sidebarCta = the desktop sidebar promo shown on every article of this hub (not on the hub pillar page itself).",
+ "routesNotInList": [],
+ "articles": [
+  {
+   "path": "/customer-research/customer-success-software/",
+   "title": "10 best customer success software solutions",
+   "h1": "10 best customer success software solutions",
+   "lastUpdated": "10 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 10351,
+    "p": 33,
+    "h2": 3,
+    "h3": 20,
+    "ul": 3,
+    "li": 12
+   },
+   "bodyOrder": "h2 h3 h3 ul h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 ul h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-success-metrics/",
+   "title": "10 customer success metrics that deserve your attention",
+   "h1": "10 customer success metrics that deserve your attention",
+   "lastUpdated": "21 February 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 13955,
+    "p": 72,
+    "h2": 4,
+    "h3": 10,
+    "ul": 10,
+    "li": 34
+   },
+   "bodyOrder": "h2 h2 h2 h3 ul h3 ul h3 ul h3 h3 ul h3 ul ul h3 ul h3 ul h3 ul h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/what-are-voc-metrics/",
+   "title": "10 voice of the customer (VoC) metrics to track",
+   "h1": "10 voice of the customer (VoC) metrics to track",
+   "lastUpdated": "20 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 14451,
+    "p": 58,
+    "h2": 5,
+    "h3": 11,
+    "ul": 4,
+    "li": 19,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h3 h3 h3 ul h3 ul h2 h3 h3 h3 ul h3 h2 h3 ol h2 ul h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/voice-of-the-customer-tools/",
+   "title": "10 voice of the customer tools to get better feedback",
+   "h1": "10 voice of the customer tools to get better feedback",
+   "lastUpdated": "8 August 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 15805,
+    "p": 54,
+    "h2": 7,
+    "ul": 5,
+    "li": 39,
+    "ol": 2,
+    "h3": 12
+   },
+   "bodyOrder": "h2 ul ol ul ul h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2 ul h2 h2 h3 ol h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-experience-analytics-tools/",
+   "title": "11 customer experience analytics tools compared in 2026",
+   "h1": "11 customer experience analytics tools compared in 2026",
+   "lastUpdated": "24 August 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 20727,
+    "p": 51,
+    "h2": 11,
+    "table": 1,
+    "ol": 1,
+    "li": 66,
+    "h3": 15,
+    "ul": 23
+   },
+   "bodyOrder": "h2 h2 table h2 ol h2 h3 ul ul h3 ul ul h2 h3 ul ul h3 ul ul h3 ul ul h2 h3 ul ul h3 ul ul h3 ul ul h2 h3 ul ul h2 h3 ul ul h3 ul ul h2 ul h2 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/type-of-customer/",
+   "title": "13 common customer types",
+   "h1": "13 common customer types",
+   "lastUpdated": "29 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 9119,
+    "p": 35,
+    "h2": 2,
+    "h3": 13
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-feedback-tools/",
+   "title": "16 customer feedback tools to help you grow",
+   "h1": "16 customer feedback tools to help you grow",
+   "lastUpdated": "18 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 26,
+   "bodyShape": {
+    "chars": 11660,
+    "p": 36,
+    "h2": 7,
+    "h3": 21
+   },
+   "bodyOrder": "h2 h2 h2 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-insight-tools/",
+   "title": "16 top customer insight tools for effective customer research",
+   "h1": "16 top customer insight tools for effective customer research",
+   "lastUpdated": "16 March 2024",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 41,
+   "bodyShape": {
+    "chars": 19096,
+    "p": 91,
+    "h2": 7,
+    "ul": 2,
+    "li": 9,
+    "h3": 37
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2 h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-experience-tools/",
+   "title": "19 must-have CX tools for every business",
+   "h1": "19 must-have CX tools for every business",
+   "lastUpdated": "21 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 26,
+   "bodyShape": {
+    "chars": 16991,
+    "p": 107,
+    "h2": 8,
+    "h3": 21,
+    "ul": 3,
+    "li": 11
+   },
+   "bodyOrder": "h2 h2 h2 h2 h3 h3 h3 h3 h2 h3 ul h3 h3 h3 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 ul h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/best-sales-discovery-questions/",
+   "title": "20 questions to ask on your next sales discovery call",
+   "h1": "20 questions to ask on your next sales discovery call",
+   "lastUpdated": "20 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 12053,
+    "p": 45,
+    "h2": 7,
+    "ol": 5,
+    "li": 28,
+    "h3": 12,
+    "ul": 1
+   },
+   "bodyOrder": "h2 h2 h2 ol h3 ol h3 ol h3 ol h3 ol h2 h2 h3 h3 h3 h3 h3 h3 h2 ul h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/actionable-feedback/",
+   "title": "3 ways to get more actionable feedback from your customers",
+   "h1": "3 ways to get more actionable feedback from your customers",
+   "lastUpdated": "21 August 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 8,
+   "bodyShape": {
+    "chars": 7000,
+    "p": 40,
+    "h2": 6,
+    "h3": 5
+   },
+   "bodyOrder": "h2 h2 h2 h2 h2 h3 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/best-open-ended-sales-questions/",
+   "title": "30 open-ended sales questions to use during the sales process",
+   "h1": "30 open-ended sales questions to use during the sales process",
+   "lastUpdated": "16 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 31,
+   "bodyShape": {
+    "chars": 17796,
+    "p": 89,
+    "h2": 9,
+    "ul": 3,
+    "li": 43,
+    "h3": 22,
+    "ol": 8
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h2 h3 h3 ul h3 h2 ul h2 h3 h3 h3 h3 h2 h3 ol ol h3 ol ol h3 ol h3 ol h3 ol h3 ol h2 h3 h3 h3 h3 h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-connection/",
+   "title": "4 powerful ways to create customer connection",
+   "h1": "4 powerful ways to create customer connection",
+   "lastUpdated": "16 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 8956,
+    "p": 66,
+    "h2": 6,
+    "ul": 4,
+    "li": 13,
+    "h3": 17
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 ul h3 h3 h3 ul h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 ul h3 h3 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/voice-of-customer-examples/",
+   "title": "7 inspirational voice of the customer (VoC) examples",
+   "h1": "7 inspirational voice of the customer (VoC) examples",
+   "lastUpdated": "18 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 27,
+   "bodyShape": {
+    "chars": 12805,
+    "p": 62,
+    "h2": 6,
+    "h3": 26,
+    "ul": 7,
+    "li": 33
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h2 h3 ul h3 h3 h3 ul h3 h3 h3 h2 ul h3 ul h3 ul h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 ul ul h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-journey-analytics/",
+   "title": "A guide to customer journey analytics",
+   "h1": "A guide to customer journey analytics",
+   "lastUpdated": "8 May 2023",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 11358,
+    "p": 43,
+    "h2": 7,
+    "ul": 3,
+    "li": 19,
+    "h3": 14
+   },
+   "bodyOrder": "h2 ul h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 ul h2 h3 ul h3 h3 h2 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/guide-to-the-saas-customer-journey/",
+   "title": "A guide to mastering the SaaS customer journey",
+   "h1": "A guide to mastering the SaaS customer journey",
+   "lastUpdated": "29 February 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 17948,
+    "p": 67,
+    "h2": 7,
+    "ul": 9,
+    "li": 60,
+    "h3": 19,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2 h3 h3 h3 h3 ol h3 h3 h3 h3 h3 h3 h2 ul h2 ul h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/text-analysis/",
+   "title": "A guide to text analysis techniques with use cases",
+   "h1": "A guide to text analysis techniques with use cases",
+   "lastUpdated": "8 May 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 13497,
+    "p": 41,
+    "h2": 10,
+    "ul": 5,
+    "li": 26,
+    "ol": 1,
+    "h3": 7
+   },
+   "bodyOrder": "h2 h2 ul ul h2 h2 h2 ol h2 h3 h3 h3 h3 h2 ul h2 ul ul h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-experience-management/",
+   "title": "A step-by-step guide to customer experience management",
+   "h1": "A step-by-step guide to customer experience management",
+   "lastUpdated": "29 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 6640,
+    "p": 28,
+    "h2": 7,
+    "h3": 13,
+    "ul": 4,
+    "li": 18,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 ul h2 h3 h3 ol h3 h3 h2 h3 h3 h3 h2 ul h2 h3 ul h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/are-digital-twins-reliable/",
+   "title": "Are digital twins reliable? A practitioner’s guide to trusting AI customers",
+   "h1": "Are digital twins reliable? A practitioner’s guide to trusting AI customers",
+   "lastUpdated": "29 September 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 20848,
+    "p": 37,
+    "h2": 12,
+    "table": 2,
+    "h3": 11,
+    "ul": 3,
+    "li": 17,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 table h2 h2 h3 h3 h3 h3 h3 h2 table h2 ul h2 h2 ul h2 ol h2 h2 ul h2 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/customer-research/analyze-app-store-reviews-with-interview-transcripts/",
+    "/customer-research/churned-customer-interviews-b2b-saas/",
+    "/customer-research/customer-feedback-survey/",
+    "/customer-research/how-to-analyze-nps-results/",
+    "/customer-research/support-transcripts-as-secondary-research-data/",
+    "/customer-research/customer-digital-twin/",
+    "/customer-research/customer-churn-statistics/",
+    "/customer-research/jobs-to-be-done-interviews-unmet-needs-mature-products/"
+   ]
+  },
+  {
+   "path": "/customer-research/nps-template/",
+   "title": "Best NPS survey and NPS analysis templates",
+   "h1": "Best NPS survey and NPS analysis templates",
+   "lastUpdated": "25 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 10,
+   "bodyShape": {
+    "chars": 8892,
+    "p": 37,
+    "h2": 6,
+    "h3": 4,
+    "ol": 1,
+    "li": 5,
+    "ul": 1
+   },
+   "bodyOrder": "h2 h2 h3 ol h2 h3 h3 h3 h2 ul h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/buyers-guide-for-enterprise-customer-intelligence-platform/",
+   "title": "Buyers guide for an enterprise customer intelligence platform",
+   "h1": "Buyers guide for an enterprise customer intelligence platform",
+   "lastUpdated": "12 May 2025",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 11365,
+    "p": 42,
+    "h2": 5,
+    "ul": 3,
+    "li": 13,
+    "h3": 9
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 ul h3 h3 h3 h2 h3 h3 h3 h3 h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/improve-customer-experience/",
+   "title": "Checklist: How to improve customer experience",
+   "h1": "Checklist: How to improve customer experience",
+   "lastUpdated": "15 February 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 27,
+   "bodyShape": {
+    "chars": 13429,
+    "p": 55,
+    "h2": 7,
+    "h3": 20
+   },
+   "bodyOrder": "h2 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/what-is-a-communication-plan/",
+   "title": "Communication plan 101: Overview, content and examples",
+   "h1": "Communication plan 101: Overview, content and examples",
+   "lastUpdated": "22 February 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 11906,
+    "p": 47,
+    "h2": 9,
+    "ul": 6,
+    "li": 27,
+    "h3": 12
+   },
+   "bodyOrder": "h2 h2 ul h2 ul h2 h3 h3 h3 h2 h3 h3 h3 ul ul ul h3 ul h3 h3 h2 h2 h3 h3 h3 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/what-are-customer-insights/",
+   "title": "Consumer insights: A quick guide",
+   "h1": "Consumer insights: A quick guide",
+   "lastUpdated": "21 February 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 8183,
+    "p": 26,
+    "h2": 6,
+    "h3": 8,
+    "ul": 3,
+    "li": 15
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h3 h2 h2 ul h2 ul h2 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/what-is-a-customer-base/",
+   "title": "Customer base: Definition, make-up, strategies for growth",
+   "h1": "Customer base: Definition, make-up, strategies for growth",
+   "lastUpdated": "22 February 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 15659,
+    "p": 59,
+    "h2": 9,
+    "h3": 12,
+    "ul": 4,
+    "li": 19
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 ul h2 h3 ul h3 h3 h3 ul ul h2 h2 h2 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-churn-statistics/",
+   "title": "Customer churn statistics and benchmarks for 2026",
+   "h1": "Customer churn statistics and benchmarks for 2026",
+   "lastUpdated": "1 September 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 5,
+   "bodyShape": {
+    "chars": 9928,
+    "p": 18,
+    "ol": 1,
+    "li": 4,
+    "h2": 6,
+    "table": 2,
+    "h3": 4
+   },
+   "bodyOrder": "ol h2 table h2 h2 h2 table h2 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/customer-research/analyze-app-store-reviews-with-interview-transcripts/",
+    "/customer-research/churned-customer-interviews-b2b-saas/",
+    "/customer-research/are-digital-twins-reliable/",
+    "/customer-research/customer-feedback-survey/",
+    "/customer-research/how-to-analyze-nps-results/",
+    "/customer-research/support-transcripts-as-secondary-research-data/",
+    "/customer-research/customer-digital-twin/",
+    "/customer-research/jobs-to-be-done-interviews-unmet-needs-mature-products/"
+   ]
+  },
+  {
+   "path": "/customer-research/customer-data-integration/",
+   "title": "Customer data integration 101",
+   "h1": "Customer data integration 101",
+   "lastUpdated": "30 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 9428,
+    "p": 43,
+    "h2": 7,
+    "h3": 12,
+    "ul": 1,
+    "li": 5
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-digital-twin/",
+   "title": "Customer digital twin: the complete guide",
+   "h1": "Customer digital twin: the complete guide",
+   "lastUpdated": "14 September 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 19494,
+    "p": 49,
+    "h2": 8,
+    "table": 2,
+    "blockquote": 1,
+    "h3": 21,
+    "ul": 8,
+    "li": 26
+   },
+   "bodyOrder": "h2 h2 table blockquote h2 table h2 h3 h3 h3 h3 ul h3 h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2 h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/customer-research/analyze-app-store-reviews-with-interview-transcripts/",
+    "/customer-research/churned-customer-interviews-b2b-saas/",
+    "/customer-research/are-digital-twins-reliable/",
+    "/customer-research/customer-feedback-survey/",
+    "/customer-research/how-to-analyze-nps-results/",
+    "/customer-research/support-transcripts-as-secondary-research-data/",
+    "/customer-research/customer-churn-statistics/",
+    "/customer-research/jobs-to-be-done-interviews-unmet-needs-mature-products/"
+   ]
+  },
+  {
+   "path": "/customer-research/customer-effort-score/",
+   "title": "Customer effort score (CES): What it is & how to calculate it",
+   "h1": "Customer effort score (CES): What it is & how to calculate it",
+   "lastUpdated": "22 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 32,
+   "bodyShape": {
+    "chars": 14908,
+    "p": 84,
+    "ul": 9,
+    "li": 39,
+    "h2": 13,
+    "h3": 24
+   },
+   "bodyOrder": "ul h2 h2 h3 h3 h3 h3 h2 ul h3 h3 h3 h2 h3 h3 h3 h2 ul h3 ul h3 h3 h2 h2 ul h2 ul h2 h3 ul h3 ul h2 ul h2 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-engagement/",
+   "title": "Customer engagement 101: The complete guide",
+   "h1": "Customer engagement 101: The complete guide",
+   "lastUpdated": "21 February 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 14695,
+    "p": 64,
+    "h2": 6,
+    "h3": 19,
+    "ul": 6,
+    "li": 28
+   },
+   "bodyOrder": "h2 h3 ul h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 ul h3 h3 h3 ul h3 h3 h3 h2 h3 ul h3 ul h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-feedback-guide/",
+   "title": "Customer feedback: Everything you need to know",
+   "h1": "Customer feedback: Everything you need to know",
+   "lastUpdated": "15 February 2023",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 26,
+   "bodyShape": {
+    "chars": 17665,
+    "p": 96,
+    "h2": 8,
+    "ul": 6,
+    "li": 32,
+    "h3": 18
+   },
+   "bodyOrder": "h2 ul h2 h2 ul ul h3 h2 h3 h3 h3 ul h3 h3 ul h2 ul h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/what-is-the-customer-lifecycle/",
+   "title": "Customer lifecycle: Understanding the journey to lasting loyalty",
+   "h1": "Customer lifecycle: Understanding the journey to lasting loyalty",
+   "lastUpdated": "5 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 29,
+   "bodyShape": {
+    "chars": 22804,
+    "p": 78,
+    "h2": 7,
+    "h3": 22,
+    "ul": 2,
+    "li": 21,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 ul h2 h3 h3 h3 ol h2 h2 h3 h3 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/perceived-value/",
+   "title": "Customer perceived value: What it is & why it matters to pricing",
+   "h1": "Customer perceived value: What it is & why it matters to pricing",
+   "lastUpdated": "2 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 8792,
+    "p": 33,
+    "h2": 6,
+    "h3": 19
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-satisfaction/",
+   "title": "Customer satisfaction: What it means and how to measure it",
+   "h1": "Customer satisfaction: What it means and how to measure it",
+   "lastUpdated": "14 February 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 13798,
+    "p": 53,
+    "h2": 4,
+    "ul": 4,
+    "li": 25,
+    "h3": 15
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 ul h3 h3 h3 ul h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/enterprise-use-cases/",
+   "title": "Enterprise use cases for a customer intelligence platform like Dovetail",
+   "h1": "Enterprise use cases for a customer intelligence platform like Dovetail",
+   "lastUpdated": "11 May 2025",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 7,
+   "bodyShape": {
+    "chars": 9020,
+    "p": 19,
+    "h2": 8,
+    "ul": 1,
+    "li": 4,
+    "h3": 1
+   },
+   "bodyOrder": "h2 h2 h2 h2 ul h2 h2 h2 h2 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/feedback-loop/",
+   "title": "Feedback loop: What you need to know",
+   "h1": "Feedback loop: What you need to know",
+   "lastUpdated": "21 February 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 6692,
+    "p": 33,
+    "h2": 8,
+    "h3": 15,
+    "ul": 1,
+    "li": 8
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/how-to-organize-customer-feedback/",
+   "title": "From feedback to impact: How to organize and act on customer insights",
+   "h1": "From feedback to impact: How to organize and act on customer insights",
+   "lastUpdated": "22 April 2025",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 10378,
+    "p": 33,
+    "h2": 10,
+    "h3": 16,
+    "ul": 12,
+    "li": 50,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 h2 h3 ul h3 ul h3 ul h3 ul h3 ul h2 ul h2 ul h2 h3 ul h2 h3 ul h3 ul h3 ul h3 ul h2 h2 h3 h3 ol",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/dovetail-enterprise-grade-security-and-compliance/",
+   "title": "How Dovetail ensures enterprise-grade security and compliance",
+   "h1": "How Dovetail ensures enterprise-grade security and compliance",
+   "lastUpdated": "11 May 2025",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 10,
+   "bodyShape": {
+    "chars": 7506,
+    "p": 19,
+    "h2": 7,
+    "h3": 5
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 h2 h2 h2 h2 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/analyze-app-store-reviews-with-interview-transcripts/",
+   "title": "How to analyze app store reviews alongside interview transcripts to prioritize mobile roadmap fixes",
+   "h1": "How to analyze app store reviews alongside interview transcripts to prioritize mobile roadmap fixes",
+   "lastUpdated": "20 October 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 14476,
+    "p": 54,
+    "h2": 12,
+    "h3": 15,
+    "ul": 11,
+    "li": 40
+   },
+   "bodyOrder": "h2 h3 ul h3 ul h3 h2 ul h2 h3 ul h3 ul h3 h2 ul h2 h2 h3 h3 ul h2 ul h3 h3 h3 h3 h2 ul ul h2 ul h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/customer-research/support-transcripts-as-secondary-research-data/",
+    "/customer-research/is-consumer-services-a-good-career-path/",
+    "/customer-research/open-ended-questions/",
+    "/customer-research/what-do-consumer-services-jobs-pay/"
+   ],
+   "latestArticlesOverride": [
+    "/customer-research/churned-customer-interviews-b2b-saas/",
+    "/customer-research/are-digital-twins-reliable/",
+    "/customer-research/customer-feedback-survey/",
+    "/customer-research/how-to-analyze-nps-results/",
+    "/customer-research/support-transcripts-as-secondary-research-data/",
+    "/customer-research/customer-digital-twin/",
+    "/customer-research/customer-churn-statistics/",
+    "/customer-research/jobs-to-be-done-interviews-unmet-needs-mature-products/"
+   ]
+  },
+  {
+   "path": "/customer-research/customer-feedback-analysis/",
+   "title": "How to analyze customer feedback to get better insights",
+   "h1": "How to analyze customer feedback to get better insights",
+   "lastUpdated": "16 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 13673,
+    "p": 58,
+    "h2": 9,
+    "ol": 1,
+    "li": 20,
+    "ul": 4,
+    "h3": 10
+   },
+   "bodyOrder": "h2 ol h2 ul h2 h2 ul h3 ul h2 h3 h3 ul h3 h3 h3 h3 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/how-to-analyze-nps-results/",
+   "title": "How to analyze your NPS results",
+   "h1": "How to analyze your NPS results",
+   "lastUpdated": "22 September 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 18803,
+    "p": 74,
+    "h2": 8,
+    "ul": 12,
+    "li": 58,
+    "h3": 16,
+    "ol": 2,
+    "table": 2
+   },
+   "bodyOrder": "h2 ul ul ul h3 ul h2 h3 ul h3 ul ol ul h3 ul h3 h2 ol h2 table table ul h3 ul h2 ul h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/customer-research/analyze-app-store-reviews-with-interview-transcripts/",
+    "/customer-research/churned-customer-interviews-b2b-saas/",
+    "/customer-research/are-digital-twins-reliable/",
+    "/customer-research/customer-feedback-survey/",
+    "/customer-research/support-transcripts-as-secondary-research-data/",
+    "/customer-research/customer-digital-twin/",
+    "/customer-research/customer-churn-statistics/",
+    "/customer-research/jobs-to-be-done-interviews-unmet-needs-mature-products/"
+   ]
+  },
+  {
+   "path": "/customer-research/jobs-to-be-done-outcome-driven-innovation-scoring/",
+   "title": "How to combine jobs-to-be-done interviews with outcome-driven innovation scoring to prioritize product opportunities",
+   "h1": "How to combine jobs-to-be-done interviews with outcome-driven innovation scoring to prioritize product opportunities",
+   "lastUpdated": "11 August 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 16025,
+    "p": 56,
+    "h2": 12,
+    "h3": 9,
+    "ul": 5,
+    "li": 30,
+    "ol": 3,
+    "table": 1
+   },
+   "bodyOrder": "h2 h3 h3 ul h2 h2 ul h2 h3 ol h3 ul h2 ol h2 ol h3 ul h2 h3 table ul h2 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/how-to-combine-support-ticket-analysis-user-interview-findings/",
+   "title": "How to combine support ticket analysis with user interview findings for stronger customer insights",
+   "h1": "How to combine support ticket analysis with user interview findings for stronger customer insights",
+   "lastUpdated": "26 May 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 14327,
+    "p": 38,
+    "h2": 7,
+    "h3": 14,
+    "ul": 8,
+    "li": 27,
+    "table": 1,
+    "blockquote": 1
+   },
+   "bodyOrder": "h2 h3 ul ul h3 ul ul h2 ul h2 h3 ul h3 ul h3 h3 table h3 blockquote h2 h3 h3 h3 h3 h2 ul h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/competitive-analysis/",
+   "title": "How to conduct a competitive analysis",
+   "h1": "How to conduct a competitive analysis",
+   "lastUpdated": "15 April 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 7,
+   "bodyShape": {
+    "chars": 7678,
+    "p": 25,
+    "h2": 8,
+    "ul": 2,
+    "li": 9,
+    "h3": 3
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 h2 h2 ul h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/churned-customer-interviews-b2b-saas/",
+   "title": "How to conduct churned customer interviews in B2B SaaS when former users have little reason to talk",
+   "h1": "How to conduct churned customer interviews in B2B SaaS when former users have little reason to talk",
+   "lastUpdated": "13 October 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 30,
+   "bodyShape": {
+    "chars": 14577,
+    "p": 53,
+    "h2": 10,
+    "ul": 9,
+    "li": 37,
+    "h3": 24,
+    "blockquote": 1
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 ul h3 ul h3 ul h3 blockquote h2 h3 h3 ul h3 ul h3 h3 h2 ul h2 h3 ul h3 h3 h3 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/customer-research/analyze-app-store-reviews-with-interview-transcripts/",
+    "/customer-research/are-digital-twins-reliable/",
+    "/customer-research/customer-feedback-survey/",
+    "/customer-research/how-to-analyze-nps-results/",
+    "/customer-research/support-transcripts-as-secondary-research-data/",
+    "/customer-research/customer-digital-twin/",
+    "/customer-research/customer-churn-statistics/",
+    "/customer-research/jobs-to-be-done-interviews-unmet-needs-mature-products/"
+   ]
+  },
+  {
+   "path": "/customer-research/how-to-do-customer-research-on-a-budget/",
+   "title": "How to conduct customer research without breaking the bank",
+   "h1": "How to conduct customer research without breaking the bank",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 33,
+   "bodyShape": {
+    "chars": 16567,
+    "p": 78,
+    "ul": 10,
+    "li": 46,
+    "h2": 8,
+    "h3": 36
+   },
+   "bodyOrder": "ul h2 h3 ul h3 ul h3 ul h2 h3 h3 h3 ul h3 h3 h3 h3 h2 h3 h3 h3 ul h3 h2 h3 h3 ul h3 h3 h3 h2 h3 ul h3 h3 h2 h3 h3 ul h3 h2 h3 ul h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/how-to-create-customer-profiles/",
+   "title": "How to create customer profiles and reach the right people",
+   "h1": "How to create customer profiles and reach the right people",
+   "lastUpdated": "25 May 2023",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 14552,
+    "p": 81,
+    "h2": 8,
+    "ul": 3,
+    "li": 18,
+    "h3": 14
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h3 h2 h2 h3 ul h3 h3 h3 h3 h3 h2 ul h2 h3 h3 h2 h2 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/ideal-customer-profile/",
+   "title": "How to create your ideal customer profile (ICP)",
+   "h1": "How to create your ideal customer profile (ICP)",
+   "lastUpdated": "8 May 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 28,
+   "bodyShape": {
+    "chars": 12290,
+    "p": 56,
+    "h2": 11,
+    "h3": 20,
+    "ul": 1,
+    "li": 18,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h2 h2 h2 h3 h3 h3 h2 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 ol",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/what-are-customer-pain-points/",
+   "title": "How to find and fix customer pain points",
+   "h1": "How to find and fix customer pain points",
+   "lastUpdated": "28 August 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 14139,
+    "p": 53,
+    "h2": 6,
+    "h3": 11,
+    "ul": 7,
+    "li": 31
+   },
+   "bodyOrder": "h2 h2 h3 ul h3 ul h3 ul h3 ul h2 h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h2 ul ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-intent/",
+   "title": "How to identify and leverage customer intent",
+   "h1": "How to identify and leverage customer intent",
+   "lastUpdated": "25 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 9539,
+    "p": 39,
+    "h2": 5,
+    "ul": 4,
+    "li": 16,
+    "h3": 12
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 h3 h3 h3 ul h3 h3 h3 h3 ul h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/how-to-improve-customer-satisfaction/",
+   "title": "How to improve customer satisfaction",
+   "h1": "How to improve customer satisfaction",
+   "lastUpdated": "21 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 16389,
+    "p": 73,
+    "h2": 7,
+    "ul": 6,
+    "li": 29,
+    "ol": 3,
+    "h3": 12
+   },
+   "bodyOrder": "h2 h2 h2 h2 h2 ul ol ul ol ul ol ul h2 h3 ul h3 ul h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-retention-rate/",
+   "title": "How to improve your customer retention rate",
+   "h1": "How to improve your customer retention rate",
+   "lastUpdated": "28 February 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 12320,
+    "p": 33,
+    "h2": 6,
+    "ul": 4,
+    "li": 16,
+    "h3": 9
+   },
+   "bodyOrder": "h2 h2 ul h2 h2 ul h2 h3 h3 h3 h3 ul h3 h3 h3 h3 h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/how-to-make-a-customer-journey-map/",
+   "title": "How to make a customer journey map",
+   "h1": "How to make a customer journey map",
+   "lastUpdated": "8 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 11984,
+    "p": 66,
+    "h2": 6,
+    "ul": 9,
+    "li": 57,
+    "ol": 3,
+    "h3": 12
+   },
+   "bodyOrder": "h2 ul h2 h2 ol ol ol h2 ul h3 h3 h3 h3 h2 h3 ul h3 ul h3 ul h3 ul h3 ul ul h3 h3 ul h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-centric/",
+   "title": "How to make your business more customer-centric",
+   "h1": "How to make your business more customer-centric",
+   "lastUpdated": "28 February 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 12509,
+    "p": 35,
+    "h2": 7,
+    "h3": 16,
+    "ul": 4,
+    "li": 18
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 ul h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 ul h2 ul h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/how-to-recruit-hard-to-reach-b2b-participants-for-user-interviews/",
+   "title": "How to recruit hard-to-reach B2B participants like CFOs and CISOs for user interviews",
+   "h1": "How to recruit hard-to-reach B2B participants like CFOs and CISOs for user interviews",
+   "lastUpdated": "23 June 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 27,
+   "bodyShape": {
+    "chars": 14901,
+    "p": 46,
+    "h2": 9,
+    "h3": 22,
+    "ul": 3,
+    "li": 9
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h2 h3 ul h3 h3 h2 h3 h3 h3 h3 ul h3 h2 h3 h3 h3 h2 h3 ul h3 h3 h3 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/how-to-run-a-customer-journey-mapping-workshop/",
+   "title": "How to run a results-driven journey mapping workshop",
+   "h1": "How to run a results-driven journey mapping workshop",
+   "lastUpdated": "2 December 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 11454,
+    "p": 42,
+    "h2": 5,
+    "ul": 5,
+    "li": 22,
+    "h3": 10,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 h3 ul h3 ul h3 h3 h2 h3 h3 h3 h2 ul h2 h3 h3 ol h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/triangulate-support-tickets-usability-tests-nps-verbatims/",
+   "title": "How to triangulate support ticket themes, usability test findings, and NPS verbatims into a single insights narrative",
+   "h1": "How to triangulate support ticket themes, usability test findings, and NPS verbatims into a single insights narrative",
+   "lastUpdated": "28 July 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 14867,
+    "p": 48,
+    "h2": 9,
+    "h3": 15,
+    "ul": 3,
+    "li": 14,
+    "table": 1,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 ul h2 h3 h3 h3 h2 table ul h2 h3 h3 ul h2 h3 h3 ol h3 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/support-transcripts-as-secondary-research-data/",
+   "title": "How to use customer support transcripts as secondary research data to identify usability issues at scale",
+   "h1": "How to use customer support transcripts as secondary research data to identify usability issues at scale",
+   "lastUpdated": "15 September 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 14892,
+    "p": 47,
+    "h2": 8,
+    "ul": 2,
+    "li": 13,
+    "h3": 17,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h2 h3 ul h3 ol h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/customer-research/analyze-app-store-reviews-with-interview-transcripts/",
+    "/customer-research/is-consumer-services-a-good-career-path/",
+    "/customer-research/open-ended-questions/",
+    "/customer-research/what-do-consumer-services-jobs-pay/"
+   ],
+   "latestArticlesOverride": [
+    "/customer-research/analyze-app-store-reviews-with-interview-transcripts/",
+    "/customer-research/churned-customer-interviews-b2b-saas/",
+    "/customer-research/are-digital-twins-reliable/",
+    "/customer-research/customer-feedback-survey/",
+    "/customer-research/how-to-analyze-nps-results/",
+    "/customer-research/customer-digital-twin/",
+    "/customer-research/customer-churn-statistics/",
+    "/customer-research/jobs-to-be-done-interviews-unmet-needs-mature-products/"
+   ]
+  },
+  {
+   "path": "/customer-research/jobs-to-be-done-interviews-unmet-needs-mature-products/",
+   "title": "How to use jobs-to-be-done interviews to identify unmet needs in mature, saturated product categories",
+   "h1": "How to use jobs-to-be-done interviews to identify unmet needs in mature, saturated product categories",
+   "lastUpdated": "25 August 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 15700,
+    "p": 58,
+    "h2": 9,
+    "h3": 17,
+    "ul": 2,
+    "li": 14,
+    "ol": 2
+   },
+   "bodyOrder": "h2 h2 h2 h3 ul h3 h3 ol h2 h3 h3 h3 h3 h2 h3 h3 h3 ol h2 h3 h3 h3 h3 h2 ul h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/onboarding-session-recordings-interview-transcripts-activation-friction/",
+   "title": "How to use onboarding session recordings and interview transcripts to identify activation friction points",
+   "h1": "How to use onboarding session recordings and interview transcripts to identify activation friction points",
+   "lastUpdated": "28 July 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 15425,
+    "p": 46,
+    "h2": 7,
+    "ul": 9,
+    "li": 39,
+    "h3": 17
+   },
+   "bodyOrder": "h2 ul h2 h3 ul h3 ul h3 h2 h3 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2 h3 h3 h3 h3 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/support-ticket-verbatims-to-interview-discussion-guides/",
+   "title": "How to use support ticket verbatims to generate user interview discussion guides",
+   "h1": "How to use support ticket verbatims to generate user interview discussion guides",
+   "lastUpdated": "9 June 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 13590,
+    "p": 49,
+    "h2": 10,
+    "h3": 11,
+    "ul": 3,
+    "li": 12,
+    "table": 1,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h3 ul h2 ul h2 ul h3 h2 h3 h3 h3 h2 table h2 h3 ol h3 h3 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/voice-of-customer-analytics/",
+   "title": "How to use VoC analytics for better insights",
+   "h1": "How to use VoC analytics for better insights",
+   "lastUpdated": "20 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 10,
+   "bodyShape": {
+    "chars": 6874,
+    "p": 43,
+    "h2": 3,
+    "h3": 7,
+    "ol": 1,
+    "li": 3
+   },
+   "bodyOrder": "h2 h3 h2 h2 h3 ol h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/is-consumer-services-a-good-career-path/",
+   "title": "Is consumer services a good career path for you?",
+   "h1": "Is consumer services a good career path for you?",
+   "lastUpdated": "11 June 2026",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 8498,
+    "p": 42,
+    "h2": 7,
+    "ul": 5,
+    "li": 28,
+    "h3": 15
+   },
+   "bodyOrder": "h2 ul h2 h2 ul h2 h3 ul h3 ul h2 h3 ul h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/customer-research/analyze-app-store-reviews-with-interview-transcripts/",
+    "/customer-research/support-transcripts-as-secondary-research-data/",
+    "/customer-research/open-ended-questions/",
+    "/customer-research/what-do-consumer-services-jobs-pay/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/mastering-focus-groups-for-customer-research/",
+   "title": "Mastering focus groups for customer research",
+   "h1": "Mastering focus groups for customer research",
+   "lastUpdated": "13 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 28,
+   "bodyShape": {
+    "chars": 14645,
+    "p": 65,
+    "h2": 6,
+    "h3": 28,
+    "ul": 3,
+    "li": 14
+   },
+   "bodyOrder": "h2 h3 h3 ul h3 h3 h3 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/measuring-roi/",
+   "title": "Measuring the ROI of a customer intelligence platform",
+   "h1": "Measuring the ROI of a customer intelligence platform",
+   "lastUpdated": "19 May 2025",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 6,
+   "bodyShape": {
+    "chars": 9404,
+    "p": 22,
+    "h2": 7,
+    "ul": 2,
+    "li": 11,
+    "ol": 1,
+    "h3": 3
+   },
+   "bodyOrder": "h2 h2 ul h2 ol h2 h2 ul h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/enterprise-security-and-compliance/",
+   "title": "Navigating enterprise security & compliance in customer intelligence solutions",
+   "h1": "Navigating enterprise security & compliance in customer intelligence solutions",
+   "lastUpdated": "11 May 2025",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 9,
+   "bodyShape": {
+    "chars": 9534,
+    "p": 25,
+    "h2": 6,
+    "h3": 6,
+    "ul": 3,
+    "li": 13,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 ul h2 ul h2 ol h2 ul h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/qualitative-consumer-data/",
+   "title": "Qualitative consumer data: what it is, how to collect it, and how to use it",
+   "h1": "Qualitative consumer data: what it is, how to collect it, and how to use it",
+   "lastUpdated": "28 April 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 15617,
+    "p": 50,
+    "h2": 8,
+    "ul": 4,
+    "li": 26,
+    "h3": 16,
+    "table": 1,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h3 ul h2 table h2 h3 ul h3 h3 h3 h3 h2 h3 ol h3 h3 h2 h3 h3 h3 h3 h2 ul h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/scaling-user-research-through-democratization/",
+   "title": "Scaling user research through democratization",
+   "h1": "Scaling user research through democratization",
+   "lastUpdated": "11 May 2025",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 11409,
+    "p": 35,
+    "h2": 7,
+    "h3": 9,
+    "ul": 2,
+    "li": 9
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h2 ul h2 ul h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/what-is-sentiment-analysis/",
+   "title": "Sentiment analysis: Find out what users think about your brand & products",
+   "h1": "Sentiment analysis: Find out what users think about your brand & products",
+   "lastUpdated": "14 February 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 15217,
+    "p": 74,
+    "h2": 7,
+    "h3": 14,
+    "ul": 5,
+    "li": 16
+   },
+   "bodyOrder": "h2 h3 h3 h3 h2 ul h2 ul h2 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 ul h3 ul h3 h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/cost-of-data-silos-for-enterprise-organizations/",
+   "title": "The cost of data silos for enterprise organizations",
+   "h1": "The cost of data silos for enterprise organizations",
+   "lastUpdated": "11 May 2025",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 7,
+   "bodyShape": {
+    "chars": 8931,
+    "p": 27,
+    "h2": 6,
+    "h3": 7,
+    "ul": 3,
+    "li": 9
+   },
+   "bodyOrder": "h2 h3 h2 ul h3 ul h2 ul h2 h2 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-behavior-analysis-guide/",
+   "title": "The essential guide to customer behavior analysis",
+   "h1": "The essential guide to customer behavior analysis",
+   "lastUpdated": "16 October 2024",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 39,
+   "bodyShape": {
+    "chars": 16553,
+    "p": 86,
+    "h2": 9,
+    "h3": 30,
+    "ul": 5,
+    "li": 23
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 h3 ul h3 ul h3 h3 h2 h3 h3 h3 h3 h2 h3 ul h3 h3 h3 h3 h3 h3 h2 h3 ul h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 ul h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-success/",
+   "title": "The ultimate guide to customer success",
+   "h1": "The ultimate guide to customer success",
+   "lastUpdated": "21 February 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 9219,
+    "p": 40,
+    "h2": 10,
+    "h3": 9,
+    "ul": 4,
+    "li": 17
+   },
+   "bodyOrder": "h2 h2 h2 h2 h3 h3 h3 h2 h2 h3 h3 h2 h3 h3 h3 ul h2 ul h2 ul ul h2 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/develop-a-customer-research-plan/",
+   "title": "The ultimate guide to developing a customer research plan",
+   "h1": "The ultimate guide to developing a customer research plan",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 11082,
+    "p": 42,
+    "h2": 12,
+    "h3": 9
+   },
+   "bodyOrder": "h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/reasons-for-customer-churn/",
+   "title": "Top 10 reasons for customer churn and how to prevent it",
+   "h1": "Top 10 reasons for customer churn and how to prevent it",
+   "lastUpdated": "18 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 14411,
+    "p": 61,
+    "h2": 5,
+    "h3": 16,
+    "ul": 3,
+    "li": 14
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 ul h3 h2 ul h2 h3 h3 h3 ul h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/best-sentiment-analysis-tools/",
+   "title": "Top 15 sentiment analysis tools",
+   "h1": "Top 15 sentiment analysis tools",
+   "lastUpdated": "9 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 15888,
+    "p": 92,
+    "h2": 4,
+    "h3": 24,
+    "ul": 19,
+    "li": 80
+   },
+   "bodyOrder": "h2 h3 h3 h3 h2 h3 h3 ul h3 ul ul h3 ul h3 ul ul h3 ul h3 ul h3 ul h3 ul ul h3 ul h3 ul h3 h3 ul ul h3 ul h3 ul ul h2 h3 h3 h3 h2 h3 h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/open-ended-questions/",
+   "title": "Ultimate guide to open-ended survey questions (with examples)",
+   "h1": "Ultimate guide to open-ended survey questions (with examples)",
+   "lastUpdated": "11 June 2026",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 9124,
+    "p": 38,
+    "h2": 6,
+    "h3": 12,
+    "ul": 7,
+    "li": 25
+   },
+   "bodyOrder": "h2 h3 h2 h3 h3 h3 h3 h3 ul h2 ul h3 h3 h3 h2 ul ul ul h2 h3 h3 ul h3 ul h2",
+   "editorsPicksOverride": [
+    "/customer-research/analyze-app-store-reviews-with-interview-transcripts/",
+    "/customer-research/support-transcripts-as-secondary-research-data/",
+    "/customer-research/is-consumer-services-a-good-career-path/",
+    "/customer-research/what-do-consumer-services-jobs-pay/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/sentiment-analysis-using-machine-learning/",
+   "title": "Understanding sentiment analysis using machine learning",
+   "h1": "Understanding sentiment analysis using machine learning",
+   "lastUpdated": "16 August 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 10344,
+    "p": 47,
+    "h2": 7,
+    "ul": 2,
+    "li": 6,
+    "h3": 20
+   },
+   "bodyOrder": "h2 ul h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 ul h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-feedback-survey/",
+   "title": "Unlocking customer insights: maximizing surveys for actionable feedback",
+   "h1": "Unlocking customer insights: maximizing surveys for actionable feedback",
+   "lastUpdated": "22 September 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 52,
+   "bodyShape": {
+    "chars": 27779,
+    "p": 113,
+    "h2": 12,
+    "ul": 6,
+    "li": 21,
+    "h3": 40,
+    "table": 1
+   },
+   "bodyOrder": "h2 h2 ul ul h3 ul h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 ul ul h3 ul h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 table h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/customer-research/analyze-app-store-reviews-with-interview-transcripts/",
+    "/customer-research/churned-customer-interviews-b2b-saas/",
+    "/customer-research/are-digital-twins-reliable/",
+    "/customer-research/how-to-analyze-nps-results/",
+    "/customer-research/support-transcripts-as-secondary-research-data/",
+    "/customer-research/customer-digital-twin/",
+    "/customer-research/customer-churn-statistics/",
+    "/customer-research/jobs-to-be-done-interviews-unmet-needs-mature-products/"
+   ]
+  },
+  {
+   "path": "/customer-research/b2b-customer-journey-map/",
+   "title": "Unlocking the B2B customer journey: step-by-step guide",
+   "h1": "Unlocking the B2B customer journey: step-by-step guide",
+   "lastUpdated": "22 February 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 14545,
+    "p": 58,
+    "h2": 7,
+    "h3": 21,
+    "ul": 8,
+    "li": 30
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 ul h3 h3 h2 h2 h3 h3 h3 h3 h3 ul ul h3 h3 h2 h3 ul h3 ul h3 h3 h2 h3 ul h3 ul h3 ul h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-insights-ai/",
+   "title": "Unlocking the power of AI for customer insights",
+   "h1": "Unlocking the power of AI for customer insights",
+   "lastUpdated": "25 June 2023",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 29,
+   "bodyShape": {
+    "chars": 12146,
+    "p": 88,
+    "h2": 8,
+    "h3": 24,
+    "ul": 8,
+    "li": 35
+   },
+   "bodyOrder": "h2 h3 ul h3 h3 h3 ul h2 h2 h3 h3 h3 h2 h3 ul h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 ul h3 h3 h3 h3 h3 h2 ul h2 h3 ul ul h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-first/",
+   "title": "What a \"customer-first\" strategy means for your business",
+   "h1": "What a \"customer-first\" strategy means for your business",
+   "lastUpdated": "3 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 12400,
+    "p": 76,
+    "h2": 7,
+    "ul": 4,
+    "li": 16,
+    "h3": 22
+   },
+   "bodyOrder": "h2 ul h2 h2 h3 h3 h3 h3 h3 h3 h2 h3 ul h3 ul h3 h3 ul h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/actionable-insights/",
+   "title": "What are actionable insights?",
+   "h1": "What are actionable insights?",
+   "lastUpdated": "15 February 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 10339,
+    "p": 47,
+    "h2": 8,
+    "ul": 1,
+    "li": 6,
+    "h3": 10
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h2 h2 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-expectations/",
+   "title": "What are customer expectations & how can you exceed them?",
+   "h1": "What are customer expectations & how can you exceed them?",
+   "lastUpdated": "18 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 30,
+   "bodyShape": {
+    "chars": 12705,
+    "p": 79,
+    "h2": 7,
+    "h3": 23,
+    "ul": 4,
+    "li": 18
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h2 ul h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 ul h2 h2 h3 h3 h3 h2 h3 h3 ul h3 h3 ul h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/data-silos/",
+   "title": "What are data silos, and why are they a problem?",
+   "h1": "What are data silos, and why are they a problem?",
+   "lastUpdated": "23 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 11496,
+    "p": 50,
+    "h2": 7,
+    "ul": 2,
+    "li": 11,
+    "h3": 17
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 ul h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/benefits-of-customer-feedback/",
+   "title": "What are the benefits of customer feedback?",
+   "h1": "What are the benefits of customer feedback?",
+   "lastUpdated": "2 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 16628,
+    "p": 68,
+    "h2": 8,
+    "h3": 4,
+    "ul": 13,
+    "li": 36
+   },
+   "bodyOrder": "h2 h3 ul h3 ul h2 h2 h2 ul ul ul ul ul ul ul ul h3 h2 h2 ul h2 ul h2 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/what-do-consumer-services-jobs-pay/",
+   "title": "What do consumer services jobs pay?",
+   "h1": "What do consumer services jobs pay?",
+   "lastUpdated": "11 June 2026",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 9,
+   "bodyShape": {
+    "chars": 5017,
+    "p": 25,
+    "h2": 3,
+    "h3": 6,
+    "ul": 1,
+    "li": 3
+   },
+   "bodyOrder": "h2 h3 h2 h3 h3 h3 h3 h3 h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-success-manager/",
+   "title": "What does a customer success manager do?",
+   "h1": "What does a customer success manager do?",
+   "lastUpdated": "14 February 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 13097,
+    "p": 47,
+    "h2": 8,
+    "ul": 4,
+    "li": 21,
+    "h3": 10
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 h3 h3 ul h3 h3 h3 h3 h3 ul h2 ul h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/b2b-customer-service/",
+   "title": "What does good B2B customer service look like?",
+   "h1": "What does good B2B customer service look like?",
+   "lastUpdated": "25 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 14010,
+    "p": 60,
+    "h2": 5,
+    "h3": 16,
+    "ul": 1,
+    "li": 2
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 ul h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/buyer-persona/",
+   "title": "What is a buyer persona?",
+   "h1": "What is a buyer persona?",
+   "lastUpdated": "15 April 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 5,
+   "bodyShape": {
+    "chars": 6895,
+    "p": 29,
+    "h2": 6,
+    "h3": 3
+   },
+   "bodyOrder": "h2 h2 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/what-is-cxo/",
+   "title": "What is a chief experience officer (CXO)? Definition, responsibilities",
+   "h1": "What is a chief experience officer (CXO)? Definition, responsibilities",
+   "lastUpdated": "11 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 7053,
+    "p": 30,
+    "h2": 12,
+    "ul": 2,
+    "li": 8,
+    "h3": 8
+   },
+   "bodyOrder": "h2 h2 ul h2 h2 h2 h2 h2 h3 h3 h3 h3 h2 ul h2 h2 h3 h3 h3 h3 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-data-platform/",
+   "title": "What is a customer data platform (CDP)?",
+   "h1": "What is a customer data platform (CDP)?",
+   "lastUpdated": "29 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 9405,
+    "p": 32,
+    "h2": 11,
+    "ul": 4,
+    "li": 16,
+    "h3": 9
+   },
+   "bodyOrder": "h2 h2 h2 h2 ul h2 ul h2 h3 h3 h3 h3 h3 h3 h2 ul h2 h2 ul h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-needs-analysis/",
+   "title": "What is a customer needs analysis?",
+   "h1": "What is a customer needs analysis?",
+   "lastUpdated": "16 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 9077,
+    "p": 40,
+    "h2": 6,
+    "h3": 12,
+    "ul": 3,
+    "li": 11
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h2 h3 h3 h3 ul h3 h3 h3 h3 h2 ul ul h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/perceptual-mapping/",
+   "title": "What is a perceptual map, and how can it help draw insights from survey data?",
+   "h1": "What is a perceptual map, and how can it help draw insights from survey data?",
+   "lastUpdated": "25 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 10533,
+    "p": 41,
+    "h2": 6,
+    "h3": 21
+   },
+   "bodyOrder": "h2 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/what-is-a-potential-customer/",
+   "title": "What is a potential customer, and how can you convert them?",
+   "h1": "What is a potential customer, and how can you convert them?",
+   "lastUpdated": "31 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 10212,
+    "p": 45,
+    "h2": 7,
+    "h3": 18,
+    "ul": 4,
+    "li": 12
+   },
+   "bodyOrder": "h2 h3 ul h2 h2 ul h2 h3 h3 h3 h2 ul h3 h3 h3 h3 h2 h3 h3 ul h3 h3 h3 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/sales-funnel-template/",
+   "title": "What is a sales funnel?",
+   "h1": "What is a sales funnel?",
+   "lastUpdated": "29 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 9644,
+    "p": 47,
+    "h2": 4,
+    "h3": 12,
+    "ul": 1,
+    "li": 4
+   },
+   "bodyOrder": "h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 ul h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/ai-customer-experience/",
+   "title": "What is AI's potential when it comes to customer experience?",
+   "h1": "What is AI's potential when it comes to customer experience?",
+   "lastUpdated": "22 July 2023",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 14634,
+    "p": 55,
+    "h2": 7,
+    "ul": 5,
+    "li": 22,
+    "h3": 20
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h3 h3 h3 ul h3 h2 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h2 h3 h3 ul h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/brand-trust/",
+   "title": "What is brand trust, and why is it important?",
+   "h1": "What is brand trust, and why is it important?",
+   "lastUpdated": "25 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 9864,
+    "p": 37,
+    "h2": 6,
+    "h3": 13,
+    "ul": 2,
+    "li": 8
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h2 ul h2 h3 ul h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/churn-rate/",
+   "title": "What is churn rate, and how do you calculate it?",
+   "h1": "What is churn rate, and how do you calculate it?",
+   "lastUpdated": "14 February 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 10863,
+    "p": 45,
+    "ul": 6,
+    "li": 17,
+    "h2": 5,
+    "h3": 18
+   },
+   "bodyOrder": "ul h2 h3 h3 h3 h3 h3 h2 ul h3 h3 h3 h3 ul h2 h3 ul h3 ul h3 h3 h3 h2 h3 h3 h3 h3 h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/what-is-customer-churn-analysis/",
+   "title": "What is customer churn analysis, and why do it?",
+   "h1": "What is customer churn analysis, and why do it?",
+   "lastUpdated": "15 May 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 11642,
+    "p": 73,
+    "h2": 8,
+    "h3": 17,
+    "ul": 1,
+    "li": 4
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h2 h2 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/what-is-cx/",
+   "title": "What is customer experience (CX)?",
+   "h1": "What is customer experience (CX)?",
+   "lastUpdated": "15 February 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 11742,
+    "p": 36,
+    "h2": 11,
+    "h3": 10,
+    "ul": 4,
+    "li": 21
+   },
+   "bodyOrder": "h2 h2 h2 h2 h2 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 ul h2 h2 ul h2 ul ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/what-is-customer-experience-marketing/",
+   "title": "What is customer experience marketing?",
+   "h1": "What is customer experience marketing?",
+   "lastUpdated": "30 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 15267,
+    "p": 46,
+    "h2": 5,
+    "h3": 10,
+    "ul": 6,
+    "li": 24
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 ul h2 h3 ul h3 h3 ul h3 h3 ul h3 h3 ul h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/what-is-customer-intelligence/",
+   "title": "What is customer intelligence (CI), and why do you need it?",
+   "h1": "What is customer intelligence (CI), and why do you need it?",
+   "lastUpdated": "19 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 9969,
+    "p": 42,
+    "ul": 4,
+    "li": 13,
+    "h2": 7,
+    "h3": 20
+   },
+   "bodyOrder": "ul h2 h2 h3 h3 h3 h2 ul h3 h3 h3 h3 h2 h3 ul h3 ul h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-obsession/",
+   "title": "What is customer obsession?",
+   "h1": "What is customer obsession?",
+   "lastUpdated": "2 April 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 27,
+   "bodyShape": {
+    "chars": 10695,
+    "p": 64,
+    "ul": 8,
+    "li": 34,
+    "h2": 9,
+    "h3": 23
+   },
+   "bodyOrder": "ul h2 h3 ul h3 h2 h3 h3 h2 h3 h3 ul h2 h3 ul h3 h3 h2 h3 h3 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 ul h2 h3 h3 ul h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-retention/",
+   "title": "What is customer retention? 9 Proven strategies to keep customers",
+   "h1": "What is customer retention? 9 Proven strategies to keep customers",
+   "lastUpdated": "15 February 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 16653,
+    "p": 62,
+    "h2": 8,
+    "h3": 22,
+    "ul": 2,
+    "li": 12
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 h2 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 ul h2 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-segmentation/",
+   "title": "What is customer segmentation?",
+   "h1": "What is customer segmentation?",
+   "lastUpdated": "11 May 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 8776,
+    "p": 54,
+    "h2": 5,
+    "ul": 3,
+    "li": 11,
+    "h3": 19
+   },
+   "bodyOrder": "h2 h2 ul h3 h3 h3 h3 h3 h2 h3 ul h3 h3 h3 h3 h3 h3 h2 h3 ul h3 h3 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-sentiment/",
+   "title": "What is customer sentiment, and how do you measure it?",
+   "h1": "What is customer sentiment, and how do you measure it?",
+   "lastUpdated": "23 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 9,
+   "bodyShape": {
+    "chars": 9378,
+    "p": 52,
+    "h2": 6,
+    "h3": 7,
+    "ul": 2,
+    "li": 8
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 ul h3 h3 h2 h2 h2 h3 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/product-market-fit/",
+   "title": "What is product-market fit?",
+   "h1": "What is product-market fit?",
+   "lastUpdated": "15 April 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 5,
+   "bodyShape": {
+    "chars": 6824,
+    "p": 28,
+    "h2": 6,
+    "h3": 3
+   },
+   "bodyOrder": "h2 h2 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/what-is-sentiment-analysis-in-marketing/",
+   "title": "What is sentiment analysis in marketing?",
+   "h1": "What is sentiment analysis in marketing?",
+   "lastUpdated": "5 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 9362,
+    "p": 34,
+    "h2": 7,
+    "h3": 13,
+    "ul": 2,
+    "li": 7
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h3 h3 h2 ul h2 h2 h3 h3 h3 h2 ul h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/voice-of-the-customer/",
+   "title": "What is the Voice of the Customer (VoC)?",
+   "h1": "What is the Voice of the Customer (VoC)?",
+   "lastUpdated": "25 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 15859,
+    "p": 48,
+    "h2": 6,
+    "ul": 2,
+    "li": 7,
+    "h3": 19
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 ul h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/time-to-value/",
+   "title": "What is time to value and how can it impact your business?",
+   "h1": "What is time to value and how can it impact your business?",
+   "lastUpdated": "12 May 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 10,
+   "bodyShape": {
+    "chars": 7699,
+    "p": 30,
+    "h2": 7,
+    "ul": 3,
+    "li": 9,
+    "h3": 7
+   },
+   "bodyOrder": "h2 h2 ul h2 ul h2 ul h2 h3 h3 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/topic-modeling/",
+   "title": "What is topic modeling, and how can it help analyze customer data?",
+   "h1": "What is topic modeling, and how can it help analyze customer data?",
+   "lastUpdated": "26 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 13465,
+    "p": 78,
+    "h2": 6,
+    "ul": 7,
+    "li": 50,
+    "ol": 3,
+    "h3": 11
+   },
+   "bodyOrder": "h2 h2 ul ol ol h2 h3 ul h3 ul h3 h2 ul h3 ol ul h2 ul ul h3 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/win-loss-analysis/",
+   "title": "What is win-loss analysis?",
+   "h1": "What is win-loss analysis?",
+   "lastUpdated": "15 April 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 9009,
+    "p": 32,
+    "h2": 7,
+    "h3": 9,
+    "ul": 1,
+    "li": 5
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h3 h3 ul h3 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/what-is-zero-party-data/",
+   "title": "What is zero-party data? Definition, benefits, examples`",
+   "h1": "What is zero-party data? Definition, benefits, examples`",
+   "lastUpdated": "22 August 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 10387,
+    "p": 32,
+    "h2": 9,
+    "ul": 4,
+    "li": 12,
+    "h3": 14
+   },
+   "bodyOrder": "h2 ul h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 ul h3 ul h3 ul h2 h3 h3 h2 h2 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/conversational-analytics/",
+   "title": "What you need to know about conversational analytics",
+   "h1": "What you need to know about conversational analytics",
+   "lastUpdated": "10 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Cathy Heath",
+    "href": "/contributors/cathy-heath/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 10760,
+    "p": 59,
+    "h2": 6,
+    "ul": 5,
+    "li": 20,
+    "h3": 17
+   },
+   "bodyOrder": "h2 ul ul h2 h3 h3 h3 ul h2 ul h3 h3 h3 h3 ul h3 h3 h2 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/customer-loyalty/",
+   "title": "Why is customer loyalty important?",
+   "h1": "Why is customer loyalty important?",
+   "lastUpdated": "28 February 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 13654,
+    "h2": 8,
+    "p": 42,
+    "h3": 13,
+    "ul": 4,
+    "li": 21,
+    "ol": 2
+   },
+   "bodyOrder": "h2 h3 h3 h2 ul h2 ul h2 h2 h3 h3 ol h3 h3 h3 ol h2 ul h2 h3 h3 h3 h3 h3 h3 h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/customer-research/sales-funnel/",
+   "title": "Why is the sales funnel important? How does it work? How should you use one?",
+   "h1": "Why is the sales funnel important? How does it work? How should you use one?",
+   "lastUpdated": "23 March 2024",
+   "author": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "reviewer": null,
+   "tocItems": 8,
+   "bodyShape": {
+    "chars": 14199,
+    "p": 38,
+    "h2": 4,
+    "h3": 4,
+    "ul": 7,
+    "li": 20
+   },
+   "bodyOrder": "h2 h2 h3 h2 ul ul ul ul ul ul h3 h3 h2 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  }
+ ],
+ "sidebarCta": {
+  "heading": "Transcribe and analyze your research",
+  "body": "Upload videos and audio to Dovetail, then analyze interactive transcripts to uncover insights.",
+  "button": {
+   "text": "Contact sales",
+   "href": "/contact-sales/"
+  }
+ }
+}

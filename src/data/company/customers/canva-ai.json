@@ -1,0 +1,310 @@
+{
+ "slug": "canva-ai",
+ "path": "/customers/canva-ai/",
+ "title": "Dovetail helps Canva turn millions of design moments into product decisions that shape how the world designs",
+ "eyebrow": "CUSTOMER / CANVA",
+ "companyName": "Canva",
+ "isAnonymous": false,
+ "industry": "Technology",
+ "intro": {
+  "placeholder": true,
+  "chars": 264
+ },
+ "hero": {
+  "type": "video",
+  "image": "/assets/company/media/Canva_AI_cover.jpg",
+  "width": 1086,
+  "height": 700,
+  "youtubeId": "L9F5ffAjyzw",
+  "caption": [
+   "CRAIG BOUSTRED, DESIGN RESEARCHER",
+   "BECKY WHITE, HEAD OF DESIGN RESEARCH"
+  ]
+ },
+ "stats": [
+  {
+   "value": "200",
+   "label": "paid seats connecting researchers and teams across Canva"
+  },
+  {
+   "value": "7",
+   "label": "workspaces housing years of customer intelligence"
+  },
+  {
+   "value": "1,000+",
+   "label": "research projects completed in Dovetail"
+  }
+ ],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "Designing for hundreds of millions—without losing sight of each one",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 332
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 609
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/Canva_AI.jpg",
+     "alt": "A design team working in Canva’s platform",
+     "w": 2240,
+     "h": 1260
+    }
+   ]
+  },
+  {
+   "heading": "A single home for every customer conversation",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 559
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 141
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 470
+    },
+    {
+     "t": "img",
+     "src": "/media/Canva_AI_interviews.gif",
+     "alt": "",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "pullQuotes": [
+    {
+     "quote": {
+      "placeholder": true,
+      "chars": 169
+     },
+     "name": "Craig Boustred",
+     "role": "Design Researcher",
+     "avatar": "/assets/company/media/Customer_Canva_AI.png",
+     "href": "/customers/canva-ai/"
+    }
+   ]
+  },
+  {
+   "heading": "The moment that changes a room",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 442
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/Highlight_reel.jpeg",
+     "alt": "Dovetail highlight reel showing tagged video moments from customer research",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 354
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 221
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 384
+    }
+   ],
+   "pullQuotes": [
+    {
+     "quote": "“One of my favorite things is seeing people not behave the way we expect them to behave.”",
+     "name": "Craig Boustred",
+     "role": "Design Researcher",
+     "avatar": "/assets/company/media/Customer_Canva_AI.png",
+     "href": "/customers/canva-ai/"
+    }
+   ]
+  },
+  {
+   "heading": "Every Canvanaught, closer to the customer",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 485
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 530
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 430
+    }
+   ],
+   "pullQuotes": [
+    {
+     "quote": {
+      "placeholder": true,
+      "chars": 207
+     },
+     "name": "Becky White",
+     "role": "Head of Design Research",
+     "avatar": "/assets/marketing/Customer_Canva.png",
+     "href": "/customers/canva-ai/"
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": {
+  "quote": {
+   "placeholder": true,
+   "chars": 169
+  },
+  "name": "Craig Boustred",
+  "role": "Design Researcher"
+ },
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "breville",
+   "href": "/customers/breville/",
+   "title": "How customer insights drive and inspire Breville’s product innovation",
+   "industry": "Consumer",
+   "order": 3,
+   "companyName": "Breville",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/Customer_Breville.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/white-logo(3).svg",
+    "alt": "Breville",
+    "w": 132,
+    "h": 32
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 217
+    },
+    "name": "Constance Docos",
+    "role": "Senior UX Designer"
+   }
+  },
+  {
+   "slug": "zapier",
+   "href": "/customers/zapier/",
+   "title": "How Zapier puts customer intelligence in everyone’s hands and gets tens of hours back every week",
+   "industry": "Technology",
+   "order": 11,
+   "companyName": "Zapier",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Zapier.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-zapier-white-logo.svg",
+    "alt": "Zapier",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": "“Dovetail helps us simplify the process of pouring all our customer data and all our insights into one spot.”",
+    "name": "Roy Olende",
+    "role": "Head of UX Research"
+   }
+  },
+  {
+   "slug": "okta",
+   "href": "/customers/okta/",
+   "title": "How Okta built a customer intelligence platform trusted by 200+ users across 30+ teams",
+   "industry": "Technology",
+   "order": 9,
+   "companyName": "Okta",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Okta.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/white-logo(1).svg",
+    "alt": "Okta",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 219
+    },
+    "name": "Jared Forney",
+    "role": "Research Operations Principal"
+   }
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "slug": "whats-new-in-dovetail-IO-launch-2025",
+ "path": "/events/whats-new-in-dovetail-IO-launch-2025/",
+ "title": "What’s new in Dovetail 2025",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2025-05-29T13:00-07:00",
+ "endDate": null,
+ "onlineEvent": true,
+ "location": "Online",
+ "hosts": [
+  "Alissa Lydon",
+  "Cheri March"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": "dvZAN5VRa2s",
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Alissa Lydon, Cheri March"
+  },
+  {
+   "label": "[START]",
+   "value": "29 May 2025 1:00PM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Online"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "video",
+  "image": "/assets/company/media/Webinar_-_What-s_new_IO25_-_Hero.png",
+  "width": 4480,
+  "height": 2520,
+  "youtubeId": "dvZAN5VRa2s"
+ },
+ "body": [
+  {
+   "t": "h2",
+   "text": "About this talk"
+  },
+  {
+   "t": "p",
+   "text": "Make customer intelligence your competitive advantage."
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 362
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 440
+  },
+  {
+   "t": "p",
+   "text": "In this session, you will learn how to:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 83
+    },
+    {
+     "placeholder": true,
+     "chars": 63
+    },
+    {
+     "placeholder": true,
+     "chars": 62
+    },
+    {
+     "placeholder": true,
+     "chars": 71
+    }
+   ]
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

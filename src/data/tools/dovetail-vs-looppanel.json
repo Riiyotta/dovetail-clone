@@ -1,0 +1,725 @@
+{
+ "url": "/dovetail-vs-looppanel/",
+ "template": "comparison",
+ "meta": {
+  "title": "Dovetail vs Looppanel: make every insight go further",
+  "description": "Looppanel helps you move faster through an interview. Dovetail connects transcripts from every source so proof compounds across the organization."
+ },
+ "competitor": "Looppanel",
+ "sections": [
+  {
+   "type": "hero",
+   "eyebrow": "Looppanel Alternative",
+   "h1": "Make every insight go further",
+   "intro": {
+    "placeholder": true,
+    "chars": 392
+   },
+   "ctas": [
+    {
+     "text": "Start a 60-day free trial",
+     "href": "#trial-cta",
+     "newTab": true
+    },
+    {
+     "text": "Book a demo",
+     "href": "/contact-sales/"
+    }
+   ],
+   "note": {
+    "title": "Moving from Looppanel? We’ll help you map the fastest path to Dovetail.",
+    "subtitle": "No credit card required. Bring your research history with you."
+   }
+  },
+  {
+   "type": "heroImage",
+   "src": "/assets/tools/looppanel-hero.png",
+   "originalSrc": "/media/looppanel-hero.png",
+   "alt": "Dovetail AI-powered customer intelligence workspace",
+   "natural": "3024x1200"
+  },
+  {
+   "type": "logoMarquee",
+   "heading": "Connecting the world's leading teams to their customers",
+   "rows": [
+    [
+     {
+      "name": "Breville",
+      "src": "/assets/white-logo(3).svg",
+      "originalSrc": "/customers/breville/white-logo.svg",
+      "alt": "Breville",
+      "natural": "132x32"
+     },
+     {
+      "name": "Atlassian",
+      "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+      "originalSrc": "/customers/atlassian/white-logo.svg",
+      "alt": "Atlassian",
+      "natural": "160x20"
+     },
+     {
+      "name": "Notion",
+      "src": "/assets/marketing/customer-notion-white-logo.svg",
+      "originalSrc": "/customers/notion/white-logo.svg",
+      "alt": "Notion",
+      "natural": "160x72"
+     },
+     {
+      "name": "Okta",
+      "src": "/assets/white-logo(1).svg",
+      "originalSrc": "/customers/okta/white-logo.svg",
+      "alt": "Okta",
+      "natural": "160x72"
+     },
+     {
+      "name": "AWS",
+      "src": "/assets/marketing/customer-aws-white-logo.svg",
+      "originalSrc": "/customers/aws/white-logo.svg",
+      "alt": "AWS",
+      "natural": "160x72"
+     },
+     {
+      "name": "Toyota",
+      "src": "/assets/marketing/customer-toyota-white-logo.svg",
+      "originalSrc": "/customers/toyota/white-logo.svg",
+      "alt": "Toyota",
+      "natural": "160x72"
+     },
+     {
+      "name": "Qantas",
+      "src": "/assets/marketing/customer-qantas-white-logo.svg",
+      "originalSrc": "/customers/qantas/white-logo.svg",
+      "alt": "Qantas",
+      "natural": "160x32"
+     },
+     {
+      "name": "NCRVoyix",
+      "src": "/assets/marketing/customer-ncrvoyix-white-logo.svg",
+      "originalSrc": "/customers/ncrvoyix/white-logo.svg",
+      "alt": "NCRVoyix",
+      "natural": "160x72"
+     }
+    ]
+   ],
+   "note": "Row 1 scrolls left-to-right (ltr), row 2 right-to-left (rtl) with left offset 120px; each row is rendered twice for the loop."
+  },
+  {
+   "type": "intro",
+   "h2": "The research stays yours. The intelligence reaches everyone.",
+   "paragraphs": [
+    {
+     "placeholder": true,
+     "chars": 170
+    },
+    {
+     "placeholder": true,
+     "chars": 310
+    },
+    {
+     "placeholder": true,
+     "chars": 229
+    }
+   ],
+   "ctas": [
+    {
+     "text": "Start a 60-day free trial",
+     "href": "#trial-cta",
+     "newTab": true
+    },
+    {
+     "text": "Book a demo",
+     "href": "/contact-sales/"
+    }
+   ],
+   "image": {
+    "src": "/assets/tools/looppanel-section-1.png",
+    "originalSrc": "/media/looppanel-section-1.png",
+    "alt": "Dovetail research intelligence workspace",
+    "natural": "1232x1400"
+   }
+  },
+  {
+   "type": "teiCard",
+   "eyebrow": "Proven business impact",
+   "text": "Dovetail customers have seen 2.3x ROI, 30 hours saved per user each week, and 66% faster shipping in a commissioned Forrester study.",
+   "link": {
+    "text": "Download the Forrester Total Economic Impact™ Study →",
+    "href": "/resources/industry-reports/2025-forrester-TEI-of-Dovetail/"
+   },
+   "image": {
+    "src": "/assets/tools/forrester-tei-module.png",
+    "originalSrc": "/media/forrester-tei-module.png",
+    "alt": "The Total Economic Impact of Dovetail—Forrester study",
+    "natural": "1016x664"
+   }
+  },
+  {
+   "type": "testimonial",
+   "href": "/customers/achievers/",
+   "tooltip": "Read customer story",
+   "avatar": {
+    "src": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti-4.png",
+    "originalSrc": "/media/Gemini_Generated_Image_57tisi57tisi57ti-4.png",
+    "alt": "",
+    "natural": "720x720"
+   },
+   "quote": {
+    "placeholder": true,
+    "chars": 229
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-achievers-white-logo.svg",
+    "originalSrc": "/customers/achievers/white-logo.svg",
+    "alt": "Achievers",
+    "natural": "143x28"
+   },
+   "name": "Marie-Andrée Turgeon",
+   "role": "Senior Manager of Product Operations",
+   "background": {
+    "src": "/assets/marketing/testimonial-grid-bg.png.png",
+    "originalSrc": "/media/testimonial-grid-bg.png.png",
+    "alt": "Grid background",
+    "natural": "2520x1120"
+   }
+  },
+  {
+   "type": "chooseGrid",
+   "h2": "Built for research that reaches beyond the research team",
+   "p": {
+    "placeholder": true,
+    "chars": 150
+   },
+   "ctas": [
+    {
+     "text": "Start a 60-day free trial",
+     "href": "#trial-cta",
+     "newTab": true
+    },
+    {
+     "text": "Book a demo",
+     "href": "/contact-sales/"
+    }
+   ],
+   "cards": [
+    {
+     "image": {
+      "src": "/assets/tools/looppanel-feature-1.png",
+      "originalSrc": "/media/looppanel-feature-1.png",
+      "alt": "",
+      "natural": "800x560"
+     },
+     "title": "Your research history, made searchable",
+     "text": {
+      "placeholder": true,
+      "chars": 161
+     }
+    },
+    {
+     "image": {
+      "src": "/assets/tools/looppanel-feature-2.png",
+      "originalSrc": "/media/looppanel-feature-2.png",
+      "alt": "",
+      "natural": "800x560"
+     },
+     "title": "Research that reaches the roadmap",
+     "text": "Dovetail connects customer evidence to product decisions, making research a first-class input that gets cited when priorities are set."
+    },
+    {
+     "image": {
+      "src": "/assets/tools/looppanel-feature-3.png",
+      "originalSrc": "/media/looppanel-feature-3.png",
+      "alt": "",
+      "natural": "800x560"
+     },
+     "title": "AI answers grounded in your evidence",
+     "text": "Every AI answer in Dovetail is cited and traceable to its source, so teams can verify before acting—not just trust the output."
+    },
+    {
+     "image": {
+      "src": "/assets/tools/looppanel-feature-4.png",
+      "originalSrc": "/media/looppanel-feature-4.png",
+      "alt": "",
+      "natural": "800x560"
+     },
+     "title": "Signals that update between studies",
+     "text": {
+      "placeholder": true,
+      "chars": 145
+     }
+    },
+    {
+     "image": {
+      "src": "/assets/tools/looppanel-feature-5.png",
+      "originalSrc": "/media/looppanel-feature-5.png",
+      "alt": "",
+      "natural": "800x560"
+     },
+     "title": "Findings that travel across teams",
+     "text": "Surface insights in Slack, Jira, Productboard, and Salesforce—so product, CX, marketing, and sales can all act on what customers are saying."
+    },
+    {
+     "image": {
+      "src": "/assets/tools/looppanel-feature-6.png",
+      "originalSrc": "/media/looppanel-feature-6.png",
+      "alt": "",
+      "natural": "800x560"
+     },
+     "title": "Intelligence without gatekeeping",
+     "text": "Anyone on your team can ask questions and get cited, evidence-backed answers—without filing a research request or waiting for a readout."
+    }
+   ]
+  },
+  {
+   "type": "compareIntro",
+   "h2": "How Dovetail compares to Looppanel",
+   "p": {
+    "placeholder": true,
+    "chars": 208
+   }
+  },
+  {
+   "type": "comparisonTable",
+   "columns": [
+    "",
+    "Dovetail",
+    "Looppanel"
+   ],
+   "tickIcon": "/assets/tools/svg/icon-check-24.svg",
+   "rows": [
+    {
+     "label": "AI-assisted interview analysis",
+     "cells": [
+      {
+       "type": "tick"
+      },
+      {
+       "type": "tick"
+      }
+     ]
+    },
+    {
+     "label": "Transcription and notes",
+     "cells": [
+      {
+       "type": "tick"
+      },
+      {
+       "type": "tick"
+      }
+     ]
+    },
+    {
+     "label": "Question-led analysis",
+     "cells": [
+      {
+       "type": "tick"
+      },
+      {
+       "type": "text",
+       "text": "Yes, through Chat and AI workflows"
+      }
+     ]
+    },
+    {
+     "label": "Conversational querying",
+     "cells": [
+      {
+       "type": "tick"
+      },
+      {
+       "type": "text",
+       "text": "No"
+      }
+     ]
+    },
+    {
+     "label": "Ask follow-up questions across evidence",
+     "cells": [
+      {
+       "type": "tick"
+      },
+      {
+       "type": "text",
+       "text": "Limited, research repository search"
+      }
+     ]
+    },
+    {
+     "label": "AI answers you can verify at the source",
+     "cells": [
+      {
+       "type": "tick"
+      },
+      {
+       "type": "text",
+       "text": "No"
+      }
+     ]
+    },
+    {
+     "label": "Evidence from research, support, sales, and surveys",
+     "cells": [
+      {
+       "type": "tick"
+      },
+      {
+       "type": "text",
+       "text": "No"
+      }
+     ]
+    },
+    {
+     "label": "Channels that continuously monitor customer signals",
+     "cells": [
+      {
+       "type": "tick"
+      },
+      {
+       "type": "text",
+       "text": "No"
+      }
+     ]
+    },
+    {
+     "label": "AI Agents that monitor signals and trigger next steps",
+     "cells": [
+      {
+       "type": "tick"
+      },
+      {
+       "type": "text",
+       "text": "No"
+      }
+     ]
+    },
+    {
+     "label": "Unlimited viewer and stakeholder access",
+     "cells": [
+      {
+       "type": "tick"
+      },
+      {
+       "type": "text",
+       "text": "Enterprise only"
+      }
+     ]
+    },
+    {
+     "label": "US, EU, and APAC data residency",
+     "cells": [
+      {
+       "type": "tick"
+      },
+      {
+       "type": "text",
+       "text": "US and EU"
+      }
+     ]
+    },
+    {
+     "label": "Enterprise security and AI governance",
+     "cells": [
+      {
+       "type": "tick"
+      },
+      {
+       "type": "text",
+       "text": "SOC 2 Type II"
+      }
+     ]
+    },
+    {
+     "label": "Migration support",
+     "cells": [
+      {
+       "type": "tick"
+      },
+      {
+       "type": "text",
+       "text": "Enterprise only"
+      }
+     ]
+    }
+   ],
+   "note": "Only tick icons are used on the live site; there are no cross icons. Non-tick cells are plain text."
+  },
+  {
+   "type": "awardsMarquee",
+   "direction": "rtl",
+   "items": [
+    {
+     "badge": {
+      "src": "/assets/tools/buyer-s-choice-2026-flat.svg",
+      "originalSrc": "/media/buyer-s-choice-2026-flat.svg",
+      "alt": "",
+      "natural": null
+     },
+     "title": "Buyer's choice award",
+     "source": "Trust radius, 2026"
+    },
+    {
+     "badge": {
+      "src": "/assets/tools/getapp-category-leader.svg",
+      "originalSrc": "/media/getapp-category-leader.svg",
+      "alt": "",
+      "natural": null
+     },
+     "title": "Category Leader",
+     "source": "GetApp's category leaders 2025"
+    },
+    {
+     "badge": {
+      "src": "/assets/tools/Group_427321620.svg",
+      "originalSrc": "/media/Group_427321620.svg",
+      "alt": "",
+      "natural": null
+     },
+     "title": "Top UX Research Product",
+     "source": "Proddy awards by product school"
+    },
+    {
+     "badge": {
+      "src": "/assets/tools/g2-high-performer-enterprise-summer-2026.png",
+      "originalSrc": "/media/g2-high-performer-enterprise-summer-2026.png",
+      "alt": "",
+      "natural": null
+     },
+     "title": "High Performer",
+     "source": "g2, summer 2026"
+    },
+    {
+     "badge": {
+      "src": "/assets/tools/tech-cares-2026-flat.webp",
+      "originalSrc": "/media/tech-cares-2026-flat.webp",
+      "alt": "",
+      "natural": null
+     },
+     "title": "Tech Cares",
+     "source": "Trust radius, 2026"
+    },
+    {
+     "badge": {
+      "src": "/assets/tools/tech-cares-2025-gradient_1.svg",
+      "originalSrc": "/media/tech-cares-2025-gradient_1.svg",
+      "alt": "",
+      "natural": null
+     },
+     "title": "Tech Cares",
+     "source": "Trust radius, 2025"
+    },
+    {
+     "badge": {
+      "src": "/assets/tools/g2-momentum-leader-summer-2026.png",
+      "originalSrc": "/media/g2-momentum-leader-summer-2026.png",
+      "alt": "",
+      "natural": null
+     },
+     "title": "Momentum Leader",
+     "source": "g2, summer 2026"
+    },
+    {
+     "badge": {
+      "src": "/assets/tools/top-rated-2026-flat.png",
+      "originalSrc": "/media/top-rated-2026-flat.png",
+      "alt": "",
+      "natural": null
+     },
+     "title": "Top Rated",
+     "source": "Trust radius, 2026"
+    },
+    {
+     "badge": {
+      "src": "/assets/tools/g2-leader-summer-2026.png",
+      "originalSrc": "/media/g2-leader-summer-2026.png",
+      "alt": "",
+      "natural": null
+     },
+     "title": "Leader",
+     "source": "g2, summer 2026"
+    },
+    {
+     "badge": {
+      "src": "/assets/tools/g2-best-relationship-summer-2026.png",
+      "originalSrc": "/media/g2-best-relationship-summer-2026.png",
+      "alt": "",
+      "natural": null
+     },
+     "title": "Best Relationship",
+     "source": "g2, summer 2026"
+    },
+    {
+     "badge": {
+      "src": "/assets/tools/g2-best-roi-summer-2026.png",
+      "originalSrc": "/media/g2-best-roi-summer-2026.png",
+      "alt": "",
+      "natural": null
+     },
+     "title": "Best Estimated ROI",
+     "source": "g2, summer 2026"
+    },
+    {
+     "badge": {
+      "src": "/assets/tools/g2-fastest-implementation-summer-2026.png",
+      "originalSrc": "/media/g2-fastest-implementation-summer-2026.png",
+      "alt": "",
+      "natural": null
+     },
+     "title": "Fastest Implementation",
+     "source": "g2, summer 2026"
+    }
+   ]
+  },
+  {
+   "type": "customerStory",
+   "h2": "SmartRecruiters uses Dovetail to make research easier to find, share, and build on",
+   "stats": [
+    "7 tools down to 1",
+    "100+ team members sharing customer intelligence",
+    "100s of hours of customer data, all in Dovetail"
+   ],
+   "quote": {
+    "placeholder": true,
+    "chars": 224
+   },
+   "attributionLines": [
+    "Danielle Reid, Senior Designer Manager",
+    "SmartRecruiters, an SAP company"
+   ],
+   "attributionNote": "two lines separated by <br>",
+   "ctas": [
+    {
+     "text": "Start a 60-day free trial",
+     "href": "#trial-cta",
+     "newTab": true
+    },
+    {
+     "text": "Book a demo",
+     "href": "/contact-sales/"
+    }
+   ],
+   "image": {
+    "src": "/assets/tools/looppanel-smart-recruiters.png",
+    "originalSrc": "/media/looppanel-smart-recruiters.png",
+    "alt": "SmartRecruiters customer intelligence with Dovetail",
+    "natural": null
+   }
+  },
+  {
+   "type": "migrate",
+   "h2": "Your research history moves with you",
+   "p": {
+    "placeholder": true,
+    "chars": 256
+   },
+   "ctas": [
+    {
+     "text": "Start a 60-day free trial",
+     "href": "#trial-cta",
+     "newTab": true
+    },
+    {
+     "text": "Book a demo",
+     "href": "/contact-sales/"
+    }
+   ],
+   "features": [
+    {
+     "icon": "/assets/tools/svg/migrate-guided-setup.svg",
+     "title": "Guided setup",
+     "text": "Bring your research history and get support setting up a workspace your team can use right away."
+    },
+    {
+     "icon": "/assets/tools/svg/migrate-searchable-history.svg",
+     "title": "Searchable history",
+     "text": "Make interviews, notes, findings, and feedback easy to query."
+    },
+    {
+     "icon": "/assets/tools/svg/migrate-unlimited-viewers.svg",
+     "title": "Unlimited viewers",
+     "text": "Give every team access to intelligence without seat limits."
+    },
+    {
+     "icon": "/assets/tools/svg/migrate-connected-workflows.svg",
+     "title": "Connected workflows",
+     "text": "Link customer evidence to the tools teams already use."
+    }
+   ]
+  },
+  {
+   "type": "trialCta",
+   "id": "trial-cta",
+   "h2": "Transform research into customer intelligence",
+   "p": {
+    "placeholder": true,
+    "chars": 194
+   },
+   "ctas": [
+    {
+     "text": "Start a 60-day free trial",
+     "href": "/auth/signup?promo=ENTERPRISE_SOLUTIONS_2026_D60",
+     "newTab": true
+    },
+    {
+     "text": "Book a demo",
+     "href": "/contact-sales/"
+    }
+   ],
+   "checklist": [
+    "60 days full access, no feature limits",
+    "Onboarding support from a research specialist",
+    "Full export if you decide not to continue"
+   ],
+   "checkIcon": "/assets/tools/svg/icon-check-trial-24.svg",
+   "background": "/assets/marketing/solution-trial-grid-bg.svg"
+  },
+  {
+   "type": "faq",
+   "heading": "FAQs",
+   "items": [
+    {
+     "question": "Can Dovetail replace Looppanel?",
+     "answer": {
+      "placeholder": true,
+      "chars": 301
+     }
+    },
+    {
+     "question": "How does Dovetail compare to Looppanel’s in-interview transcription and analysis?",
+     "answer": {
+      "placeholder": true,
+      "chars": 318
+     }
+    },
+    {
+     "question": "Can I migrate my research from Looppanel to Dovetail?",
+     "answer": {
+      "placeholder": true,
+      "chars": 278
+     }
+    },
+    {
+     "question": "How does Dovetail make past research easy to find months later?",
+     "answer": {
+      "placeholder": true,
+      "chars": 273
+     }
+    },
+    {
+     "question": "Can I query a customer instead of re-reading every transcript?",
+     "answer": {
+      "placeholder": true,
+      "chars": 275
+     }
+    },
+    {
+     "question": "How long does it take to get started with Dovetail?",
+     "answer": {
+      "placeholder": true,
+      "chars": 232
+     }
+    }
+   ]
+  }
+ ],
+ "finalCta": false
+}

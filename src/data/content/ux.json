@@ -1,0 +1,5156 @@
+{
+ "source": "https://dovetail.com/ux/",
+ "template": "guide-hub",
+ "categoryName": "User experience (UX)",
+ "hubPath": "/ux/",
+ "pillar": {
+  "h1": "What is user experience (UX) design?",
+  "pageTitle": "What is User Experience (UX) Design? Definitive Guide",
+  "metaDescription": "Learn everything there is to know about user experience design and the best practices to propel your UX design journey forward in 2025.",
+  "meta": [
+   {
+    "label": "Last updated",
+    "values": [
+     {
+      "text": "16 October 2025",
+      "href": null
+     }
+    ]
+   },
+   {
+    "label": "Author",
+    "values": [
+     {
+      "text": "Chloe Garnham",
+      "href": "/contributors/chloe-garnham/"
+     }
+    ]
+   },
+   {
+    "label": "Reviewed by",
+    "values": [
+     {
+      "text": "Katie Reed",
+      "href": "/contributors/katie-reed/"
+     }
+    ]
+   }
+  ],
+  "tocItems": 9,
+  "bodyShape": {
+   "chars": 12291,
+   "p": 71,
+   "h2": 17,
+   "ul": 7,
+   "li": 46,
+   "ol": 3,
+   "h3": 2
+  },
+  "bodyOrder": "h2 h2 ul h2 h2 ul h2 ul h2 h2 ul h2 h2 ul h2 ol h3 h2 h2 ol ol h2 h3 ul h2 h2 h2 ul h2"
+ },
+ "editorsPicks": [
+  {
+   "href": "/ux/ux-research-conferences-2024/",
+   "title": "Must-attend UX research conferences in 2026 and 2027",
+   "date": "30 August 2026"
+  },
+  {
+   "href": "/ux/ux-design-trends-2024/",
+   "title": "Top 10 UX design trends to know about",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/ux/heuristics/",
+   "title": "The ultimate guide to heuristics",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/ux/gestalt-principles/",
+   "title": "Using gestalt principles to create more effective designs",
+   "date": "11 June 2026"
+  }
+ ],
+ "latestArticles": [
+  {
+   "href": "/ux/usability-testing-non-deterministic-ai-agent-features/",
+   "title": "How to design usability studies for AI agent features with non-deterministic outputs",
+   "date": "13 October 2026"
+  },
+  {
+   "href": "/ux/unmoderated-usability-tests-complex-enterprise-dashboards/",
+   "title": "How to design unmoderated usability tests for complex enterprise dashboards",
+   "date": "6 October 2026"
+  },
+  {
+   "href": "/ux/comparative-usability-benchmark-studies-across-releases/",
+   "title": "How to run comparative usability benchmark studies across multiple product releases to quantify UX improvement over time",
+   "date": "22 September 2026"
+  },
+  {
+   "href": "/ux/ai-tools-for-ux-research/",
+   "title": "25 AI Tools for UX research in 2026 (and which one fits your team)",
+   "date": "14 September 2026"
+  },
+  {
+   "href": "/ux/what-is-usability-testing/",
+   "title": "What you need to know about usability testing",
+   "date": "14 September 2026"
+  },
+  {
+   "href": "/ux/usability-testing-tools/",
+   "title": "The best usability testing tools in 2026",
+   "date": "14 September 2026"
+  },
+  {
+   "href": "/ux/best-user-research-tools/",
+   "title": "The best user research tools in 2026",
+   "date": "14 September 2026"
+  },
+  {
+   "href": "/ux/unmoderated-usability-testing-complex-enterprise-b2b-workflows/",
+   "title": "How to run unmoderated usability tests for complex enterprise B2B workflows",
+   "date": "1 September 2026"
+  }
+ ],
+ "relatedTopics": [
+  {
+   "href": "/customer-research/",
+   "text": "Customer research"
+  },
+  {
+   "href": "/design-thinking/",
+   "text": "Design thinking"
+  },
+  {
+   "href": "/employee-experience/",
+   "text": "Employee experience"
+  },
+  {
+   "href": "/enterprise/",
+   "text": "Enterprise"
+  },
+  {
+   "href": "/market-research/",
+   "text": "Market research"
+  },
+  {
+   "href": "/patient-experience/",
+   "text": "Patient experience"
+  },
+  {
+   "href": "/product-development/",
+   "text": "Product development"
+  },
+  {
+   "href": "/product-management/",
+   "text": "Product management"
+  },
+  {
+   "href": "/research-maturity-assessment/",
+   "text": "Research maturity assessment"
+  },
+  {
+   "href": "/research/",
+   "text": "Research methods"
+  },
+  {
+   "href": "/surveys/",
+   "text": "Surveys"
+  }
+ ],
+ "allArticlesHeading": "All User experience (UX) articles",
+ "note": "articles[] = the \"All <category> articles\" A-Z list rendered after the footer on the hub page (order as on site). title = list title; h1 = the article page H1 (can differ). Article pages show the hub editorsPicks/latestArticles unless editorsPicksOverride/latestArticlesOverride (href lists; titles/dates resolvable from articles[] / hub carousels) is set for that article. No thumbnails exist for guide articles. sidebarCta = the desktop sidebar promo shown on every article of this hub (not on the hub pillar page itself).",
+ "routesNotInList": [],
+ "articles": [
+  {
+   "path": "/ux/best-ux-design-bootcamps/",
+   "title": "10 best UX design bootcamps",
+   "h1": "10 best UX design bootcamps",
+   "lastUpdated": "7 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 19753,
+    "p": 176,
+    "h2": 5,
+    "ul": 15,
+    "li": 83,
+    "h3": 22,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 h3 ul ul h3 ul h3 ul h3 ul ul h3 ul h3 ul h3 ul h3 ul h3 ol ul h3 ul h2 h3 h3 h3 h3 h3 ul h3 ul h3 h2 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/recruiting-participants-for-research/",
+   "title": "10 Strategies for effective participant recruitment in UX research",
+   "h1": "10 Strategies for effective participant recruitment in UX research",
+   "lastUpdated": "1 June 2023",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 19433,
+    "p": 48,
+    "h2": 5,
+    "ul": 11,
+    "li": 51,
+    "h3": 13,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 ul ul h2 h3 h3 ul h3 ul h3 ol h3 h3 ul h3 ul h3 ul h3 ul h3 ul ul h2 h2 h3 h3 h3 ul",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/steps-to-create-a-usability-testing-plan/",
+   "title": "11 steps for creating a usability testing plan that works",
+   "h1": "11 steps for creating a usability testing plan that works",
+   "lastUpdated": "1 February 2025",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 12918,
+    "p": 40,
+    "ul": 8,
+    "li": 40,
+    "h2": 6,
+    "h3": 11,
+    "ol": 1
+   },
+   "bodyOrder": "ul h2 ul h2 h2 ul h2 h3 ul h3 h3 h3 h3 ul h3 ol h3 ul ul h3 h3 h3 h3 h2 ul h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/inspiration-for-designers/",
+   "title": "12 sources of inspiration for designers",
+   "h1": "12 sources of inspiration for designers",
+   "lastUpdated": "14 May 2023",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 9529,
+    "p": 43,
+    "h2": 3,
+    "h3": 16
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/improving-patient-experience/",
+   "title": "13 actionable steps for improving patient experience",
+   "h1": "13 actionable steps for improving patient experience",
+   "lastUpdated": "21 June 2023",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 12408,
+    "p": 66,
+    "h2": 4,
+    "ul": 4,
+    "li": 12,
+    "h3": 16
+   },
+   "bodyOrder": "h2 ul h2 ul h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 ul h3 ul h3 h3 h3 h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/cro-metrics-guide/",
+   "title": "13 essential CRO metrics for measuring success",
+   "h1": "13 essential CRO metrics for measuring success",
+   "lastUpdated": "26 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 27,
+   "bodyShape": {
+    "chars": 12493,
+    "p": 63,
+    "h2": 6,
+    "h3": 21
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ux-statistics/",
+   "title": "14 eye-opening UX statistics that will transform your website design",
+   "h1": "14 eye-opening UX statistics that will transform your website design",
+   "lastUpdated": "31 January 2025",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 8392,
+    "p": 30,
+    "h2": 15,
+    "ol": 1,
+    "li": 11,
+    "ul": 3
+   },
+   "bodyOrder": "h2 h2 ol h2 ul h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 ul h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ux-design-examples/",
+   "title": "21 ingenious UX design examples for inspiration",
+   "h1": "21 ingenious UX design examples for inspiration",
+   "lastUpdated": "18 January 2023",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 10641,
+    "p": 68,
+    "h2": 21
+   },
+   "bodyOrder": "h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ai-tools-for-ux-research/",
+   "title": "25 AI Tools for UX research in 2026 (and which one fits your team)",
+   "h1": "25 AI Tools for UX research in 2026 (and which one fits your team)",
+   "lastUpdated": "14 September 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 35,
+   "bodyShape": {
+    "chars": 21714,
+    "p": 96,
+    "h2": 7,
+    "ol": 1,
+    "li": 22,
+    "h3": 33,
+    "ul": 4,
+    "table": 2
+   },
+   "bodyOrder": "h2 h2 ol h3 ul h3 ul h2 h3 table h3 table h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2 ul ul h2 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": [
+    "/ux/usability-testing-non-deterministic-ai-agent-features/",
+    "/ux/unmoderated-usability-tests-complex-enterprise-dashboards/",
+    "/ux/comparative-usability-benchmark-studies-across-releases/",
+    "/ux/what-is-usability-testing/",
+    "/ux/usability-testing-tools/",
+    "/ux/best-user-research-tools/",
+    "/ux/unmoderated-usability-testing-complex-enterprise-b2b-workflows/",
+    "/ux/ai-for-qualitative-data-analysis/"
+   ]
+  },
+  {
+   "path": "/ux/ux-research-job-interview-questions/",
+   "title": "32 common UX job interview questions with example answers",
+   "h1": "32 common UX job interview questions with example answers",
+   "lastUpdated": "11 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 13776,
+    "p": 61,
+    "h2": 6,
+    "ul": 7,
+    "li": 45,
+    "h3": 7
+   },
+   "bodyOrder": "h2 ul h3 h2 ul h3 h2 ul h3 h2 ul h3 h2 h3 ul h3 ul h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/research-topics/",
+   "title": "6 tips on choosing a research topic",
+   "h1": "6 tips on choosing a research topic",
+   "lastUpdated": "18 January 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 6,
+   "bodyShape": {
+    "chars": 4308,
+    "p": 16,
+    "h2": 6
+   },
+   "bodyOrder": "h2 h2 h2 h2 h2 h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/list-of-usability-testing-metrics/",
+   "title": "7 usability metrics you should be tracking",
+   "h1": "7 usability metrics you should be tracking",
+   "lastUpdated": "19 November 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 9924,
+    "p": 41,
+    "h2": 7,
+    "ul": 4,
+    "li": 16,
+    "h3": 14
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 h2 h2 h3 ul h3 h3 h3 ul",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/customer-experience-software/",
+   "title": "8 best customer experience software solutions",
+   "h1": "8 best customer experience software solutions",
+   "lastUpdated": "14 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 29,
+   "bodyShape": {
+    "chars": 18928,
+    "p": 104,
+    "h2": 7,
+    "ul": 14,
+    "li": 68,
+    "h3": 26
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 ul h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 ul h3 ul h3 ul ul h3 ul h3 ul ul h3 ul h3 ul h3 ul h2 h2 h3 ul h3 ul h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-is-preference-testing/",
+   "title": "A complete guide to UX preference testing",
+   "h1": "A complete guide to UX preference testing",
+   "lastUpdated": "26 February 2024",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 14105,
+    "p": 72,
+    "h2": 6,
+    "h3": 10,
+    "ul": 6,
+    "li": 25
+   },
+   "bodyOrder": "h2 h3 h2 ul h2 ul h2 h3 ul h3 ul h3 ul h3 ul h2 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/design-research/",
+   "title": "A comprehensive guide to understanding design research",
+   "h1": "A comprehensive guide to understanding design research",
+   "lastUpdated": "27 March 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Katie Reed",
+    "href": "/contributors/katie-reed/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 12269,
+    "p": 45,
+    "h2": 6,
+    "h3": 22
+   },
+   "bodyOrder": "h2 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/human-centered-design/",
+   "title": "A guide to human-centered design",
+   "h1": "A guide to human-centered design",
+   "lastUpdated": "20 March 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 9,
+   "bodyShape": {
+    "chars": 8388,
+    "p": 25,
+    "h2": 7,
+    "h3": 7,
+    "ul": 1,
+    "li": 7
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h2 h2 h2 h2 h3 h3 ul h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/predictive-analysis/",
+   "title": "A guide to predictive analytics",
+   "h1": "A guide to predictive analytics",
+   "lastUpdated": "27 April 2023",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 27,
+   "bodyShape": {
+    "chars": 13027,
+    "p": 64,
+    "h2": 7,
+    "h3": 24,
+    "ul": 1,
+    "li": 13,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 ul h3 h2 h3 h3 h3 h3 h2 h2 h3 ol h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-is-tree-testing/",
+   "title": "A guide to tree testing in UX design",
+   "h1": "A guide to tree testing in UX design",
+   "lastUpdated": "27 April 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 12288,
+    "p": 43,
+    "h2": 5,
+    "ul": 5,
+    "li": 26,
+    "h3": 14
+   },
+   "bodyOrder": "h2 ul h2 ul h2 ul h2 h3 ul h3 h3 h3 h3 h3 h3 h3 ul h2 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ai-in-ux-research/",
+   "title": "A guide to using AI in UX research",
+   "h1": "A guide to using AI in UX research",
+   "lastUpdated": "22 June 2023",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 28,
+   "bodyShape": {
+    "chars": 14882,
+    "p": 90,
+    "h2": 7,
+    "h3": 25,
+    "ul": 13,
+    "li": 51
+   },
+   "bodyOrder": "h2 h3 ul h3 h3 ul h3 ul h3 h3 ul h2 h3 h3 h3 h3 h3 h3 h2 h3 ul h3 h3 ul h3 ul h3 h2 h3 ul h3 h3 h3 h3 h2 ul h2 ul h2 h3 ul h3 ul h3 ul",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/customer-experience-in-financial-services/",
+   "title": "A practical guide to CX in financial services",
+   "h1": "A practical guide to CX in financial services",
+   "lastUpdated": "25 November 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 12919,
+    "p": 45,
+    "h2": 4,
+    "h3": 14,
+    "ul": 3,
+    "li": 11
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h3 ul h3 ul h3 h3 h2 h3 h3 h3 h3 h3 ul h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ui-enterprise/",
+   "title": "A quick guide to enterprise UI design",
+   "h1": "A quick guide to enterprise UI design",
+   "lastUpdated": "11 March 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 6389,
+    "p": 29,
+    "h2": 8,
+    "h3": 4,
+    "ol": 1,
+    "li": 29,
+    "ul": 13
+   },
+   "bodyOrder": "h2 h2 h3 h3 h2 ol h2 ul ul ul ul ul ul h2 ul ul ul h2 ul h3 h2 ul ul h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/user-scenarios/",
+   "title": "A step-by-step guide to designing effective user scenarios",
+   "h1": "A step-by-step guide to designing effective user scenarios",
+   "lastUpdated": "31 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 13482,
+    "p": 72,
+    "h3": 17,
+    "ul": 6,
+    "li": 35,
+    "h2": 7,
+    "ol": 1
+   },
+   "bodyOrder": "h3 ul h3 h3 h2 ul h2 ol h2 h3 ul h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 ul h2 ul h2 ul h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/how-to-write-a-usability-testing-script/",
+   "title": "A step-by-step guide to writing an effective usability test script",
+   "h1": "A step-by-step guide to writing an effective usability test script",
+   "lastUpdated": "3 December 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 33,
+   "bodyShape": {
+    "chars": 18155,
+    "p": 73,
+    "h2": 8,
+    "ul": 8,
+    "li": 31,
+    "h3": 31
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 ul h3 h3 ul h3 ul h3 ul h3 ul h3 ul h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/principle-of-least-surprise/",
+   "title": "A UX designer's guide to the Principle of Least Surprise",
+   "h1": "A UX designer's guide to the Principle of Least Surprise",
+   "lastUpdated": "12 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 10744,
+    "p": 33,
+    "h2": 3,
+    "h3": 11,
+    "ul": 3,
+    "li": 14
+   },
+   "bodyOrder": "h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 ul h2 ul h3 ul h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-is-ux-research/",
+   "title": "All you need to know about UX research",
+   "h1": "All you need to know about UX research",
+   "lastUpdated": "21 February 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 30,
+   "bodyShape": {
+    "chars": 16313,
+    "p": 62,
+    "ul": 9,
+    "li": 61,
+    "h2": 8,
+    "h3": 22,
+    "ol": 1
+   },
+   "bodyOrder": "ul h2 h2 h3 h3 h3 ul h2 ul h2 h3 ul h3 ul h3 ul h3 ul h3 h3 h3 h2 h3 h3 ol h3 h2 h3 h3 h3 h3 ul h2 h3 h3 h3 ul h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/qualitative-and-quantitative-data-in-ux-research/",
+   "title": "Balancing qualitative and quantitative data in UX research: Our full guide",
+   "h1": "Balancing qualitative and quantitative data in UX research: Our full guide",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 32,
+   "bodyShape": {
+    "chars": 17682,
+    "p": 85,
+    "h2": 10,
+    "ul": 6,
+    "li": 34,
+    "h3": 26
+   },
+   "bodyOrder": "h2 ul ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h2 ul h2 h3 h3 h3 h2 h3 ul h3 h3 h3 ul h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h2 h2 h3 h3 ul h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/user-research-methods/",
+   "title": "Best 9 user research methods",
+   "h1": "Best 9 user research methods",
+   "lastUpdated": "31 January 2023",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 16285,
+    "p": 72,
+    "h2": 5,
+    "ul": 7,
+    "li": 33,
+    "h3": 10,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h2 h3 ul h3 ul h3 ol h3 ul h3 ul h3 h3 ul h3 h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/userzoom-alternatives/",
+   "title": "Best UserZoom alternatives",
+   "h1": "Best UserZoom alternatives",
+   "lastUpdated": "30 September 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 29,
+   "bodyShape": {
+    "chars": 15621,
+    "p": 178,
+    "h2": 5,
+    "h3": 24,
+    "ul": 15,
+    "li": 137,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h3 ul h3 ul h2 h3 h3 h3 h2 h3 h3 h3 ul h3 h3 ul h3 h3 h3 h2 h3 ul h3 ul h3 ul h3 ul h3 ul ol h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/how-to-calculate-lost-revenue-from-poor-ux/",
+   "title": "Calculating the costs of poor UX design",
+   "h1": "Calculating the costs of poor UX design",
+   "lastUpdated": "15 November 2024",
+   "author": {
+    "name": "Claudia Natasia",
+    "href": "/contributors/claudia-natasia/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 7401,
+    "p": 30,
+    "h2": 3,
+    "h3": 10
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/customer-experience-manager/",
+   "title": "Career guide: Customer experience manager",
+   "h1": "Career guide: Customer experience manager",
+   "lastUpdated": "3 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 26,
+   "bodyShape": {
+    "chars": 9899,
+    "p": 34,
+    "h2": 8,
+    "h3": 20
+   },
+   "bodyOrder": "h2 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h2 h2 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/customer-experience-specialist/",
+   "title": "Career guide: Customer experience specialist",
+   "h1": "Career guide: Customer experience specialist",
+   "lastUpdated": "22 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 10,
+   "bodyShape": {
+    "chars": 10059,
+    "p": 35,
+    "h2": 7,
+    "ul": 3,
+    "li": 19,
+    "h3": 6
+   },
+   "bodyOrder": "h2 h2 ul ul h2 h3 h3 h3 h3 h2 h2 ul h2 h2 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ai-in-ux-design/",
+   "title": "Complete guide to AI in UX design",
+   "h1": "Complete guide to AI in UX design",
+   "lastUpdated": "31 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 32,
+   "bodyShape": {
+    "chars": 15437,
+    "p": 93,
+    "h2": 7,
+    "h3": 30,
+    "ul": 1,
+    "li": 5
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 ul h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/user-interviews/",
+   "title": "Comprehensive guide to conducting user interviews",
+   "h1": "Comprehensive guide to conducting user interviews",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Katie Reed",
+    "href": "/contributors/katie-reed/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 12677,
+    "p": 56,
+    "h2": 9,
+    "ul": 10,
+    "li": 40,
+    "h3": 16,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h3 ul h2 ul ul h2 h3 h3 h2 h3 ul h3 h3 ul h3 h2 h3 h3 h3 h3 h3 ul ul h3 h3 h3 h3 h2 ul h2 ul h2 ol h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/cognitive-walkthrough/",
+   "title": "Conduct a cognitive walkthrough in 9 steps",
+   "h1": "Conduct a cognitive walkthrough in 9 steps",
+   "lastUpdated": "27 April 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 8090,
+    "p": 43,
+    "h2": 8,
+    "h3": 16,
+    "ol": 3,
+    "li": 3
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h3 h2 h2 h2 h3 h3 h3 h3 h2 h2 h2 h3 h3 ol ol ol h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ux-competitor-analysis/",
+   "title": "Conducting a UX competitor analysis for improved user experience",
+   "h1": "Conducting a UX competitor analysis for improved user experience",
+   "lastUpdated": "14 March 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 12322,
+    "p": 49,
+    "h2": 7,
+    "h3": 15
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/cx-team/",
+   "title": "Customer experience (CX) teams: What you need to know",
+   "h1": "Customer experience (CX) teams: What you need to know",
+   "lastUpdated": "15 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 9819,
+    "p": 50,
+    "h2": 8,
+    "ul": 7,
+    "li": 36,
+    "h3": 15
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 ul ul h2 h3 h3 h2 h3 h3 ul h3 h3 h3 h3 h2 ul h3 h3 h3 ul h3 ul h2 h2 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/customer-experience-in-banking-trends/",
+   "title": "Customer experience in banking: 13 top insights",
+   "h1": "Customer experience in banking: 13 top insights",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 14574,
+    "p": 65,
+    "h2": 6,
+    "h3": 22
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h2 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/customer-journey-management/",
+   "title": "Customer journey management: A quick guide",
+   "h1": "Customer journey management: A quick guide",
+   "lastUpdated": "14 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 30,
+   "bodyShape": {
+    "chars": 12624,
+    "p": 81,
+    "h2": 8,
+    "h3": 22,
+    "ul": 3,
+    "li": 8
+   },
+   "bodyOrder": "h2 h2 h2 h2 h3 h3 h3 h3 h3 h3 h2 ul h3 h3 h3 h2 h3 h3 h3 ul h2 h3 h3 ul h3 h3 h2 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/cx-vs-ux/",
+   "title": "CX vs. UX: How they differ and why you need both",
+   "h1": "CX vs. UX: How they differ and why you need both",
+   "lastUpdated": "29 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 9790,
+    "p": 49,
+    "h2": 9,
+    "ul": 6,
+    "li": 20,
+    "h3": 17
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 ul h3 ul h3 h2 ul h3 h3 h2 h2 h3 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/list-of-design-conferences/",
+   "title": "Design conferences you can’t miss in 2026 and 2027",
+   "h1": "Design conferences you can’t miss in 2026 and 2027",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 10844,
+    "p": 54,
+    "h2": 6,
+    "h3": 17,
+    "ul": 1,
+    "li": 6
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h2 ul h2 h3 h3 h3 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/design-systems/",
+   "title": "Design system: Ultimate guide with examples",
+   "h1": "Design system: Ultimate guide with examples",
+   "lastUpdated": "27 February 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 8732,
+    "p": 45,
+    "h2": 6,
+    "ul": 8,
+    "li": 57,
+    "ol": 1,
+    "h3": 10
+   },
+   "bodyOrder": "h2 ul ul h2 h2 ol h2 h3 h3 h3 h2 h3 h3 h3 h2 h3 ul ul h3 ul ul h3 ul h3 ul",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/empathy-map/",
+   "title": "Empathy mapping 101: Create experiences users love",
+   "h1": "Empathy mapping 101: Create experiences users love",
+   "lastUpdated": "31 January 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 10,
+   "bodyShape": {
+    "chars": 8996,
+    "p": 31,
+    "h2": 5,
+    "h3": 12,
+    "ul": 5,
+    "li": 22
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 ul h2 h3 ul h3 h3 ul h2 h3 h3 h3 ul h3 h3 h3 ul",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/scannability/",
+   "title": "Enhancing scannability in UX for a seamless user journey",
+   "h1": "Enhancing scannability in UX for a seamless user journey",
+   "lastUpdated": "20 March 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 9364,
+    "p": 44,
+    "h2": 7,
+    "ul": 4,
+    "li": 17,
+    "h3": 12
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 ul h3 h3 h3 h3 h2 ul h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/data-quality-in-ux-research/",
+   "title": "Ensuring data quality in UX research: best practices and pitfalls to avoid",
+   "h1": "Ensuring data quality in UX research: best practices and pitfalls to avoid",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": null,
+   "tocItems": 30,
+   "bodyShape": {
+    "chars": 12064,
+    "p": 50,
+    "h2": 9,
+    "ul": 2,
+    "li": 15,
+    "h3": 25
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 ul h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ux-metrics/",
+   "title": "Essential UX metrics to track for your next project",
+   "h1": "Essential UX metrics to track for your next project",
+   "lastUpdated": "14 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 10480,
+    "p": 51,
+    "h2": 3,
+    "h3": 9,
+    "ul": 1,
+    "li": 6
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/customer-persona/",
+   "title": "Five steps to create your customer persona",
+   "h1": "Five steps to create your customer persona",
+   "lastUpdated": "28 February 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 14081,
+    "p": 60,
+    "h2": 5,
+    "ul": 9,
+    "li": 48,
+    "h3": 11
+   },
+   "bodyOrder": "h2 ul h3 h2 h2 ul h2 h3 ul ul ul ul ul h3 h3 ul h3 h3 h3 h2 h3 ul h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ai-for-qualitative-data-analysis/",
+   "title": "Get ahead of the game: The top AI qualitative data analysis tools",
+   "h1": "Get ahead of the game: The top AI qualitative data analysis tools",
+   "lastUpdated": "31 August 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Hugh Good",
+    "href": "/contributors/hugh-good/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 16162,
+    "p": 78,
+    "h2": 5,
+    "h3": 22,
+    "ul": 34,
+    "li": 105,
+    "table": 1
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 ul h2 h3 h3 h3 h2 table h3 ul ul ul h3 ul ul ul h3 ul ul ul h3 ul ul ul h3 ul ul ul h3 ul ul ul h3 ul ul ul h3 ul ul ul h3 ul ul ul h3 ul ul ul h3 ul ul ul h2 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ux-writing/",
+   "title": "Getting started with UX writing",
+   "h1": "Getting started with UX writing",
+   "lastUpdated": "13 April 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 8,
+   "bodyShape": {
+    "chars": 12626,
+    "p": 45,
+    "h2": 7,
+    "ul": 10,
+    "li": 57,
+    "h3": 7,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 ul h3 ul ul h3 ul h2 ul ul h2 ul h2 ol ul h2 h2 h3 h3 h3 ul h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/generative-research/",
+   "title": "Guide to generative UX research",
+   "h1": "Guide to generative UX research",
+   "lastUpdated": "13 April 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 9622,
+    "p": 35,
+    "h2": 4,
+    "ul": 4,
+    "li": 14,
+    "h3": 12
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 h3 h3 ul h3 h3 h3 h3 h3 h3 ul h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/user-testing/",
+   "title": "Guide to user testing: learn what users really want",
+   "h1": "Guide to user testing: learn what users really want",
+   "lastUpdated": "7 March 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 17221,
+    "p": 84,
+    "h2": 7,
+    "ul": 15,
+    "li": 61,
+    "h3": 14
+   },
+   "bodyOrder": "h2 h2 ul h2 h2 ul h3 ul h3 ul ul ul ul ul h3 ul h3 h3 h3 ul h2 ul h3 ul h3 h3 ul h3 h3 ul h3 ul h3 h3 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/hamburger-menu/",
+   "title": "Hamburger menu design 101",
+   "h1": "Hamburger menu design 101",
+   "lastUpdated": "20 March 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 10797,
+    "p": 37,
+    "h2": 7,
+    "h3": 16,
+    "ul": 2,
+    "li": 5
+   },
+   "bodyOrder": "h2 h2 h3 ul h3 ul h2 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/hicks-law/",
+   "title": "Hick’s Law and UX design: What you need to know",
+   "h1": "Hick’s Law and UX design: What you need to know",
+   "lastUpdated": "11 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 8959,
+    "p": 35,
+    "h2": 6,
+    "h3": 10,
+    "ul": 1,
+    "li": 4
+   },
+   "bodyOrder": "h2 h3 h3 h2 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3 h2 h2 ul",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/how-to-analyze-usability-testing-results/",
+   "title": "How to analyze usability testing results effectively",
+   "h1": "How to analyze usability testing results effectively",
+   "lastUpdated": "1 February 2025",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 10879,
+    "p": 42,
+    "h2": 4,
+    "h3": 18,
+    "ul": 7,
+    "li": 42,
+    "ol": 2
+   },
+   "bodyOrder": "h2 h3 h3 ul h3 ul h3 h3 ul h3 h3 h2 h3 ul h3 ul h3 h3 ul h2 h3 h3 h3 h3 ul h3 h2 h3 ol h3 ol",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/how-to-analyze-user-interviews/",
+   "title": "How to analyze user interviews: Step-by-step guide",
+   "h1": "How to analyze user interviews: Step-by-step guide",
+   "lastUpdated": "18 December 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 15769,
+    "p": 62,
+    "h2": 7,
+    "h3": 18,
+    "ul": 3,
+    "li": 12
+   },
+   "bodyOrder": "h2 h2 h3 h3 h2 h3 h3 h3 h2 h3 ul h3 h3 h3 h3 h3 h3 ul h2 h3 h3 h3 h3 h3 h3 h2 h2 ul",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/how-to-structure-a-ux-design-team/",
+   "title": "How to assemble a winning UX design team",
+   "h1": "How to assemble a winning UX design team",
+   "lastUpdated": "22 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 39,
+   "bodyShape": {
+    "chars": 20340,
+    "p": 100,
+    "ul": 17,
+    "li": 62,
+    "h2": 8,
+    "h3": 31
+   },
+   "bodyOrder": "ul h2 ul ul ul h3 ul h2 h3 ul h3 ul ul h3 h3 h3 ul h3 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 ul h3 h3 ul h3 ul h2 ul h2 h3 h3 h3 h3 h3 ul h3 ul h3 h3 h2 ul h3 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/customer-experience-roi/",
+   "title": "How to calculate the ROI of customer experience",
+   "h1": "How to calculate the ROI of customer experience",
+   "lastUpdated": "26 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 10821,
+    "p": 70,
+    "h2": 5,
+    "h3": 16,
+    "ul": 4,
+    "li": 18
+   },
+   "bodyOrder": "h2 h2 h3 ul h3 h3 h3 h3 h3 h3 h2 ul h3 h3 h3 h3 h3 h2 ul h3 h3 h3 ul h3 h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/user-experience-mapping/",
+   "title": "How to carry out effective user experience mapping",
+   "h1": "How to carry out effective user experience mapping",
+   "lastUpdated": "11 March 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 13108,
+    "p": 62,
+    "h2": 7,
+    "ul": 5,
+    "li": 20,
+    "h3": 21
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h3 h3 h2 h3 ul h3 h3 h3 ul h2 h2 h3 h3 ul h3 h3 ul h3 h3 h2 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/heuristic-evaluation/",
+   "title": "How to conduct a heuristic evaluation for UX design",
+   "h1": "How to conduct a heuristic evaluation for UX design",
+   "lastUpdated": "21 February 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 29,
+   "bodyShape": {
+    "chars": 10845,
+    "p": 44,
+    "h2": 8,
+    "h3": 26,
+    "ul": 2,
+    "li": 7
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h2 h3 ul h3 ul h2 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/how-to-do-a-ux-audit/",
+   "title": "How to conduct a successful UX audit",
+   "h1": "How to conduct a successful UX audit",
+   "lastUpdated": "3 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 15079,
+    "p": 49,
+    "h2": 10,
+    "ul": 7,
+    "li": 38,
+    "h3": 12
+   },
+   "bodyOrder": "h2 h2 ul h2 h2 h2 ul h2 ul h2 h3 ul h3 h3 h3 h3 ul h3 h3 h2 h3 h3 h3 h3 h3 h2 ul h2 ul",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/accessibility-research-neurodivergent-participants-data-visualization/",
+   "title": "How to conduct accessibility research with neurodivergent participants for complex data visualization tools",
+   "h1": "How to conduct accessibility research with neurodivergent participants for complex data visualization tools",
+   "lastUpdated": "21 July 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 30,
+   "bodyShape": {
+    "chars": 16407,
+    "p": 45,
+    "h2": 10,
+    "ul": 4,
+    "li": 19,
+    "h3": 24
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 ul h3 h2 h3 h3 h3 ul h3 h2 h3 h3 h3 h3 ul h3 h2 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/how-to-conduct-mobile-app-usability-testing/",
+   "title": "How to conduct mobile app usability testing",
+   "h1": "How to conduct mobile app usability testing",
+   "lastUpdated": "22 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 15889,
+    "p": 53,
+    "h2": 9,
+    "ul": 21,
+    "li": 76,
+    "h3": 19
+   },
+   "bodyOrder": "h2 ul h2 ul h2 ul h2 ul h2 h3 ul ul h3 ul ul h3 ul ul h3 h2 ul h2 h3 ul h3 ul h3 ul h3 h3 ul h3 ul h3 ul h3 ul h3 ul h2 ul h2 h3 h3 h3 h3 ul h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-is-a-design-brief/",
+   "title": "How to create a design brief",
+   "h1": "How to create a design brief",
+   "lastUpdated": "27 April 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 7378,
+    "p": 43,
+    "h2": 5,
+    "ul": 6,
+    "li": 24,
+    "h3": 13
+   },
+   "bodyOrder": "h2 ul h3 h2 h2 h3 h3 ul h3 h3 ul h3 ul h3 ul h2 h3 h3 h3 h2 h3 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/how-to-create-a-ux-research-plan/",
+   "title": "How to create an effective UX research plan",
+   "h1": "How to create an effective UX research plan",
+   "lastUpdated": "23 January 2024",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 18213,
+    "p": 58,
+    "h2": 9,
+    "h3": 21,
+    "ul": 16,
+    "li": 61,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h3 h3 h2 ul h2 ul h2 h3 ul h3 ul h3 ul h3 h3 h3 h2 ul h2 h3 h3 h3 ul h3 ul h3 h3 ul h3 h3 ul h3 ul h2 h2 h3 ul ul ul h3 ul h3 ol h3 ul",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/usability-testing-questions/",
+   "title": "How to create better usability testing questions",
+   "h1": "How to create better usability testing questions",
+   "lastUpdated": "11 May 2023",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 14413,
+    "p": 62,
+    "h2": 10,
+    "ul": 9,
+    "li": 43,
+    "h3": 9
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 h3 h2 ul h2 h3 ul ul ul h3 ul h3 ul h2 h3 ul h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/unmoderated-usability-tests-complex-enterprise-dashboards/",
+   "title": "How to design unmoderated usability tests for complex enterprise dashboards",
+   "h1": "How to design unmoderated usability tests for complex enterprise dashboards",
+   "lastUpdated": "6 October 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 16482,
+    "p": 55,
+    "h2": 10,
+    "ul": 8,
+    "li": 34,
+    "h3": 13,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 ul ul h2 h3 ul h3 ul h3 h3 h2 h3 ul h3 h3 h2 h3 h3 ol h3 ul h2 h2 ul h2 ul h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/ux/usability-testing-non-deterministic-ai-agent-features/",
+    "/ux/comparative-usability-benchmark-studies-across-releases/",
+    "/ux/ai-tools-for-ux-research/",
+    "/ux/what-is-usability-testing/",
+    "/ux/usability-testing-tools/",
+    "/ux/best-user-research-tools/",
+    "/ux/unmoderated-usability-testing-complex-enterprise-b2b-workflows/",
+    "/ux/ai-for-qualitative-data-analysis/"
+   ]
+  },
+  {
+   "path": "/ux/usability-testing-non-deterministic-ai-agent-features/",
+   "title": "How to design usability studies for AI agent features with non-deterministic outputs",
+   "h1": "How to design usability studies for AI agent features with non-deterministic outputs",
+   "lastUpdated": "13 October 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 16647,
+    "p": 74,
+    "h2": 12,
+    "ul": 7,
+    "li": 28,
+    "h3": 15
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h3 ul h2 h2 ul h2 h3 h3 h3 ul h3 h3 ul h2 h2 h3 h3 ul h3 h2 ul h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/ux/unmoderated-usability-tests-complex-enterprise-dashboards/",
+    "/ux/comparative-usability-benchmark-studies-across-releases/",
+    "/ux/ai-tools-for-ux-research/",
+    "/ux/what-is-usability-testing/",
+    "/ux/usability-testing-tools/",
+    "/ux/best-user-research-tools/",
+    "/ux/unmoderated-usability-testing-complex-enterprise-b2b-workflows/",
+    "/ux/ai-for-qualitative-data-analysis/"
+   ]
+  },
+  {
+   "path": "/ux/seo-ux/",
+   "title": "How to make SEO and UX work together",
+   "h1": "How to make SEO and UX work together",
+   "lastUpdated": "28 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 10288,
+    "p": 32,
+    "h2": 7,
+    "h3": 13,
+    "ul": 6,
+    "li": 26
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h2 ul h3 h3 ul h3 h2 h2 ul h2 h3 h3 ul h3 h2 ul h3 h3 h3 h2 ul",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/how-to-do-an-accessibility-audit-ux/",
+   "title": "How to perform an accessibility audit",
+   "h1": "How to perform an accessibility audit",
+   "lastUpdated": "6 March 2025",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 14768,
+    "p": 49,
+    "h2": 7,
+    "ul": 11,
+    "li": 46,
+    "h3": 18
+   },
+   "bodyOrder": "h2 ul h3 h3 ul h3 ul h2 h2 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 ul h3 ul h3 ul ul h3 ul h3 ul h3 ul h2 h2 h3 ul h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/comparative-usability-benchmark-studies-across-releases/",
+   "title": "How to run comparative usability benchmark studies across multiple product releases to quantify UX improvement over time",
+   "h1": "How to run comparative usability benchmark studies across multiple product releases to quantify UX improvement over time",
+   "lastUpdated": "22 September 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 16461,
+    "p": 53,
+    "h2": 10,
+    "ul": 7,
+    "li": 28,
+    "h3": 19,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 h2 h3 ul h3 ul h3 ul h3 h2 h3 h3 h3 ul h2 h3 ol h3 h2 h3 ul h3 h3 h2 h3 h3 h3 h3 h2 ul h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": [
+    "/ux/usability-testing-non-deterministic-ai-agent-features/",
+    "/ux/unmoderated-usability-tests-complex-enterprise-dashboards/",
+    "/ux/ai-tools-for-ux-research/",
+    "/ux/what-is-usability-testing/",
+    "/ux/usability-testing-tools/",
+    "/ux/best-user-research-tools/",
+    "/ux/unmoderated-usability-testing-complex-enterprise-b2b-workflows/",
+    "/ux/ai-for-qualitative-data-analysis/"
+   ]
+  },
+  {
+   "path": "/ux/research-sprints-platform-migration-legacy-interfaces/",
+   "title": "How to run research sprints for platform migration projects where users must transition from legacy to modern interfaces",
+   "h1": "How to run research sprints for platform migration projects where users must transition from legacy to modern interfaces",
+   "lastUpdated": "25 August 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 15759,
+    "p": 49,
+    "h2": 10,
+    "ul": 5,
+    "li": 24,
+    "h3": 14,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 h3 h2 h3 ul h3 h3 ul h3 h2 h3 h3 h3 h2 h3 ul h3 h3 h2 ol h2 h2 ul h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/unmoderated-usability-testing-complex-enterprise-b2b-workflows/",
+   "title": "How to run unmoderated usability tests for complex enterprise B2B workflows",
+   "h1": "How to run unmoderated usability tests for complex enterprise B2B workflows",
+   "lastUpdated": "1 September 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 16322,
+    "p": 55,
+    "h2": 9,
+    "ul": 8,
+    "li": 29,
+    "ol": 1,
+    "h3": 17
+   },
+   "bodyOrder": "h2 ul h2 ul ol h2 h3 h3 ul h3 ul h3 ul h2 h3 h3 h3 ul h3 h2 h3 ul h3 h3 h2 h3 h3 h3 ul h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/ux/usability-testing-non-deterministic-ai-agent-features/",
+    "/ux/unmoderated-usability-tests-complex-enterprise-dashboards/",
+    "/ux/comparative-usability-benchmark-studies-across-releases/",
+    "/ux/ai-tools-for-ux-research/",
+    "/ux/what-is-usability-testing/",
+    "/ux/usability-testing-tools/",
+    "/ux/best-user-research-tools/",
+    "/ux/ai-for-qualitative-data-analysis/"
+   ]
+  },
+  {
+   "path": "/ux/how-to-use-the-system-usability-scale/",
+   "title": "How to use and implement the system usability scale (SUS)",
+   "h1": "How to use and implement the system usability scale (SUS)",
+   "lastUpdated": "22 August 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 13789,
+    "p": 47,
+    "h2": 8,
+    "ol": 1,
+    "li": 44,
+    "ul": 9,
+    "h3": 13
+   },
+   "bodyOrder": "h2 ol h2 ul h2 h2 h3 ul h3 ul h2 h3 h3 h3 h3 h3 h3 ul h2 h3 ul h3 h3 ul h3 ul h3 h2 ul h2 ul",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-is-fitts-law/",
+   "title": "How to use Fitts' Law in UX design",
+   "h1": "How to use Fitts' Law in UX design",
+   "lastUpdated": "27 April 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 11402,
+    "p": 48,
+    "h2": 7,
+    "ul": 1,
+    "li": 4,
+    "h3": 9
+   },
+   "bodyOrder": "h2 h2 ul h2 h2 h3 h3 h2 h3 h3 h3 h2 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/video-highlight-clips-user-interviews-product-prioritization/",
+   "title": "How to use video highlight clips from user interviews to drive product prioritization",
+   "h1": "How to use video highlight clips from user interviews to drive product prioritization",
+   "lastUpdated": "2 June 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 28,
+   "bodyShape": {
+    "chars": 14356,
+    "p": 45,
+    "h2": 9,
+    "ul": 2,
+    "li": 7,
+    "h3": 23
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 ul h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/service-design/",
+   "title": "Introduction to service design",
+   "h1": "Introduction to service design",
+   "lastUpdated": "13 April 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 8835,
+    "p": 46,
+    "h2": 8,
+    "ul": 7,
+    "li": 24,
+    "h3": 19
+   },
+   "bodyOrder": "h2 ul h2 h2 h2 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 ul h3 ul h3 ul h3 h2 h3 ul h3 ul h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/journey-map/",
+   "title": "Journey mapping in UX design",
+   "h1": "Journey mapping in UX design",
+   "lastUpdated": "21 February 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 32,
+   "bodyShape": {
+    "chars": 10127,
+    "p": 52,
+    "h2": 8,
+    "h3": 24,
+    "ul": 5,
+    "li": 23
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h2 h3 h3 ul h3 h3 ul h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 ul h2 h2 ul ul h3 h3 h3 h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/lean-ux/",
+   "title": "Lean UX 101: what you need to know",
+   "h1": "Lean UX 101: what you need to know",
+   "lastUpdated": "27 April 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 13283,
+    "p": 53,
+    "h2": 7,
+    "h3": 11,
+    "ul": 3,
+    "li": 9
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 ul h2 ul h2 h3 h3 h3 h3 h3 h2 ul h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/low-fidelity/",
+   "title": "Low fidelity vs. high fidelity prototyping comparison guide",
+   "h1": "Low fidelity vs. high fidelity prototyping comparison guide",
+   "lastUpdated": "30 January 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 14924,
+    "p": 27,
+    "h2": 7,
+    "ul": 6,
+    "li": 24,
+    "h3": 8,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 ul h3 h3 h2 h3 ul h3 ul h2 ul h3 h3 h2 h3 ul h3 ul h2 ol h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/maximizing-ux-research-on-any-budget/",
+   "title": "Maximizing UX research impact on limited time and budget",
+   "h1": "Maximizing UX research impact on limited time and budget",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 34,
+   "bodyShape": {
+    "chars": 16799,
+    "p": 92,
+    "h2": 11,
+    "ul": 8,
+    "li": 32,
+    "h3": 27
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h2 h3 ul h3 ul h3 h2 h3 ul h3 h3 h3 ul ul h3 h3 h3 h2 h3 ul h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h2 ul h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/moderated-vs-unmoderated-usability-testing-enterprise-b2b/",
+   "title": "Moderated vs. unmoderated usability testing: which approach works for complex enterprise B2B workflows?",
+   "h1": "Moderated vs. unmoderated usability testing: which approach works for complex enterprise B2B workflows?",
+   "lastUpdated": "4 August 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 15451,
+    "p": 45,
+    "h2": 9,
+    "h3": 15,
+    "ol": 1,
+    "li": 2,
+    "table": 1
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h2 h3 h3 h2 h3 h3 h2 h3 h3 h3 h3 h2 ol h2 h2 h2 table h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ux-research-conferences-2024/",
+   "title": "Must-attend UX research conferences in 2026 and 2027",
+   "h1": "Must-attend UX research conferences in 2026 and 2027",
+   "lastUpdated": "30 August 2026",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 6567,
+    "p": 44,
+    "h2": 3,
+    "h3": 13
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2",
+   "editorsPicksOverride": [
+    "/ux/ux-design-trends-2024/",
+    "/ux/heuristics/",
+    "/ux/gestalt-principles/",
+    "/ux/what-does-a-ux-designer-do/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/open-vs-closed-card-sorting/",
+   "title": "Open vs. closed card sorting: Which method is best for your research?",
+   "h1": "Open vs. closed card sorting: Which method is best for your research?",
+   "lastUpdated": "22 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 13655,
+    "p": 52,
+    "h2": 7,
+    "ol": 2,
+    "li": 43,
+    "h3": 10,
+    "ul": 9
+   },
+   "bodyOrder": "h2 ol h3 h2 ul h2 ul h3 h2 h3 ul h3 ul h3 h2 h3 h3 h2 h3 ul h3 ul ul h3 ul ul h2 ol",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-is-parallax/",
+   "title": "Parallax in UX design: Definition and best practices",
+   "h1": "Parallax in UX design: Definition and best practices",
+   "lastUpdated": "19 April 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 8250,
+    "p": 48,
+    "h2": 8,
+    "h3": 14
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h2 h3 h3 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/participatory-design/",
+   "title": "Participatory design: Definition, methods, and implementation",
+   "h1": "Participatory design: Definition, methods, and implementation",
+   "lastUpdated": "9 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 34,
+   "bodyShape": {
+    "chars": 16448,
+    "p": 118,
+    "h2": 9,
+    "ul": 5,
+    "li": 22,
+    "h3": 28,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul ul h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3 ol h2 h3 h3 h3 h3 h3 h2 h3 ul h3 ul h3 h3 ul h2 h2 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/problem-statement/",
+   "title": "Problem statements: Everything you need to know",
+   "h1": "Problem statements: Everything you need to know",
+   "lastUpdated": "12 February 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 7953,
+    "p": 33,
+    "h2": 5,
+    "ul": 4,
+    "li": 21,
+    "ol": 1,
+    "h3": 6
+   },
+   "bodyOrder": "h2 ul h2 h2 ol h2 h3 h3 h3 h2 h3 ul ul h3 h3 ul",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ux-research-and-technology-trends/",
+   "title": "Staying ahead of the curve: Using UX research to keep up with trends",
+   "h1": "Staying ahead of the curve: Using UX research to keep up with trends",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 12242,
+    "p": 48,
+    "h2": 4,
+    "ul": 1,
+    "li": 5,
+    "h3": 14
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/heuristics/",
+    "/ux/gestalt-principles/",
+    "/ux/what-does-a-ux-designer-do/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ux-research-tools/",
+   "title": "The 13 best UX research tools to unlock data-driven insights",
+   "h1": "The 13 best UX research tools to unlock data-driven insights",
+   "lastUpdated": "14 July 2023",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 15044,
+    "p": 80,
+    "h2": 4,
+    "ul": 1,
+    "li": 3,
+    "h3": 9
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/usability-testing-tools/",
+   "title": "The best usability testing tools in 2026",
+   "h1": "The best usability testing tools in 2026",
+   "lastUpdated": "14 September 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 17440,
+    "p": 97,
+    "h2": 7,
+    "ul": 10,
+    "li": 66,
+    "ol": 1,
+    "h3": 16
+   },
+   "bodyOrder": "h2 ul h2 h2 h2 ol h3 h3 h3 ul h3 ul h3 h3 ul h3 h3 ul h3 h3 ul ul h3 h3 ul h2 ul h2 h2 h3 ul h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/ux/usability-testing-non-deterministic-ai-agent-features/",
+    "/ux/unmoderated-usability-tests-complex-enterprise-dashboards/",
+    "/ux/comparative-usability-benchmark-studies-across-releases/",
+    "/ux/ai-tools-for-ux-research/",
+    "/ux/what-is-usability-testing/",
+    "/ux/best-user-research-tools/",
+    "/ux/unmoderated-usability-testing-complex-enterprise-b2b-workflows/",
+    "/ux/ai-for-qualitative-data-analysis/"
+   ]
+  },
+  {
+   "path": "/ux/user-interviews-template/",
+   "title": "The best user interview templates for your customer research",
+   "h1": "The best user interview templates for your customer research",
+   "lastUpdated": "11 May 2023",
+   "author": null,
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 11057,
+    "p": 41,
+    "h2": 10,
+    "ol": 1,
+    "li": 18,
+    "h3": 16,
+    "ul": 1
+   },
+   "bodyOrder": "h2 h2 h2 ol h3 ul h2 h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/best-user-research-tools/",
+   "title": "The best user research tools in 2026",
+   "h1": "The best user research tools in 2026",
+   "lastUpdated": "14 September 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 12539,
+    "p": 41,
+    "h2": 3,
+    "table": 1,
+    "h3": 14
+   },
+   "bodyOrder": "h2 table h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": [
+    "/ux/usability-testing-non-deterministic-ai-agent-features/",
+    "/ux/unmoderated-usability-tests-complex-enterprise-dashboards/",
+    "/ux/comparative-usability-benchmark-studies-across-releases/",
+    "/ux/ai-tools-for-ux-research/",
+    "/ux/what-is-usability-testing/",
+    "/ux/usability-testing-tools/",
+    "/ux/unmoderated-usability-testing-complex-enterprise-b2b-workflows/",
+    "/ux/ai-for-qualitative-data-analysis/"
+   ]
+  },
+  {
+   "path": "/ux/best-ux-certifications/",
+   "title": "The best UX certification courses for professional growth",
+   "h1": "The best UX certification courses for professional growth",
+   "lastUpdated": "1 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 9923,
+    "p": 50,
+    "h2": 5,
+    "ul": 1,
+    "li": 6,
+    "h3": 14
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/best-ux-conferences/",
+   "title": "The best UX conferences to attend in 2026 and 2027",
+   "h1": "The best UX conferences to attend in 2026 and 2027",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 6967,
+    "p": 46,
+    "h2": 3,
+    "h3": 14
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/patient-journey-mapping/",
+   "title": "The complete guide to patient journey mapping",
+   "h1": "The complete guide to patient journey mapping",
+   "lastUpdated": "3 June 2023",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 12058,
+    "p": 53,
+    "h2": 7,
+    "ul": 5,
+    "li": 24,
+    "h3": 15
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h2 ul h2 h3 h3 ul h3 ul h3 ul h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/halo-effect/",
+   "title": "The halo effect guide",
+   "h1": "The halo effect guide",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Katie Reed",
+    "href": "/contributors/katie-reed/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 9314,
+    "p": 44,
+    "h2": 5,
+    "h3": 14,
+    "ul": 1,
+    "li": 3
+   },
+   "bodyOrder": "h2 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h2 h3 h3 h3 ul h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-is-behavioral-targeting/",
+   "title": "The power of behavioral targeting: key benefits and strategies",
+   "h1": "The power of behavioral targeting: key benefits and strategies",
+   "lastUpdated": "6 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 13398,
+    "p": 48,
+    "h2": 8,
+    "ul": 4,
+    "li": 18,
+    "h3": 18
+   },
+   "bodyOrder": "h2 ul h3 h2 h3 ul h2 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 ul h3 h2 h2 h2 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ux-analysis-guide/",
+   "title": "The ultimate guide to conducting a UX analysis",
+   "h1": "The ultimate guide to conducting a UX analysis",
+   "lastUpdated": "30 April 2024",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 41,
+   "bodyShape": {
+    "chars": 14507,
+    "p": 92,
+    "h2": 9,
+    "h3": 35,
+    "ul": 2,
+    "li": 6
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 ul h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h2 h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/guide-to-ux-roadmaps/",
+   "title": "The ultimate guide to crafting an effective UX roadmap",
+   "h1": "The ultimate guide to crafting an effective UX roadmap",
+   "lastUpdated": "4 December 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 13753,
+    "p": 51,
+    "h2": 10,
+    "h3": 10,
+    "ul": 2,
+    "li": 8
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h3 h3 ul h3 h3 h2 ul h2 h3 h3 h3 h2 h2 h2 h2 h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/heuristics/",
+   "title": "The ultimate guide to heuristics",
+   "h1": "The ultimate guide to heuristics",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 9,
+   "bodyShape": {
+    "chars": 7802,
+    "p": 34,
+    "h2": 5,
+    "h3": 4,
+    "ul": 1,
+    "li": 4
+   },
+   "bodyOrder": "h2 h3 h2 h2 h3 h3 h3 h2 h2 ul",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/prototype-usability-testing-guide/",
+   "title": "The ultimate guide to prototype usability testing",
+   "h1": "The ultimate guide to prototype usability testing",
+   "lastUpdated": "16 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 42,
+   "bodyShape": {
+    "chars": 17645,
+    "p": 88,
+    "h2": 9,
+    "ul": 6,
+    "li": 17,
+    "h3": 33
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 ul h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 ul h3 h3 h3 h3 h2 h3 h3 h3 h3 ul h3 h2 h3 h3 h3 h3 h3 ul h3 h3 h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/service-blueprint/",
+   "title": "The ultimate guide to service blueprints",
+   "h1": "The ultimate guide to service blueprints",
+   "lastUpdated": "27 February 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 32,
+   "bodyShape": {
+    "chars": 9389,
+    "p": 43,
+    "h2": 6,
+    "h3": 26
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ux-design-process/",
+   "title": "The ultimate UX design process guide",
+   "h1": "The ultimate UX design process guide",
+   "lastUpdated": "26 March 2024",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 15575,
+    "p": 55,
+    "h2": 8,
+    "ul": 8,
+    "li": 42,
+    "h3": 12
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 ul h3 ul ul h3 ul h3 h3 h3 ul h3 h3 h2 h3 h3 h2 ul h2 h2 h2 h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/user-research-and-user-testing/",
+   "title": "The what, why, and how of user research and testing",
+   "h1": "The what, why, and how of user research and testing",
+   "lastUpdated": "8 January 2025",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 28,
+   "bodyShape": {
+    "chars": 11863,
+    "p": 49,
+    "h2": 10,
+    "ul": 4,
+    "li": 17,
+    "h3": 21,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 h3 h3 h2 h3 h3 h3 ul h2 h3 h3 ul h3 h2 h3 h3 h3 ol h2 h3 h3 h2 h3 h3 h3 h3 h3 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/think-aloud-protocol-vs-retrospective-interview-complex-workflows/",
+   "title": "Think-aloud protocol vs. retrospective interview: which is better for evaluating complex workflows?",
+   "h1": "Think-aloud protocol vs. retrospective interview: which is better for evaluating complex workflows?",
+   "lastUpdated": "30 June 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 14567,
+    "p": 40,
+    "h2": 8,
+    "h3": 12,
+    "ul": 4,
+    "li": 16,
+    "table": 1
+   },
+   "bodyOrder": "h2 h3 h3 h3 h2 h3 ul h3 h3 h2 table h2 h3 ul h3 ul h3 ul h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-are-tooltips/",
+   "title": "Tooltips: The ultimate guide",
+   "h1": "Tooltips: The ultimate guide",
+   "lastUpdated": "22 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 9171,
+    "p": 47,
+    "h2": 5,
+    "h3": 16
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ux-design-trends-2024/",
+   "title": "Top 10 UX design trends to know about",
+   "h1": "Top 10 UX design trends to know about",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 10196,
+    "p": 37,
+    "h2": 2,
+    "h3": 10,
+    "ol": 1,
+    "li": 4
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h3 h3 h3 ol h3 h3 h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/heuristics/",
+    "/ux/gestalt-principles/",
+    "/ux/what-does-a-ux-designer-do/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/best-content-testing-tools/",
+   "title": "Top content testing tools and approaches",
+   "h1": "Top content testing tools and approaches",
+   "lastUpdated": "26 February 2025",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 11760,
+    "p": 58,
+    "h2": 7,
+    "h3": 15,
+    "ul": 4,
+    "li": 24,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h2 h3 h3 h2 ul h2 h2 h3 h3 h3 ul ul h3 ol h3 h3 h3 h3 h2 ul h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/automated-ui-testing-tools/",
+   "title": "Top tools for automated UI testing",
+   "h1": "Top tools for automated UI testing",
+   "lastUpdated": "14 November 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 43,
+   "bodyShape": {
+    "chars": 18479,
+    "p": 77,
+    "h2": 7,
+    "h3": 40,
+    "ul": 12,
+    "li": 48
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h2 h3 h3 ul h2 h3 h3 ul h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 ul h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/best-ux-audit-tools/",
+   "title": "Top UX audit tools",
+   "h1": "Top UX audit tools",
+   "lastUpdated": "26 February 2025",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 11326,
+    "p": 51,
+    "h2": 6,
+    "h3": 14,
+    "ul": 16,
+    "li": 92
+   },
+   "bodyOrder": "h2 h3 ul h3 ul h3 ul h3 h2 h2 ul h2 ul h2 ul h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ui-designer/",
+   "title": "UI designer: 10 facts about the job",
+   "h1": "UI designer: 10 facts about the job",
+   "lastUpdated": "25 March 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 14923,
+    "p": 56,
+    "h2": 11,
+    "ul": 15,
+    "li": 95,
+    "ol": 1,
+    "h3": 9
+   },
+   "bodyOrder": "h2 h2 ul h2 ol h2 ul h2 h3 ul h3 ul h2 ul ul h2 h3 ul ul h3 ul h2 h3 ul h2 h2 ul h3 ul h2 h3 ul h3 h3 ul ul",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-is-digital-experience/",
+   "title": "Understanding digital experience",
+   "h1": "Understanding digital experience",
+   "lastUpdated": "24 May 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 12162,
+    "p": 41,
+    "h2": 8,
+    "ul": 3,
+    "li": 35,
+    "h3": 13,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h3 h3 h2 h3 h3 h3 h3 ul h3 h2 h2 ul h2 h3 h3 h3 h3 h2 ol h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-is-wireframe-testing/",
+   "title": "Understanding wireframe testing in web design",
+   "h1": "Understanding wireframe testing in web design",
+   "lastUpdated": "24 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 26,
+   "bodyShape": {
+    "chars": 14163,
+    "p": 51,
+    "h2": 6,
+    "ul": 6,
+    "li": 35,
+    "h3": 20,
+    "ol": 2
+   },
+   "bodyOrder": "h2 ul h3 ul h3 h2 h3 h3 h3 h3 h3 h2 h3 ul h3 h3 h3 h3 ul h3 h3 h3 ol h3 h2 h3 h3 h3 ul h3 ol h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/usability-testing-methods/",
+   "title": "Usability testing methods 101",
+   "h1": "Usability testing methods 101",
+   "lastUpdated": "21 March 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 31,
+   "bodyShape": {
+    "chars": 14693,
+    "p": 49,
+    "h2": 6,
+    "h3": 25,
+    "ul": 1,
+    "li": 3
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/benefits-of-user-advocacy-in-ux-design/",
+   "title": "User advocacy in UX design: benefits and strategies",
+   "h1": "User advocacy in UX design: benefits and strategies",
+   "lastUpdated": "24 September 2024",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 15271,
+    "p": 32,
+    "h2": 8,
+    "ul": 6,
+    "li": 32,
+    "h3": 8
+   },
+   "bodyOrder": "h2 h2 ul h2 ul h2 h3 h3 h3 h2 ul h2 ul h3 ul h2 h2 h3 h3 h3 h3 ul",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/user-flows/",
+   "title": "User flows 101: Guide with examples",
+   "h1": "User flows 101: Guide with examples",
+   "lastUpdated": "12 April 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 38,
+   "bodyShape": {
+    "chars": 9923,
+    "p": 65,
+    "h2": 11,
+    "h3": 32,
+    "ul": 1,
+    "li": 13,
+    "ol": 2
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h3 h3 h3 h2 ul h2 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 ol h2 h3 h3 h3 h3 h3 h3 h3 h2 ol h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/user-interface-design/",
+   "title": "User interface design 101: updated guide",
+   "h1": "User interface design 101: updated guide",
+   "lastUpdated": "26 January 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 34,
+   "bodyShape": {
+    "chars": 13885,
+    "p": 61,
+    "h2": 10,
+    "h3": 24,
+    "ul": 2,
+    "li": 6
+   },
+   "bodyOrder": "h2 h2 h2 h2 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/user-research/",
+   "title": "User research: the definitive guide",
+   "h1": "User research: the definitive guide",
+   "lastUpdated": "28 February 2023",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Katie Reed",
+    "href": "/contributors/katie-reed/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 18053,
+    "p": 76,
+    "h2": 7,
+    "ul": 7,
+    "li": 28,
+    "h3": 21
+   },
+   "bodyOrder": "h2 ul h2 h3 ul h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 ul h3 h3 ul h3 ul h3 h3 ul h3 ul h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/card-sorting/",
+   "title": "Using card sorting in UX research for better information architecture",
+   "h1": "Using card sorting in UX research for better information architecture",
+   "lastUpdated": "27 February 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Katie Reed",
+    "href": "/contributors/katie-reed/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 14955,
+    "p": 51,
+    "h2": 6,
+    "h3": 10,
+    "ul": 6,
+    "li": 37,
+    "ol": 2
+   },
+   "bodyOrder": "h2 h3 ul h3 h3 h2 ul h3 ul h2 ol h3 h3 h3 h2 ol h3 ul h3 h3 h2 ul h2 ul",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/gestalt-principles/",
+   "title": "Using gestalt principles to create more effective designs",
+   "h1": "Using gestalt principles to create more effective designs",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 10174,
+    "p": 45,
+    "h2": 7,
+    "h3": 16
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h2 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ux-research-methods/",
+   "title": "UX research methods: A complete guide",
+   "h1": "UX research methods: A complete guide",
+   "lastUpdated": "2 June 2024",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 16065,
+    "p": 81,
+    "h2": 8,
+    "ul": 10,
+    "li": 56,
+    "h3": 13
+   },
+   "bodyOrder": "h2 ul h2 h2 ul h2 h3 ul h3 ul h3 h3 ul h3 ul h3 ul h3 h3 ul h3 ul h2 ul h3 h3 h3 h2 h2 h2 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ui-ux-design/",
+   "title": "UX vs. UI design: here's the difference",
+   "h1": "UX vs. UI design: here's the difference",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Katie Reed",
+    "href": "/contributors/katie-reed/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 9677,
+    "p": 50,
+    "h2": 6,
+    "h3": 16,
+    "ul": 2,
+    "li": 6
+   },
+   "bodyOrder": "h2 h3 h3 ul h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-is-web-design/",
+   "title": "Web design 101: what you need to know",
+   "h1": "Web design 101: what you need to know",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 38,
+   "bodyShape": {
+    "chars": 11166,
+    "p": 57,
+    "h2": 10,
+    "h3": 34
+   },
+   "bodyOrder": "h2 h2 h3 h3 h2 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-is-website-optimization/",
+   "title": "Website optimization 101: A guide to getting started",
+   "h1": "Website optimization 101: A guide to getting started",
+   "lastUpdated": "12 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 28,
+   "bodyShape": {
+    "chars": 18308,
+    "p": 69,
+    "h2": 9,
+    "ul": 12,
+    "li": 72,
+    "h3": 19
+   },
+   "bodyOrder": "h2 ul h3 h2 h3 ul h3 h3 ul h3 h3 h2 h3 ul h3 h3 h2 ul h2 h3 h3 ul h3 ul ul h3 ul h3 h3 h3 h3 h3 h3 ul h2 ul h2 ul h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/website-redesign-survey-questions/",
+   "title": "Website redesign survey questions to improve your UX",
+   "h1": "Website redesign survey questions to improve your UX",
+   "lastUpdated": "28 June 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 18161,
+    "p": 83,
+    "h2": 4,
+    "h3": 16,
+    "ul": 2,
+    "li": 12,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 ul h2 ol h3 ul h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/dieter-ram-design/",
+   "title": "What are the principles of Dieter Rams’ design?",
+   "h1": "What are the principles of Dieter Rams’ design?",
+   "lastUpdated": "26 April 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 8166,
+    "p": 67,
+    "h2": 5,
+    "h3": 14,
+    "ul": 3,
+    "li": 19
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h3 ul h3 h3 h3 h3 h2 h2 h2 h3 ul h3 h3 h3 ul",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-is-a-persona/",
+   "title": "What are user personas? 5 steps to create your own",
+   "h1": "What are user personas? 5 steps to create your own",
+   "lastUpdated": "7 March 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 11939,
+    "p": 42,
+    "h2": 6,
+    "ul": 4,
+    "li": 18,
+    "h3": 18
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h2 ul h3 h3 ul h3 ul h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-does-a-ux-designer-do/",
+   "title": "What Does A UX Designer Do?",
+   "h1": "What Does A UX Designer Do?",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 8897,
+    "p": 47,
+    "h2": 11,
+    "ul": 6,
+    "li": 31,
+    "h3": 5
+   },
+   "bodyOrder": "h2 ul h2 h2 ul h2 h2 ul h2 h2 h2 h2 h3 ul h3 h2 h2 h3 ul h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-is-continuous-ux-research/",
+   "title": "What does continuous UX research look like?",
+   "h1": "What does continuous UX research look like?",
+   "lastUpdated": "16 March 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 27,
+   "bodyShape": {
+    "chars": 12410,
+    "p": 58,
+    "h2": 6,
+    "h3": 21,
+    "ul": 3,
+    "li": 14
+   },
+   "bodyOrder": "h2 h3 ul h3 ul h2 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/customer-experience-maturity-model/",
+   "title": "What is a CX maturity model?",
+   "h1": "What is a CX maturity model?",
+   "lastUpdated": "9 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 5431,
+    "p": 34,
+    "h2": 4,
+    "h3": 8,
+    "ul": 2,
+    "li": 11
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 ul h3 h2 h3 h3 h3 h2 ul",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/design-sprints/",
+   "title": "What is a design sprint, and how can it help your team?",
+   "h1": "What is a design sprint, and how can it help your team?",
+   "lastUpdated": "1 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 14976,
+    "p": 56,
+    "h2": 5,
+    "h3": 14,
+    "ul": 3,
+    "li": 19,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h3 h3 h3 h2 h2 h3 ul h3 ol h3 h3 h3 h2 h3 ul h3 ul h2 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/digital-customer-journey/",
+   "title": "What is a digital customer journey?",
+   "h1": "What is a digital customer journey?",
+   "lastUpdated": "22 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 25,
+   "bodyShape": {
+    "chars": 12183,
+    "p": 77,
+    "h2": 8,
+    "ul": 7,
+    "li": 35,
+    "h3": 21
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 ul h3 ul h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 ul h3 h3 ul h2 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ui-developer/",
+   "title": "What is a UI developer? Ultimate guide",
+   "h1": "What is a UI developer? Ultimate guide",
+   "lastUpdated": "28 February 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 9,
+   "bodyShape": {
+    "chars": 9897,
+    "p": 28,
+    "h2": 9,
+    "ul": 5,
+    "li": 27
+   },
+   "bodyOrder": "h2 ul h2 h2 ul h2 h2 ul h2 ul h2 ul h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/unified-customer-experience/",
+   "title": "What is a unified customer experience?",
+   "h1": "What is a unified customer experience?",
+   "lastUpdated": "14 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 8666,
+    "p": 40,
+    "h2": 6,
+    "h3": 13,
+    "ul": 1,
+    "li": 3
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h3 h3 h3 h3 ul h3 h2 h3 h3 h3 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/user-persona/",
+   "title": "What is a user persona?",
+   "h1": "What is a user persona?",
+   "lastUpdated": "15 April 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 8436,
+    "p": 33,
+    "h2": 7,
+    "h3": 8
+   },
+   "bodyOrder": "h2 h2 h2 h2 h3 h3 h3 h3 h3 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ux-researcher/",
+   "title": "What is a UX researcher? Roles, skills, and best practices",
+   "h1": "What is a UX researcher? Roles, skills, and best practices",
+   "lastUpdated": "18 January 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 32,
+   "bodyShape": {
+    "chars": 18715,
+    "p": 71,
+    "h2": 9,
+    "ul": 20,
+    "li": 110,
+    "h3": 23
+   },
+   "bodyOrder": "h2 ul h3 ul h3 h3 ul ul ul h2 h3 h3 h3 h2 ul h3 h3 h2 h3 ul ul h3 ul ul ul h2 h3 ul h3 ul h3 h3 ul h3 ul h2 h3 ul h3 h3 ul h3 ul h3 h3 h3 ul h2 h3 ul h2 h2",
+   "editorsPicksOverride": [
+    "/ux/heuristics/",
+    "/ux/gestalt-principles/",
+    "/ux/halo-effect/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ux-strategy/",
+   "title": "What is a UX strategy? How to develop an effective one",
+   "h1": "What is a UX strategy? How to develop an effective one",
+   "lastUpdated": "21 March 2023",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 16592,
+    "p": 70,
+    "h2": 9,
+    "ul": 6,
+    "li": 31,
+    "h3": 11
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h2 h2 h3 h3 h3 ul h3 ul h3 ul h3 h3 h2 ul h2 h2 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/adaptive-design/",
+   "title": "What is adaptive design in UX?",
+   "h1": "What is adaptive design in UX?",
+   "lastUpdated": "19 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 9556,
+    "p": 36,
+    "h2": 7,
+    "h3": 15,
+    "ul": 3,
+    "li": 16
+   },
+   "bodyOrder": "h2 h3 h2 ul h2 ul h2 h3 h3 h3 h3 h3 h3 ul h2 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/affinity-diagram/",
+   "title": "What is an affinity diagram in UX design & how to create one",
+   "h1": "What is an affinity diagram in UX design & how to create one",
+   "lastUpdated": "31 January 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 9812,
+    "p": 28,
+    "h2": 8,
+    "ul": 1,
+    "li": 9,
+    "h3": 13,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 h2 h3 h3 h2 h2 h3 h3 h3 h3 h3 h2 ol h2 h3 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-is-omnichannel-customer-experience/",
+   "title": "What is an omnichannel customer experience?",
+   "h1": "What is an omnichannel customer experience?",
+   "lastUpdated": "5 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 13264,
+    "p": 57,
+    "h2": 8,
+    "ul": 1,
+    "li": 4,
+    "h3": 16
+   },
+   "bodyOrder": "h2 ul h2 h2 h2 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-is-automated-user-testing/",
+   "title": "What is automated user testing?",
+   "h1": "What is automated user testing?",
+   "lastUpdated": "22 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 11981,
+    "p": 35,
+    "h2": 8,
+    "h3": 13,
+    "ul": 4,
+    "li": 31
+   },
+   "bodyOrder": "h2 h3 ul h2 h2 h2 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h2 ul h2 h3 ul h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/brainstorming/",
+   "title": "What is brainstorming? Methods and best practices",
+   "h1": "What is brainstorming? Methods and best practices",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 12960,
+    "p": 48,
+    "h2": 5,
+    "h3": 17,
+    "ul": 2,
+    "li": 9
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h2 h2 h3 h3 ul h3 h3 h3 h3 h3 ul h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/brand-experience/",
+   "title": "What is brand experience?",
+   "h1": "What is brand experience?",
+   "lastUpdated": "19 May 2023",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 12373,
+    "p": 45,
+    "h2": 6,
+    "h3": 14,
+    "ul": 1,
+    "li": 3
+   },
+   "bodyOrder": "h2 h3 h2 h3 h3 h3 h2 h3 h3 ul h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/circular-design/",
+   "title": "What is circular design?",
+   "h1": "What is circular design?",
+   "lastUpdated": "27 April 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 7345,
+    "p": 29,
+    "h2": 4,
+    "ol": 2,
+    "li": 16,
+    "h3": 12,
+    "ul": 2
+   },
+   "bodyOrder": "h2 ol h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 ul h2 h3 ol h3 ul",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/concept-testing/",
+   "title": "What is concept testing?",
+   "h1": "What is concept testing?",
+   "lastUpdated": "15 April 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 8750,
+    "p": 38,
+    "h2": 7,
+    "h3": 11
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/contextual-inquiry-guide/",
+   "title": "What is contextual inquiry?",
+   "h1": "What is contextual inquiry?",
+   "lastUpdated": "14 March 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 7764,
+    "p": 38,
+    "h2": 8,
+    "ul": 7,
+    "li": 22,
+    "h3": 12
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 ul ul h2 h3 ul h3 h3 h2 h3 h3 h3 h3 h3 h2 ul ul h2 h2 h2 h3 ul h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-is-contextual-onboarding/",
+   "title": "What is contextual onboarding?",
+   "h1": "What is contextual onboarding?",
+   "lastUpdated": "15 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 30,
+   "bodyShape": {
+    "chars": 17312,
+    "p": 78,
+    "h2": 9,
+    "ul": 4,
+    "li": 22,
+    "h3": 25,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 h3 h2 h3 h3 h3 h2 h3 ul h3 ul h2 h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 ul h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 ol h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-is-conways-law/",
+   "title": "What is Conway's Law?",
+   "h1": "What is Conway's Law?",
+   "lastUpdated": "15 January 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 8752,
+    "p": 34,
+    "h2": 8,
+    "ul": 4,
+    "li": 14,
+    "h3": 9
+   },
+   "bodyOrder": "h2 h2 h2 h2 h2 ul h3 h3 h3 h3 h2 h2 h3 ul h3 h3 h2 h3 ul h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-is-customer-experience-design/",
+   "title": "What is customer experience design?",
+   "h1": "What is customer experience design?",
+   "lastUpdated": "14 November 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 12251,
+    "p": 53,
+    "h2": 7,
+    "h3": 14,
+    "ul": 1,
+    "li": 4
+   },
+   "bodyOrder": "h2 h3 h3 h2 h2 h2 h2 h3 h3 ul h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/design-verification/",
+   "title": "What is design verification vs. validation?",
+   "h1": "What is design verification vs. validation?",
+   "lastUpdated": "22 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 6169,
+    "p": 32,
+    "h2": 7,
+    "ul": 5,
+    "li": 21,
+    "h3": 10
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 h3 h3 ul h3 ul h2 h3 h3 h2 h3 ul h3 ul h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/digital-customer-engagement/",
+   "title": "What is digital customer engagement?",
+   "h1": "What is digital customer engagement?",
+   "lastUpdated": "14 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 8675,
+    "p": 30,
+    "ul": 3,
+    "li": 11,
+    "h2": 6,
+    "h3": 10
+   },
+   "bodyOrder": "ul h2 h3 h2 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h2 ul h2 ul",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/discoverability/",
+   "title": "What is discoverability in UX design?",
+   "h1": "What is discoverability in UX design?",
+   "lastUpdated": "19 April 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 10592,
+    "p": 47,
+    "h2": 2,
+    "h3": 16,
+    "ul": 2,
+    "li": 5
+   },
+   "bodyOrder": "h2 h3 ul h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 ul h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/flat-design/",
+   "title": "What is flat design?",
+   "h1": "What is flat design?",
+   "lastUpdated": "12 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 8749,
+    "p": 37,
+    "h2": 10,
+    "h3": 15
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h2 h2 h2 h2 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/information-architecture/",
+   "title": "What is information architecture?",
+   "h1": "What is information architecture?",
+   "lastUpdated": "14 March 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 30,
+   "bodyShape": {
+    "chars": 11823,
+    "p": 62,
+    "h2": 10,
+    "h3": 20,
+    "ul": 4,
+    "li": 14
+   },
+   "bodyOrder": "h2 h2 h3 ul h3 h2 h3 h2 h3 h3 ul h3 h3 h2 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3 h2 h3 ul h2 ul h2 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/interaction-design/",
+   "title": "What is interaction design?",
+   "h1": "What is interaction design?",
+   "lastUpdated": "18 April 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 9,
+   "bodyShape": {
+    "chars": 10804,
+    "p": 36,
+    "h2": 5,
+    "ol": 1,
+    "li": 29,
+    "ul": 4,
+    "h3": 8
+   },
+   "bodyOrder": "h2 ol h2 ul h2 ul h2 h3 h3 ul h3 ul h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/lateral-thinking/",
+   "title": "What is lateral thinking?",
+   "h1": "What is lateral thinking?",
+   "lastUpdated": "27 April 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": null,
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 12838,
+    "p": 50,
+    "h2": 9,
+    "ol": 3,
+    "li": 20,
+    "h3": 16,
+    "ul": 1
+   },
+   "bodyOrder": "h2 h2 ol h2 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 ol h3 h3 h2 ol h2 ul h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/microcopy/",
+   "title": "What is microcopy in UX, and why does it matter?",
+   "h1": "What is microcopy in UX, and why does it matter?",
+   "lastUpdated": "19 May 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Tanya Williams",
+    "href": "/contributors/tanya-williams/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 8702,
+    "p": 33,
+    "h2": 5,
+    "h3": 14,
+    "ul": 3,
+    "li": 11
+   },
+   "bodyOrder": "h2 h3 ul h3 ul h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/research-observation/",
+   "title": "What is observation in user research?",
+   "h1": "What is observation in user research?",
+   "lastUpdated": "27 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 12394,
+    "p": 44,
+    "h2": 7,
+    "h3": 14
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h2 h2 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/quality-management/",
+   "title": "What is quality management?",
+   "h1": "What is quality management?",
+   "lastUpdated": "25 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 34,
+   "bodyShape": {
+    "chars": 15391,
+    "p": 101,
+    "ul": 6,
+    "li": 38,
+    "h2": 9,
+    "h3": 29,
+    "ol": 1
+   },
+   "bodyOrder": "ul h2 ul h2 h3 h3 h3 h3 h3 ul h3 h3 h3 h2 h2 h3 h3 h3 ul h2 h3 h3 h3 h3 h2 h2 h3 ul h3 h3 h3 h3 h3 h3 h2 h3 ul h3 h3 h3 ol h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/signal-to-noise-ratio/",
+   "title": "What is signal-to-noise ratio in UX, and why does it matter?",
+   "h1": "What is signal-to-noise ratio in UX, and why does it matter?",
+   "lastUpdated": "27 March 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 6,
+   "bodyShape": {
+    "chars": 7236,
+    "p": 38,
+    "h2": 4,
+    "ul": 1,
+    "li": 3,
+    "h3": 4
+   },
+   "bodyOrder": "h2 h2 ul h3 h3 h3 h2 h2 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/skeuomorphism/",
+   "title": "What is skeuomorphism?",
+   "h1": "What is skeuomorphism?",
+   "lastUpdated": "27 April 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 10481,
+    "p": 34,
+    "h2": 11,
+    "ul": 3,
+    "li": 9,
+    "h3": 10
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 h3 ul h3 ul h2 h2 h3 h3 h2 h2 h2 h2 h2 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/task-analysis/",
+   "title": "What is task analysis?",
+   "h1": "What is task analysis?",
+   "lastUpdated": "28 February 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 10,
+   "bodyShape": {
+    "chars": 6182,
+    "p": 15,
+    "h2": 7,
+    "ul": 3,
+    "li": 16,
+    "h3": 3,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 h3 h3 h2 h2 ol h2 ul h2",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-is-the-design-cycle/",
+   "title": "What is the design cycle?",
+   "h1": "What is the design cycle?",
+   "lastUpdated": "30 April 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 26,
+   "bodyShape": {
+    "chars": 11704,
+    "p": 39,
+    "h2": 9,
+    "ol": 1,
+    "li": 6,
+    "h3": 21,
+    "ul": 1
+   },
+   "bodyOrder": "h2 h2 ol h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h2 ul h2 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/heart-framework/",
+   "title": "What is the HEART framework?",
+   "h1": "What is the HEART framework?",
+   "lastUpdated": "13 April 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 7872,
+    "p": 34,
+    "h2": 8,
+    "h3": 17
+   },
+   "bodyOrder": "h2 h2 h2 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/uat/",
+   "title": "What is UAT? Understanding user acceptance testing",
+   "h1": "What is UAT? Understanding user acceptance testing",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 10546,
+    "p": 41,
+    "h2": 9,
+    "ul": 4,
+    "li": 21,
+    "h3": 14
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 ul h2 ul h2 h3 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/ux/ux-research-conferences-2024/",
+    "/ux/ux-design-trends-2024/",
+    "/ux/what-does-a-ux-designer-do/",
+    "/ux/ui-ux-design/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/usability-engineering/",
+   "title": "What is usability engineering?",
+   "h1": "What is usability engineering?",
+   "lastUpdated": "21 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 8696,
+    "p": 32,
+    "h2": 6,
+    "h3": 20
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ui-meaning/",
+   "title": "What is user interface (UI): meaning, principles, and examples",
+   "h1": "What is user interface (UI): meaning, principles, and examples",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 8389,
+    "p": 22,
+    "h2": 7,
+    "h3": 10,
+    "ul": 4,
+    "li": 28
+   },
+   "bodyOrder": "h2 h3 ul h3 h2 h2 h3 h3 h3 h3 h3 h3 h2 ul h2 ul h2 ul h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-is-user-onboarding/",
+   "title": "What is user onboarding? Examples & best practices",
+   "h1": "What is user onboarding? Examples & best practices",
+   "lastUpdated": "30 August 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 13629,
+    "p": 44,
+    "h2": 9,
+    "h3": 15,
+    "ul": 4,
+    "li": 18
+   },
+   "bodyOrder": "h2 h3 ul h3 h2 ul h2 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/ux-storyboarding/",
+   "title": "What is UX storyboarding?",
+   "h1": "What is UX storyboarding?",
+   "lastUpdated": "13 April 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 10521,
+    "p": 61,
+    "ul": 6,
+    "li": 18,
+    "h2": 8,
+    "h3": 20
+   },
+   "bodyOrder": "ul h2 h2 ul ul h2 h3 h3 h3 h3 h2 h3 h3 h2 h2 h3 h3 h3 h2 h3 ul h3 h3 h3 h3 h3 h2 h3 h3 ul h3 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/visual-design/",
+   "title": "What is visual design?",
+   "h1": "What is visual design?",
+   "lastUpdated": "11 March 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 8608,
+    "p": 36,
+    "h2": 6,
+    "ul": 5,
+    "li": 36,
+    "h3": 11
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 h3 ul h2 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 ul h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-are-customer-experience-analytics/",
+   "title": "What you need to know about customer experience analytics",
+   "h1": "What you need to know about customer experience analytics",
+   "lastUpdated": "5 October 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 18369,
+    "p": 61,
+    "h2": 5,
+    "h3": 15,
+    "ul": 5,
+    "li": 22,
+    "ol": 2
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 h3 h3 ul ol ul ol h3 ul h3 h3 h3 ul h3 h3 h3 h2 ul h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-is-multivariate-testing/",
+   "title": "What you need to know about multivariate testing",
+   "h1": "What you need to know about multivariate testing",
+   "lastUpdated": "26 February 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 34,
+   "bodyShape": {
+    "chars": 13184,
+    "p": 53,
+    "h2": 9,
+    "ol": 2,
+    "li": 29,
+    "h3": 28,
+    "ul": 6
+   },
+   "bodyOrder": "h2 ol ol h2 h3 ul h3 ul h3 ul h3 ul h2 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 ul h3 h2 h3 h3 ul h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/ux/what-is-usability-testing/",
+   "title": "What you need to know about usability testing",
+   "h1": "What you need to know about usability testing",
+   "lastUpdated": "14 September 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 7,
+   "bodyShape": {
+    "chars": 4455,
+    "p": 11,
+    "h2": 4,
+    "ol": 1,
+    "li": 5,
+    "h3": 7
+   },
+   "bodyOrder": "h2 ol h2 h3 h3 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/ux/usability-testing-non-deterministic-ai-agent-features/",
+    "/ux/unmoderated-usability-tests-complex-enterprise-dashboards/",
+    "/ux/comparative-usability-benchmark-studies-across-releases/",
+    "/ux/ai-tools-for-ux-research/",
+    "/ux/usability-testing-tools/",
+    "/ux/best-user-research-tools/",
+    "/ux/unmoderated-usability-testing-complex-enterprise-b2b-workflows/",
+    "/ux/ai-for-qualitative-data-analysis/"
+   ]
+  },
+  {
+   "path": "/ux/what-is-content-testing/",
+   "title": "Your ultimate guide to effective content testing",
+   "h1": "Your ultimate guide to effective content testing",
+   "lastUpdated": "1 October 2024",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 30,
+   "bodyShape": {
+    "chars": 12084,
+    "p": 59,
+    "h2": 7,
+    "ul": 4,
+    "li": 24,
+    "h3": 26
+   },
+   "bodyOrder": "h2 ul h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 ul h2 h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  }
+ ],
+ "sidebarCta": {
+  "heading": "Analyze user interviews",
+  "body": "Use Dovetail's time-saving analysis features to go from raw user interviews to actionable findings.",
+  "button": {
+   "text": "Contact sales",
+   "href": "/contact-sales/"
+  }
+ }
+}

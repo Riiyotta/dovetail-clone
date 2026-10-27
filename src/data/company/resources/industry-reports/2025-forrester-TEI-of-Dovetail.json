@@ -1,0 +1,125 @@
+{
+ "path": "/resources/industry-reports/2025-forrester-TEI-of-Dovetail/",
+ "title": "TEI™ of Dovetail | Independent research",
+ "h1": "236% ROI unlocked with Dovetail",
+ "intro": {
+  "placeholder": true,
+  "chars": 242
+ },
+ "bullets": [
+  "Saved over $1.05 million by streamlining transcription, tagging, and insights",
+  "ROI in under six months, accelerating payback",
+  "Expanded research capacity with centralized tools that cut duplication and improved teamwork"
+ ],
+ "form": {
+  "fields": [
+   {
+    "label": "First name",
+    "type": "text",
+    "name": "firstname",
+    "placeholder": "Jane",
+    "required": true
+   },
+   {
+    "label": "Last name",
+    "type": "text",
+    "name": "lastname",
+    "placeholder": "Doe",
+    "required": true
+   },
+   {
+    "label": "Company email",
+    "type": "email",
+    "name": "email",
+    "placeholder": "jane@company.com",
+    "required": true
+   },
+   {
+    "label": "Job title",
+    "type": "text",
+    "name": "jobtitle",
+    "placeholder": "Product manager",
+    "required": true
+   },
+   {
+    "label": null,
+    "type": "submit",
+    "name": "",
+    "placeholder": null,
+    "required": false,
+    "value": "Download now"
+   }
+  ],
+  "note": "Original is an embedded HubSpot form; build a static non-submitting form. Legal consent text: placeholder 252 chars.",
+  "legalConsent": {
+   "placeholder": true,
+   "chars": 252
+  }
+ },
+ "logoMarquee": {
+  "eyebrow": "Connecting the world's greatest companies to their customers",
+  "rows": [
+   {
+    "direction": "ltr",
+    "offsetLeft": 0,
+    "items": [
+     {
+      "src": "/assets/white-logo(3).svg",
+      "alt": "Breville"
+     },
+     {
+      "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+      "alt": "Atlassian"
+     },
+     {
+      "src": "/assets/marketing/customer-notion-white-logo.svg",
+      "alt": "Notion"
+     },
+     {
+      "src": "/assets/white-logo(1).svg",
+      "alt": "Okta"
+     },
+     {
+      "src": "/assets/marketing/customer-aws-white-logo.svg",
+      "alt": "AWS"
+     },
+     {
+      "src": "/assets/marketing/customer-toyota-white-logo.svg",
+      "alt": "Toyota"
+     }
+    ]
+   },
+   {
+    "direction": "rtl",
+    "offsetLeft": 120,
+    "items": [
+     {
+      "src": "/assets/marketing/customer-qantas-white-logo.svg",
+      "alt": "Qantas"
+     },
+     {
+      "src": "/assets/marketing/customer-ncrvoyix-white-logo.svg",
+      "alt": "NCRVoyix"
+     },
+     {
+      "src": "/assets/marketing/customer-asml-white-logo.svg",
+      "alt": "ASML"
+     },
+     {
+      "src": "/assets/marketing/customer-zapier-white-logo.svg",
+      "alt": "Zapier"
+     }
+    ]
+   }
+  ]
+ },
+ "cta": {
+  "heading": "Turn customer feedback into product innovation",
+  "buttons": [
+   {
+    "label": "Contact sales",
+    "href": "/contact-sales/"
+   }
+  ]
+ }
+}

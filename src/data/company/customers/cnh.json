@@ -1,0 +1,336 @@
+{
+ "slug": "cnh",
+ "path": "/customers/cnh/",
+ "title": "How CNH builds better agricultural machinery, 50% faster with Dovetail",
+ "eyebrow": "CUSTOMER / CNH",
+ "companyName": "CNH",
+ "isAnonymous": false,
+ "industry": "Manufacturing",
+ "intro": {
+  "placeholder": true,
+  "chars": 191
+ },
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/CNH_headshot.png",
+  "width": 1472,
+  "height": 948,
+  "youtubeId": null,
+  "caption": [
+   "MATTHEW KLOPFENSTEIN, PORTFOLIO MANAGEMENT–CASH CROP SEGMENT SPECIALIST"
+  ]
+ },
+ "stats": [
+  {
+   "value": "7",
+   "label": "tools down to 1"
+  },
+  {
+   "value": "100+",
+   "label": "team members sharing the same customer knowledge"
+  },
+  {
+   "value": "100s",
+   "label": "of hours of customer data—all in Dovetail"
+  }
+ ],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "Intro",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 417
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 489
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/Raven_CNH_Industrial_Brand_image.avif",
+     "alt": "CNH is a global leader in agricultural and construction equipment, primarily focused on the design, production, and sale of advanced machinery under iconic brands like Case IH and New Holland.",
+     "w": 936,
+     "h": 936
+    }
+   ]
+  },
+  {
+   "heading": "The challenge: scaling the Voice of the Customer",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 251
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 371
+    }
+   ]
+  },
+  {
+   "heading": "The solution: a centralized operating system",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 303
+    },
+    {
+     "t": "p",
+     "strong": [
+      "The Dovetail process in action"
+     ],
+     "text": "The Dovetail process in action"
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 235
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "placeholder": true,
+       "chars": 123
+      },
+      {
+       "placeholder": true,
+       "chars": 154
+      },
+      {
+       "placeholder": true,
+       "chars": 209
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "From intuition to intelligence: how 2,900 data points redefined a launch timeline",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 374
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 486
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/CNH_before_after_1.png",
+     "alt": "",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/CNH_before_after_2.png",
+     "alt": "",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/CNH_before_after_3.png",
+     "alt": "",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 579
+    }
+   ]
+  },
+  {
+   "heading": "Quantifying the ROI: efficiency and risk reduction",
+   "body": [
+    {
+     "t": "img",
+     "src": "/assets/company/media/CNH_before_after_table.png",
+     "alt": "",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "t": "p",
+     "strong": [
+      "Cost avoidance"
+     ],
+     "text": "Cost avoidance"
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 399
+    }
+   ]
+  },
+  {
+   "heading": "The impact: better decisions, better machines",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 284
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/AI_Analysis_Hero__1_-5jkaobyLyLYbZ5x3Y5en15.png",
+     "alt": "Dovetail’s AI centralizes and analyzes your customer data to pinpoint the work that drives usage and revenue, so your team can build with confidence.",
+     "w": 0,
+     "h": 0
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": {
+  "quote": {
+   "placeholder": true,
+   "chars": 207
+  },
+  "name": "Matthew Klopfenstein",
+  "role": "Portfolio Management–Cash Crop Segment Specialist"
+ },
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "breville",
+   "href": "/customers/breville/",
+   "title": "How customer insights drive and inspire Breville’s product innovation",
+   "industry": "Consumer",
+   "order": 3,
+   "companyName": "Breville",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/Customer_Breville.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/white-logo(3).svg",
+    "alt": "Breville",
+    "w": 132,
+    "h": 32
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 217
+    },
+    "name": "Constance Docos",
+    "role": "Senior UX Designer"
+   }
+  },
+  {
+   "slug": "atlassian-design",
+   "href": "/customers/atlassian-design/",
+   "title": "How Atlassian turns customer signals into confident product decisions",
+   "industry": "Technology",
+   "order": 2,
+   "companyName": "Atlassian",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/company/media/Customer_Atlassian.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+    "alt": "Atlassian",
+    "w": 160,
+    "h": 20
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 190
+    },
+    "name": "Martin Jerkovic",
+    "role": "Lead Product Designer"
+   }
+  },
+  {
+   "slug": "itau-unibanco",
+   "href": "/customers/itau-unibanco/",
+   "title": "How Itaú Unibanco delivers better banking experiences with Dovetail",
+   "industry": "Finance",
+   "order": 1,
+   "companyName": "Itau Unibanco",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/Customer_Itau.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/white-logo.svg",
+    "alt": "Itaú Unibanco",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 213
+    },
+    "name": "Renato Cerqueira Leite",
+    "role": "Head of research Operations"
+   }
+  }
+ ]
+}

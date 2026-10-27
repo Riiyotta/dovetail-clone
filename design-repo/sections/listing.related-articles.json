@@ -1,0 +1,207 @@
+{
+ "id": "listing.related-articles",
+ "title": "Related articles",
+ "semantic": {
+  "id": "listing.related-articles",
+  "category": "LISTING"
+ },
+ "source": {
+  "id": "component:BlogPost:blog-post__related-cell",
+  "file": "src/pages/blog/BlogPost.jsx",
+  "tag": "div",
+  "lines": "234-246",
+  "tagLine": 234,
+  "anchor": "blog-post__related-cell",
+  "anchorLine": 234
+ },
+ "purpose": "Related reading after an article: card row (blog) or text-link list (resource guides).",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "cards": {
+   "description": "variant 'cards'",
+   "requiredFields": [
+    "items"
+   ],
+   "forbiddenFields": [
+    "actions",
+    "heading"
+   ],
+   "observedOnRoutes": 189,
+   "observedOn": [
+    "/blog/2025-fall-launch/",
+    "/blog/30-days-in/",
+    "/blog/60-days-in/",
+    "/blog/9-digital-twins-you-can-build-today/",
+    "/blog/a-conversation-with-trellos-head-of-design/",
+    "/blog/a-nuclear-meltdown-caused-by-design/",
+    "/blog/accountable-ai/",
+    "/blog/ai-generated-privacy-breaches/",
+    "/blog/ai-powered-contextual-chat/",
+    "/blog/alloy/",
+    "/blog/avoiding-the-moral-crumple-zone/",
+    "/blog/bad-data-decision/"
+   ],
+   "contentSampled": true
+  },
+  "text-links": {
+   "description": "variant 'text-links'",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "items"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 2,
+   "observedOn": [
+    "/resources/dovetail-review/",
+    "/resources/insight7-alternatives/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "items"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 6
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 21,
+    "observedIn": 6
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 2,
+    "maxChars": 17,
+    "observedIn": 2
+   },
+   "items[].href": {
+    "type": "link",
+    "observedIn": 25
+   },
+   "items[].media.alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 7,
+    "assetAlt": true
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 15,
+    "maxChars": 94,
+    "observedIn": 25
+   }
+  },
+  "listSizes": {
+   "items": [
+    1,
+    9
+   ],
+   "actions": [
+    3,
+    3
+   ]
+  },
+  "itemRequiredFields": [
+   "href",
+   "title"
+  ],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "items[].media": {
+    "type": "asset",
+    "referenceRoles": [
+     "content.cover"
+    ],
+    "generatedRoles": [
+     "content.generated-cover"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "content.generated-cover"
+ ],
+ "style": {
+  "props": {
+   "spaceBefore": {
+    "kind": "token",
+    "allowed": [
+     "space.section.s200"
+    ]
+   }
+  },
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 191,
+   "nodes": 191,
+   "minPx": 459.6,
+   "maxPx": 774.7,
+   "medianPx": 718.7,
+   "sample": {
+    "/blog/2025-fall-launch/": [
+     718.7
+    ],
+    "/blog/30-days-in/": [
+     690.7
+    ],
+    "/blog/60-days-in/": [
+     690.7
+    ],
+    "/blog/9-digital-twins-you-can-build-today/": [
+     690.7
+    ],
+    "/blog/a-conversation-with-trellos-head-of-design/": [
+     718.7
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/blog/BlogPost.jsx:234-246",
+  "specs/blog-post.md:1-30",
+  "specs/resources-guide.md:1-30"
+ ]
+}

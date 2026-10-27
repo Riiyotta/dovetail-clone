@@ -1,0 +1,15 @@
+{
+ "id": "icon-tile",
+ "kind": "primitive",
+ "title": "Icon tile",
+ "variants": {
+  "product": "20x20 radius 4 tile in the product accent colour"
+ },
+ "tokens": [
+  "icon.20",
+  "radius.sm"
+ ],
+ "evidence": [
+  "CLONE_SPEC.md:74"
+ ]
+}

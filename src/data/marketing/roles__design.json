@@ -1,0 +1,908 @@
+{
+ "url": "/roles/design/",
+ "template": "roles",
+ "title": "Dovetail for Designers",
+ "metaDescription": "Design with customer intelligence from the start. Dovetail helps teams surface friction, test ideas, and turn user signals into better product decisions.",
+ "documentHeight": {
+  "1440": 11371,
+  "1280": 12333,
+  "768": 14413,
+  "390": 13012
+ },
+ "chrome": {
+  "alertBar": true,
+  "navBackground": null,
+  "footer": "finalCta"
+ },
+ "sections": [
+  {
+   "slice": "RoleHero",
+   "el": "eb5iodx0",
+   "measuredHeight": {
+    "1440": 857.1,
+    "1280": 761.9,
+    "768": 756.6,
+    "390": 637.5
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-design-hero.png",
+     "alt": "",
+     "w": 1440,
+     "h": 857.1,
+     "el": "eb5iodx2"
+    },
+    {
+     "role": "text",
+     "text": "Dovetail for Design",
+     "el": "eb5iodx5.etfyu4r0"
+    },
+    {
+     "role": "h1",
+     "text": "Design with customer evidence from the start",
+     "el": "eb5iodx6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-wise-white-logo.svg",
+     "alt": "Wise",
+     "w": 71.1,
+     "h": 32,
+     "el": "eb5iodx11"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-salesforce-white-logo.svg",
+     "alt": "Salesforce",
+     "w": 72,
+     "h": 32,
+     "el": "eb5iodx11"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-toyota-white-logo.svg",
+     "alt": "Toyota",
+     "w": 71.1,
+     "h": 32,
+     "el": "eb5iodx11"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-shopify-white-logo.svg",
+     "alt": "Shopify",
+     "w": 71.1,
+     "h": 32,
+     "el": "eb5iodx11"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-design-hero-mobile.png",
+     "alt": "",
+     "w": 0,
+     "h": 0,
+     "el": "eb5iodx3",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "Challenge",
+   "el": "etid8i64",
+   "measuredHeight": {
+    "1440": 856,
+    "1280": 856,
+    "768": 313.6,
+    "390": 537.6
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/how-it-works-grid-bg.png.png",
+     "alt": "Grid background",
+     "w": 1260,
+     "h": 856,
+     "el": "e1ms7w8v3"
+    },
+    {
+     "role": "text",
+     "text": "The challenge",
+     "el": "e1qa43fr0.etfyu4r0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 335,
+     "el": "visually-hidden"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Request a demo",
+     "href": "/request-a-demo/",
+     "el": "a"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "HowDovetailHelps",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 267.6,
+    "1280": 143.6,
+    "768": 135.6,
+    "390": 171.6
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "How Dovetail helps",
+     "el": "e1hzr4mi0.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Insight that sharpens every decision",
+     "el": "e1hzr4mi1"
+    }
+   ]
+  },
+  {
+   "slice": "HowDovetailHelps",
+   "el": "etid8i64",
+   "measuredHeight": {
+    "1440": 1177.2,
+    "1280": 1147.3,
+    "768": 2752.4,
+    "390": 1791.4
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-design-feature-1.png",
+     "alt": "",
+     "w": 582,
+     "h": 434.6,
+     "el": "e1hzr4mi3"
+    },
+    {
+     "role": "h3",
+     "text": "Identify friction and unmet needs instantly",
+     "el": "e1hzr4mi5"
+    },
+    {
+     "role": "text",
+     "text": "AI analyzes interviews, tickets, surveys, and feedback to surface recurring themes automatically.",
+     "el": "e1hzr4mi6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-design-feature-2.png",
+     "alt": "",
+     "w": 582,
+     "h": 434.6,
+     "el": "e1hzr4mi3"
+    },
+    {
+     "role": "h3",
+     "text": "Gain clarity during critiques, sprints, and reviews",
+     "el": "e1hzr4mi5"
+    },
+    {
+     "role": "text",
+     "text": "Search and chat across all customer data using natural language—with responses grounded in real evidence.",
+     "el": "e1hzr4mi6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-design-feature-3.png",
+     "alt": "",
+     "w": 582,
+     "h": 434.6,
+     "el": "e1hzr4mi3"
+    },
+    {
+     "role": "h3",
+     "text": "Focus on insights, not formatting",
+     "el": "e1hzr4mi5"
+    },
+    {
+     "role": "text",
+     "text": "Generate summaries, synthesize findings, and create stakeholder-ready briefs automatically.",
+     "el": "e1hzr4mi6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-design-feature-4.png",
+     "alt": "",
+     "w": 582,
+     "h": 434.6,
+     "el": "e1hzr4mi3"
+    },
+    {
+     "role": "h3",
+     "text": "Deliver insights directly into your workflow",
+     "el": "e1hzr4mi5"
+    },
+    {
+     "role": "text",
+     "text": "Dovetail brings research and feedback directly into the tools where teams design and build.",
+     "el": "e1hzr4mi6"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "Integrations",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 1878,
+    "1280": 1987.6,
+    "768": 2027.6,
+    "390": 2615.6
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Integrations",
+     "el": "e1ttzgas0.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Connect to the tools you use",
+     "el": "e1ttzgas1"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Request a demo",
+     "href": "/request-a-demo/",
+     "el": "a"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Figma.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Figma Make",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 172,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Zoom.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Zoom",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 170,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/GoogleMeet.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Google Meet",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 169,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/GoogleDrive.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Google Drive",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 167,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Slack.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Slack",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 186,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Jira.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Jira",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 158,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Sprig.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Sprig",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 167,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/UserSnap.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Usersnap",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 163,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Pendo.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Pendo",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 168,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Claude.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Claude",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 175,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ChatGPT.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "ChatGPT",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "text": "Bring your customer feedback into ChatGPT and turn design insights into decisions without leaving the conversation.",
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "link",
+     "text": "Discover all integrations",
+     "href": "https://docs.dovetail.com/integrations/",
+     "el": "e1ttzgas13"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1ttzgas13-277801.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "UseCaseTabs",
+   "el": "e1af4wr40",
+   "measuredHeight": {
+    "1440": 867.6,
+    "1280": 1343,
+    "768": 1040.2,
+    "390": 834.6
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Use cases",
+     "el": "e1af4wr41.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Practical ways design teams use Dovetail",
+     "el": "e1af4wr42"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-design-usecase-usability-testing.png",
+     "alt": "",
+     "w": 616,
+     "h": 472,
+     "el": "e1af4wr45"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-design-usecase-friction-mapping.png",
+     "alt": "",
+     "w": 616,
+     "h": 472,
+     "el": "e1af4wr45"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-design-usecase-design-rationale.png",
+     "alt": "",
+     "w": 616,
+     "h": 472,
+     "el": "e1af4wr45"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-design-usecase-post-launch-pulse.png",
+     "alt": "",
+     "w": 616,
+     "h": 472,
+     "el": "e1af4wr45"
+    },
+    {
+     "role": "button",
+     "text": "Usability testing",
+     "el": "e1af4wr49"
+    },
+    {
+     "role": "button",
+     "text": "Friction mapping",
+     "el": "e1af4wr49"
+    },
+    {
+     "role": "button",
+     "text": "Design rationale",
+     "el": "e1af4wr49"
+    },
+    {
+     "role": "button",
+     "text": "Post-launch pulse",
+     "el": "e1af4wr49"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 133,
+     "el": "e1af4wr410"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "TestimonialSlice",
+   "el": "eqa8jb90",
+   "measuredHeight": {
+    "1440": 560,
+    "1280": 560,
+    "768": 362,
+    "390": 500.8
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/testimonial-grid-bg.png.png",
+     "alt": "Grid background",
+     "w": 1260,
+     "h": 560,
+     "el": "e1ms7w8v3"
+    },
+    {
+     "role": "link-card",
+     "text": null,
+     "href": "/customers/breville/",
+     "el": "e1i468kp0"
+    },
+    {
+     "role": "text",
+     "text": "Read customer story",
+     "el": "e1i468kp8"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti__3_.png",
+     "alt": "",
+     "w": 80,
+     "h": 80,
+     "el": "e1i468kp2"
+    },
+    {
+     "role": "quote",
+     "placeholder": true,
+     "chars": 217,
+     "el": "e1i468kp5"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-breville-white-logo.svg",
+     "alt": "Breville",
+     "w": 142,
+     "h": 40,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "Constance Docos",
+     "el": "e1i468kp6"
+    },
+    {
+     "role": "text",
+     "text": "Senior UX Designer",
+     "el": "e1i468kp7"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "CustomerStoryCards",
+   "el": "etid8i64",
+   "measuredHeight": {
+    "1440": 531.8,
+    "1280": 1445.3,
+    "768": 2675.9,
+    "390": 1427.9
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/Customer_Breville.png",
+     "alt": "",
+     "w": 376,
+     "h": 413.8,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-breville-white-logo.svg",
+     "alt": "Breville",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "link",
+     "text": "How customer insights drive and inspire Breville’s product innovation ↘",
+     "href": "/customers/breville/",
+     "el": "e1xybz5410"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Customer_Canva.png",
+     "alt": "",
+     "w": 376,
+     "h": 413.8,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-canva-white-logo.svg",
+     "alt": "Canva",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "link-card",
+     "text": null,
+     "href": "/customers/canva/",
+     "el": "e1xybz5410"
+    },
+    {
+     "role": "img",
+     "src": "/assets/Customer_Atlassian.png",
+     "alt": "",
+     "w": 376,
+     "h": 413.8,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+     "alt": "Atlassian",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "link",
+     "text": "How Atlassian turns customer signals into confident product decisions ↘",
+     "href": "/customers/atlassian-design/",
+     "el": "e1xybz5410"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "QuizPromo",
+   "el": "e1l2hegs0",
+   "measuredHeight": {
+    "1440": 419,
+    "1280": 385,
+    "768": 305,
+    "390": 361
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "2-minute quiz",
+     "el": "e1l2hegs3"
+    },
+    {
+     "role": "h2",
+     "text": "Are your designs grounded in real customer insight?",
+     "el": "e1l2hegs4"
+    },
+    {
+     "role": "text",
+     "text": "Answer 10 questions and find out how grounded your design process is in real customer insight.",
+     "el": "e1l2hegs5"
+    },
+    {
+     "role": "link",
+     "text": "Take the quiz",
+     "href": "/roles/design/quiz/",
+     "el": "a"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "FAQ",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 538,
+    "1280": 606,
+    "768": 583,
+    "390": 703
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "FAQs",
+     "el": "ef2kgtv0"
+    },
+    {
+     "role": "button",
+     "text": "How does Dovetail fit into our design workflow?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ea410al3-082750.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 192,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Can designers use Dovetail without a dedicated researcher?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 120,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Does Dovetail replace usability testing tools?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 121,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "How is this different from storing feedback in docs or spreadsheets?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 109,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Can we monitor sentiment after launching a redesign?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 94,
+     "el": "ef2kgtv2"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  }
+ ]
+}

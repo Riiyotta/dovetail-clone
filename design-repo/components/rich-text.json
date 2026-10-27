@@ -1,0 +1,14 @@
+{
+ "id": "rich-text",
+ "kind": "component",
+ "title": "Rich text",
+ "composes": [
+  "heading",
+  "text-link",
+  "image",
+  "divider"
+ ],
+ "evidence": [
+  "specs/content-shared.md:103"
+ ]
+}

@@ -1,0 +1,563 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T5",
+ "route": "/pricing-tallowby/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Tallowby"
+ },
+ "meta": {
+  "title": "Tallowby | Pricing"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Trace sketch",
+    "actions": [
+     {
+      "label": "Orbit meadow",
+      "href": "https://tallowby.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Summit",
+      "href": "https://tallowby.example/navbar-0"
+     },
+     {
+      "label": "Cobalt",
+      "href": "https://tallowby.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Fjord"
+     },
+     {
+      "title": "Falcon"
+     },
+     {
+      "title": "Basil"
+     },
+     {
+      "title": "Atlas"
+     },
+     {
+      "title": "Nimbus"
+     },
+     {
+      "title": "Grove"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Thread",
+      "text": "Quarry ember orbit cinder summit steer ledger tidal"
+     },
+     {
+      "title": "Willow signal",
+      "text": "Refine atlas nimbus tidy cedar delta marble plan"
+     },
+     {
+      "title": "Shape meadow",
+      "text": "Summit harvest sort harbor lantern weigh refine measure"
+     },
+     {
+      "title": "Nimbus tidy",
+      "text": "Thread trace marble ember shape meadow notice steer"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.pricing",
+   "variant": "default",
+   "content": {
+    "heading": "Ledger share lantern signal",
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/hero.pricing-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "pricing.plan-cards",
+   "variant": "default",
+   "content": {
+    "lead": "Basil atlas bundle",
+    "actions": [
+     {
+      "label": "Cedar compass",
+      "href": "https://tallowby.example/plan-cards-0"
+     },
+     {
+      "label": "Marble field",
+      "href": "https://tallowby.example/plan-cards-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/pricing.plan-cards-0"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/pricing.plan-cards-1"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.logo-marquee",
+   "variant": "two-row",
+   "content": {
+    "lead": "Prism gather summit harvest ledger tidal lantern signal",
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Beacon atlas",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Canvas cedar",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Quarry plan orbit",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Cinder summit",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Ledger harbor",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Falcon basil atlas",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Pebble grove cedar",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Compass quarry",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-7"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Shape gather",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-8"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Juniper sort tidal",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-9"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Willow weigh",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-10"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Measure pebble",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-11"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Cedar delta sketch",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-12"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Field shape gather",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-13"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Summit harvest",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-14"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Harbor fjord weigh",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-15"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "marquee.loop",
+    "reducedMotionFallback": "paused"
+   }
+  },
+  {
+   "section": "pricing.comparison-group",
+   "variant": "default",
+   "content": {
+    "heading": "Refine atlas pebble tidy",
+    "lead": "Cedar compass marble plan orbit meadow notice steer ledger tidal lantern signal basil rowan",
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/pricing.comparison-group-0"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/pricing.comparison-group-1"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/pricing.comparison-group-2"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/pricing.comparison-group-3"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "pricing.comparison-group",
+   "variant": "default",
+   "content": {
+    "heading": "Bundle canvas cedar trace",
+    "lead": "Quarry plan shape meadow sprout steer ledger harbor fjord weigh refine rowan bundle canvas",
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/pricing.comparison-group-0"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/pricing.comparison-group-1"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/pricing.comparison-group-2"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/pricing.comparison-group-3"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "pricing.comparison-group",
+   "variant": "default",
+   "content": {
+    "heading": "Cedar compass marble ember",
+    "lead": "Orbit meadow summit harvest ledger tidal fjord weigh refine atlas pebble grove thread trace",
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/pricing.comparison-group-0"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/pricing.comparison-group-1"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/pricing.comparison-group-2"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/pricing.comparison-group-3"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "pricing.comparison-group",
+   "variant": "default",
+   "content": {
+    "heading": "Quarry plan prism cinder",
+    "lead": "Summit juniper sort share lantern falcon basil rowan bundle tidy map delta marble field",
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/pricing.comparison-group-0"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/pricing.comparison-group-1"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/pricing.comparison-group-2"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/pricing.comparison-group-3"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "interactive.faq",
+   "variant": "marketing",
+   "content": {
+    "heading": "Orbi",
+    "lead": "Cinder summit juniper cobalt share willow signal beacon rowan pebble tidy thread delta quarry",
+    "actions": [
+     {
+      "label": "Field shape",
+      "href": "https://tallowby.example/faq-0"
+     },
+     {
+      "label": "Meadow notice",
+      "href": "https://tallowby.example/faq-1"
+     },
+     {
+      "label": "Juniper ledger",
+      "href": "https://tallowby.example/faq-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Harbor fjord falcon",
+      "text": "Refine atlas bundle grove cedar compass sketch plan"
+     },
+     {
+      "title": "Prism cinder summit",
+      "text": "Steer cobalt tidal willow signal basil rowan nimbus"
+     },
+     {
+      "title": "Grove cedar trace",
+      "text": "Quarry plan orbit gather sprout harvest sort share"
+     },
+     {
+      "title": "Lantern signal basil",
+      "text": "Rowan nimbus tidy cedar trace sketch ember orbit"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "accordion.height",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "dark",
+   "content": {
+    "heading": "Gather notice steer",
+    "actions": [
+     {
+      "label": "Share fjord",
+      "href": "https://tallowby.example/final-cta-0"
+     },
+     {
+      "label": "Falcon beacon",
+      "href": "https://tallowby.example/final-cta-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-7"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "lead": "Atlas nimbus grove thread trace",
+    "actions": [
+     {
+      "label": "Field orbit",
+      "href": "https://tallowby.example/footer-0"
+     },
+     {
+      "label": "Gather sprout",
+      "href": "https://tallowby.example/footer-1"
+     },
+     {
+      "label": "Juniper sort",
+      "href": "https://tallowby.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Share"
+     },
+     {
+      "title": "Lantern"
+     },
+     {
+      "title": "Weigh"
+     },
+     {
+      "title": "Basil"
+     },
+     {
+      "title": "Atlas"
+     },
+     {
+      "title": "Pebble"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "pricing.sticky-plan-bar",
+   "variant": "default",
+   "content": {},
+   "motion": {
+    "pattern": "sticky.pin",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  }
+ ]
+}

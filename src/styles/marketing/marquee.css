@@ -1,0 +1,8 @@
+/* Marquee — marketing-shared.md §7.5 (e1u7fodh*) */
+.mk-marquee { --mk-marquee-bg: #0A0A0A; position: relative; width: 100%; overflow: hidden; }
+.mk-marquee__track { display: flex; width: max-content; will-change: transform; }
+.mk-marquee__group { display: flex; align-items: center; flex-shrink: 0; }
+.mk-marquee--shadow::before, .mk-marquee--shadow::after { content: ""; position: absolute; top: 0; bottom: 0; width: 200px; z-index: 1; pointer-events: none; }
+.mk-marquee--shadow::before { left: 0; background: linear-gradient(90deg, var(--mk-marquee-bg) 0%, transparent 100%); }
+.mk-marquee--shadow::after { right: 0; background: linear-gradient(270deg, var(--mk-marquee-bg) 0%, transparent 100%); }
+@media (max-width: 799px) { .mk-marquee--shadow::before, .mk-marquee--shadow::after { width: 32px; } }

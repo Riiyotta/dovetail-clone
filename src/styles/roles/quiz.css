@@ -1,0 +1,65 @@
+/* Role quiz flow — specs/quiz.md §B. #6798FF = theme accentTertiary. */
+.qz { display: flex; flex-direction: column; align-items: center; }
+.qz__wrap { width: 100%; }
+.qz__wrap--intro, .qz__wrap--result { max-width: 640px; }
+.qz__wrap--question { max-width: 740px; min-height: 560px; }
+.qz__bottom { height: 96px; width: 100%; }
+@media (max-width: 799px) { .qz__bottom { height: 56px; } }
+
+.qz__sp16 { height: 16px; } .qz__sp24 { height: 24px; } .qz__sp32 { height: 32px; } .qz__sp40 { height: 40px; }
+
+.qz__eyebrow { display: inline-block; font-family: "JetBrains Mono", "SF Mono", Consolas, Roboto, sans-serif; font-weight: 500;
+  font-size: 14px; line-height: 22px; letter-spacing: .08em; text-transform: uppercase; color: #6798FF; }
+
+.qz__h48 { font-size: 48px; line-height: 56px; font-weight: 500; letter-spacing: -1px; color: #FFFFFF; outline: none; }
+@media (max-width: 1280px) { .qz__h48 { font-size: 32px; line-height: 40px; letter-spacing: -0.25px; } }
+@media (max-width: 799px) { .qz__h48 { font-size: 24px; line-height: 32px; } }
+
+.qz__p18 { font-size: 18px; line-height: 24px; font-weight: 400; color: #A7A7A7; }
+@media (max-width: 799px) { .qz__p18 { font-size: 16px; line-height: 24px; } }
+.qz__intro-p { max-width: 560px; }
+.qz__p16 { font-size: 16px; line-height: 24px; font-weight: 400; color: #A7A7A7; }
+
+/* Question state */
+.qz__counter-row { display: flex; justify-content: flex-end; }
+.qz__counter { font-size: 14px; line-height: 22px; color: #A7A7A7; font-variant-numeric: tabular-nums; }
+.qz__track { width: 100%; height: 3px; border-radius: 2px; background: rgba(255,255,255,.08); overflow: hidden; }
+.qz__fill { height: 100%; border-radius: 2px; background: #6798FF; transition: width 300ms ease; }
+.qz__question { font-size: 32px; line-height: 40px; font-weight: 500; letter-spacing: -0.5px; color: #FFFFFF; outline: none; }
+@media (max-width: 1280px) { .qz__question { font-size: 24px; line-height: 32px; letter-spacing: -0.25px; } }
+@media (max-width: 799px) { .qz__question { font-size: 18px; line-height: 24px; } }
+.qz__options { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 1280px) { .qz__options { grid-template-columns: 1fr; } }
+.qz__opt { display: flex; align-items: flex-start; gap: 16px; padding: 20px 24px; border-radius: 8px; text-align: left; cursor: pointer;
+  background: #121212; border: 1px solid #454545; color: #FFFFFF; transition: background 150ms ease, border-color 150ms ease; }
+.qz__opt:hover:not(:disabled) { background: #191919; border-color: #A7A7A7; }
+.qz__opt:hover:not(:disabled) .qz__key { background: #2C2C2C; color: #FFFFFF; }
+.qz__opt:disabled { cursor: default; }
+.qz__opt.is-selected { background: #6798FF; border-color: transparent; }
+.qz__key { flex-shrink: 0; width: 28px; height: 28px; border-radius: 4px; background: #212121; color: #A7A7A7;
+  font: 600 13px/1 Inter, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, "Segoe UI", Roboto, sans-serif;
+  display: flex; align-items: center; justify-content: center; }
+.qz__opt-text { font-size: 16px; line-height: 24px; color: #FFFFFF; padding-top: 3px; }
+
+/* Result state */
+.qz__tiers { display: flex; gap: 8px; }
+.qz__seg { width: 32px; height: 4px; border-radius: 2px; background: #2C2C2C; transition: background 150ms ease; }
+.qz__seg.is-on { background: #6798FF; }
+.qz__tagline { font-size: 24px; line-height: 32px; font-weight: 500; letter-spacing: -0.5px; color: #A7A7A7; }
+@media (max-width: 799px) { .qz__tagline { font-size: 18px; line-height: 24px; } }
+.qz__cost { border-left: 3px solid #6798FF; padding-left: 20px; }
+.qz__cost-h { font-size: 14px; line-height: 22px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: #6798FF; margin-bottom: 8px; }
+.qz__next { font-style: italic; }
+.qz__pitch { background: #191919; border-radius: 8px; padding: 20px 24px; }
+.qz__pitch-label { font-family: "JetBrains Mono", "SF Mono", Consolas, Roboto, sans-serif; font-weight: 500; font-size: 14px; line-height: 22px;
+  letter-spacing: .08em; text-transform: uppercase; color: #6798FF; margin-bottom: 10px; }
+.qz__pitch-body { line-height: 26px; }
+.qz__score { font-size: 14px; line-height: 22px; color: #A7A7A7; }
+.qz__btns { display: flex; flex-wrap: wrap; gap: 12px; }
+@media (max-width: 799px) { .qz__btns { flex-direction: column; } .qz__btns .mk-btn { width: 100%; } }
+
+/* CTA footer slice (tools-shared §H) */
+.qz__cta-col { grid-column: span 9; }
+@media (max-width: 799px) { .qz__cta-col { grid-column: 1 / -1; } }
+.qz__cta-h { max-width: 712px; }
+.qz__cta-row { margin-top: 32px; }

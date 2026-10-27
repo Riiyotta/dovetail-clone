@@ -1,0 +1,1472 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T26",
+ "route": "/customers/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail clone (local)"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.typewriter",
+   "variant": "default",
+   "content": {
+    "heading": "“I will cry if you take this tool away from me.” “I will cry if you take this tool away from me.”",
+    "lead": "Our customers words, not ours.",
+    "media": [
+     {
+      "assetRole": "icon.source",
+      "alt": "",
+      "ref": "/assets/company/media/icon-googly-eyes.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "typewriter",
+    "reducedMotionFallback": "full-text-no-caret"
+   }
+  },
+  {
+   "section": "listing.story-grid",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "All",
+      "href": "#"
+     },
+     {
+      "label": "Technology",
+      "href": "#"
+     },
+     {
+      "label": "Consumer",
+      "href": "#"
+     },
+     {
+      "label": "Manufacturing",
+      "href": "#"
+     },
+     {
+      "label": "Health",
+      "href": "#"
+     },
+     {
+      "label": "Finance",
+      "href": "#"
+     }
+    ],
+    "items": [
+     {
+      "title": "“Placeholder quote. Nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident qui mollit est. Ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi. Ea duis in velit fugiat.”",
+      "href": "/customers/itau-unibanco/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/Customer_Itau.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt. Id lorem sit adipiscing do incididunt et aliqua minim. Nostrud laboris ex consequat irure.”",
+      "href": "/customers/atlassian-design/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/company/media/Customer_Atlassian.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Pariatur occaecat proident qui mollit est ipsum amet elit eiusmod. Ut dolore enim veniam exercitation nisi ea duis in velit fugiat. Excepteur.”",
+      "href": "/customers/canva-ai/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/company/media/Customer_Canva_AI.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Pariatur occaecat proident qui mollit est ipsum amet elit eiusmod. Ut dolore enim veniam exercitation nisi ea duis. In velit fugiat excepteur cupidatat sunt officia anim laborum dolor.”",
+      "href": "/customers/breville/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/Customer_Breville.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. In velit fugiat excepteur cupidatat sunt officia anim laborum dolor. Consectetur sed tempor labore magna ad quis ullamco aliquip. Commodo aute reprehenderit esse nulla sint non culpa.”",
+      "href": "/customers/cnh/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/Customer_CNHIndustrial.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Duis in velit fugiat excepteur cupidatat sunt officia anim. Laborum dolor consectetur sed tempor labore magna ad quis. Ullamco aliquip commodo aute reprehenderit esse nulla sint. Non culpa.”",
+      "href": "/customers/smartrecruiters/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/Customer_SmartRecruiter.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Quis ullamco aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt id. Lorem sit adipiscing do incididunt et aliqua.”",
+      "href": "/customers/safetyculture/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/marketing/Customer_SafetyCulture.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Officia anim laborum dolor consectetur sed tempor labore magna ad quis ullamco aliquip. Commodo aute reprehenderit esse nulla sint non culpa deserunt id lorem sit. Adipiscing do incididunt et aliqua minim.”",
+      "href": "/customers/achievers/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/marketing/Customer_Achievers.png"
+      }
+     },
+     {
+      "title": "“Now I can search for specific surfacing topics or user problems across the entire database with the help of Dovetail’s AI agent.”",
+      "href": "/customers/pvcase/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/company/media/solar-toggle-02.webp"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Proident qui mollit est ipsum amet elit eiusmod ut dolore enim. Veniam exercitation nisi ea duis in velit fugiat excepteur. Cupidatat sunt officia anim.”",
+      "href": "/customers/vital-voices/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/company/media/vital-voices-thumbnail.jpg"
+      }
+     },
+     {
+      "title": "Eucalyptus uses Dovetail to scale customer intelligence and shape the future of healthcare ↘",
+      "href": "/customers/eucalyptus/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/company/media/Customer_Eucalyptus.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Ex consequat irure voluptate cillum pariatur occaecat proident qui mollit est ipsum amet. Elit eiusmod ut dolore enim veniam exercitation nisi ea duis in velit. Fugiat excepteur cupidatat.”",
+      "href": "/customers/petal-health/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/company/media/Customer_Petal.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Minim nostrud laboris ex consequat irure voluptate cillum pariatur. Occaecat proident qui mollit est ipsum amet elit eiusmod ut dolore enim veniam. Exercitation nisi ea duis in velit fugiat.”",
+      "href": "/customers/okta/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/marketing/Customer_Okta.png"
+      }
+     },
+     {
+      "title": "Atlassian champions the customer at a global scale with Dovetail ↘",
+      "href": "/customers/atlassian/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/marketing/Customer_Atlassian2.png"
+      }
+     },
+     {
+      "title": "“Dovetail helps us simplify the process of pouring all our customer data and all our insights into one spot.”",
+      "href": "/customers/zapier/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/marketing/Customer_Zapier.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Proident qui mollit est ipsum amet elit eiusmod ut dolore enim veniam. Exercitation nisi ea duis in velit fugiat excepteur. Cupidatat sunt officia anim laborum dolor consectetur sed tempor labore magna. Ad.”",
+      "href": "/customers/harvard-business-publishing/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/marketing/Customer_Harvard.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident. Qui mollit est ipsum amet elit eiusmod ut dolore enim veniam exercitation.”",
+      "href": "/customers/netguru/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/company/media/Customer_NetGuru.png"
+      }
+     },
+     {
+      "title": "Careship gains a competitive advantage with fast customer intelligence ↘",
+      "href": "/customers/careship/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/company/media/Customer_Careship.png"
+      }
+     },
+     {
+      "title": "Dovetail helps AWS turn scattered research into a shared source of customer truth ↘",
+      "href": "/customers/aws/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/company/media/Customer_AWS.jpg"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Id lorem sit adipiscing do incididunt et aliqua minim nostrud laboris ex. Consequat irure voluptate cillum pariatur occaecat.”",
+      "href": "/customers/bower/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/company/media/bower-michelle-thumbnail.jpg"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Anim laborum dolor consectetur sed tempor labore magna ad quis ullamco aliquip commodo. Aute reprehenderit esse nulla sint non culpa deserunt id lorem. Sit adipiscing do.”",
+      "href": "/customers/canva/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/marketing/Customer_Canva.png"
+      }
+     },
+     {
+      "title": "“The more we use Dovetail, the more powerful it becomes.”",
+      "text": "Flagship airline group",
+      "href": "/customers/flagship-airline-group/",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/grid-image-flagship-airline-group.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Duis in velit fugiat excepteur cupidatat sunt officia anim laborum. Dolor consectetur sed tempor labore magna ad quis ullamco.”",
+      "text": "Connected fleet technology provider",
+      "href": "/customers/fleet-management-tech-leader/",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/grid-image-fleet-management-tech-leader.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Et aliqua minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident. Qui mollit est ipsum amet elit eiusmod ut dolore enim. Veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat.”",
+      "text": "Agricultural machinery corporation",
+      "href": "/customers/global-agricultural-equipment-maker/",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/grid-image-agricultural-machinery-corporation.png"
+      }
+     },
+     {
+      "title": "“The primary value for us here is in giving access to the data to non-researchers.”",
+      "text": "Global B2B cloud leader",
+      "href": "/customers/global-enterprise-cloud-platform/",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/grid-image-global-enterprise-cloud-platform.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Officia anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco.”",
+      "text": "Leading research enterprise",
+      "href": "/customers/global-enterprise-life-sciences/",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/grid-image-global-enterprise-life-sciences.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Esse nulla sint non culpa deserunt id lorem sit adipiscing do incididunt. Et aliqua minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident. Qui mollit est ipsum amet elit eiusmod ut dolore enim. Veniam exercitation nisi ea duis in velit fugiat.”",
+      "text": "Global financial powerhouse",
+      "href": "/customers/global-financial-institution/",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/grid-image-global-financial-institution.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Ut dolore enim veniam exercitation nisi ea duis in velit fugiat excepteur. Cupidatat sunt officia anim laborum dolor consectetur sed tempor. Labore magna ad quis ullamco aliquip.”",
+      "text": "Global furnishing retailer",
+      "href": "/customers/global-home-furnishings-retailer/",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/grid-image-global-furnishing-retailer.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Laborum dolor consectetur sed tempor labore magna ad quis ullamco aliquip commodo. Aute reprehenderit esse nulla sint non.”",
+      "text": "Global industrial technology leader",
+      "href": "/customers/global-industrial-tech-leader/",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/grid-image-global-industrial-tech-leader.png"
+      }
+     },
+     {
+      "title": "“People would come to me and say, ‘You saved me so many hours of research. I was able to just use your videos and add my own tags.’”",
+      "text": "Global management consulting",
+      "href": "/customers/global-management-consulting-firm/",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/grid-image-global-management-consulting-firm.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Irure voluptate cillum pariatur occaecat proident qui mollit est ipsum amet elit eiusmod. Ut dolore enim veniam.”",
+      "text": "Global POS and payments platform",
+      "href": "/customers/global-pos-and-payments-platform/",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/grid-image-global-commerce-platform.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor labore. Magna ad quis ullamco aliquip commodo aute.”",
+      "text": "Global power‑tool manufacturer",
+      "href": "/customers/global-power-tool-manufacturer/",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/grid-image-global-power-tool-manufacturer.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. In velit fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur. Sed tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit esse. Nulla sint non.”",
+      "text": "Global professional services network",
+      "href": "/customers/global-professional-services-network/",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/grid-image-global-professional-services-network.png"
+      }
+     },
+     {
+      "title": "“Dovetail is currently the biggest source of truth where all of our recordings live.”",
+      "text": "Global SaaS leader",
+      "href": "/customers/global-saas-leader/",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/grid-image-global-saas-leader.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Ea duis in velit fugiat excepteur cupidatat sunt officia anim laborum dolor. Consectetur sed tempor labore magna ad quis ullamco. Aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt id. Lorem sit adipiscing do.”",
+      "text": "Iconic global automaker",
+      "href": "/customers/iconic-global-automaker/",
+      "media": {
+       "assetRole": "icon.source",
+       "alt": "",
+       "ref": "/assets/company/media/grid-image-iconic-global-automaker.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Dolor consectetur sed tempor labore magna ad quis ullamco. Aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt id.”",
+      "text": "Iconic toy brand",
+      "href": "/customers/iconic-toy-brand/",
+      "media": {
+       "assetRole": "icon.source",
+       "alt": "",
+       "ref": "/assets/company/media/grid-image-iconic-toy-brand.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Magna ad quis ullamco aliquip commodo aute reprehenderit esse nulla. Sint non culpa deserunt id lorem sit adipiscing do incididunt et.”",
+      "text": "Leading education publisher",
+      "href": "/customers/leading-education-publisher/",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/grid-image-leading-education-publisher.png"
+      }
+     },
+     {
+      "title": "“When anyone has a question, they can go into Dovetail and find what we’ve already learned.”",
+      "text": "Major retail bank",
+      "href": "/customers/major-personal-bank/",
+      "media": {
+       "assetRole": "person.photo",
+       "alt": "",
+       "ref": "/assets/company/media/grid-image-major-personal-bank.png"
+      }
+     },
+     {
+      "title": "“Channels has made a real difference to how we work as an organization.”",
+      "text": "Modern banking platform",
+      "href": "/customers/modern-business-banking-platform/",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/grid-image-modern-business-banking-platform.png"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "pixel.dissolve-hover",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "social-proof.logo-wall",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/khan-academy/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/1-800-got-junk/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/23andme-research-institute/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/84-51-degrees/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/abnormal-security-corporation/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/abrsm/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/academy-sports-outdoors/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/acculynx/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/marketing/customer-achievers-white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/aetonix/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/affirm/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/aflac/white-logo.png"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/air-up/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/airteam/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/aize/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/aker-solutions/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/akur8/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/alinta-energy/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/altium/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/marketing/customer-amazon-white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/america-s-test-kitchen/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/analog-devices/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/anheuser-busch-inbev/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/anthill/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/appfire/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/apprilis/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/appsflyer/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/appspace/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/ardoq/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/argo/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/arm/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/ascensus/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/marketing/customer-asml-white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/assent/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/marketing/customer-atlassian-white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/auctane/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/aurora-solar/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/autodesk/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/autostore/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/awin-global/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/marketing/customer-aws-white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/bamboohr/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/banco-de-chile/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/bank-of-montreal/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/barnardos/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/bayer/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/bear/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/benevolentai/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/berkeley-research-group-brg/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/bestsecret-gmbh/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/beyondtrust/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/bezero-carbon/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/bfbs/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/bforbank/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/bigcommerce/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/billcom/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/bixal/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/blue-cross-blue-shield/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/blue-prism/white-logo.svg"
+      }
+     },
+     {
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "",
+       "ref": "/assets/company/customers/blue-yonder/white-logo.svg"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "social-proof.customer-stories",
+   "variant": "video-band",
+   "content": {
+    "actions": [
+     {
+      "label": "01",
+      "href": "#"
+     },
+     {
+      "label": "02",
+      "href": "#"
+     },
+     {
+      "label": "03",
+      "href": "#"
+     }
+    ],
+    "items": [
+     {
+      "title": "How customer insights drive and inspire Breville [ ]’s product innovation",
+      "text": "Commodo aute reprehenderit esse nulla sint non culpa deserunt. Id lorem sit adipiscing do incididunt et aliqua minim nostrud laboris ex consequat. Irure voluptate cillum pariatur occaecat proident qui.",
+      "href": "/customers/breville/",
+      "media": {
+       "assetRole": "customer.logo",
+       "alt": "Breville",
+       "ref": "/assets/svg/cta-logo-guessfarleft-breville.svg"
+      }
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/company/media/CustomerStoryBrevilleLoop_copy.png"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Atlassian",
+      "ref": "/assets/company/svg/carousel-logo-atlassian.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Itau Unibanco",
+      "ref": "/assets/company/svg/carousel-logo-itau.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.autoplay",
+    "reducedMotionFallback": "no-autoplay"
+   }
+  },
+  {
+   "section": "social-proof.ratings",
+   "variant": "default",
+   "content": {
+    "lead": "Trusted and loved by users",
+    "actions": [
+     {
+      "label": "G2",
+      "href": "https://www.g2.com/products/dovetail-research-pty-ltd-dovetail"
+     },
+     {
+      "label": "CAPTERRA",
+      "href": "https://www.capterra.com.au/software/174077/dovetail"
+     },
+     {
+      "label": "TRUSTRADIUS",
+      "href": "https://www.trustradius.com/products/dovetail-user-research"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/company/svg/rating-star-half-16.svg"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/company/svg/rating-star-half-16.svg"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/company/svg/rating-star-half-16.svg"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/marketing/3d-flag.png"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/tools/buyer-s-choice-2026-flat.svg"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/tools/getapp-category-leader.svg"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/tools/Group_427321620.svg"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/tools/g2-high-performer-enterprise-summer-2026.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/tools/tech-cares-2026-flat.webp"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/tools/tech-cares-2025-gradient_1.svg"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/tools/g2-momentum-leader-summer-2026.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/tools/top-rated-2026-flat.png"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/tools/g2-leader-summer-2026.png"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/tools/g2-best-relationship-summer-2026.png"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/tools/g2-best-roi-summer-2026.png"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/tools/g2-fastest-implementation-summer-2026.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "marquee.loop",
+    "reducedMotionFallback": "paused"
+   }
+  },
+  {
+   "section": "social-proof.testimonial-wall",
+   "variant": "default",
+   "content": {
+    "quote": {
+     "text": "“Placeholder quote. Aliqua minim nostrud laboris ex consequat irure voluptate cillum. Pariatur occaecat proident qui mollit est ipsum amet elit eiusmod. Ut dolore enim.”"
+    },
+    "items": [
+     {
+      "title": "“Placeholder quote. Aliqua minim nostrud laboris ex consequat irure voluptate cillum. Pariatur occaecat proident qui mollit est ipsum amet elit eiusmod. Ut dolore enim.”",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/company/media/Customer_Canva_AI.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt. Officia anim laborum dolor consectetur sed tempor labore magna ad quis ullamco aliquip commodo. Aute.”",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/company/media/Customer_Canva_AI.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Commodo aute reprehenderit esse nulla sint non culpa deserunt id lorem. Sit adipiscing do incididunt et aliqua minim nostrud.”",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/MartinJerkovicPhoto.webp"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Voluptate cillum pariatur occaecat proident qui mollit est ipsum amet elit eiusmod. Ut dolore enim veniam exercitation nisi ea duis. In velit fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur. Sed tempor labore magna ad quis ullamco aliquip commodo. Aute.”"
+     },
+     {
+      "title": "“Placeholder quote. Excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor labore magna ad. Quis ullamco aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt. Id lorem sit adipiscing do incididunt et aliqua minim nostrud laboris ex.”"
+     },
+     {
+      "title": "“Placeholder quote. Culpa deserunt id lorem sit adipiscing do incididunt et. Aliqua minim nostrud laboris ex consequat irure voluptate. Cillum.”"
+     },
+     {
+      "title": "“Placeholder quote. Est ipsum amet elit eiusmod ut dolore enim veniam exercitation. Nisi ea duis in velit fugiat excepteur cupidatat sunt officia anim laborum. Dolor consectetur sed tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit. Esse nulla sint non culpa deserunt id lorem sit adipiscing. Do incididunt et aliqua minim nostrud laboris ex consequat.”"
+     },
+     {
+      "title": "“Placeholder quote. Consectetur sed tempor labore magna ad quis ullamco aliquip commodo aute. Reprehenderit esse nulla sint non culpa deserunt id lorem sit. Adipiscing do incididunt et aliqua minim nostrud laboris ex consequat irure voluptate. Cillum pariatur occaecat proident qui mollit est ipsum amet elit eiusmod ut dolore. Enim veniam exercitation nisi ea duis in velit fugiat excepteur. Cupidat"
+     },
+     {
+      "title": "“Great UI, UX for video managment, tag management, and having 85+% accurate transcription is super helpful in research analysis! ”"
+     },
+     {
+      "title": "“Placeholder quote. Enim veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt officia. Anim laborum dolor consectetur sed tempor labore magna ad quis ullamco.”"
+     },
+     {
+      "title": "“Placeholder quote. Ullamco aliquip commodo aute reprehenderit esse nulla sint non. Culpa deserunt id lorem sit adipiscing do incididunt et aliqua minim nostrud laboris ex.”"
+     },
+     {
+      "title": "“Channels is instrumental in both identifying themes and patterns within minutes and sparking my team's understanding of UX repositories.”"
+     },
+     {
+      "title": "“Placeholder quote. Velit fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur sed. Tempor labore magna ad quis ullamco.”"
+     },
+     {
+      "title": "“Placeholder quote. Sint non culpa deserunt id lorem sit adipiscing do incididunt et aliqua. Minim nostrud.”"
+     },
+     {
+      "title": "“Placeholder quote. Qui mollit est ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi. Ea duis in velit fugiat excepteur cupidatat sunt officia. Anim laborum dolor consectetur.”"
+     },
+     {
+      "title": "“Placeholder quote. Laborum dolor consectetur sed tempor labore magna ad quis. Ullamco aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt.”"
+     },
+     {
+      "title": "“Placeholder quote. Adipiscing do incididunt et aliqua minim nostrud laboris ex consequat. Irure voluptate cillum.”"
+     },
+     {
+      "title": "“Placeholder quote. Ut dolore enim veniam exercitation nisi ea duis in velit fugiat. Excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor labore magna ad quis. Ullamco.”"
+     },
+     {
+      "title": "“Placeholder quote. Ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint non culpa. Deserunt id lorem sit adipiscing do incididunt et aliqua.”"
+     },
+     {
+      "title": "“Dovetail is currently the biggest source of truth where all of our recordings live.”"
+     },
+     {
+      "title": "“Placeholder quote. Duis in velit fugiat excepteur cupidatat sunt officia anim. Laborum dolor consectetur sed tempor labore magna ad quis ullamco aliquip. Commodo aute reprehenderit esse nulla sint non culpa deserunt. Id lorem sit adipiscing do.”"
+     },
+     {
+      "title": "“Placeholder quote. Esse nulla sint non culpa deserunt id lorem sit adipiscing. Do incididunt et aliqua minim nostrud laboris ex. Consequat irure voluptate cillum pariatur occaecat proident qui mollit est ipsum.”",
+      "media": {
+       "assetRole": "person.photo",
+       "alt": "",
+       "ref": "/assets/company/media/lift_headshot.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Occaecat proident qui mollit est ipsum amet elit eiusmod ut dolore. Enim veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt. Officia anim laborum dolor consectetur sed tempor labore.”",
+      "media": {
+       "assetRole": "person.photo",
+       "alt": "",
+       "ref": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti-4.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Officia anim laborum dolor consectetur sed tempor labore magna ad quis.”"
+     },
+     {
+      "title": "“Placeholder quote. Lorem sit adipiscing do incididunt et aliqua minim nostrud laboris ex consequat irure. Voluptate cillum pariatur occaecat proident qui mollit est ipsum amet elit eiusmod ut dolore. Enim.”"
+     },
+     {
+      "title": "“Placeholder quote. Elit eiusmod ut dolore enim veniam exercitation nisi ea. Duis in velit fugiat excepteur cupidatat sunt officia anim laborum. Dolor consectetur sed tempor labore magna ad.”"
+     },
+     {
+      "title": "“Placeholder quote. Labore magna ad quis ullamco aliquip commodo aute reprehenderit esse. Nulla sint non culpa deserunt id lorem sit adipiscing do incididunt et aliqua minim. Nostrud.”"
+     },
+     {
+      "title": "“Placeholder quote. Minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident. Qui mollit est ipsum amet elit eiusmod ut dolore enim veniam.”"
+     },
+     {
+      "title": "“Placeholder quote. Nisi ea duis in velit fugiat excepteur cupidatat sunt officia anim laborum. Dolor consectetur sed tempor labore magna ad quis. Ullamco aliquip.”"
+     },
+     {
+      "title": "“Placeholder quote. Aute reprehenderit esse nulla sint non culpa deserunt id lorem sit adipiscing do. Incididunt et.”"
+     },
+     {
+      "title": "“Placeholder quote. Cillum pariatur occaecat proident qui mollit est ipsum amet. Elit eiusmod ut dolore enim veniam exercitation nisi. Ea duis in velit fugiat excepteur cupidatat sunt officia anim.”"
+     },
+     {
+      "title": "“Dovetail instantly reduced my workload from 100 hours down to 10 to share out customer insights.”"
+     },
+     {
+      "title": "“Placeholder quote. Deserunt id lorem sit adipiscing do incididunt et aliqua minim nostrud. Laboris ex consequat.”"
+     },
+     {
+      "title": "“Placeholder quote. Ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi ea duis. In velit fugiat excepteur cupidatat sunt officia.”"
+     },
+     {
+      "title": "“Placeholder quote. Sed tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit esse nulla. Sint non culpa deserunt id lorem sit adipiscing do incididunt et.”"
+     },
+     {
+      "title": "“Placeholder quote. Et aliqua minim nostrud laboris ex consequat irure voluptate. Cillum pariatur occaecat proident qui mollit est ipsum amet elit eiusmod ut dolore.”"
+     },
+     {
+      "title": "“Placeholder quote. Veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat. Sunt officia anim laborum dolor consectetur sed tempor labore magna ad. Quis ullamco aliquip commodo aute.”"
+     },
+     {
+      "title": "“Placeholder quote. Aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt id. Lorem sit adipiscing do incididunt et aliqua minim. Nostrud laboris ex consequat irure voluptate cillum pariatur.”"
+     },
+     {
+      "title": "“Placeholder quote. Irure voluptate cillum pariatur occaecat proident qui mollit est ipsum amet elit. Eiusmod ut dolore enim veniam exercitation nisi ea.”"
+     },
+     {
+      "title": "“Placeholder quote. Fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco aliquip.”"
+     },
+     {
+      "title": "“Placeholder quote. Non culpa deserunt id lorem sit adipiscing do incididunt. Et aliqua minim nostrud laboris ex consequat irure voluptate cillum pariatur.”"
+     },
+     {
+      "title": "“Placeholder quote. Mollit est ipsum amet elit eiusmod ut dolore enim veniam. Exercitation nisi ea duis in velit fugiat excepteur cupidatat. Sunt officia anim laborum dolor consectetur sed tempor.”"
+     },
+     {
+      "title": "“Placeholder quote. Dolor consectetur sed tempor labore magna ad quis ullamco aliquip commodo. Aute reprehenderit esse nulla sint non culpa deserunt id lorem sit adipiscing do incididunt. Et aliqua minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident qui. Mollit.”",
+      "media": {
+       "assetRole": "person.photo",
+       "alt": "",
+       "ref": "/assets/company/media/lift_headshot.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Do incididunt et aliqua minim nostrud laboris ex consequat irure voluptate cillum. Pariatur occaecat proident qui mollit est ipsum amet elit eiusmod ut. Dolore enim veniam exercitation nisi ea.”",
+      "media": {
+       "assetRole": "person.photo",
+       "alt": "",
+       "ref": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti__3_.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Dolore enim veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt. Officia anim laborum dolor consectetur sed tempor.”"
+     },
+     {
+      "title": "“Placeholder quote. Quis ullamco aliquip commodo aute reprehenderit esse nulla sint. Non culpa deserunt id lorem sit adipiscing do incididunt et aliqua. Minim nostrud laboris ex consequat.”"
+     },
+     {
+      "title": "“Placeholder quote. Ex consequat irure voluptate cillum pariatur occaecat proident qui mollit. Est ipsum amet elit eiusmod ut dolore enim. Veniam exercitation nisi ea duis in velit.”"
+     },
+     {
+      "title": "“Placeholder quote. In velit fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur. Sed tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit esse. Nulla sint non culpa deserunt id lorem sit adipiscing do incididunt et aliqua. Minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat. Proident qui mollit est ipsum amet elit eiusmod ut dolore enim"
+     },
+     {
+      "title": "“Placeholder quote. Nulla sint non culpa deserunt id lorem sit adipiscing do incididunt et. Aliqua minim nostrud laboris ex consequat irure voluptate cillum. Pariatur occaecat proident qui mollit est ipsum amet. Elit eiusmod ut dolore enim veniam exercitation nisi ea duis in. Velit fugiat.”"
+     },
+     {
+      "title": "“Placeholder quote. Proident qui mollit est ipsum amet elit eiusmod ut dolore enim veniam exercitation. Nisi ea duis in velit fugiat.”"
+     },
+     {
+      "title": "“Placeholder quote. Anim laborum dolor consectetur sed tempor labore magna ad. Quis ullamco aliquip commodo aute reprehenderit esse nulla sint. Non culpa deserunt id lorem sit adipiscing do.”"
+     },
+     {
+      "title": "“Placeholder quote. Sit adipiscing do incididunt et aliqua minim nostrud laboris ex. Consequat irure voluptate cillum pariatur occaecat proident qui mollit est ipsum amet elit eiusmod. Ut dolore enim veniam.”"
+     },
+     {
+      "title": "“It’s like having a librarian, where you're able to query a system and get real information back that's cited with references.”"
+     },
+     {
+      "title": "“Placeholder quote. Magna ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint non. Culpa deserunt id lorem sit adipiscing do incididunt. Et aliqua minim nostrud laboris ex consequat irure.”"
+     },
+     {
+      "title": "“Placeholder quote. Nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident qui mollit est. Ipsum amet elit eiusmod ut.”"
+     },
+     {
+      "title": "“Placeholder quote. Ea duis in velit fugiat excepteur cupidatat sunt officia. Anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco aliquip commodo aute.”"
+     },
+     {
+      "title": "“Placeholder quote. Reprehenderit esse nulla sint non culpa deserunt id lorem sit. Adipiscing do incididunt et aliqua minim nostrud laboris ex.”"
+     },
+     {
+      "title": "“Placeholder quote. Pariatur occaecat proident qui mollit est ipsum amet elit eiusmod ut. Dolore enim veniam exercitation nisi ea duis in velit. Fugiat excepteur.”"
+     },
+     {
+      "title": "“The best tool for turning user feedback into insights.”"
+     },
+     {
+      "title": "“Enables beautiful reports, video clips, and roll-ups of information.”"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "dark",
+   "content": {
+    "heading": "The best never guess",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "#"
+     },
+     {
+      "label": "Start free trial",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-theright-salesforce.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestfarleft-aws.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestleft-canva.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestright-airwallex.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverright-notion.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverfarright-zapier.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessleft-wise.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessfarleft-breville.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

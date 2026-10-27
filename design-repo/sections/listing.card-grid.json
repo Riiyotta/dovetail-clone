@@ -1,0 +1,232 @@
+{
+ "id": "listing.card-grid",
+ "title": "Card grid",
+ "semantic": {
+  "id": "listing.card-grid",
+  "category": "LISTING"
+ },
+ "source": {
+  "id": "component:BlogIndex:blog-index__grid-wrap",
+  "file": "src/pages/blog/BlogIndex.jsx",
+  "tag": "div",
+  "lines": "58-70",
+  "tagLine": 58,
+  "anchor": "blog-index__grid-wrap",
+  "anchorLine": 58
+ },
+ "purpose": "Grid of image cards (cover, title, date, tag) with load-more; blog-teaser variant on the resource centre.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "blog": {
+   "description": "variant 'blog'",
+   "requiredFields": [
+    "items"
+   ],
+   "forbiddenFields": [
+    "heading"
+   ],
+   "observedOnRoutes": 6,
+   "observedOn": [
+    "/blog/",
+    "/blog/ai/",
+    "/blog/dovetail-team/",
+    "/blog/engineering/",
+    "/blog/ideas/",
+    "/blog/product/"
+   ],
+   "contentSampled": true
+  },
+  "blog-teasers": {
+   "description": "variant 'blog-teasers'",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "items"
+   ],
+   "forbiddenFields": [
+    "media"
+   ],
+   "observedOnRoutes": 1,
+   "observedOn": [
+    "/resources/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "items"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 3
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 17,
+    "observedIn": 3
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 13,
+    "observedIn": 1
+   },
+   "items[].href": {
+    "type": "link",
+    "observedIn": 59
+   },
+   "items[].media.alt": {
+    "type": "text",
+    "maxWords": 21,
+    "maxChars": 164,
+    "observedIn": 59,
+    "assetAlt": true
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 17,
+    "observedIn": 56
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 22,
+    "maxChars": 170,
+    "observedIn": 59
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 2,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "actions": [
+    1,
+    1
+   ],
+   "items": [
+    3,
+    24
+   ],
+   "media": [
+    2,
+    2
+   ]
+  },
+  "itemRequiredFields": [
+   "href",
+   "media",
+   "title"
+  ],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "items[].media": {
+    "type": "asset",
+    "referenceRoles": [
+     "content.cover",
+     "person.photo"
+    ],
+    "generatedRoles": [
+     "content.generated-cover",
+     "person.fictional-avatar"
+    ]
+   },
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "content.cover"
+    ],
+    "generatedRoles": [
+     "content.generated-cover"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "content.generated-cover",
+  "person.fictional-avatar"
+ ],
+ "style": {
+  "props": {
+   "spaceBefore": {
+    "kind": "token",
+    "allowed": [
+     "space.section.s200",
+     "space.section.s80"
+    ]
+   }
+  },
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 7,
+   "nodes": 7,
+   "minPx": 505.8,
+   "maxPx": 4282,
+   "medianPx": 4245.6,
+   "sample": {
+    "/blog/": [
+     4245.6
+    ],
+    "/blog/ai/": [
+     4282
+    ],
+    "/blog/dovetail-team/": [
+     4170
+    ],
+    "/blog/engineering/": [
+     1482.8
+    ],
+    "/blog/ideas/": [
+     4254
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/blog/BlogIndex.jsx:58-70",
+  "specs/blog-index.md:1-30",
+  "specs/resources-index.md:1-30"
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "slug": "from-customer-feedback-to-business-impact-how-dovetail-customers-build-a",
+ "path": "/events/from-customer-feedback-to-business-impact-how-dovetail-customers-build-a/",
+ "title": "From customer feedback to business impact: how Dovetail customers build a culture of customer centricity",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2025-08-28T11:00-07:00",
+ "endDate": null,
+ "onlineEvent": true,
+ "location": "Online",
+ "hosts": [
+  "Alissa Lydon",
+  "Dan Smith"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": "gfTiFWxjK5w",
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Alissa Lydon, Dan Smith"
+  },
+  {
+   "label": "[START]",
+   "value": "28 Aug 2025 11:00AM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Online"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "video",
+  "image": "/assets/company/media/Webinar_August_Hero__2_.png",
+  "width": 2240,
+  "height": 1260,
+  "youtubeId": "gfTiFWxjK5w"
+ },
+ "body": [
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 456
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 346
+  },
+  {
+   "t": "p",
+   "text": "In this webinar, you will learn how to:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 171
+    },
+    {
+     "placeholder": true,
+     "chars": 145
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "text": "We’ll explore features like:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 136
+    },
+    {
+     "placeholder": true,
+     "chars": 99
+    },
+    {
+     "placeholder": true,
+     "chars": 161
+    },
+    {
+     "placeholder": true,
+     "chars": 178
+    },
+    {
+     "placeholder": true,
+     "chars": 141
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 48
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

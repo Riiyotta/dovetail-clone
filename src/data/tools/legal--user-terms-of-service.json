@@ -1,0 +1,430 @@
+{
+ "url": "/legal/user-terms-of-service/",
+ "template": "legal-doc",
+ "meta": {
+  "title": "User Terms of Service",
+  "description": "Dovetail’s legal and privacy documents, including the user terms of service, privacy policy, data processing agreement, and acceptable use policy."
+ },
+ "theme": "light",
+ "breadcrumb": [
+  {
+   "text": "Home",
+   "href": "/"
+  },
+  {
+   "text": "Legal",
+   "href": "/legal/"
+  }
+ ],
+ "h1": "User Terms of Service",
+ "sideNav": {
+  "groups": [
+   {
+    "group": "Legal",
+    "links": [
+     {
+      "text": "Master Subscription Agreement",
+      "href": "/legal/master-subscription-agreement/"
+     },
+     {
+      "text": "User Terms of Service",
+      "href": "/legal/user-terms-of-service/"
+     },
+     {
+      "text": "Acceptable Use Policy",
+      "href": "/legal/acceptable-use-policy/"
+     },
+     {
+      "text": "Product-Specific Terms: AI Features",
+      "href": "/legal/ai-features/"
+     },
+     {
+      "text": "Mutual Non-Disclosure Agreement",
+      "href": "/legal/mutual-non-disclosure-agreement/"
+     },
+     {
+      "text": "Product-Specific Terms: Recruit",
+      "href": "/legal/product-specific-terms-recruit/"
+     },
+     {
+      "text": "Community Code of Conduct",
+      "href": "/legal/community-code-of-conduct/"
+     },
+     {
+      "text": "Insurance",
+      "href": "/legal/insurance/"
+     },
+     {
+      "text": "Accessibility Statement",
+      "href": "/legal/accessibility-statement/"
+     },
+     {
+      "text": "Open Source",
+      "href": "/legal/open-source/"
+     },
+     {
+      "text": "Press Kit and Logo Usage",
+      "href": "/legal/press-kit/"
+     },
+     {
+      "text": "Modern Slavery Statement",
+      "href": "/legal/modern-slavery-statement/"
+     },
+     {
+      "text": "Anti-Bribery and Anti-Corruption Statement",
+      "href": "/legal/anti-bribery-and-anti-corruption-statement/"
+     },
+     {
+      "text": "AI Models",
+      "href": "/legal/ai-models/"
+     }
+    ]
+   },
+   {
+    "group": "Privacy",
+    "links": [
+     {
+      "text": "Compliance With Laws",
+      "href": "/privacy/compliance-with-laws/"
+     },
+     {
+      "text": "Data Processing Agreement",
+      "href": "/privacy/data-processing-agreement/"
+     },
+     {
+      "text": "Privacy Policy",
+      "href": "/privacy/privacy-policy/"
+     },
+     {
+      "text": "Data Subject Access Request",
+      "href": "/privacy/data-subject-access-request/"
+     },
+     {
+      "text": "Event Release",
+      "href": "/privacy/event-release/"
+     }
+    ]
+   }
+  ],
+  "expandedGroup": "Legal",
+  "current": "/legal/user-terms-of-service/"
+ },
+ "toc": [
+  "1. Relationship",
+  "2. Prohibited Conduct",
+  "3. Signing up to our Site",
+  "4. Trial Workspace",
+  "5. Limitation of Liability",
+  "6. We Own Our Services",
+  "7. Consumer Guarantees",
+  "8. Survival",
+  "9. Privacy Policy",
+  "10. Indemnities",
+  "11. Disputes",
+  "12. General"
+ ],
+ "body": [
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 121,
+   "links": [
+    {
+     "chars": 12,
+     "href": "/"
+    }
+   ],
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 580,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 439,
+   "links": [
+    {
+     "chars": 21,
+     "href": "/legal/acceptable-use-policy/"
+    },
+    {
+     "chars": 21,
+     "href": "/legal/acceptable-use-policy/"
+    },
+    {
+     "chars": 21,
+     "href": "/legal/acceptable-use-policy/"
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "1-relationship",
+   "text": "1. Relationship"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 836,
+   "links": [
+    {
+     "chars": 29,
+     "href": "/legal/master-subscription-agreement/"
+    }
+   ],
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 1277,
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "2-prohibited-conduct",
+   "text": "2. Prohibited Conduct"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 430
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 278
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 171,
+   "links": [
+    {
+     "chars": 21,
+     "href": "/legal/acceptable-use-policy/"
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "3-signing-up-to-our-site",
+   "text": "3. Signing up to our Site"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 714
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 247
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 462,
+   "links": [
+    {
+     "chars": 21,
+     "href": "/legal/acceptable-use-policy/"
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "4-trial-workspace",
+   "text": "4. Trial Workspace"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 405
+  },
+  {
+   "type": "h2",
+   "id": "5-limitation-of-liability",
+   "text": "5. Limitation of Liability"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 556,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 562,
+   "links": [
+    {
+     "chars": 21,
+     "href": "/legal/acceptable-use-policy/"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 618
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 604,
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "6-we-own-our-services",
+   "text": "6. We Own Our Services"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 1639
+  },
+  {
+   "type": "h2",
+   "id": "7-consumer-guarantees",
+   "text": "7. Consumer Guarantees"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 343,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 590
+  },
+  {
+   "type": "h2",
+   "id": "8-survival",
+   "text": "8. Survival"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 103
+  },
+  {
+   "type": "h2",
+   "id": "9-privacy-policy",
+   "text": "9. Privacy Policy"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 107,
+   "links": [
+    {
+     "chars": 14,
+     "href": "/privacy/privacy-policy/"
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "10-indemnities",
+   "text": "10. Indemnities"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 263
+  },
+  {
+   "type": "h2",
+   "id": "11-disputes",
+   "text": "11. Disputes"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 1010,
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "12-general",
+   "text": "12. General"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 355
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 340,
+   "links": [
+    {
+     "chars": 21,
+     "href": "/legal/acceptable-use-policy/"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 556,
+   "links": [
+    {
+     "chars": 21,
+     "href": "/legal/acceptable-use-policy/"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 465
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 299
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 404,
+   "links": [
+    {
+     "chars": 12,
+     "href": "/pricing/"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 167
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 374
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 859
+  }
+ ],
+ "lastUpdated": {
+  "label": "Last updated",
+  "date": "01 July 2025"
+ },
+ "navRightButtons": false,
+ "finalCta": true
+}

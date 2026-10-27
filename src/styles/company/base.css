@@ -1,0 +1,111 @@
+/* Company group primitives — specs/company-shared.md S0.2 (layout), S0.3 (spacers), S0.4 (type), S0.5 (buttons). */
+
+/* S0.2 SliceContainer / SliceGrid / InnerGrid */
+.co-container { max-width: 1512px; margin: 0 auto; width: 100%; padding: 0 124px; position: relative; }
+.co-grid { max-width: 1512px; margin: 0 auto; width: 100%; padding: 0 124px; display: grid; grid-template-columns: repeat(12, 1fr); gap: 32px; }
+.co-innergrid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 32px; }
+@media (max-width: 1280px) {
+  .co-container { padding: 0 64px; }
+  .co-grid { padding: 0 64px; gap: 24px; }
+  .co-innergrid { gap: 24px; }
+}
+@media (max-width: 799px) {
+  .co-container { padding: 0 16px; }
+  .co-grid { padding: 0 16px; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+  .co-innergrid { grid-template-columns: repeat(4, 1fr); }
+}
+.co-col-full { grid-column: 1 / -1; min-width: 0; }
+
+/* S0.3 Spacers: heights >1280 / ≤1280 / ≤799 */
+.co-sp { width: 100%; height: var(--sp-d); flex-shrink: 0; }
+@media (max-width: 1280px) { .co-sp { height: var(--sp-md); } }
+@media (max-width: 799px) { .co-sp { height: var(--sp-sm); } }
+/* S200 is 160 when it is the last child of main at ≥1281 */
+@media (min-width: 1281px) { .co-main > .co-sp--s200:last-child, .co-main > .co-sp--s200-fixed:last-child { height: 160px; } }
+
+/* S0.4 Type scale */
+.co-h96 { font-size: 96px; line-height: 100px; font-weight: 600; letter-spacing: -2px; }
+.co-h80 { font-size: 80px; line-height: 84px; font-weight: 600; letter-spacing: -2px; }
+.co-h72 { font-size: 72px; line-height: 76px; font-weight: 600; letter-spacing: -2px; }
+.co-h64 { font-size: 64px; line-height: 68px; font-weight: 600; letter-spacing: -2px; }
+.co-h56 { font-size: 56px; line-height: 60px; font-weight: 600; letter-spacing: -2px; }
+.co-h48 { font-size: 48px; line-height: 56px; font-weight: 500; letter-spacing: -1px; }
+.co-h40 { font-size: 40px; line-height: 48px; font-weight: 500; letter-spacing: -1px; }
+.co-h32 { font-size: 32px; line-height: 40px; font-weight: 500; letter-spacing: -0.5px; }
+.co-h24 { font-size: 24px; line-height: 32px; font-weight: 500; letter-spacing: -0.5px; }
+.co-h20 { font-size: 20px; line-height: 28px; font-weight: 500; letter-spacing: -0.25px; }
+.co-h18 { font-size: 18px; line-height: 24px; font-weight: 500; letter-spacing: -0.25px; }
+.co-h16 { font-size: 16px; line-height: 24px; font-weight: 500; }
+.co-p20 { font-size: 20px; line-height: 28px; font-weight: 400; }
+.co-p16 { font-size: 16px; line-height: 24px; font-weight: 400; }
+.co-p14 { font-size: 14px; line-height: 22px; font-weight: 400; }
+.co-m14 { font-family: "JetBrains Mono", "SF Mono", Consolas, Roboto, sans-serif; font-size: 14px; line-height: 140%; font-weight: 400; letter-spacing: 1px; text-transform: uppercase; }
+.co-m12 { font-family: "JetBrains Mono", "SF Mono", Consolas, Roboto, sans-serif; font-size: 12px; line-height: 12px; font-weight: 400; letter-spacing: 1px; text-transform: uppercase; }
+@media (max-width: 1280px) {
+  .co-h96 { font-size: 72px; line-height: 76px; letter-spacing: -2px; }
+  .co-h80 { font-size: 64px; line-height: 68px; letter-spacing: -2px; }
+  .co-h72 { font-size: 56px; line-height: 60px; letter-spacing: -2px; }
+  .co-h64 { font-size: 48px; line-height: 52px; letter-spacing: -1px; }
+  .co-h56 { font-size: 40px; line-height: 44px; letter-spacing: -1px; }
+  .co-h48 { font-size: 32px; line-height: 40px; letter-spacing: -0.25px; }
+  .co-h40 { font-size: 32px; line-height: 40px; letter-spacing: -0.25px; }
+  .co-h32 { font-size: 24px; line-height: 32px; letter-spacing: -0.25px; }
+  .co-h24 { font-size: 20px; line-height: 28px; letter-spacing: -0.25px; }
+  .co-h18 { font-size: 16px; line-height: 24px; }
+  .co-p20 { font-size: 16px; line-height: 24px; }
+}
+@media (max-width: 799px) {
+  .co-h96 { font-size: 48px; line-height: 52px; letter-spacing: -1px; }
+  .co-h80 { font-size: 40px; line-height: 44px; letter-spacing: -1px; }
+  .co-h72 { font-size: 40px; line-height: 44px; letter-spacing: -1px; }
+  .co-h64 { font-size: 32px; line-height: 36px; letter-spacing: -0.25px; }
+  .co-h56 { font-size: 32px; line-height: 36px; letter-spacing: -0.25px; }
+  .co-h48 { font-size: 24px; line-height: 32px; letter-spacing: -0.25px; }
+  .co-h40 { font-size: 24px; line-height: 32px; letter-spacing: -0.25px; }
+  .co-h24 { font-size: 18px; line-height: 24px; letter-spacing: -0.25px; }
+  .co-h20 { font-size: 16px; line-height: 24px; }
+}
+
+/* S0.5 Buttons */
+.co-btn { display: inline-flex; align-items: center; justify-content: center; border: 1px solid transparent; border-radius: 8px;
+  padding: 10px 16px; font-family: Inter, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; line-height: 18px; font-weight: 500; white-space: nowrap; cursor: pointer;
+  transition: color 200ms, background 200ms, opacity 200ms; }
+@media (max-width: 1280px) { .co-btn { line-height: 16px; } }
+.co-btn > span { margin-left: 4px; transition: transform 150ms cubic-bezier(.2,.6,.6,1); }
+.co-btn:disabled { opacity: .6; pointer-events: none; }
+.co-btn--primary { background: #FFFFFF; color: #0A0A0A; }
+.co-btn--primary:hover, .co-btn--primary:focus-visible { background: #CECECE; }
+.co-btn--primary:focus-visible { outline: 1px solid #0A0A0A; outline-offset: 1px; }
+.co-btn--secondary { background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.24); color: #FFFFFF; }
+.co-btn--secondary:hover, .co-btn--secondary:focus-visible { background: rgba(255,255,255,.16); }
+.co-btn--secondary-blue { background: rgba(250,250,250,.08); border-color: rgba(250,250,250,.2); color: #FFFFFF; }
+.co-btn--secondary-blue:hover, .co-btn--secondary-blue:focus-visible { background: rgba(250,250,250,.16); }
+.co-btn--light-primary { background: #0A0A0A; color: #FAFAFA; }
+.co-btn--light-secondary { background: #F5F5F5; border-color: #EBEBEB; color: #0A0A0A; }
+.co-btn-row { display: flex; flex-wrap: wrap; gap: 8px; }
+
+/* Text link with arrow */
+.co-textlink { display: inline-flex; align-items: center; position: relative; font-size: 16px; line-height: 24px; font-weight: 500; color: #FFFFFF;
+  text-decoration: underline 1px transparent; text-underline-offset: 1.5px; }
+.co-textlink--demos { font-size: 20px; line-height: 28px; color: #A7A7A7; }
+.co-textlink__arrow { width: 24px; height: 24px; }
+.co-textlink::after { content: ""; position: absolute; left: 0; right: 0; bottom: 2px; height: 1px; background: #FFFFFF;
+  transform: scaleX(0); transform-origin: left center; transition: transform 200ms ease-out; }
+.co-textlink:hover::after, .co-textlink:focus-visible::after { transform: scaleX(1); }
+
+/* Back link (event pages) */
+.co-backlink { display: inline-flex; align-items: center; color: #FFFFFF; }
+.co-backlink__icon { width: 24px; height: 24px; }
+.co-backlink__label { transition: transform 150ms cubic-bezier(.2,.6,.6,1); }
+.co-backlink:hover, .co-backlink:focus-visible { opacity: .9; text-decoration: underline; }
+.co-backlink:hover .co-backlink__label, .co-backlink:focus-visible .co-backlink__label { transform: translate3d(4px,0,0); }
+
+/* Underline link (careers) */
+.co-ulink { position: relative; display: inline-block; font-size: 18px; line-height: 24px; font-weight: 500; }
+.co-ulink::after { content: ""; position: absolute; left: 0; right: 0; bottom: 2px; height: 1px; background: currentColor;
+  transform: scaleX(0); transform-origin: left center; transition: transform 200ms ease-out; }
+.co-ulink:hover::after, .co-ulink:focus-visible::after { transform: scaleX(1); }
+
+.co-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.co-hr { border: 0; height: 1px; margin: 0; background: rgba(255,255,255,.24); }

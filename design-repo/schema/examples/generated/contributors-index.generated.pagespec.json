@@ -1,0 +1,338 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T24",
+ "route": "/contributors-index-thistlemoor/",
+ "theme": "light",
+ "chrome": {
+  "banner": "light",
+  "nav": "light",
+  "footer": "light"
+ },
+ "brand": {
+  "name": "Thistlemoor"
+ },
+ "meta": {
+  "title": "Thistlemoor | Editorial"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "light",
+   "content": {
+    "lead": "Marble field",
+    "actions": [
+     {
+      "label": "Cinder summit",
+      "href": "https://thistlemoor.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "light",
+   "content": {
+    "actions": [
+     {
+      "label": "Juniper",
+      "href": "https://thistlemoor.example/navbar-0"
+     },
+     {
+      "label": "Share",
+      "href": "https://thistlemoor.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Signal"
+     },
+     {
+      "title": "Beacon"
+     },
+     {
+      "title": "Measure"
+     },
+     {
+      "title": "Bundle"
+     },
+     {
+      "title": "Grove"
+     },
+     {
+      "title": "Map"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Delta quarry",
+      "text": "Ember shape gather sprout harvest cobalt share fjord"
+     },
+     {
+      "title": "Signal refine",
+      "text": "Atlas nimbus canvas cedar delta marble ember orbit"
+     },
+     {
+      "title": "Meadow notice",
+      "text": "Steer sort share lantern falcon refine measure pebble"
+     },
+     {
+      "title": "Grove cedar",
+      "text": "Trace marble field orbit gather summit juniper cobalt"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "listing.page-header",
+   "variant": "light",
+   "content": {
+    "heading": "Tidal willow",
+    "lead": "Basil rowan pebble canvas cedar trace quarry field prism cinder notice steer cobalt share"
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.people-rows",
+   "variant": "default",
+   "content": {
+    "heading": "Fjord",
+    "items": [
+     {
+      "title": "Signal refine rowan",
+      "text": "Nimbus canvas cedar compass quarry ember",
+      "href": "https://thistlemoor.example/people-rows-item0"
+     },
+     {
+      "title": "Orbit gather notice",
+      "text": "Juniper cobalt share fjord falcon refine",
+      "href": "https://thistlemoor.example/people-rows-item1"
+     },
+     {
+      "title": "Atlas bundle tidy",
+      "text": "Map compass marble plan prism cinder",
+      "href": "https://thistlemoor.example/people-rows-item2"
+     },
+     {
+      "title": "Sprout steer sort",
+      "text": "Tidal lantern falcon refine measure pebble",
+      "href": "https://thistlemoor.example/people-rows-item3"
+     },
+     {
+      "title": "Tidy thread delta",
+      "text": "Quarry plan orbit meadow summit steer",
+      "href": "https://thistlemoor.example/people-rows-item4"
+     },
+     {
+      "title": "Ledger harbor fjord",
+      "text": "Weigh beacon atlas nimbus grove thread",
+      "href": "https://thistlemoor.example/people-rows-item5"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.people-rows",
+   "variant": "default",
+   "content": {
+    "heading": "Trace",
+    "items": [
+     {
+      "title": "Sketch plan prism",
+      "text": "Cinder summit steer cobalt tidal lantern",
+      "href": "https://thistlemoor.example/people-rows-item0"
+     },
+     {
+      "title": "Signal basil atlas",
+      "text": "Pebble canvas map delta quarry ember",
+      "href": "https://thistlemoor.example/people-rows-item1"
+     },
+     {
+      "title": "Shape gather summit",
+      "text": "Steer sort share lantern falcon refine",
+      "href": "https://thistlemoor.example/people-rows-item2"
+     },
+     {
+      "title": "Measure pebble tidy",
+      "text": "Thread compass sketch ember orbit meadow",
+      "href": "https://thistlemoor.example/people-rows-item3"
+     },
+     {
+      "title": "Summit steer ledger",
+      "text": "Harbor willow signal refine atlas pebble",
+      "href": "https://thistlemoor.example/people-rows-item4"
+     },
+     {
+      "title": "Canvas cedar delta",
+      "text": "Sketch field orbit gather notice juniper",
+      "href": "https://thistlemoor.example/people-rows-item5"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "content.editorial-process",
+   "variant": "default",
+   "content": {
+    "lead": "Sort harbor willow falcon refine measure nimbus grove cedar compass marble plan shape cinder"
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "light",
+   "content": {
+    "heading": "Summit steer cobalt",
+    "actions": [
+     {
+      "label": "Fjord signal",
+      "href": "https://thistlemoor.example/final-cta-0"
+     },
+     {
+      "label": "Beacon rowan",
+      "href": "https://thistlemoor.example/final-cta-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-7"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "light",
+   "content": {
+    "lead": "Pebble grove map delta marble",
+    "actions": [
+     {
+      "label": "Orbit cinder",
+      "href": "https://thistlemoor.example/footer-0"
+     },
+     {
+      "label": "Summit juniper",
+      "href": "https://thistlemoor.example/footer-1"
+     },
+     {
+      "label": "Sort tidal",
+      "href": "https://thistlemoor.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Fjord"
+     },
+     {
+      "title": "Falcon"
+     },
+     {
+      "title": "Basil"
+     },
+     {
+      "title": "Rowan"
+     },
+     {
+      "title": "Nimbus"
+     },
+     {
+      "title": "Canvas"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

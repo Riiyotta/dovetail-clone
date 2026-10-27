@@ -1,0 +1,777 @@
+{
+ "path": "/events/",
+ "title": "Events | Dovetail",
+ "hero": {
+  "intro": "Polish your craft, learn about our product, and meet others in our community with live events and helpful videos.",
+  "h1": "Events"
+ },
+ "upcoming": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": {
+    "src": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png",
+    "alt": "",
+    "w": 1920,
+    "h": 1080
+   },
+   "when": "19 Nov 2026",
+   "where": "Online",
+   "startDate": "2026-11-19T09:00-08:00",
+   "endDate": "2026-11-19T10:00-08:00"
+  }
+ ],
+ "pastHeading": "Past events",
+ "past": [
+  {
+   "date": "01 Sep 2026",
+   "title": "Digital Twins, explained",
+   "href": "/events/suns-out-digital-twins-deep-dive/",
+   "startDate": "2026-09-02T07:00+10:00"
+  },
+  {
+   "date": "25 Aug 2026",
+   "title": "From EVP & CPO of Walmart US to Advisor for MrBeast: A Chat with Jon Alferness",
+   "href": "/events/a-chat-with-jon-alferness/",
+   "startDate": "2026-08-25T17:30+10:00"
+  },
+  {
+   "date": "10 Aug 2026",
+   "title": "Dovetail Sun’s Out: Product deep dive",
+   "href": "/events/suns-out-product-deep-dive/",
+   "startDate": "2026-08-10T14:00-07:00"
+  },
+  {
+   "date": "16 Jul 2026",
+   "title": "Dovetail Sun’s Out: SF launch party",
+   "href": "/events/suns-out-sf-launch-party/",
+   "startDate": "2026-07-16T17:30-07:00"
+  },
+  {
+   "date": "16 Jul 2026",
+   "title": "Dovetail Sun’s Out: NY launch party",
+   "href": "/events/suns-out-ny-launch-party/",
+   "startDate": "2026-07-16T17:30-04:00"
+  },
+  {
+   "date": "16 Jul 2026",
+   "title": "Dovetail Sun’s Out: Sydney launch party",
+   "href": "/events/suns-out-sydney-launch-party/",
+   "startDate": "2026-07-16T17:30+10:00"
+  },
+  {
+   "date": "25 Jun 2026",
+   "title": "Config watch party Sydney",
+   "href": "/events/config-watch-party-sydney/",
+   "startDate": "2026-06-25T17:00+10:00"
+  },
+  {
+   "date": "24 Jun 2026",
+   "title": "Offline and unfiltered: a Config comedy night with Varun Rana",
+   "href": "/events/offline-and-unfiltered-config-comedy-night/",
+   "startDate": "2026-06-24T17:15-07:00"
+  },
+  {
+   "date": "13 May 2026",
+   "title": "UXDX happy hour",
+   "href": "/events/uxdx-happy-hour/",
+   "startDate": "2026-05-13T16:30-04:00"
+  },
+  {
+   "date": "20 Apr 2026",
+   "title": "The widening empathy gap",
+   "href": "/events/the-widening-empathy-gap/",
+   "startDate": "2026-04-20T17:30+10:00"
+  },
+  {
+   "date": "25 Mar 2026",
+   "title": "Cursor curated Sydney",
+   "href": "/events/cursor-curated-sydney/",
+   "startDate": "2026-03-26T17:00+11:00"
+  },
+  {
+   "date": "25 Mar 2026",
+   "title": "Gen AI X Dovetail meet up",
+   "href": "/events/gen-ai-x-dovetail-meetup/",
+   "startDate": "2026-03-25T18:00+11:00"
+  },
+  {
+   "date": "24 Mar 2026",
+   "title": "AI-powered UX process: how AI is transforming the design process",
+   "href": "/events/ai-powered-ux-process-how-ai-is-transforming-the-design-process/",
+   "startDate": "2026-03-24T18:00+11:00"
+  },
+  {
+   "date": "18 Mar 2026",
+   "title": "Friends of Figma X Dovetail",
+   "href": "/events/friends-of-figma-x-dovetail/",
+   "startDate": "2026-03-18T18:00+11:00"
+  },
+  {
+   "date": "17 Mar 2026",
+   "title": "OpenClaw Sydney (SydClaw)",
+   "href": "/events/openclaw-sydney/",
+   "startDate": "2026-03-17T18:00+11:00"
+  },
+  {
+   "date": "17 Feb 2026",
+   "title": "The great purge: a seance soiree for product guilt",
+   "href": "/events/the-great-purge-a-seance-soiree-for-product-guilt/",
+   "startDate": "2026-02-18T18:00+11:00"
+  },
+  {
+   "date": "24 Jan 2026",
+   "title": "Perfect vs possible: how real product decisions get made",
+   "href": "/events/perfect-vs-possible-how-real-product-decisions-get-made/",
+   "startDate": "2026-01-25T18:00+11:00"
+  },
+  {
+   "date": "22 Jan 2026",
+   "title": "What’s new with Dovetail Jan’26",
+   "href": "/events/whats-new-in-dovetail-jan-2026/",
+   "startDate": "2026-01-22T11:00-08:00"
+  },
+  {
+   "date": "08 Dec 2025",
+   "title": "Product leaders dinner Singapore",
+   "href": "/events/product-leaders-dinner-singapore/",
+   "startDate": "2025-12-09T08:00+08:00"
+  },
+  {
+   "date": "28 Oct 2025",
+   "title": "Product-Led Summit Sydney",
+   "href": "/events/product-led-summit-sydney/",
+   "startDate": "2025-10-29T08:00+10:00"
+  },
+  {
+   "date": "23 Oct 2025",
+   "title": "The AI future of customer intelligence: CEO insights",
+   "href": "/events/the-ai-future-of-customer-intelligence-ceo-insights/",
+   "startDate": "2025-10-23T14:00-07:00"
+  },
+  {
+   "date": "08 Oct 2025",
+   "title": "ProductCon San Francisco 2025",
+   "href": "/events/productcon-san-francisco-2025/",
+   "startDate": "2025-10-08T09:00-08:00"
+  },
+  {
+   "date": "24 Sep 2025",
+   "title": "Future Product Days 2025",
+   "href": "/events/future-product-days-2025/",
+   "startDate": "2025-09-24T08:00+01:00"
+  },
+  {
+   "date": "17 Sep 2025",
+   "title": "Voice of the customer: transforming financial services through listenings",
+   "href": "/events/voice-of-the-customer-transforming-financial-services-through-listening/",
+   "startDate": "2025-09-17T13:00-07:00"
+  },
+  {
+   "date": "28 Aug 2025",
+   "title": "From customer feedback to business impact: how Dovetail customers build a culture of customer centricity",
+   "href": "/events/from-customer-feedback-to-business-impact-how-dovetail-customers-build-a/",
+   "startDate": "2025-08-28T11:00-07:00"
+  },
+  {
+   "date": "19 Aug 2025",
+   "title": "From insights to impact in medical products—evolving our research practices to more effectively shape product success",
+   "href": "/events/from-insights-to-impact-in-medical-products-evolving-our-research-practices/",
+   "startDate": "2025-08-19T13:00-07:00"
+  },
+  {
+   "date": "31 Jul 2025",
+   "title": "Level up your research: how AI in Dovetail is transforming user research",
+   "href": "/events/level-up-your-research-how-ai-in-dovetail-is-transforming-user-research/",
+   "startDate": "2025-07-31T13:00-07:00"
+  },
+  {
+   "date": "29 Jul 2025",
+   "title": "IO Connect Boston: Discovery Workshop",
+   "href": "/events/io-connect-boston-discovery-workshop/",
+   "startDate": "2025-07-29T13:00+00:00"
+  },
+  {
+   "date": "28 Jul 2025",
+   "title": "IO Connect Chicago: Discovery Workshop",
+   "href": "/events/io-connect-chicago-discovery-workshop/",
+   "startDate": "2025-07-28T14:00+00:00"
+  },
+  {
+   "date": "25 Jun 2025",
+   "title": "Channels by Dovetail: a deep dive into automating your feedback workflows",
+   "href": "/events/channels-by-dovetail-a-deep-dive-into-automating-your-feedback-workflows/",
+   "startDate": "2025-06-25T13:00-07:00"
+  },
+  {
+   "date": "23 Jun 2025",
+   "title": "Forrester CX Summit North America",
+   "href": "/events/forrester-cx-summit-north-america/",
+   "startDate": "2025-06-23T13:30-08:00"
+  },
+  {
+   "date": "05 Jun 2025",
+   "title": "IO Connect Los Angeles: Discovery Workshop",
+   "href": "/events/io-connect-los-angeles-june-5/",
+   "startDate": "2025-06-05T07:00-08:00"
+  },
+  {
+   "date": "29 May 2025",
+   "title": "What’s new in Dovetail 2025",
+   "href": "/events/whats-new-in-dovetail-IO-launch-2025/",
+   "startDate": "2025-05-29T13:00-07:00"
+  },
+  {
+   "date": "23 Apr 2025",
+   "title": "Insight Out Conf 2025",
+   "href": "/events/insight-out-conf-2025/",
+   "startDate": "2025-04-23T09:00-07:00"
+  },
+  {
+   "date": "27 Mar 2025",
+   "title": "Usability in the age of AI: what still matters",
+   "href": "/events/usability-age-AI/",
+   "startDate": "2025-03-27T10:00-08:00"
+  },
+  {
+   "date": "25 Feb 2025",
+   "title": "How customer insights drive innovative product design at Autodesk",
+   "href": "/events/how-customer-insights-drive-innovative-product-design-at-autodesk/",
+   "startDate": "2025-02-25T10:00-08:00"
+  },
+  {
+   "date": "13 Jan 2025",
+   "title": "How Verizon Connect built a winning culture of UX research and insights",
+   "href": "/events/how-verizon-connect-built-a-winning-culture-of-ux-research-and-insights/",
+   "startDate": "2025-01-14T00:00+11:00"
+  },
+  {
+   "date": "11 Sep 2024",
+   "title": "Dovetail for designers introductory session",
+   "href": "/events/dovetail-for-designers-webinar/",
+   "startDate": "2024-09-12T00:00+11:00"
+  },
+  {
+   "date": "28 Aug 2024",
+   "title": "Dovetail for product managers introductory session",
+   "href": "/events/dovetail-for-product-managers-webinar/",
+   "startDate": "2024-08-29T00:00+11:00"
+  },
+  {
+   "date": "27 Aug 2024",
+   "title": "Data-driven design: mastering user research",
+   "href": "/events/data-driven-design-mastering-user-research/",
+   "startDate": "2024-08-28T00:00+11:00"
+  },
+  {
+   "date": "14 Aug 2024",
+   "title": "Dovetail for researchers introductory session",
+   "href": "/events/dovetail-for-researchers-webinar/",
+   "startDate": "2024-08-15T00:00+11:00"
+  },
+  {
+   "date": "22 Jul 2024",
+   "title": "A balancing act: mastering customer feedback",
+   "href": "/events/a-balancing-act-mastering-customer-feedback/",
+   "startDate": "2024-07-23T00:00+11:00"
+  },
+  {
+   "date": "21 Feb 2024",
+   "title": "Product strategy is simple: an actionable and hands-on guide to getting it right",
+   "href": "/events/product-strategy-is-simple-an-actionable-and-hands-on-guide-to-getting-it/",
+   "startDate": "2024-02-22T00:00+11:00"
+  },
+  {
+   "date": "05 Dec 2023",
+   "title": "Dig deeper: level up your A/B testing to build better products",
+   "href": "/events/dig-deeper-level-up-your-a-b-testing-to-build-better-products/",
+   "startDate": "2023-12-06T00:00+11:00"
+  },
+  {
+   "date": "28 Nov 2023",
+   "title": "Turning heads: how to craft insights that influence",
+   "href": "/events/turning-heads-how-to-craft-insights-that-influence/",
+   "startDate": "2023-11-29T00:00+11:00"
+  },
+  {
+   "date": "23 Oct 2023",
+   "title": "Insights at scale: learn how Okta and Webflow are growing their research culture",
+   "href": "/events/insights-at-scale-learn-how-okta-and-webflow-are-growing-their-research/",
+   "startDate": "2023-10-24T00:00+11:00"
+  }
+ ],
+ "filterRule": "all events, hideFromIndexPage=false",
+ "snapshotDate": "2026-10-26",
+ "allEvents": [
+  {
+   "slug": "a-balancing-act-mastering-customer-feedback",
+   "title": "A balancing act: mastering customer feedback",
+   "startDate": "2024-07-23T00:00+11:00",
+   "endDate": "2024-07-23T01:00",
+   "onlineEvent": false,
+   "location": null,
+   "coverImage": "/assets/company/media/Expert_Panel_long.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "a-chat-with-jon-alferness",
+   "title": "From EVP & CPO of Walmart US to Advisor for MrBeast: A Chat with Jon Alferness",
+   "startDate": "2026-08-25T17:30+10:00",
+   "endDate": "2026-08-25T20:00+10:00",
+   "onlineEvent": false,
+   "location": "Dovetail, 276 Devonshire Street, Surry Hills, Sydney",
+   "coverImage": "/assets/company/media/a-chat-with-jon-alferness.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "ai-powered-ux-process-how-ai-is-transforming-the-design-process",
+   "title": "AI-powered UX process: how AI is transforming the design process",
+   "startDate": "2026-03-24T18:00+11:00",
+   "endDate": null,
+   "onlineEvent": false,
+   "location": "Sydney, New South Wales",
+   "coverImage": null,
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "channels-by-dovetail-a-deep-dive-into-automating-your-feedback-workflows",
+   "title": "Channels by Dovetail: a deep dive into automating your feedback workflows",
+   "startDate": "2025-06-25T13:00-07:00",
+   "endDate": null,
+   "onlineEvent": true,
+   "location": "Online",
+   "coverImage": "/assets/company/media/Webinar_-_Channels_Deep_Dive_-_Hero__1_.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "config-watch-party-sydney",
+   "title": "Config watch party Sydney",
+   "startDate": "2026-06-25T17:00+10:00",
+   "endDate": "2026-06-25T21:00+10:00",
+   "onlineEvent": false,
+   "location": "Dovetail, 276 Devonshire Street, Surry Hills 2010",
+   "coverImage": "/assets/company/media/config-watch-party-sydney.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "cursor-curated-sydney",
+   "title": "Cursor curated Sydney",
+   "startDate": "2026-03-26T17:00+11:00",
+   "endDate": null,
+   "onlineEvent": false,
+   "location": "Dovetail, Surry Hills, New South Wales",
+   "coverImage": "/assets/company/media/12e77758-3dde-45df-868c-4ffdd404c054.avif",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "data-driven-design-mastering-user-research",
+   "title": "Data-driven design: mastering user research",
+   "startDate": "2024-08-28T00:00+11:00",
+   "endDate": "2024-08-28T01:00",
+   "onlineEvent": false,
+   "location": null,
+   "coverImage": "/assets/company/media/adplist-sf-dvtl-16x9.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "dig-deeper-level-up-your-a-b-testing-to-build-better-products",
+   "title": "Dig deeper: level up your A/B testing to build better products",
+   "startDate": "2023-12-06T00:00+11:00",
+   "endDate": null,
+   "onlineEvent": true,
+   "location": "Online",
+   "coverImage": "/assets/company/media/InsightOutABTest_1080_v3.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "dovetail-for-designers-webinar",
+   "title": "Dovetail for designers introductory session",
+   "startDate": "2024-09-12T00:00+11:00",
+   "endDate": null,
+   "onlineEvent": true,
+   "location": "Online",
+   "coverImage": "/assets/company/media/2024_Live_Demo_Roles__6_.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "dovetail-for-product-managers-webinar",
+   "title": "Dovetail for product managers introductory session",
+   "startDate": "2024-08-29T00:00+11:00",
+   "endDate": null,
+   "onlineEvent": true,
+   "location": "Online",
+   "coverImage": "/assets/company/media/Dovetail_for_Researchers_Thumbnail__1_.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "dovetail-for-researchers-webinar",
+   "title": "Dovetail for researchers introductory session",
+   "startDate": "2024-08-15T00:00+11:00",
+   "endDate": null,
+   "onlineEvent": true,
+   "location": "Online",
+   "coverImage": null,
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "forrester-cx-summit-north-america",
+   "title": "Forrester CX Summit North America",
+   "startDate": "2025-06-23T13:30-08:00",
+   "endDate": "2025-06-26T13:30-08:00",
+   "onlineEvent": false,
+   "location": "Nashville & Digital",
+   "coverImage": "/assets/company/media/slack-imgs.jpg",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "friends-of-figma-x-dovetail",
+   "title": "Friends of Figma X Dovetail",
+   "startDate": "2026-03-18T18:00+11:00",
+   "endDate": null,
+   "onlineEvent": false,
+   "location": "Sydney, New South Wales",
+   "coverImage": null,
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "from-customer-feedback-to-business-impact-how-dovetail-customers-build-a",
+   "title": "From customer feedback to business impact: how Dovetail customers build a culture of customer centricity",
+   "startDate": "2025-08-28T11:00-07:00",
+   "endDate": null,
+   "onlineEvent": true,
+   "location": "Online",
+   "coverImage": "/assets/company/media/Webinar_August_Hero__2_.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "from-insights-to-impact-in-medical-products-evolving-our-research-practices",
+   "title": "From insights to impact in medical products—evolving our research practices to more effectively shape product success",
+   "startDate": "2025-08-19T13:00-07:00",
+   "endDate": null,
+   "onlineEvent": true,
+   "location": "Online",
+   "coverImage": "/assets/company/media/Webinar_August_Hero__1_.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "future-product-days-2025",
+   "title": "Future Product Days 2025",
+   "startDate": "2025-09-24T08:00+01:00",
+   "endDate": "2025-09-25T17:30+01:00",
+   "onlineEvent": false,
+   "location": "Copenhagen",
+   "coverImage": "/assets/company/media/future-product-days-resized.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "gen-ai-x-dovetail-meetup",
+   "title": "Gen AI X Dovetail meet up",
+   "startDate": "2026-03-25T18:00+11:00",
+   "endDate": null,
+   "onlineEvent": false,
+   "location": "Sydney, New South Wales",
+   "coverImage": null,
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "how-cs-turns-customer-conversations-into-roadmap-decisions",
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "startDate": "2026-11-19T09:00-08:00",
+   "endDate": "2026-11-19T10:00-08:00",
+   "onlineEvent": true,
+   "location": "Online",
+   "coverImage": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "how-customer-insights-drive-innovative-product-design-at-autodesk",
+   "title": "How customer insights drive innovative product design at Autodesk",
+   "startDate": "2025-02-25T10:00-08:00",
+   "endDate": null,
+   "onlineEvent": true,
+   "location": "Online",
+   "coverImage": "/assets/company/media/Autodesk_Hero__2_.jpg",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "how-verizon-connect-built-a-winning-culture-of-ux-research-and-insights",
+   "title": "How Verizon Connect built a winning culture of UX research and insights",
+   "startDate": "2025-01-14T00:00+11:00",
+   "endDate": null,
+   "onlineEvent": true,
+   "location": "Online",
+   "coverImage": "/assets/company/media/verizon_webinar_-_events_page_hero.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "insight-out-conf-2025",
+   "title": "Insight Out Conf 2025",
+   "startDate": "2025-04-23T09:00-07:00",
+   "endDate": "2025-04-23T17:00-07:00",
+   "onlineEvent": false,
+   "location": "Fort Mason Center, San Francisco",
+   "coverImage": "/assets/company/media/ezgif.com-video-to-gif-converter__2_.gif",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "insights-at-scale-learn-how-okta-and-webflow-are-growing-their-research",
+   "title": "Insights at scale: learn how Okta and Webflow are growing their research culture",
+   "startDate": "2023-10-24T00:00+11:00",
+   "endDate": null,
+   "onlineEvent": true,
+   "location": "Online",
+   "coverImage": "/assets/company/media/Insights_at_scale.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "io-connect-boston-discovery-workshop",
+   "title": "IO Connect Boston: Discovery Workshop",
+   "startDate": "2025-07-29T13:00+00:00",
+   "endDate": "2025-07-29T17:00+00:00",
+   "onlineEvent": false,
+   "location": "Boston",
+   "coverImage": "/assets/company/media/spring25_dark_half.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "io-connect-chicago-discovery-workshop",
+   "title": "IO Connect Chicago: Discovery Workshop",
+   "startDate": "2025-07-28T14:00+00:00",
+   "endDate": "2025-07-28T18:00+00:00",
+   "onlineEvent": false,
+   "location": "Chicago",
+   "coverImage": "/assets/company/media/spring25_dark_half.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "io-connect-los-angeles-june-5",
+   "title": "IO Connect Los Angeles: Discovery Workshop",
+   "startDate": "2025-06-05T07:00-08:00",
+   "endDate": "2025-06-05T11:30-08:00",
+   "onlineEvent": false,
+   "location": "Los Angeles",
+   "coverImage": "/assets/company/media/spring25_dark_half.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "level-up-your-research-how-ai-in-dovetail-is-transforming-user-research",
+   "title": "Level up your research: how AI in Dovetail is transforming user research",
+   "startDate": "2025-07-31T13:00-07:00",
+   "endDate": null,
+   "onlineEvent": true,
+   "location": "Online",
+   "coverImage": "/assets/company/media/Webinar_July_BT_Banner.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "offline-and-unfiltered-config-comedy-night",
+   "title": "Offline and unfiltered: a Config comedy night with Varun Rana",
+   "startDate": "2026-06-24T17:15-07:00",
+   "endDate": "2026-06-24T19:30-07:00",
+   "onlineEvent": false,
+   "location": "Local Edition, San Francisco",
+   "coverImage": "/assets/company/media/offline-and-unfiltered-config-comedy-night.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "openclaw-sydney",
+   "title": "OpenClaw Sydney (SydClaw)",
+   "startDate": "2026-03-17T18:00+11:00",
+   "endDate": null,
+   "onlineEvent": false,
+   "location": "Sydney, New South Wales",
+   "coverImage": null,
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "perfect-vs-possible-how-real-product-decisions-get-made",
+   "title": "Perfect vs possible: how real product decisions get made",
+   "startDate": "2026-01-25T18:00+11:00",
+   "endDate": null,
+   "onlineEvent": false,
+   "location": "Sydney, New South Wales",
+   "coverImage": null,
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "product-leaders-dinner-singapore",
+   "title": "Product leaders dinner Singapore",
+   "startDate": "2025-12-09T08:00+08:00",
+   "endDate": "2025-12-09T17:30+08:00",
+   "onlineEvent": false,
+   "location": "Singapore",
+   "coverImage": "/assets/company/media/Dublin---April-24--7-.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "product-led-summit-sydney",
+   "title": "Product-Led Summit Sydney",
+   "startDate": "2025-10-29T08:00+10:00",
+   "endDate": "2025-10-29T17:30+10:00",
+   "onlineEvent": false,
+   "location": "Hyatt Regency Sydney 161 Sussex Street",
+   "coverImage": "/assets/company/media/slack-imgs-2.jpeg",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "product-strategy-is-simple-an-actionable-and-hands-on-guide-to-getting-it",
+   "title": "Product strategy is simple: an actionable and hands-on guide to getting it right",
+   "startDate": "2024-02-22T00:00+11:00",
+   "endDate": null,
+   "onlineEvent": true,
+   "location": "Online",
+   "coverImage": "/assets/company/media/io-webinar-feb2024-cover-updated.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "productcon-san-francisco-2025",
+   "title": "ProductCon San Francisco 2025",
+   "startDate": "2025-10-08T09:00-08:00",
+   "endDate": "2025-10-08T17:00-08:00",
+   "onlineEvent": false,
+   "location": "San Francisco",
+   "coverImage": "/assets/company/media/image_5.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "suns-out-digital-twins-deep-dive",
+   "title": "Digital Twins, explained",
+   "startDate": "2026-09-02T07:00+10:00",
+   "endDate": "2026-09-02T07:50+10:00",
+   "onlineEvent": true,
+   "location": "Zoom",
+   "coverImage": "/assets/company/media/suns-out-digital-twins-deep-dive-v2.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "suns-out-ny-launch-party",
+   "title": "Dovetail Sun’s Out: NY launch party",
+   "startDate": "2026-07-16T17:30-04:00",
+   "endDate": "2026-07-16T19:30-04:00",
+   "onlineEvent": false,
+   "location": "230 Fifth Rooftop Bar, 1150 Broadway, New York, NY 10001",
+   "coverImage": "/assets/company/media/suns-out-ny-launch-party.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "suns-out-product-deep-dive",
+   "title": "Dovetail Sun’s Out: Product deep dive",
+   "startDate": "2026-08-10T14:00-07:00",
+   "endDate": "2026-08-10T14:50-07:00",
+   "onlineEvent": true,
+   "location": "Zoom",
+   "coverImage": "/assets/company/media/suns-out-product-deep-dive.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "suns-out-sf-launch-party",
+   "title": "Dovetail Sun’s Out: SF launch party",
+   "startDate": "2026-07-16T17:30-07:00",
+   "endDate": "2026-07-16T19:30-07:00",
+   "onlineEvent": false,
+   "location": "Dawn Club, 10 Annie St, San Francisco, CA 94103",
+   "coverImage": "/assets/company/media/suns-out-sf-launch-party.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "suns-out-sydney-launch-party",
+   "title": "Dovetail Sun’s Out: Sydney launch party",
+   "startDate": "2026-07-16T17:30+10:00",
+   "endDate": "2026-07-16T19:30+10:00",
+   "onlineEvent": false,
+   "location": "Dovetail, 276 Devonshire Street, Surry Hills, NSW 2010",
+   "coverImage": "/assets/company/media/suns-out-sydney-launch-party.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "the-ai-future-of-customer-intelligence-ceo-insights",
+   "title": "The AI future of customer intelligence: CEO insights",
+   "startDate": "2025-10-23T14:00-07:00",
+   "endDate": null,
+   "onlineEvent": true,
+   "location": "Online",
+   "coverImage": "/assets/company/media/Webinar_Dovetail_x_Outset_Hero.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "the-great-purge-a-seance-soiree-for-product-guilt",
+   "title": "The great purge: a seance soiree for product guilt",
+   "startDate": "2026-02-18T18:00+11:00",
+   "endDate": null,
+   "onlineEvent": false,
+   "location": "Sydney, New South Wales",
+   "coverImage": null,
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "the-widening-empathy-gap",
+   "title": "The widening empathy gap",
+   "startDate": "2026-04-20T17:30+10:00",
+   "endDate": null,
+   "onlineEvent": false,
+   "location": "Dovetail, Surry Hills, New South Wales",
+   "coverImage": null,
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "turning-heads-how-to-craft-insights-that-influence",
+   "title": "Turning heads: how to craft insights that influence",
+   "startDate": "2023-11-29T00:00+11:00",
+   "endDate": null,
+   "onlineEvent": true,
+   "location": "Online",
+   "coverImage": "/assets/company/media/Frame_427321905.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "usability-age-AI",
+   "title": "Usability in the age of AI: what still matters",
+   "startDate": "2025-03-27T10:00-08:00",
+   "endDate": null,
+   "onlineEvent": true,
+   "location": "Online",
+   "coverImage": "/assets/company/media/Webinar_-_Nielsen_-_Hero__4_.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "uxdx-happy-hour",
+   "title": "UXDX happy hour",
+   "startDate": "2026-05-13T16:30-04:00",
+   "endDate": "2026-05-13T19:30-04:00",
+   "onlineEvent": false,
+   "location": "Sir Henry's New York",
+   "coverImage": "/assets/company/media/uxdx-happy-hour.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "voice-of-the-customer-transforming-financial-services-through-listening",
+   "title": "Voice of the customer: transforming financial services through listenings",
+   "startDate": "2025-09-17T13:00-07:00",
+   "endDate": null,
+   "onlineEvent": true,
+   "location": "Online",
+   "coverImage": "/assets/company/media/Webinar_August_Hero__4_.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "whats-new-in-dovetail-IO-launch-2025",
+   "title": "What’s new in Dovetail 2025",
+   "startDate": "2025-05-29T13:00-07:00",
+   "endDate": null,
+   "onlineEvent": true,
+   "location": "Online",
+   "coverImage": "/assets/company/media/Webinar_-_What-s_new_IO25_-_Hero.png",
+   "hideFromIndexPage": false
+  },
+  {
+   "slug": "whats-new-in-dovetail-jan-2026",
+   "title": "What’s new with Dovetail Jan’26",
+   "startDate": "2026-01-22T11:00-08:00",
+   "endDate": null,
+   "onlineEvent": true,
+   "location": "Zoom",
+   "coverImage": "/assets/company/media/Webinar_What-s_new_with_Dovetail_Hero.png",
+   "hideFromIndexPage": false
+  }
+ ]
+}

@@ -1,0 +1,210 @@
+{
+ "slug": "harvard-business-publishing",
+ "path": "/customers/harvard-business-publishing/",
+ "title": "Dovetail fuels world-class research at Harvard Business Publishing",
+ "eyebrow": "CUSTOMER / HARVARD BUSINESS PUBLISHING",
+ "companyName": "Harvard Business Publishing",
+ "isAnonymous": false,
+ "industry": "Consumer",
+ "intro": {
+  "placeholder": true,
+  "chars": 354
+ },
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/Harvard_Business_Publishing.png",
+  "width": 1086,
+  "height": 700,
+  "youtubeId": null,
+  "caption": [
+   "DAVID TURELL, HEAD OF NEW PRODUCT DESIGN"
+  ]
+ },
+ "stats": [],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "Learn why Harvard Business Publishing relies on Dovetail to conduct world-class research",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 354
+    }
+   ]
+  },
+  {
+   "heading": "Centralized customer intelligence to stop repeating work and start building on what is known",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 489
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 335
+    }
+   ]
+  },
+  {
+   "heading": "Company-wide intelligence: Sharing invaluable insights with teams and stakeholders",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 673
+    }
+   ]
+  },
+  {
+   "heading": "Looking ahead: Standardizing customer intelligence to keep teams agile and aligned",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 650
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": {
+  "quote": {
+   "placeholder": true,
+   "chars": 227
+  },
+  "name": "David Turell",
+  "role": "Head of New Product Design"
+ },
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "safetyculture",
+   "href": "/customers/safetyculture/",
+   "title": "SafetyCulture puts the customer at the heart of decision with Dovetail",
+   "industry": "Technology",
+   "order": 5,
+   "companyName": "SafetyCulture",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_SafetyCulture.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-safetyculture-white-logo.svg",
+    "alt": "SafetyCulture",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 158
+    },
+    "name": "Jules Lipman",
+    "role": "Product Designer"
+   }
+  },
+  {
+   "slug": "canva-ai",
+   "href": "/customers/canva-ai/",
+   "title": "Dovetail helps Canva turn millions of design moments into product decisions that shape how the world designs",
+   "industry": "Technology",
+   "order": 2,
+   "companyName": "Canva",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/company/media/Customer_Canva_AI.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/white-logo(2).svg",
+    "alt": "Canva",
+    "w": 120,
+    "h": 41
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 169
+    },
+    "name": "Craig Boustred",
+    "role": "Design Researcher"
+   }
+  },
+  {
+   "slug": "atlassian-design",
+   "href": "/customers/atlassian-design/",
+   "title": "How Atlassian turns customer signals into confident product decisions",
+   "industry": "Technology",
+   "order": 2,
+   "companyName": "Atlassian",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/company/media/Customer_Atlassian.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+    "alt": "Atlassian",
+    "w": 160,
+    "h": 20
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 190
+    },
+    "name": "Martin Jerkovic",
+    "role": "Lead Product Designer"
+   }
+  }
+ ]
+}

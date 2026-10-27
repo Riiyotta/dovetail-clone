@@ -1,0 +1,300 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T34",
+ "route": "/b2bsaasy/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail clone (local)"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.podcast",
+   "variant": "default",
+   "content": {
+    "heading": "B2B SaaSy",
+    "lead": "Enim veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt. Officia anim laborum dolor consectetur sed tempor."
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.episode-cards",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "AI is doing 90% of the job, the other 10% has never mattered more.",
+      "text": "JUNE 17, 2026",
+      "href": "https://open.spotify.com/episode/2e4pFTlaYecZCXkJqGZaDM",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/b2b_saasy_web_ep_04.png"
+      }
+     },
+     {
+      "title": "The accidental product manager, a new party trick, and how AI is helping remove career stigmas",
+      "text": "MAY 5, 2026",
+      "href": "https://open.spotify.com/episode/3Om61maff4Z2toirRS6toH",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/b2b_saasy_web_ep_03.png"
+      }
+     },
+     {
+      "title": "The death of deterministic code, AI etiquette, and why your prompt engineering is failing",
+      "text": "MARCH 3, 2026",
+      "href": "https://open.spotify.com/episode/3uXMGpix5UHIQUmqVJpv67",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/b2b_saasy_web_ep_02.png"
+      }
+     },
+     {
+      "title": "AI, kids, and other things you can’t leave unsupervised",
+      "text": "JANUARY 27, 2026",
+      "href": "https://open.spotify.com/episode/3NWFZ6XbCqJqiD06mUAhGU",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/b2b_saasy_web_ep_01.png"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "hover.overlay",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "interactive.faq",
+   "variant": "company",
+   "content": {
+    "heading": "FAQs",
+    "actions": [
+     {
+      "label": "What is B2B SaaSy?",
+      "href": "#"
+     },
+     {
+      "label": "Who hosts the B2B SaaSy podcast?",
+      "href": "#"
+     },
+     {
+      "label": "Where can I listen to B2B SaaSy?",
+      "href": "#"
+     },
+     {
+      "label": "How often does B2B SaaSy release new episodes?",
+      "href": "#"
+     },
+     {
+      "label": "What topics does B2B SaaSy cover?",
+      "href": "#"
+     },
+     {
+      "label": "Is B2B SaaSy made by Dovetail?",
+      "href": "#"
+     }
+    ],
+    "items": [
+     {
+      "title": "What is B2B SaaSy?"
+     },
+     {
+      "title": "Who hosts the B2B SaaSy podcast?"
+     },
+     {
+      "title": "Where can I listen to B2B SaaSy?"
+     },
+     {
+      "title": "How often does B2B SaaSy release new episodes?"
+     },
+     {
+      "title": "What topics does B2B SaaSy cover?"
+     },
+     {
+      "title": "Is B2B SaaSy made by Dovetail?"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "accordion.height",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "cta.inline-band",
+   "variant": "dark",
+   "content": {
+    "heading": "Unlock customer intelligence for your organization",
+    "actions": [
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     },
+     {
+      "label": "Try Dovetail free",
+      "href": "/auth/signup/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

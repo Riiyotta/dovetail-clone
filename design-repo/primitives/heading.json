@@ -1,0 +1,25 @@
+{
+ "id": "heading",
+ "kind": "primitive",
+ "title": "Heading preset",
+ "variants": {
+  "h160": "H160",
+  "h96": "H96",
+  "h80": "H80",
+  "h72": "H72",
+  "h64": "H64",
+  "h56": "H56",
+  "h48": "H48",
+  "h40": "H40",
+  "h32": "H32",
+  "h24": "H24",
+  "h20": "H20"
+ },
+ "tokens": [
+  "font.preset.h96",
+  "font.preset.serif-accent"
+ ],
+ "evidence": [
+  "specs/marketing-shared.md:103"
+ ]
+}

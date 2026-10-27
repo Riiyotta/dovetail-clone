@@ -1,0 +1,149 @@
+{
+ "slug": "cursor-curated-sydney",
+ "path": "/events/cursor-curated-sydney/",
+ "title": "Cursor curated Sydney",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2026-03-26T17:00+11:00",
+ "endDate": null,
+ "onlineEvent": false,
+ "location": "Dovetail, Surry Hills, New South Wales",
+ "hosts": [
+  "Tom Belica"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": null,
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Tom Belica"
+  },
+  {
+   "label": "[START]",
+   "value": "25 Mar 2026 11:00PM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Dovetail, Surry Hills, New South Wales"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/12e77758-3dde-45df-868c-4ffdd404c054.avif",
+  "width": 799,
+  "height": 450,
+  "youtubeId": null
+ },
+ "body": [
+  {
+   "t": "p",
+   "strong": [
+    "Cursor curated Sydney"
+   ],
+   "text": "​Cursor curated Sydney"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 113
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 282,
+   "strong": [
+    "What's happening:"
+   ]
+  },
+  {
+   "t": "p",
+   "strong": [
+    "Here's the format:"
+   ],
+   "text": "​Here's the format:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "text": "​Start with a curated demo template (we provide these)"
+    },
+    {
+     "text": "​Use Cursor to iterate, experiment, and make it your own"
+    },
+    {
+     "text": "​Submit your creation to our live gallery"
+    },
+    {
+     "text": "​Vote on your favourites and celebrate the best work"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "strong": [
+    "What you get:"
+   ],
+   "text": "​What you get:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "text": "​Free Cursor credits for all participants"
+    },
+    {
+     "text": "​Hands-on support from experienced Cursor users"
+    },
+    {
+     "text": "​A welcoming community ready to help complete beginners"
+    },
+    {
+     "text": "​Prizes for the most creative interpretations"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 205
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 44,
+   "links": [
+    {
+     "text": "lowercase.club",
+     "href": "https://lowercase.club/"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 14,
+   "links": [
+    {
+     "text": "here",
+     "href": "https://luma.com/signin?next=%2Fevent%2Fmanage%2Fevt-cgQ2rB013BU4OrE"
+    }
+   ]
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

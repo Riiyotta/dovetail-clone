@@ -1,0 +1,155 @@
+{
+ "id": "content.full-bleed-image",
+ "title": "Full-bleed image",
+ "semantic": {
+  "id": "content.full-bleed-image",
+  "category": "CONTENT"
+ },
+ "source": {
+  "id": "component:ComparisonSlices:cmp-hero-img",
+  "file": "src/components/legal/ComparisonSlices.jsx",
+  "tag": "img",
+  "lines": "32-44",
+  "tagLine": 32,
+  "anchor": "cmp-hero-img",
+  "anchorLine": 32
+ },
+ "purpose": "Single wide product image directly under the hero.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 16,
+   "observedOn": [
+    "/dovetail-vs-aurelius/",
+    "/dovetail-vs-chattermill/",
+    "/dovetail-vs-condens/",
+    "/dovetail-vs-enterpret/",
+    "/dovetail-vs-great-question/",
+    "/dovetail-vs-insight7/",
+    "/dovetail-vs-lookback/",
+    "/dovetail-vs-looppanel/",
+    "/dovetail-vs-marvin/",
+    "/dovetail-vs-maze/",
+    "/dovetail-vs-medallia/",
+    "/dovetail-vs-notably/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "media"
+  ],
+  "fields": {
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 8,
+    "maxChars": 56,
+    "observedIn": 3,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "media": [
+    1,
+    1
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "product.generated-visual"
+ ],
+ "style": {
+  "props": {
+   "spaceBefore": {
+    "kind": "token",
+    "allowed": [
+     "space.section.hero"
+    ]
+   }
+  },
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 16,
+   "nodes": 16,
+   "minPx": 571.4,
+   "maxPx": 571.4,
+   "medianPx": 571.4,
+   "sample": {
+    "/dovetail-vs-aurelius/": [
+     571.4
+    ],
+    "/dovetail-vs-chattermill/": [
+     571.4
+    ],
+    "/dovetail-vs-condens/": [
+     571.4
+    ],
+    "/dovetail-vs-enterpret/": [
+     571.4
+    ],
+    "/dovetail-vs-great-question/": [
+     571.4
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/components/legal/ComparisonSlices.jsx:32-44",
+  "specs/comparison.md:1-40"
+ ]
+}

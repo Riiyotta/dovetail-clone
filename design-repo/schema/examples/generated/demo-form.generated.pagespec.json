@@ -1,0 +1,447 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T7",
+ "route": "/demo-form-brackenhold/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Brackenhold"
+ },
+ "meta": {
+  "title": "Brackenhold | Conversion"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Canvas thread",
+    "actions": [
+     {
+      "label": "Marble plan",
+      "href": "https://brackenhold.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Prism",
+      "href": "https://brackenhold.example/navbar-0"
+     },
+     {
+      "label": "Notice",
+      "href": "https://brackenhold.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Ledger"
+     },
+     {
+      "title": "Harbor"
+     },
+     {
+      "title": "Lantern"
+     },
+     {
+      "title": "Signal"
+     },
+     {
+      "title": "Refine"
+     },
+     {
+      "title": "Atlas"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Bundle canvas",
+      "text": "Map compass sketch ember prism gather summit harvest"
+     },
+     {
+      "title": "Ledger harbor",
+      "text": "Willow falcon refine measure nimbus tidy cedar trace"
+     },
+     {
+      "title": "Sketch plan",
+      "text": "Shape cinder notice juniper cobalt harbor fjord weigh"
+     },
+     {
+      "title": "Refine rowan",
+      "text": "Bundle tidy cedar delta marble field orbit cinder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "conversion.lead-form",
+   "variant": "demo",
+   "content": {
+    "heading": "Notice steer cobalt harbor",
+    "lead": "Willow falcon basil atlas bundle grove thread trace sketch plan shape gather sprout harvest",
+    "actions": [
+     {
+      "label": "Sort share",
+      "href": "https://brackenhold.example/lead-form-0"
+     },
+     {
+      "label": "Fjord signal",
+      "href": "https://brackenhold.example/lead-form-1"
+     },
+     {
+      "label": "Beacon rowan",
+      "href": "https://brackenhold.example/lead-form-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.logo-marquee",
+   "variant": "two-row",
+   "content": {
+    "lead": "Bundle grove map compass marble plan orbit gather",
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Sprout steer",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Share lantern",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Refine atlas",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Tidy thread",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Marble ember shape",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Gather sprout",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Cobalt share fjord",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Weigh basil atlas",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-7"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Bundle grove",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-8"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Compass sketch",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-9"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Shape meadow",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-10"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Juniper ledger",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-11"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Willow falcon",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-12"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Measure pebble",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-13"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Cedar compass",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-14"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Plan prism meadow",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-15"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "marquee.loop",
+    "reducedMotionFallback": "paused"
+   }
+  },
+  {
+   "section": "social-proof.tei-card",
+   "variant": "stats",
+   "content": {
+    "heading": "Summit juniper ledger harbor",
+    "lead": "Lantern signal refine measure nimbus canvas cedar trace marble ember shape cinder notice steer",
+    "media": [
+     {
+      "assetRole": "content.generated-cover",
+      "alt": "Cobalt share willow",
+      "ref": "generate:content.generated-cover/social-proof.tei-card-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.icon-grid",
+   "variant": "default",
+   "content": {
+    "heading": "Signal basil measure nimbus",
+    "items": [
+     {
+      "title": "Grove cedar trace",
+      "text": "Quarry plan shape cinder summit juniper cobalt harbor",
+      "media": {
+       "assetRole": "illustration.generated",
+       "alt": "",
+       "ref": "generate:illustration.generated/features.icon-grid-item0"
+      }
+     },
+     {
+      "title": "Fjord weigh beacon",
+      "text": "Measure pebble canvas map delta marble ember shape",
+      "media": {
+       "assetRole": "illustration.generated",
+       "alt": "",
+       "ref": "generate:illustration.generated/features.icon-grid-item1"
+      }
+     },
+     {
+      "title": "Cinder sprout juniper",
+      "text": "Sort share fjord signal beacon atlas nimbus grove",
+      "media": {
+       "assetRole": "illustration.generated",
+       "alt": "",
+       "ref": "generate:illustration.generated/features.icon-grid-item2"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.testimonial",
+   "variant": "featured",
+   "content": {
+    "quote": {
+     "text": "Map trace marble plan prism meadow notice steer sort share willow weigh beacon rowan pebble tidy"
+    },
+    "actions": [
+     {
+      "label": "Ce",
+      "href": "https://brackenhold.example/testimonial-0"
+     },
+     {
+      "label": "De",
+      "href": "https://brackenhold.example/testimonial-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Sketch ember",
+      "ref": "generate:customer.placeholder-logo/social-proof.testimonial-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Shape meadow",
+      "ref": "generate:customer.placeholder-logo/social-proof.testimonial-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Summit",
+      "ref": "generate:customer.placeholder-logo/social-proof.testimonial-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "cursor.tooltip",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "dark",
+   "content": {
+    "heading": "Cobalt harbor fjord",
+    "actions": [
+     {
+      "label": "Refine atlas",
+      "href": "https://brackenhold.example/final-cta-0"
+     },
+     {
+      "label": "Bundle canvas",
+      "href": "https://brackenhold.example/final-cta-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-7"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "lead": "Thread compass sketch field orbit",
+    "actions": [
+     {
+      "label": "Sprout steer",
+      "href": "https://brackenhold.example/footer-0"
+     },
+     {
+      "label": "Cobalt share",
+      "href": "https://brackenhold.example/footer-1"
+     },
+     {
+      "label": "Lantern weigh",
+      "href": "https://brackenhold.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Beacon"
+     },
+     {
+      "title": "Measure"
+     },
+     {
+      "title": "Pebble"
+     },
+     {
+      "title": "Canvas"
+     },
+     {
+      "title": "Cedar"
+     },
+     {
+      "title": "Trace"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

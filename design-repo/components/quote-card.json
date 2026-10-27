@@ -1,0 +1,12 @@
+{
+ "id": "quote-card",
+ "kind": "component",
+ "title": "Quote card",
+ "composes": [
+  "image",
+  "eyebrow"
+ ],
+ "evidence": [
+  "CLONE_SPEC.md:346"
+ ]
+}

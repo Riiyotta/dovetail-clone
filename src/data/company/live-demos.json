@@ -1,0 +1,90 @@
+{
+ "path": "/live-demos/",
+ "title": "Live demos | Dovetail",
+ "hero": {
+  "eyebrow": "Live demos",
+  "h1": "Dovetail in action",
+  "intro": "Get more from your data. Learn the workflows, features, and tips that help teams move faster with customer insight.",
+  "bgImage": {
+   "src": "/assets/marketing/Frame_1948763217.png",
+   "alt": "",
+   "w": 3024,
+   "h": 1026
+  }
+ },
+ "demos": [
+  {
+   "title": "Create a digital twin assembled from your customer data and automate workflows that connect to the tools you use every day",
+   "date": "July 14, 2026",
+   "youtubeId": "nDpKdd7xl7E",
+   "image": {
+    "src": "/assets/company/media/LiveDemo_Agents.png",
+    "alt": "Create a digital twin assembled from your customer data and automate workflows that connect to the tools you use every day",
+    "w": 800,
+    "h": 450
+   }
+  },
+  {
+   "title": "A dynamic home that makes it easy to explore the most relevant insights",
+   "date": "March 29, 2026",
+   "youtubeId": "qAr5pZxu-eM",
+   "image": {
+    "src": "/assets/company/media/LiveDemo_Home.png",
+    "alt": "A dynamic home that makes it easy to explore the most relevant insights",
+    "w": 800,
+    "h": 450
+   }
+  },
+  {
+   "title": "Set up your Gong integration to bring your GTM and product teams together",
+   "date": "December 11, 2025",
+   "youtubeId": "VPnekez0gm0",
+   "image": {
+    "src": "/assets/company/media/LiveDemo_Gong.png",
+    "alt": "Set up your Gong integration to bring your GTM and product teams together",
+    "w": 800,
+    "h": 450
+   }
+  },
+  {
+   "title": "Ask in natural language and get contextual, evidence-backed answers",
+   "date": "November 25, 2025",
+   "youtubeId": "IKVjnm7EZns",
+   "image": {
+    "src": "/assets/company/media/LiveDemo_Chat.png",
+    "alt": "Ask in natural language and get contextual, evidence-backed answers",
+    "w": 800,
+    "h": 450
+   }
+  },
+  {
+   "title": "AI powered focused analysis with reliable insights in minutes, not days",
+   "date": "November 25, 2025",
+   "youtubeId": "-v_1AyQpKKo",
+   "image": {
+    "src": "/assets/company/media/LiveDemo_Projects.png",
+    "alt": "AI powered focused analysis with reliable insights in minutes, not days",
+    "w": 800,
+    "h": 450
+   }
+  },
+  {
+   "title": "Identify opportunities, decide what to build next, and see the business impact",
+   "date": "November 24, 2025",
+   "youtubeId": "KyHaaApOEsA",
+   "image": {
+    "src": "/assets/company/media/LiveDemo_Channels.png",
+    "alt": "Identify opportunities, decide what to build next, and see the business impact",
+    "w": 800,
+    "h": 450
+   }
+  }
+ ],
+ "footer": {
+  "heading": "Can't see the demo you're looking for?",
+  "link": {
+   "label": "Request a demo",
+   "href": "/request-a-demo/"
+  }
+ }
+}

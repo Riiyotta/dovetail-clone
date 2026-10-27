@@ -1,0 +1,24 @@
+{
+ "note": "component-scoped tokens -> semantic or foundation tokens.",
+ "tokens": {
+  "button.primary.bg": "action.primary.bg",
+  "button.primary.fg": "action.primary.fg",
+  "button.primary.hover": "action.primary.hover",
+  "button.brand.bg": "action.brand.bg",
+  "button.brand.fg": "action.brand.fg",
+  "button.secondary.bg": "action.secondary.bg",
+  "button.secondary.border": "action.secondary.border",
+  "button.radius": "radius.default",
+  "card.radius": "radius.default",
+  "badge.radius": "radius.sm",
+  "badge.bg": "border.subtle",
+  "nav.dropdown.bg": "surface.panel",
+  "nav.dropdown.blur": "blur.dropdown",
+  "quote-card.bg": "surface.brand-deep",
+  "stat-card.bg": "surface.card",
+  "faq.chip.bg": "color.black.48",
+  "tooltip.bg": "surface.page",
+  "footer.heading": "text.secondary",
+  "banner.bg": "surface.banner"
+ }
+}

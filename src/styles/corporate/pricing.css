@@ -1,0 +1,129 @@
+/* specs/pricing.md */
+
+/* ---- §1 PricingHero (e16w69m*, e1jvfgez*) ---- */
+.pr-hero { position: relative; overflow: visible; }
+.pr-hero__fade-top { top: 0; height: 143px; z-index: 1; background: linear-gradient(0deg, rgba(0,0,0,0) 0%, #0A0A0A 100%); }
+.pr-hero__fade-bottom { bottom: -160px; height: 238px; z-index: 1; background: linear-gradient(180deg, rgba(0,0,0,0) 0%, #0A0A0A 100%); }
+.pr-hero__img { position: absolute; top: 0; left: 0; right: 0; width: 100%; height: auto; margin: unset; z-index: 0;
+  pointer-events: none; display: block; }
+@media (max-width: 799px) { .pr-hero__img { display: none; } }
+.pr-hero__content { position: relative; z-index: 1; }
+.pr-hero__spacer { height: 96px; }
+@media (max-width: 1280px) { .pr-hero__spacer { height: 56px; } }
+.pr-hero__row { display: flex; justify-content: space-between; align-items: flex-end; }
+@media (max-width: 1280px) { .pr-hero__row { flex-direction: column; gap: 32px; align-items: flex-start; } }
+.pr-hero__h1 { margin-top: 32px; }
+
+/* ---- §2 PlanCards (eeys7nh*) ---- */
+.pr-cards { position: relative; z-index: 1; }
+.pr-cards__col--4 { grid-column: span 4; }
+.pr-cards__col--8 { grid-column: span 8; }
+@media (max-width: 799px) { .pr-cards__col--4, .pr-cards__col--8 { grid-column: 1 / -1; } }
+
+.pr-card { display: flex; flex-direction: column; gap: 32px; padding: 48px; border: 1px solid #454545; border-radius: 8px;
+  background-color: #0A0A0A; height: 100%; }
+.pr-card--active { background-color: #212121; }
+@media (max-width: 1280px) { .pr-card { padding: 32px; } }
+.pr-card__head { display: flex; flex-direction: column; }
+.pr-card__head > img { display: block; }
+.pr-card__titles { display: flex; flex-direction: column; gap: 8px; margin-top: 32px; max-width: 416px; }
+.pr-card__title-row { display: flex; gap: 16px; align-items: center; }
+@media (max-width: 1280px) { .pr-card__title-row { flex-direction: column; align-items: flex-start; } }
+.pr-card__desc { max-width: 304px; margin-top: 16px; letter-spacing: -0.25px; font-size: 20px; font-weight: 400; line-height: 28px; }
+@media (max-width: 1280px) { .pr-card__desc { font-size: 16px; line-height: 24px; } }
+.pr-card__btn { width: fit-content; }
+.pr-card__features { display: flex; flex-direction: column; gap: 32px; }
+.pr-card__label { margin-top: 32px; }
+.pr-card__lists { display: flex; flex-direction: column; gap: 16px; }
+.pr-card__lists--split { flex-direction: row; gap: 80px; }
+@media (max-width: 1280px) { .pr-card__lists--split { flex-direction: column; gap: 16px; } }
+.pr-card__ul { display: flex; flex-direction: column; gap: 16px; flex: 1 1 0%; list-style: none; margin: 0; padding: 0; }
+.pr-card__li { display: flex; align-items: flex-start; gap: 12px; }
+.pr-card__bullet { width: 8px; height: 8px; flex-shrink: 0; background-color: #FFFFFF; margin-top: 8px; }
+.pr-card__item { flex: 1 1 0%; }
+/* Plan-card tooltip terms (eefq08u0): "underlined dotted" — decoration values borrowed from the table label */
+.pr-term { text-decoration: underline dotted rgba(255,255,255,.64); text-decoration-thickness: 8%; text-underline-offset: 5px; }
+
+/* ---- Tooltip (e1hik68n3 / eefq08u1) ---- */
+.co-tipterm { position: relative; outline-offset: 2px; }
+.co-tip { position: fixed; top: 0; left: 0; z-index: 6; width: 280px; padding: 16px; display: flex; flex-direction: column; gap: 10px;
+  background: #212121; border: 1px solid #454545; border-radius: 8px; color: #FFFFFF; opacity: 0; pointer-events: none;
+  text-decoration: none; text-align: left; letter-spacing: 0; cursor: default; }
+.co-tip[data-visible="true"] { opacity: 1; }
+@media (max-width: 1280px) {
+  .co-tip { top: calc(100% + 16px); margin-left: unset; margin-right: unset; right: unset; left: unset !important; transform: unset !important; }
+}
+
+/* ---- §3 ComparisonTable (e1hik68n*) ---- */
+.pr-anchor { margin-top: -64px; padding-top: 64px; }
+@media (max-width: 1280px) { .pr-anchor { margin-top: -128px; padding-top: 128px; } }
+.pr-sp120 { height: 120px; }
+@media (max-width: 799px) { .pr-sp120 { height: 64px; } }
+.pr-sp32 { height: 32px; }
+.pr-group__sub { margin: 16px 0 32px; }
+.pr-hr { display: block; height: 1px; border: 0; margin: 0; background: rgba(255,255,255,.24); }
+
+.pr-row { display: grid; grid-template-columns: repeat(12, 1fr); gap: 0 32px; margin: auto; position: relative; width: 100%;
+  border-bottom: 1px solid #454545; }
+@media (max-width: 1280px) { .pr-row { gap: 24px; } }
+@media (max-width: 799px) { .pr-row { grid-template-columns: repeat(4, 1fr); } }
+.pr-row__label { grid-column: span 4; display: flex; align-items: center; padding: 22px 0; }
+@media (max-width: 1280px) { .pr-row__label { display: block; } }
+@media (max-width: 799px) { .pr-row__label { grid-column: span 2; } }
+.pr-row__tipwrap { font-size: 14px; font-weight: 400; letter-spacing: 0; line-height: 22px; cursor: default; display: block; width: fit-content; }
+@media (max-width: 1280px) { .pr-row__tipwrap { color: #FFFFFF; } }
+.pr-row__term { font-size: 20px; line-height: 28px; font-weight: 500; letter-spacing: -0.25px;
+  text-decoration: underline dotted rgba(255,255,255,.64); text-decoration-thickness: 8%; text-underline-offset: 5px; }
+@media (max-width: 799px) { .pr-row__term { font-size: 16px; line-height: 24px; } }
+.pr-row__values { grid-column: span 8; display: flex; }
+@media (max-width: 1280px) { .pr-row__values { grid-column: span 4; display: block; justify-content: flex-end; } }
+@media (max-width: 799px) { .pr-row__values { grid-column: span 2; } }
+.pr-cell { display: flex; justify-content: center; align-items: center; flex: 1 1 0%; padding: 16px 0; height: 100%;
+  font-size: 20px; line-height: 28px; font-weight: 500; letter-spacing: -0.25px; background-color: transparent; }
+.pr-cell--free { background-color: #212121; }
+@media (max-width: 1280px) {
+  .pr-cell, .pr-cell--free { background-color: transparent; }
+  .pr-cell[data-selected="false"] { display: none; }
+}
+@media (max-width: 799px) { .pr-cell { font-size: 16px; line-height: 24px; } }
+.pr-check-wrap { display: inline-flex; }
+.pr-check { width: 24px; height: 24px; }
+
+/* Platform sub-sections (Security / Support) */
+.pr-subhead { display: flex; justify-content: space-between; flex-direction: row; }
+.pr-subhead__title { padding: 64px 0 32px; }
+.pr-badges { align-items: center; display: flex; flex-direction: row; gap: 8px; }
+@media (max-width: 1280px) { .pr-badges { gap: 4px; } }
+.pr-badges img { display: block; height: 96px; width: auto; min-width: 0; }
+
+/* Sticky plan header (e1hik68n8 / e3jx3k9*) — visibility toggled by data-shown; tween left for the animation pass */
+.pr-sticky { position: fixed; top: -170px; left: 0; right: 0; z-index: 6; padding-top: 24px; background: rgba(10,10,10,.8);
+  backdrop-filter: blur(48px); -webkit-backdrop-filter: blur(48px); border-bottom: 1px solid #454545; }
+.pr-sticky[data-shown="true"] { top: 0; }
+@media (max-width: 1280px) { .pr-sticky { padding-top: 8px; } }
+.pr-sticky__desk { display: grid; gap: 32px; grid-template-columns: repeat(12, 1fr); margin: auto; position: relative; width: 100%;
+  padding-bottom: 24px; }
+@media (max-width: 1280px) { .pr-sticky__desk { display: none; } }
+.pr-sticky__col { grid-column: span 4; display: flex; flex-direction: column; justify-content: flex-end; gap: 16px; }
+.pr-sticky__titles { display: flex; flex-direction: column; gap: 8px; }
+.pr-sticky__price { display: flex; gap: 4px; align-items: center; }
+.pr-sticky__btn { width: 100%; }
+.pr-sticky__md { display: none; }
+@media (max-width: 1280px) { .pr-sticky__md { display: flex; flex-direction: column; gap: 8px; } }
+.pr-sticky__mdprice { align-items: flex-end; display: flex; gap: 8px; margin-bottom: 16px; }
+
+.pr-tabs { display: flex; gap: 8px; }
+.pr-tabs__btn { background: transparent; border: 1px solid transparent; text-align: left; font-size: 24px; line-height: 32px;
+  font-weight: 500; letter-spacing: -0.5px; color: #A7A7A7; }
+.pr-tabs__btn[data-active="true"] { color: #FFFFFF; }
+@media (max-width: 1280px) { .pr-tabs__btn { font-size: 20px; line-height: 28px; letter-spacing: -0.25px; } }
+@media (max-width: 799px) { .pr-tabs__btn { font-size: 18px; line-height: 24px; } }
+
+/* ≤1280 bottom CTA bar (e1hik68n13). z-index isn't in the spec; matched to the sticky header. */
+.pr-bottombar { display: none; }
+@media (max-width: 1280px) {
+  .pr-bottombar { display: block; position: fixed; left: 0; right: 0; bottom: -100px; z-index: 6; padding: 24px 32px;
+    background: #141414; border-top: 1px solid #454545; backdrop-filter: blur(48px); -webkit-backdrop-filter: blur(48px); }
+  .pr-bottombar[data-shown="true"] { bottom: 0; }
+}
+.pr-bottombar__btn { width: 100%; }

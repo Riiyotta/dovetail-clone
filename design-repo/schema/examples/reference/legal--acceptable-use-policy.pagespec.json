@@ -1,0 +1,377 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T36",
+ "route": "/legal/acceptable-use-policy/",
+ "theme": "light",
+ "chrome": {
+  "banner": "legal",
+  "nav": "legal",
+  "footer": "light"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Acceptable Use Policy"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "legal",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "legal",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "legal.doc-header",
+   "variant": "default",
+   "content": {
+    "heading": "Acceptable Use Policy",
+    "actions": [
+     {
+      "label": "HOME",
+      "href": "/"
+     },
+     {
+      "label": "LEGAL",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.side-nav",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Legal",
+      "href": "#"
+     },
+     {
+      "label": "Master Subscription Agreement",
+      "href": "/legal/master-subscription-agreement/"
+     },
+     {
+      "label": "User Terms of Service",
+      "href": "/legal/user-terms-of-service/"
+     },
+     {
+      "label": "Acceptable Use Policy",
+      "href": "/legal/acceptable-use-policy/"
+     },
+     {
+      "label": "Product-Specific Terms: AI Features",
+      "href": "/legal/ai-features/"
+     },
+     {
+      "label": "Mutual Non-Disclosure Agreement",
+      "href": "/legal/mutual-non-disclosure-agreement/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "sticky.pin",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.doc-part",
+   "variant": "default",
+   "content": {
+    "body": [
+     {
+      "kind": "paragraph",
+      "text": "Placeholder term: Placeholder legal text. Replace this clause with approved wording before publishing. Nothing in this placeholder creates rights or obligations for anyone. The real terms for this section are intentionally not reproduced here. Sample clause text appears here for layout purposes only. Defined terms, dates and party names would be inserted in the final version."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder term: Placeholder legal text. This paragraph is sample filler and does not form part of any placeholder link textagreement or policy. Replace this clause with approved wording before publishing. Nothing in this placeholder placeholder link text creates rights or obligations for anyone. The real terms for this section are intentionally not reproduced here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. The real terms for this section are intentionally not reproduced here. Sample clause text appears here for layout."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Defined terms, dates and party names would be inserted in the final version. This line only approximates the length of the original section. Do not rely on this text. Lorem-style filler for a legal document layout. Placeholder wording continues in this sentence. Any similarity to actual contractual language is coincidental. This paragraph is sample filler and does not form part of any agreement or policy. Replace this clause with approved wording before publishing. Nothing in this placeholder creates rights or obligations for anyone. The real terms for this section are intentionally not reproduced here. Sample clause text appears here for layout purposes only."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Sample clause text appears here for layout purposes only. Defined terms, dates and party names would be inserted in the final version. This line only approximates the length of the original section. Do not rely on this text. Lorem-style placeholder link filler for a legal document layout. Placeholder wording continues in this sentence. Any similarity to actual contractual language is coincidental. This paragraph is sample filler and does not form part of any agreement or policy. Replace this clause with approved wording before publishing."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Do not rely on placeholder link this text. Lorem-style filler for a legal."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. This line only approximates the length of the original section. Do not rely on this text. Lorem-style filler for a legal document layout."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Replace this clause with approved wording before publishing. Nothing in this placeholder creates rights or."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. This paragraph is sample filler and does not form part of any agreement or policy. Replace this clause with approved wording before publishing."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. The real terms for this section are intentionally not reproduced here. Sample clause text appears here for layout purposes only."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Nothing in this placeholder creates rights or obligations for anyone. The real terms for this section are intentionally not reproduced here."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Replace this clause with approved wording."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. This paragraph is sample filler and does not form."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Nothing in this placeholder creates rights or obligations for."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. The real terms for this section are intentionally not reproduced here. Sample clause text appears here for layout purposes only."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. This paragraph is sample filler and does not form part of any."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Placeholder wording continues in this sentence. Any similarity to actual contractual language is coincidental. This paragraph is sample filler and does not form part of any agreement or policy. Replace this clause with approved wording before publishing. Nothing in this placeholder creates rights or obligations for anyone. The real terms for this section are intentionally not reproduced here. Sample clause text appears here for layout purposes only."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.updated-meta",
+   "variant": "default",
+   "content": {},
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "light",
+   "content": {
+    "heading": "The best never guess",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "#"
+     },
+     {
+      "label": "Start free trial",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-theright-salesforce.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestfarleft-aws.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestleft-canva.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestright-airwallex.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverright-notion.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverfarright-zapier.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessleft-wise.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessfarleft-breville.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "light",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.on-this-page",
+   "variant": "default",
+   "content": {},
+   "motion": {
+    "pattern": "scroll.spy",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  }
+ ]
+}

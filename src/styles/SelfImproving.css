@@ -1,0 +1,71 @@
+/* §7 "Make your software self improving" — CLONE_SPEC.md */
+.loop-section { padding: 120px 0; overflow-x: clip; }
+
+/* Header */
+.loop-header { display: flex; justify-content: center; }
+.loop-header-inner { display: flex; flex-direction: column; align-items: center; gap: 32px; text-align: center; }
+.loop-h2 { max-width: 1093px; font-size: 96px; line-height: 100px; font-weight: 600; letter-spacing: -2px; }
+.loop-serif { font-size: 120px; font-weight: 400; }
+.loop-atom { display: inline-block; vertical-align: middle; height: 0; line-height: 0; font-size: 0;
+  position: relative; overflow: visible; z-index: 1; width: 147px; }
+.loop-atom img { position: absolute; width: auto; max-width: none; object-fit: contain; top: 50%; left: 50%;
+  transform: translate(-50%, calc(-50% - 4px)); height: 120px; }
+.loop-intro { max-width: 812px; font-size: 24px; line-height: 32px; font-weight: 400; letter-spacing: -0.5px; }
+
+/* Sticky track: 100vh + 4 × 60vh */
+.loop-track { position: relative; height: 340vh; }
+.loop-sticky { position: sticky; top: 0; height: 100vh; --globe: min(840px, calc(100vh - 96px)); }
+.loop-globe { position: absolute; top: 50%; left: calc(50% - var(--globe) * 1.1905);
+  width: var(--globe); height: var(--globe); transform: translateY(-50%); overflow: visible; }
+
+.loop-panel { position: absolute; top: 50%; left: calc(50% + 16px); width: min(508px, 50% - 48px);
+  display: grid; transform: translateY(-50%); }
+.loop-item { grid-area: 1 / 1; display: flex; flex-direction: column; gap: 32px;
+  opacity: 0; transform: translateY(12px); transition: opacity 300ms, transform 300ms; }
+.loop-item[data-active] { opacity: 1; transform: translateY(0); }
+
+.loop-img { display: block; width: 100%; height: auto; aspect-ratio: 508 / 340; }
+
+/* Step text */
+.loop-text { display: flex; flex-direction: column; gap: 16px; }
+.loop-h3 { display: flex; align-items: center; gap: 16px; margin: 0; letter-spacing: -1px; }
+.loop-num { font-size: 24px; line-height: 24px; font-weight: 400; }
+.loop-title { font-size: 32px; line-height: 40px; font-weight: 600; }
+.loop-body { font-size: 20px; line-height: 28px; letter-spacing: -0.25px; }
+
+/* Carousel (shown ≤1023) */
+.loop-carousel { display: none; }
+
+@media (max-width: 1280px) {
+  .loop-section { padding: 96px 0; }
+  .loop-h2 { font-size: 72px; line-height: 76px; letter-spacing: -2px; }
+  .loop-serif { font-size: 90px; }
+  .loop-atom { width: 110px; }
+  .loop-atom img { height: 90px; }
+  .loop-intro { font-size: 16px; line-height: 24px; letter-spacing: normal; }
+  .loop-body { font-size: 16px; line-height: 24px; }
+}
+
+@media (max-width: 1023px) {
+  .loop-track { display: none; }
+  .loop-h3 { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .loop-carousel {
+    --gutter: 64px;
+    display: grid; grid-auto-flow: column; grid-auto-columns: 60%; gap: 32px;
+    margin-top: 64px; padding: 0 var(--gutter); scroll-padding-inline: var(--gutter);
+    overflow-x: auto; scroll-snap-type: x mandatory; overscroll-behavior-x: contain; scrollbar-width: none;
+  }
+  .loop-carousel::-webkit-scrollbar { display: none; }
+  .loop-card { scroll-snap-align: start; display: flex; flex-direction: column; gap: 32px; min-width: 0; }
+}
+
+@media (max-width: 799px) {
+  .loop-section { padding: 51px 0 45px; }
+  .loop-header-inner { align-items: flex-start; text-align: left; }
+  .loop-h2 { font-size: 48px; line-height: 52px; letter-spacing: -1px; }
+  .loop-serif { font-size: 60px; }
+  .loop-atom { width: 73px; }
+  .loop-atom img { height: 60px; }
+  .loop-title { font-size: 20px; line-height: 28px; }
+  .loop-carousel { --gutter: 16px; grid-auto-columns: 80%; margin-top: 40px; }
+}

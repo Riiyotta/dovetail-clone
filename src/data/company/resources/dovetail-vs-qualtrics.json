@@ -1,0 +1,752 @@
+{
+ "path": "/resources/dovetail-vs-qualtrics/",
+ "title": "Dovetail vs Qualtrics: Qualitative Research, Feedback Analysis, and When to Use Both",
+ "breadcrumb": [
+  {
+   "label": "Guides",
+   "href": "/guides/"
+  },
+  {
+   "label": "Dovetail vs Qualtrics",
+   "href": null
+  }
+ ],
+ "h1": "Dovetail vs Qualtrics",
+ "meta": [
+  [
+   "Last updated",
+   "28 September 2026"
+  ]
+ ],
+ "share": [
+  {
+   "heading": "Share",
+   "links": [
+    {
+     "label": "Copy link",
+     "href": null
+    },
+    {
+     "label": "Share on Facebook",
+     "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-qualtrics%2F"
+    },
+    {
+     "label": "Share on LinkedIn",
+     "href": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-qualtrics%2F"
+    },
+    {
+     "label": "Share on X",
+     "href": "https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20article%20at%20Dovetail!&url=https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-qualtrics%2F&via=hidovetail"
+    }
+   ]
+  },
+  {
+   "heading": "Summarize with AI",
+   "links": [
+    {
+     "label": "Summarize with ChatGPT",
+     "href": "https://chat.openai.com/?q=Summarize%20this%20article%20%22Dovetail%20vs%20Qualtrics%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-qualtrics%2F"
+    },
+    {
+     "label": "Summarize with Claude",
+     "href": "https://claude.ai/new?q=Summarize%20this%20article%20%22Dovetail%20vs%20Qualtrics%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-qualtrics%2F"
+    },
+    {
+     "label": "Summarize with Perplexity",
+     "href": "https://www.perplexity.ai/search?q=Summarize%20this%20article%20%22Dovetail%20vs%20Qualtrics%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-qualtrics%2F"
+    },
+    {
+     "label": "Summarize with Grok",
+     "href": "https://x.com/i/grok?text=Summarize%20this%20article%20%22Dovetail%20vs%20Qualtrics%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-qualtrics%2F"
+    }
+   ]
+  }
+ ],
+ "sidebarCta": {
+  "heading": "Get started today",
+  "body": "Go from raw data to valuable insights with a flexible research platform",
+  "button": {
+   "label": "Contact sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "toc": [
+  "Quick answer",
+  "What is Qualtrics?",
+  "What is Dovetail?",
+  "Is Dovetail a replacement for Qualtrics?",
+  "Where Qualtrics’ qualitative tools stop",
+  "AI capabilities compared",
+  "Qualtrics AI",
+  "Dovetail AI",
+  "Implementation and access",
+  "Governance and security",
+  "Side-by-side comparison",
+  "When to choose Dovetail",
+  "Decision summary"
+ ],
+ "body": [
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 119
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 303,
+   "strong": [
+    "Reviewed and updated in September 2026.",
+    "Moderated User Testing",
+    "Research Hub"
+   ],
+   "links": [
+    {
+     "text": "Moderated User Testing",
+     "href": "https://www.qualtrics.com/support/survey-platform/my-projects/moderated-user-testing/moderated-user-testing-overview/"
+    },
+    {
+     "text": "Research Hub",
+     "href": "https://www.qualtrics.com/support/research-hub/research-hub-overview/"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Quick answer"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 499
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 367,
+   "strong": [
+    "Choose Qualtrics",
+    "Choose Dovetail"
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "What is Qualtrics?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 166,
+   "strong": [
+    "the XM Data & AI Platform"
+   ],
+   "links": [
+    {
+     "text": "the XM Data & AI Platform",
+     "href": "https://www.qualtrics.com/"
+    }
+   ]
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 131
+    },
+    {
+     "placeholder": true,
+     "chars": 94,
+     "strong": [
+      "200+ global markets"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 148
+    },
+    {
+     "placeholder": true,
+     "chars": 112
+    },
+    {
+     "text": "Generate synthetic survey responses through Edge Audiences"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 181,
+   "strong": [
+    "FedRAMP High, HITRUST, ISO 27001, ISO 42001, and SOC 2 Type 2"
+   ],
+   "links": [
+    {
+     "text": "FedRAMP High, HITRUST, ISO 27001, ISO 42001, and SOC 2 Type 2",
+     "href": "https://www.qualtrics.com/platform/security/"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "What is Dovetail?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 135
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 205,
+     "strong": [
+      "Research capture and synthesis:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 297,
+     "strong": [
+      "Channels:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 138,
+     "strong": [
+      "AI Chat and AI Docs:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 149,
+     "strong": [
+      "AI Agents:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 147,
+     "strong": [
+      "Digital twins:"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Is Dovetail a replacement for Qualtrics?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 369
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 461,
+   "strong": [
+    "Qualtrics integration in Channels"
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Where Qualtrics’ qualitative tools stop"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 311,
+   "strong": [
+    "Video Response question",
+    "upload interview recordings"
+   ],
+   "links": [
+    {
+     "text": "Video Response question",
+     "href": "https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/specialty-questions/video-response-question/"
+    },
+    {
+     "text": "upload interview recordings",
+     "href": "https://www.qualtrics.com/support/survey-platform/my-projects/imported-video-and-audio-projects/"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 546,
+   "strong": [
+    "the same text data cannot be used"
+   ],
+   "links": [
+    {
+     "text": "the same text data cannot be used",
+     "href": "https://www.qualtrics.com/support/omnichannel-listening/text-analytics-xm/text-analytics-overview/"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 293
+  },
+  {
+   "t": "h2",
+   "text": "AI capabilities compared"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 81
+  },
+  {
+   "t": "h3",
+   "text": "Qualtrics AI"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 112,
+     "strong": [
+      "Experience Agents"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 110,
+     "strong": [
+      "Conversational Feedback"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 80,
+     "strong": [
+      "Qualtrics Assist"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 142,
+     "strong": [
+      "Edge Audiences",
+      "synthetic panel responses"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "text": "Dovetail AI"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 131,
+     "strong": [
+      "AI Analysis"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 123,
+     "strong": [
+      "AI Chat"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 158,
+     "strong": [
+      "AI Agents"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 154,
+     "strong": [
+      "Digital twins"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 235
+  },
+  {
+   "t": "h2",
+   "text": "Implementation and access"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 284,
+   "strong": [
+    "free Surveys plan"
+   ],
+   "links": [
+    {
+     "text": "free Surveys plan",
+     "href": "https://www.qualtrics.com/buy-online/"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 198,
+   "strong": [
+    "Settings → Integrations"
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Governance and security"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 194
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 340
+  },
+  {
+   "t": "h2",
+   "text": "Side-by-side comparison"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 29,
+   "strong": [
+    "Last reviewed: September 2026"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    "If you need...",
+    "Dovetail",
+    "Qualtrics"
+   ],
+   "rows": [
+    [
+     "Large-scale survey design and distribution",
+     "Not a survey tool",
+     "Yes"
+    ],
+    [
+     "NPS, CSAT, and CES program tracking",
+     "Tracks scores imported from Qualtrics and other sources",
+     "Yes"
+    ],
+    [
+     "Panel recruitment across global markets",
+     "No",
+     "Yes"
+    ],
+    [
+     "Conjoint and MaxDiff studies",
+     "No",
+     "Yes"
+    ],
+    [
+     "Interview recording, transcription, and synthesis",
+     "Yes",
+     "Yes, with recordings metered per minute as responses"
+    ],
+    [
+     "Moderated interview and usability sessions",
+     {
+      "placeholder": true,
+      "chars": 96
+     },
+     {
+      "placeholder": true,
+      "chars": 70
+     }
+    ],
+    [
+     "Research repository",
+     "Yes",
+     "Research Hub, on simplified pricing plans or Preview Program"
+    ],
+    [
+     {
+      "placeholder": true,
+      "chars": 68
+     },
+     "Yes",
+     "Split across Text iQ, Text Analytics, and XM Discover"
+    ],
+    [
+     "AI answers cited to the original transcript, ticket, or call",
+     "Yes",
+     "Qualtrics Assist summarizes dashboard open text"
+    ],
+    [
+     "Highlight reels for stakeholder buy-in",
+     "Yes",
+     "Video reels from survey responses"
+    ],
+    [
+     "Feedback ranked by ARR, plan tier, and account",
+     "Yes, via Salesforce or HubSpot",
+     "Not publicly documented"
+    ],
+    [
+     "AI agents that monitor feedback and take action",
+     "Yes",
+     "Yes, Experience Agents"
+    ],
+    [
+     "Digital twins grounded in real customer evidence",
+     "Yes",
+     "Synthetic panels (US English)"
+    ],
+    [
+     "MCP server",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "FedRAMP High",
+     "No",
+     "Yes"
+    ],
+    [
+     "Native integration between the two",
+     "Qualtrics integration in Channels",
+     "Connects through the same integration"
+    ],
+    [
+     "Free trial",
+     "60 days, no credit card",
+     "Free Surveys plan; 30-day professional trial"
+    ]
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "When to choose Dovetail"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 19
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 152
+    },
+    {
+     "placeholder": true,
+     "chars": 70
+    },
+    {
+     "placeholder": true,
+     "chars": 97
+    },
+    {
+     "placeholder": true,
+     "chars": 109
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 127
+  },
+  {
+   "t": "h2",
+   "text": "Decision summary"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 332
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 258,
+   "strong": [
+    "Dovetail vs Qualtrics"
+   ],
+   "links": [
+    {
+     "text": "Dovetail vs Qualtrics",
+     "href": "/dovetail-vs-qualtrics/"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "FAQs"
+  },
+  {
+   "t": "h3",
+   "text": "Is Dovetail a replacement for Qualtrics?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 552
+  },
+  {
+   "t": "h3",
+   "text": "Should I buy Dovetail or Qualtrics for customer insights?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 469
+  },
+  {
+   "t": "h3",
+   "text": "Which is better for user research, Dovetail or Qualtrics?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 518
+  },
+  {
+   "t": "h3",
+   "text": "Can Dovetail analyze my Qualtrics survey data?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 329
+  },
+  {
+   "t": "h3",
+   "text": "What’s better than Qualtrics for qualitative research?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 353
+  },
+  {
+   "t": "h3",
+   "text": "How long does it take to get started with Dovetail?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 162
+  }
+ ],
+ "relatedTopics": [
+  {
+   "label": "[Customer research]",
+   "href": "/customer-research/"
+  },
+  {
+   "label": "[Design thinking]",
+   "href": "/design-thinking/"
+  },
+  {
+   "label": "[Employee experience]",
+   "href": "/employee-experience/"
+  },
+  {
+   "label": "[Enterprise]",
+   "href": "/enterprise/"
+  },
+  {
+   "label": "[Market research]",
+   "href": "/market-research/"
+  },
+  {
+   "label": "[Patient experience]",
+   "href": "/patient-experience/"
+  },
+  {
+   "label": "[Product development]",
+   "href": "/product-development/"
+  },
+  {
+   "label": "[Product management]",
+   "href": "/product-management/"
+  },
+  {
+   "label": "[Research maturity assessment]",
+   "href": "/research-maturity-assessment/"
+  },
+  {
+   "label": "[Research methods]",
+   "href": "/research/"
+  },
+  {
+   "label": "[Surveys]",
+   "href": "/surveys/"
+  },
+  {
+   "label": "[User experience (UX)]",
+   "href": "/ux/"
+  }
+ ],
+ "relatedArticles": [
+  {
+   "title": "What can I use instead of Insight7? Alternatives by use case",
+   "href": "/resources/insight7-alternatives/",
+   "date": "20 October 2026"
+  },
+  {
+   "title": "How does Dovetail compare to Aurelius for user research?",
+   "href": "/resources/dovetail-vs-aurelius/",
+   "date": "20 October 2026"
+  },
+  {
+   "title": "Dovetail review: tagging, search, AI, and pricing in 2026",
+   "href": "/resources/dovetail-review/",
+   "date": "29 September 2026"
+  },
+  {
+   "title": "Dovetail vs Enterpret",
+   "href": "/resources/dovetail-vs-enterpret/",
+   "date": "28 September 2026"
+  },
+  {
+   "title": "Dovetail vs Marvin",
+   "href": "/resources/dovetail-vs-marvin/",
+   "date": "28 September 2026"
+  }
+ ],
+ "cta": {
+  "heading": "Turn customer feedback into product innovation",
+  "buttons": [
+   {
+    "label": "Contact sales",
+    "href": "/contact-sales/"
+   },
+   {
+    "label": "Try Dovetail free",
+    "href": "/auth/signup/"
+   }
+  ]
+ },
+ "theme": "light"
+}

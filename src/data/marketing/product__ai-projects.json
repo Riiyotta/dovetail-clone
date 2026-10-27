@@ -1,0 +1,1272 @@
+{
+ "url": "/product/ai-projects/",
+ "template": "product",
+ "title": "AI Projects | Dovetail",
+ "metaDescription": "Your biggest business decisions shouldn’t rely on gut feel. AI Projects transcribes and summarizes all your customer and market research into highlights…",
+ "documentHeight": {
+  "1440": 15539,
+  "1280": 16169,
+  "768": 13785,
+  "390": 12130
+ },
+ "chrome": {
+  "alertBar": true,
+  "navBackground": "#0029A6",
+  "footer": "finalCta"
+ },
+ "sections": [
+  {
+   "slice": "ProductHero",
+   "el": "e10k4luw0",
+   "measuredHeight": {
+    "1440": 907.4,
+    "1280": 896.8,
+    "768": 1055.1,
+    "390": 861.1
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/pixel-shapes-left.png",
+     "alt": "",
+     "w": 286,
+     "h": 102.8,
+     "el": "e10k4luw2"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/pixel-shapes-right.png",
+     "alt": "",
+     "w": 286,
+     "h": 123.4,
+     "el": "e10k4luw3"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e10k4luw6-729157.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "text": "Projects",
+     "el": "e10k4luw7"
+    },
+    {
+     "role": "h1",
+     "text": "The evidence behind\nevery good decision",
+     "parts": [
+      {
+       "el": "e10k4luw9",
+       "text": "The",
+       "font": "Inter"
+      },
+      {
+       "el": "e10k4luw10",
+       "text": "evidence",
+       "font": "PP Mondwest"
+      },
+      {
+       "el": "e10k4luw12",
+       "img": "/assets/marketing/ai-projects-hero-icon.png"
+      },
+      {
+       "el": "e10k4luw9",
+       "text": "behind\nevery good decision",
+       "font": "Inter"
+      }
+     ],
+     "el": "e10k4luw13"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-hero-icon.png",
+     "alt": "",
+     "w": 62,
+     "h": 72,
+     "el": "e10k4luw12"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 204,
+     "el": "e10k4luw14"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "Analyze your data from",
+     "el": "e10k4luw18"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/GoogleMeet.svg",
+     "alt": "Google Meet",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/MicrosoftTeams.svg",
+     "alt": "Microsoft Teams",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Zoom.svg",
+     "alt": "Zoom",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/GoogleDrive.svg",
+     "alt": "Google Drive",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Salesforce.svg",
+     "alt": "Salesforce",
+     "w": 24,
+     "h": 24,
+     "el": "img"
+    },
+    {
+     "role": "link",
+     "text": "+",
+     "href": "https://docs.dovetail.com/integrations",
+     "ariaLabel": "See all integrations",
+     "el": "e10k4luw21"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-hero-image.png",
+     "alt": "",
+     "w": 1192,
+     "h": 603.4,
+     "el": "e10k4luw24"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-mobile-hero.png",
+     "alt": "",
+     "w": 0,
+     "h": 0,
+     "el": "e10k4luw25",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "LogoMarqueeWrap",
+   "el": "e9ib0650",
+   "measuredHeight": {
+    "1440": 503.6,
+    "1280": 444.9,
+    "768": 79.6,
+    "390": 99.2
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Connecting the world’s greatest companies to their customers",
+     "el": "e1jzkpz90"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/amazon-918921.svg",
+     "w": 88.9,
+     "h": 40,
+     "ariaLabel": "Amazon",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/dyson-990499.svg",
+     "w": 88.9,
+     "h": 40,
+     "ariaLabel": "Dyson",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/mercedes-benz-133521.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Mercedes-Benz",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/qantas-584168.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Qantas",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/aws-271091.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "AWS",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/toyota-301058.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Toyota",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/canva-585358.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Canva",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/volvo-486139.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Volvo",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/notion-653232.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Notion",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/salesforce-823526.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Salesforce",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/milwaukee-672003.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Milwaukee",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/kpmg-168064.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "KPMG",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/wise-541877.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Wise",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/mckinsey-company-197947.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "McKinsey & Company",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ford-139900.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Ford",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/walgreens-527994.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Walgreens",
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/shopify-732620.svg",
+     "w": 90,
+     "h": 40,
+     "ariaLabel": "Shopify",
+     "el": "svg"
+    }
+   ]
+  },
+  {
+   "slice": "ProductFeatures",
+   "el": "e1r1adlk0",
+   "measuredHeight": {
+    "1440": 3600,
+    "1280": 4072,
+    "768": 4303.4,
+    "390": 2921.3
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-feature-1.png",
+     "alt": "Dovetail Projects product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-feature-2.png",
+     "alt": "Dovetail Projects product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-feature-3.png",
+     "alt": "Dovetail Projects product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-feature-4.png",
+     "alt": "Dovetail Projects product screenshot",
+     "w": 580,
+     "h": 659.1,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "01",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "Analyzed before you asked",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 198,
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "02",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "Hear it straight from your customers",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 154,
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "03",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "Every team working from the same playbook",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 173,
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "04",
+     "el": "e1r1adlk3"
+    },
+    {
+     "role": "h2",
+     "text": "Chat, act, deliver",
+     "el": "e1r1adlk4"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 182,
+     "el": "e1r1adlk5"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-feature-1.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-feature-2.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-feature-3.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-feature-4.png",
+     "alt": "Product screenshot",
+     "w": 0,
+     "h": 0,
+     "el": "img",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "ProductFor",
+   "el": "eea47v90",
+   "measuredHeight": {
+    "1440": 3900,
+    "1280": 3800,
+    "768": 688,
+    "390": 880
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "Projects for",
+     "el": "eea47v94"
+    },
+    {
+     "role": "button",
+     "text": "Usability testing",
+     "el": "eea47v98"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-cursor.png",
+     "alt": "",
+     "w": 56,
+     "h": 56,
+     "el": "eea47v910"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 187,
+     "el": "eea47v913"
+    },
+    {
+     "role": "button",
+     "text": "Customer interviews",
+     "el": "eea47v98"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-phone.png",
+     "alt": "",
+     "w": 56,
+     "h": 56,
+     "el": "eea47v910"
+    },
+    {
+     "role": "button",
+     "text": "Sales and CS coaching",
+     "el": "eea47v98"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-target.png",
+     "alt": "",
+     "w": 56,
+     "h": 56,
+     "el": "eea47v910"
+    },
+    {
+     "role": "button",
+     "text": "Desktop research",
+     "el": "eea47v98"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-old-computer.png",
+     "alt": "",
+     "w": 56,
+     "h": 56,
+     "el": "eea47v910"
+    },
+    {
+     "role": "button",
+     "text": "Competitor research",
+     "el": "eea47v98"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-chess-queen.png",
+     "alt": "",
+     "w": 56,
+     "h": 56,
+     "el": "eea47v910"
+    },
+    {
+     "role": "button",
+     "text": "User research",
+     "el": "eea47v98"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/3d-magnifier.png",
+     "alt": "",
+     "w": 56,
+     "h": 56,
+     "el": "eea47v910"
+    }
+   ]
+  },
+  {
+   "slice": "ProductQuote",
+   "el": "e1cnxsk60",
+   "measuredHeight": {
+    "1440": 560,
+    "1280": 560,
+    "768": 269.6,
+    "390": 455.6
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/testimonial-grid-bg.png.png",
+     "alt": "Grid background",
+     "w": 1260,
+     "h": 560,
+     "el": "e1ms7w8v3"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Customer_Canva.png",
+     "alt": "",
+     "w": 80,
+     "h": 80,
+     "el": "e1cnxsk65"
+    },
+    {
+     "role": "quote",
+     "text": "“To be able to see a user’s face, hear their voice, and sense their emotion when they’re talking—is incomparable.”",
+     "el": "e1cnxsk66"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-canva-white-logo.svg",
+     "alt": "",
+     "w": 70.2,
+     "h": 24,
+     "el": "e1cnxsk68"
+    },
+    {
+     "role": "text",
+     "text": "Becky White",
+     "el": "e1cnxsk611"
+    },
+    {
+     "role": "text",
+     "text": "Head of Design Research",
+     "el": "e1cnxsk612"
+    },
+    {
+     "role": "button",
+     "text": "01",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "02",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "03",
+     "el": "e5b4pau2"
+    }
+   ]
+  },
+  {
+   "slice": "ProductCarousel",
+   "el": "e1c9zraz0",
+   "measuredHeight": {
+    "1440": 1213.8,
+    "1280": 1071.8,
+    "768": 852.2,
+    "390": 876.2
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "From first recording to final output",
+     "parts": [
+      {
+       "el": "e1c9zraz4",
+       "text": "From first recording",
+       "font": "Inter"
+      },
+      {
+       "el": "e1c9zraz4",
+       "text": "to final",
+       "font": "Inter"
+      },
+      {
+       "el": "e1c9zraz5",
+       "text": "output",
+       "font": "PP Mondwest"
+      }
+     ],
+     "el": "e1c9zraz3"
+    },
+    {
+     "role": "text",
+     "text": "Every capability you need to go from raw data to reliable findings.",
+     "el": "e1c9zraz6"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e5zj3j12-080716.svg",
+     "w": 32,
+     "h": 26.3,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e5zj3j12-080716.svg",
+     "w": 32,
+     "h": 26.3,
+     "el": "svg"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-carousel-1.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Live transcription",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Record and transcribe audio live with multiple speaker recognition—built for in-person interviews and field research.",
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-carousel-2.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Multi-language support",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Transcribe and translate across 75 languages, making research instantly usable across all regions and teams.",
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-carousel-3.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "AI redaction",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Automatically redact PII and sensitive information from transcripts before they land in your workspace.",
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-carousel-4.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Multi-region storage",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Store data in the region that meets your compliance requirements, with custom data retention policies.",
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-carousel-5.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Centralized document library",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 148,
+     "el": "e1c9zraz17"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-carousel-6.png",
+     "alt": "",
+     "w": 402,
+     "h": 449.8,
+     "el": "e1c9zraz12"
+    },
+    {
+     "role": "text",
+     "text": "Granular sharing controls",
+     "el": "e1c9zraz15"
+    },
+    {
+     "role": "text",
+     "text": "Share projects with specific teams or people, and set view-only or full-access permissions to control exactly who sees what.",
+     "el": "e1c9zraz17"
+    }
+   ]
+  },
+  {
+   "slice": "Findings",
+   "el": "e1fjikez0",
+   "measuredHeight": {
+    "1440": 1299.7,
+    "1280": 1568.4,
+    "768": 2511.1,
+    "390": 1872.6
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "Get more from your findings",
+     "parts": [
+      {
+       "el": "e1fjikez2",
+       "text": "Get",
+       "font": "Inter"
+      },
+      {
+       "el": "e1fjikez5",
+       "img": "/assets/marketing/product-findings-icon.png"
+      },
+      {
+       "el": "e1fjikez3",
+       "text": "more",
+       "font": "PP Mondwest"
+      },
+      {
+       "el": "e1fjikez2",
+       "text": "from your findings",
+       "font": "Inter"
+      }
+     ],
+     "el": "e1fjikez1"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/product-findings-icon.png",
+     "alt": "",
+     "w": 157.3,
+     "h": 96,
+     "el": "e1fjikez5"
+    },
+    {
+     "role": "text",
+     "text": "The real value isn’t in the analysis. It’s in what you do with it next.",
+     "el": "e1fjikez6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-findings-chat.png",
+     "alt": "Dovetail Projects findings in Dovetail Chat",
+     "w": 0,
+     "h": 0,
+     "el": "img"
+    },
+    {
+     "role": "h3",
+     "text": "AI Chat",
+     "el": "e1fjikez7"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-icon-chat.svg",
+     "alt": "",
+     "w": 24,
+     "h": 24,
+     "el": "e1fjikez8"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 150,
+     "el": "eiz8yhc2"
+    },
+    {
+     "role": "link",
+     "text": "Learn more",
+     "href": "/product/ai-chat/",
+     "el": "eiz8yhc4"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eiz8yhc4-194629.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-findings-docs.png",
+     "alt": "Dovetail Projects findings in Dovetail Docs",
+     "w": 0,
+     "h": 0,
+     "el": "img"
+    },
+    {
+     "role": "h3",
+     "text": "AI Docs",
+     "el": "e1fjikez7"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-icon-docs.svg",
+     "alt": "",
+     "w": 24,
+     "h": 24,
+     "el": "e1fjikez8"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 144,
+     "el": "eiz8yhc2"
+    },
+    {
+     "role": "link",
+     "text": "Learn more",
+     "href": "/product/ai-docs/",
+     "el": "eiz8yhc4"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eiz8yhc4-194629.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-findings-agents.png",
+     "alt": "Dovetail Projects findings shared by Dovetail AI Agents",
+     "w": 614,
+     "h": 436.7,
+     "el": "img"
+    },
+    {
+     "role": "h3",
+     "text": "AI Agents",
+     "el": "e1fjikez7"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ai-projects-icon-agents.svg",
+     "alt": "",
+     "w": 24,
+     "h": 24,
+     "el": "e1fjikez8"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 172,
+     "el": "eiz8yhc2"
+    },
+    {
+     "role": "link",
+     "text": "Learn more",
+     "href": "/product/ai-agents/",
+     "el": "eiz8yhc4"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eiz8yhc4-194629.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    }
+   ]
+  },
+  {
+   "slice": "PixelBand",
+   "el": "e70som00",
+   "measuredHeight": {
+    "1440": 120,
+    "1280": 0,
+    "768": 0,
+    "390": 0
+   },
+   "content": []
+  },
+  {
+   "slice": "CustomerStories",
+   "el": "elme6fd0",
+   "measuredHeight": {
+    "1440": 910,
+    "1280": 700,
+    "768": 501.9,
+    "390": 621.9
+   },
+   "content": [
+    {
+     "role": "button",
+     "text": "01",
+     "ariaLabel": "Breville customer story",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "02",
+     "ariaLabel": "Atlassian customer story",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "03",
+     "ariaLabel": "Itaú Unibanco customer story",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "h3",
+     "text": "How customer insights drive and inspire Breville’s product innovation",
+     "el": "e1wn1hrv5"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1wn1hrv9-593209.svg",
+     "w": 56,
+     "h": 56,
+     "el": "e1wn1hrv11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 207,
+     "el": "e1wn1hrv6"
+    },
+    {
+     "role": "link",
+     "text": "Read the story",
+     "href": "/customers/breville/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "All customer stories",
+     "href": "/customers/",
+     "el": "e1wn1hrv8"
+    },
+    {
+     "role": "h3",
+     "text": "How Atlassian turns customer signals into confident product decisions",
+     "el": "e1wn1hrv5",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1wn1hrv9-661009.svg",
+     "w": 0,
+     "h": 0,
+     "el": "e1wn1hrv11",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 153,
+     "el": "e1wn1hrv6",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "link",
+     "text": "Read the story",
+     "href": "/customers/atlassian-design/",
+     "el": "a",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "h3",
+     "text": "How Itaú Unibanco delivers better banking experiences with Dovetail",
+     "el": "e1wn1hrv5",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1wn1hrv9-365555.svg",
+     "w": 0,
+     "h": 0,
+     "el": "e1wn1hrv11",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 183,
+     "el": "e1wn1hrv6",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "link",
+     "text": "Read the story",
+     "href": "/customers/itau-unibanco/",
+     "el": "a",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "PixelBand",
+   "el": "e70som00",
+   "measuredHeight": {
+    "1440": 120,
+    "1280": 0,
+    "768": 0,
+    "390": 0
+   },
+   "content": []
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 64,
+    "768": 64,
+    "390": 64
+   }
+  },
+  {
+   "slice": "FAQ",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 538,
+    "1280": 606,
+    "768": 583,
+    "390": 631
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "FAQs",
+     "el": "ef2kgtv0"
+    },
+    {
+     "role": "button",
+     "text": "What is Projects?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ea410al3-082750.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 199,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Can I use video directly, not just transcripts?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 183,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "How does Chat work inside a Project?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 150,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "What kinds of data can I bring into a Project?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 168,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Who is Projects built for?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 133,
+     "el": "ef2kgtv2"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 64,
+    "768": 64,
+    "390": 64
+   }
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+/* §8 "Govern customer context at scale" — CLONE_SPEC.md */
+.govern-section { padding: 72px 0 120px; }
+.govern-container { display: flex; flex-direction: column; gap: 120px; }
+
+.govern-header { display: flex; flex-direction: column; align-items: flex-start; gap: 32px; }
+.govern-h2 { position: relative; z-index: 0; font-size: 96px; line-height: 100px; font-weight: 600; letter-spacing: -2px; }
+.govern-serif { font-size: 126px; font-weight: 400; }
+.govern-icon { display: inline-block; vertical-align: middle; height: 0; line-height: 0; font-size: 0;
+  position: relative; overflow: visible; z-index: -1; width: 212px; margin: 0 -40px 0 -16px; }
+.govern-icon img { position: absolute; width: auto; max-width: none; object-fit: contain; top: 50%; left: 50%;
+  height: 147px; transform: translate(-50%, calc(-64% - 4px)); }
+.govern-intro { max-width: 940px; font-size: 24px; line-height: 32px; font-weight: 400; letter-spacing: -0.25px; }
+
+.govern-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 64px 32px; }
+.govern-card { display: flex; flex-direction: column; gap: 32px; }
+.govern-img { display: block; width: 100%; height: auto; aspect-ratio: 804 / 464; }
+.govern-text { display: flex; flex-direction: column; gap: 8px; max-width: 382px; }
+.govern-h3 { font-size: 20px; line-height: 24px; font-weight: 600; }
+.govern-body { font-size: 16px; line-height: 24px; font-weight: 400; }
+
+@media (max-width: 1280px) {
+  .govern-section { padding: 96px 0; }
+  .govern-container { gap: 64px; }
+  .govern-h2 { font-size: 72px; line-height: 76px; letter-spacing: -2px; }
+  .govern-serif { font-size: 94px; }
+  .govern-icon { width: 159px; margin: 0 -30px 0 -12px; }
+  .govern-icon img { height: 110px; }
+  .govern-intro { font-size: 16px; line-height: 24px; letter-spacing: normal; }
+  .govern-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 48px; }
+}
+
+@media (max-width: 799px) {
+  .govern-section { padding: 69px 0 45px; }
+  .govern-container { gap: 48px; }
+  .govern-h2 { font-size: 48px; line-height: 52px; letter-spacing: -1px; }
+  .govern-serif { font-size: 63px; }
+  .govern-icon { width: 106px; margin: 0 -20px 0 -8px; }
+  .govern-icon img { height: 74px; }
+  .govern-grid { grid-template-columns: minmax(0, 1fr); row-gap: 40px; }
+  .govern-card { gap: 24px; }
+}

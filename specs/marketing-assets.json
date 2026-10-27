@@ -1,0 +1,4071 @@
+{
+ "_doc": "Asset manifest for marketing templates. \"remote\" = original URL on dovetail.com; \"local\" = path served by Vite from public/. \"pages\" = routes that load it. inlineSvgs = inline <svg> React components extracted from page DOM (key = DOM hash used in recon).",
+ "files": [
+  {
+   "remote": "https://dovetail.com/customers/achievers/white-logo.svg",
+   "local": "/assets/marketing/customer-achievers-white-logo.svg",
+   "pages": [
+    "/product/ai-channels/",
+    "/product/digital-twins/",
+    "/roles/product-management/",
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/customers/amazon/white-logo.svg",
+   "local": "/assets/marketing/customer-amazon-white-logo.svg",
+   "pages": [
+    "/roles/customer-experience/",
+    "/roles/design/",
+    "/roles/marketing/",
+    "/roles/product-management/",
+    "/roles/research/",
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/customers/asml/white-logo.svg",
+   "local": "/assets/marketing/customer-asml-white-logo.svg",
+   "pages": [
+    "/deploy/",
+    "/enterprise/",
+    "/pricing/",
+    "/solutions/healthcare/",
+    "/solutions/product-research/",
+    "/solutions/research-repository/",
+    "/solutions/voice-of-customer/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/customers/atlassian/white-logo.svg",
+   "local": "/assets/marketing/customer-atlassian-white-logo.svg",
+   "pages": [
+    "/deploy/",
+    "/enterprise/",
+    "/pricing/",
+    "/product/digital-twins/",
+    "/roles/design/",
+    "/roles/research/",
+    "/roles/sales-and-cs/",
+    "/solutions/healthcare/",
+    "/solutions/product-research/",
+    "/solutions/research-repository/",
+    "/solutions/voice-of-customer/",
+    "/the-best-never-guess/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/customers/aws/white-logo.svg",
+   "local": "/assets/marketing/customer-aws-white-logo.svg",
+   "pages": [
+    "/deploy/",
+    "/enterprise/",
+    "/pricing/",
+    "/roles/customer-experience/",
+    "/roles/design/",
+    "/roles/marketing/",
+    "/roles/product-management/",
+    "/roles/research/",
+    "/roles/sales-and-cs/",
+    "/solutions/healthcare/",
+    "/solutions/product-research/",
+    "/solutions/research-repository/",
+    "/solutions/voice-of-customer/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/customers/breville/white-logo.svg",
+   "local": "/assets/marketing/customer-breville-white-logo.svg",
+   "pages": [
+    "/deploy/",
+    "/enterprise/",
+    "/pricing/",
+    "/product/ai-chat/",
+    "/product/ai-dashboards/",
+    "/product/ai-docs/",
+    "/roles/design/",
+    "/roles/marketing/",
+    "/roles/research/",
+    "/solutions/healthcare/",
+    "/solutions/product-research/",
+    "/solutions/research-repository/",
+    "/solutions/voice-of-customer/",
+    "/the-best-never-guess/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/customers/canva/white-logo.svg",
+   "local": "/assets/marketing/customer-canva-white-logo.svg",
+   "pages": [
+    "/product/ai-projects/",
+    "/roles/design/",
+    "/roles/marketing/",
+    "/roles/research/",
+    "/the-best-never-guess/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/customers/cnh/white-logo.svg",
+   "local": "/assets/marketing/customer-cnh-white-logo.svg",
+   "pages": [
+    "/roles/research/",
+    "/the-best-never-guess/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/customers/harvard-business-publishing/white-logo.svg",
+   "local": "/assets/marketing/customer-harvard-business-publishing-white-logo.svg",
+   "pages": [
+    "/roles/marketing/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/customers/itau-unibanco/white-logo.svg",
+   "local": "/assets/marketing/customer-itau-unibanco-white-logo.svg",
+   "pages": [
+    "/roles/customer-experience/",
+    "/roles/product-management/",
+    "/roles/sales-and-cs/",
+    "/the-best-never-guess/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/customers/ncrvoyix/white-logo.svg",
+   "local": "/assets/marketing/customer-ncrvoyix-white-logo.svg",
+   "pages": [
+    "/deploy/",
+    "/enterprise/",
+    "/pricing/",
+    "/solutions/healthcare/",
+    "/solutions/product-research/",
+    "/solutions/research-repository/",
+    "/solutions/voice-of-customer/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/customers/notion/white-logo.svg",
+   "local": "/assets/marketing/customer-notion-white-logo.svg",
+   "pages": [
+    "/deploy/",
+    "/enterprise/",
+    "/pricing/",
+    "/roles/customer-experience/",
+    "/roles/design/",
+    "/roles/marketing/",
+    "/roles/product-management/",
+    "/roles/research/",
+    "/roles/sales-and-cs/",
+    "/solutions/healthcare/",
+    "/solutions/product-research/",
+    "/solutions/research-repository/",
+    "/solutions/voice-of-customer/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/customers/okta/white-logo.svg",
+   "local": "/assets/marketing/customer-okta-white-logo.svg",
+   "pages": [
+    "/deploy/",
+    "/enterprise/",
+    "/pricing/",
+    "/roles/customer-experience/",
+    "/solutions/healthcare/",
+    "/solutions/product-research/",
+    "/solutions/research-repository/",
+    "/solutions/voice-of-customer/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/customers/qantas/white-logo.svg",
+   "local": "/assets/marketing/customer-qantas-white-logo.svg",
+   "pages": [
+    "/deploy/",
+    "/enterprise/",
+    "/pricing/",
+    "/roles/marketing/",
+    "/solutions/healthcare/",
+    "/solutions/product-research/",
+    "/solutions/research-repository/",
+    "/solutions/voice-of-customer/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/customers/safetyculture/white-logo.svg",
+   "local": "/assets/marketing/customer-safetyculture-white-logo.svg",
+   "pages": [
+    "/roles/customer-experience/",
+    "/roles/product-management/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/customers/salesforce/white-logo.svg",
+   "local": "/assets/marketing/customer-salesforce-white-logo.svg",
+   "pages": [
+    "/roles/customer-experience/",
+    "/roles/design/",
+    "/roles/marketing/",
+    "/roles/product-management/",
+    "/roles/research/",
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/customers/shopify/white-logo.svg",
+   "local": "/assets/marketing/customer-shopify-white-logo.svg",
+   "pages": [
+    "/roles/customer-experience/",
+    "/roles/design/",
+    "/roles/marketing/",
+    "/roles/product-management/",
+    "/roles/research/",
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/customers/smartrecruiters/white-logo.svg",
+   "local": "/assets/marketing/customer-smartrecruiters-white-logo.svg",
+   "pages": [
+    "/roles/sales-and-cs/",
+    "/the-best-never-guess/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/customers/toyota/white-logo.svg",
+   "local": "/assets/marketing/customer-toyota-white-logo.svg",
+   "pages": [
+    "/deploy/",
+    "/enterprise/",
+    "/pricing/",
+    "/roles/customer-experience/",
+    "/roles/design/",
+    "/roles/marketing/",
+    "/roles/product-management/",
+    "/roles/research/",
+    "/roles/sales-and-cs/",
+    "/solutions/healthcare/",
+    "/solutions/product-research/",
+    "/solutions/research-repository/",
+    "/solutions/voice-of-customer/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/customers/wise/white-logo.svg",
+   "local": "/assets/marketing/customer-wise-white-logo.svg",
+   "pages": [
+    "/roles/customer-experience/",
+    "/roles/design/",
+    "/roles/marketing/",
+    "/roles/product-management/",
+    "/roles/research/",
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/customers/zapier/white-logo.svg",
+   "local": "/assets/marketing/customer-zapier-white-logo.svg",
+   "pages": [
+    "/deploy/",
+    "/enterprise/",
+    "/pricing/",
+    "/product/ai-agents/",
+    "/roles/customer-experience/",
+    "/roles/design/",
+    "/roles/marketing/",
+    "/roles/product-management/",
+    "/roles/research/",
+    "/roles/sales-and-cs/",
+    "/solutions/healthcare/",
+    "/solutions/product-research/",
+    "/solutions/research-repository/",
+    "/solutions/voice-of-customer/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/3d-chess-queen.png",
+   "local": "/assets/marketing/3d-chess-queen.png",
+   "pages": [
+    "/product/ai-docs/",
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/3d-coin.png",
+   "local": "/assets/marketing/3d-coin.png",
+   "pages": [
+    "/product/ai-docs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/3d-crown.png",
+   "local": "/assets/marketing/3d-crown.png",
+   "pages": [
+    "/product/ai-agents/",
+    "/product/ai-dashboards/",
+    "/product/ai-docs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/3d-cursor.png",
+   "local": "/assets/marketing/3d-cursor.png",
+   "pages": [
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/3d-flag.png",
+   "local": "/assets/marketing/3d-flag.png",
+   "pages": [
+    "/product/ai-channels/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/3d-googly-neutral.png",
+   "local": "/assets/marketing/3d-googly-neutral.png",
+   "pages": [
+    "/product/ai-dashboards/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/3d-icon-digital-twin.png",
+   "local": "/assets/3d-icon-digital-twin.png",
+   "pages": [
+    "/deploy/",
+    "/enterprise/",
+    "/enterprise/how-leading-organizations-use-dovetail/",
+    "/enterprise/research-tool-stack-integration/",
+    "/enterprise/why-leading-teams-choose-dovetail/",
+    "/menu/",
+    "/pricing/",
+    "/product/ai-agents/",
+    "/product/ai-channels/",
+    "/product/ai-chat/",
+    "/product/ai-dashboards/",
+    "/product/ai-docs/",
+    "/product/ai-projects/",
+    "/roles/customer-experience/",
+    "/roles/design/",
+    "/roles/design/quiz/",
+    "/roles/marketing/",
+    "/roles/product-management/",
+    "/roles/product-management/quiz/",
+    "/roles/research/",
+    "/roles/research/quiz/",
+    "/roles/sales-and-cs/",
+    "/solutions/healthcare/",
+    "/solutions/product-research/",
+    "/solutions/research-repository/",
+    "/solutions/voice-of-customer/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/3d-key-shipit.png",
+   "local": "/assets/marketing/3d-key-shipit.png",
+   "pages": [
+    "/product/ai-channels/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/3d-magnifier.png",
+   "local": "/assets/marketing/3d-magnifier.png",
+   "pages": [
+    "/product/ai-agents/",
+    "/product/ai-dashboards/",
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/3d-megaphone.png",
+   "local": "/assets/marketing/3d-megaphone.png",
+   "pages": [
+    "/product/ai-agents/",
+    "/product/ai-channels/",
+    "/product/ai-docs/",
+    "/product/digital-twins/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/3d-messy-folder.png",
+   "local": "/assets/marketing/3d-messy-folder.png",
+   "pages": [
+    "/product/ai-agents/",
+    "/product/ai-channels/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/3d-old-computer.png",
+   "local": "/assets/marketing/3d-old-computer.png",
+   "pages": [
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/3d-phone.png",
+   "local": "/assets/marketing/3d-phone.png",
+   "pages": [
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/3d-potato-wave.png",
+   "local": "/assets/marketing/3d-potato-wave.png",
+   "pages": [
+    "/product/ai-channels/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/3d-target.png",
+   "local": "/assets/marketing/3d-target.png",
+   "pages": [
+    "/product/ai-agents/",
+    "/product/ai-dashboards/",
+    "/product/ai-docs/",
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/3d-temperature.png",
+   "local": "/assets/marketing/3d-temperature.png",
+   "pages": [
+    "/product/ai-agents/",
+    "/product/ai-channels/",
+    "/product/ai-dashboards/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/AppStore.svg",
+   "local": "/assets/marketing/AppStore.svg",
+   "pages": [
+    "/product/ai-channels/",
+    "/product/ai-dashboards/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/AppleAppStore.svg",
+   "local": "/assets/marketing/AppleAppStore.svg",
+   "pages": [
+    "/roles/customer-experience/",
+    "/roles/marketing/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/BARR-Certifications-Badge-ISO-27001-2022.png",
+   "local": "/assets/marketing/BARR-Certifications-Badge-ISO-27001-2022.png",
+   "pages": [
+    "/pricing/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Channels-AI-generated_themes-product-image.png",
+   "local": "/assets/marketing/Channels-AI-generated_themes-product-image.png",
+   "pages": [
+    "/solutions/healthcare/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Channels_sources.png",
+   "local": "/assets/marketing/Channels_sources.png",
+   "pages": [
+    "/solutions/healthcare/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ChatGPT.svg",
+   "local": "/assets/marketing/ChatGPT.svg",
+   "pages": [
+    "/product/ai-chat/",
+    "/roles/customer-experience/",
+    "/roles/design/",
+    "/roles/marketing/",
+    "/roles/product-management/",
+    "/roles/research/",
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Claude.svg",
+   "local": "/assets/marketing/Claude.svg",
+   "pages": [
+    "/product/ai-chat/",
+    "/roles/customer-experience/",
+    "/roles/design/",
+    "/roles/marketing/",
+    "/roles/product-management/",
+    "/roles/research/",
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/CustomerStoryBrevilleLoop.mp4",
+   "local": "/assets/marketing/CustomerStoryBrevilleLoop.mp4",
+   "pages": [
+    "/enterprise/",
+    "/product/ai-agents/",
+    "/product/ai-channels/",
+    "/product/ai-chat/",
+    "/product/ai-dashboards/",
+    "/product/ai-docs/",
+    "/product/ai-projects/",
+    "/product/digital-twins/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Customer_Achievers.png",
+   "local": "/assets/marketing/Customer_Achievers.png",
+   "pages": [
+    "/roles/product-management/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Customer_Atlassian.png",
+   "local": "/assets/Customer_Atlassian.png",
+   "pages": [
+    "/roles/design/",
+    "/the-best-never-guess/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Customer_Atlassian2.png",
+   "local": "/assets/marketing/Customer_Atlassian2.png",
+   "pages": [
+    "/roles/research/",
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Customer_Breville.png",
+   "local": "/assets/Customer_Breville.png",
+   "pages": [
+    "/roles/design/",
+    "/roles/marketing/",
+    "/roles/research/",
+    "/the-best-never-guess/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Customer_CNHIndustrial.png",
+   "local": "/assets/Customer_CNHIndustrial.png",
+   "pages": [
+    "/the-best-never-guess/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Customer_Canva.png",
+   "local": "/assets/marketing/Customer_Canva.png",
+   "pages": [
+    "/product/ai-projects/",
+    "/roles/design/",
+    "/roles/marketing/",
+    "/roles/research/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Customer_Canva_AI.png",
+   "local": "/assets/Customer_Canva_AI.png",
+   "pages": [
+    "/the-best-never-guess/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Customer_Harvard.png",
+   "local": "/assets/marketing/Customer_Harvard.png",
+   "pages": [
+    "/roles/marketing/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Customer_Itau.png",
+   "local": "/assets/Customer_Itau.png",
+   "pages": [
+    "/roles/product-management/",
+    "/roles/sales-and-cs/",
+    "/the-best-never-guess/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Customer_Okta.png",
+   "local": "/assets/marketing/Customer_Okta.png",
+   "pages": [
+    "/roles/customer-experience/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Customer_SafetyCulture.png",
+   "local": "/assets/marketing/Customer_SafetyCulture.png",
+   "pages": [
+    "/roles/customer-experience/",
+    "/roles/product-management/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Customer_SmartRecruiter.png",
+   "local": "/assets/Customer_SmartRecruiter.png",
+   "pages": [
+    "/roles/sales-and-cs/",
+    "/the-best-never-guess/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Customer_Zapier.png",
+   "local": "/assets/marketing/Customer_Zapier.png",
+   "pages": [
+    "/roles/customer-experience/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/DV12__1_.png",
+   "local": "/assets/marketing/DV12__1_.png",
+   "pages": [
+    "/deploy/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/DataSource1.svg",
+   "local": "/assets/marketing/DataSource1.svg",
+   "pages": [
+    "/product/ai-channels/",
+    "/product/ai-dashboards/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/DataSource2.svg",
+   "local": "/assets/marketing/DataSource2.svg",
+   "pages": [
+    "/product/ai-channels/",
+    "/product/ai-dashboards/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/DovetailBrandmark.svg",
+   "local": "/assets/marketing/DovetailBrandmark.svg",
+   "pages": [
+    "/product/ai-chat/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Figma.svg",
+   "local": "/assets/marketing/Figma.svg",
+   "pages": [
+    "/roles/design/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Frame_1699554981.png",
+   "local": "/assets/marketing/Frame_1699554981.png",
+   "pages": [
+    "/pricing/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Frame_1699554982.png",
+   "local": "/assets/marketing/Frame_1699554982.png",
+   "pages": [
+    "/pricing/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Frame_1948762751.png",
+   "local": "/assets/marketing/Frame_1948762751.png",
+   "pages": [
+    "/enterprise/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Frame_1948762767.png",
+   "local": "/assets/marketing/Frame_1948762767.png",
+   "pages": [
+    "/deploy/",
+    "/enterprise/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Frame_1948762769.png",
+   "local": "/assets/marketing/Frame_1948762769.png",
+   "pages": [
+    "/roles/customer-experience/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Frame_1948763217.png",
+   "local": "/assets/marketing/Frame_1948763217.png",
+   "pages": [
+    "/pricing/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Freshdesk.svg",
+   "local": "/assets/marketing/Freshdesk.svg",
+   "pages": [
+    "/roles/customer-experience/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Front.svg",
+   "local": "/assets/marketing/Front.svg",
+   "pages": [
+    "/roles/customer-experience/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/G2.svg",
+   "local": "/assets/marketing/G2.svg",
+   "pages": [
+    "/roles/customer-experience/",
+    "/roles/marketing/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Gemini_Generated_Image_57tisi57tisi57ti-4.png",
+   "local": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti-4.png",
+   "pages": [
+    "/product/ai-channels/",
+    "/product/digital-twins/",
+    "/roles/product-management/",
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Gemini_Generated_Image_57tisi57tisi57ti.png",
+   "local": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti.png",
+   "pages": [
+    "/enterprise/",
+    "/roles/marketing/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Gemini_Generated_Image_57tisi57tisi57ti__3_.png",
+   "local": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti__3_.png",
+   "pages": [
+    "/product/ai-chat/",
+    "/product/ai-dashboards/",
+    "/product/ai-docs/",
+    "/roles/design/",
+    "/solutions/product-research/",
+    "/solutions/research-repository/",
+    "/solutions/voice-of-customer/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Gong.svg",
+   "local": "/assets/marketing/Gong.svg",
+   "pages": [
+    "/roles/marketing/",
+    "/roles/product-management/",
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/GoogleDrive.svg",
+   "local": "/assets/marketing/GoogleDrive.svg",
+   "pages": [
+    "/product/ai-agents/",
+    "/product/ai-docs/",
+    "/product/ai-projects/",
+    "/product/digital-twins/",
+    "/roles/design/",
+    "/roles/marketing/",
+    "/roles/research/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/GoogleMeet.svg",
+   "local": "/assets/marketing/GoogleMeet.svg",
+   "pages": [
+    "/product/ai-agents/",
+    "/product/ai-docs/",
+    "/product/ai-projects/",
+    "/product/digital-twins/",
+    "/roles/design/",
+    "/roles/research/",
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/GooglePlay.svg",
+   "local": "/assets/marketing/GooglePlay.svg",
+   "pages": [
+    "/product/ai-channels/",
+    "/product/ai-dashboards/",
+    "/roles/customer-experience/",
+    "/roles/marketing/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/HubSpot.svg",
+   "local": "/assets/marketing/HubSpot.svg",
+   "pages": [
+    "/roles/customer-experience/",
+    "/roles/marketing/",
+    "/roles/product-management/",
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ISO_42001_Badge_BARR__1_.png",
+   "local": "/assets/marketing/ISO_42001_Badge_BARR__1_.png",
+   "pages": [
+    "/pricing/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Intercom.svg",
+   "local": "/assets/marketing/Intercom.svg",
+   "pages": [
+    "/roles/customer-experience/",
+    "/roles/marketing/",
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Jira.svg",
+   "local": "/assets/marketing/Jira.svg",
+   "pages": [
+    "/roles/design/",
+    "/roles/product-management/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/JiraServiceManagement.svg",
+   "local": "/assets/marketing/JiraServiceManagement.svg",
+   "pages": [
+    "/roles/customer-experience/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Linear.svg",
+   "local": "/assets/marketing/Linear.svg",
+   "pages": [
+    "/roles/product-management/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/MartinJerkovicPhoto.webp",
+   "local": "/assets/marketing/MartinJerkovicPhoto.webp",
+   "pages": [
+    "/product/digital-twins/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/MicrosoftOneDrive.svg",
+   "local": "/assets/marketing/MicrosoftOneDrive.svg",
+   "pages": [
+    "/roles/research/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/MicrosoftTeams.svg",
+   "local": "/assets/marketing/MicrosoftTeams.svg",
+   "pages": [
+    "/product/ai-agents/",
+    "/product/ai-docs/",
+    "/product/ai-projects/",
+    "/product/digital-twins/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Pendo.svg",
+   "local": "/assets/marketing/Pendo.svg",
+   "pages": [
+    "/roles/design/",
+    "/roles/product-management/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/PostHog.svg",
+   "local": "/assets/marketing/PostHog.svg",
+   "pages": [
+    "/roles/product-management/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Productboard.svg",
+   "local": "/assets/marketing/Productboard.svg",
+   "pages": [
+    "/roles/product-management/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Salesforce.svg",
+   "local": "/assets/marketing/Salesforce.svg",
+   "pages": [
+    "/product/ai-agents/",
+    "/product/ai-docs/",
+    "/product/ai-projects/",
+    "/product/digital-twins/",
+    "/roles/marketing/",
+    "/roles/product-management/",
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Slack.svg",
+   "local": "/assets/marketing/Slack.svg",
+   "pages": [
+    "/product/ai-channels/",
+    "/product/ai-chat/",
+    "/product/ai-dashboards/",
+    "/roles/customer-experience/",
+    "/roles/design/",
+    "/roles/marketing/",
+    "/roles/product-management/",
+    "/roles/research/",
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Sprig.svg",
+   "local": "/assets/marketing/Sprig.svg",
+   "pages": [
+    "/roles/design/",
+    "/roles/product-management/",
+    "/roles/research/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Teams.svg",
+   "local": "/assets/marketing/Teams.svg",
+   "pages": [
+    "/product/ai-chat/",
+    "/roles/research/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/UserSnap.svg",
+   "local": "/assets/marketing/UserSnap.svg",
+   "pages": [
+    "/roles/design/",
+    "/roles/product-management/",
+    "/roles/research/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Zendesk.svg",
+   "local": "/assets/marketing/Zendesk.svg",
+   "pages": [
+    "/product/ai-agents/",
+    "/product/ai-channels/",
+    "/product/ai-dashboards/",
+    "/product/ai-docs/",
+    "/roles/customer-experience/",
+    "/roles/product-management/",
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/Zoom.svg",
+   "local": "/assets/marketing/Zoom.svg",
+   "pages": [
+    "/product/ai-agents/",
+    "/product/ai-docs/",
+    "/product/ai-projects/",
+    "/product/digital-twins/",
+    "/roles/design/",
+    "/roles/research/",
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-agents-carousel-1.png",
+   "local": "/assets/marketing/ai-agents-carousel-1.png",
+   "pages": [
+    "/product/ai-agents/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-agents-carousel-2.png",
+   "local": "/assets/marketing/ai-agents-carousel-2.png",
+   "pages": [
+    "/product/ai-agents/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-agents-carousel-3.png",
+   "local": "/assets/marketing/ai-agents-carousel-3.png",
+   "pages": [
+    "/product/ai-agents/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-agents-carousel-4.png",
+   "local": "/assets/marketing/ai-agents-carousel-4.png",
+   "pages": [
+    "/product/ai-agents/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-agents-carousel-5.png",
+   "local": "/assets/marketing/ai-agents-carousel-5.png",
+   "pages": [
+    "/product/ai-agents/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-agents-feature-1.png",
+   "local": "/assets/marketing/ai-agents-feature-1.png",
+   "pages": [
+    "/product/ai-agents/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-agents-feature-2.png",
+   "local": "/assets/marketing/ai-agents-feature-2.png",
+   "pages": [
+    "/product/ai-agents/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-agents-feature-3.png",
+   "local": "/assets/marketing/ai-agents-feature-3.png",
+   "pages": [
+    "/product/ai-agents/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-agents-feature-4.png",
+   "local": "/assets/marketing/ai-agents-feature-4.png",
+   "pages": [
+    "/product/ai-agents/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-agents-hero-icon.png",
+   "local": "/assets/marketing/ai-agents-hero-icon.png",
+   "pages": [
+    "/product/ai-agents/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-agents-hero.png",
+   "local": "/assets/marketing/ai-agents-hero.png",
+   "pages": [
+    "/product/ai-agents/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-agents-mobile-hero.png",
+   "local": "/assets/marketing/ai-agents-mobile-hero.png",
+   "pages": [
+    "/product/ai-agents/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-channels-carousel-1.png",
+   "local": "/assets/marketing/ai-channels-carousel-1.png",
+   "pages": [
+    "/product/ai-channels/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-channels-carousel-2.png",
+   "local": "/assets/marketing/ai-channels-carousel-2.png",
+   "pages": [
+    "/product/ai-channels/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-channels-carousel-3.png",
+   "local": "/assets/marketing/ai-channels-carousel-3.png",
+   "pages": [
+    "/product/ai-channels/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-channels-carousel-4.png",
+   "local": "/assets/marketing/ai-channels-carousel-4.png",
+   "pages": [
+    "/product/ai-channels/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-channels-carousel-5.png",
+   "local": "/assets/marketing/ai-channels-carousel-5.png",
+   "pages": [
+    "/product/ai-channels/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-channels-feature-1.png",
+   "local": "/assets/marketing/ai-channels-feature-1.png",
+   "pages": [
+    "/product/ai-channels/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-channels-feature-2.png",
+   "local": "/assets/marketing/ai-channels-feature-2.png",
+   "pages": [
+    "/product/ai-channels/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-channels-feature-3.png",
+   "local": "/assets/marketing/ai-channels-feature-3.png",
+   "pages": [
+    "/product/ai-channels/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-channels-feature-4.png",
+   "local": "/assets/marketing/ai-channels-feature-4.png",
+   "pages": [
+    "/product/ai-channels/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-channels-findings-agents.png",
+   "local": "/assets/marketing/ai-channels-findings-agents.png",
+   "pages": [
+    "/product/ai-channels/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-channels-findings-chat.png",
+   "local": "/assets/marketing/ai-channels-findings-chat.png",
+   "pages": [
+    "/product/ai-channels/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-channels-findings-docs.png",
+   "local": "/assets/marketing/ai-channels-findings-docs.png",
+   "pages": [
+    "/product/ai-channels/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-channels-hero-icon.png",
+   "local": "/assets/marketing/ai-channels-hero-icon.png",
+   "pages": [
+    "/product/ai-channels/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-channels-hero-image.png",
+   "local": "/assets/marketing/ai-channels-hero-image.png",
+   "pages": [
+    "/product/ai-channels/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-channels-mobile-hero.png",
+   "local": "/assets/marketing/ai-channels-mobile-hero.png",
+   "pages": [
+    "/product/ai-channels/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-chat-carousel-1.png",
+   "local": "/assets/marketing/ai-chat-carousel-1.png",
+   "pages": [
+    "/product/ai-chat/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-chat-carousel-2.png",
+   "local": "/assets/marketing/ai-chat-carousel-2.png",
+   "pages": [
+    "/product/ai-chat/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-chat-carousel-3.png",
+   "local": "/assets/marketing/ai-chat-carousel-3.png",
+   "pages": [
+    "/product/ai-chat/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-chat-carousel-4.png",
+   "local": "/assets/marketing/ai-chat-carousel-4.png",
+   "pages": [
+    "/product/ai-chat/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-chat-carousel-5.png",
+   "local": "/assets/marketing/ai-chat-carousel-5.png",
+   "pages": [
+    "/product/ai-chat/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-chat-carousel-6.png",
+   "local": "/assets/marketing/ai-chat-carousel-6.png",
+   "pages": [
+    "/product/ai-chat/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-chat-feature-1.png",
+   "local": "/assets/marketing/ai-chat-feature-1.png",
+   "pages": [
+    "/product/ai-chat/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-chat-feature-2.png",
+   "local": "/assets/marketing/ai-chat-feature-2.png",
+   "pages": [
+    "/product/ai-chat/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-chat-feature-3.png",
+   "local": "/assets/marketing/ai-chat-feature-3.png",
+   "pages": [
+    "/product/ai-chat/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-chat-feature-4.png",
+   "local": "/assets/marketing/ai-chat-feature-4.png",
+   "pages": [
+    "/product/ai-chat/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-chat-findings-agents.png",
+   "local": "/assets/marketing/ai-chat-findings-agents.png",
+   "pages": [
+    "/product/ai-chat/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-chat-findings-docs.png",
+   "local": "/assets/marketing/ai-chat-findings-docs.png",
+   "pages": [
+    "/product/ai-chat/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-chat-hero-icon.png",
+   "local": "/assets/marketing/ai-chat-hero-icon.png",
+   "pages": [
+    "/product/ai-chat/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-chat-hero.png",
+   "local": "/assets/marketing/ai-chat-hero.png",
+   "pages": [
+    "/product/ai-chat/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-chat-mobile-hero.png",
+   "local": "/assets/marketing/ai-chat-mobile-hero.png",
+   "pages": [
+    "/product/ai-chat/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-chat-prompt-icon-customer-experience.png",
+   "local": "/assets/marketing/ai-chat-prompt-icon-customer-experience.png",
+   "pages": [
+    "/product/ai-chat/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-chat-prompt-icon-designer.png",
+   "local": "/assets/marketing/ai-chat-prompt-icon-designer.png",
+   "pages": [
+    "/product/ai-chat/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-chat-prompt-icon-marketing.png",
+   "local": "/assets/marketing/ai-chat-prompt-icon-marketing.png",
+   "pages": [
+    "/product/ai-chat/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-chat-prompt-icon-product-manager.png",
+   "local": "/assets/marketing/ai-chat-prompt-icon-product-manager.png",
+   "pages": [
+    "/product/ai-chat/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-chat-prompt-icon-researcher.png",
+   "local": "/assets/marketing/ai-chat-prompt-icon-researcher.png",
+   "pages": [
+    "/product/ai-chat/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-chat-prompt-icon-sales-cs.png",
+   "local": "/assets/marketing/ai-chat-prompt-icon-sales-cs.png",
+   "pages": [
+    "/product/ai-chat/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-chat.png",
+   "local": "/assets/marketing/ai-chat.png",
+   "pages": [
+    "/solutions/product-research/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-dashboards-carousel-1.png",
+   "local": "/assets/marketing/ai-dashboards-carousel-1.png",
+   "pages": [
+    "/product/ai-dashboards/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-dashboards-carousel-2.png",
+   "local": "/assets/marketing/ai-dashboards-carousel-2.png",
+   "pages": [
+    "/product/ai-dashboards/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-dashboards-carousel-3.png",
+   "local": "/assets/marketing/ai-dashboards-carousel-3.png",
+   "pages": [
+    "/product/ai-dashboards/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-dashboards-carousel-4.png",
+   "local": "/assets/marketing/ai-dashboards-carousel-4.png",
+   "pages": [
+    "/product/ai-dashboards/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-dashboards-carousel-5.png",
+   "local": "/assets/marketing/ai-dashboards-carousel-5.png",
+   "pages": [
+    "/product/ai-dashboards/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-dashboards-feature-1.png",
+   "local": "/assets/marketing/ai-dashboards-feature-1.png",
+   "pages": [
+    "/product/ai-dashboards/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-dashboards-feature-2.png",
+   "local": "/assets/marketing/ai-dashboards-feature-2.png",
+   "pages": [
+    "/product/ai-dashboards/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-dashboards-feature-3.png",
+   "local": "/assets/marketing/ai-dashboards-feature-3.png",
+   "pages": [
+    "/product/ai-dashboards/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-dashboards-feature-4.png",
+   "local": "/assets/marketing/ai-dashboards-feature-4.png",
+   "pages": [
+    "/product/ai-dashboards/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-dashboards-findings-agents.png",
+   "local": "/assets/marketing/ai-dashboards-findings-agents.png",
+   "pages": [
+    "/product/ai-dashboards/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-dashboards-findings-chat.png",
+   "local": "/assets/marketing/ai-dashboards-findings-chat.png",
+   "pages": [
+    "/product/ai-dashboards/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-dashboards-findings-docs.png",
+   "local": "/assets/marketing/ai-dashboards-findings-docs.png",
+   "pages": [
+    "/product/ai-dashboards/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-dashboards-hero-icon.png",
+   "local": "/assets/marketing/ai-dashboards-hero-icon.png",
+   "pages": [
+    "/product/ai-dashboards/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-dashboards-hero.png",
+   "local": "/assets/marketing/ai-dashboards-hero.png",
+   "pages": [
+    "/product/ai-dashboards/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-dashboards-mobile-hero.png",
+   "local": "/assets/marketing/ai-dashboards-mobile-hero.png",
+   "pages": [
+    "/product/ai-dashboards/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-docs-carousel-1.png",
+   "local": "/assets/marketing/ai-docs-carousel-1.png",
+   "pages": [
+    "/product/ai-docs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-docs-carousel-2.png",
+   "local": "/assets/marketing/ai-docs-carousel-2.png",
+   "pages": [
+    "/product/ai-docs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-docs-carousel-3.png",
+   "local": "/assets/marketing/ai-docs-carousel-3.png",
+   "pages": [
+    "/product/ai-docs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-docs-carousel-4.png",
+   "local": "/assets/marketing/ai-docs-carousel-4.png",
+   "pages": [
+    "/product/ai-docs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-docs-carousel-5.png",
+   "local": "/assets/marketing/ai-docs-carousel-5.png",
+   "pages": [
+    "/product/ai-docs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-docs-carousel-6.png",
+   "local": "/assets/marketing/ai-docs-carousel-6.png",
+   "pages": [
+    "/product/ai-docs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-docs-feature-1.png",
+   "local": "/assets/marketing/ai-docs-feature-1.png",
+   "pages": [
+    "/product/ai-docs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-docs-feature-2.png",
+   "local": "/assets/marketing/ai-docs-feature-2.png",
+   "pages": [
+    "/product/ai-docs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-docs-feature-3.png",
+   "local": "/assets/marketing/ai-docs-feature-3.png",
+   "pages": [
+    "/product/ai-docs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-docs-feature-4.png",
+   "local": "/assets/marketing/ai-docs-feature-4.png",
+   "pages": [
+    "/product/ai-docs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-docs-findings-agents.png",
+   "local": "/assets/marketing/ai-docs-findings-agents.png",
+   "pages": [
+    "/product/ai-docs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-docs-hero-icon.png",
+   "local": "/assets/marketing/ai-docs-hero-icon.png",
+   "pages": [
+    "/product/ai-docs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-docs-hero.png",
+   "local": "/assets/marketing/ai-docs-hero.png",
+   "pages": [
+    "/product/ai-docs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-docs-mobile-hero.png",
+   "local": "/assets/marketing/ai-docs-mobile-hero.png",
+   "pages": [
+    "/product/ai-docs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-docs.png",
+   "local": "/assets/marketing/ai-docs.png",
+   "pages": [
+    "/solutions/product-research/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-projects-carousel-1.png",
+   "local": "/assets/marketing/ai-projects-carousel-1.png",
+   "pages": [
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-projects-carousel-2.png",
+   "local": "/assets/marketing/ai-projects-carousel-2.png",
+   "pages": [
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-projects-carousel-3.png",
+   "local": "/assets/marketing/ai-projects-carousel-3.png",
+   "pages": [
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-projects-carousel-4.png",
+   "local": "/assets/marketing/ai-projects-carousel-4.png",
+   "pages": [
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-projects-carousel-5.png",
+   "local": "/assets/marketing/ai-projects-carousel-5.png",
+   "pages": [
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-projects-carousel-6.png",
+   "local": "/assets/marketing/ai-projects-carousel-6.png",
+   "pages": [
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-projects-feature-1.png",
+   "local": "/assets/marketing/ai-projects-feature-1.png",
+   "pages": [
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-projects-feature-2.png",
+   "local": "/assets/marketing/ai-projects-feature-2.png",
+   "pages": [
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-projects-feature-3.png",
+   "local": "/assets/marketing/ai-projects-feature-3.png",
+   "pages": [
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-projects-feature-4.png",
+   "local": "/assets/marketing/ai-projects-feature-4.png",
+   "pages": [
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-projects-findings-agents.png",
+   "local": "/assets/marketing/ai-projects-findings-agents.png",
+   "pages": [
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-projects-findings-chat.png",
+   "local": "/assets/marketing/ai-projects-findings-chat.png",
+   "pages": [
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-projects-findings-docs.png",
+   "local": "/assets/marketing/ai-projects-findings-docs.png",
+   "pages": [
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-projects-hero-icon.png",
+   "local": "/assets/marketing/ai-projects-hero-icon.png",
+   "pages": [
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-projects-hero-image.png",
+   "local": "/assets/marketing/ai-projects-hero-image.png",
+   "pages": [
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-projects-icon-agents.svg",
+   "local": "/assets/marketing/ai-projects-icon-agents.svg",
+   "pages": [
+    "/product/ai-channels/",
+    "/product/ai-chat/",
+    "/product/ai-dashboards/",
+    "/product/ai-docs/",
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-projects-icon-chat.svg",
+   "local": "/assets/marketing/ai-projects-icon-chat.svg",
+   "pages": [
+    "/product/ai-channels/",
+    "/product/ai-dashboards/",
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-projects-icon-docs.svg",
+   "local": "/assets/marketing/ai-projects-icon-docs.svg",
+   "pages": [
+    "/product/ai-channels/",
+    "/product/ai-chat/",
+    "/product/ai-dashboards/",
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ai-projects-mobile-hero.png",
+   "local": "/assets/marketing/ai-projects-mobile-hero.png",
+   "pages": [
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/answers-on-demand-vertical-tabs.png",
+   "local": "/assets/marketing/answers-on-demand-vertical-tabs.png",
+   "pages": [
+    "/enterprise/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/apis-and-mcp-server-vertical-feature-card.png",
+   "local": "/assets/marketing/apis-and-mcp-server-vertical-feature-card.png",
+   "pages": [
+    "/enterprise/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/automate-workflow.png",
+   "local": "/assets/marketing/automate-workflow.png",
+   "pages": [
+    "/deploy/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/automatic-redaction.png",
+   "local": "/assets/marketing/automatic-redaction.png",
+   "pages": [
+    "/solutions/healthcare/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/bng/form-bottom-left-decoration.svg",
+   "local": "/assets/marketing/bng-form-bottom-left-decoration.svg",
+   "pages": [
+    "/the-best-never-guess/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/bng/form-bottom-right-decoration.svg",
+   "local": "/assets/marketing/bng-form-bottom-right-decoration.svg",
+   "pages": [
+    "/the-best-never-guess/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/bng/mobile-team-switch-bottom-left-decoration.svg",
+   "local": "/assets/marketing/bng-mobile-team-switch-bottom-left-decoration.svg",
+   "pages": [
+    "/the-best-never-guess/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/bng/mobile-team-switch-center-right-decoration.svg",
+   "local": "/assets/marketing/bng-mobile-team-switch-center-right-decoration.svg",
+   "pages": [
+    "/the-best-never-guess/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/bng/mobile-testimonial-top-right-decoration.svg",
+   "local": "/assets/marketing/bng-mobile-testimonial-top-right-decoration.svg",
+   "pages": [
+    "/the-best-never-guess/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/bng/team-switch-left-center-decoration.svg",
+   "local": "/assets/marketing/bng-team-switch-left-center-decoration.svg",
+   "pages": [
+    "/the-best-never-guess/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/bng/team-switch-right-bottom-decoration.svg",
+   "local": "/assets/marketing/bng-team-switch-right-bottom-decoration.svg",
+   "pages": [
+    "/the-best-never-guess/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/bng/team-switch-right-top-decoration.svg",
+   "local": "/assets/marketing/bng-team-switch-right-top-decoration.svg",
+   "pages": [
+    "/the-best-never-guess/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/bng/text-slice-bottom-right-decoration.svg",
+   "local": "/assets/marketing/bng-text-slice-bottom-right-decoration.svg",
+   "pages": [
+    "/the-best-never-guess/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/breville-girl.webp",
+   "local": "/assets/marketing/breville-girl.webp",
+   "pages": [
+    "/the-best-never-guess/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/breville.png",
+   "local": "/assets/marketing/breville.png",
+   "pages": [
+    "/the-best-never-guess/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/centralize-workflow.png",
+   "local": "/assets/marketing/centralize-workflow.png",
+   "pages": [
+    "/deploy/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/channels-launch-1.png",
+   "local": "/assets/marketing/channels-launch-1.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/channels-launch-2.png",
+   "local": "/assets/marketing/channels-launch-2.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/channels-launch-3.png",
+   "local": "/assets/marketing/channels-launch-3.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/channels-launch-4.png",
+   "local": "/assets/marketing/channels-launch-4.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/channels-launch-5.png",
+   "local": "/assets/marketing/channels-launch-5.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/continuous_AI_analysis__8_.png",
+   "local": "/assets/marketing/continuous_AI_analysis__8_.png",
+   "pages": [
+    "/enterprise/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/continuous_AI_analysis__9_.png",
+   "local": "/assets/marketing/continuous_AI_analysis__9_.png",
+   "pages": [
+    "/deploy/",
+    "/enterprise/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/crm-integrations-horizontal-feature-card.png",
+   "local": "/assets/marketing/crm-integrations-horizontal-feature-card.png",
+   "pages": [
+    "/enterprise/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/customer-narratives-vertical-tabs.png",
+   "local": "/assets/marketing/customer-narratives-vertical-tabs.png",
+   "pages": [
+    "/enterprise/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/digital-twins-carousel-1.png",
+   "local": "/assets/marketing/digital-twins-carousel-1.png",
+   "pages": [
+    "/product/digital-twins/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/digital-twins-carousel-3.png",
+   "local": "/assets/marketing/digital-twins-carousel-3.png",
+   "pages": [
+    "/product/digital-twins/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/digital-twins-carousel-4.png",
+   "local": "/assets/marketing/digital-twins-carousel-4.png",
+   "pages": [
+    "/product/digital-twins/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/digital-twins-carousel-5.png",
+   "local": "/assets/marketing/digital-twins-carousel-5.png",
+   "pages": [
+    "/product/digital-twins/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/digital-twins-carousel-6.png",
+   "local": "/assets/marketing/digital-twins-carousel-6.png",
+   "pages": [
+    "/product/digital-twins/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/digital-twins-feature-1.png",
+   "local": "/assets/marketing/digital-twins-feature-1.png",
+   "pages": [
+    "/product/digital-twins/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/digital-twins-feature-2.png",
+   "local": "/assets/marketing/digital-twins-feature-2.png",
+   "pages": [
+    "/product/digital-twins/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/digital-twins-feature-3.png",
+   "local": "/assets/marketing/digital-twins-feature-3.png",
+   "pages": [
+    "/product/digital-twins/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/digital-twins-feature-4.png",
+   "local": "/assets/marketing/digital-twins-feature-4.png",
+   "pages": [
+    "/product/digital-twins/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/digital-twins-hero.png",
+   "local": "/assets/marketing/digital-twins-hero.png",
+   "pages": [
+    "/product/digital-twins/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/digital-twins-mobile-hero.png",
+   "local": "/assets/marketing/digital-twins-mobile-hero.png",
+   "pages": [
+    "/product/digital-twins/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/digital-twins-scroll-loop.mp4",
+   "local": "/assets/marketing/digital-twins-scroll-loop.mp4",
+   "pages": [
+    "/product/digital-twins/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/digital-twins-voice-mode.png",
+   "local": "/assets/marketing/digital-twins-voice-mode.png",
+   "pages": [
+    "/product/digital-twins/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ecosystem-launch-1.png",
+   "local": "/assets/marketing/ecosystem-launch-1.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/ecosystem-launch-2.png",
+   "local": "/assets/marketing/ecosystem-launch-2.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/enterprise-launch-1.png",
+   "local": "/assets/marketing/enterprise-launch-1.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/enterprise-launch-2.png",
+   "local": "/assets/marketing/enterprise-launch-2.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/enterprise-launch-3.png",
+   "local": "/assets/marketing/enterprise-launch-3.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/footer-bg.webp",
+   "local": "/assets/marketing/footer-bg.webp",
+   "pages": [
+    "/solutions/healthcare/",
+    "/solutions/healthcare/ [css]",
+    "/solutions/product-research/",
+    "/solutions/product-research/ [css]",
+    "/solutions/research-repository/",
+    "/solutions/research-repository/ [css]",
+    "/solutions/voice-of-customer/",
+    "/solutions/voice-of-customer/ [css]"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/home-enterprise-3.png",
+   "local": "/assets/marketing/home-enterprise-3.png",
+   "pages": [
+    "/solutions/healthcare/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/how-it-works-grid-bg.png.png",
+   "local": "/assets/marketing/how-it-works-grid-bg.png.png",
+   "pages": [
+    "/roles/customer-experience/",
+    "/roles/design/",
+    "/roles/marketing/",
+    "/roles/product-management/",
+    "/roles/research/",
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/integrations.png",
+   "local": "/assets/marketing/integrations.png",
+   "pages": [
+    "/solutions/product-research/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-agent-custom.png",
+   "local": "/assets/marketing/launch-2026-agent-custom.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-agent-rita.png",
+   "local": "/assets/marketing/launch-2026-agent-rita.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-agent-ronald.png",
+   "local": "/assets/marketing/launch-2026-agent-ronald.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-agents-bot.png",
+   "local": "/assets/marketing/launch-2026-agents-bot.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-agents-diagram.png",
+   "local": "/assets/marketing/launch-2026-agents-diagram.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-channels-icon.png",
+   "local": "/assets/marketing/launch-2026-channels-icon.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-ecosystem-chain.png",
+   "local": "/assets/marketing/launch-2026-ecosystem-chain.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-enterprise-layer-apps.png",
+   "local": "/assets/marketing/launch-2026-enterprise-layer-apps.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-enterprise-layer-data.png",
+   "local": "/assets/marketing/launch-2026-enterprise-layer-data.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-enterprise-layer-platform.png",
+   "local": "/assets/marketing/launch-2026-enterprise-layer-platform.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-enterprise-layer-query.png",
+   "local": "/assets/marketing/launch-2026-enterprise-layer-query.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-enterprise-lock.png",
+   "local": "/assets/marketing/launch-2026-enterprise-lock.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-icon-binoculars.png",
+   "local": "/assets/marketing/launch-2026-icon-binoculars.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-icon-bolt.png",
+   "local": "/assets/marketing/launch-2026-icon-bolt.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-icon-channels.png",
+   "local": "/assets/marketing/launch-2026-icon-channels.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-icon-hexagon.png",
+   "local": "/assets/marketing/launch-2026-icon-hexagon.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-icon-queen.png",
+   "local": "/assets/marketing/launch-2026-icon-queen.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-icon-shield.png",
+   "local": "/assets/marketing/launch-2026-icon-shield.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-icon-siren.png",
+   "local": "/assets/marketing/launch-2026-icon-siren.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-icon-star.png",
+   "local": "/assets/marketing/launch-2026-icon-star.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-multiplayer-chat.png",
+   "local": "/assets/marketing/launch-2026-multiplayer-chat.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-shipped-sticker.png",
+   "local": "/assets/marketing/launch-2026-shipped-sticker.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-sun.png",
+   "local": "/assets/marketing/launch-2026-sun.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-twin-ana.png",
+   "local": "/assets/marketing/launch-2026-twin-ana.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-twin-cheri-poster.jpg",
+   "local": "/assets/marketing/launch-2026-twin-cheri-poster.jpg",
+   "pages": [
+    "/product/ai-agents/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-twin-cheri.mp4",
+   "local": "/assets/marketing/launch-2026-twin-cheri.mp4",
+   "pages": [
+    "/product/ai-agents/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-twin-drive.svg",
+   "local": "/assets/marketing/launch-2026-twin-drive.svg",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-twin-jess.mp4",
+   "local": "/assets/marketing/launch-2026-twin-jess.mp4",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-twin-jess.png",
+   "local": "/assets/marketing/launch-2026-twin-jess.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-twin-pixels.svg",
+   "local": "/assets/marketing/launch-2026-twin-pixels.svg",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-twin-questionnaire.png",
+   "local": "/assets/marketing/launch-2026-twin-questionnaire.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-twin-teams.svg",
+   "local": "/assets/marketing/launch-2026-twin-teams.svg",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-twin-thumb.png",
+   "local": "/assets/marketing/launch-2026-twin-thumb.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-twin-trav-poster.jpg",
+   "local": "/assets/marketing/launch-2026-twin-trav-poster.jpg",
+   "pages": [
+    "/product/ai-channels/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-twin-trav.mp4",
+   "local": "/assets/marketing/launch-2026-twin-trav.mp4",
+   "pages": [
+    "/product/ai-channels/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-twin-trav.png",
+   "local": "/assets/marketing/launch-2026-twin-trav.png",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-twin-zoom.svg",
+   "local": "/assets/marketing/launch-2026-twin-zoom.svg",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/nav-digital-twins.webp",
+   "local": "/assets/nav-digital-twins.webp",
+   "pages": [
+    "/deploy/",
+    "/enterprise/",
+    "/enterprise/how-leading-organizations-use-dovetail/",
+    "/enterprise/research-tool-stack-integration/",
+    "/enterprise/why-leading-teams-choose-dovetail/",
+    "/launch/suns-out/",
+    "/pricing/",
+    "/product/ai-agents/",
+    "/product/ai-channels/",
+    "/product/ai-chat/",
+    "/product/ai-dashboards/",
+    "/product/ai-docs/",
+    "/product/ai-projects/",
+    "/product/digital-twins/",
+    "/roles/customer-experience/",
+    "/roles/design/",
+    "/roles/design/quiz/",
+    "/roles/marketing/",
+    "/roles/product-management/",
+    "/roles/product-management/quiz/",
+    "/roles/research/",
+    "/roles/research/quiz/",
+    "/roles/sales-and-cs/",
+    "/solutions/healthcare/",
+    "/solutions/product-research/",
+    "/solutions/research-repository/",
+    "/solutions/voice-of-customer/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/pixel-shapes-left.png",
+   "local": "/assets/marketing/pixel-shapes-left.png",
+   "pages": [
+    "/product/ai-agents/",
+    "/product/ai-channels/",
+    "/product/ai-chat/",
+    "/product/ai-dashboards/",
+    "/product/ai-docs/",
+    "/product/ai-projects/",
+    "/product/digital-twins/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/pixel-shapes-right.png",
+   "local": "/assets/marketing/pixel-shapes-right.png",
+   "pages": [
+    "/product/ai-agents/",
+    "/product/ai-channels/",
+    "/product/ai-chat/",
+    "/product/ai-dashboards/",
+    "/product/ai-docs/",
+    "/product/ai-projects/",
+    "/product/digital-twins/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/product-findings-icon.png",
+   "local": "/assets/marketing/product-findings-icon.png",
+   "pages": [
+    "/product/ai-channels/",
+    "/product/ai-chat/",
+    "/product/ai-dashboards/",
+    "/product/ai-docs/",
+    "/product/ai-projects/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/product-research-ai-agents.png",
+   "local": "/assets/marketing/product-research-ai-agents.png",
+   "pages": [
+    "/solutions/product-research/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/research-repository-1.png",
+   "local": "/assets/marketing/research-repository-1.png",
+   "pages": [
+    "/solutions/research-repository/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/research-repository-2.png",
+   "local": "/assets/marketing/research-repository-2.png",
+   "pages": [
+    "/solutions/research-repository/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/research-repository-3.png",
+   "local": "/assets/marketing/research-repository-3.png",
+   "pages": [
+    "/solutions/research-repository/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/research-repository-4.png",
+   "local": "/assets/marketing/research-repository-4.png",
+   "pages": [
+    "/solutions/research-repository/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/research-repository-5.png",
+   "local": "/assets/marketing/research-repository-5.png",
+   "pages": [
+    "/solutions/research-repository/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/research-repository-6.png",
+   "local": "/assets/marketing/research-repository-6.png",
+   "pages": [
+    "/solutions/research-repository/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-cx-feature-1.png",
+   "local": "/assets/marketing/roles-cx-feature-1.png",
+   "pages": [
+    "/roles/customer-experience/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-cx-feature-2.png",
+   "local": "/assets/marketing/roles-cx-feature-2.png",
+   "pages": [
+    "/roles/customer-experience/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-cx-feature-3.png",
+   "local": "/assets/marketing/roles-cx-feature-3.png",
+   "pages": [
+    "/roles/customer-experience/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-cx-feature-4.png",
+   "local": "/assets/marketing/roles-cx-feature-4.png",
+   "pages": [
+    "/roles/customer-experience/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-cx-hero-mobile.png",
+   "local": "/assets/marketing/roles-cx-hero-mobile.png",
+   "pages": [
+    "/roles/customer-experience/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-cx-hero.png",
+   "local": "/assets/marketing/roles-cx-hero.png",
+   "pages": [
+    "/roles/customer-experience/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-cx-usecase-VoC-reporting.png",
+   "local": "/assets/marketing/roles-cx-usecase-VoC-reporting.png",
+   "pages": [
+    "/roles/customer-experience/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-cx-usecase-drop-off-analysis.png",
+   "local": "/assets/marketing/roles-cx-usecase-drop-off-analysis.png",
+   "pages": [
+    "/roles/customer-experience/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-cx-usecase-post-launch-reviews.png",
+   "local": "/assets/marketing/roles-cx-usecase-post-launch-reviews.png",
+   "pages": [
+    "/roles/customer-experience/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-cx-usecase-support-deflection.png",
+   "local": "/assets/marketing/roles-cx-usecase-support-deflection.png",
+   "pages": [
+    "/roles/customer-experience/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-design-feature-1.png",
+   "local": "/assets/marketing/roles-design-feature-1.png",
+   "pages": [
+    "/roles/design/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-design-feature-2.png",
+   "local": "/assets/marketing/roles-design-feature-2.png",
+   "pages": [
+    "/roles/design/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-design-feature-3.png",
+   "local": "/assets/marketing/roles-design-feature-3.png",
+   "pages": [
+    "/roles/design/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-design-feature-4.png",
+   "local": "/assets/marketing/roles-design-feature-4.png",
+   "pages": [
+    "/roles/design/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-design-hero-mobile.png",
+   "local": "/assets/marketing/roles-design-hero-mobile.png",
+   "pages": [
+    "/roles/design/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-design-hero.png",
+   "local": "/assets/marketing/roles-design-hero.png",
+   "pages": [
+    "/roles/design/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-design-usecase-design-rationale.png",
+   "local": "/assets/marketing/roles-design-usecase-design-rationale.png",
+   "pages": [
+    "/roles/design/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-design-usecase-friction-mapping.png",
+   "local": "/assets/marketing/roles-design-usecase-friction-mapping.png",
+   "pages": [
+    "/roles/design/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-design-usecase-post-launch-pulse.png",
+   "local": "/assets/marketing/roles-design-usecase-post-launch-pulse.png",
+   "pages": [
+    "/roles/design/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-design-usecase-usability-testing.png",
+   "local": "/assets/marketing/roles-design-usecase-usability-testing.png",
+   "pages": [
+    "/roles/design/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-marketing-feature-1.png",
+   "local": "/assets/marketing/roles-marketing-feature-1.png",
+   "pages": [
+    "/roles/marketing/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-marketing-feature-2.png",
+   "local": "/assets/marketing/roles-marketing-feature-2.png",
+   "pages": [
+    "/roles/marketing/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-marketing-feature-3.png",
+   "local": "/assets/marketing/roles-marketing-feature-3.png",
+   "pages": [
+    "/roles/marketing/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-marketing-feature-4.png",
+   "local": "/assets/marketing/roles-marketing-feature-4.png",
+   "pages": [
+    "/roles/marketing/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-marketing-hero-mobile.png",
+   "local": "/assets/marketing/roles-marketing-hero-mobile.png",
+   "pages": [
+    "/roles/marketing/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-marketing-hero.png",
+   "local": "/assets/marketing/roles-marketing-hero.png",
+   "pages": [
+    "/roles/marketing/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-marketing-usecase-1.png",
+   "local": "/assets/marketing/roles-marketing-usecase-1.png",
+   "pages": [
+    "/roles/marketing/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-marketing-usecase-2.png",
+   "local": "/assets/marketing/roles-marketing-usecase-2.png",
+   "pages": [
+    "/roles/marketing/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-marketing-usecase-3.png",
+   "local": "/assets/marketing/roles-marketing-usecase-3.png",
+   "pages": [
+    "/roles/marketing/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-marketing-usecase-4.png",
+   "local": "/assets/marketing/roles-marketing-usecase-4.png",
+   "pages": [
+    "/roles/marketing/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-pm-feature-1.png",
+   "local": "/assets/marketing/roles-pm-feature-1.png",
+   "pages": [
+    "/roles/product-management/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-pm-feature-2.png",
+   "local": "/assets/marketing/roles-pm-feature-2.png",
+   "pages": [
+    "/roles/product-management/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-pm-feature-3.png",
+   "local": "/assets/marketing/roles-pm-feature-3.png",
+   "pages": [
+    "/roles/product-management/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-pm-feature-4.png",
+   "local": "/assets/marketing/roles-pm-feature-4.png",
+   "pages": [
+    "/roles/product-management/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-pm-hero-mobile.png",
+   "local": "/assets/marketing/roles-pm-hero-mobile.png",
+   "pages": [
+    "/roles/product-management/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-pm-hero.png",
+   "local": "/assets/marketing/roles-pm-hero.png",
+   "pages": [
+    "/roles/product-management/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-pm-usecase-churn-signals.png",
+   "local": "/assets/marketing/roles-pm-usecase-churn-signals.png",
+   "pages": [
+    "/roles/product-management/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-pm-usecase-decision-alignment.png",
+   "local": "/assets/marketing/roles-pm-usecase-decision-alignment.png",
+   "pages": [
+    "/roles/product-management/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-pm-usecase-feature-validation.png",
+   "local": "/assets/marketing/roles-pm-usecase-feature-validation.png",
+   "pages": [
+    "/roles/product-management/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-pm-usecase-roadmap-planning.png",
+   "local": "/assets/marketing/roles-pm-usecase-roadmap-planning.png",
+   "pages": [
+    "/roles/product-management/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-researcher-feature-1.png",
+   "local": "/assets/marketing/roles-researcher-feature-1.png",
+   "pages": [
+    "/roles/research/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-researcher-feature-2.png",
+   "local": "/assets/marketing/roles-researcher-feature-2.png",
+   "pages": [
+    "/roles/research/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-researcher-feature-3.png",
+   "local": "/assets/marketing/roles-researcher-feature-3.png",
+   "pages": [
+    "/roles/research/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-researcher-feature-4.png",
+   "local": "/assets/marketing/roles-researcher-feature-4.png",
+   "pages": [
+    "/roles/research/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-researcher-hero-mobile.png",
+   "local": "/assets/marketing/roles-researcher-hero-mobile.png",
+   "pages": [
+    "/roles/research/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-researcher-hero.png",
+   "local": "/assets/marketing/roles-researcher-hero.png",
+   "pages": [
+    "/roles/research/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-researcher-usecase-automated-updates.png",
+   "local": "/assets/marketing/roles-researcher-usecase-automated-updates.png",
+   "pages": [
+    "/roles/research/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-researcher-usecase-centralized-research.png",
+   "local": "/assets/marketing/roles-researcher-usecase-centralized-research.png",
+   "pages": [
+    "/roles/research/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-researcher-usecase-deep-analysis.png",
+   "local": "/assets/marketing/roles-researcher-usecase-deep-analysis.png",
+   "pages": [
+    "/roles/research/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-researcher-usecase-instant-answers.png",
+   "local": "/assets/marketing/roles-researcher-usecase-instant-answers.png",
+   "pages": [
+    "/roles/research/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-sales-feature-1.png",
+   "local": "/assets/marketing/roles-sales-feature-1.png",
+   "pages": [
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-sales-feature-2.png",
+   "local": "/assets/marketing/roles-sales-feature-2.png",
+   "pages": [
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-sales-feature-3.png",
+   "local": "/assets/marketing/roles-sales-feature-3.png",
+   "pages": [
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-sales-feature-4.png",
+   "local": "/assets/marketing/roles-sales-feature-4.png",
+   "pages": [
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-sales-hero-mobile.png",
+   "local": "/assets/marketing/roles-sales-hero-mobile.png",
+   "pages": [
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-sales-hero.png",
+   "local": "/assets/marketing/roles-sales-hero.png",
+   "pages": [
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-sales-usecase-1.png",
+   "local": "/assets/marketing/roles-sales-usecase-1.png",
+   "pages": [
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-sales-usecase-2.png",
+   "local": "/assets/marketing/roles-sales-usecase-2.png",
+   "pages": [
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-sales-usecase-3.png",
+   "local": "/assets/marketing/roles-sales-usecase-3.png",
+   "pages": [
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/roles-sales-usecase-4.png",
+   "local": "/assets/marketing/roles-sales-usecase-4.png",
+   "pages": [
+    "/roles/sales-and-cs/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/sentiment-detection-vertical-tabs.png",
+   "local": "/assets/marketing/sentiment-detection-vertical-tabs.png",
+   "pages": [
+    "/enterprise/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/solution-trial-grid-bg.svg",
+   "local": "/assets/marketing/solution-trial-grid-bg.svg",
+   "pages": [
+    "/solutions/healthcare/",
+    "/solutions/healthcare/ [css]",
+    "/solutions/product-research/",
+    "/solutions/product-research/ [css]",
+    "/solutions/research-repository/",
+    "/solutions/research-repository/ [css]",
+    "/solutions/voice-of-customer/",
+    "/solutions/voice-of-customer/ [css]"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/sso-and-admin-controls-vertical-feature-card.png",
+   "local": "/assets/marketing/sso-and-admin-controls-vertical-feature-card.png",
+   "pages": [
+    "/enterprise/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/suns-out-hero-loop.mp4",
+   "local": "/assets/marketing/suns-out-hero-loop.mp4",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/suns-out-hero-poster.jpg",
+   "local": "/assets/marketing/suns-out-hero-poster.jpg",
+   "pages": [
+    "/launch/suns-out/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/suns-out-keynote-thumbnail.png",
+   "local": "/assets/marketing/suns-out-keynote-thumbnail.png",
+   "pages": [
+    "/launch/suns-out/",
+    "/launch/suns-out/ [css]"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/testimonial-grid-bg.png.png",
+   "local": "/assets/marketing/testimonial-grid-bg.png.png",
+   "pages": [
+    "/enterprise/",
+    "/product/ai-agents/",
+    "/product/ai-channels/",
+    "/product/ai-chat/",
+    "/product/ai-dashboards/",
+    "/product/ai-docs/",
+    "/product/ai-projects/",
+    "/product/digital-twins/",
+    "/roles/customer-experience/",
+    "/roles/design/",
+    "/roles/marketing/",
+    "/roles/product-management/",
+    "/roles/research/",
+    "/roles/sales-and-cs/",
+    "/solutions/product-research/",
+    "/solutions/research-repository/",
+    "/solutions/voice-of-customer/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/voc-1.png",
+   "local": "/assets/marketing/voc-1.png",
+   "pages": [
+    "/solutions/voice-of-customer/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/voc-2.png",
+   "local": "/assets/marketing/voc-2.png",
+   "pages": [
+    "/solutions/voice-of-customer/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/voc-3.png",
+   "local": "/assets/marketing/voc-3.png",
+   "pages": [
+    "/solutions/voice-of-customer/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/voc-4.png",
+   "local": "/assets/marketing/voc-4.png",
+   "pages": [
+    "/solutions/voice-of-customer/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/voc-5.png",
+   "local": "/assets/marketing/voc-5.png",
+   "pages": [
+    "/solutions/voice-of-customer/"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-twin-ana.mp4",
+   "local": "/assets/marketing/launch-2026-twin-ana.mp4",
+   "pages": [
+    "/launch/suns-out/ (not rendered initially: digital-twin carousel slides 2-3)"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-twin-gong.svg",
+   "local": "/assets/marketing/launch-2026-twin-gong.svg",
+   "pages": [
+    "/launch/suns-out/ (not rendered initially: digital-twin carousel slides 2-3)"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-twin-hubspot.svg",
+   "local": "/assets/marketing/launch-2026-twin-hubspot.svg",
+   "pages": [
+    "/launch/suns-out/ (not rendered initially: digital-twin carousel slides 2-3)"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-twin-jira.svg",
+   "local": "/assets/marketing/launch-2026-twin-jira.svg",
+   "pages": [
+    "/launch/suns-out/ (not rendered initially: digital-twin carousel slides 2-3)"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-twin-meet.svg",
+   "local": "/assets/marketing/launch-2026-twin-meet.svg",
+   "pages": [
+    "/launch/suns-out/ (not rendered initially: digital-twin carousel slides 2-3)"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-twin-review.png",
+   "local": "/assets/marketing/launch-2026-twin-review.png",
+   "pages": [
+    "/launch/suns-out/ (not rendered initially: digital-twin carousel slides 2-3)"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-twin-salesforce.svg",
+   "local": "/assets/marketing/launch-2026-twin-salesforce.svg",
+   "pages": [
+    "/launch/suns-out/ (not rendered initially: digital-twin carousel slides 2-3)"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-twin-tickets.png",
+   "local": "/assets/marketing/launch-2026-twin-tickets.png",
+   "pages": [
+    "/launch/suns-out/ (not rendered initially: digital-twin carousel slides 2-3)"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/media/launch-2026-twin-zendesk.svg",
+   "local": "/assets/marketing/launch-2026-twin-zendesk.svg",
+   "pages": [
+    "/launch/suns-out/ (not rendered initially: digital-twin carousel slides 2-3)"
+   ]
+  },
+  {
+   "remote": "https://dovetail.com/lottie/cta-feedback.json",
+   "local": "/assets/marketing/lottie/cta-feedback.json",
+   "pages": [
+    "/solutions/* footer CTA band"
+   ]
+  }
+ ],
+ "inlineSvgs": [
+  {
+   "local": "/assets/marketing/svg/etid8i68-223762.svg",
+   "ariaLabel": null,
+   "parentClass": "etid8i68",
+   "firstSeenOn": "/deploy/",
+   "renderedW": 64,
+   "renderedH": 64,
+   "viewBox": "0 0 64 64"
+  },
+  {
+   "local": "/assets/marketing/svg/etid8i68-419069.svg",
+   "ariaLabel": null,
+   "parentClass": "etid8i68",
+   "firstSeenOn": "/deploy/",
+   "renderedW": 64,
+   "renderedH": 64,
+   "viewBox": "0 0 64 64"
+  },
+  {
+   "local": "/assets/marketing/svg/etid8i68-073291.svg",
+   "ariaLabel": null,
+   "parentClass": "etid8i68",
+   "firstSeenOn": "/deploy/",
+   "renderedW": 64,
+   "renderedH": 64,
+   "viewBox": "0 0 64 64"
+  },
+  {
+   "local": "/assets/marketing/svg/e1u51w9m3-425143.svg",
+   "ariaLabel": null,
+   "parentClass": "e1u51w9m3",
+   "firstSeenOn": "/deploy/",
+   "renderedW": 253,
+   "renderedH": 252,
+   "viewBox": "0 0 253 252"
+  },
+  {
+   "local": "/assets/marketing/svg/e1u51w9m3-210492.svg",
+   "ariaLabel": null,
+   "parentClass": "e1u51w9m3",
+   "firstSeenOn": "/deploy/",
+   "renderedW": 252,
+   "renderedH": 252,
+   "viewBox": "0 0 252 252"
+  },
+  {
+   "local": "/assets/marketing/svg/e1u51w9m3-153904.svg",
+   "ariaLabel": null,
+   "parentClass": "e1u51w9m3",
+   "firstSeenOn": "/deploy/",
+   "renderedW": 253,
+   "renderedH": 252,
+   "viewBox": "0 0 253 252"
+  },
+  {
+   "local": "/assets/marketing/svg/e1u51w9m3-723982.svg",
+   "ariaLabel": null,
+   "parentClass": "e1u51w9m3",
+   "firstSeenOn": "/deploy/",
+   "renderedW": 253,
+   "renderedH": 252,
+   "viewBox": "0 0 253 252"
+  },
+  {
+   "local": "/assets/marketing/svg/e1u51w9m3-876837.svg",
+   "ariaLabel": null,
+   "parentClass": "e1u51w9m3",
+   "firstSeenOn": "/deploy/",
+   "renderedW": 252,
+   "renderedH": 252,
+   "viewBox": "0 0 252 252"
+  },
+  {
+   "local": "/assets/marketing/svg/e1u51w9m3-737428.svg",
+   "ariaLabel": null,
+   "parentClass": "e1u51w9m3",
+   "firstSeenOn": "/deploy/",
+   "renderedW": 253,
+   "renderedH": 252,
+   "viewBox": "0 0 253 252"
+  },
+  {
+   "local": "/assets/marketing/svg/ea410al3-082750.svg",
+   "ariaLabel": null,
+   "parentClass": "ea410al3",
+   "firstSeenOn": "/deploy/",
+   "renderedW": 24,
+   "renderedH": 24,
+   "viewBox": "0 0 24 24"
+  },
+  {
+   "local": "/assets/marketing/svg/ev8np7u11-e17gze030-822842.svg",
+   "ariaLabel": null,
+   "parentClass": "ev8np7u11.e17gze030",
+   "firstSeenOn": "/enterprise/",
+   "renderedW": 132,
+   "renderedH": 62,
+   "viewBox": "0 0 132 62"
+  },
+  {
+   "local": "/assets/marketing/svg/ev8np7u7-e1ovzewl0-254952.svg",
+   "ariaLabel": null,
+   "parentClass": "ev8np7u7.e1ovzewl0",
+   "firstSeenOn": "/enterprise/",
+   "renderedW": 1424,
+   "renderedH": 663,
+   "viewBox": "0 0 1424 663"
+  },
+  {
+   "local": "/assets/marketing/svg/e1wn1hrv9-593209.svg",
+   "ariaLabel": null,
+   "parentClass": "e1wn1hrv9",
+   "firstSeenOn": "/enterprise/",
+   "renderedW": 56,
+   "renderedH": 56,
+   "viewBox": "0 0 170 170"
+  },
+  {
+   "local": "/assets/marketing/svg/e1wn1hrv9-661009.svg",
+   "ariaLabel": null,
+   "parentClass": "e1wn1hrv9",
+   "firstSeenOn": "/enterprise/",
+   "renderedW": 0,
+   "renderedH": 0,
+   "viewBox": "0 0 64 64"
+  },
+  {
+   "local": "/assets/marketing/svg/e1wn1hrv9-365555.svg",
+   "ariaLabel": null,
+   "parentClass": "e1wn1hrv9",
+   "firstSeenOn": "/enterprise/",
+   "renderedW": 0,
+   "renderedH": 0,
+   "viewBox": "0 0 124 124"
+  },
+  {
+   "local": "/assets/marketing/svg/e18o1u1v1-337434.svg",
+   "ariaLabel": null,
+   "parentClass": "e18o1u1v1",
+   "firstSeenOn": "/enterprise/",
+   "renderedW": 24,
+   "renderedH": 24,
+   "viewBox": "0 0 24 24"
+  },
+  {
+   "local": "/assets/marketing/svg/e4352py12-888178.svg",
+   "ariaLabel": null,
+   "parentClass": "e4352py12",
+   "firstSeenOn": "/enterprise/",
+   "renderedW": 183.5,
+   "renderedH": 128.4,
+   "viewBox": "0 0 243 170"
+  },
+  {
+   "local": "/assets/marketing/svg/e4352py10-599807.svg",
+   "ariaLabel": null,
+   "parentClass": "e4352py10",
+   "firstSeenOn": "/enterprise/",
+   "renderedW": 128.4,
+   "renderedH": 128.4,
+   "viewBox": "0 0 170 170"
+  },
+  {
+   "local": "/assets/marketing/svg/e4352py11-072380.svg",
+   "ariaLabel": null,
+   "parentClass": "e4352py11",
+   "firstSeenOn": "/enterprise/",
+   "renderedW": 128.4,
+   "renderedH": 128.4,
+   "viewBox": "0 0 170 170"
+  },
+  {
+   "local": "/assets/marketing/svg/e4352py9-612639.svg",
+   "ariaLabel": null,
+   "parentClass": "e4352py9",
+   "firstSeenOn": "/enterprise/",
+   "renderedW": 128.4,
+   "renderedH": 128.4,
+   "viewBox": "0 0 170 170"
+  },
+  {
+   "local": "/assets/marketing/svg/e4352py9-618277.svg",
+   "ariaLabel": null,
+   "parentClass": "e4352py9",
+   "firstSeenOn": "/enterprise/",
+   "renderedW": 128.4,
+   "renderedH": 128.4,
+   "viewBox": "0 0 170 170"
+  },
+  {
+   "local": "/assets/marketing/svg/e4352py9-442131.svg",
+   "ariaLabel": null,
+   "parentClass": "e4352py9",
+   "firstSeenOn": "/enterprise/",
+   "renderedW": 128.4,
+   "renderedH": 128.4,
+   "viewBox": "0 0 170 170"
+  },
+  {
+   "local": "/assets/marketing/svg/e4352py10-602570.svg",
+   "ariaLabel": null,
+   "parentClass": "e4352py10",
+   "firstSeenOn": "/enterprise/",
+   "renderedW": 128.4,
+   "renderedH": 128.4,
+   "viewBox": "0 0 170 170"
+  },
+  {
+   "local": "/assets/marketing/svg/e4352py10-871444.svg",
+   "ariaLabel": null,
+   "parentClass": "e4352py10",
+   "firstSeenOn": "/enterprise/",
+   "renderedW": 128.4,
+   "renderedH": 128.4,
+   "viewBox": "0 0 170 170"
+  },
+  {
+   "local": "/assets/marketing/svg/e1maalc80-591229.svg",
+   "ariaLabel": null,
+   "parentClass": "e1maalc80",
+   "firstSeenOn": "/enterprise/how-leading-organizations-use-dovetail/",
+   "renderedW": 24,
+   "renderedH": 24,
+   "viewBox": "0 0 24 24"
+  },
+  {
+   "local": "/assets/marketing/svg/e1qeafv21-819482.svg",
+   "ariaLabel": null,
+   "parentClass": "e1qeafv21",
+   "firstSeenOn": "/enterprise/how-leading-organizations-use-dovetail/",
+   "renderedW": 14,
+   "renderedH": 14,
+   "viewBox": "0 0 15 14"
+  },
+  {
+   "local": "/assets/marketing/svg/e1qeafv21-092210.svg",
+   "ariaLabel": null,
+   "parentClass": "e1qeafv21",
+   "firstSeenOn": "/enterprise/how-leading-organizations-use-dovetail/",
+   "renderedW": 14,
+   "renderedH": 14,
+   "viewBox": "0 0 7 14"
+  },
+  {
+   "local": "/assets/marketing/svg/e1qeafv21-258002.svg",
+   "ariaLabel": null,
+   "parentClass": "e1qeafv21",
+   "firstSeenOn": "/enterprise/how-leading-organizations-use-dovetail/",
+   "renderedW": 14,
+   "renderedH": 14,
+   "viewBox": "0 0 13 14"
+  },
+  {
+   "local": "/assets/marketing/svg/e1qeafv21-339069.svg",
+   "ariaLabel": null,
+   "parentClass": "e1qeafv21",
+   "firstSeenOn": "/enterprise/how-leading-organizations-use-dovetail/",
+   "renderedW": 14,
+   "renderedH": 14,
+   "viewBox": "0 0 16 14"
+  },
+  {
+   "local": "/assets/marketing/svg/eryb6ok1-510516.svg",
+   "ariaLabel": null,
+   "parentClass": "eryb6ok1",
+   "firstSeenOn": "/enterprise/how-leading-organizations-use-dovetail/",
+   "renderedW": 14,
+   "renderedH": 14,
+   "viewBox": "0 0 20 20"
+  },
+  {
+   "local": "/assets/marketing/svg/eryb6ok1-441947.svg",
+   "ariaLabel": null,
+   "parentClass": "eryb6ok1",
+   "firstSeenOn": "/enterprise/how-leading-organizations-use-dovetail/",
+   "renderedW": 14,
+   "renderedH": 14,
+   "viewBox": "0 0 20 20"
+  },
+  {
+   "local": "/assets/marketing/svg/eryb6ok1-756506.svg",
+   "ariaLabel": null,
+   "parentClass": "eryb6ok1",
+   "firstSeenOn": "/enterprise/how-leading-organizations-use-dovetail/",
+   "renderedW": 14,
+   "renderedH": 14,
+   "viewBox": "0 0 20 20"
+  },
+  {
+   "local": "/assets/marketing/svg/eryb6ok1-971547.svg",
+   "ariaLabel": null,
+   "parentClass": "eryb6ok1",
+   "firstSeenOn": "/enterprise/how-leading-organizations-use-dovetail/",
+   "renderedW": 14,
+   "renderedH": 14,
+   "viewBox": "0 0 20 20"
+  },
+  {
+   "local": "/assets/marketing/svg/e1769tw51-592211.svg",
+   "ariaLabel": null,
+   "parentClass": "e1769tw51",
+   "firstSeenOn": "/enterprise/how-leading-organizations-use-dovetail/",
+   "renderedW": 0,
+   "renderedH": 0,
+   "viewBox": "0 0 24 24"
+  },
+  {
+   "local": "/assets/marketing/svg/e4sdv0e3-166409.svg",
+   "ariaLabel": null,
+   "parentClass": "e4sdv0e3",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 20.8,
+   "renderedH": 24,
+   "viewBox": "0 0 18 20"
+  },
+  {
+   "local": "/assets/marketing/svg/e4sdv0e6-742045.svg",
+   "ariaLabel": null,
+   "parentClass": "e4sdv0e6",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 800,
+   "renderedH": 480,
+   "viewBox": "0 0 800 480"
+  },
+  {
+   "local": "/assets/marketing/svg/e4sdv0e19-056090.svg",
+   "ariaLabel": null,
+   "parentClass": "e4sdv0e19",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 12.8,
+   "renderedH": 12.8,
+   "viewBox": "0 0 24 24"
+  },
+  {
+   "local": "/assets/marketing/svg/e1ot4t9i2-e1keqfn60-768413.svg",
+   "ariaLabel": null,
+   "parentClass": "e1ot4t9i2.e1keqfn60",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 472.1,
+   "renderedH": 420,
+   "viewBox": "0 0 480 427"
+  },
+  {
+   "local": "/assets/marketing/svg/e1osxjcu2-e1keqfn60-831416.svg",
+   "ariaLabel": null,
+   "parentClass": "e1osxjcu2.e1keqfn60",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 427,
+   "renderedH": 427,
+   "viewBox": "0 0 427 427"
+  },
+  {
+   "local": "/assets/marketing/svg/e1osxjcu13-542444.svg",
+   "ariaLabel": null,
+   "parentClass": "e1osxjcu13",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 29.3,
+   "renderedH": 24,
+   "viewBox": "0 0 39 32"
+  },
+  {
+   "local": "/assets/marketing/svg/e5zj3j12-080716.svg",
+   "ariaLabel": null,
+   "parentClass": "e5zj3j12",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 32,
+   "renderedH": 26.3,
+   "viewBox": "0 0 39 32"
+  },
+  {
+   "local": "/assets/marketing/svg/ea0q8q85-779151.svg",
+   "ariaLabel": null,
+   "parentClass": "ea0q8q85",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 29.3,
+   "renderedH": 24,
+   "viewBox": "0 0 39 32"
+  },
+  {
+   "local": "/assets/marketing/svg/eeuo5qc2-e1keqfn60-351114.svg",
+   "ariaLabel": null,
+   "parentClass": "eeuo5qc2.e1keqfn60",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 427,
+   "renderedH": 427,
+   "viewBox": "0 0 427 427"
+  },
+  {
+   "local": "/assets/marketing/svg/eeuo5qc13-590241.svg",
+   "ariaLabel": null,
+   "parentClass": "eeuo5qc13",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 29.3,
+   "renderedH": 24,
+   "viewBox": "0 0 39 32"
+  },
+  {
+   "local": "/assets/marketing/svg/e2brdi76-475647.svg",
+   "ariaLabel": null,
+   "parentClass": "e2brdi76",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 29.3,
+   "renderedH": 24,
+   "viewBox": "0 0 39 32"
+  },
+  {
+   "local": "/assets/marketing/svg/e5j80f52-e1keqfn60-384268.svg",
+   "ariaLabel": null,
+   "parentClass": "e5j80f52.e1keqfn60",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 480,
+   "renderedH": 374,
+   "viewBox": "0 0 480 374"
+  },
+  {
+   "local": "/assets/marketing/svg/e1l1dk6212-437965.svg",
+   "ariaLabel": null,
+   "parentClass": "e1l1dk6212",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 29.3,
+   "renderedH": 24,
+   "viewBox": "0 0 39 32"
+  },
+  {
+   "local": "/assets/marketing/svg/ecsil9t5-377920.svg",
+   "ariaLabel": null,
+   "parentClass": "ecsil9t5",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 29.3,
+   "renderedH": 24,
+   "viewBox": "0 0 39 32"
+  },
+  {
+   "local": "/assets/marketing/svg/e120p5ma6-104509.svg",
+   "ariaLabel": null,
+   "parentClass": "e120p5ma6",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 29.3,
+   "renderedH": 24,
+   "viewBox": "0 0 39 32"
+  },
+  {
+   "local": "/assets/marketing/svg/e1uk7pdk4-e1keqfn60-787385.svg",
+   "ariaLabel": null,
+   "parentClass": "e1uk7pdk4.e1keqfn60",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 400,
+   "renderedH": 400,
+   "viewBox": "0 0 427 427"
+  },
+  {
+   "local": "/assets/marketing/svg/salesforce-938518.svg",
+   "ariaLabel": "Salesforce",
+   "parentClass": "e1uk7pdk7",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 214.4,
+   "renderedH": 150,
+   "viewBox": "0 0 243 170"
+  },
+  {
+   "local": "/assets/marketing/svg/aws-739361.svg",
+   "ariaLabel": "AWS",
+   "parentClass": "e1uk7pdk7",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 150,
+   "renderedH": 150,
+   "viewBox": "0 0 170 170"
+  },
+  {
+   "local": "/assets/marketing/svg/canva-431516.svg",
+   "ariaLabel": "Canva",
+   "parentClass": "e1uk7pdk7",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 150,
+   "renderedH": 150,
+   "viewBox": "0 0 170 170"
+  },
+  {
+   "local": "/assets/marketing/svg/airwallex-332823.svg",
+   "ariaLabel": "Airwallex",
+   "parentClass": "e1uk7pdk7",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 150,
+   "renderedH": 150,
+   "viewBox": "0 0 170 170"
+  },
+  {
+   "local": "/assets/marketing/svg/zapier-376199.svg",
+   "ariaLabel": "Zapier",
+   "parentClass": "e1uk7pdk7",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 150,
+   "renderedH": 150,
+   "viewBox": "0 0 170 170"
+  },
+  {
+   "local": "/assets/marketing/svg/notion-413769.svg",
+   "ariaLabel": "Notion",
+   "parentClass": "e1uk7pdk7",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 150,
+   "renderedH": 150,
+   "viewBox": "0 0 170 170"
+  },
+  {
+   "local": "/assets/marketing/svg/itau-386720.svg",
+   "ariaLabel": "Itau",
+   "parentClass": "e1uk7pdk7",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 124,
+   "renderedH": 124,
+   "viewBox": "0 0 124 124"
+  },
+  {
+   "local": "/assets/marketing/svg/wise-678343.svg",
+   "ariaLabel": "Wise",
+   "parentClass": "e1uk7pdk7",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 150,
+   "renderedH": 150,
+   "viewBox": "0 0 170 170"
+  },
+  {
+   "local": "/assets/marketing/svg/e1uk7pdk15-905180.svg",
+   "ariaLabel": null,
+   "parentClass": "e1uk7pdk15",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 12,
+   "renderedH": 12,
+   "viewBox": "0 0 24 24"
+  },
+  {
+   "local": "/assets/marketing/svg/e1560hmp8-953445.svg",
+   "ariaLabel": null,
+   "parentClass": "e1560hmp8",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 32,
+   "renderedH": 32,
+   "viewBox": "0 0 32 32"
+  },
+  {
+   "local": "/assets/marketing/svg/e1560hmp8-353728.svg",
+   "ariaLabel": null,
+   "parentClass": "e1560hmp8",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 32,
+   "renderedH": 32,
+   "viewBox": "0 0 32 32"
+  },
+  {
+   "local": "/assets/marketing/svg/e1560hmp8-849418.svg",
+   "ariaLabel": null,
+   "parentClass": "e1560hmp8",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 32,
+   "renderedH": 32,
+   "viewBox": "0 0 32 32"
+  },
+  {
+   "local": "/assets/marketing/svg/e1560hmp8-296591.svg",
+   "ariaLabel": null,
+   "parentClass": "e1560hmp8",
+   "firstSeenOn": "/launch/suns-out/",
+   "renderedW": 32,
+   "renderedH": 32,
+   "viewBox": "0 0 32 32"
+  },
+  {
+   "local": "/assets/marketing/svg/e1ndvfkf0-972496.svg",
+   "ariaLabel": null,
+   "parentClass": "e1ndvfkf0",
+   "firstSeenOn": "/menu/",
+   "renderedW": 21.6,
+   "renderedH": 24,
+   "viewBox": "0 0 18 20"
+  },
+  {
+   "local": "/assets/marketing/svg/eeys7nh2-061718.svg",
+   "ariaLabel": null,
+   "parentClass": "eeys7nh2",
+   "firstSeenOn": "/pricing/",
+   "renderedW": 64,
+   "renderedH": 64,
+   "viewBox": "0 0 64 64"
+  },
+  {
+   "local": "/assets/marketing/svg/eeys7nh2-839454.svg",
+   "ariaLabel": null,
+   "parentClass": "eeys7nh2",
+   "firstSeenOn": "/pricing/",
+   "renderedW": 64,
+   "renderedH": 64,
+   "viewBox": "0 0 64 64"
+  },
+  {
+   "local": "/assets/marketing/svg/included-105611.svg",
+   "ariaLabel": "Included",
+   "parentClass": "e1hik68n4",
+   "firstSeenOn": "/pricing/",
+   "renderedW": 24,
+   "renderedH": 24,
+   "viewBox": "0 0 24 24"
+  },
+  {
+   "local": "/assets/marketing/svg/e10k4luw6-650112.svg",
+   "ariaLabel": null,
+   "parentClass": "e10k4luw6",
+   "firstSeenOn": "/product/ai-agents/",
+   "renderedW": 24,
+   "renderedH": 24,
+   "viewBox": "0 0 24 24"
+  },
+  {
+   "local": "/assets/marketing/svg/amazon-918921.svg",
+   "ariaLabel": "Amazon",
+   "parentClass": "e1jzkpz93",
+   "firstSeenOn": "/product/ai-agents/",
+   "renderedW": 88.9,
+   "renderedH": 40,
+   "viewBox": "0 0 160 72"
+  },
+  {
+   "local": "/assets/marketing/svg/dyson-990499.svg",
+   "ariaLabel": "Dyson",
+   "parentClass": "e1jzkpz93",
+   "firstSeenOn": "/product/ai-agents/",
+   "renderedW": 88.9,
+   "renderedH": 40,
+   "viewBox": "0 0 160 72"
+  },
+  {
+   "local": "/assets/marketing/svg/mercedes-benz-133521.svg",
+   "ariaLabel": "Mercedes-Benz",
+   "parentClass": "e1jzkpz93",
+   "firstSeenOn": "/product/ai-agents/",
+   "renderedW": 90,
+   "renderedH": 40,
+   "viewBox": "0 0 72 32"
+  },
+  {
+   "local": "/assets/marketing/svg/qantas-584168.svg",
+   "ariaLabel": "Qantas",
+   "parentClass": "e1jzkpz93",
+   "firstSeenOn": "/product/ai-agents/",
+   "renderedW": 90,
+   "renderedH": 40,
+   "viewBox": "0 0 72 32"
+  },
+  {
+   "local": "/assets/marketing/svg/aws-271091.svg",
+   "ariaLabel": "AWS",
+   "parentClass": "e1jzkpz93",
+   "firstSeenOn": "/product/ai-agents/",
+   "renderedW": 90,
+   "renderedH": 40,
+   "viewBox": "0 0 72 32"
+  },
+  {
+   "local": "/assets/marketing/svg/toyota-301058.svg",
+   "ariaLabel": "Toyota",
+   "parentClass": "e1jzkpz93",
+   "firstSeenOn": "/product/ai-agents/",
+   "renderedW": 90,
+   "renderedH": 40,
+   "viewBox": "0 0 72 32"
+  },
+  {
+   "local": "/assets/marketing/svg/canva-585358.svg",
+   "ariaLabel": "Canva",
+   "parentClass": "e1jzkpz93",
+   "firstSeenOn": "/product/ai-agents/",
+   "renderedW": 90,
+   "renderedH": 40,
+   "viewBox": "0 0 72 32"
+  },
+  {
+   "local": "/assets/marketing/svg/volvo-486139.svg",
+   "ariaLabel": "Volvo",
+   "parentClass": "e1jzkpz93",
+   "firstSeenOn": "/product/ai-agents/",
+   "renderedW": 90,
+   "renderedH": 40,
+   "viewBox": "0 0 72 32"
+  },
+  {
+   "local": "/assets/marketing/svg/notion-653232.svg",
+   "ariaLabel": "Notion",
+   "parentClass": "e1jzkpz93",
+   "firstSeenOn": "/product/ai-agents/",
+   "renderedW": 90,
+   "renderedH": 40,
+   "viewBox": "0 0 72 32"
+  },
+  {
+   "local": "/assets/marketing/svg/salesforce-823526.svg",
+   "ariaLabel": "Salesforce",
+   "parentClass": "e1jzkpz93",
+   "firstSeenOn": "/product/ai-agents/",
+   "renderedW": 90,
+   "renderedH": 40,
+   "viewBox": "0 0 72 32"
+  },
+  {
+   "local": "/assets/marketing/svg/milwaukee-672003.svg",
+   "ariaLabel": "Milwaukee",
+   "parentClass": "e1jzkpz93",
+   "firstSeenOn": "/product/ai-agents/",
+   "renderedW": 90,
+   "renderedH": 40,
+   "viewBox": "0 0 72 32"
+  },
+  {
+   "local": "/assets/marketing/svg/kpmg-168064.svg",
+   "ariaLabel": "KPMG",
+   "parentClass": "e1jzkpz93",
+   "firstSeenOn": "/product/ai-agents/",
+   "renderedW": 90,
+   "renderedH": 40,
+   "viewBox": "0 0 72 32"
+  },
+  {
+   "local": "/assets/marketing/svg/wise-541877.svg",
+   "ariaLabel": "Wise",
+   "parentClass": "e1jzkpz93",
+   "firstSeenOn": "/product/ai-agents/",
+   "renderedW": 90,
+   "renderedH": 40,
+   "viewBox": "0 0 72 32"
+  },
+  {
+   "local": "/assets/marketing/svg/mckinsey-company-197947.svg",
+   "ariaLabel": "McKinsey & Company",
+   "parentClass": "e1jzkpz93",
+   "firstSeenOn": "/product/ai-agents/",
+   "renderedW": 90,
+   "renderedH": 40,
+   "viewBox": "0 0 72 32"
+  },
+  {
+   "local": "/assets/marketing/svg/ford-139900.svg",
+   "ariaLabel": "Ford",
+   "parentClass": "e1jzkpz93",
+   "firstSeenOn": "/product/ai-agents/",
+   "renderedW": 90,
+   "renderedH": 40,
+   "viewBox": "0 0 72 32"
+  },
+  {
+   "local": "/assets/marketing/svg/walgreens-527994.svg",
+   "ariaLabel": "Walgreens",
+   "parentClass": "e1jzkpz93",
+   "firstSeenOn": "/product/ai-agents/",
+   "renderedW": 90,
+   "renderedH": 40,
+   "viewBox": "0 0 72 32"
+  },
+  {
+   "local": "/assets/marketing/svg/shopify-732620.svg",
+   "ariaLabel": "Shopify",
+   "parentClass": "e1jzkpz93",
+   "firstSeenOn": "/product/ai-agents/",
+   "renderedW": 90,
+   "renderedH": 40,
+   "viewBox": "0 0 72 32"
+  },
+  {
+   "local": "/assets/marketing/svg/e1y8zjgx14-146741.svg",
+   "ariaLabel": null,
+   "parentClass": "e1y8zjgx14",
+   "firstSeenOn": "/product/ai-agents/",
+   "renderedW": 16,
+   "renderedH": 16,
+   "viewBox": "0 0 24 24"
+  },
+  {
+   "local": "/assets/marketing/svg/e10k4luw6-346678.svg",
+   "ariaLabel": null,
+   "parentClass": "e10k4luw6",
+   "firstSeenOn": "/product/ai-channels/",
+   "renderedW": 24,
+   "renderedH": 24,
+   "viewBox": "0 0 24 24"
+  },
+  {
+   "local": "/assets/marketing/svg/eiz8yhc4-194629.svg",
+   "ariaLabel": null,
+   "parentClass": "eiz8yhc4",
+   "firstSeenOn": "/product/ai-channels/",
+   "renderedW": 24,
+   "renderedH": 24,
+   "viewBox": "0 0 24 24"
+  },
+  {
+   "local": "/assets/marketing/svg/e10k4luw6-788098.svg",
+   "ariaLabel": null,
+   "parentClass": "e10k4luw6",
+   "firstSeenOn": "/product/ai-chat/",
+   "renderedW": 24,
+   "renderedH": 24,
+   "viewBox": "0 0 24 24"
+  },
+  {
+   "local": "/assets/marketing/svg/e10k4luw6-005504.svg",
+   "ariaLabel": null,
+   "parentClass": "e10k4luw6",
+   "firstSeenOn": "/product/ai-dashboards/",
+   "renderedW": 24,
+   "renderedH": 24,
+   "viewBox": "0 0 24 24"
+  },
+  {
+   "local": "/assets/marketing/svg/walgreens-861455.svg",
+   "ariaLabel": "Walgreens",
+   "parentClass": "e1jzkpz93",
+   "firstSeenOn": "/product/ai-dashboards/",
+   "renderedW": 90,
+   "renderedH": 40,
+   "viewBox": "0 0 72 32"
+  },
+  {
+   "local": "/assets/marketing/svg/e4352py12-089031.svg",
+   "ariaLabel": null,
+   "parentClass": "e4352py12",
+   "firstSeenOn": "/product/ai-dashboards/",
+   "renderedW": 183.5,
+   "renderedH": 128.4,
+   "viewBox": "0 0 243 170"
+  },
+  {
+   "local": "/assets/marketing/svg/e10k4luw6-622769.svg",
+   "ariaLabel": null,
+   "parentClass": "e10k4luw6",
+   "firstSeenOn": "/product/ai-docs/",
+   "renderedW": 24,
+   "renderedH": 24,
+   "viewBox": "0 0 20 20"
+  },
+  {
+   "local": "/assets/marketing/svg/e10k4luw6-729157.svg",
+   "ariaLabel": null,
+   "parentClass": "e10k4luw6",
+   "firstSeenOn": "/product/ai-projects/",
+   "renderedW": 24,
+   "renderedH": 24,
+   "viewBox": "0 0 24 24"
+  },
+  {
+   "local": "/assets/marketing/svg/e10k4luw6-113056.svg",
+   "ariaLabel": null,
+   "parentClass": "e10k4luw6",
+   "firstSeenOn": "/product/digital-twins/",
+   "renderedW": 24,
+   "renderedH": 24,
+   "viewBox": "0 0 24 24"
+  },
+  {
+   "local": "/assets/marketing/svg/e1oz23xw0-239480.svg",
+   "ariaLabel": null,
+   "parentClass": "e1oz23xw0",
+   "firstSeenOn": "/product/digital-twins/",
+   "renderedW": 16,
+   "renderedH": 16,
+   "viewBox": "0 0 24 24"
+  },
+  {
+   "local": "/assets/marketing/svg/e1oz23xw0-921551.svg",
+   "ariaLabel": null,
+   "parentClass": "e1oz23xw0",
+   "firstSeenOn": "/product/digital-twins/",
+   "renderedW": 16,
+   "renderedH": 16,
+   "viewBox": "0 0 24 24"
+  },
+  {
+   "local": "/assets/marketing/svg/prompt-cell-hover-overlay-e1y8zjgx5-284436.svg",
+   "ariaLabel": null,
+   "parentClass": "prompt-cell-hover-overlay.e1y8zjgx5",
+   "firstSeenOn": "/product/digital-twins/",
+   "renderedW": 69.9,
+   "renderedH": 80,
+   "viewBox": "0 0 90 103"
+  },
+  {
+   "local": "/assets/marketing/svg/e1ttzgas13-277801.svg",
+   "ariaLabel": null,
+   "parentClass": "e1ttzgas13",
+   "firstSeenOn": "/roles/customer-experience/",
+   "renderedW": 24,
+   "renderedH": 24,
+   "viewBox": "0 0 24 24"
+  },
+  {
+   "local": "/assets/marketing/svg/e1a8inxt6-501588.svg",
+   "ariaLabel": null,
+   "parentClass": "e1a8inxt6",
+   "firstSeenOn": "/solutions/healthcare/",
+   "renderedW": 24,
+   "renderedH": 24,
+   "viewBox": "0 0 24 24"
+  },
+  {
+   "local": "/assets/marketing/svg/eciainh4-670785.svg",
+   "ariaLabel": null,
+   "parentClass": "eciainh4",
+   "firstSeenOn": "/the-best-never-guess/",
+   "renderedW": 172,
+   "renderedH": 31,
+   "viewBox": "0 0 172 31"
+  },
+  {
+   "local": "/assets/marketing/svg/e99h80d2-761715.svg",
+   "ariaLabel": null,
+   "parentClass": "e99h80d2",
+   "firstSeenOn": "/the-best-never-guess/",
+   "renderedW": 641,
+   "renderedH": 478,
+   "viewBox": "0 0 641 478"
+  },
+  {
+   "local": "/assets/marketing/svg/e99h80d2-081471.svg",
+   "ariaLabel": null,
+   "parentClass": "e99h80d2",
+   "firstSeenOn": "/the-best-never-guess/",
+   "renderedW": 620,
+   "renderedH": 376,
+   "viewBox": "0 0 620 376"
+  },
+  {
+   "local": "/assets/marketing/svg/e99h80d2-392159.svg",
+   "ariaLabel": null,
+   "parentClass": "e99h80d2",
+   "firstSeenOn": "/the-best-never-guess/",
+   "renderedW": 588,
+   "renderedH": 726,
+   "viewBox": "0 0 588 726"
+  },
+  {
+   "local": "/assets/marketing/svg/e99h80d2-525828.svg",
+   "ariaLabel": null,
+   "parentClass": "e99h80d2",
+   "firstSeenOn": "/the-best-never-guess/",
+   "renderedW": 302,
+   "renderedH": 526,
+   "viewBox": "0 0 302 526"
+  },
+  {
+   "local": "/assets/marketing/svg/e99h80d2-866882.svg",
+   "ariaLabel": null,
+   "parentClass": "e99h80d2",
+   "firstSeenOn": "/the-best-never-guess/",
+   "renderedW": 0,
+   "renderedH": 0,
+   "viewBox": "0 0 99 186"
+  },
+  {
+   "local": "/assets/marketing/svg/e99h80d2-999097.svg",
+   "ariaLabel": null,
+   "parentClass": "e99h80d2",
+   "firstSeenOn": "/the-best-never-guess/",
+   "renderedW": 0,
+   "renderedH": 0,
+   "viewBox": "0 0 149 175"
+  },
+  {
+   "local": "/assets/marketing/svg/e99h80d2-670694.svg",
+   "ariaLabel": null,
+   "parentClass": "e99h80d2",
+   "firstSeenOn": "/the-best-never-guess/",
+   "renderedW": 0,
+   "renderedH": 0,
+   "viewBox": "0 0 44 95"
+  },
+  {
+   "local": "/assets/marketing/svg/e99h80d2-343923.svg",
+   "ariaLabel": null,
+   "parentClass": "e99h80d2",
+   "firstSeenOn": "/the-best-never-guess/",
+   "renderedW": 0,
+   "renderedH": 0,
+   "viewBox": "0 0 150 82"
+  },
+  {
+   "local": "/assets/marketing/svg/airwallex-685718.svg",
+   "ariaLabel": "Airwallex",
+   "parentClass": "e29458r1",
+   "firstSeenOn": "/the-best-never-guess/",
+   "renderedW": 120,
+   "renderedH": 24.3,
+   "viewBox": "0 0 168 34"
+  },
+  {
+   "local": "/assets/marketing/svg/lovable-140589.svg",
+   "ariaLabel": "Lovable",
+   "parentClass": "e29458r1",
+   "firstSeenOn": "/the-best-never-guess/",
+   "renderedW": 120,
+   "renderedH": 27.9,
+   "viewBox": "0 0 146 34"
+  },
+  {
+   "local": "/assets/marketing/svg/qantas-481594.svg",
+   "ariaLabel": "Qantas",
+   "parentClass": "e29458r1",
+   "firstSeenOn": "/the-best-never-guess/",
+   "renderedW": 120,
+   "renderedH": 30.8,
+   "viewBox": "0 0 156 40"
+  },
+  {
+   "local": "/assets/marketing/svg/shopify-664996.svg",
+   "ariaLabel": "Shopify",
+   "parentClass": "e29458r1",
+   "firstSeenOn": "/the-best-never-guess/",
+   "renderedW": 98.9,
+   "renderedH": 34,
+   "viewBox": "0 0 128 44"
+  },
+  {
+   "local": "/assets/marketing/svg/wise-508507.svg",
+   "ariaLabel": "Wise",
+   "parentClass": "e29458r1",
+   "firstSeenOn": "/the-best-never-guess/",
+   "renderedW": 109,
+   "renderedH": 34,
+   "viewBox": "0 0 109 34"
+  },
+  {
+   "local": "/assets/marketing/svg/notion-630332.svg",
+   "ariaLabel": "Notion",
+   "parentClass": "e1268f4r7",
+   "firstSeenOn": "/the-best-never-guess/",
+   "renderedW": 124,
+   "renderedH": 124,
+   "viewBox": "0 0 124 124"
+  },
+  {
+   "local": "/assets/marketing/svg/canva-343830.svg",
+   "ariaLabel": "Canva",
+   "parentClass": "e1268f4r7",
+   "firstSeenOn": "/the-best-never-guess/",
+   "renderedW": 124,
+   "renderedH": 124,
+   "viewBox": "0 0 124 124"
+  },
+  {
+   "local": "/assets/marketing/svg/ita-407611.svg",
+   "ariaLabel": "Itaú",
+   "parentClass": "e1268f4r7",
+   "firstSeenOn": "/the-best-never-guess/",
+   "renderedW": 124,
+   "renderedH": 124,
+   "viewBox": "0 0 124 124"
+  },
+  {
+   "local": "/assets/marketing/svg/zapier-143594.svg",
+   "ariaLabel": "Zapier",
+   "parentClass": "e1268f4r7",
+   "firstSeenOn": "/the-best-never-guess/",
+   "renderedW": 124,
+   "renderedH": 124,
+   "viewBox": "0 0 124 124"
+  },
+  {
+   "local": "/assets/marketing/svg/eea47v98-455548.svg",
+   "ariaLabel": null,
+   "parentClass": "eea47v98",
+   "firstSeenOn": "/product/ai-channels/",
+   "renderedW": 16.4,
+   "renderedH": 20,
+   "viewBox": "0 0 39 32"
+  },
+  {
+   "local": "/assets/marketing/svg/eea47v98-944554.svg",
+   "ariaLabel": null,
+   "parentClass": "eea47v98",
+   "firstSeenOn": "/product/ai-channels/",
+   "renderedW": 20,
+   "renderedH": 16.4,
+   "viewBox": "0 0 39 32"
+  },
+  {
+   "local": "/assets/marketing/svg/e10k4luw6-603195.svg",
+   "ariaLabel": null,
+   "parentClass": "e10k4luw6",
+   "firstSeenOn": "/product/ai-dashboards/",
+   "renderedW": 24,
+   "renderedH": 24,
+   "viewBox": "0 0 24 24"
+  }
+ ]
+}

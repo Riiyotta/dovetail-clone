@@ -1,0 +1,613 @@
+{
+ "url": "/enterprise/how-leading-organizations-use-dovetail/",
+ "template": "enterprise-article",
+ "title": "How leading organizations use Dovetail for scalable customer intelligence",
+ "metaDescription": "Discover how leading organizations are turning to Dovetail to centralize their customer data and research, foster collaboration, and leverage powerful AI…",
+ "documentHeight": {
+  "1440": 9464,
+  "1280": 7631,
+  "768": 9710,
+  "390": 14512
+ },
+ "chrome": {
+  "alertBar": true,
+  "navBackground": null,
+  "footer": "plain-light"
+ },
+ "sections": [
+  {
+   "slice": "ArticleHero",
+   "el": "e1i8w3410",
+   "measuredHeight": {
+    "1440": 558,
+    "1280": 218,
+    "768": 214,
+    "390": 346
+   },
+   "content": [
+    {
+     "role": "link",
+     "text": "Guides",
+     "href": "/guides/",
+     "el": "e1maalc81"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1maalc80-591229.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "link",
+     "text": "Enterprise",
+     "href": "/enterprise/",
+     "el": "e1maalc82"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1maalc80-591229.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "button",
+     "text": "How leading organizations use Dovetail for scalable customer intelligence",
+     "el": "e1maalc82"
+    },
+    {
+     "role": "h1",
+     "text": "How leading organizations use Dovetail for scalable customer intelligence",
+     "el": "e1i8w3411"
+    }
+   ]
+  },
+  {
+   "slice": "ArticleBody",
+   "el": "etar5k90",
+   "measuredHeight": {
+    "1440": 7931.2,
+    "1280": 5780.2,
+    "768": 7133.3,
+    "390": 11803.7
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Last updated",
+     "el": "e19x9lsh2"
+    },
+    {
+     "role": "text",
+     "text": "2 July 2025",
+     "el": "e19x9lsh2"
+    },
+    {
+     "role": "text",
+     "text": "Author",
+     "el": "e19x9lsh2"
+    },
+    {
+     "role": "link",
+     "text": "Dovetail Editorial Team",
+     "href": "/contributors/dovetail-editorial-team/",
+     "el": "e19x9lsh3"
+    },
+    {
+     "role": "h2",
+     "text": "Share",
+     "el": "e1i61jy32"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1qeafv21-819482.svg",
+     "w": 14,
+     "h": 14,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1qeafv21-092210.svg",
+     "w": 14,
+     "h": 14,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1qeafv21-258002.svg",
+     "w": 14,
+     "h": 14,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1qeafv21-339069.svg",
+     "w": 14,
+     "h": 14,
+     "el": "svg"
+    },
+    {
+     "role": "h2",
+     "text": "Summarize with AI",
+     "el": "e1i61jy32"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eryb6ok1-510516.svg",
+     "w": 14,
+     "h": 14,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eryb6ok1-441947.svg",
+     "w": 14,
+     "h": 14,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eryb6ok1-756506.svg",
+     "w": 14,
+     "h": 14,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eryb6ok1-971547.svg",
+     "w": 14,
+     "h": 14,
+     "el": "svg"
+    },
+    {
+     "role": "h2",
+     "text": "Get started with Dovetail Enterprise",
+     "el": "h2"
+    },
+    {
+     "role": "text",
+     "text": "See how Dovetail Enterprise can help your team.",
+     "el": "e7v85bj2"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "e7v85bj3"
+    },
+    {
+     "role": "h3",
+     "text": "Contents",
+     "el": "e7v85bj1"
+    },
+    {
+     "role": "button",
+     "text": "The need for a scalable customer intelligence solution",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Seamless collaboration across teams and departments",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Powerful AI and automation to accelerate insights",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "A customer intelligence platform with enterprise-grade security and compliance",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Integrations with existing enterprise tech stacks",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Scalability for growing teams and global organizations",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Measurable ROI: driving business impact through better customer understanding",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Why leading organizations trust Dovetail",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 530,
+     "el": "p"
+    },
+    {
+     "role": "h2",
+     "text": "The need for a scalable customer intelligence solution",
+     "el": "h2"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 433,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 398,
+     "el": "p"
+    },
+    {
+     "role": "h2",
+     "text": "Seamless collaboration across teams and departments",
+     "el": "h2"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 316,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 455,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 142,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 389,
+     "el": "p"
+    },
+    {
+     "role": "h2",
+     "text": "Powerful AI and automation to accelerate insights",
+     "el": "h2"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 299,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 205,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 339,
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 377,
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 499,
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 470,
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "text": "[Asset: 3t9gXqYWbB2h60BjEOYoiS]",
+     "el": "p"
+    },
+    {
+     "role": "h2",
+     "text": "A customer intelligence platform with enterprise-grade security and compliance",
+     "el": "h2"
+    },
+    {
+     "role": "text",
+     "text": "For large organizations, data security, privacy, and compliance are non-negotiable.",
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 681,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "text": "For a deeper understanding of Dovetail's approach to security, reliability, privacy, and compliance, please visit our Trust Center.",
+     "el": "p"
+    },
+    {
+     "role": "h2",
+     "text": "Integrations with existing enterprise tech stacks",
+     "el": "h2"
+    },
+    {
+     "role": "text",
+     "text": "[Asset: 4CqopThtmc4u5NTtg6sMar]",
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 615,
+     "el": "p"
+    },
+    {
+     "role": "h2",
+     "text": "Scalability for growing teams and global organizations",
+     "el": "h2"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 254,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 684,
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 705,
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 167,
+     "el": "p"
+    },
+    {
+     "role": "h2",
+     "text": "Measurable ROI: driving business impact through better customer understanding",
+     "el": "h2"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 813,
+     "el": "p"
+    },
+    {
+     "role": "h2",
+     "text": "Why leading organizations trust Dovetail",
+     "el": "h2"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 167,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 340,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 232,
+     "el": "p"
+    },
+    {
+     "role": "h2",
+     "text": "FAQs",
+     "el": "e1svs14n0"
+    },
+    {
+     "role": "h3",
+     "text": "Why do leading organizations trust Dovetail?",
+     "el": "e1svs14n1"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 157,
+     "el": "p"
+    },
+    {
+     "role": "h3",
+     "text": "What integrations does Dovetail have?",
+     "el": "e1svs14n1"
+    },
+    {
+     "role": "text",
+     "text": "Dovetail offers robust integrations with tools such as Jira, Zoom, Slack, Google Drive, Intercom, Zendesk, and many more.",
+     "el": "p"
+    },
+    {
+     "role": "h2",
+     "text": "Related topics",
+     "el": "etar5k93"
+    },
+    {
+     "role": "link",
+     "text": "[Customer research]",
+     "href": "/customer-research/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "[Design thinking]",
+     "href": "/design-thinking/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "[Employee experience]",
+     "href": "/employee-experience/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "[Enterprise]",
+     "href": "/enterprise/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "[Market research]",
+     "href": "/market-research/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "[Patient experience]",
+     "href": "/patient-experience/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "[Product development]",
+     "href": "/product-development/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "[Product management]",
+     "href": "/product-management/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "[Research maturity assessment]",
+     "href": "/research-maturity-assessment/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "[Research methods]",
+     "href": "/research/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "[Surveys]",
+     "href": "/surveys/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "[User experience (UX)]",
+     "href": "/ux/",
+     "el": "a"
+    },
+    {
+     "role": "h2",
+     "text": "Editor's picks↘",
+     "el": "elhtsr50"
+    },
+    {
+     "role": "link-card",
+     "text": null,
+     "href": "/enterprise/research-tool-stack-integration/",
+     "el": "e1ub092j0"
+    },
+    {
+     "role": "text",
+     "text": "20 April 2026",
+     "el": "e1ub092j1"
+    },
+    {
+     "role": "link",
+     "text": "Why leading teams choose Dovetail—unlocking value, security, and efficiency",
+     "href": "/enterprise/why-leading-teams-choose-dovetail/",
+     "el": "e1ub092j0"
+    },
+    {
+     "role": "text",
+     "text": "29 June 2025",
+     "el": "e1ub092j1"
+    },
+    {
+     "role": "h2",
+     "text": "Latest articles↘",
+     "el": "elhtsr50"
+    },
+    {
+     "role": "link-card",
+     "text": null,
+     "href": "/enterprise/research-tool-stack-integration/",
+     "el": "e1ub092j0"
+    },
+    {
+     "role": "text",
+     "text": "20 April 2026",
+     "el": "e1ub092j1"
+    },
+    {
+     "role": "link",
+     "text": "Why leading teams choose Dovetail—unlocking value, security, and efficiency",
+     "href": "/enterprise/why-leading-teams-choose-dovetail/",
+     "el": "e1ub092j0"
+    },
+    {
+     "role": "text",
+     "text": "29 June 2025",
+     "el": "e1ub092j1"
+    },
+    {
+     "role": "button",
+     "text": "Contents",
+     "el": "e1769tw51",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1769tw51-592211.svg",
+     "w": 0,
+     "h": 0,
+     "el": "svg",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "h2",
+     "text": "Turn customer feedback into product innovation",
+     "el": "e18o1u1v3"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    }
+   ]
+  }
+ ]
+}

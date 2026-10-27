@@ -1,0 +1,136 @@
+{
+ "id": "listing.people-rows",
+ "title": "People rows",
+ "semantic": {
+  "id": "listing.people-rows",
+  "category": "LISTING"
+ },
+ "source": {
+  "id": "component:Contributors:ct-row",
+  "file": "src/pages/guides/Contributors.jsx",
+  "tag": "div",
+  "lines": "48-60",
+  "tagLine": 48,
+  "anchor": "ct-row",
+  "anchorLine": 48
+ },
+ "purpose": "Group heading and divider-separated rows of contributors (name, role).",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "heading",
+    "items"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 1,
+   "observedOn": [
+    "/contributors/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "heading",
+   "items"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 9,
+    "observedIn": 2
+   },
+   "items[].href": {
+    "type": "link",
+    "observedIn": 23
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 6,
+    "maxChars": 49,
+    "observedIn": 22
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 5,
+    "maxChars": 30,
+    "observedIn": 23
+   }
+  },
+  "listSizes": {
+   "items": [
+    6,
+    17
+   ]
+  },
+  "itemRequiredFields": [
+   "href",
+   "title"
+  ],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 2,
+  "consecutiveVariants": [
+   "default"
+  ]
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 1,
+   "nodes": 2,
+   "minPx": 891,
+   "maxPx": 1900,
+   "medianPx": 1395.5,
+   "sample": {
+    "/contributors/": [
+     891,
+     1900
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/guides/Contributors.jsx:48-60",
+  "specs/contributors-index.md:1-30"
+ ]
+}

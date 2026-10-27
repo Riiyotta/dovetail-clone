@@ -1,0 +1,319 @@
+{
+ "slug": "pvcase",
+ "path": "/customers/pvcase/",
+ "title": "Dovetail helps PVcase put the customer’s voice at the center of every product decision",
+ "eyebrow": "CUSTOMER / PVCASE",
+ "companyName": "PVcase",
+ "isAnonymous": false,
+ "industry": "Technology",
+ "intro": {
+  "placeholder": true,
+  "chars": 203
+ },
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/solar-toggle-02.webp",
+  "width": 2880,
+  "height": 1600,
+  "youtubeId": null,
+  "caption": [
+   "IMRE HORVÁTH, R&D LEAD, PVCASE",
+   "MARIUS PUZARAS, PRODUCT OPERATIONS LEAD, PVCASE"
+  ]
+ },
+ "stats": [
+  {
+   "value": "700+",
+   "label": "customer interviews centralized in Dovetail"
+  },
+  {
+   "value": "16",
+   "label": "designers and PMs with shared voice-of-customer access"
+  },
+  {
+   "value": "~700",
+   "label": "hours of customer intelligence queryable in seconds"
+  }
+ ],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "Building the world’s solar design software",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 336
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 234
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 363
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 211
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/external/unsplash-photo-1497435334941-8c899ee9e8e9-cb5b3c.jpg",
+     "alt": "Rows of solar panels stretching across an open field",
+     "w": 1080,
+     "h": 809
+    }
+   ]
+  },
+  {
+   "heading": "From scattered recordings to a queryable intelligence layer",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 336
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 373
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 215
+    }
+   ],
+   "pullQuotes": [
+    {
+     "quote": {
+      "placeholder": true,
+      "chars": 242
+     },
+     "name": "Imre Horváth",
+     "role": "R&D Lead, PVcase",
+     "avatar": null,
+     "href": "/customers/pvcase/"
+    }
+   ]
+  },
+  {
+   "heading": "The customer’s voice, not just their words",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 272
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/Highlight_reel.jpeg",
+     "alt": "A highlight reel of customer video clips in Dovetail",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 347
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 216
+    },
+    {
+     "t": "blockquote",
+     "placeholder": true,
+     "chars": 203
+    },
+    {
+     "t": "p",
+     "text": "— Soraya Garcia Bustos, Senior Product Manager, PVcase"
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 149
+    }
+   ],
+   "pullQuotes": [
+    {
+     "quote": {
+      "placeholder": true,
+      "chars": 94
+     },
+     "name": "Marius Puzaras",
+     "role": "Product Operations Lead, PVcase",
+     "avatar": null,
+     "href": "/customers/pvcase/"
+    }
+   ]
+  },
+  {
+   "heading": "A connected, evidence-based product organization",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 237
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 176
+    },
+    {
+     "t": "blockquote",
+     "text": "“If we could glue ourselves next to the customer and observe what they’re doing, what challenges they’re facing—we would do that.”"
+    },
+    {
+     "t": "p",
+     "text": "— Marius Puzaras, Product Operations Lead, PVcase"
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 415
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 251
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": {
+  "quote": "“Now I can search for specific surfacing topics or user problems across the entire database with the help of Dovetail’s AI agent.”",
+  "name": "Imre Horváth",
+  "role": "R&D Lead, PVcase"
+ },
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "canva",
+   "href": "/customers/canva/",
+   "title": "Dovetail helps Canva empower the world to design, one customer insight at a time",
+   "industry": "Technology",
+   "order": 99,
+   "companyName": "Canva",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Canva.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/white-logo(2).svg",
+    "alt": "Canva",
+    "w": 120,
+    "h": 41
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 197
+    },
+    "name": "Craig Boustred",
+    "role": "Design Researcher"
+   }
+  },
+  {
+   "slug": "safetyculture",
+   "href": "/customers/safetyculture/",
+   "title": "SafetyCulture puts the customer at the heart of decision with Dovetail",
+   "industry": "Technology",
+   "order": 5,
+   "companyName": "SafetyCulture",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_SafetyCulture.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-safetyculture-white-logo.svg",
+    "alt": "SafetyCulture",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 158
+    },
+    "name": "Jules Lipman",
+    "role": "Product Designer"
+   }
+  },
+  {
+   "slug": "atlassian",
+   "href": "/customers/atlassian/",
+   "title": "Atlassian champions the customer at a global scale with Dovetail",
+   "industry": "Technology",
+   "order": 10,
+   "companyName": "Atlassian",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Atlassian2.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+    "alt": "Atlassian",
+    "w": 160,
+    "h": 20
+   },
+   "testimonial": null
+  }
+ ]
+}

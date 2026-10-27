@@ -1,0 +1,3 @@
+/* Tools-article deltas on top of the guide-article styles (src/styles/guides/*).
+   Sidebar CTA (tools-article.md): P16 #0A0A0A, then Light-secondary "Contact sales", margin-top 16. */
+.lart-cta__btn { margin-top: 16px; }

@@ -1,0 +1,81 @@
+/* specs/deploy.md (e13mcwun*, ec4h65o*, exedsyc*) */
+.dp-page h1, .dp-page h2, .dp-page h3 { text-wrap: balance; }
+
+/* Intro (e13mcwun2) */
+.dp-intro { font-size: 20px; font-weight: 400; line-height: 28px; color: #FFFFFF; margin: 0 auto; max-width: 880px; text-align: center; }
+@media (max-width: 1280px) { .dp-intro { font-size: 16px; line-height: 24px; } }
+
+/* Problems heading (e13mcwun3) */
+.dp-problems-head { max-width: 880px; }
+
+/* ProblemSection ×3 */
+.dp-problem__text { grid-column: 1 / span 5; order: 1; }
+.dp-problem__img { grid-column: 7 / span 6; order: 2; width: 100%; }
+.dp-problem--odd .dp-problem__text { grid-column: 8 / span 5; order: 2; }
+.dp-problem--odd .dp-problem__img { grid-column: 1 / span 6; order: 1; }
+@media (max-width: 1280px) {
+  .dp-problem__text, .dp-problem__img, .dp-problem--odd .dp-problem__text, .dp-problem--odd .dp-problem__img { grid-column: 1 / -1; }
+  .dp-problem--odd .dp-problem__text { order: 1; }
+  .dp-problem--odd .dp-problem__img { order: 2; }
+}
+.dp-problem__img img { display: block; width: 100%; height: auto; }
+.dp-problem__col { display: flex; flex-direction: column; gap: 24px; max-width: 540px; }
+.dp-problem__head { display: flex; flex-direction: column; gap: 12px; }
+.dp-problem__h3 { font-size: 32px; font-weight: 500; letter-spacing: -0.5px; line-height: 40px; color: #FFFFFF; margin-bottom: 8px; }
+@media (max-width: 1280px) { .dp-problem__h3 { font-size: 24px; line-height: 32px; letter-spacing: -0.25px; } }
+.dp-problem__block { display: flex; flex-direction: column; gap: 8px; }
+.dp-problem__label { font-size: 16px; line-height: 24px; color: #FFFFFF; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; }
+
+/* Why Deploy (ec4h65o*) */
+.dp-why__head { grid-column: span 9; }
+@media (max-width: 1280px) { .dp-why__head { grid-column: 1 / -1; } }
+.dp-why__item { grid-column: span 4; }
+@media (max-width: 1280px) { .dp-why__item { grid-column: span 6; } }
+@media (max-width: 799px) { .dp-why__item { grid-column: 1 / -1; } }
+.dp-why__icon { margin-bottom: 16px; }
+.dp-why__h3 { font-size: 20px; line-height: 28px; font-weight: 500; letter-spacing: -0.25px; margin-bottom: 16px; }
+@media (max-width: 799px) { .dp-why__h3 { font-size: 16px; line-height: 24px; } }
+.dp-why__p { max-width: 456px; }
+
+/* Scoping call (#book-a-call) */
+.dp-scope__left { grid-column: span 5; }
+.dp-scope__right { grid-column: span 7; }
+@media (max-width: 1280px) { .dp-scope__left, .dp-scope__right { grid-column: 1 / -1; } }
+.dp-scope__sticky { position: sticky; top: 120px; }
+@media (max-width: 1280px) { .dp-scope__sticky { position: static; top: unset; } }
+
+/* SalesforceForm minimal (exedsyc*) */
+.dp-form { position: relative; }
+.dp-form form { background-color: #1E1E1E; border: 1px solid rgba(255,255,255,.08); border-radius: 8px; display: flex; flex-direction: column;
+  gap: 24px; padding: 32px; }
+.dp-form label { display: flex; font-size: 16px; font-weight: 400; letter-spacing: 0; line-height: 24px; margin: 0 0 8px; }
+.dp-form input, .dp-form select, .dp-form textarea { background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.48); border-radius: 8px;
+  box-sizing: border-box; color: #FFFFFF; font-family: Inter; font-size: 16px; font-weight: 400; height: 40px; letter-spacing: -0.5px;
+  line-height: 28px; padding: 10px 16px; text-overflow: ellipsis; transition: 300ms; appearance: none; width: 100%; outline: none; }
+.dp-form input:hover, .dp-form select:hover, .dp-form textarea:hover,
+.dp-form input:focus, .dp-form select:focus, .dp-form textarea:focus { background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.64); }
+.dp-form input::placeholder, .dp-form textarea::placeholder { color: #A7A7A7; }
+.dp-form select { color: #FFFFFF; cursor: pointer; font-weight: 500; line-height: 24px; padding: 8px 16px; }
+.dp-form select option { background: #1E1E1E; font-family: Inter; }
+.dp-form textarea { height: 200px; resize: vertical; }
+.dp-form a { text-decoration: underline; }
+@media (max-width: 1280px) { .dp-form form { padding: 32px 20px; } .dp-form { margin: 48px 0; } }
+.dp-field { display: flex; flex-direction: column; }
+.dp-req { margin-left: 2px; }
+.dp-row { display: flex; gap: 16px; }
+.dp-row > .dp-field { flex: 1 1 0%; min-width: 0; }
+@media (max-width: 1280px) { .dp-row { flex-direction: column; } }
+.dp-consent p { font-size: 12px; font-weight: 400; line-height: 16px; }
+/* Error message: copy is recorded, styling isn't (deploy.md §7) — set in the consent text's 12/16 size, own colour inherited */
+.dp-error { font-size: 12px; font-weight: 400; line-height: 16px; margin-top: 8px; }
+.dp-submit { background-color: #FFFFFF; border: 0; border-radius: 8px; color: #0A0A0A; cursor: pointer; font-family: Inter; font-size: 16px;
+  font-weight: 500; letter-spacing: 0; line-height: 18px; min-width: 146px; padding: 10px 16px; transition: background 150ms, color 150ms; width: 100%; }
+.dp-submit:hover, .dp-submit:focus-visible { background-color: #CECECE; }
+.dp-submit:disabled { cursor: not-allowed; opacity: 0.7; }
+
+/* CtaFooterSlice */
+.dp-cta { grid-column: span 9; }
+@media (max-width: 799px) { .dp-cta { grid-column: 1 / -1; } }
+.dp-cta__sp-top { height: 200px; }
+.dp-cta__sp-bottom { height: 120px; }
+@media (max-width: 1280px) { .dp-cta__sp-top, .dp-cta__sp-bottom { height: 96px; } }

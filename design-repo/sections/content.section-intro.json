@@ -1,0 +1,148 @@
+{
+ "id": "content.section-intro",
+ "title": "Section intro",
+ "semantic": {
+  "id": "content.section-intro",
+  "category": "CONTENT"
+ },
+ "source": {
+  "id": "component:Deploy:dp-problems-head",
+  "file": "src/pages/corporate/Deploy.jsx",
+  "tag": "div",
+  "lines": "59-71",
+  "tagLine": 59,
+  "anchor": "dp-problems-head",
+  "anchorLine": 59
+ },
+ "purpose": "Eyebrow + H40/H64 heading + paragraph introducing the rows that follow.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "centered": {
+   "description": "variant 'centered'",
+   "requiredFields": [
+    "heading",
+    "lead"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 3,
+   "observedOn": [
+    "/research-report-template/",
+    "/user-persona-template/",
+    "/ux-research-plan-template/"
+   ],
+   "contentSampled": true
+  },
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "heading",
+    "lead"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 1,
+   "observedOn": [
+    "/deploy/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "heading",
+   "lead"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 6,
+    "maxChars": 37,
+    "observedIn": 4
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 82,
+    "maxChars": 486,
+    "observedIn": 4
+   }
+  },
+  "listSizes": {},
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {
+   "spaceBefore": {
+    "kind": "token",
+    "allowed": [
+     "space.section.s200",
+     "space.stack.56"
+    ]
+   }
+  },
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 4,
+   "nodes": 4,
+   "minPx": 303.6,
+   "maxPx": 419.6,
+   "medianPx": 395.6,
+   "sample": {
+    "/deploy/": [
+     303.6
+    ],
+    "/research-report-template/": [
+     395.6
+    ],
+    "/user-persona-template/": [
+     395.6
+    ],
+    "/ux-research-plan-template/": [
+     419.6
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/corporate/Deploy.jsx:59-71",
+  "specs/deploy.md:1-40",
+  "specs/template-landing.md:1-30"
+ ]
+}

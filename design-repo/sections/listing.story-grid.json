@@ -1,0 +1,172 @@
+{
+ "id": "listing.story-grid",
+ "title": "Story card grid",
+ "semantic": {
+  "id": "listing.story-grid",
+  "category": "LISTING"
+ },
+ "source": {
+  "id": "component:CustomersIndex:cu-grid",
+  "file": "src/pages/customers/CustomersIndex.jsx",
+  "tag": "div",
+  "lines": "56-68",
+  "tagLine": 56,
+  "anchor": "cu-grid",
+  "anchorLine": 56
+ },
+ "purpose": "Industry filter chips and a grid of customer story cards with pixel hover.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "actions",
+    "items"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 1,
+   "observedOn": [
+    "/customers/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions",
+   "items"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 6
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 13,
+    "observedIn": 6
+   },
+   "items[].href": {
+    "type": "link",
+    "observedIn": 39
+   },
+   "items[].media.alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 39,
+    "assetAlt": true
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 5,
+    "maxChars": 36,
+    "observedIn": 18
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 45,
+    "maxChars": 295,
+    "observedIn": 39
+   }
+  },
+  "listSizes": {
+   "actions": [
+    6,
+    6
+   ],
+   "items": [
+    39,
+    39
+   ]
+  },
+  "itemRequiredFields": [
+   "href",
+   "media",
+   "title"
+  ],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "items[].media": {
+    "type": "asset",
+    "referenceRoles": [
+     "icon.source",
+     "person.photo",
+     "photo.real-scene",
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "icon.generic",
+     "person.fictional-avatar",
+     "photo.generated-scene",
+     "product.generated-visual"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "icon.generic",
+  "person.fictional-avatar",
+  "photo.generated-scene",
+  "product.generated-visual"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "pixel.dissolve-hover"
+  ],
+  "requiredPatterns": [
+   "pixel.dissolve-hover"
+  ],
+  "reducedMotionFallback": {
+   "pixel.dissolve-hover": "unchanged"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 1,
+   "nodes": 1,
+   "minPx": 7931.2,
+   "maxPx": 7931.2,
+   "medianPx": 7931.2,
+   "sample": {
+    "/customers/": [
+     7931.2
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/customers/CustomersIndex.jsx:56-68",
+  "specs/customers-index.md:1-30"
+ ]
+}

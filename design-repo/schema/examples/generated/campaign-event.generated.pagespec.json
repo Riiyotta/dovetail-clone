@@ -1,0 +1,513 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T15",
+ "route": "/campaign-event-mossgrove/",
+ "theme": "campaign",
+ "chrome": {
+  "banner": "none",
+  "nav": "none",
+  "footer": "none"
+ },
+ "brand": {
+  "name": "Mossgrove"
+ },
+ "meta": {
+  "title": "Mossgrove | Campaign"
+ },
+ "nodes": [
+  {
+   "section": "shell.campaign-nav",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Marble field",
+      "href": "https://mossgrove.example/campaign-nav-0"
+     },
+     {
+      "label": "Shape cinder",
+      "href": "https://mossgrove.example/campaign-nav-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.campaign-nav-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "hero.campaign",
+   "variant": "default",
+   "content": {
+    "heading": "Summit juniper",
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/hero.campaign-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/hero.campaign-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/hero.campaign-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/hero.campaign-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/hero.campaign-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/hero.campaign-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/hero.campaign-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/hero.campaign-7"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "content.campaign-text",
+   "variant": "default",
+   "content": {
+    "heading": "Willow signal beacon measure",
+    "actions": [
+     {
+      "label": "Bundle grove",
+      "href": "https://mossgrove.example/campaign-text-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/content.campaign-text-0"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/content.campaign-text-1"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/content.campaign-text-2"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/content.campaign-text-3"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/content.campaign-text-4"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/content.campaign-text-5"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/content.campaign-text-6"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/content.campaign-text-7"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/content.campaign-text-8"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/content.campaign-text-9"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/content.campaign-text-10"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.testimonial",
+   "variant": "campaign",
+   "content": {
+    "lead": "Map delta quarry ember shape gather sprout",
+    "quote": {
+     "text": "Harvest cobalt share fjord signal refine atlas nimbus canvas cedar delta marble ember orbit meadow notice"
+    },
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Steer sort",
+      "ref": "generate:customer.placeholder-logo/social-proof.testimonial-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Share lantern",
+      "ref": "generate:customer.placeholder-logo/social-proof.testimonial-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Falcon refine",
+      "ref": "generate:customer.placeholder-logo/social-proof.testimonial-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "cursor.tooltip",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "social-proof.story-grid",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Measure pebble grove",
+      "text": "Cedar trace marble",
+      "href": "https://mossgrove.example/story-grid-item0",
+      "media": {
+       "assetRole": "photo.generated-scene",
+       "alt": "",
+       "ref": "generate:photo.generated-scene/social-proof.story-grid-item0"
+      }
+     },
+     {
+      "title": "Field orbit gather",
+      "text": "Summit juniper cobalt",
+      "href": "https://mossgrove.example/story-grid-item1",
+      "media": {
+       "assetRole": "photo.generated-scene",
+       "alt": "",
+       "ref": "generate:photo.generated-scene/social-proof.story-grid-item1"
+      }
+     },
+     {
+      "title": "Tidal willow falcon",
+      "text": "Basil rowan pebble",
+      "href": "https://mossgrove.example/story-grid-item2",
+      "media": {
+       "assetRole": "photo.generated-scene",
+       "alt": "",
+       "ref": "generate:photo.generated-scene/social-proof.story-grid-item2"
+      }
+     },
+     {
+      "title": "Canvas cedar trace",
+      "text": "Quarry field prism",
+      "href": "https://mossgrove.example/story-grid-item3",
+      "media": {
+       "assetRole": "photo.generated-scene",
+       "alt": "",
+       "ref": "generate:photo.generated-scene/social-proof.story-grid-item3"
+      }
+     },
+     {
+      "title": "Cinder notice steer",
+      "text": "Cobalt share fjord",
+      "href": "https://mossgrove.example/story-grid-item4",
+      "media": {
+       "assetRole": "photo.generated-scene",
+       "alt": "",
+       "ref": "generate:photo.generated-scene/social-proof.story-grid-item4"
+      }
+     },
+     {
+      "title": "Signal refine rowan",
+      "text": "Nimbus canvas cedar",
+      "href": "https://mossgrove.example/story-grid-item5",
+      "media": {
+       "assetRole": "photo.generated-scene",
+       "alt": "",
+       "ref": "generate:photo.generated-scene/social-proof.story-grid-item5"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "pixel.dissolve-hover",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "social-proof.team-proof",
+   "variant": "default",
+   "content": {
+    "heading": "Compass quarry ember orbit",
+    "lead": "Gather notice juniper cobalt share fjord falcon refine",
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-0"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-1"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-2"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-3"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-4"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-5"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-6"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-7"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-8"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-9"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-10"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-11"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/social-proof.team-proof-12"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "conversion.trial-signup",
+   "variant": "default",
+   "content": {
+    "heading": "Atlas bundle tidy map",
+    "lead": "Compass marble plan prism cinder sprout steer sort tidal lantern falcon refine measure pebble",
+    "actions": [
+     {
+      "label": "Tidy thread",
+      "href": "https://mossgrove.example/trial-signup-0"
+     },
+     {
+      "label": "Delta quarry",
+      "href": "https://mossgrove.example/trial-signup-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/conversion.trial-signup-0"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/conversion.trial-signup-1"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/conversion.trial-signup-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "company.careers-callout",
+   "variant": "default",
+   "content": {
+    "heading": "Plan orbit meadow summit",
+    "lead": "Steer ledger harbor fjord weigh beacon atlas nimbus grove thread trace sketch plan prism",
+    "actions": [
+     {
+      "label": "Cinder summit",
+      "href": "https://mossgrove.example/careers-callout-0"
+     },
+     {
+      "label": "Steer cobalt",
+      "href": "https://mossgrove.example/careers-callout-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/company.careers-callout-0"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/company.careers-callout-1"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/company.careers-callout-2"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/company.careers-callout-3"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/company.careers-callout-4"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/company.careers-callout-5"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/company.careers-callout-6"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/company.careers-callout-7"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/company.careers-callout-8"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/company.careers-callout-9"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/company.careers-callout-10"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/company.careers-callout-11"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/company.careers-callout-12"
+     },
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/company.careers-callout-13"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "pixel.band-scrub",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "shell.campaign-footer",
+   "variant": "campaign",
+   "content": {
+    "actions": [
+     {
+      "label": "Tidal lantern",
+      "href": "https://mossgrove.example/campaign-footer-0"
+     },
+     {
+      "label": "Signal basil",
+      "href": "https://mossgrove.example/campaign-footer-1"
+     },
+     {
+      "label": "Atlas pebble",
+      "href": "https://mossgrove.example/campaign-footer-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

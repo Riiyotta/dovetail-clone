@@ -1,0 +1,80 @@
+/* Content templates — shared primitives (specs/content-shared.md §2–§4).
+   Breakpoints: ≤1280 = md, ≤799 = sm (CLONE_SPEC §0.1). */
+
+:root {
+  --c-ink: #0A0A0A;
+  --c-ink-muted: #626262;
+  --c-line: rgba(10,10,10,.24);
+  --c-border-soft: #C4C4C4;
+  --c-table-line: #D8D8D8;
+  --c-light-bg: #FAFAFA;
+  --c-surface-btn: #F5F5F5;
+  --c-surface-btn-border: #EBEBEB;
+  --c-ink-hover: #3B3B3B;
+  --mono: "JetBrains Mono", "SF Mono", Consolas, Roboto, sans-serif;
+}
+
+/* ---------- §3 Grid primitives ---------- */
+/* css-1y9l2ec page grid section */
+.cgrid {
+  display: grid; grid-template-columns: repeat(12, 1fr); column-gap: 32px; row-gap: 32px;
+  padding: 0 124px; max-width: 1512px; margin: auto; width: 100%;
+}
+.cgrid--rg64 { row-gap: 64px; }         /* css-kpwz4p */
+.cgrid--rg32-sm64 { row-gap: 32px; }    /* css-1wnk2sd */
+/* css-1aby5n6 plain section */
+.cplain { max-width: 1512px; margin: 0 auto; padding: 0 124px; width: 100%; }
+/* inner grid without padding (css-bt1zir etc.) */
+.cgrid-inner { display: grid; grid-template-columns: repeat(12, 1fr); gap: 32px; }
+
+.c-span-4 { grid-column: span 4; }
+.c-span-6 { grid-column: span 6; }
+.c-span-8 { grid-column: span 8; }
+.c-span-9 { grid-column: span 9; }
+.c-full { grid-column: 1 / -1; }
+
+@media (max-width: 1280px) {
+  .cgrid { column-gap: 24px; row-gap: 24px; padding: 0 64px; }
+  .cgrid--rg64 { row-gap: 24px; }
+  .cplain { padding: 0 64px; }
+  .cgrid-inner { gap: 24px; }
+  /* every span-N cell becomes full width unless the template opts out (.c-keep) */
+  .c-span-4:not(.c-keep), .c-span-6:not(.c-keep), .c-span-8:not(.c-keep), .c-span-9:not(.c-keep) { grid-column: 1 / -1; }
+}
+@media (max-width: 799px) {
+  .cgrid { grid-template-columns: repeat(4, 1fr); column-gap: 24px; row-gap: 24px; padding: 0 16px; }
+  .cgrid--rg64 { row-gap: 24px; }
+  .cgrid--rg32-sm64 { row-gap: 64px; }
+  .cplain { padding: 0 16px; }
+  .cgrid-inner { grid-template-columns: repeat(4, 1fr); gap: 24px; }
+  .c-span-4, .c-span-6, .c-span-8, .c-span-9 { grid-column: 1 / -1; }
+}
+
+/* fixed-height spacers; values per template */
+.csp { display: block; flex-shrink: 0; }
+
+/* ---------- Buttons (content-shared §4.6, guides-index) ---------- */
+.cbtn {
+  display: inline-flex; align-items: center; justify-content: center; white-space: nowrap;
+  padding: 10px 16px; border: 1px solid transparent; border-radius: 8px;
+  font-size: 14px; line-height: 18px; font-weight: 500;
+  transition: color 200ms, background 200ms, opacity 200ms;
+}
+@media (max-width: 1280px) { .cbtn { line-height: 16px; } }
+/* light */
+.cbtn--ink { background: var(--c-ink); color: var(--c-light-bg); }
+.cbtn--ink:hover, .cbtn--ink:focus-visible { background: var(--c-ink-hover); }
+.cbtn--soft { background: var(--c-surface-btn); color: var(--c-ink); border-color: var(--c-surface-btn-border); }
+.cbtn--soft:hover, .cbtn--soft:focus-visible { background: rgba(255,255,255,.08); }
+/* dark */
+.cbtn--white { background: #FFF; color: #0A0A0A; }
+.cbtn--white:hover, .cbtn--white:focus-visible { background: #CECECE; }
+.cbtn--glass { background: rgba(255,255,255,.08); color: #FFF; border-color: rgba(255,255,255,.24); }
+.cbtn--glass:hover, .cbtn--glass:focus-visible { background: rgba(255,255,255,.16); }
+
+.cbtn-row { display: flex; gap: 8px; flex-wrap: wrap; }
+
+/* ---------- Mono label (M14) ---------- */
+.cmono { font-family: var(--mono); font-size: 14px; line-height: 140%; letter-spacing: 1px; text-transform: uppercase; }
+
+.chr { display: block; height: 1px; border: 0; margin: 0; background: var(--c-line); }

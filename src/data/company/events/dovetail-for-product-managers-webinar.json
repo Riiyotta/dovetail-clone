@@ -1,0 +1,95 @@
+{
+ "slug": "dovetail-for-product-managers-webinar",
+ "path": "/events/dovetail-for-product-managers-webinar/",
+ "title": "Dovetail for product managers introductory session",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2024-08-29T00:00+11:00",
+ "endDate": null,
+ "onlineEvent": true,
+ "location": "Online",
+ "hosts": [
+  "Alissa Lydon",
+  "Serena Chan"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": "pGANCi8ggOM",
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Alissa Lydon, Serena Chan"
+  },
+  {
+   "label": "[START]",
+   "value": "28 Aug 2024 6:00AM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Online"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "video",
+  "image": "/assets/company/media/Dovetail_for_Researchers_Thumbnail__1_.png",
+  "width": 7680,
+  "height": 4320,
+  "youtubeId": "pGANCi8ggOM"
+ },
+ "body": [
+  {
+   "t": "p",
+   "text": "Find the next big thing to build for customers!"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 290
+  },
+  {
+   "t": "p",
+   "text": "In this session, we will uncover:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 73
+    },
+    {
+     "placeholder": true,
+     "chars": 82
+    },
+    {
+     "text": "How to quickly understand your customer across every channel"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 71,
+   "links": [
+    {
+     "text": "https://dovetail.com/contact-sales/",
+     "href": "/contact-sales/"
+    }
+   ]
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

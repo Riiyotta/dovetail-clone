@@ -1,0 +1,14 @@
+{
+ "id": "text-link",
+ "kind": "primitive",
+ "title": "Underline link",
+ "variants": {
+  "default": "::after 1px bar scaleX 0->1 on hover, 200ms ease-out"
+ },
+ "tokens": [
+  "easing.out"
+ ],
+ "evidence": [
+  "CLONE_SPEC.md:341"
+ ]
+}

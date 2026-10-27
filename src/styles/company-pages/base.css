@@ -1,0 +1,64 @@
+/* Company pages — page-level pieces shared by the pages in src/pages/company/ (specs/company-shared.md).
+   Layout (.co-container/.co-grid), spacers (.co-sp), type (.co-h*, .co-p*, .co-m14) and buttons (.co-btn*)
+   come from src/styles/company/base.css (shared company components); this file only adds what those don't cover.
+   Breakpoints: ≤1280 md, ≤799 sm. */
+
+.cp-main { position: relative; }
+.cp-muted { color: rgba(255,255,255,.64); }
+.cp-dim { color: #A7A7A7; }
+.cp-mondwest { font-family: theme('fontFamily.serif'); font-weight: 400; }
+
+/* ---------- S12 GradientBanner with per-breakpoint heights (grid pattern: shared .co-grid-bg) ---------- */
+.cp-fade { position: absolute; left: 0; right: 0; pointer-events: none; z-index: 1; }
+.cp-fade--top { top: 0; background: linear-gradient(0deg, rgba(0,0,0,0) 0%, #0A0A0A 100%); }
+.cp-fade--bottom { bottom: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 0%, #0A0A0A 100%); }
+
+/* ---------- S4 row list ---------- */
+.cp-rows__hr { display: block; height: 1px; border: 0; margin: 0; background: rgba(255,255,255,.24); }
+.cp-row {
+  display: block; padding: 16px 0; color: inherit; border-radius: 0;
+  transition: color 200ms, background 200ms, opacity 200ms;
+}
+.cp-row__grid { display: grid; grid-template-columns: repeat(9, 1fr); gap: 32px; align-items: center; }
+.cp-row__small { grid-column: 1 / span 2; color: #A7A7A7; display: flex; align-items: center; }
+.cp-row__title { grid-column: span 7; color: #FFFFFF; }
+.cp-row__arrow { display: none; width: 24px; height: 24px; margin: -2px 16px 0; flex-shrink: 0; }
+.cp-row:hover, .cp-row:focus-visible { background: #FFFFFF; color: #0A0A0A; }
+.cp-row:hover .cp-row__small, .cp-row:focus-visible .cp-row__small,
+.cp-row:hover .cp-row__title, .cp-row:focus-visible .cp-row__title { color: #0A0A0A; }
+.cp-row:hover .cp-row__arrow, .cp-row:focus-visible .cp-row__arrow { display: inline-block; }
+@media (max-width: 1280px) {
+  .cp-row__grid { gap: 24px; }
+  .cp-row__title { grid-column: 4 / span 7; }
+}
+@media (max-width: 799px) {
+  .cp-row__grid { grid-template-columns: repeat(4, 1fr); gap: 4px 24px; }
+  .cp-row__small { grid-column: 1 / span 2; }
+  .cp-row__title { grid-column: 1 / span 4; }
+}
+
+/* ---------- S7 logo rotator (8 logos, 16 slots) ---------- */
+.cp-rot8 { display: inline-block; position: relative; width: 96px; height: 0; vertical-align: middle; }
+.cp-rot8__win {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 96px; height: 80px; overflow: hidden;
+  -webkit-mask-image: linear-gradient(transparent, black 8%, black 92%, transparent);
+  mask-image: linear-gradient(transparent, black 8%, black 92%, transparent);
+}
+.cp-rot8__col { display: flex; flex-direction: column; animation: cp-rotator-8 16s ease-in-out infinite; }
+.cp-rot8__slot { height: 80px; padding: 8px 0; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.cp-rot8__slot img { display: block; max-width: 100%; max-height: 100%; }
+@media (max-width: 1280px) {
+  .cp-rot8 { width: 64px; }
+  .cp-rot8__win { width: 64px; height: 64px; }
+  .cp-rot8__slot { height: 64px; }
+}
+@media (max-width: 799px) {
+  .cp-rot8 { width: 48px; }
+  .cp-rot8__win { width: 48px; height: 48px; }
+  .cp-rot8__slot { height: 48px; }
+}
+@keyframes cp-rotator-8 {
+  0%, 11% { transform: translateY(0) } 16%, 23% { transform: translateY(-6.25%) } 28%, 35% { transform: translateY(-12.5%) }
+  40%, 47% { transform: translateY(-18.75%) } 52%, 59% { transform: translateY(-25%) } 64%, 71% { transform: translateY(-31.25%) }
+  76%, 83% { transform: translateY(-37.5%) } 88%, 95% { transform: translateY(-43.75%) } 100% { transform: translateY(-50%) }
+}

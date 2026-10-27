@@ -1,0 +1,139 @@
+{
+ "id": "features.channel-grid",
+ "title": "Channel grid",
+ "semantic": {
+  "id": "features.channel-grid",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "component:SolutionPage:sf__intro",
+  "file": "src/pages/roles/SolutionPage.jsx",
+  "tag": "div",
+  "lines": "106-118",
+  "tagLine": 106,
+  "anchor": "sf__intro",
+  "anchorLine": 106
+ },
+ "purpose": "Intro heading + CTA row and a full-width grid of channel tiles.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "lead"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 1,
+   "observedOn": [
+    "/solutions/voice-of-customer/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions",
+   "heading",
+   "lead"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 2
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 5,
+    "maxChars": 25,
+    "observedIn": 2
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 12,
+    "maxChars": 70,
+    "observedIn": 1
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 40,
+    "maxChars": 269,
+    "observedIn": 1
+   }
+  },
+  "listSizes": {
+   "actions": [
+    2,
+    2
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {
+   "spaceBefore": {
+    "kind": "token",
+    "allowed": [
+     "space.section.hero"
+    ]
+   }
+  },
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 1,
+   "nodes": 1,
+   "minPx": 552,
+   "maxPx": 552,
+   "medianPx": 552,
+   "sample": {
+    "/solutions/voice-of-customer/": [
+     552
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/roles/SolutionPage.jsx:106-118",
+  "specs/solutions.md:1-40"
+ ]
+}

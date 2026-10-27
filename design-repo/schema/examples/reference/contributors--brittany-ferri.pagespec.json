@@ -1,0 +1,504 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T25",
+ "route": "/contributors/brittany-ferri/",
+ "theme": "light",
+ "chrome": {
+  "banner": "light",
+  "nav": "light",
+  "footer": "light"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail clone (local)"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "light",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "light",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "content.profile-header",
+   "variant": "default",
+   "content": {
+    "heading": "Brittany Ferri, PhD, OTR/L",
+    "lead": "Occupational therapist & founder",
+    "actions": [
+     {
+      "label": "CONTRIBUTORS",
+      "href": "/contributors/"
+     },
+     {
+      "label": "BRITTANY FERRI, PHD, OTR/L",
+      "href": "#"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "content.skills-tags",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "[PATIENT EXPERIENCE]",
+      "href": "/patient-experience/"
+     },
+     {
+      "label": "[RESEARCH METHODS]",
+      "href": "/research/"
+     },
+     {
+      "label": "[USER EXPERIENCE (UX)]",
+      "href": "/ux/"
+     }
+    ],
+    "items": [
+     {
+      "title": "[PATIENT EXPERIENCE]",
+      "href": "/patient-experience/"
+     },
+     {
+      "title": "[RESEARCH METHODS]",
+      "href": "/research/"
+     },
+     {
+      "title": "[USER EXPERIENCE (UX)]",
+      "href": "/ux/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s64"
+   }
+  },
+  {
+   "section": "content.editorial-process",
+   "variant": "default",
+   "content": {
+    "lead": "It is worth checking early assumptions against what people actually say and do. Small, regular reviews tend to surface patterns sooner than one large review at the end. Writing down the reasoning behind a decision makes it easier to revisit later. A simple checklist can keep the process consistent from one round to the next. Context matters here. Sharing progress openly invites useful questions before the work is finished. Outcomes are easier to judge when there is a baseline to compare against. Feedback from a pilot run often highlights steps that need to be clarified."
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "listing.article-list",
+   "variant": "default",
+   "content": {
+    "heading": "Articles reviewed by Brittany",
+    "items": [
+     {
+      "title": "What does ‘access to healthcare’ mean?",
+      "text": "27 JUNE 2023",
+      "href": "/patient-experience/access-to-healthcare/"
+     },
+     {
+      "title": "A guide to effective communication in any healthcare setting",
+      "text": "19 JULY 2023",
+      "href": "/patient-experience/communication-in-healthcare/"
+     },
+     {
+      "title": "What is customer experience in healthcare?",
+      "text": "19 JULY 2023",
+      "href": "/patient-experience/customer-experience-in-healthcare/"
+     },
+     {
+      "title": "Guide to healthcare delivery systems in the United States",
+      "text": "31 JULY 2023",
+      "href": "/patient-experience/delivery-systems-in-healthcare/"
+     },
+     {
+      "title": "How Google is creating AI solutions for healthcare",
+      "text": "27 NOVEMBER 2023",
+      "href": "/patient-experience/google-ai-creating-ai-solutions-for-healthcare/"
+     },
+     {
+      "title": "The ultimate guide to patient engagement",
+      "text": "8 AUGUST 2023",
+      "href": "/patient-experience/guide-to-patient-engagement/"
+     },
+     {
+      "title": "A guide to Human-Centered Design in healthcare",
+      "text": "27 JANUARY 2024",
+      "href": "/patient-experience/guide-to-user-centered-design-in-healthcare/"
+     },
+     {
+      "title": "What is health equity?",
+      "text": "27 JUNE 2023",
+      "href": "/patient-experience/health-equity-definition/"
+     },
+     {
+      "title": "What is healthcare management?",
+      "text": "18 JULY 2023",
+      "href": "/patient-experience/healthcare-management/"
+     },
+     {
+      "title": "HIPAA guidelines for healthcare professionals",
+      "text": "24 AUGUST 2023",
+      "href": "/patient-experience/hipaa-guidelines-for-healthcare-professionals/"
+     },
+     {
+      "title": "What is a HIPAA violation, and what happens if you commit one?",
+      "text": "10 OCTOBER 2023",
+      "href": "/patient-experience/hipaa-violation-penalties/"
+     },
+     {
+      "title": "Unlocking healthcare's future: AI innovations and insights",
+      "text": "31 JANUARY 2024",
+      "href": "/patient-experience/how-is-ai-used-in-healthcare/"
+     },
+     {
+      "title": "How UX research facilitates human-centered design in healthcare",
+      "text": "16 NOVEMBER 2023",
+      "href": "/patient-experience/how-technology-facilitates-human-centered-design-in-healthcare/"
+     },
+     {
+      "title": "How to design better user experiences for physicians",
+      "text": "25 NOVEMBER 2023",
+      "href": "/patient-experience/how-to-design-better-ux-for-physicians/"
+     },
+     {
+      "title": "How to respond to negative patient reviews",
+      "text": "17 JANUARY 2024",
+      "href": "/patient-experience/how-to-respond-to-negative-patient-reviews/"
+     },
+     {
+      "title": "Medical and health services managers: Career 101",
+      "text": "18 JULY 2023",
+      "href": "/patient-experience/medical-and-health-services-managers/"
+     },
+     {
+      "title": "What is patient advocacy, and why is it important?",
+      "text": "2 AUGUST 2023",
+      "href": "/patient-experience/patient-advocacy/"
+     },
+     {
+      "title": "What is patient-centered care?",
+      "text": "19 JULY 2023",
+      "href": "/patient-experience/patient-centered-care/"
+     },
+     {
+      "title": "A guide to patient-centered communication",
+      "text": "27 JUNE 2023",
+      "href": "/patient-experience/patient-communication/"
+     },
+     {
+      "title": "A guide to project management in healthcare",
+      "text": "27 JUNE 2023",
+      "href": "/patient-experience/project-management-in-healthcare/"
+     },
+     {
+      "title": "Quality healthcare: A complete guide",
+      "text": "8 AUGUST 2023",
+      "href": "/patient-experience/quality-healthcare/"
+     },
+     {
+      "title": "Guide to quality improvement in healthcare",
+      "text": "27 JUNE 2023",
+      "href": "/patient-experience/quality-improvement/"
+     },
+     {
+      "title": "What are quality measures in healthcare?",
+      "text": "25 NOVEMBER 2023",
+      "href": "/patient-experience/quality-measures-in-healthcare/"
+     },
+     {
+      "title": "13 therapeutic communication techniques to improve healthcare",
+      "text": "22 JULY 2023",
+      "href": "/patient-experience/therapeutic-communication-techniques/"
+     },
+     {
+      "title": "What are the three main rules of HIPAA?",
+      "text": "13 SEPTEMBER 2023",
+      "href": "/patient-experience/what-are-the-three-main-rules-of-hipaa/"
+     },
+     {
+      "title": "What is HIPAA compliance?",
+      "text": "11 JUNE 2026",
+      "href": "/patient-experience/what-is-hipaa-compliance/"
+     },
+     {
+      "title": "What is HIPAA? A comprehensive guide",
+      "text": "23 AUGUST 2023",
+      "href": "/patient-experience/what-is-hipaa/"
+     },
+     {
+      "title": "What is informed consent?",
+      "text": "11 JUNE 2026",
+      "href": "/patient-experience/what-is-informed-consent/"
+     },
+     {
+      "title": "What is patient empowerment?",
+      "text": "16 AUGUST 2023",
+      "href": "/patient-experience/what-is-patient-empowerment/"
+     },
+     {
+      "title": "PHI vs. PII: What’s the difference?",
+      "text": "28 SEPTEMBER 2023",
+      "href": "/patient-experience/what-is-phi-vs-pii/"
+     },
+     {
+      "title": "What counts as PHI under HIPAA?",
+      "text": "23 AUGUST 2023",
+      "href": "/patient-experience/what-is-phi/"
+     },
+     {
+      "title": "What is personally identifiable information (PII)?",
+      "text": "11 JUNE 2026",
+      "href": "/patient-experience/what-is-pii/"
+     },
+     {
+      "title": "61 intriguing psychology research topics to explore",
+      "text": "11 JANUARY 2024",
+      "href": "/research/good-psychology-research-topics/"
+     },
+     {
+      "title": "77 interesting medical research topics",
+      "text": "25 NOVEMBER 2023",
+      "href": "/research/interesting-medical-research-topics/"
+     },
+     {
+      "title": "80 fascinating psychology research questions for your next project",
+      "text": "15 FEBRUARY 2024",
+      "href": "/research/list-of-psychology-research-questions/"
+     },
+     {
+      "title": "55 research questions about mental health",
+      "text": "11 MARCH 2024",
+      "href": "/research/top-research-questions-about-mental-health/"
+     },
+     {
+      "title": "What’s the difference between incidence and prevalence?",
+      "text": "15 JANUARY 2024",
+      "href": "/research/what-is-incidence-vs-prevalence/"
+     },
+     {
+      "title": "13 actionable steps for improving patient experience",
+      "text": "21 JUNE 2023",
+      "href": "/ux/improving-patient-experience/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "light",
+   "content": {
+    "heading": "The best never guess",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "#"
+     },
+     {
+      "label": "Start free trial",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-theright-salesforce.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestfarleft-aws.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestleft-canva.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestright-airwallex.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverright-notion.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverfarright-zapier.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessleft-wise.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessfarleft-breville.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "light",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

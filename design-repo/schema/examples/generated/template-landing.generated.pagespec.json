@@ -1,0 +1,457 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T9",
+ "route": "/template-landing-ivyhaven/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Ivyhaven"
+ },
+ "meta": {
+  "title": "Ivyhaven | Lead Tool"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Atlas nimbus tidy",
+    "actions": [
+     {
+      "label": "Cedar delta",
+      "href": "https://ivyhaven.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Quarry",
+      "href": "https://ivyhaven.example/navbar-0"
+     },
+     {
+      "label": "Prism",
+      "href": "https://ivyhaven.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Notice"
+     },
+     {
+      "title": "Steer"
+     },
+     {
+      "title": "Cobalt"
+     },
+     {
+      "title": "Tidal"
+     },
+     {
+      "title": "Lantern"
+     },
+     {
+      "title": "Weigh"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Beacon atlas",
+      "text": "Pebble grove thread trace marble plan shape meadow"
+     },
+     {
+      "title": "Notice steer",
+      "text": "Ledger tidal fjord signal beacon measure nimbus tidy"
+     },
+     {
+      "title": "Map delta",
+      "text": "Quarry plan orbit cinder notice harvest sort share"
+     },
+     {
+      "title": "Lantern weigh",
+      "text": "Refine measure nimbus tidy cedar trace quarry ember"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.template",
+   "variant": "default",
+   "content": {
+    "heading": "Orbit meadow sprout steer",
+    "lead": "Ledger tidal lantern",
+    "actions": [
+     {
+      "label": "Beacon measure",
+      "href": "https://ivyhaven.example/template-0"
+     },
+     {
+      "label": "Pebble tidy",
+      "href": "https://ivyhaven.example/template-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "photo.generated-scene",
+      "alt": "Cedar trace quarry",
+      "ref": "generate:photo.generated-scene/hero.template-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.logo-marquee",
+   "variant": "two-row",
+   "content": {
+    "lead": "Ember orbit gather sprout juniper sort harbor willow",
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Weigh basil rowan",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Nimbus canvas map",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Trace sketch field",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Orbit meadow",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Steer cobalt",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Fjord signal",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Atlas pebble tidy",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Map trace sketch",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-7"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Field prism meadow",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-8"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Sprout juniper",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-9"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Share lantern",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-10"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Refine atlas",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-11"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Grove map trace",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-12"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Marble ember orbit",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-13"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Meadow notice",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-14"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Sort share willow",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-15"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "marquee.loop",
+    "reducedMotionFallback": "paused"
+   }
+  },
+  {
+   "section": "content.section-intro",
+   "variant": "centered",
+   "content": {
+    "heading": "Signal beacon rowan pebble",
+    "lead": "Tidy map compass sketch ember prism meadow sprout harvest ledger share lantern falcon basil"
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.alternating-row",
+   "variant": "media-left",
+   "content": {
+    "heading": "Atlas bundle canvas cedar",
+    "lead": "Delta marble field shape gather summit juniper sort share willow falcon basil measure nimbus",
+    "actions": [
+     {
+      "label": "Tidy thread",
+      "href": "https://ivyhaven.example/alternating-row-0"
+     },
+     {
+      "label": "Trace sketch",
+      "href": "https://ivyhaven.example/alternating-row-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "Plan prism gather",
+      "ref": "generate:product.generated-visual/features.alternating-row-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.alternating-row",
+   "variant": "media-right",
+   "content": {
+    "heading": "Sprout harvest cobalt tidal",
+    "lead": "Willow signal refine rowan bundle canvas cedar delta marble ember prism gather summit steer",
+    "actions": [
+     {
+      "label": "Sort share",
+      "href": "https://ivyhaven.example/alternating-row-0"
+     },
+     {
+      "label": "Fjord signal",
+      "href": "https://ivyhaven.example/alternating-row-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "Basil atlas pebble",
+      "ref": "generate:product.generated-visual/features.alternating-row-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.alternating-row",
+   "variant": "media-left",
+   "content": {
+    "heading": "Grove map trace marble",
+    "lead": "Field prism gather summit juniper cobalt harbor willow weigh beacon rowan bundle tidy thread",
+    "actions": [
+     {
+      "label": "Trace marble",
+      "href": "https://ivyhaven.example/alternating-row-0"
+     },
+     {
+      "label": "Plan shape",
+      "href": "https://ivyhaven.example/alternating-row-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "Meadow sprout steer",
+      "ref": "generate:product.generated-visual/features.alternating-row-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.checklist-grid",
+   "variant": "default",
+   "content": {
+    "heading": "Cobalt harbor fjord falcon",
+    "lead": "Basil atlas nimbus tidy cedar delta quarry field shape cinder",
+    "items": [
+     {
+      "title": "Ledger harbor fjord",
+      "text": "Falcon refine atlas bundle canvas cedar delta quarry"
+     },
+     {
+      "title": "Field orbit cinder",
+      "text": "Sprout harvest sort harbor lantern weigh refine atlas"
+     },
+     {
+      "title": "Bundle tidy cedar",
+      "text": "Delta sketch field prism meadow sprout steer cobalt"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "interactive.faq",
+   "variant": "tools",
+   "content": {
+    "heading": "Tida",
+    "lead": "Fjord signal basil atlas nimbus canvas thread compass sketch field prism cinder sprout juniper",
+    "actions": [
+     {
+      "label": "Cobalt tidal",
+      "href": "https://ivyhaven.example/faq-0"
+     },
+     {
+      "label": "Willow falcon",
+      "href": "https://ivyhaven.example/faq-1"
+     },
+     {
+      "label": "Refine rowan",
+      "href": "https://ivyhaven.example/faq-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Nimbus canvas thread",
+      "text": "Trace quarry field orbit cinder summit harvest cobalt"
+     },
+     {
+      "title": "Harbor lantern weigh",
+      "text": "Basil measure pebble canvas map compass quarry field"
+     },
+     {
+      "title": "Prism cinder sprout",
+      "text": "Harvest sort harbor willow signal refine atlas nimbus"
+     },
+     {
+      "title": "Tidy cedar compass",
+      "text": "Quarry plan prism meadow notice steer cobalt tidal"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "accordion.height",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "lead": "Willow weigh refine measure nimbus",
+    "actions": [
+     {
+      "label": "Thread compass",
+      "href": "https://ivyhaven.example/footer-0"
+     },
+     {
+      "label": "Quarry plan",
+      "href": "https://ivyhaven.example/footer-1"
+     },
+     {
+      "label": "Prism meadow",
+      "href": "https://ivyhaven.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Sprout"
+     },
+     {
+      "title": "Juniper"
+     },
+     {
+      "title": "Ledger"
+     },
+     {
+      "title": "Harbor"
+     },
+     {
+      "title": "Lantern"
+     },
+     {
+      "title": "Falcon"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

@@ -1,0 +1,106 @@
+/* Shared slices — specs/tools-shared.md §D (logo marquee), §E (awards marquee),
+   §F (featured testimonial), §G (FAQ). Dark pages. */
+
+/* ---------- Marquee track ---------- */
+.lmq-track { display: flex; overflow: hidden; pointer-events: none; position: relative; width: 100%; }
+.lmq-track::before, .lmq-track::after {
+  content: ""; position: absolute; top: 0; bottom: 0; width: 200px; z-index: 9999; pointer-events: none;
+}
+.lmq-track::before { left: 0; background: linear-gradient(90deg, #0A0A0A 0%, rgba(247,247,248,0) 100%); }
+.lmq-track::after { right: 0; background: linear-gradient(270deg, #0A0A0A 0%, rgba(247,247,248,0) 100%); }
+@media (max-width: 799px) { .lmq-track::before, .lmq-track::after { width: 32px; } }
+.lmq-strip, .lmq-copy { display: flex; white-space: nowrap; flex-shrink: 0; }
+.lmq-strip { will-change: transform; }
+.lmq-item { padding: 0 40px; flex-shrink: 0; }
+@media (max-width: 1280px) { .lmq-item { padding: 0 20px; } }
+
+/* ---------- §D CompactLogoSlice ---------- */
+.llogos { max-width: 1328px; display: flex; flex-direction: column; align-items: center; }
+.llogos__heading { color: var(--l-white); text-align: center; margin-bottom: 64px; min-height: 20px; }
+.llogos__rows { width: 100%; overflow: hidden; position: relative; display: flex; flex-direction: column; gap: 40px; min-height: 168px; }
+.llogos--single .llogos__rows { min-height: 64px; }
+.llogos__row { height: 64px; opacity: .32; display: flex; justify-content: center; align-items: center; position: relative; }
+.llogos__row--offset { left: 120px; }
+.llogos__box { width: 142px; height: 64px; display: flex; align-items: center; justify-content: center; }
+.llogos__box img { max-width: 100%; max-height: 100%; object-fit: contain; display: block; }
+.llogos__fade { position: absolute; top: 0; bottom: 0; width: 180px; z-index: 2; pointer-events: none; }
+.llogos__fade--l { left: 0; background: linear-gradient(270deg, rgba(0,0,0,0) 0%, #0A0A0A 100%); }
+.llogos__fade--r { right: 0; background: linear-gradient(90deg, rgba(0,0,0,0) 0%, #0A0A0A 100%); }
+@media (max-width: 1280px) {
+  .llogos__heading { max-width: 400px; }
+  .llogos__rows { gap: 20px; min-height: 148px; }
+  .llogos--single .llogos__rows { min-height: 64px; }
+  .llogos__fade { width: 60px; }
+}
+
+/* ---------- §E awards marquee ---------- */
+.lawards { height: 72px; }
+.lawards__item { display: flex; gap: 32px; height: 72px; }
+.lawards__badge { height: 72px; width: auto; display: block; }
+.lawards__text { display: flex; flex-direction: column; gap: 8px; justify-content: center; }
+
+/* ---------- §F featured testimonial ---------- */
+.ltesti { position: relative; }
+.ltesti__bgwrap { position: relative; pointer-events: none; margin: 0 auto; height: 100%; overflow-x: clip; }
+.ltesti__bgfull { position: absolute; top: 0; bottom: 0; left: 50%; width: 100vw; transform: translateX(-50%); overflow: hidden; }
+/* Spec: img top:50%, translate(-50%,0), object-fit:cover, rendered 1260x560 and "in practice covers the slice".
+   Centred vertically here so it actually covers the 560px slice — see handoff note. */
+.ltesti__bg { position: absolute; top: 50%; left: 50%; width: 1260px; height: 560px; transform: translate(-50%, -50%); object-fit: cover; }
+.ltesti__layer { display: flex; align-items: center; height: 560px; position: relative; z-index: 1; pointer-events: auto; }
+.ltesti__grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 32px; width: 100%; }
+.ltesti__col { grid-column: 3 / 12; margin: 110px 0; }
+.ltesti__card { display: flex; flex-direction: column; align-items: flex-start; gap: 64px; color: var(--l-white); text-decoration: none; }
+.ltesti__card:hover, .ltesti__card:focus-visible { color: var(--l-white); text-decoration: none; }
+.ltesti__quote { position: relative; min-height: 240px; }
+.ltesti__avatar { float: left; width: 80px; height: 80px; margin-right: 16px; margin-top: 8px; border-radius: 8px; object-fit: cover; }
+.ltesti__text { margin: 0; text-align: left; font-size: 40px; line-height: 48px; font-weight: 500; letter-spacing: -1px; }
+.ltesti__meta { display: flex; gap: 32px; align-items: center; min-height: 48px; }
+.ltesti__logo { height: 40px; width: fit-content; display: block; }
+.ltesti__vline { width: 1px; height: 40px; background: var(--l-line-dark); flex-shrink: 0; }
+.ltesti__person { display: flex; flex-direction: column; }
+@media (max-width: 1280px) {
+  .ltesti__grid { gap: 24px; }
+  .ltesti__col { grid-column: 1 / -1; }
+  .ltesti__text { font-size: 32px; line-height: 40px; letter-spacing: -0.25px; }
+}
+@media (max-width: 799px) {
+  .ltesti__layer { height: auto; }
+  .ltesti__grid { grid-template-columns: repeat(4, 1fr); }
+  .ltesti__col { margin: 0; }
+  .ltesti__quote { min-height: auto; display: flex; flex-direction: column; }
+  .ltesti__avatar { float: none; margin-bottom: 32px; }
+  .ltesti__text { font-size: 24px; line-height: 32px; letter-spacing: -0.25px; }
+}
+
+/* cursor tooltip (§F look) */
+.ltt { position: fixed; top: 0; left: 0; z-index: 4; display: flex; opacity: 0; pointer-events: none; transition: opacity 150ms; }
+.ltt__label { display: flex; align-items: center; gap: 8px; color: var(--l-white); background: rgba(255,255,255,.08);
+  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); border-radius: 8px; padding: 8px 12px; }
+.ltt__sq { width: 8px; height: 8px; background: var(--l-blue); flex-shrink: 0; }
+@media (max-width: 799px) { .ltt { display: none; } }
+
+/* ---------- §G FAQ ---------- */
+.lfaq__left { grid-column: span 3; }
+.lfaq__h { color: var(--l-white); overflow-wrap: anywhere; text-wrap: pretty; }
+.lfaq__right { grid-column: 4 / -1; }
+.lfaq__hr { display: block; height: 1px; border: 0; background: var(--l-line-dark); margin: 32px 0; }
+.lfaq__hr--top { margin: 0 0 32px; }
+.lfaq__toggle { display: inline-flex; justify-content: space-between; align-items: center; width: 100%;
+  background: none; border: 0; padding: 0; color: var(--l-white); text-align: left; position: relative; z-index: 2; cursor: pointer; }
+.lfaq__toggle:focus { color: var(--l-white); }
+.lfaq__toggle:hover, .lfaq__toggle:focus-visible { color: var(--l-dim); }
+.lfaq__q { overflow-wrap: anywhere; }
+.lfaq__chev { width: 24px; height: 24px; background: #212121; border-radius: 4px; margin-left: 8px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center; }
+.lfaq__chev-icon { width: 24px; height: 24px; }
+.lfaq__answer-grid { display: grid; grid-template-columns: repeat(8, 1fr); gap: 32px; }
+.lfaq__answer { grid-column: span 7; height: 0; opacity: 0; overflow: hidden; margin-top: 8px; }
+.lfaq__answer.is-open { height: auto; opacity: 1; }
+@media (max-width: 1280px) {
+  .lfaq__left, .lfaq__right { grid-column: 1 / -1; }
+  .lfaq__answer-grid { grid-template-columns: repeat(12, 1fr); gap: 24px; }
+}
+@media (max-width: 799px) {
+  .lfaq__answer-grid { grid-template-columns: repeat(4, 1fr); }
+  .lfaq__answer { grid-column: 1 / -1; }
+}

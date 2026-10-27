@@ -1,0 +1,184 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T12",
+ "route": "/role-quiz-ivyhaven/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Ivyhaven"
+ },
+ "meta": {
+  "title": "Ivyhaven | Lead Tool"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Field shape",
+    "actions": [
+     {
+      "label": "Summit juniper",
+      "href": "https://ivyhaven.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Cobalt",
+      "href": "https://ivyhaven.example/navbar-0"
+     },
+     {
+      "label": "Lantern",
+      "href": "https://ivyhaven.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Basil"
+     },
+     {
+      "title": "Measure"
+     },
+     {
+      "title": "Pebble"
+     },
+     {
+      "title": "Canvas"
+     },
+     {
+      "title": "Map"
+     },
+     {
+      "title": "Compass"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Sketch plan",
+      "text": "Orbit meadow summit steer ledger harbor lantern falcon"
+     },
+     {
+      "title": "Refine rowan",
+      "text": "Nimbus canvas map compass quarry plan prism meadow"
+     },
+     {
+      "title": "Sprout",
+      "text": "Cobalt tidal willow falcon refine rowan nimbus grove"
+     },
+     {
+      "title": "Cedar delta",
+      "text": "Quarry plan prism gather sprout harvest ledger share"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "interactive.role-quiz",
+   "variant": "default",
+   "content": {
+    "heading": "Lantern falcon basil atlas",
+    "lead": "Nimbus tidy map delta sketch plan shape meadow summit juniper cobalt share fjord falcon",
+    "actions": [
+     {
+      "label": "Beacon rowan",
+      "href": "https://ivyhaven.example/role-quiz-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "lead": "Bundle tidy map compass sketch",
+    "actions": [
+     {
+      "label": "Prism meadow",
+      "href": "https://ivyhaven.example/footer-0"
+     },
+     {
+      "label": "Summit steer",
+      "href": "https://ivyhaven.example/footer-1"
+     },
+     {
+      "label": "Cobalt harbor",
+      "href": "https://ivyhaven.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Fjord"
+     },
+     {
+      "title": "Signal"
+     },
+     {
+      "title": "Basil"
+     },
+     {
+      "title": "Measure"
+     },
+     {
+      "title": "Bundle"
+     },
+     {
+      "title": "Canvas"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

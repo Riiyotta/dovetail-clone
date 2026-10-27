@@ -1,0 +1,348 @@
+{
+ "slug": "iconic-global-automaker",
+ "path": "/customers/iconic-global-automaker/",
+ "title": "How one of the world's most iconic automakers put customer intelligence in the hands of its engineers",
+ "eyebrow": "CUSTOMER / ONE OF THE WORLD'S MOST ICONIC AUTOMAKERS",
+ "companyName": "One of the world's most iconic automakers",
+ "isAnonymous": true,
+ "industry": "Manufacturing",
+ "intro": {
+  "placeholder": true,
+  "chars": 297
+ },
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/external/unsplash-photo-1581091226033-d5c48150dbaa-5e12b7.jpg",
+  "width": 1080,
+  "height": 720,
+  "youtubeId": null,
+  "caption": []
+ },
+ "stats": [
+  {
+   "value": "48+",
+   "label": "UX and CX professionals accessing shared customer insights in one business unit alone"
+  },
+  {
+   "value": "4+",
+   "label": "teams across digital design, e-commerce, and financial services on one platform"
+  },
+  {
+   "value": "2 weeks",
+   "label": "cut from insight delivery—designers and engineers now act on research findings before the formal report is written"
+  }
+ ],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "A global manufacturer with millions of customers yet a fragmented view of them",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 507
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 476
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 353
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/external/unsplash-photo-1581091226205-b28ac533a45f-5a1e6b.jpg",
+     "alt": "Automotive engineers working together on vehicle software and digital systems",
+     "w": 1080,
+     "h": 720
+    }
+   ]
+  },
+  {
+   "heading": "The challenge: research duplicated across teams, invisible to the engineers shipping products",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 282
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 246
+    },
+    {
+     "t": "blockquote",
+     "placeholder": true,
+     "chars": 337
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 433
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/external/unsplash-photo-1522071820081-009f0129c71c-528736.jpg",
+     "alt": "Colleagues collaborating on research data and customer insights",
+     "w": 0,
+     "h": 0
+    }
+   ]
+  },
+  {
+   "heading": "The solution: a searchable hub that engineers and product managers access directly",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 488
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 492
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 74
+    },
+    {
+     "t": "blockquote",
+     "placeholder": true,
+     "chars": 273
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 231,
+     "links": [
+      {
+       "text": "Chat",
+       "href": "/product/ai-chat/"
+      }
+     ]
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/contextual-chat-query-product-image.png",
+     "alt": "Dovetail Chat—ask anything about your customers and get an instant, cited answer",
+     "w": 0,
+     "h": 0
+    }
+   ]
+  },
+  {
+   "heading": "The payoff: engineers self-serving customer knowledge, and agency partners calling it \"gold\"",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 208
+    },
+    {
+     "t": "blockquote",
+     "placeholder": true,
+     "chars": 144
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 465
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 231
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 215
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": {
+  "quote": {
+   "placeholder": true,
+   "chars": 252
+  },
+  "name": null,
+  "role": "Lead UX Strategist"
+ },
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "cnh",
+   "href": "/customers/cnh/",
+   "title": "How CNH builds better agricultural machinery, 50% faster with Dovetail",
+   "industry": "Manufacturing",
+   "order": 3,
+   "companyName": "CNH",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/Customer_CNHIndustrial.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/white-logo(4).svg",
+    "alt": "CNH",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 207
+    },
+    "name": "Matthew Klopfenstein",
+    "role": "Portfolio Management–Cash Crop Segment Specialist"
+   }
+  },
+  {
+   "slug": "breville",
+   "href": "/customers/breville/",
+   "title": "How customer insights drive and inspire Breville’s product innovation",
+   "industry": "Consumer",
+   "order": 3,
+   "companyName": "Breville",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/Customer_Breville.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/white-logo(3).svg",
+    "alt": "Breville",
+    "w": 132,
+    "h": 32
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 217
+    },
+    "name": "Constance Docos",
+    "role": "Senior UX Designer"
+   }
+  },
+  {
+   "slug": "itau-unibanco",
+   "href": "/customers/itau-unibanco/",
+   "title": "How Itaú Unibanco delivers better banking experiences with Dovetail",
+   "industry": "Finance",
+   "order": 1,
+   "companyName": "Itau Unibanco",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/Customer_Itau.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/white-logo.svg",
+    "alt": "Itaú Unibanco",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 213
+    },
+    "name": "Renato Cerqueira Leite",
+    "role": "Head of research Operations"
+   }
+  }
+ ],
+ "faq": {
+  "heading": "FAQs",
+  "items": [
+   {
+    "q": "Can Dovetail stop different teams from duplicating the same research?",
+    "a": {
+     "placeholder": true,
+     "chars": 299
+    }
+   },
+   {
+    "q": "Can engineers and designers act on usability findings before the formal research report is done?",
+    "a": {
+     "placeholder": true,
+     "chars": 244
+    }
+   },
+   {
+    "q": "Can stakeholders query customer research directly instead of asking a researcher to dig through past studies?",
+    "a": {
+     "placeholder": true,
+     "chars": 203
+    }
+   },
+   {
+    "q": "Can Dovetail scale across multiple business units in a large, decentralized company?",
+    "a": {
+     "placeholder": true,
+     "chars": 311
+    }
+   },
+   {
+    "q": "How does Dovetail help a company track whether research actually influences product decisions?",
+    "a": {
+     "placeholder": true,
+     "chars": 267
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,216 @@
+{
+ "id": "social-proof.testimonial",
+ "title": "Featured testimonial",
+ "semantic": {
+  "id": "social-proof.testimonial",
+  "category": "SOCIAL_PROOF"
+ },
+ "source": {
+  "id": "component:TestimonialSlice:mk-testi",
+  "file": "src/components/marketing/TestimonialSlice.jsx",
+  "tag": "div",
+  "lines": "27-39",
+  "tagLine": 27,
+  "anchor": "mk-testi",
+  "anchorLine": 27
+ },
+ "purpose": "Large quote (H40) with optional photo, company logo, divider, name and title; links to the story; hover tooltip.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "campaign": {
+   "description": "variant 'campaign'",
+   "requiredFields": [
+    "lead",
+    "media",
+    "quote"
+   ],
+   "forbiddenFields": [
+    "actions"
+   ],
+   "observedOnRoutes": 2,
+   "observedOn": [
+    "/aws-summit-sydney-2026/",
+    "/the-best-never-guess/"
+   ],
+   "contentSampled": true
+  },
+  "featured": {
+   "description": "variant 'featured'",
+   "requiredFields": [
+    "media",
+    "quote"
+   ],
+   "forbiddenFields": [
+    "lead"
+   ],
+   "observedOnRoutes": 24,
+   "observedOn": [
+    "/contact-sales/",
+    "/dovetail-vs-aurelius/",
+    "/dovetail-vs-condens/",
+    "/dovetail-vs-great-question/",
+    "/dovetail-vs-insight7/",
+    "/dovetail-vs-lookback/",
+    "/dovetail-vs-looppanel/",
+    "/dovetail-vs-marvin/",
+    "/dovetail-vs-maze/",
+    "/dovetail-vs-medallia/",
+    "/dovetail-vs-notably/",
+    "/dovetail-vs-pendo/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "media",
+   "quote"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 2
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 2,
+    "observedIn": 2
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 7,
+    "maxChars": 47,
+    "observedIn": 2
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 2,
+    "maxChars": 13,
+    "observedIn": 42,
+    "assetAlt": true
+   },
+   "quote.text": {
+    "type": "text",
+    "maxWords": 35,
+    "maxChars": 225,
+    "observedIn": 14
+   }
+  },
+  "listSizes": {
+   "media": [
+    3,
+    3
+   ],
+   "actions": [
+    2,
+    2
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "customer.logo",
+     "illustration.brand",
+     "person.photo",
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "customer.placeholder-logo",
+     "illustration.generated",
+     "person.fictional-avatar",
+     "product.generated-visual"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "customer.placeholder-logo",
+  "illustration.generated",
+  "person.fictional-avatar",
+  "product.generated-visual"
+ ],
+ "style": {
+  "props": {
+   "spaceBefore": {
+    "kind": "token",
+    "allowed": [
+     "space.campaign.224",
+     "space.section.s160",
+     "space.section.s200"
+    ]
+   }
+  },
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 2,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "cursor.tooltip",
+   "carousel.autoplay"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "cursor.tooltip": "unchanged",
+   "carousel.autoplay": "no-autoplay"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 26,
+   "nodes": 27,
+   "minPx": 436,
+   "maxPx": 560,
+   "medianPx": 560,
+   "sample": {
+    "/aws-summit-sydney-2026/": [
+     436
+    ],
+    "/contact-sales/": [
+     560
+    ],
+    "/dovetail-vs-aurelius/": [
+     560
+    ],
+    "/dovetail-vs-condens/": [
+     560
+    ],
+    "/dovetail-vs-great-question/": [
+     560
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/components/marketing/TestimonialSlice.jsx:27-39",
+  "specs/roles.md:1-40",
+  "specs/solutions.md:1-40"
+ ]
+}

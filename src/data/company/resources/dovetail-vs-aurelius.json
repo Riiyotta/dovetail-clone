@@ -1,0 +1,738 @@
+{
+ "path": "/resources/dovetail-vs-aurelius/",
+ "title": "Dovetail vs Aurelius: User Research Tools Compared",
+ "breadcrumb": [
+  {
+   "label": "Guides",
+   "href": "/guides/"
+  },
+  {
+   "label": "How does Dovetail compare to Aurelius for user research?",
+   "href": null
+  }
+ ],
+ "h1": "How does Dovetail compare to Aurelius for user research?",
+ "meta": [
+  [
+   "Last updated",
+   "20 October 2026"
+  ]
+ ],
+ "share": [
+  {
+   "heading": "Share",
+   "links": [
+    {
+     "label": "Copy link",
+     "href": null
+    },
+    {
+     "label": "Share on Facebook",
+     "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-aurelius%2F"
+    },
+    {
+     "label": "Share on LinkedIn",
+     "href": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-aurelius%2F"
+    },
+    {
+     "label": "Share on X",
+     "href": "https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20article%20at%20Dovetail!&url=https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-aurelius%2F&via=hidovetail"
+    }
+   ]
+  },
+  {
+   "heading": "Summarize with AI",
+   "links": [
+    {
+     "label": "Summarize with ChatGPT",
+     "href": "https://chat.openai.com/?q=Summarize%20this%20article%20%22How%20does%20Dovetail%20compare%20to%20Aurelius%20for%20user%20research%3F%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-aurelius%2F"
+    },
+    {
+     "label": "Summarize with Claude",
+     "href": "https://claude.ai/new?q=Summarize%20this%20article%20%22How%20does%20Dovetail%20compare%20to%20Aurelius%20for%20user%20research%3F%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-aurelius%2F"
+    },
+    {
+     "label": "Summarize with Perplexity",
+     "href": "https://www.perplexity.ai/search?q=Summarize%20this%20article%20%22How%20does%20Dovetail%20compare%20to%20Aurelius%20for%20user%20research%3F%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-aurelius%2F"
+    },
+    {
+     "label": "Summarize with Grok",
+     "href": "https://x.com/i/grok?text=Summarize%20this%20article%20%22How%20does%20Dovetail%20compare%20to%20Aurelius%20for%20user%20research%3F%22%3A%20https%3A%2F%2Fdovetail.com%2Fresources%2Fdovetail-vs-aurelius%2F"
+    }
+   ]
+  }
+ ],
+ "sidebarCta": {
+  "heading": "Get started today",
+  "body": "Go from raw data to valuable insights with a flexible research platform",
+  "button": {
+   "label": "Contact sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "toc": [
+  "What do Dovetail and Aurelius have in common?",
+  "What’s the main difference between Dovetail and Aurelius?",
+  "Dovetail vs Aurelius at a glance",
+  "How does each tool handle interview analysis and synthesis?",
+  "Can either tool analyze customer feedback beyond user research?",
+  "How do Dovetail and Aurelius fit into the rest of your stack?",
+  "How do they handle sharing insights with stakeholders?",
+  "Which should you choose?",
+  "Choose Dovetail if:",
+  "Aurelius may fit if:",
+  "How should you evaluate Dovetail and Aurelius side by side?",
+  "What other tools come up in this comparison?"
+ ],
+ "body": [
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 520
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 164
+  },
+  {
+   "t": "h2",
+   "text": "What do Dovetail and Aurelius have in common?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 76
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 123,
+     "strong": [
+      "They centralize qualitative data."
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 117,
+     "strong": [
+      "They support tagging and synthesis."
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 142,
+     "strong": [
+      "They make findings reusable."
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 188,
+     "strong": [
+      "They sit in the analysis part of the workflow."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 162
+  },
+  {
+   "t": "h2",
+   "text": "What’s the main difference between Dovetail and Aurelius?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 85
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 262,
+   "strong": [
+    "Aurelius"
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 443,
+   "strong": [
+    "Dovetail"
+   ]
+  },
+  {
+   "t": "h3",
+   "text": "Dovetail vs Aurelius at a glance"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Dimension",
+    "Dovetail",
+    "Aurelius"
+   ],
+   "rows": [
+    [
+     "Category",
+     {
+      "placeholder": true,
+      "chars": 65
+     },
+     "Research repository and synthesis tool"
+    ],
+    [
+     "Primary users",
+     {
+      "placeholder": true,
+      "chars": 65
+     },
+     "Individual researchers and small-to-mid-sized research teams"
+    ],
+    [
+     "Interviews and usability tests",
+     {
+      "placeholder": true,
+      "chars": 62
+     },
+     {
+      "placeholder": true,
+      "chars": 116
+     }
+    ],
+    [
+     "Ongoing feedback (tickets, reviews, NPS)",
+     {
+      "placeholder": true,
+      "chars": 99
+     },
+     {
+      "placeholder": true,
+      "chars": 105
+     }
+    ],
+    [
+     "AI-assisted analysis",
+     "AI analysis surfaces patterns across research",
+     "Verify current AI capabilities with the vendor"
+    ],
+    [
+     "Sharing insights",
+     "Reports and docs for stakeholders",
+     {
+      "placeholder": true,
+      "chars": 66
+     }
+    ],
+    [
+     "Integrations",
+     {
+      "placeholder": true,
+      "chars": 67
+     },
+     "Check the vendor’s current integration list"
+    ],
+    [
+     "Best fit",
+     {
+      "placeholder": true,
+      "chars": 93
+     },
+     {
+      "placeholder": true,
+      "chars": 61
+     }
+    ]
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 162
+  },
+  {
+   "t": "h2",
+   "text": "How does each tool handle interview analysis and synthesis?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 157
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 280
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 145
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 208,
+     "strong": [
+      "Tags and themes"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 147,
+     "strong": [
+      "Highlights"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 151,
+     "strong": [
+      "AI-powered analysis"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 271
+  },
+  {
+   "t": "h2",
+   "text": "Can either tool analyze customer feedback beyond user research?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 107
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 253
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 286
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 24
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 134
+    },
+    {
+     "placeholder": true,
+     "chars": 111
+    },
+    {
+     "placeholder": true,
+     "chars": 68
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 205
+  },
+  {
+   "t": "h2",
+   "text": "How do Dovetail and Aurelius fit into the rest of your stack?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 110
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 41
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "text": "Slack, for sharing findings where teams already talk"
+    },
+    {
+     "placeholder": true,
+     "chars": 61,
+     "strong": [
+      "Jira"
+     ]
+    },
+    {
+     "text": "Figma, for keeping evidence close to design decisions"
+    },
+    {
+     "text": "Intercom and Zendesk, as sources of support conversations"
+    },
+    {
+     "text": "Salesforce and Gong, for customer and sales-call context"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 118
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 299
+  },
+  {
+   "t": "h2",
+   "text": "How do they handle sharing insights with stakeholders?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 112
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 308
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 253
+  },
+  {
+   "t": "h2",
+   "text": "Which should you choose?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 123
+  },
+  {
+   "t": "h3",
+   "text": "Choose Dovetail if:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 114
+    },
+    {
+     "placeholder": true,
+     "chars": 95
+    },
+    {
+     "placeholder": true,
+     "chars": 115
+    },
+    {
+     "placeholder": true,
+     "chars": 83
+    },
+    {
+     "placeholder": true,
+     "chars": 76
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "text": "Aurelius may fit if:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 101
+    },
+    {
+     "placeholder": true,
+     "chars": 89
+    },
+    {
+     "placeholder": true,
+     "chars": 89
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 198
+  },
+  {
+   "t": "h2",
+   "text": "How should you evaluate Dovetail and Aurelius side by side?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 88
+  },
+  {
+   "t": "ol",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 117,
+     "strong": [
+      "Pick real data."
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 130,
+     "strong": [
+      "Time the path to a shareable finding."
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 115,
+     "strong": [
+      "Test cross-study retrieval."
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 114,
+     "strong": [
+      "Test the handoff."
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 160,
+     "strong": [
+      "Test with a non-researcher."
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 145,
+     "strong": [
+      "Model cost realistically."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "What other tools come up in this comparison?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 102
+  },
+  {
+   "t": "table",
+   "head": [
+    "Category",
+    "Examples",
+    "When to consider them"
+   ],
+   "rows": [
+    [
+     "Research repositories and analysis",
+     "Condens, Looppanel",
+     {
+      "placeholder": true,
+      "chars": 65
+     }
+    ],
+    [
+     "Feedback analytics",
+     "Enterpret, Chattermill, Unwrap, Thematic",
+     {
+      "placeholder": true,
+      "chars": 63
+     }
+    ],
+    [
+     "Experience management suites",
+     "Qualtrics, Medallia",
+     "You need enterprise survey programs and broad CX measurement"
+    ],
+    [
+     "Product testing",
+     "Maze",
+     "You need to run usability tests and prototype tests"
+    ],
+    [
+     "Product management and feedback boards",
+     "Productboard, Canny",
+     "You need to collect feature requests and manage roadmaps"
+    ]
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 183
+  },
+  {
+   "t": "h2",
+   "text": "FAQs"
+  },
+  {
+   "t": "h3",
+   "text": "How does Dovetail compare to Aurelius for user research?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 462
+  },
+  {
+   "t": "h3",
+   "text": "Is Aurelius a good alternative to Dovetail?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 414
+  },
+  {
+   "t": "h3",
+   "text": "Can Dovetail analyze support tickets and reviews as well as user interviews?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 363
+  },
+  {
+   "t": "h3",
+   "text": "Which is better for a small research team, Dovetail or Aurelius?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 377
+  },
+  {
+   "t": "h3",
+   "text": "How should I trial Dovetail and Aurelius side by side?"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 336
+  }
+ ],
+ "relatedTopics": [
+  {
+   "label": "[Customer research]",
+   "href": "/customer-research/"
+  },
+  {
+   "label": "[Design thinking]",
+   "href": "/design-thinking/"
+  },
+  {
+   "label": "[Employee experience]",
+   "href": "/employee-experience/"
+  },
+  {
+   "label": "[Enterprise]",
+   "href": "/enterprise/"
+  },
+  {
+   "label": "[Market research]",
+   "href": "/market-research/"
+  },
+  {
+   "label": "[Patient experience]",
+   "href": "/patient-experience/"
+  },
+  {
+   "label": "[Product development]",
+   "href": "/product-development/"
+  },
+  {
+   "label": "[Product management]",
+   "href": "/product-management/"
+  },
+  {
+   "label": "[Research maturity assessment]",
+   "href": "/research-maturity-assessment/"
+  },
+  {
+   "label": "[Research methods]",
+   "href": "/research/"
+  },
+  {
+   "label": "[Surveys]",
+   "href": "/surveys/"
+  },
+  {
+   "label": "[User experience (UX)]",
+   "href": "/ux/"
+  }
+ ],
+ "relatedArticles": [
+  {
+   "title": "What can I use instead of Insight7? Alternatives by use case",
+   "href": "/resources/insight7-alternatives/",
+   "date": "20 October 2026"
+  },
+  {
+   "title": "Dovetail review: tagging, search, AI, and pricing in 2026",
+   "href": "/resources/dovetail-review/",
+   "date": "29 September 2026"
+  },
+  {
+   "title": "Dovetail vs Enterpret",
+   "href": "/resources/dovetail-vs-enterpret/",
+   "date": "28 September 2026"
+  },
+  {
+   "title": "Dovetail vs Marvin",
+   "href": "/resources/dovetail-vs-marvin/",
+   "date": "28 September 2026"
+  },
+  {
+   "title": "Dovetail vs Qualtrics",
+   "href": "/resources/dovetail-vs-qualtrics/",
+   "date": "28 September 2026"
+  }
+ ],
+ "cta": {
+  "heading": "Turn customer feedback into product innovation",
+  "buttons": [
+   {
+    "label": "Contact sales",
+    "href": "/contact-sales/"
+   },
+   {
+    "label": "Try Dovetail free",
+    "href": "/auth/signup/"
+   }
+  ]
+ },
+ "theme": "light"
+}

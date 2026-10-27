@@ -1,0 +1,321 @@
+{
+ "url": "/legal/community-code-of-conduct/",
+ "template": "legal-doc",
+ "meta": {
+  "title": "Community Code of Conduct",
+  "description": "Dovetail’s legal and privacy documents, including the user terms of service, privacy policy, data processing agreement, and acceptable use policy."
+ },
+ "theme": "light",
+ "breadcrumb": [
+  {
+   "text": "Home",
+   "href": "/"
+  },
+  {
+   "text": "Legal",
+   "href": "/legal/"
+  }
+ ],
+ "h1": "Community Code of Conduct",
+ "sideNav": {
+  "groups": [
+   {
+    "group": "Legal",
+    "links": [
+     {
+      "text": "Master Subscription Agreement",
+      "href": "/legal/master-subscription-agreement/"
+     },
+     {
+      "text": "User Terms of Service",
+      "href": "/legal/user-terms-of-service/"
+     },
+     {
+      "text": "Acceptable Use Policy",
+      "href": "/legal/acceptable-use-policy/"
+     },
+     {
+      "text": "Product-Specific Terms: AI Features",
+      "href": "/legal/ai-features/"
+     },
+     {
+      "text": "Mutual Non-Disclosure Agreement",
+      "href": "/legal/mutual-non-disclosure-agreement/"
+     },
+     {
+      "text": "Product-Specific Terms: Recruit",
+      "href": "/legal/product-specific-terms-recruit/"
+     },
+     {
+      "text": "Community Code of Conduct",
+      "href": "/legal/community-code-of-conduct/"
+     },
+     {
+      "text": "Insurance",
+      "href": "/legal/insurance/"
+     },
+     {
+      "text": "Accessibility Statement",
+      "href": "/legal/accessibility-statement/"
+     },
+     {
+      "text": "Open Source",
+      "href": "/legal/open-source/"
+     },
+     {
+      "text": "Press Kit and Logo Usage",
+      "href": "/legal/press-kit/"
+     },
+     {
+      "text": "Modern Slavery Statement",
+      "href": "/legal/modern-slavery-statement/"
+     },
+     {
+      "text": "Anti-Bribery and Anti-Corruption Statement",
+      "href": "/legal/anti-bribery-and-anti-corruption-statement/"
+     },
+     {
+      "text": "AI Models",
+      "href": "/legal/ai-models/"
+     }
+    ]
+   },
+   {
+    "group": "Privacy",
+    "links": [
+     {
+      "text": "Compliance With Laws",
+      "href": "/privacy/compliance-with-laws/"
+     },
+     {
+      "text": "Data Processing Agreement",
+      "href": "/privacy/data-processing-agreement/"
+     },
+     {
+      "text": "Privacy Policy",
+      "href": "/privacy/privacy-policy/"
+     },
+     {
+      "text": "Data Subject Access Request",
+      "href": "/privacy/data-subject-access-request/"
+     },
+     {
+      "text": "Event Release",
+      "href": "/privacy/event-release/"
+     }
+    ]
+   }
+  ],
+  "expandedGroup": "Legal",
+  "current": "/legal/community-code-of-conduct/"
+ },
+ "toc": [
+  "Expected behavior",
+  "Unacceptable behavior",
+  "Consequences of unacceptable behavior",
+  "Reporting guidelines"
+ ],
+ "body": [
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 487
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 242,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 318
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 240,
+   "links": [
+    {
+     "chars": 22,
+     "href": "https://champions.dovetail.com/"
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "expected-behavior",
+   "text": "Expected behavior"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 76
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 118
+    },
+    {
+     "placeholder": true,
+     "chars": 62
+    },
+    {
+     "placeholder": true,
+     "chars": 38
+    },
+    {
+     "placeholder": true,
+     "chars": 73
+    },
+    {
+     "placeholder": true,
+     "chars": 224
+    },
+    {
+     "placeholder": true,
+     "chars": 219
+    },
+    {
+     "placeholder": true,
+     "chars": 84
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "unacceptable-behavior",
+   "text": "Unacceptable behavior"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 91
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 83
+    },
+    {
+     "placeholder": true,
+     "chars": 97
+    },
+    {
+     "placeholder": true,
+     "chars": 60
+    },
+    {
+     "placeholder": true,
+     "chars": 92
+    },
+    {
+     "placeholder": true,
+     "chars": 106
+    },
+    {
+     "placeholder": true,
+     "chars": 39
+    },
+    {
+     "placeholder": true,
+     "chars": 31
+    },
+    {
+     "placeholder": true,
+     "chars": 129
+    },
+    {
+     "placeholder": true,
+     "chars": 70
+    },
+    {
+     "placeholder": true,
+     "chars": 76
+    },
+    {
+     "placeholder": true,
+     "chars": 90
+    },
+    {
+     "placeholder": true,
+     "chars": 199
+    },
+    {
+     "placeholder": true,
+     "chars": 101
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 283
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 67
+    },
+    {
+     "placeholder": true,
+     "chars": 130
+    },
+    {
+     "placeholder": true,
+     "chars": 189
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "consequences-of-unacceptable-behavior",
+   "text": "Consequences of unacceptable behavior"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 229
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 353
+  },
+  {
+   "type": "h2",
+   "id": "reporting-guidelines",
+   "text": "Reporting guidelines"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 200
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 74,
+   "links": [
+    {
+     "chars": 18,
+     "href": "mailto:legal@dovetail.com"
+    }
+   ]
+  }
+ ],
+ "lastUpdated": {
+  "label": "Last updated",
+  "date": "12 September 2025"
+ },
+ "navRightButtons": false,
+ "finalCta": true
+}

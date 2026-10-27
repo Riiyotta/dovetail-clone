@@ -1,0 +1,194 @@
+{
+ "id": "features.integrations-list",
+ "title": "Integrations list",
+ "semantic": {
+  "id": "features.integrations-list",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "component:RoleSections:in__grid",
+  "file": "src/pages/roles/RoleSections.jsx",
+  "tag": "div",
+  "lines": "211-223",
+  "tagLine": 211,
+  "anchor": "in__grid",
+  "anchorLine": 211
+ },
+ "purpose": "Sticky heading + CTA row beside a long list of integrations (logo, name, text) and a discover link.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "items"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 6,
+   "observedOn": [
+    "/roles/customer-experience/",
+    "/roles/design/",
+    "/roles/marketing/",
+    "/roles/product-management/",
+    "/roles/research/",
+    "/roles/sales-and-cs/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions",
+   "heading",
+   "items"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 9
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 25,
+    "observedIn": 9
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 6,
+    "maxChars": 28,
+    "observedIn": 3
+   },
+   "items[].media.alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 36,
+    "assetAlt": true
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 29,
+    "maxChars": 188,
+    "observedIn": 36
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 23,
+    "observedIn": 36
+   }
+  },
+  "listSizes": {
+   "actions": [
+    3,
+    3
+   ],
+   "items": [
+    10,
+    14
+   ]
+  },
+  "itemRequiredFields": [
+   "media",
+   "text",
+   "title"
+  ],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "items[].media": {
+    "type": "asset",
+    "referenceRoles": [
+     "partner.logo",
+     "rating.badge"
+    ],
+    "generatedRoles": [
+     "partner.placeholder-icon",
+     "rating.placeholder"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "partner.placeholder-icon",
+  "rating.placeholder"
+ ],
+ "style": {
+  "props": {
+   "spaceBefore": {
+    "kind": "token",
+    "allowed": [
+     "space.section.s200"
+    ]
+   }
+  },
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "sticky.pin"
+  ],
+  "requiredPatterns": [
+   "sticky.pin"
+  ],
+  "reducedMotionFallback": {
+   "sticky.pin": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 6,
+   "nodes": 6,
+   "minPx": 1508,
+   "maxPx": 2361,
+   "medianPx": 1878.0,
+   "sample": {
+    "/roles/customer-experience/": [
+     2039
+    ],
+    "/roles/design/": [
+     1854
+    ],
+    "/roles/marketing/": [
+     1902
+    ],
+    "/roles/product-management/": [
+     2361
+    ],
+    "/roles/research/": [
+     1508
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/roles/RoleSections.jsx:211-223",
+  "specs/roles.md:1-40"
+ ]
+}

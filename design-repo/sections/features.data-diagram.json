@@ -1,0 +1,155 @@
+{
+ "id": "features.data-diagram",
+ "title": "Orbit diagram",
+ "semantic": {
+  "id": "features.data-diagram",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "component:RawData:raw-data",
+  "file": "src/components/RawData.jsx",
+  "tag": "section",
+  "lines": "167-179",
+  "tagLine": 167,
+  "anchor": "raw-data",
+  "anchorLine": 167
+ },
+ "purpose": "Centred H96 + intro + CTA row, then a scaled 1280x630 orbit diagram of processing steps with hover pills.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 1,
+   "observedOn": [
+    "/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions",
+   "heading",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 6
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 16,
+    "observedIn": 6
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 6,
+    "maxChars": 31,
+    "observedIn": 1
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 29,
+    "maxChars": 187,
+    "observedIn": 1
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 5,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "actions": [
+    6,
+    6
+   ],
+   "media": [
+    5,
+    5
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "illustration.brand"
+    ],
+    "generatedRoles": [
+     "illustration.generated"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "illustration.generated"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "canvas.orbit"
+  ],
+  "requiredPatterns": [
+   "canvas.orbit"
+  ],
+  "reducedMotionFallback": {
+   "canvas.orbit": "static-layout"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">799",
+   "behavior": "scaled diagram"
+  },
+  {
+   "range": "<=799",
+   "behavior": "static glow + horizontal pill list"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 1,
+   "nodes": 1,
+   "minPx": 1326.7,
+   "maxPx": 1326.7,
+   "medianPx": 1326.7,
+   "sample": {
+    "/": [
+     1326.7
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/components/RawData.jsx:167-179",
+  "CLONE_SPEC.md:9-21"
+ ]
+}

@@ -1,0 +1,288 @@
+{
+ "url": "/roles/product-management/quiz/",
+ "template": "quiz",
+ "title": "Product Manager Quiz: Are You Truly Data-Driven? | Dovetail",
+ "metaDescription": "Take the product manager quiz. Find out if your roadmap is driven by real customer signal—or gut feel and the loudest voice in the room.",
+ "documentHeight": {
+  "1440": 2332,
+  "1280": 2728,
+  "768": 3084,
+  "390": 3134
+ },
+ "chrome": {
+  "alertBar": true,
+  "navBackground": null,
+  "footer": "finalCta"
+ },
+ "sections": [
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 88,
+    "1280": 88,
+    "768": 88,
+    "390": 88
+   }
+  },
+  {
+   "slice": "ev3cpd60",
+   "el": "ev3cpd60",
+   "measuredHeight": {
+    "1440": 457,
+    "1280": 319,
+    "768": 311,
+    "390": 391
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "2-minute quiz",
+     "el": "ev3cpd62"
+    },
+    {
+     "role": "h1",
+     "text": "Are you a data-driven product manager?",
+     "el": "ev3cpd63"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 192,
+     "el": "ev3cpd64"
+    },
+    {
+     "role": "button",
+     "text": "Start the quiz",
+     "el": "button"
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "introHeading": "Are you a data-driven product manager?",
+  "introSubtitle": {
+   "placeholder": true,
+   "chars": 192
+  },
+  "questions": [
+   {
+    "text": "Where does customer feedback live at your company?",
+    "options": [
+     "Mostly in people’s heads and notes apps",
+     "Spread across Slack, email, Notion, and other tools",
+     "We have a dedicated tool, but not everyone uses it",
+     "One central place the whole team can access"
+    ]
+   },
+   {
+    "text": "When a PM needs customer evidence for a roadmap decision, what happens?",
+    "options": [
+     "They go from memory or ask around",
+     "They ping the research team and wait days or weeks",
+     "They dig through old Notion docs themselves",
+     "They search a shared repository and find something quickly"
+    ]
+   },
+   {
+    "text": "How long does it typically take to synthesize a round of user interviews?",
+    "options": [
+     "We don’t really synthesize—we just share raw notes",
+     "1–2 weeks of manual work",
+     "A few days with good tooling",
+     "Hours—AI handles most of the heavy lifting"
+    ]
+   },
+   {
+    "text": "How does your team share research findings?",
+    "options": [
+     "Verbally or in a long email nobody reads",
+     "A Notion doc that gets forgotten",
+     "A research report shared in Slack once",
+     "A living repository teammates can query anytime"
+    ]
+   },
+   {
+    "text": "How often does customer feedback directly influence your roadmap?",
+    "options": [
+     "Rarely—we move too fast for that",
+     "Occasionally, when research aligns with planning",
+     "Often, but it’s hard to prove the connection",
+     "Consistently—every initiative is tied to customer signal"
+    ]
+   },
+   {
+    "text": "Which best describes your support and sales feedback loop?",
+    "options": [
+     "Support and research teams don’t really talk",
+     "Someone forwards Zendesk tickets occasionally",
+     "We aggregate it, but analysis is slow",
+     "Feedback from support and sales flows into insights automatically"
+    ]
+   },
+   {
+    "text": "How do you handle high-volume feedback—app reviews, NPS, support tickets?",
+    "options": [
+     "We look at the numbers but not the actual comments",
+     "Someone reads a sample and reports themes manually",
+     "We tag and categorize it, but it takes significant time",
+     "It’s automatically classified and we get alerted to emerging trends"
+    ]
+   },
+   {
+    "text": "How would a new PM find out what customers have said about a specific problem?",
+    "options": [
+     "Ask around the office",
+     "Dig through Slack threads and docs for an hour",
+     "Find a research repo but struggle to navigate it",
+     "Search and get an answer in minutes"
+    ]
+   },
+   {
+    "text": "How do you know if a customer pain point is getting worse over time?",
+    "options": [
+     "When it starts showing up in churn interviews",
+     "When support tickets spike and someone flags it",
+     "We check manually on a regular cadence",
+     "We have automated monitoring that alerts us to trend shifts"
+    ]
+   },
+   {
+    "text": "When leadership asks \"what do customers think about X?\", what happens?",
+    "options": [
+     "Someone scrambles to pull together an answer",
+     "We surface a few relevant quotes and hope for the best",
+     "We have a decent answer but it takes a day to prepare",
+     "We point them to a dashboard or send a generated report in minutes"
+    ]
+   }
+  ],
+  "tiers": [
+   {
+    "level": 1,
+    "name": "Instinct-Driven",
+    "tagline": "You’re moving fast, but flying blind.",
+    "description": {
+     "placeholder": true,
+     "chars": 238
+    },
+    "cost": {
+     "placeholder": true,
+     "chars": 91
+    },
+    "nextLevel": {
+     "placeholder": true,
+     "chars": 102
+    },
+    "dovetailPitch": {
+     "placeholder": true,
+     "chars": 260
+    }
+   },
+   {
+    "level": 2,
+    "name": "Feedback-Aware",
+    "tagline": "You’re collecting. But it’s not turning into action.",
+    "description": {
+     "placeholder": true,
+     "chars": 239
+    },
+    "cost": {
+     "placeholder": true,
+     "chars": 139
+    },
+    "nextLevel": {
+     "placeholder": true,
+     "chars": 115
+    },
+    "dovetailPitch": {
+     "placeholder": true,
+     "chars": 252
+    }
+   },
+   {
+    "level": 3,
+    "name": "Research-Powered",
+    "tagline": "You have a process. But it doesn’t scale.",
+    "description": {
+     "placeholder": true,
+     "chars": 210
+    },
+    "cost": {
+     "placeholder": true,
+     "chars": 143
+    },
+    "nextLevel": {
+     "placeholder": true,
+     "chars": 97
+    },
+    "dovetailPitch": {
+     "placeholder": true,
+     "chars": 243
+    }
+   },
+   {
+    "level": 4,
+    "name": "Insight-Led",
+    "tagline": "Strong foundation. Time to go further.",
+    "description": {
+     "placeholder": true,
+     "chars": 243
+    },
+    "cost": {
+     "placeholder": true,
+     "chars": 123
+    },
+    "nextLevel": {
+     "placeholder": true,
+     "chars": 135
+    },
+    "dovetailPitch": {
+     "placeholder": true,
+     "chars": 258
+    }
+   },
+   {
+    "level": 5,
+    "name": "Customer-Intelligent",
+    "tagline": "Your whole company runs on customer signal.",
+    "description": {
+     "placeholder": true,
+     "chars": 276
+    },
+    "cost": null,
+    "nextLevel": null,
+    "dovetailPitch": {
+     "placeholder": true,
+     "chars": 242
+    }
+   }
+  ],
+  "scoring": "score per answer = option index+1 (A=1..D=4); avg=sum/40; level 1 <=.4, 2 <=.575, 3 <=.75, 4 <=.9, else 5",
+  "resultCta": {
+   "level<=2": {
+    "label": "Start for free",
+    "href": "/auth/signup/"
+   },
+   "level3-4": {
+    "label": "Book a demo",
+    "href": "/request-a-demo/"
+   },
+   "level5": {
+    "label": "Talk to us",
+    "href": "/request-a-demo/"
+   },
+   "secondary": "Retake quiz"
+  },
+  "resultFooterCta": {
+   "heading": "Turn customer feedback into product innovation",
+   "primary": {
+    "label": "Start for free",
+    "href": "/auth/signup/"
+   },
+   "secondary": {
+    "label": "Book a demo",
+    "href": "/request-a-demo/"
+   }
+  }
+ }
+}

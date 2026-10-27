@@ -1,0 +1,269 @@
+{
+ "slug": "aws",
+ "path": "/customers/aws/",
+ "title": "Dovetail helps AWS turn scattered research into a shared source of customer truth",
+ "eyebrow": "CUSTOMER / AWS",
+ "companyName": "AWS",
+ "isAnonymous": false,
+ "industry": "Technology",
+ "intro": {
+  "placeholder": true,
+  "chars": 353
+ },
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/AWS.jpg",
+  "width": 5184,
+  "height": 3456,
+  "youtubeId": null,
+  "caption": []
+ },
+ "stats": [
+  {
+   "value": "25+",
+   "label": "teams across AWS and Amazon using Dovetail"
+  },
+  {
+   "value": "30+",
+   "label": "Amazon teams onboarded through a single enterprise agreement"
+  },
+  {
+   "value": "1",
+   "label": "centralized repository replacing siloed tools across every team"
+  }
+ ],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "Research at the scale of AWS",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 634
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 537
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/external/unsplash-photo-1553877522-43269d4ea984-096576.jpg",
+     "alt": "Team members collaborating at a table with laptops, whiteboarding ideas in a modern open office.",
+     "w": 1400,
+     "h": 933
+    }
+   ]
+  },
+  {
+   "heading": "An enterprise partnership built to scale",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 348
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 506
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 272
+    },
+    {
+     "t": "img",
+     "src": "/assets/marketing/Channels-AI-generated_themes-product-image.png",
+     "alt": "Dovetail Channels interface showing AI-generated themes from high-volume customer feedback, with topic clusters and trend lines.",
+     "w": 2094,
+     "h": 1448
+    }
+   ]
+  },
+  {
+   "heading": "From open-ended responses to structured insight",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 296
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 475,
+     "links": [
+      {
+       "text": "Dovetail Channels",
+       "href": "/product/ai-channels/"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 536
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 208
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/Contextual-chat-inline-2.png",
+     "alt": "Dovetail contextual chat interface showing a researcher querying customer feedback with cited responses.",
+     "w": 0,
+     "h": 0
+    }
+   ]
+  },
+  {
+   "heading": "A foundation for customer intelligence at enterprise scale",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 327
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 498
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 435
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": null,
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "atlassian",
+   "href": "/customers/atlassian/",
+   "title": "Atlassian champions the customer at a global scale with Dovetail",
+   "industry": "Technology",
+   "order": 10,
+   "companyName": "Atlassian",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Atlassian2.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+    "alt": "Atlassian",
+    "w": 160,
+    "h": 20
+   },
+   "testimonial": null
+  },
+  {
+   "slug": "canva",
+   "href": "/customers/canva/",
+   "title": "Dovetail helps Canva empower the world to design, one customer insight at a time",
+   "industry": "Technology",
+   "order": 99,
+   "companyName": "Canva",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_Canva.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/white-logo(2).svg",
+    "alt": "Canva",
+    "w": 120,
+    "h": 41
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 197
+    },
+    "name": "Craig Boustred",
+    "role": "Design Researcher"
+   }
+  },
+  {
+   "slug": "safetyculture",
+   "href": "/customers/safetyculture/",
+   "title": "SafetyCulture puts the customer at the heart of decision with Dovetail",
+   "industry": "Technology",
+   "order": 5,
+   "companyName": "SafetyCulture",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/marketing/Customer_SafetyCulture.png",
+    "alt": "",
+    "w": 800,
+    "h": 880
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-safetyculture-white-logo.svg",
+    "alt": "SafetyCulture",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 158
+    },
+    "name": "Jules Lipman",
+    "role": "Product Designer"
+   }
+  }
+ ]
+}

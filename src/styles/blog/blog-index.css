@@ -1,0 +1,64 @@
+/* Blog index — specs/blog-index.md */
+
+.blog-index__top-spacer { height: 96px; }
+@media (max-width: 1280px) { .blog-index__top-spacer { height: 0; } }
+
+/* Featured pair (hidden <=1280) */
+.blog-index__feat--a { grid-column: 2 / span 4; }
+.blog-index__feat--b { grid-column: 7 / span 5; }
+@media (max-width: 1280px) { .blog-index__feat { display: none; } }
+
+/* Title row: H1 + filter pills */
+.blog-index__title-row {
+  grid-column: 1 / -1; margin-top: 64px;
+  display: flex; justify-content: space-between; align-items: flex-end; gap: 24px;
+}
+@media (max-width: 1280px) {
+  .blog-index__title-row {
+    order: -1; margin-top: 56px; margin-bottom: 64px;
+    flex-direction: column; align-items: flex-start; gap: 32px;
+  }
+}
+
+/* css-1smlclh. The <=799 48/52 rule is overridden on the live site, so 72/80 holds at <=1280. */
+.blog-index__h1 { font-size: 160px; line-height: 164px; font-weight: 600; letter-spacing: -4px; color: #FFF; }
+@media (max-width: 1280px) { .blog-index__h1 { font-size: 72px; line-height: 80px; letter-spacing: -2px; } }
+
+.blog-index__pills { display: flex; flex-wrap: wrap; gap: 8px; padding-bottom: 16px; }
+@media (max-width: 1280px) { .blog-index__pills { padding-bottom: 0; } }
+
+.blog-pill {
+  font-size: 14px; line-height: 22px; font-weight: 400; padding: 8px 12px; border-radius: 8px;
+  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, .08); color: #A7A7A7;
+  transition: background 150ms, color 150ms;
+}
+.blog-pill:hover { background: rgba(255, 255, 255, .16); color: #FFF; }
+.blog-pill[data-active="true"] { background: rgba(255, 255, 255, .16); color: #FFF; }
+
+.blog-index__mid-spacer { height: 80px; }
+@media (max-width: 1280px) { .blog-index__mid-spacer { height: 0; } }
+
+@media (max-width: 1280px) { .blog-index__grid-wrap { padding-bottom: 64px; } }
+
+.blog-index__zero-cell { grid-column: 1 / -1; height: 0; }
+
+.blog-index__cell { grid-column: span 4; }
+@media (max-width: 1280px) { .blog-index__cell { grid-column: 1 / -1; } }
+/* Featured repeats (css-1vpodit): only shown <=1280 */
+@media (min-width: 1281px) { .blog-index__cell--repeat { display: none; } }
+
+.blog-index__more { display: flex; justify-content: center; padding-top: 64px; }
+.blog-more-btn {
+  display: inline-flex; align-items: center; justify-content: center; white-space: nowrap;
+  padding: 10px 16px; font-size: 14px; line-height: 18px; font-weight: 500; color: #FFF;
+  background: rgba(255, 255, 255, .08); border: 1px solid rgba(255, 255, 255, .24); border-radius: 8px;
+  transition: color 200ms, background 200ms, opacity 200ms;
+}
+.blog-more-btn:hover { background: rgba(255, 255, 255, .16); }
+@media (max-width: 1280px) { .blog-more-btn { line-height: 16px; } }
+
+.blog-index__end-spacer { height: 320px; }
+@media (max-width: 1280px) { .blog-index__end-spacer { height: 0; } }
+.blog-index__end-spacer-2 { height: 0; }
+@media (max-width: 1280px) { .blog-index__end-spacer-2 { height: 32px; } }

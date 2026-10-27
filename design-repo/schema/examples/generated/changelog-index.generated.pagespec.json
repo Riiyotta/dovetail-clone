@@ -1,0 +1,294 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T18",
+ "route": "/changelog-index-pebblecart/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Pebblecart"
+ },
+ "meta": {
+  "title": "Pebblecart | Changelog"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Rowan bundle",
+    "actions": [
+     {
+      "label": "Thread trace",
+      "href": "https://pebblecart.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Marble plan",
+      "href": "https://pebblecart.example/navbar-0"
+     },
+     {
+      "label": "Prism",
+      "href": "https://pebblecart.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Notice"
+     },
+     {
+      "title": "Harvest"
+     },
+     {
+      "title": "Cobalt"
+     },
+     {
+      "title": "Harbor"
+     },
+     {
+      "title": "Lantern"
+     },
+     {
+      "title": "Falcon"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Beacon rowan",
+      "text": "Bundle grove thread compass sketch ember prism gather"
+     },
+     {
+      "title": "Summit",
+      "text": "Ledger tidal willow weigh basil measure bundle tidy"
+     },
+     {
+      "title": "Thread delta",
+      "text": "Marble field orbit cinder summit harvest cobalt share"
+     },
+     {
+      "title": "Lantern",
+      "text": "Basil rowan nimbus grove cedar trace quarry field"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "listing.page-header",
+   "variant": "changelog",
+   "content": {
+    "heading": "Shape meadow",
+    "actions": [
+     {
+      "label": "Steer cobalt",
+      "href": "https://pebblecart.example/page-header-0"
+     },
+     {
+      "label": "Share fjord",
+      "href": "https://pebblecart.example/page-header-1"
+     },
+     {
+      "label": "Signal refine",
+      "href": "https://pebblecart.example/page-header-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.year-group",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Rowan nimbus",
+      "href": "https://pebblecart.example/year-group-0"
+     },
+     {
+      "label": "Tidy thread",
+      "href": "https://pebblecart.example/year-group-1"
+     },
+     {
+      "label": "Trace marble",
+      "href": "https://pebblecart.example/year-group-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Ember shape cinder",
+      "text": "Sprout juniper",
+      "href": "https://pebblecart.example/year-group-item0"
+     },
+     {
+      "title": "Willow weigh beacon",
+      "text": "Atlas nimbus",
+      "href": "https://pebblecart.example/year-group-item1"
+     },
+     {
+      "title": "Delta marble ember",
+      "text": "Shape gather",
+      "href": "https://pebblecart.example/year-group-item2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.year-group",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Cobalt tidal",
+      "href": "https://pebblecart.example/year-group-0"
+     },
+     {
+      "label": "Willow falcon",
+      "href": "https://pebblecart.example/year-group-1"
+     },
+     {
+      "label": "Refine atlas",
+      "href": "https://pebblecart.example/year-group-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Pebble tidy map",
+      "text": "Trace sketch",
+      "href": "https://pebblecart.example/year-group-item0"
+     },
+     {
+      "title": "Cinder sprout harvest",
+      "text": "Sort share fjord",
+      "href": "https://pebblecart.example/year-group-item1"
+     },
+     {
+      "title": "Refine measure nimbus",
+      "text": "Canvas map delta",
+      "href": "https://pebblecart.example/year-group-item2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.inline-band",
+   "variant": "dark",
+   "content": {
+    "heading": "Plan orbit cinder summit",
+    "actions": [
+     {
+      "label": "Juniper cobalt",
+      "href": "https://pebblecart.example/inline-band-0"
+     },
+     {
+      "label": "Harbor fjord",
+      "href": "https://pebblecart.example/inline-band-1"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "lead": "Weigh refine rowan bundle tidy map",
+    "actions": [
+     {
+      "label": "Compass quarry",
+      "href": "https://pebblecart.example/footer-0"
+     },
+     {
+      "label": "Ember prism",
+      "href": "https://pebblecart.example/footer-1"
+     },
+     {
+      "label": "Cinder summit",
+      "href": "https://pebblecart.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Harvest"
+     },
+     {
+      "title": "Ledger"
+     },
+     {
+      "title": "Tidal"
+     },
+     {
+      "title": "Fjord"
+     },
+     {
+      "title": "Falcon"
+     },
+     {
+      "title": "Basil"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

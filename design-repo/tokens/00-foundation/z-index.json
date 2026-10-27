@@ -1,0 +1,23 @@
+{
+ "note": "z-index tokens. Every value cites path:line in the clone project and the text that line contains (`match`); extraction/verify_all.py re-reads them.",
+ "tokens": {
+  "z.nav": {
+   "value": "5",
+   "category": "zIndex",
+   "cite": "CLONE_SPEC.md:218",
+   "match": "`position:relative; z-index:5`"
+  },
+  "z.dropdown": {
+   "value": "6",
+   "category": "zIndex",
+   "cite": "CLONE_SPEC.md:226",
+   "match": "z-index:6; opacity:0; visibility:hidden"
+  },
+  "z.tooltip": {
+   "value": "4",
+   "category": "zIndex",
+   "cite": "CLONE_SPEC.md:196",
+   "match": "position:fixed; top:0; left:0; z-index:4"
+  }
+ }
+}

@@ -1,0 +1,749 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T1",
+ "route": "/product/ai-agents/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "accent",
+  "nav": "accent",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "AI Agents | Dovetail"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "accent",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "accent": "color.accent.agents"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "accent",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "accent": "color.accent.agents"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.product",
+   "variant": "media",
+   "content": {
+    "heading": "Punch above your headcount",
+    "lead": "Elit eiusmod ut dolore enim veniam exercitation nisi ea duis. In velit fugiat excepteur cupidatat sunt officia anim. Laborum dolor consectetur sed tempor labore magna.",
+    "actions": [
+     {
+      "label": "Request a demo",
+      "href": "/contact-sales/"
+     },
+     {
+      "label": "+",
+      "href": "https://docs.dovetail.com/integrations"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/pixel-shapes-left.png"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/pixel-shapes-right.png"
+     },
+     {
+      "assetRole": "icon.source",
+      "alt": "",
+      "ref": "/assets/marketing/ai-agents-hero-icon.png"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/GoogleMeet.svg"
+     },
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/marketing/MicrosoftTeams.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/Zoom.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/GoogleDrive.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/Salesforce.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/Zendesk.svg"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/marketing/ai-agents-hero.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/marketing/ai-agents-mobile-hero.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.logo-marquee",
+   "variant": "single-row",
+   "content": {
+    "lead": "CONNECTING THE WORLD’S GREATEST COMPANIES TO THEIR CUSTOMERS",
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Amazon",
+      "ref": "/assets/marketing/svg/amazon-918921.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Dyson",
+      "ref": "/assets/marketing/svg/dyson-990499.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Mercedes-Benz",
+      "ref": "/assets/marketing/svg/mercedes-benz-133521.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Qantas",
+      "ref": "/assets/marketing/svg/qantas-584168.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "AWS",
+      "ref": "/assets/marketing/svg/aws-271091.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Toyota",
+      "ref": "/assets/marketing/svg/toyota-301058.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Canva",
+      "ref": "/assets/marketing/svg/canva-585358.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Volvo",
+      "ref": "/assets/marketing/svg/volvo-486139.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Notion",
+      "ref": "/assets/marketing/svg/notion-653232.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Salesforce",
+      "ref": "/assets/marketing/svg/salesforce-823526.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Milwaukee",
+      "ref": "/assets/marketing/svg/milwaukee-672003.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "KPMG",
+      "ref": "/assets/marketing/svg/kpmg-168064.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Wise",
+      "ref": "/assets/marketing/svg/wise-541877.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "McKinsey & Company",
+      "ref": "/assets/marketing/svg/mckinsey-company-197947.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Ford",
+      "ref": "/assets/marketing/svg/ford-139900.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Walgreens",
+      "ref": "/assets/marketing/svg/walgreens-861455.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "marquee.loop",
+    "reducedMotionFallback": "paused"
+   }
+  },
+  {
+   "section": "content.statement",
+   "variant": "default",
+   "content": {
+    "heading": "Your team, minus the busywork",
+    "lead": "Minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident qui. Mollit est ipsum amet elit eiusmod ut dolore enim. Veniam exercitation nisi ea duis in velit fugiat. Excepteur cupidatat sunt officia anim."
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "content.scroll-video",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "video.product",
+      "alt": "",
+      "ref": "/assets/marketing/launch-2026-twin-cheri.mp4"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "scroll.scale",
+    "reducedMotionFallback": "static-scale"
+   }
+  },
+  {
+   "section": "features.sticky-features",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Set up once, sharpen with every run",
+      "text": "01",
+      "href": "/contact-sales/"
+     },
+     {
+      "title": "Plugs into your existing workflows",
+      "text": "02",
+      "href": "/contact-sales/"
+     },
+     {
+      "title": "Built for teams, not just tasks",
+      "text": "03",
+      "href": "/contact-sales/"
+     },
+     {
+      "title": "Pressure-test ideas with a Digital Twin",
+      "text": "04",
+      "href": "/contact-sales/"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Dovetail AI Agents product screenshot",
+      "ref": "/assets/marketing/ai-agents-feature-2.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Dovetail AI Agents product screenshot",
+      "ref": "/assets/marketing/ai-agents-feature-3.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Dovetail AI Agents product screenshot",
+      "ref": "/assets/marketing/ai-agents-feature-4.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Dovetail AI Agents product screenshot",
+      "ref": "/assets/marketing/ai-agents-feature-1.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Product screenshot",
+      "ref": "/assets/marketing/ai-agents-feature-2.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Product screenshot",
+      "ref": "/assets/marketing/ai-agents-feature-3.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Product screenshot",
+      "ref": "/assets/marketing/ai-agents-feature-4.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Product screenshot",
+      "ref": "/assets/marketing/ai-agents-feature-1.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "sticky.pin",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "interactive.prompt-cards",
+   "variant": "default",
+   "content": {
+    "heading": "Put AI Agents to work",
+    "lead": "Always on, no nudge needed. Every output backed by the real customer evidence in your workspace.",
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/marketing/3d-crown.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/marketing/3d-megaphone.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/marketing/3d-target.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/marketing/3d-magnifier.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/marketing/3d-messy-folder.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/marketing/3d-temperature.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "hover.overlay",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.product-quote",
+   "variant": "default",
+   "content": {
+    "lead": "HEAD OF UX RESEARCH",
+    "quote": {
+     "text": "“Lorem sit adipiscing do incididunt et aliqua minim nostrud. Laboris ex consequat irure voluptate cillum pariatur occaecat proident qui.”"
+    },
+    "actions": [
+     {
+      "label": "01",
+      "href": "#"
+     },
+     {
+      "label": "02",
+      "href": "#"
+     },
+     {
+      "label": "03",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/testimonial-grid-bg.png.png"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/marketing/customer-zapier-white-logo.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.autoplay",
+    "reducedMotionFallback": "no-autoplay"
+   }
+  },
+  {
+   "section": "features.card-carousel",
+   "variant": "default",
+   "content": {
+    "heading": "You set the rules. Agents do the rest.",
+    "lead": "Control what each agent does, and where the output lands, so the signal reaches exactly the work it's meant to inform.",
+    "actions": [
+     {
+      "label": "Request a demo",
+      "href": "/contact-sales/"
+     }
+    ],
+    "items": [
+     {
+      "title": "On-demand agents",
+      "text": "Consectetur sed tempor labore magna ad quis ullamco aliquip commodo aute. Reprehenderit esse nulla sint non culpa deserunt.",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/ai-agents-carousel-1.png"
+      }
+     },
+     {
+      "title": "Dovetail tools and triggers",
+      "text": "Trigger agents from Dovetail events, and define which Dovetail tools the agent can use.",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/ai-agents-carousel-2.png"
+      }
+     },
+     {
+      "title": "External triggers and MCP connectors",
+      "text": "Trigger agents from external events, and let them take action in the tools you already use—Slack, Linear, Figma, Notion, and more.",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/ai-agents-carousel-3.png"
+      }
+     },
+     {
+      "title": "Scope to what matters",
+      "text": "Point each agent to the relevant data sources so it only analyzes what matters for that output.",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/ai-agents-carousel-4.png"
+      }
+     },
+     {
+      "title": "Skills for complex tasks",
+      "text": "Laboris ex consequat irure voluptate cillum pariatur occaecat proident qui mollit est ipsum. Amet elit eiusmod.",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/ai-agents-carousel-5.png"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.manual",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.customer-stories",
+   "variant": "video-band",
+   "content": {
+    "actions": [
+     {
+      "label": "01",
+      "href": "#"
+     },
+     {
+      "label": "02",
+      "href": "#"
+     },
+     {
+      "label": "03",
+      "href": "#"
+     }
+    ],
+    "items": [
+     {
+      "title": "How customer insights drive and inspire Breville’s [ ] product innovation",
+      "text": "Et aliqua minim nostrud laboris ex consequat irure voluptate cillum. Pariatur occaecat proident qui mollit est ipsum amet elit eiusmod ut dolore. Enim veniam exercitation nisi ea duis in velit fugiat.",
+      "href": "/customers/breville/",
+      "media": {
+       "assetRole": "illustration.brand",
+       "alt": "Breville",
+       "ref": "/assets/marketing/svg/e1wn1hrv9-593209.svg"
+      }
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "video.product",
+      "alt": "",
+      "ref": "/assets/marketing/CustomerStoryBrevilleLoop.mp4"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Atlassian",
+      "ref": "/assets/marketing/svg/e1wn1hrv9-661009.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "Itaú Unibanco",
+      "ref": "/assets/marketing/svg/e1wn1hrv9-365555.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.autoplay",
+    "reducedMotionFallback": "no-autoplay"
+   }
+  },
+  {
+   "section": "interactive.faq",
+   "variant": "marketing",
+   "content": {
+    "heading": "FAQs",
+    "items": [
+     {
+      "title": "What are Dovetail AI Agents?",
+      "text": "Elit eiusmod ut dolore enim veniam exercitation nisi ea duis. In velit fugiat excepteur cupidatat sunt officia anim. Laborum dolor consectetur sed tempor labore magna ad quis ullamco aliquip. Commodo aute reprehenderit esse nulla sint."
+     },
+     {
+      "title": "What data do Agents draw on?",
+      "text": "Nisi ea duis in velit fugiat excepteur cupidatat sunt officia anim laborum dolor. Consectetur sed tempor labore magna."
+     },
+     {
+      "title": "How are Dovetail Agents different from general AI agents or automation tools?",
+      "text": "Cillum pariatur occaecat proident qui mollit est ipsum amet elit. Eiusmod ut dolore enim veniam exercitation nisi ea duis in velit fugiat excepteur. Cupidatat sunt officia anim laborum dolor consectetur sed tempor labore. Magna ad quis ullamco aliquip commodo aute reprehenderit esse."
+     },
+     {
+      "title": "Can I set up an Agent without existing customer data in Dovetail?",
+      "text": "Deserunt id lorem sit adipiscing do incididunt et aliqua minim nostrud laboris. Ex consequat irure voluptate cillum pariatur occaecat proident."
+     },
+     {
+      "title": "What user roles can create or manage an Agent?",
+      "text": "Sed tempor labore magna ad quis ullamco aliquip commodo. Aute reprehenderit esse nulla sint."
+     },
+     {
+      "title": "How do I interact with an Agent?",
+      "text": "Veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt. Officia anim laborum dolor consectetur."
+     },
+     {
+      "title": "How does an Agent deliver its output?",
+      "text": "Irure voluptate cillum pariatur occaecat proident qui mollit est ipsum amet elit."
+     },
+     {
+      "title": "Do I need to code to set them up?",
+      "text": "Non culpa deserunt id lorem sit adipiscing do incididunt et. Aliqua minim."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "accordion.height",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "dark",
+   "content": {
+    "heading": "The best never guess",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "#"
+     },
+     {
+      "label": "Start free trial",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-theright-salesforce.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestfarleft-aws.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestleft-canva.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestright-airwallex.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverright-notion.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverfarright-zapier.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessleft-wise.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessfarleft-breville.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

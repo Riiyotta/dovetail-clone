@@ -1,0 +1,251 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T10",
+ "route": "/roi-calculator-ivyhaven/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Ivyhaven"
+ },
+ "meta": {
+  "title": "Ivyhaven | Lead Tool"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Gather summit",
+    "actions": [
+     {
+      "label": "Cobalt harbor",
+      "href": "https://ivyhaven.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Willow",
+      "href": "https://ivyhaven.example/navbar-0"
+     },
+     {
+      "label": "Basil atlas",
+      "href": "https://ivyhaven.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Pebble"
+     },
+     {
+      "title": "Grove"
+     },
+     {
+      "title": "Map"
+     },
+     {
+      "title": "Compass"
+     },
+     {
+      "title": "Sketch"
+     },
+     {
+      "title": "Ember"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Orbit cinder",
+      "text": "Summit steer ledger tidal lantern signal basil rowan"
+     },
+     {
+      "title": "Pebble grove",
+      "text": "Map trace marble field prism gather summit harvest"
+     },
+     {
+      "title": "Ledger tidal",
+      "text": "Lantern signal beacon rowan nimbus grove cedar trace"
+     },
+     {
+      "title": "Quarry plan",
+      "text": "Orbit cinder summit juniper cobalt tidal fjord signal"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.tool",
+   "variant": "default",
+   "content": {
+    "heading": "Basil rowan bundle tidy",
+    "lead": "Map delta quarry ember prism cinder sprout harvest sort",
+    "actions": [
+     {
+      "label": "Lantern signal",
+      "href": "https://ivyhaven.example/tool-0"
+     },
+     {
+      "label": "Basil rowan",
+      "href": "https://ivyhaven.example/tool-1"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "interactive.roi-calculator",
+   "variant": "default",
+   "content": {
+    "lead": "Nimbus tidy",
+    "actions": [
+     {
+      "label": "Trace marble",
+      "href": "https://ivyhaven.example/roi-calculator-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "conversion.report-download",
+   "variant": "default",
+   "content": {
+    "heading": "Plan prism gather notice",
+    "lead": "Juniper ledger share willow signal basil measure pebble tidy cedar delta marble ember orbit",
+    "actions": [
+     {
+      "label": "Cinder",
+      "href": "https://ivyhaven.example/report-download-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "Steer sort share",
+      "ref": "generate:product.generated-visual/conversion.report-download-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.inline-band",
+   "variant": "compact",
+   "content": {
+    "heading": "Fjord weigh refine measure",
+    "actions": [
+     {
+      "label": "Pebble tidy",
+      "href": "https://ivyhaven.example/inline-band-0"
+     },
+     {
+      "label": "Cedar compass",
+      "href": "https://ivyhaven.example/inline-band-1"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "lead": "Quarry plan shape gather summit",
+    "actions": [
+     {
+      "label": "Sort tidal",
+      "href": "https://ivyhaven.example/footer-0"
+     },
+     {
+      "label": "Lantern signal",
+      "href": "https://ivyhaven.example/footer-1"
+     },
+     {
+      "label": "Beacon atlas",
+      "href": "https://ivyhaven.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Bundle"
+     },
+     {
+      "title": "Canvas"
+     },
+     {
+      "title": "Cedar"
+     },
+     {
+      "title": "Trace"
+     },
+     {
+      "title": "Marble"
+     },
+     {
+      "title": "Plan"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

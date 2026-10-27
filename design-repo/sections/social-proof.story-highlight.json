@@ -1,0 +1,108 @@
+{
+ "id": "social-proof.story-highlight",
+ "title": "Story highlight",
+ "semantic": {
+  "id": "social-proof.story-highlight",
+  "category": "SOCIAL_PROOF"
+ },
+ "source": {
+  "id": "component:ComparisonSlices:cmp-story__stats",
+  "file": "src/components/legal/ComparisonSlices.jsx",
+  "tag": "ul",
+  "lines": "152-164",
+  "tagLine": 152,
+  "anchor": "cmp-story__stats",
+  "anchorLine": 152
+ },
+ "purpose": "Customer story headline with stats, short quote, attribution and CTA beside an image.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [],
+   "forbiddenFields": [],
+   "observedOnRoutes": 4,
+   "observedOn": [
+    "/dovetail-vs-condens/",
+    "/dovetail-vs-looppanel/",
+    "/dovetail-vs-maze/",
+    "/dovetail-vs-notably/"
+   ],
+   "contentSampled": false
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [],
+  "fields": {},
+  "listSizes": {},
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 4,
+   "nodes": 4,
+   "minPx": 659.1,
+   "maxPx": 659.1,
+   "medianPx": 659.1,
+   "sample": {
+    "/dovetail-vs-condens/": [
+     659.1
+    ],
+    "/dovetail-vs-looppanel/": [
+     659.1
+    ],
+    "/dovetail-vs-maze/": [
+     659.1
+    ],
+    "/dovetail-vs-notably/": [
+     659.1
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/components/legal/ComparisonSlices.jsx:152-164",
+  "specs/comparison.md:1-40"
+ ]
+}

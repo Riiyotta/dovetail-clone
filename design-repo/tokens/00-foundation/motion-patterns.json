@@ -1,0 +1,184 @@
+{
+ "note": "closed set of motion patterns; reducedMotionFallback per pattern is what a PageSpec must declare. `gap` marks patterns the source has no reduced-motion rule for (recorded, not invented).",
+ "patterns": {
+  "static": {
+   "description": "no motion",
+   "reducedMotionFallback": "none-needed",
+   "cite": "CLONE_SPEC.md:502",
+   "match": "- **Motion:** none. No scroll reveals anywhere on this page"
+  },
+  "fade.in": {
+   "description": "opacity 0->1, 150ms ease-out, 300ms delay on load",
+   "reducedMotionFallback": "show-immediately",
+   "cite": "CLONE_SPEC.md:626",
+   "match": "| Hero intro + H1 | load | opacity 0→1 |"
+  },
+  "canvas.ascii-field": {
+   "description": "procedural glyph field, ~30fps, pointer push",
+   "reducedMotionFallback": "render-static-frame",
+   "cite": "CLONE_SPEC.md:647",
+   "match": "ASCII draws one static frame"
+  },
+  "logo.cycler": {
+   "description": "logo slot swap every 2200ms with 350ms fade",
+   "reducedMotionFallback": "freeze-initial-set",
+   "cite": "CLONE_SPEC.md:647",
+   "match": "the logo cycler, the chat, the eyes and the marquee"
+  },
+  "pointer.follow": {
+   "description": "eyeball pupils follow the pointer (lerp .25)",
+   "reducedMotionFallback": "rest-position",
+   "cite": "CLONE_SPEC.md:647",
+   "match": "the logo cycler, the chat, the eyes and the marquee"
+  },
+  "tabs.auto-advance": {
+   "description": "6000ms progress bar advances tabs; pauses on hover/focus/out of view",
+   "reducedMotionFallback": "no-autoplay",
+   "cite": "specs/company-shared.md:363",
+   "match": "- Tab autoplay: not started."
+  },
+  "canvas.orbit": {
+   "description": "nodes orbit dashed ellipses; glow breathes 4s",
+   "reducedMotionFallback": "static-layout",
+   "cite": "CLONE_SPEC.md:647",
+   "match": "`prefers-reduced-motion: reduce` disables all keyframe animations"
+  },
+  "scroll.sticky-progress": {
+   "description": "340vh sticky track maps scroll to a dot angle and active step",
+   "reducedMotionFallback": "static-steps",
+   "cite": "CLONE_SPEC.md:647",
+   "match": "the orbit/globe loops"
+  },
+  "canvas.globe-spin": {
+   "description": "wireframe globe spins 60s/rev while visible",
+   "reducedMotionFallback": "static-frame",
+   "cite": "CLONE_SPEC.md:647",
+   "match": "the orbit/globe loops"
+  },
+  "marquee.loop": {
+   "description": "endless translateX loop (170s CSS / 60s GSAP), pauses on hover/focus",
+   "reducedMotionFallback": "paused",
+   "cite": "specs/company-shared.md:362",
+   "match": "- Marquee: paused."
+  },
+  "pixel.dissolve-hover": {
+   "description": "16px pixel grid fills over 300ms on hover, then an overlay fades in",
+   "reducedMotionFallback": "unchanged",
+   "cite": "CLONE_SPEC.md:638",
+   "match": "| Story hover | hover | pixel dissolve #0238CE + overlay |",
+   "gap": "no reduced-motion rule recorded for the hover dissolve"
+  },
+  "cursor.tooltip": {
+   "description": "fixed tooltip follows the cursor at +16px",
+   "reducedMotionFallback": "unchanged",
+   "cite": "CLONE_SPEC.md:639",
+   "match": "| Tooltip | hover | follow cursor +16px; label 6px rise |",
+   "gap": "no reduced-motion rule recorded"
+  },
+  "carousel.autoplay": {
+   "description": "story/quote auto-advance (11s / 10s / 6s) with progress tabs",
+   "reducedMotionFallback": "no-autoplay",
+   "cite": "specs/marketing-shared.md:301",
+   "match": "`prefers-reduced-motion` disables marquee, auto-advance, the scroll-video scale and the keyframe fades."
+  },
+  "video.inview-autoplay": {
+   "description": "muted loop video plays while in view",
+   "reducedMotionFallback": "unchanged",
+   "cite": "specs/content-shared.md:124",
+   "match": "Plays when ≥ some threshold is in view, pauses out of view",
+   "gap": "no reduced-motion rule recorded for in-view video"
+  },
+  "video.modal": {
+   "description": "card opens an overlay player",
+   "reducedMotionFallback": "none-needed",
+   "cite": "specs/company-shared.md:203",
+   "match": "## S5. Video card and video modal"
+  },
+  "sticky.pin": {
+   "description": "element pinned with position:sticky while siblings scroll",
+   "reducedMotionFallback": "none-needed",
+   "cite": "specs/product.md:260",
+   "match": "## 5. ProductFeaturesSlice"
+  },
+  "scroll.scale": {
+   "description": "video card scales with scroll (>=1281 only)",
+   "reducedMotionFallback": "static-scale",
+   "cite": "specs/product.md:224",
+   "match": "disabled by reduced motion"
+  },
+  "scroll.spy": {
+   "description": "active link follows the section in view",
+   "reducedMotionFallback": "none-needed",
+   "cite": "specs/legal-doc.md:84",
+   "match": "### 2c. Right \"On this page\" TOC"
+  },
+  "dropdown.fade": {
+   "description": "panel opacity/visibility 150ms on :hover",
+   "reducedMotionFallback": "none-needed",
+   "cite": "CLONE_SPEC.md:641",
+   "match": "| Nav dropdown | :hover | opacity/visibility | 150ms |"
+  },
+  "modal.fade-scale": {
+   "description": "dialog opacity/translateY 8px/scale .98 -> none, 300ms ease",
+   "reducedMotionFallback": "show-immediately",
+   "cite": "CLONE_SPEC.md:645",
+   "match": "| Modal | 10s + interaction | opacity/translateY 8/scale .98 | 300ms ease |"
+  },
+  "gsap.mount-stagger": {
+   "description": "GSAP timeline on mount: rows, logo tiles, footer fade/scale in (power2.out)",
+   "reducedMotionFallback": "show-immediately",
+   "cite": "CLONE_SPEC.md:640",
+   "match": "| Final CTA | mount | rows / logos / buttons | GSAP power2.out (see section 10) |"
+  },
+  "accordion.height": {
+   "description": "GSAP height unset + opacity 1 over .3s on open; instant close",
+   "reducedMotionFallback": "instant-toggle",
+   "cite": "specs/marketing-shared.md:292",
+   "match": "| FAQ open | click | GSAP height unset + opacity 1, 0.3s; close is instant |"
+  },
+  "pixel.band-scrub": {
+   "description": "scroll-scrubbed pixel band colour snaps (>=1281)",
+   "reducedMotionFallback": "unchanged",
+   "cite": "specs/marketing-shared.md:293",
+   "match": "| Pixel bands | scroll (scrub) | per-cell colour snap, ≥1281 only |",
+   "gap": "no reduced-motion rule recorded for pixel bands"
+  },
+  "pixel.reveal": {
+   "description": "pixel-glyph rect keyframes",
+   "reducedMotionFallback": "show-final-state",
+   "cite": "specs/launch.md:124",
+   "match": "@media (prefers-reduced-motion: reduce) { .e4sdv0e9 rect { animation: auto ease 0s 1 normal none running none } }"
+  },
+  "typewriter": {
+   "description": "quote typed out with a caret and highlight",
+   "reducedMotionFallback": "full-text-no-caret",
+   "cite": "specs/customers-index.md:85",
+   "match": "reduced motion: full quote shown immediately, no caret, index advances every 5000ms"
+  },
+  "text.rotator": {
+   "description": "CSS word rotator",
+   "reducedMotionFallback": "unchanged",
+   "cite": "specs/company-shared.md:364",
+   "match": "- CSS rotators: keep running.",
+   "gap": "live site has no reduced-motion rule for rotators"
+  },
+  "carousel.manual": {
+   "description": "scroll-snap carousel with arrows / progress handle",
+   "reducedMotionFallback": "none-needed",
+   "cite": "specs/company-shared.md:252",
+   "match": "## S8. Horizontal carousel with progress handle"
+  },
+  "hover.overlay": {
+   "description": "hover overlay fade on cards",
+   "reducedMotionFallback": "none-needed",
+   "cite": "specs/product.md:324",
+   "match": "## 6. ProductPromptCardsSlice"
+  },
+  "sheet.slide": {
+   "description": "mobile bottom sheet slides up",
+   "reducedMotionFallback": "show-immediately",
+   "cite": "specs/resources-guide.md:91",
+   "match": "### Mobile TOC drawer"
+  }
+ }
+}

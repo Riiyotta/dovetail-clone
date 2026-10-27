@@ -1,0 +1,969 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T36",
+ "route": "/privacy/privacy-policy/",
+ "theme": "light",
+ "chrome": {
+  "banner": "legal",
+  "nav": "legal",
+  "footer": "light"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Privacy Policy"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "legal",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "legal",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "legal.doc-header",
+   "variant": "default",
+   "content": {
+    "heading": "Privacy Policy",
+    "actions": [
+     {
+      "label": "HOME",
+      "href": "/"
+     },
+     {
+      "label": "LEGAL",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.side-nav",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Legal",
+      "href": "#"
+     },
+     {
+      "label": "Privacy",
+      "href": "#"
+     },
+     {
+      "label": "Compliance With Laws",
+      "href": "/privacy/compliance-with-laws/"
+     },
+     {
+      "label": "Data Processing Agreement",
+      "href": "/privacy/data-processing-agreement/"
+     },
+     {
+      "label": "Privacy Policy",
+      "href": "/privacy/privacy-policy/"
+     },
+     {
+      "label": "Data Subject Access Request",
+      "href": "/privacy/data-subject-access-request/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "sticky.pin",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.doc-part",
+   "variant": "default",
+   "content": {
+    "heading": "1. How this policy works",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "1. How this policy works"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder term: Placeholder legal text. Defined terms, dates and party names would be inserted in placeholderthe final version. This line only approximates the length of the original section. placeholderDo not rely on this text. Lorem-style filler for a legal document layout. placeholder Placeholder wording continues in this sentence. Any similarity to actual contractual language is coincidental."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. This line only approximates the length of the original section. Do not rely placeholder link text on this text. Lorem-style filler for a legal document layout. Placeholder wording continues in this sentence."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Do not rely on this placeholder link text text. Lorem-style filler for a legal document layout."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. This paragraph is sample filler and does not form part of any agreement or policy. Replace this clause with approved wording before publishing. Nothing in this placeholder creates rights or obligations for anyone. The real terms for this section are intentionally not reproduced here. Sample clause text appears here for layout purposes only."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Replace this clause with approved wording before publishing. Nothing in this placeholder creates rights or obligations for anyone. The real terms for this section are intentionally not reproduced here. Sample clause text appears here for layout purposes only. Defined terms, dates and party names would be inserted in the final version. This line only approximates the length of the original section. Do not rely on this text. Lorem-style filler for a legal document layout. Placeholder wording continues in this sentence. Any similarity to actual contractual language is coincidental. This paragraph is sample filler and does not form part of any agreement or policy. Replace this clause with approved wording before publishing."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.doc-part",
+   "variant": "default",
+   "content": {
+    "heading": "2. What information we collect",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "2. What information we collect"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. The real terms for this section are intentionally not reproduced here. Sample clause text appears here for layout purposes only. Defined terms, dates and party names would be inserted in the final version. This line only approximates the length of the."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. This paragraph is sample filler and does not form."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Nothing in this placeholder creates rights or obligations for anyone."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. The real terms for this section are intentionally not."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. This paragraph is placeholder linksample filler and does not form placeholder linkpart of any agreement or policy. placeholder link Replace this clause with approved wording before."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Replace this clause with approved wording before publishing."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Any similarity to actual contractual language is."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. This paragraph is sample filler and does not."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Lorem-style filler for a legal document layout. Placeholder wording continues in this sentence. Any similarity to actual contractual language is coincidental."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder term: Placeholder legal text. Defined terms, dates and party names would be inserted in the final."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. The real terms for this section are intentionally not reproduced here. Sample clause text appears here for layout purposes only. Defined terms, dates and party names would be inserted in the final."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Nothing in this placeholder creates rights or obligations for anyone. The real terms for this section are."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Replace this clause with approved wording before publishing. Nothing in this."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. This paragraph is sample filler and does not form part of any agreement or policy. Replace this clause with approved wording."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Do not rely on this text. Lorem-style filler for a legal document layout. Placeholder wording continues in this sentence. Any similarity to actual contractual language is coincidental. This paragraph is sample filler and does not form part of any agreement or."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. This line only approximates the length of the original section. Do not rely on this text. Lorem-style filler for a legal document layout. Placeholder wording continues in this sentence. Any similarity to actual contractual language is coincidental. This paragraph is sample filler and does not form part of any agreement or policy. Replace this clause with approved wording before publishing."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.doc-part",
+   "variant": "default",
+   "content": {
+    "heading": "3. How we use information we collect",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "3. How we use information we collect"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Lorem-style filler for a legal document layout. Placeholder wording continues in this sentence."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. This paragraph is sample filler and does not."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Replace this clause with approved wording before publishing. Nothing in this placeholder creates rights or obligations."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Nothing in this placeholder creates rights."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. The real."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Sample clause text appears here for layout purposes only."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Defined terms, dates and."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. This line only approximates the length of the."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Do."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Lorem-style filler for a legal document layout. Placeholder wording."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Placeholder wording continues in this sentence."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Replace this clause with approved wording."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. This paragraph."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.doc-part",
+   "variant": "default",
+   "content": {
+    "heading": "4. How we share information we collect",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "4. How we share information we collect"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Replace this clause with approved wording before publishing. Nothing in this placeholder creates rights or obligations for anyone. The real terms for this section are."
+     },
+     {
+      "kind": "heading",
+      "text": "Sharing with other users"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. This paragraph is sample filler and does not form part of any agreement or policy. Replace this clause with approved wording before publishing. Nothing in this placeholder creates rights or obligations for anyone. The real terms for this section are intentionally not reproduced here. Sample clause text appears here for layout purposes only. Defined terms, dates and party names would be inserted in the."
+     },
+     {
+      "kind": "heading",
+      "text": "Sharing with third parties"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Nothing in this placeholder creates rights or obligations for anyone. The real terms for."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. This paragraph is."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Replace this clause with approved wording before publishing. Nothing in this."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Nothing in this placeholder creates rights or obligations for anyone. The real terms for this section are."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. The real terms for this section are."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Sample clause text appears here for layout purposes only. Defined terms, dates and party names would be inserted in the."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Defined terms, dates and party names would be inserted in the final version. This line only approximates the length."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. This line only approximates the length of the original section. Do not rely on this text. Lorem-style filler for a legal document layout."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Do not rely on this text. Lorem-style filler for a legal document layout. Placeholder wording continues in this sentence. Any similarity to actual contractual language is coincidental. This paragraph is sample filler and does not form part of any agreement or policy. Replace this clause with approved wording before publishing. Nothing in this placeholder creates rights or obligations for anyone. The real terms for this section are intentionally not reproduced here. Sample clause text appears here for layout purposes only."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Lorem-style."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Lorem-style filler for a legal document layout. Placeholder wording continues in this sentence. Any similarity to actual contractual language placeholder link text is coincidental. This paragraph is sample filler and does not form part of any agreement or policy. Replace this clause with approved wording."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.doc-part",
+   "variant": "default",
+   "content": {
+    "heading": "5. How we use tracking technologies",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "5. How we use tracking technologies"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Any similarity to actual contractual language is coincidental. This paragraph is sample filler and does not form part of any agreement or policy. Replace this clause with approved wording before publishing. Nothing in this placeholder creates rights or obligations for anyone. The real terms for this section are intentionally not."
+     },
+     {
+      "kind": "heading",
+      "text": "Required cookies"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Lorem-style filler for a legal document layout. Placeholder wording continues in this sentence. Any similarity to actual contractual language is coincidental. This paragraph is sample filler and does not form part of any agreement or policy. Replace this clause with approved wording before publishing."
+     },
+     {
+      "kind": "heading",
+      "text": "Performance cookies"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Do not rely on this text. Lorem-style filler for a legal document layout. Placeholder wording continues in this sentence. Any similarity to actual contractual language is coincidental. This paragraph is sample filler and does not form part of any agreement or policy."
+     },
+     {
+      "kind": "heading",
+      "text": "Functionality cookies"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Defined terms, dates and party names would be inserted in the final version. This line only approximates the length of the original section. Do not rely on this text. Lorem-style filler for a legal document layout. Placeholder wording continues in this sentence. Any similarity to actual contractual language is coincidental."
+     },
+     {
+      "kind": "heading",
+      "text": "Analytics cookies"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. The real terms for this section are intentionally not reproduced here. Sample clause text appears here for layout purposes only. Defined terms, dates and party names would be inserted in the."
+     },
+     {
+      "kind": "heading",
+      "text": "Targeting or advertising cookies"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Replace this clause with approved wording before publishing. Nothing in this placeholder creates rights or obligations for anyone. The real terms for this section are intentionally not reproduced here. Sample clause text appears here for layout purposes only. Defined terms, dates and party names would be inserted in the final version. This line only approximates the length of the original section. Do not rely on this text. Lorem-style filler for a legal document layout. Placeholder wording continues in this sentence."
+     },
+     {
+      "kind": "heading",
+      "text": "Managing your preferences"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. The real terms for this section are intentionally."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder item"
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. This paragraph is sample filler and does not placeholder linkform part of any agreement or policy. Replace this clause with placeholder linkapproved wording before publishing. Nothing in this placeholder creates rights or placeholder linkobligations for anyone. The real terms for this section are intentionally placeholder linknot reproduced here. Sample clause text appears here for layout purposes placeholder link only. Defined terms, dates and party names would be inserted in the final version."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. The real terms for this section are placeholder linkintentionally not reproduced here. Sample clause text appears here for placeholder linklayout purposes only. Defined terms, dates and party names would placeholder linkbe inserted in the final version. This line only approximates placeholder linkthe length of the original section. Do not rely on placeholder linkthis text. Lorem-style filler for a legal document layout. Placeholder placeholder linkwording continues in this sentence. Any similarity to actual contractual placeholder linklanguage is coincidental. This paragraph is sample filler and does placeholder link not form part of any agreement or policy. Replace this clause with approved wording before publishing."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Nothing in this placeholder creates rights or obligations for anyone. The real terms placeholder link for this section are intentionally not reproduced here. Sample clause text appears here for layout purposes only."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.doc-part",
+   "variant": "default",
+   "content": {
+    "heading": "6. How we respond to Do Not Track signals",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "6. How we respond to Do Not Track signals"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Do not rely on this text. Lorem-style filler for a legal document layout. Placeholder wording continues in this sentence. placeholder link text Any similarity to actual contractual language is coincidental. This paragraph is sample filler and does not form part of any agreement or policy."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.doc-part",
+   "variant": "default",
+   "content": {
+    "heading": "7. Managing your information",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "7. Managing your information"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Defined terms, dates and party names would be inserted in the final version. This line only approximates the length of the original section. placeholder link Do not rely on this text. Lorem-style filler for a legal document layout. Placeholder wording continues in this sentence. Any similarity to actual contractual language is coincidental."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Any similarity to actual contractual language is coincidental. This paragraph is sample filler and does not form part of any agreement or policy. Replace this clause with approved wording before publishing. Nothing in this placeholder creates rights or."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. This paragraph is sample filler and does not form part of any agreement or policy. Replace this clause with approved wording before publishing. Nothing in this placeholder creates rights or."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Lorem-style filler for a legal document layout. Placeholder wording continues in this sentence. Any similarity to actual contractual language is coincidental. This paragraph is sample filler and does not form part of any agreement or policy. Replace this clause with approved wording placeholder link before publishing. Nothing in this placeholder creates rights or obligations for anyone. The real terms for this section are intentionally not reproduced here. Sample clause text appears here for layout purposes only. Defined terms, dates and party names would be inserted in the final version."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.doc-part",
+   "variant": "default",
+   "content": {
+    "heading": "8. Data storage, transfer, and security",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "8. Data storage, transfer, and security"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Nothing in this placeholder creates rights or obligations for anyone. The real terms for this section are intentionally not placeholder link text reproduced here. Sample clause text appears here for layout purposes only. Defined terms, dates and party names would be inserted in the final."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. The real terms for this section are intentionally not reproduced here. Sample clause text appears here for layout purposes only. Defined terms, dates placeholder link text and party names would be inserted in the final version. This line only approximates the length of the original section. Do not rely on this text."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Replace this clause with approved wording before publishing. Nothing in this placeholder creates rights or obligations for anyone. The real terms for this section are."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.doc-part",
+   "variant": "default",
+   "content": {
+    "heading": "9. Children under 16",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "9. Children under 16"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. The real terms for this section are intentionally not reproduced here. Sample clause text appears here for layout purposes only. Defined terms, dates and party names placeholder link would be inserted in the final version. This line only approximates the length of the original section. Do not rely on this text. Lorem-style filler for a legal document layout."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.doc-part",
+   "variant": "default",
+   "content": {
+    "heading": "10. Links to other websites",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "10. Links to other websites"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Placeholder wording continues in this sentence. Any similarity to actual contractual language is coincidental. This paragraph is sample filler and does not form part of any agreement or policy. Replace this clause with approved wording before publishing."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.doc-part",
+   "variant": "default",
+   "content": {
+    "heading": "11. Changes",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "11. Changes"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. This paragraph is sample filler and does not form part of any agreement or policy. Replace this clause with approved wording before publishing. Nothing in this placeholder creates rights or obligations for anyone. The real terms for this section are intentionally not reproduced here. Sample clause text appears here for layout purposes only. Defined terms, dates and party names would be inserted in the final version. This line only approximates the length of the original section. Do not rely on this text. Lorem-style filler for a legal document layout."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.doc-part",
+   "variant": "default",
+   "content": {
+    "heading": "12. Contact us",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "12. Contact us"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Placeholder wording continues in this sentence. Any similarity to actual contractual language is placeholder link coincidental. This paragraph is sample filler and does not form part of any agreement or policy."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Lorem-style filler for a legal document layout. Placeholder wording continues in this sentence. Any similarity to actual contractual language is coincidental. This paragraph is sample filler and does not form part of any agreement or policy."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder term: Placeholder legal text. Lorem-style filler for a legal placeholder link text referencedocument layout. Placeholder wording continues in this sentence. placeholder link text reference Any similarity to actual contractual language is coincidental."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.doc-part",
+   "variant": "default",
+   "content": {
+    "heading": "13. Data retention",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "13. Data retention"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Any similarity to actual contractual language is coincidental. This paragraph is sample filler placeholder link text and does not form part of any agreement or policy. Replace this clause with approved wording before."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.doc-part",
+   "variant": "default",
+   "content": {
+    "heading": "Appendix 1",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Appendix 1"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.doc-part",
+   "variant": "default",
+   "content": {
+    "heading": "14. Additional rights for European residents",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "14. Additional rights for European residents"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Nothing in this placeholder creates rights or obligations for anyone. The real terms for this section are intentionally not."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Sample clause text appears."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Defined terms, dates and party names would."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. This line only approximates the length."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Do not rely on this text."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Lorem-style filler for a legal document layout. Placeholder."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Placeholder wording continues in this sentence. Any."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Any similarity to actual contractual language is coincidental. This paragraph is sample filler and does not form part of any agreement or policy."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. This paragraph is sample filler and does not form part."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. This paragraph is sample filler and does not form part of any agreement or policy. Replace this clause with approved wording before publishing. Nothing in this placeholder creates rights or obligations for anyone. The real terms for placeholder linkthis section are intentionally not reproduced here. Sample clause text appears here for layout purposes only. Defined terms, dates and party names would be inserted in the final version. This line only approximates the length of the original section. Do placeholder link not rely on this text. Lorem-style filler for a legal document layout. Placeholder wording continues in this sentence. Any similarity to actual contractual language is coincidental. This paragraph is sample filler and does not form part of any agreement or policy."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Replace this clause with approved wording before publishing. Nothing in this placeholder creates rights or obligations for anyone. The real terms for this section are intentionally not reproduced here. Sample clause text appears here for layout purposes only. Defined terms, dates and party names would be inserted in the final version. This line only approximates the length of the original section. Do not rely on this text. Lorem-style filler for a legal document layout."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.doc-part",
+   "variant": "default",
+   "content": {
+    "heading": "15. Legal bases for processing (for EEA users)",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "15. Legal bases for processing (for EEA users)"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Nothing in this placeholder creates rights or obligations for anyone. The real terms for this section are intentionally not reproduced here. Sample clause text appears here for layout purposes only. Defined terms, dates and party names would be inserted in the final version. This line only approximates the length of the."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. This line only approximates the length of the original section. Do not rely on this text. Lorem-style filler for a legal document layout. Placeholder wording continues in."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Do not rely on this text. Lorem-style filler for a legal document layout. Placeholder wording continues in this sentence. Any similarity to actual contractual language is coincidental. This paragraph is sample filler and does not."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Sample clause text appears here for layout purposes only."
+     },
+     {
+      "kind": "list-item",
+      "text": "Placeholder legal text. Defined terms, dates and party names would be."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. This paragraph is sample filler and does not form part of any agreement or policy. Replace this clause with approved wording before publishing. Nothing in this placeholder creates."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. Do not rely on this text. Lorem-style filler for a legal document layout. Placeholder wording continues in this sentence. Any similarity to actual contractual language is coincidental. This paragraph is sample filler and does not form part of any agreement or policy. Replace this clause with approved wording before publishing. Nothing in this placeholder creates rights or obligations for anyone. The real terms for this section are intentionally not reproduced here. Sample clause text appears here for layout purposes only."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Placeholder legal text. This line only approximates the length of the original section. Do not rely on this text. Lorem-style filler for a legal document layout. Placeholder wording continues in this sentence."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.updated-meta",
+   "variant": "default",
+   "content": {},
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "light",
+   "content": {
+    "heading": "The best never guess",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "#"
+     },
+     {
+      "label": "Start free trial",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-theright-salesforce.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestfarleft-aws.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestleft-canva.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestright-airwallex.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverright-notion.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverfarright-zapier.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessleft-wise.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessfarleft-breville.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "light",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "legal.on-this-page",
+   "variant": "default",
+   "content": {},
+   "motion": {
+    "pattern": "scroll.spy",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  }
+ ]
+}

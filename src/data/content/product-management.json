@@ -1,0 +1,655 @@
+{
+ "source": "https://dovetail.com/product-management/",
+ "template": "guide-hub",
+ "categoryName": "Product management",
+ "hubPath": "/product-management/",
+ "pillar": {
+  "h1": "Product management: A complete guide",
+  "pageTitle": "What Is Product Management? A Complete Guide",
+  "metaDescription": "Product management sits at the intersection of business, technology, and user experience. Learn what product managers do and how they drive product…",
+  "meta": [
+   {
+    "label": "Last updated",
+    "values": [
+     {
+      "text": "15 April 2026",
+      "href": null
+     }
+    ]
+   },
+   {
+    "label": "Reviewed by",
+    "values": [
+     {
+      "text": "Jean Kaluza",
+      "href": "/contributors/jean-kaluza/"
+     }
+    ]
+   }
+  ],
+  "tocItems": 2,
+  "bodyShape": {
+   "chars": 2973,
+   "p": 13,
+   "h2": 4
+  },
+  "bodyOrder": "h2 h2 h2 h2"
+ },
+ "editorsPicks": [
+  {
+   "href": "/product-management/what-is-product-management/",
+   "title": "What is product management?",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/product-management/product-roadmap/",
+   "title": "What is a product roadmap?",
+   "date": "1 September 2026"
+  },
+  {
+   "href": "/product-management/go-to-market-strategy/",
+   "title": "What is a go-to-market strategy?",
+   "date": "15 April 2026"
+  },
+  {
+   "href": "/product-management/research-mentorship-program-upskill-product-managers-designers/",
+   "title": "How to create a research mentorship program that upskills product managers and designers to conduct their own lightweight discovery interviews",
+   "date": "22 September 2026"
+  }
+ ],
+ "latestArticles": [
+  {
+   "href": "/product-management/value-vs-effort-matrix/",
+   "title": "What software builds a value versus effort matrix from customer feedback and analytics?",
+   "date": "13 October 2026"
+  },
+  {
+   "href": "/product-management/research-mentorship-program-upskill-product-managers-designers/",
+   "title": "How to create a research mentorship program that upskills product managers and designers to conduct their own lightweight discovery interviews",
+   "date": "22 September 2026"
+  },
+  {
+   "href": "/product-management/feature-prioritization/",
+   "title": "How to prioritize product features",
+   "date": "1 September 2026"
+  },
+  {
+   "href": "/product-management/product-roadmap/",
+   "title": "What is a product roadmap?",
+   "date": "1 September 2026"
+  },
+  {
+   "href": "/product-management/negotiate-research-timelines-product-managers-sprint-cycles/",
+   "title": "How to negotiate research timelines with product managers when sprint cycles leave no room for generative discovery",
+   "date": "11 August 2026"
+  },
+  {
+   "href": "/product-management/what-is-product-management/",
+   "title": "What is product management?",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/product-management/connecting-customer-feedback-to-product-metrics/",
+   "title": "How to connect customer feedback to product metrics: a practical guide for product managers",
+   "date": "28 April 2026"
+  },
+  {
+   "href": "/product-management/post-launch-feedback-loop/",
+   "title": "How to build a post-launch feedback loop that actually improves your product",
+   "date": "20 April 2026"
+  }
+ ],
+ "relatedTopics": [
+  {
+   "href": "/customer-research/",
+   "text": "Customer research"
+  },
+  {
+   "href": "/design-thinking/",
+   "text": "Design thinking"
+  },
+  {
+   "href": "/employee-experience/",
+   "text": "Employee experience"
+  },
+  {
+   "href": "/enterprise/",
+   "text": "Enterprise"
+  },
+  {
+   "href": "/market-research/",
+   "text": "Market research"
+  },
+  {
+   "href": "/patient-experience/",
+   "text": "Patient experience"
+  },
+  {
+   "href": "/product-development/",
+   "text": "Product development"
+  },
+  {
+   "href": "/research-maturity-assessment/",
+   "text": "Research maturity assessment"
+  },
+  {
+   "href": "/research/",
+   "text": "Research methods"
+  },
+  {
+   "href": "/surveys/",
+   "text": "Surveys"
+  },
+  {
+   "href": "/ux/",
+   "text": "User experience (UX)"
+  }
+ ],
+ "allArticlesHeading": "All Product management articles",
+ "note": "articles[] = the \"All <category> articles\" A-Z list rendered after the footer on the hub page (order as on site). title = list title; h1 = the article page H1 (can differ). Article pages show the hub editorsPicks/latestArticles unless editorsPicksOverride/latestArticlesOverride (href lists; titles/dates resolvable from articles[] / hub carousels) is set for that article. No thumbnails exist for guide articles. sidebarCta = the desktop sidebar promo shown on every article of this hub (not on the hub pillar page itself).",
+ "routesNotInList": [],
+ "articles": [
+  {
+   "path": "/product-management/post-launch-feedback-loop/",
+   "title": "How to build a post-launch feedback loop that actually improves your product",
+   "h1": "How to build a post-launch feedback loop that actually improves your product",
+   "lastUpdated": "20 April 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 14972,
+    "p": 50,
+    "h2": 8,
+    "ul": 7,
+    "li": 31,
+    "h3": 12
+   },
+   "bodyOrder": "h2 ul h2 h3 ul ul h3 ul h3 ul h3 ul h2 ul h2 h3 h3 h3 h3 h3 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/product-management/value-vs-effort-matrix/",
+    "/product-management/research-mentorship-program-upskill-product-managers-designers/",
+    "/product-management/feature-prioritization/",
+    "/product-management/product-roadmap/",
+    "/product-management/negotiate-research-timelines-product-managers-sprint-cycles/",
+    "/product-management/what-is-product-management/",
+    "/product-management/connecting-customer-feedback-to-product-metrics/",
+    "/product-management/agile-product-management/"
+   ]
+  },
+  {
+   "path": "/product-management/connecting-customer-feedback-to-product-metrics/",
+   "title": "How to connect customer feedback to product metrics: a practical guide for product managers",
+   "h1": "How to connect customer feedback to product metrics: a practical guide for product managers",
+   "lastUpdated": "28 April 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 14348,
+    "p": 48,
+    "h2": 10,
+    "ul": 2,
+    "li": 10,
+    "h3": 16,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 ul h2 ul h3 h3 h3 h3 h2 ol h2 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/product-management/value-vs-effort-matrix/",
+    "/product-management/research-mentorship-program-upskill-product-managers-designers/",
+    "/product-management/feature-prioritization/",
+    "/product-management/product-roadmap/",
+    "/product-management/negotiate-research-timelines-product-managers-sprint-cycles/",
+    "/product-management/what-is-product-management/",
+    "/product-management/post-launch-feedback-loop/",
+    "/product-management/agile-product-management/"
+   ]
+  },
+  {
+   "path": "/product-management/research-mentorship-program-upskill-product-managers-designers/",
+   "title": "How to create a research mentorship program that upskills product managers and designers to conduct their own lightweight discovery interviews",
+   "h1": "How to create a research mentorship program that upskills product managers and designers to conduct their own lightweight discovery interviews",
+   "lastUpdated": "22 September 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 16331,
+    "p": 41,
+    "h2": 11,
+    "h3": 13,
+    "ul": 6,
+    "li": 30,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h3 ul h3 ul h2 h3 ul h3 ol h3 h2 ul h2 h2 h3 h3 h3 h3 h3 h2 ul h2 ul h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/product-management/what-is-product-management/",
+    "/product-management/product-roadmap/",
+    "/product-management/go-to-market-strategy/",
+    "/product-management/minimum-viable-product/"
+   ],
+   "latestArticlesOverride": [
+    "/product-management/value-vs-effort-matrix/",
+    "/product-management/feature-prioritization/",
+    "/product-management/product-roadmap/",
+    "/product-management/negotiate-research-timelines-product-managers-sprint-cycles/",
+    "/product-management/what-is-product-management/",
+    "/product-management/connecting-customer-feedback-to-product-metrics/",
+    "/product-management/post-launch-feedback-loop/",
+    "/product-management/agile-product-management/"
+   ]
+  },
+  {
+   "path": "/product-management/negotiate-research-timelines-product-managers-sprint-cycles/",
+   "title": "How to negotiate research timelines with product managers when sprint cycles leave no room for generative discovery",
+   "h1": "How to negotiate research timelines with product managers when sprint cycles leave no room for generative discovery",
+   "lastUpdated": "11 August 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 13545,
+    "p": 39,
+    "h2": 8,
+    "h3": 17
+   },
+   "bodyOrder": "h2 h3 h3 h3 h2 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/product-management/value-vs-effort-matrix/",
+    "/product-management/research-mentorship-program-upskill-product-managers-designers/",
+    "/product-management/feature-prioritization/",
+    "/product-management/product-roadmap/",
+    "/product-management/what-is-product-management/",
+    "/product-management/connecting-customer-feedback-to-product-metrics/",
+    "/product-management/post-launch-feedback-loop/",
+    "/product-management/agile-product-management/"
+   ]
+  },
+  {
+   "path": "/product-management/feature-prioritization/",
+   "title": "How to prioritize product features",
+   "h1": "How to prioritize product features",
+   "lastUpdated": "1 September 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 13669,
+    "p": 42,
+    "h2": 10,
+    "h3": 9,
+    "ul": 2,
+    "li": 13,
+    "table": 1,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h3 ul h3 h3 ul h3 h3 h2 table h2 h2 ol h2 h2 h2 h2 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/product-management/value-vs-effort-matrix/",
+    "/product-management/research-mentorship-program-upskill-product-managers-designers/",
+    "/product-management/product-roadmap/",
+    "/product-management/negotiate-research-timelines-product-managers-sprint-cycles/",
+    "/product-management/what-is-product-management/",
+    "/product-management/connecting-customer-feedback-to-product-metrics/",
+    "/product-management/post-launch-feedback-loop/",
+    "/product-management/agile-product-management/"
+   ]
+  },
+  {
+   "path": "/product-management/okrs-for-product-teams/",
+   "title": "How to use OKRs for product teams",
+   "h1": "How to use OKRs for product teams",
+   "lastUpdated": "15 April 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 5,
+   "bodyShape": {
+    "chars": 7024,
+    "p": 25,
+    "h2": 6,
+    "ul": 1,
+    "li": 3,
+    "h3": 3
+   },
+   "bodyOrder": "h2 ul h2 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-management/product-metrics/",
+   "title": "What are product metrics?",
+   "h1": "What are product metrics?",
+   "lastUpdated": "15 April 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 7183,
+    "p": 30,
+    "h2": 6,
+    "h3": 10
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h2 h3 h3 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/product-management/what-is-product-management/",
+    "/product-management/product-roadmap/",
+    "/product-management/go-to-market-strategy/",
+    "/product-management/minimum-viable-product/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-management/go-to-market-strategy/",
+   "title": "What is a go-to-market strategy?",
+   "h1": "What is a go-to-market strategy?",
+   "lastUpdated": "15 April 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 4,
+   "bodyShape": {
+    "chars": 8059,
+    "p": 25,
+    "h2": 5,
+    "h3": 3
+   },
+   "bodyOrder": "h2 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/product-management/research-mentorship-program-upskill-product-managers-designers/",
+    "/product-management/what-is-product-management/",
+    "/product-management/product-roadmap/",
+    "/product-management/minimum-viable-product/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-management/minimum-viable-product/",
+   "title": "What is a minimum viable product (MVP)?",
+   "h1": "What is a minimum viable product (MVP)?",
+   "lastUpdated": "15 April 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 6,
+   "bodyShape": {
+    "chars": 6969,
+    "p": 29,
+    "h2": 7,
+    "h3": 3
+   },
+   "bodyOrder": "h2 h2 h2 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-management/product-requirements-document/",
+   "title": "What is a product requirements document (PRD)?",
+   "h1": "What is a product requirements document (PRD)?",
+   "lastUpdated": "15 April 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 10,
+   "bodyShape": {
+    "chars": 6840,
+    "p": 26,
+    "h2": 5,
+    "h3": 9
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h3 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/product-management/what-is-product-management/",
+    "/product-management/product-roadmap/",
+    "/product-management/go-to-market-strategy/",
+    "/product-management/minimum-viable-product/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-management/product-roadmap/",
+   "title": "What is a product roadmap?",
+   "h1": "What is a product roadmap?",
+   "lastUpdated": "1 September 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 13578,
+    "p": 44,
+    "h2": 12,
+    "h3": 8,
+    "ul": 2,
+    "li": 14,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h2 h2 ul h2 ul h2 ol h2 h2 h2 h2 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/product-management/what-is-product-management/",
+    "/product-management/go-to-market-strategy/",
+    "/product-management/minimum-viable-product/",
+    "/product-management/product-strategy/"
+   ],
+   "latestArticlesOverride": [
+    "/product-management/value-vs-effort-matrix/",
+    "/product-management/research-mentorship-program-upskill-product-managers-designers/",
+    "/product-management/feature-prioritization/",
+    "/product-management/negotiate-research-timelines-product-managers-sprint-cycles/",
+    "/product-management/what-is-product-management/",
+    "/product-management/connecting-customer-feedback-to-product-metrics/",
+    "/product-management/post-launch-feedback-loop/",
+    "/product-management/agile-product-management/"
+   ]
+  },
+  {
+   "path": "/product-management/product-strategy/",
+   "title": "What is a product strategy?",
+   "h1": "What is a product strategy?",
+   "lastUpdated": "15 April 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 8390,
+    "p": 35,
+    "h2": 7,
+    "h3": 8
+   },
+   "bodyOrder": "h2 h2 h2 h3 h3 h3 h3 h3 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/product-management/what-is-product-management/",
+    "/product-management/product-roadmap/",
+    "/product-management/go-to-market-strategy/",
+    "/product-management/minimum-viable-product/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-management/agile-product-management/",
+   "title": "What is agile product management?",
+   "h1": "What is agile product management?",
+   "lastUpdated": "15 April 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 7,
+   "bodyShape": {
+    "chars": 8659,
+    "p": 31,
+    "h2": 8,
+    "ul": 1,
+    "li": 4,
+    "h3": 3
+   },
+   "bodyOrder": "h2 ul h2 h2 h2 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/product-management/negotiate-research-timelines-product-managers-sprint-cycles/",
+    "/product-management/research-mentorship-program-upskill-product-managers-designers/",
+    "/product-management/what-is-product-management/",
+    "/product-management/product-roadmap/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-management/product-discovery/",
+   "title": "What is product discovery?",
+   "h1": "What is product discovery?",
+   "lastUpdated": "15 April 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 9,
+   "bodyShape": {
+    "chars": 6629,
+    "p": 29,
+    "h2": 6,
+    "h3": 7
+   },
+   "bodyOrder": "h2 h2 h2 h2 h3 h3 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/product-management/what-is-product-management/",
+    "/product-management/product-roadmap/",
+    "/product-management/go-to-market-strategy/",
+    "/product-management/minimum-viable-product/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/product-management/what-is-product-management/",
+   "title": "What is product management?",
+   "h1": "What is product management?",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 6,
+   "bodyShape": {
+    "chars": 6855,
+    "p": 28,
+    "h2": 7,
+    "h3": 3
+   },
+   "bodyOrder": "h2 h2 h2 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/product-management/product-roadmap/",
+    "/product-management/go-to-market-strategy/",
+    "/product-management/research-mentorship-program-upskill-product-managers-designers/",
+    "/product-management/minimum-viable-product/"
+   ],
+   "latestArticlesOverride": [
+    "/product-management/value-vs-effort-matrix/",
+    "/product-management/research-mentorship-program-upskill-product-managers-designers/",
+    "/product-management/feature-prioritization/",
+    "/product-management/product-roadmap/",
+    "/product-management/negotiate-research-timelines-product-managers-sprint-cycles/",
+    "/product-management/connecting-customer-feedback-to-product-metrics/",
+    "/product-management/post-launch-feedback-loop/",
+    "/product-management/agile-product-management/"
+   ]
+  },
+  {
+   "path": "/product-management/value-vs-effort-matrix/",
+   "title": "What software builds a value versus effort matrix from customer feedback and analytics?",
+   "h1": "What software builds a value versus effort matrix from customer feedback and analytics?",
+   "lastUpdated": "13 October 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 14303,
+    "p": 33,
+    "h2": 11,
+    "ul": 7,
+    "li": 36,
+    "table": 1,
+    "h3": 9,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 ul h2 table h2 h3 h3 h3 h3 h2 ul h2 ul h2 ol h2 ul h2 ul h2 ul h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/product-management/research-mentorship-program-upskill-product-managers-designers/",
+    "/product-management/feature-prioritization/",
+    "/product-management/product-roadmap/",
+    "/product-management/negotiate-research-timelines-product-managers-sprint-cycles/",
+    "/product-management/what-is-product-management/",
+    "/product-management/connecting-customer-feedback-to-product-metrics/",
+    "/product-management/post-launch-feedback-loop/",
+    "/product-management/agile-product-management/"
+   ]
+  }
+ ],
+ "sidebarCta": {
+  "heading": "Build better products with customer insights",
+  "body": "Product managers use Dovetail to centralize customer feedback, surface patterns, and make confident product decisions backed by evidence.",
+  "button": {
+   "text": "Contact sales",
+   "href": "/contact-sales/"
+  }
+ }
+}

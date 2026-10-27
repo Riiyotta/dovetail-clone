@@ -1,0 +1,4658 @@
+{
+ "note": "one template per page purpose (semantic, not DOM). nodes are structured objects in page order (shell head, content, shell footer, after-footer, overlays); a PageSpec's node sequence (section#variant) must match its template's node pattern (schema/semantic_validate.py TEMPLATE_SEQUENCE). required/repeatable/min/max counts and variants were derived from the measured node sequences of EVERY served route of the template (extraction/measured-values.json sectionHeights).",
+ "families": [
+  "blog",
+  "campaign",
+  "changelog",
+  "company",
+  "comparison",
+  "conversion",
+  "customers",
+  "editorial",
+  "events",
+  "home",
+  "lead-tool",
+  "legal",
+  "marketing",
+  "pricing",
+  "resources",
+  "utility"
+ ],
+ "templates": {
+  "T0": {
+   "id": "T0",
+   "name": "home",
+   "title": "Home",
+   "family": "home",
+   "status": "implemented",
+   "renderedBy": "Home",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": false,
+   "routePattern": "/",
+   "routeCount": 1,
+   "representativeRoute": "/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "hero.home",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.topic-tabs",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "context"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.data-diagram",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.topic-tabs",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "prompt"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.sticky-loop",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.govern-grid",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.story-marquee",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.final-cta",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "dark"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.twins-modal",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": "CLONE_SPEC.md:9-21"
+  },
+  "T1": {
+   "id": "T1",
+   "name": "product",
+   "title": "Product page",
+   "family": "marketing",
+   "status": "implemented",
+   "renderedBy": "ProductPage",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "accent",
+     "none"
+    ],
+    "nav": [
+     "accent"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": false,
+   "routePattern": "/product/*",
+   "routeCount": 7,
+   "representativeRoute": "/product/ai-agents/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "accent"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "accent"
+     ],
+     "observedOnRoutes": 7
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 7
+    },
+    {
+     "section": "hero.product",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "media",
+      "video-card"
+     ],
+     "observedOnRoutes": 7
+    },
+    {
+     "section": "social-proof.logo-marquee",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "single-row",
+      "with-ratings"
+     ],
+     "observedOnRoutes": 7
+    },
+    {
+     "section": "content.statement",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "content.scroll-video",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "social-proof.product-quote",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.sticky-features",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 7
+    },
+    {
+     "section": "features.audience-rows",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 4
+    },
+    {
+     "section": "features.voice-mode",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "interactive.prompt-cards",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 3
+    },
+    {
+     "section": "social-proof.product-quote",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 7
+    },
+    {
+     "section": "features.card-carousel",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 7
+    },
+    {
+     "section": "features.findings-grid",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 5
+    },
+    {
+     "section": "social-proof.customer-stories",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "video-band"
+     ],
+     "observedOnRoutes": 7
+    },
+    {
+     "section": "interactive.faq",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "marketing"
+     ],
+     "observedOnRoutes": 7
+    },
+    {
+     "section": "cta.final-cta",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "dark"
+     ],
+     "observedOnRoutes": 7
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 7
+    }
+   ],
+   "evidence": "specs/product.md:1-40"
+  },
+  "T2": {
+   "id": "T2",
+   "name": "roles",
+   "title": "Role page",
+   "family": "marketing",
+   "status": "implemented",
+   "renderedBy": "RolePage",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": false,
+   "routePattern": "/roles/<role>/",
+   "routeCount": 6,
+   "representativeRoute": "/roles/customer-experience/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "hero.role",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "content.manifesto",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "features.benefit-cards",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "features.numbered-steps",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.integrations-list",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "interactive.use-case-tabs",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "social-proof.testimonial",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "featured"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "social-proof.story-cards",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "cta.quiz-promo",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 3
+    },
+    {
+     "section": "interactive.faq",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "marketing"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 6
+    }
+   ],
+   "evidence": "specs/roles.md:1-40"
+  },
+  "T3": {
+   "id": "T3",
+   "name": "solutions",
+   "title": "Solution page",
+   "family": "marketing",
+   "status": "implemented",
+   "renderedBy": "SolutionPage",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "cta-band"
+    ]
+   },
+   "heroless": false,
+   "routePattern": "/solutions/*",
+   "routeCount": 4,
+   "representativeRoute": "/solutions/healthcare/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 4
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 4
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 4
+    },
+    {
+     "section": "hero.solution",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 4
+    },
+    {
+     "section": "social-proof.logo-marquee",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "two-row"
+     ],
+     "observedOnRoutes": 4
+    },
+    {
+     "section": "features.alternating-row",
+     "required": true,
+     "repeatable": true,
+     "minCount": 4,
+     "maxCount": 7,
+     "variants": [
+      "centered",
+      "media-left",
+      "media-right"
+     ],
+     "observedOnRoutes": 4
+    },
+    {
+     "section": "features.channel-grid",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.testimonial",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "featured"
+     ],
+     "observedOnRoutes": 3
+    },
+    {
+     "section": "cta.trial-band",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "solutions"
+     ],
+     "observedOnRoutes": 4
+    },
+    {
+     "section": "interactive.faq",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "marketing"
+     ],
+     "observedOnRoutes": 4
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "cta-band"
+     ],
+     "observedOnRoutes": 4
+    }
+   ],
+   "evidence": "specs/solutions.md:1-40"
+  },
+  "T4": {
+   "id": "T4",
+   "name": "enterprise",
+   "title": "Enterprise overview",
+   "family": "marketing",
+   "status": "implemented",
+   "renderedBy": "Enterprise",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": false,
+   "routePattern": "/enterprise/",
+   "routeCount": 1,
+   "representativeRoute": "/enterprise/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "hero.split-media",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "enterprise"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.logo-marquee",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "two-row"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "interactive.vertical-tabs",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.roi-map",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.integrations-grid",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.testimonial",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "featured"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.security-compliance",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.customer-stories",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "video-band"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "listing.resource-cards",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.final-cta",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "dark"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": "specs/enterprise.md:1-40"
+  },
+  "T5": {
+   "id": "T5",
+   "name": "pricing",
+   "title": "Pricing",
+   "family": "pricing",
+   "status": "implemented",
+   "renderedBy": "Pricing",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": false,
+   "routePattern": "/pricing/",
+   "routeCount": 1,
+   "representativeRoute": "/pricing/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "hero.pricing",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "pricing.plan-cards",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.logo-marquee",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "two-row"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "pricing.comparison-group",
+     "required": true,
+     "repeatable": true,
+     "minCount": 4,
+     "maxCount": 4,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "interactive.faq",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "marketing"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.final-cta",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "dark"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "pricing.sticky-plan-bar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": "specs/pricing.md:1-40"
+  },
+  "T6": {
+   "id": "T6",
+   "name": "deploy",
+   "title": "Deploy service",
+   "family": "marketing",
+   "status": "implemented",
+   "renderedBy": "Deploy",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": false,
+   "routePattern": "/deploy/",
+   "routeCount": 1,
+   "representativeRoute": "/deploy/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "hero.split-media",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "deploy"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.logo-marquee",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "two-row"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "content.statement",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "compact"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "content.section-intro",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.alternating-row",
+     "required": true,
+     "repeatable": true,
+     "minCount": 3,
+     "maxCount": 3,
+     "variants": [
+      "media-left",
+      "media-right"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.icon-grid",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.security-compliance",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "conversion.lead-form",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "scoping-call"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "interactive.faq",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "marketing"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.closing-band",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": "specs/deploy.md:1-40"
+  },
+  "T7": {
+   "id": "T7",
+   "name": "demo-form",
+   "title": "Demo / contact-sales form",
+   "family": "conversion",
+   "status": "implemented",
+   "renderedBy": "DemoForm",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": true,
+   "routePattern": "/contact-sales/, /request-a-demo/",
+   "routeCount": 2,
+   "representativeRoute": "/contact-sales/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "conversion.lead-form",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "demo"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "social-proof.logo-marquee",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "two-row"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "social-proof.tei-card",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "stats"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "features.icon-grid",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "social-proof.testimonial",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "featured"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "cta.final-cta",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "dark"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 2
+    }
+   ],
+   "evidence": "specs/demo-form.md:1-40"
+  },
+  "T8": {
+   "id": "T8",
+   "name": "comparison-landing",
+   "title": "Competitor comparison landing",
+   "family": "comparison",
+   "status": "implemented",
+   "renderedBy": "ComparisonPage",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": false,
+   "routePattern": "/dovetail-vs-*/",
+   "routeCount": 16,
+   "representativeRoute": "/dovetail-vs-aurelius/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 16
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 16
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 16
+    },
+    {
+     "section": "hero.comparison",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 16
+    },
+    {
+     "section": "content.full-bleed-image",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 16
+    },
+    {
+     "section": "social-proof.logo-marquee",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "single-row"
+     ],
+     "observedOnRoutes": 16
+    },
+    {
+     "section": "content.split-intro",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 16
+    },
+    {
+     "section": "social-proof.tei-card",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "banner"
+     ],
+     "observedOnRoutes": 16
+    },
+    {
+     "section": "social-proof.testimonial",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "featured"
+     ],
+     "observedOnRoutes": 12
+    },
+    {
+     "section": "features.choose-grid",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 16
+    },
+    {
+     "section": "comparison.intro",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 16
+    },
+    {
+     "section": "comparison.table",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 16
+    },
+    {
+     "section": "social-proof.awards-marquee",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 16
+    },
+    {
+     "section": "social-proof.story-highlight",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 4
+    },
+    {
+     "section": "social-proof.testimonial",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "featured"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.migrate-band",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 16
+    },
+    {
+     "section": "cta.trial-band",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "comparison"
+     ],
+     "observedOnRoutes": 16
+    },
+    {
+     "section": "interactive.faq",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "tools"
+     ],
+     "observedOnRoutes": 16
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 16
+    }
+   ],
+   "evidence": "specs/comparison.md:1-40"
+  },
+  "T9": {
+   "id": "T9",
+   "name": "template-landing",
+   "title": "Template download landing",
+   "family": "lead-tool",
+   "status": "implemented",
+   "renderedBy": "TemplateLanding",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": false,
+   "routePattern": "/*-template/",
+   "routeCount": 3,
+   "representativeRoute": "/research-report-template/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 3
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 3
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 3
+    },
+    {
+     "section": "hero.template",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 3
+    },
+    {
+     "section": "social-proof.logo-marquee",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "two-row"
+     ],
+     "observedOnRoutes": 3
+    },
+    {
+     "section": "content.section-intro",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "centered"
+     ],
+     "observedOnRoutes": 3
+    },
+    {
+     "section": "features.alternating-row",
+     "required": true,
+     "repeatable": true,
+     "minCount": 3,
+     "maxCount": 3,
+     "variants": [
+      "media-left",
+      "media-right"
+     ],
+     "observedOnRoutes": 3
+    },
+    {
+     "section": "features.checklist-grid",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 3
+    },
+    {
+     "section": "interactive.faq",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "tools"
+     ],
+     "observedOnRoutes": 3
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 3
+    }
+   ],
+   "evidence": "specs/template-landing.md:1-30"
+  },
+  "T10": {
+   "id": "T10",
+   "name": "roi-calculator",
+   "title": "ROI calculator",
+   "family": "lead-tool",
+   "status": "implemented",
+   "renderedBy": "RoiCalculator",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": false,
+   "routePattern": "/roi-calculator/",
+   "routeCount": 1,
+   "representativeRoute": "/roi-calculator/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "hero.tool",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "interactive.roi-calculator",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "conversion.report-download",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.inline-band",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "compact"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": "specs/roi-calculator.md:1-30"
+  },
+  "T11": {
+   "id": "T11",
+   "name": "quiz-hub",
+   "title": "Quiz hub",
+   "family": "lead-tool",
+   "status": "implemented",
+   "renderedBy": "QuizHub",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": false,
+   "routePattern": "/quiz/",
+   "routeCount": 1,
+   "representativeRoute": "/quiz/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "hero.quiz-hub",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.inline-band",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "compact"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": "specs/quiz.md:1-30"
+  },
+  "T12": {
+   "id": "T12",
+   "name": "role-quiz",
+   "title": "Role quiz",
+   "family": "lead-tool",
+   "status": "implemented",
+   "renderedBy": "QuizPage",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": true,
+   "routePattern": "/roles/<role>/quiz/",
+   "routeCount": 3,
+   "representativeRoute": "/roles/design/quiz/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 3
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 3
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 3
+    },
+    {
+     "section": "interactive.role-quiz",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 3
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 3
+    }
+   ],
+   "evidence": "specs/quiz.md:40-80"
+  },
+  "T13": {
+   "id": "T13",
+   "name": "campaign-best-never-guess",
+   "title": "Campaign landing (The best never guess)",
+   "family": "campaign",
+   "status": "implemented",
+   "renderedBy": "BestNeverGuessPage",
+   "theme": "campaign",
+   "chrome": {
+    "banner": [
+     "none"
+    ],
+    "nav": [
+     "none"
+    ],
+    "footer": [
+     "none"
+    ]
+   },
+   "heroless": false,
+   "routePattern": "/the-best-never-guess/",
+   "routeCount": 1,
+   "representativeRoute": "/the-best-never-guess/",
+   "nodes": [
+    {
+     "section": "shell.campaign-nav",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "hero.campaign",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "content.campaign-text",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.testimonial",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "campaign"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.story-grid",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.team-proof",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "conversion.trial-signup",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.campaign-footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "campaign"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": "specs/best-never-guess.md:1-30"
+  },
+  "T14": {
+   "id": "T14",
+   "name": "campaign-launch",
+   "title": "Launch microsite",
+   "family": "campaign",
+   "status": "implemented",
+   "renderedBy": "LaunchPage",
+   "theme": "campaign",
+   "chrome": {
+    "banner": [
+     "none"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "none"
+    ]
+   },
+   "heroless": false,
+   "routePattern": "/launch/suns-out/",
+   "routeCount": 1,
+   "representativeRoute": "/launch/suns-out/",
+   "nodes": [
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "hero.launch",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "content.launch-recap",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.launch-feature",
+     "required": true,
+     "repeatable": true,
+     "minCount": 9,
+     "maxCount": 9,
+     "variants": [
+      "bullets",
+      "people",
+      "split",
+      "title-block"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.launch-closing",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.campaign-footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "launch"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.section-nav",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": "specs/launch.md:1-30"
+  },
+  "T15": {
+   "id": "T15",
+   "name": "campaign-event",
+   "title": "Event campaign landing",
+   "family": "campaign",
+   "status": "implemented",
+   "renderedBy": "AwsSummit",
+   "theme": "campaign",
+   "chrome": {
+    "banner": [
+     "none"
+    ],
+    "nav": [
+     "none"
+    ],
+    "footer": [
+     "none"
+    ]
+   },
+   "heroless": false,
+   "routePattern": "/aws-summit-sydney-2026/",
+   "routeCount": 1,
+   "representativeRoute": "/aws-summit-sydney-2026/",
+   "nodes": [
+    {
+     "section": "shell.campaign-nav",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "hero.campaign",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "content.campaign-text",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.testimonial",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "campaign"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.story-grid",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.team-proof",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "conversion.trial-signup",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "company.careers-callout",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.campaign-footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "campaign"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": "specs/campaign-aws-summit.md:1-30"
+  },
+  "T16": {
+   "id": "T16",
+   "name": "blog-index",
+   "title": "Blog index",
+   "family": "blog",
+   "status": "implemented",
+   "renderedBy": "BlogIndex",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": true,
+   "routePattern": "/blog/, /blog/<tag>/",
+   "routeCount": 6,
+   "representativeRoute": "/blog/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "listing.featured-header",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "listing.card-grid",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "blog"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "cta.final-cta",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "dark"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 6
+    }
+   ],
+   "evidence": "specs/blog-index.md:1-30"
+  },
+  "T17": {
+   "id": "T17",
+   "name": "blog-post",
+   "title": "Blog post",
+   "family": "blog",
+   "status": "implemented",
+   "renderedBy": "BlogPost",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": true,
+   "routePattern": "/blog/<slug>/",
+   "routeCount": 202,
+   "representativeRoute": "/blog/2025-fall-launch/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 202
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 202
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 202
+    },
+    {
+     "section": "article.header",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "dark-media"
+     ],
+     "observedOnRoutes": 202
+    },
+    {
+     "section": "article.lede",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 196
+    },
+    {
+     "section": "cta.sidebar-card",
+     "required": true,
+     "repeatable": true,
+     "minCount": 2,
+     "maxCount": 3,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 202
+    },
+    {
+     "section": "article.chapter",
+     "required": true,
+     "repeatable": true,
+     "minCount": 1,
+     "maxCount": 18,
+     "variants": [
+      "dark"
+     ],
+     "observedOnRoutes": 202
+    },
+    {
+     "section": "listing.related-articles",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "cards"
+     ],
+     "observedOnRoutes": 189
+    },
+    {
+     "section": "cta.final-cta",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "dark"
+     ],
+     "observedOnRoutes": 202
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 202
+    }
+   ],
+   "evidence": "specs/blog-post.md:1-30"
+  },
+  "T18": {
+   "id": "T18",
+   "name": "changelog-index",
+   "title": "Changelog index",
+   "family": "changelog",
+   "status": "implemented",
+   "renderedBy": "ChangelogIndex",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": true,
+   "routePattern": "/changelog/, /changelog/category/*/",
+   "routeCount": 7,
+   "representativeRoute": "/changelog/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 7
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 7
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 7
+    },
+    {
+     "section": "listing.page-header",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "changelog"
+     ],
+     "observedOnRoutes": 7
+    },
+    {
+     "section": "listing.year-group",
+     "required": true,
+     "repeatable": true,
+     "minCount": 2,
+     "maxCount": 10,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 7
+    },
+    {
+     "section": "cta.inline-band",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "dark"
+     ],
+     "observedOnRoutes": 7
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 7
+    }
+   ],
+   "evidence": "specs/changelog-index.md:1-30"
+  },
+  "T19": {
+   "id": "T19",
+   "name": "changelog-entry",
+   "title": "Changelog entry",
+   "family": "changelog",
+   "status": "implemented",
+   "renderedBy": "ChangelogEntry",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": true,
+   "routePattern": "/changelog/<slug>/",
+   "routeCount": 349,
+   "representativeRoute": "/changelog/15-small-improvements/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 349
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 349
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 349
+    },
+    {
+     "section": "article.header",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "compact"
+     ],
+     "observedOnRoutes": 349
+    },
+    {
+     "section": "article.hero-media",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 205
+    },
+    {
+     "section": "article.chapter",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "dark"
+     ],
+     "observedOnRoutes": 349
+    },
+    {
+     "section": "cta.entry-actions",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 349
+    },
+    {
+     "section": "listing.prev-next",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 349
+    },
+    {
+     "section": "cta.final-cta",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "dark"
+     ],
+     "observedOnRoutes": 349
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 349
+    }
+   ],
+   "evidence": "specs/changelog-entry.md:1-30"
+  },
+  "T20": {
+   "id": "T20",
+   "name": "guide-hub",
+   "title": "Topic hub (pillar article + A-Z index)",
+   "family": "editorial",
+   "status": "implemented",
+   "renderedBy": "GuideArticle (isHub)",
+   "theme": "light",
+   "chrome": {
+    "banner": [
+     "light"
+    ],
+    "nav": [
+     "light"
+    ],
+    "footer": [
+     "light"
+    ]
+   },
+   "heroless": true,
+   "routePattern": "/<hub>/",
+   "routeCount": 10,
+   "representativeRoute": "/customer-research/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 10
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 10
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 10
+    },
+    {
+     "section": "article.header",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 10
+    },
+    {
+     "section": "article.byline",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 10
+    },
+    {
+     "section": "article.chapter",
+     "required": true,
+     "repeatable": true,
+     "minCount": 2,
+     "maxCount": 48,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 10
+    },
+    {
+     "section": "article.related-topics",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 10
+    },
+    {
+     "section": "listing.article-carousel",
+     "required": true,
+     "repeatable": true,
+     "minCount": 2,
+     "maxCount": 2,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 10
+    },
+    {
+     "section": "cta.inline-band",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 10
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 10
+    },
+    {
+     "section": "listing.az-index",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 10
+    },
+    {
+     "section": "interactive.toc-sheet",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 10
+    }
+   ],
+   "evidence": "specs/guide-article.md:1-40"
+  },
+  "T21": {
+   "id": "T21",
+   "name": "editorial-article",
+   "title": "Editorial article",
+   "family": "editorial",
+   "status": "implemented",
+   "renderedBy": "GuideArticle / EnterpriseArticle / ToolsArticle",
+   "theme": "light",
+   "chrome": {
+    "banner": [
+     "default",
+     "light"
+    ],
+    "nav": [
+     "light"
+    ],
+    "footer": [
+     "light"
+    ]
+   },
+   "heroless": true,
+   "routePattern": "/<hub>/<slug>/, /guides/<slug>/, /enterprise/<article>/, /research-maturity-assessment/",
+   "routeCount": 1130,
+   "representativeRoute": "/customer-research/actionable-feedback/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default",
+      "light"
+     ],
+     "observedOnRoutes": 1130
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 1130
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1130
+    },
+    {
+     "section": "article.header",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 1130
+    },
+    {
+     "section": "article.byline",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1130
+    },
+    {
+     "section": "cta.sidebar-card",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1129
+    },
+    {
+     "section": "article.contents-nav",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1129
+    },
+    {
+     "section": "article.chapter",
+     "required": true,
+     "repeatable": true,
+     "minCount": 6,
+     "maxCount": 60,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 1130
+    },
+    {
+     "section": "article.related-topics",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1130
+    },
+    {
+     "section": "listing.article-carousel",
+     "required": false,
+     "repeatable": true,
+     "minCount": 0,
+     "maxCount": 2,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1129
+    },
+    {
+     "section": "cta.inline-band",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 1130
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 1130
+    },
+    {
+     "section": "interactive.toc-sheet",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1130
+    }
+   ],
+   "evidence": "specs/guide-article.md:1-40"
+  },
+  "T22": {
+   "id": "T22",
+   "name": "comparison-article",
+   "title": "Comparison / review article",
+   "family": "comparison",
+   "status": "implemented",
+   "renderedBy": "ToolsArticle / ResourcesGuide",
+   "theme": "light",
+   "chrome": {
+    "banner": [
+     "default",
+     "light"
+    ],
+    "nav": [
+     "light"
+    ],
+    "footer": [
+     "light"
+    ]
+   },
+   "heroless": true,
+   "routePattern": "/resources/dovetail-vs-*/, /resources/dovetail-review/, /resources/insight7-alternatives/",
+   "routeCount": 6,
+   "representativeRoute": "/resources/dovetail-review/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default",
+      "light"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "article.header",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "article.byline",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "cta.sidebar-card",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "article.contents-nav",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "article.chapter",
+     "required": true,
+     "repeatable": true,
+     "minCount": 11,
+     "maxCount": 21,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "article.related-topics",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 4
+    },
+    {
+     "section": "listing.related-articles",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "text-links"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "cta.inline-band",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "interactive.toc-sheet",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 6
+    }
+   ],
+   "evidence": "specs/resources-guide.md:1-30"
+  },
+  "T23": {
+   "id": "T23",
+   "name": "guides-index",
+   "title": "Guides index",
+   "family": "editorial",
+   "status": "implemented",
+   "renderedBy": "GuidesIndex",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": true,
+   "routePattern": "/guides/",
+   "routeCount": 1,
+   "representativeRoute": "/guides/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "listing.page-header",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "intro-actions"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.tei-card",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "banner"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "listing.topic-links",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.final-cta",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "dark"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": "specs/guides-index.md:1-30"
+  },
+  "T24": {
+   "id": "T24",
+   "name": "contributors-index",
+   "title": "Contributors index",
+   "family": "editorial",
+   "status": "implemented",
+   "renderedBy": "ContributorsIndex",
+   "theme": "light",
+   "chrome": {
+    "banner": [
+     "light"
+    ],
+    "nav": [
+     "light"
+    ],
+    "footer": [
+     "light"
+    ]
+   },
+   "heroless": true,
+   "routePattern": "/contributors/",
+   "routeCount": 1,
+   "representativeRoute": "/contributors/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "listing.page-header",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "listing.people-rows",
+     "required": true,
+     "repeatable": true,
+     "minCount": 2,
+     "maxCount": 2,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "content.editorial-process",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.final-cta",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": "specs/contributors-index.md:1-30"
+  },
+  "T25": {
+   "id": "T25",
+   "name": "contributor-profile",
+   "title": "Contributor profile",
+   "family": "editorial",
+   "status": "implemented",
+   "renderedBy": "ContributorProfile",
+   "theme": "light",
+   "chrome": {
+    "banner": [
+     "light"
+    ],
+    "nav": [
+     "light"
+    ],
+    "footer": [
+     "light"
+    ]
+   },
+   "heroless": true,
+   "routePattern": "/contributors/<slug>/",
+   "routeCount": 20,
+   "representativeRoute": "/contributors/brittany-ferri/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 20
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 20
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 20
+    },
+    {
+     "section": "content.profile-header",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 20
+    },
+    {
+     "section": "content.skills-tags",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 20
+    },
+    {
+     "section": "content.editorial-process",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 20
+    },
+    {
+     "section": "listing.article-list",
+     "required": true,
+     "repeatable": true,
+     "minCount": 1,
+     "maxCount": 2,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 20
+    },
+    {
+     "section": "cta.final-cta",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 20
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 20
+    }
+   ],
+   "evidence": "specs/contributor-profile.md:1-30"
+  },
+  "T26": {
+   "id": "T26",
+   "name": "customers-index",
+   "title": "Customer stories index",
+   "family": "customers",
+   "status": "implemented",
+   "renderedBy": "CustomersIndex",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": false,
+   "routePattern": "/customers/",
+   "routeCount": 1,
+   "representativeRoute": "/customers/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "hero.typewriter",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "listing.story-grid",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.logo-wall",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.customer-stories",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "video-band"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.ratings",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.testimonial-wall",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.final-cta",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "dark"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": "specs/customers-index.md:1-30"
+  },
+  "T27": {
+   "id": "T27",
+   "name": "customer-story",
+   "title": "Customer story",
+   "family": "customers",
+   "status": "implemented",
+   "renderedBy": "CustomerStory",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "accent"
+    ],
+    "nav": [
+     "accent"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": false,
+   "routePattern": "/customers/<slug>/",
+   "routeCount": 39,
+   "representativeRoute": "/customers/achievers/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "accent"
+     ],
+     "observedOnRoutes": 39
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "accent"
+     ],
+     "observedOnRoutes": 39
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 39
+    },
+    {
+     "section": "hero.story",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "image",
+      "video"
+     ],
+     "observedOnRoutes": 39
+    },
+    {
+     "section": "article.story-facts",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 39
+    },
+    {
+     "section": "article.story-chapter",
+     "required": true,
+     "repeatable": true,
+     "minCount": 3,
+     "maxCount": 6,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 39
+    },
+    {
+     "section": "cta.closing-with-stories",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 39
+    },
+    {
+     "section": "interactive.faq",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "company"
+     ],
+     "observedOnRoutes": 18
+    },
+    {
+     "section": "cta.final-cta",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "dark"
+     ],
+     "observedOnRoutes": 39
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 39
+    }
+   ],
+   "evidence": "specs/customers-story.md:1-30"
+  },
+  "T28": {
+   "id": "T28",
+   "name": "events-index",
+   "title": "Events / webinars index",
+   "family": "events",
+   "status": "implemented",
+   "renderedBy": "EventsIndex",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": false,
+   "routePattern": "/events/, /webinars/",
+   "routeCount": 2,
+   "representativeRoute": "/events/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "hero.dot-title",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "listing.event-cards",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "listing.row-list",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "past-events"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "cta.final-cta",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "dark"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.inline-band",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "dark"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 2
+    }
+   ],
+   "evidence": "specs/events-index.md:1-30"
+  },
+  "T29": {
+   "id": "T29",
+   "name": "event-detail",
+   "title": "Event detail",
+   "family": "events",
+   "status": "implemented",
+   "renderedBy": "EventDetail",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": true,
+   "routePattern": "/events/<slug>/",
+   "routeCount": 47,
+   "representativeRoute": "/events/a-balancing-act-mastering-customer-feedback/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 47
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 47
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 47
+    },
+    {
+     "section": "event.header",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 47
+    },
+    {
+     "section": "event.details-sidebar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 47
+    },
+    {
+     "section": "event.description",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 47
+    },
+    {
+     "section": "listing.event-cards",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "more-events"
+     ],
+     "observedOnRoutes": 46
+    },
+    {
+     "section": "interactive.faq",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "company"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.final-cta",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "dark"
+     ],
+     "observedOnRoutes": 47
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 47
+    }
+   ],
+   "evidence": "specs/event-detail.md:1-30"
+  },
+  "T30": {
+   "id": "T30",
+   "name": "live-demos",
+   "title": "Live demos",
+   "family": "events",
+   "status": "implemented",
+   "renderedBy": "LiveDemos",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": false,
+   "routePattern": "/live-demos/",
+   "routeCount": 1,
+   "representativeRoute": "/live-demos/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "hero.simple",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "listing.video-grid",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.final-cta",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "dark"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "interactive.video-modal",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": "specs/live-demos.md:1-30"
+  },
+  "T31": {
+   "id": "T31",
+   "name": "resources-index",
+   "title": "Resource centre",
+   "family": "resources",
+   "status": "implemented",
+   "renderedBy": "ResourcesIndex",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": false,
+   "routePattern": "/resources/",
+   "routeCount": 1,
+   "representativeRoute": "/resources/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "hero.simple",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "with-action"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "listing.link-list",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.tei-card",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "banner"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.tool-card",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "listing.link-list",
+     "required": true,
+     "repeatable": true,
+     "minCount": 2,
+     "maxCount": 2,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "listing.card-grid",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "blog-teasers"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "listing.video-grid",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "row"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.inline-band",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "dark"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": "specs/resources-index.md:1-30"
+  },
+  "T32": {
+   "id": "T32",
+   "name": "resources-report",
+   "title": "Gated report landing",
+   "family": "conversion",
+   "status": "implemented",
+   "renderedBy": "ResourcesReport",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": true,
+   "routePattern": "/resources/industry-reports/*/",
+   "routeCount": 1,
+   "representativeRoute": "/resources/industry-reports/2025-forrester-TEI-of-Dovetail/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "conversion.lead-form",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "gated-report"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.logo-marquee",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "two-row"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.inline-band",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "dark"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": "specs/resources-report.md:1-30"
+  },
+  "T33": {
+   "id": "T33",
+   "name": "careers",
+   "title": "Careers",
+   "family": "company",
+   "status": "implemented",
+   "renderedBy": "Careers",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": false,
+   "routePattern": "/careers/",
+   "routeCount": 1,
+   "representativeRoute": "/careers/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "hero.careers",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "company.globe-story",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "company.open-positions",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.talent-callout",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "company.people-accordion",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "company.benefits",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "company.video-gallery",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "company.values",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "company.hiring-steps",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "interactive.faq",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "company"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.careers-prefooter",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": "specs/careers.md:1-30"
+  },
+  "T34": {
+   "id": "T34",
+   "name": "podcast",
+   "title": "Podcast hub",
+   "family": "company",
+   "status": "implemented",
+   "renderedBy": "Podcast",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": false,
+   "routePattern": "/b2bsaasy/",
+   "routeCount": 1,
+   "representativeRoute": "/b2bsaasy/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "hero.podcast",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "listing.episode-cards",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "interactive.faq",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "company"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.inline-band",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "dark"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": "specs/podcast.md:1-30"
+  },
+  "T35": {
+   "id": "T35",
+   "name": "legal-index",
+   "title": "Legal & privacy index",
+   "family": "legal",
+   "status": "implemented",
+   "renderedBy": "LegalIndex",
+   "theme": "light",
+   "chrome": {
+    "banner": [
+     "legal"
+    ],
+    "nav": [
+     "legal"
+    ],
+    "footer": [
+     "light"
+    ]
+   },
+   "heroless": true,
+   "routePattern": "/legal/",
+   "routeCount": 1,
+   "representativeRoute": "/legal/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "legal"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "legal"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "listing.page-header",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "legal"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "listing.link-list",
+     "required": true,
+     "repeatable": true,
+     "minCount": 2,
+     "maxCount": 2,
+     "variants": [
+      "legal"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.final-cta",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": "specs/legal-index.md:1-30"
+  },
+  "T36": {
+   "id": "T36",
+   "name": "legal-doc",
+   "title": "Legal / privacy document",
+   "family": "legal",
+   "status": "implemented",
+   "renderedBy": "LegalDoc",
+   "theme": "light",
+   "chrome": {
+    "banner": [
+     "legal"
+    ],
+    "nav": [
+     "legal"
+    ],
+    "footer": [
+     "light"
+    ]
+   },
+   "heroless": true,
+   "routePattern": "/legal/<doc>/, /privacy/<doc>/",
+   "routeCount": 19,
+   "representativeRoute": "/legal/acceptable-use-policy/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "legal"
+     ],
+     "observedOnRoutes": 19
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "legal"
+     ],
+     "observedOnRoutes": 19
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 19
+    },
+    {
+     "section": "legal.doc-header",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 19
+    },
+    {
+     "section": "legal.side-nav",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 19
+    },
+    {
+     "section": "legal.doc-part",
+     "required": true,
+     "repeatable": true,
+     "minCount": 1,
+     "maxCount": 26,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 19
+    },
+    {
+     "section": "legal.updated-meta",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 19
+    },
+    {
+     "section": "cta.final-cta",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 19
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light"
+     ],
+     "observedOnRoutes": 19
+    },
+    {
+     "section": "legal.on-this-page",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 19
+    }
+   ],
+   "evidence": "specs/legal-doc.md:1-30"
+  },
+  "T37": {
+   "id": "T37",
+   "name": "menu",
+   "title": "Mobile menu route",
+   "family": "utility",
+   "status": "implemented",
+   "renderedBy": "Menu",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "none"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": true,
+   "routePattern": "/menu/",
+   "routeCount": 1,
+   "representativeRoute": "/menu/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.menu-header",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": "specs/menu.md:1-30"
+  },
+  "T38": {
+   "id": "T38",
+   "name": "not-found",
+   "title": "404 (unmatched path)",
+   "family": "utility",
+   "status": "implemented",
+   "renderedBy": "NotFound",
+   "theme": "dark",
+   "chrome": {
+    "banner": [
+     "default"
+    ],
+    "nav": [
+     "default"
+    ],
+    "footer": [
+     "default"
+    ]
+   },
+   "heroless": true,
+   "routePattern": "* (fallback only)",
+   "routeCount": 0,
+   "representativeRoute": "/this-page-does-not-exist/",
+   "nodes": [
+    {
+     "section": "shell.banner",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.nav-dropdowns",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "utility.not-found",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.final-cta",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "dark"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": "specs/not-found.md:1-30",
+   "note": "fallback only: rendered for any path no route table matches; no listed route maps here (every one of the 1,897 served routes renders a real template)."
+  }
+ }
+}

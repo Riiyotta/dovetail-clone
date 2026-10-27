@@ -1,0 +1,321 @@
+{
+ "slug": "fleet-management-tech-leader",
+ "path": "/customers/fleet-management-tech-leader/",
+ "title": "How a fleet management technology company gave every leader direct access to customer intelligence",
+ "eyebrow": "CUSTOMER / A CONNECTED FLEET TECHNOLOGY COMPANY",
+ "companyName": "A connected fleet technology company",
+ "isAnonymous": true,
+ "industry": "Technology",
+ "intro": {
+  "placeholder": true,
+  "chars": 195
+ },
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/cover-image-fleet-management-tech-leader.png",
+  "width": 1535,
+  "height": 1024,
+  "youtubeId": null,
+  "caption": []
+ },
+ "stats": [
+  {
+   "value": "C-suite",
+   "label": "given Dovetail access after a single customer clip reached senior leadership"
+  },
+  {
+   "value": "3",
+   "label": "customer signal sources feeding a single workspace: user interviews, help center feedback, and Gong"
+  },
+  {
+   "value": "400+",
+   "label": "customer listening hours tracked annually as a research team performance KPI"
+  }
+ ],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "A fleet technology company where customer insights rarely left the research function",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 584
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 414
+    }
+   ]
+  },
+  {
+   "heading": "The challenge: customer intelligence locked inside a shrinking team",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 408
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 476
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 448
+    }
+   ]
+  },
+  {
+   "heading": "The solution: self-service customer intelligence across the product organization",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 477
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 462,
+     "links": [
+      {
+       "text": "Zapier",
+       "href": "https://docs.dovetail.com/integrations/zapier"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 330,
+     "links": [
+      {
+       "text": "Channels",
+       "href": "/product/ai-channels/"
+      },
+      {
+       "text": "Gong",
+       "href": "https://docs.dovetail.com/integrations/gong"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 428,
+     "links": [
+      {
+       "text": "Chat",
+       "href": "/product/ai-chat/"
+      }
+     ]
+    },
+    {
+     "t": "blockquote",
+     "placeholder": true,
+     "chars": 176
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/contextual-chat-query-product-image.png",
+     "alt": "Dovetail Chat—ask anything about your customers and get an instant, cited answer",
+     "w": 0,
+     "h": 0
+    }
+   ]
+  },
+  {
+   "heading": "The payoff: one customer clip reached the C-suite, and the whole company followed",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 369
+    },
+    {
+     "t": "blockquote",
+     "text": "“A clip landed in front of our leadership and they said: this information is great—we want to see more.” — Research Operations Coordinator"
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 336
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 342
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 349
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": {
+  "quote": {
+   "placeholder": true,
+   "chars": 149
+  },
+  "name": null,
+  "role": "Research Operations Lead"
+ },
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "global-financial-institution",
+   "href": "/customers/global-financial-institution/",
+   "title": "How a global financial institution cleared one of finance's most rigorous AI security reviews and built its customer intelligence layer with Dovetail",
+   "industry": "Finance",
+   "order": 99,
+   "companyName": "A global financial institution",
+   "gridTitle": "Global financial powerhouse",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-global-financial-institution.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 295
+    },
+    "name": null,
+    "role": "Delivery Manager, Research Operations"
+   }
+  },
+  {
+   "slug": "global-management-consulting-firm",
+   "href": "/customers/global-management-consulting-firm/",
+   "title": "How a global management consulting firm turned single-team research into a self-serving intelligence system for 300+ practitioners",
+   "industry": "Professional Services",
+   "order": 99,
+   "companyName": "A global management consulting firm",
+   "gridTitle": "Global management consulting",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-global-management-consulting-firm.png",
+    "alt": "",
+    "w": 896,
+    "h": 1280
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": "“People would come to me and say, ‘You saved me so many hours of research. I was able to just use your videos and add my own tags.’”",
+    "name": null,
+    "role": "Research Operations Lead"
+   }
+  },
+  {
+   "slug": "iconic-global-automaker",
+   "href": "/customers/iconic-global-automaker/",
+   "title": "How one of the world's most iconic automakers put customer intelligence in the hands of its engineers",
+   "industry": "Manufacturing",
+   "order": 99,
+   "companyName": "One of the world's most iconic automakers",
+   "gridTitle": "Iconic global automaker",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-iconic-global-automaker.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 252
+    },
+    "name": null,
+    "role": "Lead UX Strategist"
+   }
+  }
+ ],
+ "faq": {
+  "heading": "FAQs",
+  "items": [
+   {
+    "q": "Can an entire product team get self-serve access to research instead of requesting it case by case?",
+    "a": {
+     "placeholder": true,
+     "chars": 334
+    }
+   },
+   {
+    "q": "Can Dovetail bring in customer signal from outside of interviews, like support tickets or sales calls?",
+    "a": {
+     "placeholder": true,
+     "chars": 353
+    }
+   },
+   {
+    "q": "How do teams outside the research function find answers without waiting on a researcher?",
+    "a": {
+     "placeholder": true,
+     "chars": 330
+    }
+   },
+   {
+    "q": "How does Dovetail handle duplicated or inconsistent tags across dozens of past research projects?",
+    "a": {
+     "placeholder": true,
+     "chars": 283
+    }
+   },
+   {
+    "q": "Can customer research reach senior leadership directly, not just stay within the research team?",
+    "a": {
+     "placeholder": true,
+     "chars": 365
+    }
+   }
+  ]
+ }
+}

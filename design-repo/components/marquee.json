@@ -1,0 +1,11 @@
+{
+ "id": "marquee",
+ "kind": "component",
+ "title": "Marquee track",
+ "composes": [
+  "image"
+ ],
+ "evidence": [
+  "specs/marketing-shared.md:264"
+ ]
+}

@@ -1,0 +1,387 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T24",
+ "route": "/contributors/",
+ "theme": "light",
+ "chrome": {
+  "banner": "light",
+  "nav": "light",
+  "footer": "light"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail clone (local)"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "light",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "light",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "listing.page-header",
+   "variant": "light",
+   "content": {
+    "heading": "Contributors",
+    "lead": "Industry-leading practitioners and thought-leaders help us create, produce, and check our editorial content so it always delivers value to you - our reader. Responsibilities are clearer when each step has a named owner."
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.people-rows",
+   "variant": "default",
+   "content": {
+    "heading": "Authors",
+    "items": [
+     {
+      "title": "Chloe Garnham",
+      "text": "Content creator, digital producer & founder",
+      "href": "/contributors/chloe-garnham/"
+     },
+     {
+      "title": "Claire Bonneau",
+      "text": "Content creator, medical writer, registered nurse",
+      "href": "/contributors/claire-bonneau/"
+     },
+     {
+      "title": "Claudia Natasia",
+      "text": "Co-founder",
+      "href": "/contributors/claudia-natasia/"
+     },
+     {
+      "title": "Dovetail Editorial Team",
+      "href": "/contributors/dovetail-editorial-team/"
+     },
+     {
+      "title": "Hugh Good",
+      "text": "Global Market Intelligence & Research Manager",
+      "href": "/contributors/hugh-good/"
+     },
+     {
+      "title": "Jean Kaluza",
+      "text": "UX Researcher & Product Consultant",
+      "href": "/contributors/jean-kaluza/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.people-rows",
+   "variant": "default",
+   "content": {
+    "heading": "Reviewers",
+    "items": [
+     {
+      "title": "Brittany Ferri, PhD, OTR/L",
+      "text": "Occupational therapist & founder",
+      "href": "/contributors/brittany-ferri/"
+     },
+     {
+      "title": "Cathy Heath",
+      "text": "Market insights researcher",
+      "href": "/contributors/cathy-heath/"
+     },
+     {
+      "title": "Chloe Garnham",
+      "text": "Content creator, digital producer & founder",
+      "href": "/contributors/chloe-garnham/"
+     },
+     {
+      "title": "Hugh Good",
+      "text": "Global Market Intelligence & Research Manager",
+      "href": "/contributors/hugh-good/"
+     },
+     {
+      "title": "Jean Kaluza",
+      "text": "UX Researcher & Product Consultant",
+      "href": "/contributors/jean-kaluza/"
+     },
+     {
+      "title": "Jen Lee",
+      "text": "Product Manager",
+      "href": "/contributors/jen-lee/"
+     },
+     {
+      "title": "Katie Reed",
+      "text": "UX researcher",
+      "href": "/contributors/katie-reed/"
+     },
+     {
+      "title": "Lara Leganger",
+      "text": "Senior HR business professional",
+      "href": "/contributors/lara-leganger/"
+     },
+     {
+      "title": "Mary Mikhail",
+      "text": "User Experience Researcher",
+      "href": "/contributors/mary-mikhail/"
+     },
+     {
+      "title": "Mary Phillips",
+      "text": "Product Manager",
+      "href": "/contributors/mary-phillips/"
+     },
+     {
+      "title": "Melissa Udekwu, BSN., RN., LNC",
+      "text": "Healthcare administrator, consultant & founder",
+      "href": "/contributors/melissa-udekwu-bsn-rn-lnc/"
+     },
+     {
+      "title": "Miroslav Damyanov",
+      "text": "UX researcher",
+      "href": "/contributors/miroslav-damyanov/"
+     },
+     {
+      "title": "Shawnna Johnson",
+      "text": "Senior human resources business partner",
+      "href": "/contributors/shawnna-johnson/"
+     },
+     {
+      "title": "Sophia Emifoniye",
+      "text": "Product manager",
+      "href": "/contributors/sophia-emifoniye/"
+     },
+     {
+      "title": "Tanya Williams",
+      "text": "Senior UX researcher",
+      "href": "/contributors/tanya-williams/"
+     },
+     {
+      "title": "Tim Scharks",
+      "text": "Survey methods specialist",
+      "href": "/contributors/tim-scharks/"
+     },
+     {
+      "title": "Warren Jonas ACC",
+      "text": "Leadership coach",
+      "href": "/contributors/warren-jonas/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "content.editorial-process",
+   "variant": "default",
+   "content": {
+    "lead": "It is worth checking early assumptions against what people actually say and do. Small, regular reviews tend to surface patterns sooner than one large review at the end. Writing down the reasoning behind a decision makes it easier to revisit later. A simple checklist can keep the process consistent from one round to the next. Context matters here. Sharing progress openly invites useful questions before the work is finished. Outcomes are easier to judge when there is a baseline to compare against. Feedback from a pilot run often highlights steps that need to be clarified."
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "light",
+   "content": {
+    "heading": "The best never guess",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "#"
+     },
+     {
+      "label": "Start free trial",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-theright-salesforce.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestfarleft-aws.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestleft-canva.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestright-airwallex.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverright-notion.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverfarright-zapier.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessleft-wise.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessfarleft-breville.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "light",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

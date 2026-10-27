@@ -1,0 +1,851 @@
+{
+ "url": "/roles/sales-and-cs/",
+ "template": "roles",
+ "title": "Dovetail for Sales & Customer Success",
+ "metaDescription": "Turn sales and CS conversations into customer intelligence. Dovetail helps teams spot revenue signals, reduce churn risk, and influence product decisions.",
+ "documentHeight": {
+  "1440": 10772,
+  "1280": 11808,
+  "768": 14009,
+  "390": 12735
+ },
+ "chrome": {
+  "alertBar": true,
+  "navBackground": null,
+  "footer": "finalCta"
+ },
+ "sections": [
+  {
+   "slice": "RoleHero",
+   "el": "eb5iodx0",
+   "measuredHeight": {
+    "1440": 857.1,
+    "1280": 761.9,
+    "768": 756.6,
+    "390": 637.5
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-sales-hero.png",
+     "alt": "",
+     "w": 1440,
+     "h": 857.1,
+     "el": "eb5iodx2"
+    },
+    {
+     "role": "text",
+     "text": "Dovetail for Sales & Customer Success",
+     "el": "eb5iodx5.etfyu4r0"
+    },
+    {
+     "role": "h1",
+     "text": "Turn field signals into customer intelligence",
+     "el": "eb5iodx6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-wise-white-logo.svg",
+     "alt": "Wise",
+     "w": 71.1,
+     "h": 32,
+     "el": "eb5iodx11"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-salesforce-white-logo.svg",
+     "alt": "Salesforce",
+     "w": 72,
+     "h": 32,
+     "el": "eb5iodx11"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-zapier-white-logo.svg",
+     "alt": "Zapier",
+     "w": 71.1,
+     "h": 32,
+     "el": "eb5iodx11"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-shopify-white-logo.svg",
+     "alt": "Shopify",
+     "w": 71.1,
+     "h": 32,
+     "el": "eb5iodx11"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-sales-hero-mobile.png",
+     "alt": "",
+     "w": 0,
+     "h": 0,
+     "el": "eb5iodx3",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "Challenge",
+   "el": "etid8i64",
+   "measuredHeight": {
+    "1440": 856,
+    "1280": 856,
+    "768": 313.6,
+    "390": 569.6
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/how-it-works-grid-bg.png.png",
+     "alt": "Grid background",
+     "w": 1260,
+     "h": 856,
+     "el": "e1ms7w8v3"
+    },
+    {
+     "role": "text",
+     "text": "The challenge",
+     "el": "e1qa43fr0.etfyu4r0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 341,
+     "el": "visually-hidden"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Request a demo",
+     "href": "/request-a-demo/",
+     "el": "a"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "HowDovetailHelps",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 267.6,
+    "1280": 187.6,
+    "768": 171.6,
+    "390": 171.6
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "How Dovetail helps",
+     "el": "e1hzr4mi0.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Customer intelligence that drives revenue",
+     "el": "e1hzr4mi1"
+    }
+   ]
+  },
+  {
+   "slice": "HowDovetailHelps",
+   "el": "etid8i64",
+   "measuredHeight": {
+    "1440": 1226.6,
+    "1280": 1196.7,
+    "768": 2850.2,
+    "390": 1936.2
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-sales-feature-1.png",
+     "alt": "",
+     "w": 582,
+     "h": 436,
+     "el": "e1hzr4mi3"
+    },
+    {
+     "role": "h3",
+     "text": "Surface winning patterns from every call",
+     "el": "e1hzr4mi5"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 155,
+     "el": "e1hzr4mi6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-sales-feature-2.png",
+     "alt": "",
+     "w": 582,
+     "h": 434.6,
+     "el": "e1hzr4mi3"
+    },
+    {
+     "role": "h3",
+     "text": "Detect churn risk before it costs you",
+     "el": "e1hzr4mi5"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 156,
+     "el": "e1hzr4mi6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-sales-feature-3.png",
+     "alt": "",
+     "w": 582,
+     "h": 434.6,
+     "el": "e1hzr4mi3"
+    },
+    {
+     "role": "h3",
+     "text": "Find expansion opportunities automatically",
+     "el": "e1hzr4mi5"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 143,
+     "el": "e1hzr4mi6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-sales-feature-4.png",
+     "alt": "",
+     "w": 582,
+     "h": 434.6,
+     "el": "e1hzr4mi3"
+    },
+    {
+     "role": "h3",
+     "text": "Influence product with evidence from the field",
+     "el": "e1hzr4mi5"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 131,
+     "el": "e1hzr4mi6"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "Integrations",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 1789,
+    "1280": 1826.6,
+    "768": 1866.6,
+    "390": 2502.6
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Integrations",
+     "el": "e1ttzgas0.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Connect to the tools you use",
+     "el": "e1ttzgas1"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Request a demo",
+     "href": "/request-a-demo/",
+     "el": "a"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Gong.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Gong",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 175,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Salesforce.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Salesforce",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 166,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/HubSpot.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "HubSpot Service Hub",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 179,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Zendesk.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Zendesk",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 158,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Intercom.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Intercom",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 189,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Zoom.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Zoom",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 183,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/GoogleMeet.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Google Meet",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 164,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Slack.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Slack",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 189,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Claude.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Claude",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 183,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ChatGPT.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "ChatGPT",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "text": "Bring your customer conversations into ChatGPT and turn field intelligence into decisions without leaving the conversation.",
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "link",
+     "text": "Discover all integrations",
+     "href": "https://docs.dovetail.com/integrations/",
+     "el": "e1ttzgas13"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1ttzgas13-277801.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "UseCaseTabs",
+   "el": "e1af4wr40",
+   "measuredHeight": {
+    "1440": 927.6,
+    "1280": 1367,
+    "768": 1064.2,
+    "390": 918.6
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Use cases",
+     "el": "e1af4wr41.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Practical ways sales and CS teams use Dovetail",
+     "el": "e1af4wr42"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-sales-usecase-1.png",
+     "alt": "",
+     "w": 616,
+     "h": 472,
+     "el": "e1af4wr45"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-sales-usecase-2.png",
+     "alt": "",
+     "w": 616,
+     "h": 472,
+     "el": "e1af4wr45"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-sales-usecase-3.png",
+     "alt": "",
+     "w": 616,
+     "h": 472,
+     "el": "e1af4wr45"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-sales-usecase-4.png",
+     "alt": "",
+     "w": 616,
+     "h": 472,
+     "el": "e1af4wr45"
+    },
+    {
+     "role": "button",
+     "text": "Battle card development",
+     "el": "e1af4wr49"
+    },
+    {
+     "role": "button",
+     "text": "QBR and EBR preparation",
+     "el": "e1af4wr49"
+    },
+    {
+     "role": "button",
+     "text": "New rep ramp-up",
+     "el": "e1af4wr49"
+    },
+    {
+     "role": "button",
+     "text": "Product influence",
+     "el": "e1af4wr49"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 188,
+     "el": "e1af4wr410"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "TestimonialSlice",
+   "el": "eqa8jb90",
+   "measuredHeight": {
+    "1440": 560,
+    "1280": 560,
+    "768": 362,
+    "390": 532.8
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/testimonial-grid-bg.png.png",
+     "alt": "Grid background",
+     "w": 1260,
+     "h": 560,
+     "el": "e1ms7w8v3"
+    },
+    {
+     "role": "link-card",
+     "text": null,
+     "href": "/customers/achievers/",
+     "el": "e1i468kp0"
+    },
+    {
+     "role": "text",
+     "text": "Read customer story",
+     "el": "e1i468kp8"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti-4.png",
+     "alt": "",
+     "w": 80,
+     "h": 80,
+     "el": "e1i468kp2"
+    },
+    {
+     "role": "quote",
+     "placeholder": true,
+     "chars": 229,
+     "el": "e1i468kp5"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-achievers-white-logo.svg",
+     "alt": "Achievers",
+     "w": 142,
+     "h": 40,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "Marie-Andrée Turgeon",
+     "el": "e1i468kp6"
+    },
+    {
+     "role": "text",
+     "text": "Senior Manager of Product Operations",
+     "el": "e1i468kp7"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "CustomerStoryCards",
+   "el": "etid8i64",
+   "measuredHeight": {
+    "1440": 531.8,
+    "1280": 1445.3,
+    "768": 2675.9,
+    "390": 1427.9
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/Customer_SmartRecruiter.png",
+     "alt": "",
+     "w": 376,
+     "h": 413.8,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-smartrecruiters-white-logo.svg",
+     "alt": "SmartRecruiters",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "link-card",
+     "text": null,
+     "href": "/customers/smartrecruiters/",
+     "el": "e1xybz5410"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Customer_Atlassian2.png",
+     "alt": "",
+     "w": 376,
+     "h": 413.8,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+     "alt": "Atlassian",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "link",
+     "text": "Atlassian champions the customer at a global scale with Dovetail ↘",
+     "href": "/customers/atlassian/",
+     "el": "e1xybz5410"
+    },
+    {
+     "role": "img",
+     "src": "/assets/Customer_Itau.png",
+     "alt": "",
+     "w": 376,
+     "h": 413.8,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-itau-unibanco-white-logo.svg",
+     "alt": "Itaú Unibanco",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "link",
+     "text": "How Itaú Unibanco delivers better banking experiences with Dovetail ↘",
+     "href": "/customers/itau-unibanco/",
+     "el": "e1xybz5410"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "FAQ",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 538,
+    "1280": 606,
+    "768": 583,
+    "390": 703
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "FAQs",
+     "el": "ef2kgtv0"
+    },
+    {
+     "role": "button",
+     "text": "Can Dovetail connect to Gong or our call recording tool?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ea410al3-082750.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 217,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "How does Dovetail help with churn prevention?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 187,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Can sales use Dovetail without a research team?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 142,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "How do insights from sales and CS feed back into product?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 189,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Does Dovetail work across the full customer lifecycle?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 186,
+     "el": "ef2kgtv2"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  }
+ ]
+}

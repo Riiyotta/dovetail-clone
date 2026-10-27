@@ -1,0 +1,159 @@
+{
+ "id": "content.launch-recap",
+ "title": "Launch recap",
+ "semantic": {
+  "id": "content.launch-recap",
+  "category": "CONTENT"
+ },
+ "source": {
+  "id": "component:LaunchPage:lx-shipped",
+  "file": "src/pages/campaigns/launch/LaunchPage.jsx",
+  "tag": "div",
+  "lines": "107-119",
+  "tagLine": 107,
+  "anchor": "lx-shipped",
+  "anchorLine": 107
+ },
+ "purpose": "Sticker title, sub line and a chip list of everything shipped, with glyph art.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "actions",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 1,
+   "observedOn": [
+    "/launch/suns-out/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 6
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 4,
+    "maxChars": 22,
+    "observedIn": 6
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 13,
+    "observedIn": 1
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 9,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "actions": [
+    6,
+    6
+   ],
+   "media": [
+    9,
+    9
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "icon.source",
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "icon.generic",
+     "product.generated-visual"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "icon.generic",
+  "product.generated-visual"
+ ],
+ "style": {
+  "props": {
+   "spaceBefore": {
+    "kind": "token",
+    "allowed": [
+     "space.campaign.240"
+    ]
+   }
+  },
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 1,
+   "nodes": 1,
+   "minPx": 780,
+   "maxPx": 780,
+   "medianPx": 780,
+   "sample": {
+    "/launch/suns-out/": [
+     780
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/campaigns/launch/LaunchPage.jsx:107-119",
+  "specs/launch.md:1-30"
+ ]
+}

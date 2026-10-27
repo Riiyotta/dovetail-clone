@@ -1,0 +1,72 @@
+{
+ "slug": "productcon-san-francisco-2025",
+ "path": "/events/productcon-san-francisco-2025/",
+ "title": "ProductCon San Francisco 2025",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2025-10-08T09:00-08:00",
+ "endDate": "2025-10-08T17:00-08:00",
+ "onlineEvent": false,
+ "location": "San Francisco",
+ "hosts": [
+  "Jeremie Gluckman"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": null,
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Jeremie Gluckman"
+  },
+  {
+   "label": "[START]",
+   "value": "08 Oct 2025 10:00AM PDT"
+  },
+  {
+   "label": "[END]",
+   "value": "08 Oct 2025 6:00PM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "San Francisco"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/image_5.png",
+  "width": 1024,
+  "height": 576,
+  "youtubeId": null
+ },
+ "body": [
+  {
+   "t": "h2",
+   "text": "Click here to learn more!"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 64
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 259
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

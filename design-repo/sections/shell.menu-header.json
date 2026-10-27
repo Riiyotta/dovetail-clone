@@ -1,0 +1,116 @@
+{
+ "id": "shell.menu-header",
+ "title": "Menu route header",
+ "semantic": {
+  "id": "shell.menu-header",
+  "category": "SHELL"
+ },
+ "source": {
+  "id": "component:Menu:mn-header",
+  "file": "src/pages/corporate/Menu.jsx",
+  "tag": "div",
+  "lines": "28-37",
+  "tagLine": 28,
+  "anchor": "mn-header",
+  "anchorLine": 28
+ },
+ "purpose": "Header of the /menu/ route: logo and a close button; the route itself is the small-screen navigation.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "actions"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 1,
+   "observedOn": [
+    "/menu/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 1
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 5,
+    "observedIn": 1
+   }
+  },
+  "listSizes": {
+   "actions": [
+    1,
+    1
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 1,
+   "nodes": 1,
+   "minPx": 88,
+   "maxPx": 88,
+   "medianPx": 88,
+   "sample": {
+    "/menu/": [
+     88
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/corporate/Menu.jsx:28-37",
+  "specs/menu.md:1-30"
+ ]
+}

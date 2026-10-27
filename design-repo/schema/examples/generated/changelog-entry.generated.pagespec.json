@@ -1,0 +1,325 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T19",
+ "route": "/changelog-entry-pebblecart/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Pebblecart"
+ },
+ "meta": {
+  "title": "Pebblecart | Changelog"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Bundle tidy",
+    "actions": [
+     {
+      "label": "Trace sketch",
+      "href": "https://pebblecart.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Field prism",
+      "href": "https://pebblecart.example/navbar-0"
+     },
+     {
+      "label": "Cinder",
+      "href": "https://pebblecart.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Juniper"
+     },
+     {
+      "title": "Cobalt"
+     },
+     {
+      "title": "Share"
+     },
+     {
+      "title": "Lantern"
+     },
+     {
+      "title": "Falcon"
+     },
+     {
+      "title": "Beacon"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Rowan pebble",
+      "text": "Tidy map trace marble ember shape gather summit"
+     },
+     {
+      "title": "Juniper sort",
+      "text": "Tidal lantern signal basil measure nimbus grove map"
+     },
+     {
+      "title": "Compass",
+      "text": "Plan orbit meadow summit juniper cobalt share fjord"
+     },
+     {
+      "title": "Weigh basil",
+      "text": "Rowan nimbus canvas cedar compass quarry field shape"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "article.header",
+   "variant": "compact",
+   "content": {
+    "heading": "Cinder notice steer cobalt",
+    "actions": [
+     {
+      "label": "Share lantern",
+      "href": "https://pebblecart.example/header-0"
+     },
+     {
+      "label": "Falcon refine",
+      "href": "https://pebblecart.example/header-1"
+     },
+     {
+      "label": "Rowan bundle",
+      "href": "https://pebblecart.example/header-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.hero-media",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "content.generated-cover",
+      "alt": "",
+      "ref": "generate:content.generated-cover/article.hero-media-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "dark",
+   "content": {
+    "heading": "Tidy thread delta quarry",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Plan shape gather sprout"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Juniper cobalt harbor willow falcon beacon atlas nimbus tidy thread compass marble field prism gather summit juniper sort harbor fjord signal refine rowan pebble tidy thread delta quarry field prism"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Meadow notice harvest sort harbor willow signal refine atlas bundle canvas cedar compass marble field orbit cinder notice juniper ledger tidal lantern falcon beacon atlas nimbus grove cedar compass marble"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "cta.entry-actions",
+   "variant": "default",
+   "content": {},
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.prev-next",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Plan orbit",
+      "href": "https://pebblecart.example/prev-next-0"
+     },
+     {
+      "label": "Gather summit",
+      "href": "https://pebblecart.example/prev-next-1"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "dark",
+   "content": {
+    "heading": "Harvest sort share",
+    "actions": [
+     {
+      "label": "Signal basil",
+      "href": "https://pebblecart.example/final-cta-0"
+     },
+     {
+      "label": "Rowan bundle",
+      "href": "https://pebblecart.example/final-cta-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-7"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "lead": "Tidy map delta marble ember shape",
+    "actions": [
+     {
+      "label": "Meadow notice",
+      "href": "https://pebblecart.example/footer-0"
+     },
+     {
+      "label": "Juniper sort",
+      "href": "https://pebblecart.example/footer-1"
+     },
+     {
+      "label": "Share willow",
+      "href": "https://pebblecart.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Signal"
+     },
+     {
+      "title": "Beacon"
+     },
+     {
+      "title": "Rowan"
+     },
+     {
+      "title": "Nimbus"
+     },
+     {
+      "title": "Tidy"
+     },
+     {
+      "title": "Cedar"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

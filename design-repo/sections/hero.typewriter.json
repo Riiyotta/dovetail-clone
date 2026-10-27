@@ -1,0 +1,143 @@
+{
+ "id": "hero.typewriter",
+ "title": "Typewriter quote hero",
+ "semantic": {
+  "id": "hero.typewriter",
+  "category": "HERO"
+ },
+ "source": {
+  "id": "component:TypewriterHero:cu-hero",
+  "file": "src/pages/customers/TypewriterHero.jsx",
+  "tag": "section",
+  "lines": "123-135",
+  "tagLine": 123,
+  "anchor": "cu-hero",
+  "anchorLine": 123
+ },
+ "purpose": "Customer-stories opener: eyebrow and an H96 customer quote typed out with a highlight rectangle.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "heading",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 1,
+   "observedOn": [
+    "/customers/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "heading",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 22,
+    "maxChars": 97,
+    "observedIn": 1
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 5,
+    "maxChars": 30,
+    "observedIn": 1
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 1,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "media": [
+    1,
+    1
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "icon.source"
+    ],
+    "generatedRoles": [
+     "icon.generic"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "icon.generic"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "typewriter"
+  ],
+  "requiredPatterns": [
+   "typewriter"
+  ],
+  "reducedMotionFallback": {
+   "typewriter": "full-text-no-caret"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 1,
+   "nodes": 1,
+   "minPx": 694,
+   "maxPx": 694,
+   "medianPx": 694,
+   "sample": {
+    "/customers/": [
+     694
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/customers/TypewriterHero.jsx:123-135",
+  "specs/customers-index.md:1-30"
+ ]
+}

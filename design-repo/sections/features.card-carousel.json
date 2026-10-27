@@ -1,0 +1,193 @@
+{
+ "id": "features.card-carousel",
+ "title": "Feature card carousel",
+ "semantic": {
+  "id": "features.card-carousel",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "component:ProductCarousel:pd-car",
+  "file": "src/pages/product/ProductCarousel.jsx",
+  "tag": "div",
+  "lines": "35-47",
+  "tagLine": 35,
+  "anchor": "pd-car",
+  "anchorLine": 35
+ },
+ "purpose": "Heading, sub and CTA row with arrow controls over a horizontally scrolling card track.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "items",
+    "lead"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 7,
+   "observedOn": [
+    "/product/ai-agents/",
+    "/product/ai-channels/",
+    "/product/ai-chat/",
+    "/product/ai-dashboards/",
+    "/product/ai-docs/",
+    "/product/ai-projects/",
+    "/product/digital-twins/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions",
+   "heading",
+   "items",
+   "lead"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 5
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 17,
+    "observedIn": 5
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 8,
+    "maxChars": 38,
+    "observedIn": 3
+   },
+   "items[].media.alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 15,
+    "assetAlt": true
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 22,
+    "maxChars": 134,
+    "observedIn": 15
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 5,
+    "maxChars": 36,
+    "observedIn": 15
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 21,
+    "maxChars": 118,
+    "observedIn": 3
+   }
+  },
+  "listSizes": {
+   "actions": [
+    1,
+    2
+   ],
+   "items": [
+    5,
+    5
+   ]
+  },
+  "itemRequiredFields": [
+   "media",
+   "text",
+   "title"
+  ],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "items[].media": {
+    "type": "asset",
+    "referenceRoles": [
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "product.generated-visual"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "carousel.manual"
+  ],
+  "requiredPatterns": [
+   "carousel.manual"
+  ],
+  "reducedMotionFallback": {
+   "carousel.manual": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 7,
+   "nodes": 7,
+   "minPx": 1180,
+   "maxPx": 1214,
+   "medianPx": 1214,
+   "sample": {
+    "/product/ai-agents/": [
+     1214
+    ],
+    "/product/ai-channels/": [
+     1214
+    ],
+    "/product/ai-chat/": [
+     1214
+    ],
+    "/product/ai-dashboards/": [
+     1214
+    ],
+    "/product/ai-docs/": [
+     1214
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/product/ProductCarousel.jsx:35-47",
+  "specs/product.md:1-40"
+ ]
+}

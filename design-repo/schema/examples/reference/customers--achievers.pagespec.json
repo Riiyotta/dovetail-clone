@@ -1,0 +1,556 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T27",
+ "route": "/customers/achievers/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "accent",
+  "nav": "accent",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail clone (local)"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "accent",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "accent": "color.blue.base"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "accent",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "accent": "color.blue.base"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.story",
+   "variant": "image",
+   "content": {
+    "heading": "How Achievers powers employee experience with always-on customer intelligence",
+    "lead": "CUSTOMER / ACHIEVERS",
+    "actions": [
+     {
+      "label": "Talk to sales",
+      "href": "/contact-sales/"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "photo.real-scene",
+      "alt": "",
+      "ref": "/assets/company/media/005C_customer_story_achievers.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.story-facts",
+   "variant": "default",
+   "content": {
+    "lead": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+    "actions": [
+     {
+      "label": "Talk to sales",
+      "href": "/contact-sales/"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/company/media/sales-cta-img.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "sticky.pin",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.story-chapter",
+   "variant": "default",
+   "content": {
+    "body": [
+     {
+      "kind": "paragraph",
+      "text": "Intro"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Excepteur cupidatat sunt officia anim laborum dolor consectetur sed. Tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit esse. Nulla sint non culpa deserunt id lorem sit adipiscing. Do incididunt et aliqua minim nostrud laboris ex. Consequat irure voluptate cillum pariatur occaecat proident qui mollit est ipsum. Amet elit eiusmod ut dolore enim veniam exercitation nisi. Ea duis in velit fugiat excepteur cupidatat sunt. Officia anim laborum dolor consectetur sed tempor labore magna ad quis."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Ut dolore enim veniam exercitation nisi ea duis in velit fugiat excepteur. Cupidatat sunt officia anim laborum dolor consectetur sed tempor labore magna ad quis ullamco. Aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt id lorem sit adipiscing. Do incididunt et aliqua minim nostrud laboris ex consequat irure voluptate Channels cillum pariatur occaecat. Proident qui mollit est ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi. Ea duis in velit fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur sed. Tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint non. Culpa deserunt id lorem sit adipiscing do."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.story-chapter",
+   "variant": "default",
+   "content": {
+    "body": [
+     {
+      "kind": "paragraph",
+      "text": "The challenge of fragmented insights"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Do incididunt et aliqua minim nostrud laboris ex consequat irure. Voluptate cillum pariatur occaecat proident qui mollit est. Ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi ea. Duis in velit fugiat excepteur cupidatat sunt officia anim. Laborum dolor consectetur sed tempor labore magna ad. Quis ullamco aliquip commodo aute reprehenderit esse nulla sint non culpa. Deserunt id lorem sit adipiscing do incididunt et aliqua. Minim nostrud laboris ex consequat irure."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.story-chapter",
+   "variant": "default",
+   "content": {
+    "body": [
+     {
+      "kind": "paragraph",
+      "text": "Unifying data with Channels"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Duis in velit fugiat excepteur cupidatat sunt officia anim laborum dolor. Consectetur sed tempor labore magna ad quis ullamco aliquip commodo aute. Reprehenderit esse nulla sint non culpa deserunt id lorem. Sit adipiscing do incididunt et aliqua minim nostrud. Laboris ex consequat irure voluptate cillum pariatur occaecat proident qui mollit. Est ipsum amet elit eiusmod ut dolore enim veniam. Exercitation nisi ea duis in velit fugiat excepteur. Cupidatat sunt officia anim laborum."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Ipsum amet elit eiusmod ut dolore enim veniam exercitation. Nisi ea duis in velit fugiat excepteur cupidatat sunt officia anim laborum dolor. Consectetur sed tempor labore magna ad quis ullamco aliquip commodo. Aute reprehenderit esse nulla sint non culpa deserunt id lorem sit adipiscing. Do incididunt et aliqua minim nostrud laboris ex consequat irure voluptate cillum pariatur. Occaecat proident qui mollit est ipsum amet elit eiusmod ut. Dolore enim veniam exercitation nisi ea."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Ex consequat irure voluptate cillum pariatur occaecat proident qui mollit est ipsum. Amet elit eiusmod ut dolore enim veniam exercitation. Nisi ea duis in velit fugiat excepteur cupidatat sunt officia anim. Laborum dolor consectetur sed tempor labore magna ad quis. Ullamco aliquip commodo aute reprehenderit esse nulla sint. Non culpa deserunt id lorem sit adipiscing do incididunt et aliqua. Minim nostrud laboris ex consequat irure voluptate cillum pariatur."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.story-chapter",
+   "variant": "default",
+   "content": {
+    "body": [
+     {
+      "kind": "paragraph",
+      "text": "AI-powered action and strategic alignment"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Id lorem sit adipiscing do incididunt et aliqua minim nostrud laboris ex. Consequat irure voluptate cillum pariatur occaecat proident qui mollit est ipsum amet elit eiusmod. Ut dolore enim veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt. Officia anim laborum dolor consectetur sed tempor labore magna ad quis ullamco aliquip commodo. Aute reprehenderit esse nulla sint non culpa deserunt id lorem sit adipiscing do incididunt. Et aliqua minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident qui. Mollit est ipsum amet elit."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Ullamco aliquip commodo aute reprehenderit esse nulla sint non culpa. Deserunt id lorem sit adipiscing do incididunt et aliqua. Minim nostrud laboris ex consequat irure voluptate cillum. Pariatur occaecat proident qui mollit est ipsum amet elit eiusmod ut. Dolore enim veniam exercitation nisi ea duis in velit. Fugiat excepteur cupidatat sunt officia anim laborum dolor. Consectetur sed tempor labore magna ad quis ullamco aliquip commodo aute. Reprehenderit esse nulla sint non culpa deserunt id lorem. Sit adipiscing do incididunt et aliqua minim nostrud. Laboris ex consequat irure voluptate cillum pariatur occaecat proident qui mollit. Est ipsum amet elit eiusmod ut."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Officia anim laborum dolor consectetur sed tempor labore magna ad quis ullamco aliquip. Commodo aute reprehenderit esse nulla sint non culpa deserunt id lorem. Sit adipiscing do incididunt et aliqua minim."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.story-chapter",
+   "variant": "default",
+   "content": {
+    "body": [
+     {
+      "kind": "paragraph",
+      "text": "Building with more confidence than ever before"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt officia anim. Laborum dolor consectetur sed tempor labore magna ad quis ullamco aliquip. Commodo aute reprehenderit esse nulla sint non culpa deserunt. Id lorem sit adipiscing do incididunt et aliqua. Minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Proident qui mollit est ipsum amet elit eiusmod ut dolore enim. Veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt officia. Anim laborum dolor consectetur sed tempor labore magna ad quis ullamco aliquip commodo. Aute reprehenderit esse nulla sint non culpa deserunt id lorem. Sit adipiscing do incididunt et aliqua minim nostrud laboris ex consequat irure. Voluptate cillum pariatur occaecat proident qui mollit est ipsum amet elit eiusmod ut. Dolore enim veniam exercitation nisi ea duis in velit fugiat. Excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt. Id lorem sit adipiscing do."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.story-chapter",
+   "variant": "default",
+   "content": {
+    "body": [
+     {
+      "kind": "paragraph",
+      "text": "A customer-led future"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Sint non culpa deserunt id lorem sit adipiscing do. Incididunt et aliqua minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat. Proident qui mollit est ipsum amet elit eiusmod ut dolore. Enim veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt. Officia anim laborum dolor consectetur sed tempor labore magna ad quis ullamco aliquip. Commodo aute reprehenderit esse nulla sint non culpa deserunt id. Lorem sit adipiscing do incididunt et aliqua minim nostrud laboris ex consequat."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.closing-with-stories",
+   "variant": "default",
+   "content": {
+    "heading": "The best never guess",
+    "lead": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+    "actions": [
+     {
+      "label": "Talk to sales",
+      "href": "/contact-sales/"
+     },
+     {
+      "label": "Customer stories",
+      "href": "/customers/"
+     }
+    ],
+    "items": [
+     {
+      "title": "“Placeholder quote. Pariatur occaecat proident qui mollit est ipsum amet elit eiusmod. Ut dolore enim veniam exercitation nisi ea duis. In velit fugiat excepteur cupidatat sunt officia anim laborum dolor.”",
+      "href": "/customers/breville/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/Customer_Breville.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt. Id lorem sit adipiscing do incididunt et aliqua minim. Nostrud laboris ex consequat irure.”",
+      "href": "/customers/atlassian-design/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/company/media/Customer_Atlassian.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Proident qui mollit est ipsum amet elit eiusmod ut dolore enim veniam. Exercitation nisi ea duis in velit fugiat excepteur. Cupidatat sunt officia anim laborum dolor consectetur sed tempor labore magna. Ad.”",
+      "href": "/customers/harvard-business-publishing/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/marketing/Customer_Harvard.png"
+      }
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/company/svg/rotator-logo-salesforce.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/company/svg/rotator-logo-aws.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/company/svg/rotator-logo-canva.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/company/svg/rotator-logo-airwallex.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/company/svg/rotator-logo-zapier.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/company/svg/rotator-logo-notion.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/company/svg/rotator-logo-itau.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/company/svg/rotator-logo-wise.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/company/svg/rotator-logo-salesforce.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/company/svg/rotator-logo-aws.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/company/svg/rotator-logo-canva.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/company/svg/rotator-logo-airwallex.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/company/svg/rotator-logo-zapier.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/company/svg/rotator-logo-notion.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/company/svg/rotator-logo-itau.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/company/svg/rotator-logo-wise.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "text.rotator",
+    "reducedMotionFallback": "unchanged"
+   },
+   "style": {
+    "spaceBefore": "space.section.s120"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "dark",
+   "content": {
+    "heading": "The best never guess",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "#"
+     },
+     {
+      "label": "Start free trial",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-theright-salesforce.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestfarleft-aws.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestleft-canva.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestright-airwallex.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverright-notion.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverfarright-zapier.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessleft-wise.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessfarleft-breville.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

@@ -1,0 +1,174 @@
+{
+ "id": "article.story-facts",
+ "title": "Story facts rail",
+ "semantic": {
+  "id": "article.story-facts",
+  "category": "ARTICLE"
+ },
+ "source": {
+  "id": "component:CustomerStory:cs-rail",
+  "file": "src/pages/customers/CustomerStory.jsx",
+  "tag": "div",
+  "lines": "196-207",
+  "tagLine": 196,
+  "anchor": "cs-rail",
+  "anchorLine": 196
+ },
+ "purpose": "Side rail of a customer story (company facts, products used) beside the chapters.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "actions",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 39,
+   "observedOn": [
+    "/customers/achievers/",
+    "/customers/atlassian-design/",
+    "/customers/atlassian/",
+    "/customers/aws/",
+    "/customers/bower/",
+    "/customers/breville/",
+    "/customers/canva-ai/",
+    "/customers/canva/",
+    "/customers/careship/",
+    "/customers/cnh/",
+    "/customers/eucalyptus/",
+    "/customers/flagship-airline-group/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 3
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 13,
+    "observedIn": 3
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 12,
+    "maxChars": 79,
+    "observedIn": 3
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 3,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "actions": [
+    1,
+    1
+   ],
+   "media": [
+    1,
+    1
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "product.generated-visual"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "sticky.pin"
+  ],
+  "requiredPatterns": [
+   "sticky.pin"
+  ],
+  "reducedMotionFallback": {
+   "sticky.pin": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 39,
+   "nodes": 39,
+   "minPx": 2338,
+   "maxPx": 7195,
+   "medianPx": 4936.8,
+   "sample": {
+    "/customers/achievers/": [
+     4601
+    ],
+    "/customers/atlassian-design/": [
+     4732.4
+    ],
+    "/customers/atlassian/": [
+     3007
+    ],
+    "/customers/aws/": [
+     5289
+    ],
+    "/customers/bower/": [
+     4585.9
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/customers/CustomerStory.jsx:196-207",
+  "specs/customers-story.md:1-30"
+ ]
+}

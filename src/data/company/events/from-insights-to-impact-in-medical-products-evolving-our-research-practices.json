@@ -1,0 +1,123 @@
+{
+ "slug": "from-insights-to-impact-in-medical-products-evolving-our-research-practices",
+ "path": "/events/from-insights-to-impact-in-medical-products-evolving-our-research-practices/",
+ "title": "From insights to impact in medical products—evolving our research practices to more effectively shape product success",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2025-08-19T13:00-07:00",
+ "endDate": null,
+ "onlineEvent": true,
+ "location": "Online",
+ "hosts": [
+  "Angelina Sun"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": "ol4PdyFK7fU",
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Angelina Sun"
+  },
+  {
+   "label": "[START]",
+   "value": "19 Aug 2025 1:00PM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Online"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "video",
+  "image": "/assets/company/media/Webinar_August_Hero__1_.png",
+  "width": 2240,
+  "height": 1260,
+  "youtubeId": "ol4PdyFK7fU"
+ },
+ "body": [
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 234
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 320
+  },
+  {
+   "t": "p",
+   "text": "You’ll learn how to:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "text": "Identify the right problems to solve"
+    },
+    {
+     "text": "Recruit patients and HCPs with thoughtful segmentation"
+    },
+    {
+     "text": "Execute studies with rigor and impact"
+    },
+    {
+     "text": "Engage internal stakeholders meaningfully in the process"
+    },
+    {
+     "text": "Translate research into decisions that drive product success"
+    }
+   ]
+  },
+  {
+   "t": "h4",
+   "text": "Meet the speakers"
+  },
+  {
+   "t": "h5",
+   "text": "Bill Evans"
+  },
+  {
+   "t": "p",
+   "text": "Medtech Design Veteran, Advisor, and Educator"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 330
+  },
+  {
+   "t": "h5",
+   "text": "Maegan Pisman, PhD, BCBA-D"
+  },
+  {
+   "t": "p",
+   "text": "Behavioral Scientist and Strategic Research Consultant"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 273
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 176
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "slug": "io-connect-chicago-discovery-workshop",
+ "path": "/events/io-connect-chicago-discovery-workshop/",
+ "title": "IO Connect Chicago: Discovery Workshop",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2025-07-28T14:00+00:00",
+ "endDate": "2025-07-28T18:00+00:00",
+ "onlineEvent": false,
+ "location": "Chicago",
+ "hosts": [
+  "Jeremie Gluckman",
+  "Kelsey Rogalski",
+  "Chris Buckley"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": null,
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Jeremie Gluckman, Kelsey Rogalski, Chris Buckley"
+  },
+  {
+   "label": "[START]",
+   "value": "28 Jul 2025 7:00AM PDT"
+  },
+  {
+   "label": "[END]",
+   "value": "28 Jul 2025 11:00AM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Chicago"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/spring25_dark_half.png",
+  "width": 1920,
+  "height": 1080,
+  "youtubeId": null
+ },
+ "body": [
+  {
+   "t": "h1",
+   "text": "DOVETAIL INSIGHT OUT CONNECT - IO Connect Discovery Workshop"
+  },
+  {
+   "t": "h2",
+   "text": "Elevate your design and product decisions with AI-first customer intelligence"
+  },
+  {
+   "t": "p",
+   "strong": [
+    "Date:"
+   ],
+   "text": "Date: Monday, July 28th"
+  },
+  {
+   "t": "p",
+   "strong": [
+    "Time:"
+   ],
+   "text": "Time: 9:00 AM - 1:00 PM CDT"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 109,
+   "strong": [
+    "Location:"
+   ],
+   "links": [
+    {
+     "text": "www.cmegroup.com",
+     "href": "http://www.cmegroup.com/"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "text": "Breakfast provided with opportunity to network over lunch"
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h3",
+   "text": "Transform customer understanding into product excellence"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 345
+  },
+  {
+   "t": "h3",
+   "text": "Comprehensive all-levels workshop"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 165
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 80
+    },
+    {
+     "placeholder": true,
+     "chars": 106
+    },
+    {
+     "placeholder": true,
+     "chars": 83
+    },
+    {
+     "placeholder": true,
+     "chars": 75
+    },
+    {
+     "placeholder": true,
+     "chars": 73
+    },
+    {
+     "placeholder": true,
+     "chars": 72
+    },
+    {
+     "placeholder": true,
+     "chars": 71
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "text": "Why research, product & design teams attend"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 406
+  },
+  {
+   "t": "h3",
+   "text": "Limited capacity - reserve your spot today"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 295
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 236,
+   "links": [
+    {
+     "text": "Discover how organizations using Dovetail achieved 236% ROI",
+     "href": "/resources/industry-reports/2025-forrester-TEI-of-Dovetail/#discover-how-organizations-using-dovetail-achieved-236-roi"
+    }
+   ]
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

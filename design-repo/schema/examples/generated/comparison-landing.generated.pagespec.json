@@ -1,0 +1,813 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T8",
+ "route": "/comparison-landing-sorrelwick/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Sorrelwick"
+ },
+ "meta": {
+  "title": "Sorrelwick | Comparison"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Cobalt harbor",
+    "actions": [
+     {
+      "label": "Weigh basil",
+      "href": "https://sorrelwick.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Rowan",
+      "href": "https://sorrelwick.example/navbar-0"
+     },
+     {
+      "label": "Canvas",
+      "href": "https://sorrelwick.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Trace"
+     },
+     {
+      "title": "Marble"
+     },
+     {
+      "title": "Ember"
+     },
+     {
+      "title": "Orbit"
+     },
+     {
+      "title": "Cinder"
+     },
+     {
+      "title": "Sprout"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Steer sort",
+      "text": "Share lantern falcon basil measure pebble tidy cedar"
+     },
+     {
+      "title": "Delta marble",
+      "text": "Plan shape gather sprout steer cobalt harbor fjord"
+     },
+     {
+      "title": "Weigh basil",
+      "text": "Measure nimbus canvas cedar delta quarry field shape"
+     },
+     {
+      "title": "Cinder notice",
+      "text": "Steer ledger harbor fjord falcon basil rowan nimbus"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.comparison",
+   "variant": "default",
+   "content": {
+    "heading": "Grove cedar trace marble",
+    "lead": "Plan shape meadow notice juniper sort share willow signal refine measure bundle canvas cedar",
+    "actions": [
+     {
+      "label": "Trace sketch",
+      "href": "https://sorrelwick.example/comparison-0"
+     },
+     {
+      "label": "Field orbit",
+      "href": "https://sorrelwick.example/comparison-1"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "content.full-bleed-image",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "Cinder notice steer",
+      "ref": "generate:product.generated-visual/content.full-bleed-image-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.logo-marquee",
+   "variant": "single-row",
+   "content": {
+    "lead": "Sort harbor fjord falcon beacon rowan bundle canvas",
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Cedar compass",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Plan shape gather",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Notice juniper",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Share lantern",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Basil measure",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Tidy cedar compass",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Quarry field prism",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Cinder sprout",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-7"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Cobalt share",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-8"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Falcon beacon",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-9"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Bundle tidy map",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-10"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Compass quarry",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-11"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Prism cinder",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-12"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Juniper sort share",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-13"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Lantern falcon",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-14"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Measure bundle",
+      "ref": "generate:customer.placeholder-logo/social-proof.logo-marquee-15"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "marquee.loop",
+    "reducedMotionFallback": "paused"
+   }
+  },
+  {
+   "section": "content.split-intro",
+   "variant": "default",
+   "content": {
+    "heading": "Map trace sketch ember",
+    "lead": "Shape cinder notice juniper sort share fjord signal refine rowan pebble grove map trace",
+    "actions": [
+     {
+      "label": "Marble ember",
+      "href": "https://sorrelwick.example/split-intro-0"
+     },
+     {
+      "label": "Prism cinder",
+      "href": "https://sorrelwick.example/split-intro-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "Sprout steer sort",
+      "ref": "generate:product.generated-visual/content.split-intro-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.tei-card",
+   "variant": "banner",
+   "content": {
+    "heading": "Tidal willow falcon beacon",
+    "lead": "Atlas pebble tidy thread delta marble plan shape cinder summit juniper cobalt harbor lantern",
+    "actions": [
+     {
+      "label": "Signal refine",
+      "href": "https://sorrelwick.example/tei-card-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "content.generated-cover",
+      "alt": "Atlas pebble canvas",
+      "ref": "generate:content.generated-cover/social-proof.tei-card-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.testimonial",
+   "variant": "featured",
+   "content": {
+    "quote": {
+     "text": "Thread delta sketch plan shape meadow notice juniper cobalt share lantern weigh basil measure bundle tidy"
+    },
+    "actions": [
+     {
+      "label": "Ce",
+      "href": "https://sorrelwick.example/testimonial-0"
+     },
+     {
+      "label": "De",
+      "href": "https://sorrelwick.example/testimonial-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Quarry ember",
+      "ref": "generate:customer.placeholder-logo/social-proof.testimonial-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Prism meadow",
+      "ref": "generate:customer.placeholder-logo/social-proof.testimonial-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Notice",
+      "ref": "generate:customer.placeholder-logo/social-proof.testimonial-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "cursor.tooltip",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "features.choose-grid",
+   "variant": "default",
+   "content": {
+    "heading": "Ledger tidal fjord signal",
+    "lead": "Basil rowan nimbus grove cedar delta quarry plan prism cinder summit steer cobalt tidal",
+    "actions": [
+     {
+      "label": "Fjord signal",
+      "href": "https://sorrelwick.example/choose-grid-0"
+     },
+     {
+      "label": "Refine rowan",
+      "href": "https://sorrelwick.example/choose-grid-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/features.choose-grid-0"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/features.choose-grid-1"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/features.choose-grid-2"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/features.choose-grid-3"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/features.choose-grid-4"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/features.choose-grid-5"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "comparison.intro",
+   "variant": "default",
+   "content": {
+    "heading": "Pebble canvas map trace",
+    "lead": "Sketch field orbit gather notice steer cobalt share lantern weigh refine measure nimbus canvas"
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "comparison.table",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Map delta marble",
+      "text": "Ember orbit gather summit steer cobalt tidal"
+     },
+     {
+      "title": "Willow weigh basil",
+      "text": "Rowan bundle tidy thread trace quarry field"
+     },
+     {
+      "title": "Orbit gather summit",
+      "text": "Juniper sort harbor lantern signal refine"
+     },
+     {
+      "title": "Nimbus grove cedar",
+      "text": "Trace marble ember shape meadow summit steer"
+     },
+     {
+      "title": "Ledger share willow",
+      "text": "Signal refine atlas bundle tidy thread"
+     },
+     {
+      "title": "Sketch field orbit",
+      "text": "Gather notice steer ledger tidal willow weigh"
+     },
+     {
+      "title": "Basil atlas nimbus",
+      "text": "Grove cedar delta marble ember shape gather"
+     },
+     {
+      "title": "Summit harvest cobalt",
+      "text": "Share fjord falcon basil atlas bundle tidy"
+     },
+     {
+      "title": "Cedar trace sketch",
+      "text": "Ember prism meadow sprout juniper cobalt"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.awards-marquee",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Lantern signal basil",
+      "media": {
+       "assetRole": "rating.placeholder",
+       "alt": "",
+       "ref": "generate:rating.placeholder/social-proof.awards-marquee-item0"
+      }
+     },
+     {
+      "title": "Measure bundle canvas",
+      "media": {
+       "assetRole": "rating.placeholder",
+       "alt": "",
+       "ref": "generate:rating.placeholder/social-proof.awards-marquee-item1"
+      }
+     },
+     {
+      "title": "Map delta quarry",
+      "media": {
+       "assetRole": "rating.placeholder",
+       "alt": "",
+       "ref": "generate:rating.placeholder/social-proof.awards-marquee-item2"
+      }
+     },
+     {
+      "title": "Plan prism gather",
+      "media": {
+       "assetRole": "rating.placeholder",
+       "alt": "",
+       "ref": "generate:rating.placeholder/social-proof.awards-marquee-item3"
+      }
+     },
+     {
+      "title": "Notice steer ledger",
+      "media": {
+       "assetRole": "rating.placeholder",
+       "alt": "",
+       "ref": "generate:rating.placeholder/social-proof.awards-marquee-item4"
+      }
+     },
+     {
+      "title": "Tidal lantern falcon",
+      "media": {
+       "assetRole": "rating.placeholder",
+       "alt": "",
+       "ref": "generate:rating.placeholder/social-proof.awards-marquee-item5"
+      }
+     },
+     {
+      "title": "Basil atlas bundle",
+      "media": {
+       "assetRole": "rating.placeholder",
+       "alt": "",
+       "ref": "generate:rating.placeholder/social-proof.awards-marquee-item6"
+      }
+     },
+     {
+      "title": "Tidy thread trace",
+      "media": {
+       "assetRole": "rating.placeholder",
+       "alt": "",
+       "ref": "generate:rating.placeholder/social-proof.awards-marquee-item7"
+      }
+     },
+     {
+      "title": "Sketch plan orbit",
+      "media": {
+       "assetRole": "rating.placeholder",
+       "alt": "",
+       "ref": "generate:rating.placeholder/social-proof.awards-marquee-item8"
+      }
+     },
+     {
+      "title": "Cinder notice harvest",
+      "media": {
+       "assetRole": "rating.placeholder",
+       "alt": "",
+       "ref": "generate:rating.placeholder/social-proof.awards-marquee-item9"
+      }
+     },
+     {
+      "title": "Ledger harbor fjord",
+      "media": {
+       "assetRole": "rating.placeholder",
+       "alt": "",
+       "ref": "generate:rating.placeholder/social-proof.awards-marquee-item10"
+      }
+     },
+     {
+      "title": "Falcon refine rowan",
+      "media": {
+       "assetRole": "rating.placeholder",
+       "alt": "",
+       "ref": "generate:rating.placeholder/social-proof.awards-marquee-item11"
+      }
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "rating.placeholder",
+      "alt": "",
+      "ref": "generate:rating.placeholder/social-proof.awards-marquee-0"
+     },
+     {
+      "assetRole": "rating.placeholder",
+      "alt": "",
+      "ref": "generate:rating.placeholder/social-proof.awards-marquee-1"
+     },
+     {
+      "assetRole": "rating.placeholder",
+      "alt": "",
+      "ref": "generate:rating.placeholder/social-proof.awards-marquee-2"
+     },
+     {
+      "assetRole": "rating.placeholder",
+      "alt": "",
+      "ref": "generate:rating.placeholder/social-proof.awards-marquee-3"
+     },
+     {
+      "assetRole": "rating.placeholder",
+      "alt": "",
+      "ref": "generate:rating.placeholder/social-proof.awards-marquee-4"
+     },
+     {
+      "assetRole": "rating.placeholder",
+      "alt": "",
+      "ref": "generate:rating.placeholder/social-proof.awards-marquee-5"
+     },
+     {
+      "assetRole": "rating.placeholder",
+      "alt": "",
+      "ref": "generate:rating.placeholder/social-proof.awards-marquee-6"
+     },
+     {
+      "assetRole": "rating.placeholder",
+      "alt": "",
+      "ref": "generate:rating.placeholder/social-proof.awards-marquee-7"
+     },
+     {
+      "assetRole": "rating.placeholder",
+      "alt": "",
+      "ref": "generate:rating.placeholder/social-proof.awards-marquee-8"
+     },
+     {
+      "assetRole": "rating.placeholder",
+      "alt": "",
+      "ref": "generate:rating.placeholder/social-proof.awards-marquee-9"
+     },
+     {
+      "assetRole": "rating.placeholder",
+      "alt": "",
+      "ref": "generate:rating.placeholder/social-proof.awards-marquee-10"
+     },
+     {
+      "assetRole": "rating.placeholder",
+      "alt": "",
+      "ref": "generate:rating.placeholder/social-proof.awards-marquee-11"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "marquee.loop",
+    "reducedMotionFallback": "paused"
+   }
+  },
+  {
+   "section": "social-proof.story-highlight",
+   "variant": "default",
+   "content": {},
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.testimonial",
+   "variant": "featured",
+   "content": {
+    "quote": {
+     "text": "Nimbus tidy thread compass marble plan shape cinder summit steer sort share lantern weigh refine measure"
+    },
+    "actions": [
+     {
+      "label": "Ni",
+      "href": "https://sorrelwick.example/testimonial-0"
+     },
+     {
+      "label": "Ca",
+      "href": "https://sorrelwick.example/testimonial-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Cedar compass",
+      "ref": "generate:customer.placeholder-logo/social-proof.testimonial-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Quarry ember",
+      "ref": "generate:customer.placeholder-logo/social-proof.testimonial-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "Orbit gather",
+      "ref": "generate:customer.placeholder-logo/social-proof.testimonial-2"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "cursor.tooltip",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "cta.migrate-band",
+   "variant": "default",
+   "content": {
+    "heading": "Sprout juniper cobalt harbor",
+    "lead": "Willow falcon basil measure pebble canvas map delta quarry ember orbit meadow notice juniper",
+    "actions": [
+     {
+      "label": "Ledger tidal",
+      "href": "https://sorrelwick.example/migrate-band-0"
+     },
+     {
+      "label": "Fjord falcon",
+      "href": "https://sorrelwick.example/migrate-band-1"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.trial-band",
+   "variant": "comparison",
+   "content": {
+    "heading": "Basil atlas bundle canvas",
+    "lead": "Thread delta marble field shape gather sprout steer sort share lantern weigh beacon rowan",
+    "actions": [
+     {
+      "label": "Pebble tidy",
+      "href": "https://sorrelwick.example/trial-band-0"
+     },
+     {
+      "label": "Thread compass",
+      "href": "https://sorrelwick.example/trial-band-1"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "interactive.faq",
+   "variant": "tools",
+   "content": {
+    "heading": "Sket",
+    "lead": "Plan prism cinder notice harvest sort harbor willow falcon basil rowan nimbus tidy map",
+    "actions": [
+     {
+      "label": "Delta sketch",
+      "href": "https://sorrelwick.example/faq-0"
+     },
+     {
+      "label": "Ember prism",
+      "href": "https://sorrelwick.example/faq-1"
+     },
+     {
+      "label": "Meadow summit",
+      "href": "https://sorrelwick.example/faq-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Juniper cobalt harbor",
+      "text": "Lantern falcon basil measure pebble canvas cedar trace"
+     },
+     {
+      "title": "Sketch plan prism",
+      "text": "Cinder notice juniper sort tidal fjord signal refine"
+     },
+     {
+      "title": "Atlas nimbus canvas",
+      "text": "Thread trace sketch field orbit gather summit juniper"
+     },
+     {
+      "title": "Ledger tidal fjord",
+      "text": "Signal basil atlas nimbus tidy cedar compass marble"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "accordion.height",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "lead": "Field prism meadow sprout steer",
+    "actions": [
+     {
+      "label": "Share fjord",
+      "href": "https://sorrelwick.example/footer-0"
+     },
+     {
+      "label": "Falcon refine",
+      "href": "https://sorrelwick.example/footer-1"
+     },
+     {
+      "label": "Atlas pebble",
+      "href": "https://sorrelwick.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Grove"
+     },
+     {
+      "title": "Thread"
+     },
+     {
+      "title": "Compass"
+     },
+     {
+      "title": "Marble"
+     },
+     {
+      "title": "Ember"
+     },
+     {
+      "title": "Orbit"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

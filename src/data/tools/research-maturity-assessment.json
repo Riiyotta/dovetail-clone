@@ -1,0 +1,781 @@
+{
+ "url": "/research-maturity-assessment/",
+ "template": "article",
+ "meta": {
+  "title": "Research Maturity Assessment Framework: A Complete Guide",
+  "description": "Learn how to build a research maturity assessment framework that helps organizations move from ad hoc to systematic research practices."
+ },
+ "theme": "light",
+ "breadcrumb": [
+  {
+   "text": "Guides",
+   "href": "/guides/"
+  },
+  {
+   "text": "Research maturity assessment",
+   "href": null
+  }
+ ],
+ "h1": "How do you create a research maturity assessment framework?",
+ "lastUpdated": {
+  "label": "Last updated",
+  "date": "8 September 2026"
+ },
+ "share": {
+  "heading": "Share",
+  "buttons": [
+   {
+    "aria": "Copy link",
+    "icon": "/assets/tools/svg/share-copy-link.svg",
+    "kind": "button"
+   },
+   {
+    "aria": "Share on Facebook",
+    "icon": "/assets/tools/svg/share-facebook.svg",
+    "hrefPattern": "https://www.facebook.com/sharer/sharer.php?u={url}"
+   },
+   {
+    "aria": "Share on LinkedIn",
+    "icon": "/assets/tools/svg/share-linkedin.svg",
+    "hrefPattern": "https://www.linkedin.com/sharing/share-offsite/?url={url}"
+   },
+   {
+    "aria": "Share on X",
+    "icon": "/assets/tools/svg/share-x.svg",
+    "hrefPattern": "https://twitter.com/intent/tweet?text=...&url={url}"
+   }
+  ]
+ },
+ "summarize": {
+  "heading": "Summarize with AI",
+  "buttons": [
+   {
+    "aria": "Summarize with ChatGPT",
+    "icon": "/assets/tools/svg/summarize-chatgpt.svg",
+    "hrefPattern": "https://chat.openai.com/?q=Summarize this article \"{title}\" {url}"
+   },
+   {
+    "aria": "Summarize with Claude",
+    "icon": "/assets/tools/svg/summarize-claude.svg",
+    "hrefPattern": "https://claude.ai/new?q=Summarize this article \"{title}\" {url}"
+   },
+   {
+    "aria": "Summarize with Perplexity",
+    "icon": "/assets/tools/svg/summarize-perplexity.svg",
+    "hrefPattern": "https://www.perplexity.ai/search?q=Summarize this article \"{title}\" {url}"
+   },
+   {
+    "aria": "Summarize with Grok",
+    "icon": "/assets/tools/svg/summarize-grok.svg",
+    "hrefPattern": "https://x.com/i/grok?text=Summarize this article \"{title}\" {url}"
+   }
+  ]
+ },
+ "sidebarCta": {
+  "text": {
+   "placeholder": true,
+   "chars": 156
+  },
+  "cta": [
+   {
+    "text": "Contact sales",
+    "href": "/contact-sales/"
+   }
+  ]
+ },
+ "toc": [
+  "What is research maturity?",
+  "Why assess research maturity?",
+  "Establishing a shared baseline",
+  "Identifying the highest-leverage improvements",
+  "Building a case for investment",
+  "Creating accountability",
+  "The anatomy of a research maturity framework",
+  "Defining your dimensions",
+  "Defining your maturity levels",
+  "How to build your framework: A step-by-step process",
+  "Step 1: Align on purpose and scope",
+  "Step 2: Customize dimensions to your context",
+  "Step 3: Write detailed level descriptions",
+  "Step 4: Develop your assessment method",
+  "Step 5: Score and visualize results",
+  "Step 6: Prioritize and plan",
+  "Step 7: Reassess regularly",
+  "Common pitfalls to avoid",
+  "Treating maturity as purely a research team problem",
+  "Skipping levels",
+  "Over-engineering the framework",
+  "Confusing activity with maturity",
+  "Moving from ad hoc to systematic: What the transition actually looks like",
+  "Measuring the impact of your maturity program",
+  "How Dovetail supports research maturity at every stage"
+ ],
+ "body": [
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 411
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 301
+  },
+  {
+   "type": "h2",
+   "id": "what-is-research-maturity",
+   "text": "What is research maturity?"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 291
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 55
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 121,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 120,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 150,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 104,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 160,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 128,
+     "boldLead": true
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 138
+  },
+  {
+   "type": "h2",
+   "id": "why-assess-research-maturity",
+   "text": "Why assess research maturity?"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 126
+  },
+  {
+   "type": "h3",
+   "id": "establishing-a-shared-baseline",
+   "text": "Establishing a shared baseline"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 303
+  },
+  {
+   "type": "h3",
+   "id": "identifying-the-highest-leverage-improvements",
+   "text": "Identifying the highest-leverage improvements"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 317
+  },
+  {
+   "type": "h3",
+   "id": "building-a-case-for-investment",
+   "text": "Building a case for investment"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 323
+  },
+  {
+   "type": "h3",
+   "id": "creating-accountability",
+   "text": "Creating accountability"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 194
+  },
+  {
+   "type": "h2",
+   "id": "the-anatomy-of-a-research-maturity-framework",
+   "text": "The anatomy of a research maturity framework"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 304,
+   "hasBold": true
+  },
+  {
+   "type": "h3",
+   "id": "defining-your-dimensions",
+   "text": "Defining your dimensions"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 175
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 33,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 332
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 24,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 369
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 25,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 413
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 40,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 367
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 41,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 255
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 28,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 270
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 27,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 236
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 24,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 240
+  },
+  {
+   "type": "h3",
+   "id": "defining-your-maturity-levels",
+   "text": "Defining your maturity levels"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 164
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 16,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 227
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 18,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 357
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 20,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 354
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 20,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 394
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 19,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 347
+  },
+  {
+   "type": "h2",
+   "id": "how-to-build-your-framework-a-step-by-step-process",
+   "text": "How to build your framework: A step-by-step process"
+  },
+  {
+   "type": "h3",
+   "id": "step-1-align-on-purpose-and-scope",
+   "text": "Step 1: Align on purpose and scope"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 331
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 232
+  },
+  {
+   "type": "h3",
+   "id": "step-2-customize-dimensions-to-your-context",
+   "text": "Step 2: Customize dimensions to your context"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 318
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 160
+  },
+  {
+   "type": "h3",
+   "id": "step-3-write-detailed-level-descriptions",
+   "text": "Step 3: Write detailed level descriptions"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 386
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 28
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 73,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 58,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 86,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 69,
+     "boldLead": true
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "id": "step-4-develop-your-assessment-method",
+   "text": "Step 4: Develop your assessment method"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 125
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 95,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 60,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 99,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 126,
+     "boldLead": true
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 152
+  },
+  {
+   "type": "h3",
+   "id": "step-5-score-and-visualize-results",
+   "text": "Step 5: Score and visualize results"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 297
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 178
+  },
+  {
+   "type": "h3",
+   "id": "step-6-prioritize-and-plan",
+   "text": "Step 6: Prioritize and plan"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 151
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 129,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 109,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 123,
+     "boldLead": true
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 127
+  },
+  {
+   "type": "h3",
+   "id": "step-7-reassess-regularly",
+   "text": "Step 7: Reassess regularly"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 250
+  },
+  {
+   "type": "h2",
+   "id": "common-pitfalls-to-avoid",
+   "text": "Common pitfalls to avoid"
+  },
+  {
+   "type": "h3",
+   "id": "treating-maturity-as-purely-a-research-team-problem",
+   "text": "Treating maturity as purely a research team problem"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 371
+  },
+  {
+   "type": "h3",
+   "id": "skipping-levels",
+   "text": "Skipping levels"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 336
+  },
+  {
+   "type": "h3",
+   "id": "over-engineering-the-framework",
+   "text": "Over-engineering the framework"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 243
+  },
+  {
+   "type": "h3",
+   "id": "confusing-activity-with-maturity",
+   "text": "Confusing activity with maturity"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 279
+  },
+  {
+   "type": "h2",
+   "id": "moving-from-ad-hoc-to-systematic-what-the-transition-actually-looks-like",
+   "text": "Moving from ad hoc to systematic: What the transition actually looks like"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 273
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 236,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 329,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 311,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 275
+  },
+  {
+   "type": "h2",
+   "id": "measuring-the-impact-of-your-maturity-program",
+   "text": "Measuring the impact of your maturity program"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 98
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 92,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 110,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 110,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 132,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 130,
+     "boldLead": true
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 127
+  },
+  {
+   "type": "h2",
+   "id": "how-dovetail-supports-research-maturity-at-every-stage",
+   "text": "How Dovetail supports research maturity at every stage"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 453
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 434
+  }
+ ],
+ "relatedTopics": {
+  "heading": "Related topics",
+  "links": [
+   {
+    "text": "[Customer research]",
+    "href": "/customer-research/"
+   },
+   {
+    "text": "[Design thinking]",
+    "href": "/design-thinking/"
+   },
+   {
+    "text": "[Employee experience]",
+    "href": "/employee-experience/"
+   },
+   {
+    "text": "[Enterprise]",
+    "href": "/enterprise/"
+   },
+   {
+    "text": "[Market research]",
+    "href": "/market-research/"
+   },
+   {
+    "text": "[Patient experience]",
+    "href": "/patient-experience/"
+   },
+   {
+    "text": "[Product development]",
+    "href": "/product-development/"
+   },
+   {
+    "text": "[Product management]",
+    "href": "/product-management/"
+   },
+   {
+    "text": "[Research methods]",
+    "href": "/research/"
+   },
+   {
+    "text": "[Surveys]",
+    "href": "/surveys/"
+   },
+   {
+    "text": "[User experience (UX)]",
+    "href": "/ux/"
+   }
+  ]
+ },
+ "ctaFooter": {
+  "h2": "Turn customer feedback into product innovation",
+  "ctas": [
+   {
+    "text": "Contact sales",
+    "href": "/contact-sales/"
+   },
+   {
+    "text": "Try Dovetail free",
+    "href": "/auth/signup/",
+    "newTab": true
+   }
+  ]
+ },
+ "finalCta": false
+}

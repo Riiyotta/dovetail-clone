@@ -1,0 +1,512 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T15",
+ "route": "/aws-summit-sydney-2026/",
+ "theme": "campaign",
+ "chrome": {
+  "banner": "none",
+  "nav": "none",
+  "footer": "none"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail clone (local)"
+ },
+ "nodes": [
+  {
+   "section": "shell.campaign-nav",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Join the team",
+      "href": "#careers-slice"
+     },
+     {
+      "label": "Get 60 days full access",
+      "href": "#60-day-trial-offer"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "hero.campaign",
+   "variant": "default",
+   "content": {
+    "heading": "The best never guess",
+    "media": [
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-theright-salesforce.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestfarleft-aws.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestleft-canva.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestright-airwallex.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverright-notion.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverfarright-zapier.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessleft-wise.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessfarleft-breville.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "content.campaign-text",
+   "variant": "default",
+   "content": {
+    "heading": "Est ipsum amet elit eiusmod ut dolore enim veniam exercitation [ ] nisi. Ea duis in velit fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur. Sed tempor labore magna ad quis ullamco aliquip commodo aute. Reprehenderit esse nulla sint non culpa deserunt id lorem sit adipiscing do.",
+    "actions": [
+     {
+      "label": "Get 60 days full access",
+      "href": "#60-day-trial-offer"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/bng-text-slice-bottom-right-decoration.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/company/svg/aws-text-rotator-airwallex.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/company/svg/aws-text-rotator-lovable.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/company/svg/aws-text-rotator-qantas.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/company/svg/aws-text-rotator-shopify.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/company/svg/aws-text-rotator-wise.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/company/svg/aws-text-rotator-airwallex.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/company/svg/aws-text-rotator-lovable.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/company/svg/aws-text-rotator-qantas.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/company/svg/aws-text-rotator-shopify.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/company/svg/aws-text-rotator-wise.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.testimonial",
+   "variant": "campaign",
+   "content": {
+    "lead": "Constance Docos, Senior UX Designer at Breville",
+    "quote": {
+     "text": "“Dovetail enables us to access all of Breville’s customer data gathered from around the globe—all in one place.“"
+    },
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/bng-mobile-testimonial-top-right-decoration.svg"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/marketing/breville-girl.webp"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Breville",
+      "ref": "/assets/marketing/breville.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "cursor.tooltip",
+    "reducedMotionFallback": "unchanged"
+   },
+   "style": {
+    "spaceBefore": "space.campaign.224"
+   }
+  },
+  {
+   "section": "social-proof.story-grid",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "“Placeholder quote. Nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident qui mollit est. Ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi. Ea duis in velit fugiat.”",
+      "href": "/customers/itau-unibanco/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/Customer_Itau.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt. Id lorem sit adipiscing do incididunt et aliqua minim. Nostrud laboris ex consequat irure.”",
+      "href": "/customers/atlassian-design/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/company/media/Customer_Atlassian.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Pariatur occaecat proident qui mollit est ipsum amet elit eiusmod. Ut dolore enim veniam exercitation nisi ea duis in velit fugiat. Excepteur.”",
+      "href": "/customers/canva-ai/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/company/media/Customer_Canva_AI.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Pariatur occaecat proident qui mollit est ipsum amet elit eiusmod. Ut dolore enim veniam exercitation nisi ea duis. In velit fugiat excepteur cupidatat sunt officia anim laborum dolor.”",
+      "href": "/customers/breville/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/Customer_Breville.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. In velit fugiat excepteur cupidatat sunt officia anim laborum dolor. Consectetur sed tempor labore magna ad quis ullamco aliquip. Commodo aute reprehenderit esse nulla sint non culpa.”",
+      "href": "/customers/cnh/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/Customer_CNHIndustrial.png"
+      }
+     },
+     {
+      "title": "“Placeholder quote. Duis in velit fugiat excepteur cupidatat sunt officia anim. Laborum dolor consectetur sed tempor labore magna ad quis. Ullamco aliquip commodo aute reprehenderit esse nulla sint. Non culpa.”",
+      "href": "/customers/smartrecruiters/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/Customer_SmartRecruiter.png"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "pixel.dissolve-hover",
+    "reducedMotionFallback": "unchanged"
+   },
+   "style": {
+    "spaceBefore": "space.section.hero"
+   }
+  },
+  {
+   "section": "social-proof.team-proof",
+   "variant": "default",
+   "content": {
+    "heading": "Trusted by the best. Built by us.",
+    "lead": "FORRESTER’S THE TOTAL ECONOMIC IMPACT™ OF DOVETAIL, 2025",
+    "media": [
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/marketing/bng-team-switch-left-center-decoration.svg"
+     },
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/marketing/bng-team-switch-right-top-decoration.svg"
+     },
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/marketing/bng-team-switch-right-bottom-decoration.svg"
+     },
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/marketing/bng-mobile-team-switch-bottom-left-decoration.svg"
+     },
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/marketing/bng-mobile-team-switch-center-right-decoration.svg"
+     },
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/company/svg/aws-team-rotator-notion.svg"
+     },
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/company/svg/aws-team-rotator-canva.svg"
+     },
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/company/svg/aws-team-rotator-itau.svg"
+     },
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/company/svg/aws-team-rotator-zapier.svg"
+     },
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/company/svg/aws-team-rotator-notion.svg"
+     },
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/company/svg/aws-team-rotator-canva.svg"
+     },
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/company/svg/aws-team-rotator-itau.svg"
+     },
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/company/svg/aws-team-rotator-zapier.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s246"
+   }
+  },
+  {
+   "section": "conversion.trial-signup",
+   "variant": "default",
+   "content": {
+    "heading": "Join the world's leading teams. Sign up for Enterprise and get your first 60 days on us.",
+    "lead": "Reprehenderit esse nulla sint non culpa deserunt id lorem. Sit adipiscing do incididunt et aliqua minim nostrud Terms of Service laboris. Ex consequat irure voluptate cillum pariatur occaecat proident. Qui mollit est ipsum amet Privacy Policy.",
+    "actions": [
+     {
+      "label": "Terms of Service",
+      "href": "https://dovetail.com/legal/user-terms-of-service/"
+     },
+     {
+      "label": "Privacy Policy",
+      "href": "https://dovetail.com/privacy/privacy-policy/"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/bng-form-bottom-left-decoration.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/bng-form-bottom-right-decoration.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/company/media/bng/mobile-form-bottom-left-decoration.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s246"
+   }
+  },
+  {
+   "section": "company.careers-callout",
+   "variant": "default",
+   "content": {
+    "heading": "Build with the best in Sydney for the best globally.",
+    "lead": "We’re looking for Sydney’s best engineers to help us scale the world’s leading AI-native customer intelligence platform.",
+    "actions": [
+     {
+      "label": "SYDNEY Security Engineering Lead",
+      "href": "https://jobs.ashbyhq.com/dovetail/7902c644-99b9-451a-899e-ff6216cdb3a1?utm_source=dovetail_website&utm_medium=landing_page&utm_campaign=best_never_guess&utm_content=engineering_roles"
+     },
+     {
+      "label": "Refer a mate",
+      "href": "https://jobs.ashbyhq.com/dovetail/form/tbng-refer-a-mate"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/company/media/bng/careers-right-center-decoration.svg"
+     },
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/company/media/bng/mobile-careers-bottom-right-decoration.svg"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/company/media/image-ale.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/company/media/image-3.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/company/media/image-2.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/company/media/image.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/company/media/image_75.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/company/media/image-1.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/company/media/image-ale.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/company/media/image-3.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/company/media/image-2.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/company/media/image.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/company/media/image_75.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/company/media/image-1.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "pixel.band-scrub",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "shell.campaign-footer",
+   "variant": "campaign",
+   "content": {
+    "actions": [
+     {
+      "label": "COOKIE PREFERENCES",
+      "href": "#"
+     },
+     {
+      "label": "TRUST CENTER",
+      "href": "https://trust.dovetail.com/"
+     },
+     {
+      "label": "LEGAL AND PRIVACY",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

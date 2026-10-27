@@ -1,0 +1,180 @@
+{
+ "id": "cta.trial-band",
+ "title": "Trial offer band",
+ "semantic": {
+  "id": "cta.trial-band",
+  "category": "CTA"
+ },
+ "source": {
+  "id": "component:SolutionPage:st__grid",
+  "file": "src/pages/roles/SolutionPage.jsx",
+  "tag": "div",
+  "lines": "137-149",
+  "tagLine": 137,
+  "anchor": "st__grid",
+  "anchorLine": 137
+ },
+ "purpose": "Blue-faded band: heading, paragraph and trial/demo buttons (60-day trial offer).",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "comparison": {
+   "description": "variant 'comparison'",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "lead"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 16,
+   "observedOn": [
+    "/dovetail-vs-aurelius/",
+    "/dovetail-vs-chattermill/",
+    "/dovetail-vs-condens/",
+    "/dovetail-vs-enterpret/",
+    "/dovetail-vs-great-question/",
+    "/dovetail-vs-insight7/",
+    "/dovetail-vs-lookback/",
+    "/dovetail-vs-looppanel/",
+    "/dovetail-vs-marvin/",
+    "/dovetail-vs-maze/",
+    "/dovetail-vs-medallia/",
+    "/dovetail-vs-notably/"
+   ],
+   "contentSampled": true
+  },
+  "solutions": {
+   "description": "variant 'solutions'",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "lead"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 4,
+   "observedOn": [
+    "/solutions/healthcare/",
+    "/solutions/product-research/",
+    "/solutions/research-repository/",
+    "/solutions/voice-of-customer/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions",
+   "heading",
+   "lead"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 12
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 5,
+    "maxChars": 25,
+    "observedIn": 12
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 9,
+    "maxChars": 55,
+    "observedIn": 6
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 30,
+    "maxChars": 189,
+    "observedIn": 6
+   }
+  },
+  "listSizes": {
+   "actions": [
+    2,
+    2
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {
+   "spaceBefore": {
+    "kind": "token",
+    "allowed": [
+     "space.section.s200"
+    ]
+   }
+  },
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 20,
+   "nodes": 20,
+   "minPx": 744,
+   "maxPx": 840,
+   "medianPx": 806.0,
+   "sample": {
+    "/dovetail-vs-aurelius/": [
+     744
+    ],
+    "/dovetail-vs-chattermill/": [
+     840
+    ],
+    "/dovetail-vs-condens/": [
+     800
+    ],
+    "/dovetail-vs-enterpret/": [
+     840
+    ],
+    "/dovetail-vs-great-question/": [
+     744
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/roles/SolutionPage.jsx:137-149",
+  "specs/solutions.md:1-40",
+  "specs/comparison.md:1-40"
+ ]
+}

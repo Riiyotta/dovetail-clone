@@ -1,0 +1,1211 @@
+{
+ "url": "/enterprise/",
+ "template": "enterprise",
+ "title": "Dovetail for Enterprise",
+ "metaDescription": "Where enterprise teams centralize customer signals, synthesize insights, and power decisions at scale.",
+ "documentHeight": {
+  "1440": 11417,
+  "1280": 11447,
+  "768": 13236,
+  "390": 12918
+ },
+ "chrome": {
+  "alertBar": true,
+  "navBackground": null,
+  "footer": "finalCta"
+ },
+ "sections": [
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 96,
+    "1280": 56,
+    "768": 56,
+    "390": 56
+   }
+  },
+  {
+   "slice": "EnterpriseHero",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 1089,
+    "1280": 1178.4,
+    "768": 812.5,
+    "390": 645.5
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Enterprise AI customer intelligence platform",
+     "el": "e18o1u1v2.etfyu4r0"
+    },
+    {
+     "role": "h1",
+     "text": "Turn feedback into foresight—at scale",
+     "el": "e18o1u1v3"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 193,
+     "el": "e18o1u1v4"
+    },
+    {
+     "role": "link",
+     "text": "Request a demo",
+     "href": "/request-a-demo/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/enterprise-lp/",
+     "el": "a"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/continuous_AI_analysis__9_.png",
+     "alt": "Continuous AI analysis in Dovetail",
+     "w": 1192,
+     "h": 853.4,
+     "el": "ejdubc80"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "CompactLogo",
+   "el": "etid8i64",
+   "measuredHeight": {
+    "1440": 252,
+    "1280": 251.2,
+    "768": 251.2,
+    "390": 251.2
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Connecting the world's greatest companies to their customers",
+     "el": "e1a4s9wi0"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-breville-white-logo.svg",
+     "alt": "Breville",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+     "alt": "Atlassian",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-notion-white-logo.svg",
+     "alt": "Notion",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-okta-white-logo.svg",
+     "alt": "Okta",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-aws-white-logo.svg",
+     "alt": "AWS",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-toyota-white-logo.svg",
+     "alt": "Toyota",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-qantas-white-logo.svg",
+     "alt": "Qantas",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-ncrvoyix-white-logo.svg",
+     "alt": "NCRVoyix",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-asml-white-logo.svg",
+     "alt": "ASML",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-zapier-white-logo.svg",
+     "alt": "Zapier",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "BaseHeading",
+   "el": "etid8i64",
+   "measuredHeight": {
+    "1440": 955.4,
+    "1280": 1186.8,
+    "768": 1091.6,
+    "390": 786.1
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "Intelligent decisions, made faster",
+     "el": "e18o1u1v3"
+    },
+    {
+     "role": "text",
+     "text": "Make sense of thousands of complex data points in just moments—not months—with automated customer intelligence.",
+     "el": "e18o1u1v4"
+    },
+    {
+     "role": "link",
+     "text": "Request a demo",
+     "href": "/request-a-demo/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/enterprise-lp/",
+     "el": "a"
+    },
+    {
+     "role": "button",
+     "text": "Real-time dashboards",
+     "el": "e1rdhwkq2"
+    },
+    {
+     "role": "h3",
+     "text": "Real-time dashboards",
+     "el": "e1rdhwkq0"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "e1rdhwkq2"
+    },
+    {
+     "role": "h3",
+     "text": "Sentiment detection",
+     "el": "e1rdhwkq0"
+    },
+    {
+     "role": "text",
+     "text": "Spot themes, emerging issues, and opportunities—before they escalate.",
+     "el": "etikis34"
+    },
+    {
+     "role": "button",
+     "text": "Customer narratives",
+     "el": "e1rdhwkq2"
+    },
+    {
+     "role": "h3",
+     "text": "Customer narratives",
+     "el": "e1rdhwkq0"
+    },
+    {
+     "role": "button",
+     "text": "Answers on demand",
+     "el": "e1rdhwkq2"
+    },
+    {
+     "role": "h3",
+     "text": "Answers on demand",
+     "el": "e1rdhwkq0"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/continuous_AI_analysis__8_.png",
+     "alt": "AI dashboard in Dovetail",
+     "w": 682,
+     "h": 659.4,
+     "el": "ejdubc80"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/sentiment-detection-vertical-tabs.png",
+     "alt": "Sentiment detection in Dovetail",
+     "w": 682,
+     "h": 659.4,
+     "el": "ejdubc80"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-narratives-vertical-tabs.png",
+     "alt": "Customer narratives in Dovetail",
+     "w": 682,
+     "h": 659.4,
+     "el": "ejdubc80"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/answers-on-demand-vertical-tabs.png",
+     "alt": "Answers on demand in Dovetail",
+     "w": 682,
+     "h": 659.4,
+     "el": "ejdubc80"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "RoiMap",
+   "el": "ev8np7u2",
+   "measuredHeight": {
+    "1440": 786,
+    "1280": 710.6,
+    "768": 706.6,
+    "390": 795.6
+   },
+   "content": [
+    {
+     "role": "button",
+     "text": "01",
+     "el": "e5b4pau2",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "button",
+     "text": "02",
+     "el": "e5b4pau2",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "button",
+     "text": "03",
+     "el": "e5b4pau2",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "button",
+     "text": "04",
+     "el": "e5b4pau2",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "text": "Return on investment",
+     "el": "e1ml9unk0.etfyu4r0",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "text": "2.3x",
+     "el": "e1ml9unk3",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "text": "Deliver outsized value fast",
+     "el": "e1ml9unk4",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "text": "See more than double the return on your Dovetail investment, with payback in under six months.",
+     "el": "e1ml9unk1",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "text": "Weekly time saved per user",
+     "el": "e1ml9unk0.etfyu4r0",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "text": "30hrs",
+     "el": "e1ml9unk3",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "text": "Spend less time digging",
+     "el": "e1ml9unk4",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "text": "Reclaim almost a full workweek with AI-powered analysis and centralized access to feedback.",
+     "el": "e1ml9unk1",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "text": "Team capacity increase",
+     "el": "e1ml9unk0.etfyu4r0",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "text": "30%",
+     "el": "e1ml9unk3",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "text": "Do more with the team you have",
+     "el": "e1ml9unk4",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "text": "Continuous, always on intelligence shortens development cycles and unlocks bandwidth across roles.",
+     "el": "e1ml9unk1",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "text": "Faster shipping",
+     "el": "e1ml9unk0.etfyu4r0",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "text": "66%",
+     "el": "e1ml9unk3",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "text": "Accelerate execution",
+     "el": "e1ml9unk4",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "text": "Move from discovery to delivery faster—without sacrificing quality.",
+     "el": "e1ml9unk1",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "text": "Return on investment",
+     "el": "e1ml9unk0.etfyu4r0"
+    },
+    {
+     "role": "text",
+     "text": "2.3x",
+     "el": "e1ml9unk3"
+    },
+    {
+     "role": "text",
+     "text": "Deliver outsized value fast",
+     "el": "e1ml9unk4"
+    },
+    {
+     "role": "text",
+     "text": "See more than double the return on your Dovetail investment, with payback in under six months.",
+     "el": "e1ml9unk1"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ev8np7u11-e17gze030-822842.svg",
+     "w": 132,
+     "h": 62,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "text": "Weekly time saved per user",
+     "el": "e1ml9unk0.etfyu4r0"
+    },
+    {
+     "role": "text",
+     "text": "30hrs",
+     "el": "e1ml9unk3"
+    },
+    {
+     "role": "text",
+     "text": "Spend less time digging",
+     "el": "e1ml9unk4"
+    },
+    {
+     "role": "text",
+     "text": "Reclaim almost a full workweek with AI-powered analysis and centralized access to feedback.",
+     "el": "e1ml9unk1"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ev8np7u11-e17gze030-822842.svg",
+     "w": 132,
+     "h": 62,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "text": "Team capacity increase",
+     "el": "e1ml9unk0.etfyu4r0"
+    },
+    {
+     "role": "text",
+     "text": "30%",
+     "el": "e1ml9unk3"
+    },
+    {
+     "role": "text",
+     "text": "Do more with the team you have",
+     "el": "e1ml9unk4"
+    },
+    {
+     "role": "text",
+     "text": "Continuous, always on intelligence shortens development cycles and unlocks bandwidth across roles.",
+     "el": "e1ml9unk1"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ev8np7u11-e17gze030-822842.svg",
+     "w": 132,
+     "h": 62,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "text": "Faster shipping",
+     "el": "e1ml9unk0.etfyu4r0"
+    },
+    {
+     "role": "text",
+     "text": "66%",
+     "el": "e1ml9unk3"
+    },
+    {
+     "role": "text",
+     "text": "Accelerate execution",
+     "el": "e1ml9unk4"
+    },
+    {
+     "role": "text",
+     "text": "Move from discovery to delivery faster—without sacrificing quality.",
+     "el": "e1ml9unk1"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ev8np7u11-e17gze030-822842.svg",
+     "w": 132,
+     "h": 62,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ev8np7u7-e1ovzewl0-254952.svg",
+     "w": 1424,
+     "h": 663,
+     "el": "svg"
+    },
+    {
+     "role": "button",
+     "text": "01",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "02",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "03",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "04",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "h2",
+     "text": "Save time, reduce risk, and build what moves the needle.",
+     "el": "eycheoc0"
+    },
+    {
+     "role": "text",
+     "text": "Intelligence that pays off across the product lifecycle.",
+     "el": "eycheoc1"
+    },
+    {
+     "role": "text",
+     "text": "Want to see the full ROI of Dovetail?",
+     "el": "ev8np7u5"
+    },
+    {
+     "role": "link",
+     "text": "Download the Forrester Total Economic Impact™ Study →",
+     "href": "/resources/industry-reports/2025-forrester-TEI-of-Dovetail/",
+     "el": "ev8np7u6"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 0,
+    "768": 0,
+    "390": 0
+   }
+  },
+  {
+   "slice": "FeatureCardGrid",
+   "el": "e1jvfgez0",
+   "measuredHeight": {
+    "1440": 1589.6,
+    "1280": 1499.7,
+    "768": 2405.7,
+    "390": 1726.8
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "Connected to your enterprise stack",
+     "el": "e18o1u1v3"
+    },
+    {
+     "role": "text",
+     "text": "Enrich and activate customer intelligence where decisions happen.",
+     "el": "e18o1u1v4"
+    },
+    {
+     "role": "link",
+     "text": "Request a demo",
+     "href": "/request-a-demo/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/enterprise-lp/",
+     "el": "a"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/crm-integrations-horizontal-feature-card.png",
+     "alt": "Dovetail CRM integrations",
+     "w": 724,
+     "h": 472,
+     "el": "img"
+    },
+    {
+     "role": "h3",
+     "text": "CRM integrations",
+     "el": "eiz8yhc1"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 141,
+     "el": "eiz8yhc2"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/apis-and-mcp-server-vertical-feature-card.png",
+     "alt": "Dovetail APIs and MCP server",
+     "w": 578,
+     "h": 431.6,
+     "el": "img"
+    },
+    {
+     "role": "h3",
+     "text": "APIs & MCP server",
+     "el": "eiz8yhc1"
+    },
+    {
+     "role": "text",
+     "text": "Build custom workflows with open APIs, or use Dovetail's Model Context Protocol (MCP Server) for scalable, secure data exchange.",
+     "el": "eiz8yhc2"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/sso-and-admin-controls-vertical-feature-card.png",
+     "alt": "Dovetail SSO and admin controls",
+     "w": 578,
+     "h": 431.6,
+     "el": "img"
+    },
+    {
+     "role": "h3",
+     "text": "SSO & admin controls",
+     "el": "eiz8yhc1"
+    },
+    {
+     "role": "text",
+     "text": "Manage roles, permissions, and authentication at scale—built for compliance, governance, and IT peace of mind.",
+     "el": "eiz8yhc2"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Frame_1948762751.png",
+     "alt": "",
+     "w": 1440,
+     "h": 586.7,
+     "el": "e1jvfgez2"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "TestimonialSlice",
+   "el": "eqa8jb90",
+   "measuredHeight": {
+    "1440": 560,
+    "1280": 560,
+    "768": 407.6,
+    "390": 546.4
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/testimonial-grid-bg.png.png",
+     "alt": "Grid background",
+     "w": 1260,
+     "h": 560,
+     "el": "e1ms7w8v3"
+    },
+    {
+     "role": "link-card",
+     "text": null,
+     "href": "/customers/",
+     "el": "e1i468kp0"
+    },
+    {
+     "role": "text",
+     "text": "All customer stories",
+     "el": "e1i468kp8"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti.png",
+     "alt": "",
+     "w": 80,
+     "h": 80,
+     "el": "e1i468kp2"
+    },
+    {
+     "role": "quote",
+     "placeholder": true,
+     "chars": 210,
+     "el": "e1i468kp5"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-qantas-white-logo.svg",
+     "alt": "Qantas",
+     "w": 142,
+     "h": 40,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "Simone Ellis",
+     "el": "e1i468kp6"
+    },
+    {
+     "role": "text",
+     "text": "Loyalty CX Lead",
+     "el": "e1i468kp7"
+    },
+    {
+     "role": "button",
+     "text": "01",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "02",
+     "el": "e5b4pau2"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "SecurityAndCompliance",
+   "el": "e1jvfgez0",
+   "measuredHeight": {
+    "1440": 1107,
+    "1280": 1409,
+    "768": 2699,
+    "390": 2987
+   },
+   "content": [
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1u51w9m3-425143.svg",
+     "w": 253,
+     "h": 252,
+     "el": "svg"
+    },
+    {
+     "role": "h3",
+     "text": "Data residency & retention",
+     "el": "e1u51w9m0"
+    },
+    {
+     "role": "text",
+     "text": "Control where data is stored and how long it’s retained to align with policies, regulatory requirements, and regional standards.",
+     "el": "e1u51w9m1"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1u51w9m3-210492.svg",
+     "w": 252,
+     "h": 252,
+     "el": "svg"
+    },
+    {
+     "role": "h3",
+     "text": "Granular access controls",
+     "el": "e1u51w9m0"
+    },
+    {
+     "role": "text",
+     "text": "Define precise access rules across teams and roles to reduce risk, protect sensitive data and support internal governance.",
+     "el": "e1u51w9m1"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1u51w9m3-153904.svg",
+     "w": 253,
+     "h": 252,
+     "el": "svg"
+    },
+    {
+     "role": "h3",
+     "text": "SOC 2 Type II certified",
+     "el": "e1u51w9m0"
+    },
+    {
+     "role": "text",
+     "text": "Our report confirms that our security policies and controls consistently comply with the highest industry standards.",
+     "el": "e1u51w9m1"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1u51w9m3-723982.svg",
+     "w": 253,
+     "h": 252,
+     "el": "svg"
+    },
+    {
+     "role": "h3",
+     "text": "PII redaction & audit logs",
+     "el": "e1u51w9m0"
+    },
+    {
+     "role": "text",
+     "text": "Remove sensitive customer data and retain a full record of user actions to meet privacy, compliance, and governance obligations.",
+     "el": "e1u51w9m1"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1u51w9m3-876837.svg",
+     "w": 252,
+     "h": 252,
+     "el": "svg"
+    },
+    {
+     "role": "h3",
+     "text": "ISO/IEC 42001:2023",
+     "el": "e1u51w9m0"
+    },
+    {
+     "role": "text",
+     "text": "Dovetail is certified for the first global AI management standard, demonstrating our commitment to secure and ethical practices.",
+     "el": "e1u51w9m1"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1u51w9m3-737428.svg",
+     "w": 253,
+     "h": 252,
+     "el": "svg"
+    },
+    {
+     "role": "h3",
+     "text": "HIPAA",
+     "el": "e1u51w9m0"
+    },
+    {
+     "role": "text",
+     "text": "Dovetail’s HIPAA certification demonstrates our commitment to protecting the privacy and security of sensitive health information.",
+     "el": "e1u51w9m1"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Frame_1948762767.png",
+     "alt": "",
+     "w": 1440,
+     "h": 504.8,
+     "el": "e1jvfgez2"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "PixelBand",
+   "el": "e70som00",
+   "measuredHeight": {
+    "1440": 120,
+    "1280": 0,
+    "768": 0,
+    "390": 0
+   },
+   "content": []
+  },
+  {
+   "slice": "CustomerStories",
+   "el": "elme6fd0",
+   "measuredHeight": {
+    "1440": 910,
+    "1280": 700,
+    "768": 501.9,
+    "390": 621.9
+   },
+   "content": [
+    {
+     "role": "video",
+     "src": "/assets/marketing/CustomerStoryBrevilleLoop.mp4",
+     "poster": null,
+     "el": "elme6fd2"
+    },
+    {
+     "role": "button",
+     "text": "01",
+     "ariaLabel": "Breville customer story",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "02",
+     "ariaLabel": "Atlassian customer story",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "button",
+     "text": "03",
+     "ariaLabel": "Itaú Unibanco customer story",
+     "el": "e5b4pau2"
+    },
+    {
+     "role": "h3",
+     "text": "How customer insights drive and inspire Breville’s product innovation",
+     "el": "e1wn1hrv5"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1wn1hrv9-593209.svg",
+     "w": 56,
+     "h": 56,
+     "el": "e1wn1hrv11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 207,
+     "el": "e1wn1hrv6"
+    },
+    {
+     "role": "link",
+     "text": "Read the story",
+     "href": "/customers/breville/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "All customer stories",
+     "href": "/customers/",
+     "el": "e1wn1hrv8"
+    },
+    {
+     "role": "h3",
+     "text": "How Atlassian turns customer signals into confident product decisions",
+     "el": "e1wn1hrv5",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1wn1hrv9-661009.svg",
+     "w": 0,
+     "h": 0,
+     "el": "e1wn1hrv11",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 153,
+     "el": "e1wn1hrv6",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "link",
+     "text": "Read the story",
+     "href": "/customers/atlassian-design/",
+     "el": "a",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "h3",
+     "text": "How Itaú Unibanco delivers better banking experiences with Dovetail",
+     "el": "e1wn1hrv5",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1wn1hrv9-365555.svg",
+     "w": 0,
+     "h": 0,
+     "el": "e1wn1hrv11",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 183,
+     "el": "e1wn1hrv6",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "link",
+     "text": "Read the story",
+     "href": "/customers/itau-unibanco/",
+     "el": "a",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "PixelBand",
+   "el": "e70som00",
+   "measuredHeight": {
+    "1440": 120,
+    "1280": 0,
+    "768": 0,
+    "390": 0
+   },
+   "content": []
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "Resources",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 645,
+    "1280": 823,
+    "768": 867,
+    "390": 1095
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "Resources for enterprise",
+     "el": "e18o1u1v3"
+    },
+    {
+     "role": "text",
+     "text": "Everything you need to assess Dovetail for your organization.",
+     "el": "e18o1u1v4"
+    },
+    {
+     "role": "link",
+     "text": "Request a demo",
+     "href": "/request-a-demo/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/enterprise-lp/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Dovetail platform overview",
+     "href": "https://47283540.fs1.hubspotusercontent-na1.net/hubfs/47283540/Marketing%20Downloadable%20Content/Dovetail%20-%20Unlock%20the%20voice%20of%20your%20customer%20with%20Dovetail.pdf",
+     "el": "e183docx3"
+    },
+    {
+     "role": "h3",
+     "text": "Dovetail platform overview",
+     "el": "e183docx1"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e18o1u1v1-337434.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 155,
+     "el": "e183docx2"
+    },
+    {
+     "role": "link",
+     "text": "Buyers guide",
+     "href": "https://47283540.fs1.hubspotusercontent-na1.net/hubfs/47283540/Marketing%20Downloadable%20Content/Dovetail%20eBook%E2%80%94Optimize%20CX%20with%20VoC%20insights.pdf?__hstc=42960058.7768dda43a42d2273064d3a79cc1f663.1745907495665.1754369271874.1754399334447.151&__hssc=42960058.2.1754399334447&__hsfp=1044111798",
+     "el": "e183docx3"
+    },
+    {
+     "role": "h3",
+     "text": "Buyers guide",
+     "el": "e183docx1"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e18o1u1v1-337434.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 143,
+     "el": "e183docx2"
+    },
+    {
+     "role": "link",
+     "text": "ROI report",
+     "href": "https://47283540.fs1.hubspotusercontent-na1.net/hubfs/47283540/Marketing%20Downloadable%20Content/Dovetail%20white%20paper%E2%80%94ROI%20of%20AI-powered%20insights%20(Save%20time%2c%20reduce%20risk%2c%20build%20better)%20.pdf?__hstc=42960058.7768dda43a42d2273064d3a79cc1f663.1745907495665.1754369271874.1754399334447.151&__hssc=42960058.1.1754399334447&__hsfp=1044111798",
+     "el": "e183docx3"
+    },
+    {
+     "role": "h3",
+     "text": "ROI report",
+     "el": "e183docx1"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e18o1u1v1-337434.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 169,
+     "el": "e183docx2"
+    },
+    {
+     "role": "link",
+     "text": "API Docs ↗",
+     "href": "https://developers.dovetail.com",
+     "el": "e183docx3"
+    },
+    {
+     "role": "h3",
+     "text": "API Docs ↗",
+     "el": "e183docx1"
+    },
+    {
+     "role": "text",
+     "text": "Learn how to build API integrations with Dovetail through our guides and references.",
+     "el": "e183docx2"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 200,
+    "768": 200,
+    "390": 200
+   }
+  }
+ ]
+}

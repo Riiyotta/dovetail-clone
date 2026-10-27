@@ -1,0 +1,1023 @@
+{
+ "url": "/deploy/",
+ "template": "deploy",
+ "title": "Dovetail Deploy",
+ "metaDescription": "The enterprise deployment service for Dovetail. Consolidate scattered customer data, restructure workspaces, and embed customer intelligence in your AI…",
+ "documentHeight": {
+  "1440": 10086,
+  "1280": 13484,
+  "768": 14026,
+  "390": 14210
+ },
+ "chrome": {
+  "alertBar": true,
+  "navBackground": null,
+  "footer": "plain"
+ },
+ "sections": [
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 96,
+    "1280": 56,
+    "768": 56,
+    "390": 56
+   }
+  },
+  {
+   "slice": "DeployHero",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 1177,
+    "1280": 1258.4,
+    "768": 868.5,
+    "390": 665.9
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Dovetail Deploy",
+     "el": "e18o1u1v2.etfyu4r0"
+    },
+    {
+     "role": "h1",
+     "text": "Deployed by the team that builds it.",
+     "el": "e18o1u1v3"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 255,
+     "el": "e18o1u1v4"
+    },
+    {
+     "role": "button",
+     "text": "Book a scoping call",
+     "el": "button"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/continuous_AI_analysis__9_.png",
+     "alt": "Continuous AI analysis in Dovetail",
+     "w": 1192,
+     "h": 853.4,
+     "el": "ejdubc80"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "CompactLogo",
+   "el": "etid8i64",
+   "measuredHeight": {
+    "1440": 252,
+    "1280": 251.2,
+    "768": 251.2,
+    "390": 251.2
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Connecting the world's greatest companies to their customers",
+     "el": "e1a4s9wi0"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-breville-white-logo.svg",
+     "alt": "Breville",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+     "alt": "Atlassian",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-notion-white-logo.svg",
+     "alt": "Notion",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-okta-white-logo.svg",
+     "alt": "Okta",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-aws-white-logo.svg",
+     "alt": "AWS",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-toyota-white-logo.svg",
+     "alt": "Toyota",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-qantas-white-logo.svg",
+     "alt": "Qantas",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-ncrvoyix-white-logo.svg",
+     "alt": "NCRVoyix",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-asml-white-logo.svg",
+     "alt": "ASML",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-zapier-white-logo.svg",
+     "alt": "Zapier",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "DeployIntro",
+   "el": "etid8i64",
+   "measuredHeight": {
+    "1440": 140,
+    "1280": 96,
+    "768": 120,
+    "390": 240
+   },
+   "content": [
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 388,
+     "el": "e13mcwun2"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "DeployProblemsHeading",
+   "el": "etid8i64",
+   "measuredHeight": {
+    "1440": 303.6,
+    "1280": 235.6,
+    "768": 167.6,
+    "390": 251.6
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "The problems we solve",
+     "el": "e18o1u1v2.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Three problems. One delivery team.",
+     "el": "e18o1u1v3"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 145,
+     "el": "e18o1u1v4"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 96,
+    "1280": 56,
+    "768": 56,
+    "390": 56
+   }
+  },
+  {
+   "slice": "DeployProblemSection",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 663.6,
+    "1280": 1726.4,
+    "768": 1324.2,
+    "390": 1134.7
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Migrate",
+     "el": "etfyu4r0"
+    },
+    {
+     "role": "h3",
+     "text": "Getting Dovetail live with your existing customer-intelligence history",
+     "el": "e13mcwun7"
+    },
+    {
+     "role": "text",
+     "text": "The problem",
+     "el": "e13mcwun9"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 287,
+     "el": "e13mcwun10"
+    },
+    {
+     "role": "text",
+     "text": "How we solve it",
+     "el": "e13mcwun9"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 306,
+     "el": "e13mcwun10"
+    },
+    {
+     "role": "text",
+     "text": "The outcome",
+     "el": "e13mcwun9"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 156,
+     "el": "e13mcwun10"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/centralize-workflow.png",
+     "alt": "Customer data from calls, tickets, reviews, and surveys syncing into Dovetail",
+     "w": 580,
+     "h": 560.8,
+     "el": "img"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 96,
+    "1280": 56,
+    "768": 56,
+    "390": 56
+   }
+  },
+  {
+   "slice": "DeployProblemSection",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 575.6,
+    "1280": 1368.8,
+    "768": 1058.2,
+    "390": 951.9
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Restructure",
+     "el": "etfyu4r0"
+    },
+    {
+     "role": "h3",
+     "text": "Restructuring a workspace that’s drifted",
+     "el": "e13mcwun7"
+    },
+    {
+     "role": "text",
+     "text": "The problem",
+     "el": "e13mcwun9"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 287,
+     "el": "e13mcwun10"
+    },
+    {
+     "role": "text",
+     "text": "How we solve it",
+     "el": "e13mcwun9"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 195,
+     "el": "e13mcwun10"
+    },
+    {
+     "role": "text",
+     "text": "The outcome",
+     "el": "e13mcwun9"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 135,
+     "el": "e13mcwun10"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/DV12__1_.png",
+     "alt": "A structured Dovetail workspace with organized projects and owners",
+     "w": 580,
+     "h": 433.1,
+     "el": "img"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 96,
+    "1280": 56,
+    "768": 56,
+    "390": 56
+   }
+  },
+  {
+   "slice": "DeployProblemSection",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 647.6,
+    "1280": 1694.4,
+    "768": 1292.2,
+    "390": 1102.7
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Embed",
+     "el": "etfyu4r0"
+    },
+    {
+     "role": "h3",
+     "text": "Embedding Dovetail in your AI stack",
+     "el": "e13mcwun7"
+    },
+    {
+     "role": "text",
+     "text": "The problem",
+     "el": "e13mcwun9"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 315,
+     "el": "e13mcwun10"
+    },
+    {
+     "role": "text",
+     "text": "How we solve it",
+     "el": "e13mcwun9"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 283,
+     "el": "e13mcwun10"
+    },
+    {
+     "role": "text",
+     "text": "The outcome",
+     "el": "e13mcwun9"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 183,
+     "el": "e13mcwun10"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/automate-workflow.png",
+     "alt": "A Dovetail AI agent automating a recurring workflow into Slack",
+     "w": 580,
+     "h": 560.8,
+     "el": "img"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "BaseHeading",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 283.6,
+    "1280": 159.6,
+    "768": 143.6,
+    "390": 179.6
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Why Deploy",
+     "el": "e18o1u1v2.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Why enterprises choose Deploy",
+     "el": "e18o1u1v3"
+    }
+   ]
+  },
+  {
+   "slice": "WhyDeployFeatureGrid",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 301,
+    "1280": 522,
+    "768": 759,
+    "390": 879
+   },
+   "content": [
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/etid8i68-223762.svg",
+     "w": 64,
+     "h": 64,
+     "el": "ec4h65o0"
+    },
+    {
+     "role": "h3",
+     "text": "Configured deeper than the docs go",
+     "el": "ec4h65o1"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 284,
+     "el": "ec4h65o2"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/etid8i68-419069.svg",
+     "w": 64,
+     "h": 64,
+     "el": "ec4h65o0"
+    },
+    {
+     "role": "h3",
+     "text": "The same team that builds the product",
+     "el": "ec4h65o1"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 209,
+     "el": "ec4h65o2"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/etid8i68-073291.svg",
+     "w": 64,
+     "h": 64,
+     "el": "ec4h65o0"
+    },
+    {
+     "role": "h3",
+     "text": "Built for the whole organization, not just one team",
+     "el": "ec4h65o1"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 269,
+     "el": "ec4h65o2"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "SecurityAndCompliance",
+   "el": "e1jvfgez0",
+   "measuredHeight": {
+    "1440": 1107,
+    "1280": 1409,
+    "768": 2699,
+    "390": 2987
+   },
+   "content": [
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1u51w9m3-425143.svg",
+     "w": 253,
+     "h": 252,
+     "el": "svg"
+    },
+    {
+     "role": "h3",
+     "text": "Data residency & retention",
+     "el": "e1u51w9m0"
+    },
+    {
+     "role": "text",
+     "text": "Control where data is stored and how long it’s retained to align with policies, regulatory requirements, and regional standards.",
+     "el": "e1u51w9m1"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1u51w9m3-210492.svg",
+     "w": 252,
+     "h": 252,
+     "el": "svg"
+    },
+    {
+     "role": "h3",
+     "text": "Granular access controls",
+     "el": "e1u51w9m0"
+    },
+    {
+     "role": "text",
+     "text": "Define precise access rules across teams and roles to reduce risk, protect sensitive data and support internal governance.",
+     "el": "e1u51w9m1"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1u51w9m3-153904.svg",
+     "w": 253,
+     "h": 252,
+     "el": "svg"
+    },
+    {
+     "role": "h3",
+     "text": "SOC 2 Type II certified",
+     "el": "e1u51w9m0"
+    },
+    {
+     "role": "text",
+     "text": "Our report confirms that our security policies and controls consistently comply with the highest industry standards.",
+     "el": "e1u51w9m1"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1u51w9m3-723982.svg",
+     "w": 253,
+     "h": 252,
+     "el": "svg"
+    },
+    {
+     "role": "h3",
+     "text": "PII redaction & audit logs",
+     "el": "e1u51w9m0"
+    },
+    {
+     "role": "text",
+     "text": "Remove sensitive customer data and retain a full record of user actions to meet privacy, compliance, and governance obligations.",
+     "el": "e1u51w9m1"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1u51w9m3-876837.svg",
+     "w": 252,
+     "h": 252,
+     "el": "svg"
+    },
+    {
+     "role": "h3",
+     "text": "ISO/IEC 42001:2023",
+     "el": "e1u51w9m0"
+    },
+    {
+     "role": "text",
+     "text": "Dovetail is certified for the first global AI management standard, demonstrating our commitment to secure and ethical practices.",
+     "el": "e1u51w9m1"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1u51w9m3-737428.svg",
+     "w": 253,
+     "h": 252,
+     "el": "svg"
+    },
+    {
+     "role": "h3",
+     "text": "HIPAA",
+     "el": "e1u51w9m0"
+    },
+    {
+     "role": "text",
+     "text": "Dovetail’s HIPAA certification demonstrates our commitment to protecting the privacy and security of sensitive health information.",
+     "el": "e1u51w9m1"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Frame_1948762767.png",
+     "alt": "",
+     "w": 1440,
+     "h": 504.8,
+     "el": "e1jvfgez2"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "DeployHero",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 816,
+    "1280": 1291.6,
+    "768": 1239.6,
+    "390": 1331.6
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Book a scoping call",
+     "el": "e18o1u1v2.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Tell us what you’re trying to do.",
+     "el": "e18o1u1v3"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 204,
+     "el": "e18o1u1v4"
+    },
+    {
+     "role": "text",
+     "text": "Email",
+     "el": "label"
+    },
+    {
+     "role": "text",
+     "text": "*",
+     "el": "exedsyc3"
+    },
+    {
+     "role": "text",
+     "text": "First name",
+     "el": "label"
+    },
+    {
+     "role": "text",
+     "text": "Last name",
+     "el": "label"
+    },
+    {
+     "role": "text",
+     "text": "Company name",
+     "el": "label"
+    },
+    {
+     "role": "text",
+     "text": "Company size",
+     "el": "label"
+    },
+    {
+     "role": "text",
+     "text": "Please Select",
+     "el": "option"
+    },
+    {
+     "role": "text",
+     "text": "1-25",
+     "el": "option"
+    },
+    {
+     "role": "text",
+     "text": "26-200",
+     "el": "option"
+    },
+    {
+     "role": "text",
+     "text": "201-500",
+     "el": "option"
+    },
+    {
+     "role": "text",
+     "text": "501-1000",
+     "el": "option"
+    },
+    {
+     "role": "text",
+     "text": "1001-5000",
+     "el": "option"
+    },
+    {
+     "role": "text",
+     "text": "5000+",
+     "el": "option"
+    },
+    {
+     "role": "text",
+     "text": "What are you trying to do?",
+     "el": "label"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 222,
+     "el": "p"
+    },
+    {
+     "role": "link",
+     "text": "Terms of Service",
+     "href": "https://dovetail.com/legal/user-terms-of-service/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Privacy Policy",
+     "href": "https://dovetail.com/privacy/privacy-policy/",
+     "el": "a"
+    },
+    {
+     "role": "button",
+     "text": "Submit",
+     "el": "exedsyc7"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "FAQ",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 740,
+    "1280": 808,
+    "768": 779,
+    "390": 875
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "FAQs",
+     "el": "ef2kgtv0"
+    },
+    {
+     "role": "button",
+     "text": "Who delivers the engagement?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ea410al3-082750.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 215,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "How fast can we start?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 168,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "How does Deploy handle our security and compliance requirements?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 365,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Can Deploy work within our data residency requirements?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 168,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "We have an internal team—why use Deploy?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 395,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "What if my scope changes mid-engagement?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 131,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "How do I know if Deploy is right for me?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 437,
+     "el": "ef2kgtv2"
+    }
+   ]
+  },
+  {
+   "slice": "BaseHeading",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 528,
+    "1280": 366,
+    "768": 298,
+    "390": 334
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "Deployed by the team that builds it.",
+     "el": "e18o1u1v3"
+    },
+    {
+     "role": "button",
+     "text": "Book a scoping call",
+     "el": "button"
+    }
+   ]
+  }
+ ],
+ "form": {
+  "variant": "SalesforceForm minimal",
+  "fields": [
+   {
+    "label": "Email",
+    "name": "email",
+    "type": "email",
+    "placeholder": "jane@acmeinc.com",
+    "required": true
+   },
+   {
+    "row": [
+     {
+      "label": "First name",
+      "name": "firstname",
+      "type": "text",
+      "placeholder": "Jane",
+      "required": true
+     },
+     {
+      "label": "Last name",
+      "name": "lastname",
+      "type": "text",
+      "placeholder": "Doe",
+      "required": true
+     }
+    ]
+   },
+   {
+    "label": "Company name",
+    "name": "company",
+    "type": "text",
+    "placeholder": "Acme Inc.",
+    "required": true
+   },
+   {
+    "label": "Company size",
+    "name": "company_size",
+    "type": "select",
+    "options": [
+     "Please Select",
+     "1-25",
+     "26-200",
+     "201-500",
+     "501-1000",
+     "1001-5000",
+     "5000+"
+    ],
+    "required": true
+   },
+   {
+    "label": "What are you trying to do?",
+    "name": "message",
+    "type": "textarea",
+    "required": true
+   }
+  ],
+  "consent": {
+   "placeholder": true,
+   "chars": 222,
+   "links": [
+    {
+     "label": "Terms of Service",
+     "href": "https://dovetail.com/legal/user-terms-of-service/"
+    },
+    {
+     "label": "Privacy Policy",
+     "href": "https://dovetail.com/privacy/privacy-policy/"
+    }
+   ]
+  },
+  "submit": "Submit",
+  "errorRequired": "Please complete this required field.",
+  "success": {
+   "heading": "Thanks for reaching out!",
+   "subheading": "Our team will be in touch with you shortly."
+  }
+ }
+}

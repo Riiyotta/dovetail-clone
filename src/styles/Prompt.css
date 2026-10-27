@@ -1,0 +1,15 @@
+/* §6 "Put the customer in every prompt" — section-specific values. Shared pieces in topics.css */
+.prompt-section { padding: 120px 0; }
+@media (max-width: 1280px) { .prompt-section { padding: 96px 0; } }
+@media (max-width: 799px) { .prompt-section { padding: 51px 0 48px; } }
+
+.prompt-h2-img { width: 123px; }
+.prompt-h2-img > img { height: 156px; transform: translate(-48%, calc(-64% - 4px)); }
+@media (max-width: 1280px) {
+  .prompt-h2-img { width: 92px; }
+  .prompt-h2-img > img { height: 117px; }
+}
+@media (max-width: 799px) {
+  .prompt-h2-img { width: 61px; }
+  .prompt-h2-img > img { height: 78px; }
+}

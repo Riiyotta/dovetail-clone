@@ -1,0 +1,13 @@
+/* §4 "Build your customer context layer" — section-specific values. Shared pieces in topics.css */
+.context-layer { padding: 160px 0 120px; }
+@media (max-width: 1280px) { .context-layer { padding: 96px 0 96px; } }
+@media (max-width: 799px) { .context-layer { padding: 108px 0 48px; } }
+
+.context-h2-row { display: flex; align-items: center; flex-wrap: wrap; column-gap: 16px; }
+.context-h2-row > span { position: relative; z-index: 1; }
+.context-h2-img { height: 128px; width: auto; margin: -14px -86px -14px -3px; position: relative; z-index: 0; }
+@media (max-width: 1280px) { .context-h2-img { height: 96px; margin: -10px -64px -10px -3px; } }
+@media (max-width: 799px) {
+  .context-h2-row { column-gap: 8px; }
+  .context-h2-img { height: 64px; margin: -6px -43px -6px -2px; }
+}

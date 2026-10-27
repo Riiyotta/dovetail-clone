@@ -1,0 +1,136 @@
+{
+ "slug": "offline-and-unfiltered-config-comedy-night",
+ "path": "/events/offline-and-unfiltered-config-comedy-night/",
+ "title": "Offline and unfiltered: a Config comedy night with Varun Rana",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2026-06-24T17:15-07:00",
+ "endDate": "2026-06-24T19:30-07:00",
+ "onlineEvent": false,
+ "location": "Local Edition, San Francisco",
+ "hosts": [
+  "Dovetail team"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": null,
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Dovetail team"
+  },
+  {
+   "label": "[START]",
+   "value": "24 Jun 2026 5:15PM PDT"
+  },
+  {
+   "label": "[END]",
+   "value": "24 Jun 2026 7:30PM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Local Edition, San Francisco"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/offline-and-unfiltered-config-comedy-night.png",
+  "width": 1136,
+  "height": 640,
+  "youtubeId": null
+ },
+ "body": [
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 296
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 275
+  },
+  {
+   "t": "h2",
+   "text": "Schedule"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "strong": [
+      "5:15 PM"
+     ],
+     "text": "5:15 PM—Doors open & welcome drinks"
+    },
+    {
+     "strong": [
+      "6:00 PM"
+     ],
+     "text": "6:00 PM—Varun Rana live"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "What to expect"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "strong": [
+      "Open bar and light bites"
+     ],
+     "text": "Open bar and light bites—grab a free drink and some food"
+    },
+    {
+     "strong": [
+      "Live stand-up"
+     ],
+     "text": "Live stand-up—an exclusive 20-minute set from Varun Rana"
+    },
+    {
+     "placeholder": true,
+     "chars": 129,
+     "strong": [
+      "Real conversations"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 86,
+   "strong": [
+    "Where:"
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 66,
+   "links": [
+    {
+     "text": "RSVP now to secure your place",
+     "href": "https://luma.com/dovetail-kw8l"
+    }
+   ]
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

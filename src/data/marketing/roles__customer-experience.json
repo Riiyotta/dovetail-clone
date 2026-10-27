@@ -1,0 +1,888 @@
+{
+ "url": "/roles/customer-experience/",
+ "template": "roles",
+ "title": "Dovetail for Customer Experience",
+ "metaDescription": "Turn every customer signal into customer intelligence. Dovetail helps CX teams find themes, track sentiment, detect churn risk, and share answers faster.",
+ "documentHeight": {
+  "1440": 11010,
+  "1280": 12230,
+  "768": 14379,
+  "390": 13021
+ },
+ "chrome": {
+  "alertBar": true,
+  "navBackground": null,
+  "footer": "finalCta"
+ },
+ "sections": [
+  {
+   "slice": "RoleHero",
+   "el": "eb5iodx0",
+   "measuredHeight": {
+    "1440": 857.1,
+    "1280": 761.9,
+    "768": 792.6,
+    "390": 637.5
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-cx-hero.png",
+     "alt": "",
+     "w": 1440,
+     "h": 857.1,
+     "el": "eb5iodx2"
+    },
+    {
+     "role": "text",
+     "text": "Dovetail for Customer Experience",
+     "el": "eb5iodx5.etfyu4r0"
+    },
+    {
+     "role": "h1",
+     "text": "Turn CX signals into customer intelligence",
+     "el": "eb5iodx6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-notion-white-logo.svg",
+     "alt": "Notion",
+     "w": 71.1,
+     "h": 32,
+     "el": "eb5iodx11"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-salesforce-white-logo.svg",
+     "alt": "Salesforce",
+     "w": 72,
+     "h": 32,
+     "el": "eb5iodx11"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-toyota-white-logo.svg",
+     "alt": "Toyota",
+     "w": 71.1,
+     "h": 32,
+     "el": "eb5iodx11"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-shopify-white-logo.svg",
+     "alt": "Shopify",
+     "w": 71.1,
+     "h": 32,
+     "el": "eb5iodx11"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-cx-hero-mobile.png",
+     "alt": "",
+     "w": 0,
+     "h": 0,
+     "el": "eb5iodx3",
+     "hiddenAt1440": true
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "Challenge",
+   "el": "etid8i64",
+   "measuredHeight": {
+    "1440": 856,
+    "1280": 856,
+    "768": 313.6,
+    "390": 601.6
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/how-it-works-grid-bg.png.png",
+     "alt": "Grid background",
+     "w": 1260,
+     "h": 856,
+     "el": "e1ms7w8v3"
+    },
+    {
+     "role": "text",
+     "text": "The challenge",
+     "el": "e1qa43fr0.etfyu4r0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 358,
+     "el": "visually-hidden"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Request a demo",
+     "href": "/request-a-demo/",
+     "el": "a"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "HowDovetailHelps",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 267.6,
+    "1280": 187.6,
+    "768": 171.6,
+    "390": 171.6
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "How Dovetail helps",
+     "el": "e1hzr4mi0.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Act before your customers even ask",
+     "el": "e1hzr4mi1"
+    }
+   ]
+  },
+  {
+   "slice": "HowDovetailHelps",
+   "el": "etid8i64",
+   "measuredHeight": {
+    "1440": 1226.6,
+    "1280": 1196.7,
+    "768": 2850.2,
+    "390": 1912.2
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-cx-feature-1.png",
+     "alt": "",
+     "w": 582,
+     "h": 436,
+     "el": "e1hzr4mi3"
+    },
+    {
+     "role": "h3",
+     "text": "Identify themes in high-volume feedback",
+     "el": "e1hzr4mi5"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 152,
+     "el": "e1hzr4mi6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-cx-feature-2.png",
+     "alt": "",
+     "w": 582,
+     "h": 434.6,
+     "el": "e1hzr4mi3"
+    },
+    {
+     "role": "h3",
+     "text": "Track CSAT and NPS trends in real time",
+     "el": "e1hzr4mi5"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 136,
+     "el": "e1hzr4mi6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-cx-feature-3.png",
+     "alt": "",
+     "w": 582,
+     "h": 434.6,
+     "el": "e1hzr4mi3"
+    },
+    {
+     "role": "h3",
+     "text": "Surface escalation signals before churn",
+     "el": "e1hzr4mi5"
+    },
+    {
+     "role": "text",
+     "text": "Detect recurring complaint patterns and negative sentiment shifts as they emerge—giving your team time to intervene before customers leave.",
+     "el": "e1hzr4mi6"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-cx-feature-4.png",
+     "alt": "",
+     "w": 582,
+     "h": 434.6,
+     "el": "e1hzr4mi3"
+    },
+    {
+     "role": "h3",
+     "text": "Distribute intelligence without the meeting",
+     "el": "e1hzr4mi5"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 135,
+     "el": "e1hzr4mi6"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "Integrations",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 2087,
+    "1280": 2148.6,
+    "768": 2188.6,
+    "390": 2872.6
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Integrations",
+     "el": "e1ttzgas0.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Connect to the tools you use",
+     "el": "e1ttzgas1"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Request a demo",
+     "href": "/request-a-demo/",
+     "el": "a"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Zendesk.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Zendesk",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 164,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Intercom.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Intercom",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 165,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Freshdesk.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Freshdesk",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 165,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Front.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Front",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 172,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/HubSpot.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "HubSpot Service Hub",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 177,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/JiraServiceManagement.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Jira Service Management",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 170,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/AppleAppStore.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "App Store",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 170,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/GooglePlay.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Google Play Store",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 172,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/G2.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "G2",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 176,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Slack.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Slack",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 186,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Claude.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "Claude",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 181,
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/ChatGPT.svg",
+     "alt": "",
+     "w": 40,
+     "h": 40,
+     "el": "e1ttzgas10"
+    },
+    {
+     "role": "text",
+     "text": "ChatGPT",
+     "el": "e1ttzgas11"
+    },
+    {
+     "role": "text",
+     "text": "Bring your customer feedback into ChatGPT and turn CX insights into decisions without leaving the conversation.",
+     "el": "e1ttzgas12"
+    },
+    {
+     "role": "link",
+     "text": "Discover all integrations",
+     "href": "https://docs.dovetail.com/integrations/",
+     "el": "e1ttzgas13"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1ttzgas13-277801.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "UseCaseTabs",
+   "el": "e1af4wr40",
+   "measuredHeight": {
+    "1440": 867.6,
+    "1280": 1411,
+    "768": 1076.2,
+    "390": 858.6
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Use cases",
+     "el": "e1af4wr41.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Practical ways CX teams use Dovetail",
+     "el": "e1af4wr42"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-cx-usecase-drop-off-analysis.png",
+     "alt": "",
+     "w": 616,
+     "h": 472,
+     "el": "e1af4wr45"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-cx-usecase-support-deflection.png",
+     "alt": "",
+     "w": 616,
+     "h": 472,
+     "el": "e1af4wr45"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-cx-usecase-VoC-reporting.png",
+     "alt": "",
+     "w": 616,
+     "h": 472,
+     "el": "e1af4wr45"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/roles-cx-usecase-post-launch-reviews.png",
+     "alt": "",
+     "w": 616,
+     "h": 472,
+     "el": "e1af4wr45"
+    },
+    {
+     "role": "button",
+     "text": "Drop-off analysis",
+     "el": "e1af4wr49"
+    },
+    {
+     "role": "button",
+     "text": "Support deflection",
+     "el": "e1af4wr49"
+    },
+    {
+     "role": "button",
+     "text": "VoC reporting",
+     "el": "e1af4wr49"
+    },
+    {
+     "role": "button",
+     "text": "Post-launch reviews",
+     "el": "e1af4wr49"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 182,
+     "el": "e1af4wr410"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "TestimonialSlice",
+   "el": "eqa8jb90",
+   "measuredHeight": {
+    "1440": 560,
+    "1280": 560,
+    "768": 362,
+    "390": 500.8
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/testimonial-grid-bg.png.png",
+     "alt": "Grid background",
+     "w": 1260,
+     "h": 560,
+     "el": "e1ms7w8v3"
+    },
+    {
+     "role": "link-card",
+     "text": null,
+     "href": "/customers/itau-unibanco/",
+     "el": "e1i468kp0"
+    },
+    {
+     "role": "text",
+     "text": "Read customer story",
+     "el": "e1i468kp8"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Frame_1948762769.png",
+     "alt": "",
+     "w": 80,
+     "h": 80,
+     "el": "e1i468kp2"
+    },
+    {
+     "role": "quote",
+     "placeholder": true,
+     "chars": 221,
+     "el": "e1i468kp5"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-itau-unibanco-white-logo.svg",
+     "alt": "Itaú Unibanco",
+     "w": 142,
+     "h": 40,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "Mariana Bartholomeu",
+     "el": "e1i468kp6"
+    },
+    {
+     "role": "text",
+     "text": "Senior Designer, Research Ops",
+     "el": "e1i468kp7"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "CustomerStoryCards",
+   "el": "etid8i64",
+   "measuredHeight": {
+    "1440": 531.8,
+    "1280": 1501.3,
+    "768": 2675.9,
+    "390": 1451.9
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/Customer_SafetyCulture.png",
+     "alt": "",
+     "w": 376,
+     "h": 413.8,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-safetyculture-white-logo.svg",
+     "alt": "SafetyCulture",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "link",
+     "text": "SafetyCulture puts the customer at the heart of decision with Dovetail ↘",
+     "href": "/customers/safetyculture/",
+     "el": "e1xybz5410"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Customer_Okta.png",
+     "alt": "",
+     "w": 376,
+     "h": 413.8,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-okta-white-logo.svg",
+     "alt": "Okta",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "link-card",
+     "text": null,
+     "href": "/customers/okta/",
+     "el": "e1xybz5410"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Customer_Zapier.png",
+     "alt": "",
+     "w": 376,
+     "h": 413.8,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-zapier-white-logo.svg",
+     "alt": "Zapier",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "link-card",
+     "text": null,
+     "href": "/customers/zapier/",
+     "el": "e1xybz5410"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "FAQ",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 538,
+    "1280": 606,
+    "768": 583,
+    "390": 679
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "FAQs",
+     "el": "ef2kgtv0"
+    },
+    {
+     "role": "button",
+     "text": "How does Dovetail handle high volumes of support tickets?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ea410al3-082750.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 176,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Can Dovetail connect to our existing CX tools?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 126,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "How is Dovetail different from our existing survey or analytics platform?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 219,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "Can CX intelligence be shared with product teams?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 134,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "How does Dovetail help detect churn risk?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 173,
+     "el": "ef2kgtv2"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  }
+ ]
+}

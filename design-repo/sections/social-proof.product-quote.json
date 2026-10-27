@@ -1,0 +1,184 @@
+{
+ "id": "social-proof.product-quote",
+ "title": "Product quote",
+ "semantic": {
+  "id": "social-proof.product-quote",
+  "category": "SOCIAL_PROOF"
+ },
+ "source": {
+  "id": "component:ProductQuoteSlice:mk-pquote",
+  "file": "src/components/marketing/ProductQuoteSlice.jsx",
+  "tag": "div",
+  "lines": "22-34",
+  "tagLine": 22,
+  "anchor": "mk-pquote",
+  "anchorLine": 22
+ },
+ "purpose": "Auto-advancing customer quote over a grid background with author and logo.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "lead",
+    "media",
+    "quote"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 7,
+   "observedOn": [
+    "/product/ai-agents/",
+    "/product/ai-channels/",
+    "/product/ai-chat/",
+    "/product/ai-dashboards/",
+    "/product/ai-docs/",
+    "/product/ai-projects/",
+    "/product/digital-twins/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "lead",
+   "media",
+   "quote"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 8
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 2,
+    "observedIn": 8
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 5,
+    "maxChars": 36,
+    "observedIn": 4
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 11,
+    "assetAlt": true
+   },
+   "quote.text": {
+    "type": "text",
+    "maxWords": 34,
+    "maxChars": 225,
+    "observedIn": 4
+   }
+  },
+  "listSizes": {
+   "actions": [
+    2,
+    3
+   ],
+   "media": [
+    2,
+    3
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "customer.logo",
+     "illustration.brand",
+     "person.photo",
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "customer.placeholder-logo",
+     "illustration.generated",
+     "person.fictional-avatar",
+     "product.generated-visual"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "customer.placeholder-logo",
+  "illustration.generated",
+  "person.fictional-avatar",
+  "product.generated-visual"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 2,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "carousel.autoplay"
+  ],
+  "requiredPatterns": [
+   "carousel.autoplay"
+  ],
+  "reducedMotionFallback": {
+   "carousel.autoplay": "no-autoplay"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 7,
+   "nodes": 8,
+   "minPx": 560,
+   "maxPx": 560,
+   "medianPx": 560.0,
+   "sample": {
+    "/product/ai-agents/": [
+     560
+    ],
+    "/product/ai-channels/": [
+     560
+    ],
+    "/product/ai-chat/": [
+     560
+    ],
+    "/product/ai-dashboards/": [
+     560
+    ],
+    "/product/ai-docs/": [
+     560
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/components/marketing/ProductQuoteSlice.jsx:22-34",
+  "specs/product.md:1-40"
+ ]
+}

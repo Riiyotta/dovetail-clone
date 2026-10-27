@@ -1,0 +1,121 @@
+{
+ "slug": "voice-of-the-customer-transforming-financial-services-through-listening",
+ "path": "/events/voice-of-the-customer-transforming-financial-services-through-listening/",
+ "title": "Voice of the customer: transforming financial services through listenings",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2025-09-17T13:00-07:00",
+ "endDate": null,
+ "onlineEvent": true,
+ "location": "Online",
+ "hosts": [
+  "Angelina Sun",
+  "James Harvard",
+  "Mhaire Fraser PhD"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": "AakkXxNrUQg",
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Angelina Sun, James Harvard, Mhaire Fraser PhD"
+  },
+  {
+   "label": "[START]",
+   "value": "17 Sep 2025 1:00PM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Online"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "video",
+  "image": "/assets/company/media/Webinar_August_Hero__4_.png",
+  "width": 2240,
+  "height": 1260,
+  "youtubeId": "AakkXxNrUQg"
+ },
+ "body": [
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 470
+  },
+  {
+   "t": "p",
+   "text": "What you’ll learn"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 89
+    },
+    {
+     "placeholder": true,
+     "chars": 87
+    },
+    {
+     "placeholder": true,
+     "chars": 105
+    }
+   ]
+  },
+  {
+   "t": "h3",
+   "text": "Meet the speakers"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 61,
+   "strong": [
+    "James Harvard—Senior User Experience Researcher, State Street"
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 156
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 65,
+   "strong": [
+    "Mhaire Fraser, PhD—Dovetail Expert, UX Strategist, Mentor, Author"
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 155
+  },
+  {
+   "t": "p",
+   "text": "Transform how you listen, learn, and act."
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 98
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

@@ -1,0 +1,607 @@
+{
+ "url": "/resources/dovetail-vs-enterpret/",
+ "template": "article",
+ "meta": {
+  "title": "Dovetail vs Enterpret: Key Differences for Customer Feedback Analysis",
+  "description": "Enterpret structures high-volume feedback with an adaptive taxonomy. Dovetail analyzes the same feedback and adds the interviews and research that…"
+ },
+ "theme": "light",
+ "breadcrumb": [
+  {
+   "text": "Guides",
+   "href": "/guides/"
+  },
+  {
+   "text": "Dovetail vs Enterpret",
+   "href": null
+  }
+ ],
+ "h1": "Dovetail vs Enterpret",
+ "lastUpdated": {
+  "label": "Last updated",
+  "date": "28 September 2026"
+ },
+ "share": {
+  "heading": "Share",
+  "buttons": [
+   {
+    "aria": "Copy link",
+    "icon": "/assets/tools/svg/share-copy-link.svg",
+    "kind": "button"
+   },
+   {
+    "aria": "Share on Facebook",
+    "icon": "/assets/tools/svg/share-facebook.svg",
+    "hrefPattern": "https://www.facebook.com/sharer/sharer.php?u={url}"
+   },
+   {
+    "aria": "Share on LinkedIn",
+    "icon": "/assets/tools/svg/share-linkedin.svg",
+    "hrefPattern": "https://www.linkedin.com/sharing/share-offsite/?url={url}"
+   },
+   {
+    "aria": "Share on X",
+    "icon": "/assets/tools/svg/share-x.svg",
+    "hrefPattern": "https://twitter.com/intent/tweet?text=...&url={url}"
+   }
+  ]
+ },
+ "summarize": {
+  "heading": "Summarize with AI",
+  "buttons": [
+   {
+    "aria": "Summarize with ChatGPT",
+    "icon": "/assets/tools/svg/summarize-chatgpt.svg",
+    "hrefPattern": "https://chat.openai.com/?q=Summarize this article \"{title}\" {url}"
+   },
+   {
+    "aria": "Summarize with Claude",
+    "icon": "/assets/tools/svg/summarize-claude.svg",
+    "hrefPattern": "https://claude.ai/new?q=Summarize this article \"{title}\" {url}"
+   },
+   {
+    "aria": "Summarize with Perplexity",
+    "icon": "/assets/tools/svg/summarize-perplexity.svg",
+    "hrefPattern": "https://www.perplexity.ai/search?q=Summarize this article \"{title}\" {url}"
+   },
+   {
+    "aria": "Summarize with Grok",
+    "icon": "/assets/tools/svg/summarize-grok.svg",
+    "hrefPattern": "https://x.com/i/grok?text=Summarize this article \"{title}\" {url}"
+   }
+  ]
+ },
+ "sidebarCta": {
+  "text": {
+   "placeholder": true,
+   "chars": 71
+  },
+  "cta": [
+   {
+    "text": "Contact sales",
+    "href": "/contact-sales/"
+   }
+  ]
+ },
+ "toc": [
+  "Quick answer",
+  "What is Enterpret?",
+  "What is Dovetail?",
+  "Is Dovetail just a research repository?",
+  "Where Enterpret’s scope ends",
+  "AI capabilities compared",
+  "Integrations and workflows",
+  "Governance and security",
+  "Side-by-side comparison",
+  "When to choose Dovetail",
+  "Decision summary"
+ ],
+ "body": [
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 113
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 261,
+   "links": [
+    {
+     "chars": 9,
+     "href": "https://www.enterpret.com/platform/ai-agents"
+    },
+    {
+     "chars": 10,
+     "href": "https://www.enterpret.com/platform/enterpret-mcp-server"
+    }
+   ],
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "quick-answer",
+   "text": "Quick answer"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 234
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 303
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 264,
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "what-is-enterpret",
+   "text": "What is Enterpret?"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 172,
+   "links": [
+    {
+     "chars": 32,
+     "href": "https://www.enterpret.com/"
+    }
+   ],
+   "hasBold": true
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 233,
+     "boldLead": true,
+     "links": 1
+    },
+    {
+     "placeholder": true,
+     "chars": 95,
+     "boldLead": true,
+     "links": 1
+    },
+    {
+     "placeholder": true,
+     "chars": 131,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 191,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 219,
+     "boldLead": true,
+     "links": 1
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 109,
+   "links": [
+    {
+     "chars": 13,
+     "href": "https://www.enterpret.com/security"
+    }
+   ],
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "what-is-dovetail",
+   "text": "What is Dovetail?"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 162
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 303,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 206,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 124,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 94,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 189,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 148,
+     "boldLead": true
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "is-dovetail-just-a-research-repository",
+   "text": "Is Dovetail just a research repository?"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 199
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 529,
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 264
+  },
+  {
+   "type": "h2",
+   "id": "where-enterprets-scope-ends",
+   "text": "Where Enterpret’s scope ends"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 299,
+   "links": [
+    {
+     "chars": 16,
+     "href": "https://helpcenter.enterpret.com/en/articles/14195667-zoom-integration"
+    }
+   ],
+   "hasBold": true
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 406
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 243
+  },
+  {
+   "type": "h2",
+   "id": "ai-capabilities-compared",
+   "text": "AI capabilities compared"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 97
+  },
+  {
+   "type": "table",
+   "headers": [
+    "Capability",
+    "Dovetail",
+    "Enterpret"
+   ],
+   "rows": [
+    [
+     "Automatic classification",
+     {
+      "placeholder": true,
+      "chars": 81
+     },
+     "Adaptive Taxonomy built from product docs, with onboarding calibration"
+    ],
+    [
+     "AI assistant",
+     "AI Chat with citations, deep research mode, and saved-view scoping",
+     "Wisdom, with citations, in-app and in Slack and Linear"
+    ],
+    [
+     "Agents",
+     {
+      "placeholder": true,
+      "chars": 101
+     },
+     "Named monitoring agents and custom agents, real-time or scheduled"
+    ],
+    [
+     "Customer simulation",
+     "Digital twins grounded in real interviews, tickets, and calls",
+     "Not publicly documented"
+    ],
+    [
+     "Research synthesis",
+     "AI Analysis across interviews, usability tests, and feedback",
+     "Not publicly documented"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "integrations-and-workflows",
+   "text": "Integrations and workflows"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 496,
+   "links": [
+    {
+     "chars": 18,
+     "href": "https://helpcenter.enterpret.com/en/articles/13940912-linear-integration"
+    }
+   ],
+   "hasBold": true
+  },
+  {
+   "type": "h2",
+   "id": "governance-and-security",
+   "text": "Governance and security"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 387
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 152
+  },
+  {
+   "type": "h2",
+   "id": "side-by-side-comparison",
+   "text": "Side-by-side comparison"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 29,
+   "hasBold": true
+  },
+  {
+   "type": "table",
+   "headers": [
+    "If you need...",
+    "Dovetail",
+    "Enterpret"
+   ],
+   "rows": [
+    [
+     "Continuous ingestion of tickets, calls, reviews, and surveys",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "Automatic classification without manual tagging",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "Feedback ranked by ARR and account",
+     "Yes, via Salesforce or HubSpot",
+     "Yes"
+    ],
+    [
+     "AI answers with citations",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "AI agents that monitor feedback and take action",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "MCP server for Claude and ChatGPT",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "Social and community feedback sources",
+     "Via Snowflake or CSV",
+     "Yes, native connectors"
+    ],
+    [
+     "Interview recording and transcription",
+     "Yes",
+     "Zoom external calls"
+    ],
+    [
+     "Usability test analysis and research synthesis",
+     "Yes",
+     "Not publicly documented"
+    ],
+    [
+     "Highlight reels and research reports",
+     "Yes",
+     "Not publicly documented"
+    ],
+    [
+     "AI-moderated interviews",
+     "Via Outset integration",
+     "Not publicly documented"
+    ],
+    [
+     "Digital twins grounded in real customer evidence",
+     "Yes",
+     "Not publicly documented"
+    ],
+    [
+     "Create Linear issues from feedback",
+     "Yes",
+     "Listed as upcoming"
+    ],
+    [
+     "Data residency outside the US",
+     "US, EU, and APAC",
+     "Not publicly documented"
+    ],
+    [
+     "ISO 42001",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "Free trial",
+     "60 days, no credit card",
+     "Self-serve trial; pricing not published"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "when-to-choose-dovetail",
+   "text": "When to choose Dovetail"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 19
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 86
+    },
+    {
+     "placeholder": true,
+     "chars": 94
+    },
+    {
+     "placeholder": true,
+     "chars": 86
+    },
+    {
+     "placeholder": true,
+     "chars": 41
+    },
+    {
+     "placeholder": true,
+     "chars": 92
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "decision-summary",
+   "text": "Decision summary"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 438
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 234,
+   "links": [
+    {
+     "chars": 21,
+     "href": "/dovetail-vs-enterpret/"
+    }
+   ],
+   "hasBold": true
+  }
+ ],
+ "relatedTopics": {
+  "heading": "Related topics",
+  "links": [
+   {
+    "text": "[Customer research]",
+    "href": "/customer-research/"
+   },
+   {
+    "text": "[Design thinking]",
+    "href": "/design-thinking/"
+   },
+   {
+    "text": "[Employee experience]",
+    "href": "/employee-experience/"
+   },
+   {
+    "text": "[Enterprise]",
+    "href": "/enterprise/"
+   },
+   {
+    "text": "[Market research]",
+    "href": "/market-research/"
+   },
+   {
+    "text": "[Patient experience]",
+    "href": "/patient-experience/"
+   },
+   {
+    "text": "[Product development]",
+    "href": "/product-development/"
+   },
+   {
+    "text": "[Product management]",
+    "href": "/product-management/"
+   },
+   {
+    "text": "[Research maturity assessment]",
+    "href": "/research-maturity-assessment/"
+   },
+   {
+    "text": "[Research methods]",
+    "href": "/research/"
+   },
+   {
+    "text": "[Surveys]",
+    "href": "/surveys/"
+   },
+   {
+    "text": "[User experience (UX)]",
+    "href": "/ux/"
+   }
+  ]
+ },
+ "ctaFooter": {
+  "h2": "Turn customer feedback into product innovation",
+  "ctas": [
+   {
+    "text": "Contact sales",
+    "href": "/contact-sales/"
+   },
+   {
+    "text": "Try Dovetail free",
+    "href": "/auth/signup/",
+    "newTab": true
+   }
+  ]
+ },
+ "finalCta": false
+}

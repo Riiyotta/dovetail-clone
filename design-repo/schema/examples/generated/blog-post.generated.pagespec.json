@@ -1,0 +1,397 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T17",
+ "route": "/blog-post-wrenfield/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Wrenfield"
+ },
+ "meta": {
+  "title": "Wrenfield | Blog"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Sort tidal",
+    "actions": [
+     {
+      "label": "Weigh beacon",
+      "href": "https://wrenfield.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Atlas",
+      "href": "https://wrenfield.example/navbar-0"
+     },
+     {
+      "label": "Canvas",
+      "href": "https://wrenfield.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Trace"
+     },
+     {
+      "title": "Sketch"
+     },
+     {
+      "title": "Ember"
+     },
+     {
+      "title": "Shape"
+     },
+     {
+      "title": "Cinder"
+     },
+     {
+      "title": "Summit"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Steer cobalt",
+      "text": "Harbor fjord falcon basil atlas bundle canvas cedar"
+     },
+     {
+      "title": "Trace sketch",
+      "text": "Plan shape cinder notice harvest sort tidal lantern"
+     },
+     {
+      "title": "Signal basil",
+      "text": "Atlas bundle tidy cedar compass quarry field shape"
+     },
+     {
+      "title": "Cinder summit",
+      "text": "Steer sort harbor willow falcon beacon rowan bundle"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "article.header",
+   "variant": "dark-media",
+   "content": {
+    "heading": "Tidy cedar compass marble",
+    "media": [
+     {
+      "assetRole": "content.generated-cover",
+      "alt": "Ember orbit gather",
+      "ref": "generate:content.generated-cover/article.header-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.lede",
+   "variant": "default",
+   "content": {
+    "lead": "Notice harvest cobalt harbor willow signal refine atlas pebble tidy thread trace sketch plan"
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.sidebar-card",
+   "variant": "default",
+   "content": {
+    "heading": "Prism meadow notice juniper",
+    "lead": "Cobalt harbor fjord signal refine atlas pebble tidy cedar compass quarry plan orbit cinder",
+    "actions": [
+     {
+      "label": "Sprout",
+      "href": "https://wrenfield.example/sidebar-card-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "content.generated-cover",
+      "alt": "",
+      "ref": "generate:content.generated-cover/cta.sidebar-card-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "sticky.pin",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.sidebar-card",
+   "variant": "default",
+   "content": {
+    "heading": "Ledger share lantern signal",
+    "lead": "Basil measure bundle tidy map compass sketch plan orbit meadow notice steer ledger share",
+    "actions": [
+     {
+      "label": "Willow signal",
+      "href": "https://wrenfield.example/sidebar-card-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "content.generated-cover",
+      "alt": "",
+      "ref": "generate:content.generated-cover/cta.sidebar-card-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "sticky.pin",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "dark",
+   "content": {
+    "heading": "Refine atlas pebble tidy",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Thread compass quarry plan"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Shape gather summit juniper sort tidal lantern weigh refine atlas bundle grove thread compass sketch ember shape meadow notice juniper sort tidal lantern falcon basil rowan pebble grove map delta"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Sketch ember shape cinder notice juniper ledger share lantern signal refine atlas pebble canvas cedar trace quarry ember shape meadow notice harvest cobalt share lantern weigh refine atlas nimbus grove"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "dark",
+   "content": {
+    "heading": "Cedar compass quarry ember",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Orbit gather summit harvest"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Cobalt tidal fjord weigh basil measure bundle tidy map trace quarry ember prism cinder sprout juniper cobalt share willow falcon basil atlas pebble grove thread compass quarry ember prism meadow"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Sprout steer sort tidal fjord signal beacon atlas pebble tidy cedar delta sketch ember orbit meadow sprout juniper ledger share willow weigh refine atlas bundle grove map trace marble ember"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "listing.related-articles",
+   "variant": "cards",
+   "content": {
+    "items": [
+     {
+      "title": "Prism meadow sprout",
+      "href": "https://wrenfield.example/related-articles-item0",
+      "media": {
+       "assetRole": "content.generated-cover",
+       "alt": "",
+       "ref": "generate:content.generated-cover/listing.related-articles-item0"
+      }
+     },
+     {
+      "title": "Steer cobalt share",
+      "href": "https://wrenfield.example/related-articles-item1",
+      "media": {
+       "assetRole": "content.generated-cover",
+       "alt": "",
+       "ref": "generate:content.generated-cover/listing.related-articles-item1"
+      }
+     },
+     {
+      "title": "Willow falcon beacon",
+      "href": "https://wrenfield.example/related-articles-item2",
+      "media": {
+       "assetRole": "content.generated-cover",
+       "alt": "",
+       "ref": "generate:content.generated-cover/listing.related-articles-item2"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "dark",
+   "content": {
+    "heading": "Rowan bundle tidy",
+    "actions": [
+     {
+      "label": "Compass sketch",
+      "href": "https://wrenfield.example/final-cta-0"
+     },
+     {
+      "label": "Ember shape",
+      "href": "https://wrenfield.example/final-cta-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-7"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "lead": "Meadow summit juniper ledger share",
+    "actions": [
+     {
+      "label": "Weigh basil",
+      "href": "https://wrenfield.example/footer-0"
+     },
+     {
+      "label": "Atlas nimbus",
+      "href": "https://wrenfield.example/footer-1"
+     },
+     {
+      "label": "Tidy thread",
+      "href": "https://wrenfield.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Compass"
+     },
+     {
+      "title": "Marble"
+     },
+     {
+      "title": "Ember"
+     },
+     {
+      "title": "Shape"
+     },
+     {
+      "title": "Gather"
+     },
+     {
+      "title": "Sprout"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

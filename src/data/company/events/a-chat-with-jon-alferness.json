@@ -1,0 +1,201 @@
+{
+ "slug": "a-chat-with-jon-alferness",
+ "path": "/events/a-chat-with-jon-alferness/",
+ "title": "From EVP & CPO of Walmart US to Advisor for MrBeast: A Chat with Jon Alferness",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2026-08-25T17:30+10:00",
+ "endDate": "2026-08-25T20:00+10:00",
+ "onlineEvent": false,
+ "location": "Dovetail, 276 Devonshire Street, Surry Hills, Sydney",
+ "hosts": [
+  "Dovetail team",
+  "Brainmates"
+ ],
+ "registrationUrl": "https://www.meetup.com/producttalksydney/events/315783841/",
+ "zoomWebinarId": null,
+ "youtubeId": null,
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Dovetail team, Brainmates"
+  },
+  {
+   "label": "[START]",
+   "value": "25 Aug 2026 12:30AM PDT"
+  },
+  {
+   "label": "[END]",
+   "value": "25 Aug 2026 3:00AM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Dovetail, 276 Devonshire Street, Surry Hills, Sydney"
+  },
+  {
+   "label": "[REGISTER]",
+   "value": "Register here",
+   "href": "https://www.meetup.com/producttalksydney/events/315783841/",
+   "linkText": "Register here"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/a-chat-with-jon-alferness.png",
+  "width": 1920,
+  "height": 1080,
+  "youtubeId": null
+ },
+ "body": [
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 53
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 150,
+   "links": [
+    {
+     "text": "Jon Alferness",
+     "href": "https://www.linkedin.com/in/jon-alferness-b193a3/"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 196
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 464
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 369
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 258,
+   "links": [
+    {
+     "text": "Adrienne Tan",
+     "href": "https://www.linkedin.com/in/adriennetan/"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 237
+  },
+  {
+   "t": "p",
+   "text": "We’ll dive into topics including:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 83
+    },
+    {
+     "placeholder": true,
+     "chars": 71
+    },
+    {
+     "text": "Leading through AI, disruption, and constant change."
+    },
+    {
+     "text": "Building products, teams, and cultures that scale."
+    },
+    {
+     "placeholder": true,
+     "chars": 95
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 214
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 96
+  },
+  {
+   "t": "p",
+   "strong": [
+    "Evening timeline:"
+   ],
+   "text": "Evening timeline:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "strong": [
+      "5:30–6:15 PM"
+     ],
+     "text": "5:30–6:15 PM—Arrive, grab a drink, and connect"
+    },
+    {
+     "placeholder": true,
+     "chars": 70,
+     "strong": [
+      "6:15–7:15 PM"
+     ]
+    },
+    {
+     "strong": [
+      "7:15–8:00 PM"
+     ],
+     "text": "7:15–8:00 PM—Networking, conversation, and connection"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 250
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 203
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 20,
+   "links": [
+    {
+     "text": "RSVP your spot today",
+     "href": "https://www.meetup.com/producttalksydney/events/315783841/"
+    }
+   ]
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

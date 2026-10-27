@@ -1,0 +1,41 @@
+{
+ "note": "elevation tokens. Every value cites path:line in the clone project and the text that line contains (`match`); extraction/verify_all.py re-reads them.",
+ "tokens": {
+  "shadow.eyeball": {
+   "value": "0 2px 4px rgba(0,0,0,.45), inset 0 0 0 1px rgba(255,255,255,.8)",
+   "category": "elevation",
+   "cite": "CLONE_SPEC.md:136",
+   "match": "0 2px 4px rgba(0,0,0,.45), inset 0 0 0 1px rgba(255,255,255,.8)"
+  },
+  "blur.dropdown": {
+   "value": "32px",
+   "category": "elevation",
+   "cite": "CLONE_SPEC.md:137",
+   "match": "nav dropdown `blur(32px)`"
+  },
+  "blur.glass": {
+   "value": "16px",
+   "category": "elevation",
+   "cite": "CLONE_SPEC.md:137",
+   "match": "glass button `blur(16px)`"
+  },
+  "blur.pill": {
+   "value": "12px",
+   "category": "elevation",
+   "cite": "CLONE_SPEC.md:137",
+   "match": "diagram pills `blur(12px)`"
+  },
+  "blur.tooltip": {
+   "value": "8px",
+   "category": "elevation",
+   "cite": "specs/marketing-shared.md:147",
+   "match": "`backdrop-filter:blur(8px)`"
+  },
+  "blur.modal": {
+   "value": "4px",
+   "category": "elevation",
+   "cite": "specs/company-shared.md:38",
+   "match": "`rgba(10,10,10,.8)` + `backdrop-filter: blur(4px)`"
+  }
+ }
+}

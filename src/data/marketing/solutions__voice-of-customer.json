@@ -1,0 +1,845 @@
+{
+ "url": "/solutions/voice-of-customer/",
+ "template": "solutions",
+ "title": "Voice of Customer",
+ "metaDescription": "Connect all feedback channels into a single customer intelligence layer. Ask questions, see themes, and give teams cited answers they can act on.",
+ "documentHeight": {
+  "1440": 10739,
+  "1280": 13673,
+  "768": 12230,
+  "390": 11704
+ },
+ "chrome": {
+  "alertBar": true,
+  "navBackground": null,
+  "footer": "ctaBand",
+  "footerCta": [
+   {
+    "role": "h2",
+    "text": "Turn customer feedback into product innovation",
+    "href": null
+   },
+   {
+    "role": "a",
+    "text": "Book a demo",
+    "href": "/request-a-demo/"
+   },
+   {
+    "role": "a",
+    "text": "Try Dovetail free",
+    "href": "/auth/signup/"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "slice": "SolutionHero",
+   "el": "eccoft00.e1ujd0230",
+   "measuredHeight": {
+    "1440": 845.6,
+    "1280": 651.6,
+    "768": 591.6,
+    "390": 733.6
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Voice of Customer",
+     "el": "e18o1u1v2.etfyu4r0"
+    },
+    {
+     "role": "h1",
+     "text": "Your customers talk to you across ten channels. You’re reporting from one.",
+     "el": "e18o1u1v3"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 220,
+     "el": "e18o1u1v4"
+    },
+    {
+     "role": "link",
+     "text": "Start a 60-day free trial",
+     "href": "#trial-cta",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "text",
+     "text": "No credit card required. Bring your existing data. Free migration included.",
+     "el": "eccoft01"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 120,
+    "1280": 64,
+    "768": 64,
+    "390": 64
+   }
+  },
+  {
+   "slice": "CompactLogo",
+   "el": "etid8i64",
+   "measuredHeight": {
+    "1440": 252,
+    "1280": 251.2,
+    "768": 251.2,
+    "390": 251.2
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Connecting the world's leading teams to their customers",
+     "el": "e1a4s9wi0"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-breville-white-logo.svg",
+     "alt": "Breville",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+     "alt": "Atlassian",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-notion-white-logo.svg",
+     "alt": "Notion",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-okta-white-logo.svg",
+     "alt": "Okta",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-aws-white-logo.svg",
+     "alt": "AWS",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-toyota-white-logo.svg",
+     "alt": "Toyota",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-qantas-white-logo.svg",
+     "alt": "Qantas",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-ncrvoyix-white-logo.svg",
+     "alt": "NCRVoyix",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-asml-white-logo.svg",
+     "alt": "ASML",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-zapier-white-logo.svg",
+     "alt": "Zapier",
+     "w": 142,
+     "h": 64,
+     "el": "img"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 56,
+    "1280": 56,
+    "768": 56,
+    "390": 56
+   }
+  },
+  {
+   "slice": "SolutionSection",
+   "el": "eccoft02",
+   "measuredHeight": {
+    "1440": 819.4,
+    "1280": 1483.4,
+    "768": 1121.2,
+    "390": 907.7
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "AI Chat",
+     "el": "eccoft05.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "Ask about your customers. Get cited answers instantly.",
+     "el": "eccoft06"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 425,
+     "el": "eccoft07"
+    },
+    {
+     "role": "link",
+     "text": "Start a 60-day free trial",
+     "href": "#trial-cta",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/voc-1.png",
+     "alt": "AI Chat searching across all customer feedback channels",
+     "w": 682,
+     "h": 659.4,
+     "el": "eccoft010"
+    }
+   ]
+  },
+  {
+   "slice": "SolutionSection",
+   "el": "eccoft02",
+   "measuredHeight": {
+    "1440": 440,
+    "1280": 358,
+    "768": 342,
+    "390": 470
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "“I know what customers are saying. I can’t get anyone to act on it.”",
+     "el": "eccoft06"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 334,
+     "el": "eccoft07"
+    },
+    {
+     "role": "link",
+     "text": "Start a 60-day free trial",
+     "href": "#trial-cta",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    }
+   ]
+  },
+  {
+   "slice": "SolutionSection",
+   "el": "eccoft02",
+   "measuredHeight": {
+    "1440": 819.4,
+    "1280": 1459.4,
+    "768": 1073.2,
+    "390": 787.7
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/voc-2.png",
+     "alt": "AI Dashboards showing unified customer themes alongside NPS and CSAT metrics",
+     "w": 682,
+     "h": 659.4,
+     "el": "eccoft010"
+    },
+    {
+     "role": "text",
+     "text": "AI Dashboards",
+     "el": "eccoft05.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "“Leadership wants one answer. I have five dashboards.”",
+     "el": "eccoft06"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 200,
+     "el": "eccoft07"
+    },
+    {
+     "role": "link",
+     "text": "Start a 60-day free trial",
+     "href": "#trial-cta",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    }
+   ]
+  },
+  {
+   "slice": "SolutionSection",
+   "el": "eccoft02",
+   "measuredHeight": {
+    "1440": 819.4,
+    "1280": 1459.4,
+    "768": 1073.2,
+    "390": 811.7
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Integrations",
+     "el": "eccoft05.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "“Product deprioritizes everything I send over to them.”",
+     "el": "eccoft06"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 242,
+     "el": "eccoft07"
+    },
+    {
+     "role": "link",
+     "text": "Start a 60-day free trial",
+     "href": "#trial-cta",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/voc-3.png",
+     "alt": "Dovetail pushing customer insights into product and design tools",
+     "w": 682,
+     "h": 659.4,
+     "el": "eccoft010"
+    }
+   ]
+  },
+  {
+   "slice": "SolutionSection",
+   "el": "eccoft02",
+   "measuredHeight": {
+    "1440": 819.4,
+    "1280": 1459.4,
+    "768": 1073.2,
+    "390": 835.7
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/voc-4.png",
+     "alt": "AI Agent automating the path from emerging theme to team notification",
+     "w": 682,
+     "h": 659.4,
+     "el": "eccoft010"
+    },
+    {
+     "role": "text",
+     "text": "AI Agents",
+     "el": "eccoft05.etfyu4r0"
+    },
+    {
+     "role": "h2",
+     "text": "“We found out about that issue three months too late.”",
+     "el": "eccoft06"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 272,
+     "el": "eccoft07"
+    },
+    {
+     "role": "link",
+     "text": "Start a 60-day free trial",
+     "href": "#trial-cta",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    }
+   ]
+  },
+  {
+   "slice": "SolutionSection",
+   "el": "eccoft02",
+   "measuredHeight": {
+    "1440": 819.4,
+    "1280": 1455.8,
+    "768": 1093.6,
+    "390": 872.1
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "Give your team the full picture.",
+     "el": "eccoft06"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 488,
+     "el": "eccoft07"
+    },
+    {
+     "role": "link",
+     "text": "Start a 60-day free trial",
+     "href": "#trial-cta",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/voc-5.png",
+     "alt": "Dovetail as a unified intelligence layer across all feedback channels",
+     "w": 682,
+     "h": 659.4,
+     "el": "eccoft010"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 96,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "SolutionFeatures",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 576,
+    "1280": 538,
+    "768": 838,
+    "390": 966
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "Every channel your customers use to tell you something, in one system.",
+     "el": "eccoft011"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 271,
+     "el": "eccoft012"
+    },
+    {
+     "role": "link",
+     "text": "Start a 60-day free trial",
+     "href": "#trial-cta",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "h3",
+     "text": "Support",
+     "el": "eccoft016"
+    },
+    {
+     "role": "text",
+     "text": "Zendesk, Intercom, Freshdesk",
+     "el": "eccoft017"
+    },
+    {
+     "role": "h3",
+     "text": "Feedback and surveys",
+     "el": "eccoft016"
+    },
+    {
+     "role": "text",
+     "text": "NPS, CSAT, app reviews, survey responses",
+     "el": "eccoft017"
+    },
+    {
+     "role": "h3",
+     "text": "In-product feedback",
+     "el": "eccoft016"
+    },
+    {
+     "role": "text",
+     "text": "Sprig, Usersnap, Pendo",
+     "el": "eccoft017"
+    },
+    {
+     "role": "h3",
+     "text": "Sales and CS",
+     "el": "eccoft016"
+    },
+    {
+     "role": "text",
+     "text": "Gong, Salesforce, HubSpot",
+     "el": "eccoft017"
+    },
+    {
+     "role": "h3",
+     "text": "Recordings and transcripts",
+     "el": "eccoft016"
+    },
+    {
+     "role": "text",
+     "text": "Zoom, Google Meet, Microsoft Teams, Loom",
+     "el": "eccoft017"
+    },
+    {
+     "role": "h3",
+     "text": "Collaboration",
+     "el": "eccoft016"
+    },
+    {
+     "role": "text",
+     "text": "Slack, Jira, Linear, Productboard",
+     "el": "eccoft017"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "TestimonialSlice",
+   "el": "eqa8jb90",
+   "measuredHeight": {
+    "1440": 560,
+    "1280": 560,
+    "768": 362,
+    "390": 500.8
+   },
+   "content": [
+    {
+     "role": "img",
+     "src": "/assets/marketing/testimonial-grid-bg.png.png",
+     "alt": "Grid background",
+     "w": 1260,
+     "h": 560,
+     "el": "e1ms7w8v3"
+    },
+    {
+     "role": "link-card",
+     "text": null,
+     "href": "/customers/breville/",
+     "el": "e1i468kp0"
+    },
+    {
+     "role": "text",
+     "text": "Read customer story",
+     "el": "e1i468kp8"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti__3_.png",
+     "alt": "",
+     "w": 80,
+     "h": 80,
+     "el": "e1i468kp2"
+    },
+    {
+     "role": "quote",
+     "placeholder": true,
+     "chars": 217,
+     "el": "e1i468kp5"
+    },
+    {
+     "role": "img",
+     "src": "/assets/marketing/customer-breville-white-logo.svg",
+     "alt": "Breville",
+     "w": 142,
+     "h": 40,
+     "el": "img"
+    },
+    {
+     "role": "text",
+     "text": "Constance Docos",
+     "el": "e1i468kp6"
+    },
+    {
+     "role": "text",
+     "text": "Senior UX Designer",
+     "el": "e1i468kp7"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "SolutionTrial",
+   "el": "e1a8inxt0",
+   "measuredHeight": {
+    "1440": 840,
+    "1280": 702,
+    "768": 700,
+    "390": 700
+   },
+   "content": [
+    {
+     "role": "bg-image",
+     "src": "/assets/marketing/solution-trial-grid-bg.svg",
+     "el": "e1a8inxt0"
+    },
+    {
+     "role": "h2",
+     "text": "Bring customer evidence into your next roadmap decision",
+     "el": "e1a8inxt2"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 186,
+     "el": "e1a8inxt3"
+    },
+    {
+     "role": "link",
+     "text": "Start a 60-day free trial",
+     "href": "/auth/signup?promo=ENTERPRISE_SOLUTIONS_2026_D60",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Book a demo",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1a8inxt6-501588.svg",
+     "w": 24,
+     "h": 24,
+     "el": "e1a8inxt7"
+    },
+    {
+     "role": "text",
+     "text": "60 days full access, no feature limits",
+     "el": "e1a8inxt8"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1a8inxt6-501588.svg",
+     "w": 24,
+     "h": 24,
+     "el": "e1a8inxt7"
+    },
+    {
+     "role": "text",
+     "text": "Onboarding support from a research specialist",
+     "el": "e1a8inxt8"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1a8inxt6-501588.svg",
+     "w": 24,
+     "h": 24,
+     "el": "e1a8inxt7"
+    },
+    {
+     "role": "text",
+     "text": "Free migration from your current tool",
+     "el": "e1a8inxt8"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1a8inxt6-501588.svg",
+     "w": 24,
+     "h": 24,
+     "el": "e1a8inxt7"
+    },
+    {
+     "role": "text",
+     "text": "Full export if you decide not to continue",
+     "el": "e1a8inxt8"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 200,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  },
+  {
+   "slice": "FAQ",
+   "el": "etid8i66",
+   "measuredHeight": {
+    "1440": 538,
+    "1280": 606,
+    "768": 583,
+    "390": 703
+   },
+   "content": [
+    {
+     "role": "h2",
+     "text": "FAQs",
+     "el": "ef2kgtv0"
+    },
+    {
+     "role": "button",
+     "text": "We already run a survey platform. Why do we need Dovetail?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/ea410al3-082750.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 474,
+     "el": "span"
+    },
+    {
+     "role": "button",
+     "text": "Our support platform already has analytics. What does this add?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 404,
+     "el": "span"
+    },
+    {
+     "role": "button",
+     "text": "Can my team use this without a research background?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 323,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "How do customer themes get to product and leadership without manual reporting?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 396,
+     "el": "ef2kgtv2"
+    },
+    {
+     "role": "button",
+     "text": "How does Dovetail handle sensitive customer data?",
+     "el": "ea410al0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 321,
+     "el": "ef2kgtv2"
+    }
+   ]
+  },
+  {
+   "slice": "Spacer",
+   "height": {
+    "1440": 160,
+    "1280": 96,
+    "768": 96,
+    "390": 96
+   }
+  }
+ ]
+}

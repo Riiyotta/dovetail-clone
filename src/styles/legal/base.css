@@ -1,0 +1,131 @@
+/* Tools / comparison / legal group — shared primitives.
+   specs/tools-shared.md §A (grid, spacers), §B (buttons), §C (text styles).
+   Tiers: >1280 desktop, ≤1280 md, ≤799 sm (768 renders in sm). */
+
+:root {
+  --l-ink: #0A0A0A;
+  --l-paper: #FAFAFA;
+  --l-white: #FFFFFF;
+  --l-dim: #A7A7A7;          /* grey text on dark pages */
+  --l-muted: #626262;        /* grey text on light pages */
+  --l-white-hover: #CECECE;
+  --l-ink-hover: #3B3B3B;
+  --l-glass: rgba(255,255,255,.08);
+  --l-glass-hover: rgba(255,255,255,.16);
+  --l-line-dark: rgba(255,255,255,.24);
+  --l-line-light: rgba(10,10,10,.24);
+  --l-soft-bg: #F5F5F5;
+  --l-soft-border: #EBEBEB;
+  --l-border-soft: #C4C4C4;
+  --l-table-line: #D8D8D8;
+  --l-blue: #0044FF;
+  --l-mono: "JetBrains Mono", "SF Mono", Consolas, Roboto, sans-serif;
+}
+
+/* ---------- §A SliceGrid / SliceContainer ---------- */
+.lgrid {
+  display: grid; grid-template-columns: repeat(12, 1fr); gap: 32px;
+  max-width: 1512px; margin: auto; padding: 0 124px; position: relative; width: 100%;
+}
+.lcont { max-width: 1512px; margin: 0 auto; padding: 0 124px; width: 100%; position: relative; }
+.lcol-full { grid-column: 1 / -1; }
+@media (max-width: 1280px) {
+  .lgrid { gap: 24px; padding: 0 64px; }
+  .lcont { padding: 0 64px; }
+}
+@media (max-width: 799px) {
+  .lgrid { grid-template-columns: repeat(4, 1fr); gap: 24px; padding: 0 16px; }
+  .lcont { padding: 0 16px; }
+  .lgrid.lgrid > * { grid-column: 1 / -1; }
+}
+
+/* ---------- Spacers (desktop / ≤1280 / ≤799) ---------- */
+.lsp { display: block; width: 100%; flex-shrink: 0; }
+.lsp-8 { height: 8px; } .lsp-16 { height: 16px; } .lsp-24 { height: 24px; } .lsp-32 { height: 32px; }
+.lsp-40 { height: 40px; } .lsp-48 { height: 48px; } .lsp-64 { height: 64px; } .lsp-80 { height: 80px; }
+.lsp-88 { height: 88px; } .lsp-200 { height: 200px; }
+.lsp-96-56 { height: 96px; } .lsp-96-48 { height: 96px; } .lsp-96 { height: 96px; }
+.lsp-160-96 { height: 160px; } .lsp-200-96 { height: 200px; } .lsp-120-96 { height: 120px; }
+.lsp-64-56 { height: 64px; }
+.lsp-last-160-200 { height: 160px; }   /* 200px spacer that is last child of <main>: 160 at ≥1281 */
+@media (max-width: 1280px) {
+  .lsp-96-56 { height: 56px; } .lsp-96-48 { height: 48px; }
+  .lsp-160-96, .lsp-200-96, .lsp-120-96 { height: 96px; }
+  .lsp-64-56 { height: 56px; }
+  .lsp-last-160-200 { height: 200px; }
+}
+
+/* ---------- §C text styles ---------- */
+.lt-m14 { font-family: var(--l-mono); font-size: 14px; line-height: 19.6px; letter-spacing: 1px; text-transform: uppercase; font-weight: 400; }
+.lt-h72 { font-size: 72px; line-height: 76px; letter-spacing: -2px; font-weight: 600; }
+.lt-h64 { font-size: 64px; line-height: 68px; letter-spacing: -2px; font-weight: 600; }
+.lt-h56 { font-size: 56px; line-height: 60px; letter-spacing: -2px; font-weight: 600; }
+.lt-h40 { font-size: 40px; line-height: 48px; letter-spacing: -1px; font-weight: 500; }
+.lt-h24 { font-size: 24px; line-height: 32px; letter-spacing: -0.5px; font-weight: 500; }
+.lt-h20 { font-size: 20px; line-height: 28px; letter-spacing: -0.25px; font-weight: 500; }
+.lt-p20 { font-size: 20px; line-height: 28px; font-weight: 400; }
+.lt-p18 { font-size: 18px; line-height: 24px; font-weight: 400; }
+.lt-p16 { font-size: 16px; line-height: 24px; font-weight: 400; }
+.lt-p14 { font-size: 14px; line-height: 22px; font-weight: 400; }
+@media (max-width: 1280px) {
+  .lt-h72 { font-size: 56px; line-height: 60px; letter-spacing: -2px; }
+  .lt-h64 { font-size: 48px; line-height: 52px; letter-spacing: -1px; }
+  .lt-h56 { font-size: 40px; line-height: 44px; letter-spacing: -1px; }
+  .lt-h40 { font-size: 32px; line-height: 40px; letter-spacing: -0.25px; }
+  .lt-h24 { font-size: 20px; line-height: 28px; letter-spacing: -0.25px; }
+  .lt-p20 { font-size: 16px; line-height: 24px; }
+}
+@media (max-width: 799px) {
+  .lt-h72 { font-size: 40px; line-height: 44px; letter-spacing: -1px; }
+  .lt-h64 { font-size: 32px; line-height: 36px; letter-spacing: -0.25px; }
+  .lt-h56 { font-size: 32px; line-height: 36px; letter-spacing: -0.25px; }
+  .lt-h40 { font-size: 24px; line-height: 32px; letter-spacing: -0.25px; }
+  .lt-h24 { font-size: 18px; line-height: 24px; letter-spacing: -0.25px; }
+  .lt-h20 { font-size: 16px; line-height: 24px; }
+  .lt-p18 { font-size: 16px; line-height: 24px; }
+}
+.l-dim { color: var(--l-dim); }
+.l-muted { color: var(--l-muted); }
+.l-white { color: var(--l-white); }
+.l-ink { color: var(--l-ink); }
+
+/* ---------- §B buttons ---------- */
+.lbtn {
+  display: inline-flex; align-items: center; justify-content: center;
+  border: 1px solid transparent; border-radius: 8px; padding: 10px 16px;
+  font: 500 14px/18px Inter, -apple-system, system-ui, sans-serif; letter-spacing: 0; white-space: nowrap;
+  transition: color 200ms, background 200ms, opacity 200ms; cursor: pointer;
+}
+@media (max-width: 1280px) { .lbtn { line-height: 16px; } }
+.lbtn:disabled, .lbtn[aria-disabled="true"] { opacity: .6; pointer-events: none; }
+.lbtn--white { background: var(--l-white); color: var(--l-ink); }
+.lbtn--white:hover, .lbtn--white:focus-visible { background: var(--l-white-hover); }
+.lbtn--white:focus-visible { outline: 1px solid var(--l-ink); outline-offset: 1px; }
+.lbtn--glass { background: var(--l-glass); border-color: var(--l-line-dark); color: var(--l-white); }
+.lbtn--glass:hover, .lbtn--glass:focus-visible { background: var(--l-glass-hover); }
+.lbtn--glass:focus-visible { outline: 1px solid var(--l-white); outline-offset: 1px; }
+.lbtn--ink { background: var(--l-ink); color: var(--l-paper); }
+.lbtn--ink:hover, .lbtn--ink:focus-visible { background: var(--l-ink-hover); }
+.lbtn--ink:focus-visible { outline: 1px solid var(--l-paper); outline-offset: 1px; }
+.lbtn--soft { background: var(--l-soft-bg); border-color: var(--l-soft-border); color: var(--l-ink); }
+.lbtn--soft:hover, .lbtn--soft:focus-visible { background: rgba(255,255,255,.08); }
+.lbtn--soft:focus-visible { outline: 1px solid var(--l-ink); outline-offset: 1px; }
+
+.lcta-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 32px; }
+.lcta-row--center { justify-content: center; }
+
+/* currentColor SVG files rendered as masks (same approach as shared.css .svg-icon) */
+.licon { display: inline-block; flex-shrink: 0; background-color: currentColor;
+  -webkit-mask: var(--icon) center / contain no-repeat; mask: var(--icon) center / contain no-repeat; }
+
+/* Light-page underline link (legal-doc §2b `a`, comparison TEI link uses the dark variant) */
+.lulink { position: relative; text-decoration: underline 1px var(--l-border-soft); text-underline-offset: 1.5px;
+  color: var(--l-ink); transition: color 200ms ease-out; }
+.lulink::after { content: ""; position: absolute; left: 0; right: 0; bottom: 2px; height: 1px; background: var(--l-ink);
+  transform: scaleX(0); transform-origin: left; transition: transform 200ms ease-out; }
+.lulink:hover::after, .lulink:focus-visible::after { transform: scaleX(1); }
+
+.lhr { display: block; height: 1px; border: 0; margin: 0; background: var(--l-line-light); }
+.lhr--dark { background: var(--l-line-dark); }
+
+.lsr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }

@@ -1,0 +1,314 @@
+{
+ "slug": "major-personal-bank",
+ "path": "/customers/major-personal-bank/",
+ "title": "How a major bank securely connects 700+ personnel with customer intelligence",
+ "eyebrow": "CUSTOMER / A PERSONAL BANKING PROVIDER SERVING MILLIONS",
+ "companyName": "A personal banking provider serving millions",
+ "isAnonymous": true,
+ "industry": "Financial Services",
+ "intro": {
+  "placeholder": true,
+  "chars": 386
+ },
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/external/unsplash-photo-1509017174183-0b7e0278f1ec-a9c82c.jpg",
+  "width": 1080,
+  "height": 720,
+  "youtubeId": null,
+  "caption": []
+ },
+ "stats": [
+  {
+   "value": "120+",
+   "label": "UX and UI experts grounding work in intelligence"
+  },
+  {
+   "value": "2+ years",
+   "label": "of searchable, reusable knowledge"
+  },
+  {
+   "value": "700+",
+   "label": "team members across the business self-serving customer intelligence"
+  }
+ ],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "A large research practice with limited reach",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 70
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 206
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 143
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 374
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 389
+    }
+   ]
+  },
+  {
+   "heading": "The challenge: making sensitive evidence usable",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 317
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 301
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/video-audio-and-text-redaction.png",
+     "alt": "Dovetail redacts faces in video and personal information in transcripts",
+     "w": 4416,
+     "h": 2310
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 176
+    }
+   ]
+  },
+  {
+   "heading": "The solution: a secure foundation for self-serve research",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 308
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 368,
+     "links": [
+      {
+       "text": "Chat",
+       "href": "/product/ai-chat/"
+      }
+     ]
+    },
+    {
+     "t": "img",
+     "src": "/assets/company/media/contextual-chat-query-product-image.png",
+     "alt": "Dovetail Chat—ask anything about your customers and get an instant, cited answer",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 397
+    }
+   ],
+   "pullQuotes": [
+    {
+     "quote": "“When anyone has a question, they can go into Dovetail and find what we’ve already learned.”",
+     "name": null,
+     "role": "Head of Research, Experience Design",
+     "avatar": null,
+     "href": "/customers/major-personal-bank/"
+    }
+   ]
+  },
+  {
+   "heading": "The payoff: 700+ team members, one compliant source of customer intelligence",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 385
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 367
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 275
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": {
+  "quote": "“When anyone has a question, they can go into Dovetail and find what we’ve already learned.”",
+  "name": null,
+  "role": "Head of Research, Experience Design"
+ },
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "global-financial-institution",
+   "href": "/customers/global-financial-institution/",
+   "title": "How a global financial institution cleared one of finance's most rigorous AI security reviews and built its customer intelligence layer with Dovetail",
+   "industry": "Finance",
+   "order": 99,
+   "companyName": "A global financial institution",
+   "gridTitle": "Global financial powerhouse",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-global-financial-institution.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 295
+    },
+    "name": null,
+    "role": "Delivery Manager, Research Operations"
+   }
+  },
+  {
+   "slug": "modern-business-banking-platform",
+   "href": "/customers/modern-business-banking-platform/",
+   "title": "How a banking platform turned fragmented feedback into company-wide customer intelligence",
+   "industry": "Financial Services",
+   "order": 99,
+   "companyName": "A modern banking platform for ambitious businesses",
+   "gridTitle": "Modern banking platform",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-modern-business-banking-platform.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": "“Channels has made a real difference to how we work as an organization.”",
+    "name": null,
+    "role": "Product Operations Lead"
+   }
+  },
+  {
+   "slug": "global-professional-services-network",
+   "href": "/customers/global-professional-services-network/",
+   "title": "How a global professional services network turned customer intelligence into a delivery standard across three continents",
+   "industry": "Professional Services",
+   "order": 99,
+   "companyName": "One of the world’s four largest professional services networks",
+   "gridTitle": "Global professional services network",
+   "thumbnail": {
+    "src": "/assets/company/media/grid-image-global-professional-services-network.png",
+    "alt": "",
+    "w": 800,
+    "h": 876
+   },
+   "logo": null,
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 203
+    },
+    "name": null,
+    "role": "Enablement Lead, Customer Strategy Practice"
+   }
+  }
+ ],
+ "faq": {
+  "heading": "FAQs",
+  "items": [
+   {
+    "q": "How does Dovetail handle personally identifiable information in customer interviews and video?",
+    "a": {
+     "placeholder": true,
+     "chars": 239
+    }
+   },
+   {
+    "q": "Can non-researchers ask questions about customer research directly, in plain language?",
+    "a": {
+     "placeholder": true,
+     "chars": 268
+    }
+   },
+   {
+    "q": "Can Dovetail consolidate research that’s scattered across several different spaces or tools?",
+    "a": {
+     "placeholder": true,
+     "chars": 263
+    }
+   },
+   {
+    "q": "Can Dovetail support a large, established research practice with hundreds of stakeholders?",
+    "a": {
+     "placeholder": true,
+     "chars": 298
+    }
+   },
+   {
+    "q": "How does using Dovetail change the day-to-day role of a research team?",
+    "a": {
+     "placeholder": true,
+     "chars": 259
+    }
+   }
+  ]
+ }
+}

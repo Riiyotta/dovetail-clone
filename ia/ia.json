@@ -1,0 +1,2000 @@
+{
+  "$comment": "Hand-edited source of truth for the Dovetail clone IA. IA.md and matrix.csv are generated from this file by build.mjs. Route membership was derived by running react-router matchRoutes over the real route config (src/routes.jsx and src/pages/*/routes.jsx, including the data globs and slug arrays) against src/data/routes.txt plus /menu/. Section order was checked against the running clone at http://localhost:5210. In implementedBy, paths are under src/ and \" | \" separates duplicate implementations of one original block.",
+  "meta": {
+    "title": "Dovetail clone: information architecture",
+    "source": "Dovetail clone (/Users/riyaghosh/V3/dovetail): src/routes.jsx, src/pages/**, src/components/**, src/chrome.jsx, src/data/routes.txt, CLONE_SPEC.md, specs/*.md",
+    "status": "measured-from-code-and-running-clone",
+    "productionApproved": false,
+    "totalRoutes": 1897,
+    "totalTemplates": 41,
+    "generatedBy": "ia-builder skill (build.mjs / validate.mjs copied unchanged)"
+  },
+  "categories": {
+    "CHROME": "Site chrome: the banner, navbars and footers, whether App.jsx renders them or a campaign page renders its own inside <main>.",
+    "HERO": "The page-opening block that holds the H1.",
+    "PROOF": "Customer evidence: logo strips, testimonials, story cards and carousels, ratings and analyst (Forrester TEI) cards.",
+    "FEATURE": "Product and capability explanation: feature rows, tabbed or sticky showcases, integration and security grids.",
+    "CONTENT": "Long-form reading and editorial blocks: article titles and bodies, rich text, story and event bodies, prose.",
+    "LISTING": "Indexes and collections: card grids, row lists, filter pills, A-Z lists and directory groupings.",
+    "CONVERSION": "Offers and forms: pricing plans, trial offers, sign-up and download forms, quiz promos.",
+    "CTA": "Closing call-to-action bands that end a page.",
+    "HELP": "FAQ and Q&A accordions.",
+    "TOOL": "Interactive, stateful tools: the ROI calculator and the role quizzes.",
+    "CAMPAIGN": "Blocks of the blue standalone campaign pages (/the-best-never-guess/ and the AWS Summit page).",
+    "LAUNCH": "Blocks unique to the Launch microsite (/launch/suns-out/).",
+    "DECOR": "Decorative transitions with no content of their own.",
+    "OVERLAY": "Fixed or modal UI that is not part of the page flow (timed promos, mobile drawers)."
+  },
+  "sections": {
+    "chrome.banner": {
+      "category": "CHROME",
+      "description": "One-line announcement strip above the nav (\"Ask. Never guess. Introducing Digital Twins →\"). Not sticky. Palette follows the page: default dark, light veil on light pages, `accent` tint over the product/story colour, `legal` palette on legal pages.",
+      "scope": "1894 routes across home, product page, pricing, enterprise, enterprise article, deploy, solution page, role page, role quiz, menu, blog index, blog post, changelog index, changelog entry, guide article, guide hub, guides index, contributors index, contributor profile, demo form, comparison page, quiz hub, roi calculator, template landing, tools article, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos, resource centre, resources guide, industry report, careers, podcast. Hidden on the launch and campaign pages and on the Digital Twins product page (alert bar off in its data file).",
+      "implementedBy": "components/Banner.jsx"
+    },
+    "chrome.navbar": {
+      "category": "CHROME",
+      "description": "Main site navigation: logo, Product/Platform/Resources dropdowns, Log in and Book a demo, and the ≤1185px \"Menu\" pill that links to /menu/. Relative, not sticky. Variants via chrome: light ink, solid `navBg` colour (product accent, story blue), `navButtons:false` on legal docs.",
+      "scope": "1894 routes across home, product page, pricing, enterprise, enterprise article, deploy, solution page, role page, role quiz, launch microsite, blog index, blog post, changelog index, changelog entry, guide article, guide hub, guides index, contributors index, contributor profile, demo form, comparison page, quiz hub, roi calculator, template landing, tools article, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos, resource centre, resources guide, industry report, careers, podcast. Not rendered on the menu route or the two blue campaign pages, which draw their own header.",
+      "implementedBy": "components/Navbar.jsx"
+    },
+    "chrome.footer": {
+      "category": "CHROME",
+      "description": "Site footer: six link columns with new/beta badges, the Log in / Book a demo stack (≤1280), and the bottom bar (copyright, cookie preferences, Legal & Privacy, socials). Dark or light by page theme.",
+      "scope": "1894 routes across home, product page, pricing, enterprise, enterprise article, deploy, solution page, role page, role quiz, menu, blog index, blog post, changelog index, changelog entry, guide article, guide hub, guides index, contributors index, contributor profile, demo form, comparison page, quiz hub, roi calculator, template landing, tools article, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos, resource centre, resources guide, industry report, careers, podcast. Footer variants are recorded on each template as `chrome`.",
+      "implementedBy": "components/Footer.jsx"
+    },
+    "chrome.footer-cta-band": {
+      "category": "CHROME",
+      "description": "The 560px image band (footer-bg.webp) that sits directly above the footer link grid: centred H64 heading and Book a demo + secondary button. The original renders it as the first child of <footer>.",
+      "scope": "5 routes across solution page, careers. Same original block implemented twice: Footer.jsx draws it for the solutions pages, Careers.jsx re-implements it as a local PreFooter.",
+      "implementedBy": "components/Footer.jsx (footer: \"cta-band\") | pages/company/Careers.jsx > PreFooter"
+    },
+    "chrome.campaign-nav": {
+      "category": "CHROME",
+      "description": "Campaign-page header inside <main>: wordmark logo, then black \"Get 60 days full access\" (and on AWS a white \"Join the team\") anchor buttons; ≤799 becomes a fixed bottom CTA bar.",
+      "scope": "2 routes across best-never-guess campaign, aws summit campaign. One original block, two separate implementations.",
+      "implementedBy": "pages/campaigns/bng/BestNeverGuessPage.jsx > CampaignNav | pages/company/AwsSummit.jsx > CampaignNav"
+    },
+    "chrome.campaign-footer": {
+      "category": "CHROME",
+      "description": "Minimal campaign footer: Cookie preferences, Trust center and Legal and privacy links plus the copyright line, in place of the site footer.",
+      "scope": "2 routes across best-never-guess campaign, aws summit campaign. One original block, two separate implementations; on AWS it sits inside the black careers block.",
+      "implementedBy": "pages/campaigns/bng/BestNeverGuessPage.jsx > BngFooter | pages/company/AwsSummit.jsx > Careers (footer.aw-footer)"
+    },
+    "chrome.launch-footer": {
+      "category": "CHROME",
+      "description": "Single-row launch microsite footer (copyright, cookie preferences, legal links) on the blue page.",
+      "scope": "1 routes, launch microsite only.",
+      "implementedBy": "pages/campaigns/launch/LaunchPage.jsx > Footer"
+    },
+    "chrome.launch-section-nav": {
+      "category": "CHROME",
+      "description": "Fixed in-page section nav for the launch microsite (AI Agents in GA, Channels 2.0, Dovetail ecosystem, Enterprise) that highlights the section in view.",
+      "scope": "1 routes, launch microsite only.",
+      "implementedBy": "pages/campaigns/launch/SectionNav.jsx"
+    },
+    "chrome.menu-header": {
+      "category": "CHROME",
+      "description": "Header of the /menu/ route: logo plus a Close button that goes back in history (or home on a direct landing). The route has no site nav; the footer link grid underneath is the menu.",
+      "scope": "1 routes, menu only.",
+      "implementedBy": "pages/corporate/Menu.jsx"
+    },
+    "hero.home": {
+      "category": "HERO",
+      "description": "Homepage hero \"Feed the facts machine\": full-viewport ASCII-field canvas pulled under the nav, rotating word, and primary CTAs.",
+      "scope": "1 routes, home only.",
+      "implementedBy": "components/Hero.jsx"
+    },
+    "hero.pricing": {
+      "category": "HERO",
+      "description": "Pricing hero \"Start free / Upgrade to scale\" over a gradient banner.",
+      "scope": "1 routes, pricing only.",
+      "implementedBy": "pages/corporate/Pricing.jsx > PricingHero"
+    },
+    "hero.enterprise": {
+      "category": "HERO",
+      "description": "Enterprise hero \"Turn feedback into foresight—at scale\": split heading, sub-copy, CTAs and product image on the slice grid.",
+      "scope": "1 routes, enterprise only.",
+      "implementedBy": "pages/corporate/Enterprise.jsx > EnterpriseHero"
+    },
+    "hero.deploy": {
+      "category": "HERO",
+      "description": "Deploy hero \"Deployed by the team that builds it.\" with a \"Book a scoping call\" button that smooth-scrolls to the form.",
+      "scope": "1 routes, deploy only.",
+      "implementedBy": "pages/corporate/Deploy.jsx > DeployHero"
+    },
+    "hero.product": {
+      "category": "HERO",
+      "description": "Product hero: accent-coloured page top with eyebrow, two-part H1, intro, CTAs and product visual; Channels adds a video card.",
+      "scope": "7 routes, product page only.",
+      "implementedBy": "pages/product/ProductHero.jsx"
+    },
+    "hero.role": {
+      "category": "HERO",
+      "description": "Role hero pulled under the nav: H1, sub-copy, CTAs and a four-slot customer-logo swapper.",
+      "scope": "6 routes, role page only.",
+      "implementedBy": "pages/roles/RoleSections.jsx > RoleHero"
+    },
+    "hero.solution": {
+      "category": "HERO",
+      "description": "Solution hero pulled under the nav: H1, intro, \"Start a 60-day free trial\" (scrolls to the trial offer) and Contact sales.",
+      "scope": "4 routes, solution page only.",
+      "implementedBy": "pages/roles/SolutionPage.jsx > SolutionHero"
+    },
+    "hero.blog-post": {
+      "category": "HERO",
+      "description": "Blog post header: Blog breadcrumb, H1, meta table (date, author, read time), share buttons and the hero image or video.",
+      "scope": "202 routes, blog post only.",
+      "implementedBy": "pages/blog/BlogPost.jsx (first section.blog-grid)"
+    },
+    "hero.changelog-index": {
+      "category": "HERO",
+      "description": "Changelog header pulled under the nav: H1 \"Changelog\", category pill nav (All plus six categories, active pill per route) and the client-side year dropdown.",
+      "scope": "7 routes, changelog index only.",
+      "implementedBy": "pages/changelog/ChangelogIndex.jsx (div.cl-hero)"
+    },
+    "hero.guides-index": {
+      "category": "HERO",
+      "description": "Guides index intro: H1 \"Guides\", intro paragraph, Contact sales and Try Dovetail free.",
+      "scope": "1 routes, guides index only.",
+      "implementedBy": "pages/guides/GuidesIndex.jsx (first section.container)"
+    },
+    "hero.contributors-index": {
+      "category": "HERO",
+      "description": "Contributors title block on the light theme: H1 \"Contributors\" and intro paragraph.",
+      "scope": "1 routes, contributors index only.",
+      "implementedBy": "pages/guides/Contributors.jsx > ContributorsIndex (div.ctitle)"
+    },
+    "hero.contributor-profile": {
+      "category": "HERO",
+      "description": "Contributor profile title block: Contributors breadcrumb, the person's name as H1 and their role line.",
+      "scope": "20 routes, contributor profile only.",
+      "implementedBy": "pages/guides/Contributors.jsx > ContributorProfile (div.ctitle)"
+    },
+    "hero.customers-index": {
+      "category": "HERO",
+      "description": "Customers hero: a typewriter that types and deletes customer quotes (\"I will cry if you take this tool away from me.\").",
+      "scope": "1 routes, customers index only.",
+      "implementedBy": "pages/customers/TypewriterHero.jsx"
+    },
+    "hero.customer-story": {
+      "category": "HERO",
+      "description": "Blue customer-story hero: eyebrow, H1, intro, hero image or YouTube video card with caption, stats column and a CTA card. Anonymous stories drop the caption; some stories have no stats.",
+      "scope": "39 routes, customer story only.",
+      "implementedBy": "pages/customers/CustomerStory.jsx > StoryHero"
+    },
+    "hero.events-index": {
+      "category": "HERO",
+      "description": "Events / Webinars hero on a dotted background: intro line and a 160px H1.",
+      "scope": "2 routes, events / webinars index only.",
+      "implementedBy": "pages/events/EventsIndex.jsx (div.ev-hero)"
+    },
+    "hero.live-demos": {
+      "category": "HERO",
+      "description": "Live demos hero \"Dovetail in action\" over a faded background image.",
+      "scope": "1 routes, live demos only.",
+      "implementedBy": "pages/events/LiveDemos.jsx (div.ld-hero)"
+    },
+    "hero.resources-index": {
+      "category": "HERO",
+      "description": "Resource centre hero: eyebrow, H1, intro and two buttons.",
+      "scope": "1 routes, resource centre only.",
+      "implementedBy": "pages/company/ResourcesIndex.jsx (section.ri-hero)"
+    },
+    "hero.report-download": {
+      "category": "HERO",
+      "description": "Forrester report hero: H1 \"236% ROI unlocked with Dovetail\", intro, square-bullet list and the (non-submitting) download form card.",
+      "scope": "1 routes, industry report only.",
+      "implementedBy": "pages/company/ResourcesReport.jsx (section.rr-hero) + ReportForm"
+    },
+    "hero.careers": {
+      "category": "HERO",
+      "description": "Careers hero \"Help build the future of customer intelligence\" on the grid background with a rotating 8-logo column.",
+      "scope": "1 routes, careers only.",
+      "implementedBy": "pages/company/Careers.jsx > Hero"
+    },
+    "hero.podcast": {
+      "category": "HERO",
+      "description": "B2B SaaSy podcast hero: eyebrow, H1 and intro, with the episode cards (external links) in the same grid section.",
+      "scope": "1 routes, podcast only.",
+      "implementedBy": "pages/company/Podcast.jsx (div.pc-hero)"
+    },
+    "hero.demo-form": {
+      "category": "HERO",
+      "description": "Demo / contact-sales hero: heading and copy beside the validated (non-submitting) demo request form with consent text.",
+      "scope": "2 routes, demo form only.",
+      "implementedBy": "pages/tools/DemoForm.jsx > HeroForm"
+    },
+    "hero.quiz-hub": {
+      "category": "HERO",
+      "description": "Quiz hub \"How customer-driven is your team?\": eyebrow, H1, intro and three role-quiz cards linking to /roles/*/quiz/.",
+      "scope": "1 routes, quiz hub only.",
+      "implementedBy": "pages/tools/QuizHub.jsx (section.qh)"
+    },
+    "hero.roi-calculator": {
+      "category": "HERO",
+      "description": "ROI calculator intro: eyebrow, H1 \"Measure the revenue impact of Dovetail\", intro and CTAs.",
+      "scope": "1 routes, roi calculator only.",
+      "implementedBy": "pages/tools/RoiCalculator.jsx (first section.t-container)"
+    },
+    "hero.template-landing": {
+      "category": "HERO",
+      "description": "Template landing hero (\"Write research reports stakeholders actually read\" etc.): heading, copy, CTAs and template image.",
+      "scope": "3 routes, template landing only.",
+      "implementedBy": "pages/tools/TemplateLanding.jsx > Hero"
+    },
+    "hero.comparison": {
+      "category": "HERO",
+      "description": "Comparison page heading block (\"From tagged research projects to always-on customer intelligence\"): H1, copy and trial / demo buttons.",
+      "scope": "16 routes, comparison page only.",
+      "implementedBy": "components/legal/ComparisonSlices.jsx > Hero"
+    },
+    "hero.comparison-image": {
+      "category": "HERO",
+      "description": "Full-width product screenshot directly under the comparison heading.",
+      "scope": "16 routes, comparison page only.",
+      "implementedBy": "components/legal/ComparisonSlices.jsx > HeroImage"
+    },
+    "hero.not-found": {
+      "category": "HERO",
+      "description": "404 hero: large \"404\" H1 over a background image, subtitle, body and two buttons.",
+      "scope": "0 routes, not found only.",
+      "implementedBy": "pages/tools/NotFound.jsx (div.nf)"
+    },
+    "hero.campaign": {
+      "category": "HERO",
+      "description": "Blue campaign hero: the \"The best never guess\" word block on #0044FF with corner SVG decorations and logo rotators, full viewport height.",
+      "scope": "2 routes across best-never-guess campaign, aws summit campaign. One original block, two separate implementations.",
+      "implementedBy": "pages/campaigns/bng/BestNeverGuessPage.jsx > Hero | pages/company/AwsSummit.jsx > Hero"
+    },
+    "hero.launch": {
+      "category": "HERO",
+      "description": "Launch microsite hero \"Dovetail Launch ’26: Sun’s Out\" (tall blue hero pulled under the nav, video modal trigger).",
+      "scope": "1 routes, launch microsite only.",
+      "implementedBy": "pages/campaigns/launch/LaunchPage.jsx > Hero"
+    },
+    "proof.logo-strip": {
+      "category": "PROOF",
+      "description": "\"Connecting the world's greatest companies to their customers\" strip: centred M14 heading over one or two rows of white customer logos scrolling in opposite directions with edge fades (CompactLogoSlice).",
+      "scope": "29 routes across pricing, enterprise, deploy, solution page, demo form, comparison page, template landing, industry report. One original slice, four implementations, each on its own Marquee primitive.",
+      "implementedBy": "components/marketing/CompactLogoSlice.jsx | components/tools/LogoMarquee.jsx | components/legal/Marquee.jsx > LogoMarquee | pages/company/ResourcesReport.jsx > LogoStrip"
+    },
+    "proof.testimonial": {
+      "category": "PROOF",
+      "description": "Featured testimonial: one large quote with attribution on the grid-image background, 560px tall, with cursor tooltip on the card.",
+      "scope": "29 routes across enterprise, solution page, role page, demo form, comparison page. One original slice, three implementations.",
+      "implementedBy": "components/marketing/TestimonialSlice.jsx | components/tools/Testimonial.jsx | components/legal/FeaturedTestimonial.jsx"
+    },
+    "proof.product-quote": {
+      "category": "PROOF",
+      "description": "Product quote slice: placeholder customer quote on the grid background, product pages only (a separate original component from the featured testimonial).",
+      "scope": "7 routes, product page only.",
+      "implementedBy": "components/marketing/ProductQuoteSlice.jsx"
+    },
+    "proof.customer-stories-slice": {
+      "category": "PROOF",
+      "description": "Customer stories band: tabbed story cards (Breville, Atlassian Design, Itaú) with progress tabs and a looping background video.",
+      "scope": "8 routes across product page, enterprise.",
+      "implementedBy": "components/marketing/CustomerStoriesSlice.jsx"
+    },
+    "proof.stories-marquee": {
+      "category": "PROOF",
+      "description": "Homepage \"In their words, not ours\": story-quote marquee with pixel-dissolve images and a \"Read customer story\" cursor tooltip.",
+      "scope": "1 routes, home only.",
+      "implementedBy": "components/Stories.jsx"
+    },
+    "proof.product-logo-marquee": {
+      "category": "PROOF",
+      "description": "Product page logo marquee wrapper (\"Connecting the world’s greatest companies…\"); the Digital Twins page adds a G2 / Capterra / TrustRadius ratings row above it.",
+      "scope": "7 routes, product page only.",
+      "implementedBy": "pages/product/LogoMarqueeWrap.jsx"
+    },
+    "proof.role-story-cards": {
+      "category": "PROOF",
+      "description": "Two customer story cards with pixel thumbnails on role pages (e.g. SafetyCulture, Achievers).",
+      "scope": "6 routes, role page only.",
+      "implementedBy": "pages/roles/RoleSections.jsx > StoryCards"
+    },
+    "proof.tei-card": {
+      "category": "PROOF",
+      "description": "\"The Total Economic Impact™ of Dovetail\" card: heading and copy beside the Forrester TEI image.",
+      "scope": "2 routes across guides index, resource centre. Same card on two pages, implemented twice.",
+      "implementedBy": "pages/guides/GuidesIndex.jsx (section.gi-tei) | pages/company/ResourcesIndex.jsx > TeiCard"
+    },
+    "proof.forrester-tei-stats": {
+      "category": "PROOF",
+      "description": "Demo-form \"Forrester’s Total Economic Impact™\" block: heading, stat figures and study link.",
+      "scope": "2 routes, demo form only.",
+      "implementedBy": "pages/tools/DemoForm.jsx > Tei"
+    },
+    "proof.comparison-tei-card": {
+      "category": "PROOF",
+      "description": "Comparison \"Proven business impact\" card: copy, Forrester link and the TEI module image, full-width.",
+      "scope": "16 routes, comparison page only.",
+      "implementedBy": "components/legal/ComparisonSlices.jsx > TeiCard"
+    },
+    "proof.awards-marquee": {
+      "category": "PROOF",
+      "description": "Comparison awards marquee: a single strip of award badges (Buyer's choice award, Category leader…) scrolling under the comparison table.",
+      "scope": "16 routes, comparison page only.",
+      "implementedBy": "components/legal/Marquee.jsx > AwardsMarquee"
+    },
+    "proof.comparison-customer-story": {
+      "category": "PROOF",
+      "description": "Comparison customer story row: a named customer story card with heading and link, on some comparison pages.",
+      "scope": "16 routes, comparison page only.",
+      "implementedBy": "components/legal/ComparisonSlices.jsx > CustomerStory"
+    },
+    "proof.logo-wall": {
+      "category": "PROOF",
+      "description": "Customers index logo wall: grid of boxed customer logos.",
+      "scope": "1 routes, customers index only.",
+      "implementedBy": "pages/customers/CustomersIndex.jsx > LogoWall"
+    },
+    "proof.customer-story-carousel": {
+      "category": "PROOF",
+      "description": "Customers index blue story carousel: one story slide at a time with the company logo inline in the heading and progress tabs.",
+      "scope": "1 routes, customers index only.",
+      "implementedBy": "pages/customers/CustomersIndex.jsx > StoryCarousel (ProgressTabs, useTabGroup)"
+    },
+    "proof.ratings-awards": {
+      "category": "PROOF",
+      "description": "Customers index ratings block: G2 / Capterra / TrustRadius star ratings, the \"Trusted and loved by users\" headline and an awards marquee on a dotted tile.",
+      "scope": "1 routes, customers index only.",
+      "implementedBy": "pages/customers/CustomersIndex.jsx > Ratings (components/company/Marquee.jsx)"
+    },
+    "proof.testimonial-wall": {
+      "category": "PROOF",
+      "description": "Customers index wall of short testimonial cards in a masonry-like column layout.",
+      "scope": "1 routes, customers index only.",
+      "implementedBy": "pages/customers/CustomersIndex.jsx > TestimonialWall"
+    },
+    "feature.context-layer": {
+      "category": "FEATURE",
+      "description": "Homepage \"Build your customer context layer\": topic tabs with quote and stat cards.",
+      "scope": "1 routes, home only.",
+      "implementedBy": "components/ContextLayer.jsx"
+    },
+    "feature.raw-data": {
+      "category": "FEATURE",
+      "description": "Homepage \"Turn raw data into rich context\": multimodal input diagram.",
+      "scope": "1 routes, home only.",
+      "implementedBy": "components/RawData.jsx"
+    },
+    "feature.prompt-topics": {
+      "category": "FEATURE",
+      "description": "Homepage \"Put the customer in every prompt\": prompt topic tabs.",
+      "scope": "1 routes, home only.",
+      "implementedBy": "components/Prompt.jsx"
+    },
+    "feature.self-improving-loop": {
+      "category": "FEATURE",
+      "description": "Homepage \"Make your software self improving\": sticky globe with step loop.",
+      "scope": "1 routes, home only.",
+      "implementedBy": "components/SelfImproving.jsx (components/loop/LoopGlobe.jsx)"
+    },
+    "feature.govern": {
+      "category": "FEATURE",
+      "description": "Homepage \"Govern customer context at scale\": governance card grid.",
+      "scope": "1 routes, home only.",
+      "implementedBy": "components/Govern.jsx"
+    },
+    "feature.security-compliance": {
+      "category": "FEATURE",
+      "description": "Security and compliance grid (\"Data residency & retention\", SOC 2, SSO…) on a section background image.",
+      "scope": "2 routes across enterprise, deploy. Real reuse: one component serves both pages.",
+      "implementedBy": "pages/corporate/common.jsx > SecurityGrid"
+    },
+    "feature.enterprise-vertical-tabs": {
+      "category": "FEATURE",
+      "description": "Enterprise \"Intelligent decisions, made faster\": auto-advancing vertical tabs with a preview panel.",
+      "scope": "1 routes, enterprise only.",
+      "implementedBy": "pages/corporate/Enterprise.jsx > VerticalTabs"
+    },
+    "feature.enterprise-roi-map": {
+      "category": "FEATURE",
+      "description": "Enterprise \"Save time, reduce risk, and build what moves the needle\": ROI stat cards over a dashed hotspot grid.",
+      "scope": "1 routes, enterprise only.",
+      "implementedBy": "pages/corporate/Enterprise.jsx > RoiMap"
+    },
+    "feature.enterprise-integrations": {
+      "category": "FEATURE",
+      "description": "Enterprise \"Connected to your enterprise stack\": feature card grid on a section background.",
+      "scope": "1 routes, enterprise only.",
+      "implementedBy": "pages/corporate/Enterprise.jsx > Integrations"
+    },
+    "feature.deploy-problems": {
+      "category": "FEATURE",
+      "description": "Deploy \"Three problems. One delivery team.\": heading then alternating problem rows.",
+      "scope": "1 routes, deploy only.",
+      "implementedBy": "pages/corporate/Deploy.jsx > ProblemsHeading + Problem"
+    },
+    "feature.deploy-why": {
+      "category": "FEATURE",
+      "description": "Deploy \"Why enterprises choose Deploy\": heading and a feature grid.",
+      "scope": "1 routes, deploy only.",
+      "implementedBy": "pages/corporate/Deploy.jsx > WhyHeading + WhyGrid"
+    },
+    "feature.product-statement": {
+      "category": "FEATURE",
+      "description": "Product statement slice: one centred H2 statement with sub-copy (agents, Digital Twins).",
+      "scope": "7 routes, product page only.",
+      "implementedBy": "pages/product/ProductStatement.jsx"
+    },
+    "feature.product-scroll-video": {
+      "category": "FEATURE",
+      "description": "Product scroll video: a YouTube card that scales up as the page scrolls (agents, Digital Twins).",
+      "scope": "7 routes, product page only.",
+      "implementedBy": "pages/product/ProductScrollVideo.jsx"
+    },
+    "feature.product-features": {
+      "category": "FEATURE",
+      "description": "Product features: sticky multi-step feature engine (text left, swapping visuals right).",
+      "scope": "7 routes, product page only.",
+      "implementedBy": "pages/product/ProductFeatures.jsx"
+    },
+    "feature.product-for": {
+      "category": "FEATURE",
+      "description": "Product \"… for\" slice: list of team use cases (channels, dashboards, docs, projects).",
+      "scope": "7 routes, product page only.",
+      "implementedBy": "pages/product/ProductFor.jsx"
+    },
+    "feature.product-voice-mode": {
+      "category": "FEATURE",
+      "description": "Digital Twins \"Ask out loud, with voice mode\" slice.",
+      "scope": "7 routes, product page only.",
+      "implementedBy": "pages/product/VoiceMode.jsx"
+    },
+    "feature.product-prompt-cards": {
+      "category": "FEATURE",
+      "description": "Product prompt cards (\"Put AI Agents to work\"): clickable prompt cards that open a prompt modal.",
+      "scope": "7 routes, product page only.",
+      "implementedBy": "pages/product/ProductPromptCards.jsx (+ PromptModal.jsx)"
+    },
+    "feature.product-carousel": {
+      "category": "FEATURE",
+      "description": "Product carousel: heading plus a horizontally scrolling set of feature cards.",
+      "scope": "7 routes, product page only.",
+      "implementedBy": "pages/product/ProductCarousel.jsx"
+    },
+    "feature.product-findings": {
+      "category": "FEATURE",
+      "description": "Product findings block (\"Get more from your findings\"): heading and feature card grid.",
+      "scope": "7 routes, product page only.",
+      "implementedBy": "pages/product/Findings.jsx"
+    },
+    "feature.role-challenge": {
+      "category": "FEATURE",
+      "description": "Role \"The challenge\" card on the grid-image background.",
+      "scope": "6 routes, role page only.",
+      "implementedBy": "pages/roles/RoleSections.jsx > Challenge"
+    },
+    "feature.role-helps": {
+      "category": "FEATURE",
+      "description": "Role \"How Dovetail helps\": H2 header row followed by a grid of capability cards.",
+      "scope": "6 routes, role page only.",
+      "implementedBy": "pages/roles/RoleSections.jsx > HelpsHeader + HelpsCards"
+    },
+    "feature.role-prioritization": {
+      "category": "FEATURE",
+      "description": "Product-management \"Using Dovetail to prioritize what to build\" block.",
+      "scope": "6 routes, role page only.",
+      "implementedBy": "pages/roles/RoleSections.jsx > Prioritization"
+    },
+    "feature.role-integrations": {
+      "category": "FEATURE",
+      "description": "Role \"Connect to the tools you use\": integration logo grid.",
+      "scope": "6 routes, role page only.",
+      "implementedBy": "pages/roles/RoleSections.jsx > Integrations"
+    },
+    "feature.role-use-case-tabs": {
+      "category": "FEATURE",
+      "description": "Role \"Practical ways … teams use Dovetail\": auto-advancing use-case tabs.",
+      "scope": "6 routes, role page only.",
+      "implementedBy": "pages/roles/RoleSections.jsx > UseCaseTabs (local useTabGroup copy)"
+    },
+    "feature.solution-section": {
+      "category": "FEATURE",
+      "description": "Solution feature row: eyebrow, H2, copy and buttons beside an image, alternating sides.",
+      "scope": "4 routes, solution page only.",
+      "implementedBy": "pages/roles/SolutionPage.jsx > SolutionSection"
+    },
+    "feature.solution-features": {
+      "category": "FEATURE",
+      "description": "Solution feature list block (voice-of-customer only).",
+      "scope": "4 routes, solution page only.",
+      "implementedBy": "pages/roles/SolutionPage.jsx > SolutionFeatures"
+    },
+    "feature.demo-features": {
+      "category": "FEATURE",
+      "description": "Demo form \"See the platform in action\": heading row and \"Effortless, end-to-end intelligence\" feature grid.",
+      "scope": "2 routes, demo form only.",
+      "implementedBy": "pages/tools/DemoForm.jsx > Features"
+    },
+    "feature.template-split": {
+      "category": "FEATURE",
+      "description": "Template landing split row: H2 and copy beside an image, alternating sides.",
+      "scope": "3 routes, template landing only.",
+      "implementedBy": "pages/tools/TemplateLanding.jsx > Split"
+    },
+    "feature.template-checklist": {
+      "category": "FEATURE",
+      "description": "Template landing checklist grid (\"What separates reports that get read\").",
+      "scope": "3 routes, template landing only.",
+      "implementedBy": "pages/tools/TemplateLanding.jsx > Checklist"
+    },
+    "feature.comparison-choose-grid": {
+      "category": "FEATURE",
+      "description": "Comparison \"Choose Dovetail when…\" reasons grid.",
+      "scope": "16 routes, comparison page only.",
+      "implementedBy": "components/legal/ComparisonSlices.jsx > ChooseGrid"
+    },
+    "feature.careers-globe": {
+      "category": "FEATURE",
+      "description": "Careers globe slice: mission copy beside an animated globe.",
+      "scope": "1 routes, careers only.",
+      "implementedBy": "pages/company/Careers.jsx > GlobeSlice (CareersGlobe.jsx)"
+    },
+    "feature.careers-benefits": {
+      "category": "FEATURE",
+      "description": "Careers \"The full package\": benefits grid.",
+      "scope": "1 routes, careers only.",
+      "implementedBy": "pages/company/Careers.jsx > Benefits"
+    },
+    "content.article-title": {
+      "category": "CONTENT",
+      "description": "Light article title block (.ctitle): breadcrumb trail and the H1.",
+      "scope": "1146 routes across enterprise article, guide article, guide hub, tools article, resources guide. Shared by the article family; the resources guides re-implement the breadcrumb locally.",
+      "implementedBy": "pages/guides/components.jsx > Breadcrumb (in GuideArticle, EnterpriseArticle, ToolsArticle) | pages/company/ResourcesGuide.jsx > Breadcrumb"
+    },
+    "content.article-body": {
+      "category": "CONTENT",
+      "description": "Light article body grid: left aside (meta table, share / Summarize-with-AI, optional sidebar promo card, desktop table of contents) and the rich-text column ending in the Related topics tag cloud.",
+      "scope": "1146 routes across enterprise article, guide article, guide hub, tools article, resources guide. Guide articles, enterprise articles and tools articles share the guides components; the resources guides have their own body, share and TOC copies. Hub pages show no promo or TOC.",
+      "implementedBy": "pages/guides/components.jsx > MetaTable, ShareAi, TocList, RichText, TagCloud | pages/company/ResourcesGuide.jsx > Body, ShareGroups, Toc | components/legal/Prose.jsx (ToolsArticle)"
+    },
+    "content.article-carousels": {
+      "category": "CONTENT",
+      "description": "\"Editor's picks↘\" and \"Latest articles↘\" text carousels with a draggable progress bar.",
+      "scope": "1139 routes across enterprise article, guide article, guide hub.",
+      "implementedBy": "pages/guides/components.jsx > TextCarousel"
+    },
+    "content.related-articles-carousel": {
+      "category": "CONTENT",
+      "description": "\"Related articles↘\" carousel on the resources guides, built on the company Carousel.",
+      "scope": "2 routes, resources guide only. Same horizontal-carousel-with-progress pattern as the guides TextCarousel, separate implementation.",
+      "implementedBy": "pages/company/ResourcesGuide.jsx > RelatedCarousel (components/company/Carousel.jsx)"
+    },
+    "content.blog-post-body": {
+      "category": "CONTENT",
+      "description": "Blog post body: lede paragraph, rich text, sticky sidebar post cards and the Related Articles grid.",
+      "scope": "202 routes, blog post only.",
+      "implementedBy": "pages/blog/BlogPost.jsx (second section.blog-grid)"
+    },
+    "content.changelog-entry": {
+      "category": "CONTENT",
+      "description": "Changelog entry cell: Back link, date and time, H1, hero image, rich text, docs CTA and share, then Previous / Next entry links.",
+      "scope": "349 routes, changelog entry only.",
+      "implementedBy": "pages/changelog/ChangelogEntry.jsx"
+    },
+    "content.editorial-process": {
+      "category": "CONTENT",
+      "description": "\"About our editorial process\" box on the light contributor pages.",
+      "scope": "21 routes across contributors index, contributor profile.",
+      "implementedBy": "pages/guides/components.jsx > EditorialBox"
+    },
+    "content.contributor-skills": {
+      "category": "CONTENT",
+      "description": "Contributor \"Skills\" tag cloud.",
+      "scope": "20 routes, contributor profile only.",
+      "implementedBy": "pages/guides/components.jsx > TagCloud (in ContributorProfile)"
+    },
+    "content.customer-story-body": {
+      "category": "CONTENT",
+      "description": "Customer story body: headed sections of rich text with rules, pull quotes and inline images.",
+      "scope": "39 routes, customer story only.",
+      "implementedBy": "pages/customers/CustomerStory.jsx > StoryBody (components/company/RichText.jsx)"
+    },
+    "content.event-detail": {
+      "category": "CONTENT",
+      "description": "Event detail grid: back link and H1, sidebar of detail rows (start / end in the viewer's timezone, location, register link), hero image or recording video, rich body and, on some events, a registration form.",
+      "scope": "47 routes, event detail only.",
+      "implementedBy": "pages/events/EventDetail.jsx (RichBody.jsx, RegistrationForm.jsx, components/company/VideoCard.jsx)"
+    },
+    "content.legal-title": {
+      "category": "CONTENT",
+      "description": "Legal document title block: breadcrumb and H1.",
+      "scope": "19 routes, legal document only.",
+      "implementedBy": "pages/legal/LegalDoc.jsx (div.ltitle)"
+    },
+    "content.legal-doc-body": {
+      "category": "CONTENT",
+      "description": "Legal document body: legal / privacy side nav, prose with last-updated footer, and a right-hand table of contents.",
+      "scope": "19 routes, legal document only.",
+      "implementedBy": "pages/legal/LegalDoc.jsx > SideNav + components/legal/Prose.jsx"
+    },
+    "content.deploy-intro": {
+      "category": "CONTENT",
+      "description": "Deploy intro paragraph under the logo strip.",
+      "scope": "1 routes, deploy only.",
+      "implementedBy": "pages/corporate/Deploy.jsx > Intro"
+    },
+    "content.template-intro": {
+      "category": "CONTENT",
+      "description": "Template landing centred intro (\"What a research report covers\").",
+      "scope": "3 routes, template landing only.",
+      "implementedBy": "pages/tools/TemplateLanding.jsx > CenteredIntro"
+    },
+    "content.comparison-intro": {
+      "category": "CONTENT",
+      "description": "Comparison intro split: H2 and paragraphs beside a visual.",
+      "scope": "16 routes, comparison page only.",
+      "implementedBy": "components/legal/ComparisonSlices.jsx > Intro"
+    },
+    "content.comparison-table": {
+      "category": "CONTENT",
+      "description": "\"How Dovetail compares to …\" heading and the Dovetail-vs-competitor feature table.",
+      "scope": "16 routes, comparison page only.",
+      "implementedBy": "components/legal/ComparisonSlices.jsx > CompareIntro + ComparisonTable"
+    },
+    "content.careers-people": {
+      "category": "CONTENT",
+      "description": "Careers \"Meet some of the humans behind the product\": expandable people rows.",
+      "scope": "1 routes, careers only.",
+      "implementedBy": "pages/company/Careers.jsx > People"
+    },
+    "content.careers-gallery": {
+      "category": "CONTENT",
+      "description": "Careers office tour gallery with a video card (\"Join Tommy…\").",
+      "scope": "1 routes, careers only.",
+      "implementedBy": "pages/company/Careers.jsx > Gallery (components/company/VideoCard.jsx)"
+    },
+    "content.careers-values": {
+      "category": "CONTENT",
+      "description": "Careers \"Driven by values\": heading and a draggable values carousel.",
+      "scope": "1 routes, careers only.",
+      "implementedBy": "pages/company/Careers.jsx > Values (components/company/Carousel.jsx)"
+    },
+    "content.careers-hiring": {
+      "category": "CONTENT",
+      "description": "Careers \"How we hire\" steps.",
+      "scope": "1 routes, careers only.",
+      "implementedBy": "pages/company/Careers.jsx > Hiring"
+    },
+    "listing.blog-featured-header": {
+      "category": "LISTING",
+      "description": "Blog index top: two featured post cards, the H1 \"Blog\" and tag pills (All, AI, Dovetail team, Engineering, Product, Ideas).",
+      "scope": "6 routes, blog index only.",
+      "implementedBy": "pages/blog/BlogIndex.jsx (first section.blog-grid) + BlogCard.jsx"
+    },
+    "listing.blog-card-grid": {
+      "category": "LISTING",
+      "description": "Blog card grid with client-side \"Load more\".",
+      "scope": "6 routes, blog index only.",
+      "implementedBy": "pages/blog/BlogIndex.jsx (div.blog-index__grid-wrap) + BlogCard.jsx"
+    },
+    "listing.changelog-rows": {
+      "category": "LISTING",
+      "description": "Changelog list: one row per entry (date, time, title) with a hover image preview, filtered by category route and year.",
+      "scope": "7 routes, changelog index only.",
+      "implementedBy": "pages/changelog/ChangelogIndex.jsx > Row + usePreview"
+    },
+    "listing.hub-article-index": {
+      "category": "LISTING",
+      "description": "\"All … articles\" A-Z link list rendered after the footer (portalled into #after-footer-slot).",
+      "scope": "10 routes, guide hub only.",
+      "implementedBy": "pages/guides/GuideArticle.jsx > AfterFooter"
+    },
+    "listing.guides-topics": {
+      "category": "LISTING",
+      "description": "Guides index \"Topics\" list: one entry per hub with title and description.",
+      "scope": "1 routes, guides index only.",
+      "implementedBy": "pages/guides/GuidesIndex.jsx (div.gi-topics)"
+    },
+    "listing.contributors-groups": {
+      "category": "LISTING",
+      "description": "Contributors grouped rows (Authors, Reviewers…): name with arrow and role, between rules.",
+      "scope": "1 routes, contributors index only.",
+      "implementedBy": "pages/guides/Contributors.jsx > ContributorsIndex"
+    },
+    "listing.contributor-articles": {
+      "category": "LISTING",
+      "description": "Contributor article lists (\"Articles reviewed by …\"): title and date in a three-column grid.",
+      "scope": "20 routes, contributor profile only.",
+      "implementedBy": "pages/guides/Contributors.jsx > ContributorProfile"
+    },
+    "listing.customer-story-grid": {
+      "category": "LISTING",
+      "description": "Customers index industry filter chips and the customer story card grid.",
+      "scope": "1 routes, customers index only.",
+      "implementedBy": "pages/customers/CustomersIndex.jsx > StoryGrid (components/company/StoryCard.jsx)"
+    },
+    "listing.upcoming-events": {
+      "category": "LISTING",
+      "description": "Upcoming event card grid (computed at runtime from start dates; online-only on /webinars/).",
+      "scope": "2 routes, events / webinars index only.",
+      "implementedBy": "pages/events/EventsIndex.jsx (components/company/EventCard.jsx)"
+    },
+    "listing.past-events": {
+      "category": "LISTING",
+      "description": "\"Past events\" heading and row list (date, title).",
+      "scope": "2 routes, events / webinars index only.",
+      "implementedBy": "pages/events/EventsIndex.jsx (components/company/RowList.jsx)"
+    },
+    "listing.more-events": {
+      "category": "LISTING",
+      "description": "\"More events\" heading and event cards under an event; omitted when there are none.",
+      "scope": "47 routes, event detail only.",
+      "implementedBy": "pages/events/EventDetail.jsx (components/company/EventCard.jsx)"
+    },
+    "listing.demo-video-grid": {
+      "category": "LISTING",
+      "description": "Live demos video card grid, ending in a \"footer prompt\" heading and link.",
+      "scope": "1 routes, live demos only.",
+      "implementedBy": "pages/events/LiveDemos.jsx (components/company/VideoCard.jsx)"
+    },
+    "listing.resource-link-list": {
+      "category": "LISTING",
+      "description": "Resource centre link list section (\"Explore by topic\", \"Compare Dovetail\", \"Customer stories\"): heading beside a ruled list of links.",
+      "scope": "1 routes, resource centre only.",
+      "implementedBy": "pages/company/ResourcesIndex.jsx > LinkList"
+    },
+    "listing.resources-blog-row": {
+      "category": "LISTING",
+      "description": "Resource centre \"From the blog\": heading row with link, then three blog cards.",
+      "scope": "1 routes, resource centre only.",
+      "implementedBy": "pages/company/ResourcesIndex.jsx > HeadingRow + Blog"
+    },
+    "listing.resources-demo-row": {
+      "category": "LISTING",
+      "description": "Resource centre \"Live demos\": heading row with link, then a row of video cards.",
+      "scope": "1 routes, resource centre only.",
+      "implementedBy": "pages/company/ResourcesIndex.jsx > HeadingRow + VideoCard"
+    },
+    "listing.open-positions": {
+      "category": "LISTING",
+      "description": "Careers \"Open positions\" (#open-roles): team and location radio filters, job rows grouped by team, then the \"Can’t see the role you’re looking for?\" note.",
+      "scope": "1 routes, careers only. Uses a local RowList copy because job rows open in the same tab; the shared components/company/RowList.jsx opens them in a new tab.",
+      "implementedBy": "pages/company/Careers.jsx > OpenPositions (pages/company/Parts.jsx > RowList)"
+    },
+    "listing.legal-index": {
+      "category": "LISTING",
+      "description": "Legal and Privacy index: H1 then grouped document links with last-updated dates.",
+      "scope": "1 routes, legal index only.",
+      "implementedBy": "pages/legal/LegalIndex.jsx (section.lgi)"
+    },
+    "listing.enterprise-resources": {
+      "category": "LISTING",
+      "description": "Enterprise \"Resources for enterprise\": resource cards.",
+      "scope": "1 routes, enterprise only.",
+      "implementedBy": "pages/corporate/Enterprise.jsx > Resources"
+    },
+    "conversion.plan-cards": {
+      "category": "CONVERSION",
+      "description": "Pricing plan cards (Free and Enterprise) with feature lists and plan buttons.",
+      "scope": "1 routes, pricing only.",
+      "implementedBy": "pages/corporate/Pricing.jsx > PlanCards"
+    },
+    "conversion.pricing-comparison-table": {
+      "category": "CONVERSION",
+      "description": "Pricing \"Centralize your user feedback\" comparison table with grouped rows, tooltips and a sticky plan header.",
+      "scope": "1 routes, pricing only.",
+      "implementedBy": "pages/corporate/Pricing.jsx > ComparisonTable + StickyHeader (Tooltip.jsx)"
+    },
+    "conversion.deploy-scoping-form": {
+      "category": "CONVERSION",
+      "description": "Deploy scoping-call form (#book-a-call), \"Tell us what you’re trying to do.\"",
+      "scope": "1 routes, deploy only.",
+      "implementedBy": "pages/corporate/Deploy.jsx > Scoping (DeployForm.jsx)"
+    },
+    "conversion.trial-offer": {
+      "category": "CONVERSION",
+      "description": "Blue 60-day trial offer (#trial-cta) on the trial grid background: heading, copy, check list and \"Start a 60-day free trial\".",
+      "scope": "20 routes across solution page, comparison page. One original slice, two implementations.",
+      "implementedBy": "pages/roles/SolutionPage.jsx > SolutionTrial | components/legal/ComparisonSlices.jsx > TrialCta"
+    },
+    "conversion.role-quiz-promo": {
+      "category": "CONVERSION",
+      "description": "Role page quiz promo box (\"Are you a data-driven product manager?\") linking to that role's quiz.",
+      "scope": "6 routes, role page only.",
+      "implementedBy": "pages/roles/RoleSections.jsx > QuizPromo"
+    },
+    "conversion.comparison-migrate": {
+      "category": "CONVERSION",
+      "description": "Comparison \"Migrate your customer evidence to Dovetail\" block.",
+      "scope": "16 routes, comparison page only.",
+      "implementedBy": "components/legal/ComparisonSlices.jsx > Migrate"
+    },
+    "conversion.campaign-trial-form": {
+      "category": "CONVERSION",
+      "description": "Campaign \"Join the world's leading teams. Sign up for Enterprise…\" trial form slice (#60-day-trial-offer), non-submitting.",
+      "scope": "2 routes across best-never-guess campaign, aws summit campaign. One original block, two separate implementations.",
+      "implementedBy": "pages/campaigns/bng/BestNeverGuessPage.jsx > FormSlice | pages/company/AwsSummit.jsx > TrialForm"
+    },
+    "conversion.roi-card": {
+      "category": "CONVERSION",
+      "description": "Resource centre \"Measure the revenue impact of Dovetail\" card linking to the ROI calculator.",
+      "scope": "1 routes, resource centre only.",
+      "implementedBy": "pages/company/ResourcesIndex.jsx > RoiCard"
+    },
+    "conversion.roi-report-download": {
+      "category": "CONVERSION",
+      "description": "ROI calculator \"Download your ROI report\" card.",
+      "scope": "1 routes, roi calculator only.",
+      "implementedBy": "pages/tools/RoiCalculator.jsx > Download"
+    },
+    "cta.final-cta": {
+      "category": "CTA",
+      "description": "\"The best never guess\" final CTA: 900px ASCII-field canvas with the word block, Start free trial and Book a demo. Dark, or light on light pages.",
+      "scope": "701 routes across home, product page, pricing, enterprise, blog index, blog post, changelog entry, guides index, contributors index, contributor profile, demo form, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos. Real reuse: one component, rendered by each page at the end of its main.",
+      "implementedBy": "components/FinalCta.jsx"
+    },
+    "cta.feedback-cta": {
+      "category": "CTA",
+      "description": "\"Turn customer feedback into product innovation\" CTA footer slice: spacer, H64 heading (per-page override on the podcast and deploy pages) and Contact sales / Try Dovetail free (one button on the report page).",
+      "scope": "1164 routes across enterprise article, deploy, role quiz, changelog index, guide article, guide hub, quiz hub, roi calculator, tools article, events / webinars index, resource centre, resources guide, industry report, podcast. One original slice with six separate implementations (enterprise articles reuse components/InlineCta.jsx). The changelog index renders two copies at once.",
+      "implementedBy": "components/InlineCta.jsx | pages/changelog/InlineCta.jsx | components/company/PageCta.jsx | components/tools/CtaFooter.jsx | pages/corporate/Deploy.jsx > CtaBand | pages/roles/QuizPage.jsx (inline result CTA)"
+    },
+    "cta.story-best-never-guess": {
+      "category": "CTA",
+      "description": "Customer-story \"The best never guess\" block: logo rotator, body, buttons and three related story cards (carousel ≤799).",
+      "scope": "39 routes, customer story only.",
+      "implementedBy": "components/company/BestNeverGuess.jsx (StoryCard.jsx, Carousel.jsx)"
+    },
+    "help.faq": {
+      "category": "HELP",
+      "description": "FAQ accordion: \"FAQs\" H56 left (compact H32 variant for grouped event Q&A), questions with a rule and expand icon right.",
+      "scope": "126 routes across product page, pricing, deploy, solution page, role page, comparison page, template landing, customer story, event detail, careers, podcast. One original slice, four implementations.",
+      "implementedBy": "components/marketing/FaqSlice.jsx | components/company/Faq.jsx | components/tools/Faq.jsx | components/legal/Faq.jsx"
+    },
+    "tool.roi-calculator": {
+      "category": "TOOL",
+      "description": "ROI calculator: input sliders and advanced inputs (left) driving live result cards (right).",
+      "scope": "1 routes, roi calculator only.",
+      "implementedBy": "pages/tools/RoiCalculator.jsx (Slider, ResultCard, compute)"
+    },
+    "tool.role-quiz": {
+      "category": "TOOL",
+      "description": "Role quiz flow: intro with Start, ten questions, then a scored result with CTA and retake.",
+      "scope": "3 routes, role quiz only.",
+      "implementedBy": "pages/roles/QuizPage.jsx"
+    },
+    "campaign.text-slice": {
+      "category": "CAMPAIGN",
+      "description": "Campaign text slice: large centred paragraph with inline logo badges.",
+      "scope": "2 routes across best-never-guess campaign, aws summit campaign. One original block, two separate implementations.",
+      "implementedBy": "pages/campaigns/bng/BestNeverGuessPage.jsx > TextSlice | pages/company/AwsSummit.jsx > TextSlice"
+    },
+    "campaign.testimonial": {
+      "category": "CAMPAIGN",
+      "description": "Blue campaign testimonial (Breville quote) with attribution.",
+      "scope": "2 routes across best-never-guess campaign, aws summit campaign. One original block, two separate implementations.",
+      "implementedBy": "pages/campaigns/bng/BestNeverGuessPage.jsx > Testimonial | pages/company/AwsSummit.jsx > Testimonial"
+    },
+    "campaign.story-grid": {
+      "category": "CAMPAIGN",
+      "description": "Campaign customer story grid (carousel ≤799).",
+      "scope": "2 routes across best-never-guess campaign, aws summit campaign. The best-never-guess page carries its own StoryCard copy; AWS uses the shared one.",
+      "implementedBy": "pages/campaigns/bng/BestNeverGuessPage.jsx > Stories + local StoryCard | pages/company/AwsSummit.jsx > Stories (components/company/StoryCard.jsx)"
+    },
+    "campaign.team-switch": {
+      "category": "CAMPAIGN",
+      "description": "\"Trusted by the best. Built by us.\" team-switch slice.",
+      "scope": "2 routes across best-never-guess campaign, aws summit campaign. One original block, two separate implementations.",
+      "implementedBy": "pages/campaigns/bng/BestNeverGuessPage.jsx > TeamSwitch | pages/company/AwsSummit.jsx > TeamSwitch"
+    },
+    "campaign.careers-band": {
+      "category": "CAMPAIGN",
+      "description": "AWS Summit careers block (#careers-slice, black): \"Build with the best in Sydney…\" with open-role rows, entered through a pixel band.",
+      "scope": "1 routes, aws summit campaign only.",
+      "implementedBy": "pages/company/AwsSummit.jsx > Careers (components/company/RowList.jsx)"
+    },
+    "launch.shipped": {
+      "category": "LAUNCH",
+      "description": "\"A lot shipped / Here’s what’s new\" index of launch items.",
+      "scope": "1 routes, launch microsite only.",
+      "implementedBy": "pages/campaigns/launch/LaunchPage.jsx > Shipped"
+    },
+    "launch.agents": {
+      "category": "LAUNCH",
+      "description": "\"AI Agents — now available in GA\" section (#launch-agents).",
+      "scope": "1 routes, launch microsite only.",
+      "implementedBy": "pages/campaigns/launch/LaunchPage.jsx > Agents"
+    },
+    "launch.digital-twins": {
+      "category": "LAUNCH",
+      "description": "\"Build a digital twin of your customer\" persona section (#launch-digital-twins).",
+      "scope": "1 routes, launch microsite only.",
+      "implementedBy": "pages/campaigns/launch/DigitalTwins.jsx"
+    },
+    "launch.multiplayer": {
+      "category": "LAUNCH",
+      "description": "\"Multiplayer AI for human-agent collaboration\" with agent modal (#launch-multiplayer).",
+      "scope": "1 routes, launch microsite only.",
+      "implementedBy": "pages/campaigns/launch/Multiplayer.jsx"
+    },
+    "launch.channels": {
+      "category": "LAUNCH",
+      "description": "\"Channels 2.0\" section (#launch-channels).",
+      "scope": "1 routes, launch microsite only.",
+      "implementedBy": "pages/campaigns/launch/LaunchPage.jsx > Channels"
+    },
+    "launch.trends": {
+      "category": "LAUNCH",
+      "description": "\"Spot trends before problems arise\" feature section (#launch-trends).",
+      "scope": "1 routes, launch microsite only.",
+      "implementedBy": "pages/campaigns/launch/LaunchPage.jsx > ChannelsFeatures"
+    },
+    "launch.ecosystem": {
+      "category": "LAUNCH",
+      "description": "\"Ecosystem: customer intelligence, everywhere you work\" (#launch-ecosystem).",
+      "scope": "1 routes, launch microsite only.",
+      "implementedBy": "pages/campaigns/launch/LaunchPage.jsx > Ecosystem"
+    },
+    "launch.enterprise": {
+      "category": "LAUNCH",
+      "description": "\"Enterprise: built for the complexity of large organizations\" with the stacked enterprise cards (#launch-enterprise).",
+      "scope": "1 routes, launch microsite only.",
+      "implementedBy": "pages/campaigns/launch/LaunchPage.jsx > Enterprise (EnterpriseStack.jsx)"
+    },
+    "launch.one-way": {
+      "category": "LAUNCH",
+      "description": "\"One way to work, across every team\" (#launch-one-way).",
+      "scope": "1 routes, launch microsite only.",
+      "implementedBy": "pages/campaigns/launch/LaunchPage.jsx > OneWay"
+    },
+    "launch.protected": {
+      "category": "LAUNCH",
+      "description": "\"Protected by default\" (#launch-protected).",
+      "scope": "1 routes, launch microsite only.",
+      "implementedBy": "pages/campaigns/launch/LaunchPage.jsx > Protected"
+    },
+    "launch.closing-cta": {
+      "category": "LAUNCH",
+      "description": "Launch closing \"The best never guess\" block on blue (page-local, not FinalCta).",
+      "scope": "1 routes, launch microsite only.",
+      "implementedBy": "pages/campaigns/launch/LaunchPage.jsx > Cta"
+    },
+    "decor.pixel-band": {
+      "category": "DECOR",
+      "description": "Pixel transition band: three rows of 48px squares that scrub between #0A0A0A and the next block on scroll (≥1281 only), wrapping the block above or below it.",
+      "scope": "49 routes across product page, enterprise, aws summit campaign, customers index, customer story. Real reuse: the company PixelBand delegates to the marketing slice rather than copying it.",
+      "implementedBy": "components/marketing/PixelTransitionSlice.jsx (components/company/PixelBand.jsx is a thin wrapper)"
+    },
+    "overlay.twins-modal": {
+      "category": "OVERLAY",
+      "description": "Timed Digital Twins promo modal on the homepage.",
+      "scope": "1 routes, home only.",
+      "implementedBy": "components/TwinsModal.jsx"
+    },
+    "overlay.contents-sheet": {
+      "category": "OVERLAY",
+      "description": "Mobile \"Contents\" bottom sheet for the article table of contents (hidden on desktop).",
+      "scope": "1146 routes across enterprise article, guide article, guide hub, tools article, resources guide. The resources guides re-implement the sheet locally.",
+      "implementedBy": "pages/guides/components.jsx > ContentsSheet | pages/company/ResourcesGuide.jsx > ContentsDrawer"
+    }
+  },
+  "templates": [
+    {
+      "id": "template.home",
+      "name": "Home",
+      "routeCount": 1,
+      "routes": [
+        "/"
+      ],
+      "chrome": "dark · final-cta",
+      "renderedBy": "src/pages/Home.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.home",
+        "feature.context-layer",
+        "feature.raw-data",
+        "feature.prompt-topics",
+        "feature.self-improving-loop",
+        "feature.govern",
+        "proof.stories-marquee",
+        "cta.final-cta",
+        "chrome.footer",
+        "overlay.twins-modal"
+      ]
+    },
+    {
+      "id": "template.product",
+      "name": "Product page",
+      "routeCount": 7,
+      "routes": [
+        "/product/ai-agents/",
+        "/product/ai-channels/",
+        "/product/ai-chat/",
+        "/product/ai-dashboards/",
+        "/product/ai-docs/",
+        "/product/ai-projects/",
+        "/product/digital-twins/"
+      ],
+      "chrome": "accent-nav · final-cta",
+      "renderedBy": "src/pages/product/ProductPage.jsx (slice order from data/marketing/product__*.json)",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.product",
+        "proof.product-logo-marquee",
+        "feature.product-statement",
+        "feature.product-scroll-video",
+        "feature.product-features",
+        "feature.product-for",
+        "feature.product-voice-mode",
+        "feature.product-prompt-cards",
+        "proof.product-quote",
+        "feature.product-carousel",
+        "decor.pixel-band",
+        "feature.product-findings",
+        "proof.customer-stories-slice",
+        "help.faq",
+        "cta.final-cta",
+        "chrome.footer"
+      ],
+      "notes": [
+        "Union of seven compositions, each section listed once. Statement and scroll video: agents and Digital Twins only. Product-for: channels, dashboards, docs, projects. Voice mode: Digital Twins only. Prompt cards: agents, chat, Digital Twins. Findings: every page except agents and Digital Twins.",
+        "Digital Twins renders proof.product-quote twice (once before the features, once before the carousel) and its logo marquee carries a ratings row; it is the only product page without the alert bar.",
+        "decor.pixel-band appears twice per page: the bottom band wraps the carousel (agents, Digital Twins) or the findings block (the others); the top band wraps the FAQ."
+      ]
+    },
+    {
+      "id": "template.pricing",
+      "name": "Pricing",
+      "routeCount": 1,
+      "routes": [
+        "/pricing/"
+      ],
+      "chrome": "dark · final-cta",
+      "renderedBy": "src/pages/corporate/Pricing.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.pricing",
+        "conversion.plan-cards",
+        "proof.logo-strip",
+        "conversion.pricing-comparison-table",
+        "help.faq",
+        "cta.final-cta",
+        "chrome.footer"
+      ]
+    },
+    {
+      "id": "template.enterprise",
+      "name": "Enterprise",
+      "routeCount": 1,
+      "routes": [
+        "/enterprise/"
+      ],
+      "chrome": "dark · final-cta",
+      "renderedBy": "src/pages/corporate/Enterprise.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.enterprise",
+        "proof.logo-strip",
+        "feature.enterprise-vertical-tabs",
+        "feature.enterprise-roi-map",
+        "feature.enterprise-integrations",
+        "proof.testimonial",
+        "decor.pixel-band",
+        "feature.security-compliance",
+        "proof.customer-stories-slice",
+        "listing.enterprise-resources",
+        "cta.final-cta",
+        "chrome.footer"
+      ],
+      "notes": [
+        "decor.pixel-band appears twice: the bottom band wraps the security grid, the top band wraps the resources."
+      ]
+    },
+    {
+      "id": "template.enterprise-article",
+      "name": "Enterprise article",
+      "routeCount": 3,
+      "routes": [
+        "/enterprise/how-leading-organizations-use-dovetail/",
+        "/enterprise/research-tool-stack-integration/",
+        "/enterprise/why-leading-teams-choose-dovetail/"
+      ],
+      "chrome": "light · footer-only",
+      "renderedBy": "src/pages/corporate/EnterpriseArticle.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "content.article-title",
+        "content.article-body",
+        "content.article-carousels",
+        "overlay.contents-sheet",
+        "cta.feedback-cta",
+        "chrome.footer"
+      ],
+      "notes": [
+        "Same layout and guides components as the guide article, but renders its own light feedback CTA inside main and uses the link-grid-only light footer."
+      ]
+    },
+    {
+      "id": "template.deploy",
+      "name": "Deploy",
+      "routeCount": 1,
+      "routes": [
+        "/deploy/"
+      ],
+      "chrome": "dark · footer-only",
+      "renderedBy": "src/pages/corporate/Deploy.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.deploy",
+        "proof.logo-strip",
+        "content.deploy-intro",
+        "feature.deploy-problems",
+        "feature.deploy-why",
+        "feature.security-compliance",
+        "conversion.deploy-scoping-form",
+        "help.faq",
+        "cta.feedback-cta",
+        "chrome.footer"
+      ],
+      "notes": [
+        "The closing CTA uses the page heading \"Deployed by the team that builds it.\" and one scoping-call button."
+      ]
+    },
+    {
+      "id": "template.solutions",
+      "name": "Solution page",
+      "routeCount": 4,
+      "routes": [
+        "/solutions/healthcare/",
+        "/solutions/product-research/",
+        "/solutions/research-repository/",
+        "/solutions/voice-of-customer/"
+      ],
+      "chrome": "dark · cta-band",
+      "renderedBy": "src/pages/roles/SolutionPage.jsx (slice order from data/marketing/solutions__*.json)",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.solution",
+        "proof.logo-strip",
+        "feature.solution-section",
+        "feature.solution-features",
+        "proof.testimonial",
+        "conversion.trial-offer",
+        "help.faq",
+        "chrome.footer-cta-band",
+        "chrome.footer"
+      ],
+      "notes": [
+        "feature.solution-section repeats per page (four to seven rows). Solution-features: voice-of-customer only. Testimonial: every page except healthcare."
+      ]
+    },
+    {
+      "id": "template.roles",
+      "name": "Role page",
+      "routeCount": 6,
+      "routes": [
+        "/roles/customer-experience/",
+        "/roles/design/",
+        "/roles/marketing/",
+        "/roles/product-management/",
+        "/roles/research/",
+        "/roles/sales-and-cs/"
+      ],
+      "chrome": "dark · footer-only",
+      "renderedBy": "src/pages/roles/RolePage.jsx (slice order from data/marketing/roles__*.json)",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.role",
+        "feature.role-challenge",
+        "feature.role-helps",
+        "feature.role-prioritization",
+        "feature.role-integrations",
+        "feature.role-use-case-tabs",
+        "proof.testimonial",
+        "proof.role-story-cards",
+        "conversion.role-quiz-promo",
+        "help.faq",
+        "chrome.footer"
+      ],
+      "notes": [
+        "Prioritization: product-management only. Quiz promo: design, product-management and research only.",
+        "No final CTA in the clone; marketing-shared.md §6 says roles use footer variant A (final CTA)."
+      ]
+    },
+    {
+      "id": "template.role-quiz",
+      "name": "Role quiz",
+      "routeCount": 3,
+      "routes": [
+        "/roles/research/quiz/",
+        "/roles/product-management/quiz/",
+        "/roles/design/quiz/"
+      ],
+      "chrome": "dark · footer-only",
+      "renderedBy": "src/pages/roles/QuizPage.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "tool.role-quiz",
+        "cta.feedback-cta",
+        "chrome.footer"
+      ],
+      "notes": [
+        "cta.feedback-cta renders only on the result screen.",
+        "No final CTA in the clone; quiz.md and tools-shared.md §J say role quizzes end with it."
+      ]
+    },
+    {
+      "id": "template.menu",
+      "name": "Menu",
+      "routeCount": 1,
+      "routes": [
+        "/menu/"
+      ],
+      "chrome": "menu · no nav · footer-only",
+      "renderedBy": "src/pages/corporate/Menu.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.menu-header",
+        "chrome.footer"
+      ],
+      "notes": [
+        "Not in src/data/routes.txt; the nav \"Menu\" pill links here, so the clone serves it and it is counted."
+      ]
+    },
+    {
+      "id": "template.launch",
+      "name": "Launch microsite",
+      "routeCount": 1,
+      "routes": [
+        "/launch/suns-out/"
+      ],
+      "chrome": "launch · nav, no banner, own footer",
+      "renderedBy": "src/pages/campaigns/launch/LaunchPage.jsx",
+      "sections": [
+        "chrome.navbar",
+        "chrome.launch-section-nav",
+        "hero.launch",
+        "launch.shipped",
+        "launch.agents",
+        "launch.digital-twins",
+        "launch.multiplayer",
+        "launch.channels",
+        "launch.trends",
+        "launch.ecosystem",
+        "launch.enterprise",
+        "launch.one-way",
+        "launch.protected",
+        "launch.closing-cta",
+        "chrome.launch-footer"
+      ]
+    },
+    {
+      "id": "template.best-never-guess",
+      "name": "Best-never-guess campaign",
+      "routeCount": 1,
+      "routes": [
+        "/the-best-never-guess/"
+      ],
+      "chrome": "campaign · own nav + footer",
+      "renderedBy": "src/pages/campaigns/bng/BestNeverGuessPage.jsx",
+      "sections": [
+        "chrome.campaign-nav",
+        "hero.campaign",
+        "campaign.text-slice",
+        "campaign.testimonial",
+        "campaign.story-grid",
+        "campaign.team-switch",
+        "conversion.campaign-trial-form",
+        "chrome.campaign-footer"
+      ]
+    },
+    {
+      "id": "template.aws-summit",
+      "name": "AWS Summit campaign",
+      "routeCount": 1,
+      "routes": [
+        "/aws-summit-sydney-2026/"
+      ],
+      "chrome": "campaign · own nav + footer",
+      "renderedBy": "src/pages/company/AwsSummit.jsx",
+      "sections": [
+        "chrome.campaign-nav",
+        "hero.campaign",
+        "campaign.text-slice",
+        "campaign.testimonial",
+        "campaign.story-grid",
+        "campaign.team-switch",
+        "conversion.campaign-trial-form",
+        "decor.pixel-band",
+        "campaign.careers-band",
+        "chrome.campaign-footer"
+      ],
+      "notes": [
+        "Same block sequence as the best-never-guess page plus the careers block; every shared block is implemented a second time in AwsSummit.jsx.",
+        "A \"Skip to content\" link precedes main."
+      ]
+    },
+    {
+      "id": "template.blog-index",
+      "name": "Blog index",
+      "routeCount": 6,
+      "routes": [
+        "/blog/",
+        "/blog/ai/",
+        "/blog/dovetail-team/",
+        "/blog/engineering/",
+        "/blog/product/",
+        "/blog/ideas/"
+      ],
+      "chrome": "dark · final-cta",
+      "renderedBy": "src/pages/blog/BlogIndex.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "listing.blog-featured-header",
+        "listing.blog-card-grid",
+        "cta.final-cta",
+        "chrome.footer"
+      ],
+      "notes": [
+        "/blog/ plus the five tag pages; the tag routes set the active pill and filter the grid."
+      ]
+    },
+    {
+      "id": "template.blog-post",
+      "name": "Blog post",
+      "routeCount": 202,
+      "routePattern": "/blog/{slug}/",
+      "routes": [
+        "/blog/stakeholder-trust-design-decisions/",
+        "/blog/customer-understanding-ai-bottleneck-digital-twins/",
+        "/blog/9-digital-twins-you-can-build-today/",
+        "/blog/unlocking-the-product-brain-with-ordermentums-cpo/",
+        "/blog/the-work-you-dont-see/"
+      ],
+      "routesTruncated": true,
+      "chrome": "dark · final-cta",
+      "renderedBy": "src/pages/blog/BlogPost.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.blog-post",
+        "content.blog-post-body",
+        "cta.final-cta",
+        "chrome.footer"
+      ],
+      "notes": [
+        "Every /blog/<slug>/ except the five tag slugs."
+      ]
+    },
+    {
+      "id": "template.changelog-index",
+      "name": "Changelog index",
+      "routeCount": 7,
+      "routes": [
+        "/changelog/",
+        "/changelog/category/ai/",
+        "/changelog/category/agents/",
+        "/changelog/category/channels/",
+        "/changelog/category/projects/",
+        "/changelog/category/integrations/",
+        "/changelog/category/admin-and-security/"
+      ],
+      "chrome": "dark · inline-cta",
+      "renderedBy": "src/pages/changelog/ChangelogIndex.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.changelog-index",
+        "listing.changelog-rows",
+        "cta.feedback-cta",
+        "chrome.footer"
+      ],
+      "notes": [
+        "/changelog/ plus six /changelog/category/<cat>/ routes.",
+        "cta.feedback-cta renders once, from pages/changelog/InlineCta.jsx inside main; the page uses the `default` (links-only) footer. It was previously drawn a second time by the `plain` footer; fixed 2026-10-26."
+      ]
+    },
+    {
+      "id": "template.changelog-entry",
+      "name": "Changelog entry",
+      "routeCount": 349,
+      "routePattern": "/changelog/{slug}/",
+      "routes": [
+        "/changelog/channels-2-generally-available/",
+        "/changelog/activity-log-in-channels/",
+        "/changelog/default-contact-fields/",
+        "/changelog/side-by-side-chat/",
+        "/changelog/snapshot-summary-in-channels/"
+      ],
+      "routesTruncated": true,
+      "chrome": "dark · final-cta",
+      "renderedBy": "src/pages/changelog/ChangelogEntry.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "content.changelog-entry",
+        "cta.final-cta",
+        "chrome.footer"
+      ]
+    },
+    {
+      "id": "template.guide-article",
+      "name": "Guide article",
+      "routeCount": 1126,
+      "routePattern": "/{hub}/{slug}/ and /guides/{slug}/",
+      "routes": [
+        "/customer-research/actionable-feedback/",
+        "/customer-research/actionable-insights/",
+        "/customer-research/ai-customer-experience/",
+        "/customer-research/analyze-app-store-reviews-with-interview-transcripts/",
+        "/customer-research/are-digital-twins-reliable/"
+      ],
+      "routesTruncated": true,
+      "chrome": "light · inline-cta",
+      "renderedBy": "src/pages/guides/GuideArticle.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "content.article-title",
+        "content.article-body",
+        "content.article-carousels",
+        "overlay.contents-sheet",
+        "cta.feedback-cta",
+        "chrome.footer"
+      ],
+      "notes": [
+        "Hubs: research, ux, product-development, employee-experience, customer-research, market-research, patient-experience, surveys, product-management, design-thinking; the three /guides/<slug>/ articles use the guides sidebar CTA and a two-level breadcrumb."
+      ]
+    },
+    {
+      "id": "template.guide-hub",
+      "name": "Guide hub",
+      "routeCount": 10,
+      "routes": [
+        "/customer-research/",
+        "/design-thinking/",
+        "/employee-experience/",
+        "/market-research/",
+        "/patient-experience/",
+        "/product-development/",
+        "/product-management/",
+        "/research/",
+        "/surveys/",
+        "/ux/"
+      ],
+      "chrome": "light · inline-cta",
+      "renderedBy": "src/pages/guides/GuideArticle.jsx (isHub)",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "content.article-title",
+        "content.article-body",
+        "content.article-carousels",
+        "overlay.contents-sheet",
+        "cta.feedback-cta",
+        "chrome.footer",
+        "listing.hub-article-index"
+      ],
+      "notes": [
+        "The hub pillar article has no sidebar promo or desktop TOC; the A-Z index sits after the footer."
+      ]
+    },
+    {
+      "id": "template.guides-index",
+      "name": "Guides index",
+      "routeCount": 1,
+      "routes": [
+        "/guides/"
+      ],
+      "chrome": "dark · final-cta",
+      "renderedBy": "src/pages/guides/GuidesIndex.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.guides-index",
+        "proof.tei-card",
+        "listing.guides-topics",
+        "cta.final-cta",
+        "chrome.footer"
+      ]
+    },
+    {
+      "id": "template.contributors-index",
+      "name": "Contributors index",
+      "routeCount": 1,
+      "routes": [
+        "/contributors/"
+      ],
+      "chrome": "light · final-cta",
+      "renderedBy": "src/pages/guides/Contributors.jsx > ContributorsIndex",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.contributors-index",
+        "listing.contributors-groups",
+        "content.editorial-process",
+        "cta.final-cta",
+        "chrome.footer"
+      ]
+    },
+    {
+      "id": "template.contributor-profile",
+      "name": "Contributor profile",
+      "routeCount": 20,
+      "routePattern": "/contributors/{slug}/",
+      "routes": [
+        "/contributors/brittany-ferri/",
+        "/contributors/cathy-heath/",
+        "/contributors/chloe-garnham/",
+        "/contributors/claire-bonneau/",
+        "/contributors/claudia-natasia/"
+      ],
+      "routesTruncated": true,
+      "chrome": "light · final-cta",
+      "renderedBy": "src/pages/guides/Contributors.jsx > ContributorProfile",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.contributor-profile",
+        "content.contributor-skills",
+        "content.editorial-process",
+        "listing.contributor-articles",
+        "cta.final-cta",
+        "chrome.footer"
+      ]
+    },
+    {
+      "id": "template.demo-form",
+      "name": "Demo form",
+      "routeCount": 2,
+      "routes": [
+        "/contact-sales/",
+        "/request-a-demo/"
+      ],
+      "chrome": "dark · final-cta",
+      "renderedBy": "src/pages/tools/DemoForm.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.demo-form",
+        "proof.logo-strip",
+        "proof.forrester-tei-stats",
+        "feature.demo-features",
+        "proof.testimonial",
+        "cta.final-cta",
+        "chrome.footer"
+      ]
+    },
+    {
+      "id": "template.comparison",
+      "name": "Comparison page",
+      "routeCount": 16,
+      "routePattern": "/dovetail-vs-{competitor}/",
+      "routes": [
+        "/dovetail-vs-aurelius/",
+        "/dovetail-vs-chattermill/",
+        "/dovetail-vs-condens/",
+        "/dovetail-vs-enterpret/",
+        "/dovetail-vs-great-question/"
+      ],
+      "routesTruncated": true,
+      "chrome": "dark · footer-only",
+      "renderedBy": "src/pages/legal/ComparisonPage.jsx (slice order from data/tools/dovetail-vs-*.json)",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.comparison",
+        "hero.comparison-image",
+        "proof.logo-strip",
+        "content.comparison-intro",
+        "proof.comparison-tei-card",
+        "proof.testimonial",
+        "feature.comparison-choose-grid",
+        "content.comparison-table",
+        "proof.awards-marquee",
+        "proof.comparison-customer-story",
+        "conversion.comparison-migrate",
+        "conversion.trial-offer",
+        "help.faq",
+        "chrome.footer"
+      ],
+      "notes": [
+        "Testimonial: twelve of the pages (absent on chattermill, enterpret, qualtrics, thematic); marvin renders a second testimonial after the awards marquee. Customer story row: condens, looppanel, maze, notably."
+      ]
+    },
+    {
+      "id": "template.quiz-hub",
+      "name": "Quiz hub",
+      "routeCount": 1,
+      "routes": [
+        "/quiz/"
+      ],
+      "chrome": "dark · footer-only",
+      "renderedBy": "src/pages/tools/QuizHub.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.quiz-hub",
+        "cta.feedback-cta",
+        "chrome.footer"
+      ]
+    },
+    {
+      "id": "template.roi-calculator",
+      "name": "ROI calculator",
+      "routeCount": 1,
+      "routes": [
+        "/roi-calculator/"
+      ],
+      "chrome": "dark · footer-only",
+      "renderedBy": "src/pages/tools/RoiCalculator.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.roi-calculator",
+        "tool.roi-calculator",
+        "conversion.roi-report-download",
+        "cta.feedback-cta",
+        "chrome.footer"
+      ]
+    },
+    {
+      "id": "template.template-landing",
+      "name": "Template landing",
+      "routeCount": 3,
+      "routes": [
+        "/research-report-template/",
+        "/user-persona-template/",
+        "/ux-research-plan-template/"
+      ],
+      "chrome": "dark · footer-only",
+      "renderedBy": "src/pages/tools/TemplateLanding.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.template-landing",
+        "proof.logo-strip",
+        "content.template-intro",
+        "feature.template-split",
+        "feature.template-checklist",
+        "help.faq",
+        "chrome.footer"
+      ],
+      "notes": [
+        "feature.template-split repeats three times (image right, left, right)."
+      ]
+    },
+    {
+      "id": "template.tools-article",
+      "name": "Tools article",
+      "routeCount": 5,
+      "routes": [
+        "/resources/dovetail-vs-aurelius/",
+        "/resources/dovetail-vs-enterpret/",
+        "/resources/dovetail-vs-marvin/",
+        "/resources/dovetail-vs-qualtrics/",
+        "/research-maturity-assessment/"
+      ],
+      "chrome": "light · inline-cta",
+      "renderedBy": "src/pages/legal/ToolsArticle.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "content.article-title",
+        "content.article-body",
+        "overlay.contents-sheet",
+        "cta.feedback-cta",
+        "chrome.footer"
+      ],
+      "notes": [
+        "/research-maturity-assessment/ plus the four /resources/dovetail-vs-{aurelius,enterpret,marvin,qualtrics}/ routes. No editor's-picks carousels; the banner is forced dark on the light page.",
+        "company-routes.md maps the four /resources/dovetail-vs-* routes to resources-guide; tools-routes.md and src/pages/legal/routes.jsx map them here, and the clone renders ToolsArticle."
+      ]
+    },
+    {
+      "id": "template.legal-index",
+      "name": "Legal index",
+      "routeCount": 1,
+      "routes": [
+        "/legal/"
+      ],
+      "chrome": "light-legal · final-cta",
+      "renderedBy": "src/pages/legal/LegalIndex.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "listing.legal-index",
+        "cta.final-cta",
+        "chrome.footer"
+      ]
+    },
+    {
+      "id": "template.legal-doc",
+      "name": "Legal document",
+      "routeCount": 19,
+      "routePattern": "/legal/{doc}/ and /privacy/{doc}/",
+      "routes": [
+        "/legal/acceptable-use-policy/",
+        "/legal/accessibility-statement/",
+        "/legal/ai-features/",
+        "/legal/ai-models/",
+        "/legal/anti-bribery-and-anti-corruption-statement/"
+      ],
+      "routesTruncated": true,
+      "chrome": "light-legal · final-cta",
+      "renderedBy": "src/pages/legal/LegalDoc.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "content.legal-title",
+        "content.legal-doc-body",
+        "cta.final-cta",
+        "chrome.footer"
+      ],
+      "notes": [
+        "Nav hides Log in / Book a demo on these pages."
+      ]
+    },
+    {
+      "id": "template.not-found",
+      "name": "Not found (404)",
+      "routeCount": 0,
+      "routes": [
+        "*"
+      ],
+      "chrome": "dark · final-cta",
+      "renderedBy": "src/pages/tools/NotFound.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.not-found",
+        "cta.final-cta",
+        "chrome.footer"
+      ],
+      "notes": [
+        "Catch-all for unmatched paths. No route in routes.txt resolves here, so it carries no routes; the dev server answers with status OK, not a not-found status."
+      ]
+    },
+    {
+      "id": "template.customers-index",
+      "name": "Customers index",
+      "routeCount": 1,
+      "routes": [
+        "/customers/"
+      ],
+      "chrome": "dark · final-cta",
+      "renderedBy": "src/pages/customers/CustomersIndex.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.customers-index",
+        "listing.customer-story-grid",
+        "proof.logo-wall",
+        "decor.pixel-band",
+        "proof.customer-story-carousel",
+        "proof.ratings-awards",
+        "proof.testimonial-wall",
+        "cta.final-cta",
+        "chrome.footer"
+      ],
+      "notes": [
+        "decor.pixel-band appears twice, either side of the blue story carousel."
+      ]
+    },
+    {
+      "id": "template.customer-story",
+      "name": "Customer story",
+      "routeCount": 39,
+      "routePattern": "/customers/{slug}/",
+      "routes": [
+        "/customers/achievers/",
+        "/customers/atlassian/",
+        "/customers/atlassian-design/",
+        "/customers/aws/",
+        "/customers/bower/"
+      ],
+      "routesTruncated": true,
+      "chrome": "accent-nav · final-cta",
+      "renderedBy": "src/pages/customers/CustomerStory.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.customer-story",
+        "decor.pixel-band",
+        "content.customer-story-body",
+        "cta.story-best-never-guess",
+        "help.faq",
+        "cta.final-cta",
+        "chrome.footer"
+      ],
+      "notes": [
+        "help.faq: the anonymous stories only (global-*, iconic-*, leading-*, major-*, modern-*, flagship-*, fleet-*). Video heroes on atlassian, atlassian-design, breville, canva, canva-ai, safetyculture, smartrecruiters.",
+        "Two \"The best never guess\" blocks stack at the bottom: the story block (with related stories) and the site final CTA; the spec lists both."
+      ]
+    },
+    {
+      "id": "template.events-index",
+      "name": "Events / webinars index",
+      "routeCount": 2,
+      "routes": [
+        "/events/",
+        "/webinars/"
+      ],
+      "chrome": "dark · final-cta",
+      "renderedBy": "src/pages/events/EventsIndex.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.events-index",
+        "listing.upcoming-events",
+        "listing.past-events",
+        "cta.feedback-cta",
+        "cta.final-cta",
+        "chrome.footer"
+      ],
+      "notes": [
+        "/events/ ends with cta.final-cta; /webinars/ ends with cta.feedback-cta and the footer only."
+      ]
+    },
+    {
+      "id": "template.event-detail",
+      "name": "Event detail",
+      "routeCount": 47,
+      "routePattern": "/events/{slug}/",
+      "routes": [
+        "/events/a-balancing-act-mastering-customer-feedback/",
+        "/events/a-chat-with-jon-alferness/",
+        "/events/ai-powered-ux-process-how-ai-is-transforming-the-design-process/",
+        "/events/channels-by-dovetail-a-deep-dive-into-automating-your-feedback-workflows/",
+        "/events/config-watch-party-sydney/"
+      ],
+      "routesTruncated": true,
+      "chrome": "dark · final-cta",
+      "renderedBy": "src/pages/events/EventDetail.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "content.event-detail",
+        "listing.more-events",
+        "help.faq",
+        "cta.final-cta",
+        "chrome.footer"
+      ],
+      "notes": [
+        "help.faq (grouped Q&A) only on suns-out-product-deep-dive; recordings show a video hero; registration form only where the data has one."
+      ]
+    },
+    {
+      "id": "template.live-demos",
+      "name": "Live demos",
+      "routeCount": 1,
+      "routes": [
+        "/live-demos/"
+      ],
+      "chrome": "dark · final-cta",
+      "renderedBy": "src/pages/events/LiveDemos.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.live-demos",
+        "listing.demo-video-grid",
+        "cta.final-cta",
+        "chrome.footer"
+      ]
+    },
+    {
+      "id": "template.resources-index",
+      "name": "Resource centre",
+      "routeCount": 1,
+      "routes": [
+        "/resources/"
+      ],
+      "chrome": "dark · footer-only",
+      "renderedBy": "src/pages/company/ResourcesIndex.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.resources-index",
+        "listing.resource-link-list",
+        "proof.tei-card",
+        "conversion.roi-card",
+        "listing.resources-blog-row",
+        "listing.resources-demo-row",
+        "cta.feedback-cta",
+        "chrome.footer"
+      ],
+      "notes": [
+        "listing.resource-link-list renders three times: topics before the TEI card, then compare and customer stories after the ROI card."
+      ]
+    },
+    {
+      "id": "template.resources-guide",
+      "name": "Resources guide",
+      "routeCount": 2,
+      "routes": [
+        "/resources/dovetail-review/",
+        "/resources/insight7-alternatives/"
+      ],
+      "chrome": "light · footer-only",
+      "renderedBy": "src/pages/company/ResourcesGuide.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "content.article-title",
+        "content.article-body",
+        "content.related-articles-carousel",
+        "cta.feedback-cta",
+        "overlay.contents-sheet",
+        "chrome.footer"
+      ]
+    },
+    {
+      "id": "template.resources-report",
+      "name": "Industry report",
+      "routeCount": 1,
+      "routes": [
+        "/resources/industry-reports/2025-forrester-TEI-of-Dovetail/"
+      ],
+      "chrome": "dark · footer-only",
+      "renderedBy": "src/pages/company/ResourcesReport.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.report-download",
+        "proof.logo-strip",
+        "cta.feedback-cta",
+        "chrome.footer"
+      ]
+    },
+    {
+      "id": "template.careers",
+      "name": "Careers",
+      "routeCount": 1,
+      "routes": [
+        "/careers/"
+      ],
+      "chrome": "dark · cta-band",
+      "renderedBy": "src/pages/company/Careers.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.careers",
+        "feature.careers-globe",
+        "listing.open-positions",
+        "content.careers-people",
+        "feature.careers-benefits",
+        "content.careers-gallery",
+        "content.careers-values",
+        "content.careers-hiring",
+        "help.faq",
+        "chrome.footer-cta-band",
+        "chrome.footer"
+      ]
+    },
+    {
+      "id": "template.podcast",
+      "name": "Podcast",
+      "routeCount": 1,
+      "routes": [
+        "/b2bsaasy/"
+      ],
+      "chrome": "dark · footer-only",
+      "renderedBy": "src/pages/company/Podcast.jsx",
+      "sections": [
+        "chrome.banner",
+        "chrome.navbar",
+        "hero.podcast",
+        "help.faq",
+        "cta.feedback-cta",
+        "chrome.footer"
+      ]
+    }
+  ]
+}

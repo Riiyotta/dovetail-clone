@@ -1,0 +1,14 @@
+{
+ "id": "image",
+ "kind": "primitive",
+ "title": "Image",
+ "variants": {
+  "rounded": "radius 8, object-fit cover"
+ },
+ "tokens": [
+  "radius.default"
+ ],
+ "evidence": [
+  "CLONE_SPEC.md:135"
+ ]
+}

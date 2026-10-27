@@ -1,0 +1,14 @@
+/* specs/menu.md (e1tmyrcp0, e1ndvfkf0) */
+.mn-header { padding: 0 64px; align-items: center; display: flex; height: 88px; justify-content: space-between; }
+@media (max-width: 799px) { .mn-header { padding: 0 16px; } }
+.mn-logo { display: flex; justify-content: center; align-items: center; flex-shrink: 0; padding: 10px 11px; border: 1px solid transparent;
+  border-radius: 8px; background: transparent; color: #FFFFFF; transition: 300ms; }
+.mn-logo:hover { background: transparent; }
+.mn-logo:focus-visible { outline: #FFFFFF solid 1px; outline-offset: 1px; }
+.mn-logo__mark { width: 21.6px; height: 24px; }
+/* navPrimary button: 72x38 measured at 390 (14/16) */
+.mn-close { display: inline-flex; align-items: center; justify-content: center; border: 1px solid transparent; border-radius: 8px;
+  padding: 10px 16px; background: #FFFFFF; color: #0A0A0A; font-size: 14px; line-height: 18px; font-weight: 500; white-space: nowrap;
+  transition: all 300ms; }
+.mn-close:hover, .mn-close:focus-visible { background: #CECECE; }
+@media (max-width: 1280px) { .mn-close { line-height: 16px; } }

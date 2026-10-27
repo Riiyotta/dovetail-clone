@@ -1,0 +1,813 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T21",
+ "route": "/customer-research/actionable-feedback/",
+ "theme": "light",
+ "chrome": {
+  "banner": "light",
+  "nav": "light",
+  "footer": "light"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail clone (local)"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "light",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "light",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "article.header",
+   "variant": "light",
+   "content": {
+    "heading": "3 ways to get more actionable feedback from your customers",
+    "actions": [
+     {
+      "label": "GUIDES",
+      "href": "/guides/"
+     },
+     {
+      "label": "CUSTOMER RESEARCH",
+      "href": "/customer-research/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.byline",
+   "variant": "default",
+   "content": {
+    "heading": "Share",
+    "actions": [
+     {
+      "label": "DOVETAIL EDITORIAL TEAM",
+      "href": "/contributors/dovetail-editorial-team/"
+     },
+     {
+      "label": "JEAN KALUZA",
+      "href": "/contributors/jean-kaluza/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.sidebar-card",
+   "variant": "default",
+   "content": {
+    "heading": "Transcribe and analyze your research",
+    "lead": "Upload videos and audio to Dovetail, then analyze interactive transcripts to uncover insights.",
+    "actions": [
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "sticky.pin",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.contents-nav",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Overview",
+      "href": "#"
+     },
+     {
+      "label": "Key concepts",
+      "href": "#"
+     },
+     {
+      "label": "Why it matters",
+      "href": "#"
+     },
+     {
+      "label": "Getting started",
+      "href": "#"
+     },
+     {
+      "label": "Common approaches",
+      "href": "#"
+     },
+     {
+      "label": "Define the goal",
+      "href": "#"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "scroll.spy",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Overview",
+    "body": [
+     {
+      "kind": "paragraph",
+      "text": "Keep the audience in mind throughout. Teams often begin by agreeing on the question they want to answer and the decision it will inform. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Start small and adjust as you go. Keep the audience in mind throughout. This section is placeholder copy that stands in for the original article text. A short planning step helps everyone understand the."
+     },
+     {
+      "kind": "heading",
+      "text": "Overview"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Teams often begin by agreeing on the question they want to answer and the decision it will inform. A short planning step helps everyone understand the scope, the timeline and who needs to be involved."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Mixing a few complementary methods usually gives a more balanced picture than relying on one. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "A simple checklist can keep the process consistent from one round to the next. Over time, a shared library of past work saves effort and avoids repeating the same study."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Key concepts",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Key concepts"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Keeping the language plain helps readers focus on what matters most. Responsibilities are clearer when each step has a named owner. Good documentation lets new team members pick up."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Short sessions with a focused agenda tend to produce more usable notes. Start small and adjust as you go. Review the results together as a team. Keep the audience in mind throughout."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Each approach has trade-offs, so the right choice depends on the goal, the budget and the time available. Writing down the reasoning behind a decision makes."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Why it matters",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Why it matters"
+     },
+     {
+      "kind": "paragraph",
+      "text": "This section is placeholder copy that stands in for the original article text. A short planning step helps everyone understand the scope, the timeline and who needs to be involved."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Not every finding needs action, but every finding deserves a clear status. Good documentation lets new team members pick up the work without starting over. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Responsibilities are clearer when each step has a named owner. Good documentation lets new team members pick up the work without starting over. Short sessions with a focused agenda tend to produce."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Revisiting the original goal at the end is a useful way to check whether it was met. This section is placeholder copy that stands in for the original article text."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Getting started",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Getting started"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Outcomes are easier to judge when there is a baseline to compare against. Over time, a shared library of past work saves effort and avoids repeating the same study."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Writing down the reasoning behind a decision makes it easier to revisit later. Mixing a few complementary methods usually gives a more balanced picture than relying on one. Sharing progress openly invites useful questions."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Visual summaries can help when the audience has limited time. Start small and adjust as you go. Context matters here."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Common approaches",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Common approaches"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Clear summaries make it simpler for colleagues outside the project to act on the findings. Keeping the language plain helps readers focus on what matters most."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Over time, a shared library of past work saves effort and avoids repeating the same study. The examples below are illustrative and should be adapted to your own context. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "A short planning step helps everyone understand the scope, the timeline and who needs to be involved. Small, regular reviews tend to surface patterns sooner than one large review at the end. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Small, regular reviews tend to surface patterns sooner than one large review at the end. Clear summaries make it simpler for colleagues outside the project to act on the findings. Start small and adjust as you go."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Define the goal"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Not every finding needs action, but every finding deserves a clear status. Outcomes are easier to judge when there is a baseline to compare against."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Not every finding needs action, but every finding deserves a clear status. This section is placeholder copy that stands in for the original article text."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Revisiting the original goal at the end is a useful way to check whether it was met. Good documentation lets new team members pick up the work without starting over."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Choose a method"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Mixing a few complementary methods usually gives a more balanced picture than relying on one. Sharing progress openly invites useful questions before the work is finished."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Review the results together as a team. Keep the audience in mind throughout. This section is placeholder copy that stands in for the original article text. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Start small and adjust as you go. Review the results together as a team. Keep the audience in mind throughout. This is placeholder text. Notes gathered along the way are easier to compare when they follow a consistent structure."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Good documentation lets new team members pick up the work without starting over. Visual summaries can help when the audience has."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Gather inputs"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Keeping the language plain helps readers focus on what matters most. Revisiting the original goal at the end is a useful way to check whether it was met."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Feedback from a pilot run often highlights steps that need to be clarified. Keeping the language plain helps readers focus on what matters most. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Short sessions with a focused agenda tend to produce more usable notes. Start small and adjust as you go. Start small and adjust as you go."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Planning the work",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Planning the work"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Notes gathered along the way are easier to compare when they follow a consistent structure. Review the results together as a team."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Writing down the reasoning behind a decision makes it easier to revisit later. A simple checklist can keep the process consistent from one round to the next. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Visual summaries can help when the audience has limited time. Where possible, combine numbers with quotes so."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Outcomes are easier to judge when there is a baseline to compare against. Feedback from a pilot run often highlights steps that need to be clarified. Responsibilities are clearer when each step has a named owner."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Review the evidence"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Good documentation lets new team members pick up the work without starting over. Visual summaries can help when the audience has limited time. Context matters here."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Keep the audience in mind throughout. This section is placeholder copy that stands in for the original article text. Teams often begin by agreeing on the question they want to answer and the decision it will inform."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Clear summaries make it simpler for colleagues outside the project to act on the findings. Keeping the language plain helps readers focus on what matters most."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Share what you learn"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Context matters here. Review the results together as a team. This section is placeholder copy that stands in for the original article text. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "This section is placeholder copy that stands in for the original article text. Teams often begin by agreeing on the question they want to answer and the decision it will inform. Start small and adjust as you go."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Outcomes are easier to judge when there is a baseline to compare against. Feedback from a pilot run often highlights steps that need to be clarified. Responsibilities are clearer when each step has."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Start small and adjust as you go. Context matters here. Review the results together as a team. This section is placeholder copy that stands in for the original article text. Context matters here."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.related-topics",
+   "variant": "default",
+   "content": {
+    "heading": "RELATED TOPICS",
+    "actions": [
+     {
+      "label": "[CUSTOMER RESEARCH]",
+      "href": "/customer-research/"
+     },
+     {
+      "label": "[DESIGN THINKING]",
+      "href": "/design-thinking/"
+     },
+     {
+      "label": "[EMPLOYEE EXPERIENCE]",
+      "href": "/employee-experience/"
+     },
+     {
+      "label": "[ENTERPRISE]",
+      "href": "/enterprise/"
+     },
+     {
+      "label": "[MARKET RESEARCH]",
+      "href": "/market-research/"
+     },
+     {
+      "label": "[PATIENT EXPERIENCE]",
+      "href": "/patient-experience/"
+     }
+    ],
+    "items": [
+     {
+      "title": "[CUSTOMER RESEARCH]",
+      "href": "/customer-research/"
+     },
+     {
+      "title": "[DESIGN THINKING]",
+      "href": "/design-thinking/"
+     },
+     {
+      "title": "[EMPLOYEE EXPERIENCE]",
+      "href": "/employee-experience/"
+     },
+     {
+      "title": "[ENTERPRISE]",
+      "href": "/enterprise/"
+     },
+     {
+      "title": "[MARKET RESEARCH]",
+      "href": "/market-research/"
+     },
+     {
+      "title": "[PATIENT EXPERIENCE]",
+      "href": "/patient-experience/"
+     },
+     {
+      "title": "[PRODUCT DEVELOPMENT]",
+      "href": "/product-development/"
+     },
+     {
+      "title": "[PRODUCT MANAGEMENT]",
+      "href": "/product-management/"
+     },
+     {
+      "title": "[RESEARCH MATURITY ASSESSMENT]",
+      "href": "/research-maturity-assessment/"
+     },
+     {
+      "title": "[RESEARCH METHODS]",
+      "href": "/research/"
+     },
+     {
+      "title": "[SURVEYS]",
+      "href": "/surveys/"
+     },
+     {
+      "title": "[USER EXPERIENCE (UX)]",
+      "href": "/ux/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.article-carousel",
+   "variant": "default",
+   "content": {
+    "heading": "Editor's picks↘",
+    "actions": [
+     {
+      "label": "Ultimate guide to open-ended survey questions (with examples)",
+      "href": "/customer-research/open-ended-questions/"
+     }
+    ],
+    "items": [
+     {
+      "title": "How to analyze app store reviews alongside interview transcripts to prioritize mobile roadmap fixes",
+      "href": "/customer-research/analyze-app-store-reviews-with-interview-transcripts/"
+     },
+     {
+      "title": "How to use customer support transcripts as secondary research data to identify usability issues at scale",
+      "href": "/customer-research/support-transcripts-as-secondary-research-data/"
+     },
+     {
+      "title": "Is consumer services a good career path for you?",
+      "href": "/customer-research/is-consumer-services-a-good-career-path/"
+     },
+     {
+      "title": "Ultimate guide to open-ended survey questions (with examples)",
+      "href": "/customer-research/open-ended-questions/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.manual",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.article-carousel",
+   "variant": "default",
+   "content": {
+    "heading": "Latest articles↘",
+    "actions": [
+     {
+      "label": "Unlocking customer insights: maximizing surveys for actionable feedback",
+      "href": "/customer-research/customer-feedback-survey/"
+     },
+     {
+      "label": "How to analyze your NPS results",
+      "href": "/customer-research/how-to-analyze-nps-results/"
+     },
+     {
+      "label": "Customer digital twin: the complete guide",
+      "href": "/customer-research/customer-digital-twin/"
+     },
+     {
+      "label": "Customer churn statistics and benchmarks for 2026",
+      "href": "/customer-research/customer-churn-statistics/"
+     }
+    ],
+    "items": [
+     {
+      "title": "How to analyze app store reviews alongside interview transcripts to prioritize mobile roadmap fixes",
+      "href": "/customer-research/analyze-app-store-reviews-with-interview-transcripts/"
+     },
+     {
+      "title": "How to conduct churned customer interviews in B2B SaaS when former users have little reason to talk",
+      "href": "/customer-research/churned-customer-interviews-b2b-saas/"
+     },
+     {
+      "title": "Are digital twins reliable? A practitioner’s guide to trusting AI customers",
+      "href": "/customer-research/are-digital-twins-reliable/"
+     },
+     {
+      "title": "Unlocking customer insights: maximizing surveys for actionable feedback",
+      "href": "/customer-research/customer-feedback-survey/"
+     },
+     {
+      "title": "How to analyze your NPS results",
+      "href": "/customer-research/how-to-analyze-nps-results/"
+     },
+     {
+      "title": "How to use customer support transcripts as secondary research data to identify usability issues at scale",
+      "href": "/customer-research/support-transcripts-as-secondary-research-data/"
+     },
+     {
+      "title": "Customer digital twin: the complete guide",
+      "href": "/customer-research/customer-digital-twin/"
+     },
+     {
+      "title": "Customer churn statistics and benchmarks for 2026",
+      "href": "/customer-research/customer-churn-statistics/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.manual",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.inline-band",
+   "variant": "light",
+   "content": {
+    "heading": "Turn customer feedback into product innovation",
+    "actions": [
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     },
+     {
+      "label": "Try Dovetail free",
+      "href": "/auth/signup/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "light",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "interactive.toc-sheet",
+   "variant": "default",
+   "content": {},
+   "motion": {
+    "pattern": "sheet.slide",
+    "reducedMotionFallback": "show-immediately"
+   },
+   "retrievalEligible": false
+  }
+ ]
+}

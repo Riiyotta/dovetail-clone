@@ -1,0 +1,20 @@
+/* specs/not-found.md */
+.nf { position: relative; margin-top: -88px; }
+/* height=1270 is an attribute; the global img{max-width:100%;height:auto} wins, so it renders at viewport width
+   with its intrinsic aspect (1440x1061 at 1440, 390x287 at 390), centred on the wrapper. */
+.nf__bg { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 100%; height: auto; }
+.nf__content { max-width: 1512px; margin: 0 auto; width: 100%; position: relative; z-index: 1; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; padding: 187px 0 276px; }
+.nf__h1 { font-size: 160px; line-height: 164px; font-weight: 600; letter-spacing: -4px; color: #FFFFFF; }
+.nf__sub { font-size: 32px; line-height: 40px; font-weight: 500; letter-spacing: -0.5px; color: #FFFFFF; margin-bottom: 24px; }
+.nf__body { font-size: 24px; line-height: 32px; font-weight: 400; letter-spacing: -0.5px; color: #FFFFFF; max-width: 522px;
+  text-align: center; margin: 0 0 32px; }
+.nf__ctas { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; }
+@media (max-width: 1280px) {
+  .nf__content { padding: 120px 16px; }
+  .nf__sub { font-size: 24px; line-height: 32px; letter-spacing: -0.25px; }
+  .nf__body { font-size: 16px; line-height: 24px; letter-spacing: normal; }
+}
+@media (max-width: 799px) {
+  .nf__h1 { font-size: 48px; line-height: 52px; letter-spacing: -1px; }
+}

@@ -1,0 +1,100 @@
+{
+ "note": "rhythm/position rules JSON Schema cannot express. Every rule id here is implemented in schema/semantic_validate.py (GRAPH_RULES_IMPLEMENTED) with the same severity; verify_all GRAPH_AGREEMENT checks both directions.",
+ "rules": [
+  {
+   "id": "TEMPLATE_SEQUENCE",
+   "severity": "error",
+   "rule": "the node sequence (section#variant) must match the declared template's node pattern (required/optional/repeatable slots with observed variants)."
+  },
+  {
+   "id": "SHELL_ORDER",
+   "severity": "error",
+   "rule": "shell head nodes (banner, navbar, nav dropdowns) open the page in that order; the site footer closes the flow; after it only the hub A-Z index and overlay nodes may follow."
+  },
+  {
+   "id": "CHROME_VARIANT",
+   "severity": "error",
+   "rule": "PageSpec.chrome must be allowed by the template and agree with the shell nodes (banner/nav/footer present iff not 'none'; node variant == chrome value); reference routes must match the chrome measured on that route (routes/routes.json)."
+  },
+  {
+   "id": "TEMPLATE_THEME",
+   "severity": "error",
+   "rule": "theme must equal the template's theme (dark | light | campaign)."
+  },
+  {
+   "id": "ONE_HERO",
+   "severity": "error",
+   "rule": "exactly one HERO node, except hero-less templates (pinned list) which must have none.",
+   "exceptions": [
+    "T12",
+    "T16",
+    "T17",
+    "T18",
+    "T19",
+    "T20",
+    "T21",
+    "T22",
+    "T23",
+    "T24",
+    "T25",
+    "T29",
+    "T32",
+    "T35",
+    "T36",
+    "T37",
+    "T38",
+    "T7"
+   ]
+  },
+  {
+   "id": "HERO_FIRST_CONTENT",
+   "severity": "error",
+   "rule": "on templates with a hero, the first non-shell node is the hero."
+  },
+  {
+   "id": "SECTION_MAX_PER_PAGE",
+   "severity": "error",
+   "rule": "a section may not appear more often than its contract maxPerPage (max observed on any route)."
+  },
+  {
+   "id": "NO_ADJACENT_IDENTICAL",
+   "severity": "error",
+   "rule": "two adjacent nodes with the same section#variant are rejected unless the contract lists that variant in consecutiveVariants (observed repeats: chapters, rows, groups)."
+  },
+  {
+   "id": "OVERLAY_LAST",
+   "severity": "error",
+   "rule": "overlay-placement nodes (dialogs, sheets, fixed bars) come after every in-flow node."
+  },
+  {
+   "id": "FOOTER_CTA_BAND",
+   "severity": "error",
+   "rule": "chrome.footer 'cta-band' requires the footer node to carry the band heading; other footers must not."
+  },
+  {
+   "id": "CTA_CLOSES_PAGE",
+   "severity": "warn",
+   "rule": "the last in-flow content node should be CTA-category (many measured pages end on an FAQ, so this only warns)."
+  },
+  {
+   "id": "AUTOPLAY_BUDGET",
+   "severity": "warn",
+   "rule": "more than three autoplaying patterns (marquee, carousel autoplay, tab autoplay, logo cycler) on one page."
+  },
+  {
+   "id": "RUNTIME_UI_INELIGIBLE",
+   "severity": "error",
+   "rule": "retrievalEligible on a node must equal the pinned value of its section."
+  },
+  {
+   "id": "HOME_ROUTE_ONLY",
+   "severity": "error",
+   "rule": "template T0 only on '/', and '/' only on T0."
+  },
+  {
+   "id": "REFERENCE_ROUTE_IN_TEMPLATE",
+   "severity": "error",
+   "rule": "a reference PageSpec's route must be mapped to its template in routes/routes.json (T38 only for paths no route matches)."
+  }
+ ]
+}

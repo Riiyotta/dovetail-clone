@@ -1,0 +1,293 @@
+{
+ "slug": "smartrecruiters",
+ "path": "/customers/smartrecruiters/",
+ "title": "Unlocking the AI edge for hiring the best talent with SmartRecruiters and Dovetail",
+ "eyebrow": "CUSTOMER / SMARTRECRUITERS",
+ "companyName": "SmartRecruiters",
+ "isAnonymous": false,
+ "industry": "Technology",
+ "intro": {
+  "placeholder": true,
+  "chars": 188
+ },
+ "hero": {
+  "type": "video",
+  "image": "/assets/company/media/smartrecruiters_edit.png",
+  "width": 2112,
+  "height": 1148,
+  "youtubeId": "wH9u-8k4iIk",
+  "caption": [
+   "DANIELLE REID, SENIOR DESIGN MANAGER"
+  ]
+ },
+ "stats": [
+  {
+   "value": "7",
+   "label": "tools down to 1"
+  },
+  {
+   "value": "100+",
+   "label": "team members sharing the same customer knowledge"
+  },
+  {
+   "value": "100s",
+   "label": "of hours of customer data—all in Dovetail"
+  }
+ ],
+ "ctaCard": {
+  "heading": "The best never guess",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "stickyCta": {
+  "image": "/assets/company/media/sales-cta-img.png",
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "button": {
+   "label": "Talk to sales",
+   "href": "/contact-sales/"
+  }
+ },
+ "sections": [
+  {
+   "heading": "Intro",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 341
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 358
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 188
+    }
+   ]
+  },
+  {
+   "heading": "From seven tools down to one powerful knowledge hub",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 268
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 224
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 276
+    },
+    {
+     "t": "iframe",
+     "src": "https://www.youtube.com/embed/u4GzgMd42qY?rel=0&autoplay=0&modestbranding=1",
+     "youtubeId": "u4GzgMd42qY",
+     "poster": "/assets/company/external/youtube-u4GzgMd42qY.jpg"
+    }
+   ]
+  },
+  {
+   "heading": "AI-Powered insights saving hours",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 226
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 338
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 191
+    },
+    {
+     "t": "iframe",
+     "src": "https://www.youtube.com/embed/nsa2ithVElA?rel=0&autoplay=0&modestbranding=1",
+     "youtubeId": "nsa2ithVElA",
+     "poster": "/assets/company/external/youtube-nsa2ithVElA.jpg"
+    }
+   ]
+  },
+  {
+   "heading": "Continuous intelligence for the entire team with Dovetail and Salesforce",
+   "body": [
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 258,
+     "links": [
+      {
+       "text": "Salesforce integration",
+       "href": "/blog/2025-fall-launch/#the-system-of-record-for-customer-feedback"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 217
+    },
+    {
+     "t": "iframe",
+     "src": "https://www.youtube.com/embed/spmBPVUbMwY?rel=0&autoplay=0&modestbranding=1",
+     "youtubeId": "spmBPVUbMwY",
+     "poster": "/assets/company/external/youtube-spmBPVUbMwY.jpg"
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 432
+    },
+    {
+     "t": "p",
+     "placeholder": true,
+     "chars": 109,
+     "links": [
+      {
+       "text": "Try Dovetail free",
+       "href": "https://dovetail.dovetail.com/start/"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "highlightedTestimonial": {
+  "quote": {
+   "placeholder": true,
+   "chars": 212
+  },
+  "name": "Danielle Reid",
+  "role": "Senior Design Manager"
+ },
+ "bestNeverGuess": {
+  "heading": "The best never guess",
+  "rotatorLogos": [
+   "/assets/company/svg/rotator-logo-salesforce.svg",
+   "/assets/company/svg/rotator-logo-aws.svg",
+   "/assets/company/svg/rotator-logo-canva.svg",
+   "/assets/company/svg/rotator-logo-airwallex.svg",
+   "/assets/company/svg/rotator-logo-zapier.svg",
+   "/assets/company/svg/rotator-logo-notion.svg",
+   "/assets/company/svg/rotator-logo-itau.svg",
+   "/assets/company/svg/rotator-logo-wise.svg"
+  ],
+  "body": "Discover how Dovetail can help your team turn customer feedback into decisions.",
+  "buttons": [
+   {
+    "label": "Talk to sales",
+    "href": "/contact-sales/",
+    "style": "primary"
+   },
+   {
+    "label": "Customer stories",
+    "href": "/customers/",
+    "style": "secondary"
+   }
+  ]
+ },
+ "related": [
+  {
+   "slug": "breville",
+   "href": "/customers/breville/",
+   "title": "How customer insights drive and inspire Breville’s product innovation",
+   "industry": "Consumer",
+   "order": 3,
+   "companyName": "Breville",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/Customer_Breville.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/white-logo(3).svg",
+    "alt": "Breville",
+    "w": 132,
+    "h": 32
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 217
+    },
+    "name": "Constance Docos",
+    "role": "Senior UX Designer"
+   }
+  },
+  {
+   "slug": "atlassian-design",
+   "href": "/customers/atlassian-design/",
+   "title": "How Atlassian turns customer signals into confident product decisions",
+   "industry": "Technology",
+   "order": 2,
+   "companyName": "Atlassian",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/company/media/Customer_Atlassian.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/marketing/customer-atlassian-white-logo.svg",
+    "alt": "Atlassian",
+    "w": 160,
+    "h": 20
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 190
+    },
+    "name": "Martin Jerkovic",
+    "role": "Lead Product Designer"
+   }
+  },
+  {
+   "slug": "itau-unibanco",
+   "href": "/customers/itau-unibanco/",
+   "title": "How Itaú Unibanco delivers better banking experiences with Dovetail",
+   "industry": "Finance",
+   "order": 1,
+   "companyName": "Itau Unibanco",
+   "gridTitle": null,
+   "thumbnail": {
+    "src": "/assets/Customer_Itau.png",
+    "alt": "",
+    "w": 272,
+    "h": 300
+   },
+   "logo": {
+    "src": "/assets/white-logo.svg",
+    "alt": "Itaú Unibanco",
+    "w": 160,
+    "h": 72
+   },
+   "testimonial": {
+    "quote": {
+     "placeholder": true,
+     "chars": 213
+    },
+    "name": "Renato Cerqueira Leite",
+    "role": "Head of research Operations"
+   }
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "theme": "light",
+ "evidence": "specs/content-shared.md:43-60 (light theme tokens) + specs/marketing-shared.md:94-102 (light column)",
+ "tokens": {
+  "text.primary": "color.black.base",
+  "text.strong": "color.black.base",
+  "text.secondary": "color.light.muted",
+  "text.muted": "color.light.muted",
+  "surface.page": "color.white.strong",
+  "surface.card": "color.light.surface",
+  "surface.raised": "color.light.surface",
+  "surface.panel": "color.light.surface",
+  "surface.brand": "color.blue.base",
+  "surface.brand-deep": "color.blue.80",
+  "surface.banner": "color.alpha.white-16",
+  "border.subtle": "color.alpha.ink-24",
+  "border.strong": "color.light.border",
+  "action.primary.bg": "color.black.base",
+  "action.primary.fg": "color.white.strong",
+  "action.primary.hover": "color.black.24",
+  "action.brand.bg": "color.blue.base",
+  "action.brand.fg": "color.white.strong",
+  "action.secondary.bg": "color.light.surface",
+  "action.secondary.border": "color.light.surface-border",
+  "status.error": "color.orange.base",
+  "overlay.dim": "color.overlay.64"
+ }
+}

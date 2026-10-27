@@ -1,0 +1,30 @@
+/* specs/guide-article.md */
+.ga { color: var(--c-ink); }
+.ga__body { background: #fafafa; }
+
+.ga__aside { min-width: 0; }
+.ga__meta { display: flex; flex-direction: column; max-width: 600px; }
+.ga__content { grid-column: 6 / -1; min-width: 0; }
+
+/* Sidebar promo (sidebarCta) */
+.ga-promo__h { font-size: 18px; line-height: 24px; font-weight: 500; letter-spacing: -0.25px; color: var(--c-ink); }
+.ga-promo__p { font-size: 14px; line-height: 22px; color: var(--c-ink); margin: 8px 0 16px; }
+.ga-promo__btn { display: flex; width: 100%; }
+
+.ga__contents-h { font-size: 18px; line-height: 24px; font-weight: 500; letter-spacing: -0.25px; color: var(--c-ink); margin-bottom: 16px; }
+
+.ga__sp-carousel { height: 160px; }
+
+@media (max-width: 1280px) {
+  .ga__desktop { display: none; }
+  .ga__content { grid-column: 1 / -1; }
+  .ga-promo__h { font-size: 16px; line-height: 24px; }
+  .ga__sp-carousel { height: 64px; }
+}
+
+/* Hub variant: "All <categoryName> articles" after the footer (inline styles on the original) */
+.ga-index { margin: 0 auto; max-width: 1512px; padding: 64px clamp(16px, 8vw, 124px) 96px; }
+.ga-index__h { font-size: 24px; font-weight: 500; line-height: normal; color: var(--c-ink); margin: 0 0 24px; }
+.ga-index__list { columns: 18rem; column-gap: 32px; list-style: none; margin: 0; padding: 0; }
+.ga-index__list li { break-inside: avoid; font-size: 14px; line-height: 1.5; padding: 4px 0; }
+.ga-index__list a { color: var(--c-ink); font-weight: 400; text-decoration: none; }

@@ -1,0 +1,11 @@
+{
+ "id": "stat-card",
+ "kind": "component",
+ "title": "Stat card",
+ "composes": [
+  "eyebrow"
+ ],
+ "evidence": [
+  "CLONE_SPEC.md:353"
+ ]
+}

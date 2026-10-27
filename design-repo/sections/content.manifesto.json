@@ -1,0 +1,173 @@
+{
+ "id": "content.manifesto",
+ "title": "Manifesto block",
+ "semantic": {
+  "id": "content.manifesto",
+  "category": "CONTENT"
+ },
+ "source": {
+  "id": "component:RoleSections:ch__grid",
+  "file": "src/pages/roles/RoleSections.jsx",
+  "tag": "div",
+  "lines": "95-107",
+  "tagLine": 95,
+  "anchor": "ch__grid",
+  "anchorLine": 95
+ },
+ "purpose": "Large statement text over a grid background describing the audience's challenge.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "actions",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 6,
+   "observedOn": [
+    "/roles/customer-experience/",
+    "/roles/design/",
+    "/roles/marketing/",
+    "/roles/product-management/",
+    "/roles/research/",
+    "/roles/sales-and-cs/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "actions",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 6
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 17,
+    "observedIn": 6
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 53,
+    "maxChars": 349,
+    "observedIn": 3
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 3,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "actions": [
+    2,
+    2
+   ],
+   "media": [
+    1,
+    1
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "illustration.brand"
+    ],
+    "generatedRoles": [
+     "illustration.generated"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "illustration.generated"
+ ],
+ "style": {
+  "props": {
+   "spaceBefore": {
+    "kind": "token",
+    "allowed": [
+     "space.section.s160"
+    ]
+   }
+  },
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 6,
+   "nodes": 6,
+   "minPx": 856,
+   "maxPx": 856,
+   "medianPx": 856.0,
+   "sample": {
+    "/roles/customer-experience/": [
+     856
+    ],
+    "/roles/design/": [
+     856
+    ],
+    "/roles/marketing/": [
+     856
+    ],
+    "/roles/product-management/": [
+     856
+    ],
+    "/roles/research/": [
+     856
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/roles/RoleSections.jsx:95-107",
+  "specs/roles.md:1-40"
+ ]
+}

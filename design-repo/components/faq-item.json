@@ -1,0 +1,11 @@
+{
+ "id": "faq-item",
+ "kind": "component",
+ "title": "FAQ item",
+ "composes": [
+  "divider"
+ ],
+ "evidence": [
+  "specs/marketing-shared.md:197"
+ ]
+}

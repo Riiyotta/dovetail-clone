@@ -1,0 +1,497 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T25",
+ "route": "/contributors/warren-jonas/",
+ "theme": "light",
+ "chrome": {
+  "banner": "light",
+  "nav": "light",
+  "footer": "light"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail clone (local)"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "light",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "light",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "content.profile-header",
+   "variant": "default",
+   "content": {
+    "heading": "Warren Jonas ACC",
+    "actions": [
+     {
+      "label": "CONTRIBUTORS",
+      "href": "/contributors/"
+     },
+     {
+      "label": "WARREN JONAS ACC",
+      "href": "#"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "content.skills-tags",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "[EMPLOYEE EXPERIENCE]",
+      "href": "/employee-experience/"
+     }
+    ],
+    "items": [
+     {
+      "title": "[EMPLOYEE EXPERIENCE]",
+      "href": "/employee-experience/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s64"
+   }
+  },
+  {
+   "section": "content.editorial-process",
+   "variant": "default",
+   "content": {
+    "lead": "It is worth checking early assumptions against what people actually say and do. Small, regular reviews tend to surface patterns sooner than one large review at the end. Writing down the reasoning behind a decision makes it easier to revisit later. A simple checklist can keep the process consistent from one round to the next. Context matters here. Sharing progress openly invites useful questions before the work is finished. Outcomes are easier to judge when there is a baseline to compare against. Feedback from a pilot run often highlights steps that need to be clarified."
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "listing.article-list",
+   "variant": "default",
+   "content": {
+    "heading": "Articles reviewed by Warren",
+    "items": [
+     {
+      "title": "What is career growth, and how can you work on yours?",
+      "text": "8 DECEMBER 2023",
+      "href": "/employee-experience/career-growth-guide/"
+     },
+     {
+      "title": "Mastering culture-fit interviews: top 30 questions to ask",
+      "text": "12 APRIL 2024",
+      "href": "/employee-experience/culture-fit-interview-questions/"
+     },
+     {
+      "title": "Compassion vs empathy: Understanding the key differences",
+      "text": "16 DECEMBER 2023",
+      "href": "/employee-experience/difference-between-compassion-vs-empathy/"
+     },
+     {
+      "title": "EQ vs. IQ: What’s the difference, and why are they important?",
+      "text": "19 NOVEMBER 2023",
+      "href": "/employee-experience/differences-between-eq-and-iq/"
+     },
+     {
+      "title": "16 examples of short-term goals to help you grow",
+      "text": "23 JANUARY 2024",
+      "href": "/employee-experience/examples-of-short-term-goals/"
+     },
+     {
+      "title": "14 examples of effective SMART personal leadership goals",
+      "text": "19 DECEMBER 2023",
+      "href": "/employee-experience/examples-of-smart-leadership-goals/"
+     },
+     {
+      "title": "The ultimate guide to effective communication in the workplace",
+      "text": "21 MARCH 2024",
+      "href": "/employee-experience/guide-to-effective-communication-in-the-workplace/"
+     },
+     {
+      "title": "3 ways AI is changing employee experience",
+      "text": "1 MAY 2024",
+      "href": "/employee-experience/how-ai-is-changing-employee-experience/"
+     },
+     {
+      "title": "Enhancing employee happiness: 14 tips for a positive workplace",
+      "text": "8 APRIL 2024",
+      "href": "/employee-experience/how-to-enhance-employee-happiness/"
+     },
+     {
+      "title": "How to give and receive constructive criticism",
+      "text": "11 JUNE 2026",
+      "href": "/employee-experience/how-to-give-and-receive-constructive-criticism/"
+     },
+     {
+      "title": "How to improve your emotional intelligence in life and at work",
+      "text": "27 NOVEMBER 2023",
+      "href": "/employee-experience/how-to-increase-emotional-intelligence/"
+     },
+     {
+      "title": "How to boost your emotional intelligence for career success",
+      "text": "11 JUNE 2026",
+      "href": "/employee-experience/how-to-increase-your-emotional-intelligence/"
+     },
+     {
+      "title": "How to measure company culture and why it matters",
+      "text": "3 APRIL 2024",
+      "href": "/employee-experience/how-to-measure-company-culture/"
+     },
+     {
+      "title": "How to overcome self-sabotaging behavior at work",
+      "text": "11 JUNE 2026",
+      "href": "/employee-experience/how-to-overcome-self-sabotage-at-work/"
+     },
+     {
+      "title": "How to practice shadow work for self-improvement",
+      "text": "11 JUNE 2026",
+      "href": "/employee-experience/how-to-practice-shadow-work/"
+     },
+     {
+      "title": "Why is leadership so critical to success in the workplace?",
+      "text": "31 JANUARY 2024",
+      "href": "/employee-experience/importance-of-leadership-in-the-workplace/"
+     },
+     {
+      "title": "How to create a more inclusive workplace",
+      "text": "14 FEBRUARY 2024",
+      "href": "/employee-experience/inclusive-workplace-meaning/"
+     },
+     {
+      "title": "Your guide to crafting an internal communication plan",
+      "text": "1 MAY 2024",
+      "href": "/employee-experience/internal-communication-plan/"
+     },
+     {
+      "title": "Top leadership qualities of great leaders",
+      "text": "11 JUNE 2026",
+      "href": "/employee-experience/list-of-good-leadership-qualities/"
+     },
+     {
+      "title": "14 examples of personal development goals to boost your career",
+      "text": "29 NOVEMBER 2023",
+      "href": "/employee-experience/personal-development-goals-examples/"
+     },
+     {
+      "title": "5 types of employees you’ll encounter in the workplace",
+      "text": "3 APRIL 2024",
+      "href": "/employee-experience/types-of-employees/"
+     },
+     {
+      "title": "What is emotional regulation? 6 skills that can help",
+      "text": "23 NOVEMBER 2023",
+      "href": "/employee-experience/what-are-emotional-regulation-skills/"
+     },
+     {
+      "title": "11 essential leadership skills for workplace success",
+      "text": "11 JUNE 2026",
+      "href": "/employee-experience/what-are-leadership-skills/"
+     },
+     {
+      "title": "What are the 6 work styles, and how can they work together?",
+      "text": "6 MARCH 2024",
+      "href": "/employee-experience/what-are-the-six-work-styles/"
+     },
+     {
+      "title": "What are motivation theories, and how do they enhance the employee experience?",
+      "text": "10 FEBRUARY 2024",
+      "href": "/employee-experience/what-are-the-theories-of-motivation/"
+     },
+     {
+      "title": "A complete guide to career pathing",
+      "text": "31 JANUARY 2024",
+      "href": "/employee-experience/what-is-career-pathing/"
+     },
+     {
+      "title": "What does emotionally intelligent leadership look like?",
+      "text": "2 MARCH 2024",
+      "href": "/employee-experience/what-is-emotional-intelligence-in-leadership/"
+     },
+     {
+      "title": "What is imposter syndrome?",
+      "text": "11 JUNE 2026",
+      "href": "/employee-experience/what-is-imposter-syndrome/"
+     },
+     {
+      "title": "What is impression management?",
+      "text": "8 OCTOBER 2023",
+      "href": "/employee-experience/what-is-impression-management/"
+     },
+     {
+      "title": "What is leadership? Definition, traits, and styles",
+      "text": "11 JUNE 2026",
+      "href": "/employee-experience/what-is-leadership/"
+     },
+     {
+      "title": "Mental exhaustion: Signs, symptoms, and strategies to help you cope",
+      "text": "8 DECEMBER 2023",
+      "href": "/employee-experience/what-is-mental-exhaustion/"
+     },
+     {
+      "title": "What is mental toughness, and how do you build it?",
+      "text": "12 DECEMBER 2023",
+      "href": "/employee-experience/what-is-mental-toughness/"
+     },
+     {
+      "title": "What you need to know about participative leadership",
+      "text": "8 DECEMBER 2023",
+      "href": "/employee-experience/what-is-participative-leadership/"
+     },
+     {
+      "title": "What is social loafing?",
+      "text": "11 JUNE 2026",
+      "href": "/employee-experience/what-is-social-loafing/"
+     },
+     {
+      "title": "What is team leadership, and why is it important?",
+      "text": "6 MARCH 2024",
+      "href": "/employee-experience/what-is-team-leadership/"
+     },
+     {
+      "title": "What is the contingency theory of leadership, and how does it work?",
+      "text": "22 FEBRUARY 2024",
+      "href": "/employee-experience/what-is-the-contingency-theory-of-leadership/"
+     },
+     {
+      "title": "Democratic leadership style: key principles and effective practices",
+      "text": "8 OCTOBER 2023",
+      "href": "/employee-experience/what-is-the-democratic-leadership-style/"
+     },
+     {
+      "title": "Work environments 101: Understanding the importance and impact",
+      "text": "1 MAY 2024",
+      "href": "/employee-experience/what-is-the-work-environment/"
+     },
+     {
+      "title": "What is toxic positivity?",
+      "text": "11 JUNE 2026",
+      "href": "/employee-experience/what-is-toxic-positivity/"
+     },
+     {
+      "title": "What is tribal knowledge, and how can you retain it?",
+      "text": "31 JANUARY 2024",
+      "href": "/employee-experience/what-is-tribal-knowledge/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "light",
+   "content": {
+    "heading": "The best never guess",
+    "actions": [
+     {
+      "label": "Book a demo",
+      "href": "#"
+     },
+     {
+      "label": "Start free trial",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-theright-salesforce.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestfarleft-aws.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestleft-canva.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-bestright-airwallex.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverright-notion.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-neverfarright-zapier.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessleft-wise.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "",
+      "ref": "/assets/svg/cta-logo-guessfarleft-breville.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "light",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

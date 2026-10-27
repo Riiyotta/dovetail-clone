@@ -1,0 +1,390 @@
+{
+ "source": "https://dovetail.com/design-thinking/",
+ "template": "guide-hub",
+ "categoryName": "Design thinking",
+ "hubPath": "/design-thinking/",
+ "pillar": {
+  "h1": "Design thinking: Methods, process, and practice",
+  "pageTitle": "What Is Design Thinking? Methods, Process, and Practice",
+  "metaDescription": "Design thinking is a human-centered approach to innovation and problem-solving. Learn the design thinking process, methods, and how to apply it in your…",
+  "meta": [
+   {
+    "label": "Last updated",
+    "values": [
+     {
+      "text": "15 April 2026",
+      "href": null
+     }
+    ]
+   },
+   {
+    "label": "Reviewed by",
+    "values": [
+     {
+      "text": "Jean Kaluza",
+      "href": "/contributors/jean-kaluza/"
+     }
+    ]
+   }
+  ],
+  "tocItems": 1,
+  "bodyShape": {
+   "chars": 2611,
+   "p": 10,
+   "h2": 2
+  },
+  "bodyOrder": "h2 h2"
+ },
+ "editorsPicks": [
+  {
+   "href": "/design-thinking/what-is-design-thinking/",
+   "title": "What is design thinking?",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/design-thinking/five-whys/",
+   "title": "What is the five whys technique?",
+   "date": "15 April 2026"
+  },
+  {
+   "href": "/design-thinking/design-principles/",
+   "title": "What are design principles?",
+   "date": "15 April 2026"
+  },
+  {
+   "href": "/design-thinking/research-informed-design-system-usability-findings-component-docs/",
+   "title": "How to build a research-informed design system by embedding usability findings into component documentation",
+   "date": "21 July 2026"
+  }
+ ],
+ "latestArticles": [
+  {
+   "href": "/design-thinking/research-informed-design-system-usability-findings-component-docs/",
+   "title": "How to build a research-informed design system by embedding usability findings into component documentation",
+   "date": "21 July 2026"
+  },
+  {
+   "href": "/design-thinking/what-is-design-thinking/",
+   "title": "What is design thinking?",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/design-thinking/five-whys/",
+   "title": "What is the five whys technique?",
+   "date": "15 April 2026"
+  },
+  {
+   "href": "/design-thinking/design-principles/",
+   "title": "What are design principles?",
+   "date": "15 April 2026"
+  },
+  {
+   "href": "/design-thinking/creative-problem-solving/",
+   "title": "What is creative problem solving?",
+   "date": "15 April 2026"
+  },
+  {
+   "href": "/design-thinking/double-diamond-model/",
+   "title": "What is the double diamond model?",
+   "date": "15 April 2026"
+  },
+  {
+   "href": "/design-thinking/ideation-techniques/",
+   "title": "What are ideation techniques?",
+   "date": "15 April 2026"
+  }
+ ],
+ "relatedTopics": [
+  {
+   "href": "/customer-research/",
+   "text": "Customer research"
+  },
+  {
+   "href": "/employee-experience/",
+   "text": "Employee experience"
+  },
+  {
+   "href": "/enterprise/",
+   "text": "Enterprise"
+  },
+  {
+   "href": "/market-research/",
+   "text": "Market research"
+  },
+  {
+   "href": "/patient-experience/",
+   "text": "Patient experience"
+  },
+  {
+   "href": "/product-development/",
+   "text": "Product development"
+  },
+  {
+   "href": "/product-management/",
+   "text": "Product management"
+  },
+  {
+   "href": "/research-maturity-assessment/",
+   "text": "Research maturity assessment"
+  },
+  {
+   "href": "/research/",
+   "text": "Research methods"
+  },
+  {
+   "href": "/surveys/",
+   "text": "Surveys"
+  },
+  {
+   "href": "/ux/",
+   "text": "User experience (UX)"
+  }
+ ],
+ "allArticlesHeading": "All Design thinking articles",
+ "note": "articles[] = the \"All <category> articles\" A-Z list rendered after the footer on the hub page (order as on site). title = list title; h1 = the article page H1 (can differ). Article pages show the hub editorsPicks/latestArticles unless editorsPicksOverride/latestArticlesOverride (href lists; titles/dates resolvable from articles[] / hub carousels) is set for that article. No thumbnails exist for guide articles. sidebarCta = the desktop sidebar promo shown on every article of this hub (not on the hub pillar page itself).",
+ "routesNotInList": [],
+ "articles": [
+  {
+   "path": "/design-thinking/research-informed-design-system-usability-findings-component-docs/",
+   "title": "How to build a research-informed design system by embedding usability findings into component documentation",
+   "h1": "How to build a research-informed design system by embedding usability findings into component documentation",
+   "lastUpdated": "21 July 2026",
+   "author": null,
+   "reviewer": null,
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 13394,
+    "p": 40,
+    "h2": 8,
+    "h3": 15,
+    "blockquote": 2,
+    "ul": 3,
+    "li": 9
+   },
+   "bodyOrder": "h2 h2 h3 blockquote h3 h3 h2 h3 h3 ul h3 h3 h2 h3 ul h3 ul h2 blockquote h2 h3 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/design-thinking/what-is-design-thinking/",
+    "/design-thinking/five-whys/",
+    "/design-thinking/design-principles/",
+    "/design-thinking/creative-problem-solving/"
+   ],
+   "latestArticlesOverride": [
+    "/design-thinking/what-is-design-thinking/",
+    "/design-thinking/five-whys/",
+    "/design-thinking/design-principles/",
+    "/design-thinking/creative-problem-solving/",
+    "/design-thinking/double-diamond-model/",
+    "/design-thinking/ideation-techniques/"
+   ]
+  },
+  {
+   "path": "/design-thinking/design-principles/",
+   "title": "What are design principles?",
+   "h1": "What are design principles?",
+   "lastUpdated": "15 April 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 5,
+   "bodyShape": {
+    "chars": 7166,
+    "p": 24,
+    "h2": 6,
+    "h3": 3
+   },
+   "bodyOrder": "h2 h2 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/design-thinking/what-is-design-thinking/",
+    "/design-thinking/five-whys/",
+    "/design-thinking/research-informed-design-system-usability-findings-component-docs/",
+    "/design-thinking/creative-problem-solving/"
+   ],
+   "latestArticlesOverride": [
+    "/design-thinking/research-informed-design-system-usability-findings-component-docs/",
+    "/design-thinking/what-is-design-thinking/",
+    "/design-thinking/five-whys/",
+    "/design-thinking/creative-problem-solving/",
+    "/design-thinking/double-diamond-model/",
+    "/design-thinking/ideation-techniques/"
+   ]
+  },
+  {
+   "path": "/design-thinking/ideation-techniques/",
+   "title": "What are ideation techniques?",
+   "h1": "What are ideation techniques?",
+   "lastUpdated": "15 April 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 10,
+   "bodyShape": {
+    "chars": 7934,
+    "p": 26,
+    "h2": 5,
+    "h3": 9
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h3 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/design-thinking/research-informed-design-system-usability-findings-component-docs/",
+    "/design-thinking/what-is-design-thinking/",
+    "/design-thinking/five-whys/",
+    "/design-thinking/design-principles/",
+    "/design-thinking/creative-problem-solving/",
+    "/design-thinking/double-diamond-model/"
+   ]
+  },
+  {
+   "path": "/design-thinking/creative-problem-solving/",
+   "title": "What is creative problem solving?",
+   "h1": "What is creative problem solving?",
+   "lastUpdated": "15 April 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 8,
+   "bodyShape": {
+    "chars": 9130,
+    "p": 32,
+    "h2": 6,
+    "h3": 6
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/design-thinking/research-informed-design-system-usability-findings-component-docs/",
+    "/design-thinking/what-is-design-thinking/",
+    "/design-thinking/five-whys/",
+    "/design-thinking/design-principles/",
+    "/design-thinking/double-diamond-model/",
+    "/design-thinking/ideation-techniques/"
+   ]
+  },
+  {
+   "path": "/design-thinking/what-is-design-thinking/",
+   "title": "What is design thinking?",
+   "h1": "What is design thinking?",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 9,
+   "bodyShape": {
+    "chars": 6311,
+    "p": 23,
+    "h2": 5,
+    "h3": 8
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/design-thinking/five-whys/",
+    "/design-thinking/design-principles/",
+    "/design-thinking/research-informed-design-system-usability-findings-component-docs/",
+    "/design-thinking/creative-problem-solving/"
+   ],
+   "latestArticlesOverride": [
+    "/design-thinking/research-informed-design-system-usability-findings-component-docs/",
+    "/design-thinking/five-whys/",
+    "/design-thinking/design-principles/",
+    "/design-thinking/creative-problem-solving/",
+    "/design-thinking/double-diamond-model/",
+    "/design-thinking/ideation-techniques/"
+   ]
+  },
+  {
+   "path": "/design-thinking/double-diamond-model/",
+   "title": "What is the double diamond model?",
+   "h1": "What is the double diamond model?",
+   "lastUpdated": "15 April 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 8,
+   "bodyShape": {
+    "chars": 7774,
+    "p": 24,
+    "h2": 5,
+    "h3": 7
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/design-thinking/research-informed-design-system-usability-findings-component-docs/",
+    "/design-thinking/what-is-design-thinking/",
+    "/design-thinking/five-whys/",
+    "/design-thinking/design-principles/",
+    "/design-thinking/creative-problem-solving/",
+    "/design-thinking/ideation-techniques/"
+   ]
+  },
+  {
+   "path": "/design-thinking/five-whys/",
+   "title": "What is the five whys technique?",
+   "h1": "What is the five whys technique?",
+   "lastUpdated": "15 April 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 5,
+   "bodyShape": {
+    "chars": 5995,
+    "p": 25,
+    "h2": 6,
+    "h3": 3
+   },
+   "bodyOrder": "h2 h2 h2 h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/design-thinking/what-is-design-thinking/",
+    "/design-thinking/design-principles/",
+    "/design-thinking/research-informed-design-system-usability-findings-component-docs/",
+    "/design-thinking/creative-problem-solving/"
+   ],
+   "latestArticlesOverride": [
+    "/design-thinking/research-informed-design-system-usability-findings-component-docs/",
+    "/design-thinking/what-is-design-thinking/",
+    "/design-thinking/design-principles/",
+    "/design-thinking/creative-problem-solving/",
+    "/design-thinking/double-diamond-model/",
+    "/design-thinking/ideation-techniques/"
+   ]
+  }
+ ],
+ "sidebarCta": {
+  "heading": "Put your users at the center of every decision",
+  "body": "Design thinking teams use Dovetail to organize research, surface insights, and build shared understanding of the people they are designing for.",
+  "button": {
+   "text": "Contact sales",
+   "href": "/contact-sales/"
+  }
+ }
+}

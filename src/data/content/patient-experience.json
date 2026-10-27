@@ -1,0 +1,1728 @@
+{
+ "source": "https://dovetail.com/patient-experience/",
+ "template": "guide-hub",
+ "categoryName": "Patient experience",
+ "hubPath": "/patient-experience/",
+ "pillar": {
+  "h1": "Understanding and improving the patient experience",
+  "pageTitle": "Understand the Patient Experience and How to Improve It",
+  "metaDescription": "Improve the patient experience by implementing these proven tips and strategies.",
+  "meta": [
+   {
+    "label": "Last updated",
+    "values": [
+     {
+      "text": "16 October 2025",
+      "href": null
+     }
+    ]
+   },
+   {
+    "label": "Author",
+    "values": [
+     {
+      "text": "Dovetail Editorial Team",
+      "href": "/contributors/dovetail-editorial-team/"
+     }
+    ]
+   },
+   {
+    "label": "Reviewed by",
+    "values": [
+     {
+      "text": "Brittany Ferri, PhD, OTR/L",
+      "href": "/contributors/brittany-ferri/"
+     }
+    ]
+   }
+  ],
+  "tocItems": 9,
+  "bodyShape": {
+   "chars": 12119,
+   "p": 79,
+   "h2": 6,
+   "h3": 13,
+   "ul": 3,
+   "li": 17
+  },
+  "bodyOrder": "h2 h3 h2 h3 ul h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 ul h3 ul h2 h3 h3 h2"
+ },
+ "editorsPicks": [
+  {
+   "href": "/patient-experience/how-to-design-better-ux-for-physicians/",
+   "title": "How to design better user experiences for physicians",
+   "date": "25 November 2023"
+  },
+  {
+   "href": "/patient-experience/what-is-pii/",
+   "title": "What is personally identifiable information (PII)?",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/patient-experience/what-is-informed-consent/",
+   "title": "What is informed consent?",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/patient-experience/what-is-a-hipaa-violation/",
+   "title": "Understanding HIPAA violations",
+   "date": "11 June 2026"
+  }
+ ],
+ "latestArticles": [
+  {
+   "href": "/patient-experience/what-is-hipaa-compliance/",
+   "title": "What is HIPAA compliance?",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/patient-experience/what-is-a-hipaa-violation/",
+   "title": "Understanding HIPAA violations",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/patient-experience/what-is-informed-consent/",
+   "title": "What is informed consent?",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/patient-experience/what-is-pii/",
+   "title": "What is personally identifiable information (PII)?",
+   "date": "11 June 2026"
+  },
+  {
+   "href": "/patient-experience/how-is-ai-used-in-healthcare/",
+   "title": "Unlocking healthcare's future: AI innovations and insights",
+   "date": "31 January 2024"
+  },
+  {
+   "href": "/patient-experience/guide-to-user-centered-design-in-healthcare/",
+   "title": "A guide to Human-Centered Design in healthcare",
+   "date": "27 January 2024"
+  },
+  {
+   "href": "/patient-experience/how-to-respond-to-negative-patient-reviews/",
+   "title": "How to respond to negative patient reviews",
+   "date": "17 January 2024"
+  },
+  {
+   "href": "/patient-experience/google-ai-creating-ai-solutions-for-healthcare/",
+   "title": "How Google is creating AI solutions for healthcare",
+   "date": "27 November 2023"
+  }
+ ],
+ "relatedTopics": [
+  {
+   "href": "/customer-research/",
+   "text": "Customer research"
+  },
+  {
+   "href": "/design-thinking/",
+   "text": "Design thinking"
+  },
+  {
+   "href": "/employee-experience/",
+   "text": "Employee experience"
+  },
+  {
+   "href": "/enterprise/",
+   "text": "Enterprise"
+  },
+  {
+   "href": "/market-research/",
+   "text": "Market research"
+  },
+  {
+   "href": "/product-development/",
+   "text": "Product development"
+  },
+  {
+   "href": "/product-management/",
+   "text": "Product management"
+  },
+  {
+   "href": "/research-maturity-assessment/",
+   "text": "Research maturity assessment"
+  },
+  {
+   "href": "/research/",
+   "text": "Research methods"
+  },
+  {
+   "href": "/surveys/",
+   "text": "Surveys"
+  },
+  {
+   "href": "/ux/",
+   "text": "User experience (UX)"
+  }
+ ],
+ "allArticlesHeading": "All Patient experience articles",
+ "note": "articles[] = the \"All <category> articles\" A-Z list rendered after the footer on the hub page (order as on site). title = list title; h1 = the article page H1 (can differ). Article pages show the hub editorsPicks/latestArticles unless editorsPicksOverride/latestArticlesOverride (href lists; titles/dates resolvable from articles[] / hub carousels) is set for that article. No thumbnails exist for guide articles. sidebarCta = the desktop sidebar promo shown on every article of this hub (not on the hub pillar page itself).",
+ "routesNotInList": [],
+ "articles": [
+  {
+   "path": "/patient-experience/therapeutic-communication-techniques/",
+   "title": "13 therapeutic communication techniques to improve healthcare",
+   "h1": "13 therapeutic communication techniques to improve healthcare",
+   "lastUpdated": "22 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 35,
+   "bodyShape": {
+    "chars": 13263,
+    "p": 66,
+    "h2": 7,
+    "h3": 28,
+    "ul": 3,
+    "li": 15
+   },
+   "bodyOrder": "h2 h3 h2 ul h3 h2 h3 ul h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/best-healthcare-website-designs/",
+   "title": "7 best healthcare website designs",
+   "h1": "7 best healthcare website designs",
+   "lastUpdated": "11 September 2023",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 14920,
+    "p": 59,
+    "h2": 5,
+    "h3": 18,
+    "ul": 1,
+    "li": 8
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2 h2 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/communication-in-healthcare/",
+   "title": "A guide to effective communication in any healthcare setting",
+   "h1": "A guide to effective communication in any healthcare setting",
+   "lastUpdated": "19 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 23,
+   "bodyShape": {
+    "chars": 9929,
+    "p": 55,
+    "h2": 8,
+    "ul": 6,
+    "li": 23,
+    "h3": 18
+   },
+   "bodyOrder": "h2 ul ul h2 h2 ul h2 h3 h3 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 ul h3 h3 ul h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/guide-to-user-centered-design-in-healthcare/",
+   "title": "A guide to Human-Centered Design in healthcare",
+   "h1": "A guide to Human-Centered Design in healthcare",
+   "lastUpdated": "27 January 2024",
+   "author": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 10,
+   "bodyShape": {
+    "chars": 10541,
+    "p": 28,
+    "h2": 6,
+    "h3": 4,
+    "ul": 2,
+    "li": 12
+   },
+   "bodyOrder": "h2 h2 h2 h3 ul h3 ul h2 h2 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/patient-experience/what-is-hipaa-compliance/",
+    "/patient-experience/what-is-a-hipaa-violation/",
+    "/patient-experience/what-is-informed-consent/",
+    "/patient-experience/what-is-pii/",
+    "/patient-experience/how-is-ai-used-in-healthcare/",
+    "/patient-experience/how-to-respond-to-negative-patient-reviews/",
+    "/patient-experience/google-ai-creating-ai-solutions-for-healthcare/",
+    "/patient-experience/how-to-design-better-ux-for-physicians/"
+   ]
+  },
+  {
+   "path": "/patient-experience/patient-communication/",
+   "title": "A guide to patient-centered communication",
+   "h1": "A guide to patient-centered communication",
+   "lastUpdated": "27 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 9529,
+    "p": 34,
+    "h2": 7,
+    "ul": 2,
+    "li": 10,
+    "h3": 15
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 ul h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/project-management-in-healthcare/",
+   "title": "A guide to project management in healthcare",
+   "h1": "A guide to project management in healthcare",
+   "lastUpdated": "27 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 28,
+   "bodyShape": {
+    "chars": 13893,
+    "p": 42,
+    "h2": 7,
+    "ul": 8,
+    "li": 36,
+    "h3": 21,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h3 ul h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h2 h3 ul h3 ul h3 ul h3 h2 h3 ol h3 ul h3 h3 h2 h3 h3 h3 h3 ul h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/patient-experience-analytics/",
+   "title": "Guide to collecting and understanding patient experience analytics",
+   "h1": "Guide to collecting and understanding patient experience analytics",
+   "lastUpdated": "10 August 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Melissa Udekwu, BSN., RN., LNC",
+    "href": "/contributors/melissa-udekwu-bsn-rn-lnc/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 10104,
+    "p": 32,
+    "h2": 7,
+    "h3": 12,
+    "ul": 6,
+    "li": 25
+   },
+   "bodyOrder": "h2 h2 h3 ul ul h3 ul h2 ul h2 ul h2 h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/delivery-systems-in-healthcare/",
+   "title": "Guide to healthcare delivery systems in the United States",
+   "h1": "Guide to healthcare delivery systems in the United States",
+   "lastUpdated": "31 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 10224,
+    "p": 69,
+    "h2": 5,
+    "h3": 18,
+    "ul": 3,
+    "li": 15
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 ul h2 h3 ul h3 h3 ul h3 h2 h3 h3 h3 h3 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/quality-improvement/",
+   "title": "Guide to quality improvement in healthcare",
+   "h1": "Guide to quality improvement in healthcare",
+   "lastUpdated": "27 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 20,
+   "bodyShape": {
+    "chars": 14332,
+    "p": 46,
+    "h2": 8,
+    "h3": 16,
+    "ul": 3,
+    "li": 16
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 ul h2 ul h2 h3 h3 h3 h3 h3 h2 h3 h3 ul h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/what-is-a-hipaa-compliance-covered-entity/",
+   "title": "HIPAA compliance for covered entities: What you need to know",
+   "h1": "HIPAA compliance for covered entities: What you need to know",
+   "lastUpdated": "25 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Melissa Udekwu, BSN., RN., LNC",
+    "href": "/contributors/melissa-udekwu-bsn-rn-lnc/"
+   },
+   "tocItems": 8,
+   "bodyShape": {
+    "chars": 5970,
+    "p": 28,
+    "h2": 6,
+    "h3": 5,
+    "ul": 6,
+    "li": 39
+   },
+   "bodyOrder": "h2 h2 h3 ul h3 ul ul h3 ul h2 ul h2 ul h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/hipaa-guidelines-for-healthcare-professionals/",
+   "title": "HIPAA guidelines for healthcare professionals",
+   "h1": "HIPAA guidelines for healthcare professionals",
+   "lastUpdated": "24 August 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 21,
+   "bodyShape": {
+    "chars": 12252,
+    "p": 44,
+    "h2": 10,
+    "h3": 11,
+    "ul": 9,
+    "li": 50
+   },
+   "bodyOrder": "h2 h3 ul ul h3 h3 h2 h3 ul ul h3 ul h2 ul ul h2 h3 h3 h2 h3 h3 h3 h3 h2 ul h2 h2 h2 h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/google-ai-creating-ai-solutions-for-healthcare/",
+   "title": "How Google is creating AI solutions for healthcare",
+   "h1": "How Google is creating AI solutions for healthcare",
+   "lastUpdated": "27 November 2023",
+   "author": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 11974,
+    "p": 46,
+    "h2": 6,
+    "h3": 11
+   },
+   "bodyOrder": "h2 h3 h3 h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/patient-experience/what-is-hipaa-compliance/",
+    "/patient-experience/what-is-a-hipaa-violation/",
+    "/patient-experience/what-is-informed-consent/",
+    "/patient-experience/what-is-pii/",
+    "/patient-experience/how-is-ai-used-in-healthcare/",
+    "/patient-experience/guide-to-user-centered-design-in-healthcare/",
+    "/patient-experience/how-to-respond-to-negative-patient-reviews/",
+    "/patient-experience/how-to-design-better-ux-for-physicians/"
+   ]
+  },
+  {
+   "path": "/patient-experience/how-to-apply-design-thinking-in-healthcare/",
+   "title": "How to apply design thinking in healthcare settings",
+   "h1": "How to apply design thinking in healthcare settings",
+   "lastUpdated": "12 October 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 7,
+   "bodyShape": {
+    "chars": 11346,
+    "p": 51,
+    "h2": 7,
+    "ul": 7,
+    "li": 20
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 h2 ul ul ul ul ul ul h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/how-to-design-better-ux-for-physicians/",
+   "title": "How to design better user experiences for physicians",
+   "h1": "How to design better user experiences for physicians",
+   "lastUpdated": "25 November 2023",
+   "author": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 12354,
+    "p": 52,
+    "h2": 3,
+    "h3": 11
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/patient-experience/what-is-pii/",
+    "/patient-experience/what-is-informed-consent/",
+    "/patient-experience/what-is-a-hipaa-violation/",
+    "/patient-experience/what-is-hipaa-compliance/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/patient-satisfaction/",
+   "title": "How to improve patient satisfaction",
+   "h1": "How to improve patient satisfaction",
+   "lastUpdated": "10 August 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Melissa Udekwu, BSN., RN., LNC",
+    "href": "/contributors/melissa-udekwu-bsn-rn-lnc/"
+   },
+   "tocItems": 14,
+   "bodyShape": {
+    "chars": 12119,
+    "p": 42,
+    "h2": 5,
+    "h3": 9,
+    "ul": 2,
+    "li": 16
+   },
+   "bodyOrder": "h2 h3 h2 h2 h3 ul h3 h3 ul h2 h3 h3 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/healthcare-marketing-plan/",
+   "title": "How to make a strategic healthcare marketing plan",
+   "h1": "How to make a strategic healthcare marketing plan",
+   "lastUpdated": "3 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Melissa Udekwu, BSN., RN., LNC",
+    "href": "/contributors/melissa-udekwu-bsn-rn-lnc/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 9730,
+    "p": 68,
+    "h2": 5,
+    "ul": 10,
+    "li": 47,
+    "h3": 19
+   },
+   "bodyOrder": "h2 h2 ul h3 h3 h3 h2 h3 h3 h3 h3 h3 ul h2 h3 ul ul ul h3 ul h3 ul h3 h3 h3 h3 ul h2 h3 h3 ul h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/how-to-respond-to-negative-patient-reviews/",
+   "title": "How to respond to negative patient reviews",
+   "h1": "How to respond to negative patient reviews",
+   "lastUpdated": "17 January 2024",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 17018,
+    "p": 77,
+    "h2": 5,
+    "h3": 17,
+    "ul": 2,
+    "li": 7
+   },
+   "bodyOrder": "h2 h2 h3 h3 ul h3 h3 h3 ul h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/patient-experience/what-is-hipaa-compliance/",
+    "/patient-experience/what-is-a-hipaa-violation/",
+    "/patient-experience/what-is-informed-consent/",
+    "/patient-experience/what-is-pii/",
+    "/patient-experience/how-is-ai-used-in-healthcare/",
+    "/patient-experience/guide-to-user-centered-design-in-healthcare/",
+    "/patient-experience/google-ai-creating-ai-solutions-for-healthcare/",
+    "/patient-experience/how-to-design-better-ux-for-physicians/"
+   ]
+  },
+  {
+   "path": "/patient-experience/how-technology-facilitates-human-centered-design-in-healthcare/",
+   "title": "How UX research facilitates human-centered design in healthcare",
+   "h1": "How UX research facilitates human-centered design in healthcare",
+   "lastUpdated": "16 November 2023",
+   "author": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 14313,
+    "p": 54,
+    "h2": 8,
+    "ol": 2,
+    "li": 24,
+    "ul": 2,
+    "h3": 5
+   },
+   "bodyOrder": "h2 h2 ol h2 ul h2 ul h2 h3 h3 h3 h3 h2 h3 ol h2 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/medical-and-health-services-managers/",
+   "title": "Medical and health services managers: Career 101",
+   "h1": "Medical and health services managers: Career 101",
+   "lastUpdated": "18 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 9761,
+    "p": 46,
+    "h2": 8,
+    "ul": 14,
+    "li": 80,
+    "h3": 13
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h3 ul h2 h2 ul h2 h3 ul h3 ul h3 ul h3 ul h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/patient-experiece-measurement/",
+   "title": "Patient experience measurement: How to collect helpful data",
+   "h1": "Patient experience measurement: How to collect helpful data",
+   "lastUpdated": "22 August 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Melissa Udekwu, BSN., RN., LNC",
+    "href": "/contributors/melissa-udekwu-bsn-rn-lnc/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 12707,
+    "p": 50,
+    "h2": 8,
+    "h3": 15,
+    "ul": 4,
+    "li": 20
+   },
+   "bodyOrder": "h2 h3 h2 ul h3 h3 h3 h3 h3 h2 h3 ul h3 h2 h3 h3 h3 h3 h2 h2 ul h2 h2 h3 h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/patient-journey-definition/",
+   "title": "Patient journey 101: Definition, benefits, and strategies",
+   "h1": "Patient journey 101: Definition, benefits, and strategies",
+   "lastUpdated": "22 August 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Melissa Udekwu, BSN., RN., LNC",
+    "href": "/contributors/melissa-udekwu-bsn-rn-lnc/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 10672,
+    "p": 45,
+    "h2": 4,
+    "h3": 15,
+    "ul": 1,
+    "li": 4
+   },
+   "bodyOrder": "h2 h3 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 ul h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/what-are-patient-outcomes/",
+   "title": "Patient outcomes: overview, measures & ways to improve",
+   "h1": "Patient outcomes: overview, measures & ways to improve",
+   "lastUpdated": "11 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 15228,
+    "p": 84,
+    "h2": 6,
+    "ul": 9,
+    "li": 42,
+    "h3": 24
+   },
+   "bodyOrder": "h2 ul h2 h3 ul h3 h3 h3 h2 h3 ul h3 h3 h3 h3 ul ul h3 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 ul h2 h3 h3 ul h3 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/what-is-phi-vs-pii/",
+   "title": "PHI vs. PII: What’s the difference?",
+   "h1": "PHI vs. PII: What’s the difference?",
+   "lastUpdated": "28 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 9365,
+    "p": 39,
+    "h2": 7,
+    "h3": 9,
+    "ul": 4,
+    "li": 37,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h3 ul h3 ul h2 ul h2 h2 h2 h2 h3 ul h3 h3 h3 h2 h3 ol h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/quality-healthcare/",
+   "title": "Quality healthcare: A complete guide",
+   "h1": "Quality healthcare: A complete guide",
+   "lastUpdated": "8 August 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 10,
+   "bodyShape": {
+    "chars": 12821,
+    "p": 68,
+    "h2": 8,
+    "ul": 9,
+    "li": 43,
+    "h3": 7
+   },
+   "bodyOrder": "h2 h2 ul h2 ul h2 ul h2 h3 h3 ul h3 ul h2 ul ul h2 ul h2 h3 h3 h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/quality-management-in-healthcare/",
+   "title": "Quality management in healthcare",
+   "h1": "Quality management in healthcare",
+   "lastUpdated": "18 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Melissa Udekwu, BSN., RN., LNC",
+    "href": "/contributors/melissa-udekwu-bsn-rn-lnc/"
+   },
+   "tocItems": 32,
+   "bodyShape": {
+    "chars": 11863,
+    "p": 57,
+    "h2": 7,
+    "h3": 25,
+    "ol": 1,
+    "li": 18,
+    "ul": 3
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h3 h2 ol h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 ul h3 ul h3 h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/patient-navigation/",
+   "title": "The role of patient navigation in the changing healthcare landscape",
+   "h1": "The role of patient navigation in the changing healthcare landscape",
+   "lastUpdated": "10 August 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Melissa Udekwu, BSN., RN., LNC",
+    "href": "/contributors/melissa-udekwu-bsn-rn-lnc/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 6931,
+    "p": 26,
+    "h2": 5,
+    "ul": 4,
+    "li": 19,
+    "h3": 6
+   },
+   "bodyOrder": "h2 ul ul h2 h3 h3 h3 h3 ul h2 h3 h3 h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/guide-to-patient-engagement/",
+   "title": "The ultimate guide to patient engagement",
+   "h1": "The ultimate guide to patient engagement",
+   "lastUpdated": "8 August 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 11693,
+    "p": 43,
+    "h2": 4,
+    "h3": 14,
+    "ul": 1,
+    "li": 3
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 h3 h3 ul h3 h3 h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/patient-feedback/",
+   "title": "The ultimate guide to patient feedback",
+   "h1": "The ultimate guide to patient feedback",
+   "lastUpdated": "2 August 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Melissa Udekwu, BSN., RN., LNC",
+    "href": "/contributors/melissa-udekwu-bsn-rn-lnc/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 14368,
+    "p": 93,
+    "h2": 6,
+    "h3": 22,
+    "ul": 7,
+    "li": 30
+   },
+   "bodyOrder": "h2 h3 h3 ul h3 h3 h3 h2 ul h2 h3 ul h3 ul h3 h3 h2 h3 ul h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h2 h3 ul h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/what-is-a-hipaa-violation/",
+   "title": "Understanding HIPAA violations",
+   "h1": "Understanding HIPAA violations",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Melissa Udekwu, BSN., RN., LNC",
+    "href": "/contributors/melissa-udekwu-bsn-rn-lnc/"
+   },
+   "tocItems": 18,
+   "bodyShape": {
+    "chars": 13361,
+    "p": 39,
+    "h2": 11,
+    "ul": 3,
+    "li": 27,
+    "h3": 13,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 h3 h3 h3 h2 ol h2 h2 h3 ul h3 ul h2 h3 h2 h2 h2 h3 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/patient-experience/how-to-design-better-ux-for-physicians/",
+    "/patient-experience/what-is-pii/",
+    "/patient-experience/what-is-informed-consent/",
+    "/patient-experience/what-is-hipaa-compliance/"
+   ],
+   "latestArticlesOverride": [
+    "/patient-experience/what-is-hipaa-compliance/",
+    "/patient-experience/what-is-informed-consent/",
+    "/patient-experience/what-is-pii/",
+    "/patient-experience/how-is-ai-used-in-healthcare/",
+    "/patient-experience/guide-to-user-centered-design-in-healthcare/",
+    "/patient-experience/how-to-respond-to-negative-patient-reviews/",
+    "/patient-experience/google-ai-creating-ai-solutions-for-healthcare/",
+    "/patient-experience/how-to-design-better-ux-for-physicians/"
+   ]
+  },
+  {
+   "path": "/patient-experience/how-is-ai-used-in-healthcare/",
+   "title": "Unlocking healthcare's future: AI innovations and insights",
+   "h1": "Unlocking healthcare's future: AI innovations and insights",
+   "lastUpdated": "31 January 2024",
+   "author": {
+    "name": "Chloe Garnham",
+    "href": "/contributors/chloe-garnham/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 10,
+   "bodyShape": {
+    "chars": 18598,
+    "p": 45,
+    "h2": 7,
+    "ul": 5,
+    "li": 33,
+    "h3": 3,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 ul h2 h3 ul h3 ul h3 ul h2 ol h2 h2 ul h2",
+   "editorsPicksOverride": [
+    "/patient-experience/what-is-pii/",
+    "/patient-experience/what-is-informed-consent/",
+    "/patient-experience/what-is-a-hipaa-violation/",
+    "/patient-experience/what-is-hipaa-compliance/"
+   ],
+   "latestArticlesOverride": [
+    "/patient-experience/what-is-hipaa-compliance/",
+    "/patient-experience/what-is-a-hipaa-violation/",
+    "/patient-experience/what-is-informed-consent/",
+    "/patient-experience/what-is-pii/",
+    "/patient-experience/guide-to-user-centered-design-in-healthcare/",
+    "/patient-experience/how-to-respond-to-negative-patient-reviews/",
+    "/patient-experience/google-ai-creating-ai-solutions-for-healthcare/",
+    "/patient-experience/how-to-design-better-ux-for-physicians/"
+   ]
+  },
+  {
+   "path": "/patient-experience/what-are-patient-preferences/",
+   "title": "What are patient preferences, and why are they important?",
+   "h1": "What are patient preferences, and why are they important?",
+   "lastUpdated": "5 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Melissa Udekwu, BSN., RN., LNC",
+    "href": "/contributors/melissa-udekwu-bsn-rn-lnc/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 9528,
+    "p": 49,
+    "h2": 7,
+    "ul": 5,
+    "li": 23,
+    "h3": 17
+   },
+   "bodyOrder": "h2 h2 ul ul ul ul h2 h2 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2 h3 h3 h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/quality-measures-in-healthcare/",
+   "title": "What are quality measures in healthcare?",
+   "h1": "What are quality measures in healthcare?",
+   "lastUpdated": "25 November 2023",
+   "author": {
+    "name": "Claire Bonneau",
+    "href": "/contributors/claire-bonneau/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 6862,
+    "p": 26,
+    "h2": 5,
+    "ul": 4,
+    "li": 16,
+    "h3": 11
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h3 h2 h3 h3 h3 h3 h2 h3 ul h3 ul h3 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/what-are-hipaa-identifiers/",
+   "title": "What are the 18 HIPAA identifiers?",
+   "h1": "What are the 18 HIPAA identifiers?",
+   "lastUpdated": "16 November 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Melissa Udekwu, BSN., RN., LNC",
+    "href": "/contributors/melissa-udekwu-bsn-rn-lnc/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 7139,
+    "p": 35,
+    "h2": 5,
+    "h3": 21,
+    "ul": 1,
+    "li": 5
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 ul h2 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/what-are-the-three-main-rules-of-hipaa/",
+   "title": "What are the three main rules of HIPAA?",
+   "h1": "What are the three main rules of HIPAA?",
+   "lastUpdated": "13 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 8213,
+    "p": 34,
+    "ol": 1,
+    "li": 34,
+    "h2": 7,
+    "ul": 7,
+    "h3": 14
+   },
+   "bodyOrder": "ol h2 ul h3 h3 ul h3 ul h2 ul h3 ul h3 h3 ul h2 h3 h3 h3 h2 h2 h2 ul h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/what-is-phi/",
+   "title": "What counts as PHI under HIPAA?",
+   "h1": "What counts as PHI under HIPAA?",
+   "lastUpdated": "23 August 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 9,
+   "bodyShape": {
+    "chars": 5437,
+    "p": 24,
+    "h2": 4,
+    "h3": 5,
+    "ol": 1,
+    "li": 14,
+    "ul": 3
+   },
+   "bodyOrder": "h2 h3 h3 h3 ol ul h3 ul h2 h3 h2 h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/access-to-healthcare/",
+   "title": "What does ‘access to healthcare’ mean?",
+   "h1": "What does ‘access to healthcare’ mean?",
+   "lastUpdated": "27 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 7,
+   "bodyShape": {
+    "chars": 11230,
+    "p": 27,
+    "h2": 5,
+    "ul": 4,
+    "li": 50,
+    "h3": 5,
+    "ol": 2
+   },
+   "bodyOrder": "h2 ul h2 h3 ol h3 ul h3 ul h2 ul h2 h2 h3 h3 ol",
+   "editorsPicksOverride": [
+    "/patient-experience/what-is-informed-consent/",
+    "/patient-experience/what-is-a-hipaa-violation/",
+    "/patient-experience/what-is-hipaa-compliance/",
+    "/patient-experience/what-is-phi/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/hipaa-violation-penalties/",
+   "title": "What is a HIPAA violation, and what happens if you commit one?",
+   "h1": "What is a HIPAA violation, and what happens if you commit one?",
+   "lastUpdated": "10 October 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 15,
+   "bodyShape": {
+    "chars": 12648,
+    "p": 41,
+    "h2": 8,
+    "h3": 10,
+    "ul": 7,
+    "li": 39
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h3 h2 ul h2 ul ul h3 h2 ul h2 h3 ul h3 ul h2 ul h2 h2 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/cqi/",
+   "title": "What is continuous quality improvement?",
+   "h1": "What is continuous quality improvement?",
+   "lastUpdated": "14 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Melissa Udekwu, BSN., RN., LNC",
+    "href": "/contributors/melissa-udekwu-bsn-rn-lnc/"
+   },
+   "tocItems": 8,
+   "bodyShape": {
+    "chars": 9599,
+    "p": 30,
+    "h2": 5,
+    "ul": 4,
+    "li": 45,
+    "h3": 8
+   },
+   "bodyOrder": "h2 h2 ul h2 h2 h3 h3 h3 h3 h2 h3 ul h3 ul h3 h3 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/customer-experience-in-healthcare/",
+   "title": "What is customer experience in healthcare?",
+   "h1": "What is customer experience in healthcare?",
+   "lastUpdated": "19 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 22,
+   "bodyShape": {
+    "chars": 12228,
+    "p": 62,
+    "h2": 8,
+    "ul": 3,
+    "li": 19,
+    "h3": 18
+   },
+   "bodyOrder": "h2 h2 h2 ul h2 h3 h3 ul h3 h3 h3 h3 h2 ul h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/communication-in-nursing/",
+   "title": "What is effective communication in nursing?",
+   "h1": "What is effective communication in nursing?",
+   "lastUpdated": "27 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Melissa Udekwu, BSN., RN., LNC",
+    "href": "/contributors/melissa-udekwu-bsn-rn-lnc/"
+   },
+   "tocItems": 19,
+   "bodyShape": {
+    "chars": 10764,
+    "p": 48,
+    "h2": 6,
+    "ul": 5,
+    "li": 18,
+    "h3": 13
+   },
+   "bodyOrder": "h2 ul h2 ul h2 h2 ul h2 h3 h3 h3 h3 h3 h3 ul h3 h3 h3 h3 ul h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/what-is-ephi/",
+   "title": "What is ePHI?",
+   "h1": "What is ePHI?",
+   "lastUpdated": "5 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Melissa Udekwu, BSN., RN., LNC",
+    "href": "/contributors/melissa-udekwu-bsn-rn-lnc/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 5057,
+    "p": 23,
+    "h2": 4,
+    "ul": 3,
+    "li": 17,
+    "h3": 9
+   },
+   "bodyOrder": "h2 ul h2 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 ul h2 ul",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/health-equity-definition/",
+   "title": "What is health equity?",
+   "h1": "What is health equity?",
+   "lastUpdated": "27 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 6554,
+    "p": 37,
+    "h2": 5,
+    "h3": 12,
+    "ul": 3,
+    "li": 20,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h3 h3 ul h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 ul h3 h2 ol h2 h2 ul",
+   "editorsPicksOverride": [
+    "/patient-experience/what-is-informed-consent/",
+    "/patient-experience/what-is-a-hipaa-violation/",
+    "/patient-experience/what-is-hipaa-compliance/",
+    "/patient-experience/what-is-phi/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/healthcare-management/",
+   "title": "What is healthcare management?",
+   "h1": "What is healthcare management?",
+   "lastUpdated": "18 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 10148,
+    "p": 54,
+    "h2": 6,
+    "ul": 5,
+    "li": 38,
+    "h3": 23
+   },
+   "bodyOrder": "h2 ul h2 ul ul h2 ul h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 ul h3 h3 h2 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/patient-experience/what-is-informed-consent/",
+    "/patient-experience/what-is-a-hipaa-violation/",
+    "/patient-experience/what-is-hipaa-compliance/",
+    "/patient-experience/what-is-phi/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/healthcare-marketing/",
+   "title": "What is healthcare marketing?",
+   "h1": "What is healthcare marketing?",
+   "lastUpdated": "29 June 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Melissa Udekwu, BSN., RN., LNC",
+    "href": "/contributors/melissa-udekwu-bsn-rn-lnc/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 12905,
+    "p": 50,
+    "ul": 4,
+    "li": 14,
+    "h2": 5,
+    "h3": 18
+   },
+   "bodyOrder": "ul h2 ul h2 h3 h3 h3 h3 h3 h3 h3 h2 h2 h3 ul ul h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/patient-experience/what-is-informed-consent/",
+    "/patient-experience/what-is-a-hipaa-violation/",
+    "/patient-experience/what-is-hipaa-compliance/",
+    "/patient-experience/what-is-phi/"
+   ],
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/what-is-hipaa-compliance/",
+   "title": "What is HIPAA compliance?",
+   "h1": "What is HIPAA compliance?",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 13,
+   "bodyShape": {
+    "chars": 7563,
+    "p": 28,
+    "h2": 6,
+    "h3": 12,
+    "ol": 1,
+    "li": 25,
+    "ul": 5
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h2 h3 ol ul h3 ul h3 h3 ul h3 ul h2 h2 ul h2 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": [
+    "/patient-experience/what-is-a-hipaa-violation/",
+    "/patient-experience/what-is-informed-consent/",
+    "/patient-experience/what-is-pii/",
+    "/patient-experience/how-is-ai-used-in-healthcare/",
+    "/patient-experience/guide-to-user-centered-design-in-healthcare/",
+    "/patient-experience/how-to-respond-to-negative-patient-reviews/",
+    "/patient-experience/google-ai-creating-ai-solutions-for-healthcare/",
+    "/patient-experience/how-to-design-better-ux-for-physicians/"
+   ]
+  },
+  {
+   "path": "/patient-experience/what-is-hipaa/",
+   "title": "What is HIPAA? A comprehensive guide",
+   "h1": "What is HIPAA? A comprehensive guide",
+   "lastUpdated": "23 August 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 17,
+   "bodyShape": {
+    "chars": 12457,
+    "p": 44,
+    "h2": 8,
+    "ul": 7,
+    "li": 46,
+    "h3": 13,
+    "ol": 1
+   },
+   "bodyOrder": "h2 ul h2 ul h2 ul h2 h3 h3 h3 h3 h3 ul ol h2 h2 ul ul h2 h3 h3 h3 h3 h3 h2 h3 h3 ul h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/what-is-informed-consent/",
+   "title": "What is informed consent?",
+   "h1": "What is informed consent?",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 7,
+   "bodyShape": {
+    "chars": 7785,
+    "p": 28,
+    "h2": 5,
+    "ul": 6,
+    "li": 22,
+    "h3": 9
+   },
+   "bodyOrder": "h2 ul h2 ul h2 ul h2 h3 ul h3 ul h3 ul h2 h3 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": [
+    "/patient-experience/how-to-design-better-ux-for-physicians/",
+    "/patient-experience/what-is-pii/",
+    "/patient-experience/what-is-a-hipaa-violation/",
+    "/patient-experience/what-is-hipaa-compliance/"
+   ],
+   "latestArticlesOverride": [
+    "/patient-experience/what-is-hipaa-compliance/",
+    "/patient-experience/what-is-a-hipaa-violation/",
+    "/patient-experience/what-is-pii/",
+    "/patient-experience/how-is-ai-used-in-healthcare/",
+    "/patient-experience/guide-to-user-centered-design-in-healthcare/",
+    "/patient-experience/how-to-respond-to-negative-patient-reviews/",
+    "/patient-experience/google-ai-creating-ai-solutions-for-healthcare/",
+    "/patient-experience/how-to-design-better-ux-for-physicians/"
+   ]
+  },
+  {
+   "path": "/patient-experience/patient-advocacy/",
+   "title": "What is patient advocacy, and why is it important?",
+   "h1": "What is patient advocacy, and why is it important?",
+   "lastUpdated": "2 August 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 11,
+   "bodyShape": {
+    "chars": 10695,
+    "p": 39,
+    "h2": 6,
+    "ul": 4,
+    "li": 23,
+    "h3": 9,
+    "ol": 1
+   },
+   "bodyOrder": "h2 h2 h2 h2 ul h2 h3 h3 h3 ul ul h3 h3 ul h3 h2 h3 ol h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/what-is-patient-care-coordination/",
+   "title": "What is patient care coordination?",
+   "h1": "What is patient care coordination?",
+   "lastUpdated": "19 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Melissa Udekwu, BSN., RN., LNC",
+    "href": "/contributors/melissa-udekwu-bsn-rn-lnc/"
+   },
+   "tocItems": 7,
+   "bodyShape": {
+    "chars": 8537,
+    "p": 26,
+    "h2": 6,
+    "h3": 1,
+    "ul": 3,
+    "li": 18
+   },
+   "bodyOrder": "h2 h3 h2 ul h2 ul h2 h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/what-is-patient-empowerment/",
+   "title": "What is patient empowerment?",
+   "h1": "What is patient empowerment?",
+   "lastUpdated": "16 August 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 16,
+   "bodyShape": {
+    "chars": 7791,
+    "p": 35,
+    "h2": 5,
+    "h3": 11,
+    "ul": 2,
+    "li": 8
+   },
+   "bodyOrder": "h2 h2 h3 h3 h3 h3 h2 ul ul h3 h3 h2 h2 h3 h3 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/patient-centered-care/",
+   "title": "What is patient-centered care?",
+   "h1": "What is patient-centered care?",
+   "lastUpdated": "19 July 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 24,
+   "bodyShape": {
+    "chars": 12871,
+    "p": 70,
+    "h2": 7,
+    "ul": 7,
+    "li": 34,
+    "h3": 21
+   },
+   "bodyOrder": "h2 ul ul h3 h2 ul h2 h3 h3 h3 h3 h3 ul h2 h3 h3 h3 h3 h3 h3 h3 ul h3 ul h2 h3 h3 h3 h3 h2 ul h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/what-is-patient-centered-design-in-healthcare/",
+   "title": "What is patient-centered design in healthcare?",
+   "h1": "What is patient-centered design in healthcare?",
+   "lastUpdated": "12 October 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Miroslav Damyanov",
+    "href": "/contributors/miroslav-damyanov/"
+   },
+   "tocItems": 28,
+   "bodyShape": {
+    "chars": 8488,
+    "p": 41,
+    "h2": 6,
+    "h3": 26,
+    "ul": 2,
+    "li": 9
+   },
+   "bodyOrder": "h2 h2 h3 ul h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 h3 h3 h2 h2 h3 ul h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/what-is-pii/",
+   "title": "What is personally identifiable information (PII)?",
+   "h1": "What is personally identifiable information (PII)?",
+   "lastUpdated": "11 June 2026",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Brittany Ferri, PhD, OTR/L",
+    "href": "/contributors/brittany-ferri/"
+   },
+   "tocItems": 12,
+   "bodyShape": {
+    "chars": 8178,
+    "p": 35,
+    "h2": 8,
+    "ul": 3,
+    "li": 12,
+    "h3": 9
+   },
+   "bodyOrder": "h2 h2 h2 h2 ul h2 h2 h2 h3 h3 h3 h3 h3 h2 h3 ul h3 ul h3 h3",
+   "editorsPicksOverride": [
+    "/patient-experience/how-to-design-better-ux-for-physicians/",
+    "/patient-experience/what-is-informed-consent/",
+    "/patient-experience/what-is-a-hipaa-violation/",
+    "/patient-experience/what-is-hipaa-compliance/"
+   ],
+   "latestArticlesOverride": [
+    "/patient-experience/what-is-hipaa-compliance/",
+    "/patient-experience/what-is-a-hipaa-violation/",
+    "/patient-experience/what-is-informed-consent/",
+    "/patient-experience/how-is-ai-used-in-healthcare/",
+    "/patient-experience/guide-to-user-centered-design-in-healthcare/",
+    "/patient-experience/how-to-respond-to-negative-patient-reviews/",
+    "/patient-experience/google-ai-creating-ai-solutions-for-healthcare/",
+    "/patient-experience/how-to-design-better-ux-for-physicians/"
+   ]
+  },
+  {
+   "path": "/patient-experience/who-enforces-hipaa-privacy-and-security-rules/",
+   "title": "Who enforces HIPAA regulations?",
+   "h1": "Who enforces HIPAA regulations?",
+   "lastUpdated": "14 November 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Melissa Udekwu, BSN., RN., LNC",
+    "href": "/contributors/melissa-udekwu-bsn-rn-lnc/"
+   },
+   "tocItems": 9,
+   "bodyShape": {
+    "chars": 6009,
+    "p": 35,
+    "h2": 4,
+    "h3": 9,
+    "ul": 2,
+    "li": 19
+   },
+   "bodyOrder": "h2 h3 h3 h3 ul h2 ul h3 h3 h3 h2 h2 h3 h3 h3",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  },
+  {
+   "path": "/patient-experience/why-is-human-centered-design-in-healthcare-so-important/",
+   "title": "Why is human-centered design in healthcare so important?",
+   "h1": "Why is human-centered design in healthcare so important?",
+   "lastUpdated": "25 September 2023",
+   "author": {
+    "name": "Dovetail Editorial Team",
+    "href": "/contributors/dovetail-editorial-team/"
+   },
+   "reviewer": {
+    "name": "Jean Kaluza",
+    "href": "/contributors/jean-kaluza/"
+   },
+   "tocItems": 9,
+   "bodyShape": {
+    "chars": 8965,
+    "p": 46,
+    "h2": 5,
+    "h3": 4,
+    "ul": 3,
+    "li": 11
+   },
+   "bodyOrder": "h2 h3 h3 h3 h3 h2 ul h2 ul h2 ul h2",
+   "editorsPicksOverride": null,
+   "latestArticlesOverride": null
+  }
+ ],
+ "sidebarCta": {
+  "heading": "Uncover patient experience insights",
+  "body": "Use Dovetail to analyze patient data and uncover insights for a complete view of your organization's patient experience.",
+  "button": {
+   "text": "Contact sales",
+   "href": "/contact-sales/"
+  }
+ }
+}

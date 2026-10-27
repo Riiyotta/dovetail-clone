@@ -1,0 +1,774 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T8",
+ "route": "/dovetail-vs-usertesting/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail vs UserTesting: from studies to always-on AI"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.comparison",
+   "variant": "default",
+   "content": {
+    "heading": "From scheduled studies to always-on customer intelligence",
+    "lead": "Placeholder copy for this section. Supporting detail would follow here, written in plain language. The real text is intentionally not reproduced in this clone. Sample sentence to fill the remaining space. Additional placeholder words keep the line lengths realistic. Replace with approved copy before publishing. More filler text appears here. This text stands in for the original description and is used for layout.",
+    "actions": [
+     {
+      "label": "Start a 60-day free trial",
+      "href": "#trial-cta"
+     },
+     {
+      "label": "Get a migration plan",
+      "href": "/contact-sales/migration-plan/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.hero"
+   }
+  },
+  {
+   "section": "content.full-bleed-image",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Dovetail search and AI analysis across customer channels",
+      "ref": "/assets/tools/Centralize_fragmented_data.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.hero"
+   }
+  },
+  {
+   "section": "social-proof.logo-marquee",
+   "variant": "single-row",
+   "content": {
+    "lead": "CONNECTING THE WORLD'S LEADING TEAMS TO THEIR CUSTOMERS",
+    "media": [
+     {
+      "assetRole": "customer.logo",
+      "alt": "Breville",
+      "ref": "/assets/white-logo(3).svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Atlassian",
+      "ref": "/assets/marketing/customer-atlassian-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Notion",
+      "ref": "/assets/marketing/customer-notion-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Okta",
+      "ref": "/assets/white-logo(1).svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "AWS",
+      "ref": "/assets/marketing/customer-aws-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Toyota",
+      "ref": "/assets/marketing/customer-toyota-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Qantas",
+      "ref": "/assets/marketing/customer-qantas-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "NCRVoyix",
+      "ref": "/assets/marketing/customer-ncrvoyix-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Breville",
+      "ref": "/assets/white-logo(3).svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Atlassian",
+      "ref": "/assets/marketing/customer-atlassian-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Notion",
+      "ref": "/assets/marketing/customer-notion-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Okta",
+      "ref": "/assets/white-logo(1).svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "AWS",
+      "ref": "/assets/marketing/customer-aws-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Toyota",
+      "ref": "/assets/marketing/customer-toyota-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Qantas",
+      "ref": "/assets/marketing/customer-qantas-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "NCRVoyix",
+      "ref": "/assets/marketing/customer-ncrvoyix-white-logo.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "marquee.loop",
+    "reducedMotionFallback": "paused"
+   },
+   "style": {
+    "spaceBefore": "space.section.s160"
+   }
+  },
+  {
+   "section": "content.split-intro",
+   "variant": "default",
+   "content": {
+    "heading": "The research you commission is one signal. Your customers send hundreds more every day.",
+    "lead": "Placeholder copy for this section. More filler text appears here. This text stands in for the original description and is used for layout only. It approximates the length of the real paragraph without repeating its wording.",
+    "actions": [
+     {
+      "label": "Start a 60-day free trial",
+      "href": "#trial-cta"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/contact-sales/"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Continuous AI analysis of customer channels in Dovetail",
+      "ref": "/assets/tools/continuous_AI_analysis-4.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s160"
+   }
+  },
+  {
+   "section": "social-proof.tei-card",
+   "variant": "banner",
+   "content": {
+    "lead": "PROVEN BUSINESS IMPACT",
+    "actions": [
+     {
+      "label": "Download the Forrester Total Economic Impact™ Study →",
+      "href": "/resources/industry-reports/2025-forrester-TEI-of-Dovetail/"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "analyst.mark",
+      "alt": "The Total Economic Impact of Dovetail—Forrester study",
+      "ref": "/assets/tools/forrester-tei-module.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s160"
+   }
+  },
+  {
+   "section": "social-proof.testimonial",
+   "variant": "featured",
+   "content": {
+    "quote": {
+     "text": "“Placeholder quote. This stand-in text only matches the approximate length of the original testimonial. Replace it with the approved quote before publishing. More placeholder words fill the remaining space.”"
+    },
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/testimonial-grid-bg.png.png"
+     },
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti-4.png"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Achievers",
+      "ref": "/assets/marketing/customer-achievers-white-logo.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "cursor.tooltip",
+    "reducedMotionFallback": "unchanged"
+   },
+   "style": {
+    "spaceBefore": "space.section.s160"
+   }
+  },
+  {
+   "section": "features.choose-grid",
+   "variant": "default",
+   "content": {
+    "heading": "Choose Dovetail when evidence needs to move beyond research",
+    "lead": "Placeholder copy for this section. Additional placeholder words keep the line lengths realistic. Replace with approved copy before publishing. More filler text appears here.",
+    "actions": [
+     {
+      "label": "Start a 60-day free trial",
+      "href": "#trial-cta"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/contact-sales/"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/tools/Choose_dovetail_1.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/tools/Choose_dovetail_2.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/tools/Choose_dovetail_3.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/tools/Choose_dovetail_4.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/tools/Choose_dovetail_5.png"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/tools/Choose_dovetail_6.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s160"
+   }
+  },
+  {
+   "section": "comparison.intro",
+   "variant": "default",
+   "content": {
+    "heading": "How Dovetail compares to UserTesting",
+    "lead": "Placeholder copy for this section. Supporting detail would follow here, written in plain language. The real text is intentionally not reproduced in this clone. Sample sentence to fill the remaining space. Additional placeholder words keep the line lengths realistic. Replace with approved copy before publishing. More filler text appears here."
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s160"
+   }
+  },
+  {
+   "section": "comparison.table",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "AI summaries with evidence links"
+     },
+     {
+      "title": "Natural-language search over research",
+      "text": "Limited to UserTesting study data"
+     },
+     {
+      "title": "Research repository",
+      "text": "Via Insights Hub and separate EnjoyHQ product"
+     },
+     {
+      "title": "Ingest support tickets, sales calls, and NPS",
+      "text": "Tickets and NPS via separate EnjoyHQ"
+     },
+     {
+      "title": "AI agents that monitor feedback and trigger actions",
+      "text": "Study-creation agents only"
+     },
+     {
+      "title": "AI-generated docs with citations (PRDs, VoC reports)",
+      "text": "Not offered"
+     },
+     {
+      "title": "Free plan",
+      "text": "Trial only"
+     },
+     {
+      "title": "SOC 2 Type II"
+     },
+     {
+      "title": "ISO 27001"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s64"
+   }
+  },
+  {
+   "section": "social-proof.awards-marquee",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Buyer's choice award TRUST RADIUS, 2026",
+      "media": {
+       "assetRole": "rating.badge",
+       "alt": "",
+       "ref": "/assets/tools/buyer-s-choice-2026-flat.svg"
+      }
+     },
+     {
+      "title": "Category Leader GETAPP'S CATEGORY LEADERS 2025",
+      "media": {
+       "assetRole": "rating.badge",
+       "alt": "",
+       "ref": "/assets/tools/getapp-category-leader.svg"
+      }
+     },
+     {
+      "title": "Top UX Research Product PRODDY AWARDS BY PRODUCT SCHOOL",
+      "media": {
+       "assetRole": "rating.badge",
+       "alt": "",
+       "ref": "/assets/tools/Group_427321620.svg"
+      }
+     },
+     {
+      "title": "High Performer G2, SUMMER 2026",
+      "media": {
+       "assetRole": "rating.badge",
+       "alt": "",
+       "ref": "/assets/tools/g2-high-performer-enterprise-summer-2026.png"
+      }
+     },
+     {
+      "title": "Tech Cares TRUST RADIUS, 2026",
+      "media": {
+       "assetRole": "rating.badge",
+       "alt": "",
+       "ref": "/assets/tools/tech-cares-2026-flat.webp"
+      }
+     },
+     {
+      "title": "Tech Cares TRUST RADIUS, 2025",
+      "media": {
+       "assetRole": "rating.badge",
+       "alt": "",
+       "ref": "/assets/tools/tech-cares-2025-gradient_1.svg"
+      }
+     },
+     {
+      "title": "Momentum Leader G2, SUMMER 2026",
+      "media": {
+       "assetRole": "rating.badge",
+       "alt": "",
+       "ref": "/assets/tools/g2-momentum-leader-summer-2026.png"
+      }
+     },
+     {
+      "title": "Top Rated TRUST RADIUS, 2026",
+      "media": {
+       "assetRole": "rating.badge",
+       "alt": "",
+       "ref": "/assets/tools/top-rated-2026-flat.png"
+      }
+     },
+     {
+      "title": "Leader G2, SUMMER 2026",
+      "media": {
+       "assetRole": "rating.badge",
+       "alt": "",
+       "ref": "/assets/tools/g2-leader-summer-2026.png"
+      }
+     },
+     {
+      "title": "Best Relationship G2, SUMMER 2026",
+      "media": {
+       "assetRole": "rating.badge",
+       "alt": "",
+       "ref": "/assets/tools/g2-best-relationship-summer-2026.png"
+      }
+     },
+     {
+      "title": "Best Estimated ROI G2, SUMMER 2026",
+      "media": {
+       "assetRole": "rating.badge",
+       "alt": "",
+       "ref": "/assets/tools/g2-best-roi-summer-2026.png"
+      }
+     },
+     {
+      "title": "Fastest Implementation G2, SUMMER 2026",
+      "media": {
+       "assetRole": "rating.badge",
+       "alt": "",
+       "ref": "/assets/tools/g2-fastest-implementation-summer-2026.png"
+      }
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/tools/buyer-s-choice-2026-flat.svg"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/tools/getapp-category-leader.svg"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/tools/Group_427321620.svg"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/tools/g2-high-performer-enterprise-summer-2026.png"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/tools/tech-cares-2026-flat.webp"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/tools/tech-cares-2025-gradient_1.svg"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/tools/g2-momentum-leader-summer-2026.png"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/tools/top-rated-2026-flat.png"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/tools/g2-leader-summer-2026.png"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/tools/g2-best-relationship-summer-2026.png"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/tools/g2-best-roi-summer-2026.png"
+     },
+     {
+      "assetRole": "rating.badge",
+      "alt": "",
+      "ref": "/assets/tools/g2-fastest-implementation-summer-2026.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "marquee.loop",
+    "reducedMotionFallback": "paused"
+   },
+   "style": {
+    "spaceBefore": "space.section.hero"
+   }
+  },
+  {
+   "section": "cta.migrate-band",
+   "variant": "default",
+   "content": {
+    "heading": "Migrate your customer evidence to Dovetail",
+    "lead": "Placeholder copy for this section. Sample sentence to fill the remaining space. Additional placeholder words keep the line lengths realistic. Replace with approved copy before publishing. More filler text appears here. This text stands in for the original description and.",
+    "actions": [
+     {
+      "label": "Start a 60-day free trial",
+      "href": "#trial-cta"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/contact-sales/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s160"
+   }
+  },
+  {
+   "section": "cta.trial-band",
+   "variant": "comparison",
+   "content": {
+    "heading": "Turn every customer signal into intelligence",
+    "lead": "Placeholder copy for this section. Replace with approved copy before publishing. More filler text appears here. This text stands in for the original description and is used for layout only.",
+    "actions": [
+     {
+      "label": "Start a 60-day free trial",
+      "href": "/auth/signup?promo=ENTERPRISE_SOLUTIONS_2026_D60"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/contact-sales/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "interactive.faq",
+   "variant": "tools",
+   "content": {
+    "heading": "FAQs",
+    "items": [
+     {
+      "title": "Can Dovetail replace UserTesting?",
+      "text": "Placeholder copy for this section. Additional placeholder words keep the line lengths realistic. Replace with approved copy before publishing. More filler text appears here. This text stands in for the original."
+     },
+     {
+      "title": "How does Dovetail compare to UserTesting’s participant panel and video-based usability testing?",
+      "text": "Placeholder copy for this section. Replace with approved copy before publishing. More filler text appears here. This text stands in for the original description and is used for layout only. It approximates the length of the real."
+     },
+     {
+      "title": "Can I migrate my studies and recordings from UserTesting to Dovetail?",
+      "text": "Placeholder copy for this section. The real text is intentionally not reproduced in this clone. Sample sentence to fill the remaining space. Additional placeholder words keep the line lengths realistic. Replace with approved copy before publishing. More filler text appears here."
+     },
+     {
+      "title": "How does Dovetail connect usability studies to everything else customers say?",
+      "text": "Placeholder copy for this section. Sample sentence to fill the remaining space. Additional placeholder words keep the line lengths realistic. Replace with approved copy before publishing. More filler text appears here. This text stands in for the original description and is used for layout only."
+     },
+     {
+      "title": "Can I get answers about a customer without commissioning a new study?",
+      "text": "Placeholder copy for this section. Final copy would explain the point in a sentence or two. Supporting detail would follow here, written in plain language. The real text is intentionally not reproduced in this clone. Sample sentence to fill the remaining space."
+     },
+     {
+      "title": "How long does it take to get started with Dovetail?",
+      "text": "Placeholder copy for this section. Supporting detail would follow here, written in plain language. The real text is intentionally not reproduced in this clone. Sample sentence to fill the remaining space."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "accordion.height",
+    "reducedMotionFallback": "instant-toggle"
+   },
+   "style": {
+    "spaceBefore": "space.section.s160"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

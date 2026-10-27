@@ -1,0 +1,166 @@
+/* Roles template — specs/roles.md */
+
+/* ---- 1. RoleHero (eb5iodx*) ---- */
+.rh { position: relative; margin-top: -88px; }
+.rh__pic { display: block; }
+@media (max-width: 799px) { .rh__pic { display: none; } }
+.rh__img { display: block; width: 1512px; max-width: 100%; height: auto; aspect-ratio: 3024 / 1800; margin-left: auto; margin-right: auto; }
+.rh__overlay { position: absolute; top: 0; left: 0; right: 0; padding-top: 184px; }
+@media (max-width: 1280px) { .rh__overlay { padding-top: 112px; } }
+@media (max-width: 799px) { .rh__overlay { position: relative; top: auto; left: auto; right: auto; padding-top: 112px; padding-bottom: 48px; } }
+.rh__grid { row-gap: 0; }
+@media (max-width: 799px) { .rh__grid { row-gap: 32px; } }
+.rh__text { grid-column: span 7; }
+@media (max-width: 1280px) { .rh__text { grid-column: span 12; } }
+@media (max-width: 799px) { .rh__text { grid-column: 1 / -1; } }
+/* No max-width: 682 at 1440 is the span-7 column width (live h1 is 1152 at 1280, 736 at 768) */
+.rh__h1 { font-weight: 600; letter-spacing: -2px; font-size: 56px; line-height: 60px; margin-bottom: 0; color: #FFFFFF; }
+@media (max-width: 1280px) { .rh__h1 { font-size: 40px; line-height: 44px; letter-spacing: -1px; } }
+@media (max-width: 799px) { .rh__h1 { font-size: 32px; line-height: 36px; letter-spacing: -0.25px; } }
+.rh__logos-col { grid-column: 8 / -1; display: flex; align-items: flex-end; justify-content: flex-end; }
+@media (max-width: 1280px) { .rh__logos-col { grid-column: span 7; display: block; align-items: flex-start; justify-content: flex-start; } }
+@media (max-width: 799px) { .rh__logos-col { grid-column: 1 / -1; display: block; } }
+.rh__logos { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 32px; }
+@media (max-width: 1280px) { .rh__logos { justify-content: flex-start; } }
+.rh__logo { height: 32px; width: auto; display: block; opacity: .64; transition: opacity 350ms; }
+.rh__logo.is-hidden { opacity: 0; }
+.rh__mobile { display: none; }
+@media (max-width: 799px) { .rh__mobile { display: block; width: 100%; height: auto; } }
+
+/* ---- 2. Challenge (e1qa43fr*) ---- */
+/* SliceGrid nested in SliceContainer: padding doubles (measured p at x329 / 781 wide @1440) */
+.ch__col { grid-column: 2 / span 10; }
+@media (max-width: 1280px) { .ch__col { grid-column: 1 / -1; } }
+.ch__p { font-size: 40px; font-weight: 500; letter-spacing: -1px; line-height: 48px; color: rgba(255,255,255,.48); }
+.ch__p .word { display: inline-block; white-space: nowrap; color: rgba(255,255,255,.48); }
+@media (max-width: 1280px) { .ch__p { font-size: 32px; line-height: 40px; letter-spacing: -0.25px; } }
+@media (max-width: 799px) { .ch__p { font-size: 24px; line-height: 32px; letter-spacing: -0.25px; } }
+.ch__btns { margin-top: 32px; display: flex; flex-flow: wrap; gap: 8px; }
+
+/* ---- 3. How Dovetail helps (e1hzr4mi*) ---- */
+.hh__col { grid-column: span 6; }
+@media (max-width: 1280px) { .hh__col { grid-column: span 12; } }
+@media (max-width: 799px) { .hh__col { grid-column: 1 / -1; } }
+.hh__h2 { margin-bottom: 96px; }
+@media (max-width: 1280px) { .hh__h2 { margin-bottom: 48px; } }
+.hh__grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 24px; row-gap: 24px; }
+@media (max-width: 799px) { .hh__grid { grid-template-columns: repeat(4, 1fr); } }
+.hh__card { grid-column: span 6; display: flex; flex-direction: column; background: #141414; border: 1px solid #1E1E1E; border-radius: 8px; overflow: hidden; }
+@media (max-width: 799px) { .hh__card { grid-column: 1 / -1; } }
+.hh__img { display: block; width: 100%; height: auto; }
+.hh__body { display: flex; flex-direction: column; gap: 16px; padding: 0 48px 48px; }
+@media (max-width: 799px) { .hh__body { padding: 0 32px 32px; } }
+.hh__p { font-size: 16px; font-weight: 400; line-height: 24px; color: rgba(255,255,255,.64); margin: 0; max-width: 464px; }
+
+/* ---- 3b. Prioritization (exidxjs*) ---- */
+.pr__left { grid-column: span 6; }
+@media (max-width: 1280px) { .pr__left { grid-column: 1 / -1; } }
+.pr__h2 { margin: 0; }
+.pr__intro { font-size: 16px; font-weight: 400; line-height: 24px; color: #A7A7A7; margin-top: 24px; max-width: 480px; }
+.pr__list { grid-column: 8 / span 5; display: flex; flex-direction: column; gap: 32px; list-style: none; margin: 0; padding: 0; }
+@media (max-width: 1280px) { .pr__list { grid-column: 1 / -1; margin-top: 48px; } }
+.pr__step { display: flex; gap: 20px; }
+.pr__num { font-size: 20px; line-height: 28px; font-weight: 500; letter-spacing: -0.25px; color: #FF4400; flex-shrink: 0; width: 32px; }
+@media (max-width: 799px) { .pr__num { font-size: 16px; line-height: 24px; } }
+.pr__step-body { display: flex; flex-direction: column; gap: 4px; }
+
+/* ---- 4. Integrations (e1ttzgas*) ---- */
+.in__grid { row-gap: 0; }
+@media (max-width: 1280px) { .in__grid { row-gap: 24px; } }
+@media (max-width: 799px) { .in__grid { row-gap: 48px; } }
+.in__left { grid-column: span 4; display: flex; flex-direction: column; justify-content: flex-start; position: sticky; top: 96px; align-self: flex-start; }
+@media (max-width: 1280px) { .in__left { grid-column: span 12; display: block; position: static; } }
+@media (max-width: 799px) { .in__left { grid-column: 1 / -1; } }
+.in__h2 { margin-bottom: 24px; }
+.in__btns { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
+.in__right { grid-column: 6 / -1; }
+@media (max-width: 1280px) { .in__right { grid-column: 1 / -1; } }
+.in__list { list-style: none; margin: 0; padding: 0; }
+.in__item { display: flex; flex-direction: column; }
+.in__hr { height: 1px; background-color: rgba(255,255,255,.24); margin: 0; border: 0; }
+.in__block { display: flex; flex-direction: column; gap: 8px; padding: 32px 0; }
+.in__row { display: flex; align-items: center; gap: 8px; }
+.in__icons { display: flex; align-items: center; }
+.in__icon { width: 40px; height: 40px; display: block; }
+.in__name { font-size: 20px; line-height: 28px; font-weight: 500; letter-spacing: -0.25px; color: #FFFFFF; }
+@media (max-width: 799px) { .in__name { font-size: 16px; line-height: 24px; } }
+.in__discover { align-items: center; background: transparent; border: 1px solid transparent; cursor: pointer; color: #FFFFFF;
+  display: inline-flex; text-decoration: underline 1px transparent; text-underline-offset: 1.5px; position: relative; padding: 0;
+  text-align: left; white-space: normal; transition: color 200ms ease-out; margin-top: 32px;
+  font-size: 16px; font-weight: 500; line-height: 24px; letter-spacing: 0; }
+.in__discover::after { content: ""; position: absolute; bottom: 2px; left: 0; width: 100%; height: 1px; background-color: #FFFFFF;
+  transform: scaleX(0); transform-origin: left center; transition: transform 200ms ease-out; }
+.in__discover:hover::after, .in__discover:focus-visible::after { transform: scaleX(1); }
+.in__discover .mk-icon { display: block; }
+
+/* ---- 5. Use-case tabs (e1af4wr4*) ---- */
+.uc__card { display: grid; grid-template-columns: 7fr 5fr; gap: 64px; align-items: flex-start; background-color: #141414;
+  border: 1px solid #1E1E1E; border-radius: 16px; overflow: hidden; padding: 64px; height: 600px; }
+@media (max-width: 1280px) { .uc__card { grid-template-columns: 1fr; gap: 32px; padding: 24px; height: auto; } }
+.uc__media { position: relative; width: 616px; height: 472px; max-width: 100%; border-radius: 8px; overflow: hidden; flex-shrink: 0; }
+@media (max-width: 1280px) { .uc__media { width: 100%; height: auto; aspect-ratio: 616 / 472; } }
+.uc__img { display: block; width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; opacity: 0; transition: opacity 300ms; pointer-events: none; }
+.uc__img.is-active { opacity: 1; pointer-events: auto; }
+.uc__right { display: flex; flex-direction: column; height: 472px; min-width: 0; }
+@media (max-width: 1280px) { .uc__right { height: auto; } }
+.uc__tabs { display: flex; flex-direction: column; gap: 0; }
+.uc__tab { font-size: 32px; font-weight: 500; letter-spacing: -0.5px; display: block; background: none; border: none; padding: 0; cursor: pointer;
+  text-align: left; color: #FFFFFF; opacity: .32; transition: opacity 300ms; line-height: 1.2; margin-bottom: 8px; }
+.uc__tab:last-child { margin-bottom: 0; }
+.uc__tab:hover { opacity: .64; }
+.uc__tab.is-active, .uc__tab.is-active:hover { opacity: 1; }
+@media (max-width: 1280px) { .uc__tab { font-size: 24px; line-height: 32px; letter-spacing: -0.25px; } }
+.uc__bottom { margin-top: auto; display: flex; flex-direction: column; gap: 32px; }
+@media (max-width: 1280px) { .uc__bottom { margin-top: 64px; } }
+.uc__desc { font-size: 16px; font-weight: 400; line-height: 24px; color: #FFFFFF; margin: 0; }
+.uc__track { position: relative; height: 1px; background: rgba(255,255,255,.16); }
+.uc__fill { position: absolute; top: 0; left: 0; height: 100%; width: 0%; background: #FFFFFF; }
+.uc__fill::after { content: ""; position: absolute; right: -3px; top: -3px; width: 7px; height: 7px; background: #FFFFFF; }
+
+/* ---- 7. Customer story cards (e1xybz54*, e17v5ad*) ---- */
+.sc__col { grid-column: span 4; }
+@media (max-width: 1280px) { .sc__col { grid-column: span 6; } }
+@media (max-width: 799px) { .sc__col { grid-column: 1 / -1; } }
+.sc__card { align-items: flex-start; box-sizing: border-box; display: flex; flex-direction: column; gap: 32px; width: 100%; }
+@media (max-width: 799px) { .sc__card { gap: 16px; } }
+.sc__thumb { display: block; cursor: pointer; text-decoration: none; text-align: left; color: #FFFFFF; border: none; border-radius: 8px;
+  flex-shrink: 0; height: auto; outline: none; overflow: hidden; position: relative; width: 100%; }
+.sc__thumb:hover, .sc__thumb:focus-visible { color: #A7A7A7; }
+.sc__pixwrap { position: relative; display: contents; color: #212121; }
+.sc__pix { position: relative; border-radius: 8px; overflow: hidden; pointer-events: auto; }
+@media (min-width: 1281px) { .sc__pix { cursor: pointer; } }
+.sc__imgbox { aspect-ratio: 398 / 438; overflow: hidden; position: relative; width: 100%; }
+.sc__imgbox > * { height: 100%; left: 0; object-fit: cover; position: absolute; top: 0; width: 100%; }
+.sc__logo { position: absolute; left: 16px; bottom: 16px; z-index: 2; width: 142px; height: 64px; }
+.sc__logo img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: left center; }
+.sc__cells { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 2; }
+@media (max-width: 1280px) { .sc__cells { display: none; } }
+.sc__cell { position: absolute; width: calc(14.857% + 1px); height: calc(14.857% + 1px); background: currentColor; display: none; }
+.sc__overlay { background-color: transparent; inset: 0; color: #FFFFFF; opacity: 0; padding: 32px; pointer-events: none; position: absolute;
+  text-align: left; transition: opacity 80ms ease-out; z-index: 3; }
+.sc__pix:hover .sc__overlay { opacity: 1; }
+@media (max-width: 1280px) { .sc__overlay { display: none; } }
+.sc__titlewrap { display: flex; flex-direction: column; gap: 64px; }
+.sc__title { background: transparent; border: 1px solid transparent; cursor: pointer; flex-shrink: 0; text-decoration: none; color: #FFFFFF;
+  max-width: 430px; text-align: left; white-space: normal; overflow-wrap: anywhere;
+  font-size: 20px; line-height: 28px; font-weight: 500; letter-spacing: -0.25px; }
+.sc__title:hover, .sc__title:focus-visible { color: #A7A7A7; }
+@media (max-width: 799px) { .sc__title { font-size: 16px; line-height: 24px; } }
+
+/* ---- 7b. Quiz promo (e1l2hegs*) ---- */
+.qp { margin: 0 auto; max-width: 1512px; padding: 0 124px; position: relative; text-align: left; width: 100%; display: flex; justify-content: center; }
+@media (max-width: 1280px) { .qp { padding: 0 64px; } }
+@media (max-width: 799px) { .qp { padding: 0 16px; } }
+.qp__box { background-color: #141414; border: 1px solid #1E1E1E; border-radius: 16px; display: flex; justify-content: center; padding: 64px 48px; width: 100%; }
+@media (max-width: 799px) { .qp__box { padding: 48px 24px; } }
+.qp__inner { max-width: 640px; text-align: center; width: 100%; }
+.qp__eyebrow { font-size: 14px; line-height: 22px; color: #808080; display: inline-block; font-family: "JetBrains Mono", "SF Mono", Consolas, Roboto, sans-serif;
+  font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; }
+.qp__h2 { font-size: 48px; font-weight: 500; line-height: 56px; letter-spacing: -1px; color: #FFFFFF; }
+@media (max-width: 1280px) { .qp__h2 { font-size: 32px; line-height: 40px; letter-spacing: -0.25px; } }
+/* CSS dump says the sm override is 32/40, but the measured h2 is 24/32 at 768 and 390; measured wins */
+@media (max-width: 799px) { .qp__h2 { font-size: 24px; line-height: 32px; letter-spacing: -0.25px; } }
+.qp__p { font-size: 18px; font-weight: 400; line-height: 24px; color: #A7A7A7; }
+@media (max-width: 1280px) { .qp__p { font-size: 16px; line-height: 24px; } }
+.qp__sp16 { height: 16px; }
+.qp__sp32 { height: 32px; }

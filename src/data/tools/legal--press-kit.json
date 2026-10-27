@@ -1,0 +1,272 @@
+{
+ "url": "/legal/press-kit/",
+ "template": "legal-doc",
+ "meta": {
+  "title": "Press Kit and Logo Usage",
+  "description": "Dovetail’s legal and privacy documents, including the user terms of service, privacy policy, data processing agreement, and acceptable use policy."
+ },
+ "theme": "light",
+ "breadcrumb": [
+  {
+   "text": "Home",
+   "href": "/"
+  },
+  {
+   "text": "Legal",
+   "href": "/legal/"
+  }
+ ],
+ "h1": "Press Kit and Logo Usage",
+ "sideNav": {
+  "groups": [
+   {
+    "group": "Legal",
+    "links": [
+     {
+      "text": "Master Subscription Agreement",
+      "href": "/legal/master-subscription-agreement/"
+     },
+     {
+      "text": "User Terms of Service",
+      "href": "/legal/user-terms-of-service/"
+     },
+     {
+      "text": "Acceptable Use Policy",
+      "href": "/legal/acceptable-use-policy/"
+     },
+     {
+      "text": "Product-Specific Terms: AI Features",
+      "href": "/legal/ai-features/"
+     },
+     {
+      "text": "Mutual Non-Disclosure Agreement",
+      "href": "/legal/mutual-non-disclosure-agreement/"
+     },
+     {
+      "text": "Product-Specific Terms: Recruit",
+      "href": "/legal/product-specific-terms-recruit/"
+     },
+     {
+      "text": "Community Code of Conduct",
+      "href": "/legal/community-code-of-conduct/"
+     },
+     {
+      "text": "Insurance",
+      "href": "/legal/insurance/"
+     },
+     {
+      "text": "Accessibility Statement",
+      "href": "/legal/accessibility-statement/"
+     },
+     {
+      "text": "Open Source",
+      "href": "/legal/open-source/"
+     },
+     {
+      "text": "Press Kit and Logo Usage",
+      "href": "/legal/press-kit/"
+     },
+     {
+      "text": "Modern Slavery Statement",
+      "href": "/legal/modern-slavery-statement/"
+     },
+     {
+      "text": "Anti-Bribery and Anti-Corruption Statement",
+      "href": "/legal/anti-bribery-and-anti-corruption-statement/"
+     },
+     {
+      "text": "AI Models",
+      "href": "/legal/ai-models/"
+     }
+    ]
+   },
+   {
+    "group": "Privacy",
+    "links": [
+     {
+      "text": "Compliance With Laws",
+      "href": "/privacy/compliance-with-laws/"
+     },
+     {
+      "text": "Data Processing Agreement",
+      "href": "/privacy/data-processing-agreement/"
+     },
+     {
+      "text": "Privacy Policy",
+      "href": "/privacy/privacy-policy/"
+     },
+     {
+      "text": "Data Subject Access Request",
+      "href": "/privacy/data-subject-access-request/"
+     },
+     {
+      "text": "Event Release",
+      "href": "/privacy/event-release/"
+     }
+    ]
+   }
+  ],
+  "expandedGroup": "Legal",
+  "current": "/legal/press-kit/"
+ },
+ "toc": [
+  "Logo usage guidelines",
+  "Logo colors",
+  "Logo usage examples",
+  "Brand do's and don'ts",
+  "Do these",
+  "Don't do these"
+ ],
+ "body": [
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 145
+  },
+  {
+   "type": "h2",
+   "id": "logo-usage-guidelines",
+   "text": "Logo usage guidelines"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 60
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 60
+    },
+    {
+     "placeholder": true,
+     "chars": 68
+    },
+    {
+     "placeholder": true,
+     "chars": 56
+    },
+    {
+     "placeholder": true,
+     "chars": 65
+    },
+    {
+     "placeholder": true,
+     "chars": 56
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "logo-colors",
+   "text": "Logo colors"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 31
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 13,
+     "boldLead": true
+    },
+    {
+     "placeholder": true,
+     "chars": 13,
+     "boldLead": true
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "id": "logo-usage-examples",
+   "text": "Logo usage examples"
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 183
+  },
+  {
+   "type": "img",
+   "src": "/assets/tools/dovetail_logo_white.png",
+   "alt": ""
+  },
+  {
+   "type": "img",
+   "src": "/assets/tools/dovetail_logo_black.png",
+   "alt": ""
+  },
+  {
+   "type": "p",
+   "placeholder": true,
+   "chars": 76
+  },
+  {
+   "type": "img",
+   "src": "/assets/tools/dovetail_badge_black.png",
+   "alt": ""
+  },
+  {
+   "type": "h2",
+   "id": "brand-dos-and-donts",
+   "text": "Brand do's and don'ts"
+  },
+  {
+   "type": "h3",
+   "id": "do-these",
+   "text": "Do these"
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 78
+    },
+    {
+     "placeholder": true,
+     "chars": 57
+    },
+    {
+     "placeholder": true,
+     "chars": 76
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "id": "dont-do-these",
+   "text": "Don't do these"
+  },
+  {
+   "type": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 48
+    },
+    {
+     "placeholder": true,
+     "chars": 35
+    },
+    {
+     "placeholder": true,
+     "chars": 43
+    }
+   ]
+  }
+ ],
+ "lastUpdated": {
+  "label": "Last updated",
+  "date": "01 July 2025"
+ },
+ "navRightButtons": false,
+ "finalCta": true
+}

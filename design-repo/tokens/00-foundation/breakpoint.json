@@ -1,0 +1,54 @@
+{
+ "note": "breakpoint tokens. Every value cites path:line in the clone project and the text that line contains (`match`); extraction/verify_all.py re-reads them.",
+ "tokens": {
+  "breakpoint.xl-cap": {
+   "value": "1512px",
+   "category": "breakpoint",
+   "cite": "tailwind.config.js:8",
+   "match": "'xl-cap': { max: '1512px' }",
+   "query": "max-width"
+  },
+  "breakpoint.md": {
+   "value": "1280px",
+   "category": "breakpoint",
+   "cite": "tailwind.config.js:9",
+   "match": "md: { max: '1280px' }",
+   "query": "max-width"
+  },
+  "breakpoint.nav-collapse": {
+   "value": "1185px",
+   "category": "breakpoint",
+   "cite": "tailwind.config.js:10",
+   "match": "'nav-collapse': { max: '1185px' }",
+   "query": "max-width"
+  },
+  "breakpoint.loop-mobile": {
+   "value": "1023px",
+   "category": "breakpoint",
+   "cite": "tailwind.config.js:11",
+   "match": "'loop-mobile': { max: '1023px' }",
+   "query": "max-width"
+  },
+  "breakpoint.sm": {
+   "value": "799px",
+   "category": "breakpoint",
+   "cite": "tailwind.config.js:12",
+   "match": "sm: { max: '799px' }",
+   "query": "max-width"
+  },
+  "breakpoint.xs": {
+   "value": "588px",
+   "category": "breakpoint",
+   "cite": "tailwind.config.js:13",
+   "match": "xs: { max: '588px' }",
+   "query": "max-width"
+  },
+  "breakpoint.desktop": {
+   "value": "1281px",
+   "category": "breakpoint",
+   "cite": "tailwind.config.js:14",
+   "match": "desktop: { min: '1281px' }",
+   "query": "min-width"
+  }
+ }
+}

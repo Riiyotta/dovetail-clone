@@ -1,0 +1,434 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T9",
+ "route": "/ux-research-plan-template/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "UX research plan template"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.template",
+   "variant": "default",
+   "content": {
+    "heading": "Start every study with a plan your team can get behind",
+    "lead": "UX RESEARCH PLAN TEMPLATE",
+    "actions": [
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     },
+     {
+      "label": "Try Dovetail free",
+      "href": "/auth/signup/"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "A research project in Dovetail showing data, highlights, and insights organized in one place",
+      "ref": "/assets/tools/Projects.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.logo-marquee",
+   "variant": "two-row",
+   "content": {
+    "lead": "CONNECTING THE WORLD'S LEADING TEAMS TO THEIR CUSTOMERS",
+    "media": [
+     {
+      "assetRole": "customer.logo",
+      "alt": "Breville",
+      "ref": "/assets/white-logo(3).svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Atlassian",
+      "ref": "/assets/marketing/customer-atlassian-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Notion",
+      "ref": "/assets/marketing/customer-notion-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Okta",
+      "ref": "/assets/white-logo(1).svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "AWS",
+      "ref": "/assets/marketing/customer-aws-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Toyota",
+      "ref": "/assets/marketing/customer-toyota-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Breville",
+      "ref": "/assets/white-logo(3).svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Atlassian",
+      "ref": "/assets/marketing/customer-atlassian-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Notion",
+      "ref": "/assets/marketing/customer-notion-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Okta",
+      "ref": "/assets/white-logo(1).svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "AWS",
+      "ref": "/assets/marketing/customer-aws-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Toyota",
+      "ref": "/assets/marketing/customer-toyota-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Qantas",
+      "ref": "/assets/marketing/customer-qantas-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "NCRVoyix",
+      "ref": "/assets/marketing/customer-ncrvoyix-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "ASML",
+      "ref": "/assets/marketing/customer-asml-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Zapier",
+      "ref": "/assets/marketing/customer-zapier-white-logo.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "marquee.loop",
+    "reducedMotionFallback": "paused"
+   },
+   "style": {
+    "spaceBefore": "space.section.s120"
+   }
+  },
+  {
+   "section": "content.section-intro",
+   "variant": "centered",
+   "content": {
+    "heading": "What a UX research plan covers",
+    "lead": "Teams can use this space to explain what the section covers and why it matters. The final wording will be supplied separately. Short, clear sentences keep the layout close to the measured line count. Details here are illustrative only. A brief summary helps readers decide where to look next. The structure mirrors the source while the words are new. Each paragraph keeps a similar length to preserve the rhythm of the page. More information is available elsewhere on the site. This is."
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.stack.56"
+   }
+  },
+  {
+   "section": "features.alternating-row",
+   "variant": "media-right",
+   "content": {
+    "heading": "Anchor the plan to a decision",
+    "lead": "The final wording will be supplied separately. Short, clear sentences keep the layout close to the measured line count. Details here are illustrative only. A brief summary helps readers decide where to look next. The structure mirrors the source while the words are new. Each paragraph keeps a similar length to preserve the rhythm of the page. More information is available elsewhere on the site. This is placeholder copy standing in for the original text on this.",
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "Creating a structured insight from a template in Dovetail",
+      "ref": "/assets/tools/create-and-share-insights-faster-with-insight-templates.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.alternating-row",
+   "variant": "media-left",
+   "content": {
+    "heading": "Define who you need to hear from",
+    "lead": "Short, clear sentences keep the layout close to the measured line count. Details here are illustrative only. A brief summary helps readers decide where to look next. The structure mirrors the source while the words are new. Each paragraph keeps a similar length to preserve the rhythm of the page. More information is available elsewhere on the site. This is placeholder copy standing in for the.",
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "An AI-generated participant recruitment plan in Dovetail",
+      "ref": "/assets/tools/ai-generated-recruit-plan.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.alternating-row",
+   "variant": "media-right",
+   "content": {
+    "heading": "Run the study where you’ll analyze it",
+    "lead": "FROM PLAN TO INSIGHTS",
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "AI analysis surfacing themes across research sessions in a Dovetail project",
+      "ref": "/assets/tools/analyze-projects.webp"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.checklist-grid",
+   "variant": "default",
+   "content": {
+    "heading": "Three things to nail before your first session",
+    "lead": "Most studies that drift skipped one of these.",
+    "items": [
+     {
+      "title": "Objectives",
+      "text": "One or two decisions this research will inform—written down, agreed with stakeholders"
+     },
+     {
+      "title": "Research questions",
+      "text": "What you need to learn, phrased as questions evidence can answer—not interview questions"
+     },
+     {
+      "title": "Method and sample",
+      "text": "Interviews, usability tests, or surveys—and the screener criteria for who takes part"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.hero"
+   }
+  },
+  {
+   "section": "interactive.faq",
+   "variant": "tools",
+   "content": {
+    "heading": "FAQs",
+    "lead": "Teams can use this space to explain what the section covers and why it matters. The final wording will be supplied separately. Short, clear sentences keep the layout close to the measured line count. Details here are illustrative only. A brief summary helps readers decide where to look next. The structure mirrors the source while the words are new.",
+    "actions": [
+     {
+      "label": "What should a UX research plan include?",
+      "href": "#"
+     },
+     {
+      "label": "How long should a research plan be?",
+      "href": "#"
+     },
+     {
+      "label": "How do I write good research questions?",
+      "href": "#"
+     },
+     {
+      "label": "Can I manage my research plan in Dovetail?",
+      "href": "#"
+     }
+    ],
+    "items": [
+     {
+      "title": "What should a UX research plan include?"
+     },
+     {
+      "title": "How long should a research plan be?"
+     },
+     {
+      "title": "What’s the difference between a research plan and a research brief?"
+     },
+     {
+      "title": "How do I write good research questions?"
+     },
+     {
+      "title": "Can I manage my research plan in Dovetail?"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "accordion.height",
+    "reducedMotionFallback": "instant-toggle"
+   },
+   "style": {
+    "spaceBefore": "space.section.hero"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

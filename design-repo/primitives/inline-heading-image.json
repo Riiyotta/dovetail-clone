@@ -1,0 +1,12 @@
+{
+ "id": "inline-heading-image",
+ "kind": "primitive",
+ "title": "Inline heading image",
+ "variants": {
+  "default": "zero-height inline wrapper; image absolutely centred, tucked behind words"
+ },
+ "tokens": [],
+ "evidence": [
+  "specs/marketing-shared.md:126"
+ ]
+}

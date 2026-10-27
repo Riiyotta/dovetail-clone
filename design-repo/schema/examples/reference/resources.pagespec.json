@@ -1,0 +1,609 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T31",
+ "route": "/resources/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail clone (local)"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.simple",
+   "variant": "with-action",
+   "content": {
+    "heading": "Resource centre",
+    "lead": "Guides, research, demos, and tools to help your team make better decisions with customer intelligence.",
+    "actions": [
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     },
+     {
+      "label": "Try Dovetail free",
+      "href": "/auth/signup/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.link-list",
+   "variant": "default",
+   "content": {
+    "heading": "Explore by topic",
+    "lead": "Nisi ea duis in velit fugiat excepteur cupidatat sunt officia anim laborum. Dolor consectetur sed tempor labore magna ad quis ullamco aliquip commodo aute. Reprehenderit esse nulla sint non culpa deserunt id lorem sit adipiscing do.",
+    "items": [
+     {
+      "title": "Customer research ↗",
+      "text": "Dolore enim veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat. Sunt officia anim laborum dolor consectetur sed.",
+      "href": "/customer-research/"
+     },
+     {
+      "title": "Product development ↗",
+      "text": "Lorem sit adipiscing do incididunt et aliqua minim nostrud. Laboris ex consequat irure voluptate cillum pariatur occaecat proident qui. Mollit est ipsum amet elit eiusmod ut dolore enim veniam exercitation.",
+      "href": "/product-development/"
+     },
+     {
+      "title": "User experience (UX) ↗",
+      "text": "Sint non culpa deserunt id lorem sit adipiscing do. Incididunt et aliqua minim nostrud laboris ex consequat irure voluptate.",
+      "href": "/ux/"
+     },
+     {
+      "title": "Patient experience ↗",
+      "text": "Lorem sit adipiscing do incididunt et aliqua minim nostrud laboris ex.",
+      "href": "/patient-experience/"
+     },
+     {
+      "title": "Market research ↗",
+      "text": "Dolor consectetur sed tempor labore magna ad quis ullamco aliquip commodo aute. Reprehenderit esse nulla sint non culpa deserunt id lorem sit adipiscing do.",
+      "href": "/market-research/"
+     },
+     {
+      "title": "Surveys ↗",
+      "text": "Do incididunt et aliqua minim nostrud laboris ex consequat irure. Voluptate cillum pariatur occaecat proident qui mollit est ipsum amet elit eiusmod.",
+      "href": "/surveys/"
+     },
+     {
+      "title": "Employee experience ↗",
+      "text": "Mollit est ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi ea. Duis in velit fugiat excepteur cupidatat sunt officia.",
+      "href": "/employee-experience/"
+     },
+     {
+      "title": "Research methods ↗",
+      "text": "Veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt officia anim. Laborum dolor consectetur sed tempor labore magna ad quis ullamco.",
+      "href": "/research/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "social-proof.tei-card",
+   "variant": "banner",
+   "content": {
+    "heading": "The Total Economic Impact™ of Dovetail",
+    "lead": "Discover how orgs using Dovetail achieved 236% ROI. A Forrester Total Economic Impact™ Study Commissioned By Dovetail, April 2025",
+    "actions": [
+     {
+      "label": "Read the report",
+      "href": "/resources/industry-reports/2025-forrester-TEI-of-Dovetail/"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "content.cover",
+      "alt": "",
+      "ref": "/assets/content/Contact_sales_slice__3_.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "cta.tool-card",
+   "variant": "default",
+   "content": {
+    "heading": "Measure the revenue impact of Dovetail",
+    "lead": "Estimate the ROI of faster decisions and fewer wrong turns.",
+    "actions": [
+     {
+      "label": "Try the ROI calculator",
+      "href": "/roi-calculator/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "listing.link-list",
+   "variant": "default",
+   "content": {
+    "heading": "Compare Dovetail",
+    "lead": "See how Dovetail compares to other tools in the market.",
+    "items": [
+     {
+      "title": "Dovetail vs Thematic ↗",
+      "text": "Aliqua minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident qui. Mollit est ipsum amet elit eiusmod ut dolore. Enim veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat. Sunt officia anim laborum dolor consectetur sed tempor labore. Magna ad quis ullamco aliquip commodo aute reprehenderit. Esse nulla sint non culpa deserunt id lorem sit adipiscing do. Incididunt et aliqua minim nostrud laboris ex consequat irure. Voluptate cillum pariatur occaecat proident qui mollit est. Ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi ea.",
+      "href": "/dovetail-vs-thematic/"
+     },
+     {
+      "title": "Dovetail vs Enterpret ↗",
+      "text": "Duis in velit fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur sed. Tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint non. Culpa deserunt id lorem sit adipiscing do incididunt et aliqua minim nostrud laboris ex. Consequat irure voluptate cillum pariatur occaecat proident qui mollit est ipsum amet elit eiusmod. Ut dolore enim veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt. Officia.",
+      "href": "/dovetail-vs-enterpret/"
+     },
+     {
+      "title": "Dovetail vs Marvin ↗",
+      "text": "Eiusmod ut dolore enim veniam exercitation nisi ea duis. In velit fugiat excepteur cupidatat sunt officia anim laborum dolor. Consectetur sed.",
+      "href": "/dovetail-vs-marvin/"
+     },
+     {
+      "title": "Dovetail vs Condens ↗",
+      "text": "Ea duis in velit fugiat excepteur cupidatat sunt officia anim laborum dolor. Consectetur sed tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit esse. Nulla sint non culpa deserunt id lorem sit adipiscing do. Incididunt et aliqua minim nostrud laboris ex.",
+      "href": "/dovetail-vs-condens/"
+     },
+     {
+      "title": "Dovetail vs Looppanel ↗",
+      "text": "Sit adipiscing do incididunt et aliqua minim nostrud laboris. Ex consequat irure voluptate cillum pariatur occaecat proident. Qui mollit est ipsum amet elit eiusmod ut dolore enim veniam. Exercitation nisi ea duis in velit fugiat.",
+      "href": "/dovetail-vs-looppanel/"
+     },
+     {
+      "title": "Dovetail vs Maze ↗",
+      "text": "Ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi ea. Duis in velit fugiat excepteur cupidatat sunt officia anim. Laborum dolor consectetur sed tempor labore magna ad. Quis ullamco aliquip commodo aute reprehenderit esse nulla sint non culpa. Deserunt id lorem sit adipiscing do incididunt et aliqua. Minim nostrud laboris ex consequat irure voluptate cillum. Pariatur.",
+      "href": "/dovetail-vs-maze/"
+     },
+     {
+      "title": "Dovetail vs UserTesting ↗",
+      "text": "Adipiscing do incididunt et aliqua minim nostrud laboris ex. Consequat irure voluptate cillum pariatur occaecat proident qui mollit est. Ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi ea duis. In velit fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor. Labore magna ad quis ullamco aliquip commodo aute reprehenderit esse. Nulla sint non culpa deserunt id lorem sit.",
+      "href": "/dovetail-vs-usertesting/"
+     },
+     {
+      "title": "Dovetail vs Notably ↗",
+      "text": "Nulla sint non culpa deserunt id lorem sit adipiscing. Do incididunt et aliqua minim nostrud laboris ex consequat irure. Voluptate cillum pariatur occaecat proident qui mollit est ipsum amet elit eiusmod. Ut dolore enim veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat. Sunt officia anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco aliquip commodo aute reprehenderit.",
+      "href": "/dovetail-vs-notably/"
+     },
+     {
+      "title": "Dovetail vs Aurelius ↗",
+      "text": "Ea duis in velit fugiat excepteur cupidatat sunt officia. Anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint non. Culpa deserunt id lorem sit adipiscing do incididunt et. Aliqua minim nostrud laboris ex consequat irure voluptate. Cillum pariatur occaecat proident.",
+      "href": "/dovetail-vs-aurelius/"
+     },
+     {
+      "title": "Dovetail vs Lookback ↗",
+      "text": "Voluptate cillum pariatur occaecat proident qui mollit est ipsum amet. Elit eiusmod ut dolore enim veniam exercitation nisi ea duis in velit. Fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint. Non culpa deserunt id lorem sit adipiscing do.",
+      "href": "/dovetail-vs-lookback/"
+     },
+     {
+      "title": "Dovetail vs Great Question ↗",
+      "text": "Culpa deserunt id lorem sit adipiscing do incididunt et aliqua minim. Nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident qui mollit est. Ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi. Ea duis in velit fugiat excepteur cupidatat sunt officia anim laborum dolor. Consectetur sed tempor labore magna ad quis.",
+      "href": "/dovetail-vs-great-question/"
+     },
+     {
+      "title": "Dovetail vs Insight7 ↗",
+      "text": "Ex consequat irure voluptate cillum pariatur occaecat proident qui mollit est ipsum amet. Elit eiusmod ut dolore enim veniam exercitation nisi ea duis. In velit fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur sed. Tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint. Non culpa deserunt.",
+      "href": "/dovetail-vs-insight7/"
+     },
+     {
+      "title": "Dovetail vs Qualtrics ↗",
+      "text": "Sint non culpa deserunt id lorem sit adipiscing do incididunt et aliqua minim. Nostrud laboris ex consequat irure voluptate cillum pariatur occaecat. Proident qui mollit est ipsum amet elit eiusmod. Ut dolore enim veniam exercitation nisi ea duis in velit fugiat. Excepteur cupidatat sunt officia anim laborum dolor consectetur sed. Tempor labore magna ad quis ullamco aliquip commodo. Aute reprehenderit esse nulla sint non culpa.",
+      "href": "/dovetail-vs-qualtrics/"
+     },
+     {
+      "title": "Dovetail vs Medallia ↗",
+      "text": "Cillum pariatur occaecat proident qui mollit est ipsum amet elit. Eiusmod ut dolore enim veniam exercitation nisi ea duis in velit fugiat excepteur. Cupidatat sunt officia anim laborum dolor consectetur sed tempor labore. Magna ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint non. Culpa deserunt id lorem sit adipiscing do incididunt et aliqua minim nostrud laboris. Ex consequat irure voluptate cillum pariatur occaecat proident qui mollit. Est ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi ea. Duis in velit fugiat excepteur cupidatat sunt officia anim.",
+      "href": "/dovetail-vs-medallia/"
+     },
+     {
+      "title": "Dovetail vs Pendo ↗",
+      "text": "Duis in velit fugiat excepteur cupidatat sunt officia anim. Laborum dolor consectetur sed tempor labore magna ad quis ullamco aliquip. Commodo aute reprehenderit esse nulla sint non culpa deserunt. Id lorem sit adipiscing do incididunt et aliqua. Minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident. Qui mollit est ipsum amet elit eiusmod ut dolore. Enim veniam exercitation nisi ea duis in velit.",
+      "href": "/dovetail-vs-pendo/"
+     },
+     {
+      "title": "Dovetail vs Chattermill ↗",
+      "text": "Excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor. Labore magna ad quis ullamco aliquip commodo aute reprehenderit. Esse nulla sint non culpa deserunt id lorem. Sit adipiscing do incididunt et aliqua minim nostrud laboris ex consequat. Irure voluptate cillum pariatur occaecat proident qui mollit est. Ipsum amet elit eiusmod ut dolore enim veniam. Exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt officia. Anim laborum dolor consectetur sed tempor labore magna ad. Quis ullamco aliquip.",
+      "href": "/dovetail-vs-chattermill/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "listing.link-list",
+   "variant": "default",
+   "content": {
+    "heading": "Customer stories",
+    "lead": "See how teams at leading organizations use Dovetail to turn customer feedback into decisions.",
+    "items": [
+     {
+      "title": "How a flagship airline group turned siloed research into shared customer intelligence ↗",
+      "text": "Laboris ex consequat irure voluptate cillum pariatur occaecat proident qui. Mollit est ipsum amet elit eiusmod ut dolore enim veniam exercitation. Nisi ea duis in velit fugiat excepteur cupidatat sunt. Officia.",
+      "href": "/customers/flagship-airline-group/"
+     },
+     {
+      "title": "How a fleet management technology company gave every leader direct access to customer intelligence ↗",
+      "text": "Duis in velit fugiat excepteur cupidatat sunt officia anim laborum. Dolor consectetur sed tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit. Esse nulla sint non culpa.",
+      "href": "/customers/fleet-management-tech-leader/"
+     },
+     {
+      "title": "How a global agricultural equipment maker unified customer intelligence across 100+ product lines ↗",
+      "text": "Et aliqua minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident. Qui mollit est ipsum amet elit eiusmod ut dolore enim. Veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt officia. Anim laborum dolor consectetur sed tempor labore magna ad quis.",
+      "href": "/customers/global-agricultural-equipment-maker/"
+     },
+     {
+      "title": "How one of the world’s largest software companies built a shared customer intelligence layer ↗",
+      "text": "Consectetur sed tempor labore magna ad quis ullamco aliquip commodo aute. Reprehenderit esse nulla sint non culpa deserunt id lorem sit adipiscing. Do incididunt et aliqua minim nostrud laboris ex consequat. Irure voluptate cillum pariatur occaecat proident qui mollit. Est ipsum amet elit eiusmod ut dolore enim.",
+      "href": "/customers/global-enterprise-cloud-platform/"
+     },
+     {
+      "title": "How a global life sciences enterprise turned two years of research into on‑demand intelligence ↗",
+      "text": "Officia anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint. Non culpa deserunt id lorem sit adipiscing do incididunt et.",
+      "href": "/customers/global-enterprise-life-sciences/"
+     },
+     {
+      "title": "How a global financial institution cleared one of finance's most rigorous AI security reviews and built its customer intelligence layer with Dovetail ↗",
+      "text": "Esse nulla sint non culpa deserunt id lorem sit adipiscing do incididunt. Et aliqua minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident. Qui mollit est ipsum amet elit eiusmod ut dolore enim. Veniam exercitation nisi ea duis in.",
+      "href": "/customers/global-financial-institution/"
+     },
+     {
+      "title": "How a global retailer freed its research team—and built a customer intelligence engine ↗",
+      "text": "Ut dolore enim veniam exercitation nisi ea duis in velit fugiat excepteur. Cupidatat sunt officia anim laborum dolor consectetur sed tempor. Labore magna ad quis ullamco aliquip commodo aute. Reprehenderit esse nulla sint non culpa deserunt id lorem sit adipiscing. Do incididunt et aliqua.",
+      "href": "/customers/global-home-furnishings-retailer/"
+     },
+     {
+      "title": "How a global industrial technology company got decision-makers acting on customer intelligence ↗",
+      "text": "Laborum dolor consectetur sed tempor labore magna ad quis ullamco aliquip commodo. Aute reprehenderit esse nulla sint non culpa deserunt id lorem sit adipiscing do incididunt. Et aliqua minim nostrud laboris ex consequat irure voluptate cillum pariatur.",
+      "href": "/customers/global-industrial-tech-leader/"
+     },
+     {
+      "title": "How a global management consulting firm turned single-team research into a self-serving intelligence system for 300+ practitioners ↗",
+      "text": "Labore magna ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint non. Culpa deserunt id lorem sit adipiscing do incididunt et aliqua. Minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident qui. Mollit est ipsum amet elit eiusmod ut dolore enim veniam.",
+      "href": "/customers/global-management-consulting-firm/"
+     },
+     {
+      "title": "How a global POS and payments platform unified five product verticals under one customer intelligence layer ↗",
+      "text": "Irure voluptate cillum pariatur occaecat proident qui mollit est ipsum amet elit eiusmod. Ut dolore enim veniam exercitation nisi ea duis in velit fugiat. Excepteur cupidatat sunt officia anim laborum dolor consectetur sed. Tempor labore magna ad quis ullamco aliquip commodo. Aute reprehenderit esse nulla sint non culpa deserunt id lorem sit. Adipiscing do.",
+      "href": "/customers/global-pos-and-payments-platform/"
+     },
+     {
+      "title": "How a power-tool leader made years of field research searchable across its product organization ↗",
+      "text": "Excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor labore. Magna ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint. Non culpa deserunt id lorem sit adipiscing do incididunt. Et aliqua minim nostrud laboris ex consequat irure. Voluptate cillum pariatur occaecat proident qui mollit est.",
+      "href": "/customers/global-power-tool-manufacturer/"
+     },
+     {
+      "title": "How a global professional services network turned customer intelligence into a delivery standard across three continents ↗",
+      "text": "In velit fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur. Sed tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit esse. Nulla sint non culpa deserunt id lorem sit adipiscing do incididunt et aliqua. Minim nostrud laboris ex consequat irure voluptate cillum.",
+      "href": "/customers/global-professional-services-network/"
+     },
+     {
+      "title": "How a global SaaS leader built a single source of truth from nearly 2,000 customer sessions ↗",
+      "text": "Ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint non. Culpa deserunt id lorem sit adipiscing do incididunt et aliqua. Minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident qui. Mollit est ipsum amet elit eiusmod ut dolore.",
+      "href": "/customers/global-saas-leader/"
+     },
+     {
+      "title": "How one of the world's most iconic automakers put customer intelligence in the hands of its engineers ↗",
+      "text": "Ea duis in velit fugiat excepteur cupidatat sunt officia anim laborum dolor. Consectetur sed tempor labore magna ad quis ullamco. Aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt id. Lorem sit adipiscing do incididunt et aliqua minim nostrud. Laboris ex consequat irure.",
+      "href": "/customers/iconic-global-automaker/"
+     },
+     {
+      "title": "How a global toy brand builds with confidence by putting customer intelligence where decisions are made ↗",
+      "text": "Dolor consectetur sed tempor labore magna ad quis ullamco. Aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt id lorem sit. Adipiscing do incididunt et aliqua minim nostrud.",
+      "href": "/customers/iconic-toy-brand/"
+     },
+     {
+      "title": "How a leading education company made customer intelligence everyone’s job ↗",
+      "text": "Magna ad quis ullamco aliquip commodo aute reprehenderit esse nulla. Sint non culpa deserunt id lorem sit adipiscing do incididunt et aliqua. Minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident qui mollit. Est ipsum amet elit eiusmod ut dolore enim.",
+      "href": "/customers/leading-education-publisher/"
+     },
+     {
+      "title": "How a major bank securely connects 700+ personnel with customer intelligence ↗",
+      "text": "Excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco aliquip commodo aute reprehenderit esse nulla. Sint non culpa deserunt id lorem sit adipiscing. Do incididunt et aliqua minim nostrud laboris ex consequat irure voluptate. Cillum pariatur occaecat proident qui mollit est ipsum amet. Elit eiusmod ut dolore enim veniam.",
+      "href": "/customers/major-personal-bank/"
+     },
+     {
+      "title": "How a banking platform turned fragmented feedback into company-wide customer intelligence ↗",
+      "text": "Aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt id lorem. Sit adipiscing do incididunt et aliqua minim nostrud. Laboris ex consequat irure voluptate cillum pariatur occaecat proident qui mollit. Est ipsum amet elit eiusmod.",
+      "href": "/customers/modern-business-banking-platform/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "listing.card-grid",
+   "variant": "blog-teasers",
+   "content": {
+    "heading": "From the blog",
+    "actions": [
+     {
+      "label": "View all articles",
+      "href": "/blog/"
+     }
+    ],
+    "items": [
+     {
+      "title": "How to get stakeholders to trust your design decisions",
+      "href": "/blog/stakeholder-trust-design-decisions/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/stakeholder-trust-design-decisions-hero-poster.png"
+      }
+     },
+     {
+      "title": "AI made building faster, now customer understanding is the bottleneck",
+      "href": "/blog/customer-understanding-ai-bottleneck-digital-twins/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "A megaphone illustration surrounded by question marks and exclamation points, representing the noise and uncertainty of shipping fast without customer understanding",
+       "ref": "/assets/content/customer-understanding-ai-bottleneck-digital-twins.jpg"
+      }
+     },
+     {
+      "title": "9 Digital Twins you can build today (and exactly what they’ll do for you)",
+      "href": "/blog/9-digital-twins-you-can-build-today/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "A collage representing nine Dovetail Digital Twins built for different teams",
+       "ref": "/assets/content/9-digital-twins-you-can-build-today.jpg"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "listing.video-grid",
+   "variant": "row",
+   "content": {
+    "heading": "Live demos",
+    "actions": [
+     {
+      "label": "View all demos",
+      "href": "/live-demos/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Create a digital twin assembled from your customer data and automate workflows that connect to the tools you use every day",
+      "text": "JULY 14, 2026",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/LiveDemo_Agents.png"
+      }
+     },
+     {
+      "title": "A dynamic home that makes it easy to explore the most relevant insights",
+      "text": "MARCH 29, 2026",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/LiveDemo_Home.png"
+      }
+     },
+     {
+      "title": "Set up your Gong integration to bring your GTM and product teams together",
+      "text": "DECEMBER 11, 2025",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/company/media/LiveDemo_Gong.png"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.modal",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "cta.inline-band",
+   "variant": "dark",
+   "content": {
+    "heading": "Turn customer feedback into product innovation",
+    "actions": [
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     },
+     {
+      "label": "Try Dovetail free",
+      "href": "/auth/signup/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

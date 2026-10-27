@@ -1,0 +1,12 @@
+{
+ "id": "event-card",
+ "kind": "component",
+ "title": "Event card",
+ "composes": [
+  "image",
+  "eyebrow"
+ ],
+ "evidence": [
+  "specs/company-shared.md:189"
+ ]
+}

@@ -1,0 +1,571 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T27",
+ "route": "/customer-story-larkholt/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "accent",
+  "nav": "accent",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Larkholt"
+ },
+ "meta": {
+  "title": "Larkholt | Customers"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "accent",
+   "content": {
+    "lead": "Rowan bundle",
+    "actions": [
+     {
+      "label": "Thread trace",
+      "href": "https://larkholt.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false,
+   "style": {
+    "accent": "color.accent.agents"
+   }
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "accent",
+   "content": {
+    "actions": [
+     {
+      "label": "Marble plan",
+      "href": "https://larkholt.example/navbar-0"
+     },
+     {
+      "label": "Prism",
+      "href": "https://larkholt.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Notice"
+     },
+     {
+      "title": "Harvest"
+     },
+     {
+      "title": "Cobalt"
+     },
+     {
+      "title": "Harbor"
+     },
+     {
+      "title": "Lantern"
+     },
+     {
+      "title": "Falcon"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "accent": "color.accent.agents"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Beacon rowan",
+      "text": "Bundle grove thread compass sketch ember prism gather"
+     },
+     {
+      "title": "Summit",
+      "text": "Ledger tidal willow weigh basil measure bundle tidy"
+     },
+     {
+      "title": "Thread delta",
+      "text": "Marble field orbit cinder summit harvest cobalt share"
+     },
+     {
+      "title": "Lantern",
+      "text": "Basil rowan nimbus grove cedar trace quarry field"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.story",
+   "variant": "image",
+   "content": {
+    "heading": "Shape meadow summit steer",
+    "lead": "Cobalt share fjord signal refine rowan nimbus",
+    "actions": [
+     {
+      "label": "Tidy thread",
+      "href": "https://larkholt.example/story-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "photo.generated-scene",
+      "alt": "",
+      "ref": "generate:photo.generated-scene/hero.story-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.story-facts",
+   "variant": "default",
+   "content": {
+    "lead": "Trace marble ember shape cinder sprout juniper cobalt tidal willow weigh beacon",
+    "actions": [
+     {
+      "label": "Atlas nimbus",
+      "href": "https://larkholt.example/story-facts-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/article.story-facts-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "sticky.pin",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.story-chapter",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "photo.generated-scene",
+      "alt": "Canvas thread delta",
+      "ref": "generate:photo.generated-scene/article.story-chapter-0"
+     },
+     {
+      "assetRole": "photo.generated-scene",
+      "alt": "Marble ember shape",
+      "ref": "generate:photo.generated-scene/article.story-chapter-1"
+     }
+    ],
+    "body": [
+     {
+      "kind": "paragraph",
+      "text": "Gather summit steer cobalt tidal willow falcon refine atlas pebble tidy map trace sketch ember prism cinder sprout harvest sort share fjord falcon refine measure nimbus canvas map delta quarry"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Plan orbit cinder summit juniper cobalt harbor fjord weigh refine rowan bundle tidy map compass quarry ember prism cinder summit harvest ledger tidal fjord falcon basil atlas nimbus grove thread"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Trace marble field shape gather sprout steer cobalt harbor willow signal refine atlas nimbus canvas cedar delta sketch field shape meadow summit steer ledger tidal lantern falcon basil rowan bundle"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.story-chapter",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "photo.generated-scene",
+      "alt": "Grove cedar compass",
+      "ref": "generate:photo.generated-scene/article.story-chapter-0"
+     },
+     {
+      "assetRole": "photo.generated-scene",
+      "alt": "Marble ember prism",
+      "ref": "generate:photo.generated-scene/article.story-chapter-1"
+     }
+    ],
+    "body": [
+     {
+      "kind": "paragraph",
+      "text": "Meadow sprout harvest cobalt share fjord weigh refine atlas bundle canvas thread trace quarry plan prism cinder summit harvest cobalt harbor fjord signal basil rowan nimbus grove cedar delta quarry"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Plan shape meadow notice harvest cobalt share fjord weigh basil measure nimbus canvas cedar compass sketch field shape meadow summit juniper cobalt harbor fjord weigh beacon measure bundle grove cedar"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Delta marble plan shape cinder summit juniper ledger share fjord falcon basil atlas pebble canvas thread compass marble field prism meadow summit harvest ledger share lantern weigh basil rowan nimbus"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.story-chapter",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "photo.generated-scene",
+      "alt": "Tidy cedar trace",
+      "ref": "generate:photo.generated-scene/article.story-chapter-0"
+     },
+     {
+      "assetRole": "photo.generated-scene",
+      "alt": "Sketch plan orbit",
+      "ref": "generate:photo.generated-scene/article.story-chapter-1"
+     }
+    ],
+    "body": [
+     {
+      "kind": "paragraph",
+      "text": "Meadow summit juniper sort tidal willow signal refine atlas nimbus canvas map compass sketch plan shape gather summit harvest ledger tidal willow signal basil atlas bundle grove cedar trace quarry"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Ember prism gather summit steer cobalt tidal fjord weigh refine rowan nimbus canvas cedar delta sketch ember shape gather sprout harvest sort harbor fjord signal basil measure nimbus grove cedar"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Compass sketch plan orbit gather notice harvest ledger share lantern signal basil rowan pebble tidy thread compass marble plan shape gather sprout steer cobalt tidal lantern falcon refine measure nimbus"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.closing-with-stories",
+   "variant": "default",
+   "content": {
+    "heading": "Tidy map compass",
+    "lead": "Field orbit cinder notice steer sort harbor lantern weigh beacon rowan pebble",
+    "actions": [
+     {
+      "label": "Tidy map",
+      "href": "https://larkholt.example/closing-with-stories-0"
+     },
+     {
+      "label": "Delta quarry",
+      "href": "https://larkholt.example/closing-with-stories-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Ember orbit gather",
+      "text": "Summit harvest cobalt",
+      "href": "https://larkholt.example/closing-with-stories-item0",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/cta.closing-with-stories-item0"
+      }
+     },
+     {
+      "title": "Share fjord weigh",
+      "text": "Refine rowan pebble",
+      "href": "https://larkholt.example/closing-with-stories-item1",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/cta.closing-with-stories-item1"
+      }
+     },
+     {
+      "title": "Grove map compass",
+      "text": "Sketch ember shape",
+      "href": "https://larkholt.example/closing-with-stories-item2",
+      "media": {
+       "assetRole": "icon.generic",
+       "alt": "",
+       "ref": "generate:icon.generic/cta.closing-with-stories-item2"
+      }
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.closing-with-stories-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.closing-with-stories-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.closing-with-stories-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.closing-with-stories-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.closing-with-stories-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.closing-with-stories-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.closing-with-stories-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.closing-with-stories-7"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.closing-with-stories-8"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.closing-with-stories-9"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.closing-with-stories-10"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.closing-with-stories-11"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.closing-with-stories-12"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.closing-with-stories-13"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.closing-with-stories-14"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.closing-with-stories-15"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "text.rotator",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "interactive.faq",
+   "variant": "company",
+   "content": {
+    "heading": "Cind",
+    "actions": [
+     {
+      "label": "Notice harvest",
+      "href": "https://larkholt.example/faq-0"
+     },
+     {
+      "label": "Cobalt share",
+      "href": "https://larkholt.example/faq-1"
+     },
+     {
+      "label": "Fjord signal",
+      "href": "https://larkholt.example/faq-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Refine measure bundle",
+      "text": "Tidy cedar compass marble field shape gather summit"
+     },
+     {
+      "title": "Harvest sort share",
+      "text": "Fjord weigh basil atlas nimbus canvas thread compass"
+     },
+     {
+      "title": "Quarry ember shape",
+      "text": "Meadow sprout juniper sort tidal willow falcon beacon"
+     },
+     {
+      "title": "Measure bundle grove",
+      "text": "Thread compass sketch field shape meadow notice harvest"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "accordion.height",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "dark",
+   "content": {
+    "heading": "Cobalt tidal willow",
+    "actions": [
+     {
+      "label": "Basil measure",
+      "href": "https://larkholt.example/final-cta-0"
+     },
+     {
+      "label": "Nimbus canvas",
+      "href": "https://larkholt.example/final-cta-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-7"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "lead": "Map delta quarry plan orbit meadow",
+    "actions": [
+     {
+      "label": "Sprout juniper",
+      "href": "https://larkholt.example/footer-0"
+     },
+     {
+      "label": "Cobalt share",
+      "href": "https://larkholt.example/footer-1"
+     },
+     {
+      "label": "Willow falcon",
+      "href": "https://larkholt.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Beacon"
+     },
+     {
+      "title": "Atlas"
+     },
+     {
+      "title": "Pebble"
+     },
+     {
+      "title": "Tidy"
+     },
+     {
+      "title": "Thread"
+     },
+     {
+      "title": "Compass"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

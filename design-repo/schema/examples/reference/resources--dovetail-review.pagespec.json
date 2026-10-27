@@ -1,0 +1,637 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T22",
+ "route": "/resources/dovetail-review/",
+ "theme": "light",
+ "chrome": {
+  "banner": "light",
+  "nav": "light",
+  "footer": "light"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail Review 2026: Tagging, Search, AI, and Pricing"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "light",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "light",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "article.header",
+   "variant": "light",
+   "content": {
+    "heading": "Dovetail review: tagging, search, AI, and pricing in 2026",
+    "actions": [
+     {
+      "label": "GUIDES",
+      "href": "/guides/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.byline",
+   "variant": "default",
+   "content": {},
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.sidebar-card",
+   "variant": "default",
+   "content": {
+    "heading": "Get started today",
+    "lead": "Go from raw data to valuable insights with a flexible research platform",
+    "actions": [
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "sticky.pin",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "article.contents-nav",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Quick answer",
+      "href": "#"
+     },
+     {
+      "label": "What’s changed since 2024",
+      "href": "#"
+     },
+     {
+      "label": "Challenge 1: “Tagging is extensive and laborious”",
+      "href": "#"
+     },
+     {
+      "label": "Challenge 2: “Search functionality is flawed”",
+      "href": "#"
+     },
+     {
+      "label": "Challenge 3: “Dovetail’s AI is not there yet”",
+      "href": "#"
+     },
+     {
+      "label": "Challenge 4: “Dovetail is expensive”",
+      "href": "#"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "scroll.spy",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Quick answer",
+    "body": [
+     {
+      "kind": "paragraph",
+      "text": "Reviewed and updated in September 2026. Dolor consectetur sed tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit. Esse nulla sint non culpa deserunt id lorem sit adipiscing do incididunt et. Aliqua minim nostrud laboris ex consequat irure voluptate cillum pariatur. Occaecat proident qui mollit est ipsum amet elit eiusmod ut dolore."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Do incididunt et aliqua minim nostrud laboris ex consequat. Irure voluptate cillum pariatur occaecat proident qui mollit est. Ipsum amet elit eiusmod ut dolore enim veniam. Exercitation nisi ea duis."
+     },
+     {
+      "kind": "heading",
+      "text": "Quick answer"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Quis ullamco aliquip commodo aute reprehenderit esse nulla sint non culpa. Deserunt id lorem sit adipiscing do incididunt et aliqua minim. Nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident qui mollit. Est ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi ea duis. In velit fugiat excepteur cupidatat."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "What’s changed since 2024",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "What’s changed since 2024"
+     },
+     {
+      "kind": "table",
+      "text": "5 rows"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Challenge 1: “Tagging is extensive and laborious”",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Challenge 1: “Tagging is extensive and laborious”"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Proident qui mollit est ipsum amet elit eiusmod ut dolore. Enim veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat. Sunt officia anim laborum dolor consectetur sed tempor labore. Magna ad quis ullamco aliquip commodo aute reprehenderit. Esse nulla sint non culpa deserunt id lorem sit adipiscing do. Incididunt et aliqua minim."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Anim laborum dolor consectetur sed tempor labore magna ad quis ullamco. Aliquip commodo aute reprehenderit esse nulla sint non. Culpa deserunt id lorem sit adipiscing do incididunt et aliqua minim. Nostrud laboris ex consequat irure voluptate cillum pariatur occaecat. Proident qui mollit est ipsum amet elit eiusmod. Ut dolore enim veniam exercitation nisi ea."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Tags in Channels 2.0 Sit adipiscing do incididunt et aliqua minim nostrud laboris ex consequat irure. Voluptate cillum pariatur occaecat proident qui mollit est ipsum amet elit eiusmod ut. Dolore enim veniam exercitation nisi ea duis in velit fugiat. Excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint non."
+     },
+     {
+      "kind": "paragraph",
+      "text": "prioritizes your tags over auto-tags Eiusmod ut dolore enim veniam exercitation nisi ea duis in velit fugiat excepteur. Cupidatat sunt officia anim laborum dolor consectetur sed tempor labore. Magna ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint non. Culpa deserunt id lorem."
+     },
+     {
+      "kind": "quote",
+      "text": "Magna ad quis ullamco aliquip commodo aute reprehenderit esse. Nulla sint non culpa deserunt id lorem sit adipiscing do."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Challenge 2: “Search functionality is flawed”",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Challenge 2: “Search functionality is flawed”"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Ea duis in velit fugiat excepteur cupidatat sunt officia anim laborum. Dolor consectetur sed tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit esse. Nulla sint non culpa deserunt id lorem sit adipiscing do incididunt et aliqua minim. Nostrud laboris ex."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Dovetail search Reprehenderit esse nulla sint non culpa deserunt id lorem sit adipiscing do. Incididunt et aliqua minim nostrud laboris ex consequat irure voluptate cillum. Pariatur occaecat proident qui mollit est ipsum amet elit. Eiusmod ut dolore enim veniam exercitation nisi ea. Duis in velit fugiat."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Chat Pariatur occaecat proident qui mollit est ipsum amet elit eiusmod ut dolore enim. Veniam exercitation nisi ea duis in velit fugiat. Excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor November 2025 labore. Magna ad quis ullamco aliquip commodo aute reprehenderit esse. Nulla sint non culpa deserunt id lorem sit. Adipiscing do incididunt et aliqua minim nostrud laboris ex consequat irure. Voluptate cillum."
+     },
+     {
+      "kind": "paragraph",
+      "text": "only searches content your account can already access Sunt officia anim laborum dolor consectetur sed tempor labore. Magna ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Challenge 3: “Dovetail’s AI is not there yet”",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Challenge 3: “Dovetail’s AI is not there yet”"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Amet elit eiusmod ut dolore enim veniam exercitation nisi ea duis. In velit fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor. Labore magna ad quis ullamco aliquip commodo aute."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Sun’s Out launch Tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit esse nulla. Sint non culpa deserunt id lorem sit adipiscing do incididunt. Et aliqua minim nostrud laboris ex consequat irure voluptate cillum AI Agents to general availability pariatur occaecat. Proident qui mollit est ipsum amet elit eiusmod ut dolore enim veniam exercitation. Nisi ea duis in velit fugiat excepteur cupidatat sunt officia. Anim laborum dolor consectetur sed tempor labore."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Aliqua minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident qui. Mollit est ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi ea duis. In velit fugiat excepteur cupidatat sunt officia."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Dovetail MCP server Exercitation nisi ea duis in velit fugiat excepteur cupidatat. Sunt officia anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint non culpa. Deserunt id lorem sit adipiscing do incididunt et aliqua minim nostrud laboris ex. Consequat irure voluptate cillum pariatur occaecat proident qui mollit est. Ipsum amet elit eiusmod ut."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Challenge 4: “Dovetail is expensive”",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Challenge 4: “Dovetail is expensive”"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Enterprise pricing Voluptate cillum pariatur occaecat proident qui mollit est ipsum amet elit. Eiusmod ut dolore enim veniam exercitation nisi ea duis in velit. Fugiat excepteur cupidatat sunt."
+     },
+     {
+      "kind": "paragraph",
+      "text": "Forrester Total Economic Impact study Excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco aliquip commodo aute reprehenderit esse. Nulla sint non culpa deserunt id lorem sit adipiscing do incididunt. Et aliqua minim nostrud laboris ex consequat irure voluptate. Cillum pariatur occaecat proident qui mollit est ipsum. Amet elit eiusmod ut dolore."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "Where to go next",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Where to go next"
+     },
+     {
+      "kind": "list-item",
+      "text": "Getting started: Est ipsum amet elit eiusmod ut dolore enim veniam. Exercitation nisi start-by-role guide ea duis in velit fugiat excepteur. Cupidatat sunt officia anim laborum dolor."
+     },
+     {
+      "kind": "list-item",
+      "text": "Changelog: Consectetur sed tempor labore Dovetail changelog magna ad quis ullamco."
+     },
+     {
+      "kind": "list-item",
+      "text": "Usability FAQ: Incididunt et aliqua minim nostrud laboris ex consequat irure voluptate cillum. Dovetail usability FAQ Pariatur occaecat proident qui mollit est ipsum amet elit eiusmod. Ut."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "heading": "FAQs",
+    "body": [
+     {
+      "kind": "heading",
+      "text": "FAQs"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Is tagging in Dovetail still manual and laborious?"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Enim veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt. Officia anim laborum dolor consectetur sed tempor labore magna ad quis ullamco aliquip commodo. Aute reprehenderit esse nulla sint non culpa deserunt id lorem sit adipiscing do incididunt. Et aliqua minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident qui. Mollit est ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi ea duis. In velit fugiat excepteur cupidatat sunt."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Do you need a perfect tag taxonomy to find anything in Dovetail search?"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Consequat irure voluptate cillum pariatur occaecat proident qui mollit. Est ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi ea duis in. Velit fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt id. Lorem sit adipiscing do incididunt et aliqua minim nostrud laboris ex consequat irure voluptate. Cillum pariatur."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Is Dovetail’s AI mature enough to rely on?"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Sint non culpa deserunt id lorem sit adipiscing do incididunt et. Aliqua minim nostrud laboris ex consequat irure voluptate. Cillum pariatur occaecat proident qui mollit est ipsum amet elit eiusmod. Ut dolore enim veniam exercitation nisi ea duis in. Velit fugiat excepteur cupidatat sunt officia anim laborum. Dolor consectetur sed tempor labore magna ad quis ullamco aliquip commodo. Aute reprehenderit esse nulla sint non culpa deserunt id. Lorem sit adipiscing do."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "article.chapter",
+   "variant": "light",
+   "content": {
+    "body": [
+     {
+      "kind": "heading",
+      "text": "Is Dovetail expensive?"
+     },
+     {
+      "kind": "paragraph",
+      "text": "Laborum dolor consectetur sed tempor labore magna ad quis ullamco aliquip commodo aute. Reprehenderit esse nulla sint non culpa deserunt id lorem. Sit adipiscing do incididunt et aliqua minim nostrud. Laboris ex consequat irure voluptate cillum pariatur occaecat proident qui mollit. Est ipsum amet elit eiusmod ut dolore enim veniam."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.inview-autoplay",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "listing.related-articles",
+   "variant": "text-links",
+   "content": {
+    "heading": "Related articles↘",
+    "actions": [
+     {
+      "label": "Dovetail vs Enterpret",
+      "href": "/resources/dovetail-vs-enterpret/"
+     },
+     {
+      "label": "Dovetail vs Marvin",
+      "href": "/resources/dovetail-vs-marvin/"
+     },
+     {
+      "label": "Dovetail vs Qualtrics",
+      "href": "/resources/dovetail-vs-qualtrics/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Dovetail vs Enterpret",
+      "href": "/resources/dovetail-vs-enterpret/"
+     },
+     {
+      "title": "Dovetail vs Marvin",
+      "href": "/resources/dovetail-vs-marvin/"
+     },
+     {
+      "title": "Dovetail vs Qualtrics",
+      "href": "/resources/dovetail-vs-qualtrics/"
+     },
+     {
+      "title": "What can I use instead of Insight7? Alternatives by use case",
+      "href": "/resources/insight7-alternatives/"
+     },
+     {
+      "title": "What can I use instead of Insight7? Alternatives by use case",
+      "href": "/resources/insight7-alternatives/"
+     },
+     {
+      "title": "How does Dovetail compare to Aurelius for user research?",
+      "href": "/resources/dovetail-vs-aurelius/"
+     },
+     {
+      "title": "Dovetail vs Enterpret",
+      "href": "/resources/dovetail-vs-enterpret/"
+     },
+     {
+      "title": "Dovetail vs Marvin",
+      "href": "/resources/dovetail-vs-marvin/"
+     },
+     {
+      "title": "Dovetail vs Qualtrics",
+      "href": "/resources/dovetail-vs-qualtrics/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.inline-band",
+   "variant": "light",
+   "content": {
+    "heading": "Turn customer feedback into product innovation",
+    "actions": [
+     {
+      "label": "Contact sales",
+      "href": "/contact-sales/"
+     },
+     {
+      "label": "Try Dovetail free",
+      "href": "/auth/signup/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "light",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "interactive.toc-sheet",
+   "variant": "default",
+   "content": {},
+   "motion": {
+    "pattern": "sheet.slide",
+    "reducedMotionFallback": "show-immediately"
+   },
+   "retrievalEligible": false
+  }
+ ]
+}

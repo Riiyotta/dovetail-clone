@@ -1,0 +1,224 @@
+{
+ "id": "features.launch-feature",
+ "title": "Launch feature section",
+ "semantic": {
+  "id": "features.launch-feature",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "component:LaunchPage:<section id=\"launch-agents\" className=\"l",
+  "file": "src/pages/campaigns/launch/LaunchPage.jsx",
+  "tag": "section",
+  "lines": "143-155",
+  "tagLine": 143,
+  "anchor": "<section id=\"launch-agents\" className=\"lx-anchor\">",
+  "anchorLine": 143
+ },
+ "purpose": "One announced capability: giant title block with glyph art, split image/text rows, people row or bullet grid.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "bullets": {
+   "description": "variant 'bullets'",
+   "requiredFields": [
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [
+    "actions"
+   ],
+   "observedOnRoutes": 1,
+   "observedOn": [
+    "/launch/suns-out/"
+   ],
+   "contentSampled": true
+  },
+  "people": {
+   "description": "variant 'people'",
+   "requiredFields": [
+    "actions",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 1,
+   "observedOn": [
+    "/launch/suns-out/"
+   ],
+   "contentSampled": true
+  },
+  "split": {
+   "description": "variant 'split'",
+   "requiredFields": [
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 1,
+   "observedOn": [
+    "/launch/suns-out/"
+   ],
+   "contentSampled": true
+  },
+  "title-block": {
+   "description": "variant 'title-block'",
+   "requiredFields": [
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [
+    "actions"
+   ],
+   "observedOnRoutes": 1,
+   "observedOn": [
+    "/launch/suns-out/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 7
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 6,
+    "maxChars": 29,
+    "observedIn": 7
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 7,
+    "maxChars": 47,
+    "observedIn": 9
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 9,
+    "maxChars": 62,
+    "observedIn": 32,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "media": [
+    1,
+    9
+   ],
+   "actions": [
+    1,
+    3
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "icon.source",
+     "illustration.brand",
+     "person.photo",
+     "product.screenshot",
+     "video.product"
+    ],
+    "generatedRoles": [
+     "icon.generic",
+     "illustration.generated",
+     "person.fictional-avatar",
+     "product.generated-visual",
+     "video.placeholder-poster"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "icon.generic",
+  "illustration.generated",
+  "person.fictional-avatar",
+  "product.generated-visual",
+  "video.placeholder-poster"
+ ],
+ "style": {
+  "props": {
+   "spaceBefore": {
+    "kind": "token",
+    "allowed": [
+     "space.campaign.240",
+     "space.campaign.320",
+     "space.section.s160"
+    ]
+   }
+  },
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 9,
+  "consecutiveVariants": [
+   "title-block"
+  ]
+ },
+ "motion": {
+  "allowedPatterns": [
+   "pixel.reveal",
+   "video.modal"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "pixel.reveal": "show-final-state",
+   "video.modal": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 1,
+   "nodes": 9,
+   "minPx": 538.1,
+   "maxPx": 3073.4,
+   "medianPx": 991.7,
+   "sample": {
+    "/launch/suns-out/": [
+     1018.6,
+     664.6,
+     846.2,
+     991.7,
+     1337.3,
+     1414.1,
+     3073.4,
+     906,
+     538.1
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/campaigns/launch/LaunchPage.jsx:143-155",
+  "specs/launch.md:1-30"
+ ]
+}

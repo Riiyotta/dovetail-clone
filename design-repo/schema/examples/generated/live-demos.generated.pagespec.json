@@ -1,0 +1,304 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T30",
+ "route": "/live-demos-cindercove/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Cindercove"
+ },
+ "meta": {
+  "title": "Cindercove | Events"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Field shape",
+    "actions": [
+     {
+      "label": "Summit juniper",
+      "href": "https://cindercove.example/banner-0"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.generated",
+      "alt": "",
+      "ref": "generate:illustration.generated/shell.banner-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Cobalt",
+      "href": "https://cindercove.example/navbar-0"
+     },
+     {
+      "label": "Lantern",
+      "href": "https://cindercove.example/navbar-1"
+     }
+    ],
+    "items": [
+     {
+      "title": "Basil"
+     },
+     {
+      "title": "Measure"
+     },
+     {
+      "title": "Pebble"
+     },
+     {
+      "title": "Canvas"
+     },
+     {
+      "title": "Map"
+     },
+     {
+      "title": "Compass"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "alt": "",
+      "ref": "generate:brand.placeholder-mark/shell.navbar-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Sketch plan",
+      "text": "Orbit meadow summit steer ledger harbor lantern falcon"
+     },
+     {
+      "title": "Refine rowan",
+      "text": "Nimbus canvas map compass quarry plan prism meadow"
+     },
+     {
+      "title": "Sprout",
+      "text": "Cobalt tidal willow falcon refine rowan nimbus grove"
+     },
+     {
+      "title": "Cedar delta",
+      "text": "Quarry plan prism gather sprout harvest ledger share"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.simple",
+   "variant": "default",
+   "content": {
+    "heading": "Lantern falcon",
+    "lead": "Atlas nimbus tidy map delta sketch plan shape meadow summit juniper cobalt share fjord",
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "alt": "",
+      "ref": "generate:product.generated-visual/hero.simple-0"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "listing.video-grid",
+   "variant": "default",
+   "content": {
+    "heading": "Falcon beacon rowan bundle",
+    "actions": [
+     {
+      "label": "Tidy map",
+      "href": "https://cindercove.example/video-grid-0"
+     }
+    ],
+    "items": [
+     {
+      "title": "Compass sketch field",
+      "text": "Prism meadow",
+      "media": {
+       "assetRole": "product.generated-visual",
+       "alt": "Steer cobalt harbor",
+       "ref": "generate:product.generated-visual/listing.video-grid-item0"
+      }
+     },
+     {
+      "title": "Fjord signal basil",
+      "text": "Measure bundle",
+      "media": {
+       "assetRole": "product.generated-visual",
+       "alt": "Thread delta marble",
+       "ref": "generate:product.generated-visual/listing.video-grid-item1"
+      }
+     },
+     {
+      "title": "Plan orbit cinder",
+      "text": "Sprout harvest",
+      "media": {
+       "assetRole": "product.generated-visual",
+       "alt": "Tidal willow weigh",
+       "ref": "generate:product.generated-visual/listing.video-grid-item2"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "video.modal",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.final-cta",
+   "variant": "dark",
+   "content": {
+    "heading": "Refine rowan bundle",
+    "actions": [
+     {
+      "label": "Cedar trace",
+      "href": "https://cindercove.example/final-cta-0"
+     },
+     {
+      "label": "Quarry ember",
+      "href": "https://cindercove.example/final-cta-1"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-0"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-1"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-2"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-3"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-4"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-5"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-6"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "alt": "",
+      "ref": "generate:customer.placeholder-logo/cta.final-cta-7"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "gsap.mount-stagger",
+    "reducedMotionFallback": "show-immediately"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "lead": "Shape meadow notice steer cobalt",
+    "actions": [
+     {
+      "label": "Lantern weigh",
+      "href": "https://cindercove.example/footer-0"
+     },
+     {
+      "label": "Beacon measure",
+      "href": "https://cindercove.example/footer-1"
+     },
+     {
+      "label": "Bundle grove",
+      "href": "https://cindercove.example/footer-2"
+     }
+    ],
+    "items": [
+     {
+      "title": "Map"
+     },
+     {
+      "title": "Delta"
+     },
+     {
+      "title": "Marble"
+     },
+     {
+      "title": "Ember"
+     },
+     {
+      "title": "Prism"
+     },
+     {
+      "title": "Cinder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "interactive.video-modal",
+   "variant": "default",
+   "content": {},
+   "motion": {
+    "pattern": "modal.fade-scale",
+    "reducedMotionFallback": "show-immediately"
+   },
+   "retrievalEligible": false
+  }
+ ]
+}

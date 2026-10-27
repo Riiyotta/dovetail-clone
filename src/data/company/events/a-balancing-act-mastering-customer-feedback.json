@@ -1,0 +1,152 @@
+{
+ "slug": "a-balancing-act-mastering-customer-feedback",
+ "path": "/events/a-balancing-act-mastering-customer-feedback/",
+ "title": "A balancing act: mastering customer feedback",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2024-07-23T00:00+11:00",
+ "endDate": "2024-07-23T01:00",
+ "onlineEvent": false,
+ "location": null,
+ "hosts": [
+  "Anahita Jamshidi Fard",
+  "Sarah Burton",
+  "Tamara Paulin",
+  "Dr. Fatima Kamali"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": null,
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Anahita Jamshidi Fard, Sarah Burton, Tamara Paulin, Dr. Fatima Kamali"
+  },
+  {
+   "label": "[START]",
+   "value": "22 Jul 2024 6:00AM PDT"
+  },
+  {
+   "label": "[END]",
+   "value": "23 Jul 2024 1:00AM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": ""
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/Expert_Panel_long.png",
+  "width": 5760,
+  "height": 3240,
+  "youtubeId": null
+ },
+ "body": [
+  {
+   "t": "h1",
+   "text": "Join us for an engaging in-person panel discussion and mixer"
+  },
+  {
+   "t": "p",
+   "text": "This is a past event."
+  },
+  {
+   "t": "p",
+   "text": "​Schedule:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "text": "​Small bites and networking | 5:00 - 6:00 pm"
+    },
+    {
+     "text": "​Panel | 6:00 - 6:45 pm"
+    },
+    {
+     "text": "​Q&A | 6:45 - 7:00 pm"
+    },
+    {
+     "text": "​Group photo and more social time | 7:00 - 7:30 pm"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 159
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 179
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 164
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 64,
+     "links": [
+      {
+       "text": "Anahita Jamshidi Fard",
+       "href": "https://www.linkedin.com/in/anahita-jamshidi-fard-62aa35b8/overlay/about-this-profile/"
+      }
+     ]
+    },
+    {
+     "links": [
+      {
+       "text": "Tamara Paulin",
+       "href": "https://www.linkedin.com/in/tamarapaulin/overlay/about-this-profile/"
+      }
+     ],
+     "text": "​Panelist: Tamara Paulin, Senior User Researcher at Canva"
+    },
+    {
+     "placeholder": true,
+     "chars": 76,
+     "links": [
+      {
+       "text": "Fatima Kamali, PhD",
+       "href": "https://www.linkedin.com/in/fatima-kamali/overlay/about-this-profile/"
+      }
+     ]
+    },
+    {
+     "links": [
+      {
+       "text": "Sarah Burton",
+       "href": "https://www.linkedin.com/in/sarah-burton-/overlay/about-this-profile/"
+      }
+     ],
+     "text": "​Panelist: Sarah Burton, Lead Product Designer at Dovetail"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "text": "*Note that panelists' views are their own"
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

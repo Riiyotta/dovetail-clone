@@ -1,0 +1,1108 @@
+{
+ "url": "/enterprise/research-tool-stack-integration/",
+ "template": "enterprise-article",
+ "title": "Tool Stack Integration for Product Ops Teams",
+ "metaDescription": "Learn how product ops teams integrate research and feedback tools into a unified stack that drives faster, more informed product decisions.",
+ "documentHeight": {
+  "1440": 13480,
+  "1280": 11168,
+  "768": 13683,
+  "390": 20013
+ },
+ "chrome": {
+  "alertBar": true,
+  "navBackground": null,
+  "footer": "plain-light"
+ },
+ "sections": [
+  {
+   "slice": "ArticleHero",
+   "el": "e1i8w3410",
+   "measuredHeight": {
+    "1440": 558,
+    "1280": 278,
+    "768": 258,
+    "390": 434
+   },
+   "content": [
+    {
+     "role": "link",
+     "text": "Guides",
+     "href": "/guides/",
+     "el": "e1maalc81"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1maalc80-591229.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "link",
+     "text": "Enterprise",
+     "href": "/enterprise/",
+     "el": "e1maalc82"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1maalc80-591229.svg",
+     "w": 24,
+     "h": 24,
+     "el": "svg"
+    },
+    {
+     "role": "button-card",
+     "text": null,
+     "el": "e1maalc82"
+    },
+    {
+     "role": "h1",
+     "text": "Tool stack integration for product ops: how to connect research, feedback, and decision-making",
+     "el": "e1i8w3411"
+    }
+   ]
+  },
+  {
+   "slice": "ArticleBody",
+   "el": "etar5k90",
+   "measuredHeight": {
+    "1440": 11947.2,
+    "1280": 9257.6,
+    "768": 11062.8,
+    "390": 17217.1
+   },
+   "content": [
+    {
+     "role": "text",
+     "text": "Last updated",
+     "el": "e19x9lsh2"
+    },
+    {
+     "role": "text",
+     "text": "20 April 2026",
+     "el": "e19x9lsh2"
+    },
+    {
+     "role": "h2",
+     "text": "Share",
+     "el": "e1i61jy32"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1qeafv21-819482.svg",
+     "w": 14,
+     "h": 14,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1qeafv21-092210.svg",
+     "w": 14,
+     "h": 14,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1qeafv21-258002.svg",
+     "w": 14,
+     "h": 14,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1qeafv21-339069.svg",
+     "w": 14,
+     "h": 14,
+     "el": "svg"
+    },
+    {
+     "role": "h2",
+     "text": "Summarize with AI",
+     "el": "e1i61jy32"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eryb6ok1-510516.svg",
+     "w": 14,
+     "h": 14,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eryb6ok1-441947.svg",
+     "w": 14,
+     "h": 14,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eryb6ok1-756506.svg",
+     "w": 14,
+     "h": 14,
+     "el": "svg"
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/eryb6ok1-971547.svg",
+     "w": 14,
+     "h": 14,
+     "el": "svg"
+    },
+    {
+     "role": "h2",
+     "text": "Get started today",
+     "el": "h2"
+    },
+    {
+     "role": "text",
+     "text": "Go from raw data to valuable insights with a flexible research platform",
+     "el": "e7v85bj2"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "e7v85bj3"
+    },
+    {
+     "role": "h3",
+     "text": "Contents",
+     "el": "e7v85bj1"
+    },
+    {
+     "role": "button",
+     "text": "Why tool stack integration matters for product ops",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Mapping the product ops tool stack",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Common tool categories",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Identifying the gaps",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Principles for integrating a product ops stack",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Connect workflows, not just tools",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Prioritize insight-to-decision pathways",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Keep a single source of truth for insights",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Design for discoverability, not just storage",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Building the integration layer",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Native integrations",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Automation platforms",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "APIs and custom integrations",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Common integration patterns for product ops",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Research repository ↔ Project management",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Support/CRM ↔ Research repository",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Feedback tool ↔ Research repository",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Analytics ↔ Project management",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Communication tool ↔ Research repository",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Governance and maintenance",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Assign ownership",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Review periodically",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Document everything",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Measuring the impact of integration",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "button",
+     "text": "Getting started",
+     "el": "e1noy6on0"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 304,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 428,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 194,
+     "el": "p"
+    },
+    {
+     "role": "h2",
+     "text": "Why tool stack integration matters for product ops",
+     "el": "h2"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 257,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 351,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 260,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "text": "When the tool stack is properly integrated, several things become possible:",
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 224,
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "text": "Research findings reach decision-makers.",
+     "el": "strong"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 198,
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "text": "Feedback from multiple channels is unified.",
+     "el": "strong"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 167,
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "text": "Prioritization is grounded in evidence.",
+     "el": "strong"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 202,
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "text": "Redundant work decreases.",
+     "el": "strong"
+    },
+    {
+     "role": "h2",
+     "text": "Mapping the product ops tool stack",
+     "el": "h2"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 154,
+     "el": "p"
+    },
+    {
+     "role": "h3",
+     "text": "Common tool categories",
+     "el": "h3"
+    },
+    {
+     "role": "text",
+     "text": "Most product teams rely on tools across these categories, though the specific products vary by organization:",
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 169,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "text": "Research and insights platforms",
+     "el": "strong"
+    },
+    {
+     "role": "text",
+     "text": "—Platforms that capture feedback from multiple channels: in-app surveys, NPS tools, feature request boards, and customer advisory programs.",
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "text": "Customer feedback tools",
+     "el": "strong"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 165,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "text": "Support and CRM systems",
+     "el": "strong"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 166,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "text": "Analytics platforms",
+     "el": "strong"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 132,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "text": "Project management and roadmapping tools",
+     "el": "strong"
+    },
+    {
+     "role": "text",
+     "text": "—Wikis, messaging platforms, and shared drives where decisions, meeting notes, and strategy documents live.",
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "text": "Communication and documentation tools",
+     "el": "strong"
+    },
+    {
+     "role": "h3",
+     "text": "Identifying the gaps",
+     "el": "h3"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 294,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "text": "This exercise almost always reveals gaps. Common ones include:",
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "text": "Research findings that influenced a decision but were shared verbally or in a slide deck rather than linked to the roadmap item",
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "text": "Customer feedback sitting in a support tool that the product team never saw",
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "text": "Usage data that contradicted the team's assumptions but wasn't surfaced until after launch",
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "text": "Duplicate research—teams running studies on questions that had already been answered months earlier in a different context",
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "text": "These gaps define the integration priorities.",
+     "el": "p"
+    },
+    {
+     "role": "h2",
+     "text": "Principles for integrating a product ops stack",
+     "el": "h2"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 140,
+     "el": "p"
+    },
+    {
+     "role": "h3",
+     "text": "Connect workflows, not just tools",
+     "el": "h3"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 185,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 345,
+     "el": "p"
+    },
+    {
+     "role": "h3",
+     "text": "Prioritize insight-to-decision pathways",
+     "el": "h3"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 253,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 228,
+     "el": "p"
+    },
+    {
+     "role": "h3",
+     "text": "Keep a single source of truth for insights",
+     "el": "h3"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 279,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 450,
+     "el": "p"
+    },
+    {
+     "role": "h3",
+     "text": "Design for discoverability, not just storage",
+     "el": "h3"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 218,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 418,
+     "el": "p"
+    },
+    {
+     "role": "h2",
+     "text": "Building the integration layer",
+     "el": "h2"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 158,
+     "el": "p"
+    },
+    {
+     "role": "h3",
+     "text": "Native integrations",
+     "el": "h3"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 209,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 281,
+     "el": "p"
+    },
+    {
+     "role": "h3",
+     "text": "Automation platforms",
+     "el": "h3"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 295,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 201,
+     "el": "p"
+    },
+    {
+     "role": "h3",
+     "text": "APIs and custom integrations",
+     "el": "h3"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 237,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 182,
+     "el": "p"
+    },
+    {
+     "role": "h2",
+     "text": "Common integration patterns for product ops",
+     "el": "h2"
+    },
+    {
+     "role": "text",
+     "text": "While every team's stack is different, a few integration patterns come up repeatedly in product ops.",
+     "el": "p"
+    },
+    {
+     "role": "h3",
+     "text": "Research repository ↔ Project management",
+     "el": "h3"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 196,
+     "el": "p"
+    },
+    {
+     "role": "h3",
+     "text": "Support/CRM ↔ Research repository",
+     "el": "h3"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 229,
+     "el": "p"
+    },
+    {
+     "role": "h3",
+     "text": "Feedback tool ↔ Research repository",
+     "el": "h3"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 150,
+     "el": "p"
+    },
+    {
+     "role": "h3",
+     "text": "Analytics ↔ Project management",
+     "el": "h3"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 152,
+     "el": "p"
+    },
+    {
+     "role": "h3",
+     "text": "Communication tool ↔ Research repository",
+     "el": "h3"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 161,
+     "el": "p"
+    },
+    {
+     "role": "h2",
+     "text": "Governance and maintenance",
+     "el": "h2"
+    },
+    {
+     "role": "text",
+     "text": "Integration is not a one-time project. Product ops teams need to plan for ongoing governance.",
+     "el": "p"
+    },
+    {
+     "role": "h3",
+     "text": "Assign ownership",
+     "el": "h3"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 192,
+     "el": "p"
+    },
+    {
+     "role": "h3",
+     "text": "Review periodically",
+     "el": "h3"
+    },
+    {
+     "role": "text",
+     "text": "At least quarterly, product ops should audit the tool stack and its integrations. Questions to ask:",
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "text": "Are teams actually using the integrated data, or is it being ignored?",
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "text": "Have any workflows changed in ways that make existing integrations irrelevant?",
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "text": "Are there new gaps that have emerged as the team or product has evolved?",
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "text": "Is the tagging taxonomy still serving its purpose, or has it drifted?",
+     "el": "li"
+    },
+    {
+     "role": "h3",
+     "text": "Document everything",
+     "el": "h3"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 343,
+     "el": "p"
+    },
+    {
+     "role": "h2",
+     "text": "Measuring the impact of integration",
+     "el": "h2"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 103,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 181,
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "text": "Time to insight",
+     "el": "strong"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 195,
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "text": "Research utilization",
+     "el": "strong"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 148,
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "text": "Duplicate research rate",
+     "el": "strong"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 173,
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "text": "Decision confidence",
+     "el": "strong"
+    },
+    {
+     "role": "h2",
+     "text": "Getting started",
+     "el": "h2"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 139,
+     "el": "p"
+    },
+    {
+     "role": "text",
+     "text": "Map what exists and where information gets stuck.",
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "text": "Audit your current tools and data flows.",
+     "el": "strong"
+    },
+    {
+     "role": "text",
+     "text": "The path from customer insight to product decision is usually the best place to start.",
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "text": "Pick one high-value workflow to integrate first.",
+     "el": "strong"
+    },
+    {
+     "role": "text",
+     "text": "Agree on the dimensions that matter for your team's decision-making and apply them consistently.",
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "text": "Define your tagging taxonomy.",
+     "el": "strong"
+    },
+    {
+     "role": "text",
+     "text": "Use what's available before building custom solutions.",
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "text": "Start with native integrations.",
+     "el": "strong"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 116,
+     "el": "li"
+    },
+    {
+     "role": "text",
+     "text": "Measure and iterate.",
+     "el": "strong"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 317,
+     "el": "p"
+    },
+    {
+     "role": "h2",
+     "text": "FAQs",
+     "el": "e1svs14n0"
+    },
+    {
+     "role": "h3",
+     "text": "What does tool stack integration mean for product ops?",
+     "el": "e1svs14n1"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 601,
+     "el": "p"
+    },
+    {
+     "role": "h3",
+     "text": "How do you decide which tools in a product ops stack should integrate?",
+     "el": "e1svs14n1"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 535,
+     "el": "p"
+    },
+    {
+     "role": "h3",
+     "text": "What are common mistakes when integrating a product ops tool stack?",
+     "el": "e1svs14n1"
+    },
+    {
+     "role": "text",
+     "placeholder": true,
+     "chars": 559,
+     "el": "p"
+    },
+    {
+     "role": "h2",
+     "text": "Related topics",
+     "el": "etar5k93"
+    },
+    {
+     "role": "link",
+     "text": "[Customer research]",
+     "href": "/customer-research/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "[Design thinking]",
+     "href": "/design-thinking/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "[Employee experience]",
+     "href": "/employee-experience/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "[Enterprise]",
+     "href": "/enterprise/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "[Market research]",
+     "href": "/market-research/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "[Patient experience]",
+     "href": "/patient-experience/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "[Product development]",
+     "href": "/product-development/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "[Product management]",
+     "href": "/product-management/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "[Research maturity assessment]",
+     "href": "/research-maturity-assessment/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "[Research methods]",
+     "href": "/research/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "[Surveys]",
+     "href": "/surveys/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "[User experience (UX)]",
+     "href": "/ux/",
+     "el": "a"
+    },
+    {
+     "role": "h2",
+     "text": "Editor's picks↘",
+     "el": "elhtsr50"
+    },
+    {
+     "role": "link",
+     "text": "Why leading teams choose Dovetail—unlocking value, security, and efficiency",
+     "href": "/enterprise/why-leading-teams-choose-dovetail/",
+     "el": "e1ub092j0"
+    },
+    {
+     "role": "text",
+     "text": "29 June 2025",
+     "el": "e1ub092j1"
+    },
+    {
+     "role": "link",
+     "text": "How leading organizations use Dovetail for scalable customer intelligence",
+     "href": "/enterprise/how-leading-organizations-use-dovetail/",
+     "el": "e1ub092j0"
+    },
+    {
+     "role": "text",
+     "text": "2 July 2025",
+     "el": "e1ub092j1"
+    },
+    {
+     "role": "h2",
+     "text": "Latest articles↘",
+     "el": "elhtsr50"
+    },
+    {
+     "role": "link",
+     "text": "How leading organizations use Dovetail for scalable customer intelligence",
+     "href": "/enterprise/how-leading-organizations-use-dovetail/",
+     "el": "e1ub092j0"
+    },
+    {
+     "role": "text",
+     "text": "2 July 2025",
+     "el": "e1ub092j1"
+    },
+    {
+     "role": "link",
+     "text": "Why leading teams choose Dovetail—unlocking value, security, and efficiency",
+     "href": "/enterprise/why-leading-teams-choose-dovetail/",
+     "el": "e1ub092j0"
+    },
+    {
+     "role": "text",
+     "text": "29 June 2025",
+     "el": "e1ub092j1"
+    },
+    {
+     "role": "button",
+     "text": "Contents",
+     "el": "e1769tw51",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "svg",
+     "src": "/assets/marketing/svg/e1769tw51-592211.svg",
+     "w": 0,
+     "h": 0,
+     "el": "svg",
+     "hiddenAt1440": true
+    },
+    {
+     "role": "h2",
+     "text": "Turn customer feedback into product innovation",
+     "el": "e18o1u1v3"
+    },
+    {
+     "role": "link",
+     "text": "Contact sales",
+     "href": "/contact-sales/",
+     "el": "a"
+    },
+    {
+     "role": "link",
+     "text": "Try Dovetail free",
+     "href": "/auth/signup/",
+     "el": "a"
+    }
+   ]
+  }
+ ]
+}

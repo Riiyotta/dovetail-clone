@@ -1,0 +1,119 @@
+{
+ "id": "hero.dot-title",
+ "title": "Dot-background title hero",
+ "semantic": {
+  "id": "hero.dot-title",
+  "category": "HERO"
+ },
+ "source": {
+  "id": "component:EventsIndex:ev-hero",
+  "file": "src/pages/events/EventsIndex.jsx",
+  "tag": "div",
+  "lines": "40-52",
+  "tagLine": 40,
+  "anchor": "ev-hero",
+  "anchorLine": 40
+ },
+ "purpose": "Events/webinars opener: mono intro over a dotted background and a 160px page word.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [
+    "heading",
+    "lead"
+   ],
+   "forbiddenFields": [],
+   "observedOnRoutes": 2,
+   "observedOn": [
+    "/events/",
+    "/webinars/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [
+   "heading",
+   "lead"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 8,
+    "observedIn": 2
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 19,
+    "maxChars": 114,
+    "observedIn": 2
+   }
+  },
+  "listSizes": {},
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "desktop layout as measured at 1440"
+  },
+  {
+   "range": "800-1280",
+   "behavior": "md tier: container padding 64, display type steps down, multi-column grids collapse to 1 or 2 columns"
+  },
+  {
+   "range": "<=799",
+   "behavior": "sm tier: container padding 16, single column, type at the sm preset"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 2,
+   "nodes": 2,
+   "minPx": 609.2,
+   "maxPx": 648.4,
+   "medianPx": 628.8,
+   "sample": {
+    "/events/": [
+     648.4
+    ],
+    "/webinars/": [
+     609.2
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/events/EventsIndex.jsx:40-52",
+  "specs/events-index.md:1-30"
+ ]
+}

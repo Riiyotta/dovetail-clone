@@ -1,0 +1,188 @@
+{
+ "id": "cta.sidebar-card",
+ "title": "Sidebar CTA card",
+ "semantic": {
+  "id": "cta.sidebar-card",
+  "category": "CTA"
+ },
+ "source": {
+  "id": "component:GuideArticle:ga-promo",
+  "file": "src/pages/guides/GuideArticle.jsx",
+  "tag": "div",
+  "lines": "134-146",
+  "tagLine": 134,
+  "anchor": "ga-promo",
+  "anchorLine": 134
+ },
+ "purpose": "Small sticky promo card in an article side column: heading, line and button (or a promo image card).",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "variant 'default'",
+   "requiredFields": [],
+   "forbiddenFields": [],
+   "observedOnRoutes": 1333,
+   "observedOn": [
+    "/blog/2025-fall-launch/",
+    "/blog/30-days-in/",
+    "/blog/60-days-in/",
+    "/blog/9-digital-twins-you-can-build-today/",
+    "/blog/a-conversation-with-trellos-head-of-design/",
+    "/blog/a-nuclear-meltdown-caused-by-design/",
+    "/blog/accountable-ai/",
+    "/blog/ai-generated-privacy-breaches/",
+    "/blog/ai-powered-contextual-chat/",
+    "/blog/alloy/",
+    "/blog/avoiding-the-moral-crumple-zone/",
+    "/blog/bad-data-decision/"
+   ],
+   "contentSampled": true
+  }
+ },
+ "content": {
+  "budgetRule": "maxWords/maxChars = the maximum observed for the field across every reference example (schema/examples/reference/*, extracted from the rendered clone); list sizes = observed min/max. Never exceed; shorter is allowed. Long-form text in the clone is placeholder copy of the original's length.",
+  "requiredFields": [],
+  "fields": {
+   "actions[].href": {
+    "type": "link",
+    "observedIn": 5
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 2,
+    "maxChars": 13,
+    "observedIn": 5
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 5,
+    "maxChars": 36,
+    "observedIn": 5
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 14,
+    "maxChars": 99,
+    "observedIn": 5
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 1,
+    "observedIn": 9,
+    "assetAlt": true
+   }
+  },
+  "listSizes": {
+   "media": [
+    1,
+    1
+   ],
+   "actions": [
+    1,
+    1
+   ]
+  },
+  "itemRequiredFields": [],
+  "bodyBlockKinds": []
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "content.cover"
+    ],
+    "generatedRoles": [
+     "content.generated-cover"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles; generated mode must use generatedRoles (generation-safe only). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "content.generated-cover"
+ ],
+ "style": {
+  "props": {
+   "spaceBefore": {
+    "kind": "token",
+    "allowed": [
+     "space.section.s200"
+    ]
+   }
+  },
+  "note": "token props take token-catalog paths only (tokens/llm/token-catalog.json); allowed values = values observed in the reference examples (tokens/llm/token-policy.json styleProps)."
+ },
+ "constraints": {
+  "maxPerPage": 3,
+  "consecutiveVariants": [
+   "default"
+  ]
+ },
+ "motion": {
+  "allowedPatterns": [
+   "sticky.pin"
+  ],
+  "requiredPatterns": [
+   "sticky.pin"
+  ],
+  "reducedMotionFallback": {
+   "sticky.pin": "none-needed"
+  },
+  "note": "pattern evidence and reduced-motion fallbacks: tokens/00-foundation/motion-patterns.json"
+ },
+ "responsive": [
+  {
+   "range": ">1280",
+   "behavior": "sticky in the side column"
+  },
+  {
+   "range": "<=1280",
+   "behavior": "hidden or inline"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "routes": 1333,
+   "nodes": 1724,
+   "minPx": 110,
+   "maxPx": 442.7,
+   "medianPx": 132.0,
+   "sample": {
+    "/blog/2025-fall-launch/": [
+     358.7,
+     358.7,
+     330.7
+    ],
+    "/blog/30-days-in/": [
+     302.7,
+     274.7,
+     330.7
+    ],
+    "/blog/60-days-in/": [
+     330.7,
+     302.7,
+     274.7
+    ],
+    "/blog/9-digital-twins-you-can-build-today/": [
+     330.7,
+     330.7,
+     302.7
+    ],
+    "/blog/a-conversation-with-trellos-head-of-design/": [
+     330.7,
+     358.7,
+     330.7
+    ]
+   }
+  }
+ },
+ "evidence": [
+  "src/pages/guides/GuideArticle.jsx:134-146",
+  "specs/blog-post.md:1-30",
+  "specs/guide-article.md:1-40"
+ ]
+}

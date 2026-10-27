@@ -1,0 +1,625 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T2",
+ "route": "/roles/product-management/",
+ "theme": "dark",
+ "chrome": {
+  "banner": "default",
+  "nav": "default",
+  "footer": "default"
+ },
+ "brand": {
+  "name": "Dovetail"
+ },
+ "meta": {
+  "title": "Dovetail for Product Managers"
+ },
+ "nodes": [
+  {
+   "section": "shell.banner",
+   "variant": "default",
+   "content": {
+    "lead": "Ask. Never guess.",
+    "actions": [
+     {
+      "label": "Introducing Digital Twins →",
+      "href": "#"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/3d-icon-digital-twin.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "default",
+   "content": {
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "alt": "Dovetail",
+      "ref": "/assets/svg/nav-dovetail-logo.svg"
+     }
+    ],
+    "items": [
+     {
+      "title": "Product"
+     },
+     {
+      "title": "Solutions"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Enterprise"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Pricing"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Log in",
+      "href": "/start/"
+     },
+     {
+      "label": "Book a demo",
+      "href": "/request-a-demo/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.nav-dropdowns",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Digital Twins",
+      "text": "Talk with a replica of your customer segments, built from real data"
+     },
+     {
+      "title": "Agents",
+      "text": "Transform customer signals into intelligent, automated action"
+     },
+     {
+      "title": "Design",
+      "text": "Surface real user signals to back every design decision"
+     },
+     {
+      "title": "Blog",
+      "text": "Breaking news, opinions, and product thinking from Dovetail"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "dropdown.fade",
+    "reducedMotionFallback": "none-needed"
+   },
+   "retrievalEligible": false
+  },
+  {
+   "section": "hero.role",
+   "variant": "default",
+   "content": {
+    "heading": "Build roadmaps on customer evidence, not opinion",
+    "media": [
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/marketing/roles-pm-hero.png"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Notion",
+      "ref": "/assets/marketing/customer-notion-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Salesforce",
+      "ref": "/assets/marketing/customer-salesforce-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Toyota",
+      "ref": "/assets/marketing/customer-toyota-white-logo.svg"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Shopify",
+      "ref": "/assets/marketing/customer-shopify-white-logo.svg"
+     },
+     {
+      "assetRole": "product.screenshot",
+      "alt": "",
+      "ref": "/assets/marketing/roles-pm-hero-mobile.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "content.manifesto",
+   "variant": "default",
+   "content": {
+    "lead": "Labore magna ad quis ullamco aliquip commodo aute reprehenderit esse nulla. Sint non culpa deserunt id lorem sit adipiscing do incididunt et aliqua. Minim nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident qui mollit. Est ipsum amet elit eiusmod ut dolore enim veniam exercitation.",
+    "actions": [
+     {
+      "label": "Try Dovetail free",
+      "href": "/auth/signup/"
+     },
+     {
+      "label": "Request a demo",
+      "href": "/request-a-demo/"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/how-it-works-grid-bg.png.png"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s160"
+   }
+  },
+  {
+   "section": "features.benefit-cards",
+   "variant": "default",
+   "content": {
+    "heading": "Build on evidence, not opinion",
+    "items": [
+     {
+      "title": "See demand, trends, and impact clearly",
+      "text": "Automatically categorize and cluster feedback to highlight the most frequent requests and important trends.",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/roles-pm-feature-1.png"
+      }
+     },
+     {
+      "title": "Build stronger cases and align stakeholders",
+      "text": "Link initiatives directly to real customer evidence to guide priorities and align stakeholders.",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/roles-pm-feature-2.png"
+      }
+     },
+     {
+      "title": "Act on issues before they affect revenue",
+      "text": "Surface recurring complaints and sentiment changes across channels in real time.",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/roles-pm-feature-3.png"
+      }
+     },
+     {
+      "title": "Get automatic alerts without extra work",
+      "text": "Receive summaries and alerts automatically to stay informed without extra reporting.",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/roles-pm-feature-4.png"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "features.numbered-steps",
+   "variant": "default",
+   "content": {
+    "heading": "Using Dovetail to prioritize what to build",
+    "lead": "Cupidatat sunt officia anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco aliquip commodo aute reprehenderit esse nulla sint. Non culpa deserunt id lorem sit adipiscing do incididunt et aliqua minim. Nostrud laboris ex consequat irure voluptate cillum pariatur occaecat proident qui mollit est. Ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi. Ea duis in.",
+    "items": [
+     {
+      "title": "Gather feedback in Dovetail",
+      "text": "Centralize support tickets, sales calls, surveys, and past research in one searchable place instead of scattered spreadsheets and decks."
+     },
+     {
+      "title": "Surface priority themes with AI Channels",
+      "text": "AI Channels clusters raw feedback into themes and ranks them by frequency, so the most-requested features rise to the top automatically."
+     },
+     {
+      "title": "Export evidence to Productboard or Jira",
+      "text": "Sed tempor labore magna ad quis ullamco aliquip commodo. Aute reprehenderit esse nulla sint non culpa deserunt. Id lorem sit adipiscing do incididunt et aliqua."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "features.integrations-list",
+   "variant": "default",
+   "content": {
+    "heading": "Connect to the tools you use",
+    "actions": [
+     {
+      "label": "Try Dovetail free",
+      "href": "/auth/signup/"
+     },
+     {
+      "label": "Request a demo",
+      "href": "/request-a-demo/"
+     },
+     {
+      "label": "Discover all integrations",
+      "href": "https://docs.dovetail.com/integrations/"
+     }
+    ],
+    "items": [
+     {
+      "title": "Jira",
+      "text": "Ipsum amet elit eiusmod ut dolore enim veniam exercitation nisi ea duis in. Velit fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur sed.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/Jira.svg"
+      }
+     },
+     {
+      "title": "Linear",
+      "text": "Sed tempor labore magna ad quis ullamco aliquip commodo. Aute reprehenderit esse nulla sint non culpa deserunt. Id lorem sit adipiscing do incididunt et aliqua minim nostrud laboris.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/Linear.svg"
+      }
+     },
+     {
+      "title": "Productboard",
+      "text": "Et aliqua minim nostrud laboris ex consequat irure voluptate cillum. Pariatur occaecat proident qui mollit est ipsum amet elit eiusmod ut dolore. Enim veniam.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/Productboard.svg"
+      }
+     },
+     {
+      "title": "Salesforce",
+      "text": "Veniam exercitation nisi ea duis in velit fugiat excepteur cupidatat sunt. Officia anim laborum dolor consectetur sed tempor labore magna. Ad quis ullamco aliquip.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/Salesforce.svg"
+      }
+     },
+     {
+      "title": "Zendesk",
+      "text": "Aliquip commodo aute reprehenderit esse nulla sint non culpa deserunt id lorem. Sit adipiscing do incididunt et aliqua minim nostrud laboris ex consequat.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/Zendesk.svg"
+      }
+     },
+     {
+      "title": "HubSpot",
+      "text": "Irure voluptate cillum pariatur occaecat proident qui mollit est ipsum amet elit eiusmod. Ut dolore enim veniam exercitation nisi ea duis in velit. Fugiat excepteur cupidatat.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/HubSpot.svg"
+      }
+     },
+     {
+      "title": "Slack",
+      "text": "Fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur. Sed tempor labore magna ad quis ullamco aliquip commodo aute reprehenderit esse nulla. Sint non culpa deserunt id.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/Slack.svg"
+      }
+     },
+     {
+      "title": "Gong",
+      "text": "Non culpa deserunt id lorem sit adipiscing do incididunt et. Aliqua minim nostrud laboris ex consequat irure voluptate cillum pariatur. Occaecat.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/Gong.svg"
+      }
+     },
+     {
+      "title": "Pendo",
+      "text": "Mollit est ipsum amet elit eiusmod ut dolore enim veniam exercitation. Nisi ea duis in velit fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/Pendo.svg"
+      }
+     },
+     {
+      "title": "Sprig",
+      "text": "Dolor consectetur sed tempor labore magna ad quis ullamco aliquip commodo aute. Reprehenderit esse nulla sint non culpa deserunt id lorem sit adipiscing do.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/Sprig.svg"
+      }
+     },
+     {
+      "title": "Usersnap",
+      "text": "Do incididunt et aliqua minim nostrud laboris ex consequat irure voluptate cillum pariatur. Occaecat proident qui mollit est ipsum amet elit eiusmod. Ut dolore.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/UserSnap.svg"
+      }
+     },
+     {
+      "title": "PostHog",
+      "text": "Dolore enim veniam exercitation nisi ea duis in velit. Fugiat excepteur cupidatat sunt officia anim laborum dolor consectetur sed tempor labore. Magna ad quis ullamco.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/PostHog.svg"
+      }
+     },
+     {
+      "title": "Claude",
+      "text": "Quis ullamco aliquip commodo aute reprehenderit esse nulla sint non. Culpa deserunt id lorem sit adipiscing do incididunt et. Aliqua minim nostrud laboris ex consequat irure.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/Claude.svg"
+      }
+     },
+     {
+      "title": "ChatGPT",
+      "text": "Bring your customer feedback into ChatGPT and turn product insights into decisions without leaving the conversation.",
+      "media": {
+       "assetRole": "partner.logo",
+       "alt": "",
+       "ref": "/assets/marketing/ChatGPT.svg"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "sticky.pin",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "interactive.use-case-tabs",
+   "variant": "default",
+   "content": {
+    "heading": "Practical ways product managers use Dovetail",
+    "items": [
+     {
+      "title": "Roadmap planning Churn signals Feature validation Decision alignment Et aliqua minim nostrud laboris ex consequat irure voluptate cillum. Pariatur occaecat proident qui mollit est.",
+      "media": {
+       "assetRole": "product.screenshot",
+       "alt": "",
+       "ref": "/assets/marketing/roles-pm-usecase-roadmap-planning.png"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "tabs.auto-advance",
+    "reducedMotionFallback": "no-autoplay"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "social-proof.testimonial",
+   "variant": "featured",
+   "content": {
+    "quote": {
+     "text": "“Lorem sit adipiscing do incididunt et aliqua minim nostrud. Laboris ex consequat irure voluptate cillum pariatur occaecat proident qui mollit. Est ipsum amet elit eiusmod ut dolore enim veniam. Exercitation nisi ea duis in.”"
+    },
+    "media": [
+     {
+      "assetRole": "illustration.brand",
+      "alt": "",
+      "ref": "/assets/marketing/testimonial-grid-bg.png.png"
+     },
+     {
+      "assetRole": "person.photo",
+      "alt": "",
+      "ref": "/assets/marketing/Gemini_Generated_Image_57tisi57tisi57ti-4.png"
+     },
+     {
+      "assetRole": "customer.logo",
+      "alt": "Achievers",
+      "ref": "/assets/marketing/customer-achievers-white-logo.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "cursor.tooltip",
+    "reducedMotionFallback": "unchanged"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "social-proof.story-cards",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "How Achievers powers employee experience with always-on customer intelligence ↘",
+      "href": "/customers/achievers/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/marketing/Customer_Achievers.png"
+      }
+     },
+     {
+      "title": "SafetyCulture puts the customer at the heart of decision with Dovetail ↘",
+      "href": "/customers/safetyculture/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/marketing/Customer_SafetyCulture.png"
+      }
+     },
+     {
+      "title": "How Itaú Unibanco delivers better banking experiences with Dovetail ↘",
+      "href": "/customers/itau-unibanco/",
+      "media": {
+       "assetRole": "photo.real-scene",
+       "alt": "",
+       "ref": "/assets/Customer_Itau.png"
+      }
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "pixel.dissolve-hover",
+    "reducedMotionFallback": "unchanged"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "cta.quiz-promo",
+   "variant": "default",
+   "content": {
+    "heading": "Are you a data-driven product manager?",
+    "lead": "Answer 10 questions and find out how data-driven your product practice really is.",
+    "actions": [
+     {
+      "label": "Take the quiz",
+      "href": "/roles/product-management/quiz/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "interactive.faq",
+   "variant": "marketing",
+   "content": {
+    "heading": "FAQs",
+    "items": [
+     {
+      "title": "How does Dovetail help with prioritization?",
+      "text": "Elit eiusmod ut dolore enim veniam exercitation nisi ea duis. In velit fugiat excepteur cupidatat sunt officia anim. Laborum dolor consectetur sed tempor labore."
+     },
+     {
+      "title": "Can product managers use Dovetail directly?",
+      "text": "Nisi ea duis in velit fugiat excepteur cupidatat sunt officia anim laborum dolor. Consectetur sed tempor labore."
+     },
+     {
+      "title": "Does Dovetail replace product analytics tools?",
+      "text": "Cillum pariatur occaecat proident qui mollit est ipsum amet elit. Eiusmod ut dolore enim veniam exercitation."
+     },
+     {
+      "title": "How does Dovetail surface churn risk?",
+      "text": "Deserunt id lorem sit adipiscing do incididunt et aliqua minim nostrud laboris. Ex consequat irure voluptate cillum pariatur."
+     },
+     {
+      "title": "Can insights be shared with leadership easily?",
+      "text": "Sed tempor labore magna ad quis ullamco aliquip commodo. Aute reprehenderit esse nulla."
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "accordion.height",
+    "reducedMotionFallback": "instant-toggle"
+   },
+   "style": {
+    "spaceBefore": "space.section.s200"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Platform"
+     },
+     {
+      "title": "Roles"
+     },
+     {
+      "title": "Resources"
+     },
+     {
+      "title": "Comparisons"
+     },
+     {
+      "title": "Customers"
+     },
+     {
+      "title": "Contact"
+     }
+    ],
+    "lead": "© 2026 Dovetail Research Pty. Ltd.",
+    "actions": [
+     {
+      "label": "Legal & Privacy",
+      "href": "/legal/"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  }
+ ]
+}

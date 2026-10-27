@@ -1,0 +1,96 @@
+{
+ "slug": "insight-out-conf-2025",
+ "path": "/events/insight-out-conf-2025/",
+ "title": "Insight Out Conf 2025",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2025-04-23T09:00-07:00",
+ "endDate": "2025-04-23T17:00-07:00",
+ "onlineEvent": false,
+ "location": "Fort Mason Center, San Francisco",
+ "hosts": [
+  "Sean Bruce",
+  "Jeremie Gluckman",
+  "Alissa Lydon",
+  "Cheri March"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": null,
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Sean Bruce, Jeremie Gluckman, Alissa Lydon, Cheri March"
+  },
+  {
+   "label": "[START]",
+   "value": "23 Apr 2025 9:00AM PDT"
+  },
+  {
+   "label": "[END]",
+   "value": "23 Apr 2025 5:00PM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Fort Mason Center, San Francisco"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/ezgif.com-video-to-gif-converter__2_.gif",
+  "width": 800,
+  "height": 453,
+  "youtubeId": null
+ },
+ "body": [
+  {
+   "t": "h2",
+   "text": "Access the recordings!"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 335
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 149,
+     "strong": [
+      "Forge connections:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 156,
+     "strong": [
+      "Fuel your future:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 146,
+     "strong": [
+      "Ride the wave:"
+     ]
+    }
+   ]
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}

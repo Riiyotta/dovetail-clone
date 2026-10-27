@@ -1,0 +1,16 @@
+# dependencies and build output (rebuilt with `npm ci` / `npm run build`)
+node_modules/
+dist/
+
+# packaged design-repo; regenerated from design-repo/ (never commit it next to the live folder)
+design-repo.zip
+
+# local browser-tool logs and editor/launch config
+.playwright-mcp/
+.claude/
+
+# OS / editor junk
+.DS_Store
+__MACOSX/
+__pycache__/
+*.pyc

@@ -1,0 +1,200 @@
+{
+ "slug": "config-watch-party-sydney",
+ "path": "/events/config-watch-party-sydney/",
+ "title": "Config watch party Sydney",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2026-06-25T17:00+10:00",
+ "endDate": "2026-06-25T21:00+10:00",
+ "onlineEvent": false,
+ "location": "Dovetail, 276 Devonshire Street, Surry Hills 2010",
+ "hosts": [
+  "Dovetail team"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": null,
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Dovetail team"
+  },
+  {
+   "label": "[START]",
+   "value": "25 Jun 2026 12:00AM PDT"
+  },
+  {
+   "label": "[END]",
+   "value": "25 Jun 2026 4:00AM PDT"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Dovetail, 276 Devonshire Street, Surry Hills 2010"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "hero": {
+  "type": "image",
+  "image": "/assets/company/media/config-watch-party-sydney.png",
+  "width": 1136,
+  "height": 640,
+  "youtubeId": null
+ },
+ "body": [
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 111
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 274
+  },
+  {
+   "t": "h2",
+   "text": "Watching together, Sydney time"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 326
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 53
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 169
+  },
+  {
+   "t": "h2",
+   "text": "What to expect"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 145,
+     "strong": [
+      "Keynote screening"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 145,
+     "strong": [
+      "FoF Sydney 3rd birthday and brand launch"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 130,
+     "strong": [
+      "Community and networking"
+     ]
+    },
+    {
+     "strong": [
+      "Food and drinks"
+     ],
+     "text": "Food and drinks—We've got you covered."
+    },
+    {
+     "placeholder": true,
+     "chars": 80,
+     "strong": [
+      "Exclusive merch and giveaways"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 165,
+     "strong": [
+      "Reaction and discussion"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Agenda"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "strong": [
+      "5:00pm"
+     ],
+     "text": "5:00pm—Doors open"
+    },
+    {
+     "strong": [
+      "5:00–6:00pm"
+     ],
+     "text": "5:00–6:00pm—Arrival, registration, food and drinks"
+    },
+    {
+     "strong": [
+      "6:00–7:30pm"
+     ],
+     "text": "6:00–7:30pm—Keynote screening"
+    },
+    {
+     "strong": [
+      "7:30–9:00pm"
+     ],
+     "text": "7:30–9:00pm—Networking"
+    },
+    {
+     "strong": [
+      "9:00pm"
+     ],
+     "text": "9:00pm—Event ends"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 384,
+   "strong": [
+    "Registration notice:"
+   ]
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 95
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 12,
+   "links": [
+    {
+     "text": "Register now",
+     "href": "https://friends.figma.com/events/details/figma-sydney-presents-sydney-config-watch-party-2026/cohost-sydney/"
+    }
+   ]
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ]
+}
