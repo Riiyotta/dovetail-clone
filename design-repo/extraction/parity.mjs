@@ -3,8 +3,10 @@
 // viewport (1440x900, reduced motion, CSS animations/transitions frozen), scrolled to the SAME offsets (the top of every
 // measured clone section from extraction/measured-values.json -> sectionHeights) and screenshotted; each pair is compared
 // pixel by pixel (a pixel matches when every channel differs by <= TOLERANCE). Gate: every section >= 80% AND the average.
-// Both pages wait for `load` and are scrolled through once before capture; <video> elements are paused and hidden on
-// both pages (their frames depend on playback time) and counted per route as videosMasked. Nothing else is masked.
+// Both pages wait for `load` and are scrolled through once before capture, then wait (cap 10s) until every <img> has
+// loaded (pending lazy images are switched to eager) and web fonts are ready; the number still pending is recorded
+// per route as imagesPending. <video> elements are paused and hidden on both pages (their frames depend on playback
+// time) and counted per route as videosMasked. Nothing else is masked.
 //
 //   PLAYWRIGHT_MODULE=<path or package name of playwright>   BASE_URL=http://localhost:5210   LIVE_URL=<origin of the live site>
 //   ROUTES=representative | /a/,/b/     TOLERANCE=24     node extraction/parity.mjs > <output-file>.json
@@ -71,6 +73,21 @@ for (const route of routes) {
     rec.videosMasked = {}
     for (const [k, p] of [['clone', pc], ['live', pl]]) {
       await p.evaluate(async () => { for (let y = 0; y < document.documentElement.scrollHeight; y += 700) { window.scrollTo(0, y); await new Promise((r) => setTimeout(r, 60)) } window.scrollTo(0, 0) })
+      // Settle (revision 2026-10-29): lazy <img> that the scroll-through started must finish (or fail) and web
+      // fonts must be ready before anything is measured or captured, on BOTH pages (cap 10s). Without this the live
+      // page's lazily loaded article images could still be 0px tall when the capture ran (live /blog/2025-fall-launch/
+      // measured 13,031-15,630px across runs), and a lazy card thumbnail could be captured empty.
+      rec.imagesPending = rec.imagesPending || {}
+      rec.imagesPending[k] = await p.evaluate(async () => {
+        // Images still pending are switched to eager loading (the state a reader reaches by scrolling to them).
+        const pending = [...document.images].filter((i) => !i.complete)
+        pending.forEach((i) => { i.loading = 'eager' })
+        await Promise.race([
+          Promise.all([document.fonts ? document.fonts.ready : null, ...pending.map((i) => new Promise((r) => { i.addEventListener('load', r, { once: true }); i.addEventListener('error', r, { once: true }) }))]),
+          new Promise((r) => setTimeout(r, 10000)),
+        ])
+        return [...document.images].filter((i) => !i.complete).length
+      })
       await p.addStyleTag({ content: FREEZE + ' video{visibility:hidden!important}' })
       rec.videosMasked[k] = await p.evaluate(() => { const v = [...document.querySelectorAll('video')]; v.forEach((x) => { try { x.pause() } catch {} }); return v.length })
       await p.waitForTimeout(1500)

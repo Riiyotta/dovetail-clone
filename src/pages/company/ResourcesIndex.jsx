@@ -5,6 +5,7 @@ import Button from '../../components/company/Button.jsx'
 import Icon from '../../components/company/Icon.jsx'
 import Spacer from '../../components/company/Spacer.jsx'
 import { copy, seedOf } from '../../components/company/text.js'
+import { phLines } from '../../components/marketing/placeholder.js'
 import PageCta from '../../components/company/PageCta.jsx'
 import VideoCard from '../../components/company/VideoCard.jsx'
 import { ArrowLink, ctaButtons } from './Parts.jsx'
@@ -25,7 +26,7 @@ function LinkList({ list }) {
             <Link className="ri-item__link" to={it.href}>
               <h3 className="co-h20 ri-item__h3">{it.title} ↗</h3>
             </Link>
-            <p className="co-p16 ri-item__desc">{copy(it.description, seedOf(it.href))}</p>
+            <p className="co-p16 ri-item__desc" {...phLines(it.description)}>{copy(it.description, seedOf(it.href))}</p>
           </div>
         ))}
       </div>

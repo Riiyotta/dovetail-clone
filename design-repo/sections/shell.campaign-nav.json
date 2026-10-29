@@ -9,10 +9,10 @@
   "id": "component:BestNeverGuessPage:bng-nav",
   "file": "src/pages/campaigns/bng/BestNeverGuessPage.jsx",
   "tag": "nav",
-  "lines": "27-39",
-  "tagLine": 27,
+  "lines": "28-40",
+  "tagLine": 28,
   "anchor": "bng-nav",
-  "anchorLine": 27
+  "anchorLine": 28
  },
  "purpose": "Minimal nav owned by a campaign page (logo + one CTA) replacing the site nav.",
  "retrievalEligible": true,
@@ -137,7 +137,7 @@
   }
  },
  "evidence": [
-  "src/pages/campaigns/bng/BestNeverGuessPage.jsx:27-39",
+  "src/pages/campaigns/bng/BestNeverGuessPage.jsx:28-40",
   "specs/best-never-guess.md:1-30",
   "specs/campaign-aws-summit.md:1-30"
  ]

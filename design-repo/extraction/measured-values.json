@@ -9,7 +9,7 @@
   "viewport": 1440,
   "unit": "px",
   "measuredAt": "2026-10-26",
-  "method": "headless Chromium 1440x900, reduced motion, full scroll to settle lazy media, then getBoundingClientRect of each semantic section located by the rules in extraction/section-map.json (article/legal bodies split at their own h2/h3 headings, story bodies at their spacer separators, changelog rows by year). Every one of the 1,897 served routes plus one 404 probe. Re-measured mid-build: T17/T20/T21/T22 with h2+h3 chapter bounds; T18 after the source changed (src/pages/changelog/ChangelogIndex.jsx footer 'plain' -> 'default').",
+  "method": "headless Chromium 1440x900, reduced motion, full scroll to settle lazy media, then getBoundingClientRect of each semantic section located by the rules in extraction/section-map.json (article/legal bodies split at their own h2/h3 headings, story bodies at their spacer separators, changelog rows by year). Every one of the 1,897 served routes plus one 404 probe. Re-measured mid-build: T17/T20/T21/T22 with h2+h3 chapter bounds; T18 after the source changed (src/pages/changelog/ChangelogIndex.jsx footer 'plain' -> 'default'). Re-measured 2026-10-29 (fidelity revision 1.1.0) on the vite preview build: /product/ai-agents/, /roles/customer-experience/, /enterprise/, /dovetail-vs-aurelius/, /the-best-never-guess/, /blog/2025-fall-launch/, /customers/, /resources/ and every T27 (customer story) and T36 (legal doc) route; node lists unchanged, heights/tops updated.",
   "routes": {
    "/": {
     "template": "T0",
@@ -788,7 +788,7 @@
    },
    "/roles/customer-experience/": {
     "template": "T2",
-    "docHeightPx": 10034,
+    "docHeightPx": 10110,
     "chrome": {
      "banner": "default",
      "nav": "default",
@@ -836,14 +836,14 @@
       "section": "features.integrations-list",
       "variant": "default",
       "topPx": 3797,
-      "heightPx": 2039,
+      "heightPx": 2087,
       "position": "relative",
       "spaceBeforePx": 200
      },
      {
       "section": "interactive.use-case-tabs",
       "variant": "default",
-      "topPx": 6036,
+      "topPx": 6084,
       "heightPx": 867.6,
       "position": "static",
       "spaceBeforePx": 200
@@ -851,7 +851,7 @@
      {
       "section": "social-proof.testimonial",
       "variant": "featured",
-      "topPx": 7104,
+      "topPx": 7152,
       "heightPx": 560,
       "position": "relative",
       "spaceBeforePx": 200
@@ -859,15 +859,15 @@
      {
       "section": "social-proof.story-cards",
       "variant": "default",
-      "topPx": 7864,
-      "heightPx": 503.8,
+      "topPx": 7912,
+      "heightPx": 531.8,
       "position": "relative",
       "spaceBeforePx": 200
      },
      {
       "section": "interactive.faq",
       "variant": "marketing",
-      "topPx": 8568,
+      "topPx": 8644,
       "heightPx": 538,
       "position": "static",
       "spaceBeforePx": 200
@@ -2217,7 +2217,7 @@
    },
    "/dovetail-vs-aurelius/": {
     "template": "T8",
-    "docHeightPx": 10014,
+    "docHeightPx": 10086,
     "chrome": {
      "banner": "default",
      "nav": "default",
@@ -2290,14 +2290,14 @@
       "section": "features.choose-grid",
       "variant": "default",
       "topPx": 3892,
-      "heightPx": 1235.6,
+      "heightPx": 1279.6,
       "position": "relative",
       "spaceBeforePx": 160
      },
      {
       "section": "comparison.intro",
       "variant": "default",
-      "topPx": 5287,
+      "topPx": 5331,
       "heightPx": 160,
       "position": "relative",
       "spaceBeforePx": 160
@@ -2305,7 +2305,7 @@
      {
       "section": "comparison.table",
       "variant": "default",
-      "topPx": 5511,
+      "topPx": 5555,
       "heightPx": 995,
       "position": "relative",
       "spaceBeforePx": 64
@@ -2313,7 +2313,7 @@
      {
       "section": "social-proof.awards-marquee",
       "variant": "default",
-      "topPx": 6602,
+      "topPx": 6646,
       "heightPx": 72,
       "position": "relative",
       "spaceBeforePx": 96
@@ -2321,7 +2321,7 @@
      {
       "section": "cta.migrate-band",
       "variant": "default",
-      "topPx": 6834,
+      "topPx": 6878,
       "heightPx": 508,
       "position": "relative",
       "spaceBeforePx": 160
@@ -2329,15 +2329,15 @@
      {
       "section": "cta.trial-band",
       "variant": "comparison",
-      "topPx": 7542,
-      "heightPx": 744,
+      "topPx": 7586,
+      "heightPx": 772,
       "position": "relative",
       "spaceBeforePx": 200
      },
      {
       "section": "interactive.faq",
       "variant": "tools",
-      "topPx": 8446,
+      "topPx": 8518,
       "heightPx": 639,
       "position": "relative",
       "spaceBeforePx": 160
@@ -4739,7 +4739,7 @@
    },
    "/the-best-never-guess/": {
     "template": "T13",
-    "docHeightPx": 5962,
+    "docHeightPx": 6114,
     "chrome": {
      "banner": "none",
      "nav": "none",
@@ -4765,13 +4765,13 @@
       "section": "content.campaign-text",
       "variant": "default",
       "topPx": 988,
-      "heightPx": 366,
+      "heightPx": 462,
       "position": "relative"
      },
      {
       "section": "social-proof.testimonial",
       "variant": "campaign",
-      "topPx": 1578,
+      "topPx": 1674,
       "heightPx": 436,
       "position": "relative",
       "spaceBeforePx": 224
@@ -4779,15 +4779,15 @@
      {
       "section": "social-proof.story-grid",
       "variant": "default",
-      "topPx": 2110,
-      "heightPx": 1071.6,
+      "topPx": 2206,
+      "heightPx": 1127.6,
       "position": "static",
       "spaceBeforePx": 96
      },
      {
       "section": "social-proof.team-proof",
       "variant": "default",
-      "topPx": 3428,
+      "topPx": 3580,
       "heightPx": 1170.9,
       "position": "relative",
       "spaceBeforePx": 246
@@ -4795,7 +4795,7 @@
      {
       "section": "conversion.trial-signup",
       "variant": "default",
-      "topPx": 4845,
+      "topPx": 4997,
       "heightPx": 890,
       "position": "relative",
       "spaceBeforePx": 246
@@ -4803,7 +4803,7 @@
      {
       "section": "shell.campaign-footer",
       "variant": "campaign",
-      "topPx": 5735,
+      "topPx": 5887,
       "heightPx": 227.6,
       "position": "relative"
      }
@@ -5305,7 +5305,7 @@
    },
    "/blog/2025-fall-launch/": {
     "template": "T17",
-    "docHeightPx": 15442,
+    "docHeightPx": 16463,
     "chrome": {
      "banner": "default",
      "nav": "default",
@@ -5354,7 +5354,7 @@
      {
       "section": "cta.sidebar-card",
       "variant": "default",
-      "topPx": 5235,
+      "topPx": 5575,
       "heightPx": 358.7,
       "position": "sticky",
       "aside": true,
@@ -5363,7 +5363,7 @@
      {
       "section": "cta.sidebar-card",
       "variant": "default",
-      "topPx": 9089,
+      "topPx": 9770,
       "heightPx": 330.7,
       "position": "sticky",
       "aside": true,
@@ -5373,41 +5373,41 @@
       "section": "article.chapter",
       "variant": "dark",
       "topPx": 1381,
-      "heightPx": 3394,
+      "heightPx": 4484,
       "position": "static"
      },
      {
       "section": "article.chapter",
       "variant": "dark",
-      "topPx": 4775,
-      "heightPx": 2417.5,
+      "topPx": 5865,
+      "heightPx": 2200.1,
       "position": "static"
      },
      {
       "section": "article.chapter",
       "variant": "dark",
-      "topPx": 7193,
-      "heightPx": 1701,
+      "topPx": 8065,
+      "heightPx": 1574.3,
       "position": "static"
      },
      {
       "section": "article.chapter",
       "variant": "dark",
-      "topPx": 8894,
-      "heightPx": 3410.5,
+      "topPx": 9640,
+      "heightPx": 3517.9,
       "position": "static"
      },
      {
       "section": "article.chapter",
       "variant": "dark",
-      "topPx": 12304,
-      "heightPx": 558,
+      "topPx": 13158,
+      "heightPx": 726,
       "position": "static"
      },
      {
       "section": "listing.related-articles",
       "variant": "cards",
-      "topPx": 12894,
+      "topPx": 13916,
       "heightPx": 718.7,
       "position": "static",
       "spaceBeforePx": 200
@@ -5415,7 +5415,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 13773,
+      "topPx": 14794,
       "heightPx": 900,
       "position": "relative"
      }
@@ -325382,7 +325382,7 @@
    },
    "/customers/": {
     "template": "T26",
-    "docHeightPx": 43450,
+    "docHeightPx": 43538,
     "chrome": {
      "banner": "default",
      "nav": "default",
@@ -325407,20 +325407,20 @@
       "section": "hero.typewriter",
       "variant": "default",
       "topPx": 118,
-      "heightPx": 694,
+      "heightPx": 782,
       "position": "static"
      },
      {
       "section": "listing.story-grid",
       "variant": "default",
-      "topPx": 812,
+      "topPx": 900,
       "heightPx": 7931.2,
       "position": "relative"
      },
      {
       "section": "social-proof.logo-wall",
       "variant": "default",
-      "topPx": 8943,
+      "topPx": 9031,
       "heightPx": 5920,
       "position": "static",
       "spaceBeforePx": 200
@@ -325428,28 +325428,28 @@
      {
       "section": "social-proof.customer-stories",
       "variant": "video-band",
-      "topPx": 15063,
+      "topPx": 15151,
       "heightPx": 910,
       "position": "relative"
      },
      {
       "section": "social-proof.ratings",
       "variant": "default",
-      "topPx": 15973,
+      "topPx": 16061,
       "heightPx": 832,
       "position": "relative"
      },
      {
       "section": "social-proof.testimonial-wall",
       "variant": "default",
-      "topPx": 16805,
+      "topPx": 16893,
       "heightPx": 25816,
       "position": "relative"
      },
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 41781,
+      "topPx": 41869,
       "heightPx": 900,
       "position": "relative"
      }
@@ -325457,7 +325457,7 @@
    },
    "/customers/achievers/": {
     "template": "T27",
-    "docHeightPx": 9092,
+    "docHeightPx": 9452,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -325489,7 +325489,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1540,
-      "heightPx": 4601,
+      "heightPx": 4961,
       "position": "absolute",
       "aside": true
      },
@@ -325497,48 +325497,48 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1540,
-      "heightPx": 644,
+      "heightPx": 704,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2284,
-      "heightPx": 473,
+      "topPx": 2344,
+      "heightPx": 533,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2857,
-      "heightPx": 853,
-      "position": "static"
-     },
-     {
-      "section": "article.story-chapter",
-      "variant": "default",
-      "topPx": 3810,
+      "topPx": 2977,
       "heightPx": 941,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 4851,
-      "heightPx": 749,
+      "topPx": 4018,
+      "heightPx": 1001,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 5700,
-      "heightPx": 441,
+      "topPx": 5119,
+      "heightPx": 809,
+      "position": "static"
+     },
+     {
+      "section": "article.story-chapter",
+      "variant": "default",
+      "topPx": 6028,
+      "heightPx": 473,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 6261,
+      "topPx": 6621,
       "heightPx": 1161.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -325546,7 +325546,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 7423,
+      "topPx": 7783,
       "heightPx": 900,
       "position": "relative"
      }
@@ -325554,7 +325554,7 @@
    },
    "/customers/atlassian-design/": {
     "template": "T27",
-    "docHeightPx": 9257,
+    "docHeightPx": 9385,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -325586,7 +325586,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1547,
-      "heightPx": 4732.4,
+      "heightPx": 4860.4,
       "position": "absolute",
       "aside": true
      },
@@ -325594,34 +325594,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1547,
-      "heightPx": 992,
+      "heightPx": 1024,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2639,
-      "heightPx": 1101,
+      "topPx": 2671,
+      "heightPx": 1133,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3840,
-      "heightPx": 873,
+      "topPx": 3904,
+      "heightPx": 905,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 4813,
-      "heightPx": 1466.4,
+      "topPx": 4909,
+      "heightPx": 1498.4,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 6399,
+      "topPx": 6527,
       "heightPx": 1189.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -325629,7 +325629,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 7589,
+      "topPx": 7717,
       "heightPx": 900,
       "position": "relative"
      }
@@ -325637,7 +325637,7 @@
    },
    "/customers/atlassian/": {
     "template": "T27",
-    "docHeightPx": 7507,
+    "docHeightPx": 7635,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -325669,7 +325669,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1521,
-      "heightPx": 3007,
+      "heightPx": 3135,
       "position": "absolute",
       "aside": true
      },
@@ -325677,34 +325677,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1521,
-      "heightPx": 520,
+      "heightPx": 552,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2141,
-      "heightPx": 817,
+      "topPx": 2173,
+      "heightPx": 849,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3058,
-      "heightPx": 725,
+      "topPx": 3122,
+      "heightPx": 757,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3883,
-      "heightPx": 645,
+      "topPx": 3979,
+      "heightPx": 677,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 4648,
+      "topPx": 4776,
       "heightPx": 1189.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -325712,7 +325712,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 5838,
+      "topPx": 5966,
       "heightPx": 900,
       "position": "relative"
      }
@@ -325720,7 +325720,7 @@
    },
    "/customers/aws/": {
     "template": "T27",
-    "docHeightPx": 9882,
+    "docHeightPx": 10010,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -325752,7 +325752,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1615,
-      "heightPx": 5289,
+      "heightPx": 5417,
       "position": "absolute",
       "aside": true
      },
@@ -325760,34 +325760,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1615,
-      "heightPx": 1202.5,
+      "heightPx": 1234.5,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2917,
-      "heightPx": 1376.6,
+      "topPx": 2949,
+      "heightPx": 1408.6,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 4394,
-      "heightPx": 1552.9,
+      "topPx": 4458,
+      "heightPx": 1584.9,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 6047,
-      "heightPx": 857,
+      "topPx": 6143,
+      "heightPx": 889,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 7024,
+      "topPx": 7152,
       "heightPx": 1189.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -325795,7 +325795,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 8213,
+      "topPx": 8341,
       "heightPx": 900,
       "position": "relative"
      }
@@ -325803,7 +325803,7 @@
    },
    "/customers/bower/": {
     "template": "T27",
-    "docHeightPx": 9335,
+    "docHeightPx": 9463,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -325835,7 +325835,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1771,
-      "heightPx": 4585.9,
+      "heightPx": 4713.9,
       "position": "absolute",
       "aside": true
      },
@@ -325843,34 +325843,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1771,
-      "heightPx": 1402.3,
+      "heightPx": 1434.3,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3273,
-      "heightPx": 1521.6,
+      "topPx": 3305,
+      "heightPx": 1553.6,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 4895,
-      "heightPx": 701,
+      "topPx": 4959,
+      "heightPx": 733,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 5696,
-      "heightPx": 661,
+      "topPx": 5792,
+      "heightPx": 693,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 6477,
+      "topPx": 6605,
       "heightPx": 1189.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -325878,7 +325878,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 7667,
+      "topPx": 7795,
       "heightPx": 900,
       "position": "relative"
      }
@@ -325886,7 +325886,7 @@
    },
    "/customers/breville/": {
     "template": "T27",
-    "docHeightPx": 8939,
+    "docHeightPx": 9067,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -325918,7 +325918,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1512,
-      "heightPx": 4448.9,
+      "heightPx": 4576.9,
       "position": "absolute",
       "aside": true
      },
@@ -325926,34 +325926,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1512,
-      "heightPx": 1239.5,
+      "heightPx": 1271.5,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2851,
-      "heightPx": 1122.5,
+      "topPx": 2883,
+      "heightPx": 1154.5,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 4074,
-      "heightPx": 1261.8,
+      "topPx": 4138,
+      "heightPx": 1293.8,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 5436,
-      "heightPx": 525,
+      "topPx": 5532,
+      "heightPx": 557,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 6081,
+      "topPx": 6209,
       "heightPx": 1189.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -325961,7 +325961,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 7271,
+      "topPx": 7399,
       "heightPx": 900,
       "position": "relative"
      }
@@ -325969,7 +325969,7 @@
    },
    "/customers/canva-ai/": {
     "template": "T27",
-    "docHeightPx": 10361,
+    "docHeightPx": 10489,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -326001,7 +326001,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1615,
-      "heightPx": 5768.2,
+      "heightPx": 5896.2,
       "position": "absolute",
       "aside": true
      },
@@ -326009,34 +326009,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1615,
-      "heightPx": 1139.6,
+      "heightPx": 1171.6,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2854,
-      "heightPx": 1201,
+      "topPx": 2886,
+      "heightPx": 1233,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 4155,
-      "heightPx": 1802.6,
+      "topPx": 4219,
+      "heightPx": 1834.6,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 6058,
-      "heightPx": 1325,
+      "topPx": 6154,
+      "heightPx": 1357,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 7503,
+      "topPx": 7631,
       "heightPx": 1189.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -326044,7 +326044,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 8693,
+      "topPx": 8821,
       "heightPx": 900,
       "position": "relative"
      }
@@ -326052,7 +326052,7 @@
    },
    "/customers/canva/": {
     "template": "T27",
-    "docHeightPx": 10461,
+    "docHeightPx": 10589,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -326084,7 +326084,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1585,
-      "heightPx": 5897.4,
+      "heightPx": 6025.4,
       "position": "absolute",
       "aside": true
      },
@@ -326092,34 +326092,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1585,
-      "heightPx": 911.6,
+      "heightPx": 943.6,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2596,
-      "heightPx": 2010.6,
+      "topPx": 2628,
+      "heightPx": 2042.6,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 4707,
-      "heightPx": 1000.6,
+      "topPx": 4771,
+      "heightPx": 1032.6,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 5808,
-      "heightPx": 1674.6,
+      "topPx": 5904,
+      "heightPx": 1706.6,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 7602,
+      "topPx": 7730,
       "heightPx": 1189.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -326127,7 +326127,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 8792,
+      "topPx": 8920,
       "heightPx": 900,
       "position": "relative"
      }
@@ -326135,7 +326135,7 @@
    },
    "/customers/careship/": {
     "template": "T27",
-    "docHeightPx": 7034,
+    "docHeightPx": 7130,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -326167,7 +326167,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1717,
-      "heightPx": 2338,
+      "heightPx": 2434,
       "position": "absolute",
       "aside": true
      },
@@ -326175,27 +326175,27 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1717,
-      "heightPx": 744,
+      "heightPx": 776,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2561,
-      "heightPx": 641,
+      "topPx": 2593,
+      "heightPx": 673,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3302,
-      "heightPx": 753,
+      "topPx": 3366,
+      "heightPx": 785,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 4175,
+      "topPx": 4271,
       "heightPx": 1189.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -326203,7 +326203,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 5365,
+      "topPx": 5461,
       "heightPx": 900,
       "position": "relative"
      }
@@ -326211,7 +326211,7 @@
    },
    "/customers/cnh/": {
     "template": "T27",
-    "docHeightPx": 11668,
+    "docHeightPx": 11860,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -326243,7 +326243,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1523,
-      "heightPx": 7195,
+      "heightPx": 7387,
       "position": "absolute",
       "aside": true
      },
@@ -326251,48 +326251,48 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1523,
-      "heightPx": 1290,
+      "heightPx": 1322,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2913,
-      "heightPx": 581,
+      "topPx": 2945,
+      "heightPx": 613,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3594,
-      "heightPx": 869,
+      "topPx": 3658,
+      "heightPx": 901,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 4563,
-      "heightPx": 2089.4,
+      "topPx": 4659,
+      "heightPx": 2121.4,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 6752,
-      "heightPx": 941,
+      "topPx": 6880,
+      "heightPx": 973,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 7793,
-      "heightPx": 924.6,
+      "topPx": 7953,
+      "heightPx": 956.6,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 8838,
+      "topPx": 9030,
       "heightPx": 1161.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -326300,7 +326300,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 9999,
+      "topPx": 10191,
       "heightPx": 900,
       "position": "relative"
      }
@@ -326308,7 +326308,7 @@
    },
    "/customers/eucalyptus/": {
     "template": "T27",
-    "docHeightPx": 7279,
+    "docHeightPx": 7407,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -326340,7 +326340,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1617,
-      "heightPx": 2683,
+      "heightPx": 2811,
       "position": "absolute",
       "aside": true
      },
@@ -326348,34 +326348,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1617,
-      "heightPx": 568,
+      "heightPx": 600,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2285,
-      "heightPx": 581,
+      "topPx": 2317,
+      "heightPx": 613,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2966,
-      "heightPx": 641,
+      "topPx": 3030,
+      "heightPx": 673,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3707,
-      "heightPx": 593,
+      "topPx": 3803,
+      "heightPx": 625,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 4420,
+      "topPx": 4548,
       "heightPx": 1189.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -326383,7 +326383,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 5610,
+      "topPx": 5738,
       "heightPx": 900,
       "position": "relative"
      }
@@ -326391,7 +326391,7 @@
    },
    "/customers/flagship-airline-group/": {
     "template": "T27",
-    "docHeightPx": 10784,
+    "docHeightPx": 10912,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -326423,7 +326423,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1687,
-      "heightPx": 5120.8,
+      "heightPx": 5248.8,
       "position": "absolute",
       "aside": true
      },
@@ -326431,34 +326431,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1687,
-      "heightPx": 672,
+      "heightPx": 704,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2459,
-      "heightPx": 917,
+      "topPx": 2491,
+      "heightPx": 949,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3476,
-      "heightPx": 1722.8,
+      "topPx": 3540,
+      "heightPx": 1754.8,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 5298,
-      "heightPx": 1509,
+      "topPx": 5394,
+      "heightPx": 1541,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 6927,
+      "topPx": 7055,
       "heightPx": 1245.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -326466,7 +326466,7 @@
      {
       "section": "interactive.faq",
       "variant": "company",
-      "topPx": 8333,
+      "topPx": 8461,
       "heightPx": 622,
       "position": "static",
       "spaceBeforePx": 160
@@ -326474,7 +326474,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 9115,
+      "topPx": 9243,
       "heightPx": 900,
       "position": "relative"
      }
@@ -326482,7 +326482,7 @@
    },
    "/customers/fleet-management-tech-leader/": {
     "template": "T27",
-    "docHeightPx": 10596,
+    "docHeightPx": 10724,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -326514,7 +326514,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1687,
-      "heightPx": 4904.8,
+      "heightPx": 5032.8,
       "position": "absolute",
       "aside": true
      },
@@ -326522,34 +326522,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1687,
-      "heightPx": 680,
+      "heightPx": 712,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2467,
-      "heightPx": 945,
+      "topPx": 2499,
+      "heightPx": 977,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3512,
-      "heightPx": 1910.8,
+      "topPx": 3576,
+      "heightPx": 1942.8,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 5522,
-      "heightPx": 1069,
+      "topPx": 5618,
+      "heightPx": 1101,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 6711,
+      "topPx": 6839,
       "heightPx": 1245.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -326557,7 +326557,7 @@
      {
       "section": "interactive.faq",
       "variant": "company",
-      "topPx": 8117,
+      "topPx": 8245,
       "heightPx": 650,
       "position": "static",
       "spaceBeforePx": 160
@@ -326565,7 +326565,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 8927,
+      "topPx": 9055,
       "heightPx": 900,
       "position": "relative"
      }
@@ -326573,7 +326573,7 @@
    },
    "/customers/global-agricultural-equipment-maker/": {
     "template": "T27",
-    "docHeightPx": 12033,
+    "docHeightPx": 12161,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -326605,7 +326605,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1687,
-      "heightPx": 6398.3,
+      "heightPx": 6526.3,
       "position": "absolute",
       "aside": true
      },
@@ -326613,34 +326613,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1687,
-      "heightPx": 1478,
+      "heightPx": 1510,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3265,
-      "heightPx": 1668.5,
+      "topPx": 3297,
+      "heightPx": 1700.5,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 5033,
-      "heightPx": 1782.8,
+      "topPx": 5097,
+      "heightPx": 1814.8,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 6916,
-      "heightPx": 1169,
+      "topPx": 7012,
+      "heightPx": 1201,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 8205,
+      "topPx": 8333,
       "heightPx": 1245.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -326648,7 +326648,7 @@
      {
       "section": "interactive.faq",
       "variant": "company",
-      "topPx": 9611,
+      "topPx": 9739,
       "heightPx": 594,
       "position": "static",
       "spaceBeforePx": 160
@@ -326656,7 +326656,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 10365,
+      "topPx": 10493,
       "heightPx": 900,
       "position": "relative"
      }
@@ -326664,7 +326664,7 @@
    },
    "/customers/global-enterprise-cloud-platform/": {
     "template": "T27",
-    "docHeightPx": 10548,
+    "docHeightPx": 10676,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -326696,7 +326696,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1663,
-      "heightPx": 4936.8,
+      "heightPx": 5064.8,
       "position": "absolute",
       "aside": true
      },
@@ -326704,34 +326704,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1663,
-      "heightPx": 752,
+      "heightPx": 784,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2515,
-      "heightPx": 805,
+      "topPx": 2547,
+      "heightPx": 837,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3420,
-      "heightPx": 1930.8,
+      "topPx": 3484,
+      "heightPx": 1962.8,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 5450,
-      "heightPx": 1149,
+      "topPx": 5546,
+      "heightPx": 1181,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 6719,
+      "topPx": 6847,
       "heightPx": 1245.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -326739,7 +326739,7 @@
      {
       "section": "interactive.faq",
       "variant": "company",
-      "topPx": 8125,
+      "topPx": 8253,
       "heightPx": 594,
       "position": "static",
       "spaceBeforePx": 160
@@ -326747,7 +326747,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 8879,
+      "topPx": 9007,
       "heightPx": 900,
       "position": "relative"
      }
@@ -326755,7 +326755,7 @@
    },
    "/customers/global-enterprise-life-sciences/": {
     "template": "T27",
-    "docHeightPx": 11183,
+    "docHeightPx": 11343,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -326787,7 +326787,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1567,
-      "heightPx": 5640,
+      "heightPx": 5800,
       "position": "absolute",
       "aside": true
      },
@@ -326795,41 +326795,41 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1567,
-      "heightPx": 648,
+      "heightPx": 680,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2315,
-      "heightPx": 713,
+      "topPx": 2347,
+      "heightPx": 745,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3128,
-      "heightPx": 1276.7,
+      "topPx": 3192,
+      "heightPx": 1308.7,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 4504,
-      "heightPx": 1149.8,
+      "topPx": 4600,
+      "heightPx": 1181.8,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 5754,
-      "heightPx": 1452.5,
+      "topPx": 5882,
+      "heightPx": 1484.5,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 7327,
+      "topPx": 7487,
       "heightPx": 1245.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -326837,7 +326837,7 @@
      {
       "section": "interactive.faq",
       "variant": "company",
-      "topPx": 8732,
+      "topPx": 8892,
       "heightPx": 622,
       "position": "static",
       "spaceBeforePx": 160
@@ -326845,7 +326845,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 9514,
+      "topPx": 9674,
       "heightPx": 900,
       "position": "relative"
      }
@@ -326853,7 +326853,7 @@
    },
    "/customers/global-financial-institution/": {
     "template": "T27",
-    "docHeightPx": 11705,
+    "docHeightPx": 11833,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -326885,7 +326885,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1755,
-      "heightPx": 6001.8,
+      "heightPx": 6129.8,
       "position": "absolute",
       "aside": true
      },
@@ -326893,34 +326893,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1755,
-      "heightPx": 1318.7,
+      "heightPx": 1350.7,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3173,
-      "heightPx": 973,
+      "topPx": 3205,
+      "heightPx": 1005,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 4246,
-      "heightPx": 1646.5,
+      "topPx": 4310,
+      "heightPx": 1678.5,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 5993,
-      "heightPx": 1763.7,
+      "topPx": 6089,
+      "heightPx": 1795.7,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 7876,
+      "topPx": 8004,
       "heightPx": 1217.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -326928,7 +326928,7 @@
      {
       "section": "interactive.faq",
       "variant": "company",
-      "topPx": 9254,
+      "topPx": 9382,
       "heightPx": 622,
       "position": "static",
       "spaceBeforePx": 160
@@ -326936,7 +326936,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 10036,
+      "topPx": 10164,
       "heightPx": 900,
       "position": "relative"
      }
@@ -326944,7 +326944,7 @@
    },
    "/customers/global-home-furnishings-retailer/": {
     "template": "T27",
-    "docHeightPx": 11170,
+    "docHeightPx": 11298,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -326976,7 +326976,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1687,
-      "heightPx": 5535,
+      "heightPx": 5663,
       "position": "absolute",
       "aside": true
      },
@@ -326984,34 +326984,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1687,
-      "heightPx": 1258.7,
+      "heightPx": 1290.7,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3045,
-      "heightPx": 1648.5,
+      "topPx": 3077,
+      "heightPx": 1680.5,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 4794,
-      "heightPx": 1546.8,
+      "topPx": 4858,
+      "heightPx": 1578.8,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 6441,
-      "heightPx": 781,
+      "topPx": 6537,
+      "heightPx": 813,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 7342,
+      "topPx": 7470,
       "heightPx": 1217.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -327019,7 +327019,7 @@
      {
       "section": "interactive.faq",
       "variant": "company",
-      "topPx": 8719,
+      "topPx": 8847,
       "heightPx": 622,
       "position": "static",
       "spaceBeforePx": 160
@@ -327027,7 +327027,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 9501,
+      "topPx": 9629,
       "heightPx": 900,
       "position": "relative"
      }
@@ -327035,7 +327035,7 @@
    },
    "/customers/global-industrial-tech-leader/": {
     "template": "T27",
-    "docHeightPx": 9906,
+    "docHeightPx": 10034,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -327067,7 +327067,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1687,
-      "heightPx": 4327,
+      "heightPx": 4455,
       "position": "absolute",
       "aside": true
      },
@@ -327075,34 +327075,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1687,
-      "heightPx": 596,
+      "heightPx": 628,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2383,
-      "heightPx": 1021,
+      "topPx": 2415,
+      "heightPx": 1053,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3504,
-      "heightPx": 1209,
+      "topPx": 3568,
+      "heightPx": 1241,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 4813,
-      "heightPx": 1201,
+      "topPx": 4909,
+      "heightPx": 1233,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 6134,
+      "topPx": 6262,
       "heightPx": 1189.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -327110,7 +327110,7 @@
      {
       "section": "interactive.faq",
       "variant": "company",
-      "topPx": 7483,
+      "topPx": 7611,
       "heightPx": 594,
       "position": "static",
       "spaceBeforePx": 160
@@ -327118,7 +327118,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 8237,
+      "topPx": 8365,
       "heightPx": 900,
       "position": "relative"
      }
@@ -327126,7 +327126,7 @@
    },
    "/customers/global-management-consulting-firm/": {
     "template": "T27",
-    "docHeightPx": 11766,
+    "docHeightPx": 11894,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -327158,7 +327158,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1707,
-      "heightPx": 6139,
+      "heightPx": 6267,
       "position": "absolute",
       "aside": true
      },
@@ -327166,34 +327166,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1707,
-      "heightPx": 1422.7,
+      "heightPx": 1454.7,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3229,
-      "heightPx": 1636.5,
+      "topPx": 3261,
+      "heightPx": 1668.5,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 4966,
-      "heightPx": 1722.8,
+      "topPx": 5030,
+      "heightPx": 1754.8,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 6789,
-      "heightPx": 1057,
+      "topPx": 6885,
+      "heightPx": 1089,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 7966,
+      "topPx": 8094,
       "heightPx": 1245.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -327201,7 +327201,7 @@
      {
       "section": "interactive.faq",
       "variant": "company",
-      "topPx": 9371,
+      "topPx": 9499,
       "heightPx": 566,
       "position": "static",
       "spaceBeforePx": 160
@@ -327209,7 +327209,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 10097,
+      "topPx": 10225,
       "heightPx": 900,
       "position": "relative"
      }
@@ -327217,7 +327217,7 @@
    },
    "/customers/global-pos-and-payments-platform/": {
     "template": "T27",
-    "docHeightPx": 11209,
+    "docHeightPx": 11337,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -327249,7 +327249,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1661,
-      "heightPx": 5515.9,
+      "heightPx": 5643.9,
       "position": "absolute",
       "aside": true
      },
@@ -327257,34 +327257,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1661,
-      "heightPx": 1430.7,
+      "heightPx": 1462.7,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3192,
-      "heightPx": 1591.6,
+      "topPx": 3224,
+      "heightPx": 1623.6,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 4883,
-      "heightPx": 1328.6,
+      "topPx": 4947,
+      "heightPx": 1360.6,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 6312,
-      "heightPx": 865,
+      "topPx": 6408,
+      "heightPx": 897,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 7297,
+      "topPx": 7425,
       "heightPx": 1245.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -327292,7 +327292,7 @@
      {
       "section": "interactive.faq",
       "variant": "company",
-      "topPx": 8703,
+      "topPx": 8831,
       "heightPx": 678,
       "position": "static",
       "spaceBeforePx": 160
@@ -327300,7 +327300,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 9541,
+      "topPx": 9669,
       "heightPx": 900,
       "position": "relative"
      }
@@ -327308,7 +327308,7 @@
    },
    "/customers/global-power-tool-manufacturer/": {
     "template": "T27",
-    "docHeightPx": 10448,
+    "docHeightPx": 10576,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -327340,7 +327340,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1639,
-      "heightPx": 4888.8,
+      "heightPx": 5016.8,
       "position": "absolute",
       "aside": true
      },
@@ -327348,34 +327348,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1639,
-      "heightPx": 668,
+      "heightPx": 700,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2407,
-      "heightPx": 833,
+      "topPx": 2439,
+      "heightPx": 865,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3340,
-      "heightPx": 1922.8,
+      "topPx": 3404,
+      "heightPx": 1954.8,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 5362,
-      "heightPx": 1165,
+      "topPx": 5458,
+      "heightPx": 1197,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 6647,
+      "topPx": 6775,
       "heightPx": 1189.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -327383,7 +327383,7 @@
      {
       "section": "interactive.faq",
       "variant": "company",
-      "topPx": 7997,
+      "topPx": 8125,
       "heightPx": 622,
       "position": "static",
       "spaceBeforePx": 160
@@ -327391,7 +327391,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 8779,
+      "topPx": 8907,
       "heightPx": 900,
       "position": "relative"
      }
@@ -327399,7 +327399,7 @@
    },
    "/customers/global-professional-services-network/": {
     "template": "T27",
-    "docHeightPx": 10854,
+    "docHeightPx": 10982,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -327431,7 +327431,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1755,
-      "heightPx": 5066.6,
+      "heightPx": 5194.6,
       "position": "absolute",
       "aside": true
      },
@@ -327439,34 +327439,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1755,
-      "heightPx": 864,
+      "heightPx": 896,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2719,
-      "heightPx": 801,
+      "topPx": 2751,
+      "heightPx": 833,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3620,
-      "heightPx": 1856.6,
+      "topPx": 3684,
+      "heightPx": 1888.6,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 5576,
-      "heightPx": 1245,
+      "topPx": 5672,
+      "heightPx": 1277,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 6941,
+      "topPx": 7069,
       "heightPx": 1245.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -327474,7 +327474,7 @@
      {
       "section": "interactive.faq",
       "variant": "company",
-      "topPx": 8347,
+      "topPx": 8475,
       "heightPx": 678,
       "position": "static",
       "spaceBeforePx": 160
@@ -327482,7 +327482,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 9185,
+      "topPx": 9313,
       "heightPx": 900,
       "position": "relative"
      }
@@ -327490,7 +327490,7 @@
    },
    "/customers/global-saas-leader/": {
     "template": "T27",
-    "docHeightPx": 10221,
+    "docHeightPx": 10349,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -327522,7 +327522,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1615,
-      "heightPx": 4714.1,
+      "heightPx": 4842.1,
       "position": "absolute",
       "aside": true
      },
@@ -327530,34 +327530,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1615,
-      "heightPx": 588,
+      "heightPx": 620,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2303,
-      "heightPx": 1276.5,
+      "topPx": 2335,
+      "heightPx": 1308.5,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3679,
-      "heightPx": 1077,
+      "topPx": 3743,
+      "heightPx": 1109,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 4856,
-      "heightPx": 1472.6,
+      "topPx": 4952,
+      "heightPx": 1504.6,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 6449,
+      "topPx": 6577,
       "heightPx": 1189.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -327565,7 +327565,7 @@
      {
       "section": "interactive.faq",
       "variant": "company",
-      "topPx": 7799,
+      "topPx": 7927,
       "heightPx": 594,
       "position": "static",
       "spaceBeforePx": 160
@@ -327573,7 +327573,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 8553,
+      "topPx": 8681,
       "heightPx": 900,
       "position": "relative"
      }
@@ -327581,7 +327581,7 @@
    },
    "/customers/harvard-business-publishing/": {
     "template": "T27",
-    "docHeightPx": 7174,
+    "docHeightPx": 7302,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -327613,7 +327613,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1529,
-      "heightPx": 2667,
+      "heightPx": 2795,
       "position": "absolute",
       "aside": true
      },
@@ -327621,34 +327621,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1529,
-      "heightPx": 376,
+      "heightPx": 408,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2005,
-      "heightPx": 757,
+      "topPx": 2037,
+      "heightPx": 789,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2862,
-      "heightPx": 617,
+      "topPx": 2926,
+      "heightPx": 649,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3579,
-      "heightPx": 617,
+      "topPx": 3675,
+      "heightPx": 649,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 4316,
+      "topPx": 4444,
       "heightPx": 1189.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -327656,7 +327656,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 5506,
+      "topPx": 5634,
       "heightPx": 900,
       "position": "relative"
      }
@@ -327664,7 +327664,7 @@
    },
    "/customers/iconic-global-automaker/": {
     "template": "T27",
-    "docHeightPx": 11713,
+    "docHeightPx": 11841,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -327696,7 +327696,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1711,
-      "heightPx": 6110.1,
+      "heightPx": 6238.1,
       "position": "absolute",
       "aside": true
      },
@@ -327704,34 +327704,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1711,
-      "heightPx": 1430.7,
+      "heightPx": 1462.7,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3241,
-      "heightPx": 1595.7,
+      "topPx": 3273,
+      "heightPx": 1627.7,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 4937,
-      "heightPx": 1738.8,
+      "topPx": 5001,
+      "heightPx": 1770.8,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 6776,
-      "heightPx": 1045,
+      "topPx": 6872,
+      "heightPx": 1077,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 7941,
+      "topPx": 8069,
       "heightPx": 1161.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -327739,7 +327739,7 @@
      {
       "section": "interactive.faq",
       "variant": "company",
-      "topPx": 9262,
+      "topPx": 9390,
       "heightPx": 622,
       "position": "static",
       "spaceBeforePx": 160
@@ -327747,7 +327747,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 10044,
+      "topPx": 10172,
       "heightPx": 900,
       "position": "relative"
      }
@@ -327755,7 +327755,7 @@
    },
    "/customers/iconic-toy-brand/": {
     "template": "T27",
-    "docHeightPx": 11141,
+    "docHeightPx": 11269,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -327787,7 +327787,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1783,
-      "heightPx": 5382.5,
+      "heightPx": 5510.5,
       "position": "absolute",
       "aside": true
      },
@@ -327795,34 +327795,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1783,
-      "heightPx": 1148,
+      "heightPx": 1180,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3031,
-      "heightPx": 1498.7,
+      "topPx": 3063,
+      "heightPx": 1530.7,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 4629,
-      "heightPx": 1510.8,
+      "topPx": 4693,
+      "heightPx": 1542.8,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 6240,
-      "heightPx": 925,
+      "topPx": 6336,
+      "heightPx": 957,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 7285,
+      "topPx": 7413,
       "heightPx": 1217.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -327830,7 +327830,7 @@
      {
       "section": "interactive.faq",
       "variant": "company",
-      "topPx": 8663,
+      "topPx": 8791,
       "heightPx": 650,
       "position": "static",
       "spaceBeforePx": 160
@@ -327838,7 +327838,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 9473,
+      "topPx": 9601,
       "heightPx": 900,
       "position": "relative"
      }
@@ -327846,7 +327846,7 @@
    },
    "/customers/itau-unibanco/": {
     "template": "T27",
-    "docHeightPx": 9327,
+    "docHeightPx": 9455,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -327878,7 +327878,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1499,
-      "heightPx": 4849.9,
+      "heightPx": 4977.9,
       "position": "absolute",
       "aside": true
      },
@@ -327886,34 +327886,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1499,
-      "heightPx": 1239.6,
+      "heightPx": 1271.6,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2838,
-      "heightPx": 725,
+      "topPx": 2870,
+      "heightPx": 757,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3663,
-      "heightPx": 1236.6,
+      "topPx": 3727,
+      "heightPx": 1268.6,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 5000,
-      "heightPx": 1348.6,
+      "topPx": 5096,
+      "heightPx": 1380.6,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 6468,
+      "topPx": 6596,
       "heightPx": 1189.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -327921,7 +327921,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 7658,
+      "topPx": 7786,
       "heightPx": 900,
       "position": "relative"
      }
@@ -327929,7 +327929,7 @@
    },
    "/customers/leading-education-publisher/": {
     "template": "T27",
-    "docHeightPx": 10537,
+    "docHeightPx": 10665,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -327961,7 +327961,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1595,
-      "heightPx": 4994.2,
+      "heightPx": 5122.2,
       "position": "absolute",
       "aside": true
      },
@@ -327969,34 +327969,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1595,
-      "heightPx": 816,
+      "heightPx": 848,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2511,
-      "heightPx": 937,
+      "topPx": 2543,
+      "heightPx": 969,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3548,
-      "heightPx": 1756.2,
+      "topPx": 3612,
+      "heightPx": 1788.2,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 5404,
-      "heightPx": 1185,
+      "topPx": 5500,
+      "heightPx": 1217,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 6709,
+      "topPx": 6837,
       "heightPx": 1245.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -328004,7 +328004,7 @@
      {
       "section": "interactive.faq",
       "variant": "company",
-      "topPx": 8115,
+      "topPx": 8243,
       "heightPx": 594,
       "position": "static",
       "spaceBeforePx": 160
@@ -328012,7 +328012,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 8869,
+      "topPx": 8997,
       "heightPx": 900,
       "position": "relative"
      }
@@ -328020,7 +328020,7 @@
    },
    "/customers/major-personal-bank/": {
     "template": "T27",
-    "docHeightPx": 10514,
+    "docHeightPx": 10642,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -328052,7 +328052,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1604,
-      "heightPx": 4989.5,
+      "heightPx": 5117.5,
       "position": "absolute",
       "aside": true
      },
@@ -328060,34 +328060,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1604,
-      "heightPx": 804,
+      "heightPx": 836,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2508,
-      "heightPx": 1149.8,
+      "topPx": 2540,
+      "heightPx": 1181.8,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3758,
-      "heightPx": 1794.8,
+      "topPx": 3822,
+      "heightPx": 1826.8,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 5653,
-      "heightPx": 941,
+      "topPx": 5749,
+      "heightPx": 973,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 6714,
+      "topPx": 6842,
       "heightPx": 1245.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -328095,7 +328095,7 @@
      {
       "section": "interactive.faq",
       "variant": "company",
-      "topPx": 8120,
+      "topPx": 8248,
       "heightPx": 566,
       "position": "static",
       "spaceBeforePx": 160
@@ -328103,7 +328103,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 8846,
+      "topPx": 8974,
       "heightPx": 900,
       "position": "relative"
      }
@@ -328111,7 +328111,7 @@
    },
    "/customers/modern-business-banking-platform/": {
     "template": "T27",
-    "docHeightPx": 11840,
+    "docHeightPx": 11968,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -328143,7 +328143,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1615,
-      "heightPx": 6333.2,
+      "heightPx": 6461.2,
       "position": "absolute",
       "aside": true
      },
@@ -328151,34 +328151,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1615,
-      "heightPx": 1346.7,
+      "heightPx": 1378.7,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3061,
-      "heightPx": 1968.9,
+      "topPx": 3093,
+      "heightPx": 2000.9,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 5130,
-      "heightPx": 1580.6,
+      "topPx": 5194,
+      "heightPx": 1612.6,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 6811,
-      "heightPx": 1137,
+      "topPx": 6907,
+      "heightPx": 1169,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 8068,
+      "topPx": 8196,
       "heightPx": 1161.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -328186,7 +328186,7 @@
      {
       "section": "interactive.faq",
       "variant": "company",
-      "topPx": 9390,
+      "topPx": 9518,
       "heightPx": 622,
       "position": "static",
       "spaceBeforePx": 160
@@ -328194,7 +328194,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 10172,
+      "topPx": 10300,
       "heightPx": 900,
       "position": "relative"
      }
@@ -328202,7 +328202,7 @@
    },
    "/customers/netguru/": {
     "template": "T27",
-    "docHeightPx": 8063,
+    "docHeightPx": 8223,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -328234,7 +328234,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1700,
-      "heightPx": 3384,
+      "heightPx": 3544,
       "position": "absolute",
       "aside": true
      },
@@ -328242,41 +328242,41 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1700,
-      "heightPx": 580,
+      "heightPx": 612,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2380,
-      "heightPx": 533,
+      "topPx": 2412,
+      "heightPx": 565,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3013,
-      "heightPx": 677,
+      "topPx": 3077,
+      "heightPx": 709,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3790,
-      "heightPx": 641,
+      "topPx": 3886,
+      "heightPx": 673,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 4531,
-      "heightPx": 553,
+      "topPx": 4659,
+      "heightPx": 585,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 5204,
+      "topPx": 5364,
       "heightPx": 1189.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -328284,7 +328284,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 6394,
+      "topPx": 6554,
       "heightPx": 900,
       "position": "relative"
      }
@@ -328292,7 +328292,7 @@
    },
    "/customers/okta/": {
     "template": "T27",
-    "docHeightPx": 9200,
+    "docHeightPx": 9328,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -328324,7 +328324,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1591,
-      "heightPx": 4631.3,
+      "heightPx": 4759.3,
       "position": "absolute",
       "aside": true
      },
@@ -328332,34 +328332,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1591,
-      "heightPx": 1251.6,
+      "heightPx": 1283.6,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2942,
-      "heightPx": 769,
+      "topPx": 2974,
+      "heightPx": 801,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3811,
-      "heightPx": 1397.7,
+      "topPx": 3875,
+      "heightPx": 1429.7,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 5309,
-      "heightPx": 913,
+      "topPx": 5405,
+      "heightPx": 945,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 6342,
+      "topPx": 6470,
       "heightPx": 1189.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -328367,7 +328367,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 7532,
+      "topPx": 7660,
       "heightPx": 900,
       "position": "relative"
      }
@@ -328375,7 +328375,7 @@
    },
    "/customers/petal-health/": {
     "template": "T27",
-    "docHeightPx": 8949,
+    "docHeightPx": 9109,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -328407,7 +328407,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1444,
-      "heightPx": 4525.9,
+      "heightPx": 4685.9,
       "position": "absolute",
       "aside": true
      },
@@ -328415,41 +328415,41 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1444,
-      "heightPx": 424,
+      "heightPx": 456,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 1968,
-      "heightPx": 849,
+      "topPx": 2000,
+      "heightPx": 881,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2917,
-      "heightPx": 693,
+      "topPx": 2981,
+      "heightPx": 725,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3710,
-      "heightPx": 1124.6,
+      "topPx": 3806,
+      "heightPx": 1156.6,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 4935,
-      "heightPx": 1035.3,
+      "topPx": 5063,
+      "heightPx": 1067.3,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 6090,
+      "topPx": 6250,
       "heightPx": 1189.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -328457,7 +328457,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 7280,
+      "topPx": 7440,
       "heightPx": 900,
       "position": "relative"
      }
@@ -328465,7 +328465,7 @@
    },
    "/customers/pvcase/": {
     "template": "T27",
-    "docHeightPx": 10132,
+    "docHeightPx": 10260,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -328497,7 +328497,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1615,
-      "heightPx": 5539.5,
+      "heightPx": 5667.5,
       "position": "absolute",
       "aside": true
      },
@@ -328505,34 +328505,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1615,
-      "heightPx": 1366.9,
+      "heightPx": 1398.9,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3081,
-      "heightPx": 1121,
+      "topPx": 3113,
+      "heightPx": 1153,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 4302,
-      "heightPx": 1754.6,
+      "topPx": 4366,
+      "heightPx": 1786.6,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 6157,
-      "heightPx": 997,
+      "topPx": 6253,
+      "heightPx": 1029,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 7274,
+      "topPx": 7402,
       "heightPx": 1189.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -328540,7 +328540,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 8464,
+      "topPx": 8592,
       "heightPx": 900,
       "position": "relative"
      }
@@ -328548,7 +328548,7 @@
    },
    "/customers/safetyculture/": {
     "template": "T27",
-    "docHeightPx": 11855,
+    "docHeightPx": 12015,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -328580,7 +328580,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1697,
-      "heightPx": 7180.3,
+      "heightPx": 7340.3,
       "position": "absolute",
       "aside": true
      },
@@ -328588,41 +328588,41 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1697,
-      "heightPx": 1331.5,
+      "heightPx": 1363.5,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3128,
-      "heightPx": 1642.6,
+      "topPx": 3160,
+      "heightPx": 1674.6,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 4871,
-      "heightPx": 1079,
+      "topPx": 4935,
+      "heightPx": 1111,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 6050,
-      "heightPx": 1566.6,
+      "topPx": 6146,
+      "heightPx": 1598.6,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 7716,
-      "heightPx": 1160.6,
+      "topPx": 7844,
+      "heightPx": 1192.6,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 8997,
+      "topPx": 9157,
       "heightPx": 1189.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -328630,7 +328630,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 10187,
+      "topPx": 10347,
       "heightPx": 900,
       "position": "relative"
      }
@@ -328638,7 +328638,7 @@
    },
    "/customers/smartrecruiters/": {
     "template": "T27",
-    "docHeightPx": 8999,
+    "docHeightPx": 9127,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -328670,7 +328670,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1523,
-      "heightPx": 4525.9,
+      "heightPx": 4653.9,
       "position": "absolute",
       "aside": true
      },
@@ -328678,34 +328678,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1523,
-      "heightPx": 556,
+      "heightPx": 588,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2179,
-      "heightPx": 1148.6,
+      "topPx": 2211,
+      "heightPx": 1180.6,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3427,
-      "heightPx": 1148.6,
+      "topPx": 3491,
+      "heightPx": 1180.6,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 4676,
-      "heightPx": 1372.6,
+      "topPx": 4772,
+      "heightPx": 1404.6,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 6168,
+      "topPx": 6296,
       "heightPx": 1161.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -328713,7 +328713,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 7330,
+      "topPx": 7458,
       "heightPx": 900,
       "position": "relative"
      }
@@ -328721,7 +328721,7 @@
    },
    "/customers/vital-voices/": {
     "template": "T27",
-    "docHeightPx": 8955,
+    "docHeightPx": 9083,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -328753,7 +328753,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1615,
-      "heightPx": 4389.6,
+      "heightPx": 4517.6,
       "position": "absolute",
       "aside": true
      },
@@ -328761,34 +328761,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1615,
-      "heightPx": 1310.6,
+      "heightPx": 1342.6,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3025,
-      "heightPx": 1161,
+      "topPx": 3057,
+      "heightPx": 1193,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 4286,
-      "heightPx": 873,
+      "topPx": 4350,
+      "heightPx": 905,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 5259,
-      "heightPx": 745,
+      "topPx": 5355,
+      "heightPx": 777,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 6124,
+      "topPx": 6252,
       "heightPx": 1161.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -328796,7 +328796,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 7286,
+      "topPx": 7414,
       "heightPx": 900,
       "position": "relative"
      }
@@ -328804,7 +328804,7 @@
    },
    "/customers/zapier/": {
     "template": "T27",
-    "docHeightPx": 8721,
+    "docHeightPx": 8849,
     "chrome": {
      "banner": "accent",
      "nav": "accent",
@@ -328836,7 +328836,7 @@
       "section": "article.story-facts",
       "variant": "default",
       "topPx": 1615,
-      "heightPx": 4128.1,
+      "heightPx": 4256.1,
       "position": "absolute",
       "aside": true
      },
@@ -328844,34 +328844,34 @@
       "section": "article.story-chapter",
       "variant": "default",
       "topPx": 1615,
-      "heightPx": 704,
+      "heightPx": 736,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 2419,
-      "heightPx": 741,
+      "topPx": 2451,
+      "heightPx": 773,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 3260,
-      "heightPx": 1666.1,
+      "topPx": 3324,
+      "heightPx": 1698.1,
       "position": "static"
      },
      {
       "section": "article.story-chapter",
       "variant": "default",
-      "topPx": 5026,
-      "heightPx": 717,
+      "topPx": 5122,
+      "heightPx": 749,
       "position": "static"
      },
      {
       "section": "cta.closing-with-stories",
       "variant": "default",
-      "topPx": 5863,
+      "topPx": 5991,
       "heightPx": 1189.8,
       "position": "static",
       "spaceBeforePx": 120
@@ -328879,7 +328879,7 @@
      {
       "section": "cta.final-cta",
       "variant": "dark",
-      "topPx": 7053,
+      "topPx": 7181,
       "heightPx": 900,
       "position": "relative"
      }
@@ -331960,7 +331960,7 @@
    },
    "/resources/": {
     "template": "T31",
-    "docHeightPx": 14476,
+    "docHeightPx": 14656,
     "chrome": {
      "banner": "default",
      "nav": "default",
@@ -331992,14 +331992,14 @@
       "section": "listing.link-list",
       "variant": "default",
       "topPx": 702,
-      "heightPx": 1321,
+      "heightPx": 1337,
       "position": "static",
       "spaceBeforePx": 200
      },
      {
       "section": "social-proof.tei-card",
       "variant": "banner",
-      "topPx": 2223,
+      "topPx": 2239,
       "heightPx": 610.1,
       "position": "relative",
       "spaceBeforePx": 200
@@ -332007,7 +332007,7 @@
      {
       "section": "cta.tool-card",
       "variant": "default",
-      "topPx": 3033,
+      "topPx": 3049,
       "heightPx": 285,
       "position": "relative",
       "spaceBeforePx": 200
@@ -332015,23 +332015,23 @@
      {
       "section": "listing.link-list",
       "variant": "default",
-      "topPx": 3518,
-      "heightPx": 3745,
+      "topPx": 3534,
+      "heightPx": 3825,
       "position": "static",
       "spaceBeforePx": 200
      },
      {
       "section": "listing.link-list",
       "variant": "default",
-      "topPx": 7463,
-      "heightPx": 4247,
+      "topPx": 7559,
+      "heightPx": 4331,
       "position": "static",
       "spaceBeforePx": 200
      },
      {
       "section": "listing.card-grid",
       "variant": "blog-teasers",
-      "topPx": 11910,
+      "topPx": 12090,
       "heightPx": 505.8,
       "position": "relative",
       "spaceBeforePx": 200
@@ -332039,7 +332039,7 @@
      {
       "section": "listing.video-grid",
       "variant": "row",
-      "topPx": 12616,
+      "topPx": 12796,
       "heightPx": 496,
       "position": "relative",
       "spaceBeforePx": 200
@@ -332047,7 +332047,7 @@
      {
       "section": "cta.inline-band",
       "variant": "dark",
-      "topPx": 13112,
+      "topPx": 13292,
       "heightPx": 596,
       "position": "static"
      }
@@ -332323,7 +332323,7 @@
    },
    "/legal/acceptable-use-policy/": {
     "template": "T36",
-    "docHeightPx": 4352,
+    "docHeightPx": 4500,
     "chrome": {
      "banner": "legal",
      "nav": "legal",
@@ -332362,21 +332362,21 @@
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 658,
-      "heightPx": 1704,
+      "topPx": 610,
+      "heightPx": 1900,
       "position": "static"
      },
      {
       "section": "legal.updated-meta",
       "variant": "default",
-      "topPx": 2451,
+      "topPx": 2599,
       "heightPx": 71.2,
       "position": "static"
      },
      {
       "section": "cta.final-cta",
       "variant": "light",
-      "topPx": 2683,
+      "topPx": 2831,
       "heightPx": 900,
       "position": "relative"
      },
@@ -332389,7 +332389,7 @@
    },
    "/legal/accessibility-statement/": {
     "template": "T36",
-    "docHeightPx": 4004,
+    "docHeightPx": 3956,
     "chrome": {
      "banner": "legal",
      "nav": "legal",
@@ -332428,42 +332428,42 @@
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 658,
+      "topPx": 610,
       "heightPx": 836,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 1494,
+      "topPx": 1446,
       "heightPx": 196,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 1690,
+      "topPx": 1642,
       "heightPx": 196,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 1886,
+      "topPx": 1838,
       "heightPx": 148,
       "position": "static"
      },
      {
       "section": "legal.updated-meta",
       "variant": "default",
-      "topPx": 2123,
+      "topPx": 2075,
       "heightPx": 51.6,
       "position": "static"
      },
      {
       "section": "cta.final-cta",
       "variant": "light",
-      "topPx": 2336,
+      "topPx": 2288,
       "heightPx": 900,
       "position": "relative"
      },
@@ -332476,7 +332476,7 @@
    },
    "/legal/ai-features/": {
     "template": "T36",
-    "docHeightPx": 3784,
+    "docHeightPx": 3736,
     "chrome": {
      "banner": "legal",
      "nav": "legal",
@@ -332515,21 +332515,21 @@
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 658,
+      "topPx": 610,
       "heightPx": 1156,
       "position": "static"
      },
      {
       "section": "legal.updated-meta",
       "variant": "default",
-      "topPx": 1903,
+      "topPx": 1855,
       "heightPx": 51.6,
       "position": "static"
      },
      {
       "section": "cta.final-cta",
       "variant": "light",
-      "topPx": 2116,
+      "topPx": 2068,
       "heightPx": 900,
       "position": "relative"
      },
@@ -332581,14 +332581,14 @@
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 658,
+      "topPx": 610,
       "heightPx": 56,
       "position": "static"
      },
      {
       "section": "legal.updated-meta",
       "variant": "default",
-      "topPx": 803,
+      "topPx": 755,
       "heightPx": 51.6,
       "position": "static"
      },
@@ -332608,7 +332608,7 @@
    },
    "/legal/anti-bribery-and-anti-corruption-statement/": {
     "template": "T36",
-    "docHeightPx": 3136,
+    "docHeightPx": 3088,
     "chrome": {
      "banner": "legal",
      "nav": "legal",
@@ -332647,21 +332647,21 @@
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 734,
+      "topPx": 686,
       "heightPx": 432,
       "position": "static"
      },
      {
       "section": "legal.updated-meta",
       "variant": "default",
-      "topPx": 1255,
+      "topPx": 1207,
       "heightPx": 51.6,
       "position": "static"
      },
      {
       "section": "cta.final-cta",
       "variant": "light",
-      "topPx": 1468,
+      "topPx": 1420,
       "heightPx": 900,
       "position": "relative"
      },
@@ -332674,7 +332674,7 @@
    },
    "/legal/community-code-of-conduct/": {
     "template": "T36",
-    "docHeightPx": 5544,
+    "docHeightPx": 5496,
     "chrome": {
      "banner": "legal",
      "nav": "legal",
@@ -332713,42 +332713,42 @@
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 658,
+      "topPx": 610,
       "heightPx": 1116,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 1774,
+      "topPx": 1726,
       "heightPx": 1220,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 2994,
+      "topPx": 2946,
       "heightPx": 360,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 3354,
+      "topPx": 3306,
       "heightPx": 200,
       "position": "static"
      },
      {
       "section": "legal.updated-meta",
       "variant": "default",
-      "topPx": 3643,
+      "topPx": 3595,
       "heightPx": 71.2,
       "position": "static"
      },
      {
       "section": "cta.final-cta",
       "variant": "light",
-      "topPx": 3875,
+      "topPx": 3827,
       "heightPx": 900,
       "position": "relative"
      },
@@ -332761,7 +332761,7 @@
    },
    "/legal/insurance/": {
     "template": "T36",
-    "docHeightPx": 3508,
+    "docHeightPx": 3460,
     "chrome": {
      "banner": "legal",
      "nav": "legal",
@@ -332800,21 +332800,21 @@
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 658,
+      "topPx": 610,
       "heightPx": 880,
       "position": "static"
      },
      {
       "section": "legal.updated-meta",
       "variant": "default",
-      "topPx": 1627,
+      "topPx": 1579,
       "heightPx": 51.6,
       "position": "static"
      },
      {
       "section": "cta.final-cta",
       "variant": "light",
-      "topPx": 1840,
+      "topPx": 1792,
       "heightPx": 900,
       "position": "relative"
      },
@@ -332827,7 +332827,7 @@
    },
    "/legal/master-subscription-agreement/": {
     "template": "T36",
-    "docHeightPx": 25636,
+    "docHeightPx": 25588,
     "chrome": {
      "banner": "legal",
      "nav": "legal",
@@ -332866,196 +332866,196 @@
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 658,
+      "topPx": 610,
       "heightPx": 1312,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 1970,
+      "topPx": 1922,
       "heightPx": 1876,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 3846,
+      "topPx": 3798,
       "heightPx": 392,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 4238,
+      "topPx": 4190,
       "heightPx": 972,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 5210,
+      "topPx": 5162,
       "heightPx": 1336,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 6546,
+      "topPx": 6498,
       "heightPx": 944,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 7490,
+      "topPx": 7442,
       "heightPx": 1056,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 8546,
+      "topPx": 8498,
       "heightPx": 1684,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 10230,
+      "topPx": 10182,
       "heightPx": 448,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 10678,
+      "topPx": 10630,
       "heightPx": 308,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 10986,
+      "topPx": 10938,
       "heightPx": 1060,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 12046,
+      "topPx": 11998,
       "heightPx": 640,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 12686,
+      "topPx": 12638,
       "heightPx": 1324,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 14010,
+      "topPx": 13962,
       "heightPx": 1388,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 15398,
+      "topPx": 15350,
       "heightPx": 888,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 16286,
+      "topPx": 16238,
       "heightPx": 280,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 16566,
+      "topPx": 16518,
       "heightPx": 504,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 17070,
+      "topPx": 17022,
       "heightPx": 616,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 17686,
+      "topPx": 17638,
       "heightPx": 364,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 18050,
+      "topPx": 18002,
       "heightPx": 320,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 18370,
+      "topPx": 18322,
       "heightPx": 448,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 18818,
+      "topPx": 18770,
       "heightPx": 364,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 19182,
+      "topPx": 19134,
       "heightPx": 896,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 20078,
+      "topPx": 20030,
       "heightPx": 252,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 20330,
+      "topPx": 20282,
       "heightPx": 392,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 20722,
+      "topPx": 20674,
       "heightPx": 2944,
       "position": "static"
      },
      {
       "section": "legal.updated-meta",
       "variant": "default",
-      "topPx": 23755,
+      "topPx": 23707,
       "heightPx": 51.6,
       "position": "static"
      },
      {
       "section": "cta.final-cta",
       "variant": "light",
-      "topPx": 23968,
+      "topPx": 23920,
       "heightPx": 900,
       "position": "relative"
      },
@@ -333068,7 +333068,7 @@
    },
    "/legal/modern-slavery-statement/": {
     "template": "T36",
-    "docHeightPx": 3472,
+    "docHeightPx": 3424,
     "chrome": {
      "banner": "legal",
      "nav": "legal",
@@ -333107,28 +333107,28 @@
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 658,
+      "topPx": 610,
       "heightPx": 436,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 1094,
+      "topPx": 1046,
       "heightPx": 408,
       "position": "static"
      },
      {
       "section": "legal.updated-meta",
       "variant": "default",
-      "topPx": 1591,
+      "topPx": 1543,
       "heightPx": 51.6,
       "position": "static"
      },
      {
       "section": "cta.final-cta",
       "variant": "light",
-      "topPx": 1804,
+      "topPx": 1756,
       "heightPx": 900,
       "position": "relative"
      },
@@ -333180,14 +333180,14 @@
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 658,
+      "topPx": 610,
       "heightPx": 272,
       "position": "static"
      },
      {
       "section": "legal.updated-meta",
       "variant": "default",
-      "topPx": 1019,
+      "topPx": 971,
       "heightPx": 51.6,
       "position": "static"
      },
@@ -333207,7 +333207,7 @@
    },
    "/legal/open-source/": {
     "template": "T36",
-    "docHeightPx": 3732,
+    "docHeightPx": 3684,
     "chrome": {
      "banner": "legal",
      "nav": "legal",
@@ -333246,28 +333246,28 @@
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 658,
+      "topPx": 610,
       "heightPx": 740,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 1398,
+      "topPx": 1350,
       "heightPx": 364,
       "position": "static"
      },
      {
       "section": "legal.updated-meta",
       "variant": "default",
-      "topPx": 1851,
+      "topPx": 1803,
       "heightPx": 51.6,
       "position": "static"
      },
      {
       "section": "cta.final-cta",
       "variant": "light",
-      "topPx": 2064,
+      "topPx": 2016,
       "heightPx": 900,
       "position": "relative"
      },
@@ -333280,7 +333280,7 @@
    },
    "/legal/press-kit/": {
     "template": "T36",
-    "docHeightPx": 5425,
+    "docHeightPx": 5377,
     "chrome": {
      "banner": "legal",
      "nav": "legal",
@@ -333319,42 +333319,42 @@
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 658,
+      "topPx": 610,
       "heightPx": 440,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 1098,
+      "topPx": 1050,
       "heightPx": 228,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 1326,
+      "topPx": 1278,
       "heightPx": 1696.5,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 3023,
+      "topPx": 2975,
       "heightPx": 432,
       "position": "static"
      },
      {
       "section": "legal.updated-meta",
       "variant": "default",
-      "topPx": 3544,
+      "topPx": 3496,
       "heightPx": 51.6,
       "position": "static"
      },
      {
       "section": "cta.final-cta",
       "variant": "light",
-      "topPx": 3756,
+      "topPx": 3708,
       "heightPx": 900,
       "position": "relative"
      },
@@ -333367,7 +333367,7 @@
    },
    "/legal/product-specific-terms-recruit/": {
     "template": "T36",
-    "docHeightPx": 3508,
+    "docHeightPx": 3460,
     "chrome": {
      "banner": "legal",
      "nav": "legal",
@@ -333406,21 +333406,21 @@
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 658,
+      "topPx": 610,
       "heightPx": 880,
       "position": "static"
      },
      {
       "section": "legal.updated-meta",
       "variant": "default",
-      "topPx": 1627,
+      "topPx": 1579,
       "heightPx": 51.6,
       "position": "static"
      },
      {
       "section": "cta.final-cta",
       "variant": "light",
-      "topPx": 1840,
+      "topPx": 1792,
       "heightPx": 900,
       "position": "relative"
      },
@@ -333433,7 +333433,7 @@
    },
    "/legal/user-terms-of-service/": {
     "template": "T36",
-    "docHeightPx": 10084,
+    "docHeightPx": 10036,
     "chrome": {
      "banner": "legal",
      "nav": "legal",
@@ -333472,98 +333472,98 @@
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 658,
+      "topPx": 610,
       "heightPx": 1324,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 1982,
+      "topPx": 1934,
       "heightPx": 496,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 2478,
+      "topPx": 2430,
       "heightPx": 664,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 3142,
+      "topPx": 3094,
       "heightPx": 252,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 3394,
+      "topPx": 3346,
       "heightPx": 968,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 4362,
+      "topPx": 4314,
       "heightPx": 672,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 5034,
+      "topPx": 4986,
       "heightPx": 444,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 5478,
+      "topPx": 5430,
       "heightPx": 168,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 5646,
+      "topPx": 5598,
       "heightPx": 168,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 5814,
+      "topPx": 5766,
       "heightPx": 224,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 6038,
+      "topPx": 5990,
       "heightPx": 448,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 6486,
+      "topPx": 6438,
       "heightPx": 1628,
       "position": "static"
      },
      {
       "section": "legal.updated-meta",
       "variant": "default",
-      "topPx": 8203,
+      "topPx": 8155,
       "heightPx": 51.6,
       "position": "static"
      },
      {
       "section": "cta.final-cta",
       "variant": "light",
-      "topPx": 8416,
+      "topPx": 8368,
       "heightPx": 900,
       "position": "relative"
      },
@@ -333576,7 +333576,7 @@
    },
    "/privacy/compliance-with-laws/": {
     "template": "T36",
-    "docHeightPx": 3004,
+    "docHeightPx": 2956,
     "chrome": {
      "banner": "legal",
      "nav": "legal",
@@ -333615,21 +333615,21 @@
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 658,
+      "topPx": 610,
       "heightPx": 376,
       "position": "static"
      },
      {
       "section": "legal.updated-meta",
       "variant": "default",
-      "topPx": 1123,
+      "topPx": 1075,
       "heightPx": 51.6,
       "position": "static"
      },
      {
       "section": "cta.final-cta",
       "variant": "light",
-      "topPx": 1336,
+      "topPx": 1288,
       "heightPx": 900,
       "position": "relative"
      },
@@ -333642,7 +333642,7 @@
    },
    "/privacy/data-processing-agreement/": {
     "template": "T36",
-    "docHeightPx": 2964,
+    "docHeightPx": 2916,
     "chrome": {
      "banner": "legal",
      "nav": "legal",
@@ -333681,21 +333681,21 @@
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 658,
+      "topPx": 610,
       "heightPx": 336,
       "position": "static"
      },
      {
       "section": "legal.updated-meta",
       "variant": "default",
-      "topPx": 1083,
+      "topPx": 1035,
       "heightPx": 51.6,
       "position": "static"
      },
      {
       "section": "cta.final-cta",
       "variant": "light",
-      "topPx": 1296,
+      "topPx": 1248,
       "heightPx": 900,
       "position": "relative"
      },
@@ -333708,7 +333708,7 @@
    },
    "/privacy/data-subject-access-request/": {
     "template": "T36",
-    "docHeightPx": 7864,
+    "docHeightPx": 7816,
     "chrome": {
      "banner": "legal",
      "nav": "legal",
@@ -333747,63 +333747,63 @@
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 658,
+      "topPx": 610,
       "heightPx": 408,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 1066,
+      "topPx": 1018,
       "heightPx": 440,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 1506,
+      "topPx": 1458,
       "heightPx": 704,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 2210,
+      "topPx": 2162,
       "heightPx": 604,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 2814,
+      "topPx": 2766,
       "heightPx": 1712,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 4526,
+      "topPx": 4478,
       "heightPx": 1008,
       "position": "static"
      },
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 5534,
+      "topPx": 5486,
       "heightPx": 360,
       "position": "static"
      },
      {
       "section": "legal.updated-meta",
       "variant": "default",
-      "topPx": 5983,
+      "topPx": 5935,
       "heightPx": 51.6,
       "position": "static"
      },
      {
       "section": "cta.final-cta",
       "variant": "light",
-      "topPx": 6196,
+      "topPx": 6148,
       "heightPx": 900,
       "position": "relative"
      },
@@ -333816,7 +333816,7 @@
    },
    "/privacy/event-release/": {
     "template": "T36",
-    "docHeightPx": 4324,
+    "docHeightPx": 4276,
     "chrome": {
      "banner": "legal",
      "nav": "legal",
@@ -333855,21 +333855,21 @@
      {
       "section": "legal.doc-part",
       "variant": "default",
-      "topPx": 658,
+      "topPx": 610,
       "heightPx": 1696,
       "position": "static"
      },
      {
       "section": "legal.updated-meta",
       "variant": "default",
-      "topPx": 2443,
+      "topPx": 2395,
       "heightPx": 51.6,
       "position": "static"
      },
      {
       "section": "cta.final-cta",
       "variant": "light",
-      "topPx": 2656,
+      "topPx": 2608,
       "heightPx": 900,
       "position": "relative"
      },
@@ -334220,10 +334220,10 @@
    "T2": {
     "route": "/roles/customer-experience/",
     "docHeightPx": {
-     "390": 12242,
-     "768": 13606,
-     "1280": 11196,
-     "1440": 10034
+     "390": 12398,
+     "768": 13738,
+     "1280": 11342,
+     "1440": 10110
     },
     "styles1440": {
      "h1": {
@@ -334497,7 +334497,7 @@
      "390": 13855,
      "768": 14279,
      "1280": 12277,
-     "1440": 10014
+     "1440": 10086
     },
     "styles1440": {
      "h1": {
@@ -334723,8 +334723,8 @@
     "docHeightPx": {
      "390": 3943,
      "768": 3270,
-     "1280": 5949,
-     "1440": 5962
+     "1280": 5977,
+     "1440": 6114
     },
     "styles1440": {
      "h1": {
@@ -334901,10 +334901,10 @@
    "T17": {
     "route": "/blog/2025-fall-launch/",
     "docHeightPx": {
-     "390": 16274,
-     "768": 16849,
-     "1280": 20881,
-     "1440": 15442
+     "390": 17531,
+     "768": 18040,
+     "1280": 22277,
+     "1440": 16463
     },
     "styles1440": {
      "h1": {
@@ -335316,10 +335316,10 @@
    "T26": {
     "route": "/customers/",
     "docHeightPx": {
-     "390": 108174,
-     "768": 111026,
-     "1280": 53974,
-     "1440": 43450
+     "390": 108262,
+     "768": 111114,
+     "1280": 54062,
+     "1440": 43538
     },
     "styles1440": {
      "h1": {
@@ -335355,10 +335355,10 @@
    "T27": {
     "route": "/customers/achievers/",
     "docHeightPx": {
-     "390": 9741,
-     "768": 7775,
-     "1280": 9410,
-     "1440": 9092
+     "390": 9885,
+     "768": 7919,
+     "1280": 9554,
+     "1440": 9452
     },
     "styles1440": {
      "h1": {
@@ -335511,10 +335511,10 @@
    "T31": {
     "route": "/resources/",
     "docHeightPx": {
-     "390": 20380,
-     "768": 17685,
-     "1280": 14702,
-     "1440": 14476
+     "390": 20488,
+     "768": 17769,
+     "1280": 14786,
+     "1440": 14656
     },
     "styles1440": {
      "h1": {
@@ -335741,7 +335741,7 @@
      "390": 7078,
      "768": 5412,
      "1280": 5120,
-     "1440": 4352
+     "1440": 4500
     },
     "styles1440": {
      "h1": {
@@ -336079,14 +336079,14 @@
    "viewport": 1440,
    "tolerance": 24,
    "liveOrigin": "https://dovetail.com",
-   "measuredAt": "2026-10-26",
+   "measuredAt": "2026-10-29",
    "routes": {
     "/": {
      "sections": [
       {
        "section": "hero.home",
        "topPx": 30,
-       "similarityPct": 99.56
+       "similarityPct": 99.55
       },
       {
        "section": "features.topic-tabs",
@@ -336111,7 +336111,7 @@
       {
        "section": "features.govern-grid",
        "topPx": 9522,
-       "similarityPct": 95.6
+       "similarityPct": 97.61
       },
       {
        "section": "social-proof.story-marquee",
@@ -336121,14 +336121,22 @@
       {
        "section": "cta.final-cta",
        "topPx": 12002,
-       "similarityPct": 99.38
+       "similarityPct": 99.36
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 13671,
      "cloneDocHeightPx": 13671,
-     "averagePct": 98.32,
-     "minPct": 95.6,
+     "averagePct": 98.56,
+     "minPct": 97.52,
      "everySectionAtLeast80": true
     },
     "/product/ai-agents/": {
@@ -336146,12 +336154,12 @@
       {
        "section": "content.statement",
        "topPx": 1529,
-       "similarityPct": 97.04
+       "similarityPct": 98.73
       },
       {
        "section": "content.scroll-video",
        "topPx": 2073,
-       "similarityPct": 96.97
+       "similarityPct": 100
       },
       {
        "section": "features.sticky-features",
@@ -336176,7 +336184,7 @@
       {
        "section": "social-proof.customer-stories",
        "topPx": 9406,
-       "similarityPct": 18.14
+       "similarityPct": 94.72
       },
       {
        "section": "interactive.faq",
@@ -336186,15 +336194,23 @@
       {
        "section": "cta.final-cta",
        "topPx": 11477,
-       "similarityPct": 99.03
+       "similarityPct": 99.02
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 2,
+      "live": 2
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 13145,
      "cloneDocHeightPx": 13145,
-     "averagePct": 90.83,
-     "minPct": 18.14,
-     "everySectionAtLeast80": false
+     "averagePct": 98.22,
+     "minPct": 94.72,
+     "everySectionAtLeast80": true
     },
     "/roles/customer-experience/": {
      "sections": [
@@ -336216,35 +336232,43 @@
       {
        "section": "features.integrations-list",
        "topPx": 3797,
-       "similarityPct": 96.44
+       "similarityPct": 96.98
       },
       {
        "section": "interactive.use-case-tabs",
-       "topPx": 6036,
-       "similarityPct": 89.39
+       "topPx": 6084,
+       "similarityPct": 99.31
       },
       {
        "section": "social-proof.testimonial",
-       "topPx": 7104,
-       "similarityPct": 84.34
+       "topPx": 7152,
+       "similarityPct": 94.24
       },
       {
        "section": "social-proof.story-cards",
-       "topPx": 7864,
-       "similarityPct": 71.24
+       "topPx": 7912,
+       "similarityPct": 99.98
       },
       {
        "section": "interactive.faq",
-       "topPx": 8568,
-       "similarityPct": 95.37
+       "topPx": 8644,
+       "similarityPct": 97.6
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 11010,
-     "cloneDocHeightPx": 10034,
-     "averagePct": 90.52,
-     "minPct": 71.24,
-     "everySectionAtLeast80": false
+     "cloneDocHeightPx": 10110,
+     "averagePct": 96.93,
+     "minPct": 88.66,
+     "everySectionAtLeast80": true
     },
     "/solutions/healthcare/": {
      "sections": [
@@ -336290,6 +336314,14 @@
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 7366,
      "cloneDocHeightPx": 7342,
      "averagePct": 95.17,
@@ -336316,7 +336348,7 @@
       {
        "section": "features.roi-map",
        "topPx": 3110,
-       "similarityPct": 98.94
+       "similarityPct": 98.95
       },
       {
        "section": "features.integrations-grid",
@@ -336336,7 +336368,7 @@
       {
        "section": "social-proof.customer-stories",
        "topPx": 7813,
-       "similarityPct": 15.37
+       "similarityPct": 87.46
       },
       {
        "section": "listing.resource-cards",
@@ -336350,11 +336382,19 @@
       }
      ],
      "liveStatus": 200,
-     "liveDocHeightPx": 11004,
+     "videosMasked": {
+      "clone": 1,
+      "live": 1
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
+     "liveDocHeightPx": 11417,
      "cloneDocHeightPx": 11397,
-     "averagePct": 88.18,
-     "minPct": 15.37,
-     "everySectionAtLeast80": false
+     "averagePct": 95.39,
+     "minPct": 87.46,
+     "everySectionAtLeast80": true
     },
     "/pricing/": {
      "sections": [
@@ -336376,7 +336416,7 @@
       {
        "section": "pricing.comparison-group",
        "topPx": 1843,
-       "similarityPct": 98.27
+       "similarityPct": 98.62
       },
       {
        "section": "pricing.comparison-group",
@@ -336396,19 +336436,27 @@
       {
        "section": "interactive.faq",
        "topPx": 6598,
-       "similarityPct": 96.14
+       "similarityPct": 96.15
       },
       {
        "section": "cta.final-cta",
        "topPx": 7498,
-       "similarityPct": 88.27
+       "similarityPct": 88.28
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 9134,
      "cloneDocHeightPx": 9167,
-     "averagePct": 97.42,
-     "minPct": 88.27,
+     "averagePct": 97.46,
+     "minPct": 88.28,
      "everySectionAtLeast80": true
     },
     "/deploy/": {
@@ -336471,13 +336519,21 @@
       {
        "section": "cta.closing-band",
        "topPx": 8698,
-       "similarityPct": 93.54
+       "similarityPct": 93.48
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 10086,
      "cloneDocHeightPx": 9995,
-     "averagePct": 92.81,
+     "averagePct": 92.8,
      "minPct": 90.12,
      "everySectionAtLeast80": true
     },
@@ -336506,7 +336562,7 @@
       {
        "section": "social-proof.testimonial",
        "topPx": 3895,
-       "similarityPct": 94.19
+       "similarityPct": 94.18
       },
       {
        "section": "cta.final-cta",
@@ -336515,10 +336571,18 @@
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 6284,
      "cloneDocHeightPx": 6284,
      "averagePct": 98.32,
-     "minPct": 94.19,
+     "minPct": 94.18,
      "everySectionAtLeast80": true
     },
     "/dovetail-vs-aurelius/": {
@@ -336556,45 +336620,53 @@
       {
        "section": "features.choose-grid",
        "topPx": 3892,
-       "similarityPct": 97.66
+       "similarityPct": 98.62
       },
       {
        "section": "comparison.intro",
-       "topPx": 5287,
-       "similarityPct": 94.84
+       "topPx": 5331,
+       "similarityPct": 98.81
       },
       {
        "section": "comparison.table",
-       "topPx": 5511,
-       "similarityPct": 96.59
+       "topPx": 5555,
+       "similarityPct": 100
       },
       {
        "section": "social-proof.awards-marquee",
-       "topPx": 6602,
-       "similarityPct": 91.86
+       "topPx": 6646,
+       "similarityPct": 99.19
       },
       {
        "section": "cta.migrate-band",
-       "topPx": 6834,
-       "similarityPct": 88.94
+       "topPx": 6878,
+       "similarityPct": 99.19
       },
       {
        "section": "cta.trial-band",
-       "topPx": 7542,
-       "similarityPct": 78.84
+       "topPx": 7586,
+       "similarityPct": 98.93
       },
       {
        "section": "interactive.faq",
-       "topPx": 8446,
-       "similarityPct": 94.96
+       "topPx": 8518,
+       "similarityPct": 100
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 10086,
-     "cloneDocHeightPx": 10014,
-     "averagePct": 94.1,
-     "minPct": 78.84,
-     "everySectionAtLeast80": false
+     "cloneDocHeightPx": 10086,
+     "averagePct": 98.02,
+     "minPct": 93.09,
+     "everySectionAtLeast80": true
     },
     "/research-report-template/": {
      "sections": [
@@ -336640,6 +336712,14 @@
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 6208,
      "cloneDocHeightPx": 5648,
      "averagePct": 98.31,
@@ -336666,14 +336746,22 @@
       {
        "section": "cta.inline-band",
        "topPx": 2035,
-       "similarityPct": 98.67
+       "similarityPct": 98.66
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 3199,
      "cloneDocHeightPx": 3199,
-     "averagePct": 99.32,
-     "minPct": 98.67,
+     "averagePct": 99.31,
+     "minPct": 98.66,
      "everySectionAtLeast80": true
     },
     "/quiz/": {
@@ -336686,14 +336774,22 @@
       {
        "section": "cta.inline-band",
        "topPx": 1095,
-       "similarityPct": 100
+       "similarityPct": 99.99
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 2260,
      "cloneDocHeightPx": 2260,
      "averagePct": 100,
-     "minPct": 100,
+     "minPct": 99.99,
      "everySectionAtLeast80": true
     },
     "/roles/design/quiz/": {
@@ -336705,6 +336801,14 @@
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 2308,
      "cloneDocHeightPx": 1408,
      "averagePct": 90.21,
@@ -336721,52 +336825,60 @@
       {
        "section": "hero.campaign",
        "topPx": 88,
-       "similarityPct": 99.64
+       "similarityPct": 99.65
       },
       {
        "section": "content.campaign-text",
        "topPx": 988,
-       "similarityPct": 84.16
+       "similarityPct": 93.71
       },
       {
        "section": "social-proof.testimonial",
-       "topPx": 1578,
-       "similarityPct": 57.38
+       "topPx": 1674,
+       "similarityPct": 99.99
       },
       {
        "section": "social-proof.story-grid",
-       "topPx": 2110,
-       "similarityPct": 39.15
+       "topPx": 2206,
+       "similarityPct": 99.95
       },
       {
        "section": "social-proof.team-proof",
-       "topPx": 3428,
-       "similarityPct": 81.45
+       "topPx": 3580,
+       "similarityPct": 92.93
       },
       {
        "section": "conversion.trial-signup",
-       "topPx": 4845,
-       "similarityPct": 86.11
+       "topPx": 4997,
+       "similarityPct": 87.02
       },
       {
        "section": "shell.campaign-footer",
-       "topPx": 5735,
+       "topPx": 5887,
        "similarityPct": 93.24
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 6277,
-     "cloneDocHeightPx": 5962,
-     "averagePct": 80.11,
-     "minPct": 39.15,
-     "everySectionAtLeast80": false
+     "cloneDocHeightPx": 6114,
+     "averagePct": 95.78,
+     "minPct": 87.02,
+     "everySectionAtLeast80": true
     },
     "/launch/suns-out/": {
      "sections": [
       {
        "section": "hero.launch",
        "topPx": 0,
-       "similarityPct": 92.19
+       "similarityPct": 97.66
       },
       {
        "section": "content.launch-recap",
@@ -336776,12 +336888,12 @@
       {
        "section": "features.launch-feature",
        "topPx": 3140,
-       "similarityPct": 91.12
+       "similarityPct": 96.9
       },
       {
        "section": "features.launch-feature",
        "topPx": 4319,
-       "similarityPct": 97.14
+       "similarityPct": 97.94
       },
       {
        "section": "features.launch-feature",
@@ -336830,9 +336942,17 @@
       }
      ],
      "liveStatus": 200,
-     "liveDocHeightPx": 15463,
+     "videosMasked": {
+      "clone": 2,
+      "live": 2
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
+     "liveDocHeightPx": 16732,
      "cloneDocHeightPx": 16704,
-     "averagePct": 96.08,
+     "averagePct": 97,
      "minPct": 86.52,
      "everySectionAtLeast80": true
     },
@@ -336876,18 +336996,26 @@
       {
        "section": "company.careers-callout",
        "topPx": 6811,
-       "similarityPct": 90.76
+       "similarityPct": 90.69
       },
       {
        "section": "shell.campaign-footer",
        "topPx": 7603,
-       "similarityPct": 94.17
+       "similarityPct": 94.41
       }
      ],
      "liveStatus": 200,
-     "liveDocHeightPx": 7819,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
+     "liveDocHeightPx": 7878,
      "cloneDocHeightPx": 7831,
-     "averagePct": 94.25,
+     "averagePct": 94.27,
      "minPct": 90.15,
      "everySectionAtLeast80": true
     },
@@ -336896,12 +337024,12 @@
       {
        "section": "listing.featured-header",
        "topPx": 302,
-       "similarityPct": 98.46
+       "similarityPct": 80.86
       },
       {
        "section": "listing.card-grid",
        "topPx": 1180,
-       "similarityPct": 87.38
+       "similarityPct": 60.09
       },
       {
        "section": "cta.final-cta",
@@ -336910,11 +337038,19 @@
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 7
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 7432,
      "cloneDocHeightPx": 7414,
-     "averagePct": 92.13,
-     "minPct": 87.38,
-     "everySectionAtLeast80": true
+     "averagePct": 77.16,
+     "minPct": 60.09,
+     "everySectionAtLeast80": false
     },
     "/blog/2025-fall-launch/": {
      "sections": [
@@ -336926,50 +337062,58 @@
       {
        "section": "article.lede",
        "topPx": 1109,
-       "similarityPct": 89.48
+       "similarityPct": 89.58
       },
       {
        "section": "article.chapter",
        "topPx": 1381,
-       "similarityPct": 85.1
+       "similarityPct": 85.53
       },
       {
        "section": "article.chapter",
-       "topPx": 4775,
-       "similarityPct": 83.04
+       "topPx": 5865,
+       "similarityPct": 94.47
       },
       {
        "section": "article.chapter",
-       "topPx": 7193,
-       "similarityPct": 92.48
+       "topPx": 8065,
+       "similarityPct": 95.11
       },
       {
        "section": "article.chapter",
-       "topPx": 8894,
-       "similarityPct": 85.28
+       "topPx": 9640,
+       "similarityPct": 95.22
       },
       {
        "section": "article.chapter",
-       "topPx": 12304,
-       "similarityPct": 91.82
+       "topPx": 13158,
+       "similarityPct": 93.33
       },
       {
        "section": "listing.related-articles",
-       "topPx": 12894,
-       "similarityPct": 73.12
+       "topPx": 13916,
+       "similarityPct": 87.31
       },
       {
        "section": "cta.final-cta",
-       "topPx": 13773,
-       "similarityPct": 72.93
+       "topPx": 14794,
+       "similarityPct": 88.11
       }
      ],
      "liveStatus": 200,
-     "liveDocHeightPx": 12164,
-     "cloneDocHeightPx": 15442,
-     "averagePct": 85.82,
-     "minPct": 72.93,
-     "everySectionAtLeast80": false
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
+     "liveDocHeightPx": 16497,
+     "cloneDocHeightPx": 16463,
+     "averagePct": 91.98,
+     "minPct": 85.53,
+     "everySectionAtLeast80": true
     },
     "/changelog/": {
      "sections": [
@@ -337035,6 +337179,14 @@
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 22765,
      "cloneDocHeightPx": 22063,
      "averagePct": 92.69,
@@ -337071,14 +337223,22 @@
       {
        "section": "cta.final-cta",
        "topPx": 1718,
-       "similarityPct": 81.63
+       "similarityPct": 81.64
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 3754,
      "cloneDocHeightPx": 3387,
      "averagePct": 90.55,
-     "minPct": 81.63,
+     "minPct": 81.64,
      "everySectionAtLeast80": true
     },
     "/customer-research/": {
@@ -337205,6 +337365,14 @@
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 13728,
      "cloneDocHeightPx": 13556,
      "averagePct": 92.4,
@@ -337286,15 +337454,23 @@
       {
        "section": "listing.article-carousel",
        "topPx": 6760,
-       "similarityPct": 92.64
+       "similarityPct": 92.65
       },
       {
        "section": "cta.inline-band",
        "topPx": 7059,
-       "similarityPct": 92.08
+       "similarityPct": 92.09
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 8216,
      "cloneDocHeightPx": 8424,
      "averagePct": 92.19,
@@ -337380,7 +337556,15 @@
       }
      ],
      "liveStatus": 200,
-     "liveDocHeightPx": 10335,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
+     "liveDocHeightPx": 10732,
      "cloneDocHeightPx": 7921,
      "averagePct": 91.03,
      "minPct": 89.28,
@@ -337406,13 +337590,21 @@
       {
        "section": "cta.final-cta",
        "topPx": 2691,
-       "similarityPct": 99.38
+       "similarityPct": 99.4
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 4360,
      "cloneDocHeightPx": 4360,
-     "averagePct": 99,
+     "averagePct": 99.01,
      "minPct": 97.81,
      "everySectionAtLeast80": true
     },
@@ -337436,19 +337628,27 @@
       {
        "section": "content.editorial-process",
        "topPx": 3769,
-       "similarityPct": 93.01
+       "similarityPct": 93.05
       },
       {
        "section": "cta.final-cta",
        "topPx": 4233,
-       "similarityPct": 93.75
+       "similarityPct": 93.79
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 5910,
      "cloneDocHeightPx": 5902,
-     "averagePct": 96.24,
-     "minPct": 93.01,
+     "averagePct": 96.25,
+     "minPct": 93.05,
      "everySectionAtLeast80": true
     },
     "/contributors/brittany-ferri/": {
@@ -337476,13 +337676,21 @@
       {
        "section": "cta.final-cta",
        "topPx": 3682,
-       "similarityPct": 99.32
+       "similarityPct": 99.34
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 5351,
      "cloneDocHeightPx": 5351,
-     "averagePct": 98.83,
+     "averagePct": 98.84,
      "minPct": 97.5,
      "everySectionAtLeast80": true
     },
@@ -337491,45 +337699,53 @@
       {
        "section": "hero.typewriter",
        "topPx": 118,
-       "similarityPct": 92.41
+       "similarityPct": 100
       },
       {
        "section": "listing.story-grid",
-       "topPx": 812,
-       "similarityPct": 56.23
+       "topPx": 900,
+       "similarityPct": 97.74
       },
       {
        "section": "social-proof.logo-wall",
-       "topPx": 8943,
-       "similarityPct": 92.99
+       "topPx": 9031,
+       "similarityPct": 87.4
       },
       {
        "section": "social-proof.customer-stories",
-       "topPx": 15063,
-       "similarityPct": 12.73
+       "topPx": 15151,
+       "similarityPct": 88.77
       },
       {
        "section": "social-proof.ratings",
-       "topPx": 15973,
-       "similarityPct": 90.07
+       "topPx": 16061,
+       "similarityPct": 92.85
       },
       {
        "section": "social-proof.testimonial-wall",
-       "topPx": 16805,
-       "similarityPct": 89.49
+       "topPx": 16893,
+       "similarityPct": 90.24
       },
       {
        "section": "cta.final-cta",
-       "topPx": 41781,
-       "similarityPct": 80.66
+       "topPx": 41869,
+       "similarityPct": 81.6
       }
      ],
      "liveStatus": 200,
-     "liveDocHeightPx": 43820,
-     "cloneDocHeightPx": 43450,
-     "averagePct": 73.51,
-     "minPct": 12.73,
-     "everySectionAtLeast80": false
+     "videosMasked": {
+      "clone": 1,
+      "live": 1
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 222
+     },
+     "liveDocHeightPx": 43790,
+     "cloneDocHeightPx": 43538,
+     "averagePct": 91.23,
+     "minPct": 81.6,
+     "everySectionAtLeast80": true
     },
     "/customers/achievers/": {
      "sections": [
@@ -337541,79 +337757,95 @@
       {
        "section": "article.story-chapter",
        "topPx": 1540,
-       "similarityPct": 88.98
+       "similarityPct": 90.83
       },
       {
        "section": "article.story-chapter",
-       "topPx": 2284,
-       "similarityPct": 90.67
+       "topPx": 2344,
+       "similarityPct": 94.44
       },
       {
        "section": "article.story-chapter",
-       "topPx": 2857,
-       "similarityPct": 89.22
+       "topPx": 2977,
+       "similarityPct": 90.43
       },
       {
        "section": "article.story-chapter",
-       "topPx": 3810,
-       "similarityPct": 88.83
+       "topPx": 4018,
+       "similarityPct": 90.37
       },
       {
        "section": "article.story-chapter",
-       "topPx": 4851,
-       "similarityPct": 89.92
+       "topPx": 5119,
+       "similarityPct": 91.74
       },
       {
        "section": "article.story-chapter",
-       "topPx": 5700,
-       "similarityPct": 90.95
+       "topPx": 6028,
+       "similarityPct": 93.95
       },
       {
        "section": "cta.closing-with-stories",
-       "topPx": 6261,
-       "similarityPct": 59.87
+       "topPx": 6621,
+       "similarityPct": 89.11
       },
       {
        "section": "cta.final-cta",
-       "topPx": 7423,
-       "similarityPct": 80.58
+       "topPx": 7783,
+       "similarityPct": 94.63
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 9459,
-     "cloneDocHeightPx": 9092,
-     "averagePct": 86.3,
-     "minPct": 59.87,
-     "everySectionAtLeast80": false
+     "cloneDocHeightPx": 9452,
+     "averagePct": 92.57,
+     "minPct": 89.11,
+     "everySectionAtLeast80": true
     },
     "/events/": {
      "sections": [
       {
        "section": "hero.dot-title",
        "topPx": 118,
-       "similarityPct": 99.92
+       "similarityPct": 92.66
       },
       {
        "section": "listing.event-cards",
        "topPx": 766,
-       "similarityPct": 97.29
+       "similarityPct": 89.1
       },
       {
        "section": "listing.row-list",
        "topPx": 1322,
-       "similarityPct": 93.81
+       "similarityPct": 92.88
       },
       {
        "section": "cta.final-cta",
        "topPx": 4341,
-       "similarityPct": 95.7
+       "similarityPct": 88.32
       }
      ],
      "liveStatus": 200,
-     "liveDocHeightPx": 6015,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
+     "liveDocHeightPx": 6043,
      "cloneDocHeightPx": 6010,
-     "averagePct": 96.68,
-     "minPct": 93.81,
+     "averagePct": 90.74,
+     "minPct": 88.32,
      "everySectionAtLeast80": true
     },
     "/events/a-balancing-act-mastering-customer-feedback/": {
@@ -337631,20 +337863,28 @@
       {
        "section": "listing.event-cards",
        "topPx": 2174,
-       "similarityPct": 83.66
+       "similarityPct": 77.27
       },
       {
        "section": "cta.final-cta",
        "topPx": 2650,
-       "similarityPct": 81.73
+       "similarityPct": 80.85
       }
      ],
      "liveStatus": 200,
-     "liveDocHeightPx": 4440,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
+     "liveDocHeightPx": 4468,
      "cloneDocHeightPx": 4318,
-     "averagePct": 90.69,
-     "minPct": 81.73,
-     "everySectionAtLeast80": true
+     "averagePct": 88.87,
+     "minPct": 77.27,
+     "everySectionAtLeast80": false
     },
     "/live-demos/": {
      "sections": [
@@ -337661,14 +337901,22 @@
       {
        "section": "cta.final-cta",
        "topPx": 1698,
-       "similarityPct": 94.14
+       "similarityPct": 94.17
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 3374,
      "cloneDocHeightPx": 3366,
-     "averagePct": 95.71,
-     "minPct": 94.14,
+     "averagePct": 95.72,
+     "minPct": 94.17,
      "everySectionAtLeast80": true
     },
     "/resources/": {
@@ -337676,54 +337924,62 @@
       {
        "section": "hero.simple",
        "topPx": 206,
-       "similarityPct": 96.7
+       "similarityPct": 97.37
       },
       {
        "section": "listing.link-list",
        "topPx": 702,
-       "similarityPct": 94.08
+       "similarityPct": 96.04
       },
       {
        "section": "social-proof.tei-card",
-       "topPx": 2223,
-       "similarityPct": 93.32
+       "topPx": 2239,
+       "similarityPct": 98.92
       },
       {
        "section": "cta.tool-card",
-       "topPx": 3033,
-       "similarityPct": 93.04
+       "topPx": 3049,
+       "similarityPct": 93.77
       },
       {
        "section": "listing.link-list",
-       "topPx": 3518,
-       "similarityPct": 90.97
+       "topPx": 3534,
+       "similarityPct": 91.26
       },
       {
        "section": "listing.link-list",
-       "topPx": 7463,
-       "similarityPct": 89.87
+       "topPx": 7559,
+       "similarityPct": 91.07
       },
       {
        "section": "listing.card-grid",
-       "topPx": 11910,
-       "similarityPct": 79.38
+       "topPx": 12090,
+       "similarityPct": 75.61
       },
       {
        "section": "listing.video-grid",
-       "topPx": 12616,
-       "similarityPct": 87.8
+       "topPx": 12796,
+       "similarityPct": 91.17
       },
       {
        "section": "cta.inline-band",
-       "topPx": 13112,
-       "similarityPct": 92.18
+       "topPx": 13292,
+       "similarityPct": 94.15
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 1
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 14667,
-     "cloneDocHeightPx": 14476,
-     "averagePct": 90.82,
-     "minPct": 79.38,
+     "cloneDocHeightPx": 14656,
+     "averagePct": 92.15,
+     "minPct": 75.61,
      "everySectionAtLeast80": false
     },
     "/resources/industry-reports/2025-forrester-TEI-of-Dovetail/": {
@@ -337741,13 +337997,21 @@
       {
        "section": "cta.inline-band",
        "topPx": 1582,
-       "similarityPct": 98.67
+       "similarityPct": 98.66
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 2747,
      "cloneDocHeightPx": 2747,
-     "averagePct": 98.38,
+     "averagePct": 98.37,
      "minPct": 97.84,
      "everySectionAtLeast80": true
     },
@@ -337756,12 +338020,12 @@
       {
        "section": "hero.careers",
        "topPx": 118,
-       "similarityPct": 96.69
+       "similarityPct": 96.72
       },
       {
        "section": "company.globe-story",
        "topPx": 938,
-       "similarityPct": 95.03
+       "similarityPct": 95.09
       },
       {
        "section": "company.open-positions",
@@ -337771,50 +338035,58 @@
       {
        "section": "cta.talent-callout",
        "topPx": 5135,
-       "similarityPct": 91.68
+       "similarityPct": 87.39
       },
       {
        "section": "company.people-accordion",
        "topPx": 5496,
-       "similarityPct": 90
+       "similarityPct": 84.69
       },
       {
        "section": "company.benefits",
        "topPx": 7161,
-       "similarityPct": 93.04
+       "similarityPct": 92.35
       },
       {
        "section": "company.video-gallery",
        "topPx": 8072,
-       "similarityPct": 85.38
+       "similarityPct": 59
       },
       {
        "section": "company.values",
        "topPx": 9205,
-       "similarityPct": 86.36
+       "similarityPct": 71.6
       },
       {
        "section": "company.hiring-steps",
        "topPx": 10532,
-       "similarityPct": 92.36
+       "similarityPct": 92.06
       },
       {
        "section": "interactive.faq",
        "topPx": 11124,
-       "similarityPct": 95.19
+       "similarityPct": 95.35
       },
       {
        "section": "cta.careers-prefooter",
        "topPx": 12167,
-       "similarityPct": 92.9
+       "similarityPct": 93.09
       }
      ],
      "liveStatus": 200,
-     "liveDocHeightPx": 13516,
-     "cloneDocHeightPx": 13368,
-     "averagePct": 92.11,
-     "minPct": 85.38,
-     "everySectionAtLeast80": true
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
+     "liveDocHeightPx": 13678,
+     "cloneDocHeightPx": 13496,
+     "averagePct": 87.44,
+     "minPct": 59,
+     "everySectionAtLeast80": false
     },
     "/b2bsaasy/": {
      "sections": [
@@ -337836,14 +338108,22 @@
       {
        "section": "cta.inline-band",
        "topPx": 2211,
-       "similarityPct": 94.55
+       "similarityPct": 94.56
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 3507,
      "cloneDocHeightPx": 3575,
      "averagePct": 97.92,
-     "minPct": 94.55,
+     "minPct": 94.56,
      "everySectionAtLeast80": true
     },
     "/legal/": {
@@ -337866,14 +338146,22 @@
       {
        "section": "cta.final-cta",
        "topPx": 2581,
-       "similarityPct": 82.29
+       "similarityPct": 82.27
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 4826,
      "cloneDocHeightPx": 4250,
      "averagePct": 92.86,
-     "minPct": 82.29,
+     "minPct": 82.27,
      "everySectionAtLeast80": true
     },
     "/legal/acceptable-use-policy/": {
@@ -337881,44 +338169,60 @@
       {
        "section": "legal.doc-header",
        "topPx": 206,
-       "similarityPct": 92.01
+       "similarityPct": 93.07
       },
       {
        "section": "legal.doc-part",
-       "topPx": 658,
-       "similarityPct": 85.64
+       "topPx": 610,
+       "similarityPct": 88.43
       },
       {
        "section": "legal.updated-meta",
-       "topPx": 2451,
-       "similarityPct": 81.01
+       "topPx": 2599,
+       "similarityPct": 89.53
       },
       {
        "section": "cta.final-cta",
-       "topPx": 2683,
-       "similarityPct": 79.29
+       "topPx": 2831,
+       "similarityPct": 89.37
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 4480,
-     "cloneDocHeightPx": 4352,
-     "averagePct": 84.49,
-     "minPct": 79.29,
-     "everySectionAtLeast80": false
+     "cloneDocHeightPx": 4500,
+     "averagePct": 90.1,
+     "minPct": 88.43,
+     "everySectionAtLeast80": true
     },
     "/menu/": {
      "sections": [
       {
        "section": "shell.menu-header",
        "topPx": 30,
-       "similarityPct": 100
+       "similarityPct": 99.99
       }
      ],
      "liveStatus": 200,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 900,
      "cloneDocHeightPx": 900,
-     "averagePct": 100,
-     "minPct": 100,
+     "averagePct": 99.99,
+     "minPct": 99.99,
      "everySectionAtLeast80": true
     },
     "/this-page-does-not-exist/": {
@@ -337931,24 +338235,169 @@
       {
        "section": "cta.final-cta",
        "topPx": 921,
-       "similarityPct": 82.92
+       "similarityPct": 82.93
       }
      ],
      "liveStatus": 404,
+     "videosMasked": {
+      "clone": 0,
+      "live": 0
+     },
+     "imagesPending": {
+      "clone": 0,
+      "live": 0
+     },
      "liveDocHeightPx": 2678,
      "cloneDocHeightPx": 2590,
      "averagePct": 88.96,
-     "minPct": 82.92,
+     "minPct": 82.93,
      "everySectionAtLeast80": true
     }
    },
    "summary": {
     "routes": 39,
     "sections": 294,
-    "averagePct": 92.3,
-    "sectionsAtLeast80": 281,
+    "averagePct": 94.13,
+    "sectionsAtLeast80": 289,
     "gatePassed": false
-   }
+   },
+   "harness": "extraction/parity.mjs as of 2026-10-29: adds an image/font settle step (pending lazy <img> switched to eager and awaited, document.fonts.ready, cap 10s, both pages; per-route imagesPending) because the live blog post measured 13,031-16,497px across runs while its lazy article images were still loading. Videos stay paused+hidden on both pages (videosMasked); nothing else is masked.",
+   "previousRun": {
+    "measuredAt": "2026-10-26",
+    "summary": {
+     "routes": 39,
+     "sections": 294,
+     "averagePct": 92.3,
+     "sectionsAtLeast80": 281,
+     "gatePassed": false
+    }
+   },
+   "revision20261029": {
+    "note": "the 13 sections below the gate on 2026-10-26, before -> after (this run). Causes and src changes: CHANGELOG 1.1.0.",
+    "sections": [
+     {
+      "route": "/product/ai-agents/",
+      "section": "social-proof.customer-stories",
+      "before": 18.14,
+      "after": 94.72
+     },
+     {
+      "route": "/roles/customer-experience/",
+      "section": "social-proof.story-cards",
+      "before": 71.24,
+      "after": 99.98
+     },
+     {
+      "route": "/enterprise/",
+      "section": "social-proof.customer-stories",
+      "before": 15.37,
+      "after": 87.46
+     },
+     {
+      "route": "/dovetail-vs-aurelius/",
+      "section": "cta.trial-band",
+      "before": 78.84,
+      "after": 98.93
+     },
+     {
+      "route": "/the-best-never-guess/",
+      "section": "social-proof.testimonial",
+      "before": 57.38,
+      "after": 99.99
+     },
+     {
+      "route": "/the-best-never-guess/",
+      "section": "social-proof.story-grid",
+      "before": 39.15,
+      "after": 99.95
+     },
+     {
+      "route": "/blog/2025-fall-launch/",
+      "section": "listing.related-articles",
+      "before": 73.12,
+      "after": 87.31
+     },
+     {
+      "route": "/blog/2025-fall-launch/",
+      "section": "cta.final-cta",
+      "before": 72.93,
+      "after": 88.11
+     },
+     {
+      "route": "/customers/",
+      "section": "listing.story-grid",
+      "before": 56.23,
+      "after": 97.74
+     },
+     {
+      "route": "/customers/",
+      "section": "social-proof.customer-stories",
+      "before": 12.73,
+      "after": 88.77
+     },
+     {
+      "route": "/customers/achievers/",
+      "section": "cta.closing-with-stories",
+      "before": 59.87,
+      "after": 89.11
+     },
+     {
+      "route": "/resources/",
+      "section": "listing.card-grid",
+      "before": 79.38,
+      "after": 75.61
+     },
+     {
+      "route": "/legal/acceptable-use-policy/",
+      "section": "cta.final-cta",
+      "before": 79.29,
+      "after": 89.37
+     }
+    ]
+   },
+   "exceptions": [
+    {
+     "route": "/resources/",
+     "section": "listing.card-grid",
+     "similarityPct": 75.61,
+     "status": "pending human approval",
+     "cause": "live content drift: the live blog published \"Channels 2.0 in GA: one customer context layer for every team\" (/blog/channels-2-is-generally-available/, dated 26 October 2026) after the clone was captured, so the live \"From the blog\" row is shifted by one card (live: Channels 2.0 / stakeholder trust / AI bottleneck; clone: stakeholder trust / AI bottleneck / 9 Digital Twins). Offset search finds no alignment above 79.5%.",
+     "fixWouldNeed": "add the post (title, date, tags, hot-linked cover https://dovetail.com/media/channels-2-ga-blog-hero.png) to src/data/content/blog.json; that also adds a blog route to the route inventory (src/data/routes.txt, ia/, routes/routes.json, sectionHeights), which is a content re-capture rather than a section fix"
+    },
+    {
+     "route": "/blog/",
+     "section": "listing.card-grid",
+     "similarityPct": 60.09,
+     "status": "pending human approval",
+     "cause": "same live drift as /resources/: the new post became the live featured post and every grid card moved one slot (was 87.38 on 2026-10-26; neither the route nor its components were changed in this revision)",
+     "fixWouldNeed": "same re-capture as /resources/"
+    },
+    {
+     "route": "/careers/",
+     "section": "company.video-gallery",
+     "similarityPct": 59,
+     "status": "pending human approval",
+     "cause": "live content drift: the live open-positions list is now 1278px tall (clone 1201px; job listings changed after capture), pushing every later section 62-77px down (best vertical alignment 85.6%). Was 85.38 on 2026-10-26; the clone route is unchanged in this revision.",
+     "fixWouldNeed": "re-capture the open positions data"
+    },
+    {
+     "route": "/careers/",
+     "section": "company.values",
+     "similarityPct": 71.6,
+     "status": "pending human approval",
+     "cause": "same open-positions drift as company.video-gallery (best vertical alignment 98.2%). Was 86.36 on 2026-10-26.",
+     "fixWouldNeed": "re-capture the open positions data"
+    },
+    {
+     "route": "/events/a-balancing-act-mastering-customer-feedback/",
+     "section": "listing.event-cards",
+     "similarityPct": 77.27,
+     "status": "pending human approval",
+     "cause": "live content drift: the live \"More events\" row now leads with a new event (\"How SmartRecruiters grounds every design decision ...\") not in the clone data, and the live event body is 61px taller. Was 83.66 on 2026-10-26; the clone route is unchanged in this revision.",
+     "fixWouldNeed": "re-capture the events data (adds an event route)"
+    }
+   ],
+   "gateNote": "gatePassed is false: 289/294 sections >= 80. 12 of the 13 sections that failed on 2026-10-26 now pass; /resources/ listing.card-grid (79.38 -> 75.61) and 4 sections on routes not changed in this revision (/blog/, /careers/ x2, /events/a-balancing-act-mastering-customer-feedback/) are below 80 because the live site's content changed after capture. All 5 are listed in exceptions as pending human approval (not self-approved)."
   }
  },
  "wrapperGateWhitelist": [

@@ -9,10 +9,10 @@
   "id": "component:ComparisonSlices:cmp-migrate__head",
   "file": "src/components/legal/ComparisonSlices.jsx",
   "tag": "div",
-  "lines": "171-183",
-  "tagLine": 171,
+  "lines": "172-184",
+  "tagLine": 172,
   "anchor": "cmp-migrate__head",
-  "anchorLine": 171
+  "anchorLine": 172
  },
  "purpose": "Heading, paragraph and buttons inviting a migration plan.",
  "retrievalEligible": true,
@@ -156,7 +156,7 @@
   }
  },
  "evidence": [
-  "src/components/legal/ComparisonSlices.jsx:171-183",
+  "src/components/legal/ComparisonSlices.jsx:172-184",
   "specs/comparison.md:1-40"
  ]
 }

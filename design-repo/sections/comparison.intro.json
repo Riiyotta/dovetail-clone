@@ -9,10 +9,10 @@
   "id": "component:ComparisonSlices:cmp-cintro__h2",
   "file": "src/components/legal/ComparisonSlices.jsx",
   "tag": "h2",
-  "lines": "111-123",
-  "tagLine": 111,
+  "lines": "112-124",
+  "tagLine": 112,
   "anchor": "cmp-cintro__h2",
-  "anchorLine": 111
+  "anchorLine": 112
  },
  "purpose": "H40 'How X compares to Y' and a paragraph above the table.",
  "retrievalEligible": true,
@@ -139,7 +139,7 @@
   }
  },
  "evidence": [
-  "src/components/legal/ComparisonSlices.jsx:111-123",
+  "src/components/legal/ComparisonSlices.jsx:112-124",
   "specs/comparison.md:1-40"
  ]
 }

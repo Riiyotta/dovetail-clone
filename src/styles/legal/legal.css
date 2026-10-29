@@ -40,7 +40,13 @@
 .ldoc { display: flex; gap: 32px; padding: 0 32px; }
 .ldoc__nav, .ldoc__toc { width: 292px; flex-shrink: 0; position: sticky; top: 96px; align-self: flex-start;
   max-height: calc(100vh - 104px); overflow-y: auto; }
-.ldoc__center { flex: 1 1 0; min-width: 0; padding-top: 48px; }
+/* No fixed top padding: on the original the 48px above the first block is the first heading's own top margin
+   (specs/legal-doc.md §2b); a document that opens with a paragraph (e.g. the Acceptable Use Policy) starts flush. */
+.ldoc__center { flex: 1 1 0; min-width: 0; }
+@media (min-width: 1281px) {
+  .ldoc__center .lprose > :is(h1, h2):first-child { margin-top: 48px; }
+  .ldoc__center .lprose > h3:first-child { margin-top: 40px; }
+}
 .ldoc__inner { max-width: 856px; width: 100%; margin: 0 auto; }
 @media (max-width: 1280px) {
   .ldoc { flex-direction: column-reverse; padding: 0; }

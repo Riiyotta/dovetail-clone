@@ -9,10 +9,10 @@
   "id": "component:RoleSections:pr__list",
   "file": "src/pages/roles/RoleSections.jsx",
   "tag": "ol",
-  "lines": "178-190",
-  "tagLine": 178,
+  "lines": "179-191",
+  "tagLine": 179,
   "anchor": "pr__list",
-  "anchorLine": 178
+  "anchorLine": 179
  },
  "purpose": "Eyebrow + H56 heading, intro and a numbered step list.",
  "retrievalEligible": true,
@@ -138,7 +138,7 @@
   }
  },
  "evidence": [
-  "src/pages/roles/RoleSections.jsx:178-190",
+  "src/pages/roles/RoleSections.jsx:179-191",
   "specs/roles.md:1-40"
  ]
 }

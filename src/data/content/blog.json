@@ -3074,6 +3074,207 @@
     "hr": 1
    },
    "bodyOrder": "iframe img h2 img img h2 img img img h2 img img h2 img img img img img h2 hr",
+   "bodyBlocks": [
+    {
+     "t": "p",
+     "chars": 661,
+     "lines": 10
+    },
+    {
+     "t": "p",
+     "chars": 437,
+     "lines": 6
+    },
+    {
+     "t": "iframe"
+    },
+    {
+     "t": "p",
+     "chars": 275,
+     "lines": 4
+    },
+    {
+     "t": "p",
+     "chars": 205,
+     "lines": 3
+    },
+    {
+     "t": "p",
+     "chars": 449,
+     "lines": 7
+    },
+    {
+     "t": "p",
+     "chars": 350,
+     "lines": 5
+    },
+    {
+     "t": "p",
+     "chars": 34,
+     "lines": 1
+    },
+    {
+     "t": "p",
+     "chars": 383,
+     "lines": 6
+    },
+    {
+     "t": "p",
+     "chars": 292,
+     "lines": 5
+    },
+    {
+     "t": "img",
+     "aspect": "1472/984"
+    },
+    {
+     "t": "h2",
+     "lines": 2
+    },
+    {
+     "t": "img",
+     "aspect": "1472/984"
+    },
+    {
+     "t": "p",
+     "chars": 431,
+     "lines": 7
+    },
+    {
+     "t": "img",
+     "aspect": "1472/984"
+    },
+    {
+     "t": "p",
+     "chars": 635,
+     "lines": 9
+    },
+    {
+     "t": "p",
+     "chars": 549,
+     "lines": 8
+    },
+    {
+     "t": "h2",
+     "lines": 1
+    },
+    {
+     "t": "img",
+     "aspect": "1476/988"
+    },
+    {
+     "t": "p",
+     "chars": 632,
+     "lines": 9
+    },
+    {
+     "t": "img",
+     "aspect": "1472/984"
+    },
+    {
+     "t": "p",
+     "chars": 522,
+     "lines": 8
+    },
+    {
+     "t": "img",
+     "aspect": "1472/984"
+    },
+    {
+     "t": "h2",
+     "lines": 1
+    },
+    {
+     "t": "img",
+     "aspect": "1472/984"
+    },
+    {
+     "t": "p",
+     "chars": 311,
+     "lines": 5
+    },
+    {
+     "t": "img",
+     "aspect": "1472/984"
+    },
+    {
+     "t": "p",
+     "chars": 535,
+     "lines": 8
+    },
+    {
+     "t": "h2",
+     "lines": 1
+    },
+    {
+     "t": "img",
+     "aspect": "1472/984"
+    },
+    {
+     "t": "p",
+     "chars": 438,
+     "lines": 6
+    },
+    {
+     "t": "img",
+     "aspect": "1472/984"
+    },
+    {
+     "t": "p",
+     "chars": 437,
+     "lines": 6
+    },
+    {
+     "t": "img",
+     "aspect": "1472/984"
+    },
+    {
+     "t": "p",
+     "chars": 362,
+     "lines": 6
+    },
+    {
+     "t": "img",
+     "aspect": "1472/984"
+    },
+    {
+     "t": "p",
+     "chars": 414,
+     "lines": 6
+    },
+    {
+     "t": "img",
+     "aspect": "1472/984"
+    },
+    {
+     "t": "h2",
+     "lines": 1
+    },
+    {
+     "t": "p",
+     "chars": 291,
+     "lines": 5
+    },
+    {
+     "t": "p",
+     "chars": 325,
+     "lines": 5
+    },
+    {
+     "t": "hr"
+    },
+    {
+     "t": "p",
+     "chars": 310,
+     "lines": 5
+    },
+    {
+     "t": "p",
+     "chars": 248,
+     "lines": 4
+    }
+   ],
+   "bodyBlocksNote": "Measured on the live post at 1440 (2026-10-29): block order, paragraph character counts and line counts, image aspect ratios. Text stays placeholder; `lines` is reserved at desktop widths.",
    "sidebarCards": [
     "/blog/alloy/",
     "/blog/enhancing-channels-onboarding-and-ai-powered-topics/",

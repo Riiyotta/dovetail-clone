@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import { CtaRow, MaskIcon, Spacer } from './primitives.jsx'
 import { txt } from './placeholder.js'
+import { phLines } from '../marketing/placeholder.js'
 import '../../styles/legal/comparison.css'
 
 // specs/comparison.md — one component per slice `type` in src/data/tools/dovetail-vs-*.json.
@@ -94,7 +95,7 @@ export function ChooseGrid({ data, seed }) {
               <div className="cmp-choose__frame"><img src={c.image.src} alt={c.image.alt || ''} /></div>
               <div className="cmp-choose__text">
                 <p className="lt-h20">{c.title}</p>
-                <p className="lt-p16 l-dim">{txt(c.text, `${seed}card${i}`)}</p>
+                <p className="lt-p16 l-dim" {...phLines(c.text)}>{txt(c.text, `${seed}card${i}`)}</p>
               </div>
             </div>
           ))}
@@ -200,7 +201,7 @@ export function TrialCta({ data, seed }) {
       <div className="lgrid cmp-trial__grid">
         <div className="cmp-trial__col">
           <h2 className="cmp-trial__h2">{data.h2}</h2>
-          <p className="lt-p20 cmp-trial__p">{txt(data.p, `${seed}trial`)}</p>
+          <p className="lt-p20 cmp-trial__p" {...phLines(data.p)}>{txt(data.p, `${seed}trial`)}</p>
           <CtaRow ctas={data.ctas} center className="cmp-trial__ctas" />
           <ul className="cmp-trial__list">
             {(data.checklist || []).map((t, i) => (

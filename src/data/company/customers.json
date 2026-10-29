@@ -3370,7 +3370,8 @@
     "backgroundVideo": {
      "url": "https://dovetail.com/media/CustomerStoryBrevilleLoop.mp4",
      "downloaded": false,
-     "poster": "/assets/company/media/CustomerStoryBrevilleLoop_copy.png"
+     "poster": "/assets/company/media/CustomerStoryBrevilleLoop_copy.png",
+     "src": "/assets/marketing/CustomerStoryBrevilleLoop.mp4"
     }
    },
    {

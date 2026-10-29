@@ -159,6 +159,10 @@
 .cs-body { position: relative; background: #0A0A0A; }
 .cs-block { background: #0A0A0A; }
 .cs-block--after-quote { padding-top: 48px; }
+/* On the original the section heading and its body share one grid (row-gap 32 / 24 at <=1280); the Intro heading's
+   grid keeps an empty second row, so every heading is followed by that gap. */
+.cs-block--head { padding-bottom: 32px; }
+@media (max-width: 1280px) { .cs-block--head { padding-bottom: 24px; } }
 .cs-sec-head { grid-column: 1 / span 8; min-width: 0; }
 .cs-sec-body { grid-column: 2 / span 7; min-width: 0; }
 @media (max-width: 1280px) { .cs-sec-head { grid-column: 1 / -1; } }

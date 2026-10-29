@@ -145,24 +145,24 @@
   "1440": {
    "routes": 39,
    "nodes": 39,
-   "minPx": 2338,
-   "maxPx": 7195,
-   "medianPx": 4936.8,
+   "minPx": 2434,
+   "maxPx": 7387,
+   "medianPx": 5064.8,
    "sample": {
     "/customers/achievers/": [
-     4601
+     4961
     ],
     "/customers/atlassian-design/": [
-     4732.4
+     4860.4
     ],
     "/customers/atlassian/": [
-     3007
+     3135
     ],
     "/customers/aws/": [
-     5289
+     5417
     ],
     "/customers/bower/": [
-     4585.9
+     4713.9
     ]
    }
   }

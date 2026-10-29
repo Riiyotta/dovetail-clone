@@ -29,3 +29,12 @@ export function placeholder(chars, seed = 0) {
   cut = cut.replace(/[.,\s]+$/, '')
   return `${cut}.`
 }
+
+// Props that reserve the recorded line count of a placeholder field ({ placeholder, chars, lines }) at desktop
+// widths (see the [data-ph-lines] rule in src/index.css). Returns {} when no line count was recorded.
+// `clamp: false` only reserves the height (for blocks with inline widgets that a line clamp would break).
+export function phLines(field, style, { clamp = true } = {}) {
+  const n = field && typeof field === 'object' ? field.lines : typeof field === 'number' ? field : null
+  if (!n) return style ? { style } : {}
+  return { 'data-ph-lines': n, ...(clamp ? { 'data-ph-clamp': '' } : {}), style: { ...(style || {}), '--ph-lines': n } }
+}

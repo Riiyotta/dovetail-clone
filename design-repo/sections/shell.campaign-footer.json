@@ -9,10 +9,10 @@
   "id": "component:BestNeverGuessPage:bng-footer",
   "file": "src/pages/campaigns/bng/BestNeverGuessPage.jsx",
   "tag": "footer",
-  "lines": "324-336",
-  "tagLine": 324,
+  "lines": "325-337",
+  "tagLine": 325,
   "anchor": "bng-footer",
-  "anchorLine": 324
+  "anchorLine": 325
  },
  "purpose": "Compact footer owned by a campaign page: copyright, links, social icons.",
  "retrievalEligible": true,
@@ -162,7 +162,7 @@
   }
  },
  "evidence": [
-  "src/pages/campaigns/bng/BestNeverGuessPage.jsx:324-336",
+  "src/pages/campaigns/bng/BestNeverGuessPage.jsx:325-337",
   "specs/best-never-guess.md:1-30",
   "specs/launch.md:1-30"
  ]

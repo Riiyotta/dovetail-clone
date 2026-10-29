@@ -115,7 +115,8 @@
    "type": "p",
    "placeholder": true,
    "chars": 396,
-   "hasBold": true
+   "hasBold": true,
+   "lines": 5
   },
   {
    "type": "p",
@@ -131,76 +132,92 @@
      "href": "/legal/user-terms-of-service/"
     }
    ],
-   "hasBold": true
+   "hasBold": true,
+   "lines": 5
   },
   {
    "type": "p",
    "placeholder": true,
-   "chars": 144
+   "chars": 144,
+   "lines": 2
   },
   {
    "type": "ul",
    "items": [
     {
      "placeholder": true,
-     "chars": 707
+     "chars": 707,
+     "lines": 9
     },
     {
      "placeholder": true,
      "chars": 587,
-     "links": 1
+     "links": 1,
+     "lines": 8
     },
     {
      "placeholder": true,
      "chars": 96,
-     "links": 1
+     "links": 1,
+     "lines": 2
     },
     {
      "placeholder": true,
-     "chars": 188
+     "chars": 188,
+     "lines": 3
     },
     {
      "placeholder": true,
-     "chars": 135
+     "chars": 135,
+     "lines": 2
     },
     {
      "placeholder": true,
-     "chars": 172
+     "chars": 172,
+     "lines": 3
     },
     {
      "placeholder": true,
-     "chars": 170
+     "chars": 170,
+     "lines": 3
     },
     {
      "placeholder": true,
-     "chars": 184
+     "chars": 184,
+     "lines": 3
     },
     {
      "placeholder": true,
-     "chars": 68
+     "chars": 68,
+     "lines": 1
     },
     {
      "placeholder": true,
-     "chars": 77
+     "chars": 77,
+     "lines": 1
     },
     {
      "placeholder": true,
-     "chars": 86
+     "chars": 86,
+     "lines": 2
     },
     {
      "placeholder": true,
-     "chars": 167
+     "chars": 167,
+     "lines": 3
     },
     {
      "placeholder": true,
-     "chars": 88
+     "chars": 88,
+     "lines": 2
     }
    ]
   },
   {
    "type": "p",
    "placeholder": true,
-   "chars": 517
+   "chars": 517,
+   "lines": 7
   }
  ],
  "lastUpdated": {

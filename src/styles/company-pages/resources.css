@@ -11,7 +11,8 @@
 .ri-list__right { grid-column: 6 / span 7; min-width: 0; }
 .ri-item { border-top: 1px solid rgb(69,69,69); padding: 40px 0; }
 .ri-item:last-child { border-bottom: 1px solid rgb(69,69,69); }
-.ri-item__link { display: flex; align-items: flex-start; color: #FFFFFF; }
+/* The original link carries a transparent 1px border (focus/hover affordance), which adds 2px to every row. */
+.ri-item__link { display: flex; align-items: flex-start; color: #FFFFFF; border: 1px solid transparent; }
 .ri-item__link:hover, .ri-item__link:focus-visible { color: #A7A7A7; }
 .ri-item__h3 { display: flex; gap: 8px; margin-bottom: 8px; }
 .ri-item__desc { color: #A7A7A7; }

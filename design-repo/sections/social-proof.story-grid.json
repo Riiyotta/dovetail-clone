@@ -9,10 +9,10 @@
   "id": "component:BestNeverGuessPage:bng-stories",
   "file": "src/pages/campaigns/bng/BestNeverGuessPage.jsx",
   "tag": "div",
-  "lines": "210-222",
-  "tagLine": 210,
+  "lines": "211-223",
+  "tagLine": 211,
   "anchor": "bng-stories",
-  "anchorLine": 210
+  "anchorLine": 211
  },
  "purpose": "Grid of customer story cards on a campaign page.",
  "retrievalEligible": true,
@@ -40,7 +40,7 @@
   "fields": {
    "items[].href": {
     "type": "link",
-    "observedIn": 16
+    "observedIn": 18
    },
    "items[].media.alt": {
     "type": "text",
@@ -59,13 +59,13 @@
     "type": "text",
     "maxWords": 37,
     "maxChars": 218,
-    "observedIn": 16
+    "observedIn": 18
    }
   },
   "listSizes": {
    "items": [
     6,
-    10
+    12
    ]
   },
   "itemRequiredFields": [
@@ -137,21 +137,21 @@
   "1440": {
    "routes": 2,
    "nodes": 2,
-   "minPx": 1071.6,
-   "maxPx": 1123.6,
-   "medianPx": 1097.6,
+   "minPx": 1123.6,
+   "maxPx": 1127.6,
+   "medianPx": 1125.6,
    "sample": {
     "/aws-summit-sydney-2026/": [
      1123.6
     ],
     "/the-best-never-guess/": [
-     1071.6
+     1127.6
     ]
    }
   }
  },
  "evidence": [
-  "src/pages/campaigns/bng/BestNeverGuessPage.jsx:210-222",
+  "src/pages/campaigns/bng/BestNeverGuessPage.jsx:211-223",
   "specs/best-never-guess.md:1-30",
   "specs/campaign-aws-summit.md:1-30"
  ]

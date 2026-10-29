@@ -1,13 +1,14 @@
 import { Link } from 'react-router-dom'
 import YouTubeEmbed from './YouTubeEmbed.jsx'
 import { copy, isPlaceholder, quoteCopy } from './text.js'
-import { placeholder } from '../marketing/placeholder.js'
+import { placeholder, phLines } from '../marketing/placeholder.js'
 import '../../styles/company/components.css'
 
 // RichText — Markdown-body renderer for company data (company-shared.md S0.6).
 // Props:
 //   blocks   array of body blocks as recorded in src/data/company/** :
-//              { t:'p', text? | placeholder+chars, strong?: string[], links?: [{text, href}] }
+//              { t:'p', text? | placeholder+chars(+lines), strong?: string[], links?: [{text, href}] }
+//              (`lines` = the original's line count at 1440, reserved at desktop widths; see phLines)
 //              { t:'h1'|'h2'|'h3'|'h4', text }   { t:'ul'|'ol', items: [string | {placeholder,chars,strong?,links?}] }
 //              { t:'img', src, alt }   { t:'blockquote', text? | placeholder+chars }
 //              { t:'iframe', youtubeId, poster }  → click-to-load YouTubeEmbed
@@ -60,14 +61,14 @@ export function Inline({ node, seed = 0 }) {
 function renderBlock(b, key, seed) {
   switch (b.t) {
     case 'p':
-      return <p key={key}><Inline node={b} seed={seed} /></p>
+      return <p key={key} {...(isPlaceholder(b) ? phLines(b) : {})}><Inline node={b} seed={seed} /></p>
     case 'h1': case 'h2': case 'h3': case 'h4': case 'h5': case 'h6': {
       const H = b.t
       return <H key={key}>{copy(b.text ?? b, seed)}</H>
     }
     case 'ul': case 'ol': {
       const L = b.t
-      return <L key={key}>{(b.items || []).map((it, j) => <li key={j}><Inline node={it} seed={seed + j} /></li>)}</L>
+      return <L key={key}>{(b.items || []).map((it, j) => <li key={j} {...(isPlaceholder(it) ? phLines(it, undefined, { clamp: false }) : {})}><Inline node={it} seed={seed + j} /></li>)}</L>
     }
     case 'img':
       return <img key={key} src={b.src} alt={b.alt || ''} loading="lazy" />

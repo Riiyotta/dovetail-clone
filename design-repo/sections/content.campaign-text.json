@@ -9,10 +9,10 @@
   "id": "component:BestNeverGuessPage:bng-text",
   "file": "src/pages/campaigns/bng/BestNeverGuessPage.jsx",
   "tag": "section",
-  "lines": "116-128",
-  "tagLine": 116,
+  "lines": "117-129",
+  "tagLine": 117,
   "anchor": "bng-text",
-  "anchorLine": 116
+  "anchorLine": 117
  },
  "purpose": "Large campaign paragraph on the blue campaign theme.",
  "retrievalEligible": true,
@@ -133,21 +133,21 @@
   "1440": {
    "routes": 2,
    "nodes": 2,
-   "minPx": 366,
+   "minPx": 462,
    "maxPx": 462,
-   "medianPx": 414.0,
+   "medianPx": 462.0,
    "sample": {
     "/aws-summit-sydney-2026/": [
      462
     ],
     "/the-best-never-guess/": [
-     366
+     462
     ]
    }
   }
  },
  "evidence": [
-  "src/pages/campaigns/bng/BestNeverGuessPage.jsx:116-128",
+  "src/pages/campaigns/bng/BestNeverGuessPage.jsx:117-129",
   "specs/best-never-guess.md:1-30",
   "specs/campaign-aws-summit.md:1-30"
  ]

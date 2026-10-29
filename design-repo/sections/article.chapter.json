@@ -9,10 +9,10 @@
   "id": "component:BlogPost:blog-post__content-cell",
   "file": "src/pages/blog/BlogPost.jsx",
   "tag": "div",
-  "lines": "215-227",
-  "tagLine": 215,
+  "lines": "219-231",
+  "tagLine": 219,
   "anchor": "blog-post__content-cell",
-  "anchorLine": 215
+  "anchorLine": 219
  },
  "purpose": "One H2-bounded chapter of an article body: heading, paragraphs, sub-headings, lists, figures, tables and embeds in rich-text style.",
  "retrievalEligible": true,
@@ -73,9 +73,9 @@
   "fields": {
    "body[].text": {
     "type": "text",
-    "maxWords": 88,
-    "maxChars": 586,
-    "observedIn": 1008
+    "maxWords": 120,
+    "maxChars": 665,
+    "observedIn": 982
    },
    "heading": {
     "type": "text",
@@ -151,11 +151,11 @@
    "medianPx": 348,
    "sample": {
     "/blog/2025-fall-launch/": [
-     3394,
-     2417.5,
-     1701,
-     3410.5,
-     558
+     4484,
+     2200.1,
+     1574.3,
+     3517.9,
+     726
     ],
     "/blog/30-days-in/": [
      4814
@@ -182,7 +182,7 @@
   }
  },
  "evidence": [
-  "src/pages/blog/BlogPost.jsx:215-227",
+  "src/pages/blog/BlogPost.jsx:219-231",
   "specs/blog-post.md:1-30",
   "specs/changelog-entry.md:1-30"
  ]

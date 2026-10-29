@@ -9,10 +9,10 @@
   "id": "component:BestNeverGuessPage:bh",
   "file": "src/pages/campaigns/bng/BestNeverGuessPage.jsx",
   "tag": "section",
-  "lines": "53-65",
-  "tagLine": 53,
+  "lines": "54-66",
+  "tagLine": 54,
   "anchor": "bh",
-  "anchorLine": 53
+  "anchorLine": 54
  },
  "purpose": "Full-viewport blue campaign opener: giant stacked headline with customer logo tiles and a CTA row.",
  "retrievalEligible": true,
@@ -136,7 +136,7 @@
   }
  },
  "evidence": [
-  "src/pages/campaigns/bng/BestNeverGuessPage.jsx:53-65",
+  "src/pages/campaigns/bng/BestNeverGuessPage.jsx:54-66",
   "specs/best-never-guess.md:1-30",
   "specs/campaign-aws-summit.md:1-30"
  ]

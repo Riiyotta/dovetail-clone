@@ -9,10 +9,10 @@
   "id": "component:ComparisonSlices:cmp-hero",
   "file": "src/components/legal/ComparisonSlices.jsx",
   "tag": "div",
-  "lines": "15-27",
-  "tagLine": 15,
+  "lines": "16-28",
+  "tagLine": 16,
   "anchor": "cmp-hero",
-  "anchorLine": 15
+  "anchorLine": 16
  },
  "purpose": "Centred opener for a competitor comparison: mono eyebrow, H56 claim, lead, trial + migration CTAs.",
  "retrievalEligible": true,
@@ -156,7 +156,7 @@
   }
  },
  "evidence": [
-  "src/components/legal/ComparisonSlices.jsx:15-27",
+  "src/components/legal/ComparisonSlices.jsx:16-28",
   "specs/comparison.md:1-40"
  ]
 }

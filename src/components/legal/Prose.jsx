@@ -1,5 +1,6 @@
 import { Fragment } from 'react'
 import { placeholderText, placeholderLinkText, txt } from './placeholder.js'
+import { phLines } from '../marketing/placeholder.js'
 import '../../styles/legal/prose.css'
 
 // Light rich text (`.e8fk9sg2`; specs/legal-doc.md §2b, content-shared §4.1).
@@ -47,7 +48,7 @@ function Cell({ value, seed, kind }) {
 
 function ListItems({ items, seed, kind }) {
   return items.map((it, i) => (
-    <li key={i}>
+    <li key={i} {...(typeof it === 'object' && it?.placeholder ? phLines(it, undefined, { clamp: false }) : {})}>
       {typeof it === 'string' ? it : <PlaceholderRun block={it} seed={`${seed}-${i}`} kind={kind} />}
     </li>
   ))
@@ -62,7 +63,7 @@ export default function Prose({ blocks = [], seed = '', kind = 'neutral', classN
         switch (b.type) {
           case 'h2': return <h2 key={i} id={b.id}>{b.text}</h2>
           case 'h3': return <h3 key={i} id={b.id}>{b.text}</h3>
-          case 'p': return <p key={i}>{b.placeholder ? <PlaceholderRun block={b} seed={s} kind={kind} /> : b.text}</p>
+          case 'p': return <p key={i} {...(b.placeholder ? phLines(b) : {})}>{b.placeholder ? <PlaceholderRun block={b} seed={s} kind={kind} /> : b.text}</p>
           case 'ul': return <ul key={i}><ListItems items={b.items || []} seed={s} kind={kind} /></ul>
           case 'ol': return <ol key={i}><ListItems items={b.items || []} seed={s} kind={kind} /></ol>
           case 'img': return <img key={i} src={b.src} alt={b.alt || ''} />

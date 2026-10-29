@@ -314,7 +314,8 @@
      "role": "text",
      "placeholder": true,
      "chars": 164,
-     "el": "e1ttzgas12"
+     "el": "e1ttzgas12",
+     "lines": 2
     },
     {
      "role": "img",
@@ -333,7 +334,8 @@
      "role": "text",
      "placeholder": true,
      "chars": 165,
-     "el": "e1ttzgas12"
+     "el": "e1ttzgas12",
+     "lines": 2
     },
     {
      "role": "img",
@@ -352,7 +354,8 @@
      "role": "text",
      "placeholder": true,
      "chars": 165,
-     "el": "e1ttzgas12"
+     "el": "e1ttzgas12",
+     "lines": 2
     },
     {
      "role": "img",
@@ -371,7 +374,8 @@
      "role": "text",
      "placeholder": true,
      "chars": 172,
-     "el": "e1ttzgas12"
+     "el": "e1ttzgas12",
+     "lines": 2
     },
     {
      "role": "img",
@@ -390,7 +394,8 @@
      "role": "text",
      "placeholder": true,
      "chars": 177,
-     "el": "e1ttzgas12"
+     "el": "e1ttzgas12",
+     "lines": 3
     },
     {
      "role": "img",
@@ -409,7 +414,8 @@
      "role": "text",
      "placeholder": true,
      "chars": 170,
-     "el": "e1ttzgas12"
+     "el": "e1ttzgas12",
+     "lines": 2
     },
     {
      "role": "img",
@@ -428,7 +434,8 @@
      "role": "text",
      "placeholder": true,
      "chars": 170,
-     "el": "e1ttzgas12"
+     "el": "e1ttzgas12",
+     "lines": 2
     },
     {
      "role": "img",
@@ -447,7 +454,8 @@
      "role": "text",
      "placeholder": true,
      "chars": 172,
-     "el": "e1ttzgas12"
+     "el": "e1ttzgas12",
+     "lines": 2
     },
     {
      "role": "img",
@@ -466,7 +474,8 @@
      "role": "text",
      "placeholder": true,
      "chars": 176,
-     "el": "e1ttzgas12"
+     "el": "e1ttzgas12",
+     "lines": 3
     },
     {
      "role": "img",
@@ -485,7 +494,8 @@
      "role": "text",
      "placeholder": true,
      "chars": 186,
-     "el": "e1ttzgas12"
+     "el": "e1ttzgas12",
+     "lines": 3
     },
     {
      "role": "img",
@@ -504,7 +514,8 @@
      "role": "text",
      "placeholder": true,
      "chars": 181,
-     "el": "e1ttzgas12"
+     "el": "e1ttzgas12",
+     "lines": 3
     },
     {
      "role": "img",
@@ -758,8 +769,8 @@
      "el": "img"
     },
     {
-     "role": "link-card",
-     "text": null,
+     "role": "link",
+     "text": "How Okta built a customer intelligence platform trusted by 200+ users across 30+ teams ↘",
      "href": "/customers/okta/",
      "el": "e1xybz5410"
     },
@@ -780,8 +791,8 @@
      "el": "img"
     },
     {
-     "role": "link-card",
-     "text": null,
+     "role": "link",
+     "text": "How Zapier puts customer intelligence in everyone’s hands and gets tens of hours back every week ↘",
      "href": "/customers/zapier/",
      "el": "e1xybz5410"
     }

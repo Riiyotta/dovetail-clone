@@ -9,10 +9,10 @@
   "id": "component:RoleSections:uc__card",
   "file": "src/pages/roles/RoleSections.jsx",
   "tag": "div",
-  "lines": "316-328",
-  "tagLine": 316,
+  "lines": "317-329",
+  "tagLine": 317,
   "anchor": "uc__card",
-  "anchorLine": 316
+  "anchorLine": 317
  },
  "purpose": "Heading and tabbed use-case cards (media + text) with one active card.",
  "retrievalEligible": true,
@@ -162,7 +162,7 @@
   }
  },
  "evidence": [
-  "src/pages/roles/RoleSections.jsx:316-328",
+  "src/pages/roles/RoleSections.jsx:317-329",
   "specs/roles.md:1-40"
  ]
 }

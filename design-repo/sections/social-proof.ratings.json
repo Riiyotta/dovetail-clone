@@ -9,10 +9,10 @@
   "id": "component:CustomersIndex:cu-ratings",
   "file": "src/pages/customers/CustomersIndex.jsx",
   "tag": "section",
-  "lines": "156-168",
-  "tagLine": 156,
+  "lines": "159-171",
+  "tagLine": 159,
   "anchor": "cu-ratings",
-  "anchorLine": 156
+  "anchorLine": 159
  },
  "purpose": "Review-site rating row, headline and an awards marquee over a dotted tile background.",
  "retrievalEligible": true,
@@ -151,7 +151,7 @@
   }
  },
  "evidence": [
-  "src/pages/customers/CustomersIndex.jsx:156-168",
+  "src/pages/customers/CustomersIndex.jsx:159-171",
   "specs/customers-index.md:1-30"
  ]
 }

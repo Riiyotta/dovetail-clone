@@ -9,10 +9,10 @@
   "id": "component:BestNeverGuessPage:bng-formslice",
   "file": "src/pages/campaigns/bng/BestNeverGuessPage.jsx",
   "tag": "section",
-  "lines": "290-302",
-  "tagLine": 290,
+  "lines": "291-303",
+  "tagLine": 291,
   "anchor": "bng-formslice",
-  "anchorLine": 290
+  "anchorLine": 291
  },
  "purpose": "Campaign form slice: H64 heading and a sign-up form column with decorative art.",
  "retrievalEligible": true,
@@ -163,7 +163,7 @@
   }
  },
  "evidence": [
-  "src/pages/campaigns/bng/BestNeverGuessPage.jsx:290-302",
+  "src/pages/campaigns/bng/BestNeverGuessPage.jsx:291-303",
   "specs/best-never-guess.md:1-30",
   "specs/campaign-aws-summit.md:1-30"
  ]

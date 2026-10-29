@@ -9,10 +9,10 @@
   "id": "component:RoleSections:sc__card",
   "file": "src/pages/roles/RoleSections.jsx",
   "tag": "div",
-  "lines": "393-405",
-  "tagLine": 393,
+  "lines": "394-406",
+  "tagLine": 394,
   "anchor": "sc__card",
-  "anchorLine": 393
+  "anchorLine": 394
  },
  "purpose": "Row of customer story cards (thumbnail, title) with pixel hover.",
  "retrievalEligible": true,
@@ -55,9 +55,9 @@
    },
    "items[].title": {
     "type": "text",
-    "maxWords": 12,
-    "maxChars": 79,
-    "observedIn": 6
+    "maxWords": 17,
+    "maxChars": 98,
+    "observedIn": 8
    }
   },
   "listSizes": {
@@ -140,7 +140,7 @@
    "medianPx": 503.8,
    "sample": {
     "/roles/customer-experience/": [
-     503.8
+     531.8
     ],
     "/roles/design/": [
      503.8
@@ -158,7 +158,7 @@
   }
  },
  "evidence": [
-  "src/pages/roles/RoleSections.jsx:393-405",
+  "src/pages/roles/RoleSections.jsx:394-406",
   "specs/roles.md:1-40"
  ]
 }

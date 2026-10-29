@@ -9,10 +9,10 @@
   "id": "component:CustomersIndex:cu-wall",
   "file": "src/pages/customers/CustomersIndex.jsx",
   "tag": "section",
-  "lines": "200-212",
-  "tagLine": 200,
+  "lines": "203-215",
+  "tagLine": 203,
   "anchor": "cu-wall",
-  "anchorLine": 200
+  "anchorLine": 203
  },
  "purpose": "Masonry wall of short customer testimonials with a bottom fade.",
  "retrievalEligible": true,
@@ -141,7 +141,7 @@
   }
  },
  "evidence": [
-  "src/pages/customers/CustomersIndex.jsx:200-212",
+  "src/pages/customers/CustomersIndex.jsx:203-215",
   "specs/customers-index.md:1-30"
  ]
 }

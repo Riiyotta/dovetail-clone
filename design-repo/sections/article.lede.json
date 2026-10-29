@@ -9,10 +9,10 @@
   "id": "component:BlogPost:blog-post__lede",
   "file": "src/pages/blog/BlogPost.jsx",
   "tag": "p",
-  "lines": "211-223",
-  "tagLine": 211,
+  "lines": "215-227",
+  "tagLine": 215,
   "anchor": "blog-post__lede",
-  "anchorLine": 211
+  "anchorLine": 215
  },
  "purpose": "Large lead paragraph opening a blog post.",
  "retrievalEligible": true,
@@ -131,7 +131,7 @@
   }
  },
  "evidence": [
-  "src/pages/blog/BlogPost.jsx:211-223",
+  "src/pages/blog/BlogPost.jsx:215-227",
   "specs/blog-post.md:1-30"
  ]
 }

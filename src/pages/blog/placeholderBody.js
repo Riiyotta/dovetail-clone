@@ -125,3 +125,17 @@ export function placeholderBody(slug, shape, order) {
   })
   return nodes
 }
+
+// Posts with a measured `bodyBlocks` list (block order, paragraph chars/lines, image aspect ratios recorded from the
+// live post at 1440) get exactly that structure; the words are still original filler. `lines` is passed through
+// so the renderer can reserve the original line count at desktop widths.
+export function placeholderBodyFromBlocks(slug, blocks) {
+  const rand = rng(hash(slug))
+  let h2 = 0
+  return blocks.map((b) => {
+    if (b.t === 'p') return { type: 'p', text: filler(rand, b.chars || 200), lines: b.lines }
+    if (b.t === 'h2' || b.t === 'h3') return { type: b.t, text: H2[h2++ % H2.length], lines: b.lines }
+    if (b.t === 'img') return { type: 'img', aspect: b.aspect }
+    return { type: b.t } // iframe, hr
+  })
+}

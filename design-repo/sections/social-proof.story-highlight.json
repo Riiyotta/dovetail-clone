@@ -9,10 +9,10 @@
   "id": "component:ComparisonSlices:cmp-story__stats",
   "file": "src/components/legal/ComparisonSlices.jsx",
   "tag": "ul",
-  "lines": "152-164",
-  "tagLine": 152,
+  "lines": "153-165",
+  "tagLine": 153,
   "anchor": "cmp-story__stats",
-  "anchorLine": 152
+  "anchorLine": 153
  },
  "purpose": "Customer story headline with stats, short quote, attribution and CTA beside an image.",
  "retrievalEligible": true,
@@ -102,7 +102,7 @@
   }
  },
  "evidence": [
-  "src/components/legal/ComparisonSlices.jsx:152-164",
+  "src/components/legal/ComparisonSlices.jsx:153-165",
   "specs/comparison.md:1-40"
  ]
 }

@@ -9,10 +9,10 @@
   "id": "component:TypewriterHero:cu-hero",
   "file": "src/pages/customers/TypewriterHero.jsx",
   "tag": "section",
-  "lines": "123-135",
-  "tagLine": 123,
+  "lines": "136-148",
+  "tagLine": 136,
   "anchor": "cu-hero",
-  "anchorLine": 123
+  "anchorLine": 136
  },
  "purpose": "Customer-stories opener: eyebrow and an H96 customer quote typed out with a highlight rectangle.",
  "retrievalEligible": true,
@@ -126,18 +126,18 @@
   "1440": {
    "routes": 1,
    "nodes": 1,
-   "minPx": 694,
-   "maxPx": 694,
-   "medianPx": 694,
+   "minPx": 782,
+   "maxPx": 782,
+   "medianPx": 782,
    "sample": {
     "/customers/": [
-     694
+     782
     ]
    }
   }
  },
  "evidence": [
-  "src/pages/customers/TypewriterHero.jsx:123-135",
+  "src/pages/customers/TypewriterHero.jsx:136-148",
   "specs/customers-index.md:1-30"
  ]
 }

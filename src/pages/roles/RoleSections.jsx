@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import gsap from 'gsap'
 import { Eyebrow, MaskIcon, MkButton, ctaProps, txt } from './common.jsx'
+import { phLines } from '../../components/marketing/placeholder.js'
 import GridImageBackground from '../../components/marketing/GridImageBackground.jsx'
 
 const byRole = (content, role) => content.filter((c) => c.role === role)
@@ -230,7 +231,7 @@ export function Integrations({ section, seed }) {
                   </div>
                   <span className="in__name">{txt(it.name)}</span>
                 </div>
-                <p className="mk-p16 mk-p16--dim">{txt(it.desc, seed + i)}</p>
+                <p className="mk-p16 mk-p16--dim" {...phLines(it.desc)}>{txt(it.desc, seed + i)}</p>
               </div>
             </li>
           ))}

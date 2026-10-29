@@ -9,10 +9,10 @@
   "id": "component:ResourcesIndex:ri-roi",
   "file": "src/pages/company/ResourcesIndex.jsx",
   "tag": "div",
-  "lines": "60-72",
-  "tagLine": 60,
+  "lines": "61-73",
+  "tagLine": 61,
   "anchor": "ri-roi",
-  "anchorLine": 60
+  "anchorLine": 61
  },
  "purpose": "Icon, eyebrow, H40 and a text link promoting an interactive tool.",
  "retrievalEligible": true,
@@ -133,7 +133,7 @@
   }
  },
  "evidence": [
-  "src/pages/company/ResourcesIndex.jsx:60-72",
+  "src/pages/company/ResourcesIndex.jsx:61-73",
   "specs/resources-index.md:1-30"
  ]
 }

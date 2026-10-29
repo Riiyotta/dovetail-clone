@@ -9,10 +9,10 @@
   "id": "component:RoleSections:in__grid",
   "file": "src/pages/roles/RoleSections.jsx",
   "tag": "div",
-  "lines": "211-223",
-  "tagLine": 211,
+  "lines": "212-224",
+  "tagLine": 212,
   "anchor": "in__grid",
-  "anchorLine": 211
+  "anchorLine": 212
  },
  "purpose": "Sticky heading + CTA row beside a long list of integrations (logo, name, text) and a discover link.",
  "retrievalEligible": true,
@@ -170,7 +170,7 @@
    "medianPx": 1878.0,
    "sample": {
     "/roles/customer-experience/": [
-     2039
+     2087
     ],
     "/roles/design/": [
      1854
@@ -188,7 +188,7 @@
   }
  },
  "evidence": [
-  "src/pages/roles/RoleSections.jsx:211-223",
+  "src/pages/roles/RoleSections.jsx:212-224",
   "specs/roles.md:1-40"
  ]
 }

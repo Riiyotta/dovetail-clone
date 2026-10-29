@@ -44,7 +44,8 @@
     {
      "t": "p",
      "placeholder": true,
-     "chars": 522
+     "chars": 522,
+     "lines": 8
     },
     {
      "t": "p",
@@ -55,7 +56,8 @@
        "text": "Channels",
        "href": "/product/ai-channels/"
       }
-     ]
+     ],
+     "lines": 11
     }
    ]
   },
@@ -65,7 +67,8 @@
     {
      "t": "p",
      "placeholder": true,
-     "chars": 487
+     "chars": 487,
+     "lines": 8
     }
    ]
   },
@@ -75,17 +78,20 @@
     {
      "t": "p",
      "placeholder": true,
-     "chars": 489
+     "chars": 489,
+     "lines": 8
     },
     {
      "t": "p",
      "placeholder": true,
-     "chars": 485
+     "chars": 485,
+     "lines": 8
     },
     {
      "t": "p",
      "placeholder": true,
-     "chars": 466
+     "chars": 466,
+     "lines": 7
     }
    ]
   },
@@ -95,17 +101,20 @@
     {
      "t": "p",
      "placeholder": true,
-     "chars": 588
+     "chars": 588,
+     "lines": 9
     },
     {
      "t": "p",
      "placeholder": true,
-     "chars": 679
+     "chars": 679,
+     "lines": 10
     },
     {
      "t": "p",
      "placeholder": true,
-     "chars": 213
+     "chars": 213,
+     "lines": 4
     }
    ]
   },
@@ -115,12 +124,14 @@
     {
      "t": "p",
      "placeholder": true,
-     "chars": 352
+     "chars": 352,
+     "lines": 6
     },
     {
      "t": "p",
      "placeholder": true,
-     "chars": 740
+     "chars": 740,
+     "lines": 11
     }
    ]
   },
@@ -130,7 +141,8 @@
     {
      "t": "p",
      "placeholder": true,
-     "chars": 525
+     "chars": 525,
+     "lines": 8
     }
    ]
   }

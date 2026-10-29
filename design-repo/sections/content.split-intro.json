@@ -9,10 +9,10 @@
   "id": "component:ComparisonSlices:cmp-split",
   "file": "src/components/legal/ComparisonSlices.jsx",
   "tag": "section",
-  "lines": "53-65",
-  "tagLine": 53,
+  "lines": "54-66",
+  "tagLine": 54,
   "anchor": "cmp-split",
-  "anchorLine": 53
+  "anchorLine": 54
  },
  "purpose": "H40 problem statement, paragraph and CTA row beside a product image.",
  "retrievalEligible": true,
@@ -181,7 +181,7 @@
   }
  },
  "evidence": [
-  "src/components/legal/ComparisonSlices.jsx:53-65",
+  "src/components/legal/ComparisonSlices.jsx:54-66",
   "specs/comparison.md:1-40"
  ]
 }

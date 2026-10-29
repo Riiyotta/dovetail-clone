@@ -9,10 +9,10 @@
   "id": "component:BlogPost:blog-post__related-cell",
   "file": "src/pages/blog/BlogPost.jsx",
   "tag": "div",
-  "lines": "234-246",
-  "tagLine": 234,
+  "lines": "238-250",
+  "tagLine": 238,
   "anchor": "blog-post__related-cell",
-  "anchorLine": 234
+  "anchorLine": 238
  },
  "purpose": "Related reading after an article: card row (blog) or text-link list (resource guides).",
  "retrievalEligible": true,
@@ -200,7 +200,7 @@
   }
  },
  "evidence": [
-  "src/pages/blog/BlogPost.jsx:234-246",
+  "src/pages/blog/BlogPost.jsx:238-250",
   "specs/blog-post.md:1-30",
   "specs/resources-guide.md:1-30"
  ]

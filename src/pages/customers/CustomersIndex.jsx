@@ -99,7 +99,10 @@ function StoryCarousel({ slides, tickMs }) {
   const active = slides[index]
   return (
     <section ref={rootRef} className="cu-band">
-      <img key={active.slug} className="cu-band__bg" src={active.backgroundVideo.poster} alt="" aria-hidden="true" role="presentation" />
+      {/* As on the original, the band background is a muted looping <video> (opacity .16). Only the Breville loop is
+          stored locally (backgroundVideo.src); the other slides show their recorded poster frame. */}
+      <video key={active.slug} className="cu-band__bg" src={active.backgroundVideo.src || undefined}
+        poster={active.backgroundVideo.poster} autoPlay loop muted playsInline preload="none" aria-hidden="true" tabIndex={-1} />
       <div className="cu-band__content">
         <div className="co-container cu-band__container">
           <div className="cu-band__tabs">

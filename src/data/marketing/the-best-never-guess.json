@@ -234,7 +234,8 @@
           "role": "h2",
           "text": {
             "placeholder": true,
-            "chars": 221
+            "chars": 221,
+            "lines": 8
           },
           "el": "e29458r7"
         },
@@ -528,8 +529,8 @@
           "el": "img"
         },
         {
-          "role": "link-card",
-          "text": null,
+          "role": "link",
+          "text": "Dovetail helps Canva turn millions of design moments into product decisions that shape how the world designs ↘",
           "href": "/customers/canva-ai/",
           "el": "e1xybz5410"
         },
@@ -660,8 +661,8 @@
           "el": "img"
         },
         {
-          "role": "link-card",
-          "text": null,
+          "role": "link",
+          "text": "Unlocking the AI edge for hiring the best talent with SmartRecruiters and Dovetail ↘",
           "href": "/customers/smartrecruiters/",
           "el": "e1xybz5410"
         }

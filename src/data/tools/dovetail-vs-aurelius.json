@@ -211,7 +211,8 @@
      "title": "Feedback arrives without filing",
      "text": {
       "placeholder": true,
-      "chars": 147
+      "chars": 147,
+      "lines": 4
      }
     },
     {
@@ -264,7 +265,8 @@
      "title": "Security reviews don’t stall procurement",
      "text": {
       "placeholder": true,
-      "chars": 180
+      "chars": 180,
+      "lines": 5
      }
     }
    ]
@@ -613,7 +615,8 @@
    "h2": "See what your feedback says without tagging it first",
    "p": {
     "placeholder": true,
-    "chars": 189
+    "chars": 189,
+    "lines": 3
    },
    "ctas": [
     {

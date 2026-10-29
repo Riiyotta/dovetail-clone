@@ -9,10 +9,10 @@
   "id": "component:RoleSections:ch__grid",
   "file": "src/pages/roles/RoleSections.jsx",
   "tag": "div",
-  "lines": "95-107",
-  "tagLine": 95,
+  "lines": "96-108",
+  "tagLine": 96,
   "anchor": "ch__grid",
-  "anchorLine": 95
+  "anchorLine": 96
  },
  "purpose": "Large statement text over a grid background describing the audience's challenge.",
  "retrievalEligible": true,
@@ -167,7 +167,7 @@
   }
  },
  "evidence": [
-  "src/pages/roles/RoleSections.jsx:95-107",
+  "src/pages/roles/RoleSections.jsx:96-108",
   "specs/roles.md:1-40"
  ]
 }

@@ -4,7 +4,7 @@ Machine-validated design system + PageSpec contract extracted from the clone pro
 marketing site of a real, live company (Dovetail). An AI can compose pages from real, measured sections without inventing colours,
 copy budgets or structure, in two explicit modes (`reference` reconstructs the clone; `generated` builds a page for someone else).
 
-Status: **design-review-pending**, not production-approved. Version 1.0.0 (PageSpec 1.0.0, allowlist 1.0.0).
+Status: **design-review-pending**, not production-approved. Version 1.1.0 (PageSpec 1.0.0, allowlist 1.0.0).
 
 ## Counts (recomputed from disk by the build; extraction/verify_all.py checks this block against registry.manifest.json)
 
@@ -141,7 +141,9 @@ To rebuild the clone itself use its lockfile: `npm ci && npm run dev` (port 5210
 
 ## Clone quality (R12)
 
-Measured against the live site at 1440x900 (extraction/parity.mjs, tolerance 24): 294 section viewports on 39 representative routes, average 92.3% matching pixels, 281 sections >= 80%; per-section gate (every section >= 80%) **NOT passed**. Long-form copy is placeholder, ASCII/marquee/canvas art is procedural and the live site's content moves, so low scores are expected and real. Per-route numbers: extraction/measured-values.json cloneQuality.pixelParity.
+Measured against the live site at 1440x900 (extraction/parity.mjs, tolerance 24), re-run 2026-10-29: 294 section viewports on 39 representative routes, average 94.13% matching pixels (was 92.3%), 289 sections >= 80% (was 281); per-section gate (every section >= 80%) **NOT passed**. 12 of the 13 sections that failed on 2026-10-26 now pass. 5 sections are below 80% because the live site's content changed after capture (a new blog post shifts the /blog/ and /resources/ card rows, /careers/ open positions grew, a new event on the event page); they are listed in cloneQuality.pixelParity.exceptions as **pending human approval**, not approved. Long-form copy is placeholder, ASCII/marquee/canvas art is procedural and the live site's content moves, so lower scores are expected and real. Harness: both pages are scrolled through, then wait for pending images (switched to eager) and fonts before capture; videos are paused and hidden on both. Per-route numbers: extraction/measured-values.json cloneQuality.pixelParity.
+
+Placeholder copy keeps the original's line count where it was measured: data fields `{placeholder, chars, lines}` reserve `lines` lines at >=1281px (src/index.css `[data-ph-lines]`), so placeholder wording no longer shortens sections relative to the live page.
 
 ## Structurally unusual (recorded, not normalised away)
 

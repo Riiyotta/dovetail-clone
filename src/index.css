@@ -55,3 +55,12 @@
   .mono-12 { font-family: "JetBrains Mono", "SF Mono", Consolas, Roboto, sans-serif; font-size: 12px; line-height: 12px; letter-spacing: 1px; text-transform: uppercase; }
   .mono-14 { font-family: "JetBrains Mono", "SF Mono", Consolas, Roboto, sans-serif; font-size: 14px; line-height: 20px; letter-spacing: 1px; text-transform: uppercase; }
 }
+
+/* Placeholder copy line budget. Data fields recorded as {"placeholder": true, "chars": N, "lines": L} carry the
+   number of lines the original block occupies at 1440 (measured on the live page). Placeholder words wrap
+   differently from the original wording, so at desktop widths the block reserves exactly L lines (min-height and a
+   line clamp) and the section keeps the original height. Below 1281px the text wraps naturally. */
+@media (min-width: 1281px) {
+  [data-ph-lines] { min-height: calc(var(--ph-lines) * 1lh); }
+  [data-ph-lines][data-ph-clamp] { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: var(--ph-lines); overflow: hidden; }
+}

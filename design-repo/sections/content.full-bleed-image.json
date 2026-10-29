@@ -9,10 +9,10 @@
   "id": "component:ComparisonSlices:cmp-hero-img",
   "file": "src/components/legal/ComparisonSlices.jsx",
   "tag": "img",
-  "lines": "32-44",
-  "tagLine": 32,
+  "lines": "33-45",
+  "tagLine": 33,
   "anchor": "cmp-hero-img",
-  "anchorLine": 32
+  "anchorLine": 33
  },
  "purpose": "Single wide product image directly under the hero.",
  "retrievalEligible": true,
@@ -149,7 +149,7 @@
   }
  },
  "evidence": [
-  "src/components/legal/ComparisonSlices.jsx:32-44",
+  "src/components/legal/ComparisonSlices.jsx:33-45",
   "specs/comparison.md:1-40"
  ]
 }

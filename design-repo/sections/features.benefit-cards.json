@@ -9,10 +9,10 @@
   "id": "component:RoleSections:hh__grid",
   "file": "src/pages/roles/RoleSections.jsx",
   "tag": "div",
-  "lines": "142-154",
-  "tagLine": 142,
+  "lines": "143-155",
+  "tagLine": 143,
   "anchor": "hh__grid",
-  "anchorLine": 142
+  "anchorLine": 143
  },
  "purpose": "Eyebrow + H56 heading and a grid of image cards with title and text.",
  "retrievalEligible": true,
@@ -167,7 +167,7 @@
   }
  },
  "evidence": [
-  "src/pages/roles/RoleSections.jsx:142-154",
+  "src/pages/roles/RoleSections.jsx:143-155",
   "specs/roles.md:1-40"
  ]
 }

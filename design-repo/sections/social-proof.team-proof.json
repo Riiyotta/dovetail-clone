@@ -9,10 +9,10 @@
   "id": "component:BestNeverGuessPage:bng-team",
   "file": "src/pages/campaigns/bng/BestNeverGuessPage.jsx",
   "tag": "section",
-  "lines": "237-249",
-  "tagLine": 237,
+  "lines": "238-250",
+  "tagLine": 238,
   "anchor": "bng-team",
-  "anchorLine": 237
+  "anchorLine": 238
  },
  "purpose": "'Trusted by the best' statement lines and stat callouts over decorative pixel art.",
  "retrievalEligible": true,
@@ -149,7 +149,7 @@
   }
  },
  "evidence": [
-  "src/pages/campaigns/bng/BestNeverGuessPage.jsx:237-249",
+  "src/pages/campaigns/bng/BestNeverGuessPage.jsx:238-250",
   "specs/best-never-guess.md:1-30",
   "specs/campaign-aws-summit.md:1-30"
  ]

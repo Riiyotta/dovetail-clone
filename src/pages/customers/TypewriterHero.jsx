@@ -38,11 +38,24 @@ export default function TypewriterHero({ hero }) {
   const tokens = tokenLists[state.index]
 
   // min-height: calc(100vh - header height); header = banner + nav above the hero.
+  // The header above can still change height after the first layout (banner/nav fonts and images settle), so the
+  // value is re-measured on resize, once fonts are ready and whenever the page above the hero resizes; a value
+  // taken only at mount left the hero 88px short at 1440x900.
   useLayoutEffect(() => {
     const el = rootRef.current
-    if (!el) return
-    const top = el.getBoundingClientRect().top + window.scrollY
-    el.style.minHeight = `calc(100vh - ${Math.round(top)}px)`
+    if (!el) return undefined
+    const update = () => {
+      const top = el.getBoundingClientRect().top + window.scrollY
+      el.style.minHeight = `calc(100vh - ${Math.round(top)}px)`
+    }
+    update()
+    window.addEventListener('resize', update)
+    window.addEventListener('load', update)
+    document.fonts?.ready?.then(update)
+    const ro = typeof ResizeObserver !== 'undefined' ? new ResizeObserver(update) : null
+    if (ro && el.parentElement) [...el.parentElement.children].filter((c) => c !== el).forEach((c) => ro.observe(c))
+    if (ro) ro.observe(document.body)
+    return () => { window.removeEventListener('resize', update); window.removeEventListener('load', update); ro?.disconnect() }
   }, [])
 
   // Preload the icon images on mount.

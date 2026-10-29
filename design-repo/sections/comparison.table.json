@@ -9,10 +9,10 @@
   "id": "component:ComparisonSlices:cmp-table",
   "file": "src/components/legal/ComparisonSlices.jsx",
   "tag": "div",
-  "lines": "124-136",
-  "tagLine": 124,
+  "lines": "125-137",
+  "tagLine": 125,
   "anchor": "cmp-table",
-  "anchorLine": 124
+  "anchorLine": 125
  },
  "purpose": "Two-column capability table (label, value per product) built from a div grid.",
  "retrievalEligible": true,
@@ -144,7 +144,7 @@
   }
  },
  "evidence": [
-  "src/components/legal/ComparisonSlices.jsx:124-136",
+  "src/components/legal/ComparisonSlices.jsx:125-137",
   "specs/comparison.md:1-40"
  ]
 }

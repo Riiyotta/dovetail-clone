@@ -1,6 +1,7 @@
 import data from '../../../data/marketing/the-best-never-guess.json'
 import { usePageChrome } from '../../../chrome.jsx'
 import { useBluePage, placeholder, InlineSvg } from '../shared.jsx'
+import { phLines } from '../../../components/marketing/placeholder.js'
 import { DESKTOP_DECOR, MOBILE_DECOR } from './svgs.js'
 import '../../../styles/campaigns/base.css'
 import '../../../styles/campaigns/bng.css'
@@ -117,7 +118,7 @@ function TextSlice() {
       <div className="bng-text__decor"><img src={decor.src} alt="" /></div>
       <div className="cmp-container">
         <div className="bng-text__box">
-          <h2 className="bng-text__h2">
+          <h2 className="bng-text__h2" {...phLines(h2.text, undefined, { clamp: false })}>
             {text.slice(0, cut)} [ <Rotator logos={logos} className="bng-rot5" rowClass="bng-rot5__row" />
             <span className="cmp-sr">{logos.slice(0, 5).map((l) => l.ariaLabel).join(', ')}</span> ]{text.slice(cut)}
           </h2>

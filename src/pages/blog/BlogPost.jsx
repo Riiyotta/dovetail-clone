@@ -4,7 +4,8 @@ import { usePageChrome } from '../../chrome.jsx'
 import FinalCta from '../../components/FinalCta.jsx'
 import BlogCard from './BlogCard.jsx'
 import { postByPath, posts, tagLine, titleFromSlug } from './data.js'
-import { DEFAULT_LEDE_CHARS, placeholderBody, placeholderLede } from './placeholderBody.js'
+import { DEFAULT_LEDE_CHARS, placeholderBody, placeholderBodyFromBlocks, placeholderLede } from './placeholderBody.js'
+import { phLines } from '../../components/marketing/placeholder.js'
 import '../../styles/blog/blog.css'
 import '../../styles/blog/blog-post.css'
 
@@ -92,8 +93,9 @@ function Hero({ hero, title }) {
 // Body media placeholders: in-body images/videos/embeds aren't recorded (content-assets.md), so they render
 // as neutral token-coloured blocks. Body videos reuse the post's own hero video when it has one so the
 // in-view play/pause behaviour is exercised.
-function MediaPlaceholder({ className = '' }) {
-  return <div className={`blog-rt__ph bg-surface-2 border border-border-subtle ${className}`} role="img" aria-label="Placeholder image" />
+function MediaPlaceholder({ className = '', aspect }) {
+  return <div className={`blog-rt__ph bg-surface-2 border border-border-subtle ${className}`} role="img" aria-label="Placeholder image"
+    style={aspect ? { aspectRatio: aspect } : undefined} />
 }
 
 function RichText({ nodes, heroVideo }) {
@@ -117,8 +119,8 @@ function RichText({ nodes, heroVideo }) {
     <div className="blog-rt" ref={ref}>
       {nodes.map((n, i) => {
         switch (n.type) {
-          case 'p': return <p key={i}>{n.text}</p>
-          case 'h2': return <h2 key={i}>{n.text}</h2>
+          case 'p': return <p key={i} {...phLines(n.lines)}>{n.text}</p>
+          case 'h2': return <h2 key={i} {...phLines(n.lines)}>{n.text}</h2>
           case 'h3': return <h3 key={i}>{n.text}</h3>
           case 'h4': return <h4 key={i}>{n.text}</h4>
           case 'ul': return <ul key={i}>{n.items.map((t, j) => <li key={j}>{t}</li>)}</ul>
@@ -152,7 +154,7 @@ function RichText({ nodes, heroVideo }) {
             return <div key={i} className="blog-rt__embed"><MediaPlaceholder className="blog-rt__embed-ph" /></div>
           case 'img':
           default:
-            return <MediaPlaceholder key={i} className="blog-rt__media" />
+            return <MediaPlaceholder key={i} className="blog-rt__media" aspect={n.aspect} />
         }
       })}
     </div>
@@ -176,7 +178,9 @@ export default function BlogPost() {
   const hero = post?.hero || null
   // ledeChars is null on 7 posts; the spec says only 1 post has no lede. Treated as "no lede" when null.
   const ledeChars = post ? post.ledeChars : DEFAULT_LEDE_CHARS
-  const nodes = useMemo(() => placeholderBody(slug, post?.bodyShape, post?.bodyOrder), [slug, post])
+  const nodes = useMemo(() => (post?.bodyBlocks
+    ? placeholderBodyFromBlocks(slug, post.bodyBlocks)
+    : placeholderBody(slug, post?.bodyShape, post?.bodyOrder)), [slug, post])
   const fallbackCards = posts.filter((p) => p.path !== path).slice(0, 3).map((p) => p.path)
   const sidebar = (post?.sidebarCards?.length ? post.sidebarCards : fallbackCards).map(postByPath).filter(Boolean)
   const related = (post ? post.relatedArticles || [] : fallbackCards).map(postByPath).filter(Boolean)

@@ -9,10 +9,10 @@
   "id": "component:ComparisonSlices:cmp-choose__h2",
   "file": "src/components/legal/ComparisonSlices.jsx",
   "tag": "h2",
-  "lines": "87-99",
-  "tagLine": 87,
+  "lines": "88-100",
+  "tagLine": 88,
   "anchor": "cmp-choose__h2",
-  "anchorLine": 87
+  "anchorLine": 88
  },
  "purpose": "H40 heading, paragraph, CTA row and a grid of three reason images with captions.",
  "retrievalEligible": true,
@@ -163,7 +163,7 @@
    "medianPx": 1225.6,
    "sample": {
     "/dovetail-vs-aurelius/": [
-     1235.6
+     1279.6
     ],
     "/dovetail-vs-chattermill/": [
      1215.6
@@ -181,7 +181,7 @@
   }
  },
  "evidence": [
-  "src/components/legal/ComparisonSlices.jsx:87-99",
+  "src/components/legal/ComparisonSlices.jsx:88-100",
   "specs/comparison.md:1-40"
  ]
 }

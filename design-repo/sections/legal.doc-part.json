@@ -9,10 +9,10 @@
   "id": "component:Prose:<div className={className}>",
   "file": "src/components/legal/Prose.jsx",
   "tag": "div",
-  "lines": "59-71",
-  "tagLine": 59,
+  "lines": "60-72",
+  "tagLine": 60,
   "anchor": "<div className={className}>",
-  "anchorLine": 59
+  "anchorLine": 60
  },
  "purpose": "One H2-bounded part of a legal document (numbered heading, clauses, lists, tables).",
  "retrievalEligible": true,
@@ -123,7 +123,7 @@
    "medianPx": 496,
    "sample": {
     "/legal/acceptable-use-policy/": [
-     1704
+     1900
     ],
     "/legal/accessibility-statement/": [
      836,
@@ -144,7 +144,7 @@
   }
  },
  "evidence": [
-  "src/components/legal/Prose.jsx:59-71",
+  "src/components/legal/Prose.jsx:60-72",
   "specs/legal-doc.md:1-30"
  ]
 }

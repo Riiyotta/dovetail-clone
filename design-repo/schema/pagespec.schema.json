@@ -1426,7 +1426,7 @@
        "text": {
         "type": "string",
         "minLength": 1,
-        "maxLength": 586
+        "maxLength": 665
        }
       }
      }
@@ -8358,7 +8358,7 @@
        "title": {
         "type": "string",
         "minLength": 1,
-        "maxLength": 79
+        "maxLength": 98
        },
        "href": {
         "$ref": "#/definitions/href"
@@ -8391,7 +8391,7 @@
     "items": {
      "type": "array",
      "minItems": 1,
-     "maxItems": 10,
+     "maxItems": 12,
      "items": {
       "type": "object",
       "additionalProperties": false,

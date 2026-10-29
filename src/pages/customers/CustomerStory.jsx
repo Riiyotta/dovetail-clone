@@ -173,7 +173,7 @@ function StoryBody({ story, seed }) {
                 </div>
               </>
             )}
-            <div className={`cs-block${prevHadQuote ? ' cs-block--after-quote' : ''}`}>
+            <div className={`cs-block cs-block--head${prevHadQuote ? ' cs-block--after-quote' : ''}`}>
               <div className="co-grid">
                 <div className="cs-sec-head">
                   <p className="cs-sec-h co-h56">{sec.heading}</p>

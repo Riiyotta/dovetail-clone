@@ -9,10 +9,10 @@
   "id": "component:RoleSections:qp",
   "file": "src/pages/roles/RoleSections.jsx",
   "tag": "section",
-  "lines": "426-438",
-  "tagLine": 426,
+  "lines": "427-439",
+  "tagLine": 427,
   "anchor": "qp",
-  "anchorLine": 426
+  "anchorLine": 427
  },
  "purpose": "Boxed eyebrow, H2 question, paragraph and a button into the role quiz.",
  "retrievalEligible": true,
@@ -141,7 +141,7 @@
   }
  },
  "evidence": [
-  "src/pages/roles/RoleSections.jsx:426-438",
+  "src/pages/roles/RoleSections.jsx:427-439",
   "specs/roles.md:1-40"
  ]
 }

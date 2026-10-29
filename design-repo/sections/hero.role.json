@@ -9,10 +9,10 @@
   "id": "component:RoleSections:rh",
   "file": "src/pages/roles/RoleSections.jsx",
   "tag": "div",
-  "lines": "62-74",
-  "tagLine": 62,
+  "lines": "63-75",
+  "tagLine": 63,
   "anchor": "rh",
-  "anchorLine": 62
+  "anchorLine": 63
  },
  "purpose": "Role page opener sliding under the nav: eyebrow, H1, lead, CTA row over a full-bleed photo with overlay and a customer-logo column.",
  "retrievalEligible": true,
@@ -147,7 +147,7 @@
   }
  },
  "evidence": [
-  "src/pages/roles/RoleSections.jsx:62-74",
+  "src/pages/roles/RoleSections.jsx:63-75",
   "specs/roles.md:1-40"
  ]
 }
