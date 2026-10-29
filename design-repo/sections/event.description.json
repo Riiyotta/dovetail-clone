@@ -163,26 +163,26 @@
  "runtimeUi": [],
  "measuredHeightsPx": {
   "1440": {
-   "routes": 47,
-   "nodes": 47,
-   "minPx": 374.3,
-   "maxPx": 2615.3,
-   "medianPx": 1263,
+   "routes": 48,
+   "nodes": 48,
+   "minPx": 379.3,
+   "maxPx": 2620.3,
+   "medianPx": 1269.2,
    "sample": {
     "/events/a-balancing-act-mastering-customer-feedback/": [
-     1354.3
+     1415.3
     ],
     "/events/a-chat-with-jon-alferness/": [
-     2542.3
+     2547.3
     ],
     "/events/ai-powered-ux-process-how-ai-is-transforming-the-design-process/": [
-     642.3
+     647.3
     ],
     "/events/channels-by-dovetail-a-deep-dive-into-automating-your-feedback-workflows/": [
      1422.3
     ],
     "/events/config-watch-party-sydney/": [
-     2266.8
+     2271.8
     ]
    }
   }

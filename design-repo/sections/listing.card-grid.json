@@ -203,23 +203,23 @@
    "routes": 7,
    "nodes": 7,
    "minPx": 505.8,
-   "maxPx": 4282,
-   "medianPx": 4245.6,
+   "maxPx": 4326,
+   "medianPx": 4261.6,
    "sample": {
     "/blog/": [
-     4245.6
+     4261.6
     ],
     "/blog/ai/": [
-     4282
+     4261.6
     ],
     "/blog/dovetail-team/": [
-     4170
+     4186
     ],
     "/blog/engineering/": [
-     1482.8
+     1488.8
     ],
     "/blog/ideas/": [
-     4254
+     4270
     ]
    }
   }

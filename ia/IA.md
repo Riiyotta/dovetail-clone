@@ -2,20 +2,20 @@
 
 Source: Dovetail clone (/Users/riyaghosh/V3/dovetail): src/routes.jsx, src/pages/**, src/components/**, src/chrome.jsx, src/data/routes.txt, CLONE_SPEC.md, specs/*.md
 Status: **measured-from-code-and-running-clone** · production approved: **false**
-1897 routes · 41 templates · 158 unique sections
+1899 routes · 41 templates · 158 unique sections
 
 > Generated from `ia.json` by `build.mjs`. Edit the JSON, not this file.
 
 ## Shape of the site
 
-The largest 3 templates (Guide article, Changelog entry, Blog post) account for 1677 of 1897 routes (88%). The remaining 220 routes span 38 templates.
+The largest 3 templates (Guide article, Changelog entry, Blog post) account for 1678 of 1899 routes (88%). The remaining 221 routes span 38 templates.
 
 | template | routes | share |
 |---|---:|---:|
 | Guide article | 1126 | 59% |
 | Changelog entry | 349 | 18% |
-| Blog post | 202 | 11% |
-| Event detail | 47 | 2% |
+| Blog post | 203 | 11% |
+| Event detail | 48 | 3% |
 | Customer story | 39 | 2% |
 | Contributor profile | 20 | 1% |
 | Legal document | 19 | 1% |
@@ -56,7 +56,7 @@ The largest 3 templates (Guide article, Changelog entry, Blog post) account for 
 
 ## Page chrome
 
-**614 routes carry chrome = `dark · final-cta`** — Home, Pricing, Enterprise, Blog index, Blog post, Changelog entry, Guides index, Demo form, Not found (404), Customers index, Events / webinars index, Event detail, Live demos.
+**616 routes carry chrome = `dark · final-cta`** — Home, Pricing, Enterprise, Blog index, Blog post, Changelog entry, Guides index, Demo form, Not found (404), Customers index, Events / webinars index, Event detail, Live demos.
 
 **46 routes carry chrome = `accent-nav · final-cta`** — Product page, Customer story.
 
@@ -87,22 +87,22 @@ component library or stays local to its page.
 
 | section | category | templates | routes | implementation | scope |
 |---|---|---:|---:|---|---|
-| `chrome.banner` | CHROME | 38 | 1894 | `components/Banner.jsx` | 1894 routes across home, product page, pricing, enterprise, enterprise article, deploy, solution page, role page, role quiz, menu, blog index, blog post, changelog index, changelog entry, guide article, guide hub, guides index, contributors index, contributor profile, demo form, comparison page, quiz hub, roi calculator, template landing, tools article, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos, resource centre, resources guide, industry report, careers, podcast. Hidden on the launch and campaign pages and on the Digital Twins product page (alert bar off in its data file). |
-| `chrome.navbar` | CHROME | 38 | 1894 | `components/Navbar.jsx` | 1894 routes across home, product page, pricing, enterprise, enterprise article, deploy, solution page, role page, role quiz, launch microsite, blog index, blog post, changelog index, changelog entry, guide article, guide hub, guides index, contributors index, contributor profile, demo form, comparison page, quiz hub, roi calculator, template landing, tools article, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos, resource centre, resources guide, industry report, careers, podcast. Not rendered on the menu route or the two blue campaign pages, which draw their own header. |
-| `chrome.footer` | CHROME | 38 | 1894 | `components/Footer.jsx` | 1894 routes across home, product page, pricing, enterprise, enterprise article, deploy, solution page, role page, role quiz, menu, blog index, blog post, changelog index, changelog entry, guide article, guide hub, guides index, contributors index, contributor profile, demo form, comparison page, quiz hub, roi calculator, template landing, tools article, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos, resource centre, resources guide, industry report, careers, podcast. Footer variants are recorded on each template as `chrome`. |
+| `chrome.banner` | CHROME | 38 | 1896 | `components/Banner.jsx` | 1896 routes across home, product page, pricing, enterprise, enterprise article, deploy, solution page, role page, role quiz, menu, blog index, blog post, changelog index, changelog entry, guide article, guide hub, guides index, contributors index, contributor profile, demo form, comparison page, quiz hub, roi calculator, template landing, tools article, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos, resource centre, resources guide, industry report, careers, podcast. Hidden on the launch and campaign pages and on the Digital Twins product page (alert bar off in its data file). |
+| `chrome.navbar` | CHROME | 38 | 1896 | `components/Navbar.jsx` | 1896 routes across home, product page, pricing, enterprise, enterprise article, deploy, solution page, role page, role quiz, launch microsite, blog index, blog post, changelog index, changelog entry, guide article, guide hub, guides index, contributors index, contributor profile, demo form, comparison page, quiz hub, roi calculator, template landing, tools article, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos, resource centre, resources guide, industry report, careers, podcast. Not rendered on the menu route or the two blue campaign pages, which draw their own header. |
+| `chrome.footer` | CHROME | 38 | 1896 | `components/Footer.jsx` | 1896 routes across home, product page, pricing, enterprise, enterprise article, deploy, solution page, role page, role quiz, menu, blog index, blog post, changelog index, changelog entry, guide article, guide hub, guides index, contributors index, contributor profile, demo form, comparison page, quiz hub, roi calculator, template landing, tools article, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos, resource centre, resources guide, industry report, careers, podcast. Footer variants are recorded on each template as `chrome`. |
 | `cta.feedback-cta` | CTA | 14 | 1164 | `components/InlineCta.jsx | pages/changelog/InlineCta.jsx | components/company/PageCta.jsx | components/tools/CtaFooter.jsx | pages/corporate/Deploy.jsx > CtaBand | pages/roles/QuizPage.jsx (inline result CTA)` | 1164 routes across enterprise article, deploy, role quiz, changelog index, guide article, guide hub, quiz hub, roi calculator, tools article, events / webinars index, resource centre, resources guide, industry report, podcast. One original slice with six separate implementations (enterprise articles reuse components/InlineCta.jsx). The changelog index renders two copies at once. |
 | `content.article-title` | CONTENT | 5 | 1146 | `pages/guides/components.jsx > Breadcrumb (in GuideArticle, EnterpriseArticle, ToolsArticle) | pages/company/ResourcesGuide.jsx > Breadcrumb` | 1146 routes across enterprise article, guide article, guide hub, tools article, resources guide. Shared by the article family; the resources guides re-implement the breadcrumb locally. |
 | `content.article-body` | CONTENT | 5 | 1146 | `pages/guides/components.jsx > MetaTable, ShareAi, TocList, RichText, TagCloud | pages/company/ResourcesGuide.jsx > Body, ShareGroups, Toc | components/legal/Prose.jsx (ToolsArticle)` | 1146 routes across enterprise article, guide article, guide hub, tools article, resources guide. Guide articles, enterprise articles and tools articles share the guides components; the resources guides have their own body, share and TOC copies. Hub pages show no promo or TOC. |
 | `overlay.contents-sheet` | OVERLAY | 5 | 1146 | `pages/guides/components.jsx > ContentsSheet | pages/company/ResourcesGuide.jsx > ContentsDrawer` | 1146 routes across enterprise article, guide article, guide hub, tools article, resources guide. The resources guides re-implement the sheet locally. |
 | `content.article-carousels` | CONTENT | 3 | 1139 | `pages/guides/components.jsx > TextCarousel` | 1139 routes across enterprise article, guide article, guide hub. |
-| `cta.final-cta` | CTA | 19 | 701 | `components/FinalCta.jsx` | 701 routes across home, product page, pricing, enterprise, blog index, blog post, changelog entry, guides index, contributors index, contributor profile, demo form, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos. Real reuse: one component, rendered by each page at the end of its main. |
+| `cta.final-cta` | CTA | 19 | 703 | `components/FinalCta.jsx` | 703 routes across home, product page, pricing, enterprise, blog index, blog post, changelog entry, guides index, contributors index, contributor profile, demo form, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos. Real reuse: one component, rendered by each page at the end of its main. |
 | `content.changelog-entry` | CONTENT | 1 | 349 | `pages/changelog/ChangelogEntry.jsx` | 349 routes, changelog entry only. |
-| `hero.blog-post` | HERO | 1 | 202 | `pages/blog/BlogPost.jsx (first section.blog-grid)` | 202 routes, blog post only. |
-| `content.blog-post-body` | CONTENT | 1 | 202 | `pages/blog/BlogPost.jsx (second section.blog-grid)` | 202 routes, blog post only. |
-| `help.faq` | HELP | 11 | 126 | `components/marketing/FaqSlice.jsx | components/company/Faq.jsx | components/tools/Faq.jsx | components/legal/Faq.jsx` | 126 routes across product page, pricing, deploy, solution page, role page, comparison page, template landing, customer story, event detail, careers, podcast. One original slice, four implementations. |
+| `hero.blog-post` | HERO | 1 | 203 | `pages/blog/BlogPost.jsx (first section.blog-grid)` | 203 routes, blog post only. |
+| `content.blog-post-body` | CONTENT | 1 | 203 | `pages/blog/BlogPost.jsx (second section.blog-grid)` | 203 routes, blog post only. |
+| `help.faq` | HELP | 11 | 127 | `components/marketing/FaqSlice.jsx | components/company/Faq.jsx | components/tools/Faq.jsx | components/legal/Faq.jsx` | 127 routes across product page, pricing, deploy, solution page, role page, comparison page, template landing, customer story, event detail, careers, podcast. One original slice, four implementations. |
 | `decor.pixel-band` | DECOR | 5 | 49 | `components/marketing/PixelTransitionSlice.jsx (components/company/PixelBand.jsx is a thin wrapper)` | 49 routes across product page, enterprise, aws summit campaign, customers index, customer story. Real reuse: the company PixelBand delegates to the marketing slice rather than copying it. |
-| `content.event-detail` | CONTENT | 1 | 47 | `pages/events/EventDetail.jsx (RichBody.jsx, RegistrationForm.jsx, components/company/VideoCard.jsx)` | 47 routes, event detail only. |
-| `listing.more-events` | LISTING | 1 | 47 | `pages/events/EventDetail.jsx (components/company/EventCard.jsx)` | 47 routes, event detail only. |
+| `content.event-detail` | CONTENT | 1 | 48 | `pages/events/EventDetail.jsx (RichBody.jsx, RegistrationForm.jsx, components/company/VideoCard.jsx)` | 48 routes, event detail only. |
+| `listing.more-events` | LISTING | 1 | 48 | `pages/events/EventDetail.jsx (components/company/EventCard.jsx)` | 48 routes, event detail only. |
 | `hero.customer-story` | HERO | 1 | 39 | `pages/customers/CustomerStory.jsx > StoryHero` | 39 routes, customer story only. |
 | `content.customer-story-body` | CONTENT | 1 | 39 | `pages/customers/CustomerStory.jsx > StoryBody (components/company/RichText.jsx)` | 39 routes, customer story only. |
 | `cta.story-best-never-guess` | CTA | 1 | 39 | `components/company/BestNeverGuess.jsx (StoryCard.jsx, Carousel.jsx)` | 39 routes, customer story only. |
@@ -498,7 +498,7 @@ until a second caller actually appears.
 
 ### Blog post — `template.blog-post`
 
-202 routes · `/blog/{slug}/` · chrome: **dark · final-cta**
+203 routes · `/blog/{slug}/` · chrome: **dark · final-cta**
 
 | # | category | section | |
 |---:|---|---|---|
@@ -791,7 +791,7 @@ until a second caller actually appears.
 
 ### Event detail — `template.event-detail`
 
-47 routes · `/events/{slug}/` · chrome: **dark · final-cta**
+48 routes · `/events/{slug}/` · chrome: **dark · final-cta**
 
 | # | category | section | |
 |---:|---|---|---|
@@ -902,15 +902,15 @@ _Site chrome: the banner, navbars and footers, whether App.jsx renders them or a
 
 **`chrome.banner`** — One-line announcement strip above the nav ("Ask. Never guess. Introducing Digital Twins →"). Not sticky. Palette follows the page: default dark, light veil on light pages, `accent` tint over the product/story colour, `legal` palette on legal pages.
 
-· 1894 routes across home, product page, pricing, enterprise, enterprise article, deploy, solution page, role page, role quiz, menu, blog index, blog post, changelog index, changelog entry, guide article, guide hub, guides index, contributors index, contributor profile, demo form, comparison page, quiz hub, roi calculator, template landing, tools article, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos, resource centre, resources guide, industry report, careers, podcast. Hidden on the launch and campaign pages and on the Digital Twins product page (alert bar off in its data file). · appears on 1894 routes · implemented by `components/Banner.jsx`
+· 1896 routes across home, product page, pricing, enterprise, enterprise article, deploy, solution page, role page, role quiz, menu, blog index, blog post, changelog index, changelog entry, guide article, guide hub, guides index, contributors index, contributor profile, demo form, comparison page, quiz hub, roi calculator, template landing, tools article, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos, resource centre, resources guide, industry report, careers, podcast. Hidden on the launch and campaign pages and on the Digital Twins product page (alert bar off in its data file). · appears on 1896 routes · implemented by `components/Banner.jsx`
 
 **`chrome.navbar`** — Main site navigation: logo, Product/Platform/Resources dropdowns, Log in and Book a demo, and the ≤1185px "Menu" pill that links to /menu/. Relative, not sticky. Variants via chrome: light ink, solid `navBg` colour (product accent, story blue), `navButtons:false` on legal docs.
 
-· 1894 routes across home, product page, pricing, enterprise, enterprise article, deploy, solution page, role page, role quiz, launch microsite, blog index, blog post, changelog index, changelog entry, guide article, guide hub, guides index, contributors index, contributor profile, demo form, comparison page, quiz hub, roi calculator, template landing, tools article, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos, resource centre, resources guide, industry report, careers, podcast. Not rendered on the menu route or the two blue campaign pages, which draw their own header. · appears on 1894 routes · implemented by `components/Navbar.jsx`
+· 1896 routes across home, product page, pricing, enterprise, enterprise article, deploy, solution page, role page, role quiz, launch microsite, blog index, blog post, changelog index, changelog entry, guide article, guide hub, guides index, contributors index, contributor profile, demo form, comparison page, quiz hub, roi calculator, template landing, tools article, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos, resource centre, resources guide, industry report, careers, podcast. Not rendered on the menu route or the two blue campaign pages, which draw their own header. · appears on 1896 routes · implemented by `components/Navbar.jsx`
 
 **`chrome.footer`** — Site footer: six link columns with new/beta badges, the Log in / Book a demo stack (≤1280), and the bottom bar (copyright, cookie preferences, Legal & Privacy, socials). Dark or light by page theme.
 
-· 1894 routes across home, product page, pricing, enterprise, enterprise article, deploy, solution page, role page, role quiz, menu, blog index, blog post, changelog index, changelog entry, guide article, guide hub, guides index, contributors index, contributor profile, demo form, comparison page, quiz hub, roi calculator, template landing, tools article, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos, resource centre, resources guide, industry report, careers, podcast. Footer variants are recorded on each template as `chrome`. · appears on 1894 routes · implemented by `components/Footer.jsx`
+· 1896 routes across home, product page, pricing, enterprise, enterprise article, deploy, solution page, role page, role quiz, menu, blog index, blog post, changelog index, changelog entry, guide article, guide hub, guides index, contributors index, contributor profile, demo form, comparison page, quiz hub, roi calculator, template landing, tools article, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos, resource centre, resources guide, industry report, careers, podcast. Footer variants are recorded on each template as `chrome`. · appears on 1896 routes · implemented by `components/Footer.jsx`
 
 **`chrome.footer-cta-band`** — The 560px image band (footer-bg.webp) that sits directly above the footer link grid: centred H64 heading and Book a demo + secondary button. The original renders it as the first child of <footer>.
 
@@ -970,7 +970,7 @@ _The page-opening block that holds the H1._
 
 **`hero.blog-post`** — Blog post header: Blog breadcrumb, H1, meta table (date, author, read time), share buttons and the hero image or video.
 
-· 202 routes, blog post only. · appears on 202 routes · implemented by `pages/blog/BlogPost.jsx (first section.blog-grid)`
+· 203 routes, blog post only. · appears on 203 routes · implemented by `pages/blog/BlogPost.jsx (first section.blog-grid)`
 
 **`hero.changelog-index`** — Changelog header pulled under the nav: H1 "Changelog", category pill nav (All plus six categories, active pill per route) and the client-side year dropdown.
 
@@ -1278,7 +1278,7 @@ _Long-form reading and editorial blocks: article titles and bodies, rich text, s
 
 **`content.blog-post-body`** — Blog post body: lede paragraph, rich text, sticky sidebar post cards and the Related Articles grid.
 
-· 202 routes, blog post only. · appears on 202 routes · implemented by `pages/blog/BlogPost.jsx (second section.blog-grid)`
+· 203 routes, blog post only. · appears on 203 routes · implemented by `pages/blog/BlogPost.jsx (second section.blog-grid)`
 
 **`content.changelog-entry`** — Changelog entry cell: Back link, date and time, H1, hero image, rich text, docs CTA and share, then Previous / Next entry links.
 
@@ -1298,7 +1298,7 @@ _Long-form reading and editorial blocks: article titles and bodies, rich text, s
 
 **`content.event-detail`** — Event detail grid: back link and H1, sidebar of detail rows (start / end in the viewer's timezone, location, register link), hero image or recording video, rich body and, on some events, a registration form.
 
-· 47 routes, event detail only. · appears on 47 routes · implemented by `pages/events/EventDetail.jsx (RichBody.jsx, RegistrationForm.jsx, components/company/VideoCard.jsx)`
+· 48 routes, event detail only. · appears on 48 routes · implemented by `pages/events/EventDetail.jsx (RichBody.jsx, RegistrationForm.jsx, components/company/VideoCard.jsx)`
 
 **`content.legal-title`** — Legal document title block: breadcrumb and H1.
 
@@ -1386,7 +1386,7 @@ _Indexes and collections: card grids, row lists, filter pills, A-Z lists and dir
 
 **`listing.more-events`** — "More events" heading and event cards under an event; omitted when there are none.
 
-· 47 routes, event detail only. · appears on 47 routes · implemented by `pages/events/EventDetail.jsx (components/company/EventCard.jsx)`
+· 48 routes, event detail only. · appears on 48 routes · implemented by `pages/events/EventDetail.jsx (components/company/EventCard.jsx)`
 
 **`listing.demo-video-grid`** — Live demos video card grid, ending in a "footer prompt" heading and link.
 
@@ -1462,7 +1462,7 @@ _Closing call-to-action bands that end a page._
 
 **`cta.final-cta`** — "The best never guess" final CTA: 900px ASCII-field canvas with the word block, Start free trial and Book a demo. Dark, or light on light pages.
 
-· 701 routes across home, product page, pricing, enterprise, blog index, blog post, changelog entry, guides index, contributors index, contributor profile, demo form, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos. Real reuse: one component, rendered by each page at the end of its main. · appears on 701 routes · implemented by `components/FinalCta.jsx`
+· 703 routes across home, product page, pricing, enterprise, blog index, blog post, changelog entry, guides index, contributors index, contributor profile, demo form, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos. Real reuse: one component, rendered by each page at the end of its main. · appears on 703 routes · implemented by `components/FinalCta.jsx`
 
 **`cta.feedback-cta`** — "Turn customer feedback into product innovation" CTA footer slice: spacer, H64 heading (per-page override on the podcast and deploy pages) and Contact sales / Try Dovetail free (one button on the report page).
 
@@ -1478,7 +1478,7 @@ _FAQ and Q&A accordions._
 
 **`help.faq`** — FAQ accordion: "FAQs" H56 left (compact H32 variant for grouped event Q&A), questions with a rule and expand icon right.
 
-· 126 routes across product page, pricing, deploy, solution page, role page, comparison page, template landing, customer story, event detail, careers, podcast. One original slice, four implementations. · appears on 126 routes · implemented by `components/marketing/FaqSlice.jsx | components/company/Faq.jsx | components/tools/Faq.jsx | components/legal/Faq.jsx`
+· 127 routes across product page, pricing, deploy, solution page, role page, comparison page, template landing, customer story, event detail, careers, podcast. One original slice, four implementations. · appears on 127 routes · implemented by `components/marketing/FaqSlice.jsx | components/company/Faq.jsx | components/tools/Faq.jsx | components/legal/Faq.jsx`
 
 ### TOOL
 

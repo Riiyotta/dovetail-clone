@@ -7,6 +7,20 @@
  },
  "upcoming": [
   {
+   "title": "How SmartRecruiters grounds every design decision in a customer context layer",
+   "href": "/events/how-smartrecruiters-grounds-design-decisions-in-customer-context/",
+   "image": {
+    "src": "https://dovetail.com/media/how-smartrecruiters-grounds-design-decisions-in-customer-context.png",
+    "alt": "",
+    "w": 1920,
+    "h": 1080
+   },
+   "when": "17 Nov 2026",
+   "where": "Zoom",
+   "startDate": "2026-11-17T09:00-08:00",
+   "endDate": "2026-11-17T09:40-08:00"
+  },
+  {
    "title": "How CS turns customer conversations into roadmap decisions",
    "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
    "image": {
@@ -145,7 +159,7 @@
   }
  ],
  "filterRule": "onlineEvent=true only",
- "snapshotDate": "2026-10-26",
+ "snapshotDate": "2026-10-29",
  "cta": {
   "heading": "Turn customer feedback into product innovation",
   "buttons": [

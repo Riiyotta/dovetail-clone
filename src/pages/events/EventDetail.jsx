@@ -103,6 +103,8 @@ export default function EventDetail() {
         {/* §4 More events (omitted when there are none, e.g. on the upcoming event itself) */}
         {more.length > 0 && (
           <>
+            {/* On the original the More-events block is the next row of the detail grid: its row-gap (32px, 24px <=1280) precedes the spacer. */}
+            <div className="ev-more-gap" aria-hidden="true" />
             <Spacer size="s200" />
             <section className="co-container">
               <p className="co-h48 ev-heading">More events</p>

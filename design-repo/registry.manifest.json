@@ -1,6 +1,6 @@
 {
   "repositoryId": "dovetail-clone.design-repo",
-  "repositoryVersion": "1.1.0",
+  "repositoryVersion": "1.2.0",
   "pageSpecVersion": "1.0.0",
   "allowlistVersion": "1.0.0",
   "versionFieldNote": "allowlistVersion is machine-checked (extraction/verify_all.py fails unless it equals tokens/llm/component-allowlist.json version); pageSpecVersion is machine-checked against the schema's const. repositoryVersion is documentation-only and hand-maintained.",
@@ -24,7 +24,7 @@
     "campaign"
   ],
   "scope": {
-    "note": "all 1,897 served routes (1,896 in src/data/routes.txt + /menu/) map to 38 templates; T38 is the 404 fallback for unmatched paths only.",
+    "note": "all 1,899 served routes (1,898 in src/data/routes.txt + /menu/) map to 38 templates; T38 is the 404 fallback for unmatched paths only.",
     "chromeModel": "banner (default|light|legal|accent|none), nav (default|light|legal|accent|none), footer (default|light|cta-band|none) and theme (dark|light|campaign) are PageSpec.chrome / shell-section variants, never separate templates."
   },
   "counts": {
@@ -40,8 +40,8 @@
     "sectionsRetrievalIneligible": 9,
     "templates": 39,
     "templateFamilies": 16,
-    "routes": 1897,
-    "routesMapped": 1897,
+    "routes": 1899,
+    "routesMapped": 1899,
     "assetRoles": 33,
     "assetRolesGenerationSafe": 14,
     "graphRules": 15,
@@ -49,7 +49,7 @@
     "referenceExamples": 75,
     "generatedExamples": 39,
     "themes": 3,
-    "measuredRoutes1440": 1898,
+    "measuredRoutes1440": 1900,
     "wrapperWhitelistEntries": 12
   },
   "entryPoints": {

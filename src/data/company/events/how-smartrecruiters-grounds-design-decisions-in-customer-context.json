@@ -1,0 +1,175 @@
+{
+ "slug": "how-smartrecruiters-grounds-design-decisions-in-customer-context",
+ "path": "/events/how-smartrecruiters-grounds-design-decisions-in-customer-context/",
+ "title": "How SmartRecruiters grounds every design decision in a customer context layer",
+ "backLink": {
+  "label": "Back",
+  "href": "/events/"
+ },
+ "startDate": "2026-11-17T09:00-08:00",
+ "endDate": "2026-11-17T09:40-08:00",
+ "onlineEvent": true,
+ "location": "Zoom",
+ "hosts": [
+  "Sascha Kerbert",
+  "Danielle Reid"
+ ],
+ "registrationUrl": null,
+ "zoomWebinarId": null,
+ "youtubeId": null,
+ "sidebar": [
+  {
+   "label": "[WHO]",
+   "value": "Sascha Kerbert, Danielle Reid"
+  },
+  {
+   "label": "[START]",
+   "value": "17 Nov 2026 9:00AM PST"
+  },
+  {
+   "label": "[END]",
+   "value": "17 Nov 2026 9:40AM PST"
+  },
+  {
+   "label": "[WHERE]",
+   "value": "Zoom"
+  }
+ ],
+ "sidebarNote": "values captured with timezone America/Los_Angeles; re-format START/END in the viewer's timezone (see company-shared S14)",
+ "captureNote": "added 2026-10-29 from the live page (re-capture after the live site published this event); the cover is hot-linked from the live media host (no local copy downloaded); the live registration is a Zoom webinar registration link (not a numeric webinar id), so zoomWebinarId stays null",
+ "hero": {
+  "type": "image",
+  "image": "https://dovetail.com/media/how-smartrecruiters-grounds-design-decisions-in-customer-context.png",
+  "width": 1920,
+  "height": 1080,
+  "youtubeId": null
+ },
+ "body": [
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 344
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 299
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 117
+  },
+  {
+   "t": "h2",
+   "text": "What you’ll hear"
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "placeholder": true,
+     "chars": 126,
+     "strong": [
+      "From repository to context layer:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 108,
+     "strong": [
+      "Evidence before design:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 98,
+     "strong": [
+      "Pressure-testing a direction:"
+     ]
+    },
+    {
+     "placeholder": true,
+     "chars": 91,
+     "strong": [
+      "Advice for your rollout:"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "Who it’s for"
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 111
+  },
+  {
+   "t": "p",
+   "placeholder": true,
+   "chars": 95
+  }
+ ],
+ "moreEvents": [
+  {
+   "title": "How CS turns customer conversations into roadmap decisions",
+   "meta": [
+    "[When] 19 Nov 2026",
+    "[Where] Online"
+   ],
+   "href": "/events/how-cs-turns-customer-conversations-into-roadmap-decisions/",
+   "image": "/assets/company/media/how-cs-turns-customer-conversations-into-roadmap-decisions.png"
+  }
+ ],
+ "form": {
+  "heading": "Register to attend",
+  "fields": [
+   {
+    "label": "First name",
+    "type": "text",
+    "name": "firstName",
+    "placeholder": "Jane",
+    "required": true
+   },
+   {
+    "label": "Last name",
+    "type": "text",
+    "name": "lastName",
+    "placeholder": "Doe",
+    "required": true
+   },
+   {
+    "label": "Work email",
+    "type": "email",
+    "name": "email",
+    "placeholder": "pete@spotify.com",
+    "required": true
+   },
+   {
+    "label": "Company",
+    "type": "text",
+    "name": "company",
+    "placeholder": "Acme Corp",
+    "required": true
+   },
+   {
+    "label": "Job title",
+    "type": "text",
+    "name": "jobTitle",
+    "placeholder": "Product manager",
+    "required": true
+   },
+   {
+    "label": "Questions & comments",
+    "type": "textarea",
+    "name": null,
+    "placeholder": null,
+    "required": false
+   }
+  ],
+  "submit": "Register",
+  "note": "Static, non-submitting in the rebuild. Validation messages: 'This field is required.', 'Please enter a valid email address.', 'Please use your work email'. Success: 'You're registered! Check your email for the calendar invite and join link.'"
+ }
+}

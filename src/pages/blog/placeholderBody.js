@@ -127,7 +127,8 @@ export function placeholderBody(slug, shape, order) {
 }
 
 // Posts with a measured `bodyBlocks` list (block order, paragraph chars/lines, image aspect ratios recorded from the
-// live post at 1440) get exactly that structure; the words are still original filler. `lines` is passed through
+// live post at 1440; figures carry the image aspect and caption length, blockquotes chars/lines) get exactly that
+// structure; the words are still original filler. `lines` is passed through
 // so the renderer can reserve the original line count at desktop widths.
 export function placeholderBodyFromBlocks(slug, blocks) {
   const rand = rng(hash(slug))
@@ -136,6 +137,8 @@ export function placeholderBodyFromBlocks(slug, blocks) {
     if (b.t === 'p') return { type: 'p', text: filler(rand, b.chars || 200), lines: b.lines }
     if (b.t === 'h2' || b.t === 'h3') return { type: b.t, text: H2[h2++ % H2.length], lines: b.lines }
     if (b.t === 'img') return { type: 'img', aspect: b.aspect }
+    if (b.t === 'figure') return { type: 'figure', aspect: b.aspect, caption: filler(rand, b.captionChars || 80), captionLines: b.captionLines }
+    if (b.t === 'blockquote') return { type: 'blockquote', text: filler(rand, b.chars || 160), lines: b.lines }
     return { type: b.t } // iframe, hr
   })
 }

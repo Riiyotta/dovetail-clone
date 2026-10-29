@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import { copy } from '../../components/company/text.js'
+import { phLines } from '../../components/marketing/placeholder.js'
 import '../../styles/company/components.css'
 import '../../styles/events/events.css'
 
@@ -9,7 +10,8 @@ import '../../styles/events/events.css'
 // <RichText> because event data marks up strong lead-ins and links *inside* verbatim text (e.g. "Date: …",
 // speaker LinkedIn links, "hr" blocks), which RichText renders as plain text / drops.
 // Blocks come from src/data/company/events/{slug}.json → body[]:
-//   { t: 'p'|'h1'..'h5'|'hr'|'ul', text?, placeholder?, chars?, strong?: [..], links?: [{text, href}], items?: [...] }
+//   { t: 'p'|'h1'..'h5'|'hr'|'ul', text?, placeholder?, chars?, lines?, strong?: [..], links?: [{text, href}], items?: [...] }
+//   (`lines` on a placeholder p / list item = the original's line count at 1440, reserved at desktop widths; see phLines)
 // Verbatim `text` is used as-is (strong lead-ins and link texts are marked up inside it).
 // Placeholder blocks get neutral filler of about `chars` characters around the verbatim strong/link texts.
 
@@ -86,9 +88,9 @@ export default function RichBody({ blocks = [], seed = 0 }) {
           case 'h5': return <h5 key={i}>{inline(b, s)}</h5>
           case 'h6': return <h6 key={i}>{inline(b, s)}</h6>
           case 'hr': return <hr key={i} />
-          case 'ul': return <ul key={i}>{(b.items || []).map((it, j) => <li key={j}>{inline(it, s + j)}</li>)}</ul>
-          case 'ol': return <ol key={i}>{(b.items || []).map((it, j) => <li key={j}>{inline(it, s + j)}</li>)}</ol>
-          default: return <p key={i}>{inline(b, s)}</p>
+          case 'ul': return <ul key={i}>{(b.items || []).map((it, j) => <li key={j} {...phLines(it)}>{inline(it, s + j)}</li>)}</ul>
+          case 'ol': return <ol key={i}>{(b.items || []).map((it, j) => <li key={j} {...phLines(it)}>{inline(it, s + j)}</li>)}</ol>
+          default: return <p key={i} {...phLines(b)}>{inline(b, s)}</p>
         }
       })}
     </div>

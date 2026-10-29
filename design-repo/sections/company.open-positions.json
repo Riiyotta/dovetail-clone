@@ -122,12 +122,12 @@
   "1440": {
    "routes": 1,
    "nodes": 1,
-   "minPx": 1201,
-   "maxPx": 1201,
-   "medianPx": 1201,
+   "minPx": 1278,
+   "maxPx": 1278,
+   "medianPx": 1278,
    "sample": {
     "/careers/": [
-     1201
+     1278
     ]
    }
   }

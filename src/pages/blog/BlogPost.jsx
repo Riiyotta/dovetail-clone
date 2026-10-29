@@ -125,13 +125,13 @@ function RichText({ nodes, heroVideo }) {
           case 'h4': return <h4 key={i}>{n.text}</h4>
           case 'ul': return <ul key={i}>{n.items.map((t, j) => <li key={j}>{t}</li>)}</ul>
           case 'ol': return <ol key={i}>{n.items.map((t, j) => <li key={j}>{t}</li>)}</ol>
-          case 'blockquote': return <blockquote key={i}><p>{n.text}</p></blockquote>
+          case 'blockquote': return <blockquote key={i}><p {...phLines(n.lines)}>{n.text}</p></blockquote>
           case 'hr': return <hr key={i} />
           case 'figure':
             return (
               <figure key={i} className="blog-rt__figure">
-                <MediaPlaceholder />
-                <figcaption>{n.caption}</figcaption>
+                <MediaPlaceholder aspect={n.aspect} />
+                <figcaption {...phLines(n.captionLines)}>{n.caption}</figcaption>
               </figure>
             )
           case 'table':

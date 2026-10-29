@@ -199,23 +199,23 @@
  "runtimeUi": [],
  "measuredHeightsPx": {
   "1440": {
-   "routes": 1697,
-   "nodes": 1697,
+   "routes": 1698,
+   "nodes": 1698,
    "minPx": 406,
    "maxPx": 1742.4,
-   "medianPx": 482,
+   "medianPx": 482.0,
    "sample": {
     "/blog/2025-fall-launch/": [
      695.4
     ],
     "/blog/30-days-in/": [
-     867.3
+     872.3
     ],
     "/blog/60-days-in/": [
-     899
+     904
     ],
     "/blog/9-digital-twins-you-can-build-today/": [
-     691.3
+     696.3
     ],
     "/blog/a-conversation-with-trellos-head-of-design/": [
      695.4

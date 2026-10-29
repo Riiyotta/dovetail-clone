@@ -5,6 +5,8 @@
 .ev-text-secondary { color: #A7A7A7; }
 .ev-sp-160-fixed { width: 100%; height: 160px; flex-shrink: 0; }  /* S160-fixed (event-detail §1) */
 .ev-sp-24 { width: 100%; height: 24px; flex-shrink: 0; }          /* S24 (S13 heading → form) */
+.ev-more-gap { width: 100%; height: 32px; flex-shrink: 0; }     /* detail-grid row-gap above More events (measured on the original) */
+@media (max-width: 1280px) { .ev-more-gap { height: 24px; } }
 .ev-heading { color: #FFFFFF; }
 
 /* ======================================================================
@@ -47,7 +49,8 @@
 .ev-register-link:hover, .ev-register-link:focus-visible { color: #A7A7A7; }
 
 .ev-content { grid-column: 6 / span 6; min-width: 0; }
-.ev-hero-img { display: block; width: 100%; height: auto; border-radius: 8px; }
+/* inline like the original: the line box adds the same ~5px below the image */
+.ev-hero-img { display: inline; vertical-align: baseline; width: 100%; height: auto; border-radius: 8px; }
 @media (max-width: 1280px) {
   .ev-sidebar, .ev-content { grid-column: 1 / -1; }
 }

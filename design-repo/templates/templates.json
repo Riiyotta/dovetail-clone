@@ -2193,7 +2193,7 @@
    },
    "heroless": true,
    "routePattern": "/blog/<slug>/",
-   "routeCount": 202,
+   "routeCount": 203,
    "representativeRoute": "/blog/2025-fall-launch/",
    "nodes": [
     {
@@ -3624,7 +3624,7 @@
    },
    "heroless": true,
    "routePattern": "/events/<slug>/",
-   "routeCount": 47,
+   "routeCount": 48,
    "representativeRoute": "/events/a-balancing-act-mastering-customer-feedback/",
    "nodes": [
     {
@@ -4652,7 +4652,7 @@
     }
    ],
    "evidence": "specs/not-found.md:1-30",
-   "note": "fallback only: rendered for any path no route table matches; no listed route maps here (every one of the 1,897 served routes renders a real template)."
+   "note": "fallback only: rendered for any path no route table matches; no listed route maps here (every one of the 1,899 served routes renders a real template)."
   }
  }
 }

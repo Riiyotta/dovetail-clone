@@ -4,7 +4,7 @@ Machine-validated design system + PageSpec contract extracted from the clone pro
 marketing site of a real, live company (Dovetail). An AI can compose pages from real, measured sections without inventing colours,
 copy budgets or structure, in two explicit modes (`reference` reconstructs the clone; `generated` builds a page for someone else).
 
-Status: **design-review-pending**, not production-approved. Version 1.1.0 (PageSpec 1.0.0, allowlist 1.0.0).
+Status: **design-review-pending**, not production-approved. Version 1.2.0 (PageSpec 1.0.0, allowlist 1.0.0).
 
 ## Counts (recomputed from disk by the build; extraction/verify_all.py checks this block against registry.manifest.json)
 
@@ -23,8 +23,8 @@ Status: **design-review-pending**, not production-approved. Version 1.1.0 (PageS
  "sectionsRetrievalIneligible": 9,
  "templates": 39,
  "templateFamilies": 16,
- "routes": 1897,
- "routesMapped": 1897,
+ "routes": 1899,
+ "routesMapped": 1899,
  "assetRoles": 33,
  "assetRolesGenerationSafe": 14,
  "graphRules": 15,
@@ -32,7 +32,7 @@ Status: **design-review-pending**, not production-approved. Version 1.1.0 (PageS
  "referenceExamples": 75,
  "generatedExamples": 39,
  "themes": 3,
- "measuredRoutes1440": 1898,
+ "measuredRoutes1440": 1900,
  "wrapperWhitelistEntries": 12
 }
 ```
@@ -141,7 +141,7 @@ To rebuild the clone itself use its lockfile: `npm ci && npm run dev` (port 5210
 
 ## Clone quality (R12)
 
-Measured against the live site at 1440x900 (extraction/parity.mjs, tolerance 24), re-run 2026-10-29: 294 section viewports on 39 representative routes, average 94.13% matching pixels (was 92.3%), 289 sections >= 80% (was 281); per-section gate (every section >= 80%) **NOT passed**. 12 of the 13 sections that failed on 2026-10-26 now pass. 5 sections are below 80% because the live site's content changed after capture (a new blog post shifts the /blog/ and /resources/ card rows, /careers/ open positions grew, a new event on the event page); they are listed in cloneQuality.pixelParity.exceptions as **pending human approval**, not approved. Long-form copy is placeholder, ASCII/marquee/canvas art is procedural and the live site's content moves, so lower scores are expected and real. Harness: both pages are scrolled through, then wait for pending images (switched to eager) and fonts before capture; videos are paused and hidden on both. Per-route numbers: extraction/measured-values.json cloneQuality.pixelParity.
+Measured against the live site at 1440x900 (extraction/parity.mjs, tolerance 24), full re-run 2026-10-29 after the 1.2.0 live-drift re-capture: 294 section viewports on 39 representative routes, average 94.62% matching pixels (1.1.0 run: 94.13%), **294 of 294 sections >= 80%; per-section gate passed** (lowest: /customers/ 81.58, /changelog/15-small-improvements/ 81.65, /legal/ 82.27). The 5 exceptions of the 1.1.0 run were live content added after capture (a new featured blog post, a new open position, a new upcoming event); the clone's data was re-captured from the live pages and all 5 now pass (before -> after in cloneQuality.pixelParity.revision20261029b); no exceptions remain. The live site keeps changing, so a later run can drop again for the same reason, and live animation makes single sections vary between runs (/launch/suns-out/ features.launch-feature 88.46 in the full run, 96.9 on an immediate re-run). Long-form copy is placeholder, ASCII/marquee/canvas art is procedural, so scores below 100 are expected and real. Harness: both pages are scrolled through, then wait for pending images (switched to eager) and fonts before capture; videos are paused and hidden on both. Per-route numbers: extraction/measured-values.json cloneQuality.pixelParity.
 
 Placeholder copy keeps the original's line count where it was measured: data fields `{placeholder, chars, lines}` reserve `lines` lines at >=1281px (src/index.css `[data-ph-lines]`), so placeholder wording no longer shortens sections relative to the live page.
 
@@ -162,5 +162,5 @@ Placeholder copy keeps the original's line count where it was measured: data fie
 ## Known gaps
 
 - Reduced-motion fallbacks marked `gap` in motion-patterns.json have no rule on the live site (hover dissolve, cursor tooltip, in-view video, pixel bands, CSS rotators).
-- Content budgets come from 75 reference examples (up to 3 routes per template); heights come from all 1,897 routes.
+- Content budgets come from 75 reference examples (up to 3 routes per template); heights come from all 1,899 routes.
 - Forms never submit; filters, quizzes and the ROI calculator are client-side only (contract `runtimeUi`).

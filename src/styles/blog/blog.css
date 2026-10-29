@@ -28,7 +28,9 @@
 .blog-card__img { display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 8px; }
 
 /* Text link: #FFF, hover/focus #A7A7A7, instant (no transition declared) */
-.blog-card__text { color: #FFF; display: block; }
+/* The original text link carries a transparent 1px border like the image link (measured 2026-10-29 on /blog/:
+   grid card 404.25px tall live vs 402.25px without it), so every card row is 2px taller. */
+.blog-card__text { color: #FFF; display: block; border: 1px solid transparent; }
 .blog-card__text:hover, .blog-card__text:focus { color: #A7A7A7; }
 .blog-card__text p { color: inherit; }
 

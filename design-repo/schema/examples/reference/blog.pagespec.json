@@ -150,6 +150,16 @@
     ],
     "items": [
      {
+      "title": "Channels 2.0 in GA: one customer context layer for every team",
+      "text": "26 October 2026",
+      "href": "/blog/channels-2-is-generally-available/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "https://dovetail.com/media/channels-2-ga-blog-hero.png"
+      }
+     },
+     {
       "title": "How to get stakeholders to trust your design decisions",
       "text": "7 September 2026",
       "href": "/blog/stakeholder-trust-design-decisions/",
@@ -157,16 +167,6 @@
        "assetRole": "content.cover",
        "alt": "",
        "ref": "/assets/content/stakeholder-trust-design-decisions-hero-poster.png"
-      }
-     },
-     {
-      "title": "AI made building faster, now customer understanding is the bottleneck",
-      "text": "27 August 2026",
-      "href": "/blog/customer-understanding-ai-bottleneck-digital-twins/",
-      "media": {
-       "assetRole": "content.cover",
-       "alt": "",
-       "ref": "/assets/content/customer-understanding-ai-bottleneck-digital-twins.jpg"
       }
      }
     ]
@@ -190,6 +190,16 @@
      }
     ],
     "items": [
+     {
+      "title": "AI made building faster, now customer understanding is the bottleneck",
+      "text": "27 August 2026",
+      "href": "/blog/customer-understanding-ai-bottleneck-digital-twins/",
+      "media": {
+       "assetRole": "content.cover",
+       "alt": "",
+       "ref": "/assets/content/customer-understanding-ai-bottleneck-digital-twins.jpg"
+      }
+     },
      {
       "title": "9 Digital Twins you can build today (and exactly what they’ll do for you)",
       "text": "26 August 2026",
@@ -418,16 +428,6 @@
        "assetRole": "content.cover",
        "alt": "",
        "ref": "/assets/content/unreasonable-experiences-why-great-products-are-no-longer-enough.png"
-      }
-     },
-     {
-      "title": "What if the organization was your research subject?",
-      "text": "21 May 2026",
-      "href": "/blog/what-if-the-organization-was-your-research-subject/",
-      "media": {
-       "assetRole": "content.cover",
-       "alt": "",
-       "ref": "/assets/content/what-if-the-organization-was-your-research-subject-poster.png"
       }
      }
     ],

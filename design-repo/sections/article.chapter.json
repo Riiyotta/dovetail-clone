@@ -144,11 +144,11 @@
  "runtimeUi": [],
  "measuredHeightsPx": {
   "1440": {
-   "routes": 1697,
-   "nodes": 25693,
+   "routes": 1698,
+   "nodes": 25702,
    "minPx": 44,
    "maxPx": 8917,
-   "medianPx": 348,
+   "medianPx": 348.0,
    "sample": {
     "/blog/2025-fall-launch/": [
      4484,

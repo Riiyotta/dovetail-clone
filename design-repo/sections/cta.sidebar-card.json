@@ -146,36 +146,36 @@
  "runtimeUi": [],
  "measuredHeightsPx": {
   "1440": {
-   "routes": 1333,
-   "nodes": 1724,
+   "routes": 1334,
+   "nodes": 1727,
    "minPx": 110,
-   "maxPx": 442.7,
-   "medianPx": 132.0,
+   "maxPx": 444.7,
+   "medianPx": 132,
    "sample": {
     "/blog/2025-fall-launch/": [
-     358.7,
-     358.7,
-     330.7
+     360.7,
+     360.7,
+     332.7
     ],
     "/blog/30-days-in/": [
-     302.7,
-     274.7,
-     330.7
+     304.7,
+     304.7,
+     332.7
     ],
     "/blog/60-days-in/": [
-     330.7,
-     302.7,
-     274.7
+     332.7,
+     304.7,
+     304.7
     ],
     "/blog/9-digital-twins-you-can-build-today/": [
-     330.7,
-     330.7,
-     302.7
+     332.7,
+     332.7,
+     304.7
     ],
     "/blog/a-conversation-with-trellos-head-of-design/": [
-     330.7,
-     358.7,
-     330.7
+     332.7,
+     360.7,
+     332.7
     ]
    }
   }

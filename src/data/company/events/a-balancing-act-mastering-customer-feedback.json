@@ -83,7 +83,8 @@
   {
    "t": "p",
    "placeholder": true,
-   "chars": 179
+   "chars": 179,
+   "lines": 4
   },
   {
    "t": "p",
@@ -101,7 +102,8 @@
        "text": "Anahita Jamshidi Fard",
        "href": "https://www.linkedin.com/in/anahita-jamshidi-fard-62aa35b8/overlay/about-this-profile/"
       }
-     ]
+     ],
+     "lines": 2
     },
     {
      "links": [

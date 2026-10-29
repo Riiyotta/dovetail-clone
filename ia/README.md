@@ -4,7 +4,7 @@
 
 | file | kind | what it is |
 |---|---|---|
-| `ia.json` | **hand-edited** (source of truth) | 41 templates, 1,897 routes, 158 sections in 14 categories |
+| `ia.json` | **hand-edited** (source of truth) | 41 templates, 1,899 routes, 158 sections in 14 categories |
 | `IA.md` | generated | readable IA: template shares, chrome split, sections by reuse (with implementation column), per-template tables, section reference |
 | `matrix.csv` | generated | section × template grid for spreadsheets |
 | `validate.mjs`, `build.mjs` | copied unchanged from the `ia-builder` skill | generic; everything they do comes from `ia.json` |
@@ -20,7 +20,7 @@ Update `ia.json` and re-run both scripts after any change to `src/routes.jsx`, `
 
 ## How it was built
 
-- **Routes.** Every line of `src/data/routes.txt` (1,896) plus `/menu/` (not in routes.txt; the nav's Menu pill links to it, and the clone serves it) was matched with react-router's own `matchRoutes` against a mirror of the real route config, data globs and slug arrays included. All 1,897 routes landed in a template. None were left over and none fell through to the 404 catch-all.
+- **Routes.** Every line of `src/data/routes.txt` (1,898) plus `/menu/` (not in routes.txt; the nav's Menu pill links to it, and the clone serves it) was matched with react-router's own `matchRoutes` against a mirror of the real route config, data globs and slug arrays included. All 1,899 routes landed in a template. None were left over and none fell through to the 404 catch-all.
 - **Section order** comes from each page component's JSX. It was checked top to bottom against the running clone (`http://localhost:5210`, headless Playwright at 1440px) on one route per template, plus variants: an anonymous and a video customer story, a recording event, the Digital Twins product page, the product-management role page, a privacy doc and an unmatched path.
 - **`chrome`** is simplified from each page's `usePageChrome({...})` call (`src/chrome.jsx`) and takes the form `<theme/nav> · <page bottom>`. `final-cta` means the page renders `FinalCta` and then the footer. `inline-cta` is the `plain` footer, which puts `InlineCta` above the link grid. `cta-band` is the 560px image band above the link grid. `footer-only` means the link grid only, which some pages precede with their own CTA. `campaign` and `launch` pages draw their own footer.
 - **`implementedBy`** is set on every section, with paths relative to `src/`. When one original block is built more than once in the clone, the implementations are separated by ` | `. Every such section is a duplication finding (see below).
@@ -29,12 +29,12 @@ Update `ia.json` and re-run both scripts after any change to `src/routes.jsx`, `
 
 ### Informational: what the counts mean
 
-`validate.mjs` reported 0 hard failures and 0 scope mismatches. Route counts are **per template, not per member**. For example, `help.faq` shows 126 routes because all 39 customer stories count, even though only the 18 anonymous stories render a FAQ. Likewise, `chrome.banner` counts all 7 product pages, although Digital Twins hides the banner. Member-level placement is in each template's `notes`. Don't "correct" these numbers to member counts: the validator computes at template level and would flag the change.
+`validate.mjs` reported 0 hard failures and 0 scope mismatches. Route counts are **per template, not per member**. For example, `help.faq` shows 127 routes because all 39 customer stories count, even though only the 18 anonymous stories render a FAQ. Likewise, `chrome.banner` counts all 7 product pages, although Digital Twins hides the banner. Member-level placement is in each template's `notes`. Don't "correct" these numbers to member counts: the validator computes at template level and would flag the change.
 
 ## Findings (from this run of validate.mjs / build.mjs)
 
-1. **88% of routes are three templates.** Guide article (1,126), changelog entry (349) and blog post (202) cover 1,677 of 1,897 routes. The other 220 routes span 38 templates, and 19 of those templates have a single route (the 404 template has none). The light `inline-cta` chrome alone covers 1,141 routes (guide articles, hubs and tools articles).
-2. **27 sections are shared and 131 are page-local.** The shared ones include the site chrome (banner, navbar and footer on 38 templates and 1,894 routes), `cta.final-cta` (19 templates, 701 routes), `cta.feedback-cta` (14 templates, 1,164 routes), `help.faq` (11 templates), `proof.logo-strip` (8 templates) and the article family's title, body and contents-sheet sections (5 templates, 1,146 routes). Some of this reuse is real and should stay that way: `FinalCta.jsx`, `corporate/common.jsx > SecurityGrid`, the guides article components that the enterprise and tools articles also use, and `company/PixelBand.jsx`, which wraps the marketing `PixelTransitionSlice` instead of copying it.
+1. **88% of routes are three templates.** Guide article (1,126), changelog entry (349) and blog post (203) cover 1,678 of 1,899 routes. The other 221 routes span 38 templates, and 19 of those templates have a single route (the 404 template has none). The light `inline-cta` chrome alone covers 1,141 routes (guide articles, hubs and tools articles).
+2. **27 sections are shared and 131 are page-local.** The shared ones include the site chrome (banner, navbar and footer on 38 templates and 1,896 routes), `cta.final-cta` (19 templates, 703 routes), `cta.feedback-cta` (14 templates, 1,164 routes), `help.faq` (11 templates), `proof.logo-strip` (8 templates) and the article family's title, body and contents-sheet sections (5 templates, 1,146 routes). Some of this reuse is real and should stay that way: `FinalCta.jsx`, `corporate/common.jsx > SecurityGrid`, the guides article components that the enterprise and tools articles also use, and `company/PixelBand.jsx`, which wraps the marketing `PixelTransitionSlice` instead of copying it.
 3. **18 shared sections are implemented more than once.** These are the build debt:
    - **"Turn customer feedback into product innovation" CTA** (`cta.feedback-cta`): 6 implementations.
    - **FAQ** (`help.faq`): 4 implementations, in the marketing, company, tools and legal folders.

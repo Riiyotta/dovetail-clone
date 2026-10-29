@@ -444,6 +444,17 @@
  },
  "blog": [
   {
+   "title": "Channels 2.0 in GA: one customer context layer for every team",
+   "tags": "[Product] [AI]",
+   "href": "/blog/channels-2-is-generally-available/",
+   "image": {
+    "src": "https://dovetail.com/media/channels-2-ga-blog-hero.png",
+    "alt": "A Channels 2.0 idea card showing its tags, evidence trend, and the ARR of the top contributing companies",
+    "w": 1472,
+    "h": 984
+   }
+  },
+  {
    "title": "How to get stakeholders to trust your design decisions",
    "tags": "[Ideas]",
    "href": "/blog/stakeholder-trust-design-decisions/",
@@ -463,17 +474,6 @@
     "alt": "A megaphone illustration surrounded by question marks and exclamation points, representing the noise and uncertainty of shipping fast without customer understanding",
     "w": 1467,
     "h": 984
-   }
-  },
-  {
-   "title": "9 Digital Twins you can build today (and exactly what they’ll do for you)",
-   "tags": "[AI] [Digital Twins] [Customer intelligence]",
-   "href": "/blog/9-digital-twins-you-can-build-today/",
-   "image": {
-    "src": "/assets/content/9-digital-twins-you-can-build-today.jpg",
-    "alt": "A collage representing nine Dovetail Digital Twins built for different teams",
-    "w": 0,
-    "h": 0
    }
   }
  ],

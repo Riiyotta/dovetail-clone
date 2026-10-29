@@ -33,14 +33,15 @@
  "pageSize": 24,
  "initialCount": 24,
  "featured": [
-  "/blog/stakeholder-trust-design-decisions/",
-  "/blog/customer-understanding-ai-bottleneck-digital-twins/"
+  "/blog/channels-2-is-generally-available/",
+  "/blog/stakeholder-trust-design-decisions/"
  ],
- "note": "posts[] is newest-first (203 posts incl. the 2 featured, which also appear in the grid). Grid shows first 24 + Load more (+24 per click). thumbnail = local file (downloaded for first page only); otherwise use thumbnailRemote. Card image = cover with .gif -> -poster.png. categoryPages lists hrefs shown on each /blog/<cat>/ page at first load (featured pair + filtered grid).",
+ "note": "posts[] is newest-first (204 posts incl. the 2 featured, which also appear in the grid). Grid shows first 24 + Load more (+24 per click). thumbnail = local file (downloaded for first page only); otherwise use thumbnailRemote. Card image = cover with .gif -> -poster.png. categoryPages lists hrefs shown on each /blog/<cat>/ page at first load (featured pair + filtered grid).",
  "categoryPages": {
   "/blog/ai/": [
+   "/blog/channels-2-is-generally-available/",
    "/blog/stakeholder-trust-design-decisions/",
-   "/blog/customer-understanding-ai-bottleneck-digital-twins/",
+   "/blog/channels-2-is-generally-available/",
    "/blog/customer-understanding-ai-bottleneck-digital-twins/",
    "/blog/9-digital-twins-you-can-build-today/",
    "/blog/unlocking-the-product-brain-with-ordermentums-cpo/",
@@ -64,12 +65,11 @@
    "/blog/end-of-the-passive-researcher/",
    "/blog/how-we-measure-ai-quality-at-dovetail/",
    "/blog/the-full-stack-product-era-leading-a-team-with-humanity-and-ai/",
-   "/blog/dovetail-connector-figma-make/",
-   "/blog/the-product-building-culture-shift-minimizing-the-work-around-the-work-with/"
+   "/blog/dovetail-connector-figma-make/"
   ],
   "/blog/dovetail-team/": [
+   "/blog/channels-2-is-generally-available/",
    "/blog/stakeholder-trust-design-decisions/",
-   "/blog/customer-understanding-ai-bottleneck-digital-twins/",
    "/blog/if-you-dont-go-on-call-you-dont-own-it/",
    "/blog/unreasonable-experiences-why-great-products-are-no-longer-enough/",
    "/blog/trading-my-desk-for-a-classroom/",
@@ -96,8 +96,8 @@
    "/blog/five-ways-we-reinforce-our-product-led-growth-model-at-dovetail/"
   ],
   "/blog/engineering/": [
+   "/blog/channels-2-is-generally-available/",
    "/blog/stakeholder-trust-design-decisions/",
-   "/blog/customer-understanding-ai-bottleneck-digital-twins/",
    "/blog/the-work-you-dont-see/",
    "/blog/fetch-once-use-everywhere-rebuilding-data-ingestion/",
    "/blog/if-you-dont-go-on-call-you-dont-own-it/",
@@ -108,8 +108,9 @@
    "/blog/bigger-isnt-better-what-its-like-to-be-an-engineer-at-dovetail/"
   ],
   "/blog/product/": [
+   "/blog/channels-2-is-generally-available/",
    "/blog/stakeholder-trust-design-decisions/",
-   "/blog/customer-understanding-ai-bottleneck-digital-twins/",
+   "/blog/channels-2-is-generally-available/",
    "/blog/unlocking-the-product-brain-with-ordermentums-cpo/",
    "/blog/suns-out-enterprise/",
    "/blog/suns-out-ecosystem/",
@@ -136,8 +137,8 @@
    "/blog/alloy/"
   ],
   "/blog/ideas/": [
+   "/blog/channels-2-is-generally-available/",
    "/blog/stakeholder-trust-design-decisions/",
-   "/blog/customer-understanding-ai-bottleneck-digital-twins/",
    "/blog/stakeholder-trust-design-decisions/",
    "/blog/unlocking-the-product-brain-with-ordermentums-cpo/",
    "/blog/brand-trackers-arent-dead/",
@@ -166,6 +167,242 @@
   ]
  },
  "posts": [
+  {
+   "path": "/blog/channels-2-is-generally-available/",
+   "slug": "channels-2-is-generally-available",
+   "title": "Channels 2.0 in GA: one customer context layer for every team",
+   "date": "26 October 2026",
+   "publishedAt": "2026-10-26T12:00:00.000Z",
+   "tags": [
+    "Product",
+    "AI"
+   ],
+   "thumbnail": null,
+   "thumbnailRemote": "https://dovetail.com/media/channels-2-ga-blog-hero.png",
+   "coverOriginal": "https://dovetail.com/media/channels-2-ga-blog-hero.png",
+   "firstPage": true,
+   "thumbnailNote": "added 2026-10-29 (live re-capture); no local copy was downloaded, so the card uses the hot-linked thumbnailRemote like posts beyond the first capture page",
+   "metaRows": [
+    {
+     "label": "Tags",
+     "value": "[Product] [AI]",
+     "hrefs": []
+    },
+    {
+     "label": "Published",
+     "value": "26 October 2026",
+     "hrefs": []
+    },
+    {
+     "label": "Content",
+     "value": "Dovetail team",
+     "hrefs": []
+    }
+   ],
+   "credits": [
+    {
+     "role": "Content",
+     "name": "Dovetail team"
+    }
+   ],
+   "hero": {
+    "type": "img",
+    "src": "https://dovetail.com/media/channels-2-ga-blog-hero.png"
+   },
+   "ledeChars": 215,
+   "bodyShape": {
+    "chars": 5449,
+    "p": 22,
+    "h2": 5,
+    "h3": 4,
+    "figure": 3,
+    "img": 3,
+    "blockquote": 1
+   },
+   "bodyOrder": "h2 h2 h3 h3 figure h3 figure h3 figure h2 blockquote h2 h2",
+   "bodyBlocks": [
+    {
+     "t": "p",
+     "chars": 208,
+     "lines": 3
+    },
+    {
+     "t": "h2",
+     "lines": 1
+    },
+    {
+     "t": "p",
+     "chars": 229,
+     "lines": 3
+    },
+    {
+     "t": "p",
+     "chars": 295,
+     "lines": 4
+    },
+    {
+     "t": "h2",
+     "lines": 2
+    },
+    {
+     "t": "p",
+     "chars": 207,
+     "lines": 3
+    },
+    {
+     "t": "p",
+     "chars": 315,
+     "lines": 5
+    },
+    {
+     "t": "p",
+     "chars": 71,
+     "lines": 1
+    },
+    {
+     "t": "h3",
+     "lines": 1
+    },
+    {
+     "t": "p",
+     "chars": 299,
+     "lines": 4
+    },
+    {
+     "t": "p",
+     "chars": 232,
+     "lines": 4
+    },
+    {
+     "t": "h3",
+     "lines": 1
+    },
+    {
+     "t": "p",
+     "chars": 385,
+     "lines": 6
+    },
+    {
+     "t": "figure",
+     "aspect": "1376/774",
+     "captionChars": 101,
+     "captionLines": 2
+    },
+    {
+     "t": "h3",
+     "lines": 1
+    },
+    {
+     "t": "p",
+     "chars": 267,
+     "lines": 4
+    },
+    {
+     "t": "p",
+     "chars": 309,
+     "lines": 5
+    },
+    {
+     "t": "p",
+     "chars": 117,
+     "lines": 2
+    },
+    {
+     "t": "figure",
+     "aspect": "1376/774",
+     "captionChars": 120,
+     "captionLines": 2
+    },
+    {
+     "t": "h3",
+     "lines": 1
+    },
+    {
+     "t": "p",
+     "chars": 277,
+     "lines": 4
+    },
+    {
+     "t": "p",
+     "chars": 278,
+     "lines": 4
+    },
+    {
+     "t": "figure",
+     "aspect": "1376/774",
+     "captionChars": 120,
+     "captionLines": 2
+    },
+    {
+     "t": "h2",
+     "lines": 1
+    },
+    {
+     "t": "p",
+     "chars": 222,
+     "lines": 4
+    },
+    {
+     "t": "p",
+     "chars": 388,
+     "lines": 6
+    },
+    {
+     "t": "p",
+     "chars": 152,
+     "lines": 3
+    },
+    {
+     "t": "blockquote",
+     "chars": 298,
+     "lines": 5
+    },
+    {
+     "t": "h2",
+     "lines": 1
+    },
+    {
+     "t": "p",
+     "chars": 281,
+     "lines": 4
+    },
+    {
+     "t": "h2",
+     "lines": 1
+    },
+    {
+     "t": "p",
+     "chars": 129,
+     "lines": 2
+    },
+    {
+     "t": "p",
+     "chars": 208,
+     "lines": 3
+    },
+    {
+     "t": "p",
+     "chars": 217,
+     "lines": 3
+    },
+    {
+     "t": "p",
+     "chars": 65,
+     "lines": 1
+    }
+   ],
+   "bodyBlocksNote": "Measured on the live post at 1440 (2026-10-29): block order, paragraph/blockquote character and line counts, figure image aspect ratios, caption lengths and caption line counts. Text stays placeholder; `lines` is reserved at desktop widths.",
+   "sidebarCards": [
+    "/blog/suns-out-channels/",
+    "/blog/what-is-a-customer-intelligence-platform/",
+    "/blog/voc-program-fragmentation-problem/"
+   ],
+   "relatedArticles": [
+    "/blog/suns-out-channels/",
+    "/blog/what-is-a-customer-intelligence-platform/",
+    "/blog/voc-program-fragmentation-problem/"
+   ]
+  },
   {
    "path": "/blog/stakeholder-trust-design-decisions/",
    "slug": "stakeholder-trust-design-decisions",

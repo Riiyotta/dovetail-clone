@@ -1,5 +1,5 @@
 {
- "note": "every route the clone serves (src/data/routes.txt = 1,896 + '/menu/', which the clone serves but the source route list omits), mapped exactly once. Mapping = the clone's own router (react-router matchRoutes over the route tables in src/routes.jsx -> src/pages/<group>/routes.jsx), then page component -> template by semantic purpose (ToolsArticle splits: /research-maturity-assessment/ -> T21 editorial article, /resources/dovetail-vs-* -> T22 comparison article). Unknown slugs under /blog/, /changelog/, /<hub>/, /customers/, /events/ render their template with a slug-derived title (they never reach the 404); only paths no table matches fall back to T38.",
+ "note": "every route the clone serves (src/data/routes.txt = 1,898 + '/menu/', which the clone serves but the source route list omits), mapped exactly once. Mapping = the clone's own router (react-router matchRoutes over the route tables in src/routes.jsx -> src/pages/<group>/routes.jsx), then page component -> template by semantic purpose (ToolsArticle splits: /research-maturity-assessment/ -> T21 editorial article, /resources/dovetail-vs-* -> T22 comparison article). Unknown slugs under /blog/, /changelog/, /<hub>/, /customers/, /events/ render their template with a slug-derived title (they never reach the 404); only paths no table matches fall back to T38.",
  "routes": [
   {
    "path": "/",
@@ -2451,6 +2451,18 @@
   },
   {
    "path": "/blog/should-you-build-or-buy-your-next-piece-of-software/",
+   "template": "T17",
+   "component": "BlogPost",
+   "listedInSource": true,
+   "chrome": {
+    "banner": "default",
+    "nav": "default",
+    "footer": "default"
+   },
+   "theme": "dark"
+  },
+  {
+   "path": "/blog/channels-2-is-generally-available/",
    "template": "T17",
    "component": "BlogPost",
    "listedInSource": true,
@@ -22118,6 +22130,18 @@
    "theme": "dark"
   },
   {
+   "path": "/events/how-smartrecruiters-grounds-design-decisions-in-customer-context/",
+   "template": "T29",
+   "component": "EventDetail",
+   "listedInSource": true,
+   "chrome": {
+    "banner": "default",
+    "nav": "default",
+    "footer": "default"
+   },
+   "theme": "dark"
+  },
+  {
    "path": "/events/how-verizon-connect-built-a-winning-culture-of-ux-research-and-insights/",
    "template": "T29",
    "component": "EventDetail",
@@ -22775,6 +22799,6 @@
  "redirects": [],
  "evidence": [
   "src/routes.jsx:18-33",
-  "src/data/routes.txt:1-1896"
+  "src/data/routes.txt:1-1898"
  ]
 }

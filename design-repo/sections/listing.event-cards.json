@@ -80,15 +80,15 @@
    },
    "items[].title": {
     "type": "text",
-    "maxWords": 8,
-    "maxChars": 58,
+    "maxWords": 11,
+    "maxChars": 77,
     "observedIn": 5
    }
   },
   "listSizes": {
    "items": [
     1,
-    1
+    2
    ]
   },
   "itemRequiredFields": [
@@ -158,26 +158,26 @@
  "runtimeUi": [],
  "measuredHeightsPx": {
   "1440": {
-   "routes": 48,
-   "nodes": 48,
-   "minPx": 355.6,
-   "maxPx": 475.6,
-   "medianPx": 475.6,
+   "routes": 50,
+   "nodes": 50,
+   "minPx": 383.6,
+   "maxPx": 503.6,
+   "medianPx": 503.6,
    "sample": {
     "/events/": [
-     355.6
+     383.6
     ],
     "/events/a-balancing-act-mastering-customer-feedback/": [
-     475.6
+     503.6
     ],
     "/events/a-chat-with-jon-alferness/": [
-     475.6
+     503.6
     ],
     "/events/ai-powered-ux-process-how-ai-is-transforming-the-design-process/": [
-     475.6
+     503.6
     ],
     "/events/channels-by-dovetail-a-deep-dive-into-automating-your-feedback-workflows/": [
-     475.6
+     503.6
     ]
    }
   }

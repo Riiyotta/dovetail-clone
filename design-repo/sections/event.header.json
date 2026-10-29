@@ -116,11 +116,11 @@
  "runtimeUi": [],
  "measuredHeightsPx": {
   "1440": {
-   "routes": 47,
-   "nodes": 47,
+   "routes": 48,
+   "nodes": 48,
    "minPx": 394,
    "maxPx": 622,
-   "medianPx": 470,
+   "medianPx": 470.0,
    "sample": {
     "/events/a-balancing-act-mastering-customer-feedback/": [
      470

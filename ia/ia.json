@@ -5,7 +5,7 @@
     "source": "Dovetail clone (/Users/riyaghosh/V3/dovetail): src/routes.jsx, src/pages/**, src/components/**, src/chrome.jsx, src/data/routes.txt, CLONE_SPEC.md, specs/*.md",
     "status": "measured-from-code-and-running-clone",
     "productionApproved": false,
-    "totalRoutes": 1897,
+    "totalRoutes": 1899,
     "totalTemplates": 41,
     "generatedBy": "ia-builder skill (build.mjs / validate.mjs copied unchanged)"
   },
@@ -29,19 +29,19 @@
     "chrome.banner": {
       "category": "CHROME",
       "description": "One-line announcement strip above the nav (\"Ask. Never guess. Introducing Digital Twins →\"). Not sticky. Palette follows the page: default dark, light veil on light pages, `accent` tint over the product/story colour, `legal` palette on legal pages.",
-      "scope": "1894 routes across home, product page, pricing, enterprise, enterprise article, deploy, solution page, role page, role quiz, menu, blog index, blog post, changelog index, changelog entry, guide article, guide hub, guides index, contributors index, contributor profile, demo form, comparison page, quiz hub, roi calculator, template landing, tools article, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos, resource centre, resources guide, industry report, careers, podcast. Hidden on the launch and campaign pages and on the Digital Twins product page (alert bar off in its data file).",
+      "scope": "1896 routes across home, product page, pricing, enterprise, enterprise article, deploy, solution page, role page, role quiz, menu, blog index, blog post, changelog index, changelog entry, guide article, guide hub, guides index, contributors index, contributor profile, demo form, comparison page, quiz hub, roi calculator, template landing, tools article, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos, resource centre, resources guide, industry report, careers, podcast. Hidden on the launch and campaign pages and on the Digital Twins product page (alert bar off in its data file).",
       "implementedBy": "components/Banner.jsx"
     },
     "chrome.navbar": {
       "category": "CHROME",
       "description": "Main site navigation: logo, Product/Platform/Resources dropdowns, Log in and Book a demo, and the ≤1185px \"Menu\" pill that links to /menu/. Relative, not sticky. Variants via chrome: light ink, solid `navBg` colour (product accent, story blue), `navButtons:false` on legal docs.",
-      "scope": "1894 routes across home, product page, pricing, enterprise, enterprise article, deploy, solution page, role page, role quiz, launch microsite, blog index, blog post, changelog index, changelog entry, guide article, guide hub, guides index, contributors index, contributor profile, demo form, comparison page, quiz hub, roi calculator, template landing, tools article, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos, resource centre, resources guide, industry report, careers, podcast. Not rendered on the menu route or the two blue campaign pages, which draw their own header.",
+      "scope": "1896 routes across home, product page, pricing, enterprise, enterprise article, deploy, solution page, role page, role quiz, launch microsite, blog index, blog post, changelog index, changelog entry, guide article, guide hub, guides index, contributors index, contributor profile, demo form, comparison page, quiz hub, roi calculator, template landing, tools article, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos, resource centre, resources guide, industry report, careers, podcast. Not rendered on the menu route or the two blue campaign pages, which draw their own header.",
       "implementedBy": "components/Navbar.jsx"
     },
     "chrome.footer": {
       "category": "CHROME",
       "description": "Site footer: six link columns with new/beta badges, the Log in / Book a demo stack (≤1280), and the bottom bar (copyright, cookie preferences, Legal & Privacy, socials). Dark or light by page theme.",
-      "scope": "1894 routes across home, product page, pricing, enterprise, enterprise article, deploy, solution page, role page, role quiz, menu, blog index, blog post, changelog index, changelog entry, guide article, guide hub, guides index, contributors index, contributor profile, demo form, comparison page, quiz hub, roi calculator, template landing, tools article, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos, resource centre, resources guide, industry report, careers, podcast. Footer variants are recorded on each template as `chrome`.",
+      "scope": "1896 routes across home, product page, pricing, enterprise, enterprise article, deploy, solution page, role page, role quiz, menu, blog index, blog post, changelog index, changelog entry, guide article, guide hub, guides index, contributors index, contributor profile, demo form, comparison page, quiz hub, roi calculator, template landing, tools article, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos, resource centre, resources guide, industry report, careers, podcast. Footer variants are recorded on each template as `chrome`.",
       "implementedBy": "components/Footer.jsx"
     },
     "chrome.footer-cta-band": {
@@ -125,7 +125,7 @@
     "hero.blog-post": {
       "category": "HERO",
       "description": "Blog post header: Blog breadcrumb, H1, meta table (date, author, read time), share buttons and the hero image or video.",
-      "scope": "202 routes, blog post only.",
+      "scope": "203 routes, blog post only.",
       "implementedBy": "pages/blog/BlogPost.jsx (first section.blog-grid)"
     },
     "hero.changelog-index": {
@@ -569,7 +569,7 @@
     "content.blog-post-body": {
       "category": "CONTENT",
       "description": "Blog post body: lede paragraph, rich text, sticky sidebar post cards and the Related Articles grid.",
-      "scope": "202 routes, blog post only.",
+      "scope": "203 routes, blog post only.",
       "implementedBy": "pages/blog/BlogPost.jsx (second section.blog-grid)"
     },
     "content.changelog-entry": {
@@ -599,7 +599,7 @@
     "content.event-detail": {
       "category": "CONTENT",
       "description": "Event detail grid: back link and H1, sidebar of detail rows (start / end in the viewer's timezone, location, register link), hero image or recording video, rich body and, on some events, a registration form.",
-      "scope": "47 routes, event detail only.",
+      "scope": "48 routes, event detail only.",
       "implementedBy": "pages/events/EventDetail.jsx (RichBody.jsx, RegistrationForm.jsx, components/company/VideoCard.jsx)"
     },
     "content.legal-title": {
@@ -725,7 +725,7 @@
     "listing.more-events": {
       "category": "LISTING",
       "description": "\"More events\" heading and event cards under an event; omitted when there are none.",
-      "scope": "47 routes, event detail only.",
+      "scope": "48 routes, event detail only.",
       "implementedBy": "pages/events/EventDetail.jsx (components/company/EventCard.jsx)"
     },
     "listing.demo-video-grid": {
@@ -827,7 +827,7 @@
     "cta.final-cta": {
       "category": "CTA",
       "description": "\"The best never guess\" final CTA: 900px ASCII-field canvas with the word block, Start free trial and Book a demo. Dark, or light on light pages.",
-      "scope": "701 routes across home, product page, pricing, enterprise, blog index, blog post, changelog entry, guides index, contributors index, contributor profile, demo form, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos. Real reuse: one component, rendered by each page at the end of its main.",
+      "scope": "703 routes across home, product page, pricing, enterprise, blog index, blog post, changelog entry, guides index, contributors index, contributor profile, demo form, legal index, legal document, not found, customers index, customer story, events / webinars index, event detail, live demos. Real reuse: one component, rendered by each page at the end of its main.",
       "implementedBy": "components/FinalCta.jsx"
     },
     "cta.feedback-cta": {
@@ -845,7 +845,7 @@
     "help.faq": {
       "category": "HELP",
       "description": "FAQ accordion: \"FAQs\" H56 left (compact H32 variant for grouped event Q&A), questions with a rule and expand icon right.",
-      "scope": "126 routes across product page, pricing, deploy, solution page, role page, comparison page, template landing, customer story, event detail, careers, podcast. One original slice, four implementations.",
+      "scope": "127 routes across product page, pricing, deploy, solution page, role page, comparison page, template landing, customer story, event detail, careers, podcast. One original slice, four implementations.",
       "implementedBy": "components/marketing/FaqSlice.jsx | components/company/Faq.jsx | components/tools/Faq.jsx | components/legal/Faq.jsx"
     },
     "tool.roi-calculator": {
@@ -1349,9 +1349,10 @@
     {
       "id": "template.blog-post",
       "name": "Blog post",
-      "routeCount": 202,
+      "routeCount": 203,
       "routePattern": "/blog/{slug}/",
       "routes": [
+        "/blog/channels-2-is-generally-available/",
         "/blog/stakeholder-trust-design-decisions/",
         "/blog/customer-understanding-ai-bottleneck-digital-twins/",
         "/blog/9-digital-twins-you-can-build-today/",
@@ -1846,7 +1847,7 @@
     {
       "id": "template.event-detail",
       "name": "Event detail",
-      "routeCount": 47,
+      "routeCount": 48,
       "routePattern": "/events/{slug}/",
       "routes": [
         "/events/a-balancing-act-mastering-customer-feedback/",

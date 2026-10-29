@@ -81,7 +81,7 @@
    },
    "items[].title": {
     "type": "text",
-    "maxWords": 10,
+    "maxWords": 11,
     "maxChars": 69,
     "observedIn": 6
    }
@@ -170,24 +170,24 @@
   "1440": {
    "routes": 6,
    "nodes": 6,
-   "minPx": 798.3,
-   "maxPx": 798.3,
-   "medianPx": 798.3,
+   "minPx": 800.3,
+   "maxPx": 800.3,
+   "medianPx": 800.3,
    "sample": {
     "/blog/": [
-     798.3
+     800.3
     ],
     "/blog/ai/": [
-     798.3
+     800.3
     ],
     "/blog/dovetail-team/": [
-     798.3
+     800.3
     ],
     "/blog/engineering/": [
-     798.3
+     800.3
     ],
     "/blog/ideas/": [
-     798.3
+     800.3
     ]
    }
   }

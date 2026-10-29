@@ -57,6 +57,9 @@
 /* Hero media */
 .blog-hero { display: block; width: 100%; height: auto; border-radius: 8px; }
 .blog-hero--img { border: 1px solid #313131; object-fit: contain; }
+/* inline like the original hero <img>: its line box adds ~5px below the image (live hero cell 325px for a 320px image, measured
+   2026-10-29 on /blog/channels-2-is-generally-available/); only visible when the hero is the header's tallest column. */
+.blog-hero--img { display: inline; vertical-align: baseline; }
 
 .blog-post__spacer-200 { height: 200px; }
 @media (max-width: 1280px) { .blog-post__spacer-200 { height: 24px; } }

@@ -1,20 +1,20 @@
 section,category,templates,routes,Home,Product page,Pricing,Enterprise,Enterprise article,Deploy,Solution page,Role page,Role quiz,Menu,Launch microsite,Best-never-guess campaign,AWS Summit campaign,Blog index,Blog post,Changelog index,Changelog entry,Guide article,Guide hub,Guides index,Contributors index,Contributor profile,Demo form,Comparison page,Quiz hub,ROI calculator,Template landing,Tools article,Legal index,Legal document,Not found (404),Customers index,Customer story,Events / webinars index,Event detail,Live demos,Resource centre,Resources guide,Industry report,Careers,Podcast
-chrome.banner,CHROME,38,1894,x,x,x,x,x,x,x,x,x,x,,,,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x
-chrome.navbar,CHROME,38,1894,x,x,x,x,x,x,x,x,x,,x,,,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x
-chrome.footer,CHROME,38,1894,x,x,x,x,x,x,x,x,x,x,,,,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x
+chrome.banner,CHROME,38,1896,x,x,x,x,x,x,x,x,x,x,,,,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x
+chrome.navbar,CHROME,38,1896,x,x,x,x,x,x,x,x,x,,x,,,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x
+chrome.footer,CHROME,38,1896,x,x,x,x,x,x,x,x,x,x,,,,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x
 cta.feedback-cta,CTA,14,1164,,,,,x,x,,,x,,,,,,,x,,x,x,,,,,,x,x,,x,,,,,,x,,,x,x,x,,x
 content.article-title,CONTENT,5,1146,,,,,x,,,,,,,,,,,,,x,x,,,,,,,,,x,,,,,,,,,,x,,,
 content.article-body,CONTENT,5,1146,,,,,x,,,,,,,,,,,,,x,x,,,,,,,,,x,,,,,,,,,,x,,,
 overlay.contents-sheet,OVERLAY,5,1146,,,,,x,,,,,,,,,,,,,x,x,,,,,,,,,x,,,,,,,,,,x,,,
 content.article-carousels,CONTENT,3,1139,,,,,x,,,,,,,,,,,,,x,x,,,,,,,,,,,,,,,,,,,,,,
-cta.final-cta,CTA,19,701,x,x,x,x,,,,,,,,,,x,x,,x,,,x,x,x,x,,,,,,x,x,x,x,x,x,x,x,,,,,
+cta.final-cta,CTA,19,703,x,x,x,x,,,,,,,,,,x,x,,x,,,x,x,x,x,,,,,,x,x,x,x,x,x,x,x,,,,,
 content.changelog-entry,CONTENT,1,349,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,,,,,,,,,,
-hero.blog-post,HERO,1,202,,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,
-content.blog-post-body,CONTENT,1,202,,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,
-help.faq,HELP,11,126,,x,x,,,x,x,x,,,,,,,,,,,,,,,,x,,,x,,,,,,x,,x,,,,,x,x
+hero.blog-post,HERO,1,203,,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,
+content.blog-post-body,CONTENT,1,203,,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,
+help.faq,HELP,11,127,,x,x,,,x,x,x,,,,,,,,,,,,,,,,x,,,x,,,,,,x,,x,,,,,x,x
 decor.pixel-band,DECOR,5,49,,x,,x,,,,,,,,,x,,,,,,,,,,,,,,,,,,,x,x,,,,,,,,
-content.event-detail,CONTENT,1,47,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,
-listing.more-events,LISTING,1,47,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,
+content.event-detail,CONTENT,1,48,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,
+listing.more-events,LISTING,1,48,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,
 hero.customer-story,HERO,1,39,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,
 content.customer-story-body,CONTENT,1,39,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,
 cta.story-best-never-guess,CTA,1,39,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,
@@ -157,4 +157,4 @@ launch.protected,LAUNCH,1,1,,,,,,,,,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 launch.closing-cta,LAUNCH,1,1,,,,,,,,,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 overlay.twins-modal,OVERLAY,1,1,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 hero.not-found,HERO,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,
-ROUTE COUNT,,,1897,1,7,1,1,3,1,4,6,3,1,1,1,1,6,202,7,349,1126,10,1,1,20,2,16,1,1,3,5,1,19,0,1,39,2,47,1,1,2,1,1,1
+ROUTE COUNT,,,1899,1,7,1,1,3,1,4,6,3,1,1,1,1,6,203,7,349,1126,10,1,1,20,2,16,1,1,3,5,1,19,0,1,39,2,48,1,1,2,1,1,1

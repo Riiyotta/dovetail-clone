@@ -37,6 +37,7 @@
 /roles/research/quiz/
 /roles/product-management/quiz/
 /roles/design/quiz/
+/blog/channels-2-is-generally-available/
 /blog/stakeholder-trust-design-decisions/
 /blog/customer-understanding-ai-bottleneck-digital-twins/
 /blog/9-digital-twins-you-can-build-today/
@@ -652,6 +653,7 @@
 /events/gen-ai-x-dovetail-meetup/
 /events/how-cs-turns-customer-conversations-into-roadmap-decisions/
 /events/how-customer-insights-drive-innovative-product-design-at-autodesk/
+/events/how-smartrecruiters-grounds-design-decisions-in-customer-context/
 /events/how-verizon-connect-built-a-winning-culture-of-ux-research-and-insights/
 /events/insight-out-conf-2025/
 /events/insights-at-scale-learn-how-okta-and-webflow-are-growing-their-research/

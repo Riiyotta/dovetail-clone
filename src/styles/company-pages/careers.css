@@ -109,6 +109,8 @@
 .cr-radio:hover, .cr-radio:focus-within { color: #A7A7A7; }
 .cr-radio.is-checked:hover, .cr-radio.is-checked:focus-within { color: #FFFFFF; }
 .cr-op__team { margin-bottom: 24px; }
+/* The original job row link carries a transparent 1px border (live row 58px = 16+24+16 + 2x1px; measured 2026-10-29), 2px per row. */
+.cr-op__jobs .cp-row { border: 1px solid transparent; }
 .cr-op__none { color: #A7A7A7; margin: 32px 0; }
 .cr-talent__h { margin-bottom: 8px; }
 .cr-talent__p { margin: 16px 0; max-width: 630px; }
